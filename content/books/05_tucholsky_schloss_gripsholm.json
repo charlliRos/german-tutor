@@ -5,8 +5,8 @@
   "author_died": 1935,
   "year": 1931,
   "level": "B1-B2",
-  "source": "http://www.zeno.org/Literatur/M/Tucholsky,+Kurt/Werke/1931/Schlo%C3%9F+Gripsholm/Erstes+Kapitel (Zeno.org, text of Kurt Tucholsky: Gesammelte Werke in zehn Bänden, Bd. 9, Reinbek 1975; licence: gemeinfrei)",
-  "orthography": "modernised to current German spelling (dass, muss, bisschen, Fantasie, Gestern Abend, ...); wording unchanged; page numbers and section numbers removed; one scan typo fixed (l2% → 12%). Lydia's dialect (Missingsch/Low German) is kept exactly as Tucholsky wrote it.",
+  "source": "http://www.zeno.org/Literatur/M/Tucholsky,+Kurt/Werke/1931/Schlo%C3%9F+Gripsholm (Zeno.org, chapters 1–5; text of Kurt Tucholsky: Gesammelte Werke in zehn Bänden, Bd. 9, Reinbek 1975; licence: gemeinfrei)",
+  "orthography": "modernised to current German spelling (dass, muss, bisschen, Fantasie, Gestern Abend, ...); wording unchanged; page numbers and section numbers removed; three scan typos fixed (l2% → 12%, and two commas that should be full stops). Lydia's dialect (Missingsch/Low German) is kept exactly as Tucholsky wrote it.",
   "intro_en": "Kurt Tucholsky (1890–1935) was one of the sharpest and funniest journalists in 1920s Berlin. 'Schloss Gripsholm' (1931) is his light summer story: the narrator Peter and his girlfriend Lydia go on holiday to Sweden, near Gripsholm Castle. It opens with a comic exchange of letters with his real publisher, Ernst Rowohlt, and then becomes a witty, warm love story full of natural spoken German. Heads-up: Lydia sometimes speaks Missingsch, a northern German dialect mix – enjoy it, but don't copy those spellings.",
   "units": [
     {
@@ -1071,6 +1071,1471 @@
         {
           "de": "aus etwas wird nichts",
           "en": "nothing comes of something"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "de": "Der Zug hielt.\nDie Prinzessin fuhr auf, öffnete die Augen. »Wo sind wir?« – »Es sieht aus wie Stolp oder Stargard – jedenfalls ist es etwas mit St«, sagte ich. »Wie sieht es noch aus?« fragte sie. »Es sieht aus«, sagte ich und blickte auf die Backsteinhäuschen und den trübsinnigen Bahnhof, »wie wenn hier die Unteroffiziere geboren werden, die ihre Mannschaften schinden. Möchtest du hier Mittag essen?« Die Prinzessin schloss sofort die Augen. »Lydia«, sagte ich, »wir können auch im Speisewagen essen, der Zug hat einen.« – »Nein«, sagte sie. »Im Speisewagen werden die Kellner immer von der Geschwindigkeit des Zuges angesteckt, und es geht alles so furchtbar eilig – ich habe aber einen langsamen Magen . . . «",
+      "en": "The train stopped. The princess started up and opened her eyes. 'Where are we?' – 'It looks like Stolp or Stargard – anyway, it's something beginning with St,' I said. 'What else does it look like?' she asked. 'It looks,' I said, glancing at the little brick houses and the gloomy station, 'like the sort of place where they breed the sergeants who bully their men. Would you like to have lunch here?' The princess shut her eyes at once. 'Lydia,' I said, 'we can also eat in the dining car; the train has one.' – 'No,' she said. 'In the dining car the waiters always catch the speed of the train, and everything is done in such a terrible hurry – but I've got a slow stomach...'",
+      "explain_en": "The story continues on the train north. Stolp and Stargard were towns in Pomerania (today Słupsk and Stargard in Poland). ‘auffahren’ = to start up (from sleep). ‘trübsinnig’ = gloomy. ‘der Unteroffizier’ = non-commissioned officer, sergeant; ‘schinden’ = to treat cruelly – Tucholsky hated Prussian militarism. ‘der Speisewagen’ = dining car. ‘anstecken’ = to infect – here the waiters ‘catch’ the train's speed.",
+      "words": [
+        {
+          "de": "halten",
+          "en": "to stop"
+        },
+        {
+          "de": "der Bahnhof, die Bahnhöfe",
+          "en": "station"
+        },
+        {
+          "de": "trübsinnig",
+          "en": "gloomy"
+        },
+        {
+          "de": "Mittag essen",
+          "en": "to have lunch"
+        },
+        {
+          "de": "der Speisewagen, die Speisewagen",
+          "en": "dining car"
+        },
+        {
+          "de": "die Geschwindigkeit",
+          "en": "speed"
+        },
+        {
+          "de": "anstecken",
+          "en": "to infect"
+        },
+        {
+          "de": "der Magen, die Mägen",
+          "en": "stomach"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "de": "– »Gut. Was liest du da übrigens, Alte?« – »Ich schlafe seit zwei Stunden auf einem mondänen Roman. Der einzige Körperteil, mit dem man ihn lesen kann . . . « und dann machte sie die Augen wieder zu. Und wieder auf. »Guck eins . . . die Frau da! Die is aber misogyn!« – »Was ist sie?« – »Misogyn . . . heißt das nicht miekrig? Nein, das habe ich mit den Pygmäen verwechselt; das sind doch diese Leute, die auf Bäumen wohnen . . . wie?« Und nach dieser Leistung entschlummerte sie aufs Neue, und wir fuhren, lange, lange. Bis Warnemünde.",
+      "en": "'Fine. By the way, what are you reading, old girl?' – 'I've been sleeping on a fashionable novel for two hours. The only part of the body you can read it with...' and then she shut her eyes again. And opened them again. 'Look... that woman there! She's really misogynous!' – 'She's what?' – 'Misogynous... doesn't that mean scrawny? No, I've mixed it up with the pygmies; they're those people who live in trees... aren't they?' And after this achievement she dozed off once more, and we travelled on, for a long, long time. As far as Warnemünde.",
+      "explain_en": "Lydia plays with long words: ‘misogyn’ really means ‘hating women’, and pygmies don't live in trees – it's her joke. ‘Alte’ (old girl) is Peter's affectionate name for her. ‘mondän’ = fashionable, glamorous. ‘Guck eins’ is northern German for ‘Guck mal’ (look). ‘Die is’ = ‘Die ist’. ‘mickrig’ (Tucholsky writes ‘miekrig’) = scrawny, puny. ‘entschlummern’ is poetic for ‘einschlafen’. Warnemünde is a port on the Baltic.",
+      "words": [
+        {
+          "de": "übrigens",
+          "en": "by the way"
+        },
+        {
+          "de": "der Roman, die Romane",
+          "en": "novel"
+        },
+        {
+          "de": "der Körperteil, die Körperteile",
+          "en": "part of the body"
+        },
+        {
+          "de": "mickrig",
+          "en": "scrawny, puny",
+          "note": "text: miekrig"
+        },
+        {
+          "de": "verwechseln",
+          "en": "to mix up"
+        },
+        {
+          "de": "einschlafen",
+          "en": "to fall asleep",
+          "note": "text: entschlummern (poetic)"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "type": "summary",
+      "covers": "Chapter 1, sections 3–5 (Warnemünde to Mariefred)",
+      "en": "In Warnemünde, near where Lydia grew up, she explains every little house in her Low German dialect. They take the ferry to Denmark – Peter feels seasick while Lydia happily eats herring – and spend a few days in Copenhagen before crossing to Sweden. In Stockholm they hire an interpreter, Mr Bengtsson, an enormous, friendly man who speaks German with a strong American accent. For days he takes them around the countryside looking for a quiet, cheap little house, but they find nothing, and Lydia loses patience. At last Bengtsson has an idea: “We go to Mariefred.”"
+    },
+    {
+      "n": 35,
+      "de": "Mariefred ist eine klitzekleine Stadt am Mälarsee. Es war eine stille und friedliche Natur, Baum und Wiese, Feld und Wald – niemand aber hätte von diesem Ort Notiz genommen, wenn hier nicht eines der ältesten Schlösser Schwedens wäre: das Schloss Gripsholm.\nEs war ein strahlend heller Tag. Das Schloss, aus roten Ziegeln erbaut, stand leuchtend da, seine runden Kuppeln knallten in den blauen Himmel – dieses Bauwerk war dick, seigneural, eine bedächtige Festung. Bengtsson winkte dem Führer ab, Führer war er selber. Und wir gingen in das Schloss.",
+      "en": "Mariefred is a teeny little town on Lake Mälaren. The countryside was quiet and peaceful – tree and meadow, field and forest – but nobody would ever have taken any notice of the place if it weren't for one of the oldest castles in Sweden: Gripsholm Castle. It was a brilliantly bright day. The castle, built of red bricks, stood there glowing, its round domes cracking into the blue sky – this building was stout, lordly, a slow and deliberate fortress. Bengtsson waved the guide away; he was the guide himself. And we went into the castle.",
+      "explain_en": "Now we reach the place in the title. ‘klitzeklein’ = teeny-tiny (colloquial). ‘Notiz nehmen von’ = to take notice of. ‘der Ziegel’ = brick. ‘die Kuppel’ = dome. ‘knallen’ = to bang – the colours ‘bang’ against the sky. ‘seigneural’ (from French) = lordly. ‘bedächtig’ = slow and careful – a funny word for a building. ‘abwinken’ = to wave away.",
+      "words": [
+        {
+          "de": "der See, die Seen",
+          "en": "lake"
+        },
+        {
+          "de": "die Wiese, die Wiesen",
+          "en": "meadow"
+        },
+        {
+          "de": "das Schloss, die Schlösser",
+          "en": "castle"
+        },
+        {
+          "de": "der Ziegel, die Ziegel",
+          "en": "brick"
+        },
+        {
+          "de": "die Kuppel, die Kuppeln",
+          "en": "dome"
+        },
+        {
+          "de": "die Festung, die Festungen",
+          "en": "fortress"
+        },
+        {
+          "de": "abwinken",
+          "en": "to wave away"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "de": "Viele schöne Gemälde hingen da. Mir sagten sie nichts. Ich kann nicht sehen. Es gibt Augenmenschen, und es gibt Ohrenmenschen, ich kann nur hören. Eine Achtelschwingung im Ton einer Unterhaltung: das weiß ich noch nach vier Jahren. Ein Gemälde? Das ist bunt. Ich weiß nichts vom Stil dieses Schlosses – ich weiß nur: wenn ich mir eins baute, so eins baute ich mir.\nHerr Bengtsson erklärte uns das Schloss, wie er es seinen Amerikanern erklärt hätte, der Spiritus sang aus ihm, und nach jeder Jahreszahl sagte er: »Aber so genau weiß ich das nicht«, und dann sahen wir im Baedeker nach, und es war alles, alles falsch – und wir freuten uns mächtig.",
+      "en": "Lots of beautiful paintings hung there. They meant nothing to me. I can't see. There are eye people and there are ear people; I can only hear. The tiniest shift in the tone of a conversation – I still remember that four years later. A painting? It's colourful. I know nothing about the style of this castle – I only know: if I built myself one, I'd build one like this. Mr Bengtsson explained the castle to us as he would have explained it to his Americans; the spirits sang out of him, and after every date he said: 'But I don't know that exactly,' and then we looked it up in the Baedeker, and it was all, all wrong – and we enjoyed ourselves enormously.",
+      "explain_en": "‘Mir sagten sie nichts’ = they meant nothing to me (‘Das sagt mir nichts’ is still common). ‘die Achtelschwingung’ = literally ‘an eighth of a vibration’, a tiny change. ‘die Jahreszahl’ = year, date. ‘der Spiritus sang aus ihm’ – he had been drinking (‘der Spiritus’ = spirit, alcohol). The Baedeker was the famous travel guidebook. ‘sich mächtig freuen’ = to be really pleased (‘mächtig’ = mightily, colloquial).",
+      "words": [
+        {
+          "de": "das Gemälde, die Gemälde",
+          "en": "painting"
+        },
+        {
+          "de": "die Unterhaltung, die Unterhaltungen",
+          "en": "conversation"
+        },
+        {
+          "de": "der Stil, die Stile",
+          "en": "style"
+        },
+        {
+          "de": "erklären",
+          "en": "to explain"
+        },
+        {
+          "de": "die Jahreszahl, die Jahreszahlen",
+          "en": "year, date"
+        },
+        {
+          "de": "nachsehen",
+          "en": "to look up"
+        },
+        {
+          "de": "falsch",
+          "en": "wrong"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "type": "summary",
+      "covers": "Chapter 1, sections 5–6 (beginning)",
+      "en": "Bengtsson shows them a dungeon, a round cage for prisoners and a sweet little theatre inside the castle. Then Lydia insists: now or never. Bengtsson makes some phone calls and finds them rooms in a newer wing of the castle, rented out by a kind old lady who will also cook for them. The rooms are large and full of old castle furniture, with a view of the water and of a quiet park – and surprisingly cheap. They move in at once, delighted."
+    },
+    {
+      "n": 38,
+      "de": "Wir lagen auf der Wiese und baumelten mit der Seele.\nDer Himmel war weiß gefleckt; wenn man von der Sonne recht schön angebraten war, kam eine Wolke, ein leichter Wind lief daher, und es wurde ein wenig kühl. Ein Hund trottete über das Gras, dahinten. »Was ist das für einer?« fragte ich. »Das ist ein Bulldackel«, sagte die Prinzessin. Und dann ließen wir wieder den Wind über uns hingehen und sagten gar nichts. Das ist schön, mit jemand schweigen zu können.",
+      "en": "We lay on the meadow and let our souls dangle. The sky was dappled with white; whenever you'd been nicely roasted by the sun, a cloud came along, a light wind ran by, and it got a little cool. A dog trotted across the grass, over there. 'What kind is that?' I asked. 'That's a bull-dachshund,' said the princess. And then we let the wind blow over us again and said nothing at all. It's lovely to be able to be silent with someone.",
+      "explain_en": "‘Die Seele baumeln lassen’ (to let your soul dangle) is a popular German phrase for relaxing completely – and it comes from this book! ‘gefleckt’ = spotted, dappled. ‘anbraten’ = to fry lightly (a joke about sunbathing). ‘trotten’ = to trot. A ‘Bulldackel’ doesn't exist – Lydia invents it. ‘mit jemandem schweigen können’ = to be able to be silent with someone.",
+      "words": [
+        {
+          "de": "die Seele baumeln lassen",
+          "en": "to relax completely"
+        },
+        {
+          "de": "die Wolke, die Wolken",
+          "en": "cloud"
+        },
+        {
+          "de": "kühl",
+          "en": "cool"
+        },
+        {
+          "de": "der Hund, die Hunde",
+          "en": "dog"
+        },
+        {
+          "de": "das Gras, die Gräser",
+          "en": "grass"
+        },
+        {
+          "de": "schweigen",
+          "en": "to be silent"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "type": "summary",
+      "covers": "Chapter 1, section 6 (end) and Chapter 2 (opening)",
+      "en": "Lydia talks about her boss in Berlin, the “General Consul”, a soap manufacturer: fat, nosy, cowardly and gloating, a man who gets rich by simply not paying his bills. The real holidays begin, and they sleep deeply in the quiet castle. Chapter 2 opens somewhere else: in Läggesta, a children's home on the other side of the lake, run by a German woman. A nine-year-old girl stands alone at a window, enjoying a stolen moment of peace."
+    },
+    {
+      "n": 40,
+      "de": "Das Kind stand am Fenster und dachte so etwas wie: Wann hört dies auf? Dies hört nie auf. Wann hört dies auf?\nEs hatte beide Arme auf das Fensterbrett gestützt, das durfte es nicht – aber es war für einen Augenblick, für einen winzigen, gestohlenen Augenblick, allein. Gleich würden die andern kommen; man spürte das zuerst im Rücken, der nun der Tür zugewendet war, der Rücken kitzelte erwartungsvoll. Wenn die andern kommen, ist es aus. Denn dann kommt sie.",
+      "en": "The child stood at the window and thought something like: When will this stop? This will never stop. When will this stop? She had propped both arms on the windowsill, which she wasn't allowed to do – but for a moment, a tiny, stolen moment, she was alone. Soon the others would come; you felt that first in your back, which was now turned towards the door; your back tingled expectantly. When the others come, it's over. Because then she comes.",
+      "explain_en": "Tucholsky calls the girl ‘das Kind’ and uses ‘es’ – in English we say ‘she’. ‘aufhören’ = to stop. ‘das Fensterbrett’ = windowsill. ‘stützen’ = to prop, lean. ‘Das durfte es nicht’ = she wasn't allowed to. ‘ein gestohlener Augenblick’ = a stolen moment. ‘kitzeln’ = to tickle. ‘Denn dann kommt sie’ – ‘sie’ is the director, whom the child fears.",
+      "words": [
+        {
+          "de": "aufhören",
+          "en": "to stop"
+        },
+        {
+          "de": "das Fensterbrett, die Fensterbretter",
+          "en": "windowsill"
+        },
+        {
+          "de": "dürfen",
+          "en": "to be allowed to"
+        },
+        {
+          "de": "der Augenblick, die Augenblicke",
+          "en": "moment"
+        },
+        {
+          "de": "allein",
+          "en": "alone"
+        },
+        {
+          "de": "der Rücken, die Rücken",
+          "en": "back"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "de": "Das kleine Mädchen schüttelte sich: es war wie die schnelle leise Bewegung eines Hundes, der Wasser abschüttelt. Das, was das Kind bedrückte, brauchte es nicht erst zu überdenken: es saß inmitten seiner kleinen Leiden wie auf einem Lotosblatt, zwischen andern Lotosblättern, und alle runden Blätter sahen es an – das Kind in der Mitte. Und es kannte sie alle, seine Leidensblätter.",
+      "en": "The little girl gave herself a shake: it was like the quick, quiet movement of a dog shaking off water. She didn't need to think through what was weighing on her: she sat in the middle of her little sorrows as if on a lotus leaf, among other lotus leaves, and all the round leaves looked at her – the child in the middle. And she knew them all, her leaves of sorrow.",
+      "explain_en": "‘sich schütteln’ = to shake oneself. ‘abschütteln’ = to shake off. ‘bedrücken’ = to weigh on, depress (‘bedrückt’ = down, depressed). ‘überdenken’ = to think over. ‘inmitten’ (+ Genitiv) = in the middle of. ‘das Leiden’ = suffering, sorrow. ‘andern’ = ‘anderen’ – Tucholsky often drops the e.",
+      "words": [
+        {
+          "de": "sich schütteln",
+          "en": "to shake oneself"
+        },
+        {
+          "de": "die Bewegung, die Bewegungen",
+          "en": "movement"
+        },
+        {
+          "de": "bedrücken",
+          "en": "to weigh on, to depress"
+        },
+        {
+          "de": "das Leiden, die Leiden",
+          "en": "suffering"
+        },
+        {
+          "de": "das Blatt, die Blätter",
+          "en": "leaf; sheet"
+        },
+        {
+          "de": "kennen",
+          "en": "to know (be familiar with)"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "de": "Die andern Kinder – sein Spitzname ›Das Kind‹ – dieses Kinderheim in Schweden – der tote Will, und nun stieg die Kurve der Furcht siedend-rot nach oben: Frau Adriani, die rothaarige Frau Adriani – und dahinter dann das Traurigste: Mutti in Zürich. Es war zu viel. Das Kind zählte neun Jahre – es war zu viel für neun Jahre. Nun weinte es das bitterste Weinen, das Kinder weinen können: jenes, das innerlich geweint wird und das man nicht hört.",
+      "en": "The other children – her nickname ‘The Child’ – this children's home in Sweden – dead Will, and now the curve of fear rose, boiling red: Frau Adriani, red-haired Frau Adriani – and behind that the saddest thing of all: Mummy in Zurich. It was too much. The child was nine years old – it was too much for nine years. Now she cried the bitterest crying that children can cry: the kind that is cried inside and that nobody hears.",
+      "explain_en": "We learn the child's sorrows as a list: her nickname, the home, her dead little brother Will, the director Frau Adriani and her mother far away in Zurich. ‘der Spitzname’ = nickname. ‘das Kinderheim’ = children's home. ‘die Furcht’ = fear (everyday: ‘die Angst’). ‘siedend’ = boiling. ‘neun Jahre zählen’ is old for ‘neun Jahre alt sein’. ‘innerlich’ = inside.",
+      "words": [
+        {
+          "de": "der Spitzname, die Spitznamen",
+          "en": "nickname"
+        },
+        {
+          "de": "das Kinderheim, die Kinderheime",
+          "en": "children's home"
+        },
+        {
+          "de": "die Furcht",
+          "en": "fear",
+          "note": "everyday: die Angst"
+        },
+        {
+          "de": "rothaarig",
+          "en": "red-haired"
+        },
+        {
+          "de": "bitter",
+          "en": "bitter"
+        },
+        {
+          "de": "innerlich",
+          "en": "inner, inside"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "de": "Trappeln. Schurren. Türenklappen. Kein Wort: eine stumme Schar näherte sich. Also war sie dabei. Du großer Gott –\nDie Tür öffnete sich majestätisch, als habe sie sich allein aufgetan. Im Rahmen stand die Frau Direktor, der ›Teufelsbraten‹: die Adriani. Ihren Beinamen hatte sie von ihrem Lieblingsschimpfwort.\nSie war nicht sehr groß; eine stämmige, untersetzte Person, mit rötlichem Haar, graugrünlichen Augen und fast unsichtbaren Augenbrauen. Sie sprach schnell und hatte eine Art, die Leute anzusehn, die keinem guttat . . .",
+      "en": "Tramping. Shuffling. Doors banging. Not a word: a silent crowd was approaching. So she was with them. Dear God – The door opened majestically, as if it had opened by itself. In the doorway stood the Director, the ‘Devil's Roast’: Frau Adriani. She got her nickname from her favourite term of abuse. She wasn't very tall; a sturdy, stocky person with reddish hair, greyish-green eyes and almost invisible eyebrows. She spoke quickly and had a way of looking at people that did nobody any good...",
+      "explain_en": "‘trappeln’, ‘schurren’ – sound words for small feet. ‘die Schar’ = crowd, flock. ‘die Frau Direktor’ is old usage; today ‘die Direktorin’. ‘der Teufelsbraten’ = little devil, rascal (literally ‘devil's roast’) – she calls the children that, so they call her that. ‘stämmig’ = sturdy. ‘anzusehn’ = ‘anzusehen’. ‘guttun’ = to do good.",
+      "words": [
+        {
+          "de": "die Tür, die Türen",
+          "en": "door"
+        },
+        {
+          "de": "sich nähern",
+          "en": "to approach"
+        },
+        {
+          "de": "der Beiname, die Beinamen",
+          "en": "nickname"
+        },
+        {
+          "de": "das Schimpfwort, die Schimpfwörter",
+          "en": "term of abuse, swear word"
+        },
+        {
+          "de": "stämmig",
+          "en": "sturdy"
+        },
+        {
+          "de": "die Augenbraue, die Augenbrauen",
+          "en": "eyebrow"
+        },
+        {
+          "de": "guttun",
+          "en": "to do good"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "type": "summary",
+      "covers": "Chapter 2, sections 1–3 (beginning)",
+      "en": "Frau Adriani punishes the child for being upstairs: no supper. She runs the home for about forty girls, many of them German, through fear; she loves power more than anything. Back at the castle, Peter and Lydia read their letters, laze about and walk in the woods. One afternoon a group of German tourists arrives at the castle, and Peter has an idea for a prank. He climbs down a ladder into the old dungeon under a round wooden cover; Lydia pulls up the ladder, puts the cover back and hides. In the pitch dark, Peter hears the tourists come in above him."
+    },
+    {
+      "n": 45,
+      "de": "»Hier ist nichts«, sagte eine Stimme. »Wahrscheinlich ein Brunnen – für die Belagerung oder so. Sehr interessant. Na, gehn wir weiter. Hier ist nichts.«\nHier wird gleich was sein.\n»Huuuuuuu –« machte ich.\nOben wurde es totenstill. Die schleppenden Fußschritte waren verstummt. »Was war das?« sagte jemand. »Hast du das gehört?« – »Ja, mir war auch so – wahrscheinlich nur so ein Klang –«\n»Huuuuuuu – aa – huuuuuuu –!« machte ich von neuem.\n»Adolf, um Gottes willen – vielleicht ist hier ein Tier eingesperrt, ein Hund – komm weg!« – »Na, erlaube mal, das gibts doch nicht! Ist – ehö – ist da jemand?« – Ich blieb so still.",
+      "en": "'There's nothing here,' said a voice. 'Probably a well – for sieges or something. Very interesting. Well, let's move on. There's nothing here.' There's going to be something here in a moment. 'Whoooooo –' I went. Up above, it went deathly quiet. The dragging footsteps had stopped. 'What was that?' someone said. 'Did you hear that?' – 'Yes, I thought so too – probably just a sound –' 'Whoooooo – ah – whoooooo –!' I went again. 'Adolf, for heaven's sake – maybe there's an animal locked up here, a dog – come away!' – 'Oh, come on, that's impossible! Is – ahem – is anybody there?' – I kept completely still.",
+      "explain_en": "‘der Brunnen’ = well (also: fountain). ‘die Belagerung’ = siege. ‘gehn wir’ = ‘gehen wir’ (let's go). ‘totenstill’ = deathly quiet. ‘verstummen’ = to fall silent. ‘Mir war auch so’ = I thought so too. ‘um Gottes willen’ = for heaven's sake – very common. ‘eingesperrt’ = locked up. ‘Na, erlaube mal’ = oh, come on (surprised protest). ‘Das gibts doch nicht!’ = that's impossible! – very common today.",
+      "words": [
+        {
+          "de": "der Brunnen, die Brunnen",
+          "en": "well; fountain"
+        },
+        {
+          "de": "totenstill",
+          "en": "deathly quiet"
+        },
+        {
+          "de": "verstummen",
+          "en": "to fall silent"
+        },
+        {
+          "de": "um Gottes willen",
+          "en": "for heaven's sake"
+        },
+        {
+          "de": "einsperren",
+          "en": "to lock up"
+        },
+        {
+          "de": "Das gibt's doch nicht!",
+          "en": "That's impossible!"
+        },
+        {
+          "de": "still",
+          "en": "quiet, still"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "de": "»Eine Täuschung«, sagte eine Männerstimme. »Komm – da war ja nichts«, sagte der andre der Männer. Und da dachte ich an die Löwen in den Zoologischen Gärten vor der Fütterung, holte tief Atem und begann zu röhren:\n»Huuuuuu – brru – aa huuuuuuuuah!« –\nDas war zu viel. »Hi!« kreischte oben eine Frau, und dann gab es ein eiliges Gestiefel, einer sagte noch schnell: »Aber das ist doch – das muss doch geklärt werden . . . werden gleich unten mal fragen . . . Unerhört – das ist doch . . . « – »Komm hier weg! Was müssen wir auch in alle Schlösser . . . « Fort waren sie. Da stand ich in meiner Dunkelheit. Mucksmäuschenstill.",
+      "en": "'Just an illusion,' said a man's voice. 'Come on – there was nothing there,' said the other man. And then I thought of the lions at the zoo before feeding time, took a deep breath and began to roar: 'Whoooooo – brrr – ah whoooooooah!' – That was too much. 'Eek!' shrieked a woman up above, and then there was a hurried clattering of boots, and someone quickly said: 'But this really – this must be looked into... we'll ask downstairs right away... Outrageous – this really is...' – 'Come away from here! Why do we have to go into every castle...' They were gone. There I stood in my darkness. As quiet as a mouse.",
+      "explain_en": "‘die Täuschung’ = illusion, deception. ‘tief Atem holen’ = to take a deep breath. ‘röhren’ = to roar (like a stag). ‘kreischen’ = to shriek. ‘das Gestiefel’ – a noun Tucholsky made up from ‘Stiefel’ (boots). ‘klären’ = to clear up, look into. ‘unerhört’ = outrageous. ‘mucksmäuschenstill’ = as quiet as a mouse – still used, especially with children.",
+      "words": [
+        {
+          "de": "die Täuschung, die Täuschungen",
+          "en": "illusion"
+        },
+        {
+          "de": "tief Atem holen",
+          "en": "to take a deep breath"
+        },
+        {
+          "de": "die Fütterung",
+          "en": "feeding"
+        },
+        {
+          "de": "kreischen",
+          "en": "to shriek"
+        },
+        {
+          "de": "klären",
+          "en": "to clear up"
+        },
+        {
+          "de": "unerhört",
+          "en": "outrageous"
+        },
+        {
+          "de": "mucksmäuschenstill",
+          "en": "as quiet as a mouse"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "type": "summary",
+      "covers": "Chapter 2, section 3 (middle)",
+      "en": "For a moment Peter is afraid in the dark, until Lydia lifts the cover. He climbs out filthy and covered in cobwebs. Later, at coffee, the tourists – a Berlin company director called Teichmann and his party – invite the “German couple” to their table and ask nervously whether the castle is inhabited: they heard a wild animal in there. Peter says no, hardly any animals live there. Then Peter and Lydia walk out into the meadows, happy to be on holiday. Lydia, who has eyes like a lynx, spots a thin line of small figures coming along a narrow path."
+    },
+    {
+      "n": 48,
+      "de": "Kinder waren es, kleine Mädchen, artig aufgereiht, wie Perlchen an der Schnur, immer zwei zu zwei. Eine herrisch aussehende Person ging an ihrer Spitze, sah sich öfter um – keines sprach. Nun waren sie nahe bei uns, wir traten beiseite und ließen den Zug vorüber. Die Führerperson warf uns einen glitzernden Blick zu. Die Kinder trappelten dahin. Wir sprachen nicht, als sie vorbeizogen.",
+      "en": "They were children, little girls, neatly lined up like little pearls on a string, always two by two. A domineering-looking person walked at their head and often looked round – not one of them spoke. Now they were close to us; we stepped aside and let the line go by. The leader gave us a glittering look. The children tramped along. We didn't speak while they passed.",
+      "explain_en": "‘artig’ = well-behaved (old; today ‘brav’). ‘aufgereiht’ = lined up. ‘Perlchen an der Schnur’ = little beads on a string. ‘zwei zu zwei’ = in pairs (today ‘zu zweit’ or ‘paarweise’). ‘herrisch’ = domineering. ‘beiseitetreten’ = to step aside. ‘vorbeiziehen’ = to pass by (of a procession).",
+      "words": [
+        {
+          "de": "das Mädchen, die Mädchen",
+          "en": "girl"
+        },
+        {
+          "de": "artig",
+          "en": "well-behaved",
+          "note": "old; today: brav"
+        },
+        {
+          "de": "herrisch",
+          "en": "domineering"
+        },
+        {
+          "de": "die Spitze, die Spitzen",
+          "en": "head, front; tip"
+        },
+        {
+          "de": "beiseitetreten",
+          "en": "to step aside"
+        },
+        {
+          "de": "der Blick, die Blicke",
+          "en": "look, glance"
+        },
+        {
+          "de": "vorbeiziehen",
+          "en": "to pass by"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "de": "Ganz zum Schluss ging ein Kind allein; es ging, wie wenn es von jemandem gezogen würde, es hatte verweinte Augen, schluckte manchmal im Gehen vor sich hin, aber es weinte nicht. Sein Gesicht war auch nicht verschwollen, wie es verheulte Kinder haben . . . es sah vielmehr leer geweint aus, und in den bräunlichen Haaren lag ein goldner Schimmer.",
+      "en": "Right at the end a child walked alone; she walked as if someone were pulling her; her eyes were red from crying, now and then she swallowed as she walked, but she wasn't crying. Her face wasn't swollen either, the way children's faces are after crying... rather, she looked cried out, empty, and there was a golden shimmer in her brownish hair.",
+      "explain_en": "This is the child from the children's home – but Peter and Lydia don't know that yet. ‘verweint’ = red from crying. ‘schlucken’ = to swallow. ‘verschwollen’ = swollen. ‘verheult’ is colloquial for ‘verweint’ (heulen = to howl, cry). ‘leer geweint’ = cried out, emptied by crying. ‘goldner’ = ‘goldener’.",
+      "words": [
+        {
+          "de": "ganz zum Schluss",
+          "en": "right at the end"
+        },
+        {
+          "de": "ziehen",
+          "en": "to pull"
+        },
+        {
+          "de": "weinen",
+          "en": "to cry"
+        },
+        {
+          "de": "schlucken",
+          "en": "to swallow"
+        },
+        {
+          "de": "geschwollen",
+          "en": "swollen",
+          "note": "text: verschwollen"
+        },
+        {
+          "de": "der Schimmer",
+          "en": "shimmer, gleam"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "de": "Es sah uns an, so müde und gleichgültig, wie es einen Baum angesehn hätte. In einem Anfall von Übermut und Kinderliebe steckte ihm die Prinzessin zwei kleine Glockenblumen, die wir gepflückt hatten, in die Hand. Das Kind zuckte zusammen, dann sah es auf, seine Lippen bewegten sich; es wollte vielleicht etwas sagen, danken . . . da drehte sich vorn die Person um, die Kleine beschleunigte ihre Schritte und hoppelte ängstlich der Schar nach. Staub und das Geräusch der marschierenden Kinderfüße. Dann war das Ganze vorüber.",
+      "en": "She looked at us as tiredly and indifferently as she would have looked at a tree. In a fit of high spirits and love for children, the princess pressed two little bluebells we had picked into her hand. The child flinched, then looked up; her lips moved; perhaps she wanted to say something, to say thank you... then the person at the front turned round, the little one quickened her steps and hopped anxiously after the group. Dust and the sound of marching children's feet. Then it was all over.",
+      "explain_en": "Remember the two bluebells – they will be important! ‘gleichgültig’ = indifferent. ‘der Anfall’ = fit, attack (‘ein Anfall von Übermut’ = a fit of high spirits). ‘die Glockenblume’ = bluebell (literally ‘bell flower’). ‘pflücken’ = to pick (flowers). ‘zusammenzucken’ = to flinch. ‘beschleunigen’ = to speed up. ‘hoppeln’ = to hop (like a rabbit).",
+      "words": [
+        {
+          "de": "gleichgültig",
+          "en": "indifferent"
+        },
+        {
+          "de": "die Glockenblume, die Glockenblumen",
+          "en": "bluebell"
+        },
+        {
+          "de": "pflücken",
+          "en": "to pick"
+        },
+        {
+          "de": "zusammenzucken",
+          "en": "to flinch"
+        },
+        {
+          "de": "danken",
+          "en": "to thank"
+        },
+        {
+          "de": "beschleunigen",
+          "en": "to speed up"
+        },
+        {
+          "de": "ängstlich",
+          "en": "anxious, fearful"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "type": "summary",
+      "covers": "Chapter 2, sections 3–5",
+      "en": "Lydia wishes she could see the northern lights, so the two of them stare at the pale sky and imagine one together – for a moment they truly see it. Back at the castle, the landlady, Frau Andersson, explains in her own funny German that the girls belong to the children's home at Läggesta. Its German director is “not a good lady”: she hits the children – not hard enough for the police to act, but they are terrified of her. That night at Läggesta the child lies awake. Her father left long ago; her mother in Switzerland sent her here because it is cheaper. When a maid secretly posted her begging letters, the maid was sacked. Her little brother Will died of flu and lies buried in the churchyard at Mariefred."
+    },
+    {
+      "n": 52,
+      "de": "Der Bruder nicht. Mutti nicht. Vater weggegangen, wohin . . . Niemand war da. Das Kind war allein. Es dachte das Wort nicht – viel schlimmer: es fühlte die Einsamkeit, wie nur Kinder sie fühlen können.\nDie kleinen Mädchen raschelten in den Kissen. Eins flüsterte im Schlaf. Das war jetzt der zweite Sommer hier oben. Es würde nie anders werden. Nie. Mutti soll kommen, dachte das Kind. Aber sie müsste es hier fortnehmen, denn gegen Frau Adriani kam auch Mutti nicht auf. Niemand kam gegen sie auf.",
+      "en": "Not her brother. Not Mummy. Father gone away, who knows where... No one was there. The child was alone. She didn't think the word – much worse: she felt the loneliness, as only children can feel it. The little girls rustled in their pillows. One whispered in her sleep. This was her second summer up here now. It would never be any different. Never. Mummy must come, thought the child. But she would have to take her away from here, because not even Mummy could stand up to Frau Adriani. No one could stand up to her.",
+      "explain_en": "‘die Einsamkeit’ = loneliness. ‘rascheln’ = to rustle. ‘flüstern’ = to whisper. ‘Es würde nie anders werden’ = it would never change. ‘fortnehmen’ = to take away (today ‘wegnehmen’, ‘wegholen’). ‘gegen jemanden aufkommen’ = to hold one's own against someone. ‘Mutti’ = Mummy – still common.",
+      "words": [
+        {
+          "de": "die Einsamkeit",
+          "en": "loneliness"
+        },
+        {
+          "de": "das Kissen, die Kissen",
+          "en": "pillow, cushion"
+        },
+        {
+          "de": "flüstern",
+          "en": "to whisper"
+        },
+        {
+          "de": "der Sommer, die Sommer",
+          "en": "summer"
+        },
+        {
+          "de": "nie",
+          "en": "never"
+        },
+        {
+          "de": "gegen jemanden aufkommen",
+          "en": "to stand up to someone"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "de": "Schritte? Wenn sie jetzt käme? Einmal war Gertie krank gewesen; da war Frau Adriani fünf Mal in der Nacht heraufgekommen – fünf Mal hatte sie nach dem kranken Kind gesehen, sie hatte fast eifersüchtig mit der Krankheit gekämpft. Und zum Schluss hatte sie das Fieber besiegt. Wenn sie jetzt käme? Nichts – eins der acht Betten hatte geknarrt. Das war Lisa Wedigen, die schlief immer so unruhig.",
+      "en": "Footsteps? What if she came now? Once, when Gertie had been ill, Frau Adriani had come up five times in the night – five times she had looked in on the sick child; she had fought the illness almost jealously. And in the end she had beaten the fever. What if she came now? Nothing – one of the eight beds had creaked. That was Lisa Wedigen, who always slept so restlessly.",
+      "explain_en": "Tucholsky shows that even Frau Adriani cares in her own way – she wants to win against everything, even illness. ‘Wenn sie jetzt käme?’ = What if she came now? (Konjunktiv II). ‘nach jemandem sehen’ = to look in on someone. ‘eifersüchtig’ = jealous. ‘besiegen’ = to defeat. ‘knarren’ = to creak. ‘unruhig’ = restless.",
+      "words": [
+        {
+          "de": "der Schritt, die Schritte",
+          "en": "step, footstep"
+        },
+        {
+          "de": "krank",
+          "en": "ill, sick"
+        },
+        {
+          "de": "eifersüchtig",
+          "en": "jealous"
+        },
+        {
+          "de": "das Fieber",
+          "en": "fever"
+        },
+        {
+          "de": "besiegen",
+          "en": "to defeat"
+        },
+        {
+          "de": "knarren",
+          "en": "to creak"
+        },
+        {
+          "de": "unruhig",
+          "en": "restless"
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "de": "Wenn doch einer – wenn doch einer – wenn doch einer . . . Morgen war Baden im See. Da spritzen einen die Mädchen immer so mit Wasser. Wenn doch einer –\nDie Hände des Kindes tasteten vorsichtig unter das Kopfkissen, suchten im Laken, verschoben alles. Fort? Nein. Sie waren noch da.\nUnter dem Kopfkissen lagen, verwelkt und zerdrückt, zwei kleine Glockenblumen.",
+      "en": "If only someone – if only someone – if only someone... Tomorrow was swimming in the lake. The girls always splash you so much then. If only someone – The child's hands felt carefully under the pillow, searched in the sheet, moved everything around. Gone? No. They were still there. Under the pillow, wilted and crushed, lay two little bluebells.",
+      "explain_en": "The end of Chapter 2: the child has kept Lydia's bluebells as a secret treasure. ‘Wenn doch einer …’ = if only someone … – she can't even finish the wish. ‘spritzen’ = to splash. ‘tasten’ = to feel, grope. ‘das Laken’ = sheet. ‘verwelkt’ = wilted. ‘zerdrückt’ = crushed.",
+      "words": [
+        {
+          "de": "wenn doch",
+          "en": "if only"
+        },
+        {
+          "de": "spritzen",
+          "en": "to splash"
+        },
+        {
+          "de": "tasten",
+          "en": "to feel, to grope"
+        },
+        {
+          "de": "das Kopfkissen, die Kopfkissen",
+          "en": "pillow"
+        },
+        {
+          "de": "verwelkt",
+          "en": "wilted"
+        },
+        {
+          "de": "zerdrückt",
+          "en": "crushed"
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "type": "summary",
+      "covers": "Chapter 3, section 1 (beginning)",
+      "en": "Chapter 3. A letter arrives from Karlchen, Peter's best friend since they served together in the First World War. Karlchen works at a tax office in the Rhineland: a quiet, utterly reliable man who loves nonsense. Peter and Lydia bend over the letter and read it together:"
+    },
+    {
+      "n": 56,
+      "de": "Lieber Freund!\nIch habe in diesem Jahr noch acht Tage Urlaub gut und würde die gern mit Dir und Deiner lieben Frau Freundin verleben. Wie ich höre, seid Ihr in Schweden. Lieber Freund, würdest Du wohl Deinen alten Kriegskameraden, der Dir in so manchem Granattrichter den Steigbügel gehalten hat, bei Euch aufnehmen? Lieber Freund, ich zahle auch das Reisegeld für mich allein; es ist mir sehr schmerzlich, für mich allein etwas bezahlen zu müssen; es ist dies sonst nicht meine Art, wie Du weißt. Schreibe mir bitte, wie ich zu Euch fahre, lieber Freund.",
+      "en": "Dear friend! I still have eight days' holiday owing to me this year and would love to spend them with you and your dear lady friend. I hear you are in Sweden. Dear friend, would you take in your old war comrade, who held your stirrup for you in many a shell crater? Dear friend, I will even pay my own fare; it is very painful for me to have to pay for something for myself; as you know, that is not usually my way. Please write and tell me how to get to you, dear friend.",
+      "explain_en": "Karlchen's letter is full of jokes. ‘Urlaub gut haben’ = to have holiday owing. ‘verleben’ = to spend (time) – today ‘verbringen’. ‘die Frau Freundin’ is a mock-polite way of saying girlfriend. ‘jemandem den Steigbügel halten’ = to hold someone's stirrup, i.e. help them – but nobody rides a horse in a shell crater! ‘der Granattrichter’ = shell crater. He pretends it hurts him to pay for himself.",
+      "words": [
+        {
+          "de": "der Urlaub, die Urlaube",
+          "en": "holiday, leave"
+        },
+        {
+          "de": "verbringen",
+          "en": "to spend (time)",
+          "note": "text: verleben (old)"
+        },
+        {
+          "de": "der Kamerad, die Kameraden",
+          "en": "comrade"
+        },
+        {
+          "de": "aufnehmen",
+          "en": "to take in, to receive"
+        },
+        {
+          "de": "das Reisegeld",
+          "en": "travel money"
+        },
+        {
+          "de": "schmerzlich",
+          "en": "painful"
+        },
+        {
+          "de": "die Art",
+          "en": "way, manner"
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "de": "Kann ich da wohnen? Wohnt Ihr? Sind da viele Mädchen? Soll ich lieber nicht kommen? Wollen wir uns gleich den ersten Abend besaufen? Liebst Du mich?\nIch sende Dir beigebogen in der Falte das Bild meines Fräulein Tochter. Sie wird so schön wie ich.\nLieber Freund, ich freue mich sehr, Euch zu sehen, und bin Euer gutes\nKarlchen\nDarunter stand, mit Rotschrift, wie ein Aktenvermerk:\n»Sofort! Noch gestern! Eilt unbeschreiblich!«",
+      "en": "Can I stay there? Are you staying? Are there lots of girls? Would it be better if I didn't come? Shall we get drunk straight away on the first evening? Do you love me? I enclose, folded inside, the picture of my young lady daughter. She will be as beautiful as I am. Dear friend, I am very much looking forward to seeing you, and I remain your good Karlchen. Underneath, in red writing, like an official note on a file: 'Immediately! Yesterday at the latest! Unspeakably urgent!'",
+      "explain_en": "‘Wohnt ihr?’ is a joke question. ‘sich besaufen’ = to get drunk (slang). ‘beigebogen’ is a joke on the office words ‘beigefügt’ or ‘anbei’ (enclosed). ‘das Fräulein Tochter’ = a mock-polite ‘my daughter’. ‘sich freuen, jemanden zu sehen’ = to look forward to seeing someone. ‘der Aktenvermerk’ = note on a file – Karlchen works in an office. ‘Eilt!’ = urgent!",
+      "words": [
+        {
+          "de": "wohnen",
+          "en": "to live, to stay"
+        },
+        {
+          "de": "sich betrinken",
+          "en": "to get drunk",
+          "note": "text: sich besaufen (slang)"
+        },
+        {
+          "de": "anbei",
+          "en": "enclosed",
+          "note": "text: beigebogen (a joke)"
+        },
+        {
+          "de": "die Tochter, die Töchter",
+          "en": "daughter"
+        },
+        {
+          "de": "sich freuen",
+          "en": "to be glad, to look forward"
+        },
+        {
+          "de": "eilen",
+          "en": "to be urgent; to hurry"
+        },
+        {
+          "de": "sofort",
+          "en": "immediately"
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "type": "summary",
+      "covers": "Chapter 3, sections 1–3 (beginning)",
+      "en": "Karlchen arrives and gets on with Lydia straight away, and Peter enjoys their friendship: “friendship is like home”. The newspapers bring back the worries of the times, and Lydia tells them that her boss once kept her late at the office to ask her to be his girlfriend; she said no. Meanwhile at Läggesta, Frau Adriani catches a girl, Lisa Wedigen, hiding food and punishes the whole home. A few days later the three friends walk past the children's home. A door bangs, and a little girl comes running out – straight into their arms. It is the child with the bluebells. She sobs that her name is Ada Collin, that Frau Adriani hits them and that she wants to go to her Mummy in Zurich. But before she can give the address, she cries: “She's coming!”"
+    },
+    {
+      "n": 59,
+      "de": "Im Hause hatte sich die Haupttür geöffnet, und aus ihr trat schnell und energisch eine rothaarige Frau. Sie kam rasch auf uns zu. »Was machen Sie da mit dem Kind?« fragte sie, ohne Begrüßung.\nIch nahm den Hut ab. »Guten Tag!« sagte ich höflich. Die Frau sah mich nicht einmal an. »Was haben Sie mit dem Kind! Was tut das Kind bei Ihnen?« – »Es ist hier aus dem Haus gelaufen und hat geweint«, sagte Karlchen.",
+      "en": "The main door of the house had opened, and a red-haired woman stepped out quickly and energetically. She came straight towards us. 'What are you doing with the child?' she asked, without a greeting. I took off my hat. 'Good afternoon!' I said politely. The woman didn't even look at me. 'What do you want with the child! What is the child doing with you?' – 'She ran out of the house here and was crying,' said Karlchen.",
+      "explain_en": "Here we meet Frau Adriani face to face. ‘die Haupttür’ = main door. ‘ohne Begrüßung’ = without saying hello – very rude. ‘den Hut abnehmen’ = to take off one's hat, an old sign of politeness. ‘Guten Tag!’ is used all day long, not only in the morning. ‘Was haben Sie mit dem Kind!’ = What do you want with the child!",
+      "words": [
+        {
+          "de": "die Haupttür, die Haupttüren",
+          "en": "main door"
+        },
+        {
+          "de": "energisch",
+          "en": "energetic, forceful"
+        },
+        {
+          "de": "die Begrüßung, die Begrüßungen",
+          "en": "greeting"
+        },
+        {
+          "de": "der Hut, die Hüte",
+          "en": "hat"
+        },
+        {
+          "de": "höflich",
+          "en": "polite"
+        },
+        {
+          "de": "weinen",
+          "en": "to cry"
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "de": "»Das Kind ist ein Ausreißer und ein Tunichtgut. Es ist heute schon einmal weggelaufen. Geben Sie das Kind her und kümmern Sie sich nicht um Sachen, die Sie nichts angehn!« – »Langsam, langsam«, sagte ich. »Das Kind hat so furchtbar geweint; es behauptet, Sie hätten es geschlagen.«",
+      "en": "'The child is a runaway and a good-for-nothing. She has already run away once today. Hand the child over and don't concern yourselves with matters that are none of your business!' – 'Easy, easy,' I said. 'The child was crying terribly; she says you hit her.'",
+      "explain_en": "‘der Ausreißer’ = runaway (ausreißen = to run away). ‘der Tunichtgut’ = good-for-nothing (from ‘tu nicht gut’). ‘Das geht Sie nichts an’ = that's none of your business – very common. ‘Langsam, langsam’ = easy, slow down. ‘behaupten’ = to claim.",
+      "words": [
+        {
+          "de": "der Ausreißer, die Ausreißer",
+          "en": "runaway"
+        },
+        {
+          "de": "der Tunichtgut",
+          "en": "good-for-nothing"
+        },
+        {
+          "de": "weglaufen",
+          "en": "to run away"
+        },
+        {
+          "de": "sich kümmern um",
+          "en": "to concern oneself with; to look after"
+        },
+        {
+          "de": "jemanden etwas angehen",
+          "en": "to be someone's business"
+        },
+        {
+          "de": "behaupten",
+          "en": "to claim"
+        },
+        {
+          "de": "schlagen",
+          "en": "to hit, to beat"
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "de": "Die Frau sah mir fest ins Gesicht, kampfbereit. »Ich? ich habe es nicht geschlagen. Hier werden keine Kinder geschlagen. Ich habe die elterliche Gewalt über das Kind, ich habe das schriftlich. Was fällt Ihnen denn ein? Bei mir herrscht Zucht und Ordnung . . . hetzen Sie mir hier nicht die Kinder auf! – Das ist mein Haus!« schrie sie plötzlich laut und deutete auf das Gebäude. »Das mag sein«, sagte ich. »Aber hier stimmt doch etwas nicht – das Kind kommt in Todesangst da herausgelaufen und . . . « Die Frau riss das Kind an der Hand und blitzte mich böse an; in ihren grünen Augen stand ein Flämmchen.",
+      "en": "The woman looked me straight in the face, ready for a fight. 'Me? I didn't hit her. No children are hit here. I have parental authority over the child; I have it in writing. How dare you? In my house there is discipline and order... don't you go stirring up the children against me! – This is my house!' she suddenly shouted, pointing at the building. 'That may be,' I said. 'But something is wrong here – the child comes running out of there scared to death and...' The woman yanked the child by the hand and flashed an angry look at me; there was a little flame in her green eyes.",
+      "explain_en": "‘kampfbereit’ = ready for a fight. ‘die elterliche Gewalt’ = parental authority (today: ‘das Sorgerecht’). ‘Was fällt Ihnen ein?’ = How dare you? – very common. ‘Zucht und Ordnung’ = discipline and order, a phrase of strict, old-fashioned education. ‘aufhetzen’ = to stir up. ‘die Todesangst’ = mortal fear. ‘Hier stimmt etwas nicht’ = something's wrong here – useful!",
+      "words": [
+        {
+          "de": "kampfbereit",
+          "en": "ready to fight"
+        },
+        {
+          "de": "das Sorgerecht",
+          "en": "custody",
+          "note": "text: die elterliche Gewalt (old)"
+        },
+        {
+          "de": "Was fällt Ihnen ein?",
+          "en": "How dare you?"
+        },
+        {
+          "de": "die Ordnung",
+          "en": "order"
+        },
+        {
+          "de": "aufhetzen",
+          "en": "to stir up"
+        },
+        {
+          "de": "die Todesangst",
+          "en": "mortal fear"
+        },
+        {
+          "de": "Hier stimmt etwas nicht.",
+          "en": "Something is wrong here."
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "de": "»Du kommst jetzt mit«, sagte sie zum Kind. »Sofort! Und Sie gehen! Los!« – »Es wäre hübsch«, sagte Karlchen langsam, »wenn Sie etwas höflicher mit uns sprechen wollten.« – »Mit Ihnen spreche ich überhaupt nicht«, sagte die Frau. Die Prinzessin hatte sich niedergebeugt, sie wischte dem Kind, das bleich geworden war, die Tränen ab. »Was tuscheln Sie da mit dem Kind?« schrie die Frau. »Sie haben gar nichts zu flüstern! Sie sind nicht für das Kind verantwortlich – ich bin es! Ich bin hier die Leiterin – ich bin das! Ich!« In den Augen das Flämmchen . . . Hitze strahlte von der Person aus.",
+      "en": "'You're coming with me now,' she said to the child. 'At once! And you go! Off with you!' – 'It would be nice,' said Karlchen slowly, 'if you would speak to us a little more politely.' – 'I'm not speaking to you at all,' said the woman. The princess had bent down and was wiping away the tears of the child, who had gone pale. 'What are you whispering to the child?' the woman shouted. 'You have no business whispering! You are not responsible for the child – I am! I'm the head here – me! Me!' The little flame in her eyes... heat radiated from the woman.",
+      "explain_en": "‘Los!’ = go on, get moving! ‘Es wäre hübsch, wenn …’ – Karlchen's calm, ironic politeness (Konjunktiv II). ‘sich niederbeugen’ = to bend down. ‘abwischen’ = to wipe away. ‘bleich’ = pale. ‘tuscheln’ = to whisper secretly. ‘verantwortlich’ = responsible – very useful. ‘die Leiterin’ = (female) head, manager. ‘ausstrahlen’ = to radiate. Secretly, Lydia is telling the child something important.",
+      "words": [
+        {
+          "de": "sofort",
+          "en": "at once"
+        },
+        {
+          "de": "höflich",
+          "en": "polite"
+        },
+        {
+          "de": "sich niederbeugen",
+          "en": "to bend down"
+        },
+        {
+          "de": "die Träne, die Tränen",
+          "en": "tear"
+        },
+        {
+          "de": "flüstern",
+          "en": "to whisper"
+        },
+        {
+          "de": "verantwortlich",
+          "en": "responsible"
+        },
+        {
+          "de": "die Leiterin, die Leiterinnen",
+          "en": "head, manager (female)"
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "type": "summary",
+      "covers": "Chapter 3, section 3 (middle)",
+      "en": "Frau Adriani drags Ada into the house and locks the door. Lydia tells the two men they are donkeys: they can't start a war, but they must help the child – and she has whispered to Ada to smuggle out her mother's address on a slip of paper in half an hour. While they wait on the grass, they hear a woman shrieking inside the house. Peter slips into a dark daydream about the cruel crowds in a Roman arena and is shocked to feel the same wish to make this woman suffer, which he pushes away. Then they creep back towards the house, Karlchen from one side, Peter and Lydia from the other."
+    },
+    {
+      "n": 64,
+      "de": "»Pst!« machte die Prinzessin. Nichts. Karlchen war nicht zu sehen. Fragend sah ich sie an. Wir gingen langsam weiter und traten vorsichtig auf, als gingen wir auf Eis. War das ein Gesicht hinter einem Fenster – eine kreisrunde Scheibe . . . ? Täuschung, es war ein Widerschein. Wir gingen nah am Haus vorbei. Die Prinzessin blickte überall umher. Plötzlich ging sie vorwärts – »Rasch!« sagte sie – sie lief auf einen weißen Fleck zu, der unweit des Hauses im Grase war . . . da lag ein kleines Stück Papier. Hinten wandelte Karlchen langsam am Zaun vorbei. Die Prinzessin bückte sich, sah das Papier an, hob es auf und schritt rasch weiter.",
+      "en": "'Shh!' went the princess. Nothing. Karlchen was nowhere to be seen. I looked at her questioningly. We walked on slowly, treading carefully, as if we were walking on ice. Was that a face behind a window – a perfectly round disc...? An illusion; it was a reflection. We walked close past the house. The princess was looking around everywhere. Suddenly she went forward – 'Quick!' she said – and ran towards a white spot in the grass not far from the house... there lay a small piece of paper. At the back, Karlchen was strolling slowly along the fence. The princess bent down, looked at the paper, picked it up and walked quickly on.",
+      "explain_en": "An exciting little spy scene. ‘fragend’ = questioningly. ‘auftreten’ = to step, to tread. ‘als gingen wir auf Eis’ = as if we were walking on ice (als + Konjunktiv II). ‘der Widerschein’ = reflection (today ‘die Spiegelung’). ‘Rasch!’ = quick! (everyday: ‘Schnell!’). ‘unweit’ (+ Genitiv) = not far from. ‘der Zaun’ = fence. ‘sich bücken’ = to bend down.",
+      "words": [
+        {
+          "de": "vorsichtig",
+          "en": "careful"
+        },
+        {
+          "de": "das Eis",
+          "en": "ice"
+        },
+        {
+          "de": "die Spiegelung, die Spiegelungen",
+          "en": "reflection",
+          "note": "text: der Widerschein"
+        },
+        {
+          "de": "rasch",
+          "en": "quick",
+          "note": "everyday: schnell"
+        },
+        {
+          "de": "der Zaun, die Zäune",
+          "en": "fence"
+        },
+        {
+          "de": "sich bücken",
+          "en": "to bend down"
+        },
+        {
+          "de": "aufheben",
+          "en": "to pick up"
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "de": "Wir beeilten uns, bis wir aus der Umgatterung heraus waren. »Na?« sagte Karlchen.\nDie Prinzessin blieb stehn und las vom Papier:\nCollin Zürich Hottingerstrase 104.\nDie Rückseite eines Kalenderblatts, und eine kraklige Kinderhandschrift. ›Strase‹ war mit einem s geschrieben. »Dat harrn wi hinner uns!« sagte die Prinzessin. »Auf in den Kampf« – pfiff Karlchen.\nZurück nach Gripsholm.",
+      "en": "We hurried until we were outside the fence. 'Well?' said Karlchen. The princess stopped and read from the paper: Collin Zurich Hottingerstrase 104. The back of a calendar page, and a scrawly child's handwriting. ‘Strase’ was spelt with one s. 'That's done!' said the princess. 'Into battle –' whistled Karlchen. Back to Gripsholm.",
+      "explain_en": "Ada has managed it – and misspelt ‘Straße’, as a child would. ‘die Umgatterung’ = fencing (from ‘das Gatter’, gate). ‘das Kalenderblatt’ = calendar page. ‘krakelig’ (text: kraklig) = scrawly. ‘Dat harrn wi hinner uns!’ is Low German – standard German: ‘Das hätten wir hinter uns!’ (That's done!). ‘Auf in den Kampf!’ is a line from the opera ‘Carmen’.",
+      "words": [
+        {
+          "de": "sich beeilen",
+          "en": "to hurry"
+        },
+        {
+          "de": "die Rückseite, die Rückseiten",
+          "en": "back, reverse side"
+        },
+        {
+          "de": "das Kalenderblatt, die Kalenderblätter",
+          "en": "calendar page"
+        },
+        {
+          "de": "die Handschrift, die Handschriften",
+          "en": "handwriting"
+        },
+        {
+          "de": "der Kampf, die Kämpfe",
+          "en": "fight, battle"
+        },
+        {
+          "de": "pfeifen",
+          "en": "to whistle"
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "type": "summary",
+      "covers": "Chapter 3, section 4 to Chapter 4, section 2 (middle)",
+      "en": "Back at the castle the three of them write fourteen drafts before sending Lydia's clear, sensible letter to Frau Collin in Zurich. Karlchen's holiday ends; he leaves, and the next day four crazy postcards arrive from him. Then Lydia's old friend Billie (Sibylle) comes to stay – a sporty, lively young woman whom Peter secretly admires. Frau Collin writes back, grateful: they should go and talk to Frau Adriani. Peter and Lydia buy Ada a doll in Swedish costume and go to the home, while Billie waits in the woods. Frau Adriani receives them coldly and suspiciously, but she sends for the child."
+    },
+    {
+      "n": 67,
+      "de": "Das Kind näherte sich schüchtern dem Tisch, an dem wir saßen; es ging unsicher und trippelnd und kam nicht ganz nah heran. Wir sahen es an; das Kind sah uns an . . .\n»Na, Ada«, sagte die Prinzessin, »wie geht es dir denn?« – Die Stimme der Adriani: »Sag mal Guten Tag!«, und das Kind zuckte zusammen und stotterte etwas wie guten Tag. »Wie gehts dir denn?« – Die Frau Adriani ließ kein Auge von dem Kind. Das kleine Mädchen sprach wie hinter einer Mauer. »Danke . . . gut . . . «",
+      "en": "The child came shyly towards the table where we were sitting; she walked unsteadily with tiny steps and didn't come right up close. We looked at her; the child looked at us... 'Well, Ada,' said the princess, 'how are you?' – Frau Adriani's voice: 'Say good afternoon!', and the child flinched and stammered something like good afternoon. 'How are you doing?' – Frau Adriani didn't take her eyes off the child. The little girl spoke as if from behind a wall. 'Thank you... fine...'",
+      "explain_en": "Ada can't speak freely while Frau Adriani is watching. ‘schüchtern’ = shy. ‘trippeln’ = to take tiny steps. ‘Wie geht es dir?’ = How are you? – ‘Wie geht's?’ for short. ‘stottern’ = to stammer. ‘kein Auge von jemandem lassen’ = not to take one's eyes off someone. ‘wie hinter einer Mauer’ = as if behind a wall.",
+      "words": [
+        {
+          "de": "schüchtern",
+          "en": "shy"
+        },
+        {
+          "de": "sich nähern",
+          "en": "to approach"
+        },
+        {
+          "de": "unsicher",
+          "en": "unsteady; unsure"
+        },
+        {
+          "de": "Wie geht es dir?",
+          "en": "How are you?"
+        },
+        {
+          "de": "zusammenzucken",
+          "en": "to flinch"
+        },
+        {
+          "de": "stottern",
+          "en": "to stammer"
+        },
+        {
+          "de": "die Mauer, die Mauern",
+          "en": "wall"
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "de": "»Ich soll dir auch einen schönen Gruß von deiner Mama bestellen«, sagte die Prinzessin. »Sie lässt dich grüßen – und dann fragt sie hier in diesem Brief« –, die Prinzessin kramte in ihrem Täschchen – »ob das Grab von Will auch gut in Ordnung ist. Das war wohl dein kleiner Bruder?« – Das Kind wollte Ja sagen – aber es kam nicht dazu. »Das Grab ist in Ordnung«, sagte Frau Adriani, »dafür sorge ich schon.",
+      "en": "'And I'm to give you lots of love from your Mummy,' said the princess. 'She sends her love – and then she asks here in this letter' – the princess rummaged in her little bag – 'whether Will's grave is being properly looked after. That was your little brother, wasn't it?' – The child wanted to say yes – but she didn't get the chance. 'The grave is in order,' said Frau Adriani, 'I see to that.'",
+      "explain_en": "‘einen Gruß bestellen’ = to pass on greetings. ‘jemanden grüßen lassen’ = to send one's regards – very common: ‘Meine Mutter lässt dich grüßen.’ ‘kramen’ = to rummage. ‘das Grab’ = grave. ‘in Ordnung sein’ = to be all right. ‘dafür sorgen’ = to see to it, make sure. Notice that Frau Adriani answers for the child.",
+      "words": [
+        {
+          "de": "der Gruß, die Grüße",
+          "en": "greeting"
+        },
+        {
+          "de": "jemanden grüßen lassen",
+          "en": "to send someone one's regards"
+        },
+        {
+          "de": "kramen",
+          "en": "to rummage"
+        },
+        {
+          "de": "das Grab, die Gräber",
+          "en": "grave"
+        },
+        {
+          "de": "der Bruder, die Brüder",
+          "en": "brother"
+        },
+        {
+          "de": "in Ordnung",
+          "en": "all right, in order"
+        },
+        {
+          "de": "dafür sorgen",
+          "en": "to make sure, to see to it"
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "de": "Wir gehen alle paar Wochen auf den Friedhof, das ist Pflicht, natürlich. Und das Grab wird dort gut gepflegt, ich überwache das, ich trage die Verantwortung.« – »So, so . . . « sagte die Prinzessin, »Und hier habe ich dir auch etwas mitgebracht, eine Puppe! Da! Spielst du denn auch schön mit den andern Mädchen?« Das Kind sah angstvoll hoch und nahm die Puppe; seine Augen verdunkelten sich, es schluckte, schluckte noch einmal, ließ dann plötzlich den Kopf sinken und fing an zu weinen. Es war so jämmerlich. Das Weinen warf alles um. Frau Adriani sprang auf und nahm das Kind bei der Hand.",
+      "en": "'We go to the cemetery every few weeks; that is our duty, naturally. And the grave is well kept there; I supervise that; I bear the responsibility.' – 'I see, I see...' said the princess. 'And look, I've brought you something too, a doll! Here! Do you play nicely with the other girls?' The child looked up fearfully and took the doll; her eyes darkened, she swallowed, swallowed again, then suddenly let her head drop and began to cry. It was so pitiful. The crying upset everything. Frau Adriani jumped up and took the child by the hand.",
+      "explain_en": "‘die Pflicht’ = duty. ‘pflegen’ = to look after, care for (a grave, a garden, a person). ‘überwachen’ = to supervise. ‘die Verantwortung tragen’ = to bear responsibility. ‘So, so’ = I see (a bit doubtful). ‘angstvoll’ = fearful. ‘jämmerlich’ = pitiful. ‘umwerfen’ = to knock over, upset – the crying ruins Frau Adriani's performance.",
+      "words": [
+        {
+          "de": "der Friedhof, die Friedhöfe",
+          "en": "cemetery"
+        },
+        {
+          "de": "die Pflicht, die Pflichten",
+          "en": "duty"
+        },
+        {
+          "de": "pflegen",
+          "en": "to look after, to care for"
+        },
+        {
+          "de": "die Verantwortung",
+          "en": "responsibility"
+        },
+        {
+          "de": "die Puppe, die Puppen",
+          "en": "doll"
+        },
+        {
+          "de": "jämmerlich",
+          "en": "pitiful"
+        },
+        {
+          "de": "aufspringen",
+          "en": "to jump up"
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "type": "summary",
+      "covers": "Chapter 4, sections 2–3 and Chapter 5, section 1 (beginning)",
+      "en": "Before Ada is taken away, Peter quickly tells her: “If you ever need to tell your Mummy something important, we live at Gripsholm Castle!” Frau Adriani throws them out, threatening to call the police. The friends visit little Will's tiny grave, and Peter cries. That evening they phone Zurich: Frau Collin agrees to send a letter allowing them to take Ada away, together with a cheque. Billie stays a few more days, and the three of them grow very close; then Billie leaves, and Peter and Lydia's last days begin. Frau Collin's letter still hasn't come. At last it arrives. Then, during lunch, the landlady hurries in:"
+    },
+    {
+      "n": 71,
+      "de": "»Da ist ein Kind draußen«, sagte sie und sah uns ganz leicht misstrauisch an, »ein kleines Mädchen – sie weiß nicht, was Sie heißen, aber sie sagt, sie will zu den Mann und der Frau, die ihr eine Puppe gegeben hat, und sie weinten die ganze Zeit und sie bin so rot im Gesicht . . . Kennen Sie das Kind?« Wir standen gleich auf. »O ja – das Kind kennen wir schon.« Hinaus.",
+      "en": "'There's a child outside,' she said, looking at us just a little suspiciously, 'a little girl – she doesn't know what your name is, but she says she wants to go to the man and the woman who gave her a doll, and she's been crying the whole time and she's so red in the face... Do you know the child?' We stood up at once. 'Oh yes – we know that child all right.' Outside.",
+      "explain_en": "Frau Andersson speaks her own German, translated word for word from Swedish. Standard German would be: ‘wie Sie heißen’ (not ‘was’), ‘zu dem Mann’ (not ‘den’), ‘sie hat die ganze Zeit geweint’ and ‘sie ist so rot’ (not ‘sie bin’). ‘misstrauisch’ = suspicious. ‘Hinaus.’ = (We went) outside.",
+      "words": [
+        {
+          "de": "draußen",
+          "en": "outside"
+        },
+        {
+          "de": "misstrauisch",
+          "en": "suspicious"
+        },
+        {
+          "de": "heißen",
+          "en": "to be called"
+        },
+        {
+          "de": "die Puppe, die Puppen",
+          "en": "doll"
+        },
+        {
+          "de": "das Gesicht, die Gesichter",
+          "en": "face"
+        },
+        {
+          "de": "aufstehen",
+          "en": "to stand up"
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "de": "Da stand der kleine Gegenstand.\nSie sah recht zerrupft aus, verweint, die Haare hingen ihr ins Gesicht, vielleicht war sie schnell gelaufen. Das Kind war nicht recht bei sich. Als es Lydia sah, lief es rasch auf sie zu und versteckte sein Gesicht an ihrem Kleid. »Was hast du denn? Was ist denn?« Die Prinzessin beugte sich nieder und verwandelte sich aus dem Sportmädchen von heute Morgen in eine Mama; nein, sie war beides. Die Schlossfrau stand dabei, ein Schwamm der Neugierde – sie saugte es alles auf. Also?",
+      "en": "There stood the little object. She looked quite dishevelled and tear-stained, her hair hanging in her face; perhaps she had been running fast. The child wasn't quite herself. When she saw Lydia, she ran straight to her and hid her face in her dress. 'What's the matter? What is it?' The princess bent down and changed from the sporty girl of that morning into a mummy – no, she was both. The castle landlady stood by, a sponge of curiosity – she soaked it all up. Well?",
+      "explain_en": "‘der kleine Gegenstand’ (the little object) is Peter's joking, loving name for Ada. ‘zerrupft’ = ruffled, dishevelled. ‘nicht recht bei sich sein’ = not to be quite oneself. ‘verstecken’ = to hide. ‘Was hast du denn?’ = What's wrong? – very common. ‘sich verwandeln in’ = to turn into. ‘die Neugierde’ (today usually ‘die Neugier’) = curiosity. ‘aufsaugen’ = to soak up.",
+      "words": [
+        {
+          "de": "der Gegenstand, die Gegenstände",
+          "en": "object"
+        },
+        {
+          "de": "verweint",
+          "en": "tear-stained"
+        },
+        {
+          "de": "das Kleid, die Kleider",
+          "en": "dress"
+        },
+        {
+          "de": "Was hast du denn?",
+          "en": "What's wrong?"
+        },
+        {
+          "de": "sich verwandeln in",
+          "en": "to turn into"
+        },
+        {
+          "de": "die Neugier",
+          "en": "curiosity",
+          "note": "text: die Neugierde"
+        },
+        {
+          "de": "der Schwamm, die Schwämme",
+          "en": "sponge"
+        }
+      ]
+    },
+    {
+      "n": 73,
+      "de": "Das rote Weib hatte das Kind geprügelt und geknufft und so laut geschrien; das Kind war fortgelaufen. Es war wohl nicht mehr auszuhalten gewesen. Und nun zitterte das Kind und zitterte und sah nach der Tür. Kam sie –? Frau Adriani würde sie holen. Frau Adriani würde sie holen. Es war nur bruchstückweise aus ihr herauszubekommen, was es gegeben hatte. Schließlich wussten wir alles.",
+      "en": "The red woman had beaten and shoved the child and shouted so loudly; the child had run away. It had probably become unbearable. And now the child was trembling and trembling and looking at the door. Was she coming –? Frau Adriani would come and fetch her. Frau Adriani would come and fetch her. We could only get out of her in bits and pieces what had happened. In the end we knew everything.",
+      "explain_en": "‘das rote Weib’ – ‘Weib’ is an old word for woman; today it sounds rude. ‘prügeln’ = to beat; ‘knuffen’ = to shove, poke. ‘nicht auszuhalten’ = unbearable (aushalten = to bear, to stand – very useful: ‘Ich halte das nicht aus!’). ‘zittern’ = to tremble. ‘bruchstückweise’ = in fragments, bit by bit. ‘Was hat es gegeben?’ = What happened?",
+      "words": [
+        {
+          "de": "prügeln",
+          "en": "to beat"
+        },
+        {
+          "de": "fortlaufen",
+          "en": "to run away"
+        },
+        {
+          "de": "aushalten",
+          "en": "to bear, to stand"
+        },
+        {
+          "de": "zittern",
+          "en": "to tremble"
+        },
+        {
+          "de": "holen",
+          "en": "to fetch"
+        },
+        {
+          "de": "bruchstückweise",
+          "en": "bit by bit"
+        },
+        {
+          "de": "schließlich",
+          "en": "in the end, finally"
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "type": "summary",
+      "covers": "Chapter 5, section 1 (middle)",
+      "en": "Peter and Lydia decide they will never hand Ada back. Frau Adriani telephones and threatens to report them for kidnapping unless the child is returned within half an hour. Peter calmly promises to come. They have to take Ada with them to collect her things, and she is terrified. At the home, Frau Adriani speaks to Ada in a falsely sweet voice, refuses to let her off her punishment, and tells Peter and Lydia to bring up their own children instead. She thinks she has won."
+    },
+    {
+      "n": 75,
+      "de": "Ich sah ihr fest in die Augen . . . einen Augenblick lang noch ließ ich sie zappeln in ihrer wahnwitzigen und ungeduldigen Wut. Immer liefen ihre flinken Augen von uns zu dem Kind und wieder zurück, sie wartete auf das Kind. Ich überlegte, wie viel Menschen auf der Welt in der Gewalt solcher da sein mochten, und wie das nun wäre, wenn wir ihr das Kind wirklich überlassen müssten, und was die andern Kinder hier auszustehen hätten . . . »Also – jetzt werde ich das Nötige in die Wege leiten . . . « Frau Adriani stand auf. Da packte ich zu.",
+      "en": "I looked her firmly in the eyes... for a moment longer I let her wriggle in her insane, impatient rage. Her quick eyes kept darting from us to the child and back; she was waiting for the child. I thought about how many people in the world might be in the power of women like her, and what it would be like if we really had to leave the child to her, and what the other children here had to put up with... 'So – now I shall make the necessary arrangements...' Frau Adriani stood up. Then I struck.",
+      "explain_en": "Peter waits for the right moment, like a hunter. ‘jemanden zappeln lassen’ = to keep someone on tenterhooks (literally: let them wriggle like a fish on a hook). ‘wahnwitzig’ = insane. ‘die Wut’ = rage. ‘in der Gewalt von’ = in the power of. ‘überlassen’ = to leave (something) to someone. ‘ausstehen’ = to endure. ‘in die Wege leiten’ = to arrange, set in motion. ‘zupacken’ = to grab, to act decisively.",
+      "words": [
+        {
+          "de": "die Wut",
+          "en": "rage"
+        },
+        {
+          "de": "zappeln",
+          "en": "to wriggle"
+        },
+        {
+          "de": "ungeduldig",
+          "en": "impatient"
+        },
+        {
+          "de": "die Gewalt",
+          "en": "power; violence"
+        },
+        {
+          "de": "überlassen",
+          "en": "to leave to"
+        },
+        {
+          "de": "ausstehen",
+          "en": "to endure, to put up with"
+        },
+        {
+          "de": "in die Wege leiten",
+          "en": "to arrange"
+        },
+        {
+          "de": "zupacken",
+          "en": "to strike, to act decisively"
+        }
+      ]
+    },
+    {
+      "n": 76,
+      "de": "»Das Kind wird nicht bei Ihnen bleiben«, sagte ich.\n»Waaas –?« brüllte sie und stemmte die Arme in die Seite. »Wir nehmen das Kind zu seiner Mutter zurück. Hier ist ein Brief von Frau Collin, hier ist ein Scheck . . . wir werden gleich bezahlen . . . «\nÜber das Gesicht der Frau lief wie eine Welle überkochende Milch ein Schreck; man sah, wie es in ihr dachte; man hörte sie denken, sie glaubte nicht. »Das ist nicht wahr!« – »Doch, das ist wahr.",
+      "en": "'The child will not be staying with you,' I said. 'Whaaat –?' she bellowed, putting her hands on her hips. 'We are taking the child back to her mother. Here is a letter from Frau Collin, here is a cheque... we'll pay straight away...' A shock ran over the woman's face like a wave of milk boiling over; you could see her thinking; you could hear her thinking; she didn't believe it. 'That's not true!' – 'Oh yes, it is true.'",
+      "explain_en": "The big moment: Peter produces the mother's letter. ‘die Arme in die Seite stemmen’ = to put one's hands on one's hips. ‘der Scheck’ = cheque. ‘überkochen’ = to boil over – a very visual comparison. ‘der Schreck’ = shock, fright. ‘Doch’ contradicts a negative statement: ‘Das ist nicht wahr!’ – ‘Doch!’ (Yes, it is!) – very important in German.",
+      "words": [
+        {
+          "de": "bleiben",
+          "en": "to stay"
+        },
+        {
+          "de": "brüllen",
+          "en": "to bellow, to roar"
+        },
+        {
+          "de": "der Brief, die Briefe",
+          "en": "letter"
+        },
+        {
+          "de": "der Scheck, die Schecks",
+          "en": "cheque"
+        },
+        {
+          "de": "überkochen",
+          "en": "to boil over"
+        },
+        {
+          "de": "der Schreck",
+          "en": "shock, fright"
+        },
+        {
+          "de": "doch",
+          "en": "yes (contradicting a negative)"
+        }
+      ]
+    },
+    {
+      "n": 77,
+      "de": "Nun kommen Sie nur – setzen Sie sich wieder hin . . . ich werde Ihnen das alles hübsch der Reihe nach übergeben.« – »Du gehst nach oben!« herrschte sie das Kind an. »Das Kind bleibt hier«, sagte ich. »Das ist der Brief. Die Unterschrift ist beglaubigt.« Frau Adriani riss ihn mir aus der Hand.\nDann warf sie ihn der Prinzessin vor die Füße. »Das ist der Dank!« schrie sie. »Das ist der Dank! Dafür habe ich mich um diesen verwahrlosten Balg gekümmert! Dafür habe ich für sie gesorgt! Aber das . . . das haben Sie der Frau Collin eingeredet! Sie haben sie aufgehetzt! Sie haben mich verleumdet! Das werde ich . . . Raus! Sie . . . !«",
+      "en": "'Now come along – sit down again... I'll hand it all over to you nicely, one thing after another.' – 'You go upstairs!' she snapped at the child. 'The child stays here,' I said. 'This is the letter. The signature is certified.' Frau Adriani snatched it out of my hand. Then she threw it at the princess's feet. 'That's the thanks I get!' she screamed. 'That's the thanks! For this I looked after this neglected brat! For this I cared for her! But this... you talked Frau Collin into this! You stirred her up! You slandered me! I'll... Out! You...!'",
+      "explain_en": "‘der Reihe nach’ = one after another, in order. ‘anherrschen’ = to snap at. ‘die Unterschrift’ = signature. ‘beglaubigt’ = officially certified. ‘Das ist der Dank!’ = That's the thanks I get! – still said. ‘verwahrlost’ = neglected. ‘der Balg’ = brat (rude). ‘jemandem etwas einreden’ = to talk someone into something. ‘verleumden’ = to slander. ‘Raus!’ = Get out!",
+      "words": [
+        {
+          "de": "der Reihe nach",
+          "en": "one after another"
+        },
+        {
+          "de": "die Unterschrift, die Unterschriften",
+          "en": "signature"
+        },
+        {
+          "de": "beglaubigt",
+          "en": "certified"
+        },
+        {
+          "de": "der Dank",
+          "en": "thanks"
+        },
+        {
+          "de": "verwahrlost",
+          "en": "neglected"
+        },
+        {
+          "de": "jemandem etwas einreden",
+          "en": "to talk someone into something"
+        },
+        {
+          "de": "verleumden",
+          "en": "to slander"
+        },
+        {
+          "de": "Raus!",
+          "en": "Get out!"
+        }
+      ]
+    },
+    {
+      "n": 78,
+      "type": "summary",
+      "covers": "Chapter 5, section 1 (end)",
+      "en": "When she sees the cheque, Frau Adriani suddenly becomes cold and businesslike and demands extra money for things the child has supposedly broken. Peter refuses. Then she tries tears – she is a hard-working woman, a mother to the children – and when that doesn't work either, she swears at them. They go upstairs to pack Ada's things while frightened girls peer out of every door. When Frau Adriani steps towards Ada, Peter moves between them. Looking into her eyes, he understands what drives her: a hunger for power."
+    },
+    {
+      "n": 79,
+      "de": "Das Mädchen kam mit dem Koffer; wir packten, schweigend. Einmal riss die Frau ein Hemdchen an sich und warf es wieder hin. Das Kind hielt die Hand der Prinzessin. Die Mädchen in ihrer Ecke atmeten kaum. Frau Adriani sah zu ihnen hinüber und ruckte mit dem Kopf, da gingen sie schlurfend zur Tür hinaus. Der Koffer wurde geschlossen. Wir trugen ihn hinunter. Ein Mädchen wollte uns helfen – Frau Adriani verbot es mit einer Handbewegung. Der Koffer war nicht schwer. Das Kind ging eilig mit; es weinte nicht mehr. Ich hörte es einmal tief aufatmen.",
+      "en": "The maid came with the suitcase; we packed in silence. Once the woman snatched up a little shirt and threw it down again. The child held the princess's hand. The girls in their corner hardly breathed. Frau Adriani looked over at them and jerked her head, and they shuffled out of the door. The suitcase was closed. We carried it downstairs. A girl wanted to help us – Frau Adriani forbade it with a wave of her hand. The suitcase wasn't heavy. The child walked quickly along with us; she wasn't crying any more. Once I heard her take a deep breath of relief.",
+      "explain_en": "Short sentences make the scene tense and quiet. ‘das Mädchen’ here means a maid (‘Dienstmädchen’). ‘der Koffer’ = suitcase. ‘schweigend’ = in silence. ‘an sich reißen’ = to snatch. ‘kaum’ = hardly. ‘schlurfen’ = to shuffle. ‘verbieten’ = to forbid. ‘aufatmen’ = to breathe a sigh of relief – Ada feels free.",
+      "words": [
+        {
+          "de": "der Koffer, die Koffer",
+          "en": "suitcase"
+        },
+        {
+          "de": "packen",
+          "en": "to pack"
+        },
+        {
+          "de": "schweigend",
+          "en": "in silence"
+        },
+        {
+          "de": "atmen",
+          "en": "to breathe"
+        },
+        {
+          "de": "verbieten",
+          "en": "to forbid"
+        },
+        {
+          "de": "schwer",
+          "en": "heavy; difficult"
+        },
+        {
+          "de": "aufatmen",
+          "en": "to breathe a sigh of relief"
+        }
+      ]
+    },
+    {
+      "n": 80,
+      "de": "»Die Quittung?« Frau Adriani ging auf ihren Tisch zu, schrieb etwas auf ein Blatt und reichte es mir, wie mit der Feuerzange. Um ein Haar hätte sie mir leidgetan, aber ich wusste, wie gefährlich dieses Mitleid war und wie verschwendet. Es hätte ihr nicht einmal gutgetan, denn von diesem Seelenhonorar kauft sie sich neue Kulissen, und alles fängt wieder von vorn an. Ich gab ihr den Scheck. Ich sah auf ihr Gesicht. Der Vorhang war heruntergelassen – jetzt wurde nicht mehr gespielt. Das Stück war aus.\nLangsam gingen wir aus dem Hause, in dem das Kind so viel gelitten hatte.\nKeiner von uns sah mehr zurück. Die Haustür wurde geschlossen.",
+      "en": "'The receipt?' Frau Adriani went to her desk, wrote something on a sheet of paper and handed it to me as if with fire tongs. She very nearly made me feel sorry for her, but I knew how dangerous that pity was, and how wasted. It wouldn't even have done her any good, because with this payment for her soul she buys herself new scenery, and everything starts all over again. I gave her the cheque. I looked at her face. The curtain had come down – there was no more acting now. The play was over. Slowly we walked out of the house in which the child had suffered so much. None of us looked back. The front door was closed.",
+      "explain_en": "Tucholsky compares Frau Adriani to an actress: ‘die Kulissen’ = stage scenery, ‘der Vorhang’ = curtain, ‘das Stück’ = play. ‘die Quittung’ = receipt. ‘wie mit der Feuerzange’ = as if with tongs, i.e. with disgust. ‘um ein Haar’ = very nearly. ‘Sie tut mir leid’ = I feel sorry for her – very useful. ‘das Mitleid’ = pity. ‘leiden’ (litt, gelitten) = to suffer.",
+      "words": [
+        {
+          "de": "die Quittung, die Quittungen",
+          "en": "receipt"
+        },
+        {
+          "de": "um ein Haar",
+          "en": "very nearly"
+        },
+        {
+          "de": "jemandem leidtun",
+          "en": "to make someone feel sorry"
+        },
+        {
+          "de": "das Mitleid",
+          "en": "pity"
+        },
+        {
+          "de": "der Vorhang, die Vorhänge",
+          "en": "curtain"
+        },
+        {
+          "de": "leiden",
+          "en": "to suffer"
+        },
+        {
+          "de": "zurücksehen",
+          "en": "to look back"
+        }
+      ]
+    },
+    {
+      "n": 81,
+      "type": "summary",
+      "covers": "Chapter 5, section 2 (beginning)",
+      "en": "The last day of the holiday. Peter wonders why they don't just stay at Gripsholm forever, but he knows that worries would follow them: a place is only beautiful for those passing through. They say goodbye to the landlady and take the little train to Stockholm with Ada, who slowly tells them everything she went through. On the long journey home Lydia mothers her. Peter thinks their five weeks together were perfect, without a single quarrel – “anyone can manage a short happiness”. At night in Trelleborg the train is pushed onto the ferry, and a brightly lit passenger ship glides past with music playing."
+    },
+    {
+      "n": 82,
+      "de": "Dann stand unser Wagen auf der Fähre. Das Schiff erzitterte leise. Die Lichter an der Küste wurden immer kleiner und kleiner, dann versanken sie in der blauen Nachtluft.\nWir standen an Deck. Die Prinzessin sog den salzigen Atem des Meeres ein. »Daddy – ich bedanke mich auch schön für diesen Sommer!« – »Nein, Alte – ich bedanke mich bei dir!« Sie sah über die dunkle See. »Das Meer . . . « sagte sie leise, »das Meer . . . « Hinter uns lag Schweden, Schweden und ein Sommer.",
+      "en": "Then our carriage stood on the ferry. The ship trembled softly. The lights on the coast grew smaller and smaller, then they sank into the blue night air. We stood on deck. The princess breathed in the salty breath of the sea. 'Daddy – thank you so much for this summer!' – 'No, old girl – I'm the one who thanks you!' She looked out over the dark sea. 'The sea...' she said quietly, 'the sea...' Behind us lay Sweden, Sweden and a summer.",
+      "explain_en": "A quiet goodbye. ‘der Wagen’ here = railway carriage. ‘erzittern’ = to tremble. ‘versinken’ = to sink. ‘an Deck’ = on deck. ‘einsaugen’ = to breathe in, suck in. ‘sich bedanken für’ = to say thank you for – very useful. ‘Daddy’ is Lydia's pet name for Peter. ‘die See’ = the sea (feminine!), but ‘der See’ = the lake.",
+      "words": [
+        {
+          "de": "die Fähre, die Fähren",
+          "en": "ferry"
+        },
+        {
+          "de": "die Küste, die Küsten",
+          "en": "coast"
+        },
+        {
+          "de": "versinken",
+          "en": "to sink"
+        },
+        {
+          "de": "salzig",
+          "en": "salty"
+        },
+        {
+          "de": "sich bedanken für",
+          "en": "to say thank you for"
+        },
+        {
+          "de": "die See",
+          "en": "the sea",
+          "note": "but: der See = lake"
+        },
+        {
+          "de": "hinter",
+          "en": "behind"
+        }
+      ]
+    },
+    {
+      "n": 83,
+      "de": "Später saßen wir im Speisesaal in einer Ecke und aßen und tranken. »Auf den Urlaub, Alte!« – »Auf was noch?«\n»Auf Karlchen!« – »Hoch!«\n»Auf Billie!« – »Hoch!«\n»Auf die Adriani!« – »Nieder!«\n»Auf deinen Generalkonsul!« – »Mittelhoch!«\n»Das sind alles keine Trinksprüche, Daddy. Weißt du keinen andern? Du weißt einen andern. Na?«\nIch wusste, was sie meinte. »Martje Flor«, sagte ich.\n»Martje Flor!«",
+      "en": "Later we sat in a corner of the dining room, eating and drinking. 'To the holiday, old girl!' – 'And to what else?' 'To Karlchen!' – 'Cheers!' 'To Billie!' – 'Cheers!' 'To Adriani!' – 'Down with her!' 'To your General Consul!' – 'Half cheers!' 'Those aren't proper toasts, Daddy. Don't you know another one? You do know another one. Well?' I knew what she meant. 'Martje Flor,' I said. 'Martje Flor!'",
+      "explain_en": "They drink toasts to everyone in the story. ‘Auf …!’ = (Here's) to …! ‘Hoch!’ = cheers, hurrah (from ‘Er lebe hoch!’); ‘Nieder!’ = down with …; ‘Mittelhoch’ (half-cheers) is Peter's joke. ‘der Trinkspruch’ = toast. Martje Flor is the heroine of a North Frisian legend – the next part explains who she was.",
+      "words": [
+        {
+          "de": "der Speisesaal, die Speisesäle",
+          "en": "dining room"
+        },
+        {
+          "de": "die Ecke, die Ecken",
+          "en": "corner"
+        },
+        {
+          "de": "der Urlaub, die Urlaube",
+          "en": "holiday"
+        },
+        {
+          "de": "Auf …!",
+          "en": "Here's to …!"
+        },
+        {
+          "de": "der Trinkspruch, die Trinksprüche",
+          "en": "toast"
+        },
+        {
+          "de": "meinen",
+          "en": "to mean"
+        }
+      ]
+    },
+    {
+      "n": 84,
+      "de": "Das war jene friesische Bauerntochter gewesen, die im Dreißigjährigen Kriege von den Landsknechten an den Tisch gezerrt wurde; sie hatten alles ausgeräubert, den Weinkeller und die Räucherkammer, die Obstbretter und den Wäscheschrank, und der Bauer stand daneben und rang die Hände. Roh hatten sie das Mädchen herbeigeholt – he! da stand sie, trotzig und gar nicht verängstigt. Sie sollte einen Trinkspruch ausbringen! Und warfen dem Bauern eine Flasche an den Kopf und drückten ihr ein volles Glas in die Hand.\nDa hob Martje Flor Stimme und Glas, und es wurde ganz still in dem kleinen Zimmer, als sie ihre Worte sagte, und alle Niederdeutschen kennen sie.\n»Up dat es uns wohl goh up unsre ohlen Tage –!« sagte sie.",
+      "en": "She was that Frisian farmer's daughter who, in the Thirty Years' War, was dragged to the table by mercenaries; they had plundered everything, the wine cellar and the smokehouse, the fruit shelves and the linen cupboard, and the farmer stood by wringing his hands. They had roughly fetched the girl – hey! there she stood, defiant and not frightened at all. She was to propose a toast! And they threw a bottle at the farmer's head and pressed a full glass into her hand. Then Martje Flor raised her voice and her glass, and the little room went completely quiet as she spoke her words, and all North Germans know them. 'May all be well with us in our old days –!' she said.",
+      "explain_en": "The last words of the book are in Low German – in standard German: ‘Auf dass es uns wohlgehe in unseren alten Tagen!’ (May we be well in our old age). It's a wish for a love that lasts. ‘der Landsknecht’ = mercenary soldier. ‘ausräubern’ = to plunder. ‘die Hände ringen’ = to wring one's hands. ‘trotzig’ = defiant. ‘einen Trinkspruch ausbringen’ = to propose a toast.",
+      "words": [
+        {
+          "de": "der Krieg, die Kriege",
+          "en": "war"
+        },
+        {
+          "de": "zerren",
+          "en": "to drag"
+        },
+        {
+          "de": "die Hände ringen",
+          "en": "to wring one's hands"
+        },
+        {
+          "de": "trotzig",
+          "en": "defiant"
+        },
+        {
+          "de": "verängstigt",
+          "en": "frightened"
+        },
+        {
+          "de": "einen Trinkspruch ausbringen",
+          "en": "to propose a toast"
+        },
+        {
+          "de": "still",
+          "en": "quiet"
         }
       ]
     }

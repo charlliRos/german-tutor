@@ -6,7 +6,7 @@
   "year": 1937,
   "level": "B1-B2",
   "source": "https://www.literaturdownload.at/pdf/Horvath_-_Jugend_ohne_Gott.pdf",
-  "orthography": "modernised to current German spelling (dass, muss, Schlussfolgerung, im Klaren, gestern Nachmittag, ...); wording unchanged",
+  "orthography": "modernised to current German spelling (dass, muss, Schlussfolgerung, im Klaren, gestern Nachmittag, ...); wording unchanged; PDF line-break artefacts joined (wider sprechen → widersprechen etc.) and one typo fixed (m einem → in einem)",
   "intro_en": "Ödön von Horváth (1901–1938) wrote “Jugend ohne Gott” (Youth Without God) in 1937, in exile from Nazi Germany; the Nazis banned it straight away. A 34-year-old teacher in an unnamed fascist country watches his pupils turn into cold, obedient young people who only repeat what the radio says – and he has to decide whether he has the courage to speak up. It reads almost like a thriller, the sentences are short and modern, and German students still read it in school because its questions about courage and going along with the crowd haven't aged.",
   "units": [
     {
@@ -1119,6 +1119,1629 @@
         {
           "de": "verschwinden",
           "en": "to disappear"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "de": "Der Direktor hatte mich rufen lassen. „Hören Sie“, sagte er, „es kam hier ein Schreiben von der Aufsichtsbehörde. Ein gewisser Bäckermeister N hat sich über Sie beschwert, Sie sollen da so Äußerungen fallen gelassen haben. – Nun, ich kenne das und weiß, wie solche Beschwerden zustande kommen, mir müssen Sie nichts erklären! Doch, lieber Kollege, ist es meine Pflicht, Sie darauf aufmerksam zu machen, dass sich derlei nicht wiederholt. Sie vergessen das geheime Rundschreiben 5679 u/33! Wir müssen von der Jugend alles fernhalten, was nur in irgendeiner Weise ihre zukünftigen militärischen Fähigkeiten beeinträchtigen könnte – das heißt: wir müssen sie moralisch zum Krieg erziehen. Punkt!“",
+      "en": "The headmaster had sent for me. “Listen,” he said, “a letter has come from the education authority. A certain master baker N has complained about you – you're supposed to have let drop some remarks or other. Now, I know how it is, and I know how complaints like that come about; you don't have to explain anything to me! But, my dear colleague, it is my duty to point out to you that this sort of thing must not happen again. You are forgetting secret circular 5679 u/33! We must keep away from young people anything that could in any way harm their future military abilities – that means: we must educate them morally for war. Full stop!”",
+      "explain_en": "The master baker has gone over the teacher's head to the authorities. ‘jemanden rufen lassen’ = to send for someone. ‘sich beschweren über’ = to complain about – very common. ‘Äußerungen fallen lassen’ = to drop remarks. ‘jemanden auf etwas aufmerksam machen’ = to point something out to someone. ‘derlei’ is old-fashioned for ‘so etwas’. The ‘secret circular’ shows how the state controls schools: pupils must be prepared for war.",
+      "words": [
+        {
+          "de": "die Aufsichtsbehörde",
+          "en": "supervisory authority (here: education authority)"
+        },
+        {
+          "de": "sich beschweren über",
+          "en": "to complain about"
+        },
+        {
+          "de": "die Beschwerde, die Beschwerden",
+          "en": "complaint"
+        },
+        {
+          "de": "die Pflicht, die Pflichten",
+          "en": "duty"
+        },
+        {
+          "de": "aufmerksam machen auf",
+          "en": "to point out"
+        },
+        {
+          "de": "fernhalten",
+          "en": "to keep away"
+        },
+        {
+          "de": "erziehen",
+          "en": "to bring up, to educate"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "de": "Ich sah den Direktor an, er lächelte und erriet meine Gedanken. Dann erhob er sich und ging hin und her. Er ist ein schöner alter Mann, dachte ich.\n„Sie wundern sich“, sagte er plötzlich, „dass ich die Kriegsposaune blase, und Sie wundern sich mit Recht! Sie denken jetzt, siehe welch ein Mensch! Vor wenigen Jahren noch unterschrieb er flammende Friedensbotschaften, und heute? Heut rüstet er zur Schlacht!“\n„Ich weiß es, dass Sie es nur gezwungen tun“, suchte ich ihn zu beruhigen.",
+      "en": "I looked at the headmaster; he smiled and guessed my thoughts. Then he got up and walked up and down. He's a handsome old man, I thought. “You are surprised,” he said suddenly, “that I'm blowing the war trumpet, and you are right to be surprised! You're thinking now: behold, what a man! Only a few years ago he was signing fiery messages of peace, and today? Today he's arming for battle!” “I know you're only doing it because you're forced to,” I said, trying to calm him down.",
+      "explain_en": "‘erraten’ (erriet, erraten) = to guess. ‘sich erheben’ is formal for ‘aufstehen’. ‘sich wundern’ = to be surprised – very common: ‘Ich wundere mich, dass …’. ‘die Kriegsposaune blasen’ (to blow the war trumpet) means to call for war. ‘siehe’ is biblical (‘behold’). ‘rüsten’ = to arm, prepare for war (die Aufrüstung = rearmament). ‘suchte ich ihn zu beruhigen’ uses old ‘suchen zu’ = ‘versuchen zu’ (to try to).",
+      "words": [
+        {
+          "de": "erraten",
+          "en": "to guess"
+        },
+        {
+          "de": "sich erheben",
+          "en": "to get up",
+          "note": "formal; everyday: aufstehen"
+        },
+        {
+          "de": "sich wundern",
+          "en": "to be surprised"
+        },
+        {
+          "de": "der Frieden",
+          "en": "peace"
+        },
+        {
+          "de": "die Schlacht, die Schlachten",
+          "en": "battle"
+        },
+        {
+          "de": "gezwungen",
+          "en": "forced"
+        },
+        {
+          "de": "beruhigen",
+          "en": "to calm down"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "de": "Er horchte auf, blieb vor mir stehen und sah mich aufmerksam an. „Junger Mann“, sagte er ernst, „merken Sie sich eines: es gibt keinen Zwang. Ich könnte ja dem Zeitgeist widersprechen und mich von einem Herrn Bäckermeister einsperren lassen, ich könnte ja hier gehen, aber ich will nicht gehen, jawohl, ich will nicht! Denn ich möchte die Altersgrenze erreichen, um die volle Pension beziehen zu können.“\nDas ist ja recht fein, dachte ich.",
+      "en": "He pricked up his ears, stopped in front of me and looked at me closely. “Young man,” he said seriously, “remember one thing: there is no such thing as being forced. I could, after all, contradict the spirit of the age and let some master baker have me locked up; I could leave this place – but I don't want to leave, yes indeed, I don't want to! Because I'd like to reach retirement age so that I can draw my full pension.” That's very nice indeed, I thought.",
+      "explain_en": "The headmaster is honest in a cynical way: he goes along with the regime for the sake of his pension. ‘aufhorchen’ = to prick up one's ears. ‘sich etwas merken’ = to remember something (Merk dir das!). ‘der Zwang’ = compulsion. ‘der Zeitgeist’ (spirit of the age) is also used in English. ‘einsperren’ = to lock up. ‘Pension beziehen’ = to draw a pension; in Germany today ‘Pension’ is for civil servants, other people get ‘Rente’. ‘Das ist ja recht fein’ is ironic.",
+      "words": [
+        {
+          "de": "aufhorchen",
+          "en": "to prick up one's ears"
+        },
+        {
+          "de": "sich etwas merken",
+          "en": "to remember something"
+        },
+        {
+          "de": "widersprechen",
+          "en": "to contradict"
+        },
+        {
+          "de": "einsperren",
+          "en": "to lock up"
+        },
+        {
+          "de": "die Altersgrenze",
+          "en": "age limit, retirement age"
+        },
+        {
+          "de": "die Pension, die Pensionen",
+          "en": "pension (of civil servants)",
+          "note": "also: guesthouse"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "type": "summary",
+      "covers": "Chapter 'Die reichen Plebejer' (end)",
+      "en": "The headmaster says they live in a “plebeian world” – a world ruled by common people – and compares it to ancient Rome. When the teacher objects that it is really money that rules, the headmaster agrees and reminds him that in Rome there were also rich plebeians: they left the ordinary people and joined the old aristocracy to form a new ruling class. “Don't forget that again!” he says. The teacher understands: the people in power today are just such rich plebeians."
+    },
+    {
+      "n": 37,
+      "de": "Als ich zur nächsten Stunde die Klasse, in der ich mir erlaubte, etwas über die Neger zu sagen, betrete, fühle ich sogleich, dass etwas nicht in Ordnung ist. Haben die Herren meinen Stuhl mit Tinte beschmiert? Nein. Warum schauen sie mich nur so schadenfroh an?\nDa hebt einer die Hand. Was gibts? Er kommt zu mir, verbeugt sich leicht, überreicht mir einen Brief und setzt sich wieder.\nWas soll das?\nIch erbreche den Brief, überfliege ihn, möchte hochfahren, beherrsche mich jedoch und tue, als würd ich ihn genau lesen. Ja, alle haben ihn unterschrieben, alle fünfundzwanzig, der W ist noch immer krank.",
+      "en": "When, at the next lesson, I walk into the class where I took the liberty of saying something about the Negroes, I sense at once that something is wrong. Have the gentlemen smeared ink on my chair? No. So why are they looking at me with such malicious glee? Then one of them raises his hand. What is it? He comes up to me, bows slightly, hands me a letter and sits down again. What's this about? I open the letter, skim through it, want to jump up, but control myself and pretend to be reading it carefully. Yes, they've all signed it, all twenty-five – W is still ill.",
+      "explain_en": "This chapter is called ‘Das Brot’ (bread = his living). Notice the switch to the present tense. ‘sich erlauben, etwas zu tun’ = to take the liberty of doing something. ‘schadenfroh’ = gloating (die Schadenfreude, a word English borrowed). ‘Was gibts?’ = What's up? ‘einen Brief erbrechen’ is old for ‘öffnen’ – today ‘erbrechen’ means to vomit! ‘sich beherrschen’ = to control oneself. Important: ‘Neger’ is a racist slur today – never use it; say ‘Schwarze’ or ‘Schwarze Menschen’.",
+      "words": [
+        {
+          "de": "schadenfroh",
+          "en": "gloating"
+        },
+        {
+          "de": "überreichen",
+          "en": "to hand over"
+        },
+        {
+          "de": "überfliegen",
+          "en": "to skim (a text)"
+        },
+        {
+          "de": "sich beherrschen",
+          "en": "to control oneself"
+        },
+        {
+          "de": "unterschreiben",
+          "en": "to sign"
+        },
+        {
+          "de": "die Stunde, die Stunden",
+          "en": "lesson; hour"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "de": "„Wir wünschen nicht mehr“, steht in dem Brief, „von Ihnen unterrichtet zu werden, denn nach dem Vorgefallenen haben wir Endesunterzeichneten kein Vertrauen mehr zu Ihnen und bitten um eine andere Lehrkraft.“\nIch blicke die Endesunterzeichneten an, einen nach dem anderen. Sie schweigen und sehen mich nicht an. Ich unterdrücke meine Erregung und frage wie so nebenbei: „Wer hat das geschrieben?“\nKeiner meldet sich.\n„So seid doch nicht so feig!“\nSie rühren sich nicht.",
+      "en": "“We no longer wish,” it says in the letter, “to be taught by you, because after what has happened, we the undersigned no longer have any trust in you and ask for a different teacher.” I look at the undersigned, one after another. They are silent and don't look at me. I suppress my agitation and ask, as if in passing: “Who wrote this?” Nobody puts his hand up. “Don't be such cowards!” They don't move.",
+      "explain_en": "The whole class has turned against him. ‘die Endesunterzeichneten’ is stiff officialese; today ‘die Unterzeichnenden’. ‘das Vertrauen’ = trust (Vertrauen haben zu). ‘die Lehrkraft’ = teacher (official word, still used in schools). ‘sich melden’ in school = to put your hand up. ‘feig’ = ‘feige’ (cowardly). ‘sich rühren’ = to move, stir.",
+      "words": [
+        {
+          "de": "das Vertrauen",
+          "en": "trust"
+        },
+        {
+          "de": "die Lehrkraft, die Lehrkräfte",
+          "en": "teacher (official)"
+        },
+        {
+          "de": "schweigen",
+          "en": "to be silent"
+        },
+        {
+          "de": "unterdrücken",
+          "en": "to suppress"
+        },
+        {
+          "de": "sich melden",
+          "en": "to put one's hand up; to get in touch"
+        },
+        {
+          "de": "feige",
+          "en": "cowardly"
+        },
+        {
+          "de": "sich rühren",
+          "en": "to move, to stir"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "type": "summary",
+      "covers": "Chapters 'Das Brot' (end), 'Die Pest', 'Das Zeitalter der Fische' (beginning)",
+      "en": "Then the teacher sees a boy secretly writing down every word he says – they are spying on him. The headmaster shouts at the class like a good actor, but nothing changes. Alone at home, the teacher decides he will not lose his job: from now on he will only tell them what the radio says. He feels that hate has spread like a plague and that he is infected too. That night he goes to the cinema and then to a cheap bar, gets very drunk and meets a former colleague everyone calls “Julius Caesar”. After a scandal and a prison sentence, Caesar now sells cheap goods from door to door and wears a tiny skull tie-pin with a light inside. Caesar lectures him about the generations and tells him about a boy who secretly read a banned book."
+    },
+    {
+      "n": 40,
+      "de": "„Sie glauben also, dass einzelne von denen heimlich lesen?“\n„Ich weiß es. Bei jener Dame ist manchmal ein direktes Kränzchen, sie ist oft schon ganz außer sich. Die Buben lesen alles. Aber sie lesen nur, um spötteln zu können. Sie leben in einem Paradies der Dummheit, und ihr Ideal ist der Hohn. Es kommen kalte Zeiten, das Zeitalter der Fische.“\n„Der Fische?“\n„Ich bin zwar nur ein Amateurastrolog, aber die Erde dreht sich in das Zeichen der Fische hinein. Da wird die Seele des Menschen unbeweglich wie das Antlitz eines Fisches.“ –",
+      "en": "“So you think some of them read in secret?” “I know it. That lady sometimes has a regular little circle at her place, and she's often quite beside herself. The boys read everything. But they only read so they can sneer. They live in a paradise of stupidity, and their ideal is mockery. Cold times are coming – the Age of the Fish.” “Of the Fish?” “I'm only an amateur astrologer, but the earth is turning into the sign of Pisces. Then the human soul will become as motionless as the face of a fish.”",
+      "explain_en": "This is the key image of the novel: young people with ‘fish faces’ – cold, showing no feeling. Astrologers speak of the ‘Age of Pisces’ (Fische = fish and the star sign Pisces). ‘das Kränzchen’ = a small regular get-together (Kaffeekränzchen). ‘außer sich sein’ = to be beside oneself. ‘die Buben’ is southern German/Austrian for ‘die Jungen’. ‘spötteln’ = to make little mocking remarks; ‘der Hohn’ = scorn. ‘das Antlitz’ is poetic for ‘das Gesicht’.",
+      "words": [
+        {
+          "de": "heimlich",
+          "en": "secretly"
+        },
+        {
+          "de": "außer sich sein",
+          "en": "to be beside oneself"
+        },
+        {
+          "de": "der Bub, die Buben",
+          "en": "boy",
+          "note": "southern German/Austrian; standard: der Junge"
+        },
+        {
+          "de": "der Hohn",
+          "en": "scorn, mockery"
+        },
+        {
+          "de": "das Zeitalter",
+          "en": "age, era"
+        },
+        {
+          "de": "unbeweglich",
+          "en": "motionless"
+        },
+        {
+          "de": "das Antlitz",
+          "en": "face",
+          "note": "poetic; today: das Gesicht"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "type": "summary",
+      "covers": "Chapters 'Das Zeitalter der Fische' (end) and 'Der Tormann' (beginning)",
+      "en": "The teacher wakes up in a stranger's flat and goes home at dawn. A small man is waiting for him: the father of W, the boy who was ill. W caught pneumonia at the football stadium and is dying. In his fever he keeps asking to see his hero, the famous goalkeeper of the national team. The teacher knows where the goalkeeper lives and goes to fetch him. The goalkeeper leaves his breakfast, takes a taxi with him and sits quietly by the bed of the smallest boy in the class. “When are you playing England?” W asks. “Tell me, tell me!”"
+    },
+    {
+      "n": 42,
+      "de": "Und der Tormann erzählte. Er sprach von berühmt gewordenen Siegen und unverdienten Niederlagen, von strengen Schiedsrichtern und korrupten Linienrichtern. Er stand auf, nahm zwei Stühle, markierte mit ihnen das Tor und demonstrierte, wie er einst zwei Elfer hintereinander abgewehrt hatte. Er zeigte seine Narbe auf der Stirne, die er sich in Lissabon bei einer tollkühnen Parade geholt hatte. Und er sprach von fernen Ländern, in denen er sein Heiligtum hütete, von Afrika, wo die Beduinen mit dem Gewehr im Publikum sitzen, und von der schönen Insel Malta, wo das Spielfeld leider aus Stein besteht –",
+      "en": "And the goalkeeper told him. He talked about victories that had become famous and undeserved defeats, about strict referees and corrupt linesmen. He stood up, took two chairs, marked out the goal with them and showed how he had once saved two penalties in a row. He showed the scar on his forehead that he had got in Lisbon making a daring save. And he talked about faraway countries where he had guarded his sanctuary, about Africa, where the Bedouins sit in the crowd with rifles, and about the beautiful island of Malta, where the pitch is unfortunately made of stone –",
+      "explain_en": "A gentle scene with lots of football vocabulary. ‘der Tormann’ is Austrian; in Germany ‘der Torwart’. ‘der Elfer’ = penalty (today: ‘der Elfmeter’). ‘abwehren’ = to save, fend off. ‘die Parade’ here is a goalkeeper's save. ‘der Schiedsrichter’ = referee, ‘der Linienrichter’ = linesman. ‘sein Heiligtum hüten’ – calling the goal a ‘sanctuary’ – is a joke. ‘die Stirne’ is old for ‘die Stirn’.",
+      "words": [
+        {
+          "de": "der Tormann, die Tormänner",
+          "en": "goalkeeper",
+          "note": "Austrian; Germany: der Torwart"
+        },
+        {
+          "de": "der Sieg, die Siege",
+          "en": "victory"
+        },
+        {
+          "de": "die Niederlage, die Niederlagen",
+          "en": "defeat"
+        },
+        {
+          "de": "der Schiedsrichter",
+          "en": "referee"
+        },
+        {
+          "de": "der Elfmeter",
+          "en": "penalty",
+          "note": "text: der Elfer (colloquial)"
+        },
+        {
+          "de": "die Narbe, die Narben",
+          "en": "scar"
+        },
+        {
+          "de": "das Spielfeld",
+          "en": "pitch, playing field"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "de": "Und während der Tormann erzählte, schlief der kleine W ein. Mit einem seligen Lächeln, still und friedlich. – – –\nDas Begräbnis fand an einem Mittwoch statt, nachmittags um halb zwei. Die Märzsonne schien, Ostern war nicht mehr weit.\n\fWir standen um das offene Grab. Der Sarg lag schon drunten.\nDer Direktor war anwesend mit fast allen Kollegen, nur der Physiker fehlte, ein Sonderling. Der Pfarrer hielt die Grabrede, die Eltern und einige Verwandte verharrten regungslos.\nUnd im Halbkreis uns gegenüber standen die Mitschüler des Verstorbenen, die ganze Klasse, alle fünfundzwanzig.\nNeben dem Grab lagen die Blumen. Ein schöner Kranz trug auf einer gelb-grünen Schleife die Worte: „Letzte Grüße Dein Tormann.“",
+      "en": "And while the goalkeeper was talking, little W fell asleep. With a blissful smile, quiet and peaceful. The funeral took place on a Wednesday, at half past one in the afternoon. The March sun was shining; Easter was not far off. We stood around the open grave. The coffin was already down below. The headmaster was there with almost all the teachers; only the physics teacher was missing, an odd character. The priest gave the graveside speech; the parents and a few relatives stood motionless. And in a semicircle opposite us stood the dead boy's classmates, the whole class, all twenty-five. The flowers lay next to the grave. On a yellow-and-green ribbon, a beautiful wreath bore the words: “Last greetings, your goalkeeper.”",
+      "explain_en": "‘einschlafen’ here gently tells us that W died – the dashes mark the silence. ‘selig’ = blissful (also ‘blessed’, used of the dead). ‘halb zwei’ = half past one (not half past two!). ‘das Begräbnis’ = funeral (also ‘die Beerdigung’). ‘stattfinden’ = to take place – very useful. ‘drunten’ is southern German for ‘da unten’. ‘der Sonderling’ = odd person, loner. ‘der Verstorbene’ = the deceased.",
+      "words": [
+        {
+          "de": "einschlafen",
+          "en": "to fall asleep"
+        },
+        {
+          "de": "das Begräbnis, die Begräbnisse",
+          "en": "funeral"
+        },
+        {
+          "de": "stattfinden",
+          "en": "to take place"
+        },
+        {
+          "de": "das Grab, die Gräber",
+          "en": "grave"
+        },
+        {
+          "de": "der Sarg, die Särge",
+          "en": "coffin"
+        },
+        {
+          "de": "der Kranz, die Kränze",
+          "en": "wreath"
+        },
+        {
+          "de": "der/die Verstorbene",
+          "en": "the deceased"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "type": "summary",
+      "covers": "Chapter 'Der Tormann' (end)",
+      "en": "During the priest's speech the teacher notices N among the boys. N's face shows nothing, but when he looks at the teacher, the teacher feels that N is his deadly enemy and wishes him dead. He decides not to show that he knows what N is thinking, and to keep his modest ideals to himself: other generations will come after N."
+    },
+    {
+      "n": 45,
+      "de": "Und wie ich so dachte, spürte ich, dass mich außer dem N noch einer anstarrte. Es war der T.\nEr lächelte leise, überlegen und spöttisch.\nHat er meine Gedanken erraten?\nEr lächelte noch immer, seltsam starr.\nZwei helle runde Augen schauen mich an. Ohne Schimmer, ohne Glanz.\nEin Fisch?",
+      "en": "And as I was thinking this, I sensed that someone besides N was staring at me. It was T. He was smiling faintly, superior and mocking. Had he guessed my thoughts? He was still smiling, strangely fixed. Two pale, round eyes are looking at me. Without a gleam, without a shine. A fish?",
+      "explain_en": "T is introduced here – remember him! His eyes remind the teacher of Julius Caesar's ‘Age of the Fish’. ‘anstarren’ = to stare at. ‘überlegen’ as an adjective = superior (as a verb: to think about). ‘spöttisch’ = mocking. ‘starr’ = rigid, fixed. Notice the change from past to present tense – the memory becomes vivid.",
+      "words": [
+        {
+          "de": "anstarren",
+          "en": "to stare at"
+        },
+        {
+          "de": "überlegen",
+          "en": "superior (adj.); to consider (verb)"
+        },
+        {
+          "de": "spöttisch",
+          "en": "mocking"
+        },
+        {
+          "de": "erraten",
+          "en": "to guess"
+        },
+        {
+          "de": "starr",
+          "en": "rigid, fixed"
+        },
+        {
+          "de": "der Schimmer",
+          "en": "gleam, shimmer"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "type": "summary",
+      "covers": "Chapter 'Der totale Krieg' (beginning)",
+      "en": "For some years now, the authorities have used the Easter holidays for “tent camps” – military training for schoolboys. The class travels by bus to a poor mountain village. The mayor shows the teacher a big sawmill that was closed down to make more profit, and the village teacher explains that half the villagers do badly paid work at home and a third of the children are underfed. The priest warns him that a class of girls is staying in a castle nearby. Up on a meadow, a retired sergeant (Feldwebel) and the boys put up the tents. Next to the flagpole stands a big crate full of rifles, and the targets are wooden soldiers in a foreign uniform. In the evening they sing soldiers' songs."
+    },
+    {
+      "n": 47,
+      "de": "Es wird Nacht.\nWir gehen schlafen. „Morgen beginnt der Ernst!“ meint der Feldwebel.\nEr schläft mit mir im selben Zelt.\nIch entzünde noch mal meine Taschenlampe, um nach der Uhr zu sehen, und entdecke dabei auf der Zeltwand neben mir einen braunroten Fleck.\nWas ist das?\nUnd ich denke, morgen beginnt der Ernst. Ja, der Ernst. In einer Kiste neben der Fahnenstange liegt der Krieg. Ja, der Krieg.",
+      "en": "Night falls. We go to bed. “Tomorrow things get serious!” says the sergeant. He sleeps in the same tent as me. I switch on my torch once more to look at my watch, and as I do so I discover a reddish-brown stain on the tent wall beside me. What is that? And I think: tomorrow things get serious. Yes, serious. In a crate next to the flagpole lies war. Yes, war.",
+      "explain_en": "‘Der Ernst beginnt’ = things get serious (der Ernst = seriousness; ‘Das ist mein Ernst’ = I mean it). ‘die Taschenlampe’ = torch, flashlight. ‘nach der Uhr sehen’ = to check the time. ‘entdecken’ = to discover. ‘braunrot’ – colour compounds are easy in German: blaugrün, hellblau. The stain and the crate of rifles are warning signs of what is coming.",
+      "words": [
+        {
+          "de": "der Ernst",
+          "en": "seriousness"
+        },
+        {
+          "de": "das Zelt, die Zelte",
+          "en": "tent"
+        },
+        {
+          "de": "die Taschenlampe, die Taschenlampen",
+          "en": "torch, flashlight"
+        },
+        {
+          "de": "entdecken",
+          "en": "to discover"
+        },
+        {
+          "de": "der Fleck, die Flecken",
+          "en": "stain, spot"
+        },
+        {
+          "de": "die Kiste, die Kisten",
+          "en": "crate, box"
+        },
+        {
+          "de": "der Krieg, die Kriege",
+          "en": "war"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "type": "summary",
+      "covers": "Chapters 'Der totale Krieg' (end) to 'Auf der Suche nach den Idealen der Menschheit' (beginning)",
+      "en": "Training begins. A class of girls marches past; their war game is to search for a pretend “missing pilot”. Out walking, the teacher sees three poor, barefoot children – two boys and an older girl – trick a blind old farmer's wife and steal a loaf of bread; the old woman falls. A farmer says a gang of children keeps stealing: “weeds that should be wiped out”. The sergeant sets up night guards. In the village, the priest takes the teacher down the street of the home workers, where pale children sit at dark windows painting dolls and do not greet the priest. In the priest's house the teacher sees a picture of the Crucifixion with a Roman captain. Over wine they argue: the priest says the Church sides with the rich because the rich always win."
+    },
+    {
+      "n": 49,
+      "de": "„Möglich“, antworte ich kurz und merke, dass ich aufgeregt bin. „Doch kommen wir wieder auf jene Kinder in den Fenstern zurück! Sie sagten, als wir durch die Gasse gingen: ‚Sie grüßen mich nicht, sie sind verhetzt.‘ Sie sind doch ein gescheiter Mensch, Sie müssen es doch wissen, dass jene Kinder nicht verhetzt sind, sondern dass sie nichts zum Fressen haben!“\nEr sieht mich groß an.\n„Ich meinte, sie seien verhetzt“, sagte er langsam, „weil sie nicht mehr an Gott glauben.“\n„Wie können Sie das von ihnen verlangen!“",
+      "en": "“Possibly,” I answer shortly, and notice that I'm worked up. “But let's come back to those children in the windows! When we were walking down the lane you said: ‘They don't greet me, they've been stirred up.’ You're an intelligent man, surely you must know that those children haven't been stirred up – they simply have nothing to eat!” He looks at me wide-eyed. “I meant they had been stirred up,” he said slowly, “because they no longer believe in God.” “How can you expect that of them!”",
+      "explain_en": "‘aufgeregt’ = worked up, excited. ‘verhetzt’ = stirred up, turned against someone (die Hetze = hate campaign). ‘gescheit’ is southern German/Austrian for ‘klug’. ‘nichts zum Fressen haben’ – ‘fressen’ is how animals eat; used for people it is rude and shows his anger. ‘jemanden groß ansehen’ = to look at someone in surprise. ‘sie seien’ is Konjunktiv I for reported speech. ‘verlangen’ = to demand, expect.",
+      "words": [
+        {
+          "de": "aufgeregt",
+          "en": "worked up, excited"
+        },
+        {
+          "de": "die Gasse, die Gassen",
+          "en": "lane, alley"
+        },
+        {
+          "de": "grüßen",
+          "en": "to greet"
+        },
+        {
+          "de": "verhetzt",
+          "en": "stirred up (against someone)"
+        },
+        {
+          "de": "gescheit",
+          "en": "clever",
+          "note": "southern German; standard: klug"
+        },
+        {
+          "de": "glauben an",
+          "en": "to believe in"
+        },
+        {
+          "de": "verlangen",
+          "en": "to demand, to expect"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "de": "„Gott geht durch alle Gassen.“\n„Wie kann Gott durch jene Gasse gehen, die Kinder sehen und ihnen nicht helfen?“\nEr schweigt. Er trinkt bedächtig seinen Wein aus. Dann sieht er mich wieder groß an: „Gott ist das Schrecklichste auf der Welt.“\nIch starre ihn an. Hatte ich richtig gehört? Das Schrecklichste?!\nEr erhebt sich, tritt an das Fenster und schaut auf den Friedhof hinaus. „Er straft“, höre ich seine Stimme. Was ist das für ein erbärmlicher Gott, denke ich mir, der die armen Kinder straft!\nJetzt geht der Pfarrer auf und ab.",
+      "en": "“God walks through every lane.” “How can God walk through that lane, see the children and not help them?” He is silent. He slowly finishes his wine. Then he looks at me wide-eyed again: “God is the most terrible thing in the world.” I stare at him. Had I heard right? The most terrible thing?! He gets up, goes to the window and looks out at the graveyard. “He punishes,” I hear his voice say. What a pitiful God that is, I think to myself, who punishes poor children! Now the priest walks up and down.",
+      "explain_en": "‘Gott ist das Schrecklichste auf der Welt’ is one of the most important sentences in the book – remember it. ‘das Schrecklichste’ is a superlative adjective used as a noun (das Schönste, das Beste). ‘bedächtig’ = slowly, thoughtfully. ‘austrinken’ = to finish (a drink). ‘strafen’ = to punish (die Strafe = punishment). ‘erbärmlich’ = pitiful, wretched.",
+      "words": [
+        {
+          "de": "schweigen",
+          "en": "to be silent"
+        },
+        {
+          "de": "bedächtig",
+          "en": "slow, deliberate"
+        },
+        {
+          "de": "schrecklich",
+          "en": "terrible"
+        },
+        {
+          "de": "der Friedhof, die Friedhöfe",
+          "en": "cemetery, graveyard"
+        },
+        {
+          "de": "strafen",
+          "en": "to punish"
+        },
+        {
+          "de": "erbärmlich",
+          "en": "pitiful, wretched"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "type": "summary",
+      "covers": "Chapters 'Auf der Suche nach den Idealen der Menschheit' (end) to 'Z und N'",
+      "en": "The teacher admits that he does not believe in God. Back at camp, a boy called L reports that his camera has been stolen. At night the teacher and the sergeant hide by a haystack to check on the guards. Waiting in the moonlight, the teacher thinks about the Roman captain in the picture, who recognised God at the cross and still did nothing. At about two o'clock he sees Z, on guard, being handed a letter by a strange boy, who then disappears. Next day the teacher learns that Z and N fight all the time, because Z writes a diary at night and keeps it locked in a little box. The teacher decides: he must read that diary. In the afternoon, when everyone has marched off, he goes into their tent. A letter from N's mother lies on one sleeping bag."
+    },
+    {
+      "n": 52,
+      "de": "Im Schlafsack nebenan war nichts versteckt. Hier schlief also der R. Dann muss das Kästchen im dritten liegen.\nDort lag es auch.\nEs war ein Kästchen aus blauem Blech und hatte ein einfaches Schloss.\nEs war versperrt. Ich versuchte, das Schloss mit einem Draht zu öffnen.\nEs ließ sich leicht.\nIn dem Kästchen lagen Briefe, Postkarten und ein grüngebundenes Buch – „Mein Tagebuch“, stand da in goldenen Lettern.",
+      "en": "There was nothing hidden in the sleeping bag next to it. So this was where R slept. Then the box had to be in the third one. And there it was. It was a box made of blue tin with a simple lock. It was locked. I tried to open the lock with a piece of wire. It opened easily. In the box were letters, postcards and a green-bound book – “My Diary”, it said in gold letters.",
+      "explain_en": "The teacher is doing something wrong here – reading a pupil's private diary. ‘verstecken’ = to hide. ‘das Blech’ = tin, sheet metal. ‘versperrt’ is Austrian/southern German for ‘abgeschlossen’ (locked). ‘der Draht’ = wire. ‘Es ließ sich leicht’ (öffnen) = it could be opened easily – ‘sich lassen’ + infinitive means ‘can be done’: ‘Das lässt sich machen.’",
+      "words": [
+        {
+          "de": "der Schlafsack, die Schlafsäcke",
+          "en": "sleeping bag"
+        },
+        {
+          "de": "verstecken",
+          "en": "to hide"
+        },
+        {
+          "de": "das Kästchen, die Kästchen",
+          "en": "small box"
+        },
+        {
+          "de": "das Schloss, die Schlösser",
+          "en": "lock; castle"
+        },
+        {
+          "de": "der Draht, die Drähte",
+          "en": "wire"
+        },
+        {
+          "de": "das Tagebuch, die Tagebücher",
+          "en": "diary"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "de": "Ich öffnete es.\n„Weihnachten von Deiner Mutter.“\nWer war die Mutter des Z? Mir scheint, eine Beamtenwitwe oder so.\nDann kamen die ersten Eintragungen, etwas von einem Christbaum – ich blätterte weiter, wir sind schon nach Ostern. Zuerst hat er jeden Tag geschrieben, dann nur jeden zweiten, dritten, dann jeden fünften, sechsten und hier, hier liegt der Brief!\nEr ist es! Ein zerknülltes Kuvert, ohne Aufschrift, ohne Marke!\nRasch! Was steht nur drin?!\n„Kann heute nicht kommen, komme morgen um zwei – Eva.“\nDas war alles.\nWer ist Eva?\nIch weiß nur, wer Adam ist.\nAdam ist der Z.\nUnd ich lese das Tagebuch:",
+      "en": "I opened it. “For Christmas, from your mother.” Who was Z's mother? A civil servant's widow or something like that, I think. Then came the first entries, something about a Christmas tree – I leafed on; we're already past Easter. At first he wrote every day, then only every second or third day, then every fifth or sixth, and here – here is the letter! That's it! A crumpled envelope, with no address, no stamp! Quick! What does it say?! “Can't come today, coming tomorrow at two – Eva.” That was all. Who is Eva? I only know who Adam is. Adam is Z. And I read the diary:",
+      "explain_en": "The chapter is called ‘Adam und Eva’: Z and his secret girlfriend are like the first couple in the Garden of Eden. ‘die Eintragung’ = entry. ‘blättern’ = to leaf through pages. ‘zerknüllt’ = crumpled. ‘das Kuvert’ is Austrian for ‘der Briefumschlag’ (envelope). ‘die Marke’ here = ‘die Briefmarke’ (stamp). ‘Was steht drin?’ = What does it say?",
+      "words": [
+        {
+          "de": "die Eintragung, die Eintragungen",
+          "en": "entry"
+        },
+        {
+          "de": "blättern",
+          "en": "to leaf through"
+        },
+        {
+          "de": "zerknüllt",
+          "en": "crumpled"
+        },
+        {
+          "de": "der Briefumschlag, die Briefumschläge",
+          "en": "envelope",
+          "note": "text: das Kuvert (Austrian)"
+        },
+        {
+          "de": "die Briefmarke, die Briefmarken",
+          "en": "stamp"
+        },
+        {
+          "de": "die Witwe, die Witwen",
+          "en": "widow"
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "type": "summary",
+      "covers": "Chapter 'Adam und Eva' (the diary)",
+      "en": "The diary tells the teacher everything. During an exercise, Z got lost in the woods near some caves and met a girl with two barefoot boys – the robber children. The girl is an orphan. She ran away from a reform school (Besserungsanstalt) and now lives in a cave with a gang of village boys, stealing whatever she can; she is their leader. She and Z fell in love, and since then she has secretly visited him at night while he stands guard. He knows she stole L's camera, but he swears to protect her and never to let her go back to the reform school. The last lines are about N, who keeps threatening to smash the box: “Anyone who touches my box dies!”"
+    },
+    {
+      "n": 55,
+      "de": "„Jeder, der mein Kästchen anrührt, stirbt!“\nIch lese den Satz zweimal und muss lächeln.\nKinderei!\nUnd ich will an das denken, was ich las, aber ich komme nicht dazu. Vom Waldrand her tönt die Trompete, ich muss mich beeilen, das Regiment naht. Rasch tu ich das Tagebuch wieder ins Kästchen und will es versperren. Ich drehe den Draht hin und her. Umsonst! Es lässt sich nicht mehr schließen, ich hab das Schloss verdorben – was tun?\nSie werden gleich da sein, die Jungen. Ich verstecke das offene Kästchen im Schlafsack und verlasse das Zelt. Es blieb mir nichts anderes übrig. Jetzt kommt das Regiment daher.\nIn der vierten Reihe marschiert der Z.",
+      "en": "“Anyone who touches my box dies!” I read the sentence twice and have to smile. Childishness! And I want to think about what I have read, but I don't get the chance. A trumpet sounds from the edge of the wood; I have to hurry, the regiment is coming. Quickly I put the diary back into the box and try to lock it. I twist the wire this way and that. No use! It won't close any more; I've broken the lock – what now? They'll be here any moment, the boys. I hide the open box in the sleeping bag and leave the tent. There was nothing else I could do. Now the regiment comes marching along. Z is marching in the fourth row.",
+      "explain_en": "This chapter is called ‘Verurteilt’ (Condemned). ‘die Kinderei’ = childishness. ‘Ich komme nicht dazu’ = I don't get round to it – very common. ‘sich beeilen’ = to hurry. ‘Umsonst!’ = in vain. ‘verderben’ (verdarb, verdorben) = to ruin; today you would say ‘kaputt machen’. ‘Es blieb mir nichts anderes übrig’ = I had no other choice – very useful. The boys are jokingly called ‘das Regiment’.",
+      "words": [
+        {
+          "de": "die Kinderei, die Kindereien",
+          "en": "childishness"
+        },
+        {
+          "de": "sich beeilen",
+          "en": "to hurry"
+        },
+        {
+          "de": "umsonst",
+          "en": "in vain; free of charge"
+        },
+        {
+          "de": "verderben",
+          "en": "to ruin, to spoil",
+          "note": "everyday: kaputt machen"
+        },
+        {
+          "de": "verstecken",
+          "en": "to hide"
+        },
+        {
+          "de": "jemandem bleibt nichts anderes übrig",
+          "en": "someone has no other choice"
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "type": "summary",
+      "covers": "Chapter 'Verurteilt' (middle)",
+      "en": "The teacher smiles again at this childishness – but then he stops smiling. In his mind he sees a prosecutor: Z has covered up a theft and could be arrested; he would be thrown out of school and the girl would go back to the reform school. Should the teacher tell the sergeant and the police, or first speak to Z alone? He watches Z asking what there is for dinner."
+    },
+    {
+      "n": 57,
+      "de": "Es sind schon größere Herren über die Liebe gestolpert, über die Liebe, die auch naturnotwendig ist und also ebenfalls gottgewollt. Und ich höre wieder den Pfaffen: „Das Schrecklichste auf der Welt ist Gott.“ Und ich höre einen wüsten Lärm, Geschrei und Gepolter. Alles stürzt zu einem Zelt.\nEs ist das Zelt mit dem Kästchen. Der Z und der N raufen, man kann sie kaum trennen.\nDer N ist rot, er blutet aus dem Mund.\nDer Z ist weiß.\n„Der N hat sein Kästchen erbrochen!“ ruft mir der Feldwebel zu.",
+      "en": "Greater men than him have tripped over love – over love, which is also a necessity of nature and therefore also willed by God. And again I hear the priest: “The most terrible thing in the world is God.” And I hear a wild din, shouting and crashing. Everyone rushes to one of the tents. It is the tent with the box. Z and N are fighting; they can hardly be pulled apart. N is red; his mouth is bleeding. Z is white. “N broke his box open!” the sergeant calls to me.",
+      "explain_en": "‘Herren’ here means important men. ‘stolpern über’ = to trip over. ‘der Pfaffe’ is a disrespectful word for a priest – the teacher is angry. ‘wüst’ = wild, chaotic. ‘raufen’ = to fight, scuffle (southern German; also ‘sich prügeln’). ‘trennen’ = to separate. ‘bluten’ = to bleed. ‘erbrechen’ here is old for ‘aufbrechen’ (to break open). N is blamed for what the teacher did.",
+      "words": [
+        {
+          "de": "stolpern über",
+          "en": "to trip over"
+        },
+        {
+          "de": "der Lärm",
+          "en": "noise, din"
+        },
+        {
+          "de": "raufen",
+          "en": "to fight, to scuffle"
+        },
+        {
+          "de": "trennen",
+          "en": "to separate"
+        },
+        {
+          "de": "bluten",
+          "en": "to bleed"
+        },
+        {
+          "de": "aufbrechen",
+          "en": "to break open",
+          "note": "text: erbrechen (old)"
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "de": "„Nein!“ schreit der N. „Ich habs nicht getan, ich nicht!“\n„Wer denn sonst?!“ schreit der Z. „Sagen Sies selber, Herr Lehrer, wer könnt es denn sonst schon getan haben?!“\n„Lüge, Lüge!“\n„Er hat es erbrochen und sonst niemand! Er hats mir ja schon angedroht, dass er es mir zertrümmern wird!“\n„Aber ich habs nicht getan!“\n„Ruhe!“ brüllt plötzlich der Feldwebel.\nEs ist still.\nDer Z lässt den N nicht aus den Augen.\nJeder, der sein Kästchen anrührt, stirbt, geht es mir plötzlich durch den Sinn.",
+      "en": "“No!” N shouts. “I didn't do it, not me!” “Who else, then?!” Z shouts. “You tell me, sir – who else could possibly have done it?!” “Lies, lies!” “He broke it open and nobody else! He already threatened he'd smash it!” “But I didn't do it!” “Quiet!” the sergeant suddenly roars. It is quiet. Z doesn't take his eyes off N. Anyone who touches his box dies – the thought suddenly goes through my head.",
+      "explain_en": "‘Ich habs nicht getan’ = ‘Ich habe es nicht getan’. ‘Herr Lehrer’ is how pupils addressed a teacher, like ‘sir’; today German pupils say ‘Herr/Frau’ + surname. ‘androhen’ = to threaten. ‘zertrümmern’ = to smash. ‘brüllen’ = to roar. ‘jemanden nicht aus den Augen lassen’ = not to take your eyes off someone. ‘Es geht mir durch den Sinn’ = it crosses my mind.",
+      "words": [
+        {
+          "de": "die Lüge, die Lügen",
+          "en": "lie"
+        },
+        {
+          "de": "drohen",
+          "en": "to threaten"
+        },
+        {
+          "de": "zertrümmern",
+          "en": "to smash"
+        },
+        {
+          "de": "brüllen",
+          "en": "to roar, to bellow"
+        },
+        {
+          "de": "jemanden nicht aus den Augen lassen",
+          "en": "not to take one's eyes off someone"
+        },
+        {
+          "de": "durch den Sinn gehen",
+          "en": "to cross one's mind"
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "de": "Unwillkürlich blick ich empor.\n\fAber der Himmel ist sanft.\nIch fühle, der Z könnte den N umbringen.\nAuch der N scheint es zu spüren. Er wendet sich kleinlaut an mich.\n„Herr Lehrer, ich möcht in einem anderen Zelt schlafen.“\n„Gut.“\n„Ich habs wirklich nicht gelesen, sein Tagebuch. Helfen Sie mir, Herr Lehrer!“\n„Ich werde dir helfen.“ Jetzt sieht mich der Z an. Du kannst nicht helfen, liegt in seinem Blick.",
+      "en": "Without meaning to, I look up. But the sky is gentle. I feel that Z could kill N. N seems to sense it too. He turns to me meekly. “Sir, I'd like to sleep in a different tent.” “All right.” “I really didn't read it, his diary. Help me, sir!” “I'll help you.” Now Z looks at me. You can't help, his look says.",
+      "explain_en": "‘unwillkürlich’ = involuntarily, without meaning to. ‘sanft’ = gentle. ‘umbringen’ = to kill (informal). ‘spüren’ = to sense, feel. ‘kleinlaut’ = meek, subdued. ‘sich wenden an’ = to turn to (someone). ‘Ich möcht’ = ‘ich möchte’. Painful irony: the teacher promises to help N, but he is the one who could clear N – and he stays silent.",
+      "words": [
+        {
+          "de": "unwillkürlich",
+          "en": "involuntarily"
+        },
+        {
+          "de": "sanft",
+          "en": "gentle"
+        },
+        {
+          "de": "umbringen",
+          "en": "to kill"
+        },
+        {
+          "de": "spüren",
+          "en": "to sense, to feel"
+        },
+        {
+          "de": "kleinlaut",
+          "en": "meek, subdued"
+        },
+        {
+          "de": "sich wenden an",
+          "en": "to turn to"
+        },
+        {
+          "de": "helfen (+ Dativ)",
+          "en": "to help"
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "type": "summary",
+      "covers": "Chapter 'Verurteilt' (continued)",
+      "en": "The teacher knows that by keeping quiet he has condemned N. Why doesn't he say that he opened the box? He is ashamed to admit it in front of everyone. He decides to tell Z privately, man to man, and that same night to talk to the girl too: she must stay away, and he will give Z a good talking-to. That should be the end of it."
+    },
+    {
+      "n": 61,
+      "de": "Wie ein Raubvogel zieht die Schuld ihre Kreise. Sie packt uns rasch.\nAber ich werde den N freisprechen.\nEr hat ja auch nichts getan.\nUnd ich werde den Z begnadigen. Und auch das Mädel. Ich lasse mich nicht unschuldig verurteilen! Ja, Gott ist schrecklich, aber ich will ihm einen Strich durch die Rechnung machen. Mit meinem freien Willen.\nEinen dicken Strich.\nIch werde uns alle retten.",
+      "en": "Guilt circles like a bird of prey. It seizes us quickly. But I will acquit N. After all, he hasn't done anything. And I will pardon Z. And the girl too. I won't let myself be condemned when I'm innocent! Yes, God is terrible, but I'm going to spoil His plans. With my free will. A thick line through His sums. I will save us all.",
+      "explain_en": "The teacher plays judge: ‘freisprechen’ = to acquit, ‘begnadigen’ = to pardon, ‘verurteilen’ = to condemn, to sentence. ‘die Schuld’ = guilt (also ‘debt’). ‘jemandem einen Strich durch die Rechnung machen’ = to spoil someone's plans – literally to draw a line through their bill; Horváth plays with it (‘einen dicken Strich’). ‘der freie Wille’ = free will. ‘retten’ = to save, rescue.",
+      "words": [
+        {
+          "de": "die Schuld",
+          "en": "guilt; debt"
+        },
+        {
+          "de": "der Raubvogel, die Raubvögel",
+          "en": "bird of prey"
+        },
+        {
+          "de": "freisprechen",
+          "en": "to acquit"
+        },
+        {
+          "de": "verurteilen",
+          "en": "to condemn, to sentence"
+        },
+        {
+          "de": "unschuldig",
+          "en": "innocent"
+        },
+        {
+          "de": "jemandem einen Strich durch die Rechnung machen",
+          "en": "to spoil someone's plans"
+        },
+        {
+          "de": "retten",
+          "en": "to save, to rescue"
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "type": "summary",
+      "covers": "Chapters 'Verurteilt' (end), 'Der Mann im Mond', 'Der vorletzte Tag' (beginning)",
+      "en": "The teacher notices T staring at him with his pale fish eyes, smiling mockingly, just as at the funeral. Does T know something? That night the teacher hides in the woods near Z's guard post. At half past two Eva appears. The teacher watches the two of them together instead of stepping forward to confess. Clouds cover the moon; in the pitch dark his outstretched hand touches a face – someone is standing right beside him. Terrified, he waits for dawn, creeps back to his tent and oversleeps. The boys go out on an exercise and come back at lunchtime without N, who seems to be lost. Z, whose hands are scratched and whose jacket is torn, calmly tells the teacher that N confessed to breaking the box and that he forgave him. The teacher knows this is a lie."
+    },
+    {
+      "n": 63,
+      "de": "Warum sagte ich es ihm nur nicht sofort, gleich gestern, als er den N verprügelte! Weil ich mich schämte, vor meinen Herren Schülern zu gestehen, dass ich heimlich mit einem Draht ein Kästchen erbrochen hab, obwohl dies in bester Absicht geschehen ist – verständlich, verständlich! Aber warum verschlief ich nur heute früh?! Richtig, ich saß ja in der Nacht im Wald und machte das Maul nicht auf! Und jetzt, jetzt dürfte es wenig nützen, wenn ich es aufmachen würde. Es ist zu spät.",
+      "en": "Why didn't I tell him straight away, yesterday, when he beat N up! Because I was ashamed to confess in front of my gentlemen pupils that I had secretly broken open a box with a piece of wire, even though I did it with the best intentions – understandable, understandable! But why did I have to oversleep this morning?! Of course – I was sitting in the woods at night and kept my mouth shut! And now, now it probably wouldn't do much good if I opened it. It's too late.",
+      "explain_en": "‘verprügeln’ = to beat up. ‘gestehen’ = to confess. ‘in bester Absicht’ = with the best intentions. ‘heute früh’ is southern German for ‘heute Morgen’. ‘das Maul’ is an animal's mouth; ‘das Maul nicht aufmachen’ is rude/colloquial for ‘nichts sagen’ (today also ‘die Klappe halten’). ‘Es dürfte wenig nützen’ = it probably won't help much – ‘dürfte’ expresses probability.",
+      "words": [
+        {
+          "de": "sich schämen",
+          "en": "to be ashamed"
+        },
+        {
+          "de": "gestehen",
+          "en": "to confess"
+        },
+        {
+          "de": "verprügeln",
+          "en": "to beat up"
+        },
+        {
+          "de": "die Absicht, die Absichten",
+          "en": "intention"
+        },
+        {
+          "de": "verschlafen",
+          "en": "to oversleep"
+        },
+        {
+          "de": "nützen",
+          "en": "to be of use"
+        },
+        {
+          "de": "zu spät",
+          "en": "too late"
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "type": "summary",
+      "covers": "Chapter 'Der vorletzte Tag' (end)",
+      "en": "The teacher feels that he is to blame too – he is the stone N tripped over. In the afternoon everyone searches the woods in the pouring rain, calling “N!”, but there is no answer. The sergeant wants to report N missing to the police, but the teacher says: tomorrow. “In that area there are no farms, only caves,” the sergeant says. The teacher remembers the caves in Z's diary."
+    },
+    {
+      "n": 65,
+      "de": "Am letzten Tage unseres Lagerlebens kam Gott.\nIch erwartete ihn bereits.\nDer Feldwebel und die Jungen zerlegten gerade die Zelte, als er kam.\nSein Erscheinen war furchtbar. Dem Feldwebel wurde es übel, und er musste sich setzen. Die Jungen standen entsetzt herum, halb gelähmt. Erst allmählich bewegten sie sich wieder, und zwar immer aufgeregter.\nNur der Z bewegte sich kaum.\nEr starrte zu Boden und ging auf und ab. Doch nur ein paar Meter. Immer hin und her.\nDann schrie alles durcheinander, so schien es mir.\nNur der Z blieb stumm.\nWas war geschehen?",
+      "en": "On the last day of our camp life, God came. I was already expecting Him. The sergeant and the boys were just taking down the tents when He came. His appearance was terrible. The sergeant felt sick and had to sit down. The boys stood around horrified, half paralysed. Only gradually did they start moving again, more and more agitatedly. Only Z hardly moved. He stared at the ground and walked up and down. But only a few metres. Back and forth, back and forth. Then everyone was shouting at once, or so it seemed to me. Only Z said nothing. What had happened?",
+      "explain_en": "For the teacher, God now appears as the terrible truth coming to light. ‘das Lagerleben’ = camp life. ‘erwarten’ = to expect, wait for. ‘das Erscheinen’ = appearance. ‘Mir wird übel’ = I feel sick – very useful. ‘entsetzt’ = horrified. ‘gelähmt’ = paralysed. ‘allmählich’ = gradually. ‘stumm’ = silent, mute.",
+      "words": [
+        {
+          "de": "erwarten",
+          "en": "to expect"
+        },
+        {
+          "de": "zerlegen",
+          "en": "to take apart"
+        },
+        {
+          "de": "mir wird übel",
+          "en": "I feel sick"
+        },
+        {
+          "de": "entsetzt",
+          "en": "horrified"
+        },
+        {
+          "de": "gelähmt",
+          "en": "paralysed"
+        },
+        {
+          "de": "allmählich",
+          "en": "gradually"
+        },
+        {
+          "de": "stumm",
+          "en": "silent, mute"
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "de": "Zwei Waldarbeiter waren im Lager erschienen, zwei Holzfäller mit Rucksack, Säge und Axt. Sie berichteten, dass sie einen Jungen gefunden hätten. Sie hatten seinen Schulausweis bei sich.\nEs war der N.\nEr lag in der Nähe der Höhlen in einem Graben, unweit der Lichtung. Mit einer klaffenden Kopfwunde. Ein Stein musste ihn getroffen haben oder ein Schlag mit irgendeinem stumpfen Gegenstande.\nAuf alle Fälle war er hin. Tot und tot.",
+      "en": "Two forestry workers had turned up at the camp, two woodcutters with rucksacks, a saw and an axe. They reported that they had found a boy. They had his school pass with them. It was N. He was lying in a ditch near the caves, not far from the clearing. With a gaping head wound. A stone must have hit him, or a blow from some blunt object. In any case he was gone. Dead and dead.",
+      "explain_en": "This is the turning point of the novel: N has been killed. ‘der Holzfäller’ = woodcutter. ‘berichten’ = to report. ‘der Ausweis’ = ID card, pass. ‘der Graben’ = ditch. ‘die Lichtung’ = clearing. ‘stumpf’ = blunt. ‘auf alle Fälle’ = in any case. ‘hin sein’ is colloquial for ‘kaputt’ or ‘tot’. ‘Tot und tot’ stresses how final it is.",
+      "words": [
+        {
+          "de": "berichten",
+          "en": "to report"
+        },
+        {
+          "de": "der Ausweis, die Ausweise",
+          "en": "ID card, pass"
+        },
+        {
+          "de": "der Graben, die Gräben",
+          "en": "ditch"
+        },
+        {
+          "de": "die Lichtung, die Lichtungen",
+          "en": "clearing"
+        },
+        {
+          "de": "die Wunde, die Wunden",
+          "en": "wound"
+        },
+        {
+          "de": "stumpf",
+          "en": "blunt"
+        },
+        {
+          "de": "auf alle Fälle",
+          "en": "in any case"
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "type": "summary",
+      "covers": "Chapter 'Der letzte Tag' (middle)",
+      "en": "The teacher goes down to the village police, and a murder squad arrives. N was hit from behind with a pointed stone about twenty metres from the ditch and then dragged into it. Near the body the police find the stone, a pencil and a compass. N's jacket is torn and his hands are scratched, as if there had been a fight. The teacher notices that Z's jacket is torn too and his hands are scratched – but he says nothing. The prosecutor questions everyone. When he asks the teacher whether he suspects anyone, the teacher says no. Then little R, who shared a tent with Z and N, pushes forward."
+    },
+    {
+      "n": 68,
+      "de": "„Herr Staatsanwalt“, schreit plötzlich der R und drängt sich vor, „der Z und der N haben sich immer gerauft! Der N hat nämlich das Tagebuch des Z gelesen, und deshalb war ihm der Z todfeind – er führt nämlich ein Tagebuch, es liegt in einem Kästchen aus blauem Blech!“ Alle blicken auf den Z.\nDer steht mit gesenktem Haupt. Man kann sein Gesicht nicht sehen. Ist es weiß oder rot? Langsam tritt er vor. Er hält vor dem Staatsanwalt.\nEs wird sehr still.\n„Ja“, sagt er leise, „ich habs getan.“\nEr weint.\nIch werfe einen Blick auf Gott.\nEr lächelt.\nWarum?\nUnd wie ich mich so frage, sehe ich ihn nicht mehr.\nEr ist wieder fort.",
+      "en": "“Mr Prosecutor,” R suddenly shouts, pushing forward, “Z and N were always fighting! You see, N read Z's diary, and that's why Z hated him like death – he keeps a diary, you see, it's in a little box made of blue tin!” Everyone looks at Z. He stands with his head bowed. You can't see his face. Is it white or red? Slowly he steps forward. He stops in front of the prosecutor. It becomes very quiet. “Yes,” he says quietly, “I did it.” He weeps. I glance at God. He smiles. Why? And as I ask myself that, I can no longer see Him. He has gone again.",
+      "explain_en": "Z confesses – but is it true? ‘der Staatsanwalt’ = public prosecutor. ‘sich vordrängen’ = to push forward. ‘nämlich’ = you see / namely – very common for giving a reason. ‘jemandem todfeind sein’ = to hate someone like a mortal enemy (der Todfeind). ‘mit gesenktem Haupt’ = with bowed head (‘das Haupt’ is poetic for ‘der Kopf’). ‘Ich habs getan’ = ‘Ich habe es getan’. ‘einen Blick werfen auf’ = to glance at.",
+      "words": [
+        {
+          "de": "der Staatsanwalt, die Staatsanwälte",
+          "en": "public prosecutor"
+        },
+        {
+          "de": "sich vordrängen",
+          "en": "to push forward"
+        },
+        {
+          "de": "nämlich",
+          "en": "you see; namely"
+        },
+        {
+          "de": "der Todfeind, die Todfeinde",
+          "en": "mortal enemy"
+        },
+        {
+          "de": "das Haupt",
+          "en": "head",
+          "note": "poetic; everyday: der Kopf"
+        },
+        {
+          "de": "einen Blick werfen auf",
+          "en": "to glance at"
+        },
+        {
+          "de": "weinen",
+          "en": "to cry, to weep"
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "type": "summary",
+      "covers": "Chapters 'Die Mitarbeiter' and 'Mordprozess Z oder N' (beginning)",
+      "en": "It is autumn, and the trial is about to start. The newspapers are full of it. A reporter has twisted the teacher's words into praise of today's “dutiful” youth, and N's father, the baker, blames the teacher. Z's defence lawyer believes Z is covering for someone: the girl, Eva, who was arrested in her cave with her gang soon after the murder. The courtroom is packed. Z sits in the dock as if it were a school desk; his mother wears a thick black veil. The kindly old judge asks Z to tell his life story: Z wanted to become an inventor, or else a pilot flying mail overseas."
+    },
+    {
+      "n": 70,
+      "de": "Und wie der Z so von seiner ehemaligen Zukunft spricht, rückt die Zeit immer näher und näher – bald wird er da sein, der Tag, an dem der liebe Gott kam.\nDer Z schildert das Lagerleben, das Schießen, Marschieren, das Hissen der Flagge, den Feldwebel und mich. Und er sagt einen sonderbaren Satz: „Die Ansichten des Herrn Lehrers waren mir oft zu jung.“\nDer Präsident staunt.\n„Wieso?“\n„Weil der Herr Lehrer immer nur sagte, wie es auf der Welt sein sollte, und nie, wie es wirklich ist.“",
+      "en": "And as Z talks like this about his former future, time moves closer and closer – soon it will be here, the day on which the good Lord came. Z describes life in the camp, the shooting, the marching, the raising of the flag, the sergeant and me. And he says a strange sentence: “I often found the teacher's views too young.” The judge is astonished. “Why?” “Because the teacher only ever said how things should be in the world, and never how they really are.”",
+      "explain_en": "‘seine ehemalige Zukunft’ (his former future) is a bitter phrase: his future is already lost. ‘schildern’ = to describe. ‘das Hissen der Flagge’ = raising the flag. ‘sonderbar’ = strange. ‘die Ansicht’ = view, opinion (‘meiner Ansicht nach’ = in my opinion). ‘der Präsident’ is the presiding judge. ‘staunen’ = to be amazed. Z's sentence shows the ‘fish’ generation: they simply accept the brutal world as it is.",
+      "words": [
+        {
+          "de": "ehemalig",
+          "en": "former"
+        },
+        {
+          "de": "die Zukunft",
+          "en": "future"
+        },
+        {
+          "de": "schildern",
+          "en": "to describe"
+        },
+        {
+          "de": "sonderbar",
+          "en": "strange, odd"
+        },
+        {
+          "de": "die Ansicht, die Ansichten",
+          "en": "view, opinion"
+        },
+        {
+          "de": "staunen",
+          "en": "to be amazed"
+        },
+        {
+          "de": "wirklich",
+          "en": "really, actually"
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "de": "Der Präsident sieht den Z groß an. Fühlt er, dass nun ein Gebiet betreten wurde, wo das Radio regiert? Wo die Sehnsucht nach der Moral zum alten Eisen geworfen wird, während man vor der Brutalität der Wirklichkeit im Staube liegt? Ja, er scheint es zu fühlen, denn er sucht nach einer günstigen Gelegenheit, um die Erde verlassen zu können. Plötzlich fragt er den Z: „Glaubst du an Gott?“\n„Ja“, sagt der Z, ohne zu überlegen.\n„Und kennst du das fünfte Gebot?“\n„Ja.“\n„Bereust du deine Tat?“\nEs wird sehr still im Saal.\n„Ja“, meint der Z, „ich bereue sie sehr.“\nSie klang aber unecht, die Reue.",
+      "en": "The judge looks at Z wide-eyed. Does he feel that they have now entered territory where the radio rules? Where the longing for morality is thrown on the scrap heap while people lie in the dust before the brutality of reality? Yes, he seems to feel it, because he looks for a good opportunity to leave the earth. Suddenly he asks Z: “Do you believe in God?” “Yes,” says Z without thinking. “And do you know the fifth commandment?” “Yes.” “Do you regret what you did?” It becomes very quiet in the courtroom. “Yes,” says Z, “I regret it very much.” But the regret sounded false.",
+      "explain_en": "‘die Sehnsucht nach’ = longing for. ‘zum alten Eisen werfen’ = to throw on the scrap heap. ‘die Gelegenheit’ = opportunity. ‘die Erde verlassen’ – the judge wants to escape into religion. The fifth commandment (in Catholic and Lutheran counting) is ‘Du sollst nicht töten’ – Thou shalt not kill. ‘bereuen’ = to regret (die Reue = remorse). ‘unecht’ = fake, not genuine.",
+      "words": [
+        {
+          "de": "die Sehnsucht",
+          "en": "longing"
+        },
+        {
+          "de": "die Wirklichkeit",
+          "en": "reality"
+        },
+        {
+          "de": "die Gelegenheit, die Gelegenheiten",
+          "en": "opportunity"
+        },
+        {
+          "de": "das Gebot, die Gebote",
+          "en": "commandment"
+        },
+        {
+          "de": "bereuen",
+          "en": "to regret"
+        },
+        {
+          "de": "die Reue",
+          "en": "remorse"
+        },
+        {
+          "de": "unecht",
+          "en": "fake, not genuine"
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "type": "summary",
+      "covers": "Chapters 'Mordprozess Z oder N' (end) and 'In der Wohnung' (beginning)",
+      "en": "Z says he met N on a rock, they fought, and he threw the stone – but he can't remember where. The judge assumes that the compass found by the body is Z's, and Z says he simply forgot, but the defence lawyer suggests it belonged to a third person. Z insists there wasn't and begs his lawyer to stop defending him. During the lunch break the teacher sees Z's mother sitting alone on a bench. He now believes in God, but he doesn't like Him. He goes to buy cigarettes in a tiny shop run by a very old, kind couple. While the old woman goes out to get change, the old man says that in this case everyone is guilty – even the parents, because they have forgotten God."
+    },
+    {
+      "n": 73,
+      "de": "Ich sehe die hohen grauen Häuser und sage: „Wenn man nur wüsste, wo Gott wohnt.“ „Er wohnt überall, wo er nicht vergessen wurde“, höre ich die Stimme des Alten. „Er wohnt auch hier bei uns, denn wir streiten uns nie.“ Ich halte den Atem an. Was war das? War das noch die Stimme des Alten? Nein, das war nicht seine – das war eine andere Stimme. Wer sprach da zu mir? Ich dreh mich nicht um.",
+      "en": "I look at the tall grey houses and say: “If only one knew where God lives.” “He lives wherever He hasn't been forgotten,” I hear the old man's voice say. “He lives here with us too, because we never quarrel.” I hold my breath. What was that? Was that still the old man's voice? No, it wasn't his – it was a different voice. Who was speaking to me? I don't turn round.",
+      "explain_en": "‘Wenn man nur wüsste …’ = If only one knew … (Konjunktiv II for a wish). ‘wo er nicht vergessen wurde’ is passive: where He hasn't been forgotten. ‘sich streiten’ = to quarrel, argue – very common. ‘den Atem anhalten’ = to hold one's breath. ‘sich umdrehen’ = to turn round; ‘dreh’ is short for ‘drehe’.",
+      "words": [
+        {
+          "de": "wohnen",
+          "en": "to live, to reside"
+        },
+        {
+          "de": "vergessen",
+          "en": "to forget"
+        },
+        {
+          "de": "sich streiten",
+          "en": "to argue, to quarrel"
+        },
+        {
+          "de": "den Atem anhalten",
+          "en": "to hold one's breath"
+        },
+        {
+          "de": "die Stimme, die Stimmen",
+          "en": "voice"
+        },
+        {
+          "de": "sich umdrehen",
+          "en": "to turn round"
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "de": "Und wieder höre ich die Stimme: „Wenn du als Zeuge aussagst und meinen Namen nennst, dann verschweige es nicht, dass du das Kästchen erbrochen hast.“ Das Kästchen! Nein! Da werd ich doch nur bestraft, weil ich den Dieb nicht verhaften ließ! „Das sollst du auch!“ Aber ich verliere auch meine Stellung, mein Brot – „Du musst es verlieren, damit kein neues Unrecht entsteht.“ Und meine Eltern?! Ich unterstütze sie ja! „Soll ich dir deine Kindheit zeigen?“ Meine Kindheit?",
+      "en": "And again I hear the voice: “When you give evidence as a witness and speak my name, do not keep silent about the fact that you broke open the box.” The box! No! Then I'll only be punished for not having the thief arrested! “So you shall be!” But I'll lose my job too, my bread – “You must lose it, so that no new injustice arises.” And my parents?! I support them! “Shall I show you your childhood?” My childhood?",
+      "explain_en": "The voice is God – or the teacher's conscience. ‘als Zeuge aussagen’ = to testify as a witness (die Aussage = statement). ‘meinen Namen nennen’ – witnesses swear by God. ‘verschweigen’ = to keep quiet about. ‘verhaften lassen’ = to have someone arrested. ‘die Stellung’ = job, position (today: ‘die Stelle’). ‘das Unrecht’ = injustice. ‘unterstützen’ = to support.",
+      "words": [
+        {
+          "de": "der Zeuge, die Zeugen",
+          "en": "witness"
+        },
+        {
+          "de": "aussagen",
+          "en": "to testify"
+        },
+        {
+          "de": "verschweigen",
+          "en": "to keep quiet about"
+        },
+        {
+          "de": "verhaften",
+          "en": "to arrest"
+        },
+        {
+          "de": "die Stelle, die Stellen",
+          "en": "job, position",
+          "note": "text: die Stellung (older)"
+        },
+        {
+          "de": "das Unrecht",
+          "en": "injustice"
+        },
+        {
+          "de": "unterstützen",
+          "en": "to support"
+        }
+      ]
+    },
+    {
+      "n": 75,
+      "de": "Die Mutter keift, der Vater schimpft. Sie streiten sich immer. Nein, hier wohnst du nicht. Hier gehst du nur vorbei, und dein Kommen bringt keine Freude –\nIch möchte weinen.\n„Sage es“, höre ich die Stimme, „sage es, dass du das Kästchen erbrochen hast. Tu mir den Gefallen und kränke mich nicht wieder.“",
+      "en": "My mother nags, my father rants. They are always quarrelling. No, You don't live here. Here You only pass by, and Your coming brings no joy – I feel like crying. “Say it,” I hear the voice, “say that you broke open the box. Do me this favour and do not hurt me again.”",
+      "explain_en": "The voice shows him his parents' home: they go to church but always argue, so God doesn't ‘live’ there (the ‘du’ here is God). ‘keifen’ = to nag shrilly; ‘schimpfen’ = to scold, rant. ‘vorbeigehen’ = to pass by. ‘jemandem einen Gefallen tun’ = to do someone a favour – very useful. ‘kränken’ = to hurt someone's feelings.",
+      "words": [
+        {
+          "de": "schimpfen",
+          "en": "to scold, to grumble"
+        },
+        {
+          "de": "sich streiten",
+          "en": "to quarrel"
+        },
+        {
+          "de": "vorbeigehen",
+          "en": "to pass by"
+        },
+        {
+          "de": "die Freude, die Freuden",
+          "en": "joy"
+        },
+        {
+          "de": "jemandem einen Gefallen tun",
+          "en": "to do someone a favour"
+        },
+        {
+          "de": "kränken",
+          "en": "to hurt, to offend"
+        }
+      ]
+    },
+    {
+      "n": 76,
+      "type": "summary",
+      "covers": "Chapters 'Der Kompass' and 'Das Kästchen' (beginning)",
+      "en": "The witnesses are heard. The baker attacks the teacher's opinions. Z's mother declares that the compass isn't her son's and that whoever lost it is the murderer. Z says his mother is lying and bursts out that she never cared about him and once treated a fifteen-year-old maid, Thekla, so badly that the girl stole money to run away and was sent to a reform school – a girl just like Eva. Then it is the teacher's turn. He swears before God to tell the whole truth and hide nothing. While he is being sworn in, Eva is led into the courtroom behind him."
+    },
+    {
+      "n": 77,
+      "de": "Ich beantworte die Fragen des Präsidenten. Er streift auch wieder die Neger – ja, wir verstehen uns. Ich stelle dem N ein gutes Zeugnis aus und ebenso dem Z. Beim Mord war ich nicht dabei. Der Präsident will mich schon entlassen, da falle ich ihm ins Wort: „Nur noch eine Kleinigkeit, Herr Präsident!“ „Bitte!“ „Jenes Kästchen, in welchem das Tagebuch des Z lag, erbrach nicht der N.“ „Nicht der N? Sondern?“ „Sondern ich. Ich war es, der das Kästchen mit einem Draht öffnete.“",
+      "en": "I answer the judge's questions. He touches on the Negroes again – yes, we understand each other. I give N a good report, and Z too. I wasn't there when the murder happened. The judge is about to dismiss me when I interrupt him: “Just one more small thing, Your Honour!” “Go ahead!” “That box in which Z's diary lay was not broken open by N.” “Not by N? Then by whom?” “By me. I was the one who opened the box with a piece of wire.”",
+      "explain_en": "This is the teacher's great moment of courage. ‘streifen’ = to touch on (a subject). ‘jemandem ein gutes Zeugnis ausstellen’ = to speak well of someone (das Zeugnis = school report). ‘entlassen’ = to dismiss, release. ‘jemandem ins Wort fallen’ = to interrupt someone. ‘Bitte!’ here = go ahead. ‘Sondern?’ = but who, then? Remember: ‘Neger’ is a racist slur today – say ‘Schwarze Menschen’.",
+      "words": [
+        {
+          "de": "beantworten",
+          "en": "to answer"
+        },
+        {
+          "de": "das Zeugnis, die Zeugnisse",
+          "en": "school report; reference"
+        },
+        {
+          "de": "entlassen",
+          "en": "to dismiss, to release"
+        },
+        {
+          "de": "jemandem ins Wort fallen",
+          "en": "to interrupt someone"
+        },
+        {
+          "de": "die Kleinigkeit, die Kleinigkeiten",
+          "en": "small thing, trifle"
+        },
+        {
+          "de": "öffnen",
+          "en": "to open"
+        }
+      ]
+    },
+    {
+      "n": 78,
+      "de": "Die Wirkung dieser Worte war groß.\nDer Präsident ließ den Bleistift fallen, der Verteidiger schnellte empor, der Z glotzte mich an mit offenem Munde, seine Mutter schrie auf, der Bäckermeister wurde bleich wie Teig und griff sich ans Herz.\nUnd Eva?\nIch weiß es nicht.\nIch fühle nur eine allgemeine ängstliche Unruhe hinter mir.\nEs murrt, es tuschelt.\nDer Staatsanwalt erhebt sich hypnotisiert und deutet langsam mit dem Finger nach mir. „Sie?!“ fragt er gedehnt.\n„Ja“, sage ich und wundere mich über meine Ruhe.\nIch fühle mich wunderbar leicht.\nUnd erzähle nun alles.",
+      "en": "These words had a great effect. The judge dropped his pencil, the defence lawyer shot up, Z gaped at me open-mouthed, his mother cried out, the baker went as pale as dough and clutched his heart. And Eva? I don't know. I only feel a general anxious unrest behind me. There is muttering, whispering. The prosecutor rises as if hypnotised and slowly points his finger at me. “You?!” he asks, drawing the word out. “Yes,” I say, and I'm surprised at how calm I am. I feel wonderfully light. And now I tell everything.",
+      "explain_en": "‘die Wirkung’ = effect. ‘der Verteidiger’ = defence lawyer. ‘emporschnellen’ = to shoot up. ‘glotzen’ = to gape (rude). ‘bleich wie Teig’ = pale as dough – a joke about the baker. ‘sich ans Herz greifen’ = to clutch one's heart. ‘tuscheln’ = to whisper. ‘gedehnt’ = drawn out. ‘die Ruhe’ = calm. Telling the truth makes him feel ‘wunderbar leicht’.",
+      "words": [
+        {
+          "de": "die Wirkung, die Wirkungen",
+          "en": "effect"
+        },
+        {
+          "de": "der Verteidiger, die Verteidiger",
+          "en": "defence lawyer"
+        },
+        {
+          "de": "bleich",
+          "en": "pale"
+        },
+        {
+          "de": "die Unruhe",
+          "en": "unrest, anxiety"
+        },
+        {
+          "de": "tuscheln",
+          "en": "to whisper"
+        },
+        {
+          "de": "die Ruhe",
+          "en": "calm, quiet"
+        },
+        {
+          "de": "leicht",
+          "en": "light; easy"
+        }
+      ]
+    },
+    {
+      "n": 79,
+      "de": "Warum ich das Kästchen erbrach und weshalb ich es dem Z nicht sogleich gestand. Weil ich mich nämlich schämte, aber es war auch eine Feigheit dabei.\nIch erzähle alles.\nWeshalb ich das Tagebuch las und warum ich keine gesetzlichen Konsequenzen zog, denn ich wollte einen Strich durch eine Rechnung ziehen. Einen dicken Strich. Durch eine andere Rechnung. Ja, ich war dumm! Ich bemerke, dass der Staatsanwalt zu notieren beginnt, aber das stört mich nicht.\nAlles, alles!\nErzähl nur zu!\nAuch Adam und Eva. Und die finsteren Wolken und den Mann im Mond!",
+      "en": "Why I broke open the box and why I didn't admit it to Z straight away. Because I was ashamed, you see – but there was cowardice in it too. I tell everything. Why I read the diary and why I didn't take any legal steps: because I wanted to draw a line through a sum. A thick line. Through a different sum. Yes, I was stupid! I notice that the prosecutor is starting to take notes, but that doesn't bother me. Everything, everything! Go on, tell it all! Adam and Eve too. And the dark clouds and the man in the moon!",
+      "explain_en": "The sentences without a main verb continue ‘Und erzähle nun alles’: (I tell) why …, why …. ‘gestehen’ = to admit. ‘die Feigheit’ = cowardice. ‘gesetzliche Konsequenzen ziehen’ = to take legal action. ‘notieren’ = to take notes. ‘Das stört mich nicht’ = that doesn't bother me – very useful. ‘Erzähl nur zu!’ = go on, keep telling!",
+      "words": [
+        {
+          "de": "gestehen",
+          "en": "to admit, to confess"
+        },
+        {
+          "de": "die Feigheit",
+          "en": "cowardice"
+        },
+        {
+          "de": "gesetzlich",
+          "en": "legal"
+        },
+        {
+          "de": "dumm",
+          "en": "stupid"
+        },
+        {
+          "de": "notieren",
+          "en": "to note down"
+        },
+        {
+          "de": "stören",
+          "en": "to bother, to disturb"
+        },
+        {
+          "de": "die Wolke, die Wolken",
+          "en": "cloud"
+        }
+      ]
+    },
+    {
+      "n": 80,
+      "type": "summary",
+      "covers": "Chapter 'Das Kästchen' (end)",
+      "en": "When the teacher has finished, the prosecutor warns him that he may be charged with misleading the authorities and covering up a theft. N's father shouts that the teacher has his son's death on his conscience, then suffers a heart attack and has to be led out. N's mother raises her arm and cries: “Fear God!”"
+    },
+    {
+      "n": 81,
+      "de": "Nein, ich fürchte mich nicht mehr vor Gott.\nIch spüre den allgemeinen Abscheu um mich herum. Nur zwei Augen verabscheuen mich nicht.\nSie ruhen auf mir.\n\fStill wie die dunklen Seen in den Wäldern meiner Heimat. Eva, bist du schon der Herbst?",
+      "en": "No, I am no longer afraid of God. I feel the general disgust all around me. Only two eyes do not look at me with disgust. They rest on me. Still, like the dark lakes in the forests of my homeland. Eva, are you already autumn?",
+      "explain_en": "For the first time he really sees Eva's eyes. ‘sich fürchten vor’ = to be afraid of. ‘der Abscheu’ = disgust; ‘verabscheuen’ = to loathe. ‘ruhen auf’ = to rest on. ‘die Heimat’ = home, homeland – a word with no exact English equivalent. The poetic last line links Eva with autumn, the season of the trial.",
+      "words": [
+        {
+          "de": "sich fürchten vor",
+          "en": "to be afraid of"
+        },
+        {
+          "de": "der Abscheu",
+          "en": "disgust, loathing"
+        },
+        {
+          "de": "ruhen",
+          "en": "to rest"
+        },
+        {
+          "de": "der See, die Seen",
+          "en": "lake",
+          "note": "but: die See = the sea"
+        },
+        {
+          "de": "die Heimat",
+          "en": "home, homeland"
+        },
+        {
+          "de": "der Herbst",
+          "en": "autumn"
+        }
+      ]
+    },
+    {
+      "n": 82,
+      "type": "summary",
+      "covers": "Chapters 'Vertrieben aus dem Paradies' and 'Der Fisch' (beginning)",
+      "en": "Eva is questioned. She says she wants to tell the truth, like the teacher. She was there: N and Z fought, N threw Z down from the rock, and she, furious, picked up a stone and ran after N. But a strange boy jumped out of the bushes, grabbed the stone, caught up with N, struck him from behind and dragged him into the ditch. Z took the blame because he believed Eva had done it. The prosecutor mocks the “great unknown”. Then Eva says quietly that she never loved Z. Asked whether she would recognise the strange boy, she answers:"
+    },
+    {
+      "n": 83,
+      "de": "„Vielleicht. Ich erinner mich nur, er hatte helle, runde Augen. Wie ein Fisch.“ Das Wort versetzt mir einen Hieb. Ich springe auf und schreie: „Ein Fisch?!“ „Was ist Ihnen?“ fragt der Präsident und wundert sich. Alles staunt. Ja, was ist mir denn nur? Ich denke an einen illuminierten Totenkopf. Es kommen kalte Zeiten, höre ich Julius Caesar, das Zeitalter der Fische. Da wird die Seele des Menschen unbeweglich wie das Antlitz eines Fisches. Zwei helle, runde Augen sehen mich an. Ohne Schimmer, ohne Glanz. Es ist der T.",
+      "en": "“Maybe. I only remember he had pale, round eyes. Like a fish.” The word hits me like a blow. I jump up and shout: “A fish?!” “What's the matter with you?” asks the judge in surprise. Everyone is astonished. Yes, what is the matter with me? I think of a skull that lights up. Cold times are coming, I hear Julius Caesar say, the Age of the Fish. Then the human soul will become as motionless as the face of a fish. Two pale, round eyes are looking at me. Without a gleam, without a shine. It is T.",
+      "explain_en": "Everything comes together: the ‘fish’ is T. ‘Ich erinner mich’ = ‘Ich erinnere mich’ (sich erinnern an = to remember). ‘der Hieb’ = blow. ‘Was ist Ihnen?’ is old-fashioned for ‘Was ist mit Ihnen los?’ ‘illuminiert’ = lit up – Julius Caesar's skull tie-pin. The repeated phrases from earlier chapters (‘Ohne Schimmer, ohne Glanz’) show the teacher's memory racing.",
+      "words": [
+        {
+          "de": "sich erinnern an",
+          "en": "to remember"
+        },
+        {
+          "de": "rund",
+          "en": "round"
+        },
+        {
+          "de": "der Hieb, die Hiebe",
+          "en": "blow"
+        },
+        {
+          "de": "aufspringen",
+          "en": "to jump up"
+        },
+        {
+          "de": "staunen",
+          "en": "to be astonished"
+        },
+        {
+          "de": "der Totenkopf, die Totenköpfe",
+          "en": "skull"
+        },
+        {
+          "de": "der Glanz",
+          "en": "shine"
+        }
+      ]
+    },
+    {
+      "n": 84,
+      "de": "Er steht an dem offenen Grabe. Er steht auch im Zeltlager und lächelt leise, überlegen spöttisch. Hat er es schon gewusst, dass ich das Kästchen erbrochen hab? Hat auch er das Tagebuch gekannt? Ist er dem Z nachgeschlichen und dem N? Er lächelt seltsam starr. Ich rühre mich nicht.",
+      "en": "He is standing by the open grave. He is also standing in the tent camp, smiling faintly, superior and mocking. Did he already know then that I had broken open the box? Did he know about the diary too? Did he creep after Z and N? He smiles in that strangely fixed way. I don't move.",
+      "explain_en": "The teacher's thoughts jump back to earlier scenes. ‘an dem offenen Grabe’ has the old dative -e; today ‘am offenen Grab’. ‘nachschleichen’ (+ Dativ) = to creep after someone. ‘Hat er es schon gewusst?’ = Did he already know? ‘sich rühren’ = to move.",
+      "words": [
+        {
+          "de": "das Grab, die Gräber",
+          "en": "grave"
+        },
+        {
+          "de": "lächeln",
+          "en": "to smile"
+        },
+        {
+          "de": "wissen (wusste, gewusst)",
+          "en": "to know"
+        },
+        {
+          "de": "schleichen",
+          "en": "to creep, to sneak"
+        },
+        {
+          "de": "sich rühren",
+          "en": "to move, to stir"
+        }
+      ]
+    },
+    {
+      "n": 85,
+      "de": "Und wieder fragt der Präsident: „Was ist Ihnen?“ Soll ich es sagen, dass ich an den T denke? Unsinn! Warum sollte denn der T den N erschlagen haben? Es fehlt doch jedes Motiv – Und ich sage: „Verzeihung, Herr Präsident, aber ich bin etwas nervös.“ „Begreiflich!“ grinst der Staatsanwalt. Ich verlasse den Saal. Ich weiß, sie werden den Z freisprechen und das Mädel verurteilen. Aber ich weiß auch, es wird sich alles ordnen. Morgen oder übermorgen wird die Untersuchung gegen mich eingeleitet werden. Wegen Irreführung der Behörde und Diebstahlsbegünstigung. Man wird mich vom Lehramt suspendieren. Ich verliere mein Brot.",
+      "en": "And again the judge asks: “What's the matter with you?” Should I say that I'm thinking of T? Nonsense! Why would T have killed N? There's no motive at all – And I say: “I beg your pardon, Your Honour, but I'm a little nervous.” “Understandable!” grins the prosecutor. I leave the courtroom. I know they will acquit Z and convict the girl. But I also know that everything will be put right. Tomorrow or the day after, an investigation will be opened against me. For misleading the authorities and covering up a theft. They'll suspend me from teaching. I'll lose my bread.",
+      "explain_en": "‘Unsinn!’ = nonsense. ‘das Motiv’ = motive. ‘Verzeihung’ = excuse me, sorry. ‘begreiflich’ = understandable (today: ‘verständlich’). ‘freisprechen’ = to acquit; ‘verurteilen’ = to convict. ‘sich ordnen’ = to sort itself out. ‘übermorgen’ = the day after tomorrow – useful! ‘die Untersuchung’ = investigation. ‘suspendieren’ = to suspend.",
+      "words": [
+        {
+          "de": "der Unsinn",
+          "en": "nonsense"
+        },
+        {
+          "de": "das Motiv, die Motive",
+          "en": "motive"
+        },
+        {
+          "de": "begreiflich",
+          "en": "understandable",
+          "note": "everyday: verständlich"
+        },
+        {
+          "de": "freisprechen",
+          "en": "to acquit"
+        },
+        {
+          "de": "übermorgen",
+          "en": "the day after tomorrow"
+        },
+        {
+          "de": "die Untersuchung, die Untersuchungen",
+          "en": "investigation"
+        },
+        {
+          "de": "suspendieren",
+          "en": "to suspend"
+        }
+      ]
+    },
+    {
+      "n": 86,
+      "type": "summary",
+      "covers": "Chapters 'Der Fisch' (end) to 'Einer von fünf' (beginning)",
+      "en": "The teacher goes home to bed, strangely free of worries. Next morning the paper reports that Z got only a small sentence, while Eva has been charged with murder. The teacher is banned from the school. He waits for T after school and buys him an ice cream. T calmly says Eva made up the strange boy, reveals that he watched the teacher that night in the woods – it was his face the teacher touched – and claims the pupils call the teacher “the Fish”. Then T stops, as if he has said too much. The next day is a state holiday for the dictator's birthday, full of flags and marching. A quiet boy, B, visits the teacher: the compass belonged to T, and T once said he would like to watch someone die. B has skipped the parade; he hates the marching and the speeches."
+    },
+    {
+      "n": 87,
+      "de": "„Hoffentlich bist du der Einzige in der Klasse, der so denkt!“\n„Oh nein! Wir sind schon zu viert!“\nZu viert? Schon?\nUnd seit wann? „Erinnern Sie sich, Herr Lehrer, wie Sie damals die Sache über die Neger gesagt haben, noch im Frühjahr vor unserem Zeltlager? Damals haben wir doch alle unterschrieben, dass wir Sie nicht mehr haben wollen – aber ich tats nur unter Druck, denn Sie haben natürlich sehr recht gehabt mit den Negern. Und dann allmählich fand ich noch drei, die auch so dachten.“",
+      "en": "“I hope you're the only one in the class who thinks like that!” “Oh no! There are four of us already!” Four? Already? And since when? “Do you remember, sir, when you said that thing about the Negroes, back in the spring before our camp? Back then we all signed that we didn't want you any more – but I only did it under pressure, because of course you were quite right about the Negroes. And then gradually I found three others who thought the same.”",
+      "explain_en": "There is hope: not all young people are ‘fish’. ‘zu viert’ = four of us (zu zweit, zu dritt …) – very useful. ‘sich erinnern’ = to remember. ‘unter Druck’ = under pressure. ‘recht haben’ = to be right. ‘Ich tats’ = ‘Ich tat es’. ‘allmählich’ = gradually. Remember: ‘Neger’ is a racist slur today; say ‘Schwarze Menschen’.",
+      "words": [
+        {
+          "de": "hoffentlich",
+          "en": "hopefully"
+        },
+        {
+          "de": "zu viert",
+          "en": "four of us"
+        },
+        {
+          "de": "sich erinnern an",
+          "en": "to remember"
+        },
+        {
+          "de": "unterschreiben",
+          "en": "to sign"
+        },
+        {
+          "de": "der Druck",
+          "en": "pressure"
+        },
+        {
+          "de": "recht haben",
+          "en": "to be right"
+        },
+        {
+          "de": "allmählich",
+          "en": "gradually"
+        }
+      ]
+    },
+    {
+      "n": 88,
+      "type": "summary",
+      "covers": "Chapter 'Einer von fünf' (middle)",
+      "en": "The four boys, now joined by a baker's apprentice and an errand boy, have founded a secret club. Once a week they read everything that is banned. Mocking is strictly forbidden by their rules; instead they discuss how the world ought to be. The teacher remembers Z's words in court – that he only ever said how the world should be – and thinks of T, who only wants to know how things really are, so that he can sneer at them."
+    },
+    {
+      "n": 89,
+      "de": "„Ihnen, Herr Lehrer“, höre ich wieder die Stimme des B, „kann man ja ruhig alles sagen. Drum komme ich jetzt auch mit meinem Verdacht zu Ihnen, um es mit Ihnen zu beraten, was man tun soll.“\n„Warum gerade mit mir?“\n„Wir haben es gestern im Klub alle gesagt, als wir Ihre Zeugenaussage mit dem Kästchen in der Zeitung gelesen haben, dass Sie der einzige Erwachsene sind, den wir kennen, der die Wahrheit liebt.“",
+      "en": "“You, sir,” I hear B's voice again, “one can safely tell everything. That's why I've come to you with my suspicion, to talk over with you what should be done.” “Why me, of all people?” “We all said it yesterday at the club, when we read in the paper about your evidence about the box: that you're the only adult we know who loves the truth.”",
+      "explain_en": "B's words are the teacher's reward. ‘ruhig’ here = safely, without worry (‘Du kannst ruhig fragen’ = feel free to ask). ‘der Verdacht’ = suspicion. ‘beraten’ = to discuss, to advise. ‘gerade mit mir?’ = with me of all people? ‘die Zeugenaussage’ = witness statement. ‘der Erwachsene’ = adult (an adjective used as a noun: ein Erwachsener).",
+      "words": [
+        {
+          "de": "der Verdacht",
+          "en": "suspicion"
+        },
+        {
+          "de": "beraten",
+          "en": "to discuss; to advise"
+        },
+        {
+          "de": "gerade",
+          "en": "of all people/things; just"
+        },
+        {
+          "de": "die Zeugenaussage, die Zeugenaussagen",
+          "en": "witness statement"
+        },
+        {
+          "de": "der/die Erwachsene",
+          "en": "adult"
+        },
+        {
+          "de": "die Wahrheit, die Wahrheiten",
+          "en": "truth"
+        }
+      ]
+    },
+    {
+      "n": 90,
+      "type": "summary",
+      "covers": "Chapters 'Der Klub greift ein' to 'Besuch' (beginning)",
+      "en": "The investigating judge says the compass was stolen from the village mayor, probably by Eva's gang, so it no longer matters. The club decides to help Eva and to watch T day and night. B tells the teacher that his real nickname among the pupils isn't “the Fish” at all but “der Neger” – the racist word from his remark at the start – and they both laugh. The teacher's parents write, shocked that he has lost his job. He can't bring himself to write back “God will help”, until one evening he does, in the bar where Julius Caesar offers to help catch T. The club's daily reports say “nothing special”. Then the village priest visits, in ordinary clothes. Does the teacher realise he will never teach in this country again? And what will he live on?"
+    },
+    {
+      "n": 91,
+      "de": "Und ich sage: „Ich habe nichts. Und ich muss auch meine Eltern unterstützen.“\nEr sieht mich groß an und sagt dann nach einer kleinen Pause: „Ich hätte eine Stellung für Sie.“\n„Was?! Eine Stellung?!“\n„Ja, aber in einem anderen Land.“\n„Wo?“\n„In Afrika.“\n„Bei den Negern?“ Es fällt mir ein, dass ich „der Neger“ heiße, und ich muss lachen.\nEr bleibt ernst.\n„Warum finden Sie das so komisch? Neger sind auch nur Menschen!“",
+      "en": "And I say: “I have nothing. And I have to support my parents too.” He looks at me wide-eyed and then, after a short pause, says: “I might have a position for you.” “What?! A position?!” “Yes, but in another country.” “Where?” “In Africa.” “With the Negroes?” It occurs to me that my nickname is “the Negro”, and I have to laugh. He remains serious. “Why do you find that so funny? Negroes are human beings too!”",
+      "explain_en": "Nice irony: the priest repeats almost exactly the sentence that got the teacher into trouble at the start (‘Auch die Neger sind Menschen’). ‘unterstützen’ = to support. ‘die Stellung’ = position, job (today: ‘die Stelle’). ‘Es fällt mir ein’ = it occurs to me. ‘ernst bleiben’ = to stay serious. Again: ‘Neger’ is a racist slur today – say ‘Schwarze Menschen’.",
+      "words": [
+        {
+          "de": "unterstützen",
+          "en": "to support"
+        },
+        {
+          "de": "die Pause, die Pausen",
+          "en": "pause, break"
+        },
+        {
+          "de": "die Stelle, die Stellen",
+          "en": "job, position",
+          "note": "text: die Stellung (older)"
+        },
+        {
+          "de": "einfallen",
+          "en": "to occur to someone"
+        },
+        {
+          "de": "ernst",
+          "en": "serious"
+        },
+        {
+          "de": "komisch",
+          "en": "funny; strange"
+        }
+      ]
+    },
+    {
+      "n": 92,
+      "de": "Wem erzählen Sie das? möchte ich ihn fragen, aber ich sage nichts dergleichen, sondern höre es mir an, was er mir vorschlägt: ich könnte Lehrer werden, und zwar in einer Missionsschule.\n„Ich soll in einen Orden eintreten?“\n„Das ist nicht notwendig.“\nIch überlege. Heute glaube ich an Gott, aber ich glaube nicht daran, dass die Weißen die Neger beglücken, denn sie bringen ihnen Gott als schmutziges Geschäft.\nUnd ich sage es ihm.\nEr bleibt ganz ruhig.\n„Das hängt lediglich von Ihnen ab, ob Sie Ihre Sendung missbrauchen, um schmutzige Geschäfte machen zu können.“\nIch horche auf. Sendung?\n„Jeder Mensch hat eine Sendung“, sagt er.\nRichtig!",
+      "en": "Who are you telling? I'd like to ask him, but I say nothing of the kind; instead I listen to what he proposes: I could become a teacher, at a mission school. “Am I supposed to join a religious order?” “That's not necessary.” I think it over. Today I believe in God, but I don't believe that the whites make the Negroes happy, because they bring them God as a dirty business. And I tell him so. He stays completely calm. “It depends entirely on you whether you misuse your mission to do dirty business.” I prick up my ears. Mission? “Every person has a mission,” he says. Right!",
+      "explain_en": "‘Wem erzählen Sie das?’ = Who are you telling? (I know that already!). ‘vorschlagen’ = to suggest. ‘in einen Orden eintreten’ = to join a religious order. ‘beglücken’ = to make happy (often ironic). The teacher criticises colonial missionaries. ‘abhängen von’ = to depend on – very useful. ‘missbrauchen’ = to misuse. ‘die Sendung’ here = mission, calling; today it usually means ‘TV programme’ or ‘parcel’! ‘Neger’ is a racist slur today.",
+      "words": [
+        {
+          "de": "vorschlagen",
+          "en": "to suggest"
+        },
+        {
+          "de": "der Orden, die Orden",
+          "en": "religious order; medal"
+        },
+        {
+          "de": "überlegen",
+          "en": "to think over"
+        },
+        {
+          "de": "das Geschäft, die Geschäfte",
+          "en": "business; shop"
+        },
+        {
+          "de": "abhängen von",
+          "en": "to depend on"
+        },
+        {
+          "de": "missbrauchen",
+          "en": "to misuse"
+        },
+        {
+          "de": "die Sendung, die Sendungen",
+          "en": "mission (old); today: broadcast, parcel"
+        }
+      ]
+    },
+    {
+      "n": 93,
+      "type": "summary",
+      "covers": "Chapters 'Besuch' (end) to 'Die anderen Augen' (beginning)",
+      "en": "The teacher says he will go to Africa once he has freed Eva. The priest advises him to tell T's mother everything. The teacher rides out to a grand villa, but the rich mother has no time for him; T appears instead, looking empty and frightened. Julius Caesar tries to trap T with the help of two women he knows from a nightclub, but T never turns up. That night the teacher cannot sleep: he imagines dead N accusing him of sharing the guilt. In the middle of the night the police take him to T's villa. T has taken his own life. On his mother's dressing table was a note: “The teacher drove me to my death.” The mother screams that the teacher is to blame. The teacher explains what kind of boy T was. The mother has a fit and drops a crumpled scrap of paper."
+    },
+    {
+      "n": 94,
+      "de": "Der Funktionär hebt es auf.\nEs ist ein zerknülltes Papier.\nDer abgerissene Teil jenes Zettels, auf dem stand: „Der Lehrer trieb mich in den Tod“.\nUnd hier schrieb der T, warum er in den Tod getrieben wurde: „Denn der Lehrer weiß es, dass ich den N erschlagen habe. Mit dem Stein –“\nEs wurde sehr still im Saal.\nDie Mutter schien zusammengebrochen.\nSie saß und rührte sich nicht.\nPlötzlich lächelt sie wieder und nickt mir zu.",
+      "en": "The official picks it up. It is a crumpled piece of paper. The torn-off part of that note which said: “The teacher drove me to my death.” And here T had written why he was driven to his death: “Because the teacher knows that I killed N. With the stone –” It became very quiet in the hall. The mother seemed to have collapsed. She sat there and did not move. Suddenly she smiles again and nods to me.",
+      "explain_en": "The truth comes out: T was the murderer, and his mother had torn off the second half of his note. ‘der Funktionär’ = official (here a senior police officer). ‘abreißen’ = to tear off. ‘der Zettel’ = note, slip of paper – very common. ‘in den Tod treiben’ = to drive to one's death. ‘zusammenbrechen’ = to collapse. ‘nicken’ = to nod.",
+      "words": [
+        {
+          "de": "aufheben",
+          "en": "to pick up"
+        },
+        {
+          "de": "zerknüllt",
+          "en": "crumpled"
+        },
+        {
+          "de": "abreißen",
+          "en": "to tear off"
+        },
+        {
+          "de": "der Zettel, die Zettel",
+          "en": "note, slip of paper"
+        },
+        {
+          "de": "zusammenbrechen",
+          "en": "to collapse"
+        },
+        {
+          "de": "nicken",
+          "en": "to nod"
+        }
+      ]
+    },
+    {
+      "n": 95,
+      "de": "Was war das?\nNein, das war doch nicht sie –\nDas waren nicht ihre Augen –\nStill wie die dunklen Seen in den Wäldern meiner Heimat.\nUnd traurig wie eine Kindheit ohne Licht.\nSo schaut Gott zu uns herein, muss ich plötzlich denken. Einst dachte ich, er hätte tückische, stechende Augen – Nein, nein!\nDenn Gott ist die Wahrheit.\n„Sage es, dass du das Kästchen erbrochen hast“, höre ich wieder die Stimme. „Tu mir den Gefallen und kränke mich nicht –“",
+      "en": "What was that? No, that wasn't her – Those weren't her eyes – Still, like the dark lakes in the forests of my homeland. And sad, like a childhood without light. That is how God looks in at us, I suddenly think. Once I thought He had spiteful, piercing eyes – No, no! For God is truth. “Say that you broke open the box,” I hear the voice again. “Do me this favour and do not hurt me –”",
+      "explain_en": "These are ‘die anderen Augen’ (the other eyes) of the chapter title: the same words described Eva's eyes in court. Now the teacher believes God looked at him through them. ‘tückisch’ = spiteful, treacherous. ‘stechend’ = piercing. ‘einst’ = once, in the past (formal). ‘Denn Gott ist die Wahrheit’ sums up his new faith: God is truth.",
+      "words": [
+        {
+          "de": "traurig",
+          "en": "sad"
+        },
+        {
+          "de": "die Kindheit",
+          "en": "childhood"
+        },
+        {
+          "de": "einst",
+          "en": "once, formerly",
+          "note": "formal"
+        },
+        {
+          "de": "tückisch",
+          "en": "spiteful, treacherous"
+        },
+        {
+          "de": "stechend",
+          "en": "piercing"
+        },
+        {
+          "de": "die Wahrheit",
+          "en": "truth"
+        }
+      ]
+    },
+    {
+      "n": 96,
+      "type": "summary",
+      "covers": "Chapter 'Die anderen Augen' (end)",
+      "en": "T's mother steps forward and admits, quietly but firmly, that she tore off the second half of the note. She wanted to spare the family the disgrace, she says, but when the teacher spoke about the children in the windows, she knew there was no point in hiding it any more. In the last chapter, “Über den Wassern” (Over the Waters), the teacher gets ready to leave."
+    },
+    {
+      "n": 97,
+      "de": "Morgen fahre ich nach Afrika. Auf meinem Tische stehen Blumen. Sie sind von meiner braven Hausfrau zum Abschied. Meine Eltern haben mir geschrieben, sie sind froh, dass ich eine Stellung habe und traurig, dass ich so weit weg muss über das große Meer.",
+      "en": "Tomorrow I leave for Africa. There are flowers on my table. They are from my good landlady, as a goodbye. My parents have written to me; they are glad that I have a job and sad that I have to go so far away, across the great sea.",
+      "explain_en": "The ending mirrors the very first page: flowers from the landlady on his table and a letter from his parents. ‘zum Abschied’ = as a farewell (der Abschied = goodbye). ‘die Stellung’ = job (today: ‘die Stelle’). ‘froh’ and ‘traurig’ together – mixed feelings. ‘weit weg’ = far away.",
+      "words": [
+        {
+          "de": "der Abschied, die Abschiede",
+          "en": "farewell, goodbye"
+        },
+        {
+          "de": "die Hausfrau",
+          "en": "landlady (old meaning)",
+          "note": "today: die Vermieterin; Hausfrau = housewife"
+        },
+        {
+          "de": "froh",
+          "en": "glad"
+        },
+        {
+          "de": "traurig",
+          "en": "sad"
+        },
+        {
+          "de": "weit weg",
+          "en": "far away"
+        },
+        {
+          "de": "das Meer, die Meere",
+          "en": "sea"
+        }
+      ]
+    },
+    {
+      "n": 98,
+      "de": "Und dann ist noch ein Brief da. Ein blaues Kuvert. „Schöne Grüße an die Neger. Der Klub.“ Gestern hab ich Eva besucht. Sie ist glücklich, dass der Fisch gefangen wurde. Der Pfarrer hat es mir versprochen, dass er sich um sie kümmern wird, wenn sie das Gefängnis verlässt. Ja, sie hat Diebsaugen. Die Staatsanwaltschaft hat das Verfahren gegen mich niedergeschlagen, und der Z ist schon frei. Ich packe meine Koffer. Julius Caesar hat mir seinen Totenkopf geschenkt. Dass ich ihn nur nicht verliere! Pack alles ein, vergiss nichts! Lass nur nichts da! Der Neger fährt zu den Negern.",
+      "en": "And there's another letter. A blue envelope. “Best wishes to the Negroes. The Club.” Yesterday I visited Eva. She is happy that the Fish has been caught. The priest has promised me that he will look after her when she leaves prison. Yes, she has thief's eyes. The public prosecutor has dropped the case against me, and Z is already free. I pack my suitcases. Julius Caesar has given me his skull. I mustn't lose it! Pack everything, don't forget anything! Don't leave anything behind! The Negro is going to the Negroes.",
+      "explain_en": "The last line is bitterly ironic: his nickname and the slur from the first chapter come back – ‘Neger’ is a racist word; today say ‘Schwarze Menschen’. ‘Schöne Grüße an …’ = best wishes to … – very common. ‘sich kümmern um’ = to look after. ‘das Verfahren niederschlagen’ = to drop the case (today: ‘einstellen’). ‘Dass ich ihn nur nicht verliere!’ = I must make sure I don't lose it. ‘Lass nichts da!’ = don't leave anything here.",
+      "words": [
+        {
+          "de": "der Gruß, die Grüße",
+          "en": "greeting"
+        },
+        {
+          "de": "sich kümmern um",
+          "en": "to look after"
+        },
+        {
+          "de": "das Gefängnis, die Gefängnisse",
+          "en": "prison"
+        },
+        {
+          "de": "das Verfahren, die Verfahren",
+          "en": "legal proceedings, case"
+        },
+        {
+          "de": "der Koffer, die Koffer",
+          "en": "suitcase"
+        },
+        {
+          "de": "verlieren",
+          "en": "to lose"
+        },
+        {
+          "de": "vergessen",
+          "en": "to forget"
         }
       ]
     }
