@@ -10,18 +10,20 @@ def hear(ctx, text: str, slow: bool = True) -> None:
     if ctx.audio.can_speak:
         with console.status("[dim]▶ speaking…[/]"):
             ctx.audio.say(text, slow)
+        ui.flush_input()
 
 
 def _record(ctx, long_text: bool):
     if long_text:
-        ui.ask("Press Enter, then read the text out loud.")
+        ui.ask("🎤 Press Enter, then read the text out loud.")
         console.print("[bold red]● Recording…[/] press Enter when you're finished.")
         recording = ctx.audio.record_until(lambda: ui.ask(""))
     else:
         seconds = ctx.settings["word_record_seconds"]
-        ui.ask("Press Enter, then say it.")
+        ui.ask("🎤 Press Enter, then say it.")
         with console.status(f"[bold red]● Recording for {seconds} seconds, speak now![/]"):
             recording = ctx.audio.record_seconds(seconds)
+        ui.flush_input()
     if recording[0].size == 0:
         console.print("[yellow]I couldn't hear anything. Is the microphone muted or too far away?[/]")
         return None
@@ -35,6 +37,7 @@ def _play_both(ctx, recording, text: str, slow: bool) -> None:
     if recording is not None:
         console.print("[magenta]▶ Your recording[/]")
         ctx.audio.play(*recording)
+        ui.flush_input()
     console.print("[cyan]▶ How it should sound[/]")
     hear(ctx, text, slow)
 

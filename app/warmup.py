@@ -51,9 +51,11 @@ def show_card(ctx, word: Word, i: int, total: int) -> None:
     console.print(Panel(word_details(word), border_style="magenta", padding=(1, 2)))
     hear(ctx, word.de)
     if ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:
-        console.print("[bold]Now you say it![/]")
+        console.print("[bold red]🎤 Speaking turn:[/] [bold]repeat the word after Fritz.[/]")
         speak_and_compare(ctx, word.de)
     else:
+        if ctx.audio.can_speak:
+            console.print("[dim]👂 Just listen to this one (no speaking).[/]")
         _listen_options(ctx, word, {"": "next"})
     ctx.profile.word_state(word.id)  # box stays 0 until the quiz grades it
     ctx.profile.count(ctx.today, new=1)
@@ -98,7 +100,7 @@ def quiz(ctx, word: Word, direction: str) -> str:
 
 
 def read_aloud(ctx, word: Word) -> None:
-    console.print(ui.german(word.de, "Read it out loud", subtitle=", ".join(word.en)))
+    console.print(ui.german(word.de, "🎤 Speaking turn: read it out loud", subtitle=", ".join(word.en)))
     speak_and_compare(ctx, word.de)
 
 

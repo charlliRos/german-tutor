@@ -1,6 +1,9 @@
 """Small terminal helpers on top of rich."""
 from __future__ import annotations
 
+import os
+import sys
+
 from rich import box
 from rich.console import Console
 from rich.markup import escape
@@ -16,6 +19,22 @@ UMLAUT_TIP = "[dim]No ä ö ü ß on your keyboard? Type ae oe ue ss. Type :q to
 
 class QuitSession(Exception):
     """The user typed :q (or closed input) to leave the current activity."""
+
+
+def flush_input() -> None:
+    """Throw away keys pressed while audio was playing, so an impatient Enter doesn't skip the next step."""
+    if not sys.stdin or not sys.stdin.isatty():
+        return
+    try:
+        if os.name == "nt":
+            import msvcrt
+            while msvcrt.kbhit():
+                msvcrt.getwch()
+        else:
+            import termios
+            termios.tcflush(sys.stdin, termios.TCIFLUSH)
+    except Exception:
+        pass
 
 
 def ask(prompt: str) -> str:
