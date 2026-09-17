@@ -177,7 +177,7 @@ def menu(ctx: Context) -> None:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Offline German tutor")
+    parser = argparse.ArgumentParser(prog="gtutor", description="Offline German tutor")
     parser.add_argument("--profile", help="student name (skips the chooser)")
     parser.add_argument("--no-audio", action="store_true", help="run without speech or microphone")
     args = parser.parse_args(argv)
