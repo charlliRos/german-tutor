@@ -75,14 +75,23 @@ def _split_article(text: str) -> tuple[str | None, str]:
     return None, text
 
 
+def _without_prefix(text: str) -> str:
+    for prefix in _EN_PREFIXES:
+        if text.startswith(prefix):
+            return text[len(prefix):]
+    return text
+
+
 def check_english(answer: str, word) -> Check:
-    given = english_forms(answer)
+    # The answer itself isn't split on / or ;, so "to be / to go" can't hit by listing guesses.
+    given = normalize(answer)
     if not given:
         return Check(WRONG, overridable=False)
     expected = set().union(*(english_forms(e) for e in word.en))
-    if given & expected:
+    if {given, _without_prefix(given)} & expected:
         return Check(CORRECT)
-    if any(_is_typo(g, e) for g in given for e in expected):
+    # Typos are judged without "to"/"the", so "to do" isn't a misspelling of "to go".
+    if any(_is_typo(_without_prefix(given), _without_prefix(e)) for e in expected):
         return Check(ALMOST, "Small spelling mistake.")
     return Check(WRONG)
 

@@ -10,7 +10,7 @@ from rich.text import Text
 from . import ui
 from .content import Book, Unit
 from .speaking import hear, speak_and_compare
-from .ui import console, icon
+from .ui import QuitSession, console, icon
 
 SELF_GRADES = {"1": "needs work", "2": "mostly right", "3": "nailed it"}
 
@@ -26,22 +26,24 @@ def current_book(ctx) -> Book | None:
     return None
 
 
-def choose_book(ctx) -> None:
+def choose_book(ctx) -> str:
+    """Pick the book to read. Returns a short message for the menu ("" if nothing changed)."""
     books = ctx.content.books
     narrow = console.width < 70
-    table = Table()
-    for col in ("#", "Title") + (() if narrow else ("Author", "Level")) + ("Read",):
+    ui.title("Choose a book")
+    table = Table(caption=f"{icon('current')} = reading now", caption_justify="left")
+    for col in ("#", "Title") + (() if narrow else ("Author", "Level")) + ("Paragraphs read",):
         table.add_column(col)
     for i, b in enumerate(books, 1):
         nxt = ctx.profile.book_state(b.id)["next"]
-        read = f"{icon('done')} finished" if b.finished(nxt) else f"{b.parts_read(nxt)}/{b.parts}"
-        mark = " ◀" if b.id == ctx.profile.data["current_book"] else ""
+        read = f"{icon('done')} finished" if b.finished(nxt) else f"{b.parts_read(nxt)} of {b.parts}"
+        mark = f" {icon('current')}" if b.id == ctx.profile.data["current_book"] else ""
         table.add_row(str(i), b.short_title + mark, *(() if narrow else (b.author, b.level)), read)
     console.print(table)
     while True:
         answer = ui.ask("Book number (Enter to keep the current one):")
         if not answer:
-            return
+            return ""
         if not (answer.isdigit() and 1 <= int(answer) <= len(books)):
             console.print(f"[warn]'{ui.escape(answer)}' isn't a book number. Pick 1–{len(books)}, "
                           "or press Enter.[/]")
@@ -55,8 +57,7 @@ def choose_book(ctx) -> None:
             state["next"] = 1
         ctx.profile.data["current_book"] = book.id
         ctx.profile.save()
-        console.print(f"[good]Now reading: {book.short_title}[/]")
-        return
+        return f"[good]Now reading: {ui.escape(book.short_title)}[/]"
 
 
 def _replay_until_enter(ctx, text: str, enter_label: str) -> None:
@@ -95,7 +96,8 @@ def _self_grade(ctx, german_text: str | None) -> str:
         hear(ctx, german_text, slow=False)
 
 
-def _translate(ctx, book: Book, unit: Unit, direction: str) -> dict:
+def _translate(ctx, book: Book, unit: Unit, direction: str, entry: dict) -> None:
+    """Fills entry with the answer (straight away, so quitting at the self-grade keeps it) and the grade."""
     to_english = direction == "de2en"
     reference = unit.en if to_english else unit.de
     while True:
@@ -118,13 +120,15 @@ def _translate(ctx, book: Book, unit: Unit, direction: str) -> dict:
                                 border_style="green" if to_english else "cyan", padding=(1, 2)))
             if not to_english:
                 hear(ctx, unit.de, slow=False)
+            entry.update(answer="", skipped=True)
             ui.keys({"": "continue"})
-            return {"answer": "", "skipped": True}
+            return
+    entry.update(answer=answer, self_grade="not graded")
     ui.side_by_side("Your translation", answer,
                     "Reference translation" if to_english else "Original German", reference)
     if not to_english:
         hear(ctx, unit.de, slow=False)
-    return {"answer": answer, "self_grade": _self_grade(ctx, None if to_english else unit.de)}
+    entry["self_grade"] = _self_grade(ctx, None if to_english else unit.de)
 
 
 def _story_so_far(ctx, book: Book, state: dict) -> Unit | None:
@@ -146,11 +150,24 @@ def _celebrate(ctx, book: Book) -> None:
     ui.clear()
     text = Text(justify="center")
     text.append(f"{icon('party')}  You finished {book.title}!  {icon('party')}\n\n", style="good")
-    text.append(f"{book.author} · {ui.plural(book.parts, 'part')} read in German\n", style="en")
+    text.append(f"{book.author} · {ui.plural(book.parts, 'paragraph')} read in German\n", style="en")
     text.append("Du hast das ganze Buch gelesen. Toll gemacht!", style="de")
     console.print(Panel(text, border_style="green", padding=(1, 4)))
     ui.keys({"": "choose my next book"})
-    choose_book(ctx)
+    ui.clear()
+    console.print(choose_book(ctx))
+
+
+def _finish_lesson(ctx, book: Book, state: dict, unit: Unit, entry: dict) -> bool:
+    """Move on to the next paragraph and keep the journal entry. True if it counts as read (not skipped)."""
+    counted = not entry.get("skipped")
+    state["next"] = unit.n + 1
+    ctx.profile.data["current_book"] = book.id
+    if counted:
+        ctx.profile.count(ctx.today, units=1)
+    ctx.profile.save()
+    ctx.profile.add_journal(entry)
+    return counted
 
 
 def lesson(ctx, book: Book) -> bool:
@@ -167,7 +184,7 @@ def lesson(ctx, book: Book) -> bool:
         return False
 
     task = _choose_task(ctx)
-    header = f"{ctx.step}Part {unit.part}/{book.total_parts} · {book.short_title}"
+    header = f"{ctx.step}Paragraph {unit.part} of {book.total_parts} · {book.short_title}"
 
     # 1. Read and listen
     ui.clear()
@@ -176,34 +193,33 @@ def lesson(ctx, book: Book) -> bool:
     hear(ctx, unit.de, slow=False)
 
     entry = {"date": datetime.now().isoformat(timespec="minutes"), "book": book.id, "unit": unit.part, "task": task}
-    if task == "de2en":
-        # Translate first, so the English meaning isn't on screen just before.
-        _replay_until_enter(ctx, unit.de, "translate it")
-        entry.update(_translate(ctx, book, unit, task))
-        ui.clear()
-        ui.title(header, "what it means")
-        console.print(ui.german(unit.de))
-        _explain(unit)
-        _replay_until_enter(ctx, unit.de, "done")
-    else:
-        _replay_until_enter(ctx, unit.de, "show me what it means")
-        _explain(unit)
-        _replay_until_enter(ctx, unit.de, "my turn")
-        if task == "read_aloud":
+    try:
+        if task == "de2en":
+            # Translate first, so the English meaning isn't on screen just before.
+            _replay_until_enter(ctx, unit.de, "translate it")
+            _translate(ctx, book, unit, task, entry)
             ui.clear()
-            ui.title(f"{ctx.step}Your turn: read it out loud", book.short_title)
+            ui.title(header, "what it means")
             console.print(ui.german(unit.de))
-            speak_and_compare(ctx, unit.de, long_text=True)
+            _explain(unit)
+            _replay_until_enter(ctx, unit.de, "done")
         else:
-            entry.update(_translate(ctx, book, unit, task))
+            _replay_until_enter(ctx, unit.de, "show me what it means")
+            _explain(unit)
+            _replay_until_enter(ctx, unit.de, "my turn")
+            if task == "read_aloud":
+                ui.clear()
+                ui.title(f"{ctx.step}Your turn: read it out loud", book.short_title)
+                console.print(ui.german(unit.de))
+                speak_and_compare(ctx, unit.de, long_text=True)
+            else:
+                _translate(ctx, book, unit, task, entry)
+    except QuitSession:
+        if "answer" in entry:  # the translation is typed: keep it, and the paragraph counts as done
+            _finish_lesson(ctx, book, state, unit, entry)
+        raise
 
-    counted = not entry.get("skipped")
-    state["next"] = unit.n + 1
-    ctx.profile.data["current_book"] = book.id
-    if counted:
-        ctx.profile.count(ctx.today, units=1)
-    ctx.profile.save()
-    ctx.profile.add_journal(entry)
+    counted = _finish_lesson(ctx, book, state, unit, entry)
     if book.finished(state["next"]):
         _story_so_far(ctx, book, state)  # a closing summary, if the book ends with one
         _celebrate(ctx, book)

@@ -28,8 +28,16 @@ class Profile:
         return self.path.with_name(self.path.stem + "_journal.jsonl")
 
     @classmethod
-    def list_all(cls) -> list["Profile"]:
-        return [cls.load(p) for p in sorted(PROFILES_DIR.glob("*.json"))]
+    def list_all(cls, unreadable: list[Path] | None = None) -> list["Profile"]:
+        """All profiles. A damaged file is skipped (and added to `unreadable`) so the other kids still work."""
+        profiles = []
+        for path in sorted(PROFILES_DIR.glob("*.json")):
+            try:
+                profiles.append(cls.load(path))
+            except (OSError, ValueError, AttributeError):
+                if unreadable is not None:
+                    unreadable.append(path)
+        return profiles
 
     @staticmethod
     def last_used(profiles: list["Profile"]) -> "Profile | None":
@@ -67,6 +75,8 @@ class Profile:
         tmp = self.path.with_suffix(".tmp")
         with tmp.open("w", encoding="utf-8") as f:
             json.dump(self.data, f, ensure_ascii=False, indent=1)
+            f.flush()
+            os.fsync(f.fileno())  # on disk before it replaces the old file, so a power cut can't leave it empty
         os.replace(tmp, self.path)
 
     def word_state(self, word_id: str) -> dict:
@@ -95,9 +105,14 @@ class Profile:
         """Days with a finished warm-up before the given day (drives the warm-up size)."""
         return sum(1 for d, c in self.data["days"].items() if d < before.isoformat() and c.get("warmups", 0))
 
+    @staticmethod
+    def practised(counts: dict) -> bool:
+        """A practice day: a finished warm-up or a finished paragraph (the streak and the report both use this)."""
+        return bool(counts.get("warmups", 0) or counts.get("units", 0))
+
     def streak(self, today: date) -> int:
-        """Consecutive days with a finished warm-up or a finished paragraph."""
-        days = {d for d, c in self.data["days"].items() if c.get("warmups", 0) or c.get("units", 0)}
+        """Consecutive practice days up to today (or yesterday, if today hasn't been practised yet)."""
+        days = {d for d, c in self.data["days"].items() if self.practised(c)}
         d = today if today.isoformat() in days else today - timedelta(days=1)
         n = 0
         while d.isoformat() in days:
@@ -114,5 +129,10 @@ class Profile:
         if not self.journal_path.exists():
             return []
         with self.journal_path.open(encoding="utf-8") as f:
-            entries = [json.loads(line) for line in f if line.strip()]
+            entries = []
+            for line in f:
+                try:
+                    entries.append(json.loads(line))
+                except ValueError:
+                    pass  # a half-written line (e.g. the computer turned off mid-save)
         return entries if limit is None else entries[-limit:]

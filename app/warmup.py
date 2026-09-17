@@ -5,7 +5,6 @@ It can be run again any time: later rounds that day are extra practice on words 
 """
 from __future__ import annotations
 
-import time
 from dataclasses import dataclass, field
 
 from rich.panel import Panel
@@ -17,6 +16,8 @@ from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german,
 from .content import BANKS, Word, words_sharing_english
 from .speaking import hear, speak_and_compare
 from .ui import console, icon
+
+AUTO_NEXT = "auto_next"  # quiz(): correct, and no key press needed to continue
 
 POS_HINTS = {"noun": "noun: include der / die / das", "verb": "verb", "adj": "adjective", "adv": "adverb",
              "prep": "preposition", "conj": "conjunction", "pron": "pronoun", "num": "number",
@@ -116,9 +117,7 @@ def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
         hear(ctx, word.de)
 
     if check.outcome == CORRECT and ctx.settings.get("auto_next_on_correct", True):
-        if console.is_terminal:
-            time.sleep(1.5)  # a moment to read it, then straight on
-        return CORRECT
+        return AUTO_NEXT  # the caller saves the result first, then pauses a moment and goes straight on
     options = {"": "next"}
     if check.overridable and answer and not second_chance and check.outcome != CORRECT:
         options["o"] = "my answer was right too"
@@ -151,7 +150,7 @@ def run_warmup(ctx) -> WarmupResult | None:
     result = WarmupResult(extra_practice=not first_today)
     ui.clear()
     ui.title(f"{ctx.step}{'Extra practice' if result.extra_practice else 'Warm-up'}", ui.plural(plan.total, "word"))
-    parts = [f"{len(plan.new)} new", f"{len(plan.reviews)} to review", f"{len(plan.practice)} extra practice"]
+    parts = [f"{len(plan.new)} new", f"{len(plan.reviews)} to review", f"{len(plan.practice)} to strengthen"]
     console.print(" · ".join(p for p in parts if not p.startswith("0 ")))
     if result.extra_practice:
         console.print("[hint]You've already done today's warm-up, so this round is extra practice: "
@@ -166,15 +165,18 @@ def run_warmup(ctx) -> WarmupResult | None:
     ctx.rng.shuffle(queue)
     for pos, (wid, kind) in enumerate(queue, 1):
         word, state = words[wid], ctx.profile.word_state(wid)
+        auto = None
         ui.clear()  # a fresh screen per question, so earlier cards and answers can't be copied
-        ui.title(f"{ctx.step}Word {pos} of {len(queue)}", "extra practice" if kind == "practice" else "")
+        ui.title(f"{ctx.step}Word {pos} of {len(queue)}", "a word to strengthen" if kind == "practice" else "")
         if kind != "new" and ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:
             read_aloud(ctx, word)
             if kind == "review":
                 srs.mark_practised(state, ctx.today)
             result.spoken += 1
         else:
-            outcome = quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")))
+            outcome = auto = quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")))
+            if outcome == AUTO_NEXT:
+                outcome = CORRECT
             (srs.apply_practice if kind == "practice" else srs.apply_result)(state, outcome, ctx.today)
             result.correct += outcome == CORRECT
             result.almost += outcome == ALMOST
@@ -183,12 +185,15 @@ def run_warmup(ctx) -> WarmupResult | None:
             ctx.profile.count(ctx.today, words=1, right=int(outcome == CORRECT), almost=int(outcome == ALMOST),
                               new=int(kind == "new"))
         ctx.profile.save()
+        if auto == AUTO_NEXT:
+            ui.pause(1.5)
 
+    # Every word is graded: the warm-up counts now, even if they stop during the second chances.
+    ctx.profile.count(ctx.today, warmups=1)
+    ctx.profile.save()
     for i, word in enumerate(result.to_practise, 1):
         ui.clear()
         ui.title(f"{ctx.step}Second chance {i} of {len(result.to_practise)}", "just for practice, no score")
-        quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance=True)
-
-    ctx.profile.count(ctx.today, warmups=1)
-    ctx.profile.save()
+        if quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance=True) == AUTO_NEXT:
+            ui.pause(1.5)
     return result

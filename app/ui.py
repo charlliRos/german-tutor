@@ -27,6 +27,12 @@ THEME = Theme({
     "rec": "bold red",
     "warn": "dark_orange",
 })
+# Output sent to a file or `more` on Windows uses an old code page: show "?" for symbols it lacks instead of crashing.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(errors="replace")
+    except (AttributeError, ValueError):
+        pass
 console = Console(highlight=False, theme=THEME)
 
 QUIT_WORDS = {"q", ":q", ":quit", ":exit"}
@@ -37,7 +43,8 @@ FANCY = bool(os.environ.get("WT_SESSION") or os.environ.get("TERM_PROGRAM")) or 
     os.name != "nt" and os.environ.get("TERM", "") not in ("linux", "dumb", ""))
 _ICONS = {"fire": ("🔥", "*"), "mic": ("🎤", "(mic)"), "ok": ("✔", "OK"), "almost": ("≈", "~"),
           "bad": ("✘", "X"), "play": ("▶", ">"), "rec": ("●", "(rec)"), "party": ("🎉", "!"),
-          "book": ("📖", "*"), "done": ("✓", "done"), "day": ("■", "#"), "no_day": ("·", ".")}
+          "book": ("📖", "*"), "done": ("✓", "done"), "day": ("■", "#"), "no_day": ("·", "."),
+          "current": ("◀", "<")}
 
 
 def icon(name: str) -> str:
@@ -115,6 +122,17 @@ def clock_seconds() -> int:
     """Active seconds since start_clock()."""
     _tick()
     return round(_clock["seconds"])
+
+
+def pause(seconds: float) -> None:
+    """A moment to read the screen. Ctrl+C here stops the activity like q (not the whole app)."""
+    if not console.is_terminal:
+        return
+    try:
+        time.sleep(seconds)
+    except KeyboardInterrupt:
+        console.print()
+        raise QuitSession from None
 
 
 def _read(prompt: str) -> str:

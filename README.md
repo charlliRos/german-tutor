@@ -65,7 +65,7 @@ gtutor report                 # all kids
 gtutor report --profile Anna  # one kid
 ```
 
-For each kid it shows when they last practised, practice days and time in the last 7 and 30 days, a 4-week calendar, words learned, reading position, their 10 most-missed words, and their last 5 translations next to the reference (with the grade they gave themselves). Practice time counts the time between answers; one long pause counts as at most 5 minutes. The report only reads the profiles.
+It starts with a one-line overview per kid. Then, for each kid: when they last practised, practice days and time in the last 7 and 30 days, a 4-week calendar, words learned, reading position, the 10 words they still miss most, and their last 5 translations next to the reference (with the grade they gave themselves). Practice time counts the time between answers; one long pause counts as at most 5 minutes. The report only reads the profiles.
 
 `data/` is not uploaded to GitHub. To move a kid to another computer, copy `data/profiles/` across.
 

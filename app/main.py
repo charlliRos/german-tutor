@@ -3,7 +3,6 @@ from __future__ import annotations
 
 import argparse
 import random
-import time
 from dataclasses import dataclass
 from datetime import date
 
@@ -35,16 +34,31 @@ class Context:
     step: str = ""  # e.g. "Today 1/2 · " in front of screen titles during the full lesson
 
 
+def open_profile(name: str) -> Profile | None:
+    try:
+        return Profile.open_or_create(name)
+    except (OSError, ValueError, AttributeError):
+        console.print(f"[warn]The progress file for {ui.escape(name)} is damaged and can't be read. "
+                      "Ask a parent to look in data/profiles/.[/]")
+        return None
+
+
 def choose_profile(name: str | None) -> Profile:
     if name:
-        return Profile.open_or_create(name)
-    profiles = Profile.list_all()
+        profile = open_profile(name)
+        if profile is None:
+            raise QuitSession
+        return profile
+    damaged: list = []
+    profiles = Profile.list_all(damaged)
     last = Profile.last_used(profiles)
     console.print(banner(width=console.width))
+    for path in damaged:
+        console.print(f"[warn]Can't read {ui.escape(str(path))} (damaged file), so it's left out.[/]")
     for i, p in enumerate(profiles, 1):
         console.print(f"  [key]{i}[/] {ui.escape(p.name)}" + ("  [hint]← last time[/]" if p is last else ""))
     if last:
-        prompt = f"Press Enter to continue as {last.name}, or pick a number / type a new name:"
+        prompt = f"Press Enter to continue as {ui.escape(last.name)}, or pick a number / type a new name:"
     else:
         prompt = "Your number, or type a new name:" if profiles else "Type your name:"
     while True:
@@ -57,7 +71,9 @@ def choose_profile(name: str | None) -> Profile:
             console.print(f"[warn]There's no number {answer}. " +
                           (f"Pick 1–{len(profiles)} or type a name.[/]" if profiles else "Type your name.[/]"))
         elif answer:
-            return Profile.open_or_create(answer)
+            profile = open_profile(answer)
+            if profile:
+                return profile
         else:
             console.print("[warn]Type your name to start (or q to quit).[/]")
 
@@ -98,7 +114,7 @@ def welcome(ctx: Context) -> None:
         ui.keys({"": "let's go"})
 
 
-def finish_screen(ctx: Context, started: float, warm: WarmupResult | None, paragraphs: int | None) -> None:
+def finish_screen(ctx: Context, warm: WarmupResult | None, paragraphs: int | None) -> None:
     ui.clear()
     lines = []
     if warm is not None:
@@ -112,9 +128,11 @@ def finish_screen(ctx: Context, started: float, warm: WarmupResult | None, parag
             lines.append(f"{icon('mic')} {ui.plural(warm.spoken, 'speaking turn')}")
     if paragraphs is not None:
         lines.append(f"{icon('book')} {ui.plural(paragraphs, 'paragraph')} read")
-    minutes = max(1, round((time.monotonic() - started) / 60))
+    # This activity's time isn't saved until it ends, so add the clock to what today already has.
+    minutes = max(1, round((ctx.profile.day(ctx.today).get("seconds", 0) + ui.clock_seconds()) / 60))
     streak = ctx.profile.streak(ctx.today)
-    lines.append(f"{icon('fire')} {ui.plural(streak, 'day')} in a row · {ui.plural(minutes, 'minute')} today")
+    streak_text = f"{icon('fire')} {ui.plural(streak, 'day')} in a row" if streak else "Finish a warm-up or a paragraph to start a streak"
+    lines.append(f"{streak_text} · {ui.plural(minutes, 'minute')} practised today")
     lines.append(f"[hint]Tomorrow's warm-up: {srs.warmup_size(ctx.settings, ctx.profile.practice_days(date.fromordinal(ctx.today.toordinal() + 1)))} words[/]")
     console.print(banner(ctx.profile.name, lines, width=console.width,
                          heading=(f"Gut gemacht, {ctx.profile.name}!", f"Well done, {ctx.profile.name}!")))
@@ -130,32 +148,38 @@ def show_progress(ctx: Context) -> None:
     right = sum(s.get("right", 0) for s in states.values())
     wrong = sum(s.get("wrong", 0) for s in states.values())
     t = Table(show_header=False, box=None, padding=(0, 2))
-    t.add_row("Words in the bank", str(len(words)))
-    t.add_row("Not started yet", str(len(words) - sum(boxes[1:])))
+    t.add_row("Words in the bank", f"{len(words):,}")
+    t.add_row("Not started yet", f"{len(words) - sum(boxes[1:]):,}")
     t.add_row("Learning", str(boxes[1] + boxes[2]))
     t.add_row("Learned", f"[good]{sum(boxes[3:])}[/]")
-    t.add_row("Right first time", f"{right * 100 // (right + wrong)}%" if right + wrong else "–")
+    t.add_row("Answers right", f"{right * 100 // (right + wrong)}%" if right + wrong else "–")
     t.add_row("Days in a row", str(ctx.profile.streak(ctx.today)))
     t.add_row("Today's warm-up size", ui.plural(warmup_size(ctx), "word"))
     console.print(t)
 
     narrow = console.width < 70
     books = Table(title="Books", title_justify="left")
-    for col in ("#", "Title") + (() if narrow else ("Author", "Level")) + ("Read",):
+    for col in ("#", "Title") + (() if narrow else ("Author", "Level")) + ("Paragraphs read",):
         books.add_column(col)
     for i, b in enumerate(ctx.content.books, 1):
         nxt = ctx.profile.book_state(b.id)["next"]
-        read = f"{icon('done')} finished" if b.finished(nxt) else f"{b.parts_read(nxt)}/{b.parts}"
+        read = f"{icon('done')} finished" if b.finished(nxt) else f"{b.parts_read(nxt)} of {b.parts}"
         books.add_row(str(i), b.short_title, *(() if narrow else (b.author, b.level)), read)
     console.print(books)
 
-    days = Table(title="Last 7 practice days", title_justify="left")
-    for col in ("Date", "Words", "Correct", "Almost", "New", "Paragraphs", "Minutes"):
-        days.add_column(col)
-    for d, v in sorted(ctx.profile.data["days"].items())[-7:]:
-        days.add_row(date.fromisoformat(d).strftime("%a %d %b"), str(v.get("words", 0)), str(v.get("right", 0)),
-                     str(v.get("almost", 0)), str(v.get("new", 0)), str(v.get("units", 0)),
-                     str(round(v["seconds"] / 60)) if "seconds" in v else "–")
+    recent = sorted(ctx.profile.data["days"].items())[-7:]
+    untimed = any("seconds" not in v for _, v in recent)
+    days = Table(title="Last 7 practice days", title_justify="left", caption_justify="left",
+                 caption="– = time not recorded (older app version)" if untimed else None)
+    cols = (("Date", "Words", "Right", "Almost", "New", "Para.", "Min.") if narrow else
+            ("Date", "Words", "Correct", "Almost", "New", "Paragraphs", "Minutes"))
+    for col in cols:
+        days.add_column(col, no_wrap=True)
+    for d, v in recent:
+        seconds = v.get("seconds")
+        days.add_row(date.fromisoformat(d).strftime("%d %b" if narrow else "%a %d %b"), str(v.get("words", 0)),
+                     str(v.get("right", 0)), str(v.get("almost", 0)), str(v.get("new", 0)), str(v.get("units", 0)),
+                     "–" if seconds is None else ("<1" if 0 < seconds < 30 else str(round(seconds / 60))))
     console.print(days)
     ui.keys({"": "back"})
 
@@ -205,7 +229,6 @@ def menu(ctx: Context) -> None:
             pass
     message = ""
     while True:
-        ctx.today = date.today()
         ui.clear()
         console.print(banner(ctx.profile.name, facts(ctx), width=console.width))
         for problem in ctx.audio.problems:
@@ -217,7 +240,7 @@ def menu(ctx: Context) -> None:
             console.print(message)
             message = ""
         choice = ui.ask("Choose:").lower()  # q / Ctrl+C here leaves the app
-        started = time.monotonic()
+        ctx.today = date.today()  # after the wait: the menu may have been left open overnight
         ui.start_clock()
         ctx.step = ""
         try:
@@ -226,18 +249,18 @@ def menu(ctx: Context) -> None:
                 warm = run_warmup(ctx)
                 ctx.step = "Today 2/2 · "
                 paragraphs = run_reading(ctx)
-                finish_screen(ctx, started, warm, paragraphs)
+                finish_screen(ctx, warm, paragraphs)
             elif choice == "2":
                 warm = run_warmup(ctx)
                 if warm:
-                    finish_screen(ctx, started, warm, None)
+                    finish_screen(ctx, warm, None)
                 else:
                     ui.keys({"": "back"})
             elif choice == "3":
-                finish_screen(ctx, started, None, run_reading(ctx))
+                finish_screen(ctx, None, run_reading(ctx))
             elif choice == "4":
                 ui.clear()
-                choose_book(ctx)
+                message = choose_book(ctx)
             elif choice == "5":
                 show_progress(ctx)
             elif choice == "6":

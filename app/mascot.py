@@ -55,10 +55,10 @@ def banner(name: str | None = None, facts: list[str] | None = None, width: int =
         side.append_text(Text.from_markup(fact))
 
     if width < 75:
-        return Panel(side, border_style="#ffce00", padding=(0, 1), expand=False)
+        return Panel(side, border_style=DOG, padding=(0, 1), expand=False)
     art = Text("\n").join(Text.assemble(*line) for line in ART)
     grid = Table.grid(padding=(0, 3))
     grid.add_column(no_wrap=True)
     grid.add_column()
     grid.add_row(art, side)
-    return Panel(grid, border_style="#ffce00", padding=(1, 2), expand=False)
+    return Panel(grid, border_style=DOG, padding=(1, 2), expand=False)
