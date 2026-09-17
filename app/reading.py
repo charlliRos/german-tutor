@@ -21,7 +21,7 @@ def current_book(ctx) -> Book | None:
     ids = [b.id for b in books]
     start = ids.index(ctx.profile.data["current_book"]) if ctx.profile.data["current_book"] in ids else 0
     for book in books[start:] + books[:start]:
-        if ctx.profile.book_state(book.id)["next"] <= len(book.units):
+        if book.next_unit(ctx.profile.book_state(book.id)["next"]) is not None:
             return book
     return None
 
@@ -56,8 +56,8 @@ def _choose_task(ctx) -> str:
     weights = dict(ctx.settings["reading_tasks"])
     if not ctx.audio.can_speak:
         weights.pop("read_aloud", None)
-    tasks = [t for t, w in weights.items() if w > 0] or ["de2en"]
-    return ctx.rng.choices(tasks, weights=[weights.get(t, 1) for t in tasks])[0]
+    usable = {t: w for t, w in weights.items() if w > 0} or {"de2en": 1, "en2de": 1}
+    return ctx.rng.choices(list(usable), weights=list(usable.values()))[0]
 
 
 def _self_grade(ctx, german_text: str | None) -> str:
@@ -93,18 +93,17 @@ def _translate(ctx, unit: Unit, direction: str) -> dict:
 
 def _story_so_far(ctx, book: Book, state: dict) -> Unit | None:
     """Show English summaries of skipped parts; return the next German unit (None if the book ended)."""
-    while state["next"] <= len(book.units):
-        unit = book.units[state["next"] - 1]
-        if unit.kind == "text":
+    while True:
+        unit = book.next_unit(state["next"])
+        if unit is None or unit.kind == "text":
             return unit
         ui.clear()
         ui.title(book.title, "the story continues")
         console.print(Panel(Text(unit.en), title="Meanwhile in the story…", subtitle=unit.covers or None,
                             border_style="magenta", padding=(1, 2)))
-        state["next"] += 1
+        state["next"] = unit.n + 1
         ctx.profile.save()
         ui.keys({"": "continue"})
-    return None
 
 
 def lesson(ctx, book: Book) -> None:
@@ -122,7 +121,7 @@ def lesson(ctx, book: Book) -> None:
 
     # 1. Read and listen
     ui.clear()
-    ui.title(book.title, f"{book.author} · part {unit.part} of {book.parts}")
+    ui.title(book.title, f"{book.author} · part {unit.part} of {book.total_parts}")
     console.print(ui.german(unit.de))
     hear(ctx, unit.de, slow=False)
     _replay_until_enter(ctx, unit.de, "show me what it means")
@@ -142,12 +141,12 @@ def lesson(ctx, book: Book) -> None:
     else:
         entry.update(_translate(ctx, unit, task))
 
-    state["next"] += 1
+    state["next"] = unit.n + 1
     ctx.profile.data["current_book"] = book.id
     ctx.profile.count(ctx.today, units=1)
     ctx.profile.save()
     ctx.profile.add_journal(entry)
-    if book.parts_read(state["next"]) == book.parts:
+    if not any(u.kind == "text" for u in book.units if u.n >= state["next"]):
         _story_so_far(ctx, book, state)  # a closing summary, if the book ends with one
         console.print(f"[bold green]You finished {book.title}! Well done.[/]")
 

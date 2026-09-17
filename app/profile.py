@@ -42,11 +42,21 @@ class Profile:
 
     @classmethod
     def open_or_create(cls, name: str) -> "Profile":
-        slug = re.sub(r"[^A-Za-z0-9_-]+", "_", name.strip()).strip("_").lower() or "student"
-        path = PROFILES_DIR / f"{slug}.json"
-        if path.exists():
-            return cls.load(path)
-        profile = cls(path, {"name": name.strip(), "created": date.today().isoformat()})
+        name = name.strip()
+        legacy = PROFILES_DIR / f"{re.sub(r'[^A-Za-z0-9_-]+', '_', name).strip('_').lower() or 'student'}.json"
+        if legacy.exists() and cls.load(legacy).name.casefold() == name.casefold():
+            return cls.load(legacy)  # created before file names kept letters like ü
+        slug = re.sub(r"[^\w-]+", "_", name).strip("_").lower() or "student"
+        n = 1
+        while True:
+            path = PROFILES_DIR / (f"{slug}.json" if n == 1 else f"{slug}_{n}.json")
+            if not path.exists():
+                break
+            existing = cls.load(path)
+            if existing.name.casefold() == name.casefold():
+                return existing
+            n += 1  # a different student already uses this file name
+        profile = cls(path, {"name": name, "created": date.today().isoformat()})
         profile.save()
         return profile
 
@@ -64,15 +74,16 @@ class Profile:
         return self.data["books"].setdefault(book_id, {"next": 1})
 
     def day(self, today: date) -> dict:
-        return self.data["days"].setdefault(today.isoformat(), {"words": 0, "right": 0, "new": 0, "units": 0})
+        """Today's counters (read-only: an empty dict until something is practised)."""
+        return self.data["days"].get(today.isoformat(), {})
 
     def count(self, today: date, **amounts: int) -> None:
-        day = self.day(today)
+        day = self.data["days"].setdefault(today.isoformat(), {"words": 0, "right": 0, "new": 0, "units": 0})
         for key, amount in amounts.items():
             day[key] = day.get(key, 0) + amount
 
     def streak(self, today: date) -> int:
-        days = self.data["days"]
+        days = {d for d, counts in self.data["days"].items() if any(counts.values())}
         d = today if today.isoformat() in days else today - timedelta(days=1)
         n = 0
         while d.isoformat() in days:

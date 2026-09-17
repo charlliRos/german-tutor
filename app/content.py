@@ -47,6 +47,7 @@ class Book:
     level: str
     intro_en: str
     units: list[Unit]
+    total_parts: int = 0   # German units in the file, including ones not translated yet
 
     @property
     def parts(self) -> int:
@@ -54,6 +55,10 @@ class Book:
 
     def parts_read(self, next_n: int) -> int:
         return sum(1 for u in self.units if u.kind == "text" and u.n < next_n)
+
+    def next_unit(self, next_n: int) -> Unit | None:
+        """The first loaded unit at or after position next_n (untranslated units are skipped)."""
+        return next((u for u in self.units if u.n >= next_n), None)
 
 
 @dataclass
@@ -136,25 +141,27 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Co
         if not data:
             continue
         units: list[Unit] = []
-        parts = 0
-        for raw in data.get("units", []):
+        part = 0
+        # n and part are positions in the file (counting untranslated units too), so saved progress
+        # stays valid when a skipped unit gets translated later.
+        for n, raw in enumerate(data.get("units", []), 1):
             if raw.get("type") == "summary":
                 if raw.get("en"):
-                    units.append(Unit(n=len(units) + 1, de="", en=raw["en"].strip(), kind="summary",
+                    units.append(Unit(n=n, de="", en=raw["en"].strip(), kind="summary",
                                       covers=raw.get("covers", "")))
                 continue
+            part += 1
             if not raw.get("de") or not raw.get("en"):
                 continue  # not translated yet
-            parts += 1
-            units.append(Unit(n=len(units) + 1, de=raw["de"].strip(), en=raw["en"].strip(), part=parts,
+            units.append(Unit(n=n, de=raw["de"].strip(), en=raw["en"].strip(), part=part,
                               explain_en=raw.get("explain_en", ""), words=raw.get("words", [])))
-        if not parts:
+        if not any(u.kind == "text" for u in units):
             content.problems.append(f"{path.name}: no translated units")
             continue
         content.books.append(Book(
             id=data.get("id", path.stem), title=data.get("title", path.stem),
             author=data.get("author", ""), year=data.get("year", ""), level=data.get("level", ""),
-            intro_en=data.get("intro_en", ""), units=units,
+            intro_en=data.get("intro_en", ""), units=units, total_parts=part,
         ))
     return content
 

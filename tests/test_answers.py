@@ -95,5 +95,68 @@ class SpacedRepetition(unittest.TestCase):
         self.assertEqual(len(picked), 8)
 
 
+class ReviewFixes(unittest.TestCase):
+    def test_steady_noise_recording_does_not_crash(self):
+        import numpy as np
+        from app.audio import _tidy
+        rate = 16000
+        hum = (0.05 * np.sin(np.arange(3 * rate) * 2 * np.pi * 50 / rate)).astype(np.float32)
+        self.assertGreater(_tidy(hum, rate).size, 0)
+        self.assertEqual(_tidy(np.zeros(rate, np.float32), rate).size, 0)
+
+    def test_zero_share_bank_gets_nothing_while_others_have_words(self):
+        words = {f"d{i}": Word(f"d{i}", "daily", f"w{i}", ["x"], "verb", rank=i) for i in range(30)}
+        words |= {f"a{i}": Word(f"a{i}", "admin", f"a{i}", ["x"], "verb", rank=i) for i in range(30)}
+        picked = srs.pick_new_words({}, words, 20, {"daily": 0.5, "stem": 0.3, "admin": 0})
+        self.assertTrue(all(w.startswith("d") for w in picked))
+        topped_up = srs.pick_new_words({}, {k: v for k, v in words.items() if k.startswith("a")}, 3,
+                                       {"daily": 1, "admin": 0})
+        self.assertEqual(len(topped_up), 3)
+
+    def test_reading_task_with_no_usable_weight(self):
+        import random
+        from types import SimpleNamespace
+        from app.reading import _choose_task
+        ctx = SimpleNamespace(settings={"reading_tasks": {"read_aloud": 1, "de2en": 0, "en2de": 0}},
+                              audio=SimpleNamespace(can_speak=False), rng=random.Random(1))
+        self.assertIn(_choose_task(ctx), {"de2en", "en2de"})
+
+    def test_profiles_streak_and_names(self):
+        import tempfile
+        from pathlib import Path
+        from app import profile as prof
+        old_dir = prof.PROFILES_DIR
+        prof.PROFILES_DIR = Path(tempfile.mkdtemp())
+        try:
+            juergen, joergen = prof.Profile.open_or_create("Jürgen"), prof.Profile.open_or_create("Jörgen")
+            self.assertNotEqual(juergen.path, joergen.path)
+            self.assertEqual(prof.Profile.open_or_create("jürgen").path, juergen.path)
+            a, b = prof.Profile.open_or_create("???"), prof.Profile.open_or_create("!!!")
+            self.assertNotEqual(a.path, b.path)
+            today = date(2026, 1, 10)
+            juergen.day(today)  # just looking must not count as practice
+            self.assertEqual(juergen.streak(today), 0)
+            juergen.count(today, words=1)
+            self.assertEqual(juergen.streak(today), 1)
+        finally:
+            prof.PROFILES_DIR = old_dir
+
+    def test_translating_a_skipped_unit_keeps_positions(self):
+        import json
+        import tempfile
+        from pathlib import Path
+        from app.content import load_content
+        root = Path(tempfile.mkdtemp())
+        (root / "vocab").mkdir()
+        (root / "books").mkdir()
+        units = [{"n": 1, "de": "Eins.", "en": "One."}, {"n": 2, "de": "Zwei.", "en": ""},
+                 {"n": 3, "type": "summary", "en": "Meanwhile."}, {"n": 4, "de": "Vier.", "en": "Four."}]
+        (root / "books" / "01_t.json").write_text(json.dumps({"id": "t", "units": units}), encoding="utf-8")
+        book = load_content(root / "vocab", root / "books").books[0]
+        self.assertEqual([(u.n, u.part) for u in book.units], [(1, 1), (3, 0), (4, 3)])
+        self.assertEqual(book.next_unit(2).n, 3)
+        self.assertEqual(book.total_parts, 3)
+
+
 if __name__ == "__main__":
     unittest.main()

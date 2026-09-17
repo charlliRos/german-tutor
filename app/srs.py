@@ -68,8 +68,11 @@ def pick_new_words(states: dict, words: dict, count: int, shares: dict[str, floa
         open_banks = [b for b in pools if taken[b] < len(pools[b])]
         if not open_banks:
             break
-        # The bank furthest behind its share goes next; a bank that runs out is topped up by the others.
-        bank = max(open_banks, key=lambda b: (shares.get(b, 0) * k - taken[b], shares.get(b, 0)))
+        # Banks with a share come first; zero-share banks only top up once those have run out.
+        candidates = [b for b in open_banks if shares.get(b, 0) > 0] or open_banks
+        total = sum(shares.get(b, 0) for b in candidates) or 1
+        # The bank furthest behind its (normalised) share goes next.
+        bank = max(candidates, key=lambda b: (shares.get(b, 0) / total * k - taken[b], shares.get(b, 0)))
         picked.append(pools[bank][taken[bank]])
         taken[bank] += 1
     return picked

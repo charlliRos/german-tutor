@@ -46,8 +46,9 @@ def _tidy(audio: np.ndarray, rate: int) -> np.ndarray:
         rms = np.sqrt(np.mean(audio[: n * win].reshape(n, win) ** 2, axis=1))
         floor = float(np.percentile(rms, 10))
         loud = np.flatnonzero(rms > max(floor * 3, float(rms.max()) * 0.2))
-        pad = int(0.15 * rate)
-        audio = audio[max(loud[0] * win - pad, 0): (loud[-1] + 1) * win + pad]
+        if loud.size:  # steady hum or noise has no clearly loud part: keep it all
+            pad = int(0.15 * rate)
+            audio = audio[max(loud[0] * win - pad, 0): (loud[-1] + 1) * win + pad]
     return (audio * (0.9 / peak)).astype(np.float32)
 
 
