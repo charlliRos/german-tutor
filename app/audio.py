@@ -13,6 +13,7 @@ from .config import VOICES_DIR
 
 SENTENCE_PAUSE = 0.25  # seconds of silence between synthesized sentences
 SILENCE_PEAK = 0.02    # recordings quieter than this count as "nothing heard"
+QUIET_PEAK = 0.12      # below this the mic works but is set very low
 
 
 def clean_for_speech(text: str) -> str:
@@ -38,9 +39,15 @@ def _tidy(audio: np.ndarray, rate: int) -> np.ndarray:
     peak = float(np.max(np.abs(audio)))
     if peak < SILENCE_PEAK:
         return np.zeros(0, dtype=np.float32)
-    loud = np.flatnonzero(np.abs(audio) > peak * 0.1)
-    pad = int(0.15 * rate)
-    audio = audio[max(loud[0] - pad, 0): loud[-1] + pad]
+    # Loudness per 20 ms window; keep everything between the first and last clearly loud window.
+    win = max(rate // 50, 1)
+    n = len(audio) // win
+    if n >= 3:
+        rms = np.sqrt(np.mean(audio[: n * win].reshape(n, win) ** 2, axis=1))
+        floor = float(np.percentile(rms, 10))
+        loud = np.flatnonzero(rms > max(floor * 3, float(rms.max()) * 0.2))
+        pad = int(0.15 * rate)
+        audio = audio[max(loud[0] * win - pad, 0): (loud[-1] + 1) * win + pad]
     return (audio * (0.9 / peak)).astype(np.float32)
 
 
@@ -50,6 +57,7 @@ class Audio:
         self.sd = None
         self.voice = None
         self.has_mic = False
+        self.last_peak = 0.0  # loudness of the last raw recording, before volume boost
         self.problems: list[str] = []
         self._cache: dict[tuple[str, float], tuple[np.ndarray, int]] = {}
         if not enabled:
@@ -146,6 +154,7 @@ class Audio:
         rec = self.sd.rec(int(seconds * rate), samplerate=rate, channels=1, dtype="float32",
                           device=self.settings.get("input_device"))
         self.sd.wait()
+        self.last_peak = float(np.max(np.abs(rec))) if rec.size else 0.0
         return _tidy(rec[:, 0], rate), rate
 
     def record_until(self, wait_for_stop, max_seconds: int = 180) -> tuple[np.ndarray, int]:
@@ -159,5 +168,6 @@ class Audio:
         with self.sd.InputStream(samplerate=rate, channels=1, dtype="float32",
                                  device=self.settings.get("input_device"), callback=callback):
             wait_for_stop()
-        audio = np.concatenate(frames) if frames else np.zeros(0, dtype=np.float32)
-        return _tidy(audio[: max_seconds * rate], rate), rate
+        audio = np.concatenate(frames)[: max_seconds * rate] if frames else np.zeros(0, dtype=np.float32)
+        self.last_peak = float(np.max(np.abs(audio))) if audio.size else 0.0
+        return _tidy(audio, rate), rate

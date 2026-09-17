@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from . import ui
+from .audio import QUIET_PEAK
 from .ui import console
 
 
@@ -24,6 +25,9 @@ def _record(ctx, long_text: bool):
     if recording[0].size == 0:
         console.print("[yellow]I couldn't hear anything. Is the microphone muted or too far away?[/]")
         return None
+    if ctx.audio.last_peak < QUIET_PEAK:
+        console.print("[dim yellow]Your mic is very quiet. Speak closer, or turn up the microphone level "
+                      "in your sound settings.[/]")
     return recording
 
 
