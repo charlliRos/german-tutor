@@ -186,7 +186,12 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="gtutor", description="Offline German tutor")
     parser.add_argument("--profile", help="student name (skips the chooser)")
     parser.add_argument("--no-audio", action="store_true", help="run without speech or microphone")
+    parser.add_argument("command", nargs="?", choices=["update"],
+                        help="update: download the latest app, words and books")
     args = parser.parse_args(argv)
+    if args.command == "update":
+        from .update import run_update
+        return run_update()
 
     settings = load_settings()
     content = load_content()
