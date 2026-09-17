@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from app.config import BOOKS_DIR, VOCAB_DIR  # noqa: E402
-from app.content import is_duplicate  # noqa: E402
+from app.content import BANKS, is_duplicate, vocab_files  # noqa: E402
 
 POS = {"noun", "verb", "adj", "adv", "prep", "conj", "pron", "num", "phrase", "other"}
 LEVELS = {"A1", "A2", "B1", "B2", "C1"}
@@ -32,13 +32,13 @@ def check_vocab() -> Counter:
     ids: Counter = Counter()
     meanings: dict[str, list[set[str]]] = {}
     banks: Counter = Counter()
-    for path in sorted(VOCAB_DIR.glob("*.json")):
+    for path in vocab_files(VOCAB_DIR):
         data = load(path)
         if data is None:
             continue
         bank = data.get("bank")
-        if bank not in ("daily", "stem"):
-            errors.append(f"{path.name}: bank must be 'daily' or 'stem'")
+        if bank not in BANKS:
+            errors.append(f"{path.name}: bank must be one of {', '.join(BANKS)}")
         for w in data.get("words", []):
             wid = w.get("id", "?")
             where = f"{path.name} {wid}"
@@ -106,7 +106,7 @@ def check_books() -> list[tuple[str, int]]:
 def main() -> int:
     banks = check_vocab()
     books = check_books()
-    print(f"Vocabulary: {banks.get('daily', 0)} daily, {banks.get('stem', 0)} STEM words")
+    print("Vocabulary: " + ", ".join(f"{banks.get(b, 0)} {label}" for b, label in BANKS.items()) + " words")
     for title, n in books:
         print(f"Book: {title} ({n} units)")
     for w in warnings:

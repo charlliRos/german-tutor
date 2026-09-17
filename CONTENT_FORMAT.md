@@ -43,7 +43,8 @@ Each file is a JSON object:
 | `note` | no | one short hint (irregular forms, false friends, usage) |
 | `example_de` / `example_en` | yes | one short natural modern sentence + translation |
 
-`bank` is `"daily"` or `"stem"`.
+`bank` is `"daily"` (everyday), `"stem"` or `"admin"` (official German: offices, forms, paperwork; ids `a-`).
+File names start with the bank (`daily_…`, `stem_…`, `admin_…`). How many new words come from each bank is set by `bank_shares` in `config.json`.
 
 ## Books — `content/books/NN_slug.json`
 

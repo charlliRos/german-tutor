@@ -7,7 +7,7 @@ from rich.text import Text
 
 from . import srs, ui
 from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german, normalize
-from .content import Word, words_sharing_english
+from .content import BANKS, Word, words_sharing_english
 from .speaking import hear, speak_and_compare
 from .ui import console
 
@@ -48,7 +48,7 @@ def _listen_options(ctx, word: Word, options: dict[str, str]) -> str:
 
 def show_card(ctx, word: Word, i: int, total: int) -> None:
     ui.clear()
-    ui.title(f"New word {i} of {total}", f"{word.bank} · {word.topic}")
+    ui.title(f"New word {i} of {total}", f"{BANKS.get(word.bank, word.bank)} · {word.topic}")
     console.print(Panel(word_details(word), border_style="magenta", padding=(1, 2)))
     hear(ctx, word.de)
     if ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:

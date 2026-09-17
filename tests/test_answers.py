@@ -81,10 +81,18 @@ class SpacedRepetition(unittest.TestCase):
         words = {f"d{i}": Word(f"d{i}", "daily", f"w{i}", ["x"], "verb", rank=i) for i in range(10)}
         words |= {f"s{i}": Word(f"s{i}", "stem", f"s{i}", ["x"], "verb", rank=i) for i in range(10)}
         states = {"d9": {"box": 2, "due": "2026-01-01"}}
-        settings = {"warmup_words": 5, "new_words_per_day": 10, "stem_share": 0.5}
+        settings = {"warmup_words": 5, "new_words_per_day": 10, "bank_shares": {"daily": 0.5, "stem": 0.5}}
         reviews, new = srs.plan_session(states, words, settings, self.today)
         self.assertEqual(reviews, ["d9"])
-        self.assertEqual(new, ["d0", "d1", "s0", "s1"])
+        self.assertEqual(sorted(new), ["d0", "d1", "s0", "s1"])
+
+    def test_small_bank_gets_its_share_and_empty_banks_are_topped_up(self):
+        words = {f"d{i}": Word(f"d{i}", "daily", f"w{i}", ["x"], "verb", rank=i) for i in range(20)}
+        words |= {f"a{i}": Word(f"a{i}", "admin", f"a{i}", ["x"], "verb", rank=i) for i in range(20)}
+        shares = {"daily": 0.75, "stem": 0.1, "admin": 0.25}
+        picked = srs.pick_new_words({}, words, 8, shares)
+        self.assertEqual(sum(w.startswith("a") for w in picked), 2)
+        self.assertEqual(len(picked), 8)
 
 
 if __name__ == "__main__":

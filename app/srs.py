@@ -53,17 +53,23 @@ def plan_session(states: dict, words: dict, settings: dict, today: date, new_so_
     size = int(settings["warmup_words"])
     reviews = due[:size]
     new_count = max(0, min(int(settings["new_words_per_day"]) - new_so_far, size - len(reviews)))
-    return reviews, pick_new_words(states, words, new_count, float(settings["stem_share"]))
+    return reviews, pick_new_words(states, words, new_count, settings["bank_shares"])
 
 
-def pick_new_words(states: dict, words: dict, count: int, stem_share: float) -> list[str]:
-    if count <= 0:
-        return []
-    unseen = sorted((w for w in words.values() if states.get(w.id, {}).get("box", 0) == 0),
-                    key=lambda w: (w.rank, w.id))
-    stem = [w.id for w in unseen if w.bank == "stem"]
-    daily = [w.id for w in unseen if w.bank != "stem"]
-    n_stem = min(round(count * stem_share), len(stem))
-    n_daily = min(count - n_stem, len(daily))
-    n_stem = min(count - n_daily, len(stem))  # top up from STEM if daily ran out
-    return daily[:n_daily] + stem[:n_stem]
+def pick_new_words(states: dict, words: dict, count: int, shares: dict[str, float]) -> list[str]:
+    """Pick the most common unseen words, mixing the banks (daily, stem, admin) by their share."""
+    pools: dict[str, list[str]] = {}
+    for w in sorted(words.values(), key=lambda w: (w.rank, w.id)):
+        if states.get(w.id, {}).get("box", 0) == 0:
+            pools.setdefault(w.bank, []).append(w.id)
+    taken = {bank: 0 for bank in pools}
+    picked: list[str] = []
+    for k in range(1, count + 1):
+        open_banks = [b for b in pools if taken[b] < len(pools[b])]
+        if not open_banks:
+            break
+        # The bank furthest behind its share goes next; a bank that runs out is topped up by the others.
+        bank = max(open_banks, key=lambda b: (shares.get(b, 0) * k - taken[b], shares.get(b, 0)))
+        picked.append(pools[bank][taken[bank]])
+        taken[bank] += 1
+    return picked

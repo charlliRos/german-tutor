@@ -15,7 +15,7 @@ CONFIG_FILE = ROOT / "config.json"
 DEFAULTS = {
     "warmup_words": 20,          # max words per warm-up (reviews + new)
     "new_words_per_day": 8,      # new words introduced per day
-    "stem_share": 0.3,           # fraction of new words taken from the STEM bank
+    "bank_shares": {"daily": 0.6, "stem": 0.25, "admin": 0.15},  # mix of new words per word list
     "units_per_day": 1,          # book paragraphs per day before asking "another one?"
     "speak_chance": 0.25,        # how often a word must be said into the microphone
     "reading_tasks": {"read_aloud": 1, "de2en": 1, "en2de": 1},  # relative weights

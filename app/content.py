@@ -78,6 +78,16 @@ def _load_json(path: Path, problems: list[str]):
         return None
 
 
+BANKS = {"daily": "everyday", "stem": "STEM", "admin": "official German"}
+
+
+def vocab_files(vocab_dir: Path = VOCAB_DIR) -> list[Path]:
+    """Everyday lists first, then STEM, then official German, so a shared word stays in the most basic list."""
+    order = list(BANKS)
+    return sorted(vocab_dir.glob("*.json"),
+                  key=lambda p: (order.index(p.stem.split("_")[0]) if p.stem.split("_")[0] in order else 9, p.name))
+
+
 def meaning_key(de: str, en: list[str]) -> tuple[str, set[str]]:
     return normalize(de), set().union(*(english_forms(e) for e in en))
 
@@ -94,8 +104,7 @@ def is_duplicate(seen: dict[str, list[set[str]]], de: str, en: list[str]) -> boo
 def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Content:
     content = Content()
     seen_meanings: dict[str, list[set[str]]] = {}
-    # daily_* sorts before stem_*, so everyday words win when both banks have a word.
-    for path in sorted(vocab_dir.glob("*.json")):
+    for path in vocab_files(vocab_dir):
         data = _load_json(path, content.problems)
         if not data:
             continue

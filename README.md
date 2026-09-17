@@ -4,7 +4,7 @@ An offline German tutor for the terminal (Windows + Linux), made for teenagers.
 Fritz the Dackel and Pip the robin say hello when it starts.
 
 **Every day:**
-1. **Warm-up (scored).** About 1,800 words from everyday German and STEM: English→German or German→English, with the German read out loud. Sometimes you say the word into the microphone and hear your recording next to the correct pronunciation. Words you know come back less often (spaced repetition).
+1. **Warm-up (scored).** About 1,900 words from everyday German, STEM and "official German" (offices, forms, taxes, permits): English→German or German→English, with the German read out loud. Sometimes you say the word into the microphone and hear your recording next to the correct pronunciation. Words you know come back less often (spaced repetition).
 2. **Reading (not scored).** The next paragraph of a German classic, read aloud and explained in English. Then one random task: read it into the mic, translate it to English, or translate it back to German. Your answer is shown next to the reference so you can grade yourself. Long books go from key scene to key scene, with short English "Meanwhile in the story…" recaps, all the way to the ending.
 
 No AI at runtime. After setup it needs no internet. Speech is generated offline with [Piper](https://github.com/OHF-Voice/piper1-gpl).
@@ -59,7 +59,7 @@ To get new books and words: in the app folder run `git pull` (or download the ZI
 
 ## Settings
 
-Edit `config.json`: words per day, share of STEM words, paragraphs per day, how often to speak, speech speed, microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
+Edit `config.json`: words per day, the mix of everyday / STEM / official words (`bank_shares`), paragraphs per day, how often to speak, speech speed, microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
 
 ## Adding content (for the parent)
 
