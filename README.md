@@ -47,7 +47,7 @@ gtutor --no-audio        # no speech or microphone
 
 ## Progress
 
-Each kid has a profile. Progress is saved automatically after every word and every paragraph, so quitting is safe (type `:q` or press Ctrl+C):
+Each kid has a profile. Progress is saved automatically after every word and every paragraph, so quitting is safe (type `:quit` or `:exit` to leave an activity, or press Ctrl+C):
 - `data/profiles/<name>.json`: word boxes, reading position, daily history
 - `data/profiles/<name>_journal.jsonl`: every translation they typed, with their self-grade
 

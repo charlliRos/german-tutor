@@ -14,7 +14,7 @@ from rich.text import Text
 console = Console(highlight=False)
 
 QUIT_WORDS = {":q", ":quit", ":exit"}
-UMLAUT_TIP = "[dim]No ä ö ü ß on your keyboard? Type ae oe ue ss. Type :q to stop.[/]"
+UMLAUT_TIP = "[dim]No ä ö ü ß on your keyboard? Type ae oe ue ss. Type :quit to stop.[/]"
 
 
 class QuitSession(Exception):
