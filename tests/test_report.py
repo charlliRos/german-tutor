@@ -45,7 +45,8 @@ class Report(unittest.TestCase):
             text = out.get()
             self.assertIn("1 of 7 days · 15 min", text)
             self.assertIn("The dog runs.", text)
-            self.assertIn("No missed words yet.", text)
+            self.assertIn("Anna hasn't missed any words yet.", text)
+            self.assertIn("Anna's last 5 translations", text)
             self.assertIn("No profile called Ben.", text)
             self.assertEqual(kid.path.read_bytes(), before)  # the report changes nothing
 

@@ -6,6 +6,7 @@ from __future__ import annotations
 
 from datetime import date, datetime, timedelta
 
+from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
@@ -107,7 +108,7 @@ def _hard_words(profile: Profile, content: Content) -> Table | None:
     if not missed:
         return None
     missed.sort(key=lambda ws: (-ws[1]["wrong"], ws[1].get("right", 0)))
-    t = Table(title="Hardest words (most missed)", title_justify="left")
+    t = Table(title=f"{ui.escape(profile.name)}'s hardest words (most missed)", title_justify="left")
     for col in ("German", "English", "Missed", "Right", "Now"):
         t.add_column(col)
     for word, s in missed[:HARD_WORDS]:
@@ -118,7 +119,7 @@ def _hard_words(profile: Profile, content: Content) -> Table | None:
 
 
 def _report(profile: Profile, content: Content, today: date) -> None:
-    ui.title(profile.name)
+    console.print(Panel(Text(profile.name, style="bold", justify="center"), border_style="magenta"))
     console.print(_summary(profile, content, today))
     tracked = sorted(d for d, c in profile.data["days"].items() if "seconds" in c)
     if not tracked or tracked[0] > (today - timedelta(days=29)).isoformat():
@@ -126,10 +127,11 @@ def _report(profile: Profile, content: Content, today: date) -> None:
         console.print(f"[hint]Practice time is only recorded from {since} on.[/]")
     console.print()
     hard = _hard_words(profile, content)
-    console.print(hard if hard else "[hint]No missed words yet.[/]")
+    console.print(hard if hard else f"[hint]{ui.escape(profile.name)} hasn't missed any words yet.[/]")
 
     entries = [e for e in profile.read_journal(None) if e.get("task") != "read_aloud"][-TRANSLATIONS:]
-    console.print(f"\n[bold]Last {TRANSLATIONS} translations[/] [hint](the grade is the one they gave themselves)[/]")
+    console.print(f"\n[bold]{ui.escape(profile.name)}'s last {TRANSLATIONS} translations[/] "
+                  "[hint](the grade is the one they gave themselves)[/]")
     if not entries:
         console.print("[hint]No translations yet.[/]")
     books = {b.id: b for b in content.books}
@@ -147,6 +149,9 @@ def run_report(name: str | None = None) -> int:
         return 1
     content = load_content()
     today = date.today()
-    for profile in sorted(profiles, key=lambda p: p.name.casefold()):
+    profiles.sort(key=lambda p: p.name.casefold())
+    console.print(f"[bold]Progress report[/] · {today.strftime('%a %d %b %Y')} · "
+                  + ", ".join(ui.escape(p.name) for p in profiles) + "\n")
+    for profile in profiles:
         _report(profile, content, today)
     return 0
