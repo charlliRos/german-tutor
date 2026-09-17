@@ -6,6 +6,7 @@ switches that feature off and the lessons carry on without it.
 from __future__ import annotations
 
 import re
+import time
 
 import numpy as np
 
@@ -91,7 +92,7 @@ class Audio:
     def _init_voice(self) -> None:
         model = VOICES_DIR / f"{self.settings['voice']}.onnx"
         if not model.exists():
-            self.problems.append("German voice not downloaded yet. Run: python tools/download_voice.py")
+            self.problems.append("The German voice isn't downloaded yet. Run setup again (setup.bat or ./setup.sh).")
             return
         try:
             from piper import PiperVoice
@@ -125,36 +126,48 @@ class Audio:
             self._cache[key] = (np.concatenate(parts) if parts else np.zeros(1, np.float32), rate)
         return self._cache[key]
 
-    def say(self, text: str, slow: bool = True) -> bool:
+    def say(self, text: str, slow: bool = True, stop_when=None) -> bool:
         if not self.can_speak or not text.strip():
             return False
         speed = float(self.settings["word_speed"] if slow else self.settings["text_speed"])
-        self.play(*self.synthesize(text, speed))
+        self.play(*self.synthesize(text, speed), stop_when=stop_when)
         return True
 
-    def play(self, audio: np.ndarray, rate: int) -> None:
+    def _wait(self, stop_when=None) -> bool:
+        """Wait for playback/recording to end. Polls, so Ctrl+C works on Windows too.
+        Returns True if stop_when() asked to stop early."""
+        stream = self.sd.get_stream()
+        try:
+            while stream.active:
+                if stop_when and stop_when():
+                    self.sd.stop()
+                    return True
+                time.sleep(0.05)
+        except KeyboardInterrupt:
+            self.sd.stop()
+            raise
+        return False
+
+    def play(self, audio: np.ndarray, rate: int, stop_when=None) -> bool:
         sd, device = self.sd, self.settings.get("output_device")
         try:
-            try:
-                sd.play(audio, rate, device=device)
-                sd.wait()
-            except sd.PortAudioError:
-                # Some devices only accept their native sample rate.
-                native = int(sd.query_devices(device, kind="output")["default_samplerate"])
-                sd.play(_resample(audio, rate, native), native, device=device)
-                sd.wait()
-        except KeyboardInterrupt:
-            sd.stop()
-            raise
+            sd.play(audio, rate, device=device)
+        except sd.PortAudioError:
+            # Some devices only accept their native sample rate.
+            native = int(sd.query_devices(device, kind="output")["default_samplerate"])
+            sd.play(_resample(audio, rate, native), native, device=device)
+        return self._wait(stop_when)
 
     def _input_rate(self) -> int:
         return int(self.sd.query_devices(self.settings.get("input_device"), kind="input")["default_samplerate"])
 
-    def record_seconds(self, seconds: float) -> tuple[np.ndarray, int]:
+    def record_seconds(self, seconds: float, on_tick=None) -> tuple[np.ndarray, int]:
+        """Record for a fixed time; on_tick(seconds_left) is called about 10 times a second."""
         rate = self._input_rate()
         rec = self.sd.rec(int(seconds * rate), samplerate=rate, channels=1, dtype="float32",
                           device=self.settings.get("input_device"))
-        self.sd.wait()
+        start = time.monotonic()
+        self._wait(lambda: bool(on_tick and on_tick(max(0.0, seconds - (time.monotonic() - start)))))
         self.last_peak = float(np.max(np.abs(rec))) if rec.size else 0.0
         return _tidy(rec[:, 0], rate), rate
 

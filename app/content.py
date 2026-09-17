@@ -48,6 +48,7 @@ class Book:
     intro_en: str
     units: list[Unit]
     total_parts: int = 0   # German units in the file, including ones not translated yet
+    short_title: str = ""  # for headers; long titles are cut down automatically
 
     @property
     def parts(self) -> int:
@@ -55,6 +56,9 @@ class Book:
 
     def parts_read(self, next_n: int) -> int:
         return sum(1 for u in self.units if u.kind == "text" and u.n < next_n)
+
+    def finished(self, next_n: int) -> bool:
+        return not any(u.kind == "text" for u in self.units if u.n >= next_n)
 
     def next_unit(self, next_n: int) -> Unit | None:
         """The first loaded unit at or after position next_n (untranslated units are skipped)."""
@@ -72,6 +76,11 @@ def _as_list(value) -> list[str]:
     if not value:
         return []
     return [value] if isinstance(value, str) else [str(v) for v in value]
+
+
+def _shorten(title: str, limit: int = 32) -> str:
+    title = title.split(" (")[0].split(". ")[0]
+    return title if len(title) <= limit else title[: limit - 1] + "…"
 
 
 def _load_json(path: Path, problems: list[str]):
@@ -162,6 +171,7 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Co
             id=data.get("id", path.stem), title=data.get("title", path.stem),
             author=data.get("author", ""), year=data.get("year", ""), level=data.get("level", ""),
             intro_en=data.get("intro_en", ""), units=units, total_parts=part,
+            short_title=data.get("short_title") or _shorten(data.get("title", path.stem)),
         ))
     return content
 

@@ -52,6 +52,7 @@ File names start with the bank (`daily_…`, `stem_…`, `admin_…`). How many 
 {
   "id": "kafka-verwandlung",
   "title": "Die Verwandlung",
+  "short_title": "(optional) short name for screen headers",
   "author": "Franz Kafka",
   "author_died": 1924,
   "year": 1915,

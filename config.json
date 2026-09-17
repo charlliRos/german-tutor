@@ -1,7 +1,10 @@
 {
   "_comment": "Change any value, save, restart the app. Delete a line to go back to the default.",
-  "warmup_words": 20,
-  "new_words_per_day": 8,
+  "warmup_start": 10,
+  "warmup_max": 200,
+  "warmup_growth": 0.52,
+  "new_word_share": 0.25,
+  "min_new_words": 3,
   "bank_shares": {"daily": 0.6, "stem": 0.25, "admin": 0.15},
   "units_per_day": 1,
   "speak_chance": 0.25,

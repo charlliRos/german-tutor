@@ -13,8 +13,11 @@ PROFILES_DIR = ROOT / "data" / "profiles"
 CONFIG_FILE = ROOT / "config.json"
 
 DEFAULTS = {
-    "warmup_words": 20,          # max words per warm-up (reviews + new)
-    "new_words_per_day": 8,      # new words introduced per day
+    "warmup_start": 10,          # words in the very first warm-up
+    "warmup_max": 200,           # words per warm-up after about a year
+    "warmup_growth": 0.52,       # extra words per day practised (10 -> 200 in ~365 days)
+    "new_word_share": 0.25,      # part of the day's first warm-up that is new words
+    "min_new_words": 3,          # always at least this many new words per day (until the bank runs out)
     "bank_shares": {"daily": 0.6, "stem": 0.25, "admin": 0.15},  # mix of new words per word list
     "units_per_day": 1,          # book paragraphs per day before asking "another one?"
     "speak_chance": 0.25,        # how often a word must be said into the microphone

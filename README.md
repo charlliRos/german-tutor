@@ -4,7 +4,7 @@ An offline German tutor for the terminal (Windows + Linux), made for teenagers.
 Fritz the Dackel and Pip the robin say hello when it starts.
 
 **Every day:**
-1. **Warm-up (scored).** About 1,900 words from everyday German, STEM and "official German" (offices, forms, taxes, permits): English→German or German→English, with the German read out loud. Sometimes you say the word into the microphone and hear your recording next to the correct pronunciation. Words you know come back less often (spaced repetition).
+1. **Warm-up (scored).** About 1,900 words from everyday German, STEM and "official German" (offices, forms, taxes, permits): English→German or German→English, with the German read out loud. Sometimes you say the word into the microphone and hear your recording next to the correct pronunciation. The warm-up **starts with 10 words and grows about half a word per practice day, to 200 words after a year**. It mixes new words, words that are due (spaced repetition) and extra practice on weaker words. Run it again any time for extra practice.
 2. **Reading (not scored).** The next paragraph of a German classic, read aloud and explained in English. Then one random task: read it into the mic, translate it to English, or translate it back to German. Your answer is shown next to the reference so you can grade yourself. Long books go from key scene to key scene, with short English "Meanwhile in the story…" recaps, all the way to the ending.
 
 No AI at runtime. After setup it needs no internet. Speech is generated offline with [Piper](https://github.com/OHF-Voice/piper1-gpl).
@@ -48,7 +48,7 @@ gtutor update            # get the latest words, books and fixes
 
 ## Progress
 
-Each kid has a profile. Progress is saved automatically after every word and every paragraph, so quitting is safe (type `:quit` or `:exit` to leave an activity, or press Ctrl+C):
+Each kid has a profile. Progress is saved automatically after every word and every paragraph, so quitting is safe: type `q` (or press Ctrl+C) to leave an activity, and `q` on the menu to close the app:
 - `data/profiles/<name>.json`: word boxes, reading position, daily history
 - `data/profiles/<name>_journal.jsonl`: every translation they typed, with their self-grade
 
@@ -66,7 +66,7 @@ If you installed from a ZIP (no git), download the new ZIP instead, unzip it ove
 
 ## Settings
 
-Edit `config.json`: words per day, the mix of everyday / STEM / official words (`bank_shares`), paragraphs per day, how often to speak, speech speed, microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
+Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`, `new_word_share`), the mix of everyday / STEM / official words (`bank_shares`), paragraphs per day, how often to speak, speech speed, microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
 
 ## Adding content (for the parent)
 

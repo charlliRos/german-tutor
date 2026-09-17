@@ -26,7 +26,7 @@ def _file_hash(name: str) -> str:
 
 def run_update() -> int:
     if not shutil.which("git") or not (ROOT / ".git").exists():
-        console.print("[yellow]This copy wasn't installed with git, so it can't update itself.[/]\n"
+        console.print("[warn]This copy wasn't installed with git, so it can't update itself.[/]\n"
                       "Download the new ZIP from GitHub, unzip it over this folder, and keep your data/ folder.")
         return 1
 
@@ -36,7 +36,7 @@ def run_update() -> int:
         pull = _git("pull", "--ff-only", "--autostash")
     if pull.returncode != 0:
         console.print("[red]Update failed.[/] Git said:\n" + (pull.stderr or pull.stdout).strip())
-        console.print("[dim]Your progress is safe. Ask a parent to run 'git status' in this folder.[/]")
+        console.print("[hint]Your progress is safe. Ask a parent to run 'git status' in this folder.[/]")
         return 1
 
     after = _git("rev-parse", "HEAD").stdout.strip()
@@ -60,5 +60,5 @@ def run_update() -> int:
         subprocess.run([sys.executable, str(ROOT / "tools" / "download_voice.py"), voice], cwd=ROOT)
 
     content = load_content()
-    console.print(f"[dim]{len(content.words)} words and {len(content.books)} books ready.[/]")
+    console.print(f"[hint]{len(content.words)} words and {len(content.books)} books ready.[/]")
     return 0

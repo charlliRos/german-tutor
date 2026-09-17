@@ -1,4 +1,4 @@
-"""Small terminal helpers on top of rich."""
+"""Small terminal helpers on top of rich: theme, prompts, key choices, layout."""
 from __future__ import annotations
 
 import os
@@ -10,15 +10,50 @@ from rich.markup import escape
 from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
+from rich.theme import Theme
 
-console = Console(highlight=False)
+# Named styles that stay readable on dark AND light terminal backgrounds (no yellow, no dim).
+THEME = Theme({
+    "de": "cyan",
+    "de.word": "bold cyan",
+    "en": "green",
+    "note": "magenta",
+    "hint": "grey50",
+    "key": "bold blue",
+    "good": "bold green",
+    "almost": "bold dark_orange",
+    "bad": "bold red",
+    "rec": "bold red",
+    "warn": "dark_orange",
+})
+console = Console(highlight=False, theme=THEME)
 
-QUIT_WORDS = {":q", ":quit", ":exit"}
-UMLAUT_TIP = "[dim]No ä ö ü ß on your keyboard? Type ae oe ue ss. Type :quit to stop.[/]"
+QUIT_WORDS = {"q", ":q", ":quit", ":exit"}
+QUIT_HINT = "[hint](q = stop)[/]"
+
+# Emoji and symbols only where the terminal can show them (Windows Terminal, VS Code, most Linux/macOS terminals).
+FANCY = bool(os.environ.get("WT_SESSION") or os.environ.get("TERM_PROGRAM")) or (
+    os.name != "nt" and os.environ.get("TERM", "") not in ("linux", "dumb", ""))
+_ICONS = {"fire": ("🔥", "*"), "mic": ("🎤", "(mic)"), "ok": ("✔", "OK"), "almost": ("≈", "~"),
+          "bad": ("✘", "X"), "play": ("▶", ">"), "rec": ("●", "(rec)"), "party": ("🎉", "!"),
+          "book": ("📖", "*"), "done": ("✓", "done")}
+
+
+def icon(name: str) -> str:
+    fancy, plain = _ICONS[name]
+    return fancy if FANCY else plain
+
+
+def umlaut_tip() -> str:
+    return "[hint]No ä ö ü ß on your keyboard? Type ae oe ue ss.[/]"
+
+
+def plural(n: int, word: str) -> str:
+    return f"{n} {word}" if n == 1 else f"{n} {word}s"
 
 
 class QuitSession(Exception):
-    """The user typed :q (or closed input) to leave the current activity."""
+    """The user typed q (or pressed Ctrl+C / closed input) to leave the current activity."""
 
 
 def clear() -> None:
@@ -45,59 +80,116 @@ def flush_input() -> None:
         pass
 
 
-def ask(prompt: str) -> str:
+def key_pressed() -> bool:
+    """True if a key (Enter on Linux/macOS) is waiting; used to skip audio."""
+    if not sys.stdin or not sys.stdin.isatty():
+        return False
     try:
-        value = console.input(f"[bold]{prompt}[/] ")
-    except EOFError:
+        if os.name == "nt":
+            import msvcrt
+            return msvcrt.kbhit()
+        import select
+        return bool(select.select([sys.stdin], [], [], 0)[0])
+    except Exception:
+        return False
+
+
+def _read(prompt: str) -> str:
+    try:
+        return console.input(f"[bold]{prompt}[/] " if prompt else "")
+    except (EOFError, KeyboardInterrupt):
+        console.print()
         raise QuitSession from None
-    if value.strip().lower() in QUIT_WORDS:
+
+
+def ask(prompt: str) -> str:
+    value = _read(prompt).strip()
+    if value.lower() in QUIT_WORDS:
         raise QuitSession
-    return value.strip()
+    return value
 
 
 def ask_multiline(prompt: str) -> str:
-    console.print(f"[bold]{prompt}[/] [dim](press Enter on an empty line when you're done)[/]")
-    lines = []
+    """Several lines of text. A single empty line is kept (pasted paragraphs); two in a row finish."""
+    console.print(f"[bold]{prompt}[/] [hint](press Enter twice when you're done)[/]")
+    lines: list[str] = []
+    empty_in_a_row = 0
     while True:
         line = ask("…" if lines else ">")
-        if not line:
-            return " ".join(lines)
-        lines.append(line)
+        if line:
+            lines.append(line)
+            empty_in_a_row = 0
+            continue
+        empty_in_a_row += 1
+        if empty_in_a_row >= 2:
+            break
+    flush_input()
+    return "\n".join(lines).strip()
 
 
 def keys(options: dict[str, str]) -> str:
     """Show e.g. '[Enter] next  [r] hear again' and return the chosen key ('' is Enter)."""
-    hint = "   ".join(f"[cyan]{escape('[' + ('Enter' if k == '' else k) + ']')}[/] {label}"
+    hint = "   ".join(f"[key]{escape('[' + ('Enter' if k == '' else k) + ']')}[/] {label}"
                       for k, label in options.items())
+    if "q" not in options:
+        hint += "   " + QUIT_HINT
     while True:
         console.print(hint)
-        choice = ask(">").lower()
-        if choice in options:
-            return choice
-        console.print("[dim]Pick one of the options above.[/]")
+        raw = _read(">").strip().lower()
+        if raw in options:
+            return raw
+        if raw in QUIT_WORDS:
+            raise QuitSession
+        console.print(f"[warn]'{escape(raw)}' isn't an option here.[/]" if raw else "[warn]Pick one of the options above.[/]")
 
 
 def title(heading: str, sub: str = "") -> None:
-    console.rule(f"[bold]{escape(heading)}[/]" + (f"  [dim]{escape(sub)}[/]" if sub else ""))
+    """A rule line; the subtitle is dropped rather than letting the heading get cut off."""
+    room = console.width - 8
+    if len(heading) + len(sub) + 2 > room:
+        sub = ""
+    if len(heading) > room:
+        heading = heading[: room - 1] + "…"
+    console.rule(f"[bold]{escape(heading)}[/]" + (f"  [hint]{escape(sub)}[/]" if sub else ""))
 
 
-def german(text: str, heading: str = "Deutsch", subtitle: str | None = None) -> Panel:
-    return Panel(Text(text, style="bold cyan"), title=heading, subtitle=subtitle,
+def german(text: str, heading: str = "Deutsch", subtitle: str | None = None, word: bool = False) -> Panel:
+    return Panel(Text(text, style="de.word" if word else "de"), title=heading, subtitle=subtitle,
                  border_style="cyan", padding=(1, 2))
 
 
 def english(text: str, heading: str = "English") -> Panel:
-    return Panel(Text(text, style="green"), title=heading, border_style="green", padding=(1, 2))
+    return Panel(Text(text, style="en"), title=heading, border_style="green", padding=(1, 2))
 
 
 def side_by_side(left_title: str, left: str, right_title: str, right: str) -> None:
     left = left or "(nothing written)"
     if console.width < 80:
         console.print(Panel(Text(left), title=left_title, border_style="magenta"))
-        console.print(Panel(Text(right), title=right_title, border_style="cyan"))
+        console.print(Panel(Text(right, style="de"), title=right_title, border_style="cyan"))
         return
     table = Table(box=box.ROUNDED, expand=True, show_lines=False, padding=(1, 2))
-    table.add_column(left_title, ratio=1, style="magenta")
-    table.add_column(right_title, ratio=1, style="cyan")
-    table.add_row(Text(left), Text(right))
+    table.add_column(left_title, ratio=1)
+    table.add_column(right_title, ratio=1)
+    table.add_row(Text(left, style="magenta"), Text(right, style="cyan"))
     console.print(table)
+
+
+def key_words(words: list[dict]) -> Table | Text:
+    """Key-word list: a table on wide screens, simple 'de – en (note)' lines on narrow ones."""
+    if console.width < 70:
+        out = Text("Key words\n", style="bold")
+        for w in words:
+            out.append(w.get("de", ""), style="de.word")
+            out.append(f" – {w.get('en', '')}", style="en")
+            if w.get("note"):
+                out.append(f" ({w['note']})", style="note")
+            out.append("\n")
+        return out
+    table = Table(title="Key words", title_justify="left", show_header=False, box=None, padding=(0, 2))
+    table.add_column(style="de.word", no_wrap=True)
+    table.add_column(style="en")
+    table.add_column(style="note")
+    for w in words:
+        table.add_row(w.get("de", ""), w.get("en", ""), w.get("note", ""))
+    return table

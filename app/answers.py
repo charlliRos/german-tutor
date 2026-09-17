@@ -16,10 +16,15 @@ _UMLAUTS = str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss"})
 _EN_PREFIXES = ("to ", "a ", "an ", "the ")
 
 
+_PLAIN = str.maketrans({"ä": "a", "ö": "o", "ü": "u", "ß": "s"})
+_TYPE_AS = {"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss"}
+
+
 @dataclass
 class Check:
     outcome: str
     message: str = ""
+    overridable: bool = True  # may the kid say "my answer was right too"?
 
 
 def normalize(text: str) -> str:
@@ -73,7 +78,7 @@ def _split_article(text: str) -> tuple[str | None, str]:
 def check_english(answer: str, word) -> Check:
     given = english_forms(answer)
     if not given:
-        return Check(WRONG, "No answer — that's OK, now you know it.")
+        return Check(WRONG, overridable=False)
     expected = set().union(*(english_forms(e) for e in word.en))
     if given & expected:
         return Check(CORRECT)
@@ -82,29 +87,50 @@ def check_english(answer: str, word) -> Check:
     return Check(WRONG)
 
 
+def _bare(text: str) -> str:
+    """Normalised with umlauts reduced to plain letters (Tür -> tur), to spot a forgotten umlaut."""
+    return normalize(unicodedata.normalize("NFC", text or "").lower().translate(_PLAIN))
+
+
+def _umlaut_message(cand: str) -> str:
+    marks = sorted({c for c in cand.lower() if c in _TYPE_AS})
+    return (f"it's {cand} with {' and '.join(marks)} "
+            f"(no key for it? type {' and '.join(_TYPE_AS[c] for c in marks)})")
+
+
 def check_german(answer: str, word) -> Check:
     given = normalize(answer)
     if not given:
-        return Check(WRONG, "No answer — that's OK, now you know it.")
+        return Check(WRONG, overridable=False)
     candidates = [word.de, *word.de_alt]
-    normalized = [normalize(c) for c in candidates]
-    if given in normalized:
+    if given in {normalize(c) for c in candidates}:
         return Check(CORRECT)
 
     given_article, given_rest = _split_article(given)
-    for cand, norm in zip(candidates, normalized):
+    _, bare_given_rest = _split_article(_bare(answer))
+    for cand in candidates:
+        norm = normalize(cand)
         article, rest = _split_article(norm)
+        _, bare_rest = _split_article(_bare(cand))
+        has_umlaut = any(c in cand.lower() for c in _TYPE_AS)
         if word.pos == "noun" and article:
             same_word = given_rest == rest
-            if (same_word or _is_typo(given_rest, rest)) and given_article is None:
-                return Check(ALMOST, f"Don't forget the article: {cand}")
-            if same_word and given_article != article:
-                return Check(WRONG, f"Right word, wrong article — it's {cand}")
-            if _is_typo(given_rest, rest) and given_article == article:
+            umlaut = not same_word and has_umlaut and bare_given_rest == bare_rest
+            typo = _is_typo(given_rest, rest)
+            if (same_word or umlaut or typo) and given_article is None:
+                extra = f" Also, {_umlaut_message(cand)}." if umlaut else ""
+                return Check(ALMOST, f"Don't forget the article: {cand}.{extra}")
+            if (same_word or umlaut) and given_article != article:
+                return Check(WRONG, f"Right word, wrong article: it's {cand}.", overridable=False)
+            if umlaut:
+                return Check(ALMOST, f"It{_umlaut_message(cand)[2:]}.")
+            if typo and given_article == article:
                 return Check(ALMOST, "Small spelling mistake.")
         else:
+            if has_umlaut and _bare(answer) == _bare(cand):
+                return Check(ALMOST, f"It{_umlaut_message(cand)[2:]}.")
             if norm.startswith("sich ") and given == norm[5:]:
-                return Check(ALMOST, f"It's reflexive: {cand}")
+                return Check(ALMOST, f"It's reflexive: {cand}.")
             if _is_typo(given, norm):
                 return Check(ALMOST, "Small spelling mistake.")
     return Check(WRONG)

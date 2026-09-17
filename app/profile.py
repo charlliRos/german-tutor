@@ -15,6 +15,7 @@ class Profile:
     def __init__(self, path: Path, data: dict):
         self.path = path
         self.data = data
+        self.is_new = False  # created in this run (shows the first-time welcome)
         for key, default in (("vocab", {}), ("books", {}), ("days", {}), ("current_book", None)):
             data.setdefault(key, default)
 
@@ -57,6 +58,7 @@ class Profile:
                 return existing
             n += 1  # a different student already uses this file name
         profile = cls(path, {"name": name, "created": date.today().isoformat()})
+        profile.is_new = True
         profile.save()
         return profile
 
@@ -78,12 +80,18 @@ class Profile:
         return self.data["days"].get(today.isoformat(), {})
 
     def count(self, today: date, **amounts: int) -> None:
-        day = self.data["days"].setdefault(today.isoformat(), {"words": 0, "right": 0, "new": 0, "units": 0})
+        day = self.data["days"].setdefault(
+            today.isoformat(), {"words": 0, "right": 0, "almost": 0, "new": 0, "units": 0, "warmups": 0})
         for key, amount in amounts.items():
             day[key] = day.get(key, 0) + amount
 
+    def practice_days(self, before: date) -> int:
+        """Days with a finished warm-up before the given day (drives the warm-up size)."""
+        return sum(1 for d, c in self.data["days"].items() if d < before.isoformat() and c.get("warmups", 0))
+
     def streak(self, today: date) -> int:
-        days = {d for d, counts in self.data["days"].items() if any(counts.values())}
+        """Consecutive days with a finished warm-up or a finished paragraph."""
+        days = {d for d, c in self.data["days"].items() if c.get("warmups", 0) or c.get("units", 0)}
         d = today if today.isoformat() in days else today - timedelta(days=1)
         n = 0
         while d.isoformat() in days:

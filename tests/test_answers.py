@@ -77,14 +77,37 @@ class SpacedRepetition(unittest.TestCase):
         srs.apply_result(s, WRONG, self.today)
         self.assertEqual((s["box"], s["due"]), (1, "2026-01-11"))
 
-    def test_plan_prefers_reviews_and_mixes_banks(self):
-        words = {f"d{i}": Word(f"d{i}", "daily", f"w{i}", ["x"], "verb", rank=i) for i in range(10)}
-        words |= {f"s{i}": Word(f"s{i}", "stem", f"s{i}", ["x"], "verb", rank=i) for i in range(10)}
-        states = {"d9": {"box": 2, "due": "2026-01-01"}}
-        settings = {"warmup_words": 5, "new_words_per_day": 10, "bank_shares": {"daily": 0.5, "stem": 0.5}}
-        reviews, new = srs.plan_session(states, words, settings, self.today)
-        self.assertEqual(reviews, ["d9"])
-        self.assertEqual(sorted(new), ["d0", "d1", "s0", "s1"])
+    SETTINGS = {"bank_shares": {"daily": 0.5, "stem": 0.5}, "warmup_start": 10, "warmup_max": 200,
+                "warmup_growth": 0.52, "new_word_share": 0.25, "min_new_words": 3}
+
+    def test_warmup_grows_from_10_to_200(self):
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 0), 10)
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 183), 105)
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 365), 199)
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 1000), 200)
+
+    def test_plan_mixes_new_reviews_and_practice(self):
+        words = {f"d{i}": Word(f"d{i}", "daily", f"w{i}", ["x"], "verb", rank=i) for i in range(30)}
+        words |= {f"s{i}": Word(f"s{i}", "stem", f"s{i}", ["x"], "verb", rank=i) for i in range(30)}
+        # Day 1: nothing started, so the whole warm-up is new words.
+        plan = srs.plan_session({}, words, self.SETTINGS, self.today, size=10, new_allowed=3)
+        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (10, 0, 0))
+        # Later: 12 due, 5 started but not due -> 3 new reserved, 7 reviews (most overdue), no room left.
+        states = {f"d{i}": {"box": 1, "due": f"2026-01-0{1 + i % 9}", "last": "2026-01-01"} for i in range(12)}
+        states |= {f"s{i}": {"box": 2, "due": "2026-02-01", "last": "2026-01-05"} for i in range(5)}
+        plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=10, new_allowed=3)
+        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (3, 7, 0))
+        self.assertTrue(set(plan.new).isdisjoint(states))
+        # Extra practice later the same day: no new words, remaining due words, then weakest started words.
+        plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=20, new_allowed=0)
+        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (0, 12, 5))
+
+    def test_practice_does_not_promote_but_a_miss_demotes(self):
+        s = {"box": 3, "due": "2026-02-01"}
+        srs.apply_practice(s, CORRECT, self.today)
+        self.assertEqual((s["box"], s["due"]), (3, "2026-02-01"))
+        srs.apply_practice(s, WRONG, self.today)
+        self.assertEqual((s["box"], s["due"]), (1, "2026-01-11"))
 
     def test_small_bank_gets_its_share_and_empty_banks_are_topped_up(self):
         words = {f"d{i}": Word(f"d{i}", "daily", f"w{i}", ["x"], "verb", rank=i) for i in range(20)}
@@ -93,6 +116,39 @@ class SpacedRepetition(unittest.TestCase):
         picked = srs.pick_new_words({}, words, 8, shares)
         self.assertEqual(sum(w.startswith("a") for w in picked), 2)
         self.assertEqual(len(picked), 8)
+
+
+class UxFixes(unittest.TestCase):
+    def test_missing_umlaut_is_almost_with_hint(self):
+        tuer = word("die Tür", ["door"])
+        for answer in ("die Tur", "Tur"):
+            check = check_german(answer, tuer)
+            self.assertEqual(check.outcome, ALMOST)
+            self.assertIn("ue", check.message)
+        self.assertEqual(check_german("die Tuer", tuer).outcome, CORRECT)
+        self.assertEqual(check_german("schon", word("schön", ["beautiful"], pos="adj")).outcome, ALMOST)
+        wrong_article = check_german("der Tür", tuer)
+        self.assertEqual(wrong_article.outcome, WRONG)
+        self.assertFalse(wrong_article.overridable)
+        self.assertFalse(check_german("", tuer).overridable)
+
+    def test_multiline_keeps_single_blank_lines(self):
+        from unittest import mock
+        from app import ui
+        typed = iter(["She woke up.", "", "It was late.", "", ""])
+        with mock.patch.object(ui, "_read", lambda prompt: next(typed)):
+            self.assertEqual(ui.ask_multiline("x"), "She woke up.\nIt was late.")
+
+    def test_streak_counts_finished_work_only(self):
+        import tempfile
+        from pathlib import Path
+        from app import profile as prof
+        p = prof.Profile(Path(tempfile.mkdtemp()) / "t.json", {})
+        today = date(2026, 1, 10)
+        p.count(today, words=3, new=2)
+        self.assertEqual(p.streak(today), 0)
+        p.count(today, warmups=1)
+        self.assertEqual((p.streak(today), p.practice_days(today), p.practice_days(date(2026, 1, 11))), (1, 0, 1))
 
 
 class ReviewFixes(unittest.TestCase):
@@ -136,7 +192,7 @@ class ReviewFixes(unittest.TestCase):
             today = date(2026, 1, 10)
             juergen.day(today)  # just looking must not count as practice
             self.assertEqual(juergen.streak(today), 0)
-            juergen.count(today, words=1)
+            juergen.count(today, units=1)
             self.assertEqual(juergen.streak(today), 1)
         finally:
             prof.PROFILES_DIR = old_dir

@@ -3,51 +3,72 @@ from __future__ import annotations
 
 from . import ui
 from .audio import QUIET_PEAK
-from .ui import console
+from .ui import console, icon
 
 
 def hear(ctx, text: str, slow: bool = True) -> None:
-    if ctx.audio.can_speak:
-        with console.status("[dim]▶ speaking…[/]"):
-            ctx.audio.say(text, slow)
-        ui.flush_input()
+    """Play the German. Enter skips it, Ctrl+C stops it; neither leaks into the next prompt."""
+    if not ctx.audio.can_speak:
+        return
+    try:
+        with console.status(f"[hint]{icon('play')} speaking… (Enter to skip)[/]"):
+            ctx.audio.say(text, slow, stop_when=ui.key_pressed)
+    except KeyboardInterrupt:
+        console.print("[hint](stopped)[/]")
+    ui.flush_input()
 
 
-def _record(ctx, long_text: bool):
-    if long_text:
-        ui.ask("🎤 Press Enter, then read the text out loud.")
-        console.print("[bold red]● Recording…[/] press Enter when you're finished.")
-        recording = ctx.audio.record_until(lambda: ui.ask(""))
-    else:
-        seconds = ctx.settings["word_record_seconds"]
-        ui.ask("🎤 Press Enter, then say it.")
-        with console.status(f"[bold red]● Recording for {seconds} seconds, speak now![/]"):
-            recording = ctx.audio.record_seconds(seconds)
-        ui.flush_input()
+def record_seconds_for(ctx, text: str) -> float:
+    """Long enough for phrases: at least the configured time, more for longer text (max 10 s)."""
+    return round(min(10.0, max(float(ctx.settings["word_record_seconds"]), 1.5 + 0.12 * len(text))), 1)
+
+
+def _record(ctx, text: str, long_text: bool):
+    try:
+        if long_text:
+            ui.ask(f"{icon('mic')} Press Enter, then read the text out loud.")
+            console.print(f"[rec]{icon('rec')} Recording…[/] press Enter when you're finished.")
+            recording = ctx.audio.record_until(lambda: ui.ask(""))
+        else:
+            seconds = record_seconds_for(ctx, text)
+            ui.ask(f"{icon('mic')} Press Enter, then say it.")
+            with console.status("") as status:
+                def tick(left: float) -> bool:
+                    status.update(f"[rec]{icon('rec')} Recording, speak now! {left:0.1f} s left[/]")
+                    return False
+                recording = ctx.audio.record_seconds(seconds, on_tick=tick)
+            ui.flush_input()
+    except KeyboardInterrupt:
+        ctx.audio.sd.stop()
+        console.print("[hint](recording stopped)[/]")
+        return None
     if recording[0].size == 0:
-        console.print("[yellow]I couldn't hear anything. Is the microphone muted or too far away?[/]")
+        console.print("[warn]I couldn't hear anything. Is the microphone muted or too far away?[/]")
         return None
     if ctx.audio.last_peak < QUIET_PEAK:
-        console.print("[dim yellow]Your mic is very quiet. Speak closer, or turn up the microphone level "
+        console.print("[warn]Your mic is very quiet. Speak closer, or turn up the microphone level "
                       "in your sound settings.[/]")
     return recording
 
 
 def _play_both(ctx, recording, text: str, slow: bool) -> None:
     if recording is not None:
-        console.print("[magenta]▶ Your recording[/]")
-        ctx.audio.play(*recording)
+        console.print(f"[magenta]{icon('play')} Your recording[/]")
+        try:
+            ctx.audio.play(*recording, stop_when=ui.key_pressed)
+        except KeyboardInterrupt:
+            pass
         ui.flush_input()
-    console.print("[cyan]▶ How it should sound[/]")
+    console.print(f"[cyan]{icon('play')} How it should sound[/]")
     hear(ctx, text, slow)
 
 
 def speak_and_compare(ctx, text: str, long_text: bool = False) -> None:
-    """The kid says `text`; then their recording and the correct pronunciation play back to back."""
+    """The kid says `text`; then their recording and the reference pronunciation play back to back."""
     slow = not long_text
     while True:
         if ctx.audio.can_record:
-            recording = _record(ctx, long_text)
+            recording = _record(ctx, text, long_text)
         else:
             ui.ask("Say it out loud now, then press Enter to hear how it should sound.")
             recording = None

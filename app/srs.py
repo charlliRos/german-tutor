@@ -1,9 +1,10 @@
 """Spaced repetition (Leitner boxes): words you know come back less and less often."""
 from __future__ import annotations
 
+from dataclasses import dataclass
 from datetime import date, timedelta
 
-from .answers import ALMOST, CORRECT
+from .answers import ALMOST, CORRECT, WRONG
 
 MAX_BOX = 5
 INTERVALS = {1: 1, 2: 3, 3: 7, 4: 16, 5: 35}  # days until the next review, per box
@@ -44,16 +45,58 @@ def mark_practised(state: dict, today: date) -> None:
         state["due"] = tomorrow
 
 
-def plan_session(states: dict, words: dict, settings: dict, today: date, new_so_far: int = 0):
-    """Return (review_ids, new_ids) for today's warm-up. Overdue reviews come first."""
+def apply_practice(state: dict, outcome: str, today: date) -> None:
+    """Extra practice beyond what's due: a miss brings the word back sooner, a hit doesn't skip ahead."""
+    if outcome == WRONG:
+        apply_result(state, WRONG, today)
+        return
+    for key, value in new_state().items():
+        state.setdefault(key, value)
+    state["seen"] += 1
+    state["last"] = today.isoformat()
+    state["right"] += outcome == CORRECT
+
+
+def warmup_size(settings: dict, practice_days: int) -> int:
+    """Starts small and grows with every day of practice, up to the maximum."""
+    start, top = int(settings["warmup_start"]), int(settings["warmup_max"])
+    return min(top, start + int(float(settings["warmup_growth"]) * practice_days))
+
+
+def new_word_cap(settings: dict, size: int) -> int:
+    return max(int(settings["min_new_words"]), round(size * float(settings["new_word_share"])))
+
+
+@dataclass
+class Plan:
+    reviews: list[str]
+    new: list[str]
+    practice: list[str]
+
+    @property
+    def total(self) -> int:
+        return len(self.reviews) + len(self.new) + len(self.practice)
+
+
+def plan_session(states: dict, words: dict, settings: dict, today: date, size: int, new_allowed: int) -> Plan:
+    """Fill a warm-up of `size` words: some new words (always a few, if allowed), then due reviews
+    (most overdue first), then extra practice on words already started (weakest, least recent first).
+    If there is still room on a day new words are allowed, it is topped up with more new words."""
     t = today.isoformat()
+    shares = settings["bank_shares"]
+    new = pick_new_words(states, words, min(max(new_allowed, 0), size), shares)
     due = [wid for wid, s in states.items()
            if wid in words and s.get("box", 0) >= 1 and s.get("due") and s["due"] <= t]
     due.sort(key=lambda wid: (states[wid]["due"], states[wid]["box"]))
-    size = int(settings["warmup_words"])
-    reviews = due[:size]
-    new_count = max(0, min(int(settings["new_words_per_day"]) - new_so_far, size - len(reviews)))
-    return reviews, pick_new_words(states, words, new_count, settings["bank_shares"])
+    reviews = due[: size - len(new)]
+    taken = set(reviews)
+    started = [wid for wid, s in states.items() if wid in words and s.get("box", 0) >= 1 and wid not in taken]
+    started.sort(key=lambda wid: (states[wid].get("last") == t, states[wid]["box"], states[wid].get("last") or ""))
+    practice = started[: size - len(new) - len(reviews)]
+    room = size - len(new) - len(reviews) - len(practice)
+    if room > 0 and new_allowed > 0:
+        new = pick_new_words(states, words, len(new) + room, shares)
+    return Plan(reviews, new, practice)
 
 
 def pick_new_words(states: dict, words: dict, count: int, shares: dict[str, float]) -> list[str]:
