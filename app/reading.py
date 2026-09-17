@@ -73,7 +73,7 @@ def _self_grade(ctx, german_text: str | None) -> str:
 
 
 def _translate(ctx, unit: Unit, direction: str) -> dict:
-    console.clear()
+    ui.clear()
     if direction == "de2en":
         ui.title("Your turn: translate into English")
         console.print(ui.german(unit.de, "German"))
@@ -97,7 +97,7 @@ def _story_so_far(ctx, book: Book, state: dict) -> Unit | None:
         unit = book.units[state["next"] - 1]
         if unit.kind == "text":
             return unit
-        console.clear()
+        ui.clear()
         ui.title(book.title, "the story continues")
         console.print(Panel(Text(unit.en), title="Meanwhile in the story…", subtitle=unit.covers or None,
                             border_style="magenta", padding=(1, 2)))
@@ -111,7 +111,7 @@ def lesson(ctx, book: Book) -> None:
     state = ctx.profile.book_state(book.id)
     first_time = state["next"] == 1
     if first_time and book.intro_en:
-        console.clear()
+        ui.clear()
         ui.title(book.title, book.author)
         console.print(Panel(Text(book.intro_en), title="About this book", border_style="magenta", padding=(1, 2)))
         ui.keys({"": "start reading"})
@@ -121,7 +121,7 @@ def lesson(ctx, book: Book) -> None:
         return
 
     # 1. Read and listen
-    console.clear()
+    ui.clear()
     ui.title(book.title, f"{book.author} · part {unit.part} of {book.parts}")
     console.print(ui.german(unit.de))
     hear(ctx, unit.de, slow=False)
@@ -135,7 +135,7 @@ def lesson(ctx, book: Book) -> None:
     task = _choose_task(ctx)
     entry = {"date": datetime.now().isoformat(timespec="minutes"), "book": book.id, "unit": unit.part, "task": task}
     if task == "read_aloud":
-        console.clear()
+        ui.clear()
         ui.title("Your turn: read it out loud")
         console.print(ui.german(unit.de))
         speak_and_compare(ctx, unit.de, long_text=True)

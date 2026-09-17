@@ -21,6 +21,14 @@ class QuitSession(Exception):
     """The user typed :q (or closed input) to leave the current activity."""
 
 
+def clear() -> None:
+    """Clear the screen AND the scroll-back, so earlier answers can't be scrolled up to."""
+    console.clear()
+    if console.is_terminal:
+        console.file.write("\x1b[3J")
+        console.file.flush()
+
+
 def flush_input() -> None:
     """Throw away keys pressed while audio was playing, so an impatient Enter doesn't skip the next step."""
     if not sys.stdin or not sys.stdin.isatty():

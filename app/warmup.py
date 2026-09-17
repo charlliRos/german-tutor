@@ -47,6 +47,7 @@ def _listen_options(ctx, word: Word, options: dict[str, str]) -> str:
 
 
 def show_card(ctx, word: Word, i: int, total: int) -> None:
+    ui.clear()
     ui.title(f"New word {i} of {total}", f"{word.bank} · {word.topic}")
     console.print(Panel(word_details(word), border_style="magenta", padding=(1, 2)))
     hear(ctx, word.de)
@@ -116,9 +117,10 @@ def run_warmup(ctx) -> None:
         console.print("[green]No words due today. You're all caught up![/]")
         return
 
-    console.clear()
+    ui.clear()
     ui.title("Warm-up", f"{len(new)} new · {len(reviews)} to review")
     console.print(ui.UMLAUT_TIP)
+    ui.keys({"": "start"})
     for i, wid in enumerate(new, 1):
         show_card(ctx, words[wid], i, len(new))
 
@@ -128,6 +130,7 @@ def run_warmup(ctx) -> None:
     missed: list[Word] = []
     for pos, wid in enumerate(queue, 1):
         word, state = words[wid], ctx.profile.word_state(wid)
+        ui.clear()  # a fresh screen per question, so earlier cards and answers can't be copied
         ui.title(f"Word {pos} of {len(queue)}")
         if state["box"] >= 1 and ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:
             read_aloud(ctx, word)
@@ -143,10 +146,12 @@ def run_warmup(ctx) -> None:
         ctx.profile.save()
 
     if missed:
-        ui.title("Second chance", "the ones you missed, just for practice")
         for word in missed:
+            ui.clear()
+            ui.title("Second chance", "the ones you missed, just for practice")
             quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")))
 
+    ui.clear()
     ui.title("Warm-up done")
     if graded:
         console.print(f"[bold]{right} of {graded}[/] correct.  "

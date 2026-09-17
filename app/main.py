@@ -147,7 +147,7 @@ MENU = {
 
 
 def menu(ctx: Context) -> None:
-    console.clear()
+    ui.clear()
     console.print(banner(ctx.profile.name, facts(ctx)))
     for problem in ctx.audio.problems:
         console.print(f"[yellow]• {problem}[/]")
