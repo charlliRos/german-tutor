@@ -13,7 +13,7 @@ from .config import VOICES_DIR
 
 SENTENCE_PAUSE = 0.25  # seconds of silence between synthesized sentences
 SILENCE_PEAK = 0.02    # recordings quieter than this count as "nothing heard"
-QUIET_PEAK = 0.12      # below this the mic works but is set very low
+QUIET_PEAK = 0.08      # below this the mic works but is set very low
 
 
 def clean_for_speech(text: str) -> str:
