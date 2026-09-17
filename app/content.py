@@ -28,11 +28,14 @@ class Word:
 
 @dataclass
 class Unit:
-    n: int
+    n: int                 # position in the book (1-based), used for progress
     de: str
     en: str
     explain_en: str = ""
     words: list[dict] = field(default_factory=list)
+    kind: str = "text"     # "text" = German lesson, "summary" = English bridge over skipped parts
+    part: int = 0          # lesson number counting only text units
+    covers: str = ""
 
 
 @dataclass
@@ -44,6 +47,13 @@ class Book:
     level: str
     intro_en: str
     units: list[Unit]
+
+    @property
+    def parts(self) -> int:
+        return sum(1 for u in self.units if u.kind == "text")
+
+    def parts_read(self, next_n: int) -> int:
+        return sum(1 for u in self.units if u.kind == "text" and u.n < next_n)
 
 
 @dataclass
@@ -116,13 +126,20 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Co
         data = _load_json(path, content.problems)
         if not data:
             continue
-        units = []
+        units: list[Unit] = []
+        parts = 0
         for raw in data.get("units", []):
+            if raw.get("type") == "summary":
+                if raw.get("en"):
+                    units.append(Unit(n=len(units) + 1, de="", en=raw["en"].strip(), kind="summary",
+                                      covers=raw.get("covers", "")))
+                continue
             if not raw.get("de") or not raw.get("en"):
                 continue  # not translated yet
-            units.append(Unit(n=len(units) + 1, de=raw["de"].strip(), en=raw["en"].strip(),
+            parts += 1
+            units.append(Unit(n=len(units) + 1, de=raw["de"].strip(), en=raw["en"].strip(), part=parts,
                               explain_en=raw.get("explain_en", ""), words=raw.get("words", [])))
-        if not units:
+        if not parts:
             content.problems.append(f"{path.name}: no translated units")
             continue
         content.books.append(Book(

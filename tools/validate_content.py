@@ -82,6 +82,12 @@ def check_books() -> list[tuple[str, int]]:
             where = f"{path.name} unit {u.get('n', '?')}"
             if u.get("n") != i:
                 errors.append(f"{where}: expected n={i}")
+            if u.get("type") == "summary":
+                if not u.get("en") or u.get("de"):
+                    errors.append(f"{where}: a summary has English 'en' and no 'de'")
+                if len(u.get("en", "").split()) > 160:
+                    warnings.append(f"{where}: summary is long ({len(u['en'].split())} words, aim for 40–150)")
+                continue
             for field in ("de", "en", "explain_en", "words"):
                 if not u.get(field):
                     errors.append(f"{where}: missing {field}")

@@ -73,6 +73,18 @@ Each file is a JSON object:
 }
 ```
 
+### Story summaries (skipping parts of a long book)
+
+To tell the whole story without translating every paragraph, put a summary unit between German units:
+
+```json
+{"n": 31, "type": "summary", "covers": "Chapters 2–4", "en": "Meanwhile: Gregor's sister starts feeding him ..."}
+```
+
+- `en`: 40–150 words of plain English retelling what happens in the skipped part, so the next German unit makes sense. Keep it suitable for 16-year-olds; mature scenes are summarised briefly and neutrally.
+- No `de`, `explain_en` or `words`. Summaries are shown as "Meanwhile in the story…" and are not exercises or counted as parts.
+- `n` still counts every unit (summaries included) from 1 with no gaps.
+
 Rules for units:
 - A unit is one daily lesson chunk: one paragraph, or part of a long paragraph split at sentence boundaries. Aim for **40–110 German words**; dialogue lines may be merged into one unit.
 - `de` is the original text with spelling modernised (daß→dass, muß→muss, Thür→Tür, etc.). Do not change the wording.

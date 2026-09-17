@@ -75,8 +75,8 @@ def show_progress(ctx: Context) -> None:
     for col in ("#", "Title", "Author", "Level", "Read"):
         books.add_column(col)
     for i, b in enumerate(ctx.content.books, 1):
-        read = min(ctx.profile.book_state(b.id)["next"] - 1, len(b.units))
-        books.add_row(str(i), b.title, b.author, b.level, f"{read}/{len(b.units)}")
+        read = b.parts_read(ctx.profile.book_state(b.id)["next"])
+        books.add_row(str(i), b.title, b.author, b.level, f"{read}/{b.parts}")
     console.print(books)
 
     days = Table(title="Last 7 practice days", title_justify="left")
@@ -93,9 +93,9 @@ def choose_book(ctx: Context) -> None:
     for col in ("#", "Title", "Author", "Year", "Level", "Read"):
         table.add_column(col)
     for i, b in enumerate(ctx.content.books, 1):
-        read = min(ctx.profile.book_state(b.id)["next"] - 1, len(b.units))
+        read = b.parts_read(ctx.profile.book_state(b.id)["next"])
         mark = " ◀" if b.id == ctx.profile.data["current_book"] else ""
-        table.add_row(str(i), b.title + mark, b.author, str(b.year), b.level, f"{read}/{len(b.units)}")
+        table.add_row(str(i), b.title + mark, b.author, str(b.year), b.level, f"{read}/{b.parts}")
     console.print(table)
     answer = ui.ask("Book number (Enter to keep the current one):")
     if answer.isdigit() and 1 <= int(answer) <= len(ctx.content.books):

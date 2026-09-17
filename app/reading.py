@@ -91,15 +91,38 @@ def _translate(ctx, unit: Unit, direction: str) -> dict:
     return {"answer": answer, "self_grade": grade}
 
 
+def _story_so_far(ctx, book: Book, state: dict) -> Unit | None:
+    """Show English summaries of skipped parts; return the next German unit (None if the book ended)."""
+    while state["next"] <= len(book.units):
+        unit = book.units[state["next"] - 1]
+        if unit.kind == "text":
+            return unit
+        console.clear()
+        ui.title(book.title, "the story continues")
+        console.print(Panel(Text(unit.en), title="Meanwhile in the story…", subtitle=unit.covers or None,
+                            border_style="magenta", padding=(1, 2)))
+        state["next"] += 1
+        ctx.profile.save()
+        ui.keys({"": "continue"})
+    return None
+
+
 def lesson(ctx, book: Book) -> None:
     state = ctx.profile.book_state(book.id)
-    unit = book.units[state["next"] - 1]
+    first_time = state["next"] == 1
+    if first_time and book.intro_en:
+        console.clear()
+        ui.title(book.title, book.author)
+        console.print(Panel(Text(book.intro_en), title="About this book", border_style="magenta", padding=(1, 2)))
+        ui.keys({"": "start reading"})
+    unit = _story_so_far(ctx, book, state)
+    if unit is None:
+        console.print(f"[bold green]You finished {book.title}! Well done.[/]")
+        return
 
     # 1. Read and listen
     console.clear()
-    ui.title(book.title, f"{book.author} · part {unit.n} of {len(book.units)}")
-    if unit.n == 1 and book.intro_en:
-        console.print(Panel(Text(book.intro_en), title="About this book", border_style="magenta", padding=(1, 2)))
+    ui.title(book.title, f"{book.author} · part {unit.part} of {book.parts}")
     console.print(ui.german(unit.de))
     hear(ctx, unit.de, slow=False)
     _replay_until_enter(ctx, unit.de, "show me what it means")
@@ -110,7 +133,7 @@ def lesson(ctx, book: Book) -> None:
 
     # 3. Random exercise
     task = _choose_task(ctx)
-    entry = {"date": datetime.now().isoformat(timespec="minutes"), "book": book.id, "unit": unit.n, "task": task}
+    entry = {"date": datetime.now().isoformat(timespec="minutes"), "book": book.id, "unit": unit.part, "task": task}
     if task == "read_aloud":
         console.clear()
         ui.title("Your turn: read it out loud")
@@ -124,7 +147,8 @@ def lesson(ctx, book: Book) -> None:
     ctx.profile.count(ctx.today, units=1)
     ctx.profile.save()
     ctx.profile.add_journal(entry)
-    if state["next"] > len(book.units):
+    if book.parts_read(state["next"]) == book.parts:
+        _story_so_far(ctx, book, state)  # a closing summary, if the book ends with one
         console.print(f"[bold green]You finished {book.title}! Well done.[/]")
 
 
