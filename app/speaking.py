@@ -33,9 +33,9 @@ def _record(ctx, long_text: bool):
 
 def _play_both(ctx, recording, text: str, slow: bool) -> None:
     if recording is not None:
-        console.print("[magenta]▶ You[/]")
+        console.print("[magenta]▶ Your recording[/]")
         ctx.audio.play(*recording)
-    console.print("[cyan]▶ Correct[/]")
+    console.print("[cyan]▶ How it should sound[/]")
     hear(ctx, text, slow)
 
 
