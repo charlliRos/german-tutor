@@ -1,0 +1,1326 @@
+{
+  "id": "borchert-kurzgeschichten",
+  "title": "Kurzgeschichten (Das Brot, Die Küchenuhr, Nachts schlafen die Ratten doch)",
+  "author": "Wolfgang Borchert",
+  "author_died": 1947,
+  "year": 1947,
+  "level": "A2-B1",
+  "source": "Das Brot: https://www.babelmatrix.org/works/de/Borchert,_Wolfgang-1921/Das_Brot__ ; Die Küchenuhr: https://www.literatpro.de/prosa/160818/die-kuechenuhr ; Nachts schlafen die Ratten doch: https://www.babelmatrix.org/works/de/Borchert,_Wolfgang-1921/Nachts_schlafen_die_Ratten_doch_ (all cross-checked against https://mondamo.de/alt/borchert.htm and https://www.mittelschulvorbereitung.ch/contentLD/DE/T82rRatten.pdf)",
+  "orthography": "modernised to current German spelling (dass, muss, übrig geblieben, jedes Mal, ...); wording unchanged",
+  "intro_en": "Wolfgang Borchert (1921–1947) came back from World War II sick and wounded and wrote these short stories in Hamburg just before he died, aged 26. They show ordinary people in the ruins of post-war Germany: an old couple and a slice of bread, a young man with a broken kitchen clock, a boy guarding a pile of rubble. The language is simple and spoken, full of everyday German, but every sentence hits hard – which is why German students still read them in school.",
+  "units": [
+    {
+      "n": 1,
+      "de": "Plötzlich wachte sie auf. Es war halb drei. Sie überlegte, warum sie aufgewacht war. Ach so! In der Küche hatte jemand gegen einen Stuhl gestoßen. Sie horchte nach der Küche. Es war still. Es war zu still, und als sie mit der Hand über das Bett neben sich fuhr, fand sie es leer. Das war es, was es so besonders still gemacht hatte: sein Atem fehlte.",
+      "en": "Suddenly she woke up. It was half past two. She wondered why she had woken up. Oh, that was it! Someone in the kitchen had bumped into a chair. She listened towards the kitchen. It was quiet. It was too quiet, and when she ran her hand over the bed beside her, she found it empty. That was what had made it so especially quiet: his breathing was missing.",
+      "explain_en": "The story “Das Brot” (The Bread, 1946) starts here. An old couple in post-war Germany, when bread was strictly rationed: the wife wakes up at night and her husband isn't in bed. Big trap: “halb drei” means 2:30 (half way TO three), not 3:30. “aufgewacht war” and “gestoßen hatte” are the pluperfect (had woken, had bumped) – things that happened before the moment of the story. “Ach so!” (oh, I see!) is something you'll hear every day.",
+      "words": [
+        {
+          "de": "aufwachen",
+          "en": "to wake up"
+        },
+        {
+          "de": "halb drei",
+          "en": "half past two (2:30)",
+          "note": "halb + next hour: halb acht = 7:30"
+        },
+        {
+          "de": "der Stuhl, die Stühle",
+          "en": "chair"
+        },
+        {
+          "de": "horchen",
+          "en": "to listen closely",
+          "note": "a bit old-fashioned; today: hinhören, lauschen"
+        },
+        {
+          "de": "leer",
+          "en": "empty"
+        },
+        {
+          "de": "der Atem",
+          "en": "breath"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "de": "Sie stand auf und tappte durch die dunkle Wohnung zur Küche. In der Küche trafen sie sich. Die Uhr war halb drei. Sie sah etwas Weißes am Küchenschrank stehen. Sie machte Licht. Sie standen sich im Hemd gegenüber. Nachts. Um halb drei. In der Küche.",
+      "en": "She got up and padded through the dark flat to the kitchen. In the kitchen they met. The clock said half past two. She saw something white standing by the kitchen cupboard. She switched on the light. They stood facing each other in their nightshirts. At night. At half past two. In the kitchen.",
+      "explain_en": "“tappen” means to walk softly and unsteadily, feeling your way in the dark. “Sie machte Licht” is an older way of saying “Sie machte das Licht an” (she turned the light on). “im Hemd” means in their nightshirts – old people slept in long shirts back then; today you'd say “im Schlafanzug”. Borchert uses very short fragments (“Nachts. Um halb drei.”) to build tension.",
+      "words": [
+        {
+          "de": "aufstehen",
+          "en": "to get up",
+          "note": "Perfekt: ist aufgestanden"
+        },
+        {
+          "de": "die Wohnung, die Wohnungen",
+          "en": "flat, apartment"
+        },
+        {
+          "de": "der Küchenschrank",
+          "en": "kitchen cupboard"
+        },
+        {
+          "de": "das Licht anmachen",
+          "en": "to switch on the light",
+          "note": "text: Licht machen (older)"
+        },
+        {
+          "de": "sich gegenüberstehen",
+          "en": "to stand facing each other"
+        },
+        {
+          "de": "nachts",
+          "en": "at night"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "de": "Auf dem Küchentisch stand der Brotteller. Sie sah, dass er sich Brot abgeschnitten hatte. Das Messer lag noch neben dem Teller. Und auf der Decke lagen Brotkrümel. Wenn sie abends zu Bett gingen, machte sie immer das Tischtuch sauber. Jeden Abend. Aber nun lagen Krümel auf dem Tuch. Und das Messer lag da. Sie fühlte, wie die Kälte der Fliesen langsam an ihr hoch kroch. Und sie sah von dem Teller weg.",
+      "en": "The bread plate was on the kitchen table. She saw that he had cut himself some bread. The knife was still lying next to the plate. And there were breadcrumbs on the tablecloth. When they went to bed at night, she always cleaned the tablecloth. Every evening. But now there were crumbs on the cloth. And the knife was lying there. She felt the cold of the tiles slowly creeping up her body. And she looked away from the plate.",
+      "explain_en": "Now we see what happened: he has secretly cut himself extra bread. In 1946 every slice counted, so this is a real betrayal. “sich Brot abschneiden” – the “sich” means “for himself”. “die Decke” here means tablecloth (it can also mean blanket or ceiling!). “Tischtuch” sounds old-fashioned; today people say “die Tischdecke”. “hoch kroch” comes from “hochkriechen” (to creep up).",
+      "words": [
+        {
+          "de": "der Teller, die Teller",
+          "en": "plate"
+        },
+        {
+          "de": "das Messer, die Messer",
+          "en": "knife"
+        },
+        {
+          "de": "abschneiden",
+          "en": "to cut off"
+        },
+        {
+          "de": "der Krümel, die Krümel",
+          "en": "crumb"
+        },
+        {
+          "de": "das Tischtuch",
+          "en": "tablecloth",
+          "note": "today usually: die Tischdecke"
+        },
+        {
+          "de": "die Fliese, die Fliesen",
+          "en": "tile"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "de": "„Ich dachte, hier wäre was“, sagte er und sah in der Küche umher.\n„Ich habe auch was gehört“, antwortete sie, und dabei fand sie, dass er nachts im Hemd doch schon recht alt aussah. So alt wie er war. Dreiundsechzig. Tagsüber sah er manchmal jünger aus.",
+      "en": "“I thought there was something here,” he said, looking around the kitchen. “I heard something too,” she answered, and as she did she thought that at night, in his nightshirt, he really did look quite old. As old as he was. Sixty-three. During the day he sometimes looked younger.",
+      "explain_en": "“was” is spoken German for “etwas” (something) – totally normal today. “Ich dachte, hier wäre was” uses Konjunktiv II (wäre) for something that is only a thought, not a fact. “fand sie, dass …” means “she thought that …” – “finden” is the everyday verb for having an opinion (Ich finde, dass …). “umhersehen” is old-fashioned; today: “sich umsehen”.",
+      "words": [
+        {
+          "de": "was (= etwas)",
+          "en": "something",
+          "note": "spoken German"
+        },
+        {
+          "de": "sich umsehen",
+          "en": "to look around",
+          "note": "text: umhersehen (old-fashioned)"
+        },
+        {
+          "de": "antworten",
+          "en": "to answer"
+        },
+        {
+          "de": "finden, dass …",
+          "en": "to think that …"
+        },
+        {
+          "de": "alt aussehen",
+          "en": "to look old"
+        },
+        {
+          "de": "tagsüber",
+          "en": "during the day"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "de": "Sie sieht doch schon alt aus, dachte er, im Hemd sieht sie doch ziemlich alt aus. Aber das liegt vielleicht an den Haaren. Bei den Frauen liegt das nachts immer an den Haaren. Die machen dann auf einmal so alt.\n„Du hättest Schuhe anziehen sollen. So barfuß auf den kalten Fliesen. Du erkältest dich noch.“",
+      "en": "She really does look old now, he thought, in her nightshirt she looks pretty old. But maybe that's because of her hair. With women it's always the hair at night. It suddenly makes them look so old. “You should have put shoes on. Barefoot like that on the cold tiles. You'll catch a cold.”",
+      "explain_en": "We jump into his head: his thoughts are in the present tense. “Das liegt an …” (+ dative) means “that's because of …” – very useful (Das liegt am Wetter). “Du hättest Schuhe anziehen sollen” = you should have put shoes on: hättest + two infinitives. “Du erkältest dich noch” – the “noch” means “you'll end up …”. Notice he quickly changes the subject to her feet.",
+      "words": [
+        {
+          "de": "das liegt an (+ Dativ)",
+          "en": "that's because of"
+        },
+        {
+          "de": "die Haare (Plural)",
+          "en": "hair",
+          "note": "German usually uses the plural for the hair on your head"
+        },
+        {
+          "de": "auf einmal",
+          "en": "suddenly"
+        },
+        {
+          "de": "anziehen",
+          "en": "to put on (clothes)"
+        },
+        {
+          "de": "barfuß",
+          "en": "barefoot"
+        },
+        {
+          "de": "sich erkälten",
+          "en": "to catch a cold"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Sie sah ihn nicht an, weil sie nicht ertragen konnte, dass er log. Dass er log, nachdem sie neununddreißig Jahre verheiratet waren.\n„Ich dachte, hier wäre was“, sagte er noch einmal und sah wieder so sinnlos von einer Ecke in die andere, „ich hörte hier was. Da dachte ich, hier wäre was.“",
+      "en": "She didn't look at him because she couldn't bear the fact that he was lying. That he was lying after they had been married for thirty-nine years. “I thought there was something here,” he said again, and again looked so aimlessly from one corner to the other, “I heard something here. So I thought there was something here.”",
+      "explain_en": "“log” is the simple past of “lügen” (to lie): lügen – log – gelogen. Don't mix it up with “liegen” (to lie down): liegen – lag – gelegen. “ertragen” means to bear or stand something. “sinnlos” normally means pointless; here it describes his eyes wandering around aimlessly because he's embarrassed. He repeats himself – a sign that he's lying.",
+      "words": [
+        {
+          "de": "lügen (log, gelogen)",
+          "en": "to lie, tell a lie"
+        },
+        {
+          "de": "ertragen",
+          "en": "to bear, to stand"
+        },
+        {
+          "de": "verheiratet",
+          "en": "married"
+        },
+        {
+          "de": "die Ecke, die Ecken",
+          "en": "corner"
+        },
+        {
+          "de": "noch einmal",
+          "en": "once more, again"
+        },
+        {
+          "de": "sinnlos",
+          "en": "pointless"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "de": "„Ich habe auch was gehört. Aber es war wohl nichts.“ Sie stellte den Teller vom Tisch und schnippte die Krümel von der Decke.\n„Nein, es war wohl nichts“, echote er unsicher.\nSie kam ihm zu Hilfe: „Komm man. Das war wohl draußen. Komm man zu Bett. Du erkältest dich noch. Auf den kalten Fliesen.“\nEr sah zum Fenster hin. „Ja, das muss wohl draußen gewesen sein. Ich dachte, es wäre hier.“",
+      "en": "“I heard something too. But it was probably nothing.” She took the plate off the table and flicked the crumbs off the tablecloth. “No, it was probably nothing,” he echoed uncertainly. She came to his rescue: “Come on. It must have been outside. Come on to bed. You'll catch a cold. On the cold tiles.” He looked towards the window. “Yes, it must have been outside. I thought it was in here.”",
+      "explain_en": "“wohl” is a key little word: it means “probably / I suppose” (Er ist wohl krank). “Komm man” is northern German dialect (Borchert was from Hamburg): “man” works like “mal” or “doch”. Today you'd say “Komm schon” or “Komm doch”. “Das muss wohl draußen gewesen sein” = it must have been outside. She hides the plate and helps him keep his lie – to save his pride.",
+      "words": [
+        {
+          "de": "wohl",
+          "en": "probably, I suppose"
+        },
+        {
+          "de": "draußen",
+          "en": "outside"
+        },
+        {
+          "de": "unsicher",
+          "en": "uncertain, unsure"
+        },
+        {
+          "de": "jemandem zu Hilfe kommen",
+          "en": "to come to someone's rescue"
+        },
+        {
+          "de": "Komm man!",
+          "en": "Come on!",
+          "note": "northern dialect; today: Komm schon! / Komm doch!"
+        },
+        {
+          "de": "das Fenster, die Fenster",
+          "en": "window"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "de": "Sie hob die Hand zum Lichtschalter. Ich muss das Licht jetzt ausmachen, sonst muss ich nach dem Teller sehen, dachte sie. Ich darf doch nicht nach dem Teller sehen. „Komm man“, sagte sie und machte das Licht aus, „das war wohl draußen. Die Dachrinne schlägt immer bei Wind gegen die Wand. Es war sicher die Dachrinne. Bei Wind klappert sie immer.“",
+      "en": "She raised her hand to the light switch. I have to turn the light off now, or I'll have to look at the plate, she thought. I mustn't look at the plate. “Come on,” she said, turning off the light, “it was outside. The gutter always bangs against the wall when it's windy. It was definitely the gutter. It always rattles when it's windy.”",
+      "explain_en": "“sonst” means “otherwise / or else”. Careful: “Ich darf nicht” = I mustn't (I'm not allowed), but “Ich muss nicht” = I don't have to – a classic false friend for English speakers. “ausmachen” (turn off) and “anmachen” (turn on) are what people really say for lights and devices. “bei Wind” = when it's windy. She invents the gutter as an excuse.",
+      "words": [
+        {
+          "de": "der Lichtschalter",
+          "en": "light switch"
+        },
+        {
+          "de": "ausmachen",
+          "en": "to turn off",
+          "note": "opposite: anmachen"
+        },
+        {
+          "de": "sonst",
+          "en": "otherwise, or else"
+        },
+        {
+          "de": "nicht dürfen",
+          "en": "mustn't, not be allowed to",
+          "note": "≠ nicht müssen = not have to"
+        },
+        {
+          "de": "die Dachrinne",
+          "en": "gutter (on a roof)"
+        },
+        {
+          "de": "klappern",
+          "en": "to rattle"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Sie tappten sich beide über den dunklen Korridor zum Schlafzimmer. Ihre nackten Füße platschten auf den Fußboden.\n„Wind ist ja“, meinte er. „Wind war schon die ganze Nacht.“\nAls sie im Bett lagen, sagte sie: „Ja, Wind war schon die ganze Nacht. Es war wohl die Dachrinne.“\n„Ja, ich dachte, es wäre in der Küche. Es war wohl die Dachrinne.“ Er sagte das, als ob er schon halb im Schlaf wäre.",
+      "en": "They both groped their way along the dark corridor to the bedroom. Their bare feet slapped on the floor. “Well, it is windy,” he said. “It's been windy all night.” When they were lying in bed, she said: “Yes, it's been windy all night. It was probably the gutter.” “Yes, I thought it was in the kitchen. It was probably the gutter.” He said it as if he were already half asleep.",
+      "explain_en": "“Wind war schon die ganze Nacht” is very casual; normally you'd say “Es war schon die ganze Nacht windig”. “als ob” (as if) is followed by Konjunktiv II: “als ob er schon halb im Schlaf wäre”. “der Korridor” sounds a bit old; today people say “der Flur”. Notice how both of them repeat the gutter story – the lie is becoming a shared ritual.",
+      "words": [
+        {
+          "de": "sich tappen",
+          "en": "to grope one's way"
+        },
+        {
+          "de": "der Korridor",
+          "en": "corridor",
+          "note": "today usually: der Flur"
+        },
+        {
+          "de": "das Schlafzimmer",
+          "en": "bedroom"
+        },
+        {
+          "de": "nackt",
+          "en": "naked, bare"
+        },
+        {
+          "de": "der Fußboden",
+          "en": "floor"
+        },
+        {
+          "de": "als ob (+ Konjunktiv II)",
+          "en": "as if"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "de": "Aber sie merkte, wie unecht seine Stimme klang, wenn er log. „Es ist kalt“, sagte sie und gähnte leise, „ich krieche unter die Decke. Gute Nacht.“\n„Nacht“, antwortete er und noch: „Ja, kalt ist es schon ganz schön.“\nDann war es still. Nach vielen Minuten hörte sie, dass er leise und vorsichtig kaute. Sie atmete absichtlich tief und gleichmäßig, damit er nicht merken sollte, dass sie noch wach war. Aber sein Kauen war so regelmäßig, dass sie davon langsam einschlief.",
+      "en": "But she noticed how false his voice sounded when he lied. “It's cold,” she said, yawning softly, “I'm getting under the covers. Good night.” “Night,” he answered, and added: “Yes, it's pretty cold.” Then it was quiet. After many minutes she heard him chewing quietly and carefully. She breathed deeply and evenly on purpose so that he wouldn't notice she was still awake. But his chewing was so regular that it slowly sent her to sleep.",
+      "explain_en": "“merken” = to notice – very common (Hast du das gemerkt?). “ganz schön kalt” means “pretty cold” – “ganz schön” is everyday German for “quite / really”. “die Decke” here is the blanket or duvet. “damit er nicht merken sollte” is a bit old; today: “damit er nicht merkt”. He has taken the bread to bed and eats it secretly – and she pretends to sleep.",
+      "words": [
+        {
+          "de": "merken",
+          "en": "to notice"
+        },
+        {
+          "de": "gähnen",
+          "en": "to yawn"
+        },
+        {
+          "de": "die Decke, die Decken",
+          "en": "blanket, duvet",
+          "note": "also: tablecloth, ceiling"
+        },
+        {
+          "de": "kauen",
+          "en": "to chew"
+        },
+        {
+          "de": "absichtlich",
+          "en": "on purpose"
+        },
+        {
+          "de": "wach",
+          "en": "awake"
+        },
+        {
+          "de": "einschlafen",
+          "en": "to fall asleep"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "de": "Als er am nächsten Abend nach Hause kam, schob sie ihm vier Scheiben Brot hin. Sonst hatte er immer nur drei essen können.\n„Du kannst ruhig vier essen“, sagte sie und ging von der Lampe weg. „Ich kann dieses Brot nicht so recht vertragen. Iss du man eine mehr. Ich vertrage es nicht so gut.“",
+      "en": "When he came home the next evening, she pushed four slices of bread over to him. Before, he had only ever been able to eat three. “You can go ahead and eat four,” she said, and moved away from the lamp. “This bread doesn't really agree with me. You have one more. It doesn't agree with me very well.”",
+      "explain_en": "“ruhig” here doesn't mean quiet – “Du kannst ruhig vier essen” means “feel free / go ahead and eat four”. Very common! “vertragen” means your body can handle something: “Ich vertrage keine Milch” (milk doesn't agree with me). “Iss du man eine mehr” is northern dialect; today: “Iss ruhig noch eine”. She steps away from the lamp so he can't see her face while she lies for him.",
+      "words": [
+        {
+          "de": "die Scheibe, die Scheiben",
+          "en": "slice"
+        },
+        {
+          "de": "nach Hause kommen",
+          "en": "to come home"
+        },
+        {
+          "de": "ruhig (+ verb)",
+          "en": "feel free to, go ahead and"
+        },
+        {
+          "de": "vertragen",
+          "en": "to tolerate (food)",
+          "note": "Ich vertrage keine Milch."
+        },
+        {
+          "de": "die Lampe, die Lampen",
+          "en": "lamp"
+        },
+        {
+          "de": "sonst",
+          "en": "usually, normally (here: before)"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Sie sah, wie er sich tief über den Teller beugte. Er sah nicht auf. In diesem Augenblick tat er ihr leid.\n„Du kannst doch nicht nur zwei Scheiben essen“, sagte er auf seinen Teller.\n„Doch. Abends vertrag ich das Brot nicht gut. Iss man. Iss man.“\nErst nach einer Weile setzte sie sich unter die Lampe an den Tisch.",
+      "en": "She saw him bend low over his plate. He didn't look up. At that moment she felt sorry for him. “You can't eat just two slices,” he said to his plate. “Yes, I can. Bread doesn't agree with me in the evening. You eat. You eat.” Only after a while did she sit down at the table under the lamp.",
+      "explain_en": "“Doch” is how you say “yes” to contradict a negative: “Du kannst doch nicht nur zwei essen.” – “Doch.” (Yes I can.) “Er tat ihr leid” = she felt sorry for him; today: “Er tut mir leid” (I feel sorry for him). “aufsehen” is a bit literary; people say “aufschauen” or “hochschauen”. “Erst nach einer Weile” = only after a while. The story ends in silence – she forgives him without a word.",
+      "words": [
+        {
+          "de": "sich beugen",
+          "en": "to bend, lean"
+        },
+        {
+          "de": "aufsehen",
+          "en": "to look up",
+          "note": "today more often: aufschauen, hochschauen"
+        },
+        {
+          "de": "leidtun",
+          "en": "to feel sorry",
+          "note": "Er tut mir leid."
+        },
+        {
+          "de": "doch",
+          "en": "yes (contradicting a negative)"
+        },
+        {
+          "de": "die Weile",
+          "en": "while",
+          "note": "nach einer Weile"
+        },
+        {
+          "de": "sich setzen",
+          "en": "to sit down"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "de": "Sie sahen ihn schon von weitem auf sich zukommen, denn er fiel auf. Er hatte ein ganz altes Gesicht, aber wie er ging, daran sah man, dass er erst zwanzig war. Er setzte sich mit seinem alten Gesicht zu ihnen auf die Bank. Und dann zeigte er ihnen, was er in der Hand trug.\nDas war unsere Küchenuhr, sagte er und sah sie alle der Reihe nach an, die auf der Bank in der Sonne saßen. Ja, ich habe sie noch gefunden. Sie ist übrig geblieben.",
+      "en": "They saw him coming towards them from far away, because he stood out. He had a very old face, but from the way he walked you could tell that he was only twenty. He sat down on the bench beside them with his old face. And then he showed them what he was carrying in his hand. That was our kitchen clock, he said, looking at each of them in turn as they sat on the bench in the sun. Yes, I found it after all. It's the one thing left.",
+      "explain_en": "The story “Die Küchenuhr” (The Kitchen Clock, 1947) starts here. A young man whose home was destroyed by bombs in the war talks to strangers on a park bench. Borchert uses no quotation marks, so you have to work out who is speaking. “auffallen” = to stand out (er fiel auf). “daran sah man” = you could tell from that. “übrig bleiben” = to be left over – today written as two words.",
+      "words": [
+        {
+          "de": "die Küchenuhr",
+          "en": "kitchen clock"
+        },
+        {
+          "de": "auffallen",
+          "en": "to stand out, be noticed",
+          "note": "fiel auf, ist aufgefallen"
+        },
+        {
+          "de": "das Gesicht, die Gesichter",
+          "en": "face"
+        },
+        {
+          "de": "die Bank, die Bänke",
+          "en": "bench",
+          "note": "die Bank, die Banken = bank (money)"
+        },
+        {
+          "de": "der Reihe nach",
+          "en": "one after another, in turn"
+        },
+        {
+          "de": "übrig bleiben",
+          "en": "to be left over"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "de": "Er hielt eine runde tellerweiße Küchenuhr vor sich hin und tupfte mit dem Finger die blau gemalten Zahlen ab.\nSie hat weiter keinen Wert, meinte er entschuldigend, das weiß ich auch. Und sie ist auch nicht so besonders schön. Sie ist nur wie ein Teller, so mit weißem Lack. Aber die blauen Zahlen sehen doch ganz hübsch aus, finde ich. Die Zeiger sind natürlich nur aus Blech. Und nun gehen sie auch nicht mehr. Nein. Innerlich ist sie kaputt, das steht fest. Aber sie sieht noch aus wie immer. Auch wenn sie jetzt nicht mehr geht.",
+      "en": "He held a round, plate-white kitchen clock out in front of him and dabbed at the blue painted numbers with his finger. It's not worth anything, he said apologetically, I know that. And it isn't all that pretty either. It's just like a plate, with white enamel. But the blue numbers look quite nice, I think. The hands are only tin, of course. And now they don't go any more. No. It's broken inside, that's for sure. But it still looks the same as always. Even if it doesn't work now.",
+      "explain_en": "For clocks and machines German uses “gehen” (to go) where English says “work”: “Die Uhr geht nicht mehr” = the clock doesn't work any more. “der Zeiger” = the hand of a clock. “Das steht fest” = that's certain. “kaputt” is the normal everyday word for broken. “weiter keinen Wert” means “no real value”. He talks about the clock almost like a person.",
+      "words": [
+        {
+          "de": "der Wert",
+          "en": "value, worth"
+        },
+        {
+          "de": "entschuldigend",
+          "en": "apologetically"
+        },
+        {
+          "de": "hübsch",
+          "en": "pretty, nice"
+        },
+        {
+          "de": "der Zeiger, die Zeiger",
+          "en": "hand (of a clock)"
+        },
+        {
+          "de": "das Blech",
+          "en": "tin, sheet metal"
+        },
+        {
+          "de": "gehen (Uhr)",
+          "en": "to work, to run (clock)"
+        },
+        {
+          "de": "kaputt",
+          "en": "broken"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "de": "Er machte mit der Fingerspitze einen vorsichtigen Kreis auf dem Rand der Telleruhr entlang. Und er sagte leise: Und sie ist übrig geblieben.\nDie auf der Bank in der Sonne saßen, sahen ihn nicht an. Einer sah auf seine Schuhe und die Frau sah in ihren Kinderwagen. Dann sagte jemand:\nSie haben wohl alles verloren?\nJa, ja, sagte er freudig, denken Sie, aber auch alles! Nur sie hier, sie ist übrig. Und er hob die Uhr wieder hoch, als ob die anderen sie noch nicht kannten.\nAber sie geht doch nicht mehr, sagte die Frau.",
+      "en": "He traced a careful circle with his fingertip along the rim of the plate clock. And he said quietly: And it's the one thing left. The people sitting on the bench in the sun didn't look at him. One of them looked at his shoes and the woman looked into her pram. Then someone said: I suppose you lost everything? Yes, yes, he said happily, just imagine, absolutely everything! Only this, this is left. And he held the clock up again as if the others didn't know it yet. But it doesn't work any more, said the woman.",
+      "explain_en": "“Die auf der Bank … saßen” = those who were sitting on the bench (“die” works like “those who”). “wohl” in a question means “I suppose”. “denken Sie” here means “just imagine”. It's shocking that he answers “freudig” (happily) – he is clearly in shock. The strangers look away because they don't know how to react.",
+      "words": [
+        {
+          "de": "die Fingerspitze, die Fingerspitzen",
+          "en": "fingertip"
+        },
+        {
+          "de": "der Kreis, die Kreise",
+          "en": "circle"
+        },
+        {
+          "de": "der Kinderwagen",
+          "en": "pram, baby buggy"
+        },
+        {
+          "de": "verlieren (verlor, verloren)",
+          "en": "to lose"
+        },
+        {
+          "de": "freudig",
+          "en": "happily, joyfully"
+        },
+        {
+          "de": "als ob",
+          "en": "as if"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "de": "Nein, nein, das nicht. Kaputt ist sie, das weiß ich wohl. Aber sonst ist sie doch noch ganz wie immer: weiß und blau. Und wieder zeigte er ihnen seine Uhr. Und was das Schönste ist, fuhr er aufgeregt fort, das habe ich Ihnen ja noch überhaupt nicht erzählt. Das Schönste kommt nämlich noch: Denken Sie mal, sie ist um halb drei stehen geblieben. Ausgerechnet um halb drei, denken Sie mal.",
+      "en": "No, no, not that. It's broken, I know that all right. But otherwise it's still just the same as always: white and blue. And again he showed them his clock. And the best thing of all, he went on excitedly, I haven't even told you yet. The best is still to come: Just think, it stopped at half past two. At half past two, of all times, just think.",
+      "explain_en": "“ausgerechnet” is a great everyday word: “of all things / of all times” (Ausgerechnet heute regnet es! – Today of all days it rains!). “stehen bleiben” = to stop (clock, person, car). “fortfahren” means to continue speaking – quite formal; in everyday speech: “weiterreden”. “das Schönste” = the best/most beautiful thing (an adjective turned into a noun).",
+      "words": [
+        {
+          "de": "sonst",
+          "en": "otherwise"
+        },
+        {
+          "de": "fortfahren (fuhr fort)",
+          "en": "to continue (speaking)",
+          "note": "everyday: weiterreden"
+        },
+        {
+          "de": "aufgeregt",
+          "en": "excited(ly)"
+        },
+        {
+          "de": "erzählen",
+          "en": "to tell"
+        },
+        {
+          "de": "stehen bleiben",
+          "en": "to stop"
+        },
+        {
+          "de": "ausgerechnet",
+          "en": "of all things/times"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "de": "Dann wurde Ihr Haus sicher um halb drei getroffen, sagte der Mann und schob wichtig die Unterlippe vor. Das habe ich schon oft gehört. Wenn die Bombe runtergeht, bleiben die Uhren stehen. Das kommt von dem Druck.\nEr sah seine Uhr an und schüttelte überlegen den Kopf. Nein, lieber Herr, nein, da irren Sie sich. Das hat mit den Bomben nichts zu tun. Sie müssen nicht immer von den Bomben reden. Nein.",
+      "en": "Then your house was probably hit at half past two, said the man, pushing out his lower lip importantly. I've heard that often. When the bomb comes down, the clocks stop. It's from the blast. He looked at his clock and shook his head in a superior way. No, my dear sir, no, you're wrong there. It's got nothing to do with the bombs. You shouldn't always go on about the bombs. No.",
+      "explain_en": "The setting is right after World War II, when cities like Hamburg had been bombed. “sich irren” = to be wrong/mistaken – very useful (Da irrst du dich!). “Das hat nichts mit … zu tun” = that has nothing to do with … . “Sie müssen nicht immer …” here means “there's no need to always …”. “runtergehen” is casual for “herunterfallen”. The man thinks he's clever, but he misses the point.",
+      "words": [
+        {
+          "de": "treffen (traf, getroffen)",
+          "en": "to hit"
+        },
+        {
+          "de": "die Bombe, die Bomben",
+          "en": "bomb"
+        },
+        {
+          "de": "der Druck",
+          "en": "pressure, blast"
+        },
+        {
+          "de": "den Kopf schütteln",
+          "en": "to shake one's head"
+        },
+        {
+          "de": "sich irren",
+          "en": "to be wrong, mistaken"
+        },
+        {
+          "de": "nichts mit etwas zu tun haben",
+          "en": "to have nothing to do with sth"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "de": "Um halb drei war ganz etwas anderes, das wissen Sie nur nicht. Das ist nämlich der Witz, dass sie gerade um halb drei stehen geblieben ist. Und nicht um Viertel nach vier oder um sieben. Um halb drei kam ich nämlich immer nach Hause. Nachts, meine ich. Fast immer um halb drei. Das ist ja gerade der Witz.",
+      "en": "At half past two it was something quite different, you just don't know that. That's the thing, that it stopped at half past two exactly. And not at quarter past four or at seven. Because at half past two I always used to come home. At night, I mean. Almost always at half past two. That's exactly the point.",
+      "explain_en": "“der Witz” normally means a joke, but “Das ist ja gerade der Witz” means “that's exactly the point”. “ganz etwas anderes” is older word order; today you'd say “etwas ganz anderes”. “Viertel nach vier” = quarter past four (4:15). “nämlich” explains a reason, like “you see” – very common in speech.",
+      "words": [
+        {
+          "de": "etwas ganz anderes",
+          "en": "something completely different",
+          "note": "text has older order: ganz etwas anderes"
+        },
+        {
+          "de": "der Witz, die Witze",
+          "en": "joke; here: the point"
+        },
+        {
+          "de": "gerade",
+          "en": "exactly, precisely"
+        },
+        {
+          "de": "Viertel nach vier",
+          "en": "quarter past four"
+        },
+        {
+          "de": "nämlich",
+          "en": "you see, because"
+        },
+        {
+          "de": "nach Hause kommen",
+          "en": "to come home"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "de": "Er sah die anderen an, aber die hatten ihre Augen von ihm weggenommen. Er fand sie nicht. Da nickte er seiner Uhr zu: Dann hatte ich natürlich Hunger, nicht wahr? Und ich ging immer gleich in die Küche. Da war es dann fast immer halb drei. Und dann, dann kam nämlich meine Mutter. Ich konnte noch so leise die Tür aufmachen, sie hat mich immer gehört.",
+      "en": "He looked at the others, but they had taken their eyes off him. He couldn't find them. So he nodded to his clock: Then of course I was hungry, wasn't I? And I always went straight into the kitchen. By then it was almost always half past two. And then, then my mother would come. However quietly I opened the door, she always heard me.",
+      "explain_en": "“Er fand sie nicht” means he couldn't meet anyone's eyes. “nicht wahr?” = isn't it / wasn't I? – still correct, but young people usually say “oder?” or “ne?”. “Ich konnte noch so leise die Tür aufmachen” = no matter how quietly I opened the door. “gleich” here means straight away.",
+      "words": [
+        {
+          "de": "nicken",
+          "en": "to nod"
+        },
+        {
+          "de": "Hunger haben",
+          "en": "to be hungry"
+        },
+        {
+          "de": "gleich",
+          "en": "straight away, immediately"
+        },
+        {
+          "de": "leise",
+          "en": "quiet(ly)"
+        },
+        {
+          "de": "aufmachen",
+          "en": "to open"
+        },
+        {
+          "de": "nicht wahr?",
+          "en": "isn't it? right?",
+          "note": "casual today: oder? / ne?"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Und wenn ich in der dunklen Küche etwas zu essen suchte, ging plötzlich das Licht an. Dann stand sie da in ihrer Wolljacke und mit einem roten Schal um. Und barfuß. Immer barfuß. Und dabei war unsere Küche gekachelt. Und sie machte ihre Augen ganz klein, weil ihr das Licht so hell war. Denn sie hatte ja schon geschlafen. Es war ja Nacht.",
+      "en": "And when I was looking for something to eat in the dark kitchen, suddenly the light came on. Then there she stood in her woolly cardigan with a red scarf round her neck. And barefoot. Always barefoot. And our kitchen had a tiled floor, too. And she screwed her eyes up tight because the light was so bright for her. Because she'd already been asleep. It was night, after all.",
+      "explain_en": "“Das Licht geht an” = the light comes on. “die Wolljacke” is a knitted woollen jacket; today people mostly say “die Strickjacke”. “mit einem roten Schal um” is casual – normally “mit einem roten Schal um den Hals”. The little word “ja” (Es war ja Nacht) means “after all / as you know”. “gekachelt” = tiled (die Kachel = tile).",
+      "words": [
+        {
+          "de": "angehen",
+          "en": "to come on (light)",
+          "note": "Das Licht geht an."
+        },
+        {
+          "de": "die Wolljacke",
+          "en": "woollen cardigan",
+          "note": "today usually: die Strickjacke"
+        },
+        {
+          "de": "der Schal, die Schals",
+          "en": "scarf"
+        },
+        {
+          "de": "barfuß",
+          "en": "barefoot"
+        },
+        {
+          "de": "die Kachel, die Kacheln",
+          "en": "tile"
+        },
+        {
+          "de": "hell",
+          "en": "bright"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "de": "So spät wieder, sagte sie dann. Mehr sagte sie nie. Nur: So spät wieder. Und dann machte sie mir das Abendbrot warm und sah zu, wie ich aß. Dabei scheuerte sie immer die Füße aneinander, weil die Kacheln so kalt waren. Schuhe zog sie nachts nie an. Und sie saß so lange bei mir, bis ich satt war.",
+      "en": "Late again, she would say then. She never said more. Just: Late again. And then she warmed up my supper and watched me eat. And while she did, she kept rubbing her feet together because the tiles were so cold. She never put shoes on at night. And she sat with me until I was full.",
+      "explain_en": "German often uses the simple past for habits where English says “would”: “sagte sie dann” = she would say then. “das Abendbrot” is northern German for supper; “das Abendessen” is used everywhere. “satt” = full after eating: say “Ich bin satt” – never “Ich bin voll”, which means “I'm drunk”! “zusehen, wie …” = to watch how … .",
+      "words": [
+        {
+          "de": "spät",
+          "en": "late"
+        },
+        {
+          "de": "das Abendbrot",
+          "en": "supper",
+          "note": "also common: das Abendessen"
+        },
+        {
+          "de": "warm machen",
+          "en": "to warm up"
+        },
+        {
+          "de": "zusehen (sah zu)",
+          "en": "to watch"
+        },
+        {
+          "de": "aneinander",
+          "en": "against each other"
+        },
+        {
+          "de": "satt",
+          "en": "full (after eating)",
+          "note": "never say: Ich bin voll (= drunk)"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "de": "Und dann hörte ich sie noch die Teller wegsetzen, wenn ich in meinem Zimmer schon das Licht ausgemacht hatte. Jede Nacht war es so. Und meistens immer um halb drei. Das war ganz selbstverständlich, fand ich, dass sie mir nachts um halb drei in der Küche das Essen machte. Ich fand das ganz selbstverständlich. Sie tat das ja immer. Und sie hat nie mehr gesagt als: So spät wieder. Aber das sagte sie jedes Mal. Und ich dachte, das könnte nie aufhören. Es war mir so selbstverständlich. Das alles war doch immer so gewesen.",
+      "en": "And then I'd hear her putting the plates away when I had already switched the light off in my room. It was like that every night. And mostly always at half past two. I thought it was completely natural that she made me food in the kitchen at half past two at night. I found it completely natural. After all, she always did it. And she never said more than: Late again. But she said that every single time. And I thought it could never stop. It was so natural to me. It had all always been that way.",
+      "explain_en": "“selbstverständlich” is a very useful word: “taken for granted / obvious / of course” (Das ist doch selbstverständlich!). He repeats it because now he realises he never appreciated his mother. “wegsetzen” is unusual; today you'd say “wegstellen” or “wegräumen”. “meistens immer” is a casual doubling. “das könnte nie aufhören” uses Konjunktiv II: it could never stop.",
+      "words": [
+        {
+          "de": "wegsetzen",
+          "en": "to put away",
+          "note": "today: wegstellen, wegräumen"
+        },
+        {
+          "de": "ausmachen",
+          "en": "to switch off"
+        },
+        {
+          "de": "selbstverständlich",
+          "en": "natural, taken for granted; of course"
+        },
+        {
+          "de": "meistens",
+          "en": "mostly, usually"
+        },
+        {
+          "de": "jedes Mal",
+          "en": "every time"
+        },
+        {
+          "de": "aufhören",
+          "en": "to stop"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "de": "Einen Atemzug lang war es ganz still auf der Bank. Dann sagte er leise: Und jetzt? Er sah die anderen an. Aber er fand sie nicht. Da sagte er der Uhr leise ins weißblaue runde Gesicht: Jetzt, jetzt weiß ich, dass es das Paradies war. Das richtige Paradies.\nAuf der Bank war es ganz still. Dann fragte die Frau: Und Ihre Familie?\nEr lächelte sie verlegen an: Ach, Sie meinen meine Eltern? Ja, die sind auch mit weg. Alles ist weg. Alles, stellen Sie sich vor. Alles weg.",
+      "en": "For the length of one breath it was completely quiet on the bench. Then he said quietly: And now? He looked at the others. But he couldn't find them. So he said quietly into the clock's round white-and-blue face: Now, now I know that it was paradise. Real paradise. It was completely quiet on the bench. Then the woman asked: And your family? He smiled at her awkwardly: Oh, you mean my parents? Yes, they're gone too. Everything is gone. Everything, just imagine. All gone.",
+      "explain_en": "Now we understand why the clock matters: those nights with his mother were “paradise”. “mit weg” means gone along with everything else. “verlegen” = embarrassed/awkward. “stellen Sie sich vor” = just imagine (sich etwas vorstellen); careful – “sich vorstellen” also means to introduce yourself. “Ihre Familie” with a capital I = your (polite).",
+      "words": [
+        {
+          "de": "der Atemzug",
+          "en": "breath"
+        },
+        {
+          "de": "das Paradies",
+          "en": "paradise"
+        },
+        {
+          "de": "die Familie, die Familien",
+          "en": "family"
+        },
+        {
+          "de": "verlegen",
+          "en": "embarrassed, awkward"
+        },
+        {
+          "de": "die Eltern (Plural)",
+          "en": "parents"
+        },
+        {
+          "de": "weg sein",
+          "en": "to be gone"
+        },
+        {
+          "de": "sich vorstellen",
+          "en": "to imagine; to introduce oneself"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "de": "Er lächelte verlegen von einem zum anderen. Aber sie sahen ihn nicht an.\nDa hob er wieder die Uhr hoch und er lachte. Er lachte: Nur sie hier. Sie ist übrig. Und das Schönste ist ja, dass sie ausgerechnet um halb drei stehen geblieben ist. Ausgerechnet um halb drei.\nDann sagte er nichts mehr. Aber er hatte ein ganz altes Gesicht. Und der Mann, der neben ihm saß, sah auf seine Schuhe. Aber er sah seine Schuhe nicht. Er dachte immerzu an das Wort Paradies.",
+      "en": "He smiled awkwardly from one to the other. But they didn't look at him. Then he held the clock up again and laughed. He laughed: Only this. It's left. And the best thing is that it stopped at half past two, of all times. At half past two, of all times. Then he didn't say anything more. But he had a very old face. And the man sitting next to him looked at his shoes. But he didn't see his shoes. He kept thinking about the word paradise.",
+      "explain_en": "The ending plays with “sehen auf” (to look at) and really “sehen” (to see): the man stares at his shoes but doesn't see them because he is lost in thought. “nichts mehr” = nothing more. “immerzu” = constantly – a bit old; today: “ständig” or “die ganze Zeit”. The young man laughs, but his “very old face” shows what the war did to him.",
+      "words": [
+        {
+          "de": "lächeln",
+          "en": "to smile"
+        },
+        {
+          "de": "lachen",
+          "en": "to laugh"
+        },
+        {
+          "de": "hochheben",
+          "en": "to lift up, hold up"
+        },
+        {
+          "de": "nichts mehr",
+          "en": "nothing more"
+        },
+        {
+          "de": "neben (+ Dativ)",
+          "en": "next to"
+        },
+        {
+          "de": "immerzu",
+          "en": "constantly",
+          "note": "today: ständig, die ganze Zeit"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "de": "Das hohle Fenster in der vereinsamten Mauer gähnte blaurot voll früher Abendsonne. Staubgewölke flimmerte zwischen den steil gereckten Schornsteinresten. Die Schuttwüste döste.\nEr hatte die Augen zu. Mit einmal wurde es noch dunkler. Er merkte, dass jemand gekommen war und nun vor ihm stand, dunkel, leise. Jetzt haben sie mich! dachte er.",
+      "en": "The hollow window in the lonely wall yawned blue-red, full of early evening sun. Clouds of dust shimmered between the chimney stumps sticking steeply up. The desert of rubble dozed. His eyes were shut. All at once it got even darker. He noticed that someone had come and was now standing in front of him, dark, quiet. Now they've got me! he thought.",
+      "explain_en": "The story “Nachts schlafen die Ratten doch” (But the Rats Sleep at Night, 1947) starts here. A boy sits in the ruins of a bombed city. Borchert makes things come alive: the window “yawns”, the rubble “dozes”. “der Schutt” = rubble. “Mit einmal” is old/regional – today say “auf einmal” or “plötzlich”. “Er hatte die Augen zu” is casual for “Er hatte die Augen geschlossen”.",
+      "words": [
+        {
+          "de": "die Mauer, die Mauern",
+          "en": "(outside) wall"
+        },
+        {
+          "de": "der Staub",
+          "en": "dust"
+        },
+        {
+          "de": "der Schornstein, die Schornsteine",
+          "en": "chimney"
+        },
+        {
+          "de": "der Schutt",
+          "en": "rubble"
+        },
+        {
+          "de": "dösen",
+          "en": "to doze"
+        },
+        {
+          "de": "mit einmal",
+          "en": "all at once",
+          "note": "old/regional; today: auf einmal, plötzlich"
+        },
+        {
+          "de": "merken",
+          "en": "to notice"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "de": "Aber als er ein bisschen blinzelte, sah er nur zwei etwas ärmlich behoste Beine. Die standen ziemlich krumm vor ihm, dass er zwischen ihnen hindurchsehen konnte. Er riskierte ein kleines Geblinzel an den Hosenbeinen hoch und erkannte einen älteren Mann. Der hatte ein Messer und einen Korb in der Hand. Und etwas Erde an den Fingerspitzen.",
+      "en": "But when he squinted a little, all he saw were two rather shabbily trousered legs. They stood in front of him so bowed that he could see between them. He risked a little squint up the trouser legs and made out an elderly man. He had a knife and a basket in his hand. And some earth on his fingertips.",
+      "explain_en": "“blinzeln” = to blink or squint. “krumm” = crooked; with legs it means bow-legged. “ein älterer Mann” is a polite way to say an elderly man – not “an older man”. “behost” (trousered) is Borchert's own playful word from “die Hose”. The “dass” in “dass er zwischen ihnen hindurchsehen konnte” means “so that”.",
+      "words": [
+        {
+          "de": "blinzeln",
+          "en": "to blink, squint"
+        },
+        {
+          "de": "das Bein, die Beine",
+          "en": "leg"
+        },
+        {
+          "de": "krumm",
+          "en": "crooked, bow-legged"
+        },
+        {
+          "de": "die Hose, die Hosen",
+          "en": "trousers"
+        },
+        {
+          "de": "erkennen",
+          "en": "to recognise, make out"
+        },
+        {
+          "de": "der Korb, die Körbe",
+          "en": "basket"
+        },
+        {
+          "de": "die Erde",
+          "en": "earth, soil"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "de": "Du schläfst hier wohl, was? fragte der Mann und sah von oben auf das Haargestrüpp herunter. Jürgen blinzelte zwischen den Beinen des Mannes hindurch in die Sonne und sagte: Nein, ich schlafe nicht. Ich muss hier aufpassen. Der Mann nickte: So, dafür hast du wohl den großen Stock da?\nJa, antwortete Jürgen mutig und hielt den Stock fest.\nWorauf passt du denn auf?\nDas kann ich nicht sagen. Er hielt die Hände fest um den Stock.",
+      "en": "Sleeping here, are you? asked the man, looking down at the mop of hair. Jürgen blinked through the man's legs into the sun and said: No, I'm not sleeping. I have to keep watch here. The man nodded: I see, so that's what you've got that big stick for? Yes, Jürgen answered bravely, gripping the stick. What are you keeping watch over, then? I can't say. He held his hands tight around the stick.",
+      "explain_en": "“…, was?” at the end of a sentence is a casual tag question, like “…, eh?”. “aufpassen” (auf + accusative) = to keep watch, to look after – super common: “Pass auf!” (Watch out!), “Ich passe auf meine Schwester auf.” “So” on its own means “I see”. “Worauf” is a wo-word = “auf was”. “das Haargestrüpp” (a tangle of hair) is Borchert's image for the boy's messy hair.",
+      "words": [
+        {
+          "de": "schlafen",
+          "en": "to sleep"
+        },
+        {
+          "de": "aufpassen (auf + Akk.)",
+          "en": "to keep watch, look after",
+          "note": "Pass auf! = Watch out!"
+        },
+        {
+          "de": "nicken",
+          "en": "to nod"
+        },
+        {
+          "de": "der Stock, die Stöcke",
+          "en": "stick"
+        },
+        {
+          "de": "mutig",
+          "en": "brave(ly)"
+        },
+        {
+          "de": "festhalten",
+          "en": "to hold tight"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Wohl auf Geld, was? Der Mann setzte den Korb ab und wischte das Messer an seinen Hosenbeinen hin und her.\nNein, auf Geld überhaupt nicht, sagte Jürgen verächtlich. Auf ganz etwas anderes.\nNa, was denn?\nIch kann es nicht sagen. Was anderes eben.\nNa, denn nicht. Dann sage ich dir natürlich auch nicht, was ich hier im Korb habe. Der Mann stieß mit dem Fuß an den Korb und klappte das Messer zu.",
+      "en": "Money, I suppose? The man put the basket down and wiped the knife back and forth on his trouser legs. No, not money at all, said Jürgen scornfully. Something completely different. Well, what then? I can't say. Something else, that's all. Well, suit yourself. Then of course I won't tell you what I've got in my basket either. The man nudged the basket with his foot and snapped the knife shut.",
+      "explain_en": "“Na, denn nicht” = “Na, dann eben nicht” (Fine, suit yourself) – “denn” for “dann” is northern German. “eben” at the end (Was anderes eben) means “that's all / just”. “überhaupt nicht” = not at all – very common. “verächtlich” = scornfully. “zuklappen” = to snap shut (a knife, a laptop, a book).",
+      "words": [
+        {
+          "de": "das Geld",
+          "en": "money"
+        },
+        {
+          "de": "absetzen",
+          "en": "to put down"
+        },
+        {
+          "de": "wischen",
+          "en": "to wipe"
+        },
+        {
+          "de": "überhaupt nicht",
+          "en": "not at all"
+        },
+        {
+          "de": "verächtlich",
+          "en": "scornful(ly)"
+        },
+        {
+          "de": "zuklappen",
+          "en": "to snap shut, close"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "de": "Pah, kann mir denken, was in dem Korb ist, meinte Jürgen geringschätzig, Kaninchenfutter.\nDonnerwetter, ja! sagte der Mann verwundert, bist ja ein fixer Kerl. Wie alt bist du denn?\nNeun.\nOha, denk mal an, neun also. Dann weißt du ja auch, wie viel drei mal neun sind, wie?",
+      "en": "Pah, I can guess what's in the basket, said Jürgen dismissively, rabbit food. Well, blow me, yes! said the man in surprise, you're a sharp one. How old are you, then? Nine. Oho, fancy that, nine. Then you'll know what three times nine is, won't you?",
+      "explain_en": "“Ich kann mir denken, …” = I can guess/imagine … (Jürgen drops the “ich”, as people do in speech). “Donnerwetter!” is an old-fashioned cry of surprise; today you'd hear “Wow!” or “Krass!”. “ein fixer Kerl” (a quick lad) also sounds old; today: “ein schlauer Junge”. “denk mal an” = fancy that. “drei mal neun” = three times nine.",
+      "words": [
+        {
+          "de": "das Kaninchen, die Kaninchen",
+          "en": "rabbit"
+        },
+        {
+          "de": "das Futter",
+          "en": "(animal) food"
+        },
+        {
+          "de": "sich etwas denken können",
+          "en": "to be able to guess/imagine sth"
+        },
+        {
+          "de": "Donnerwetter!",
+          "en": "wow!",
+          "note": "old-fashioned; today: Wow! Krass!"
+        },
+        {
+          "de": "fix",
+          "en": "quick, sharp",
+          "note": "old-fashioned; today: schlau, schnell"
+        },
+        {
+          "de": "Wie alt bist du?",
+          "en": "How old are you?"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "de": "Klar, sagte Jürgen, und um Zeit zu gewinnen, sagte er noch: Das ist ja ganz leicht. Und er sah durch die Beine des Mannes hindurch. Dreimal neun, nicht? fragte er noch einmal, siebenundzwanzig. Das wusste ich gleich.\nStimmt, sagte der Mann, und genau so viel Kaninchen habe ich.\nJürgen machte einen runden Mund: Siebenundzwanzig?",
+      "en": "Sure, said Jürgen, and to gain time he added: That's really easy. And he looked through the man's legs. Three times nine, right? he asked again, twenty-seven. I knew that straight away. Correct, said the man, and that's exactly how many rabbits I've got. Jürgen's mouth made a round O: Twenty-seven?",
+      "explain_en": "“um Zeit zu gewinnen” = in order to gain time: “um … zu” + infinitive means “in order to”. “Klar” (sure) and “Stimmt” (that's right) are everyday words you'll use all the time. “nicht?” at the end = right?. The man is testing him gently – and the rabbits are his way to win the boy's trust.",
+      "words": [
+        {
+          "de": "klar",
+          "en": "sure, of course"
+        },
+        {
+          "de": "um … zu",
+          "en": "in order to"
+        },
+        {
+          "de": "Zeit gewinnen",
+          "en": "to gain time"
+        },
+        {
+          "de": "leicht",
+          "en": "easy"
+        },
+        {
+          "de": "stimmen",
+          "en": "to be correct",
+          "note": "Stimmt! = That's right!"
+        },
+        {
+          "de": "genau",
+          "en": "exactly"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "de": "Du kannst sie sehen. Viele sind noch ganz jung. Willst du?\nIch kann doch nicht. Ich muss doch aufpassen, sagte Jürgen unsicher.\nImmerzu? fragte der Mann, nachts auch?\nNachts auch. Immerzu. Immer. Jürgen sah an den krummen Beinen hoch. Seit Sonnabend schon, flüsterte er.\nAber gehst du denn gar nicht nach Hause? Du musst doch essen.",
+      "en": "You can see them. Lots of them are still very young. Do you want to? I can't, can I. I have to keep watch, said Jürgen uncertainly. The whole time? asked the man, at night too? At night too. The whole time. Always. Jürgen looked up the bowed legs. Since Saturday, he whispered. But don't you ever go home? You have to eat.",
+      "explain_en": "The little word “doch” in “Ich kann doch nicht” adds “you know / can't you see”. “immerzu” = all the time (a bit old; today: “die ganze Zeit”). “der Sonnabend” is the northern German word for Saturday; most Germans say “der Samstag”. “flüstern” = to whisper. Notice: the boy has been there for days.",
+      "words": [
+        {
+          "de": "jung",
+          "en": "young"
+        },
+        {
+          "de": "unsicher",
+          "en": "unsure"
+        },
+        {
+          "de": "immerzu",
+          "en": "all the time",
+          "note": "today: die ganze Zeit, ständig"
+        },
+        {
+          "de": "der Sonnabend",
+          "en": "Saturday",
+          "note": "northern; usually: der Samstag"
+        },
+        {
+          "de": "flüstern",
+          "en": "to whisper"
+        },
+        {
+          "de": "nach Hause gehen",
+          "en": "to go home"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "de": "Jürgen hob einen Stein hoch. Da lag ein halbes Brot und eine Blechschachtel.\nDu rauchst? fragte der Mann, hast du denn eine Pfeife?\nJürgen fasste seinen Stock fest an und sagte zaghaft: Ich drehe. Pfeife mag ich nicht.\nSchade, der Mann bückte sich zu seinem Korb, die Kaninchen hättest du ruhig mal ansehen können. Vor allem die Jungen. Vielleicht hättest du dir eines ausgesucht. Aber du kannst hier ja nicht weg.",
+      "en": "Jürgen lifted up a stone. Under it lay half a loaf of bread and a tin box. You smoke? asked the man, have you got a pipe, then? Jürgen gripped his stick tightly and said timidly: I roll my own. I don't like pipes. Pity, the man bent down to his basket, you could easily have had a look at the rabbits. Especially the young ones. Maybe you'd have picked one out. But you can't leave here, can you.",
+      "explain_en": "A nine-year-old who smokes – children grew up fast in the war. “Ich drehe” = I roll (cigarettes); “sich eine Zigarette drehen”. “Schade” = what a pity – very common. “hättest … ansehen können” = could have looked: hättest + two infinitives for something that didn't happen. “sich etwas aussuchen” = to pick something out. “die Jungen” here = the young animals.",
+      "words": [
+        {
+          "de": "der Stein, die Steine",
+          "en": "stone"
+        },
+        {
+          "de": "die Schachtel, die Schachteln",
+          "en": "box"
+        },
+        {
+          "de": "rauchen",
+          "en": "to smoke"
+        },
+        {
+          "de": "die Pfeife, die Pfeifen",
+          "en": "pipe"
+        },
+        {
+          "de": "sich bücken",
+          "en": "to bend down"
+        },
+        {
+          "de": "schade",
+          "en": "what a pity"
+        },
+        {
+          "de": "sich aussuchen",
+          "en": "to pick out, choose"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "de": "Nein, sagte Jürgen traurig, nein, nein.\nDer Mann nahm den Korb hoch und richtete sich auf. Na ja, wenn du hierbleiben musst – schade. Und er drehte sich um.\nWenn du mich nicht verrätst, sagte Jürgen da schnell, es ist wegen den Ratten.\nDie krummen Beine kamen einen Schritt zurück: Wegen den Ratten?\nJa, die essen doch von Toten. Von Menschen. Da leben sie doch von.\nWer sagt das?\nUnser Lehrer.",
+      "en": "No, said Jürgen sadly, no, no. The man picked up the basket and straightened up. Oh well, if you have to stay here – pity. And he turned round. If you won't give me away, Jürgen said quickly then, it's because of the rats. The bowed legs came back one step: Because of the rats? Yes, they eat dead people, don't they. Humans. That's what they live on. Who says so? Our teacher.",
+      "explain_en": "“wegen den Ratten” is spoken German: written standard German uses the genitive “wegen der Ratten”, but in everyday speech “wegen” + dative is completely normal. “verraten” = to give away (a secret), to betray. “Da leben sie doch von” is casual for “Davon leben sie doch”. “sich umdrehen” = to turn round. Now we slowly learn what Jürgen is guarding.",
+      "words": [
+        {
+          "de": "traurig",
+          "en": "sad"
+        },
+        {
+          "de": "sich umdrehen",
+          "en": "to turn round"
+        },
+        {
+          "de": "verraten",
+          "en": "to give away, betray"
+        },
+        {
+          "de": "wegen",
+          "en": "because of",
+          "note": "written: + Genitiv; spoken: often + Dativ"
+        },
+        {
+          "de": "die Ratte, die Ratten",
+          "en": "rat"
+        },
+        {
+          "de": "der Lehrer, die Lehrer",
+          "en": "teacher"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "de": "Und du passt nun auf die Ratten auf? fragte der Mann.\nAuf die doch nicht! Und dann sagte er ganz leise: Mein Bruder, der liegt nämlich da unten. Da. Jürgen zeigte mit dem Stock auf die zusammengesackten Mauern. Unser Haus kriegte eine Bombe. Mit einmal war das Licht weg im Keller. Und er auch. Wir haben noch gerufen. Er war viel kleiner als ich. Erst vier. Er muss hier ja noch sein. Er ist doch viel kleiner als ich.",
+      "en": "And you're watching out for the rats now? asked the man. Not for them! And then he said very quietly: My brother, you see, he's lying down there. There. Jürgen pointed with the stick at the collapsed walls. Our house got hit by a bomb. All at once the light went out in the cellar. And so did he. We kept calling. He was much smaller than me. Only four. He must still be here. He's so much smaller than me.",
+      "explain_en": "The terrible truth: his little brother is buried under the ruins, and Jürgen guards him so the rats won't get to the body. “kriegen” is everyday German for “bekommen” (to get): “Unser Haus kriegte eine Bombe”. “zeigen auf” = to point at. “Und er auch” has a double meaning – the light and his brother went out together. He switches to present tense (“Er ist doch viel kleiner”) because he can't accept it.",
+      "words": [
+        {
+          "de": "der Bruder, die Brüder",
+          "en": "brother"
+        },
+        {
+          "de": "zeigen auf (+ Akk.)",
+          "en": "to point at"
+        },
+        {
+          "de": "kriegen",
+          "en": "to get",
+          "note": "casual for: bekommen"
+        },
+        {
+          "de": "der Keller, die Keller",
+          "en": "cellar, basement"
+        },
+        {
+          "de": "rufen",
+          "en": "to call, shout"
+        },
+        {
+          "de": "kleiner als",
+          "en": "smaller than"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "de": "Der Mann sah von oben auf das Haargestrüpp. Aber dann sagte er plötzlich: Ja, hat euer Lehrer euch denn nicht gesagt, dass die Ratten nachts schlafen?\nNein, flüsterte Jürgen und sah mit einmal ganz müde aus, das hat er nicht gesagt.\nNa, sagte der Mann, das ist aber ein Lehrer, wenn er das nicht mal weiß. Nachts schlafen die Ratten doch. Nachts kannst du ruhig nach Hause gehen. Nachts schlafen sie immer. Wenn es dunkel wird, schon.",
+      "en": "The man looked down at the mop of hair. But then he suddenly said: Well, didn't your teacher tell you that rats sleep at night? No, whispered Jürgen, suddenly looking very tired, he didn't tell us that. Well, said the man, that's some teacher, if he doesn't even know that. Of course rats sleep at night. At night you can go home and not worry. They always sleep at night. As soon as it gets dark.",
+      "explain_en": "Here is the title – and it's a kind lie to free the boy. “doch” in “Nachts schlafen die Ratten doch” means “of course / don't you know”. “nicht mal” = not even (casual for “nicht einmal”). “Das ist aber ein Lehrer” is sarcastic: some teacher that is! “ruhig” = without worrying / feel free. Jürgen suddenly looks tired: he has been awake for days.",
+      "words": [
+        {
+          "de": "plötzlich",
+          "en": "suddenly"
+        },
+        {
+          "de": "müde",
+          "en": "tired"
+        },
+        {
+          "de": "nicht mal",
+          "en": "not even",
+          "note": "= nicht einmal"
+        },
+        {
+          "de": "ruhig",
+          "en": "safely, without worrying"
+        },
+        {
+          "de": "dunkel",
+          "en": "dark"
+        },
+        {
+          "de": "doch",
+          "en": "of course, after all (particle)"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "de": "Jürgen machte mit seinem Stock kleine Kuhlen in den Schutt. Lauter kleine Betten sind das, dachte er, alles kleine Betten.\nDa sagte der Mann (und seine krummen Beine waren ganz unruhig dabei): Weißt du was? Jetzt füttere ich schnell meine Kaninchen und wenn es dunkel wird, hole ich dich ab. Vielleicht kann ich eins mitbringen. Ein kleines oder, was meinst du?",
+      "en": "Jürgen made little hollows in the rubble with his stick. They're all little beds, he thought, all little beds. Then the man said (and his bowed legs were very restless as he did): You know what? I'll just go and feed my rabbits quickly, and when it gets dark, I'll come and pick you up. Maybe I can bring one along. A little one, or what do you think?",
+      "explain_en": "“lauter” here does NOT mean louder – it means “nothing but / all”: “Lauter kleine Betten”. “die Kuhle” is a northern word for a small hollow; elsewhere people say “die Mulde”. The little beds make us think of graves. “Weißt du was?” (You know what?) is very common. “abholen” = to pick someone up.",
+      "words": [
+        {
+          "de": "die Kuhle, die Kuhlen",
+          "en": "hollow, dip",
+          "note": "northern; also: die Mulde"
+        },
+        {
+          "de": "lauter",
+          "en": "nothing but, all",
+          "note": "not 'louder' here!"
+        },
+        {
+          "de": "unruhig",
+          "en": "restless"
+        },
+        {
+          "de": "füttern",
+          "en": "to feed (animals)"
+        },
+        {
+          "de": "abholen",
+          "en": "to pick up, collect"
+        },
+        {
+          "de": "mitbringen",
+          "en": "to bring along"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "de": "Jürgen machte kleine Kuhlen in den Schutt. Lauter kleine Kaninchen. Weiße, graue, weißgraue. Ich weiß nicht, sagte er leise und sah auf die krummen Beine, wenn sie wirklich nachts schlafen.\nDer Mann stieg über die Mauerreste weg auf die Straße. Natürlich, sagte er von da, euer Lehrer soll einpacken, wenn er das nicht mal weiß.\nDa stand Jürgen auf und fragte: Wenn ich eins kriegen kann? Ein weißes vielleicht?",
+      "en": "Jürgen made little hollows in the rubble. Nothing but little rabbits. White ones, grey ones, white-and-grey ones. I don't know, he said quietly, looking at the bowed legs, if they really sleep at night. The man climbed over the remains of the wall onto the street. Of course, he called from there, your teacher might as well pack it in if he doesn't even know that. Then Jürgen stood up and asked: If I can have one? A white one maybe?",
+      "explain_en": "Look at the change: the hollows were “little beds” (graves), now they are “little rabbits” – Jürgen starts thinking about life again. “wenn” is used casually for “ob” (whether/if) here. “einpacken” normally means to pack; “Der kann einpacken” means he might as well give up. “kriegen” again = “bekommen”. Jürgen standing up shows he is ready to leave his post.",
+      "words": [
+        {
+          "de": "weiß",
+          "en": "white"
+        },
+        {
+          "de": "grau",
+          "en": "grey"
+        },
+        {
+          "de": "die Straße, die Straßen",
+          "en": "street"
+        },
+        {
+          "de": "einpacken",
+          "en": "to pack; (casual) to give up"
+        },
+        {
+          "de": "aufstehen",
+          "en": "to stand up, get up"
+        },
+        {
+          "de": "vielleicht",
+          "en": "maybe"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "de": "Ich will mal versuchen, rief der Mann schon im Weggehen, aber du musst hier so lange warten. Ich gehe dann mit dir nach Hause, weißt du? Ich muss deinem Vater doch sagen, wie so ein Kaninchenstall gebaut wird. Denn das müsst ihr ja wissen.\nJa, rief Jürgen, ich warte. Ich muss ja noch aufpassen, bis es dunkel wird. Ich warte bestimmt. Und er rief: Wir haben auch noch Bretter zu Hause. Kistenbretter, rief er.",
+      "en": "I'll see what I can do, the man called out, already walking away, but you have to wait here till then. Then I'll walk home with you, all right? I've got to tell your father how to build a rabbit hutch, haven't I. Because you'll need to know that. Yes, Jürgen called, I'll wait. I've got to keep watch until it gets dark anyway. I'll definitely wait. And he called: We've got boards at home too. Crate boards, he called.",
+      "explain_en": "The man's plan: take Jürgen home to his family. “Ich will mal versuchen” sounds a bit old; today you'd say “Ich versuch's mal”. “wie so ein Kaninchenstall gebaut wird” is passive (wird + gebaut): how a hutch is built. “bestimmt” = definitely. “die Bretter” = boards/planks. The boy is excited now – he already plans the hutch.",
+      "words": [
+        {
+          "de": "versuchen",
+          "en": "to try"
+        },
+        {
+          "de": "warten",
+          "en": "to wait"
+        },
+        {
+          "de": "der Stall, die Ställe",
+          "en": "hutch, stable"
+        },
+        {
+          "de": "bauen",
+          "en": "to build"
+        },
+        {
+          "de": "bestimmt",
+          "en": "definitely, for sure"
+        },
+        {
+          "de": "das Brett, die Bretter",
+          "en": "board, plank"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "de": "Aber das hörte der Mann schon nicht mehr. Er lief mit seinen krummen Beinen auf die Sonne zu. Die war schon rot vom Abend, und Jürgen konnte sehen, wie sie durch die Beine hindurchschien, so krumm waren sie. Und der Korb schwenkte aufgeregt hin und her. Kaninchenfutter war da drin. Grünes Kaninchenfutter, das war etwas grau vom Schutt.",
+      "en": "But the man didn't hear that any more. He was walking towards the sun on his bowed legs. It was already red with evening, and Jürgen could see it shining through the legs, they were so bowed. And the basket swung excitedly back and forth. There was rabbit food in it. Green rabbit food, which was a little grey from the rubble.",
+      "explain_en": "The last image mixes hope and sadness: green (life) food that is grey from the rubble (war). “hin und her” = back and forth. “da drin” is casual for “darin” (in it). “schwenken” = to swing. “so krumm waren sie” – putting the verb at the end like this gives an explanation: that's how bowed they were.",
+      "words": [
+        {
+          "de": "die Sonne",
+          "en": "sun"
+        },
+        {
+          "de": "rot",
+          "en": "red"
+        },
+        {
+          "de": "schwenken",
+          "en": "to swing"
+        },
+        {
+          "de": "hin und her",
+          "en": "back and forth"
+        },
+        {
+          "de": "drin (= darin)",
+          "en": "in it",
+          "note": "casual"
+        },
+        {
+          "de": "grün",
+          "en": "green"
+        }
+      ]
+    }
+  ]
+}

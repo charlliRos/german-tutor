@@ -1,0 +1,1126 @@
+{
+  "id": "horvath-jugend-ohne-gott",
+  "title": "Jugend ohne Gott",
+  "author": "Ödön von Horváth",
+  "author_died": 1938,
+  "year": 1937,
+  "level": "B1-B2",
+  "source": "https://www.literaturdownload.at/pdf/Horvath_-_Jugend_ohne_Gott.pdf",
+  "orthography": "modernised to current German spelling (dass, muss, Schlussfolgerung, im Klaren, gestern Nachmittag, ...); wording unchanged",
+  "intro_en": "Ödön von Horváth (1901–1938) wrote “Jugend ohne Gott” (Youth Without God) in 1937, in exile from Nazi Germany; the Nazis banned it straight away. A 34-year-old teacher in an unnamed fascist country watches his pupils turn into cold, obedient young people who only repeat what the radio says – and he has to decide whether he has the courage to speak up. It reads almost like a thriller, the sentences are short and modern, and German students still read it in school because its questions about courage and going along with the crowd haven't aged.",
+  "units": [
+    {
+      "n": 1,
+      "de": "25. März. Auf meinem Tische stehen Blumen. Lieblich. Ein Geschenk meiner braven Hausfrau, denn heute ist mein Geburtstag.\nAber ich brauche den Tisch und rücke die Blumen beiseite und auch den Brief meiner alten Eltern. Meine Mutter schrieb: „Zu Deinem vierunddreißigsten Geburtstage wünsche ich Dir, mein liebes Kind, das Allerbeste. Gott, der Allmächtige, gebe Dir Gesundheit, Glück und Zufriedenheit!“ Und mein Vater schrieb: „Zu Deinem vierunddreißigsten Geburtstage, mein lieber Sohn, wünsche ich Dir alles Gute. Gott, der Allmächtige, gebe Dir Glück, Zufriedenheit und Gesundheit!“",
+      "en": "25 March. There are flowers on my table. Lovely. A present from my good landlady, because today is my birthday. But I need the table, so I push the flowers aside, and the letter from my old parents too. My mother wrote: “On your thirty-fourth birthday I wish you, my dear child, all the very best. May God Almighty give you health, happiness and contentment!” And my father wrote: “On your thirty-fourth birthday, my dear son, I wish you all the best. May God Almighty give you happiness, contentment and health!”",
+      "explain_en": "The novel starts with the chapter “Die Neger”. The narrator is a 34-year-old teacher who writes like a diary, in the present tense. “Tische” and “Geburtstage” have an old dative -e; today: “auf meinem Tisch”, “zum Geburtstag”. “Hausfrau” here means his landlady (he rents a room); today that's “die Vermieterin” – “Hausfrau” now means housewife. “Gott gebe Dir …” is a wish (“May God give you …”) – this form only survives in fixed phrases.",
+      "words": [
+        {
+          "de": "die Blume, die Blumen",
+          "en": "flower"
+        },
+        {
+          "de": "das Geschenk, die Geschenke",
+          "en": "present, gift"
+        },
+        {
+          "de": "der Geburtstag, die Geburtstage",
+          "en": "birthday"
+        },
+        {
+          "de": "die Hausfrau",
+          "en": "landlady (old meaning)",
+          "note": "today: die Vermieterin; Hausfrau = housewife"
+        },
+        {
+          "de": "der Brief, die Briefe",
+          "en": "letter"
+        },
+        {
+          "de": "die Gesundheit",
+          "en": "health"
+        },
+        {
+          "de": "die Zufriedenheit",
+          "en": "contentment, satisfaction"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "de": "Glück kann man immer brauchen, denke ich mir, und gesund bist du auch, gottlob! Ich klopfe auf Holz. Aber zufrieden? Nein, zufrieden bin ich eigentlich nicht. Doch das ist ja schließlich niemand. Ich setze mich an den Tisch, entkorke eine rote Tinte, mach mir dabei die Finger tintig und ärgere mich darüber. Man sollt endlich mal eine Tinte erfinden, mit der man sich unmöglich tintig machen kann!\nNein, zufrieden bin ich wahrlich nicht.",
+      "en": "Happiness always comes in handy, I think to myself, and you're healthy too, thank God! I knock on wood. But content? No, actually I'm not content. But then again, nobody is. I sit down at the table, uncork a bottle of red ink, get ink on my fingers doing it and get annoyed. Someone really ought to invent an ink you can't possibly get on your fingers! No, I am truly not content.",
+      "explain_en": "He talks to himself as “du” – a habit through the whole book. “das Glück” means both luck and happiness. “auf Holz klopfen” = knock on wood, just like in English. “gottlob” is old; today: “Gott sei Dank”. “sich ärgern (über)” = to get annoyed (about) – very common. “Man sollt” = “Man sollte” (one should). “wahrlich” sounds biblical; today: “wirklich”.",
+      "words": [
+        {
+          "de": "das Glück",
+          "en": "luck, happiness"
+        },
+        {
+          "de": "gesund",
+          "en": "healthy"
+        },
+        {
+          "de": "zufrieden",
+          "en": "content, satisfied"
+        },
+        {
+          "de": "auf Holz klopfen",
+          "en": "to knock on wood"
+        },
+        {
+          "de": "sich ärgern (über)",
+          "en": "to get annoyed (about)"
+        },
+        {
+          "de": "erfinden",
+          "en": "to invent"
+        },
+        {
+          "de": "gottlob",
+          "en": "thank God",
+          "note": "old; today: Gott sei Dank"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "de": "Denk nicht so dumm, herrsch ich mich an. Du hast doch eine sichere Stellung mit Pensionsberechtigung, und das ist in der heutigen Zeit, wo niemand weiß, ob sich morgen die Erde noch drehen wird, allerhand! Wie viele würden sich sämtliche Finger ablecken, wenn sie an deiner Stelle wären?! Wie gering ist doch der Prozentsatz der Lehramtskandidaten, die wirklich Lehrer werden können!",
+      "en": "Don't think such stupid things, I snap at myself. You've got a secure position with a pension, and in times like these, when no one knows whether the earth will still be turning tomorrow, that's quite something! How many people would lick every one of their fingers to be in your place?! How tiny the percentage of trainee teachers who actually get to be teachers is!",
+      "explain_en": "In the 1930s many people were unemployed and war was in the air – so a safe job meant a lot. “sich anherrschen” = to snap at yourself. “allerhand” (quite something) is a bit old; today: “ganz schön viel”. “sich die Finger ablecken” comes from “sich alle zehn Finger nach etwas lecken” = to give anything for something. “die Stellung” is older; today: “die Stelle” or “der Job”. “an deiner Stelle” = in your place / if I were you – very useful.",
+      "words": [
+        {
+          "de": "dumm",
+          "en": "stupid"
+        },
+        {
+          "de": "sicher",
+          "en": "safe, secure"
+        },
+        {
+          "de": "die Stellung",
+          "en": "position, job",
+          "note": "today: die Stelle, der Job"
+        },
+        {
+          "de": "die Pension",
+          "en": "(civil servant's) pension"
+        },
+        {
+          "de": "niemand",
+          "en": "nobody"
+        },
+        {
+          "de": "an deiner Stelle",
+          "en": "in your place, if I were you"
+        },
+        {
+          "de": "allerhand",
+          "en": "quite something; all sorts",
+          "note": "a bit old; today: ganz schön viel"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "de": "Danke Gott, dass du zum Lehrkörper eines Städtischen Gymnasiums gehörst und dass du also ohne große wirtschaftliche Sorgen alt und blöd werden darfst! Du kannst doch auch hundert Jahre alt werden, vielleicht wirst du sogar mal der älteste Einwohner des Vaterlandes! Dann kommst du an deinem Geburtstag in die Illustrierte, und darunter wird stehen: „Er ist noch bei regem Geiste.“ Und das alles mit Pension! Bedenk und versündig dich nicht!",
+      "en": "Thank God that you're on the teaching staff of a municipal grammar school, which means you can grow old and stupid without any big money worries! You might even live to be a hundred, maybe you'll even become the oldest inhabitant of the fatherland one day! Then on your birthday you'll be in the magazine, and underneath it'll say: “He is still mentally alert.” And all that with a pension! Think about it and don't sin by complaining!",
+      "explain_en": "This is irony – he makes fun of his own safe life. “das Gymnasium” is the academic secondary school, NOT a gym (gym = die Turnhalle or das Fitnessstudio). “das Vaterland” was a favourite word of nationalist propaganda. “die Illustrierte” is an older word for a magazine; today: “die Zeitschrift”. “bei regem Geiste” is old; today: “geistig fit”. “sich versündigen” (to sin) sounds very old-fashioned.",
+      "words": [
+        {
+          "de": "das Gymnasium, die Gymnasien",
+          "en": "grammar school, academic high school",
+          "note": "not a gym!"
+        },
+        {
+          "de": "die Sorge, die Sorgen",
+          "en": "worry"
+        },
+        {
+          "de": "wirtschaftlich",
+          "en": "economic, financial"
+        },
+        {
+          "de": "der Einwohner, die Einwohner",
+          "en": "inhabitant"
+        },
+        {
+          "de": "die Illustrierte",
+          "en": "magazine",
+          "note": "old-fashioned; today: die Zeitschrift"
+        },
+        {
+          "de": "sich versündigen",
+          "en": "to sin",
+          "note": "old-fashioned"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "de": "Ich versündige mich nicht und beginne zu arbeiten. Sechsundzwanzig blaue Hefte liegen neben mir, sechsundzwanzig Buben, so um das vierzehnte Jahr herum, hatten gestern in der Geographiestunde einen Aufsatz zu schreiben, ich unterrichte nämlich Geschichte und Geographie.\nDraußen scheint noch die Sonne, fein muss es sein im Park! Doch Beruf ist Pflicht, ich korrigiere die Hefte und schreibe in mein Büchlein hinein, wer etwas taugt oder nicht.",
+      "en": "I don't sin and I start working. Twenty-six blue exercise books lie beside me: twenty-six boys, all around fourteen, had to write an essay in geography class yesterday – I teach history and geography, you see. Outside the sun is still shining, it must be lovely in the park! But work is duty, so I correct the exercise books and write in my little notebook who's any good and who isn't.",
+      "explain_en": "“das Heft” is still the normal word for a school exercise book. “die Buben” is southern German/Austrian for boys (in the north: “die Jungen” or “die Jungs”). “hatten … zu schreiben” = had to write (haben + zu + infinitive). “fein” is an older way of saying “schön”. “taugen” = to be any good; today you'd say “gut sein” or “etwas draufhaben”. “das Büchlein” is a little book (-lein, like -chen, makes things small).",
+      "words": [
+        {
+          "de": "das Heft, die Hefte",
+          "en": "exercise book"
+        },
+        {
+          "de": "der Bub, die Buben",
+          "en": "boy",
+          "note": "southern German/Austrian; north: der Junge"
+        },
+        {
+          "de": "der Aufsatz, die Aufsätze",
+          "en": "essay"
+        },
+        {
+          "de": "unterrichten",
+          "en": "to teach"
+        },
+        {
+          "de": "die Pflicht, die Pflichten",
+          "en": "duty"
+        },
+        {
+          "de": "korrigieren",
+          "en": "to correct, mark"
+        },
+        {
+          "de": "taugen",
+          "en": "to be any good",
+          "note": "today: gut sein, was draufhaben"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Das von der Aufsichtsbehörde vorgeschriebene Thema der Aufsätze lautet: „Warum müssen wir Kolonien haben?“ Ja, warum? Nun, lasset uns hören!\nDer erste Schüler beginnt mit einem B: er heißt Bauer, mit dem Vornamen Franz. In dieser Klasse gibt's keinen, der mit A beginnt, dafür haben wir aber gleich fünf mit B. Eine Seltenheit, so viele B's bei insgesamt sechsundzwanzig Schülern! Aber zwei B's sind Zwillinge, daher das Ungewöhnliche.",
+      "en": "The essay topic prescribed by the school authorities is: “Why must we have colonies?” Yes, why? Well, let us hear! The first pupil begins with a B: his name is Bauer, first name Franz. In this class there's no one beginning with A, but to make up for it we have five with B straight away. A rarity, so many B's out of twenty-six pupils altogether! But two of the B's are twins, hence the unusual number.",
+      "explain_en": "Background: Germany lost its colonies after World War I, and the Nazi government wanted them back – so schools had to set this topic. “lasset uns hören” is an old, Bible-style command; today: “hören wir mal”. “der Vorname” = first name. “dafür” here means “to make up for it”. Notice that the pupils are called by letters – they will become faceless in this book.",
+      "words": [
+        {
+          "de": "das Thema, die Themen",
+          "en": "topic"
+        },
+        {
+          "de": "vorschreiben",
+          "en": "to prescribe, set (rules)"
+        },
+        {
+          "de": "die Kolonie, die Kolonien",
+          "en": "colony"
+        },
+        {
+          "de": "der Schüler, die Schüler",
+          "en": "pupil, student"
+        },
+        {
+          "de": "der Vorname, die Vornamen",
+          "en": "first name"
+        },
+        {
+          "de": "der Zwilling, die Zwillinge",
+          "en": "twin"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "de": "Automatisch überfliege ich die Namensliste in meinem Büchlein und stelle fest, dass B nur von S fast erreicht wird – stimmt, vier beginnen mit S, drei mit M, je zwei mit E, G, L und R, je einer mit F, H, N, T, W, Z, während keiner der Buben mit A, C, D, I, O, P, Q, U, V, X, Y beginnt. Nun, Franz Bauer, warum brauchen wir Kolonien?",
+      "en": "Automatically I skim the list of names in my notebook and find that B is only nearly matched by S – yes, four begin with S, three with M, two each with E, G, L and R, one each with F, H, N, T, W, Z, while none of the boys begins with A, C, D, I, O, P, Q, U, V, X, Y. Well, Franz Bauer, why do we need colonies?",
+      "explain_en": "He counts letters for no reason – a way of putting off a job he doesn't want to do. “überfliegen” = to skim (literally: to fly over). “feststellen” = to find out, to notice – very common (Ich habe festgestellt, dass …). “je zwei” = two each. “während” here means “while/whereas”. The letters matter: later the boys are just called N, T, Z …",
+      "words": [
+        {
+          "de": "überfliegen",
+          "en": "to skim (a text)"
+        },
+        {
+          "de": "die Liste, die Listen",
+          "en": "list"
+        },
+        {
+          "de": "feststellen",
+          "en": "to find, notice"
+        },
+        {
+          "de": "je",
+          "en": "each (je zwei = two each)"
+        },
+        {
+          "de": "erreichen",
+          "en": "to reach, match"
+        },
+        {
+          "de": "während",
+          "en": "while, whereas"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "de": "„Wir brauchen die Kolonien“, schreibt er, „weil wir zahlreiche Rohstoffe benötigen, denn ohne Rohstoffe könnten wir unsere hochstehende Industrie nicht ihrem innersten Wesen und Werte nach beschäftigen, was zur unleidlichen Folge hätte, dass der heimische Arbeitsmann wieder arbeitslos werden würde.“ Sehr richtig, lieber Bauer! „Es dreht sich zwar nicht um die Arbeiter“ – sondern, Bauer? –, „es dreht sich vielmehr um das Volksganze, denn auch der Arbeiter gehört letzten Endes zum Volk.“",
+      "en": "“We need the colonies,” he writes, “because we require numerous raw materials, for without raw materials we could not occupy our advanced industry according to its innermost nature and value, which would have the intolerable consequence that the working man at home would become unemployed again.” Quite right, dear Bauer! “It is not really about the workers” – but about what, Bauer? – “it is rather about the people as a whole, for the worker too ultimately belongs to the people.”",
+      "explain_en": "The boy copies pompous propaganda phrases he doesn't really understand, and Horváth makes fun of them. “der Rohstoff” = raw material. “unleidlich” is old; today: “unerträglich”. “Es dreht sich um …” = it's about …; today people usually say “Es geht um …”. “das Volksganze” is typical Nazi-era jargon. “letzten Endes” (in the end, ultimately) is still normal.",
+      "words": [
+        {
+          "de": "der Rohstoff, die Rohstoffe",
+          "en": "raw material"
+        },
+        {
+          "de": "benötigen",
+          "en": "to need, require",
+          "note": "everyday: brauchen"
+        },
+        {
+          "de": "die Industrie",
+          "en": "industry"
+        },
+        {
+          "de": "arbeitslos",
+          "en": "unemployed"
+        },
+        {
+          "de": "sich drehen um",
+          "en": "to be about",
+          "note": "today more common: es geht um"
+        },
+        {
+          "de": "letzten Endes",
+          "en": "ultimately, in the end"
+        },
+        {
+          "de": "das Volk, die Völker",
+          "en": "people, nation"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Das ist ohne Zweifel letzten Endes eine großartige Entdeckung, geht es mir durch den Sinn, und plötzlich fällt es mir wieder auf, wie häufig in unserer Zeit uralte Weisheiten als erstmalig formulierte Schlagworte serviert werden. Oder war das immer schon so? Ich weiß es nicht.\nJetzt weiß ich nur, dass ich wieder mal sechsundzwanzig Aufsätze durchlesen muss, Aufsätze, die mit schiefen Voraussetzungen falsche Schlussfolgerungen ziehen.",
+      "en": "That is without doubt, ultimately, a great discovery, it crosses my mind, and suddenly it strikes me again how often in our times ancient wisdom gets served up as slogans that were supposedly coined for the first time. Or has it always been like that? I don't know. All I know right now is that once again I have to read through twenty-six essays, essays that draw false conclusions from skewed premises.",
+      "explain_en": "The “great discovery” is sarcastic: of course workers are part of the people. “auffallen” = to strike, to notice (Mir fällt auf, dass …). “das Schlagwort” = slogan. “die Voraussetzung” means premise or requirement – very useful (Deutsch ist eine Voraussetzung für den Job). “die Schlussfolgerung” = conclusion. “wieder mal” is casual for “wieder einmal” (once again).",
+      "words": [
+        {
+          "de": "der Zweifel, die Zweifel",
+          "en": "doubt"
+        },
+        {
+          "de": "die Entdeckung, die Entdeckungen",
+          "en": "discovery"
+        },
+        {
+          "de": "auffallen",
+          "en": "to strike, be noticed",
+          "note": "Mir fällt auf, dass …"
+        },
+        {
+          "de": "das Schlagwort, die Schlagworte",
+          "en": "slogan"
+        },
+        {
+          "de": "die Voraussetzung, die Voraussetzungen",
+          "en": "premise, requirement"
+        },
+        {
+          "de": "die Schlussfolgerung",
+          "en": "conclusion"
+        },
+        {
+          "de": "durchlesen",
+          "en": "to read through"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "de": "Wie schön wärs, wenn sich „schief“ und „falsch“ aufheben würden, aber sie tuns nicht. Sie wandeln Arm in Arm daher und singen hohle Phrasen. Ich werde mich hüten, als städtischer Beamter, an diesem lieblichen Gesange auch nur die leiseste Kritik zu üben! Wenns auch wehtut, was vermag der Einzelne gegen alle? Er kann sich nur heimlich ärgern. Und ich will mich nicht mehr ärgern! Korrigier rasch, du willst noch ins Kino!",
+      "en": "How nice it would be if “skewed” and “false” cancelled each other out, but they don't. They stroll along arm in arm, singing empty phrases. As a municipal civil servant, I'll take good care not to make even the slightest criticism of this lovely singing! Even if it hurts, what can one person do against everyone? He can only get annoyed in secret. And I don't want to get annoyed any more! Correct them quickly, you still want to go to the cinema!",
+      "explain_en": "Here is the big theme of the book: he knows the essays are wrong but is too scared to say so. “wärs” and “tuns” are short for “wäre es” and “tun es”. “Ich werde mich hüten!” = I'll take good care not to / I wouldn't dream of it – still used. “vermögen” (to be able to) is old; today: “können”. “der Beamte” = civil servant (teachers in Germany often are). “Gesange” has an old dative -e.",
+      "words": [
+        {
+          "de": "sich aufheben",
+          "en": "to cancel each other out"
+        },
+        {
+          "de": "hohl",
+          "en": "hollow, empty"
+        },
+        {
+          "de": "sich hüten",
+          "en": "to take care not to",
+          "note": "Ich werde mich hüten!"
+        },
+        {
+          "de": "die Kritik",
+          "en": "criticism"
+        },
+        {
+          "de": "der Beamte, die Beamten",
+          "en": "civil servant"
+        },
+        {
+          "de": "vermögen",
+          "en": "to be able to",
+          "note": "old; today: können"
+        },
+        {
+          "de": "heimlich",
+          "en": "secretly"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "de": "Was schreibt denn da der N? „Alle Neger sind hinterlistig, feig und faul.“ – Zu dumm! Also das streich ich durch! Und ich will schon mit roter Tinte an den Rand schreiben: „Sinnlose Verallgemeinerung!“ – da stocke ich. Aufgepasst, habe ich denn diesen Satz über die Neger in letzter Zeit nicht schon mal gehört? Wo denn nur? Richtig: er tönte aus dem Lautsprecher im Restaurant und verdarb mir fast den Appetit.",
+      "en": "What's N writing here? “All Negroes are deceitful, cowardly and lazy.” – How stupid! Right, I'll cross that out! And I'm about to write in red ink in the margin: “Pointless generalisation!” – when I stop short. Careful, haven't I heard this sentence about the Negroes somewhere recently? But where? That's it: it came out of the loudspeaker in the restaurant and almost spoiled my appetite.",
+      "explain_en": "Important: “Neger” is a racist slur today – never use it. Say “Schwarze” or “Schwarze Menschen”. Horváth uses it on purpose to show the racism of the 1930s. The sentence comes from state radio – so the teacher is afraid to cross it out. “durchstreichen” = to cross out. “der Rand” = the margin (or edge). “stocken” = to stop short, falter. “verderben” = to spoil (Das verdirbt mir den Appetit).",
+      "words": [
+        {
+          "de": "hinterlistig",
+          "en": "deceitful, sneaky"
+        },
+        {
+          "de": "feig(e)",
+          "en": "cowardly"
+        },
+        {
+          "de": "faul",
+          "en": "lazy"
+        },
+        {
+          "de": "durchstreichen",
+          "en": "to cross out"
+        },
+        {
+          "de": "der Rand, die Ränder",
+          "en": "margin, edge"
+        },
+        {
+          "de": "der Lautsprecher",
+          "en": "loudspeaker"
+        },
+        {
+          "de": "verderben",
+          "en": "to spoil"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Ich lasse den Satz also stehen, denn was einer im Radio redet, darf kein Lehrer im Schulheft streichen. Und während ich weiterlese, höre ich immer das Radio: es lispelt, es heult, es bellt, es girrt, es droht – und die Zeitungen drucken es nach, und die Kindlein, sie schreiben es ab.",
+      "en": "So I leave the sentence as it is, because no teacher may cross out in an exercise book what someone says on the radio. And as I read on, I keep hearing the radio: it lisps, it howls, it barks, it coos, it threatens – and the newspapers print it too, and the little children, they copy it down.",
+      "explain_en": "Horváth shows how propaganda spreads: radio → newspapers → children. “was einer im Radio redet, darf kein Lehrer … streichen” = no teacher is allowed to cross out what someone says on the radio. “stehen lassen” = to leave as it is. “abschreiben” = to copy – it also means to cheat by copying in a test! “die Kindlein” is an old, Bible-style word; today: “die Kinder”.",
+      "words": [
+        {
+          "de": "stehen lassen",
+          "en": "to leave (as it is)"
+        },
+        {
+          "de": "das Radio",
+          "en": "radio"
+        },
+        {
+          "de": "weiterlesen",
+          "en": "to read on"
+        },
+        {
+          "de": "drohen",
+          "en": "to threaten"
+        },
+        {
+          "de": "die Zeitung, die Zeitungen",
+          "en": "newspaper"
+        },
+        {
+          "de": "abschreiben",
+          "en": "to copy (down); to cheat by copying"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "de": "Nun hab ich den Buchstaben T verlassen, und schon kommt Z. Wo bleibt W? Habe ich das Heft verlegt? Nein, der W war ja gestern krank – er hatte sich am Sonntag im Stadion eine Lungenentzündung geholt, stimmt, der Vater hats mir ja schriftlich korrekt mitgeteilt. Armer W! Warum gehst du auch ins Stadion, wenns eisig in Strömen regnet?",
+      "en": "Now I've left the letter T behind, and already here comes Z. Where's W? Have I mislaid the exercise book? No, W was off sick yesterday – he caught pneumonia at the stadium on Sunday, that's right, his father let me know properly in writing. Poor W! Why do you go to the stadium anyway when it's pouring with icy rain?",
+      "explain_en": "Careful: “verlegen” (verb) = to mislay, but “verlegen” (adjective) = embarrassed. “sich etwas holen” is casual for catching an illness: “Ich hab mir eine Erkältung geholt.” “hats” = “hat es”, “wenns” = “wenn es”. “in Strömen regnen” = to pour with rain. “die Lungenentzündung” = pneumonia (Lunge = lung, Entzündung = inflammation).",
+      "words": [
+        {
+          "de": "verlegen",
+          "en": "to mislay",
+          "note": "adjective verlegen = embarrassed"
+        },
+        {
+          "de": "krank",
+          "en": "ill, sick"
+        },
+        {
+          "de": "die Lungenentzündung",
+          "en": "pneumonia"
+        },
+        {
+          "de": "das Stadion, die Stadien",
+          "en": "stadium"
+        },
+        {
+          "de": "sich etwas holen",
+          "en": "to catch (an illness)",
+          "note": "casual"
+        },
+        {
+          "de": "in Strömen regnen",
+          "en": "to pour with rain"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "de": "Diese Frage könntest du eigentlich auch an dich selbst stellen, fällt es mir ein, denn du warst ja am Sonntag ebenfalls im Stadion und harrtest treu bis zum Schlusspfiff aus, obwohl der Fußball, den die beiden Mannschaften boten, keineswegs hochklassig war. Ja, das Spiel war sogar ausgesprochen langweilig – also: warum bliebst du? Und mit dir dreißigtausend zahlende Zuschauer?\nWarum?",
+      "en": "Actually you could ask yourself the same question, it occurs to me, because you were at the stadium on Sunday too and stuck it out loyally until the final whistle, even though the football the two teams played was by no means top class. In fact the match was downright boring – so: why did you stay? And thirty thousand paying spectators with you? Why?",
+      "explain_en": "“Mir fällt ein …” = it occurs to me – super useful (Mir fällt nichts ein = I can't think of anything). “ausharren” is formal/old; today: “durchhalten” or just “bleiben”. “der Schlusspfiff” = final whistle. “keineswegs” = by no means. “ausgesprochen” here means “downright, really”. Note the question: why do people stay at a boring game? The answer comes next.",
+      "words": [
+        {
+          "de": "einfallen",
+          "en": "to occur to",
+          "note": "Mir fällt ein …"
+        },
+        {
+          "de": "ausharren",
+          "en": "to hold out, stick it out",
+          "note": "old; today: durchhalten"
+        },
+        {
+          "de": "der Schlusspfiff",
+          "en": "final whistle"
+        },
+        {
+          "de": "die Mannschaft, die Mannschaften",
+          "en": "team"
+        },
+        {
+          "de": "langweilig",
+          "en": "boring"
+        },
+        {
+          "de": "der Zuschauer, die Zuschauer",
+          "en": "spectator"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "de": "Wenn der Rechtsaußen den linken Half überspielt und zentert, wenn der Mittelstürmer den Ball in den leeren Raum vorlegt und der Tormann sich wirft, wenn der Halblinke seine Verteidigung entlastet und ein Flügelspiel forciert, wenn der Verteidiger auf der Torlinie rettet, wenn einer unfair rempelt oder eine ritterliche Geste macht, wenn der Schiedsrichter gut ist oder schwach, parteiisch oder parteilos, dann existiert für den Zuschauer nichts auf der Welt außer dem Fußball, ob die Sonne scheint, obs regnet oder schneit. Dann hat er alles vergessen.\nWas „alles“?\nIch muss lächeln: die Neger, wahrscheinlich –",
+      "en": "When the right winger beats the left half and crosses, when the centre forward plays the ball into space and the goalkeeper dives, when the inside left takes pressure off his defence and forces play down the wing, when the defender clears off the goal line, when someone barges unfairly or makes a sporting gesture, when the referee is good or weak, biased or fair, then nothing in the world exists for the spectator except football, whether the sun shines, whether it rains or snows. Then he has forgotten everything. What “everything”? I have to smile: the Negroes, probably –",
+      "explain_en": "One huge sentence of “wenn” clauses – each with the verb at the end. Some football words are from the 1930s: “zentern” → today “flanken”; “der Tormann” (Austrian) → “der Torwart”; “der Half” and “der Halblinke” are positions that don't exist any more. The point: football makes people forget injustice. “obs” = “ob es”. Important: “Neger” is a racist slur today – never use it. Say “Schwarze” or “Schwarze Menschen”. Horváth uses it on purpose to show the racism of the 1930s.",
+      "words": [
+        {
+          "de": "der Mittelstürmer",
+          "en": "centre forward"
+        },
+        {
+          "de": "der Torwart, die Torwarte",
+          "en": "goalkeeper",
+          "note": "text: der Tormann (Austrian)"
+        },
+        {
+          "de": "flanken",
+          "en": "to cross (football)",
+          "note": "text: zentern (old)"
+        },
+        {
+          "de": "der Verteidiger",
+          "en": "defender"
+        },
+        {
+          "de": "der Schiedsrichter",
+          "en": "referee"
+        },
+        {
+          "de": "vergessen",
+          "en": "to forget"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "de": "Als ich am nächsten Morgen in das Gymnasium kam und die Treppe zum Lehrerzimmer emporstieg, hörte ich auf dem zweiten Stock einen wüsten Lärm. Ich eilte empor und sah, dass fünf Jungen, und zwar E, G, R, H, T, einen verprügelten, nämlich den F.\n„Was fällt euch denn ein?“ schrie ich sie an. „Wenn ihr schon glaubt, noch raufen zu müssen wie die Volksschüler, dann rauft doch gefälligst einer gegen einen, aber fünf gegen einen, also das ist eine Feigheit!“",
+      "en": "When I came into the grammar school the next morning and went up the stairs to the staff room, I heard a terrible racket on the second floor. I hurried up and saw five boys, namely E, G, R, H and T, beating up another boy, namely F. “What do you think you're doing?” I shouted at them. “If you really think you still have to scrap like primary school kids, then at least fight one against one – but five against one, that's cowardly!”",
+      "explain_en": "New chapter: “Es regnet” (It's raining). Now he writes in the past tense. “Was fällt euch denn ein?” = What do you think you're doing? / How dare you? – very common for telling someone off. “raufen” (to scrap) is southern; everywhere: “sich prügeln”. “die Volksschüler” is old/Austrian for primary school pupils (today: Grundschüler). “gefälligst” shows annoyance, like “kindly …”.",
+      "words": [
+        {
+          "de": "die Treppe, die Treppen",
+          "en": "stairs"
+        },
+        {
+          "de": "das Lehrerzimmer",
+          "en": "staff room"
+        },
+        {
+          "de": "der Lärm",
+          "en": "noise, racket"
+        },
+        {
+          "de": "verprügeln",
+          "en": "to beat up"
+        },
+        {
+          "de": "Was fällt dir ein?",
+          "en": "How dare you? What do you think you're doing?"
+        },
+        {
+          "de": "raufen",
+          "en": "to scrap, fight",
+          "note": "today more common: sich prügeln"
+        },
+        {
+          "de": "die Feigheit",
+          "en": "cowardice"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "de": "Sie sahen mich verständnislos an, auch der F, über den die fünf hergefallen waren. Sein Kragen war zerrissen. „Was hat er euch denn getan?“ fragte ich weiter, doch die Helden wollten nicht recht heraus mit der Sprache und auch der Verprügelte nicht. Erst allmählich brachte ich es heraus, dass der F den fünfen nichts angetan hatte, sondern im Gegenteil: die fünf hatten ihm seine Buttersemmel gestohlen, nicht, um sie zu essen, sondern nur, damit er keine hat. Sie haben die Semmel durch das Fenster auf den Hof geschmissen.",
+      "en": "They looked at me blankly, even F, whom the five had attacked. His collar was torn. “What has he done to you, then?” I went on asking, but the heroes didn't really want to come out with it, and neither did the boy they'd beaten. Only gradually did I find out that F hadn't done anything to the five; on the contrary: the five had stolen his buttered roll, not to eat it, but only so that he wouldn't have one. They threw the roll out of the window into the yard.",
+      "explain_en": "“die Semmel” is the southern German/Austrian word for a bread roll; in the north: “das Brötchen”. “schmeißen” is casual for “werfen” (to throw) – very common in speech. “im Gegenteil” = on the contrary. “allmählich” = gradually. “nicht recht heraus mit der Sprache wollen” = not want to come out with it. The cruelty is pointless – that's what shocks him.",
+      "words": [
+        {
+          "de": "verständnislos",
+          "en": "blank(ly), uncomprehending"
+        },
+        {
+          "de": "der Kragen, die Kragen",
+          "en": "collar"
+        },
+        {
+          "de": "allmählich",
+          "en": "gradually"
+        },
+        {
+          "de": "im Gegenteil",
+          "en": "on the contrary"
+        },
+        {
+          "de": "die Semmel, die Semmeln",
+          "en": "bread roll",
+          "note": "southern; north: das Brötchen"
+        },
+        {
+          "de": "schmeißen",
+          "en": "to throw, chuck",
+          "note": "casual for: werfen"
+        },
+        {
+          "de": "der Hof, die Höfe",
+          "en": "yard, courtyard"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "de": "Ich schaue hinab. Dort liegt sie auf dem grauen Stein. Es regnet noch immer, und die Semmel leuchtet hell herauf.\nUnd ich denke: vielleicht haben die fünf keine Semmeln, und es ärgert sie, dass der F eine hatte. Doch nein, sie hatten alle ihre Semmeln, und der G sogar zwei. Und ich frage nochmals: „Warum habt ihr das also getan?“ Sie wissen es selber nicht. Sie stehen vor mir und grinsen verlegen.",
+      "en": "I look down. There it lies on the grey stone. It's still raining, and the roll shines brightly up at me. And I think: maybe the five don't have any rolls, and it annoys them that F had one. But no, they all had their rolls, and G even had two. And I ask again: “So why did you do it?” They don't know themselves. They stand in front of me grinning sheepishly.",
+      "explain_en": "The switch back to the present tense makes the scene feel like it's happening right now. “hinab” and “herauf” are literary; in speech: “runter” and “rauf”. “nochmals” = again; today: “noch mal”. “selber” is the casual form of “selbst” (themselves). “verlegen grinsen” = to grin sheepishly.",
+      "words": [
+        {
+          "de": "hinabschauen",
+          "en": "to look down",
+          "note": "today: runterschauen"
+        },
+        {
+          "de": "der Stein, die Steine",
+          "en": "stone"
+        },
+        {
+          "de": "leuchten",
+          "en": "to shine, glow"
+        },
+        {
+          "de": "nochmals",
+          "en": "again",
+          "note": "today: noch mal"
+        },
+        {
+          "de": "selber",
+          "en": "themselves, myself …",
+          "note": "casual for: selbst"
+        },
+        {
+          "de": "grinsen",
+          "en": "to grin"
+        },
+        {
+          "de": "verlegen",
+          "en": "embarrassed, sheepish"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "de": "Ja, der Mensch dürfte wohl böse sein, und das steht auch schon in der Bibel. Als es aufhörte zu regnen und die Wasser der Sündflut wieder wichen, sagte Gott: „Ich will hinfort nicht mehr die Erde strafen um der Menschen willen, denn das Trachten des menschlichen Herzens ist böse von Jugend auf.“\nHat Gott sein Versprechen gehalten? Ich weiß es noch nicht. Aber ich frage nun nicht mehr, warum sie die Semmel auf den Hof geworfen haben.",
+      "en": "Yes, people may well be evil, and that's already in the Bible. When it stopped raining and the waters of the Flood went down, God said: “I will never again curse the earth because of man, for the imagination of man's heart is evil from his youth.” Has God kept his promise? I don't know yet. But I no longer ask why they threw the roll into the yard.",
+      "explain_en": "God's words come from Genesis 8:21 – “Jugend” (youth) and “Gott” link to the book's title, “Jugend ohne Gott” (Youth Without God). “die Sündflut” is an old form; today: “die Sintflut”. “hinfort” is biblical for “from now on”. “um der Menschen willen” = for the sake of people. “ein Versprechen halten” = to keep a promise – very useful.",
+      "words": [
+        {
+          "de": "böse",
+          "en": "evil, bad; angry"
+        },
+        {
+          "de": "die Bibel",
+          "en": "Bible"
+        },
+        {
+          "de": "die Sintflut",
+          "en": "the Flood",
+          "note": "text: Sündflut (old form)"
+        },
+        {
+          "de": "strafen",
+          "en": "to punish"
+        },
+        {
+          "de": "das Versprechen",
+          "en": "promise",
+          "note": "ein Versprechen halten = keep a promise"
+        },
+        {
+          "de": "hinfort",
+          "en": "from now on",
+          "note": "biblical/old"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Ich erkundige mich nur, ob sie es noch nie gehört hätten, dass sich seit Urzeiten her, seit tausend und tausend Jahren, seit dem Beginn der menschlichen Gesittung, immer stärker und stärker ein ungeschriebenes Gesetz herausgebildet hat, ein männliches Gesetz: Wenn ihr schon rauft, dann raufe nur einer gegen einen! Bleibet immer ritterlich! Und ich wende mich wieder an die fünf und frage: „Schämt ihr euch denn nicht?“",
+      "en": "I only ask them whether they've never heard that since the dawn of time, for thousands and thousands of years, since the beginning of human civilisation, an unwritten law has grown stronger and stronger, a manly law: If you have to fight, then only one against one! Always be chivalrous! And I turn back to the five and ask: “Aren't you ashamed of yourselves?”",
+      "explain_en": "“sich erkundigen” = to inquire – formal; normally you'd just say “fragen” or “nachfragen”. “ob sie … gehört hätten” is indirect speech with Konjunktiv II. “die Gesittung” is old for “die Zivilisation”. “Bleibet!” is an old command form; today: “Bleibt!”. “sich schämen” = to be ashamed – “Schämst du dich nicht?” is something parents still say.",
+      "words": [
+        {
+          "de": "sich erkundigen",
+          "en": "to inquire",
+          "note": "formal; everyday: fragen, nachfragen"
+        },
+        {
+          "de": "das Gesetz, die Gesetze",
+          "en": "law"
+        },
+        {
+          "de": "ungeschrieben",
+          "en": "unwritten"
+        },
+        {
+          "de": "ritterlich",
+          "en": "chivalrous, sporting"
+        },
+        {
+          "de": "sich wenden an (+ Akk.)",
+          "en": "to turn to"
+        },
+        {
+          "de": "sich schämen",
+          "en": "to be ashamed"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "de": "Sie schämen sich nicht. Ich rede eine andere Sprache. Sie sehen mich groß an, nur der Verprügelte lächelt. Er lacht mich aus.\n„Schließt das Fenster“, sage ich, „sonst regnets noch herein!“\nSie schließen es.\nWas wird das für eine Generation? Eine harte oder nur eine rohe?\nIch sage kein Wort mehr und gehe ins Lehrerzimmer. Auf der Treppe bleibe ich stehen und lausche: ob sie wohl wieder raufen? Nein, es ist still. Sie wundern sich.",
+      "en": "They aren't ashamed. I'm speaking a different language. They look at me wide-eyed; only the boy who was beaten smiles. He's laughing at me. “Shut the window,” I say, “or the rain will get in!” They shut it. What kind of generation is this going to be? A tough one or just a brutal one? I don't say another word and go to the staff room. On the stairs I stop and listen: are they fighting again? No, it's quiet. They're puzzled.",
+      "explain_en": "“Ich rede eine andere Sprache” means they don't share his values at all. “jemanden groß ansehen” = to look at someone wide-eyed. “auslachen” = to laugh at someone (mockingly) – different from “lachen über”. “roh” literally means raw; about people it means brutal. “sich wundern” = to be surprised/puzzled. “regnets” = “regnet es”.",
+      "words": [
+        {
+          "de": "auslachen",
+          "en": "to laugh at, mock"
+        },
+        {
+          "de": "schließen",
+          "en": "to close, shut"
+        },
+        {
+          "de": "die Generation, die Generationen",
+          "en": "generation"
+        },
+        {
+          "de": "hart",
+          "en": "hard, tough"
+        },
+        {
+          "de": "roh",
+          "en": "raw; brutal"
+        },
+        {
+          "de": "lauschen",
+          "en": "to listen"
+        },
+        {
+          "de": "sich wundern",
+          "en": "to be surprised, wonder"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "de": "Von 10–11 hatte ich Geographie. In dieser Stunde musste ich die gestern korrigierte Schulaufgabe betreffs der kolonialen Frage drannehmen. Wie bereits erwähnt, hatte man gegen den Inhalt der Aufsätze vorschriftsgemäß nichts einzuwenden. Ich sprach also, während ich nun die Hefte an die Schüler verteilte, lediglich über Sprachgefühl, Orthographie und Formalitäten. So sagte ich dem einen B, er möge nicht immer über den linken Rand hinausschreiben, dem R, die Absätze müssten größer sein, dem Z, man schreibt Kolonien mit e und nicht Kolonihn mit h.",
+      "en": "From 10 to 11 I had geography. In this lesson I had to go over the class essay on the colonial question that I'd corrected the day before. As I've already mentioned, according to the rules there was nothing to object to in the content of the essays. So while I handed the exercise books out to the pupils, I only talked about feel for language, spelling and formalities. So I told one of the B's not to keep writing over the left margin, R that his paragraphs had to be bigger, and Z that you write Kolonien with an e and not Kolonihn with an h.",
+      "explain_en": "New chapter: “Die reichen Plebejer” (The Rich Plebeians). “betreffs” is office language for “about”; today: “zu” or “über”. “drannehmen” is casual for dealing with something in class (or calling on a pupil). “einwenden” = to object. The told-them-that parts use indirect speech: “er möge …”, “die Absätze müssten …”. “die Orthographie” is old; today: “die Rechtschreibung”.",
+      "words": [
+        {
+          "de": "die Stunde, die Stunden",
+          "en": "lesson; hour"
+        },
+        {
+          "de": "erwähnen",
+          "en": "to mention"
+        },
+        {
+          "de": "einwenden",
+          "en": "to object"
+        },
+        {
+          "de": "verteilen",
+          "en": "to hand out"
+        },
+        {
+          "de": "die Rechtschreibung",
+          "en": "spelling",
+          "note": "text: Orthographie (old)"
+        },
+        {
+          "de": "der Absatz, die Absätze",
+          "en": "paragraph"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "de": "Nur als ich dem N sein Heft zurückgab, konnte ich mich nicht zurückhalten: „Du schreibst“, sagte ich, „dass wir Weißen kulturell und zivilisatorisch über den Negern stehen, und das dürfte auch stimmen. Aber du darfst doch nicht schreiben, dass es auf die Neger nicht ankommt, ob sie nämlich leben könnten oder nicht. Auch die Neger sind doch Menschen.“",
+      "en": "Only when I gave N his exercise book back couldn't I hold back: “You write,” I said, “that we whites stand above the Negroes culturally and in terms of civilisation, and that may well be true. But you really can't write that it doesn't matter whether the Negroes are able to live or not. The Negroes are human beings too, after all.”",
+      "explain_en": "This is the most important sentence in the book: “Auch die Neger sind doch Menschen.” Notice that even the teacher repeats racist ideas (“das dürfte auch stimmen”) – that shows how normal they were then – yet this tiny objection gets him into trouble. “Es kommt auf … an” = it depends on / it matters – very useful. “sich zurückhalten” = to hold back. Important: “Neger” is a racist slur today – never use it. Say “Schwarze” or “Schwarze Menschen”. Horváth uses it on purpose to show the racism of the 1930s.",
+      "words": [
+        {
+          "de": "zurückgeben",
+          "en": "to give back"
+        },
+        {
+          "de": "sich zurückhalten",
+          "en": "to hold back"
+        },
+        {
+          "de": "stimmen",
+          "en": "to be true, correct"
+        },
+        {
+          "de": "es kommt auf etwas an",
+          "en": "it depends on sth; sth matters"
+        },
+        {
+          "de": "der Mensch, die Menschen",
+          "en": "human being, person"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "de": "Er sah mich einen Augenblick starr an, und dann glitt ein unangenehmer Zug über sein Gesicht. Oder hatte ich mich getäuscht? Er nahm sein Heft mit der guten Note, verbeugte sich korrekt und nahm wieder Platz in seiner Bank. Bald sollte ich es erfahren, dass ich mich nicht getäuscht hatte.",
+      "en": "He stared at me for a moment, and then an unpleasant look passed over his face. Or had I been mistaken? He took his exercise book with the good mark, bowed correctly and sat back down at his desk. I was soon to find out that I hadn't been mistaken.",
+      "explain_en": "“sich täuschen” = to be mistaken, like “sich irren”. “die Note” = mark/grade (Ich habe eine gute Note bekommen). Note that N still got a good mark for his racist essay. “sich verbeugen” = to bow. “Platz nehmen” is a formal way to say sit down. “Bald sollte ich es erfahren” = I was soon to find out – “sollte” here points to the future from the past.",
+      "words": [
+        {
+          "de": "starr",
+          "en": "rigid, staring"
+        },
+        {
+          "de": "unangenehm",
+          "en": "unpleasant"
+        },
+        {
+          "de": "sich täuschen",
+          "en": "to be mistaken"
+        },
+        {
+          "de": "die Note, die Noten",
+          "en": "mark, grade"
+        },
+        {
+          "de": "sich verbeugen",
+          "en": "to bow"
+        },
+        {
+          "de": "erfahren",
+          "en": "to find out, learn"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "de": "Bereits am nächsten Tage erschien der Vater des N in meiner Sprechstunde, die ich wöchentlich einmal abhalten musste, um mit den Eltern in Kontakt zu kommen. Sie erkundigten sich über die Fortschritte ihrer Kinder und holten sich Auskunft über allerhand meist recht belanglose Erziehungsprobleme. Es waren brave Bürger, Beamte, Offiziere, Kaufleute; Arbeiter war keiner darunter.",
+      "en": "The very next day N's father turned up at my consultation hour, which I had to hold once a week in order to stay in contact with the parents. They asked about their children's progress and got information about all sorts of mostly rather trivial questions of upbringing. They were decent, respectable citizens, civil servants, officers, businessmen; not one of them was a worker.",
+      "explain_en": "“die Sprechstunde” = consultation/office hours – at school or at the doctor's. “sich erkundigen über” is unusual; today: “sich erkundigen nach”. “belanglos” = trivial, unimportant. “der Kaufmann, die Kaufleute” = businessman/merchant. “brav” here means respectable, law-abiding (with children it means well-behaved). Note the detail: no workers – it's a school for the middle class.",
+      "words": [
+        {
+          "de": "die Sprechstunde",
+          "en": "consultation hour, office hours"
+        },
+        {
+          "de": "wöchentlich",
+          "en": "weekly"
+        },
+        {
+          "de": "der Fortschritt, die Fortschritte",
+          "en": "progress"
+        },
+        {
+          "de": "die Auskunft",
+          "en": "information"
+        },
+        {
+          "de": "belanglos",
+          "en": "trivial, unimportant"
+        },
+        {
+          "de": "der Bürger, die Bürger",
+          "en": "citizen"
+        },
+        {
+          "de": "die Kaufleute (Plural)",
+          "en": "businessmen, merchants"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "de": "Bei manchem Vater hatte ich das Gefühl, dass er über den Inhalt der diversen Schulaufsätze seines Sprösslings ähnlich denkt wie ich. Aber wir sahen uns nur an, lächelten und sprachen über das Wetter. Die meisten Väter waren älter als ich, einer war sogar ein richtiger Greis. Der jüngste ist vor knapp zwei Wochen achtundzwanzig geworden. Er hatte mit siebzehn Jahren die Tochter eines Industriellen verführt, ein eleganter Mensch. Wenn er zu mir kommt, fährt er immer in seinem Sportwagen vor.",
+      "en": "With some of the fathers I had the feeling that they thought about the content of their offspring's various school essays much as I did. But we just looked at each other, smiled and talked about the weather. Most of the fathers were older than me; one was even a proper old man. The youngest turned twenty-eight just under two weeks ago. At seventeen he had seduced an industrialist's daughter – an elegant man. Whenever he comes to see me, he always pulls up in his sports car.",
+      "explain_en": "Everybody privately thinks the same, but nobody dares to say it – so they “talk about the weather”. “der Sprössling” is a jokey word for someone's child. “der Greis” is old/literary; today: “ein sehr alter Mann”. “knapp” = just under (knapp zwei Wochen). “vorfahren” = to pull up (in a car). “verführen” = to seduce.",
+      "words": [
+        {
+          "de": "das Gefühl, die Gefühle",
+          "en": "feeling"
+        },
+        {
+          "de": "der Sprössling",
+          "en": "offspring (jokey)"
+        },
+        {
+          "de": "das Wetter",
+          "en": "weather"
+        },
+        {
+          "de": "der Greis",
+          "en": "very old man",
+          "note": "literary; today: ein sehr alter Mann"
+        },
+        {
+          "de": "knapp",
+          "en": "just under, barely"
+        },
+        {
+          "de": "der Sportwagen",
+          "en": "sports car"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "de": "Die Frau bleibt unten sitzen, und ich kann sie von droben sehen. Ihren Hut, ihre Arme, ihre Beine. Sonst nichts. Aber sie gefällt mir. Du könntest auch schon einen Sohn haben, denke ich dann, aber ich kann mich beherrschen, ein Kind in die Welt zu setzen. Nur damits in irgendeinem Krieg erschossen wird!",
+      "en": "His wife stays sitting in the car down below, and I can see her from up here. Her hat, her arms, her legs. Nothing else. But I like her. You could already have a son too, I think then, but I can control myself when it comes to bringing a child into the world. Just so that it gets shot in some war!",
+      "explain_en": "“droben” is southern/old for “oben” (up here/up there). “Sie gefällt mir” = I like her – “gefallen” takes the dative and is super common (Das gefällt mir!). “sich beherrschen” = to control yourself. “damits” = “damit es”. The last line shows how everyone in the 1930s expected another war.",
+      "words": [
+        {
+          "de": "unten",
+          "en": "down below"
+        },
+        {
+          "de": "droben",
+          "en": "up here, up there",
+          "note": "old/southern; today: oben"
+        },
+        {
+          "de": "gefallen (+ Dativ)",
+          "en": "to be liked",
+          "note": "Das gefällt mir. = I like it."
+        },
+        {
+          "de": "sich beherrschen",
+          "en": "to control oneself"
+        },
+        {
+          "de": "der Krieg, die Kriege",
+          "en": "war"
+        },
+        {
+          "de": "erschießen",
+          "en": "to shoot (dead)"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Nun stand der Vater des N vor mir. Er hatte einen selbstsicheren Gang und sah mir aufrecht in die Augen. „Ich bin der Vater des Otto N.“ „Freut mich, Sie kennenzulernen, Herr N“, antwortete ich, verbeugte mich, wie es sich gehört, bot ihm Platz an, doch er setzte sich nicht. „Herr Lehrer“, begann er, „mein Hiersein hat den Grund in einer überaus ernsten Angelegenheit, die wohl noch schwerwiegende Folgen haben dürfte. Mein Sohn Otto teilte mir gestern Nachmittag in heller Empörung mit, dass Sie, Herr Lehrer, eine schier unerhörte Bemerkung fallen gelassen hätten –“ „Ich?“",
+      "en": "Now N's father stood in front of me. He had a self-assured walk and looked me straight in the eye. “I am the father of Otto N.” “Pleased to meet you, Mr N,” I replied, bowed as is proper, and offered him a seat, but he didn't sit down. “Teacher,” he began, “my presence here is on account of an extremely serious matter, which may well have grave consequences. Yesterday afternoon my son Otto informed me in great indignation that you, Teacher, had let drop a quite outrageous remark –” “I?”",
+      "explain_en": "The father speaks stiff, pompous German, and Horváth makes fun of it: “mein Hiersein hat den Grund in …” is a stilted way of saying “Ich bin hier, weil …”. “Freut mich, Sie kennenzulernen!” is a normal everyday phrase – learn it! “schier” is old; today: “geradezu”. “eine Bemerkung fallen lassen” = to let drop a remark. “Herr Lehrer” as a form of address is old-fashioned.",
+      "words": [
+        {
+          "de": "selbstsicher",
+          "en": "self-assured"
+        },
+        {
+          "de": "Freut mich, Sie kennenzulernen!",
+          "en": "Pleased to meet you!"
+        },
+        {
+          "de": "die Angelegenheit, die Angelegenheiten",
+          "en": "matter, affair"
+        },
+        {
+          "de": "die Folge, die Folgen",
+          "en": "consequence"
+        },
+        {
+          "de": "die Empörung",
+          "en": "outrage, indignation"
+        },
+        {
+          "de": "unerhört",
+          "en": "outrageous"
+        },
+        {
+          "de": "die Bemerkung, die Bemerkungen",
+          "en": "remark"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "de": "„Jawohl, Sie!“\n„Wann?“\n„Anlässlich der gestrigen Geographiestunde. Die Schüler schrieben einen Aufsatz über Kolonialprobleme, und da sagten Sie zu meinem Otto: Auch die Neger sind Menschen. Sie wissen wohl, was ich meine?“\n„Nein.“\nIch wusste es wirklich nicht. Er sah mich prüfend an. Gott, muss der dumm sein, dachte ich.",
+      "en": "“Yes indeed, you!” “When?” “During yesterday's geography lesson. The pupils were writing an essay about colonial problems, and you said to my Otto: The Negroes are human beings too. I take it you know what I mean?” “No.” I really didn't know. He looked at me searchingly. God, he must be stupid, I thought.",
+      "explain_en": "“Jawohl” is an emphatic, military-sounding “yes (sir)”. “anlässlich” (+ genitive) is formal for “on the occasion of / during”. “gestrig” = yesterday's. “Gott, muss der dumm sein” – here “muss” expresses a guess: he must be stupid. “Sie wissen wohl, was ich meine?” = I suppose you know what I mean? Important: “Neger” is a racist slur today – never use it. Say “Schwarze” or “Schwarze Menschen”. Horváth uses it on purpose to show the racism of the 1930s.",
+      "words": [
+        {
+          "de": "jawohl",
+          "en": "yes indeed, yes sir",
+          "note": "military-sounding"
+        },
+        {
+          "de": "anlässlich (+ Genitiv)",
+          "en": "on the occasion of",
+          "note": "formal"
+        },
+        {
+          "de": "gestrig",
+          "en": "yesterday's"
+        },
+        {
+          "de": "meinen",
+          "en": "to mean; to think"
+        },
+        {
+          "de": "prüfend",
+          "en": "searching(ly)"
+        },
+        {
+          "de": "dumm",
+          "en": "stupid"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "de": "„Mein Hiersein“, begann er wieder langsam und betont, „hat seinen Grund in der Tatsache, dass ich seit frühester Jugend nach Gerechtigkeit strebe. Ich frage Sie also: ist jene ominöse Äußerung über die Neger Ihrerseits in dieser Form und in diesem Zusammenhang tatsächlich gefallen oder nicht?“\n„Ja“, sagte ich und musste lächeln: „Ihr Hiersein wäre also nicht umsonst –“",
+      "en": "“My presence here,” he began again, slowly and with emphasis, “is due to the fact that I have striven for justice since my earliest youth. So I ask you: was that ominous remark about the Negroes actually made by you in this form and in this context, or not?” “Yes,” I said, and I had to smile: “So your presence here would not be in vain –”",
+      "explain_en": "The teacher mocks the father's stiff phrase “mein Hiersein”. “streben nach” = to strive for. “die Äußerung” = statement, remark. “Ihrerseits” = on your part. “der Zusammenhang” = context – very useful (in diesem Zusammenhang). Careful: “umsonst” means “in vain” here, but it also means “free of charge” (Das Konzert ist umsonst).",
+      "words": [
+        {
+          "de": "die Tatsache, die Tatsachen",
+          "en": "fact"
+        },
+        {
+          "de": "die Gerechtigkeit",
+          "en": "justice"
+        },
+        {
+          "de": "streben nach",
+          "en": "to strive for"
+        },
+        {
+          "de": "die Äußerung, die Äußerungen",
+          "en": "statement, remark"
+        },
+        {
+          "de": "der Zusammenhang, die Zusammenhänge",
+          "en": "context, connection"
+        },
+        {
+          "de": "umsonst",
+          "en": "in vain; free of charge"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "de": "„Bedauere bitte“, unterbrach er mich schroff, „ich bin zu Scherzen nicht aufgelegt! Sie sind sich wohl noch nicht im Klaren darüber, was eine derartige Äußerung über die Neger bedeutet?! Das ist Sabotage am Vaterland! Oh, mir machen Sie nichts vor! Ich weiß es nur zu gut, auf welch heimlichen Wegen und mit welch perfiden Schlichen das Gift ihrer Humanitätsduselei unschuldige Kinderseelen zu unterhöhlen trachtet!“\nNun wurds mir aber zu bunt! „Erlauben Sie“, brauste ich auf, „das steht doch bereits in der Bibel, dass alle Menschen Menschen sind!“",
+      "en": "“Excuse me, please,” he interrupted me sharply, “I am in no mood for jokes! You clearly don't yet realise what such a remark about the Negroes means?! It is sabotage against the fatherland! Oh, you can't fool me! I know only too well by what secret paths and with what perfidious tricks the poison of this humanitarian soppiness seeks to undermine innocent children's souls!” Now that was too much for me! “Excuse me,” I flared up, “it already says in the Bible that all people are human beings!”",
+      "explain_en": "This is how Nazi-style propaganda talked: being humane is called “poison” and “sabotage”. “unterbrechen” = to interrupt. “Mir machen Sie nichts vor!” = You can't fool me! (jemandem etwas vormachen). “sich im Klaren sein über” = to realise, be clear about. “Jetzt wird's mir zu bunt!” = That's too much! – still used. “Humanitätsduselei” is an insulting word for “soppy” kindness. “aufbrausen” = to flare up.",
+      "words": [
+        {
+          "de": "unterbrechen",
+          "en": "to interrupt"
+        },
+        {
+          "de": "der Scherz, die Scherze",
+          "en": "joke"
+        },
+        {
+          "de": "sich im Klaren sein über",
+          "en": "to realise, be clear about"
+        },
+        {
+          "de": "jemandem etwas vormachen",
+          "en": "to fool someone"
+        },
+        {
+          "de": "das Gift, die Gifte",
+          "en": "poison"
+        },
+        {
+          "de": "zu bunt werden",
+          "en": "to be too much (for someone)"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "de": "„Als die Bibel geschrieben wurde, gabs noch keine Kolonien in unserem Sinne“, dozierte felsenfest der Bäckermeister. „Eine Bibel muss man im übertragenen Sinn verstehen, bildlich oder gar nicht! Herr, glauben Sie denn, dass Adam und Eva leibhaftig gelebt haben oder nur bildlich?! Na also! Sie werden sich nicht auf den lieben Gott hinausreden, dafür werde ich sorgen!“\n„Sie werden für gar nichts sorgen“, sagte ich und komplimentierte ihn hinaus. Es war ein Hinauswurf. „Bei Philippi sehen wir uns wieder!“ rief er mir noch zu und verschwand.\nZwei Tage später stand ich bei Philippi.",
+      "en": "“When the Bible was written, there weren't any colonies in our sense yet,” the master baker lectured, rock-solid. “A Bible must be understood figuratively, symbolically or not at all! Sir, do you really believe that Adam and Eve lived in the flesh, or only symbolically?! There you are! You won't talk your way out of this by hiding behind the good Lord, I'll make sure of that!” “You won't make sure of anything,” I said, and showed him the door. It was a throwing-out. “We shall meet again at Philippi!” he called after me, and disappeared. Two days later I was at Philippi.",
+      "explain_en": "N's father is a master baker – a little man using big words. “dozieren” = to lecture. “Na also!” = There you go! “sich hinausreden” is older; today: “sich rausreden” (to talk your way out). “dafür sorgen” = to make sure – very useful. “Bei Philippi sehen wir uns wieder!” comes from Shakespeare's “Julius Caesar” and means “you'll pay for this”; the last sentence means the showdown has come – with the headmaster. “gabs” = “gab es”.",
+      "words": [
+        {
+          "de": "der Bäckermeister",
+          "en": "master baker"
+        },
+        {
+          "de": "felsenfest",
+          "en": "rock-solid, firmly"
+        },
+        {
+          "de": "bildlich",
+          "en": "figurative(ly)"
+        },
+        {
+          "de": "sich rausreden",
+          "en": "to talk one's way out",
+          "note": "text: sich hinausreden (older)"
+        },
+        {
+          "de": "dafür sorgen",
+          "en": "to make sure, see to it"
+        },
+        {
+          "de": "verschwinden",
+          "en": "to disappear"
+        }
+      ]
+    }
+  ]
+}
