@@ -5,7 +5,7 @@ import json
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from .answers import normalize
+from .answers import english_forms, normalize
 from .config import BOOKS_DIR, VOCAB_DIR
 
 
@@ -68,9 +68,22 @@ def _load_json(path: Path, problems: list[str]):
         return None
 
 
+def meaning_key(de: str, en: list[str]) -> tuple[str, set[str]]:
+    return normalize(de), set().union(*(english_forms(e) for e in en))
+
+
+def is_duplicate(seen: dict[str, list[set[str]]], de: str, en: list[str]) -> bool:
+    """Same German AND an overlapping English meaning. 'gerade' = straight vs. even (number) are both kept."""
+    key, meanings = meaning_key(de, en)
+    if any(meanings & other for other in seen.get(key, [])):
+        return True
+    seen.setdefault(key, []).append(meanings)
+    return False
+
+
 def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Content:
     content = Content()
-    seen_de: dict[str, str] = {}
+    seen_meanings: dict[str, list[set[str]]] = {}
     # daily_* sorts before stem_*, so everyday words win when both banks have a word.
     for path in sorted(vocab_dir.glob("*.json")):
         data = _load_json(path, content.problems)
@@ -95,10 +108,8 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Co
             if word.id in content.words:
                 content.problems.append(f"{path.name}: duplicate id {word.id}")
                 continue
-            key = normalize(word.de)
-            if key in seen_de:
-                continue  # same German word already in the bank
-            seen_de[key] = word.id
+            if is_duplicate(seen_meanings, word.de, word.en):
+                continue  # already in the bank with the same meaning
             content.words[word.id] = word
 
     for path in sorted(books_dir.glob("*.json")):
@@ -124,8 +135,6 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Co
 
 def words_sharing_english(content: Content, word: Word) -> list[Word]:
     """Other bank words with an overlapping English meaning (wissen/kennen for 'to know')."""
-    from .answers import english_forms
-
     mine = set().union(*(english_forms(e) for e in word.en))
     return [w for w in content.words.values()
             if w.id != word.id and mine & set().union(*(english_forms(e) for e in w.en))]

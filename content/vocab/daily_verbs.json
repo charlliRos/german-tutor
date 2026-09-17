@@ -1,0 +1,4083 @@
+{
+  "bank": "daily",
+  "title": "Everyday German — core verbs",
+  "words": [
+    {
+      "id": "d-verb-0001",
+      "de": "sein",
+      "de_alt": [],
+      "en": [
+        "to be"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 2,
+      "note": "ist – war – ist gewesen",
+      "example_de": "Ich bin sechzehn Jahre alt.",
+      "example_en": "I am sixteen years old."
+    },
+    {
+      "id": "d-verb-0002",
+      "de": "haben",
+      "de_alt": [],
+      "en": [
+        "to have",
+        "to have got"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 5,
+      "note": "hat – hatte – hat gehabt",
+      "example_de": "Hast du heute Zeit?",
+      "example_en": "Do you have time today?"
+    },
+    {
+      "id": "d-verb-0003",
+      "de": "werden",
+      "de_alt": [],
+      "en": [
+        "to become",
+        "to get"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 8,
+      "note": "wird – wurde – ist geworden; also forms the future",
+      "example_de": "Ich werde langsam müde.",
+      "example_en": "I'm slowly getting tired."
+    },
+    {
+      "id": "d-verb-0004",
+      "de": "können",
+      "de_alt": [],
+      "en": [
+        "to be able to",
+        "can"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 15,
+      "note": "modal (= can): kann – konnte – hat gekonnt",
+      "example_de": "Kannst du mir helfen?",
+      "example_en": "Can you help me?"
+    },
+    {
+      "id": "d-verb-0005",
+      "de": "müssen",
+      "de_alt": [],
+      "en": [
+        "to have to",
+        "to need to",
+        "must"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 20,
+      "note": "modal (= must): muss – musste – hat gemusst",
+      "example_de": "Ich muss noch Hausaufgaben machen.",
+      "example_en": "I still have to do homework."
+    },
+    {
+      "id": "d-verb-0006",
+      "de": "sagen",
+      "de_alt": [],
+      "en": [
+        "to say",
+        "to tell"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A1",
+      "rank": 25,
+      "note": "regular: sagt – sagte – hat gesagt",
+      "example_de": "Was hast du gerade gesagt?",
+      "example_en": "What did you just say?"
+    },
+    {
+      "id": "d-verb-0007",
+      "de": "machen",
+      "de_alt": [],
+      "en": [
+        "to do",
+        "to make"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 28,
+      "note": "regular: macht – machte – hat gemacht",
+      "example_de": "Was machst du am Wochenende?",
+      "example_en": "What are you doing at the weekend?"
+    },
+    {
+      "id": "d-verb-0008",
+      "de": "geben",
+      "de_alt": [],
+      "en": [
+        "to give"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 30,
+      "note": "gibt – gab – hat gegeben; es gibt = there is/are",
+      "example_de": "Gibst du mir bitte das Ladekabel?",
+      "example_en": "Can you give me the charger, please?"
+    },
+    {
+      "id": "d-verb-0009",
+      "de": "kommen",
+      "de_alt": [],
+      "en": [
+        "to come"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A1",
+      "rank": 32,
+      "note": "kommt – kam – ist gekommen",
+      "example_de": "Kommst du mit ins Kino?",
+      "example_en": "Are you coming to the cinema?"
+    },
+    {
+      "id": "d-verb-0010",
+      "de": "sollen",
+      "de_alt": [],
+      "en": [
+        "to be supposed to",
+        "to be meant to",
+        "should",
+        "ought to"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 35,
+      "note": "modal (= should): soll – sollte – hat gesollt",
+      "example_de": "Was soll ich anziehen?",
+      "example_en": "What should I wear?"
+    },
+    {
+      "id": "d-verb-0011",
+      "de": "wollen",
+      "de_alt": [],
+      "en": [
+        "to want",
+        "to want to"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 38,
+      "note": "modal: will – wollte – hat gewollt",
+      "example_de": "Ich will später Ärztin werden.",
+      "example_en": "I want to become a doctor later."
+    },
+    {
+      "id": "d-verb-0012",
+      "de": "gehen",
+      "de_alt": [],
+      "en": [
+        "to go",
+        "to walk"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A1",
+      "rank": 40,
+      "note": "geht – ging – ist gegangen",
+      "example_de": "Ich gehe heute ins Kino.",
+      "example_en": "I'm going to the cinema today."
+    },
+    {
+      "id": "d-verb-0013",
+      "de": "wissen",
+      "de_alt": [],
+      "en": [
+        "to know"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "A1",
+      "rank": 45,
+      "note": "weiß – wusste – hat gewusst; know a fact",
+      "example_de": "Weißt du, wann der Bus kommt?",
+      "example_en": "Do you know when the bus is coming?"
+    },
+    {
+      "id": "d-verb-0014",
+      "de": "sehen",
+      "de_alt": [],
+      "en": [
+        "to see",
+        "to watch"
+      ],
+      "pos": "verb",
+      "topic": "senses",
+      "level": "A1",
+      "rank": 48,
+      "note": "sieht – sah – hat gesehen",
+      "example_de": "Hast du den Film schon gesehen?",
+      "example_en": "Have you seen the film yet?"
+    },
+    {
+      "id": "d-verb-0015",
+      "de": "lassen",
+      "de_alt": [],
+      "en": [
+        "to let",
+        "to leave",
+        "to allow"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 52,
+      "note": "lässt – ließ – hat gelassen",
+      "example_de": "Lass mich in Ruhe!",
+      "example_en": "Leave me alone!"
+    },
+    {
+      "id": "d-verb-0016",
+      "de": "stehen",
+      "de_alt": [],
+      "en": [
+        "to stand"
+      ],
+      "pos": "verb",
+      "topic": "position",
+      "level": "A1",
+      "rank": 55,
+      "note": "steht – stand – hat gestanden",
+      "example_de": "Wir stehen vor der Schule.",
+      "example_en": "We're standing in front of the school."
+    },
+    {
+      "id": "d-verb-0017",
+      "de": "finden",
+      "de_alt": [],
+      "en": [
+        "to find",
+        "to think"
+      ],
+      "pos": "verb",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 58,
+      "note": "findet – fand – hat gefunden; Wie findest du…? = What do you think of…?",
+      "example_de": "Wie findest du meine neuen Schuhe?",
+      "example_en": "What do you think of my new shoes?"
+    },
+    {
+      "id": "d-verb-0018",
+      "de": "bleiben",
+      "de_alt": [],
+      "en": [
+        "to stay",
+        "to remain"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 60,
+      "note": "bleibt – blieb – ist geblieben",
+      "example_de": "Ich bleibe heute zu Hause.",
+      "example_en": "I'm staying at home today."
+    },
+    {
+      "id": "d-verb-0019",
+      "de": "liegen",
+      "de_alt": [],
+      "en": [
+        "to lie",
+        "to be located"
+      ],
+      "pos": "verb",
+      "topic": "position",
+      "level": "A1",
+      "rank": 62,
+      "note": "liegt – lag – hat gelegen",
+      "example_de": "Mein Handy liegt auf dem Tisch.",
+      "example_en": "My phone is lying on the table."
+    },
+    {
+      "id": "d-verb-0020",
+      "de": "heißen",
+      "de_alt": [],
+      "en": [
+        "to be called",
+        "to mean"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 65,
+      "note": "heißt – hieß – hat geheißen",
+      "example_de": "Wie heißt du?",
+      "example_en": "What's your name?"
+    },
+    {
+      "id": "d-verb-0021",
+      "de": "denken",
+      "de_alt": [],
+      "en": [
+        "to think"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "A1",
+      "rank": 68,
+      "note": "denkt – dachte – hat gedacht; denken an + Akk",
+      "example_de": "Ich denke, das ist richtig.",
+      "example_en": "I think that's right."
+    },
+    {
+      "id": "d-verb-0022",
+      "de": "nehmen",
+      "de_alt": [],
+      "en": [
+        "to take"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 70,
+      "note": "nimmt – nahm – hat genommen",
+      "example_de": "Ich nehme den Bus zur Schule.",
+      "example_en": "I take the bus to school."
+    },
+    {
+      "id": "d-verb-0023",
+      "de": "tun",
+      "de_alt": [],
+      "en": [
+        "to do",
+        "to put"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 72,
+      "note": "tut – tat – hat getan; Es tut mir leid = I'm sorry",
+      "example_de": "Was kann ich für dich tun?",
+      "example_en": "What can I do for you?"
+    },
+    {
+      "id": "d-verb-0024",
+      "de": "dürfen",
+      "de_alt": [],
+      "en": [
+        "to be allowed to",
+        "to be permitted to",
+        "may"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 75,
+      "note": "modal (= may): darf – durfte – hat gedurft",
+      "example_de": "Darf ich heute länger bleiben?",
+      "example_en": "May I stay out longer today?"
+    },
+    {
+      "id": "d-verb-0025",
+      "de": "glauben",
+      "de_alt": [],
+      "en": [
+        "to believe",
+        "to think"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "A1",
+      "rank": 78,
+      "note": "regular; glauben an + Akk",
+      "example_de": "Ich glaube, er hat recht.",
+      "example_en": "I think he's right."
+    },
+    {
+      "id": "d-verb-0026",
+      "de": "halten",
+      "de_alt": [],
+      "en": [
+        "to hold",
+        "to stop",
+        "to keep"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 80,
+      "note": "hält – hielt – hat gehalten; halten von = think of",
+      "example_de": "Der Bus hält direkt vor der Schule.",
+      "example_en": "The bus stops right outside the school."
+    },
+    {
+      "id": "d-verb-0027",
+      "de": "nennen",
+      "de_alt": [],
+      "en": [
+        "to call",
+        "to name"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "B1",
+      "rank": 85,
+      "note": "nennt – nannte – hat genannt",
+      "example_de": "Meine Freunde nennen mich Max.",
+      "example_en": "My friends call me Max."
+    },
+    {
+      "id": "d-verb-0028",
+      "de": "mögen",
+      "de_alt": [],
+      "en": [
+        "to like"
+      ],
+      "pos": "verb",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 88,
+      "note": "mag – mochte – hat gemocht; möchte = would like",
+      "example_de": "Ich mag keine Tomaten.",
+      "example_en": "I don't like tomatoes."
+    },
+    {
+      "id": "d-verb-0029",
+      "de": "zeigen",
+      "de_alt": [],
+      "en": [
+        "to show"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A1",
+      "rank": 90,
+      "note": "regular",
+      "example_de": "Kannst du mir das Foto zeigen?",
+      "example_en": "Can you show me the photo?"
+    },
+    {
+      "id": "d-verb-0030",
+      "de": "führen",
+      "de_alt": [],
+      "en": [
+        "to lead",
+        "to guide",
+        "to run"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 95,
+      "note": "regular",
+      "example_de": "Der Weg führt zum See.",
+      "example_en": "The path leads to the lake."
+    },
+    {
+      "id": "d-verb-0031",
+      "de": "sprechen",
+      "de_alt": [],
+      "en": [
+        "to speak",
+        "to talk"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A1",
+      "rank": 98,
+      "note": "spricht – sprach – hat gesprochen; sprechen über/mit",
+      "example_de": "Sprichst du Englisch?",
+      "example_en": "Do you speak English?"
+    },
+    {
+      "id": "d-verb-0032",
+      "de": "bringen",
+      "de_alt": [],
+      "en": [
+        "to bring",
+        "to take"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 100,
+      "note": "bringt – brachte – hat gebracht",
+      "example_de": "Bring bitte Chips zur Party mit.",
+      "example_en": "Please bring crisps to the party."
+    },
+    {
+      "id": "d-verb-0033",
+      "de": "leben",
+      "de_alt": [],
+      "en": [
+        "to live",
+        "to be alive"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 105,
+      "note": "regular",
+      "example_de": "Meine Oma lebt in Berlin.",
+      "example_en": "My grandma lives in Berlin."
+    },
+    {
+      "id": "d-verb-0034",
+      "de": "fahren",
+      "de_alt": [],
+      "en": [
+        "to drive",
+        "to go",
+        "to ride"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A1",
+      "rank": 108,
+      "note": "fährt – fuhr – ist gefahren",
+      "example_de": "Ich fahre mit dem Rad zur Schule.",
+      "example_en": "I ride my bike to school."
+    },
+    {
+      "id": "d-verb-0035",
+      "de": "meinen",
+      "de_alt": [],
+      "en": [
+        "to mean",
+        "to think"
+      ],
+      "pos": "verb",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 110,
+      "note": "regular",
+      "example_de": "Was meinst du damit?",
+      "example_en": "What do you mean by that?"
+    },
+    {
+      "id": "d-verb-0036",
+      "de": "fragen",
+      "de_alt": [],
+      "en": [
+        "to ask"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A1",
+      "rank": 112,
+      "note": "regular; fragen nach + Dat",
+      "example_de": "Darf ich dich etwas fragen?",
+      "example_en": "Can I ask you something?"
+    },
+    {
+      "id": "d-verb-0037",
+      "de": "kennen",
+      "de_alt": [],
+      "en": [
+        "to know",
+        "to be familiar with"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "A1",
+      "rank": 115,
+      "note": "kennt – kannte – hat gekannt; know a person/place",
+      "example_de": "Kennst du den neuen Schüler?",
+      "example_en": "Do you know the new student?"
+    },
+    {
+      "id": "d-verb-0038",
+      "de": "gelten",
+      "de_alt": [],
+      "en": [
+        "to be valid",
+        "to count as"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 120,
+      "note": "gilt – galt – hat gegolten",
+      "example_de": "Das Ticket gilt nur heute.",
+      "example_en": "The ticket is only valid today."
+    },
+    {
+      "id": "d-verb-0039",
+      "de": "stellen",
+      "de_alt": [],
+      "en": [
+        "to put",
+        "to place",
+        "to set"
+      ],
+      "pos": "verb",
+      "topic": "position",
+      "level": "A2",
+      "rank": 122,
+      "note": "regular; eine Frage stellen = ask a question",
+      "example_de": "Stell die Flasche in den Kühlschrank.",
+      "example_en": "Put the bottle in the fridge."
+    },
+    {
+      "id": "d-verb-0040",
+      "de": "spielen",
+      "de_alt": [],
+      "en": [
+        "to play"
+      ],
+      "pos": "verb",
+      "topic": "free time",
+      "level": "A1",
+      "rank": 125,
+      "note": "regular",
+      "example_de": "Wir spielen nachmittags Fußball.",
+      "example_en": "We play football in the afternoon."
+    },
+    {
+      "id": "d-verb-0041",
+      "de": "arbeiten",
+      "de_alt": [],
+      "en": [
+        "to work"
+      ],
+      "pos": "verb",
+      "topic": "work",
+      "level": "A1",
+      "rank": 128,
+      "note": "regular: arbeitet – arbeitete – hat gearbeitet",
+      "example_de": "Mein Vater arbeitet im Krankenhaus.",
+      "example_en": "My dad works at the hospital."
+    },
+    {
+      "id": "d-verb-0042",
+      "de": "brauchen",
+      "de_alt": [],
+      "en": [
+        "to need"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 130,
+      "note": "regular",
+      "example_de": "Ich brauche einen neuen Laptop.",
+      "example_en": "I need a new laptop."
+    },
+    {
+      "id": "d-verb-0043",
+      "de": "folgen",
+      "de_alt": [],
+      "en": [
+        "to follow"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "B1",
+      "rank": 135,
+      "note": "ist gefolgt; + Dativ",
+      "example_de": "Folgst du mir auf Instagram?",
+      "example_en": "Do you follow me on Instagram?"
+    },
+    {
+      "id": "d-verb-0044",
+      "de": "lernen",
+      "de_alt": [],
+      "en": [
+        "to learn",
+        "to study"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "A1",
+      "rank": 138,
+      "note": "regular",
+      "example_de": "Ich lerne für die Mathearbeit.",
+      "example_en": "I'm studying for the maths test."
+    },
+    {
+      "id": "d-verb-0045",
+      "de": "bestehen",
+      "de_alt": [],
+      "en": [
+        "to pass",
+        "to consist",
+        "to exist"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "B1",
+      "rank": 140,
+      "note": "besteht – bestand – hat bestanden; bestehen aus = consist of",
+      "example_de": "Ich habe die Prüfung bestanden!",
+      "example_en": "I passed the exam!"
+    },
+    {
+      "id": "d-verb-0046",
+      "de": "verstehen",
+      "de_alt": [],
+      "en": [
+        "to understand"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "A1",
+      "rank": 142,
+      "note": "versteht – verstand – hat verstanden",
+      "example_de": "Ich verstehe die Aufgabe nicht.",
+      "example_en": "I don't understand the task."
+    },
+    {
+      "id": "d-verb-0047",
+      "de": "setzen",
+      "de_alt": [],
+      "en": [
+        "to put",
+        "to set"
+      ],
+      "pos": "verb",
+      "topic": "position",
+      "level": "A2",
+      "rank": 145,
+      "note": "regular; sich setzen = to sit down",
+      "example_de": "Setz dich neben mich!",
+      "example_en": "Sit down next to me!"
+    },
+    {
+      "id": "d-verb-0048",
+      "de": "bekommen",
+      "de_alt": [],
+      "en": [
+        "to get",
+        "to receive"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 148,
+      "note": "bekommt – bekam – hat bekommen; not \"become\"!",
+      "example_de": "Ich habe eine gute Note bekommen.",
+      "example_en": "I got a good grade."
+    },
+    {
+      "id": "d-verb-0049",
+      "de": "beginnen",
+      "de_alt": [],
+      "en": [
+        "to begin",
+        "to start"
+      ],
+      "pos": "verb",
+      "topic": "time",
+      "level": "A1",
+      "rank": 150,
+      "note": "beginnt – begann – hat begonnen",
+      "example_de": "Der Unterricht beginnt um acht.",
+      "example_en": "Lessons start at eight."
+    },
+    {
+      "id": "d-verb-0050",
+      "de": "erzählen",
+      "de_alt": [],
+      "en": [
+        "to tell",
+        "to narrate"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 152,
+      "note": "regular: hat erzählt",
+      "example_de": "Erzähl mal, wie war der Urlaub?",
+      "example_en": "Tell me, how was the holiday?"
+    },
+    {
+      "id": "d-verb-0051",
+      "de": "versuchen",
+      "de_alt": [],
+      "en": [
+        "to try",
+        "to attempt"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 155,
+      "note": "regular: hat versucht",
+      "example_de": "Ich versuche, früher ins Bett zu gehen.",
+      "example_en": "I'm trying to go to bed earlier."
+    },
+    {
+      "id": "d-verb-0052",
+      "de": "schreiben",
+      "de_alt": [],
+      "en": [
+        "to write",
+        "to text"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A1",
+      "rank": 158,
+      "note": "schreibt – schrieb – hat geschrieben",
+      "example_de": "Schreib mir, wenn du da bist.",
+      "example_en": "Text me when you're there."
+    },
+    {
+      "id": "d-verb-0053",
+      "de": "laufen",
+      "de_alt": [],
+      "en": [
+        "to run",
+        "to walk",
+        "to be on"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A1",
+      "rank": 160,
+      "note": "läuft – lief – ist gelaufen",
+      "example_de": "Was läuft heute im Fernsehen?",
+      "example_en": "What's on TV today?"
+    },
+    {
+      "id": "d-verb-0054",
+      "de": "erklären",
+      "de_alt": [],
+      "en": [
+        "to explain",
+        "to declare"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 162,
+      "note": "regular: hat erklärt",
+      "example_de": "Kannst du mir die Aufgabe erklären?",
+      "example_en": "Can you explain the task to me?"
+    },
+    {
+      "id": "d-verb-0055",
+      "de": "entsprechen",
+      "de_alt": [],
+      "en": [
+        "to correspond to",
+        "to match"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B2",
+      "rank": 170,
+      "note": "entspricht – entsprach – hat entsprochen; + Dativ",
+      "example_de": "Das entspricht nicht der Wahrheit.",
+      "example_en": "That doesn't correspond to the truth."
+    },
+    {
+      "id": "d-verb-0056",
+      "de": "sitzen",
+      "de_alt": [],
+      "en": [
+        "to sit",
+        "to be sitting"
+      ],
+      "pos": "verb",
+      "topic": "position",
+      "level": "A1",
+      "rank": 172,
+      "note": "sitzt – saß – hat gesessen",
+      "example_de": "Ich sitze im Bus neben Lena.",
+      "example_en": "I sit next to Lena on the bus."
+    },
+    {
+      "id": "d-verb-0057",
+      "de": "ziehen",
+      "de_alt": [],
+      "en": [
+        "to pull",
+        "to move"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A2",
+      "rank": 175,
+      "note": "zieht – zog – hat/ist gezogen; umziehen = move house",
+      "example_de": "Wir ziehen nächsten Monat nach Hamburg.",
+      "example_en": "We're moving to Hamburg next month."
+    },
+    {
+      "id": "d-verb-0058",
+      "de": "scheinen",
+      "de_alt": [],
+      "en": [
+        "to seem",
+        "to shine"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 178,
+      "note": "scheint – schien – hat geschienen",
+      "example_de": "Heute scheint endlich die Sonne.",
+      "example_en": "The sun is finally shining today."
+    },
+    {
+      "id": "d-verb-0059",
+      "de": "fallen",
+      "de_alt": [],
+      "en": [
+        "to fall",
+        "to drop"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A2",
+      "rank": 180,
+      "note": "fällt – fiel – ist gefallen",
+      "example_de": "Mein Handy ist auf den Boden gefallen.",
+      "example_en": "My phone fell on the floor."
+    },
+    {
+      "id": "d-verb-0060",
+      "de": "gehören",
+      "de_alt": [],
+      "en": [
+        "to belong to"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 182,
+      "note": "regular; + Dativ",
+      "example_de": "Gehört dir diese Jacke?",
+      "example_en": "Does this jacket belong to you?"
+    },
+    {
+      "id": "d-verb-0061",
+      "de": "entstehen",
+      "de_alt": [],
+      "en": [
+        "to arise",
+        "to develop",
+        "to be created"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 185,
+      "note": "entsteht – entstand – ist entstanden",
+      "example_de": "So entstehen viele Missverständnisse.",
+      "example_en": "That's how a lot of misunderstandings arise."
+    },
+    {
+      "id": "d-verb-0062",
+      "de": "erhalten",
+      "de_alt": [],
+      "en": [
+        "to receive",
+        "to get"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 188,
+      "note": "erhält – erhielt – hat erhalten; more formal than bekommen",
+      "example_de": "Du erhältst eine Bestätigung per E-Mail.",
+      "example_en": "You'll receive a confirmation by email."
+    },
+    {
+      "id": "d-verb-0063",
+      "de": "treffen",
+      "de_alt": [],
+      "en": [
+        "to meet",
+        "to hit"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A1",
+      "rank": 190,
+      "note": "trifft – traf – hat getroffen; sich treffen = meet up",
+      "example_de": "Wir treffen uns um vier am Bahnhof.",
+      "example_en": "We're meeting at four at the station."
+    },
+    {
+      "id": "d-verb-0064",
+      "de": "suchen",
+      "de_alt": [],
+      "en": [
+        "to look for",
+        "to search",
+        "to seek"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 192,
+      "note": "regular",
+      "example_de": "Ich suche meinen Schlüssel.",
+      "example_en": "I'm looking for my key."
+    },
+    {
+      "id": "d-verb-0065",
+      "de": "legen",
+      "de_alt": [],
+      "en": [
+        "to put",
+        "to lay"
+      ],
+      "pos": "verb",
+      "topic": "position",
+      "level": "A2",
+      "rank": 195,
+      "note": "regular; put something down flat",
+      "example_de": "Leg dein Handy weg!",
+      "example_en": "Put your phone away!"
+    },
+    {
+      "id": "d-verb-0066",
+      "de": "vorstellen",
+      "de_alt": [],
+      "en": [
+        "to introduce",
+        "to imagine"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 198,
+      "note": "separable: stellt vor – hat vorgestellt; sich etwas vorstellen = imagine",
+      "example_de": "Kannst du dich kurz vorstellen?",
+      "example_en": "Can you briefly introduce yourself?"
+    },
+    {
+      "id": "d-verb-0067",
+      "de": "handeln",
+      "de_alt": [],
+      "en": [
+        "to act",
+        "to trade"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 200,
+      "note": "regular; es handelt sich um = it's about",
+      "example_de": "Der Film handelt von zwei Freunden.",
+      "example_en": "The film is about two friends."
+    },
+    {
+      "id": "d-verb-0068",
+      "de": "erreichen",
+      "de_alt": [],
+      "en": [
+        "to reach",
+        "to achieve"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 202,
+      "note": "regular: hat erreicht",
+      "example_de": "Ich habe den Bus gerade noch erreicht.",
+      "example_en": "I only just caught the bus."
+    },
+    {
+      "id": "d-verb-0069",
+      "de": "tragen",
+      "de_alt": [],
+      "en": [
+        "to carry",
+        "to wear"
+      ],
+      "pos": "verb",
+      "topic": "clothes",
+      "level": "A2",
+      "rank": 205,
+      "note": "trägt – trug – hat getragen",
+      "example_de": "Sie trägt heute eine rote Jacke.",
+      "example_en": "She's wearing a red jacket today."
+    },
+    {
+      "id": "d-verb-0070",
+      "de": "schaffen",
+      "de_alt": [],
+      "en": [
+        "to manage",
+        "to make it",
+        "to create"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 208,
+      "note": "schafft – schaffte – hat geschafft (create: schuf – geschaffen)",
+      "example_de": "Wir schaffen das!",
+      "example_en": "We can do it!"
+    },
+    {
+      "id": "d-verb-0071",
+      "de": "lesen",
+      "de_alt": [],
+      "en": [
+        "to read"
+      ],
+      "pos": "verb",
+      "topic": "free time",
+      "level": "A1",
+      "rank": 210,
+      "note": "liest – las – hat gelesen",
+      "example_de": "Ich lese gerade ein spannendes Buch.",
+      "example_en": "I'm reading an exciting book at the moment."
+    },
+    {
+      "id": "d-verb-0072",
+      "de": "verlieren",
+      "de_alt": [],
+      "en": [
+        "to lose"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 212,
+      "note": "verliert – verlor – hat verloren",
+      "example_de": "Wir haben das Spiel leider verloren.",
+      "example_en": "Unfortunately we lost the match."
+    },
+    {
+      "id": "d-verb-0073",
+      "de": "darstellen",
+      "de_alt": [],
+      "en": [
+        "to represent",
+        "to portray"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B2",
+      "rank": 215,
+      "note": "separable: stellt dar – hat dargestellt",
+      "example_de": "Die Grafik stellt die Ergebnisse dar.",
+      "example_en": "The chart shows the results."
+    },
+    {
+      "id": "d-verb-0074",
+      "de": "erkennen",
+      "de_alt": [],
+      "en": [
+        "to recognise",
+        "to recognize"
+      ],
+      "pos": "verb",
+      "topic": "senses",
+      "level": "B1",
+      "rank": 218,
+      "note": "erkennt – erkannte – hat erkannt",
+      "example_de": "Ich habe dich mit der Brille gar nicht erkannt.",
+      "example_en": "I didn't recognise you with the glasses."
+    },
+    {
+      "id": "d-verb-0075",
+      "de": "entwickeln",
+      "de_alt": [],
+      "en": [
+        "to develop"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 220,
+      "note": "regular: hat entwickelt",
+      "example_de": "Sie entwickelt eine eigene App.",
+      "example_en": "She is developing her own app."
+    },
+    {
+      "id": "d-verb-0076",
+      "de": "reden",
+      "de_alt": [],
+      "en": [
+        "to talk",
+        "to speak"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 222,
+      "note": "regular: redet – redete – hat geredet",
+      "example_de": "Wir müssen mal reden.",
+      "example_en": "We need to talk."
+    },
+    {
+      "id": "d-verb-0077",
+      "de": "aussehen",
+      "de_alt": [],
+      "en": [
+        "to look",
+        "to appear"
+      ],
+      "pos": "verb",
+      "topic": "appearance",
+      "level": "A2",
+      "rank": 225,
+      "note": "separable: sieht aus – sah aus – hat ausgesehen",
+      "example_de": "Du siehst heute müde aus.",
+      "example_en": "You look tired today."
+    },
+    {
+      "id": "d-verb-0078",
+      "de": "erscheinen",
+      "de_alt": [],
+      "en": [
+        "to appear",
+        "to be published"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 228,
+      "note": "erscheint – erschien – ist erschienen",
+      "example_de": "Das neue Album erscheint im Mai.",
+      "example_en": "The new album comes out in May."
+    },
+    {
+      "id": "d-verb-0079",
+      "de": "bilden",
+      "de_alt": [],
+      "en": [
+        "to form",
+        "to educate"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 230,
+      "note": "regular: bildet – bildete – hat gebildet",
+      "example_de": "Bildet bitte Gruppen von vier Personen.",
+      "example_en": "Please form groups of four."
+    },
+    {
+      "id": "d-verb-0080",
+      "de": "anfangen",
+      "de_alt": [],
+      "en": [
+        "to start",
+        "to begin"
+      ],
+      "pos": "verb",
+      "topic": "time",
+      "level": "A1",
+      "rank": 232,
+      "note": "separable: fängt an – fing an – hat angefangen",
+      "example_de": "Wann fängt der Film an?",
+      "example_en": "When does the film start?"
+    },
+    {
+      "id": "d-verb-0081",
+      "de": "erwarten",
+      "de_alt": [],
+      "en": [
+        "to expect",
+        "to wait for"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "B1",
+      "rank": 235,
+      "note": "regular: hat erwartet",
+      "example_de": "Ich erwarte nicht viel von dem Film.",
+      "example_en": "I don't expect much from the film."
+    },
+    {
+      "id": "d-verb-0082",
+      "de": "wohnen",
+      "de_alt": [],
+      "en": [
+        "to live",
+        "to reside"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "A1",
+      "rank": 238,
+      "note": "regular; live somewhere",
+      "example_de": "Ich wohne in einer kleinen Stadt.",
+      "example_en": "I live in a small town."
+    },
+    {
+      "id": "d-verb-0083",
+      "de": "betreffen",
+      "de_alt": [],
+      "en": [
+        "to concern",
+        "to affect"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B2",
+      "rank": 240,
+      "note": "betrifft – betraf – hat betroffen",
+      "example_de": "Das betrifft uns alle.",
+      "example_en": "That concerns all of us."
+    },
+    {
+      "id": "d-verb-0084",
+      "de": "warten",
+      "de_alt": [],
+      "en": [
+        "to wait"
+      ],
+      "pos": "verb",
+      "topic": "time",
+      "level": "A1",
+      "rank": 242,
+      "note": "regular; warten auf + Akk",
+      "example_de": "Ich warte auf dich vor dem Kino.",
+      "example_en": "I'll wait for you outside the cinema."
+    },
+    {
+      "id": "d-verb-0085",
+      "de": "vergehen",
+      "de_alt": [],
+      "en": [
+        "to pass",
+        "to go by"
+      ],
+      "pos": "verb",
+      "topic": "time",
+      "level": "B1",
+      "rank": 245,
+      "note": "vergeht – verging – ist vergangen",
+      "example_de": "Die Ferien sind so schnell vergangen.",
+      "example_en": "The holidays went by so fast."
+    },
+    {
+      "id": "d-verb-0086",
+      "de": "helfen",
+      "de_alt": [],
+      "en": [
+        "to help"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A1",
+      "rank": 248,
+      "note": "hilft – half – hat geholfen; + Dativ",
+      "example_de": "Kannst du mir bei Mathe helfen?",
+      "example_en": "Can you help me with maths?"
+    },
+    {
+      "id": "d-verb-0087",
+      "de": "gewinnen",
+      "de_alt": [],
+      "en": [
+        "to win",
+        "to gain"
+      ],
+      "pos": "verb",
+      "topic": "free time",
+      "level": "A2",
+      "rank": 250,
+      "note": "gewinnt – gewann – hat gewonnen",
+      "example_de": "Wer hat das Spiel gewonnen?",
+      "example_en": "Who won the game?"
+    },
+    {
+      "id": "d-verb-0088",
+      "de": "schließen",
+      "de_alt": [],
+      "en": [
+        "to close",
+        "to shut",
+        "to lock"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 252,
+      "note": "schließt – schloss – hat geschlossen",
+      "example_de": "Schließ bitte das Fenster.",
+      "example_en": "Please close the window."
+    },
+    {
+      "id": "d-verb-0089",
+      "de": "fühlen",
+      "de_alt": [],
+      "en": [
+        "to feel"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 255,
+      "note": "regular; sich fühlen = feel (well/ill)",
+      "example_de": "Ich fühle mich heute nicht gut.",
+      "example_en": "I don't feel well today."
+    },
+    {
+      "id": "d-verb-0090",
+      "de": "bieten",
+      "de_alt": [],
+      "en": [
+        "to offer"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 258,
+      "note": "bietet – bot – hat geboten",
+      "example_de": "Die Stadt bietet viel für Jugendliche.",
+      "example_en": "The town offers a lot for young people."
+    },
+    {
+      "id": "d-verb-0091",
+      "de": "interessieren",
+      "de_alt": [],
+      "en": [
+        "to interest"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 260,
+      "note": "reflexive: sich interessieren für + Akk",
+      "example_de": "Ich interessiere mich für Musik.",
+      "example_en": "I'm interested in music."
+    },
+    {
+      "id": "d-verb-0092",
+      "de": "erinnern",
+      "de_alt": [],
+      "en": [
+        "to remind",
+        "to remember"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "A2",
+      "rank": 262,
+      "note": "reflexive: sich erinnern an + Akk = remember",
+      "example_de": "Ich erinnere mich nicht an seinen Namen.",
+      "example_en": "I don't remember his name."
+    },
+    {
+      "id": "d-verb-0093",
+      "de": "ergeben",
+      "de_alt": [],
+      "en": [
+        "to result in",
+        "to produce"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B2",
+      "rank": 265,
+      "note": "ergibt – ergab – hat ergeben; das ergibt Sinn = that makes sense",
+      "example_de": "Das ergibt keinen Sinn.",
+      "example_en": "That doesn't make sense."
+    },
+    {
+      "id": "d-verb-0094",
+      "de": "anbieten",
+      "de_alt": [],
+      "en": [
+        "to offer"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A2",
+      "rank": 268,
+      "note": "separable: bietet an – bot an – hat angeboten",
+      "example_de": "Darf ich dir etwas zu trinken anbieten?",
+      "example_en": "Can I offer you something to drink?"
+    },
+    {
+      "id": "d-verb-0095",
+      "de": "studieren",
+      "de_alt": [],
+      "en": [
+        "to study"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "A1",
+      "rank": 270,
+      "note": "regular: hat studiert; at university",
+      "example_de": "Mein Bruder studiert Informatik.",
+      "example_en": "My brother studies computer science."
+    },
+    {
+      "id": "d-verb-0096",
+      "de": "verbinden",
+      "de_alt": [],
+      "en": [
+        "to connect",
+        "to link"
+      ],
+      "pos": "verb",
+      "topic": "technology",
+      "level": "B1",
+      "rank": 272,
+      "note": "verbindet – verband – hat verbunden",
+      "example_de": "Verbinde dein Handy mit dem WLAN.",
+      "example_en": "Connect your phone to the Wi-Fi."
+    },
+    {
+      "id": "d-verb-0097",
+      "de": "ansehen",
+      "de_alt": [],
+      "en": [
+        "to look at",
+        "to watch"
+      ],
+      "pos": "verb",
+      "topic": "senses",
+      "level": "A2",
+      "rank": 275,
+      "note": "separable: sieht an – sah an – hat angesehen; sich etwas ansehen",
+      "example_de": "Wollen wir uns heute einen Film ansehen?",
+      "example_en": "Shall we watch a film today?"
+    },
+    {
+      "id": "d-verb-0098",
+      "de": "fehlen",
+      "de_alt": [],
+      "en": [
+        "to be missing",
+        "to lack",
+        "to be absent"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 278,
+      "note": "regular; Du fehlst mir = I miss you",
+      "example_de": "Wer fehlt heute?",
+      "example_en": "Who's absent today?"
+    },
+    {
+      "id": "d-verb-0099",
+      "de": "bedeuten",
+      "de_alt": [],
+      "en": [
+        "to mean"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 280,
+      "note": "regular: bedeutet – bedeutete – hat bedeutet",
+      "example_de": "Was bedeutet dieses Wort?",
+      "example_en": "What does this word mean?"
+    },
+    {
+      "id": "d-verb-0100",
+      "de": "vergleichen",
+      "de_alt": [],
+      "en": [
+        "to compare"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "B1",
+      "rank": 282,
+      "note": "vergleicht – verglich – hat verglichen",
+      "example_de": "Vergleicht eure Antworten mit dem Partner.",
+      "example_en": "Compare your answers with your partner."
+    },
+    {
+      "id": "d-verb-0101",
+      "de": "aufnehmen",
+      "de_alt": [],
+      "en": [
+        "to record",
+        "to take in",
+        "to include"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 285,
+      "note": "separable: nimmt auf – nahm auf – hat aufgenommen",
+      "example_de": "Wir nehmen ein Video für TikTok auf.",
+      "example_en": "We're recording a video for TikTok."
+    },
+    {
+      "id": "d-verb-0102",
+      "de": "kaufen",
+      "de_alt": [],
+      "en": [
+        "to buy"
+      ],
+      "pos": "verb",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 288,
+      "note": "regular",
+      "example_de": "Ich kaufe mir neue Kopfhörer.",
+      "example_en": "I'm buying myself new headphones."
+    },
+    {
+      "id": "d-verb-0103",
+      "de": "bezahlen",
+      "de_alt": [],
+      "en": [
+        "to pay",
+        "to pay for"
+      ],
+      "pos": "verb",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 290,
+      "note": "regular: hat bezahlt",
+      "example_de": "Kann ich mit Karte bezahlen?",
+      "example_en": "Can I pay by card?"
+    },
+    {
+      "id": "d-verb-0104",
+      "de": "essen",
+      "de_alt": [],
+      "en": [
+        "to eat"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "A1",
+      "rank": 292,
+      "note": "isst – aß – hat gegessen",
+      "example_de": "Was essen wir heute Abend?",
+      "example_en": "What are we eating tonight?"
+    },
+    {
+      "id": "d-verb-0105",
+      "de": "trinken",
+      "de_alt": [],
+      "en": [
+        "to drink"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "A1",
+      "rank": 295,
+      "note": "trinkt – trank – hat getrunken",
+      "example_de": "Ich trinke morgens nur Wasser.",
+      "example_en": "I only drink water in the morning."
+    },
+    {
+      "id": "d-verb-0106",
+      "de": "schlafen",
+      "de_alt": [],
+      "en": [
+        "to sleep"
+      ],
+      "pos": "verb",
+      "topic": "daily routine",
+      "level": "A1",
+      "rank": 298,
+      "note": "schläft – schlief – hat geschlafen",
+      "example_de": "Hast du gut geschlafen?",
+      "example_en": "Did you sleep well?"
+    },
+    {
+      "id": "d-verb-0107",
+      "de": "hören",
+      "de_alt": [],
+      "en": [
+        "to hear",
+        "to listen",
+        "to listen to"
+      ],
+      "pos": "verb",
+      "topic": "senses",
+      "level": "A1",
+      "rank": 300,
+      "note": "regular",
+      "example_de": "Ich höre gern Musik beim Lernen.",
+      "example_en": "I like listening to music while studying."
+    },
+    {
+      "id": "d-verb-0108",
+      "de": "öffnen",
+      "de_alt": [],
+      "en": [
+        "to open"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 302,
+      "note": "regular: öffnet – öffnete – hat geöffnet",
+      "example_de": "Kannst du die Tür öffnen?",
+      "example_en": "Can you open the door?"
+    },
+    {
+      "id": "d-verb-0109",
+      "de": "aufmachen",
+      "de_alt": [],
+      "en": [
+        "to open"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 305,
+      "note": "separable: macht auf – hat aufgemacht; everyday word",
+      "example_de": "Mach mal das Fenster auf!",
+      "example_en": "Open the window!"
+    },
+    {
+      "id": "d-verb-0110",
+      "de": "zumachen",
+      "de_alt": [],
+      "en": [
+        "to close",
+        "to shut"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 308,
+      "note": "separable: macht zu – hat zugemacht; everyday word",
+      "example_de": "Mach bitte die Tür zu.",
+      "example_en": "Please close the door."
+    },
+    {
+      "id": "d-verb-0111",
+      "de": "lieben",
+      "de_alt": [],
+      "en": [
+        "to love"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "A1",
+      "rank": 310,
+      "note": "regular",
+      "example_de": "Ich liebe diesen Song!",
+      "example_en": "I love this song!"
+    },
+    {
+      "id": "d-verb-0112",
+      "de": "hoffen",
+      "de_alt": [],
+      "en": [
+        "to hope"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 312,
+      "note": "regular; hoffen auf + Akk",
+      "example_de": "Ich hoffe, es regnet morgen nicht.",
+      "example_en": "I hope it doesn't rain tomorrow."
+    },
+    {
+      "id": "d-verb-0113",
+      "de": "wünschen",
+      "de_alt": [],
+      "en": [
+        "to wish",
+        "to want"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 315,
+      "note": "regular; sich etwas wünschen",
+      "example_de": "Ich wünsche mir ein neues Handy.",
+      "example_en": "I'd like a new phone as a present."
+    },
+    {
+      "id": "d-verb-0114",
+      "de": "antworten",
+      "de_alt": [],
+      "en": [
+        "to answer",
+        "to reply"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A1",
+      "rank": 318,
+      "note": "regular; + Dativ; antworten auf + Akk",
+      "example_de": "Warum antwortest du mir nicht?",
+      "example_en": "Why aren't you answering me?"
+    },
+    {
+      "id": "d-verb-0115",
+      "de": "rufen",
+      "de_alt": [],
+      "en": [
+        "to call",
+        "to shout"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 320,
+      "note": "ruft – rief – hat gerufen",
+      "example_de": "Ruf mich an, wenn du Zeit hast.",
+      "example_en": "Call me when you have time."
+    },
+    {
+      "id": "d-verb-0116",
+      "de": "anrufen",
+      "de_alt": [],
+      "en": [
+        "to call",
+        "to phone",
+        "to ring"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A1",
+      "rank": 322,
+      "note": "separable: ruft an – rief an – hat angerufen; + Akk",
+      "example_de": "Ich rufe dich heute Abend an.",
+      "example_en": "I'll call you this evening."
+    },
+    {
+      "id": "d-verb-0117",
+      "de": "passieren",
+      "de_alt": [],
+      "en": [
+        "to happen"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 325,
+      "note": "regular: ist passiert",
+      "example_de": "Was ist denn passiert?",
+      "example_en": "What happened?"
+    },
+    {
+      "id": "d-verb-0118",
+      "de": "bitten",
+      "de_alt": [],
+      "en": [
+        "to ask",
+        "to request"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 328,
+      "note": "bittet – bat – hat gebeten; bitten um + Akk",
+      "example_de": "Ich bitte dich um einen Gefallen.",
+      "example_en": "I'm asking you for a favour."
+    },
+    {
+      "id": "d-verb-0119",
+      "de": "verdienen",
+      "de_alt": [],
+      "en": [
+        "to earn",
+        "to deserve"
+      ],
+      "pos": "verb",
+      "topic": "work",
+      "level": "A2",
+      "rank": 330,
+      "note": "regular: hat verdient",
+      "example_de": "Mit dem Nebenjob verdiene ich zehn Euro pro Stunde.",
+      "example_en": "I earn ten euros an hour with my part-time job."
+    },
+    {
+      "id": "d-verb-0120",
+      "de": "steigen",
+      "de_alt": [],
+      "en": [
+        "to climb",
+        "to rise",
+        "to go up"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A2",
+      "rank": 332,
+      "note": "steigt – stieg – ist gestiegen; einsteigen/aussteigen = get on/off",
+      "example_de": "Die Preise steigen ständig.",
+      "example_en": "Prices keep rising."
+    },
+    {
+      "id": "d-verb-0121",
+      "de": "einkaufen",
+      "de_alt": [],
+      "en": [
+        "to shop",
+        "to go shopping"
+      ],
+      "pos": "verb",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 335,
+      "note": "separable: kauft ein – hat eingekauft",
+      "example_de": "Ich gehe nach der Schule einkaufen.",
+      "example_en": "I'm going shopping after school."
+    },
+    {
+      "id": "d-verb-0122",
+      "de": "zahlen",
+      "de_alt": [],
+      "en": [
+        "to pay"
+      ],
+      "pos": "verb",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 338,
+      "note": "regular; Zahlen, bitte! = The bill, please!",
+      "example_de": "Wir zahlen getrennt.",
+      "example_en": "We'll pay separately."
+    },
+    {
+      "id": "d-verb-0123",
+      "de": "reisen",
+      "de_alt": [],
+      "en": [
+        "to travel"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "A1",
+      "rank": 340,
+      "note": "regular: ist gereist",
+      "example_de": "Im Sommer reisen wir nach Italien.",
+      "example_en": "We're travelling to Italy in the summer."
+    },
+    {
+      "id": "d-verb-0124",
+      "de": "fliegen",
+      "de_alt": [],
+      "en": [
+        "to fly"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "A1",
+      "rank": 342,
+      "note": "fliegt – flog – ist geflogen",
+      "example_de": "Wir fliegen morgen nach Spanien.",
+      "example_en": "We're flying to Spain tomorrow."
+    },
+    {
+      "id": "d-verb-0125",
+      "de": "vergessen",
+      "de_alt": [],
+      "en": [
+        "to forget"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "A1",
+      "rank": 345,
+      "note": "vergisst – vergaß – hat vergessen",
+      "example_de": "Ich habe meine Hausaufgaben vergessen.",
+      "example_en": "I forgot my homework."
+    },
+    {
+      "id": "d-verb-0126",
+      "de": "besuchen",
+      "de_alt": [],
+      "en": [
+        "to visit",
+        "to attend"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A1",
+      "rank": 348,
+      "note": "regular: hat besucht",
+      "example_de": "Am Sonntag besuchen wir meine Oma.",
+      "example_en": "On Sunday we're visiting my grandma."
+    },
+    {
+      "id": "d-verb-0127",
+      "de": "entscheiden",
+      "de_alt": [],
+      "en": [
+        "to decide"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "A2",
+      "rank": 350,
+      "note": "entscheidet – entschied – hat entschieden; sich entscheiden für",
+      "example_de": "Ich kann mich nicht entscheiden.",
+      "example_en": "I can't decide."
+    },
+    {
+      "id": "d-verb-0128",
+      "de": "gefallen",
+      "de_alt": [],
+      "en": [
+        "to please",
+        "to like"
+      ],
+      "pos": "verb",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 352,
+      "note": "gefällt – gefiel – hat gefallen; + Dativ: Das gefällt mir = I like that",
+      "example_de": "Gefällt dir das T-Shirt?",
+      "example_en": "Do you like the T-shirt?"
+    },
+    {
+      "id": "d-verb-0129",
+      "de": "ändern",
+      "de_alt": [],
+      "en": [
+        "to change",
+        "to alter"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 355,
+      "note": "regular; sich ändern = change (oneself)",
+      "example_de": "Ich habe meine Meinung geändert.",
+      "example_en": "I've changed my mind."
+    },
+    {
+      "id": "d-verb-0130",
+      "de": "benutzen",
+      "de_alt": [],
+      "en": [
+        "to use"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 358,
+      "note": "regular: hat benutzt",
+      "example_de": "Darf ich dein Ladekabel benutzen?",
+      "example_en": "Can I use your charger?"
+    },
+    {
+      "id": "d-verb-0131",
+      "de": "nutzen",
+      "de_alt": [],
+      "en": [
+        "to use",
+        "to make use of"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 360,
+      "note": "regular: hat genutzt",
+      "example_de": "Nutze die Zeit zum Lernen!",
+      "example_en": "Use the time to study!"
+    },
+    {
+      "id": "d-verb-0132",
+      "de": "kosten",
+      "de_alt": [],
+      "en": [
+        "to cost",
+        "to taste"
+      ],
+      "pos": "verb",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 362,
+      "note": "regular: kostet – kostete – hat gekostet",
+      "example_de": "Wie viel kostet das?",
+      "example_en": "How much does that cost?"
+    },
+    {
+      "id": "d-verb-0133",
+      "de": "ankommen",
+      "de_alt": [],
+      "en": [
+        "to arrive"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "A1",
+      "rank": 365,
+      "note": "separable: kommt an – kam an – ist angekommen; es kommt darauf an = it depends",
+      "example_de": "Wann kommt der Zug in Berlin an?",
+      "example_en": "When does the train arrive in Berlin?"
+    },
+    {
+      "id": "d-verb-0134",
+      "de": "kennenlernen",
+      "de_alt": [],
+      "en": [
+        "to get to know",
+        "to meet"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A1",
+      "rank": 368,
+      "note": "separable: lernt kennen – hat kennengelernt; meet for the first time",
+      "example_de": "Wo habt ihr euch kennengelernt?",
+      "example_en": "Where did you two meet?"
+    },
+    {
+      "id": "d-verb-0135",
+      "de": "aufstehen",
+      "de_alt": [],
+      "en": [
+        "to get up",
+        "to stand up"
+      ],
+      "pos": "verb",
+      "topic": "daily routine",
+      "level": "A1",
+      "rank": 370,
+      "note": "separable: steht auf – stand auf – ist aufgestanden",
+      "example_de": "Ich stehe jeden Tag um sechs auf.",
+      "example_en": "I get up at six every day."
+    },
+    {
+      "id": "d-verb-0136",
+      "de": "freuen",
+      "de_alt": [],
+      "en": [
+        "to be happy",
+        "to be glad"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 372,
+      "note": "reflexive: sich freuen über (present) / auf (future) + Akk",
+      "example_de": "Ich freue mich auf die Ferien.",
+      "example_en": "I'm looking forward to the holidays."
+    },
+    {
+      "id": "d-verb-0137",
+      "de": "einladen",
+      "de_alt": [],
+      "en": [
+        "to invite",
+        "to treat"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A1",
+      "rank": 375,
+      "note": "separable: lädt ein – lud ein – hat eingeladen",
+      "example_de": "Ich lade dich zu meiner Party ein.",
+      "example_en": "I'm inviting you to my party."
+    },
+    {
+      "id": "d-verb-0138",
+      "de": "schicken",
+      "de_alt": [],
+      "en": [
+        "to send"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A1",
+      "rank": 378,
+      "note": "regular: hat geschickt",
+      "example_de": "Schick mir das Foto mal!",
+      "example_en": "Send me the photo!"
+    },
+    {
+      "id": "d-verb-0139",
+      "de": "funktionieren",
+      "de_alt": [],
+      "en": [
+        "to work",
+        "to function"
+      ],
+      "pos": "verb",
+      "topic": "technology",
+      "level": "A2",
+      "rank": 380,
+      "note": "regular: hat funktioniert; for things/machines",
+      "example_de": "Das WLAN funktioniert schon wieder nicht.",
+      "example_en": "The Wi-Fi isn't working again."
+    },
+    {
+      "id": "d-verb-0140",
+      "de": "kochen",
+      "de_alt": [],
+      "en": [
+        "to cook",
+        "to boil"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "A1",
+      "rank": 382,
+      "note": "regular",
+      "example_de": "Heute koche ich Nudeln für alle.",
+      "example_en": "Today I'm cooking pasta for everyone."
+    },
+    {
+      "id": "d-verb-0141",
+      "de": "wählen",
+      "de_alt": [],
+      "en": [
+        "to choose",
+        "to vote",
+        "to dial"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 385,
+      "note": "regular",
+      "example_de": "Wen würdest du wählen?",
+      "example_en": "Who would you vote for?"
+    },
+    {
+      "id": "d-verb-0142",
+      "de": "lachen",
+      "de_alt": [],
+      "en": [
+        "to laugh"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "A1",
+      "rank": 388,
+      "note": "regular; lachen über + Akk",
+      "example_de": "Wir haben so viel gelacht!",
+      "example_en": "We laughed so much!"
+    },
+    {
+      "id": "d-verb-0143",
+      "de": "schauen",
+      "de_alt": [],
+      "en": [
+        "to look",
+        "to watch"
+      ],
+      "pos": "verb",
+      "topic": "senses",
+      "level": "A1",
+      "rank": 390,
+      "note": "regular; common in southern Germany/Austria",
+      "example_de": "Schau mal, da ist Tim!",
+      "example_en": "Look, there's Tim!"
+    },
+    {
+      "id": "d-verb-0144",
+      "de": "gucken",
+      "de_alt": [],
+      "en": [
+        "to look",
+        "to watch"
+      ],
+      "pos": "verb",
+      "topic": "senses",
+      "level": "A1",
+      "rank": 392,
+      "note": "regular; colloquial",
+      "example_de": "Wollen wir heute Abend Netflix gucken?",
+      "example_en": "Shall we watch Netflix tonight?"
+    },
+    {
+      "id": "d-verb-0145",
+      "de": "feiern",
+      "de_alt": [],
+      "en": [
+        "to celebrate",
+        "to party"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A1",
+      "rank": 395,
+      "note": "regular",
+      "example_de": "Wir feiern am Samstag meinen Geburtstag.",
+      "example_en": "We're celebrating my birthday on Saturday."
+    },
+    {
+      "id": "d-verb-0146",
+      "de": "bestellen",
+      "de_alt": [],
+      "en": [
+        "to order"
+      ],
+      "pos": "verb",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 398,
+      "note": "regular: hat bestellt",
+      "example_de": "Sollen wir Pizza bestellen?",
+      "example_en": "Shall we order pizza?"
+    },
+    {
+      "id": "d-verb-0147",
+      "de": "schmecken",
+      "de_alt": [],
+      "en": [
+        "to taste",
+        "to taste good"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "A1",
+      "rank": 400,
+      "note": "regular; Schmeckt's? = Do you like it?",
+      "example_de": "Die Pizza schmeckt super!",
+      "example_en": "The pizza tastes great!"
+    },
+    {
+      "id": "d-verb-0148",
+      "de": "passen",
+      "de_alt": [],
+      "en": [
+        "to fit",
+        "to suit"
+      ],
+      "pos": "verb",
+      "topic": "clothes",
+      "level": "A2",
+      "rank": 402,
+      "note": "regular; + Dativ; Passt schon = It's fine",
+      "example_de": "Die Hose passt mir nicht mehr.",
+      "example_en": "The trousers don't fit me any more."
+    },
+    {
+      "id": "d-verb-0149",
+      "de": "holen",
+      "de_alt": [],
+      "en": [
+        "to get",
+        "to fetch"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 405,
+      "note": "regular",
+      "example_de": "Ich hole mir schnell was zu trinken.",
+      "example_en": "I'm quickly getting myself something to drink."
+    },
+    {
+      "id": "d-verb-0150",
+      "de": "abholen",
+      "de_alt": [],
+      "en": [
+        "to pick up",
+        "to collect"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 408,
+      "note": "separable: holt ab – hat abgeholt",
+      "example_de": "Kannst du mich vom Bahnhof abholen?",
+      "example_en": "Can you pick me up from the station?"
+    },
+    {
+      "id": "d-verb-0151",
+      "de": "mitkommen",
+      "de_alt": [],
+      "en": [
+        "to come along"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A1",
+      "rank": 410,
+      "note": "separable: kommt mit – kam mit – ist mitgekommen",
+      "example_de": "Willst du mitkommen?",
+      "example_en": "Do you want to come along?"
+    },
+    {
+      "id": "d-verb-0152",
+      "de": "mitnehmen",
+      "de_alt": [],
+      "en": [
+        "to take along",
+        "to bring along"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A2",
+      "rank": 412,
+      "note": "separable: nimmt mit – nahm mit – hat mitgenommen",
+      "example_de": "Nimm eine Jacke mit!",
+      "example_en": "Take a jacket with you!"
+    },
+    {
+      "id": "d-verb-0153",
+      "de": "zurückkommen",
+      "de_alt": [],
+      "en": [
+        "to come back",
+        "to return"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A2",
+      "rank": 415,
+      "note": "separable: kommt zurück – kam zurück – ist zurückgekommen",
+      "example_de": "Wann kommst du zurück?",
+      "example_en": "When are you coming back?"
+    },
+    {
+      "id": "d-verb-0154",
+      "de": "üben",
+      "de_alt": [],
+      "en": [
+        "to practise",
+        "to practice"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "A1",
+      "rank": 418,
+      "note": "regular",
+      "example_de": "Ich übe jeden Tag Gitarre.",
+      "example_en": "I practise guitar every day."
+    },
+    {
+      "id": "d-verb-0155",
+      "de": "wiederholen",
+      "de_alt": [],
+      "en": [
+        "to repeat",
+        "to revise",
+        "to review"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "A2",
+      "rank": 420,
+      "note": "inseparable: wiederholt – hat wiederholt",
+      "example_de": "Können Sie das bitte wiederholen?",
+      "example_en": "Could you repeat that, please?"
+    },
+    {
+      "id": "d-verb-0156",
+      "de": "beschreiben",
+      "de_alt": [],
+      "en": [
+        "to describe"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 422,
+      "note": "beschreibt – beschrieb – hat beschrieben",
+      "example_de": "Beschreib mal dein Zimmer.",
+      "example_en": "Describe your room."
+    },
+    {
+      "id": "d-verb-0157",
+      "de": "teilen",
+      "de_alt": [],
+      "en": [
+        "to share",
+        "to divide"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A2",
+      "rank": 425,
+      "note": "regular",
+      "example_de": "Kannst du den Link in der Gruppe teilen?",
+      "example_en": "Can you share the link in the group?"
+    },
+    {
+      "id": "d-verb-0158",
+      "de": "ausgehen",
+      "de_alt": [],
+      "en": [
+        "to go out"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A2",
+      "rank": 428,
+      "note": "separable: geht aus – ging aus – ist ausgegangen",
+      "example_de": "Gehst du am Freitag aus?",
+      "example_en": "Are you going out on Friday?"
+    },
+    {
+      "id": "d-verb-0159",
+      "de": "fernsehen",
+      "de_alt": [],
+      "en": [
+        "to watch TV",
+        "to watch television"
+      ],
+      "pos": "verb",
+      "topic": "free time",
+      "level": "A1",
+      "rank": 430,
+      "note": "separable: sieht fern – sah fern – hat ferngesehen",
+      "example_de": "Wir sehen nach dem Essen fern.",
+      "example_en": "We watch TV after dinner."
+    },
+    {
+      "id": "d-verb-0160",
+      "de": "tanzen",
+      "de_alt": [],
+      "en": [
+        "to dance"
+      ],
+      "pos": "verb",
+      "topic": "free time",
+      "level": "A1",
+      "rank": 432,
+      "note": "regular",
+      "example_de": "Auf der Party haben alle getanzt.",
+      "example_en": "Everyone danced at the party."
+    },
+    {
+      "id": "d-verb-0161",
+      "de": "singen",
+      "de_alt": [],
+      "en": [
+        "to sing"
+      ],
+      "pos": "verb",
+      "topic": "free time",
+      "level": "A1",
+      "rank": 435,
+      "note": "singt – sang – hat gesungen",
+      "example_de": "Sie singt in einer Band.",
+      "example_en": "She sings in a band."
+    },
+    {
+      "id": "d-verb-0162",
+      "de": "schwimmen",
+      "de_alt": [],
+      "en": [
+        "to swim"
+      ],
+      "pos": "verb",
+      "topic": "sport",
+      "level": "A1",
+      "rank": 438,
+      "note": "schwimmt – schwamm – ist/hat geschwommen",
+      "example_de": "Im Sommer schwimmen wir im See.",
+      "example_en": "In summer we swim in the lake."
+    },
+    {
+      "id": "d-verb-0163",
+      "de": "waschen",
+      "de_alt": [],
+      "en": [
+        "to wash"
+      ],
+      "pos": "verb",
+      "topic": "daily routine",
+      "level": "A1",
+      "rank": 440,
+      "note": "wäscht – wusch – hat gewaschen; sich waschen = wash (oneself)",
+      "example_de": "Ich muss noch meine Sportsachen waschen.",
+      "example_en": "I still have to wash my sports kit."
+    },
+    {
+      "id": "d-verb-0164",
+      "de": "anziehen",
+      "de_alt": [],
+      "en": [
+        "to put on",
+        "to dress"
+      ],
+      "pos": "verb",
+      "topic": "clothes",
+      "level": "A1",
+      "rank": 442,
+      "note": "separable: zieht an – zog an – hat angezogen; sich anziehen = get dressed",
+      "example_de": "Zieh dich warm an, es ist kalt!",
+      "example_en": "Dress warmly, it's cold!"
+    },
+    {
+      "id": "d-verb-0165",
+      "de": "duschen",
+      "de_alt": [],
+      "en": [
+        "to shower",
+        "to have a shower",
+        "to take a shower"
+      ],
+      "pos": "verb",
+      "topic": "daily routine",
+      "level": "A1",
+      "rank": 445,
+      "note": "regular; also sich duschen",
+      "example_de": "Ich dusche morgens immer kurz.",
+      "example_en": "I always have a quick shower in the morning."
+    },
+    {
+      "id": "d-verb-0166",
+      "de": "frühstücken",
+      "de_alt": [],
+      "en": [
+        "to have breakfast",
+        "to eat breakfast"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "A1",
+      "rank": 448,
+      "note": "regular: hat gefrühstückt",
+      "example_de": "Ich frühstücke meistens nicht.",
+      "example_en": "I usually don't have breakfast."
+    },
+    {
+      "id": "d-verb-0167",
+      "de": "aufräumen",
+      "de_alt": [],
+      "en": [
+        "to tidy up",
+        "to clean up"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "A1",
+      "rank": 450,
+      "note": "separable: räumt auf – hat aufgeräumt",
+      "example_de": "Räum endlich dein Zimmer auf!",
+      "example_en": "Tidy your room already!"
+    },
+    {
+      "id": "d-verb-0168",
+      "de": "putzen",
+      "de_alt": [],
+      "en": [
+        "to clean"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "A1",
+      "rank": 452,
+      "note": "regular; Zähne putzen = brush teeth",
+      "example_de": "Ich putze mir die Zähne.",
+      "example_en": "I'm brushing my teeth."
+    },
+    {
+      "id": "d-verb-0169",
+      "de": "vorbereiten",
+      "de_alt": [],
+      "en": [
+        "to prepare"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "A2",
+      "rank": 455,
+      "note": "separable: bereitet vor – hat vorbereitet; sich vorbereiten auf + Akk",
+      "example_de": "Ich bereite mich auf das Referat vor.",
+      "example_en": "I'm preparing for my presentation."
+    },
+    {
+      "id": "d-verb-0170",
+      "de": "erlauben",
+      "de_alt": [],
+      "en": [
+        "to allow",
+        "to permit"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A2",
+      "rank": 458,
+      "note": "regular: hat erlaubt; + Dativ of person",
+      "example_de": "Meine Eltern erlauben mir das nicht.",
+      "example_en": "My parents don't allow me to do that."
+    },
+    {
+      "id": "d-verb-0171",
+      "de": "verbieten",
+      "de_alt": [],
+      "en": [
+        "to forbid",
+        "to ban",
+        "to prohibit"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "B1",
+      "rank": 460,
+      "note": "verbietet – verbot – hat verboten",
+      "example_de": "Handys sind im Unterricht verboten.",
+      "example_en": "Phones are banned in class."
+    },
+    {
+      "id": "d-verb-0172",
+      "de": "empfehlen",
+      "de_alt": [],
+      "en": [
+        "to recommend"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 462,
+      "note": "empfiehlt – empfahl – hat empfohlen",
+      "example_de": "Kannst du mir eine Serie empfehlen?",
+      "example_en": "Can you recommend a series to me?"
+    },
+    {
+      "id": "d-verb-0173",
+      "de": "vorschlagen",
+      "de_alt": [],
+      "en": [
+        "to suggest",
+        "to propose"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "B1",
+      "rank": 465,
+      "note": "separable: schlägt vor – schlug vor – hat vorgeschlagen",
+      "example_de": "Ich schlage vor, wir gehen ins Kino.",
+      "example_en": "I suggest we go to the cinema."
+    },
+    {
+      "id": "d-verb-0174",
+      "de": "ausprobieren",
+      "de_alt": [],
+      "en": [
+        "to try out",
+        "to try"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 468,
+      "note": "separable: probiert aus – hat ausprobiert",
+      "example_de": "Ich will das neue Spiel ausprobieren.",
+      "example_en": "I want to try out the new game."
+    },
+    {
+      "id": "d-verb-0175",
+      "de": "probieren",
+      "de_alt": [],
+      "en": [
+        "to try",
+        "to taste"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "A2",
+      "rank": 470,
+      "note": "regular: hat probiert",
+      "example_de": "Probier mal den Kuchen!",
+      "example_en": "Try the cake!"
+    },
+    {
+      "id": "d-verb-0176",
+      "de": "stimmen",
+      "de_alt": [],
+      "en": [
+        "to be right",
+        "to be true",
+        "to vote"
+      ],
+      "pos": "verb",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 472,
+      "note": "regular; Das stimmt = That's right",
+      "example_de": "Stimmt das wirklich?",
+      "example_en": "Is that really true?"
+    },
+    {
+      "id": "d-verb-0177",
+      "de": "klappen",
+      "de_alt": [],
+      "en": [
+        "to work out",
+        "to work"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 475,
+      "note": "regular; colloquial: Hat es geklappt? = Did it work?",
+      "example_de": "Hoffentlich klappt es mit dem Treffen.",
+      "example_en": "Hopefully the meeting works out."
+    },
+    {
+      "id": "d-verb-0178",
+      "de": "verkaufen",
+      "de_alt": [],
+      "en": [
+        "to sell"
+      ],
+      "pos": "verb",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 478,
+      "note": "regular: hat verkauft",
+      "example_de": "Ich verkaufe mein altes Fahrrad online.",
+      "example_en": "I'm selling my old bike online."
+    },
+    {
+      "id": "d-verb-0179",
+      "de": "ausgeben",
+      "de_alt": [],
+      "en": [
+        "to spend"
+      ],
+      "pos": "verb",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 480,
+      "note": "separable: gibt aus – gab aus – hat ausgegeben; money",
+      "example_de": "Ich gebe zu viel Geld für Klamotten aus.",
+      "example_en": "I spend too much money on clothes."
+    },
+    {
+      "id": "d-verb-0180",
+      "de": "sparen",
+      "de_alt": [],
+      "en": [
+        "to save"
+      ],
+      "pos": "verb",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 482,
+      "note": "regular; money/time",
+      "example_de": "Ich spare für ein neues Handy.",
+      "example_en": "I'm saving for a new phone."
+    },
+    {
+      "id": "d-verb-0181",
+      "de": "vermissen",
+      "de_alt": [],
+      "en": [
+        "to miss"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 485,
+      "note": "regular: hat vermisst; miss a person/thing",
+      "example_de": "Ich vermisse dich!",
+      "example_en": "I miss you!"
+    },
+    {
+      "id": "d-verb-0182",
+      "de": "ärgern",
+      "de_alt": [],
+      "en": [
+        "to annoy",
+        "to be annoyed"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 488,
+      "note": "regular; sich ärgern über + Akk = be annoyed about",
+      "example_de": "Ich ärgere mich über die schlechte Note.",
+      "example_en": "I'm annoyed about the bad grade."
+    },
+    {
+      "id": "d-verb-0183",
+      "de": "beeilen",
+      "de_alt": [],
+      "en": [
+        "to hurry",
+        "to hurry up"
+      ],
+      "pos": "verb",
+      "topic": "time",
+      "level": "A2",
+      "rank": 490,
+      "note": "reflexive: sich beeilen",
+      "example_de": "Beeil dich, der Bus kommt!",
+      "example_en": "Hurry up, the bus is coming!"
+    },
+    {
+      "id": "d-verb-0184",
+      "de": "entschuldigen",
+      "de_alt": [],
+      "en": [
+        "to excuse",
+        "to apologise",
+        "to apologize"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A2",
+      "rank": 492,
+      "note": "regular; sich entschuldigen bei + Dat = apologise to",
+      "example_de": "Ich möchte mich bei dir entschuldigen.",
+      "example_en": "I'd like to apologise to you."
+    },
+    {
+      "id": "d-verb-0185",
+      "de": "kümmern",
+      "de_alt": [],
+      "en": [
+        "to take care of",
+        "to look after"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "B1",
+      "rank": 495,
+      "note": "reflexive: sich kümmern um + Akk",
+      "example_de": "Ich kümmere mich um den Hund.",
+      "example_en": "I'll look after the dog."
+    },
+    {
+      "id": "d-verb-0186",
+      "de": "streiten",
+      "de_alt": [],
+      "en": [
+        "to argue",
+        "to fight"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "B1",
+      "rank": 498,
+      "note": "streitet – stritt – hat gestritten; sich streiten",
+      "example_de": "Meine Geschwister streiten sich ständig.",
+      "example_en": "My siblings argue all the time."
+    },
+    {
+      "id": "d-verb-0187",
+      "de": "stören",
+      "de_alt": [],
+      "en": [
+        "to disturb",
+        "to bother"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A2",
+      "rank": 500,
+      "note": "regular; Stört es dich? = Does it bother you?",
+      "example_de": "Störe ich gerade?",
+      "example_en": "Am I disturbing you?"
+    },
+    {
+      "id": "d-verb-0188",
+      "de": "langweilen",
+      "de_alt": [],
+      "en": [
+        "to bore",
+        "to be bored"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "B1",
+      "rank": 505,
+      "note": "regular; sich langweilen = be bored",
+      "example_de": "Ich langweile mich im Unterricht.",
+      "example_en": "I'm bored in class."
+    },
+    {
+      "id": "d-verb-0189",
+      "de": "aufpassen",
+      "de_alt": [],
+      "en": [
+        "to pay attention",
+        "to watch out",
+        "to look after"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "A2",
+      "rank": 510,
+      "note": "separable: passt auf – hat aufgepasst; aufpassen auf + Akk",
+      "example_de": "Pass auf, das Auto!",
+      "example_en": "Watch out, the car!"
+    },
+    {
+      "id": "d-verb-0190",
+      "de": "zuhören",
+      "de_alt": [],
+      "en": [
+        "to listen"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 512,
+      "note": "separable: hört zu – hat zugehört; + Dativ",
+      "example_de": "Hör mir doch mal zu!",
+      "example_en": "Just listen to me!"
+    },
+    {
+      "id": "d-verb-0191",
+      "de": "mitmachen",
+      "de_alt": [],
+      "en": [
+        "to join in",
+        "to take part"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A2",
+      "rank": 515,
+      "note": "separable: macht mit – hat mitgemacht",
+      "example_de": "Machst du beim Wettbewerb mit?",
+      "example_en": "Are you taking part in the competition?"
+    },
+    {
+      "id": "d-verb-0192",
+      "de": "telefonieren",
+      "de_alt": [],
+      "en": [
+        "to phone",
+        "to talk on the phone"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "A1",
+      "rank": 518,
+      "note": "regular: hat telefoniert; telefonieren mit + Dat",
+      "example_de": "Ich telefoniere gerade mit meiner Mutter.",
+      "example_en": "I'm on the phone with my mum right now."
+    },
+    {
+      "id": "d-verb-0193",
+      "de": "chatten",
+      "de_alt": [],
+      "en": [
+        "to chat",
+        "to text"
+      ],
+      "pos": "verb",
+      "topic": "technology",
+      "level": "A2",
+      "rank": 520,
+      "note": "regular: hat gechattet; online",
+      "example_de": "Wir chatten jeden Abend.",
+      "example_en": "We chat every evening."
+    },
+    {
+      "id": "d-verb-0194",
+      "de": "posten",
+      "de_alt": [],
+      "en": [
+        "to post"
+      ],
+      "pos": "verb",
+      "topic": "technology",
+      "level": "A2",
+      "rank": 522,
+      "note": "regular: hat gepostet",
+      "example_de": "Hast du das Foto schon gepostet?",
+      "example_en": "Have you posted the photo yet?"
+    },
+    {
+      "id": "d-verb-0195",
+      "de": "herunterladen",
+      "de_alt": [
+        "runterladen"
+      ],
+      "en": [
+        "to download"
+      ],
+      "pos": "verb",
+      "topic": "technology",
+      "level": "B1",
+      "rank": 525,
+      "note": "separable: lädt herunter – lud herunter – hat heruntergeladen",
+      "example_de": "Du musst die App erst herunterladen.",
+      "example_en": "You have to download the app first."
+    },
+    {
+      "id": "d-verb-0196",
+      "de": "speichern",
+      "de_alt": [],
+      "en": [
+        "to save",
+        "to store"
+      ],
+      "pos": "verb",
+      "topic": "technology",
+      "level": "B1",
+      "rank": 528,
+      "note": "regular: hat gespeichert",
+      "example_de": "Hast du die Datei gespeichert?",
+      "example_en": "Did you save the file?"
+    },
+    {
+      "id": "d-verb-0197",
+      "de": "löschen",
+      "de_alt": [],
+      "en": [
+        "to delete",
+        "to erase"
+      ],
+      "pos": "verb",
+      "topic": "technology",
+      "level": "B1",
+      "rank": 530,
+      "note": "regular: hat gelöscht",
+      "example_de": "Lösch bitte das peinliche Foto!",
+      "example_en": "Please delete that embarrassing photo!"
+    },
+    {
+      "id": "d-verb-0198",
+      "de": "aufladen",
+      "de_alt": [],
+      "en": [
+        "to charge",
+        "to top up"
+      ],
+      "pos": "verb",
+      "topic": "technology",
+      "level": "B1",
+      "rank": 532,
+      "note": "separable: lädt auf – lud auf – hat aufgeladen",
+      "example_de": "Ich muss mein Handy aufladen.",
+      "example_en": "I need to charge my phone."
+    },
+    {
+      "id": "d-verb-0199",
+      "de": "anmachen",
+      "de_alt": [],
+      "en": [
+        "to turn on",
+        "to switch on"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "A2",
+      "rank": 535,
+      "note": "separable: macht an – hat angemacht; colloquial",
+      "example_de": "Mach mal das Licht an.",
+      "example_en": "Turn the light on."
+    },
+    {
+      "id": "d-verb-0200",
+      "de": "ausmachen",
+      "de_alt": [],
+      "en": [
+        "to turn off",
+        "to switch off",
+        "to arrange"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "A2",
+      "rank": 538,
+      "note": "separable: macht aus – hat ausgemacht; Das macht mir nichts aus = I don't mind",
+      "example_de": "Mach bitte den Fernseher aus.",
+      "example_en": "Please turn off the TV."
+    },
+    {
+      "id": "d-verb-0201",
+      "de": "einschalten",
+      "de_alt": [],
+      "en": [
+        "to switch on",
+        "to turn on"
+      ],
+      "pos": "verb",
+      "topic": "technology",
+      "level": "B1",
+      "rank": 540,
+      "note": "separable: schaltet ein – hat eingeschaltet",
+      "example_de": "Schalte den Computer ein.",
+      "example_en": "Switch on the computer."
+    },
+    {
+      "id": "d-verb-0202",
+      "de": "ausschalten",
+      "de_alt": [],
+      "en": [
+        "to switch off",
+        "to turn off"
+      ],
+      "pos": "verb",
+      "topic": "technology",
+      "level": "B1",
+      "rank": 542,
+      "note": "separable: schaltet aus – hat ausgeschaltet",
+      "example_de": "Bitte schaltet eure Handys aus.",
+      "example_en": "Please switch off your phones."
+    },
+    {
+      "id": "d-verb-0203",
+      "de": "reparieren",
+      "de_alt": [],
+      "en": [
+        "to repair",
+        "to fix"
+      ],
+      "pos": "verb",
+      "topic": "technology",
+      "level": "A2",
+      "rank": 545,
+      "note": "regular: hat repariert",
+      "example_de": "Kannst du mein Fahrrad reparieren?",
+      "example_en": "Can you fix my bike?"
+    },
+    {
+      "id": "d-verb-0204",
+      "de": "kaputtgehen",
+      "de_alt": [],
+      "en": [
+        "to break",
+        "to break down"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 548,
+      "note": "separable: geht kaputt – ging kaputt – ist kaputtgegangen",
+      "example_de": "Mein Bildschirm ist kaputtgegangen.",
+      "example_en": "My screen broke."
+    },
+    {
+      "id": "d-verb-0205",
+      "de": "leihen",
+      "de_alt": [
+        "ausleihen"
+      ],
+      "en": [
+        "to lend",
+        "to borrow"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 550,
+      "note": "leiht – lieh – hat geliehen; sich etwas leihen = borrow",
+      "example_de": "Kannst du mir deinen Stift leihen?",
+      "example_en": "Can you lend me your pen?"
+    },
+    {
+      "id": "d-verb-0206",
+      "de": "merken",
+      "de_alt": [],
+      "en": [
+        "to notice",
+        "to realise",
+        "to realize"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "B1",
+      "rank": 552,
+      "note": "regular; sich etwas merken = remember/memorise",
+      "example_de": "Das kann ich mir nie merken.",
+      "example_en": "I can never remember that."
+    },
+    {
+      "id": "d-verb-0207",
+      "de": "bemerken",
+      "de_alt": [],
+      "en": [
+        "to notice",
+        "to remark"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "B1",
+      "rank": 555,
+      "note": "regular: hat bemerkt",
+      "example_de": "Hat der Lehrer etwas bemerkt?",
+      "example_en": "Did the teacher notice anything?"
+    },
+    {
+      "id": "d-verb-0208",
+      "de": "überlegen",
+      "de_alt": [],
+      "en": [
+        "to think about",
+        "to consider"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "A2",
+      "rank": 558,
+      "note": "inseparable: überlegt – hat überlegt; sich etwas überlegen",
+      "example_de": "Ich muss mir das noch überlegen.",
+      "example_en": "I still have to think about it."
+    },
+    {
+      "id": "d-verb-0209",
+      "de": "planen",
+      "de_alt": [],
+      "en": [
+        "to plan"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "A2",
+      "rank": 560,
+      "note": "regular",
+      "example_de": "Wir planen einen Ausflug an den See.",
+      "example_en": "We're planning a trip to the lake."
+    },
+    {
+      "id": "d-verb-0210",
+      "de": "lügen",
+      "de_alt": [],
+      "en": [
+        "to lie",
+        "to tell a lie"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "B1",
+      "rank": 562,
+      "note": "lügt – log – hat gelogen; tell a lie (liegen = lie down)",
+      "example_de": "Du lügst doch!",
+      "example_en": "You're lying!"
+    },
+    {
+      "id": "d-verb-0211",
+      "de": "vertrauen",
+      "de_alt": [],
+      "en": [
+        "to trust"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "B1",
+      "rank": 565,
+      "note": "regular: hat vertraut; + Dativ",
+      "example_de": "Ich vertraue dir.",
+      "example_en": "I trust you."
+    },
+    {
+      "id": "d-verb-0212",
+      "de": "hassen",
+      "de_alt": [],
+      "en": [
+        "to hate"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 568,
+      "note": "regular: hat gehasst",
+      "example_de": "Ich hasse Montage.",
+      "example_en": "I hate Mondays."
+    },
+    {
+      "id": "d-verb-0213",
+      "de": "genießen",
+      "de_alt": [],
+      "en": [
+        "to enjoy"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "B1",
+      "rank": 570,
+      "note": "genießt – genoss – hat genossen",
+      "example_de": "Genieß die Ferien!",
+      "example_en": "Enjoy the holidays!"
+    },
+    {
+      "id": "d-verb-0214",
+      "de": "entspannen",
+      "de_alt": [],
+      "en": [
+        "to relax"
+      ],
+      "pos": "verb",
+      "topic": "free time",
+      "level": "A2",
+      "rank": 572,
+      "note": "regular; also sich entspannen",
+      "example_de": "Am Wochenende will ich nur entspannen.",
+      "example_en": "At the weekend I just want to relax."
+    },
+    {
+      "id": "d-verb-0215",
+      "de": "ausruhen",
+      "de_alt": [],
+      "en": [
+        "to rest",
+        "to have a rest"
+      ],
+      "pos": "verb",
+      "topic": "health",
+      "level": "B1",
+      "rank": 575,
+      "note": "separable, reflexive: sich ausruhen – hat sich ausgeruht",
+      "example_de": "Ruh dich erst mal aus.",
+      "example_en": "Have a rest first."
+    },
+    {
+      "id": "d-verb-0216",
+      "de": "wehtun",
+      "de_alt": [],
+      "en": [
+        "to hurt",
+        "to ache"
+      ],
+      "pos": "verb",
+      "topic": "health",
+      "level": "A2",
+      "rank": 578,
+      "note": "separable: tut weh – tat weh – hat wehgetan",
+      "example_de": "Mir tut der Kopf weh.",
+      "example_en": "My head hurts."
+    },
+    {
+      "id": "d-verb-0217",
+      "de": "verletzen",
+      "de_alt": [],
+      "en": [
+        "to injure",
+        "to hurt"
+      ],
+      "pos": "verb",
+      "topic": "health",
+      "level": "B1",
+      "rank": 580,
+      "note": "regular; sich verletzen = get injured",
+      "example_de": "Ich habe mich beim Fußball verletzt.",
+      "example_en": "I got injured playing football."
+    },
+    {
+      "id": "d-verb-0218",
+      "de": "sterben",
+      "de_alt": [],
+      "en": [
+        "to die"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 582,
+      "note": "stirbt – starb – ist gestorben",
+      "example_de": "Mein Hamster ist leider gestorben.",
+      "example_en": "Unfortunately my hamster died."
+    },
+    {
+      "id": "d-verb-0219",
+      "de": "wachsen",
+      "de_alt": [],
+      "en": [
+        "to grow"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 585,
+      "note": "wächst – wuchs – ist gewachsen",
+      "example_de": "Du bist aber gewachsen!",
+      "example_en": "You've really grown!"
+    },
+    {
+      "id": "d-verb-0220",
+      "de": "rennen",
+      "de_alt": [],
+      "en": [
+        "to run",
+        "to race"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A2",
+      "rank": 588,
+      "note": "rennt – rannte – ist gerannt",
+      "example_de": "Ich bin zum Bus gerannt.",
+      "example_en": "I ran to the bus."
+    },
+    {
+      "id": "d-verb-0221",
+      "de": "springen",
+      "de_alt": [],
+      "en": [
+        "to jump"
+      ],
+      "pos": "verb",
+      "topic": "movement",
+      "level": "A2",
+      "rank": 590,
+      "note": "springt – sprang – ist gesprungen",
+      "example_de": "Wir sind ins Wasser gesprungen.",
+      "example_en": "We jumped into the water."
+    },
+    {
+      "id": "d-verb-0222",
+      "de": "werfen",
+      "de_alt": [],
+      "en": [
+        "to throw"
+      ],
+      "pos": "verb",
+      "topic": "sport",
+      "level": "A2",
+      "rank": 592,
+      "note": "wirft – warf – hat geworfen",
+      "example_de": "Wirf mir mal den Ball!",
+      "example_en": "Throw me the ball!"
+    },
+    {
+      "id": "d-verb-0223",
+      "de": "fangen",
+      "de_alt": [],
+      "en": [
+        "to catch"
+      ],
+      "pos": "verb",
+      "topic": "sport",
+      "level": "B1",
+      "rank": 595,
+      "note": "fängt – fing – hat gefangen",
+      "example_de": "Er hat den Ball sicher gefangen.",
+      "example_en": "He caught the ball safely."
+    },
+    {
+      "id": "d-verb-0224",
+      "de": "schlagen",
+      "de_alt": [],
+      "en": [
+        "to hit",
+        "to beat"
+      ],
+      "pos": "verb",
+      "topic": "sport",
+      "level": "B1",
+      "rank": 598,
+      "note": "schlägt – schlug – hat geschlagen",
+      "example_de": "Wir haben die andere Mannschaft geschlagen.",
+      "example_en": "We beat the other team."
+    },
+    {
+      "id": "d-verb-0225",
+      "de": "drücken",
+      "de_alt": [],
+      "en": [
+        "to press",
+        "to push",
+        "to squeeze"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 600,
+      "note": "regular; Daumen drücken = keep fingers crossed",
+      "example_de": "Ich drücke dir die Daumen!",
+      "example_en": "I'll keep my fingers crossed for you!"
+    },
+    {
+      "id": "d-verb-0226",
+      "de": "umsteigen",
+      "de_alt": [],
+      "en": [
+        "to change",
+        "to transfer"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 605,
+      "note": "separable: steigt um – stieg um – ist umgestiegen; change trains/buses",
+      "example_de": "Wir müssen in Köln umsteigen.",
+      "example_en": "We have to change trains in Cologne."
+    },
+    {
+      "id": "d-verb-0227",
+      "de": "einsteigen",
+      "de_alt": [],
+      "en": [
+        "to get on",
+        "to get in",
+        "to board"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 608,
+      "note": "separable: steigt ein – stieg ein – ist eingestiegen",
+      "example_de": "Bitte schnell einsteigen!",
+      "example_en": "Please get on quickly!"
+    },
+    {
+      "id": "d-verb-0228",
+      "de": "aussteigen",
+      "de_alt": [],
+      "en": [
+        "to get off",
+        "to get out"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 610,
+      "note": "separable: steigt aus – stieg aus – ist ausgestiegen",
+      "example_de": "Wir steigen an der nächsten Haltestelle aus.",
+      "example_en": "We're getting off at the next stop."
+    },
+    {
+      "id": "d-verb-0229",
+      "de": "verpassen",
+      "de_alt": [],
+      "en": [
+        "to miss"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 612,
+      "note": "regular: hat verpasst; miss a bus/event",
+      "example_de": "Ich habe den Bus verpasst.",
+      "example_en": "I missed the bus."
+    },
+    {
+      "id": "d-verb-0230",
+      "de": "abfahren",
+      "de_alt": [],
+      "en": [
+        "to leave",
+        "to depart"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 615,
+      "note": "separable: fährt ab – fuhr ab – ist abgefahren",
+      "example_de": "Der Zug fährt um 7:15 ab.",
+      "example_en": "The train leaves at 7:15."
+    },
+    {
+      "id": "d-verb-0231",
+      "de": "parken",
+      "de_alt": [],
+      "en": [
+        "to park"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 618,
+      "note": "regular",
+      "example_de": "Wo kann man hier parken?",
+      "example_en": "Where can you park around here?"
+    },
+    {
+      "id": "d-verb-0232",
+      "de": "schenken",
+      "de_alt": [],
+      "en": [
+        "to give",
+        "to give as a present"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A1",
+      "rank": 620,
+      "note": "regular; give as a gift",
+      "example_de": "Was schenkst du deiner Schwester?",
+      "example_en": "What are you giving your sister?"
+    },
+    {
+      "id": "d-verb-0233",
+      "de": "danken",
+      "de_alt": [],
+      "en": [
+        "to thank"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A2",
+      "rank": 622,
+      "note": "regular; + Dativ; danken für + Akk",
+      "example_de": "Ich danke dir für deine Hilfe.",
+      "example_en": "Thank you for your help."
+    },
+    {
+      "id": "d-verb-0234",
+      "de": "umarmen",
+      "de_alt": [],
+      "en": [
+        "to hug",
+        "to embrace"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "B1",
+      "rank": 625,
+      "note": "inseparable: umarmt – hat umarmt",
+      "example_de": "Sie hat mich zur Begrüßung umarmt.",
+      "example_en": "She hugged me hello."
+    },
+    {
+      "id": "d-verb-0235",
+      "de": "küssen",
+      "de_alt": [],
+      "en": [
+        "to kiss"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "A2",
+      "rank": 628,
+      "note": "regular: hat geküsst",
+      "example_de": "Hat er dich geküsst?",
+      "example_en": "Did he kiss you?"
+    },
+    {
+      "id": "d-verb-0236",
+      "de": "trennen",
+      "de_alt": [],
+      "en": [
+        "to separate",
+        "to split up"
+      ],
+      "pos": "verb",
+      "topic": "social",
+      "level": "B1",
+      "rank": 630,
+      "note": "regular; sich trennen = break up",
+      "example_de": "Die beiden haben sich getrennt.",
+      "example_en": "Those two have broken up."
+    },
+    {
+      "id": "d-verb-0237",
+      "de": "verlieben",
+      "de_alt": [],
+      "en": [
+        "to fall in love"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "B1",
+      "rank": 632,
+      "note": "reflexive: sich verlieben in + Akk",
+      "example_de": "Ich glaube, ich habe mich verliebt.",
+      "example_en": "I think I've fallen in love."
+    },
+    {
+      "id": "d-verb-0238",
+      "de": "unterrichten",
+      "de_alt": [],
+      "en": [
+        "to teach"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "B1",
+      "rank": 635,
+      "note": "inseparable: unterrichtet – hat unterrichtet",
+      "example_de": "Frau Klein unterrichtet Deutsch und Geschichte.",
+      "example_en": "Ms Klein teaches German and history."
+    },
+    {
+      "id": "d-verb-0239",
+      "de": "rechnen",
+      "de_alt": [],
+      "en": [
+        "to calculate",
+        "to do maths",
+        "to count on"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "A2",
+      "rank": 638,
+      "note": "regular; rechnen mit = expect/count on",
+      "example_de": "Ich kann gut im Kopf rechnen.",
+      "example_en": "I'm good at mental maths."
+    },
+    {
+      "id": "d-verb-0240",
+      "de": "zählen",
+      "de_alt": [],
+      "en": [
+        "to count"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "A2",
+      "rank": 640,
+      "note": "regular; zählen auf = count on",
+      "example_de": "Ich zähle bis drei!",
+      "example_en": "I'll count to three!"
+    },
+    {
+      "id": "d-verb-0241",
+      "de": "übersetzen",
+      "de_alt": [],
+      "en": [
+        "to translate"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "A2",
+      "rank": 642,
+      "note": "inseparable: übersetzt – hat übersetzt",
+      "example_de": "Übersetzt den Text ins Englische.",
+      "example_en": "Translate the text into English."
+    },
+    {
+      "id": "d-verb-0242",
+      "de": "korrigieren",
+      "de_alt": [],
+      "en": [
+        "to correct",
+        "to mark"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "B1",
+      "rank": 645,
+      "note": "regular: hat korrigiert",
+      "example_de": "Der Lehrer hat die Tests noch nicht korrigiert.",
+      "example_en": "The teacher hasn't marked the tests yet."
+    },
+    {
+      "id": "d-verb-0243",
+      "de": "abschreiben",
+      "de_alt": [],
+      "en": [
+        "to copy"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "B1",
+      "rank": 648,
+      "note": "separable: schreibt ab – schrieb ab – hat abgeschrieben",
+      "example_de": "Hast du die Hausaufgaben abgeschrieben?",
+      "example_en": "Did you copy the homework?"
+    },
+    {
+      "id": "d-verb-0244",
+      "de": "bewerben",
+      "de_alt": [],
+      "en": [
+        "to apply"
+      ],
+      "pos": "verb",
+      "topic": "work",
+      "level": "B1",
+      "rank": 650,
+      "note": "reflexive: sich bewerben um/für – bewirbt – bewarb – hat beworben",
+      "example_de": "Ich bewerbe mich um ein Praktikum.",
+      "example_en": "I'm applying for an internship."
+    },
+    {
+      "id": "d-verb-0245",
+      "de": "zeichnen",
+      "de_alt": [],
+      "en": [
+        "to draw"
+      ],
+      "pos": "verb",
+      "topic": "free time",
+      "level": "A2",
+      "rank": 652,
+      "note": "regular",
+      "example_de": "Sie zeichnet richtig gut.",
+      "example_en": "She draws really well."
+    },
+    {
+      "id": "d-verb-0246",
+      "de": "malen",
+      "de_alt": [],
+      "en": [
+        "to paint",
+        "to draw"
+      ],
+      "pos": "verb",
+      "topic": "free time",
+      "level": "A1",
+      "rank": 655,
+      "note": "regular",
+      "example_de": "Als Kind habe ich viel gemalt.",
+      "example_en": "As a child I painted a lot."
+    },
+    {
+      "id": "d-verb-0247",
+      "de": "fotografieren",
+      "de_alt": [],
+      "en": [
+        "to photograph",
+        "to take photos"
+      ],
+      "pos": "verb",
+      "topic": "free time",
+      "level": "A2",
+      "rank": 658,
+      "note": "regular: hat fotografiert",
+      "example_de": "Darf man hier fotografieren?",
+      "example_en": "Are you allowed to take photos here?"
+    },
+    {
+      "id": "d-verb-0248",
+      "de": "packen",
+      "de_alt": [],
+      "en": [
+        "to pack"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 660,
+      "note": "regular; einpacken/auspacken = pack/unpack",
+      "example_de": "Hast du deinen Koffer schon gepackt?",
+      "example_en": "Have you packed your suitcase yet?"
+    },
+    {
+      "id": "d-verb-0249",
+      "de": "beschweren",
+      "de_alt": [],
+      "en": [
+        "to complain"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "B1",
+      "rank": 662,
+      "note": "reflexive: sich beschweren über + Akk",
+      "example_de": "Er beschwert sich immer über das Essen.",
+      "example_en": "He always complains about the food."
+    },
+    {
+      "id": "d-verb-0250",
+      "de": "sorgen",
+      "de_alt": [],
+      "en": [
+        "to worry",
+        "to take care"
+      ],
+      "pos": "verb",
+      "topic": "feelings",
+      "level": "B1",
+      "rank": 665,
+      "note": "sich sorgen um + Akk = worry about; sorgen für = take care of",
+      "example_de": "Keine Sorge, ich sorge für die Getränke.",
+      "example_en": "Don't worry, I'll take care of the drinks."
+    },
+    {
+      "id": "d-verb-0251",
+      "de": "aufhören",
+      "de_alt": [],
+      "en": [
+        "to stop",
+        "to quit",
+        "to end"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 222,
+      "note": "separable: hört auf – hat aufgehört; aufhören mit + Dat",
+      "example_de": "Hör auf, mich zu nerven!",
+      "example_en": "Stop annoying me!"
+    },
+    {
+      "id": "d-verb-0252",
+      "de": "kriegen",
+      "de_alt": [],
+      "en": [
+        "to get",
+        "to receive"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 300,
+      "note": "regular: hat gekriegt; colloquial for bekommen",
+      "example_de": "Was hast du zum Geburtstag gekriegt?",
+      "example_en": "What did you get for your birthday?"
+    },
+    {
+      "id": "d-verb-0253",
+      "de": "reichen",
+      "de_alt": [],
+      "en": [
+        "to be enough",
+        "to pass",
+        "to hand"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 470,
+      "note": "regular; Das reicht! = That's enough!",
+      "example_de": "Reichst du mir mal das Salz?",
+      "example_en": "Could you pass me the salt?"
+    },
+    {
+      "id": "d-verb-0254",
+      "de": "klingen",
+      "de_alt": [],
+      "en": [
+        "to sound"
+      ],
+      "pos": "verb",
+      "topic": "senses",
+      "level": "A2",
+      "rank": 480,
+      "note": "klingt – klang – hat geklungen",
+      "example_de": "Das klingt gut!",
+      "example_en": "That sounds good!"
+    },
+    {
+      "id": "d-verb-0255",
+      "de": "unterhalten",
+      "de_alt": [],
+      "en": [
+        "to talk",
+        "to chat",
+        "to entertain"
+      ],
+      "pos": "verb",
+      "topic": "communication",
+      "level": "B1",
+      "rank": 520,
+      "note": "reflexive: sich unterhalten mit/über – unterhält – unterhielt – hat unterhalten",
+      "example_de": "Wir haben uns lange unterhalten.",
+      "example_en": "We talked for a long time."
+    },
+    {
+      "id": "d-verb-0256",
+      "de": "vorhaben",
+      "de_alt": [],
+      "en": [
+        "to plan",
+        "to intend"
+      ],
+      "pos": "verb",
+      "topic": "thinking",
+      "level": "A2",
+      "rank": 540,
+      "note": "separable: hat vor – hatte vor – hat vorgehabt",
+      "example_de": "Hast du am Wochenende schon was vor?",
+      "example_en": "Do you have any plans for the weekend?"
+    },
+    {
+      "id": "d-verb-0257",
+      "de": "gewöhnen",
+      "de_alt": [],
+      "en": [
+        "to get used to"
+      ],
+      "pos": "verb",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 600,
+      "note": "reflexive: sich gewöhnen an + Akk",
+      "example_de": "Ich habe mich an die neue Schule gewöhnt.",
+      "example_en": "I've got used to the new school."
+    },
+    {
+      "id": "d-verb-0258",
+      "de": "aufwachen",
+      "de_alt": [],
+      "en": [
+        "to wake up"
+      ],
+      "pos": "verb",
+      "topic": "daily routine",
+      "level": "A2",
+      "rank": 455,
+      "note": "separable: wacht auf – ist aufgewacht",
+      "example_de": "Ich bin heute zu spät aufgewacht.",
+      "example_en": "I woke up too late today."
+    }
+  ]
+}

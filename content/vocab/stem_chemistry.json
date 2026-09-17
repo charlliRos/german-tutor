@@ -1,0 +1,1437 @@
+{
+  "bank": "stem",
+  "title": "STEM German — chemistry",
+  "words": [
+    {
+      "id": "s-chem-0001",
+      "de": "die Chemie",
+      "de_alt": [],
+      "en": [
+        "chemistry"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "reactions",
+      "level": "A2",
+      "rank": 3,
+      "note": "ch as in „ich“; in southern Germany often „Kemie“",
+      "example_de": "In Chemie machen wir heute einen Versuch.",
+      "example_en": "Today we're doing an experiment in chemistry."
+    },
+    {
+      "id": "s-chem-0002",
+      "de": "das Atom",
+      "de_alt": [],
+      "en": [
+        "atom"
+      ],
+      "pos": "noun",
+      "plural": "die Atome",
+      "topic": "elements",
+      "level": "A2",
+      "rank": 8,
+      "example_de": "Ein Wassermolekül besteht aus drei Atomen.",
+      "example_en": "A water molecule consists of three atoms."
+    },
+    {
+      "id": "s-chem-0003",
+      "de": "das Element",
+      "de_alt": [],
+      "en": [
+        "element"
+      ],
+      "pos": "noun",
+      "plural": "die Elemente",
+      "topic": "elements",
+      "level": "A2",
+      "rank": 13,
+      "example_de": "Gold ist ein chemisches Element.",
+      "example_en": "Gold is a chemical element."
+    },
+    {
+      "id": "s-chem-0004",
+      "de": "das Molekül",
+      "de_alt": [],
+      "en": [
+        "molecule"
+      ],
+      "pos": "noun",
+      "plural": "die Moleküle",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 18,
+      "example_de": "Ein Sauerstoffmolekül hat zwei Atome.",
+      "example_en": "An oxygen molecule has two atoms."
+    },
+    {
+      "id": "s-chem-0005",
+      "de": "die Reaktion",
+      "de_alt": [],
+      "en": [
+        "reaction"
+      ],
+      "pos": "noun",
+      "plural": "die Reaktionen",
+      "topic": "reactions",
+      "level": "A2",
+      "rank": 23,
+      "example_de": "Bei der Reaktion entsteht ein Gas.",
+      "example_en": "A gas is produced in the reaction."
+    },
+    {
+      "id": "s-chem-0006",
+      "de": "der Stoff",
+      "de_alt": [],
+      "en": [
+        "substance",
+        "material"
+      ],
+      "pos": "noun",
+      "plural": "die Stoffe",
+      "topic": "matter",
+      "level": "A2",
+      "rank": 28,
+      "note": "also: fabric; school material, subject matter",
+      "example_de": "Salz ist ein reiner Stoff.",
+      "example_en": "Salt is a pure substance."
+    },
+    {
+      "id": "s-chem-0007",
+      "de": "der Versuch",
+      "de_alt": [],
+      "en": [
+        "experiment",
+        "attempt",
+        "trial"
+      ],
+      "pos": "noun",
+      "plural": "die Versuche",
+      "topic": "lab",
+      "level": "A2",
+      "rank": 33,
+      "note": "the usual school word for an experiment",
+      "example_de": "Beschreibe den Aufbau des Versuchs.",
+      "example_en": "Describe the setup of the experiment."
+    },
+    {
+      "id": "s-chem-0008",
+      "de": "das Labor",
+      "de_alt": [],
+      "en": [
+        "lab",
+        "laboratory"
+      ],
+      "pos": "noun",
+      "plural": "die Labore",
+      "topic": "lab",
+      "level": "A2",
+      "rank": 38,
+      "note": "plural also „die Labors“",
+      "example_de": "Im Labor darf man nicht essen.",
+      "example_en": "You mustn't eat in the lab."
+    },
+    {
+      "id": "s-chem-0009",
+      "de": "das Gas",
+      "de_alt": [],
+      "en": [
+        "gas"
+      ],
+      "pos": "noun",
+      "plural": "die Gase",
+      "topic": "matter",
+      "level": "A2",
+      "rank": 43,
+      "note": "American „gas“ for cars = das Benzin",
+      "example_de": "Kohlendioxid ist ein farbloses Gas.",
+      "example_en": "Carbon dioxide is a colourless gas."
+    },
+    {
+      "id": "s-chem-0010",
+      "de": "die Flüssigkeit",
+      "de_alt": [],
+      "en": [
+        "liquid",
+        "fluid"
+      ],
+      "pos": "noun",
+      "plural": "die Flüssigkeiten",
+      "topic": "matter",
+      "level": "A2",
+      "rank": 48,
+      "note": "flüssig = liquid (adj)",
+      "example_de": "Quecksilber ist ein Metall und eine Flüssigkeit.",
+      "example_en": "Mercury is a metal and a liquid."
+    },
+    {
+      "id": "s-chem-0011",
+      "de": "der Feststoff",
+      "de_alt": [],
+      "en": [
+        "solid"
+      ],
+      "pos": "noun",
+      "plural": "die Feststoffe",
+      "topic": "matter",
+      "level": "B1",
+      "rank": 53,
+      "note": "fest = solid (adj)",
+      "example_de": "Eis ist Wasser als Feststoff.",
+      "example_en": "Ice is water as a solid."
+    },
+    {
+      "id": "s-chem-0012",
+      "de": "das Metall",
+      "de_alt": [],
+      "en": [
+        "metal"
+      ],
+      "pos": "noun",
+      "plural": "die Metalle",
+      "topic": "elements",
+      "level": "A2",
+      "rank": 58,
+      "example_de": "Eisen ist das wichtigste Metall der Industrie.",
+      "example_en": "Iron is industry's most important metal."
+    },
+    {
+      "id": "s-chem-0013",
+      "de": "der Sauerstoff",
+      "de_alt": [],
+      "en": [
+        "oxygen"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "elements",
+      "level": "A2",
+      "rank": 63,
+      "note": "symbol O",
+      "example_de": "Feuer braucht Sauerstoff.",
+      "example_en": "Fire needs oxygen."
+    },
+    {
+      "id": "s-chem-0014",
+      "de": "der Wasserstoff",
+      "de_alt": [],
+      "en": [
+        "hydrogen"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "elements",
+      "level": "A2",
+      "rank": 68,
+      "note": "symbol H",
+      "example_de": "Wasserstoff ist das leichteste Element.",
+      "example_en": "Hydrogen is the lightest element."
+    },
+    {
+      "id": "s-chem-0015",
+      "de": "der Kohlenstoff",
+      "de_alt": [],
+      "en": [
+        "carbon"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 73,
+      "note": "symbol C",
+      "example_de": "Diamant besteht aus reinem Kohlenstoff.",
+      "example_en": "Diamond consists of pure carbon."
+    },
+    {
+      "id": "s-chem-0016",
+      "de": "die Säure",
+      "de_alt": [],
+      "en": [
+        "acid"
+      ],
+      "pos": "noun",
+      "plural": "die Säuren",
+      "topic": "reactions",
+      "level": "B1",
+      "rank": 78,
+      "note": "sauer = sour, acidic",
+      "example_de": "Zitronensaft enthält Säure.",
+      "example_en": "Lemon juice contains acid."
+    },
+    {
+      "id": "s-chem-0017",
+      "de": "mischen",
+      "de_alt": [
+        "vermischen"
+      ],
+      "en": [
+        "to mix"
+      ],
+      "pos": "verb",
+      "topic": "lab",
+      "level": "A2",
+      "rank": 83,
+      "example_de": "Mische die beiden Flüssigkeiten vorsichtig.",
+      "example_en": "Mix the two liquids carefully."
+    },
+    {
+      "id": "s-chem-0018",
+      "de": "erhitzen",
+      "de_alt": [],
+      "en": [
+        "to heat",
+        "to heat up"
+      ],
+      "pos": "verb",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 87,
+      "note": "erwärmen = to warm up",
+      "example_de": "Erhitze das Reagenzglas über dem Brenner.",
+      "example_en": "Heat the test tube over the burner."
+    },
+    {
+      "id": "s-chem-0019",
+      "de": "schmelzen",
+      "de_alt": [],
+      "en": [
+        "to melt"
+      ],
+      "pos": "verb",
+      "topic": "matter",
+      "level": "A2",
+      "rank": 91,
+      "note": "Präsens: es schmilzt; Perfekt: ist geschmolzen",
+      "example_de": "Eis schmilzt bei null Grad.",
+      "example_en": "Ice melts at zero degrees."
+    },
+    {
+      "id": "s-chem-0020",
+      "de": "das Periodensystem",
+      "de_alt": [],
+      "en": [
+        "periodic table"
+      ],
+      "pos": "noun",
+      "plural": "die Periodensysteme",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 94,
+      "example_de": "Im Periodensystem stehen 118 Elemente.",
+      "example_en": "There are 118 elements in the periodic table."
+    },
+    {
+      "id": "s-chem-0021",
+      "de": "das Elektron",
+      "de_alt": [],
+      "en": [
+        "electron"
+      ],
+      "pos": "noun",
+      "plural": "die Elektronen",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 100,
+      "example_de": "Elektronen sind negativ geladen.",
+      "example_en": "Electrons are negatively charged."
+    },
+    {
+      "id": "s-chem-0022",
+      "de": "das Proton",
+      "de_alt": [],
+      "en": [
+        "proton"
+      ],
+      "pos": "noun",
+      "plural": "die Protonen",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 105,
+      "example_de": "Ein Wasserstoffatom hat ein Proton.",
+      "example_en": "A hydrogen atom has one proton."
+    },
+    {
+      "id": "s-chem-0023",
+      "de": "das Neutron",
+      "de_alt": [],
+      "en": [
+        "neutron"
+      ],
+      "pos": "noun",
+      "plural": "die Neutronen",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 110,
+      "example_de": "Neutronen haben keine Ladung.",
+      "example_en": "Neutrons have no charge."
+    },
+    {
+      "id": "s-chem-0024",
+      "de": "der Atomkern",
+      "de_alt": [
+        "der Kern"
+      ],
+      "en": [
+        "nucleus",
+        "atomic nucleus"
+      ],
+      "pos": "noun",
+      "plural": "die Atomkerne",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 115,
+      "example_de": "Protonen und Neutronen bilden den Atomkern.",
+      "example_en": "Protons and neutrons make up the nucleus."
+    },
+    {
+      "id": "s-chem-0025",
+      "de": "das Ion",
+      "de_alt": [],
+      "en": [
+        "ion"
+      ],
+      "pos": "noun",
+      "plural": "die Ionen",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 120,
+      "example_de": "Kochsalz besteht aus Natrium- und Chlorid-Ionen.",
+      "example_en": "Table salt consists of sodium and chloride ions."
+    },
+    {
+      "id": "s-chem-0026",
+      "de": "die Verbindung",
+      "de_alt": [],
+      "en": [
+        "compound",
+        "connection"
+      ],
+      "pos": "noun",
+      "plural": "die Verbindungen",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 125,
+      "note": "also: connection, link",
+      "example_de": "Wasser ist eine Verbindung aus Wasserstoff und Sauerstoff.",
+      "example_en": "Water is a compound of hydrogen and oxygen."
+    },
+    {
+      "id": "s-chem-0027",
+      "de": "das Gemisch",
+      "de_alt": [],
+      "en": [
+        "mixture"
+      ],
+      "pos": "noun",
+      "plural": "die Gemische",
+      "topic": "matter",
+      "level": "B1",
+      "rank": 130,
+      "example_de": "Luft ist ein Gemisch aus mehreren Gasen.",
+      "example_en": "Air is a mixture of several gases."
+    },
+    {
+      "id": "s-chem-0028",
+      "de": "die Bindung",
+      "de_alt": [],
+      "en": [
+        "bond",
+        "chemical bond"
+      ],
+      "pos": "noun",
+      "plural": "die Bindungen",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 135,
+      "note": "also: attachment, commitment",
+      "example_de": "Die Bindung zwischen den Atomen ist sehr stark.",
+      "example_en": "The bond between the atoms is very strong."
+    },
+    {
+      "id": "s-chem-0029",
+      "de": "die Base",
+      "de_alt": [
+        "die Lauge"
+      ],
+      "en": [
+        "base",
+        "alkali"
+      ],
+      "pos": "noun",
+      "plural": "die Basen",
+      "topic": "reactions",
+      "level": "B1",
+      "rank": 140,
+      "note": "Lauge = alkaline solution",
+      "example_de": "Eine Base neutralisiert eine Säure.",
+      "example_en": "A base neutralises an acid."
+    },
+    {
+      "id": "s-chem-0030",
+      "de": "sauer",
+      "de_alt": [],
+      "en": [
+        "acidic",
+        "sour"
+      ],
+      "pos": "adj",
+      "topic": "reactions",
+      "level": "A2",
+      "rank": 145,
+      "note": "colloquially also: annoyed",
+      "example_de": "Die Lösung ist leicht sauer.",
+      "example_en": "The solution is slightly acidic."
+    },
+    {
+      "id": "s-chem-0031",
+      "de": "basisch",
+      "de_alt": [
+        "alkalisch"
+      ],
+      "en": [
+        "basic",
+        "alkaline"
+      ],
+      "pos": "adj",
+      "topic": "reactions",
+      "level": "B1",
+      "rank": 150,
+      "example_de": "Seifenlauge ist basisch.",
+      "example_en": "Soapy water is alkaline."
+    },
+    {
+      "id": "s-chem-0032",
+      "de": "neutral",
+      "de_alt": [],
+      "en": [
+        "neutral"
+      ],
+      "pos": "adj",
+      "topic": "reactions",
+      "level": "B1",
+      "rank": 155,
+      "example_de": "Reines Wasser ist neutral.",
+      "example_en": "Pure water is neutral."
+    },
+    {
+      "id": "s-chem-0033",
+      "de": "der pH-Wert",
+      "de_alt": [],
+      "en": [
+        "pH",
+        "pH value"
+      ],
+      "pos": "noun",
+      "plural": "die pH-Werte",
+      "topic": "reactions",
+      "level": "B1",
+      "rank": 160,
+      "note": "say „pe-ha-Wert“",
+      "example_de": "Der pH-Wert von Wasser ist 7.",
+      "example_en": "The pH of water is 7."
+    },
+    {
+      "id": "s-chem-0034",
+      "de": "der Stickstoff",
+      "de_alt": [],
+      "en": [
+        "nitrogen"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 165,
+      "note": "symbol N; literally „suffocating substance“",
+      "example_de": "Luft besteht zu 78 Prozent aus Stickstoff.",
+      "example_en": "Air is 78 percent nitrogen."
+    },
+    {
+      "id": "s-chem-0035",
+      "de": "das Eisen",
+      "de_alt": [],
+      "en": [
+        "iron"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "elements",
+      "level": "A2",
+      "rank": 170,
+      "note": "symbol Fe; das Bügeleisen = clothes iron",
+      "example_de": "Eisen rostet an feuchter Luft.",
+      "example_en": "Iron rusts in moist air."
+    },
+    {
+      "id": "s-chem-0036",
+      "de": "das Kupfer",
+      "de_alt": [],
+      "en": [
+        "copper"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 175,
+      "note": "symbol Cu",
+      "example_de": "Kabel bestehen meistens aus Kupfer.",
+      "example_en": "Cables are mostly made of copper."
+    },
+    {
+      "id": "s-chem-0037",
+      "de": "das Salz",
+      "de_alt": [],
+      "en": [
+        "salt"
+      ],
+      "pos": "noun",
+      "plural": "die Salze",
+      "topic": "elements",
+      "level": "A2",
+      "rank": 180,
+      "example_de": "Salze entstehen, wenn Säuren und Basen reagieren.",
+      "example_en": "Salts form when acids and bases react."
+    },
+    {
+      "id": "s-chem-0038",
+      "de": "das Kohlendioxid",
+      "de_alt": [
+        "das CO₂"
+      ],
+      "en": [
+        "carbon dioxide",
+        "CO2"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 185,
+      "example_de": "Pflanzen nehmen Kohlendioxid auf.",
+      "example_en": "Plants absorb carbon dioxide."
+    },
+    {
+      "id": "s-chem-0039",
+      "de": "die Verbrennung",
+      "de_alt": [],
+      "en": [
+        "combustion",
+        "burning"
+      ],
+      "pos": "noun",
+      "plural": "die Verbrennungen",
+      "topic": "reactions",
+      "level": "B1",
+      "rank": 190,
+      "note": "also: a burn (injury)",
+      "example_de": "Bei der Verbrennung wird Wärme frei.",
+      "example_en": "Heat is released during combustion."
+    },
+    {
+      "id": "s-chem-0040",
+      "de": "verbrennen",
+      "de_alt": [],
+      "en": [
+        "to burn",
+        "to combust"
+      ],
+      "pos": "verb",
+      "topic": "reactions",
+      "level": "B1",
+      "rank": 195,
+      "note": "Perfekt: hat/ist verbrannt",
+      "example_de": "Magnesium verbrennt mit heller Flamme.",
+      "example_en": "Magnesium burns with a bright flame."
+    },
+    {
+      "id": "s-chem-0041",
+      "de": "reagieren",
+      "de_alt": [],
+      "en": [
+        "to react"
+      ],
+      "pos": "verb",
+      "topic": "reactions",
+      "level": "B1",
+      "rank": 200,
+      "note": "reagieren mit = to react with",
+      "example_de": "Natrium reagiert heftig mit Wasser.",
+      "example_en": "Sodium reacts violently with water."
+    },
+    {
+      "id": "s-chem-0042",
+      "de": "entstehen",
+      "de_alt": [],
+      "en": [
+        "to form",
+        "to be produced",
+        "to arise"
+      ],
+      "pos": "verb",
+      "topic": "reactions",
+      "level": "B1",
+      "rank": 205,
+      "note": "Perfekt: ist entstanden",
+      "example_de": "Bei der Reaktion entstehen Blasen.",
+      "example_en": "Bubbles form during the reaction."
+    },
+    {
+      "id": "s-chem-0043",
+      "de": "abkühlen",
+      "de_alt": [],
+      "en": [
+        "to cool",
+        "to cool down"
+      ],
+      "pos": "verb",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 210,
+      "note": "separable: es kühlt ab",
+      "example_de": "Lass die Lösung zuerst abkühlen.",
+      "example_en": "Let the solution cool down first."
+    },
+    {
+      "id": "s-chem-0044",
+      "de": "verdampfen",
+      "de_alt": [],
+      "en": [
+        "to evaporate",
+        "to vaporise",
+        "to boil off"
+      ],
+      "pos": "verb",
+      "topic": "matter",
+      "level": "B1",
+      "rank": 215,
+      "note": "verdunsten = to evaporate below boiling point",
+      "example_de": "Das Wasser verdampft und das Salz bleibt zurück.",
+      "example_en": "The water evaporates and the salt remains."
+    },
+    {
+      "id": "s-chem-0045",
+      "de": "auflösen",
+      "de_alt": [],
+      "en": [
+        "to dissolve"
+      ],
+      "pos": "verb",
+      "topic": "matter",
+      "level": "B1",
+      "rank": 220,
+      "note": "Zucker löst sich in Wasser auf = sugar dissolves in water",
+      "example_de": "Löse das Salz in warmem Wasser auf.",
+      "example_en": "Dissolve the salt in warm water."
+    },
+    {
+      "id": "s-chem-0046",
+      "de": "der Aggregatzustand",
+      "de_alt": [],
+      "en": [
+        "state of matter",
+        "physical state"
+      ],
+      "pos": "noun",
+      "plural": "die Aggregatzustände",
+      "topic": "matter",
+      "level": "B1",
+      "rank": 225,
+      "note": "fest, flüssig, gasförmig",
+      "example_de": "Wasser kommt in drei Aggregatzuständen vor.",
+      "example_en": "Water exists in three states of matter."
+    },
+    {
+      "id": "s-chem-0047",
+      "de": "der Siedepunkt",
+      "de_alt": [],
+      "en": [
+        "boiling point"
+      ],
+      "pos": "noun",
+      "plural": "die Siedepunkte",
+      "topic": "matter",
+      "level": "B1",
+      "rank": 230,
+      "note": "sieden = to boil (technical)",
+      "example_de": "Der Siedepunkt von Ethanol liegt bei 78 °C.",
+      "example_en": "The boiling point of ethanol is 78 °C."
+    },
+    {
+      "id": "s-chem-0048",
+      "de": "der Schmelzpunkt",
+      "de_alt": [],
+      "en": [
+        "melting point"
+      ],
+      "pos": "noun",
+      "plural": "die Schmelzpunkte",
+      "topic": "matter",
+      "level": "B1",
+      "rank": 235,
+      "example_de": "Der Schmelzpunkt von Eisen ist sehr hoch.",
+      "example_en": "The melting point of iron is very high."
+    },
+    {
+      "id": "s-chem-0049",
+      "de": "die Schutzbrille",
+      "de_alt": [],
+      "en": [
+        "safety goggles",
+        "goggles",
+        "safety glasses"
+      ],
+      "pos": "noun",
+      "plural": "die Schutzbrillen",
+      "topic": "lab",
+      "level": "A2",
+      "rank": 240,
+      "example_de": "Setz beim Experimentieren immer die Schutzbrille auf.",
+      "example_en": "Always put on safety goggles when experimenting."
+    },
+    {
+      "id": "s-chem-0050",
+      "de": "das Reagenzglas",
+      "de_alt": [],
+      "en": [
+        "test tube"
+      ],
+      "pos": "noun",
+      "plural": "die Reagenzgläser",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 245,
+      "example_de": "Fülle das Reagenzglas nur zu einem Drittel.",
+      "example_en": "Fill the test tube only a third full."
+    },
+    {
+      "id": "s-chem-0051",
+      "de": "der Bunsenbrenner",
+      "de_alt": [
+        "der Brenner"
+      ],
+      "en": [
+        "Bunsen burner",
+        "burner"
+      ],
+      "pos": "noun",
+      "plural": "die Bunsenbrenner",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 250,
+      "example_de": "Zünde den Bunsenbrenner vorsichtig an.",
+      "example_en": "Light the Bunsen burner carefully."
+    },
+    {
+      "id": "s-chem-0052",
+      "de": "das Becherglas",
+      "de_alt": [],
+      "en": [
+        "beaker"
+      ],
+      "pos": "noun",
+      "plural": "die Bechergläser",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 255,
+      "example_de": "Gib 100 ml Wasser in das Becherglas.",
+      "example_en": "Put 100 ml of water into the beaker."
+    },
+    {
+      "id": "s-chem-0053",
+      "de": "die Waage",
+      "de_alt": [],
+      "en": [
+        "scales",
+        "balance"
+      ],
+      "pos": "noun",
+      "plural": "die Waagen",
+      "topic": "lab",
+      "level": "A2",
+      "rank": 260,
+      "note": "also: Libra (star sign)",
+      "example_de": "Wiege das Pulver auf der Waage ab.",
+      "example_en": "Weigh the powder on the scales."
+    },
+    {
+      "id": "s-chem-0054",
+      "de": "das Thermometer",
+      "de_alt": [],
+      "en": [
+        "thermometer"
+      ],
+      "pos": "noun",
+      "plural": "die Thermometer",
+      "topic": "lab",
+      "level": "A2",
+      "rank": 265,
+      "example_de": "Das Thermometer zeigt 25 Grad an.",
+      "example_en": "The thermometer shows 25 degrees."
+    },
+    {
+      "id": "s-chem-0055",
+      "de": "das Protokoll",
+      "de_alt": [],
+      "en": [
+        "lab report",
+        "report",
+        "minutes"
+      ],
+      "pos": "noun",
+      "plural": "die Protokolle",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 270,
+      "note": "Versuchsprotokoll = lab report",
+      "example_de": "Schreibe ein Protokoll zu dem Versuch.",
+      "example_en": "Write a report on the experiment."
+    },
+    {
+      "id": "s-chem-0056",
+      "de": "die Probe",
+      "de_alt": [],
+      "en": [
+        "sample"
+      ],
+      "pos": "noun",
+      "plural": "die Proben",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 275,
+      "note": "also: test, rehearsal",
+      "example_de": "Wir nehmen eine Probe aus dem Fluss.",
+      "example_en": "We take a sample from the river."
+    },
+    {
+      "id": "s-chem-0057",
+      "de": "giftig",
+      "de_alt": [],
+      "en": [
+        "poisonous",
+        "toxic"
+      ],
+      "pos": "adj",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 280,
+      "note": "das Gift = poison (false friend: not a present)",
+      "example_de": "Chlorgas ist sehr giftig.",
+      "example_en": "Chlorine gas is very toxic."
+    },
+    {
+      "id": "s-chem-0058",
+      "de": "brennbar",
+      "de_alt": [
+        "entzündlich"
+      ],
+      "en": [
+        "flammable",
+        "combustible"
+      ],
+      "pos": "adj",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 285,
+      "example_de": "Halte brennbare Stoffe vom Brenner fern.",
+      "example_en": "Keep flammable substances away from the burner."
+    },
+    {
+      "id": "s-chem-0059",
+      "de": "ätzend",
+      "de_alt": [],
+      "en": [
+        "corrosive",
+        "caustic"
+      ],
+      "pos": "adj",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 304,
+      "note": "slang: rubbish, awful",
+      "example_de": "Konzentrierte Säuren sind ätzend.",
+      "example_en": "Concentrated acids are corrosive."
+    },
+    {
+      "id": "s-chem-0060",
+      "de": "die Konzentration",
+      "de_alt": [],
+      "en": [
+        "concentration"
+      ],
+      "pos": "noun",
+      "plural": "die Konzentrationen",
+      "topic": "reactions",
+      "level": "B1",
+      "rank": 309,
+      "example_de": "Erhöhe die Konzentration der Salzsäure.",
+      "example_en": "Increase the concentration of the hydrochloric acid."
+    },
+    {
+      "id": "s-chem-0061",
+      "de": "der Katalysator",
+      "de_alt": [],
+      "en": [
+        "catalyst",
+        "catalytic converter"
+      ],
+      "pos": "noun",
+      "plural": "die Katalysatoren",
+      "topic": "reactions",
+      "level": "B2",
+      "rank": 314,
+      "note": "in cars: catalytic converter („Kat“)",
+      "example_de": "Ein Katalysator beschleunigt die Reaktion.",
+      "example_en": "A catalyst speeds up the reaction."
+    },
+    {
+      "id": "s-chem-0062",
+      "de": "die Oxidation",
+      "de_alt": [],
+      "en": [
+        "oxidation"
+      ],
+      "pos": "noun",
+      "plural": "die Oxidationen",
+      "topic": "reactions",
+      "level": "B2",
+      "rank": 319,
+      "note": "oxidieren = to oxidise",
+      "example_de": "Rost entsteht durch Oxidation von Eisen.",
+      "example_en": "Rust forms through oxidation of iron."
+    },
+    {
+      "id": "s-chem-0063",
+      "de": "die Reduktion",
+      "de_alt": [],
+      "en": [
+        "reduction"
+      ],
+      "pos": "noun",
+      "plural": "die Reduktionen",
+      "topic": "reactions",
+      "level": "B2",
+      "rank": 324,
+      "example_de": "Oxidation und Reduktion laufen immer gemeinsam ab.",
+      "example_en": "Oxidation and reduction always happen together."
+    },
+    {
+      "id": "s-chem-0064",
+      "de": "exotherm",
+      "de_alt": [],
+      "en": [
+        "exothermic"
+      ],
+      "pos": "adj",
+      "topic": "reactions",
+      "level": "B2",
+      "rank": 329,
+      "note": "endotherm = endothermic",
+      "example_de": "Die Verbrennung von Holz ist exotherm.",
+      "example_en": "The burning of wood is exothermic."
+    },
+    {
+      "id": "s-chem-0065",
+      "de": "die Reaktionsgleichung",
+      "de_alt": [],
+      "en": [
+        "chemical equation",
+        "reaction equation"
+      ],
+      "pos": "noun",
+      "plural": "die Reaktionsgleichungen",
+      "topic": "reactions",
+      "level": "B1",
+      "rank": 334,
+      "example_de": "Stelle die Reaktionsgleichung für die Verbrennung auf.",
+      "example_en": "Write the chemical equation for the combustion."
+    },
+    {
+      "id": "s-chem-0066",
+      "de": "der Ausgangsstoff",
+      "de_alt": [
+        "das Edukt"
+      ],
+      "en": [
+        "reactant",
+        "starting material"
+      ],
+      "pos": "noun",
+      "plural": "die Ausgangsstoffe",
+      "topic": "reactions",
+      "level": "B2",
+      "rank": 339,
+      "example_de": "Die Ausgangsstoffe stehen links vom Pfeil.",
+      "example_en": "The reactants are to the left of the arrow."
+    },
+    {
+      "id": "s-chem-0067",
+      "de": "das Reaktionsprodukt",
+      "de_alt": [],
+      "en": [
+        "product",
+        "reaction product"
+      ],
+      "pos": "noun",
+      "plural": "die Reaktionsprodukte",
+      "topic": "reactions",
+      "level": "B2",
+      "rank": 344,
+      "example_de": "Wasser ist ein Reaktionsprodukt der Verbrennung.",
+      "example_en": "Water is a product of combustion."
+    },
+    {
+      "id": "s-chem-0068",
+      "de": "das Edelgas",
+      "de_alt": [],
+      "en": [
+        "noble gas"
+      ],
+      "pos": "noun",
+      "plural": "die Edelgase",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 349,
+      "example_de": "Helium ist ein Edelgas.",
+      "example_en": "Helium is a noble gas."
+    },
+    {
+      "id": "s-chem-0069",
+      "de": "das Nichtmetall",
+      "de_alt": [],
+      "en": [
+        "non-metal",
+        "nonmetal"
+      ],
+      "pos": "noun",
+      "plural": "die Nichtmetalle",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 354,
+      "example_de": "Schwefel ist ein Nichtmetall.",
+      "example_en": "Sulphur is a non-metal."
+    },
+    {
+      "id": "s-chem-0070",
+      "de": "das Natrium",
+      "de_alt": [],
+      "en": [
+        "sodium"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 359,
+      "note": "symbol Na",
+      "example_de": "Natrium muss unter Öl aufbewahrt werden.",
+      "example_en": "Sodium must be stored under oil."
+    },
+    {
+      "id": "s-chem-0071",
+      "de": "das Chlor",
+      "de_alt": [],
+      "en": [
+        "chlorine"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "elements",
+      "level": "B1",
+      "rank": 364,
+      "note": "symbol Cl",
+      "example_de": "Im Schwimmbad riecht es nach Chlor.",
+      "example_en": "The swimming pool smells of chlorine."
+    },
+    {
+      "id": "s-chem-0072",
+      "de": "die Legierung",
+      "de_alt": [],
+      "en": [
+        "alloy"
+      ],
+      "pos": "noun",
+      "plural": "die Legierungen",
+      "topic": "elements",
+      "level": "B2",
+      "rank": 369,
+      "example_de": "Bronze ist eine Legierung aus Kupfer und Zinn.",
+      "example_en": "Bronze is an alloy of copper and tin."
+    },
+    {
+      "id": "s-chem-0073",
+      "de": "der Kunststoff",
+      "de_alt": [
+        "das Plastik"
+      ],
+      "en": [
+        "plastic"
+      ],
+      "pos": "noun",
+      "plural": "die Kunststoffe",
+      "topic": "matter",
+      "level": "B1",
+      "rank": 374,
+      "note": "„Kunststoff“ is the technical term",
+      "example_de": "Viele Kunststoffe werden aus Erdöl hergestellt.",
+      "example_en": "Many plastics are made from crude oil."
+    },
+    {
+      "id": "s-chem-0074",
+      "de": "verdunsten",
+      "de_alt": [],
+      "en": [
+        "to evaporate"
+      ],
+      "pos": "verb",
+      "topic": "matter",
+      "level": "B1",
+      "rank": 379,
+      "note": "below boiling point; verdampfen = at boiling point",
+      "example_de": "Das Wasser in der Pfütze verdunstet in der Sonne.",
+      "example_en": "The water in the puddle evaporates in the sun."
+    },
+    {
+      "id": "s-chem-0075",
+      "de": "kondensieren",
+      "de_alt": [],
+      "en": [
+        "to condense"
+      ],
+      "pos": "verb",
+      "topic": "matter",
+      "level": "B1",
+      "rank": 384,
+      "example_de": "Wasserdampf kondensiert an der kalten Scheibe.",
+      "example_en": "Water vapour condenses on the cold window."
+    },
+    {
+      "id": "s-chem-0076",
+      "de": "filtrieren",
+      "de_alt": [
+        "filtern"
+      ],
+      "en": [
+        "to filter"
+      ],
+      "pos": "verb",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 389,
+      "note": "der Filter = filter",
+      "example_de": "Filtriere das Gemisch, um den Sand abzutrennen.",
+      "example_en": "Filter the mixture to separate the sand."
+    },
+    {
+      "id": "s-chem-0077",
+      "de": "der Trichter",
+      "de_alt": [],
+      "en": [
+        "funnel"
+      ],
+      "pos": "noun",
+      "plural": "die Trichter",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 394,
+      "example_de": "Stell den Trichter mit Filterpapier auf den Kolben.",
+      "example_en": "Put the funnel with filter paper on the flask."
+    },
+    {
+      "id": "s-chem-0078",
+      "de": "die Pipette",
+      "de_alt": [],
+      "en": [
+        "pipette"
+      ],
+      "pos": "noun",
+      "plural": "die Pipetten",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 399,
+      "example_de": "Gib mit der Pipette drei Tropfen Indikator dazu.",
+      "example_en": "Add three drops of indicator with the pipette."
+    },
+    {
+      "id": "s-chem-0079",
+      "de": "der Indikator",
+      "de_alt": [],
+      "en": [
+        "indicator"
+      ],
+      "pos": "noun",
+      "plural": "die Indikatoren",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 404,
+      "example_de": "Der Indikator färbt sich in Säure rot.",
+      "example_en": "The indicator turns red in acid."
+    },
+    {
+      "id": "s-chem-0080",
+      "de": "der Erlenmeyerkolben",
+      "de_alt": [
+        "der Kolben"
+      ],
+      "en": [
+        "conical flask",
+        "Erlenmeyer flask",
+        "flask"
+      ],
+      "pos": "noun",
+      "plural": "die Erlenmeyerkolben",
+      "topic": "lab",
+      "level": "B2",
+      "rank": 409,
+      "example_de": "Schwenke den Erlenmeyerkolben vorsichtig.",
+      "example_en": "Swirl the conical flask carefully."
+    },
+    {
+      "id": "s-chem-0081",
+      "de": "der Messzylinder",
+      "de_alt": [],
+      "en": [
+        "graduated cylinder",
+        "measuring cylinder"
+      ],
+      "pos": "noun",
+      "plural": "die Messzylinder",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 414,
+      "example_de": "Miss 50 ml Wasser mit dem Messzylinder ab.",
+      "example_en": "Measure out 50 ml of water with the measuring cylinder."
+    },
+    {
+      "id": "s-chem-0082",
+      "de": "der Abzug",
+      "de_alt": [],
+      "en": [
+        "fume hood",
+        "fume cupboard"
+      ],
+      "pos": "noun",
+      "plural": "die Abzüge",
+      "topic": "lab",
+      "level": "B2",
+      "rank": 418,
+      "note": "also: deduction; trigger; print",
+      "example_de": "Arbeite mit Chlor nur unter dem Abzug.",
+      "example_en": "Only work with chlorine under the fume hood."
+    },
+    {
+      "id": "s-chem-0083",
+      "de": "der Kittel",
+      "de_alt": [
+        "der Laborkittel"
+      ],
+      "en": [
+        "lab coat",
+        "coat"
+      ],
+      "pos": "noun",
+      "plural": "die Kittel",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 422,
+      "example_de": "Zieh den Kittel an, bevor du anfängst.",
+      "example_en": "Put on the lab coat before you start."
+    },
+    {
+      "id": "s-chem-0084",
+      "de": "das Gefahrensymbol",
+      "de_alt": [
+        "das Gefahrenpiktogramm"
+      ],
+      "en": [
+        "hazard symbol",
+        "warning symbol"
+      ],
+      "pos": "noun",
+      "plural": "die Gefahrensymbole",
+      "topic": "lab",
+      "level": "B1",
+      "rank": 426,
+      "example_de": "Achte auf die Gefahrensymbole auf der Flasche.",
+      "example_en": "Pay attention to the hazard symbols on the bottle."
+    },
+    {
+      "id": "s-chem-0085",
+      "de": "der Niederschlag",
+      "de_alt": [],
+      "en": [
+        "precipitate"
+      ],
+      "pos": "noun",
+      "plural": "die Niederschläge",
+      "topic": "reactions",
+      "level": "B2",
+      "rank": 429,
+      "note": "also: rain, precipitation (weather)",
+      "example_de": "Es bildet sich ein weißer Niederschlag.",
+      "example_en": "A white precipitate forms."
+    },
+    {
+      "id": "s-chem-0086",
+      "de": "das Mol",
+      "de_alt": [],
+      "en": [
+        "mole"
+      ],
+      "pos": "noun",
+      "plural": "die Mole",
+      "topic": "reactions",
+      "level": "B2",
+      "rank": 438,
+      "note": "unit of amount of substance (Stoffmenge)",
+      "example_de": "Ein Mol Wasser wiegt etwa 18 Gramm.",
+      "example_en": "One mole of water weighs about 18 grams."
+    },
+    {
+      "id": "s-chem-0087",
+      "de": "organisch",
+      "de_alt": [],
+      "en": [
+        "organic"
+      ],
+      "pos": "adj",
+      "topic": "elements",
+      "level": "B2",
+      "rank": 443,
+      "note": "organische Chemie = chemistry of carbon compounds",
+      "example_de": "Methan ist eine organische Verbindung.",
+      "example_en": "Methane is an organic compound."
+    },
+    {
+      "id": "s-chem-0088",
+      "de": "der Kristall",
+      "de_alt": [],
+      "en": [
+        "crystal"
+      ],
+      "pos": "noun",
+      "plural": "die Kristalle",
+      "topic": "matter",
+      "level": "B1",
+      "rank": 448,
+      "note": "careful: das Kristall = crystal glass",
+      "example_de": "Salz bildet würfelförmige Kristalle.",
+      "example_en": "Salt forms cube-shaped crystals."
+    },
+    {
+      "id": "s-chem-0089",
+      "de": "die Elektrolyse",
+      "de_alt": [],
+      "en": [
+        "electrolysis"
+      ],
+      "pos": "noun",
+      "plural": "die Elektrolysen",
+      "topic": "reactions",
+      "level": "B2",
+      "rank": 453,
+      "example_de": "Durch Elektrolyse kann man Wasserstoff gewinnen.",
+      "example_en": "Hydrogen can be obtained by electrolysis."
+    }
+  ]
+}

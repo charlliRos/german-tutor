@@ -1,0 +1,1550 @@
+{
+  "bank": "stem",
+  "title": "STEM German — physics",
+  "words": [
+    {
+      "id": "s-phys-0001",
+      "de": "die Physik",
+      "de_alt": [],
+      "en": [
+        "physics"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "science",
+      "level": "A2",
+      "rank": 2,
+      "example_de": "Physik ist schwer, aber spannend.",
+      "example_en": "Physics is hard but exciting."
+    },
+    {
+      "id": "s-phys-0002",
+      "de": "das Experiment",
+      "de_alt": [],
+      "en": [
+        "experiment"
+      ],
+      "pos": "noun",
+      "plural": "die Experimente",
+      "topic": "science",
+      "level": "A2",
+      "rank": 7,
+      "note": "in school usually „der Versuch“",
+      "example_de": "Das Experiment hat unsere Hypothese bestätigt.",
+      "example_en": "The experiment confirmed our hypothesis."
+    },
+    {
+      "id": "s-phys-0003",
+      "de": "messen",
+      "de_alt": [],
+      "en": [
+        "to measure"
+      ],
+      "pos": "verb",
+      "topic": "units",
+      "level": "A2",
+      "rank": 12,
+      "note": "Präsens: er misst; Perfekt: hat gemessen",
+      "example_de": "Wir messen die Temperatur jede Minute.",
+      "example_en": "We measure the temperature every minute."
+    },
+    {
+      "id": "s-phys-0004",
+      "de": "die Energie",
+      "de_alt": [],
+      "en": [
+        "energy"
+      ],
+      "pos": "noun",
+      "plural": "die Energien",
+      "topic": "energy",
+      "level": "A2",
+      "rank": 17,
+      "example_de": "Die Sonne liefert uns Energie.",
+      "example_en": "The sun supplies us with energy."
+    },
+    {
+      "id": "s-phys-0005",
+      "de": "die Kraft",
+      "de_alt": [],
+      "en": [
+        "force",
+        "strength"
+      ],
+      "pos": "noun",
+      "plural": "die Kräfte",
+      "topic": "mechanics",
+      "level": "A2",
+      "rank": 22,
+      "note": "in physics: force (unit: Newton)",
+      "example_de": "Auf den Körper wirkt eine Kraft von 5 N.",
+      "example_en": "A force of 5 N acts on the object."
+    },
+    {
+      "id": "s-phys-0006",
+      "de": "die Masse",
+      "de_alt": [],
+      "en": [
+        "mass"
+      ],
+      "pos": "noun",
+      "plural": "die Massen",
+      "topic": "mechanics",
+      "level": "A2",
+      "rank": 27,
+      "note": "also: crowd, bulk",
+      "example_de": "Die Masse wird in Kilogramm angegeben.",
+      "example_en": "Mass is given in kilograms."
+    },
+    {
+      "id": "s-phys-0007",
+      "de": "das Gewicht",
+      "de_alt": [],
+      "en": [
+        "weight"
+      ],
+      "pos": "noun",
+      "plural": "die Gewichte",
+      "topic": "mechanics",
+      "level": "A2",
+      "rank": 32,
+      "note": "everyday word; in physics use „Masse“ (kg) or „Gewichtskraft“ (N)",
+      "example_de": "Auf dem Mond ist dein Gewicht viel kleiner.",
+      "example_en": "On the moon your weight is much lower."
+    },
+    {
+      "id": "s-phys-0008",
+      "de": "die Geschwindigkeit",
+      "de_alt": [],
+      "en": [
+        "speed",
+        "velocity"
+      ],
+      "pos": "noun",
+      "plural": "die Geschwindigkeiten",
+      "topic": "mechanics",
+      "level": "A2",
+      "rank": 37,
+      "example_de": "Die Geschwindigkeit wird in Metern pro Sekunde gemessen.",
+      "example_en": "Speed is measured in metres per second."
+    },
+    {
+      "id": "s-phys-0009",
+      "de": "die Temperatur",
+      "de_alt": [],
+      "en": [
+        "temperature"
+      ],
+      "pos": "noun",
+      "plural": "die Temperaturen",
+      "topic": "energy",
+      "level": "A2",
+      "rank": 42,
+      "example_de": "Die Temperatur steigt auf 80 Grad.",
+      "example_en": "The temperature rises to 80 degrees."
+    },
+    {
+      "id": "s-phys-0010",
+      "de": "der Strom",
+      "de_alt": [
+        "der elektrische Strom"
+      ],
+      "en": [
+        "electricity",
+        "current",
+        "electric current"
+      ],
+      "pos": "noun",
+      "plural": "die Ströme",
+      "topic": "electricity",
+      "level": "A2",
+      "rank": 47,
+      "note": "also: river current, stream",
+      "example_de": "Der Strom fließt durch den Draht.",
+      "example_en": "The current flows through the wire."
+    },
+    {
+      "id": "s-phys-0011",
+      "de": "die Spannung",
+      "de_alt": [],
+      "en": [
+        "voltage",
+        "tension"
+      ],
+      "pos": "noun",
+      "plural": "die Spannungen",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 52,
+      "note": "also: suspense, excitement",
+      "example_de": "Die Spannung der Batterie beträgt 9 Volt.",
+      "example_en": "The battery's voltage is 9 volts."
+    },
+    {
+      "id": "s-phys-0012",
+      "de": "die Einheit",
+      "de_alt": [],
+      "en": [
+        "unit"
+      ],
+      "pos": "noun",
+      "plural": "die Einheiten",
+      "topic": "units",
+      "level": "A2",
+      "rank": 57,
+      "note": "also: unity",
+      "example_de": "Vergiss die Einheit nicht!",
+      "example_en": "Don't forget the unit!"
+    },
+    {
+      "id": "s-phys-0013",
+      "de": "die Messung",
+      "de_alt": [],
+      "en": [
+        "measurement"
+      ],
+      "pos": "noun",
+      "plural": "die Messungen",
+      "topic": "units",
+      "level": "A2",
+      "rank": 62,
+      "example_de": "Wir wiederholen die Messung dreimal.",
+      "example_en": "We repeat the measurement three times."
+    },
+    {
+      "id": "s-phys-0014",
+      "de": "das Licht",
+      "de_alt": [],
+      "en": [
+        "light"
+      ],
+      "pos": "noun",
+      "plural": "die Lichter",
+      "topic": "waves",
+      "level": "A2",
+      "rank": 67,
+      "example_de": "Licht ist schneller als Schall.",
+      "example_en": "Light is faster than sound."
+    },
+    {
+      "id": "s-phys-0015",
+      "de": "die Hypothese",
+      "de_alt": [],
+      "en": [
+        "hypothesis"
+      ],
+      "pos": "noun",
+      "plural": "die Hypothesen",
+      "topic": "science",
+      "level": "B1",
+      "rank": 72,
+      "note": "also: die Vermutung (guess, conjecture)",
+      "example_de": "Stelle eine Hypothese auf und überprüfe sie.",
+      "example_en": "Form a hypothesis and test it."
+    },
+    {
+      "id": "s-phys-0016",
+      "de": "die Beobachtung",
+      "de_alt": [],
+      "en": [
+        "observation"
+      ],
+      "pos": "noun",
+      "plural": "die Beobachtungen",
+      "topic": "science",
+      "level": "A2",
+      "rank": 77,
+      "example_de": "Notiere deine Beobachtungen im Heft.",
+      "example_en": "Write your observations in your exercise book."
+    },
+    {
+      "id": "s-phys-0017",
+      "de": "beobachten",
+      "de_alt": [],
+      "en": [
+        "to observe",
+        "to watch"
+      ],
+      "pos": "verb",
+      "topic": "science",
+      "level": "A2",
+      "rank": 82,
+      "example_de": "Beobachte, was mit dem Eis passiert.",
+      "example_en": "Observe what happens to the ice."
+    },
+    {
+      "id": "s-phys-0018",
+      "de": "die Theorie",
+      "de_alt": [],
+      "en": [
+        "theory"
+      ],
+      "pos": "noun",
+      "plural": "die Theorien",
+      "topic": "science",
+      "level": "B1",
+      "rank": 86,
+      "example_de": "Die Theorie erklärt alle Beobachtungen.",
+      "example_en": "The theory explains all the observations."
+    },
+    {
+      "id": "s-phys-0019",
+      "de": "der Druck",
+      "de_alt": [],
+      "en": [
+        "pressure"
+      ],
+      "pos": "noun",
+      "plural": "die Drücke",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 90,
+      "note": "also: print, printing",
+      "example_de": "Der Druck nimmt mit der Tiefe zu.",
+      "example_en": "Pressure increases with depth."
+    },
+    {
+      "id": "s-phys-0020",
+      "de": "die Welle",
+      "de_alt": [],
+      "en": [
+        "wave"
+      ],
+      "pos": "noun",
+      "plural": "die Wellen",
+      "topic": "waves",
+      "level": "A2",
+      "rank": 93,
+      "note": "also: shaft (engineering)",
+      "example_de": "Schall breitet sich als Welle aus.",
+      "example_en": "Sound travels as a wave."
+    },
+    {
+      "id": "s-phys-0021",
+      "de": "die Bewegung",
+      "de_alt": [],
+      "en": [
+        "motion",
+        "movement"
+      ],
+      "pos": "noun",
+      "plural": "die Bewegungen",
+      "topic": "mechanics",
+      "level": "A2",
+      "rank": 99,
+      "example_de": "Newton beschrieb die Gesetze der Bewegung.",
+      "example_en": "Newton described the laws of motion."
+    },
+    {
+      "id": "s-phys-0022",
+      "de": "die Beschleunigung",
+      "de_alt": [],
+      "en": [
+        "acceleration"
+      ],
+      "pos": "noun",
+      "plural": "die Beschleunigungen",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 104,
+      "example_de": "Die Beschleunigung beträgt 9,81 m/s².",
+      "example_en": "The acceleration is 9.81 m/s²."
+    },
+    {
+      "id": "s-phys-0023",
+      "de": "beschleunigen",
+      "de_alt": [],
+      "en": [
+        "to accelerate",
+        "to speed up"
+      ],
+      "pos": "verb",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 109,
+      "example_de": "Das Auto beschleunigt in fünf Sekunden auf 100 km/h.",
+      "example_en": "The car accelerates to 100 km/h in five seconds."
+    },
+    {
+      "id": "s-phys-0024",
+      "de": "die Schwerkraft",
+      "de_alt": [
+        "die Gravitation"
+      ],
+      "en": [
+        "gravity",
+        "gravitation"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 114,
+      "example_de": "Die Schwerkraft zieht alles nach unten.",
+      "example_en": "Gravity pulls everything down."
+    },
+    {
+      "id": "s-phys-0025",
+      "de": "die Reibung",
+      "de_alt": [],
+      "en": [
+        "friction"
+      ],
+      "pos": "noun",
+      "plural": "die Reibungen",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 119,
+      "example_de": "Ohne Reibung könnten wir nicht laufen.",
+      "example_en": "Without friction we couldn't walk."
+    },
+    {
+      "id": "s-phys-0026",
+      "de": "die Leistung",
+      "de_alt": [],
+      "en": [
+        "power",
+        "performance"
+      ],
+      "pos": "noun",
+      "plural": "die Leistungen",
+      "topic": "energy",
+      "level": "B1",
+      "rank": 124,
+      "note": "in physics: power (Watt); also: achievement, grades",
+      "example_de": "Der Föhn hat eine Leistung von 2000 Watt.",
+      "example_en": "The hair dryer has a power of 2000 watts."
+    },
+    {
+      "id": "s-phys-0027",
+      "de": "die Arbeit",
+      "de_alt": [],
+      "en": [
+        "work"
+      ],
+      "pos": "noun",
+      "plural": "die Arbeiten",
+      "topic": "energy",
+      "level": "A2",
+      "rank": 129,
+      "note": "in physics: work = force × distance (Joule)",
+      "example_de": "Beim Heben wird Arbeit verrichtet.",
+      "example_en": "Work is done when lifting."
+    },
+    {
+      "id": "s-phys-0028",
+      "de": "die Wärme",
+      "de_alt": [],
+      "en": [
+        "heat",
+        "warmth"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "energy",
+      "level": "A2",
+      "rank": 134,
+      "example_de": "Reibung erzeugt Wärme.",
+      "example_en": "Friction produces heat."
+    },
+    {
+      "id": "s-phys-0029",
+      "de": "die Dichte",
+      "de_alt": [],
+      "en": [
+        "density"
+      ],
+      "pos": "noun",
+      "plural": "die Dichten",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 139,
+      "example_de": "Eis hat eine geringere Dichte als Wasser.",
+      "example_en": "Ice has a lower density than water."
+    },
+    {
+      "id": "s-phys-0030",
+      "de": "der Widerstand",
+      "de_alt": [],
+      "en": [
+        "resistance",
+        "resistor"
+      ],
+      "pos": "noun",
+      "plural": "die Widerstände",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 144,
+      "note": "also: opposition, resistance movement",
+      "example_de": "Der Widerstand wird in Ohm gemessen.",
+      "example_en": "Resistance is measured in ohms."
+    },
+    {
+      "id": "s-phys-0031",
+      "de": "der Stromkreis",
+      "de_alt": [],
+      "en": [
+        "circuit",
+        "electric circuit"
+      ],
+      "pos": "noun",
+      "plural": "die Stromkreise",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 149,
+      "example_de": "Der Stromkreis ist geschlossen, die Lampe leuchtet.",
+      "example_en": "The circuit is closed, the lamp lights up."
+    },
+    {
+      "id": "s-phys-0032",
+      "de": "die Stromstärke",
+      "de_alt": [],
+      "en": [
+        "current",
+        "amperage",
+        "current strength"
+      ],
+      "pos": "noun",
+      "plural": "die Stromstärken",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 154,
+      "note": "symbol I, unit Ampere",
+      "example_de": "Miss die Stromstärke mit dem Amperemeter.",
+      "example_en": "Measure the current with the ammeter."
+    },
+    {
+      "id": "s-phys-0033",
+      "de": "die Ladung",
+      "de_alt": [],
+      "en": [
+        "charge",
+        "electric charge"
+      ],
+      "pos": "noun",
+      "plural": "die Ladungen",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 159,
+      "note": "also: load, cargo",
+      "example_de": "Elektronen haben eine negative Ladung.",
+      "example_en": "Electrons have a negative charge."
+    },
+    {
+      "id": "s-phys-0034",
+      "de": "elektrisch",
+      "de_alt": [],
+      "en": [
+        "electric",
+        "electrical"
+      ],
+      "pos": "adj",
+      "topic": "electricity",
+      "level": "A2",
+      "rank": 164,
+      "example_de": "Kupfer leitet den elektrischen Strom gut.",
+      "example_en": "Copper conducts electric current well."
+    },
+    {
+      "id": "s-phys-0035",
+      "de": "der Leiter",
+      "de_alt": [],
+      "en": [
+        "conductor"
+      ],
+      "pos": "noun",
+      "plural": "die Leiter",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 169,
+      "note": "careful: die Leiter = ladder; der Leiter also = leader",
+      "example_de": "Metalle sind gute Leiter.",
+      "example_en": "Metals are good conductors."
+    },
+    {
+      "id": "s-phys-0036",
+      "de": "der Isolator",
+      "de_alt": [],
+      "en": [
+        "insulator"
+      ],
+      "pos": "noun",
+      "plural": "die Isolatoren",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 174,
+      "example_de": "Gummi ist ein guter Isolator.",
+      "example_en": "Rubber is a good insulator."
+    },
+    {
+      "id": "s-phys-0037",
+      "de": "die Batterie",
+      "de_alt": [],
+      "en": [
+        "battery"
+      ],
+      "pos": "noun",
+      "plural": "die Batterien",
+      "topic": "electricity",
+      "level": "A2",
+      "rank": 179,
+      "note": "rechargeable battery = der Akku",
+      "example_de": "Die Batterie ist leer.",
+      "example_en": "The battery is flat."
+    },
+    {
+      "id": "s-phys-0038",
+      "de": "der Schalter",
+      "de_alt": [],
+      "en": [
+        "switch"
+      ],
+      "pos": "noun",
+      "plural": "die Schalter",
+      "topic": "electricity",
+      "level": "A2",
+      "rank": 184,
+      "note": "also: counter (at a bank, post office)",
+      "example_de": "Drück auf den Schalter, um den Stromkreis zu schließen.",
+      "example_en": "Press the switch to close the circuit."
+    },
+    {
+      "id": "s-phys-0039",
+      "de": "der Magnet",
+      "de_alt": [],
+      "en": [
+        "magnet"
+      ],
+      "pos": "noun",
+      "plural": "die Magnete",
+      "topic": "electricity",
+      "level": "A2",
+      "rank": 189,
+      "note": "plural also „die Magneten“",
+      "example_de": "Der Magnet zieht den Nagel an.",
+      "example_en": "The magnet attracts the nail."
+    },
+    {
+      "id": "s-phys-0040",
+      "de": "magnetisch",
+      "de_alt": [],
+      "en": [
+        "magnetic"
+      ],
+      "pos": "adj",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 194,
+      "example_de": "Nicht alle Metalle sind magnetisch.",
+      "example_en": "Not all metals are magnetic."
+    },
+    {
+      "id": "s-phys-0041",
+      "de": "die Frequenz",
+      "de_alt": [],
+      "en": [
+        "frequency"
+      ],
+      "pos": "noun",
+      "plural": "die Frequenzen",
+      "topic": "waves",
+      "level": "B1",
+      "rank": 199,
+      "note": "unit: Hertz (Hz)",
+      "example_de": "Hohe Töne haben eine hohe Frequenz.",
+      "example_en": "High notes have a high frequency."
+    },
+    {
+      "id": "s-phys-0042",
+      "de": "die Wellenlänge",
+      "de_alt": [],
+      "en": [
+        "wavelength"
+      ],
+      "pos": "noun",
+      "plural": "die Wellenlängen",
+      "topic": "waves",
+      "level": "B1",
+      "rank": 204,
+      "example_de": "Rotes Licht hat eine größere Wellenlänge als blaues.",
+      "example_en": "Red light has a longer wavelength than blue."
+    },
+    {
+      "id": "s-phys-0043",
+      "de": "der Schall",
+      "de_alt": [],
+      "en": [
+        "sound"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "waves",
+      "level": "B1",
+      "rank": 209,
+      "note": "physics word; everyday: der Ton, das Geräusch",
+      "example_de": "Schall breitet sich im Vakuum nicht aus.",
+      "example_en": "Sound doesn't travel in a vacuum."
+    },
+    {
+      "id": "s-phys-0044",
+      "de": "die Linse",
+      "de_alt": [],
+      "en": [
+        "lens"
+      ],
+      "pos": "noun",
+      "plural": "die Linsen",
+      "topic": "waves",
+      "level": "B1",
+      "rank": 214,
+      "note": "also: lentil",
+      "example_de": "Die Linse bündelt das Licht.",
+      "example_en": "The lens focuses the light."
+    },
+    {
+      "id": "s-phys-0045",
+      "de": "der Spiegel",
+      "de_alt": [],
+      "en": [
+        "mirror"
+      ],
+      "pos": "noun",
+      "plural": "die Spiegel",
+      "topic": "waves",
+      "level": "A2",
+      "rank": 219,
+      "example_de": "Der Spiegel reflektiert das Licht.",
+      "example_en": "The mirror reflects the light."
+    },
+    {
+      "id": "s-phys-0046",
+      "de": "reflektieren",
+      "de_alt": [],
+      "en": [
+        "to reflect"
+      ],
+      "pos": "verb",
+      "topic": "waves",
+      "level": "B1",
+      "rank": 224,
+      "note": "also: to think about",
+      "example_de": "Weiße Flächen reflektieren viel Licht.",
+      "example_en": "White surfaces reflect a lot of light."
+    },
+    {
+      "id": "s-phys-0047",
+      "de": "der Meter",
+      "de_alt": [],
+      "en": [
+        "metre",
+        "meter"
+      ],
+      "pos": "noun",
+      "plural": "die Meter",
+      "topic": "units",
+      "level": "A2",
+      "rank": 229,
+      "note": "also „das Meter“ in everyday speech",
+      "example_de": "Der Tisch ist zwei Meter lang.",
+      "example_en": "The table is two metres long."
+    },
+    {
+      "id": "s-phys-0048",
+      "de": "das Kilogramm",
+      "de_alt": [],
+      "en": [
+        "kilogram",
+        "kilogramme"
+      ],
+      "pos": "noun",
+      "plural": "die Kilogramm",
+      "topic": "units",
+      "level": "A2",
+      "rank": 234,
+      "note": "short: das Kilo",
+      "example_de": "Ein Liter Wasser wiegt etwa ein Kilogramm.",
+      "example_en": "A litre of water weighs about one kilogram."
+    },
+    {
+      "id": "s-phys-0049",
+      "de": "der Grad",
+      "de_alt": [],
+      "en": [
+        "degree"
+      ],
+      "pos": "noun",
+      "plural": "die Grad",
+      "topic": "units",
+      "level": "A2",
+      "rank": 239,
+      "note": "20 Grad Celsius; also angles: 90 Grad",
+      "example_de": "Wasser siedet bei 100 Grad Celsius.",
+      "example_en": "Water boils at 100 degrees Celsius."
+    },
+    {
+      "id": "s-phys-0050",
+      "de": "das Volt",
+      "de_alt": [],
+      "en": [
+        "volt"
+      ],
+      "pos": "noun",
+      "plural": "die Volt",
+      "topic": "units",
+      "level": "B1",
+      "rank": 244,
+      "example_de": "Eine Steckdose liefert 230 Volt.",
+      "example_en": "A socket supplies 230 volts."
+    },
+    {
+      "id": "s-phys-0051",
+      "de": "das Watt",
+      "de_alt": [],
+      "en": [
+        "watt"
+      ],
+      "pos": "noun",
+      "plural": "die Watt",
+      "topic": "units",
+      "level": "B1",
+      "rank": 249,
+      "example_de": "Die LED-Lampe braucht nur 5 Watt.",
+      "example_en": "The LED lamp needs only 5 watts."
+    },
+    {
+      "id": "s-phys-0052",
+      "de": "das Messgerät",
+      "de_alt": [],
+      "en": [
+        "measuring device",
+        "measuring instrument"
+      ],
+      "pos": "noun",
+      "plural": "die Messgeräte",
+      "topic": "units",
+      "level": "B1",
+      "rank": 254,
+      "example_de": "Stelle das Messgerät auf Volt ein.",
+      "example_en": "Set the measuring device to volts."
+    },
+    {
+      "id": "s-phys-0053",
+      "de": "der Messwert",
+      "de_alt": [],
+      "en": [
+        "measured value",
+        "reading"
+      ],
+      "pos": "noun",
+      "plural": "die Messwerte",
+      "topic": "units",
+      "level": "B1",
+      "rank": 259,
+      "example_de": "Trage die Messwerte in die Tabelle ein.",
+      "example_en": "Enter the readings in the table."
+    },
+    {
+      "id": "s-phys-0054",
+      "de": "die Genauigkeit",
+      "de_alt": [],
+      "en": [
+        "accuracy",
+        "precision"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "units",
+      "level": "B1",
+      "rank": 264,
+      "note": "genau = exact, accurate",
+      "example_de": "Die Genauigkeit der Waage beträgt 0,1 g.",
+      "example_en": "The scale is accurate to 0.1 g."
+    },
+    {
+      "id": "s-phys-0055",
+      "de": "umwandeln",
+      "de_alt": [],
+      "en": [
+        "to convert",
+        "to transform"
+      ],
+      "pos": "verb",
+      "topic": "energy",
+      "level": "B1",
+      "rank": 269,
+      "note": "separable: ich wandle um",
+      "example_de": "Eine Solarzelle wandelt Licht in elektrische Energie um.",
+      "example_en": "A solar cell converts light into electrical energy."
+    },
+    {
+      "id": "s-phys-0056",
+      "de": "erzeugen",
+      "de_alt": [],
+      "en": [
+        "to generate",
+        "to produce",
+        "to create"
+      ],
+      "pos": "verb",
+      "topic": "energy",
+      "level": "B1",
+      "rank": 274,
+      "example_de": "Das Kraftwerk erzeugt Strom.",
+      "example_en": "The power station generates electricity."
+    },
+    {
+      "id": "s-phys-0057",
+      "de": "gleichmäßig",
+      "de_alt": [],
+      "en": [
+        "uniform",
+        "uniformly",
+        "even",
+        "steady"
+      ],
+      "pos": "adj",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 279,
+      "note": "gleichmäßige Bewegung = uniform motion",
+      "example_de": "Der Zug fährt mit gleichmäßiger Geschwindigkeit.",
+      "example_en": "The train travels at a steady speed."
+    },
+    {
+      "id": "s-phys-0058",
+      "de": "konstant",
+      "de_alt": [],
+      "en": [
+        "constant"
+      ],
+      "pos": "adj",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 284,
+      "example_de": "Die Temperatur bleibt konstant.",
+      "example_en": "The temperature remains constant."
+    },
+    {
+      "id": "s-phys-0059",
+      "de": "das Gesetz",
+      "de_alt": [],
+      "en": [
+        "law"
+      ],
+      "pos": "noun",
+      "plural": "die Gesetze",
+      "topic": "science",
+      "level": "B1",
+      "rank": 289,
+      "note": "Naturgesetz = law of nature",
+      "example_de": "Das ohmsche Gesetz lautet U = R · I.",
+      "example_en": "Ohm's law is U = R · I."
+    },
+    {
+      "id": "s-phys-0060",
+      "de": "die Trägheit",
+      "de_alt": [],
+      "en": [
+        "inertia",
+        "laziness"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 303,
+      "example_de": "Wegen der Trägheit rutscht das Buch nach vorne.",
+      "example_en": "Because of inertia the book slides forwards."
+    },
+    {
+      "id": "s-phys-0061",
+      "de": "der freie Fall",
+      "de_alt": [],
+      "en": [
+        "free fall"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 308,
+      "example_de": "Im freien Fall sind alle Körper gleich schnell.",
+      "example_en": "In free fall all objects are equally fast."
+    },
+    {
+      "id": "s-phys-0062",
+      "de": "der Impuls",
+      "de_alt": [],
+      "en": [
+        "momentum",
+        "impulse"
+      ],
+      "pos": "noun",
+      "plural": "die Impulse",
+      "topic": "mechanics",
+      "level": "B2",
+      "rank": 313,
+      "note": "in physics: momentum p = m · v",
+      "example_de": "Bei einem Stoß bleibt der Impuls erhalten.",
+      "example_en": "Momentum is conserved in a collision."
+    },
+    {
+      "id": "s-phys-0063",
+      "de": "das Gleichgewicht",
+      "de_alt": [],
+      "en": [
+        "equilibrium",
+        "balance"
+      ],
+      "pos": "noun",
+      "plural": "die Gleichgewichte",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 318,
+      "example_de": "Die Waage ist im Gleichgewicht.",
+      "example_en": "The balance is in equilibrium."
+    },
+    {
+      "id": "s-phys-0064",
+      "de": "der Hebel",
+      "de_alt": [],
+      "en": [
+        "lever"
+      ],
+      "pos": "noun",
+      "plural": "die Hebel",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 323,
+      "example_de": "Mit einem langen Hebel brauchst du weniger Kraft.",
+      "example_en": "With a long lever you need less force."
+    },
+    {
+      "id": "s-phys-0065",
+      "de": "der Auftrieb",
+      "de_alt": [],
+      "en": [
+        "buoyancy",
+        "lift",
+        "upthrust"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "mechanics",
+      "level": "B2",
+      "rank": 328,
+      "note": "also: boost, momentum",
+      "example_de": "Der Auftrieb hält das Schiff über Wasser.",
+      "example_en": "Buoyancy keeps the ship afloat."
+    },
+    {
+      "id": "s-phys-0066",
+      "de": "die Bewegungsenergie",
+      "de_alt": [
+        "die kinetische Energie"
+      ],
+      "en": [
+        "kinetic energy"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "energy",
+      "level": "B1",
+      "rank": 333,
+      "example_de": "Je schneller der Ball, desto größer seine Bewegungsenergie.",
+      "example_en": "The faster the ball, the greater its kinetic energy."
+    },
+    {
+      "id": "s-phys-0067",
+      "de": "die Lageenergie",
+      "de_alt": [
+        "die potenzielle Energie",
+        "die Höhenenergie"
+      ],
+      "en": [
+        "potential energy",
+        "gravitational potential energy"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "energy",
+      "level": "B1",
+      "rank": 338,
+      "example_de": "Oben auf dem Turm hat der Stein viel Lageenergie.",
+      "example_en": "On top of the tower the stone has much potential energy."
+    },
+    {
+      "id": "s-phys-0068",
+      "de": "die Energieerhaltung",
+      "de_alt": [],
+      "en": [
+        "conservation of energy",
+        "energy conservation"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "energy",
+      "level": "B2",
+      "rank": 343,
+      "note": "also: saving energy",
+      "example_de": "Nach der Energieerhaltung geht keine Energie verloren.",
+      "example_en": "According to conservation of energy, no energy is lost."
+    },
+    {
+      "id": "s-phys-0069",
+      "de": "der Wirkungsgrad",
+      "de_alt": [],
+      "en": [
+        "efficiency"
+      ],
+      "pos": "noun",
+      "plural": "die Wirkungsgrade",
+      "topic": "energy",
+      "level": "B2",
+      "rank": 348,
+      "note": "given in percent",
+      "example_de": "Der Motor hat einen Wirkungsgrad von 40 Prozent.",
+      "example_en": "The engine has an efficiency of 40 percent."
+    },
+    {
+      "id": "s-phys-0070",
+      "de": "erneuerbar",
+      "de_alt": [],
+      "en": [
+        "renewable"
+      ],
+      "pos": "adj",
+      "topic": "energy",
+      "level": "B1",
+      "rank": 353,
+      "note": "erneuerbare Energien = renewables",
+      "example_de": "Wind und Sonne sind erneuerbare Energiequellen.",
+      "example_en": "Wind and sun are renewable energy sources."
+    },
+    {
+      "id": "s-phys-0071",
+      "de": "die Solarzelle",
+      "de_alt": [],
+      "en": [
+        "solar cell"
+      ],
+      "pos": "noun",
+      "plural": "die Solarzellen",
+      "topic": "energy",
+      "level": "B1",
+      "rank": 358,
+      "example_de": "Auf dem Schuldach sind Solarzellen installiert.",
+      "example_en": "Solar cells are installed on the school roof."
+    },
+    {
+      "id": "s-phys-0072",
+      "de": "der Generator",
+      "de_alt": [],
+      "en": [
+        "generator"
+      ],
+      "pos": "noun",
+      "plural": "die Generatoren",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 363,
+      "example_de": "Der Generator wandelt Bewegung in Strom um.",
+      "example_en": "The generator converts motion into electricity."
+    },
+    {
+      "id": "s-phys-0073",
+      "de": "das Magnetfeld",
+      "de_alt": [],
+      "en": [
+        "magnetic field"
+      ],
+      "pos": "noun",
+      "plural": "die Magnetfelder",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 368,
+      "note": "das Feld = field",
+      "example_de": "Die Erde hat ein Magnetfeld.",
+      "example_en": "The earth has a magnetic field."
+    },
+    {
+      "id": "s-phys-0074",
+      "de": "die Reihenschaltung",
+      "de_alt": [],
+      "en": [
+        "series circuit",
+        "series connection"
+      ],
+      "pos": "noun",
+      "plural": "die Reihenschaltungen",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 373,
+      "example_de": "In der Reihenschaltung fließt überall derselbe Strom.",
+      "example_en": "In a series circuit the same current flows everywhere."
+    },
+    {
+      "id": "s-phys-0075",
+      "de": "die Parallelschaltung",
+      "de_alt": [],
+      "en": [
+        "parallel circuit",
+        "parallel connection"
+      ],
+      "pos": "noun",
+      "plural": "die Parallelschaltungen",
+      "topic": "electricity",
+      "level": "B1",
+      "rank": 378,
+      "example_de": "Im Haus sind die Lampen in Parallelschaltung verbunden.",
+      "example_en": "In a house the lamps are connected in parallel."
+    },
+    {
+      "id": "s-phys-0076",
+      "de": "das Ampere",
+      "de_alt": [],
+      "en": [
+        "ampere",
+        "amp"
+      ],
+      "pos": "noun",
+      "plural": "die Ampere",
+      "topic": "units",
+      "level": "B1",
+      "rank": 383,
+      "example_de": "Die Sicherung schaltet bei 16 Ampere ab.",
+      "example_en": "The fuse cuts out at 16 amps."
+    },
+    {
+      "id": "s-phys-0077",
+      "de": "das Joule",
+      "de_alt": [],
+      "en": [
+        "joule"
+      ],
+      "pos": "noun",
+      "plural": "die Joule",
+      "topic": "units",
+      "level": "B1",
+      "rank": 388,
+      "note": "pronounced like „Dschuul“",
+      "example_de": "Energie wird in Joule gemessen.",
+      "example_en": "Energy is measured in joules."
+    },
+    {
+      "id": "s-phys-0078",
+      "de": "das Newton",
+      "de_alt": [],
+      "en": [
+        "newton"
+      ],
+      "pos": "noun",
+      "plural": "die Newton",
+      "topic": "units",
+      "level": "B1",
+      "rank": 393,
+      "example_de": "Die Gewichtskraft beträgt etwa 10 Newton.",
+      "example_en": "The weight force is about 10 newtons."
+    },
+    {
+      "id": "s-phys-0079",
+      "de": "die Schwingung",
+      "de_alt": [],
+      "en": [
+        "oscillation",
+        "vibration"
+      ],
+      "pos": "noun",
+      "plural": "die Schwingungen",
+      "topic": "waves",
+      "level": "B1",
+      "rank": 398,
+      "note": "schwingen = to oscillate, to swing",
+      "example_de": "Eine Gitarrensaite erzeugt Schwingungen.",
+      "example_en": "A guitar string produces vibrations."
+    },
+    {
+      "id": "s-phys-0080",
+      "de": "die Amplitude",
+      "de_alt": [],
+      "en": [
+        "amplitude"
+      ],
+      "pos": "noun",
+      "plural": "die Amplituden",
+      "topic": "waves",
+      "level": "B2",
+      "rank": 403,
+      "example_de": "Je größer die Amplitude, desto lauter der Ton.",
+      "example_en": "The larger the amplitude, the louder the sound."
+    },
+    {
+      "id": "s-phys-0081",
+      "de": "die Brechung",
+      "de_alt": [],
+      "en": [
+        "refraction"
+      ],
+      "pos": "noun",
+      "plural": "die Brechungen",
+      "topic": "waves",
+      "level": "B2",
+      "rank": 408,
+      "note": "also: breaking",
+      "example_de": "Die Brechung lässt den Strohhalm im Glas geknickt aussehen.",
+      "example_en": "Refraction makes the straw in the glass look bent."
+    },
+    {
+      "id": "s-phys-0082",
+      "de": "das Spektrum",
+      "de_alt": [],
+      "en": [
+        "spectrum"
+      ],
+      "pos": "noun",
+      "plural": "die Spektren",
+      "topic": "waves",
+      "level": "B2",
+      "rank": 413,
+      "example_de": "Ein Prisma zerlegt Licht in ein Spektrum.",
+      "example_en": "A prism splits light into a spectrum."
+    },
+    {
+      "id": "s-phys-0083",
+      "de": "die Lichtgeschwindigkeit",
+      "de_alt": [],
+      "en": [
+        "speed of light"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "waves",
+      "level": "B1",
+      "rank": 417,
+      "example_de": "Nichts ist schneller als die Lichtgeschwindigkeit.",
+      "example_en": "Nothing is faster than the speed of light."
+    },
+    {
+      "id": "s-phys-0084",
+      "de": "die Strahlung",
+      "de_alt": [],
+      "en": [
+        "radiation"
+      ],
+      "pos": "noun",
+      "plural": "die Strahlungen",
+      "topic": "waves",
+      "level": "B1",
+      "rank": 421,
+      "example_de": "UV-Strahlung kann die Haut schädigen.",
+      "example_en": "UV radiation can damage the skin."
+    },
+    {
+      "id": "s-phys-0085",
+      "de": "das Vakuum",
+      "de_alt": [],
+      "en": [
+        "vacuum"
+      ],
+      "pos": "noun",
+      "plural": "die Vakua",
+      "topic": "mechanics",
+      "level": "B2",
+      "rank": 425,
+      "note": "plural rare",
+      "example_de": "Im Vakuum fallen Feder und Stein gleich schnell.",
+      "example_en": "In a vacuum a feather and a stone fall equally fast."
+    },
+    {
+      "id": "s-phys-0086",
+      "de": "das Teilchen",
+      "de_alt": [],
+      "en": [
+        "particle"
+      ],
+      "pos": "noun",
+      "plural": "die Teilchen",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 428,
+      "example_de": "Alle Stoffe bestehen aus kleinen Teilchen.",
+      "example_en": "All substances consist of tiny particles."
+    },
+    {
+      "id": "s-phys-0087",
+      "de": "die Umlaufbahn",
+      "de_alt": [
+        "der Orbit"
+      ],
+      "en": [
+        "orbit"
+      ],
+      "pos": "noun",
+      "plural": "die Umlaufbahnen",
+      "topic": "astronomy",
+      "level": "B1",
+      "rank": 431,
+      "example_de": "Die ISS bleibt auf ihrer Umlaufbahn um die Erde.",
+      "example_en": "The ISS stays in its orbit around the earth."
+    },
+    {
+      "id": "s-phys-0088",
+      "de": "der Planet",
+      "de_alt": [],
+      "en": [
+        "planet"
+      ],
+      "pos": "noun",
+      "plural": "die Planeten",
+      "topic": "astronomy",
+      "level": "A2",
+      "rank": 433,
+      "example_de": "Der Mars ist der vierte Planet.",
+      "example_en": "Mars is the fourth planet."
+    },
+    {
+      "id": "s-phys-0089",
+      "de": "das Weltall",
+      "de_alt": [
+        "das Universum",
+        "der Weltraum",
+        "das All"
+      ],
+      "en": [
+        "universe",
+        "space",
+        "outer space"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "astronomy",
+      "level": "A2",
+      "rank": 435,
+      "example_de": "Das Weltall dehnt sich immer weiter aus.",
+      "example_en": "The universe keeps expanding."
+    },
+    {
+      "id": "s-phys-0090",
+      "de": "radioaktiv",
+      "de_alt": [],
+      "en": [
+        "radioactive"
+      ],
+      "pos": "adj",
+      "topic": "waves",
+      "level": "B1",
+      "rank": 437,
+      "note": "die Radioaktivität = radioactivity",
+      "example_de": "Uran ist ein radioaktives Element.",
+      "example_en": "Uranium is a radioactive element."
+    },
+    {
+      "id": "s-phys-0091",
+      "de": "die Kernspaltung",
+      "de_alt": [],
+      "en": [
+        "nuclear fission",
+        "fission"
+      ],
+      "pos": "noun",
+      "plural": "die Kernspaltungen",
+      "topic": "energy",
+      "level": "B2",
+      "rank": 442,
+      "example_de": "Atomkraftwerke nutzen die Kernspaltung.",
+      "example_en": "Nuclear power stations use nuclear fission."
+    },
+    {
+      "id": "s-phys-0092",
+      "de": "die Kernfusion",
+      "de_alt": [],
+      "en": [
+        "nuclear fusion",
+        "fusion"
+      ],
+      "pos": "noun",
+      "plural": "die Kernfusionen",
+      "topic": "energy",
+      "level": "B2",
+      "rank": 447,
+      "example_de": "In der Sonne findet Kernfusion statt.",
+      "example_en": "Nuclear fusion takes place in the sun."
+    },
+    {
+      "id": "s-phys-0093",
+      "de": "die Relativitätstheorie",
+      "de_alt": [],
+      "en": [
+        "theory of relativity",
+        "relativity"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "science",
+      "level": "B2",
+      "rank": 452,
+      "example_de": "Einstein veröffentlichte 1905 die spezielle Relativitätstheorie.",
+      "example_en": "Einstein published the special theory of relativity in 1905."
+    },
+    {
+      "id": "s-phys-0094",
+      "de": "die Quantenphysik",
+      "de_alt": [],
+      "en": [
+        "quantum physics"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "science",
+      "level": "B2",
+      "rank": 457,
+      "note": "also: die Quantenmechanik = quantum mechanics",
+      "example_de": "Quantenphysik ist die Grundlage moderner Computerchips.",
+      "example_en": "Quantum physics is the basis of modern computer chips."
+    },
+    {
+      "id": "s-phys-0095",
+      "de": "das Pendel",
+      "de_alt": [],
+      "en": [
+        "pendulum"
+      ],
+      "pos": "noun",
+      "plural": "die Pendel",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 460,
+      "example_de": "Das Pendel schwingt hin und her.",
+      "example_en": "The pendulum swings back and forth."
+    },
+    {
+      "id": "s-phys-0096",
+      "de": "elastisch",
+      "de_alt": [],
+      "en": [
+        "elastic"
+      ],
+      "pos": "adj",
+      "topic": "mechanics",
+      "level": "B1",
+      "rank": 463,
+      "example_de": "Die Feder ist elastisch und nimmt wieder ihre Form an.",
+      "example_en": "The spring is elastic and returns to its shape."
+    },
+    {
+      "id": "s-phys-0097",
+      "de": "der Satellit",
+      "de_alt": [],
+      "en": [
+        "satellite"
+      ],
+      "pos": "noun",
+      "plural": "die Satelliten",
+      "topic": "astronomy",
+      "level": "B1",
+      "rank": 465,
+      "example_de": "GPS funktioniert mit Satelliten.",
+      "example_en": "GPS works with satellites."
+    }
+  ]
+}

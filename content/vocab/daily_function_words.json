@@ -1,0 +1,1911 @@
+{
+  "bank": "daily",
+  "title": "Everyday German — function words",
+  "words": [
+    {
+      "id": "d-func-0001",
+      "de": "in",
+      "de_alt": [],
+      "en": [
+        "in",
+        "into",
+        "inside"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 4,
+      "note": "two-way: + Dativ (where?) / + Akkusativ (where to?); im = in dem, ins = in das",
+      "example_de": "Ich bin in der Schule.",
+      "example_en": "I'm at school."
+    },
+    {
+      "id": "d-func-0002",
+      "de": "an",
+      "de_alt": [],
+      "en": [
+        "at",
+        "on",
+        "to"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 18,
+      "note": "two-way: + Dativ (where?) / + Akkusativ (where to?); am = an dem",
+      "example_de": "Das Poster hängt an der Wand.",
+      "example_en": "The poster is hanging on the wall."
+    },
+    {
+      "id": "d-func-0003",
+      "de": "auf",
+      "de_alt": [],
+      "en": [
+        "on",
+        "onto",
+        "at"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 14,
+      "note": "two-way: + Dativ (where?) / + Akkusativ (where to?)",
+      "example_de": "Dein Handy liegt auf dem Sofa.",
+      "example_en": "Your phone is on the sofa."
+    },
+    {
+      "id": "d-func-0004",
+      "de": "aus",
+      "de_alt": [],
+      "en": [
+        "from",
+        "out of",
+        "made of"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 33,
+      "note": "+ Dativ",
+      "example_de": "Ich komme aus England.",
+      "example_en": "I come from England."
+    },
+    {
+      "id": "d-func-0005",
+      "de": "bei",
+      "de_alt": [],
+      "en": [
+        "at",
+        "near",
+        "with"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 36,
+      "note": "+ Dativ; beim = bei dem; bei mir = at my place",
+      "example_de": "Ich übernachte bei meiner Freundin.",
+      "example_en": "I'm staying over at my friend's."
+    },
+    {
+      "id": "d-func-0006",
+      "de": "mit",
+      "de_alt": [],
+      "en": [
+        "with",
+        "by"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 10,
+      "note": "+ Dativ; mit dem Bus = by bus",
+      "example_de": "Ich fahre mit dem Bus.",
+      "example_en": "I'm going by bus."
+    },
+    {
+      "id": "d-func-0007",
+      "de": "nach",
+      "de_alt": [],
+      "en": [
+        "after",
+        "to",
+        "according to"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 44,
+      "note": "+ Dativ; nach Hause = home; nach + countries/cities",
+      "example_de": "Nach der Schule fahren wir nach Berlin.",
+      "example_en": "After school we're going to Berlin."
+    },
+    {
+      "id": "d-func-0008",
+      "de": "von",
+      "de_alt": [],
+      "en": [
+        "from",
+        "of",
+        "by"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 16,
+      "note": "+ Dativ; vom = von dem",
+      "example_de": "Das ist ein Geschenk von meiner Oma.",
+      "example_en": "That's a present from my grandma."
+    },
+    {
+      "id": "d-func-0009",
+      "de": "zu",
+      "de_alt": [],
+      "en": [
+        "to",
+        "at",
+        "too"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 13,
+      "note": "+ Dativ; zum = zu dem, zur = zu der; zu Hause = at home; zu + adj = too",
+      "example_de": "Ich gehe zum Arzt.",
+      "example_en": "I'm going to the doctor's."
+    },
+    {
+      "id": "d-func-0010",
+      "de": "für",
+      "de_alt": [],
+      "en": [
+        "for"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 24,
+      "note": "+ Akkusativ",
+      "example_de": "Das Geschenk ist für dich.",
+      "example_en": "The present is for you."
+    },
+    {
+      "id": "d-func-0011",
+      "de": "ohne",
+      "de_alt": [],
+      "en": [
+        "without"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 190,
+      "note": "+ Akkusativ",
+      "example_de": "Ich gehe nie ohne mein Handy raus.",
+      "example_en": "I never go out without my phone."
+    },
+    {
+      "id": "d-func-0012",
+      "de": "gegen",
+      "de_alt": [],
+      "en": [
+        "against",
+        "at about",
+        "versus"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A2",
+      "rank": 180,
+      "note": "+ Akkusativ; gegen acht = around eight",
+      "example_de": "Wir spielen morgen gegen Bayern.",
+      "example_en": "We're playing against Bayern tomorrow."
+    },
+    {
+      "id": "d-func-0013",
+      "de": "um",
+      "de_alt": [],
+      "en": [
+        "at",
+        "around"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 50,
+      "note": "+ Akkusativ; um 8 Uhr = at 8 o'clock",
+      "example_de": "Der Film beginnt um acht.",
+      "example_en": "The film starts at eight."
+    },
+    {
+      "id": "d-func-0014",
+      "de": "durch",
+      "de_alt": [],
+      "en": [
+        "through",
+        "by"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A2",
+      "rank": 95,
+      "note": "+ Akkusativ",
+      "example_de": "Wir laufen durch den Park.",
+      "example_en": "We're walking through the park."
+    },
+    {
+      "id": "d-func-0015",
+      "de": "über",
+      "de_alt": [],
+      "en": [
+        "over",
+        "above",
+        "about",
+        "via"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 54,
+      "note": "two-way: + Dativ / + Akkusativ; sprechen über + Akk = talk about",
+      "example_de": "Wir reden über das Wochenende.",
+      "example_en": "We're talking about the weekend."
+    },
+    {
+      "id": "d-func-0016",
+      "de": "unter",
+      "de_alt": [],
+      "en": [
+        "under",
+        "below",
+        "among"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A2",
+      "rank": 88,
+      "note": "two-way: + Dativ / + Akkusativ",
+      "example_de": "Die Katze schläft unter dem Bett.",
+      "example_en": "The cat is sleeping under the bed."
+    },
+    {
+      "id": "d-func-0017",
+      "de": "vor",
+      "de_alt": [],
+      "en": [
+        "in front of",
+        "before",
+        "ago"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 46,
+      "note": "two-way: + Dativ / + Akkusativ; vor zwei Tagen = two days ago",
+      "example_de": "Ich warte vor dem Kino.",
+      "example_en": "I'll wait in front of the cinema."
+    },
+    {
+      "id": "d-func-0018",
+      "de": "hinter",
+      "de_alt": [],
+      "en": [
+        "behind"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 520,
+      "note": "two-way: + Dativ / + Akkusativ",
+      "example_de": "Der Park ist hinter der Schule.",
+      "example_en": "The park is behind the school."
+    },
+    {
+      "id": "d-func-0019",
+      "de": "neben",
+      "de_alt": [],
+      "en": [
+        "next to",
+        "beside"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 480,
+      "note": "two-way: + Dativ / + Akkusativ",
+      "example_de": "Ich sitze neben Lukas.",
+      "example_en": "I sit next to Lukas."
+    },
+    {
+      "id": "d-func-0020",
+      "de": "zwischen",
+      "de_alt": [],
+      "en": [
+        "between",
+        "among"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A2",
+      "rank": 300,
+      "note": "two-way: + Dativ / + Akkusativ",
+      "example_de": "Das Café ist zwischen der Bank und der Post.",
+      "example_en": "The café is between the bank and the post office."
+    },
+    {
+      "id": "d-func-0021",
+      "de": "seit",
+      "de_alt": [],
+      "en": [
+        "since",
+        "for"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 140,
+      "note": "+ Dativ; seit zwei Jahren = for two years (still true)",
+      "example_de": "Ich lerne seit drei Jahren Deutsch.",
+      "example_en": "I've been learning German for three years."
+    },
+    {
+      "id": "d-func-0022",
+      "de": "bis",
+      "de_alt": [],
+      "en": [
+        "until",
+        "till",
+        "by",
+        "to"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A1",
+      "rank": 120,
+      "note": "+ Akkusativ, usually without article; bis morgen = see you tomorrow",
+      "example_de": "Ich habe bis vier Uhr Schule.",
+      "example_en": "I have school until four o'clock."
+    },
+    {
+      "id": "d-func-0023",
+      "de": "während",
+      "de_alt": [],
+      "en": [
+        "during",
+        "while"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "B1",
+      "rank": 260,
+      "note": "prep + Genitiv (often Dativ in speech); also conj \"while\"",
+      "example_de": "Während der Pause esse ich mein Brot.",
+      "example_en": "I eat my sandwich during the break."
+    },
+    {
+      "id": "d-func-0024",
+      "de": "wegen",
+      "de_alt": [],
+      "en": [
+        "because of",
+        "due to"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "B1",
+      "rank": 320,
+      "note": "+ Genitiv (often Dativ in speech)",
+      "example_de": "Wegen des Regens fällt das Spiel aus.",
+      "example_en": "The match is cancelled because of the rain."
+    },
+    {
+      "id": "d-func-0025",
+      "de": "trotz",
+      "de_alt": [],
+      "en": [
+        "despite",
+        "in spite of"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "B1",
+      "rank": 900,
+      "note": "+ Genitiv (often Dativ in speech)",
+      "example_de": "Trotz des Regens sind wir gegangen.",
+      "example_en": "Despite the rain we went."
+    },
+    {
+      "id": "d-func-0026",
+      "de": "ab",
+      "de_alt": [],
+      "en": [
+        "from",
+        "as of"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A2",
+      "rank": 400,
+      "note": "+ Dativ; ab Montag = from Monday on",
+      "example_de": "Ab nächster Woche haben wir Ferien.",
+      "example_en": "From next week we're on holiday."
+    },
+    {
+      "id": "d-func-0027",
+      "de": "gegenüber",
+      "de_alt": [],
+      "en": [
+        "opposite",
+        "across from",
+        "towards"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "A2",
+      "rank": 1500,
+      "note": "+ Dativ; often after the noun: der Schule gegenüber",
+      "example_de": "Der Bäcker ist gegenüber der Schule.",
+      "example_en": "The bakery is opposite the school."
+    },
+    {
+      "id": "d-func-0028",
+      "de": "außer",
+      "de_alt": [],
+      "en": [
+        "except",
+        "apart from"
+      ],
+      "pos": "prep",
+      "topic": "prepositions",
+      "level": "B1",
+      "rank": 700,
+      "note": "+ Dativ",
+      "example_de": "Alle außer mir waren da.",
+      "example_en": "Everyone except me was there."
+    },
+    {
+      "id": "d-func-0029",
+      "de": "und",
+      "de_alt": [],
+      "en": [
+        "and"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "A1",
+      "rank": 3,
+      "example_de": "Ich mag Pizza und Pasta.",
+      "example_en": "I like pizza and pasta."
+    },
+    {
+      "id": "d-func-0030",
+      "de": "oder",
+      "de_alt": [],
+      "en": [
+        "or"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "A1",
+      "rank": 48,
+      "example_de": "Willst du Tee oder Kakao?",
+      "example_en": "Do you want tea or hot chocolate?"
+    },
+    {
+      "id": "d-func-0031",
+      "de": "aber",
+      "de_alt": [],
+      "en": [
+        "but",
+        "however"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "A1",
+      "rank": 26,
+      "note": "also particle for emphasis: Das ist aber schön!",
+      "example_de": "Ich will kommen, aber ich kann nicht.",
+      "example_en": "I want to come, but I can't."
+    },
+    {
+      "id": "d-func-0032",
+      "de": "denn",
+      "de_alt": [],
+      "en": [
+        "because",
+        "for",
+        "then"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "A2",
+      "rank": 90,
+      "note": "conj: normal word order; also particle in questions: Was ist denn los?",
+      "example_de": "Ich bleibe zu Hause, denn ich bin krank.",
+      "example_en": "I'm staying at home because I'm ill."
+    },
+    {
+      "id": "d-func-0033",
+      "de": "sondern",
+      "de_alt": [],
+      "en": [
+        "but",
+        "but rather"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "A2",
+      "rank": 250,
+      "note": "after a negative: nicht …, sondern …",
+      "example_de": "Das ist nicht mein Handy, sondern deins.",
+      "example_en": "That's not my phone, it's yours."
+    },
+    {
+      "id": "d-func-0034",
+      "de": "weil",
+      "de_alt": [],
+      "en": [
+        "because"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "A1",
+      "rank": 150,
+      "note": "verb goes to the end",
+      "example_de": "Ich bin müde, weil ich lange gezockt habe.",
+      "example_en": "I'm tired because I was gaming for ages."
+    },
+    {
+      "id": "d-func-0035",
+      "de": "dass",
+      "de_alt": [],
+      "en": [
+        "that"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "A1",
+      "rank": 22,
+      "note": "verb goes to the end",
+      "example_de": "Ich glaube, dass er recht hat.",
+      "example_en": "I think that he's right."
+    },
+    {
+      "id": "d-func-0036",
+      "de": "wenn",
+      "de_alt": [],
+      "en": [
+        "if",
+        "when",
+        "whenever"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "A1",
+      "rank": 60,
+      "note": "verb goes to the end; present/future or repeated \"when\"",
+      "example_de": "Wenn es regnet, bleiben wir drinnen.",
+      "example_en": "If it rains, we'll stay inside."
+    },
+    {
+      "id": "d-func-0037",
+      "de": "ob",
+      "de_alt": [],
+      "en": [
+        "whether",
+        "if"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "A2",
+      "rank": 160,
+      "note": "verb goes to the end; indirect yes/no questions",
+      "example_de": "Weißt du, ob er kommt?",
+      "example_en": "Do you know if he's coming?"
+    },
+    {
+      "id": "d-func-0038",
+      "de": "als",
+      "de_alt": [],
+      "en": [
+        "when",
+        "as",
+        "than"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "A2",
+      "rank": 28,
+      "note": "single event in the past: als ich klein war; größer als = bigger than",
+      "example_de": "Als ich klein war, hatte ich einen Hund.",
+      "example_en": "When I was little, I had a dog."
+    },
+    {
+      "id": "d-func-0039",
+      "de": "obwohl",
+      "de_alt": [],
+      "en": [
+        "although",
+        "even though"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "B1",
+      "rank": 600,
+      "note": "verb goes to the end",
+      "example_de": "Obwohl ich müde bin, gehe ich zum Training.",
+      "example_en": "Although I'm tired, I'm going to training."
+    },
+    {
+      "id": "d-func-0040",
+      "de": "damit",
+      "de_alt": [],
+      "en": [
+        "so that",
+        "with it"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "B1",
+      "rank": 240,
+      "note": "verb goes to the end",
+      "example_de": "Ich lerne viel, damit ich eine gute Note bekomme.",
+      "example_en": "I study a lot so that I get a good grade."
+    },
+    {
+      "id": "d-func-0041",
+      "de": "bevor",
+      "de_alt": [],
+      "en": [
+        "before"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "A2",
+      "rank": 650,
+      "note": "verb goes to the end",
+      "example_de": "Ruf mich an, bevor du losgehst.",
+      "example_en": "Call me before you leave."
+    },
+    {
+      "id": "d-func-0042",
+      "de": "nachdem",
+      "de_alt": [],
+      "en": [
+        "after"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "B1",
+      "rank": 800,
+      "note": "verb goes to the end; usually with past perfect",
+      "example_de": "Nachdem wir gegessen hatten, sind wir ins Kino gegangen.",
+      "example_en": "After we had eaten, we went to the cinema."
+    },
+    {
+      "id": "d-func-0043",
+      "de": "sobald",
+      "de_alt": [],
+      "en": [
+        "as soon as"
+      ],
+      "pos": "conj",
+      "topic": "conjunctions",
+      "level": "B1",
+      "rank": 1400,
+      "note": "verb goes to the end",
+      "example_de": "Ich schreibe dir, sobald ich zu Hause bin.",
+      "example_en": "I'll text you as soon as I'm home."
+    },
+    {
+      "id": "d-func-0044",
+      "de": "ich",
+      "de_alt": [],
+      "en": [
+        "I"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 6,
+      "note": "mich (Akk), mir (Dat)",
+      "example_de": "Ich heiße Emma.",
+      "example_en": "My name is Emma."
+    },
+    {
+      "id": "d-func-0045",
+      "de": "du",
+      "de_alt": [],
+      "en": [
+        "you"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 20,
+      "note": "informal singular; dich (Akk), dir (Dat)",
+      "example_de": "Kommst du heute mit?",
+      "example_en": "Are you coming along today?"
+    },
+    {
+      "id": "d-func-0046",
+      "de": "er",
+      "de_alt": [],
+      "en": [
+        "he",
+        "it"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 11,
+      "note": "ihn (Akk), ihm (Dat); also \"it\" for der-nouns",
+      "example_de": "Er ist mein bester Freund.",
+      "example_en": "He's my best friend."
+    },
+    {
+      "id": "d-func-0047",
+      "de": "sie",
+      "de_alt": [],
+      "en": [
+        "she",
+        "they",
+        "her",
+        "them",
+        "it"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 7,
+      "note": "sie = she/they; Sie (capital) = you (formal); ihr (Dat) = to her",
+      "example_de": "Sie ist in meiner Klasse.",
+      "example_en": "She's in my class."
+    },
+    {
+      "id": "d-func-0048",
+      "de": "es",
+      "de_alt": [],
+      "en": [
+        "it"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 9,
+      "example_de": "Es regnet schon wieder.",
+      "example_en": "It's raining again."
+    },
+    {
+      "id": "d-func-0049",
+      "de": "wir",
+      "de_alt": [],
+      "en": [
+        "we"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 23,
+      "note": "uns (Akk/Dat)",
+      "example_de": "Wir haben heute frei.",
+      "example_en": "We have the day off today."
+    },
+    {
+      "id": "d-func-0050",
+      "de": "ihr",
+      "de_alt": [],
+      "en": [
+        "you",
+        "her",
+        "their"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 34,
+      "note": "ihr = you (informal plural); also possessive: her/their",
+      "example_de": "Habt ihr schon gegessen?",
+      "example_en": "Have you guys eaten yet?"
+    },
+    {
+      "id": "d-func-0051",
+      "de": "man",
+      "de_alt": [],
+      "en": [
+        "one",
+        "you",
+        "people"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 37,
+      "note": "general \"you/people\": Man darf hier nicht rauchen.",
+      "example_de": "Hier darf man nicht parken.",
+      "example_en": "You can't park here."
+    },
+    {
+      "id": "d-func-0052",
+      "de": "mein",
+      "de_alt": [],
+      "en": [
+        "my",
+        "mine"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 42,
+      "note": "possessive; same pattern: dein (your), sein (his), unser (our), euer (your pl.)",
+      "example_de": "Das ist mein Zimmer.",
+      "example_en": "This is my room."
+    },
+    {
+      "id": "d-func-0053",
+      "de": "dein",
+      "de_alt": [],
+      "en": [
+        "your",
+        "yours"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 110,
+      "note": "possessive, informal singular",
+      "example_de": "Ist das dein Rucksack?",
+      "example_en": "Is that your backpack?"
+    },
+    {
+      "id": "d-func-0054",
+      "de": "unser",
+      "de_alt": [],
+      "en": [
+        "our",
+        "ours"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 150,
+      "note": "possessive",
+      "example_de": "Unser Lehrer ist heute krank.",
+      "example_en": "Our teacher is ill today."
+    },
+    {
+      "id": "d-func-0055",
+      "de": "euer",
+      "de_alt": [],
+      "en": [
+        "your",
+        "yours"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A2",
+      "rank": 700,
+      "note": "possessive, informal plural; drops e: eure Klasse",
+      "example_de": "Wie war eure Klassenfahrt?",
+      "example_en": "How was your class trip?"
+    },
+    {
+      "id": "d-func-0056",
+      "de": "sich",
+      "de_alt": [],
+      "en": [
+        "oneself",
+        "himself",
+        "herself",
+        "themselves",
+        "itself"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A2",
+      "rank": 17,
+      "note": "reflexive for er/sie/es/Sie: sich freuen",
+      "example_de": "Er freut sich auf die Ferien.",
+      "example_en": "He's looking forward to the holidays."
+    },
+    {
+      "id": "d-func-0057",
+      "de": "jemand",
+      "de_alt": [],
+      "en": [
+        "someone",
+        "somebody",
+        "anyone"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A2",
+      "rank": 400,
+      "example_de": "Hat jemand ein Ladekabel?",
+      "example_en": "Does anyone have a charger?"
+    },
+    {
+      "id": "d-func-0058",
+      "de": "niemand",
+      "de_alt": [],
+      "en": [
+        "no one",
+        "nobody"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A2",
+      "rank": 550,
+      "example_de": "Niemand hat mir Bescheid gesagt.",
+      "example_en": "Nobody told me."
+    },
+    {
+      "id": "d-func-0059",
+      "de": "etwas",
+      "de_alt": [],
+      "en": [
+        "something",
+        "anything",
+        "some"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 85,
+      "note": "colloquial: was = etwas",
+      "example_de": "Möchtest du etwas trinken?",
+      "example_en": "Would you like something to drink?"
+    },
+    {
+      "id": "d-func-0060",
+      "de": "nichts",
+      "de_alt": [],
+      "en": [
+        "nothing",
+        "not anything"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 105,
+      "example_de": "Ich habe heute nichts vor.",
+      "example_en": "I've got nothing planned today."
+    },
+    {
+      "id": "d-func-0061",
+      "de": "alles",
+      "de_alt": [],
+      "en": [
+        "everything",
+        "all"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 78,
+      "example_de": "Alles gut bei dir?",
+      "example_en": "Everything OK with you?"
+    },
+    {
+      "id": "d-func-0062",
+      "de": "dieser",
+      "de_alt": [],
+      "en": [
+        "this",
+        "that",
+        "these"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A2",
+      "rank": 64,
+      "note": "like der: diese, dieses",
+      "example_de": "Dieses Lied höre ich gerade ständig.",
+      "example_en": "I'm listening to this song all the time right now."
+    },
+    {
+      "id": "d-func-0063",
+      "de": "jeder",
+      "de_alt": [],
+      "en": [
+        "every",
+        "each",
+        "everyone"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 98,
+      "note": "like der: jede, jedes; jeder = everyone",
+      "example_de": "Ich gehe jeden Tag joggen.",
+      "example_en": "I go jogging every day."
+    },
+    {
+      "id": "d-func-0064",
+      "de": "kein",
+      "de_alt": [],
+      "en": [
+        "no",
+        "not a",
+        "not any",
+        "none"
+      ],
+      "pos": "pron",
+      "topic": "pronouns",
+      "level": "A1",
+      "rank": 66,
+      "note": "negative article: kein, keine, kein; keiner = nobody",
+      "example_de": "Ich habe keine Zeit.",
+      "example_en": "I don't have time."
+    },
+    {
+      "id": "d-func-0065",
+      "de": "nicht",
+      "de_alt": [],
+      "en": [
+        "not"
+      ],
+      "pos": "other",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 19,
+      "example_de": "Das ist nicht fair.",
+      "example_en": "That's not fair."
+    },
+    {
+      "id": "d-func-0066",
+      "de": "ja",
+      "de_alt": [],
+      "en": [
+        "yes"
+      ],
+      "pos": "other",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 47,
+      "note": "also particle: Das ist ja cool! = That's so cool!",
+      "example_de": "Ja, ich komme mit.",
+      "example_en": "Yes, I'm coming along."
+    },
+    {
+      "id": "d-func-0067",
+      "de": "nein",
+      "de_alt": [],
+      "en": [
+        "no"
+      ],
+      "pos": "other",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 190,
+      "example_de": "Nein, danke.",
+      "example_en": "No, thanks."
+    },
+    {
+      "id": "d-func-0068",
+      "de": "doch",
+      "de_alt": [],
+      "en": [
+        "yes",
+        "but",
+        "after all",
+        "anyway"
+      ],
+      "pos": "other",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 82,
+      "note": "\"yes\" to a negative question: Kommst du nicht? – Doch!",
+      "example_de": "Du hast doch gesagt, dass du kommst!",
+      "example_en": "But you said you were coming!"
+    },
+    {
+      "id": "d-func-0069",
+      "de": "mal",
+      "de_alt": [],
+      "en": [
+        "just",
+        "once",
+        "times"
+      ],
+      "pos": "other",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 96,
+      "note": "softens requests: Komm mal her!; 2 mal 3 = 2 times 3",
+      "example_de": "Guck mal!",
+      "example_en": "Look!"
+    },
+    {
+      "id": "d-func-0070",
+      "de": "wer",
+      "de_alt": [],
+      "en": [
+        "who"
+      ],
+      "pos": "pron",
+      "topic": "questions",
+      "level": "A1",
+      "rank": 92,
+      "note": "wen (Akk) = whom, wem (Dat) = to whom",
+      "example_de": "Wer kommt heute Abend mit?",
+      "example_en": "Who's coming along tonight?"
+    },
+    {
+      "id": "d-func-0071",
+      "de": "was",
+      "de_alt": [],
+      "en": [
+        "what"
+      ],
+      "pos": "pron",
+      "topic": "questions",
+      "level": "A1",
+      "rank": 27,
+      "note": "colloquial also = etwas (something)",
+      "example_de": "Was machst du gerade?",
+      "example_en": "What are you doing right now?"
+    },
+    {
+      "id": "d-func-0072",
+      "de": "wo",
+      "de_alt": [],
+      "en": [
+        "where"
+      ],
+      "pos": "adv",
+      "topic": "questions",
+      "level": "A1",
+      "rank": 86,
+      "note": "location: Wo bist du?",
+      "example_de": "Wo ist mein Handy?",
+      "example_en": "Where is my phone?"
+    },
+    {
+      "id": "d-func-0073",
+      "de": "wohin",
+      "de_alt": [],
+      "en": [
+        "where to",
+        "where"
+      ],
+      "pos": "adv",
+      "topic": "questions",
+      "level": "A1",
+      "rank": 800,
+      "note": "direction: Wohin gehst du?",
+      "example_de": "Wohin fahrt ihr in den Ferien?",
+      "example_en": "Where are you going in the holidays?"
+    },
+    {
+      "id": "d-func-0074",
+      "de": "woher",
+      "de_alt": [],
+      "en": [
+        "where from",
+        "where"
+      ],
+      "pos": "adv",
+      "topic": "questions",
+      "level": "A1",
+      "rank": 1200,
+      "note": "origin: Woher kommst du?",
+      "example_de": "Woher kommst du?",
+      "example_en": "Where are you from?"
+    },
+    {
+      "id": "d-func-0075",
+      "de": "wann",
+      "de_alt": [],
+      "en": [
+        "when",
+        "what time"
+      ],
+      "pos": "adv",
+      "topic": "questions",
+      "level": "A1",
+      "rank": 220,
+      "note": "questions only (use wenn/als in statements)",
+      "example_de": "Wann treffen wir uns?",
+      "example_en": "When are we meeting?"
+    },
+    {
+      "id": "d-func-0076",
+      "de": "warum",
+      "de_alt": [],
+      "en": [
+        "why"
+      ],
+      "pos": "adv",
+      "topic": "questions",
+      "level": "A1",
+      "rank": 240,
+      "example_de": "Warum bist du so spät?",
+      "example_en": "Why are you so late?"
+    },
+    {
+      "id": "d-func-0077",
+      "de": "wieso",
+      "de_alt": [],
+      "en": [
+        "why",
+        "how come"
+      ],
+      "pos": "adv",
+      "topic": "questions",
+      "level": "A2",
+      "rank": 1100,
+      "note": "colloquial, = warum",
+      "example_de": "Wieso hast du nicht geantwortet?",
+      "example_en": "Why didn't you answer?"
+    },
+    {
+      "id": "d-func-0078",
+      "de": "wie",
+      "de_alt": [],
+      "en": [
+        "how",
+        "what",
+        "like",
+        "as"
+      ],
+      "pos": "adv",
+      "topic": "questions",
+      "level": "A1",
+      "rank": 39,
+      "note": "Wie heißt du? = What's your name?; so groß wie = as big as",
+      "example_de": "Wie war dein Tag?",
+      "example_en": "How was your day?"
+    },
+    {
+      "id": "d-func-0079",
+      "de": "wie viel",
+      "de_alt": [
+        "wieviel"
+      ],
+      "en": [
+        "how much",
+        "how many"
+      ],
+      "pos": "adv",
+      "topic": "questions",
+      "level": "A1",
+      "rank": 500,
+      "note": "wie viele + plural = how many",
+      "example_de": "Wie viel kostet das Ticket?",
+      "example_en": "How much does the ticket cost?"
+    },
+    {
+      "id": "d-func-0080",
+      "de": "welcher",
+      "de_alt": [],
+      "en": [
+        "which",
+        "what"
+      ],
+      "pos": "pron",
+      "topic": "questions",
+      "level": "A1",
+      "rank": 160,
+      "note": "like der: welche, welches",
+      "example_de": "Welche Musik hörst du gern?",
+      "example_en": "What music do you like listening to?"
+    },
+    {
+      "id": "d-func-0081",
+      "de": "null",
+      "de_alt": [],
+      "en": [
+        "zero",
+        "nil"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 900,
+      "example_de": "Wir haben null zu drei verloren.",
+      "example_en": "We lost three-nil."
+    },
+    {
+      "id": "d-func-0082",
+      "de": "eins",
+      "de_alt": [],
+      "en": [
+        "one"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 110,
+      "note": "counting: eins; before nouns: ein/eine",
+      "example_de": "Wir haben eins zu null gewonnen.",
+      "example_en": "We won one-nil."
+    },
+    {
+      "id": "d-func-0083",
+      "de": "zwei",
+      "de_alt": [],
+      "en": [
+        "two"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 80,
+      "note": "zwo on the phone",
+      "example_de": "Ich habe zwei Brüder.",
+      "example_en": "I have two brothers."
+    },
+    {
+      "id": "d-func-0084",
+      "de": "drei",
+      "de_alt": [],
+      "en": [
+        "three"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 140,
+      "example_de": "Wir sind drei Leute.",
+      "example_en": "There are three of us."
+    },
+    {
+      "id": "d-func-0085",
+      "de": "vier",
+      "de_alt": [],
+      "en": [
+        "four"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 240,
+      "example_de": "Die Party beginnt um vier.",
+      "example_en": "The party starts at four."
+    },
+    {
+      "id": "d-func-0086",
+      "de": "fünf",
+      "de_alt": [],
+      "en": [
+        "five"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 290,
+      "example_de": "Das kostet fünf Euro.",
+      "example_en": "That costs five euros."
+    },
+    {
+      "id": "d-func-0087",
+      "de": "sechs",
+      "de_alt": [],
+      "en": [
+        "six"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 380,
+      "example_de": "Heute habe ich sechs Stunden Unterricht.",
+      "example_en": "I have six lessons today."
+    },
+    {
+      "id": "d-func-0088",
+      "de": "sieben",
+      "de_alt": [],
+      "en": [
+        "seven"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 480,
+      "example_de": "Ich stehe um sieben auf.",
+      "example_en": "I get up at seven."
+    },
+    {
+      "id": "d-func-0089",
+      "de": "acht",
+      "de_alt": [],
+      "en": [
+        "eight"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 420,
+      "example_de": "Die Schule beginnt um acht.",
+      "example_en": "School starts at eight."
+    },
+    {
+      "id": "d-func-0090",
+      "de": "neun",
+      "de_alt": [],
+      "en": [
+        "nine"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 700,
+      "example_de": "Meine kleine Schwester ist neun.",
+      "example_en": "My little sister is nine."
+    },
+    {
+      "id": "d-func-0091",
+      "de": "zehn",
+      "de_alt": [],
+      "en": [
+        "ten"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 330,
+      "example_de": "Ich bin in zehn Minuten da.",
+      "example_en": "I'll be there in ten minutes."
+    },
+    {
+      "id": "d-func-0092",
+      "de": "elf",
+      "de_alt": [],
+      "en": [
+        "eleven"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 1100,
+      "example_de": "Wir sind in der elften Klasse.",
+      "example_en": "We're in year eleven."
+    },
+    {
+      "id": "d-func-0093",
+      "de": "zwölf",
+      "de_alt": [],
+      "en": [
+        "twelve"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 1000,
+      "example_de": "Um zwölf haben wir Mittagspause.",
+      "example_en": "We have lunch break at twelve."
+    },
+    {
+      "id": "d-func-0094",
+      "de": "zwanzig",
+      "de_alt": [],
+      "en": [
+        "twenty"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 600,
+      "note": "einundzwanzig = 21 (one-and-twenty)",
+      "example_de": "Das Konzert kostet zwanzig Euro.",
+      "example_en": "The concert costs twenty euros."
+    },
+    {
+      "id": "d-func-0095",
+      "de": "dreißig",
+      "de_alt": [],
+      "en": [
+        "thirty"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 900,
+      "note": "spelled with ß, not zig",
+      "example_de": "Es sind heute dreißig Grad!",
+      "example_en": "It's thirty degrees today!"
+    },
+    {
+      "id": "d-func-0096",
+      "de": "hundert",
+      "de_alt": [],
+      "en": [
+        "hundred",
+        "a hundred",
+        "one hundred"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 500,
+      "note": "einhundert = one hundred",
+      "example_de": "Ich habe hundert Follower.",
+      "example_en": "I have a hundred followers."
+    },
+    {
+      "id": "d-func-0097",
+      "de": "tausend",
+      "de_alt": [],
+      "en": [
+        "thousand",
+        "a thousand",
+        "one thousand"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 650,
+      "example_de": "Das Video hat tausend Likes.",
+      "example_en": "The video has a thousand likes."
+    },
+    {
+      "id": "d-func-0098",
+      "de": "erste",
+      "de_alt": [],
+      "en": [
+        "first"
+      ],
+      "pos": "num",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 130,
+      "note": "ordinal: der erste, der zweite, der dritte, der siebte",
+      "example_de": "Heute ist mein erster Schultag.",
+      "example_en": "Today is my first day at school."
+    },
+    {
+      "id": "d-func-0099",
+      "de": "halb",
+      "de_alt": [],
+      "en": [
+        "half",
+        "half past"
+      ],
+      "pos": "adj",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 550,
+      "note": "halb acht = 7:30 (half to eight!)",
+      "example_de": "Wir treffen uns um halb acht.",
+      "example_en": "We're meeting at seven thirty."
+    },
+    {
+      "id": "d-func-0100",
+      "de": "einmal",
+      "de_alt": [],
+      "en": [
+        "once",
+        "one time"
+      ],
+      "pos": "adv",
+      "topic": "numbers",
+      "level": "A1",
+      "rank": 450,
+      "note": "zweimal = twice, dreimal = three times; noch einmal = once more",
+      "example_de": "Ich gehe einmal pro Woche schwimmen.",
+      "example_en": "I go swimming once a week."
+    },
+    {
+      "id": "d-func-0101",
+      "de": "viel",
+      "de_alt": [],
+      "en": [
+        "much",
+        "a lot",
+        "lots",
+        "many"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "A1",
+      "rank": 44,
+      "note": "mehr – am meisten; viele + plural = many",
+      "example_de": "Ich habe heute viel zu tun.",
+      "example_en": "I've got a lot to do today."
+    },
+    {
+      "id": "d-func-0102",
+      "de": "wenig",
+      "de_alt": [],
+      "en": [
+        "little",
+        "not much",
+        "few"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "A1",
+      "rank": 230,
+      "note": "weniger – am wenigsten; wenige = few",
+      "example_de": "Ich habe wenig Zeit.",
+      "example_en": "I don't have much time."
+    },
+    {
+      "id": "d-func-0103",
+      "de": "mehr",
+      "de_alt": [],
+      "en": [
+        "more"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "A1",
+      "rank": 56,
+      "note": "nicht mehr = no longer, not any more",
+      "example_de": "Ich will nicht mehr warten.",
+      "example_en": "I don't want to wait any more."
+    },
+    {
+      "id": "d-func-0104",
+      "de": "weniger",
+      "de_alt": [],
+      "en": [
+        "less",
+        "fewer"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "A2",
+      "rank": 500,
+      "example_de": "Ich sollte weniger am Handy sein.",
+      "example_en": "I should spend less time on my phone."
+    },
+    {
+      "id": "d-func-0105",
+      "de": "genug",
+      "de_alt": [],
+      "en": [
+        "enough"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "A2",
+      "rank": 540,
+      "example_de": "Hast du genug Geld dabei?",
+      "example_en": "Have you got enough money on you?"
+    },
+    {
+      "id": "d-func-0106",
+      "de": "alle",
+      "de_alt": [],
+      "en": [
+        "all",
+        "everyone",
+        "everybody"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "A1",
+      "rank": 40,
+      "example_de": "Alle sind schon da.",
+      "example_en": "Everyone is already here."
+    },
+    {
+      "id": "d-func-0107",
+      "de": "einige",
+      "de_alt": [],
+      "en": [
+        "some",
+        "a few",
+        "several"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "A2",
+      "rank": 200,
+      "example_de": "Einige Schüler fehlen heute.",
+      "example_en": "Some students are absent today."
+    },
+    {
+      "id": "d-func-0108",
+      "de": "mehrere",
+      "de_alt": [],
+      "en": [
+        "several"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "B1",
+      "rank": 700,
+      "example_de": "Ich habe es mehrere Male versucht.",
+      "example_en": "I've tried it several times."
+    },
+    {
+      "id": "d-func-0109",
+      "de": "ein paar",
+      "de_alt": [],
+      "en": [
+        "a few",
+        "a couple of",
+        "some"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "A1",
+      "rank": 350,
+      "note": "lowercase paar = a few; das Paar = the pair/couple",
+      "example_de": "Ich brauche noch ein paar Minuten.",
+      "example_en": "I need a few more minutes."
+    },
+    {
+      "id": "d-func-0110",
+      "de": "ein bisschen",
+      "de_alt": [],
+      "en": [
+        "a bit",
+        "a little",
+        "a little bit"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "A1",
+      "rank": 450,
+      "example_de": "Ich bin ein bisschen müde.",
+      "example_en": "I'm a bit tired."
+    },
+    {
+      "id": "d-func-0111",
+      "de": "beide",
+      "de_alt": [],
+      "en": [
+        "both",
+        "the two"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "A2",
+      "rank": 250,
+      "example_de": "Wir mögen beide Hip-Hop.",
+      "example_en": "We both like hip-hop."
+    },
+    {
+      "id": "d-func-0112",
+      "de": "manche",
+      "de_alt": [],
+      "en": [
+        "some",
+        "many a"
+      ],
+      "pos": "pron",
+      "topic": "quantifiers",
+      "level": "B1",
+      "rank": 450,
+      "example_de": "Manche Lehrer sind echt streng.",
+      "example_en": "Some teachers are really strict."
+    },
+    {
+      "id": "d-func-0113",
+      "de": "montags",
+      "de_alt": [],
+      "en": [
+        "on Mondays",
+        "every Monday"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 2500,
+      "note": "same pattern for all days: dienstags, freitags …",
+      "example_de": "Montags habe ich Fußballtraining.",
+      "example_en": "I have football training on Mondays."
+    },
+    {
+      "id": "d-func-0114",
+      "de": "morgens",
+      "de_alt": [],
+      "en": [
+        "in the morning",
+        "in the mornings"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 1300,
+      "example_de": "Morgens bin ich immer müde.",
+      "example_en": "I'm always tired in the mornings."
+    },
+    {
+      "id": "d-func-0115",
+      "de": "mittags",
+      "de_alt": [],
+      "en": [
+        "at midday",
+        "at lunchtime"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 2400,
+      "example_de": "Mittags esse ich in der Mensa.",
+      "example_en": "I eat in the canteen at lunchtime."
+    },
+    {
+      "id": "d-func-0116",
+      "de": "nachmittags",
+      "de_alt": [],
+      "en": [
+        "in the afternoon",
+        "in the afternoons"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 2500,
+      "example_de": "Nachmittags gehe ich zum Training.",
+      "example_en": "I go to training in the afternoons."
+    },
+    {
+      "id": "d-func-0117",
+      "de": "abends",
+      "de_alt": [],
+      "en": [
+        "in the evening",
+        "in the evenings"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Abends zocke ich oft mit Freunden.",
+      "example_en": "I often game with friends in the evenings."
+    },
+    {
+      "id": "d-func-0118",
+      "de": "nachts",
+      "de_alt": [],
+      "en": [
+        "at night"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 1800,
+      "example_de": "Nachts kann ich nicht gut schlafen.",
+      "example_en": "I can't sleep well at night."
+    },
+    {
+      "id": "d-func-0119",
+      "de": "übermorgen",
+      "de_alt": [],
+      "en": [
+        "the day after tomorrow"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 3500,
+      "example_de": "Übermorgen fahren wir in den Urlaub.",
+      "example_en": "We're going on holiday the day after tomorrow."
+    },
+    {
+      "id": "d-func-0120",
+      "de": "vorgestern",
+      "de_alt": [],
+      "en": [
+        "the day before yesterday"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A2",
+      "rank": 3800,
+      "example_de": "Vorgestern war ich beim Zahnarzt.",
+      "example_en": "I was at the dentist's the day before yesterday."
+    },
+    {
+      "id": "d-func-0121",
+      "de": "heutzutage",
+      "de_alt": [],
+      "en": [
+        "nowadays",
+        "these days"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "B1",
+      "rank": 3000,
+      "example_de": "Heutzutage hat fast jeder ein Handy.",
+      "example_en": "Nowadays almost everyone has a phone."
+    }
+  ]
+}

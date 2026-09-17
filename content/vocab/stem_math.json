@@ -1,0 +1,1688 @@
+{
+  "bank": "stem",
+  "title": "STEM German — mathematics",
+  "words": [
+    {
+      "id": "s-math-0001",
+      "de": "die Zahl",
+      "de_alt": [],
+      "en": [
+        "number"
+      ],
+      "pos": "noun",
+      "plural": "die Zahlen",
+      "topic": "numbers",
+      "level": "A2",
+      "rank": 1,
+      "note": "die Ziffer = digit",
+      "example_de": "Die Zahl 7 ist eine Primzahl.",
+      "example_en": "The number 7 is a prime number."
+    },
+    {
+      "id": "s-math-0002",
+      "de": "rechnen",
+      "de_alt": [],
+      "en": [
+        "to calculate",
+        "to do maths",
+        "to compute"
+      ],
+      "pos": "verb",
+      "topic": "operations",
+      "level": "A2",
+      "rank": 6,
+      "note": "rechnen mit = to reckon with, to expect",
+      "example_de": "Kannst du das im Kopf rechnen?",
+      "example_en": "Can you calculate that in your head?"
+    },
+    {
+      "id": "s-math-0003",
+      "de": "das Ergebnis",
+      "de_alt": [],
+      "en": [
+        "result",
+        "answer",
+        "outcome"
+      ],
+      "pos": "noun",
+      "plural": "die Ergebnisse",
+      "topic": "operations",
+      "level": "A2",
+      "rank": 11,
+      "note": "also the result of an experiment",
+      "example_de": "Vergleiche dein Ergebnis mit der Lösung.",
+      "example_en": "Compare your result with the solution."
+    },
+    {
+      "id": "s-math-0004",
+      "de": "addieren",
+      "de_alt": [
+        "zusammenzählen"
+      ],
+      "en": [
+        "to add"
+      ],
+      "pos": "verb",
+      "topic": "operations",
+      "level": "A2",
+      "rank": 16,
+      "note": "spoken: 3 + 4 = „drei plus vier“",
+      "example_de": "Addiere zuerst die beiden Brüche.",
+      "example_en": "First add the two fractions."
+    },
+    {
+      "id": "s-math-0005",
+      "de": "subtrahieren",
+      "de_alt": [
+        "abziehen"
+      ],
+      "en": [
+        "to subtract",
+        "to take away"
+      ],
+      "pos": "verb",
+      "topic": "operations",
+      "level": "A2",
+      "rank": 21,
+      "note": "spoken: 9 − 2 = „neun minus zwei“",
+      "example_de": "Subtrahiere 15 von 40.",
+      "example_en": "Subtract 15 from 40."
+    },
+    {
+      "id": "s-math-0006",
+      "de": "multiplizieren",
+      "de_alt": [
+        "malnehmen"
+      ],
+      "en": [
+        "to multiply"
+      ],
+      "pos": "verb",
+      "topic": "operations",
+      "level": "A2",
+      "rank": 26,
+      "note": "spoken: 3 · 4 = „drei mal vier“",
+      "example_de": "Multipliziere beide Seiten mit 2.",
+      "example_en": "Multiply both sides by 2."
+    },
+    {
+      "id": "s-math-0007",
+      "de": "dividieren",
+      "de_alt": [
+        "teilen"
+      ],
+      "en": [
+        "to divide"
+      ],
+      "pos": "verb",
+      "topic": "operations",
+      "level": "A2",
+      "rank": 31,
+      "note": "spoken: 12 : 3 = „zwölf durch drei“",
+      "example_de": "Dividiere das Ergebnis durch 5.",
+      "example_en": "Divide the result by 5."
+    },
+    {
+      "id": "s-math-0008",
+      "de": "die Gleichung",
+      "de_alt": [],
+      "en": [
+        "equation"
+      ],
+      "pos": "noun",
+      "plural": "die Gleichungen",
+      "topic": "algebra",
+      "level": "A2",
+      "rank": 36,
+      "example_de": "Löse die Gleichung nach x auf.",
+      "example_en": "Solve the equation for x."
+    },
+    {
+      "id": "s-math-0009",
+      "de": "berechnen",
+      "de_alt": [
+        "ausrechnen"
+      ],
+      "en": [
+        "to calculate",
+        "to compute",
+        "to work out"
+      ],
+      "pos": "verb",
+      "topic": "operations",
+      "level": "A2",
+      "rank": 41,
+      "example_de": "Berechne die Fläche des Dreiecks.",
+      "example_en": "Calculate the area of the triangle."
+    },
+    {
+      "id": "s-math-0010",
+      "de": "lösen",
+      "de_alt": [],
+      "en": [
+        "to solve"
+      ],
+      "pos": "verb",
+      "topic": "algebra",
+      "level": "A2",
+      "rank": 46,
+      "note": "eine Aufgabe lösen = to solve a problem",
+      "example_de": "Wir lösen die Aufgabe gemeinsam.",
+      "example_en": "We solve the problem together."
+    },
+    {
+      "id": "s-math-0011",
+      "de": "die Lösung",
+      "de_alt": [],
+      "en": [
+        "solution"
+      ],
+      "pos": "noun",
+      "plural": "die Lösungen",
+      "topic": "algebra",
+      "level": "A2",
+      "rank": 51,
+      "note": "also a chemical solution",
+      "example_de": "Die Lösung der Gleichung ist x = 4.",
+      "example_en": "The solution of the equation is x = 4."
+    },
+    {
+      "id": "s-math-0012",
+      "de": "die Formel",
+      "de_alt": [],
+      "en": [
+        "formula"
+      ],
+      "pos": "noun",
+      "plural": "die Formeln",
+      "topic": "algebra",
+      "level": "A2",
+      "rank": 56,
+      "example_de": "Die Formel steht in der Formelsammlung.",
+      "example_en": "The formula is in the formula booklet."
+    },
+    {
+      "id": "s-math-0013",
+      "de": "die Summe",
+      "de_alt": [],
+      "en": [
+        "sum",
+        "total"
+      ],
+      "pos": "noun",
+      "plural": "die Summen",
+      "topic": "operations",
+      "level": "A2",
+      "rank": 61,
+      "example_de": "Die Summe von 3 und 4 ist 7.",
+      "example_en": "The sum of 3 and 4 is 7."
+    },
+    {
+      "id": "s-math-0014",
+      "de": "das Komma",
+      "de_alt": [],
+      "en": [
+        "decimal point",
+        "decimal comma",
+        "comma"
+      ],
+      "pos": "noun",
+      "plural": "die Kommas",
+      "topic": "numbers",
+      "level": "A2",
+      "rank": 66,
+      "note": "German writes 3,5 for 3.5 – say „drei Komma fünf“",
+      "example_de": "Runde auf zwei Stellen nach dem Komma.",
+      "example_en": "Round to two decimal places."
+    },
+    {
+      "id": "s-math-0015",
+      "de": "der Bruch",
+      "de_alt": [],
+      "en": [
+        "fraction"
+      ],
+      "pos": "noun",
+      "plural": "die Brüche",
+      "topic": "numbers",
+      "level": "A2",
+      "rank": 71,
+      "note": "also: break, fracture",
+      "example_de": "Kürze den Bruch so weit wie möglich.",
+      "example_en": "Simplify the fraction as far as possible."
+    },
+    {
+      "id": "s-math-0016",
+      "de": "das Prozent",
+      "de_alt": [],
+      "en": [
+        "percent",
+        "per cent",
+        "percentage"
+      ],
+      "pos": "noun",
+      "plural": "die Prozente",
+      "topic": "numbers",
+      "level": "A2",
+      "rank": 76,
+      "note": "no plural after numbers: 20 Prozent",
+      "example_de": "Etwa 30 Prozent der Schüler fahren mit dem Rad.",
+      "example_en": "About 30 percent of the students cycle."
+    },
+    {
+      "id": "s-math-0017",
+      "de": "die Hälfte",
+      "de_alt": [],
+      "en": [
+        "half"
+      ],
+      "pos": "noun",
+      "plural": "die Hälften",
+      "topic": "numbers",
+      "level": "A2",
+      "rank": 81,
+      "example_de": "Die Hälfte von 50 ist 25.",
+      "example_en": "Half of 50 is 25."
+    },
+    {
+      "id": "s-math-0018",
+      "de": "gleich",
+      "de_alt": [],
+      "en": [
+        "equal",
+        "equals",
+        "the same"
+      ],
+      "pos": "adj",
+      "topic": "operations",
+      "level": "A2",
+      "rank": 85,
+      "note": "2 + 2 = 4: „zwei plus zwei ist gleich vier“",
+      "example_de": "Beide Seiten der Gleichung sind gleich.",
+      "example_en": "Both sides of the equation are equal."
+    },
+    {
+      "id": "s-math-0019",
+      "de": "die Mathematik",
+      "de_alt": [
+        "die Mathe"
+      ],
+      "en": [
+        "mathematics",
+        "maths",
+        "math"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "numbers",
+      "level": "A2",
+      "rank": 89,
+      "note": "at school usually just „Mathe“",
+      "example_de": "Mathematik ist mein Lieblingsfach.",
+      "example_en": "Maths is my favourite subject."
+    },
+    {
+      "id": "s-math-0020",
+      "de": "der Kreis",
+      "de_alt": [],
+      "en": [
+        "circle"
+      ],
+      "pos": "noun",
+      "plural": "die Kreise",
+      "topic": "geometry",
+      "level": "A2",
+      "rank": 92,
+      "note": "also: district",
+      "example_de": "Zeichne einen Kreis mit dem Zirkel.",
+      "example_en": "Draw a circle with the compass."
+    },
+    {
+      "id": "s-math-0021",
+      "de": "das Dreieck",
+      "de_alt": [],
+      "en": [
+        "triangle"
+      ],
+      "pos": "noun",
+      "plural": "die Dreiecke",
+      "topic": "geometry",
+      "level": "A2",
+      "rank": 95,
+      "example_de": "Ein Dreieck hat drei Ecken.",
+      "example_en": "A triangle has three corners."
+    },
+    {
+      "id": "s-math-0022",
+      "de": "der Winkel",
+      "de_alt": [],
+      "en": [
+        "angle"
+      ],
+      "pos": "noun",
+      "plural": "die Winkel",
+      "topic": "geometry",
+      "level": "A2",
+      "rank": 96,
+      "note": "also: corner (of a room)",
+      "example_de": "Miss den Winkel mit dem Geodreieck.",
+      "example_en": "Measure the angle with the set square."
+    },
+    {
+      "id": "s-math-0023",
+      "de": "die Fläche",
+      "de_alt": [
+        "der Flächeninhalt"
+      ],
+      "en": [
+        "area",
+        "surface"
+      ],
+      "pos": "noun",
+      "plural": "die Flächen",
+      "topic": "geometry",
+      "level": "A2",
+      "rank": 97,
+      "example_de": "Die Fläche beträgt 12 Quadratzentimeter.",
+      "example_en": "The area is 12 square centimetres."
+    },
+    {
+      "id": "s-math-0024",
+      "de": "die Differenz",
+      "de_alt": [],
+      "en": [
+        "difference"
+      ],
+      "pos": "noun",
+      "plural": "die Differenzen",
+      "topic": "operations",
+      "level": "B1",
+      "rank": 98,
+      "note": "result of a subtraction",
+      "example_de": "Die Differenz von 10 und 4 ist 6.",
+      "example_en": "The difference between 10 and 4 is 6."
+    },
+    {
+      "id": "s-math-0025",
+      "de": "das Produkt",
+      "de_alt": [],
+      "en": [
+        "product"
+      ],
+      "pos": "noun",
+      "plural": "die Produkte",
+      "topic": "operations",
+      "level": "B1",
+      "rank": 103,
+      "note": "result of a multiplication",
+      "example_de": "Das Produkt von 6 und 7 ist 42.",
+      "example_en": "The product of 6 and 7 is 42."
+    },
+    {
+      "id": "s-math-0026",
+      "de": "der Zähler",
+      "de_alt": [],
+      "en": [
+        "numerator"
+      ],
+      "pos": "noun",
+      "plural": "die Zähler",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 108,
+      "note": "also: counter, meter",
+      "example_de": "Im Bruch 3/4 ist 3 der Zähler.",
+      "example_en": "In the fraction 3/4, 3 is the numerator."
+    },
+    {
+      "id": "s-math-0027",
+      "de": "der Nenner",
+      "de_alt": [],
+      "en": [
+        "denominator"
+      ],
+      "pos": "noun",
+      "plural": "die Nenner",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 113,
+      "note": "gemeinsamer Nenner = common denominator",
+      "example_de": "Bring beide Brüche auf einen gemeinsamen Nenner.",
+      "example_en": "Put both fractions over a common denominator."
+    },
+    {
+      "id": "s-math-0028",
+      "de": "die Wurzel",
+      "de_alt": [
+        "die Quadratwurzel"
+      ],
+      "en": [
+        "root",
+        "square root"
+      ],
+      "pos": "noun",
+      "plural": "die Wurzeln",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 118,
+      "note": "also: root of a plant",
+      "example_de": "Die Wurzel aus 81 ist 9.",
+      "example_en": "The square root of 81 is 9."
+    },
+    {
+      "id": "s-math-0029",
+      "de": "die Potenz",
+      "de_alt": [],
+      "en": [
+        "power"
+      ],
+      "pos": "noun",
+      "plural": "die Potenzen",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 123,
+      "note": "2³ is read „zwei hoch drei“",
+      "example_de": "Rechne die Potenz zuerst aus.",
+      "example_en": "Work out the power first."
+    },
+    {
+      "id": "s-math-0030",
+      "de": "das Quadrat",
+      "de_alt": [],
+      "en": [
+        "square"
+      ],
+      "pos": "noun",
+      "plural": "die Quadrate",
+      "topic": "geometry",
+      "level": "A2",
+      "rank": 128,
+      "note": "5² is read „fünf zum Quadrat“ or „fünf hoch zwei“",
+      "example_de": "Ein Quadrat hat vier gleich lange Seiten.",
+      "example_en": "A square has four sides of equal length."
+    },
+    {
+      "id": "s-math-0031",
+      "de": "die Dezimalzahl",
+      "de_alt": [
+        "die Kommazahl"
+      ],
+      "en": [
+        "decimal",
+        "decimal number"
+      ],
+      "pos": "noun",
+      "plural": "die Dezimalzahlen",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 133,
+      "example_de": "Wandle den Bruch in eine Dezimalzahl um.",
+      "example_en": "Convert the fraction into a decimal."
+    },
+    {
+      "id": "s-math-0032",
+      "de": "die Primzahl",
+      "de_alt": [],
+      "en": [
+        "prime number",
+        "prime"
+      ],
+      "pos": "noun",
+      "plural": "die Primzahlen",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 138,
+      "example_de": "Ist 91 eine Primzahl?",
+      "example_en": "Is 91 a prime number?"
+    },
+    {
+      "id": "s-math-0033",
+      "de": "gerade",
+      "de_alt": [],
+      "en": [
+        "even"
+      ],
+      "pos": "adj",
+      "topic": "numbers",
+      "level": "A2",
+      "rank": 143,
+      "note": "also: straight; eine gerade Zahl = an even number",
+      "example_de": "Das Produkt zweier gerader Zahlen ist gerade.",
+      "example_en": "The product of two even numbers is even."
+    },
+    {
+      "id": "s-math-0034",
+      "de": "ungerade",
+      "de_alt": [],
+      "en": [
+        "odd"
+      ],
+      "pos": "adj",
+      "topic": "numbers",
+      "level": "A2",
+      "rank": 148,
+      "example_de": "Sieben ist eine ungerade Zahl.",
+      "example_en": "Seven is an odd number."
+    },
+    {
+      "id": "s-math-0035",
+      "de": "negativ",
+      "de_alt": [],
+      "en": [
+        "negative"
+      ],
+      "pos": "adj",
+      "topic": "numbers",
+      "level": "A2",
+      "rank": 153,
+      "example_de": "Das Ergebnis ist negativ.",
+      "example_en": "The result is negative."
+    },
+    {
+      "id": "s-math-0036",
+      "de": "positiv",
+      "de_alt": [],
+      "en": [
+        "positive"
+      ],
+      "pos": "adj",
+      "topic": "numbers",
+      "level": "A2",
+      "rank": 158,
+      "example_de": "Der Wert muss positiv sein.",
+      "example_en": "The value must be positive."
+    },
+    {
+      "id": "s-math-0037",
+      "de": "die Variable",
+      "de_alt": [],
+      "en": [
+        "variable"
+      ],
+      "pos": "noun",
+      "plural": "die Variablen",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 163,
+      "note": "also used in programming",
+      "example_de": "Setze für die Variable x die Zahl 3 ein.",
+      "example_en": "Substitute 3 for the variable x."
+    },
+    {
+      "id": "s-math-0038",
+      "de": "der Term",
+      "de_alt": [],
+      "en": [
+        "expression",
+        "term"
+      ],
+      "pos": "noun",
+      "plural": "die Terme",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 168,
+      "note": "German schools call an algebraic expression „Term“",
+      "example_de": "Vereinfache den Term 3a + 2a.",
+      "example_en": "Simplify the expression 3a + 2a."
+    },
+    {
+      "id": "s-math-0039",
+      "de": "die Klammer",
+      "de_alt": [],
+      "en": [
+        "bracket",
+        "brackets",
+        "parenthesis",
+        "parentheses"
+      ],
+      "pos": "noun",
+      "plural": "die Klammern",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 173,
+      "note": "also: clip, peg",
+      "example_de": "Löse zuerst die Klammer auf.",
+      "example_en": "First expand the brackets."
+    },
+    {
+      "id": "s-math-0040",
+      "de": "der Wert",
+      "de_alt": [],
+      "en": [
+        "value"
+      ],
+      "pos": "noun",
+      "plural": "die Werte",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 178,
+      "example_de": "Welchen Wert hat x?",
+      "example_en": "What is the value of x?"
+    },
+    {
+      "id": "s-math-0041",
+      "de": "runden",
+      "de_alt": [],
+      "en": [
+        "to round"
+      ],
+      "pos": "verb",
+      "topic": "numbers",
+      "level": "A2",
+      "rank": 183,
+      "note": "aufrunden = round up, abrunden = round down",
+      "example_de": "Runde das Ergebnis auf ganze Zahlen.",
+      "example_en": "Round the result to whole numbers."
+    },
+    {
+      "id": "s-math-0042",
+      "de": "schätzen",
+      "de_alt": [],
+      "en": [
+        "to estimate",
+        "to guess"
+      ],
+      "pos": "verb",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 188,
+      "note": "also: to value, to appreciate",
+      "example_de": "Schätze zuerst, dann rechne genau.",
+      "example_en": "Estimate first, then calculate exactly."
+    },
+    {
+      "id": "s-math-0043",
+      "de": "die Milliarde",
+      "de_alt": [],
+      "en": [
+        "billion"
+      ],
+      "pos": "noun",
+      "plural": "die Milliarden",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 193,
+      "note": "false friend: a billion (10⁹) is „eine Milliarde“",
+      "example_de": "Auf der Erde leben etwa acht Milliarden Menschen.",
+      "example_en": "About eight billion people live on Earth."
+    },
+    {
+      "id": "s-math-0044",
+      "de": "die Billion",
+      "de_alt": [],
+      "en": [
+        "trillion"
+      ],
+      "pos": "noun",
+      "plural": "die Billionen",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 198,
+      "note": "false friend: die Billion = 10¹², a trillion",
+      "example_de": "Eine Billion hat zwölf Nullen.",
+      "example_en": "A trillion has twelve zeros."
+    },
+    {
+      "id": "s-math-0045",
+      "de": "der Durchschnitt",
+      "de_alt": [
+        "der Mittelwert",
+        "das arithmetische Mittel"
+      ],
+      "en": [
+        "average",
+        "mean"
+      ],
+      "pos": "noun",
+      "plural": "die Durchschnitte",
+      "topic": "statistics",
+      "level": "B1",
+      "rank": 203,
+      "note": "im Durchschnitt = on average",
+      "example_de": "Der Durchschnitt der Noten ist 2,3.",
+      "example_en": "The average of the grades is 2.3."
+    },
+    {
+      "id": "s-math-0046",
+      "de": "die Wahrscheinlichkeit",
+      "de_alt": [],
+      "en": [
+        "probability",
+        "likelihood",
+        "chance"
+      ],
+      "pos": "noun",
+      "plural": "die Wahrscheinlichkeiten",
+      "topic": "statistics",
+      "level": "B1",
+      "rank": 208,
+      "example_de": "Die Wahrscheinlichkeit für eine Sechs ist ein Sechstel.",
+      "example_en": "The probability of rolling a six is one sixth."
+    },
+    {
+      "id": "s-math-0047",
+      "de": "das Diagramm",
+      "de_alt": [],
+      "en": [
+        "chart",
+        "diagram"
+      ],
+      "pos": "noun",
+      "plural": "die Diagramme",
+      "topic": "statistics",
+      "level": "B1",
+      "rank": 213,
+      "example_de": "Stelle die Daten in einem Diagramm dar.",
+      "example_en": "Show the data in a chart."
+    },
+    {
+      "id": "s-math-0048",
+      "de": "die Achse",
+      "de_alt": [],
+      "en": [
+        "axis"
+      ],
+      "pos": "noun",
+      "plural": "die Achsen",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 218,
+      "note": "x-Achse, y-Achse; also: axle",
+      "example_de": "Trage die Zeit auf der x-Achse ab.",
+      "example_en": "Plot time on the x-axis."
+    },
+    {
+      "id": "s-math-0049",
+      "de": "das Koordinatensystem",
+      "de_alt": [],
+      "en": [
+        "coordinate system",
+        "coordinate grid"
+      ],
+      "pos": "noun",
+      "plural": "die Koordinatensysteme",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 223,
+      "example_de": "Zeichne den Punkt in das Koordinatensystem ein.",
+      "example_en": "Plot the point in the coordinate system."
+    },
+    {
+      "id": "s-math-0050",
+      "de": "die Funktion",
+      "de_alt": [],
+      "en": [
+        "function"
+      ],
+      "pos": "noun",
+      "plural": "die Funktionen",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 228,
+      "example_de": "Die Funktion f(x) = 2x ist linear.",
+      "example_en": "The function f(x) = 2x is linear."
+    },
+    {
+      "id": "s-math-0051",
+      "de": "der Graph",
+      "de_alt": [
+        "der Funktionsgraph",
+        "der Graf"
+      ],
+      "en": [
+        "graph"
+      ],
+      "pos": "noun",
+      "plural": "die Graphen",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 233,
+      "example_de": "Der Graph schneidet die y-Achse bei 3.",
+      "example_en": "The graph crosses the y-axis at 3."
+    },
+    {
+      "id": "s-math-0052",
+      "de": "die Gerade",
+      "de_alt": [],
+      "en": [
+        "straight line",
+        "line"
+      ],
+      "pos": "noun",
+      "plural": "die Geraden",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 238,
+      "example_de": "Zwei Geraden schneiden sich in einem Punkt.",
+      "example_en": "Two lines intersect at one point."
+    },
+    {
+      "id": "s-math-0053",
+      "de": "das Rechteck",
+      "de_alt": [],
+      "en": [
+        "rectangle"
+      ],
+      "pos": "noun",
+      "plural": "die Rechtecke",
+      "topic": "geometry",
+      "level": "A2",
+      "rank": 243,
+      "example_de": "Das Rechteck ist 5 cm lang und 3 cm breit.",
+      "example_en": "The rectangle is 5 cm long and 3 cm wide."
+    },
+    {
+      "id": "s-math-0054",
+      "de": "der Umfang",
+      "de_alt": [],
+      "en": [
+        "perimeter",
+        "circumference"
+      ],
+      "pos": "noun",
+      "plural": "die Umfänge",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 248,
+      "note": "also: extent, scope",
+      "example_de": "Berechne den Umfang des Kreises.",
+      "example_en": "Calculate the circumference of the circle."
+    },
+    {
+      "id": "s-math-0055",
+      "de": "das Volumen",
+      "de_alt": [],
+      "en": [
+        "volume"
+      ],
+      "pos": "noun",
+      "plural": "die Volumen",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 253,
+      "note": "plural also „die Volumina“",
+      "example_de": "Das Volumen des Würfels beträgt 27 cm³.",
+      "example_en": "The volume of the cube is 27 cm³."
+    },
+    {
+      "id": "s-math-0056",
+      "de": "der Radius",
+      "de_alt": [],
+      "en": [
+        "radius"
+      ],
+      "pos": "noun",
+      "plural": "die Radien",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 258,
+      "example_de": "Der Radius ist halb so groß wie der Durchmesser.",
+      "example_en": "The radius is half the diameter."
+    },
+    {
+      "id": "s-math-0057",
+      "de": "der Durchmesser",
+      "de_alt": [],
+      "en": [
+        "diameter"
+      ],
+      "pos": "noun",
+      "plural": "die Durchmesser",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 263,
+      "example_de": "Der Durchmesser des Kreises beträgt 8 cm.",
+      "example_en": "The diameter of the circle is 8 cm."
+    },
+    {
+      "id": "s-math-0058",
+      "de": "parallel",
+      "de_alt": [],
+      "en": [
+        "parallel"
+      ],
+      "pos": "adj",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 268,
+      "example_de": "Die beiden Geraden sind parallel.",
+      "example_en": "The two lines are parallel."
+    },
+    {
+      "id": "s-math-0059",
+      "de": "senkrecht",
+      "de_alt": [
+        "orthogonal"
+      ],
+      "en": [
+        "perpendicular",
+        "vertical"
+      ],
+      "pos": "adj",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 273,
+      "note": "senkrecht aufeinander = perpendicular to each other",
+      "example_de": "Die Höhe steht senkrecht auf der Grundseite.",
+      "example_en": "The height is perpendicular to the base."
+    },
+    {
+      "id": "s-math-0060",
+      "de": "der Würfel",
+      "de_alt": [],
+      "en": [
+        "cube",
+        "dice",
+        "die"
+      ],
+      "pos": "noun",
+      "plural": "die Würfel",
+      "topic": "geometry",
+      "level": "A2",
+      "rank": 278,
+      "note": "both the shape and the dice",
+      "example_de": "Ein Würfel hat sechs Flächen.",
+      "example_en": "A cube has six faces."
+    },
+    {
+      "id": "s-math-0061",
+      "de": "die Kugel",
+      "de_alt": [],
+      "en": [
+        "sphere",
+        "ball"
+      ],
+      "pos": "noun",
+      "plural": "die Kugeln",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 283,
+      "example_de": "Berechne das Volumen der Kugel.",
+      "example_en": "Calculate the volume of the sphere."
+    },
+    {
+      "id": "s-math-0062",
+      "de": "der Zirkel",
+      "de_alt": [],
+      "en": [
+        "compass",
+        "pair of compasses"
+      ],
+      "pos": "noun",
+      "plural": "die Zirkel",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 288,
+      "note": "false friend: not a circle (der Kreis)",
+      "example_de": "Ich habe meinen Zirkel vergessen.",
+      "example_en": "I forgot my compass."
+    },
+    {
+      "id": "s-math-0063",
+      "de": "das Geodreieck",
+      "de_alt": [],
+      "en": [
+        "set square",
+        "protractor"
+      ],
+      "pos": "noun",
+      "plural": "die Geodreiecke",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 291,
+      "note": "German school triangle ruler with a protractor",
+      "example_de": "Zeichne die Parallele mit dem Geodreieck.",
+      "example_en": "Draw the parallel line with the set square."
+    },
+    {
+      "id": "s-math-0064",
+      "de": "beweisen",
+      "de_alt": [],
+      "en": [
+        "to prove"
+      ],
+      "pos": "verb",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 293,
+      "note": "Perfekt: hat bewiesen",
+      "example_de": "Beweise, dass die Summe gerade ist.",
+      "example_en": "Prove that the sum is even."
+    },
+    {
+      "id": "s-math-0065",
+      "de": "der Beweis",
+      "de_alt": [],
+      "en": [
+        "proof",
+        "evidence"
+      ],
+      "pos": "noun",
+      "plural": "die Beweise",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 295,
+      "example_de": "Der Beweis ist nur fünf Zeilen lang.",
+      "example_en": "The proof is only five lines long."
+    },
+    {
+      "id": "s-math-0066",
+      "de": "einsetzen",
+      "de_alt": [],
+      "en": [
+        "to substitute",
+        "to insert",
+        "to plug in"
+      ],
+      "pos": "verb",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 297,
+      "note": "separable: ich setze ein",
+      "example_de": "Setze x = 2 in die Gleichung ein.",
+      "example_en": "Substitute x = 2 into the equation."
+    },
+    {
+      "id": "s-math-0067",
+      "de": "vereinfachen",
+      "de_alt": [],
+      "en": [
+        "to simplify"
+      ],
+      "pos": "verb",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 299,
+      "example_de": "Vereinfache den Term so weit wie möglich.",
+      "example_en": "Simplify the expression as far as possible."
+    },
+    {
+      "id": "s-math-0068",
+      "de": "das Verhältnis",
+      "de_alt": [],
+      "en": [
+        "ratio",
+        "proportion",
+        "relationship"
+      ],
+      "pos": "noun",
+      "plural": "die Verhältnisse",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 300,
+      "note": "im Verhältnis 3:1 = in a ratio of 3 to 1",
+      "example_de": "Mische Sand und Zement im Verhältnis 3:1.",
+      "example_en": "Mix sand and cement in a ratio of 3 to 1."
+    },
+    {
+      "id": "s-math-0069",
+      "de": "kürzen",
+      "de_alt": [],
+      "en": [
+        "to simplify",
+        "to cancel",
+        "to reduce"
+      ],
+      "pos": "verb",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 301,
+      "note": "used for fractions; also: to shorten",
+      "example_de": "Kürze den Bruch 6/8.",
+      "example_en": "Simplify the fraction 6/8."
+    },
+    {
+      "id": "s-math-0070",
+      "de": "die Ungleichung",
+      "de_alt": [],
+      "en": [
+        "inequality"
+      ],
+      "pos": "noun",
+      "plural": "die Ungleichungen",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 302,
+      "example_de": "Löse die Ungleichung 2x > 6.",
+      "example_en": "Solve the inequality 2x > 6."
+    },
+    {
+      "id": "s-math-0071",
+      "de": "umformen",
+      "de_alt": [],
+      "en": [
+        "to rearrange"
+      ],
+      "pos": "verb",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 307,
+      "note": "separable: ich forme um",
+      "example_de": "Forme die Formel nach r um.",
+      "example_en": "Rearrange the formula for r."
+    },
+    {
+      "id": "s-math-0072",
+      "de": "linear",
+      "de_alt": [],
+      "en": [
+        "linear"
+      ],
+      "pos": "adj",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 312,
+      "example_de": "Das Wachstum ist hier linear.",
+      "example_en": "The growth here is linear."
+    },
+    {
+      "id": "s-math-0073",
+      "de": "quadratisch",
+      "de_alt": [],
+      "en": [
+        "quadratic",
+        "square"
+      ],
+      "pos": "adj",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 317,
+      "example_de": "Eine quadratische Gleichung kann zwei Lösungen haben.",
+      "example_en": "A quadratic equation can have two solutions."
+    },
+    {
+      "id": "s-math-0074",
+      "de": "die Steigung",
+      "de_alt": [],
+      "en": [
+        "gradient",
+        "slope"
+      ],
+      "pos": "noun",
+      "plural": "die Steigungen",
+      "topic": "algebra",
+      "level": "B1",
+      "rank": 322,
+      "example_de": "Die Gerade hat die Steigung 2.",
+      "example_en": "The line has a gradient of 2."
+    },
+    {
+      "id": "s-math-0075",
+      "de": "das Vielfache",
+      "de_alt": [],
+      "en": [
+        "multiple"
+      ],
+      "pos": "noun",
+      "plural": "die Vielfachen",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 327,
+      "note": "kgV = kleinstes gemeinsames Vielfaches (LCM)",
+      "example_de": "15 ist ein Vielfaches von 5.",
+      "example_en": "15 is a multiple of 5."
+    },
+    {
+      "id": "s-math-0076",
+      "de": "der Teiler",
+      "de_alt": [],
+      "en": [
+        "divisor",
+        "factor"
+      ],
+      "pos": "noun",
+      "plural": "die Teiler",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 332,
+      "note": "ggT = größter gemeinsamer Teiler (HCF, GCD)",
+      "example_de": "Die Zahl 12 hat sechs Teiler.",
+      "example_en": "The number 12 has six divisors."
+    },
+    {
+      "id": "s-math-0077",
+      "de": "teilbar",
+      "de_alt": [],
+      "en": [
+        "divisible"
+      ],
+      "pos": "adj",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 337,
+      "example_de": "Jede gerade Zahl ist durch 2 teilbar.",
+      "example_en": "Every even number is divisible by 2."
+    },
+    {
+      "id": "s-math-0078",
+      "de": "unendlich",
+      "de_alt": [],
+      "en": [
+        "infinite",
+        "infinitely",
+        "endless"
+      ],
+      "pos": "adj",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 342,
+      "example_de": "Es gibt unendlich viele Primzahlen.",
+      "example_en": "There are infinitely many prime numbers."
+    },
+    {
+      "id": "s-math-0079",
+      "de": "der Zylinder",
+      "de_alt": [],
+      "en": [
+        "cylinder"
+      ],
+      "pos": "noun",
+      "plural": "die Zylinder",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 347,
+      "example_de": "Die Dose hat die Form eines Zylinders.",
+      "example_en": "The can has the shape of a cylinder."
+    },
+    {
+      "id": "s-math-0080",
+      "de": "der rechte Winkel",
+      "de_alt": [],
+      "en": [
+        "right angle"
+      ],
+      "pos": "noun",
+      "plural": "die rechten Winkel",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 352,
+      "note": "rechtwinklig = right-angled",
+      "example_de": "Ein Rechteck hat vier rechte Winkel.",
+      "example_en": "A rectangle has four right angles."
+    },
+    {
+      "id": "s-math-0081",
+      "de": "die Strecke",
+      "de_alt": [],
+      "en": [
+        "line segment",
+        "segment",
+        "distance"
+      ],
+      "pos": "noun",
+      "plural": "die Strecken",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 357,
+      "note": "also: route, distance travelled",
+      "example_de": "Die Strecke AB ist 6 cm lang.",
+      "example_en": "The line segment AB is 6 cm long."
+    },
+    {
+      "id": "s-math-0082",
+      "de": "symmetrisch",
+      "de_alt": [],
+      "en": [
+        "symmetrical",
+        "symmetric"
+      ],
+      "pos": "adj",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 362,
+      "example_de": "Der Schmetterling ist fast perfekt symmetrisch.",
+      "example_en": "The butterfly is almost perfectly symmetrical."
+    },
+    {
+      "id": "s-math-0083",
+      "de": "der Satz des Pythagoras",
+      "de_alt": [],
+      "en": [
+        "Pythagorean theorem",
+        "Pythagoras' theorem",
+        "Pythagoras theorem"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "geometry",
+      "level": "B1",
+      "rank": 367,
+      "note": "a² + b² = c²",
+      "example_de": "Berechne die Hypotenuse mit dem Satz des Pythagoras.",
+      "example_en": "Calculate the hypotenuse using Pythagoras' theorem."
+    },
+    {
+      "id": "s-math-0084",
+      "de": "proportional",
+      "de_alt": [],
+      "en": [
+        "proportional"
+      ],
+      "pos": "adj",
+      "topic": "numbers",
+      "level": "B1",
+      "rank": 372,
+      "note": "umgekehrt proportional = inversely proportional",
+      "example_de": "Der Preis ist proportional zur Menge.",
+      "example_en": "The price is proportional to the quantity."
+    },
+    {
+      "id": "s-math-0085",
+      "de": "die Häufigkeit",
+      "de_alt": [],
+      "en": [
+        "frequency"
+      ],
+      "pos": "noun",
+      "plural": "die Häufigkeiten",
+      "topic": "statistics",
+      "level": "B1",
+      "rank": 377,
+      "note": "in statistics; frequency in physics = die Frequenz",
+      "example_de": "Notiere die Häufigkeit jeder Augenzahl.",
+      "example_en": "Record the frequency of each dice score."
+    },
+    {
+      "id": "s-math-0086",
+      "de": "die Stichprobe",
+      "de_alt": [],
+      "en": [
+        "sample"
+      ],
+      "pos": "noun",
+      "plural": "die Stichproben",
+      "topic": "statistics",
+      "level": "B1",
+      "rank": 382,
+      "note": "also: spot check",
+      "example_de": "Die Stichprobe umfasst 200 Jugendliche.",
+      "example_en": "The sample includes 200 teenagers."
+    },
+    {
+      "id": "s-math-0087",
+      "de": "zufällig",
+      "de_alt": [],
+      "en": [
+        "random",
+        "randomly",
+        "by chance"
+      ],
+      "pos": "adj",
+      "topic": "statistics",
+      "level": "B1",
+      "rank": 387,
+      "note": "der Zufall = chance",
+      "example_de": "Wir wählen zufällig zehn Schüler aus.",
+      "example_en": "We randomly choose ten students."
+    },
+    {
+      "id": "s-math-0088",
+      "de": "das Ereignis",
+      "de_alt": [],
+      "en": [
+        "event"
+      ],
+      "pos": "noun",
+      "plural": "die Ereignisse",
+      "topic": "statistics",
+      "level": "B1",
+      "rank": 392,
+      "example_de": "Das Ereignis „Kopf“ hat die Wahrscheinlichkeit 0,5.",
+      "example_en": "The event \"heads\" has a probability of 0.5."
+    },
+    {
+      "id": "s-math-0089",
+      "de": "die Ableitung",
+      "de_alt": [],
+      "en": [
+        "derivative"
+      ],
+      "pos": "noun",
+      "plural": "die Ableitungen",
+      "topic": "calculus",
+      "level": "B2",
+      "rank": 397,
+      "note": "also: derivation",
+      "example_de": "Die Ableitung von x² ist 2x.",
+      "example_en": "The derivative of x² is 2x."
+    },
+    {
+      "id": "s-math-0090",
+      "de": "ableiten",
+      "de_alt": [],
+      "en": [
+        "to differentiate",
+        "to derive"
+      ],
+      "pos": "verb",
+      "topic": "calculus",
+      "level": "B2",
+      "rank": 402,
+      "note": "separable: ich leite ab",
+      "example_de": "Leite die Funktion zweimal ab.",
+      "example_en": "Differentiate the function twice."
+    },
+    {
+      "id": "s-math-0091",
+      "de": "die Nullstelle",
+      "de_alt": [],
+      "en": [
+        "zero",
+        "x-intercept"
+      ],
+      "pos": "noun",
+      "plural": "die Nullstellen",
+      "topic": "calculus",
+      "level": "B1",
+      "rank": 407,
+      "note": "where the graph crosses the x-axis",
+      "example_de": "Bestimme die Nullstellen der Funktion.",
+      "example_en": "Find the zeros of the function."
+    },
+    {
+      "id": "s-math-0092",
+      "de": "der Vektor",
+      "de_alt": [],
+      "en": [
+        "vector"
+      ],
+      "pos": "noun",
+      "plural": "die Vektoren",
+      "topic": "algebra",
+      "level": "B2",
+      "rank": 412,
+      "example_de": "Der Vektor zeigt von A nach B.",
+      "example_en": "The vector points from A to B."
+    },
+    {
+      "id": "s-math-0093",
+      "de": "das Integral",
+      "de_alt": [],
+      "en": [
+        "integral"
+      ],
+      "pos": "noun",
+      "plural": "die Integrale",
+      "topic": "calculus",
+      "level": "B2",
+      "rank": 436,
+      "note": "integrieren = to integrate",
+      "example_de": "Berechne das Integral von 0 bis 2.",
+      "example_en": "Calculate the integral from 0 to 2."
+    },
+    {
+      "id": "s-math-0094",
+      "de": "der Grenzwert",
+      "de_alt": [
+        "der Limes"
+      ],
+      "en": [
+        "limit"
+      ],
+      "pos": "noun",
+      "plural": "die Grenzwerte",
+      "topic": "calculus",
+      "level": "B2",
+      "rank": 441,
+      "example_de": "Der Grenzwert der Folge ist null.",
+      "example_en": "The limit of the sequence is zero."
+    },
+    {
+      "id": "s-math-0095",
+      "de": "die Kurvendiskussion",
+      "de_alt": [],
+      "en": [
+        "curve sketching",
+        "function analysis"
+      ],
+      "pos": "noun",
+      "plural": "die Kurvendiskussionen",
+      "topic": "calculus",
+      "level": "B2",
+      "rank": 446,
+      "note": "classic German Abitur task",
+      "example_de": "Morgen schreiben wir eine Klausur zur Kurvendiskussion.",
+      "example_en": "Tomorrow we're writing a test on curve sketching."
+    },
+    {
+      "id": "s-math-0096",
+      "de": "die Folge",
+      "de_alt": [],
+      "en": [
+        "sequence"
+      ],
+      "pos": "noun",
+      "plural": "die Folgen",
+      "topic": "calculus",
+      "level": "B2",
+      "rank": 451,
+      "note": "also: consequence; episode of a series",
+      "example_de": "Die Folge 1, 4, 9, 16 besteht aus Quadratzahlen.",
+      "example_en": "The sequence 1, 4, 9, 16 consists of square numbers."
+    },
+    {
+      "id": "s-math-0097",
+      "de": "das Maximum",
+      "de_alt": [],
+      "en": [
+        "maximum"
+      ],
+      "pos": "noun",
+      "plural": "die Maxima",
+      "topic": "calculus",
+      "level": "B1",
+      "rank": 456,
+      "example_de": "Die Funktion erreicht ihr Maximum bei x = 3.",
+      "example_en": "The function reaches its maximum at x = 3."
+    },
+    {
+      "id": "s-math-0098",
+      "de": "das Minimum",
+      "de_alt": [],
+      "en": [
+        "minimum"
+      ],
+      "pos": "noun",
+      "plural": "die Minima",
+      "topic": "calculus",
+      "level": "B1",
+      "rank": 459,
+      "example_de": "Das Minimum der Funktion liegt bei null.",
+      "example_en": "The minimum of the function is at zero."
+    },
+    {
+      "id": "s-math-0099",
+      "de": "der Wendepunkt",
+      "de_alt": [],
+      "en": [
+        "point of inflection",
+        "inflection point"
+      ],
+      "pos": "noun",
+      "plural": "die Wendepunkte",
+      "topic": "calculus",
+      "level": "B2",
+      "rank": 462,
+      "note": "figuratively also: turning point",
+      "example_de": "Im Wendepunkt ändert der Graph seine Krümmung.",
+      "example_en": "At the point of inflection the graph changes its curvature."
+    },
+    {
+      "id": "s-math-0100",
+      "de": "die Tangente",
+      "de_alt": [],
+      "en": [
+        "tangent"
+      ],
+      "pos": "noun",
+      "plural": "die Tangenten",
+      "topic": "calculus",
+      "level": "B2",
+      "rank": 464,
+      "example_de": "Die Tangente berührt den Graphen im Punkt P.",
+      "example_en": "The tangent touches the graph at point P."
+    },
+    {
+      "id": "s-math-0101",
+      "de": "die Exponentialfunktion",
+      "de_alt": [],
+      "en": [
+        "exponential function"
+      ],
+      "pos": "noun",
+      "plural": "die Exponentialfunktionen",
+      "topic": "calculus",
+      "level": "B2",
+      "rank": 466,
+      "note": "exponentiell = exponential",
+      "example_de": "Bakterienwachstum lässt sich mit einer Exponentialfunktion beschreiben.",
+      "example_en": "Bacterial growth can be described with an exponential function."
+    },
+    {
+      "id": "s-math-0102",
+      "de": "der Logarithmus",
+      "de_alt": [],
+      "en": [
+        "logarithm",
+        "log"
+      ],
+      "pos": "noun",
+      "plural": "die Logarithmen",
+      "topic": "calculus",
+      "level": "B2",
+      "rank": 467,
+      "example_de": "Der Logarithmus von 100 zur Basis 10 ist 2.",
+      "example_en": "The logarithm of 100 to base 10 is 2."
+    },
+    {
+      "id": "s-math-0103",
+      "de": "die Standardabweichung",
+      "de_alt": [],
+      "en": [
+        "standard deviation"
+      ],
+      "pos": "noun",
+      "plural": "die Standardabweichungen",
+      "topic": "statistics",
+      "level": "B2",
+      "rank": 468,
+      "example_de": "Eine kleine Standardabweichung bedeutet wenig Streuung.",
+      "example_en": "A small standard deviation means little spread."
+    },
+    {
+      "id": "s-math-0104",
+      "de": "die Matrix",
+      "de_alt": [],
+      "en": [
+        "matrix"
+      ],
+      "pos": "noun",
+      "plural": "die Matrizen",
+      "topic": "algebra",
+      "level": "B2",
+      "rank": 469,
+      "example_de": "Multipliziere die Matrix mit dem Vektor.",
+      "example_en": "Multiply the matrix by the vector."
+    }
+  ]
+}

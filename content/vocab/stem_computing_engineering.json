@@ -1,0 +1,1573 @@
+{
+  "bank": "stem",
+  "title": "STEM German — computing & engineering",
+  "words": [
+    {
+      "id": "s-comp-0001",
+      "de": "der Computer",
+      "de_alt": [
+        "der Rechner"
+      ],
+      "en": [
+        "computer"
+      ],
+      "pos": "noun",
+      "plural": "die Computer",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 5,
+      "example_de": "Der Computer rechnet schneller als jeder Mensch.",
+      "example_en": "The computer calculates faster than any human."
+    },
+    {
+      "id": "s-comp-0002",
+      "de": "die Informatik",
+      "de_alt": [],
+      "en": [
+        "computer science",
+        "computing",
+        "informatics"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "programming",
+      "level": "A2",
+      "rank": 10,
+      "note": "school subject; der Informatiker = computer scientist",
+      "example_de": "Nächstes Jahr wähle ich Informatik als Leistungskurs.",
+      "example_en": "Next year I'm choosing computer science as an advanced course."
+    },
+    {
+      "id": "s-comp-0003",
+      "de": "die Daten",
+      "de_alt": [],
+      "en": [
+        "data"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "data",
+      "level": "A2",
+      "rank": 15,
+      "note": "plural noun: „Die Daten sind …“; das Datum = date",
+      "example_de": "Die Daten werden in der Cloud gespeichert.",
+      "example_en": "The data is stored in the cloud."
+    },
+    {
+      "id": "s-comp-0004",
+      "de": "programmieren",
+      "de_alt": [
+        "coden"
+      ],
+      "en": [
+        "to program",
+        "to code"
+      ],
+      "pos": "verb",
+      "topic": "programming",
+      "level": "A2",
+      "rank": 20,
+      "example_de": "Ich programmiere gerade ein kleines Spiel.",
+      "example_en": "I'm programming a small game right now."
+    },
+    {
+      "id": "s-comp-0005",
+      "de": "das Programm",
+      "de_alt": [],
+      "en": [
+        "program",
+        "programme"
+      ],
+      "pos": "noun",
+      "plural": "die Programme",
+      "topic": "programming",
+      "level": "A2",
+      "rank": 25,
+      "note": "also: TV channel, schedule",
+      "example_de": "Das Programm stürzt ständig ab.",
+      "example_en": "The program keeps crashing."
+    },
+    {
+      "id": "s-comp-0006",
+      "de": "der Code",
+      "de_alt": [
+        "der Quellcode",
+        "der Quelltext"
+      ],
+      "en": [
+        "code",
+        "source code"
+      ],
+      "pos": "noun",
+      "plural": "die Codes",
+      "topic": "programming",
+      "level": "A2",
+      "rank": 30,
+      "note": "pronounced like English",
+      "example_de": "Kommentiere deinen Code sauber.",
+      "example_en": "Comment your code properly."
+    },
+    {
+      "id": "s-comp-0007",
+      "de": "die Software",
+      "de_alt": [],
+      "en": [
+        "software"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 35,
+      "example_de": "Die Software muss aktualisiert werden.",
+      "example_en": "The software needs to be updated."
+    },
+    {
+      "id": "s-comp-0008",
+      "de": "die Hardware",
+      "de_alt": [],
+      "en": [
+        "hardware"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 40,
+      "example_de": "Für das Spiel ist die Hardware zu alt.",
+      "example_en": "The hardware is too old for the game."
+    },
+    {
+      "id": "s-comp-0009",
+      "de": "das Internet",
+      "de_alt": [
+        "das Netz"
+      ],
+      "en": [
+        "internet"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "networks",
+      "level": "A2",
+      "rank": 45,
+      "example_de": "Ohne Internet funktioniert die App nicht.",
+      "example_en": "The app doesn't work without internet."
+    },
+    {
+      "id": "s-comp-0010",
+      "de": "das Netzwerk",
+      "de_alt": [],
+      "en": [
+        "network"
+      ],
+      "pos": "noun",
+      "plural": "die Netzwerke",
+      "topic": "networks",
+      "level": "A2",
+      "rank": 50,
+      "example_de": "Alle Computer der Schule sind im Netzwerk verbunden.",
+      "example_en": "All the school's computers are connected in a network."
+    },
+    {
+      "id": "s-comp-0011",
+      "de": "die Datei",
+      "de_alt": [],
+      "en": [
+        "file"
+      ],
+      "pos": "noun",
+      "plural": "die Dateien",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 55,
+      "note": "false friend: not „data“",
+      "example_de": "Speichere die Datei als PDF.",
+      "example_en": "Save the file as a PDF."
+    },
+    {
+      "id": "s-comp-0012",
+      "de": "speichern",
+      "de_alt": [
+        "abspeichern"
+      ],
+      "en": [
+        "to save",
+        "to store"
+      ],
+      "pos": "verb",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 60,
+      "example_de": "Vergiss nicht, regelmäßig zu speichern.",
+      "example_en": "Don't forget to save regularly."
+    },
+    {
+      "id": "s-comp-0013",
+      "de": "der Algorithmus",
+      "de_alt": [],
+      "en": [
+        "algorithm"
+      ],
+      "pos": "noun",
+      "plural": "die Algorithmen",
+      "topic": "programming",
+      "level": "B1",
+      "rank": 65,
+      "example_de": "Der Algorithmus sortiert die Liste.",
+      "example_en": "The algorithm sorts the list."
+    },
+    {
+      "id": "s-comp-0014",
+      "de": "die Technik",
+      "de_alt": [
+        "die Technologie"
+      ],
+      "en": [
+        "technology",
+        "engineering",
+        "technique"
+      ],
+      "pos": "noun",
+      "plural": "die Techniken",
+      "topic": "engineering",
+      "level": "A2",
+      "rank": 70,
+      "note": "Technologie is used for high-tech fields",
+      "example_de": "Moderne Technik macht vieles einfacher.",
+      "example_en": "Modern technology makes many things easier."
+    },
+    {
+      "id": "s-comp-0015",
+      "de": "der Ingenieur",
+      "de_alt": [],
+      "en": [
+        "engineer"
+      ],
+      "pos": "noun",
+      "plural": "die Ingenieure",
+      "topic": "engineering",
+      "level": "A2",
+      "rank": 75,
+      "note": "female: die Ingenieurin; pronounced „In-schen-jöhr“",
+      "example_de": "Meine Schwester möchte Ingenieurin werden.",
+      "example_en": "My sister wants to become an engineer."
+    },
+    {
+      "id": "s-comp-0016",
+      "de": "die künstliche Intelligenz",
+      "de_alt": [
+        "die KI"
+      ],
+      "en": [
+        "artificial intelligence",
+        "AI"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "ai",
+      "level": "B1",
+      "rank": 80,
+      "note": "abbreviation KI, not AI",
+      "example_de": "Künstliche Intelligenz kann Bilder erkennen.",
+      "example_en": "Artificial intelligence can recognise images."
+    },
+    {
+      "id": "s-comp-0017",
+      "de": "die App",
+      "de_alt": [
+        "die Anwendung"
+      ],
+      "en": [
+        "app",
+        "application"
+      ],
+      "pos": "noun",
+      "plural": "die Apps",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 84,
+      "example_de": "Lade dir die App kostenlos herunter.",
+      "example_en": "Download the app for free."
+    },
+    {
+      "id": "s-comp-0018",
+      "de": "der Bildschirm",
+      "de_alt": [
+        "der Monitor",
+        "das Display"
+      ],
+      "en": [
+        "screen",
+        "monitor",
+        "display"
+      ],
+      "pos": "noun",
+      "plural": "die Bildschirme",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 88,
+      "example_de": "Mein Bildschirm ist kaputt.",
+      "example_en": "My screen is broken."
+    },
+    {
+      "id": "s-comp-0019",
+      "de": "herunterladen",
+      "de_alt": [
+        "downloaden"
+      ],
+      "en": [
+        "to download"
+      ],
+      "pos": "verb",
+      "topic": "networks",
+      "level": "A2",
+      "rank": 102,
+      "note": "separable: ich lade herunter",
+      "example_de": "Lade die Datei herunter.",
+      "example_en": "Download the file."
+    },
+    {
+      "id": "s-comp-0020",
+      "de": "hochladen",
+      "de_alt": [
+        "uploaden"
+      ],
+      "en": [
+        "to upload"
+      ],
+      "pos": "verb",
+      "topic": "networks",
+      "level": "A2",
+      "rank": 107,
+      "note": "separable: ich lade hoch",
+      "example_de": "Lade deine Hausaufgaben auf die Lernplattform hoch.",
+      "example_en": "Upload your homework to the learning platform."
+    },
+    {
+      "id": "s-comp-0021",
+      "de": "löschen",
+      "de_alt": [],
+      "en": [
+        "to delete",
+        "to erase"
+      ],
+      "pos": "verb",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 112,
+      "note": "also: to put out (a fire)",
+      "example_de": "Lösch die alte Version nicht.",
+      "example_en": "Don't delete the old version."
+    },
+    {
+      "id": "s-comp-0022",
+      "de": "der Ordner",
+      "de_alt": [],
+      "en": [
+        "folder",
+        "directory"
+      ],
+      "pos": "noun",
+      "plural": "die Ordner",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 117,
+      "note": "also: ring binder",
+      "example_de": "Leg einen neuen Ordner für das Projekt an.",
+      "example_en": "Create a new folder for the project."
+    },
+    {
+      "id": "s-comp-0023",
+      "de": "die Tastatur",
+      "de_alt": [],
+      "en": [
+        "keyboard"
+      ],
+      "pos": "noun",
+      "plural": "die Tastaturen",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 122,
+      "note": "die Taste = key",
+      "example_de": "Die deutsche Tastatur hat Y und Z vertauscht.",
+      "example_en": "The German keyboard has Y and Z swapped."
+    },
+    {
+      "id": "s-comp-0024",
+      "de": "der Speicher",
+      "de_alt": [],
+      "en": [
+        "memory",
+        "storage"
+      ],
+      "pos": "noun",
+      "plural": "die Speicher",
+      "topic": "computers",
+      "level": "B1",
+      "rank": 127,
+      "note": "also: attic, storehouse",
+      "example_de": "Der Speicher meines Handys ist voll.",
+      "example_en": "My phone's storage is full."
+    },
+    {
+      "id": "s-comp-0025",
+      "de": "der Prozessor",
+      "de_alt": [],
+      "en": [
+        "processor",
+        "CPU"
+      ],
+      "pos": "noun",
+      "plural": "die Prozessoren",
+      "topic": "computers",
+      "level": "B1",
+      "rank": 132,
+      "example_de": "Der Prozessor wird beim Spielen heiß.",
+      "example_en": "The processor gets hot while gaming."
+    },
+    {
+      "id": "s-comp-0026",
+      "de": "die Programmiersprache",
+      "de_alt": [],
+      "en": [
+        "programming language"
+      ],
+      "pos": "noun",
+      "plural": "die Programmiersprachen",
+      "topic": "programming",
+      "level": "B1",
+      "rank": 137,
+      "example_de": "Python ist eine beliebte Programmiersprache.",
+      "example_en": "Python is a popular programming language."
+    },
+    {
+      "id": "s-comp-0027",
+      "de": "die Schleife",
+      "de_alt": [],
+      "en": [
+        "loop"
+      ],
+      "pos": "noun",
+      "plural": "die Schleifen",
+      "topic": "programming",
+      "level": "B1",
+      "rank": 142,
+      "note": "also: bow, ribbon",
+      "example_de": "Die Schleife läuft zehnmal durch.",
+      "example_en": "The loop runs ten times."
+    },
+    {
+      "id": "s-comp-0028",
+      "de": "die Bedingung",
+      "de_alt": [],
+      "en": [
+        "condition"
+      ],
+      "pos": "noun",
+      "plural": "die Bedingungen",
+      "topic": "programming",
+      "level": "B1",
+      "rank": 147,
+      "example_de": "Wenn die Bedingung erfüllt ist, wird der Block ausgeführt.",
+      "example_en": "If the condition is met, the block is executed."
+    },
+    {
+      "id": "s-comp-0029",
+      "de": "der Fehler",
+      "de_alt": [
+        "der Bug"
+      ],
+      "en": [
+        "error",
+        "bug",
+        "mistake"
+      ],
+      "pos": "noun",
+      "plural": "die Fehler",
+      "topic": "programming",
+      "level": "A2",
+      "rank": 152,
+      "example_de": "In Zeile 12 steckt ein Fehler.",
+      "example_en": "There's a bug in line 12."
+    },
+    {
+      "id": "s-comp-0030",
+      "de": "der Befehl",
+      "de_alt": [],
+      "en": [
+        "command",
+        "instruction"
+      ],
+      "pos": "noun",
+      "plural": "die Befehle",
+      "topic": "programming",
+      "level": "B1",
+      "rank": 157,
+      "note": "also: order",
+      "example_de": "Gib den Befehl in die Konsole ein.",
+      "example_en": "Enter the command in the console."
+    },
+    {
+      "id": "s-comp-0031",
+      "de": "ausführen",
+      "de_alt": [],
+      "en": [
+        "to run",
+        "to execute"
+      ],
+      "pos": "verb",
+      "topic": "programming",
+      "level": "B1",
+      "rank": 162,
+      "note": "separable; also: to carry out",
+      "example_de": "Führe das Programm noch einmal aus.",
+      "example_en": "Run the program again."
+    },
+    {
+      "id": "s-comp-0032",
+      "de": "die Eingabe",
+      "de_alt": [],
+      "en": [
+        "input",
+        "entry"
+      ],
+      "pos": "noun",
+      "plural": "die Eingaben",
+      "topic": "programming",
+      "level": "B1",
+      "rank": 167,
+      "note": "die Eingabetaste = Enter key",
+      "example_de": "Das Programm wartet auf eine Eingabe.",
+      "example_en": "The program is waiting for input."
+    },
+    {
+      "id": "s-comp-0033",
+      "de": "die Ausgabe",
+      "de_alt": [],
+      "en": [
+        "output"
+      ],
+      "pos": "noun",
+      "plural": "die Ausgaben",
+      "topic": "programming",
+      "level": "B1",
+      "rank": 172,
+      "note": "also: issue, edition; expense",
+      "example_de": "Die Ausgabe erscheint in der Konsole.",
+      "example_en": "The output appears in the console."
+    },
+    {
+      "id": "s-comp-0034",
+      "de": "die Datenbank",
+      "de_alt": [],
+      "en": [
+        "database"
+      ],
+      "pos": "noun",
+      "plural": "die Datenbanken",
+      "topic": "data",
+      "level": "B1",
+      "rank": 177,
+      "example_de": "Die Kundendaten liegen in einer Datenbank.",
+      "example_en": "The customer data is in a database."
+    },
+    {
+      "id": "s-comp-0035",
+      "de": "das Betriebssystem",
+      "de_alt": [],
+      "en": [
+        "operating system",
+        "OS"
+      ],
+      "pos": "noun",
+      "plural": "die Betriebssysteme",
+      "topic": "computers",
+      "level": "B1",
+      "rank": 182,
+      "example_de": "Welches Betriebssystem hast du auf deinem Laptop?",
+      "example_en": "Which operating system do you have on your laptop?"
+    },
+    {
+      "id": "s-comp-0036",
+      "de": "der Server",
+      "de_alt": [],
+      "en": [
+        "server"
+      ],
+      "pos": "noun",
+      "plural": "die Server",
+      "topic": "networks",
+      "level": "B1",
+      "rank": 187,
+      "example_de": "Der Server ist gerade nicht erreichbar.",
+      "example_en": "The server is currently unreachable."
+    },
+    {
+      "id": "s-comp-0037",
+      "de": "die Webseite",
+      "de_alt": [
+        "die Website",
+        "die Internetseite"
+      ],
+      "en": [
+        "website",
+        "web page"
+      ],
+      "pos": "noun",
+      "plural": "die Webseiten",
+      "topic": "networks",
+      "level": "A2",
+      "rank": 192,
+      "example_de": "Wir erstellen eine Webseite für unser Projekt.",
+      "example_en": "We're building a website for our project."
+    },
+    {
+      "id": "s-comp-0038",
+      "de": "das Passwort",
+      "de_alt": [
+        "das Kennwort"
+      ],
+      "en": [
+        "password"
+      ],
+      "pos": "noun",
+      "plural": "die Passwörter",
+      "topic": "networks",
+      "level": "A2",
+      "rank": 197,
+      "example_de": "Dein Passwort sollte mindestens zwölf Zeichen haben.",
+      "example_en": "Your password should have at least twelve characters."
+    },
+    {
+      "id": "s-comp-0039",
+      "de": "das WLAN",
+      "de_alt": [],
+      "en": [
+        "Wi-Fi",
+        "WiFi",
+        "wireless network"
+      ],
+      "pos": "noun",
+      "plural": "die WLANs",
+      "topic": "networks",
+      "level": "A2",
+      "rank": 202,
+      "note": "Germans say „WLAN“ (veh-lahn), rarely „Wi-Fi“",
+      "example_de": "Wie lautet das WLAN-Passwort?",
+      "example_en": "What's the Wi-Fi password?"
+    },
+    {
+      "id": "s-comp-0040",
+      "de": "digital",
+      "de_alt": [],
+      "en": [
+        "digital"
+      ],
+      "pos": "adj",
+      "topic": "data",
+      "level": "A2",
+      "rank": 207,
+      "example_de": "Die Schule arbeitet immer mehr digital.",
+      "example_en": "The school works more and more digitally."
+    },
+    {
+      "id": "s-comp-0041",
+      "de": "das Bit",
+      "de_alt": [],
+      "en": [
+        "bit"
+      ],
+      "pos": "noun",
+      "plural": "die Bits",
+      "topic": "data",
+      "level": "B1",
+      "rank": 212,
+      "example_de": "Ein Byte besteht aus acht Bit.",
+      "example_en": "One byte consists of eight bits."
+    },
+    {
+      "id": "s-comp-0042",
+      "de": "das Byte",
+      "de_alt": [],
+      "en": [
+        "byte"
+      ],
+      "pos": "noun",
+      "plural": "die Bytes",
+      "topic": "data",
+      "level": "B1",
+      "rank": 217,
+      "example_de": "Die Datei ist nur 500 Byte groß.",
+      "example_en": "The file is only 500 bytes."
+    },
+    {
+      "id": "s-comp-0043",
+      "de": "binär",
+      "de_alt": [],
+      "en": [
+        "binary"
+      ],
+      "pos": "adj",
+      "topic": "data",
+      "level": "B1",
+      "rank": 222,
+      "example_de": "Computer rechnen im binären System.",
+      "example_en": "Computers calculate in the binary system."
+    },
+    {
+      "id": "s-comp-0044",
+      "de": "der Sensor",
+      "de_alt": [],
+      "en": [
+        "sensor"
+      ],
+      "pos": "noun",
+      "plural": "die Sensoren",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 227,
+      "example_de": "Der Sensor misst die Luftfeuchtigkeit.",
+      "example_en": "The sensor measures the humidity."
+    },
+    {
+      "id": "s-comp-0045",
+      "de": "der Roboter",
+      "de_alt": [],
+      "en": [
+        "robot"
+      ],
+      "pos": "noun",
+      "plural": "die Roboter",
+      "topic": "engineering",
+      "level": "A2",
+      "rank": 232,
+      "example_de": "Der Roboter montiert die Autotüren.",
+      "example_en": "The robot assembles the car doors."
+    },
+    {
+      "id": "s-comp-0046",
+      "de": "das Modell",
+      "de_alt": [],
+      "en": [
+        "model"
+      ],
+      "pos": "noun",
+      "plural": "die Modelle",
+      "topic": "ai",
+      "level": "B1",
+      "rank": 237,
+      "example_de": "Das Modell wurde mit Millionen Texten trainiert.",
+      "example_en": "The model was trained on millions of texts."
+    },
+    {
+      "id": "s-comp-0047",
+      "de": "trainieren",
+      "de_alt": [],
+      "en": [
+        "to train"
+      ],
+      "pos": "verb",
+      "topic": "ai",
+      "level": "B1",
+      "rank": 242,
+      "example_de": "Wir trainieren das Netz mit Fotos von Katzen.",
+      "example_en": "We train the network with photos of cats."
+    },
+    {
+      "id": "s-comp-0048",
+      "de": "das maschinelle Lernen",
+      "de_alt": [],
+      "en": [
+        "machine learning"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "ai",
+      "level": "B2",
+      "rank": 247,
+      "note": "often just „Machine Learning“",
+      "example_de": "Maschinelles Lernen erkennt Muster in großen Datenmengen.",
+      "example_en": "Machine learning detects patterns in large amounts of data."
+    },
+    {
+      "id": "s-comp-0049",
+      "de": "analysieren",
+      "de_alt": [
+        "auswerten"
+      ],
+      "en": [
+        "to analyse",
+        "to analyze",
+        "to evaluate"
+      ],
+      "pos": "verb",
+      "topic": "data",
+      "level": "B1",
+      "rank": 252,
+      "note": "auswerten = to evaluate (results, data)",
+      "example_de": "Wir analysieren die Daten mit einer Tabellenkalkulation.",
+      "example_en": "We analyse the data with a spreadsheet."
+    },
+    {
+      "id": "s-comp-0050",
+      "de": "die Tabelle",
+      "de_alt": [],
+      "en": [
+        "table",
+        "spreadsheet"
+      ],
+      "pos": "noun",
+      "plural": "die Tabellen",
+      "topic": "data",
+      "level": "A2",
+      "rank": 257,
+      "note": "also: league table",
+      "example_de": "Trag die Ergebnisse in die Tabelle ein.",
+      "example_en": "Enter the results in the table."
+    },
+    {
+      "id": "s-comp-0051",
+      "de": "die Simulation",
+      "de_alt": [],
+      "en": [
+        "simulation"
+      ],
+      "pos": "noun",
+      "plural": "die Simulationen",
+      "topic": "data",
+      "level": "B1",
+      "rank": 262,
+      "note": "simulieren = to simulate",
+      "example_de": "Die Simulation zeigt, wie sich die Brücke verformt.",
+      "example_en": "The simulation shows how the bridge deforms."
+    },
+    {
+      "id": "s-comp-0052",
+      "de": "der Entwurf",
+      "de_alt": [],
+      "en": [
+        "design",
+        "draft"
+      ],
+      "pos": "noun",
+      "plural": "die Entwürfe",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 267,
+      "example_de": "Der erste Entwurf war zu schwer.",
+      "example_en": "The first design was too heavy."
+    },
+    {
+      "id": "s-comp-0053",
+      "de": "entwickeln",
+      "de_alt": [],
+      "en": [
+        "to develop"
+      ],
+      "pos": "verb",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 272,
+      "note": "die Entwicklung = development",
+      "example_de": "Das Team entwickelt eine neue App.",
+      "example_en": "The team is developing a new app."
+    },
+    {
+      "id": "s-comp-0054",
+      "de": "konstruieren",
+      "de_alt": [],
+      "en": [
+        "to construct",
+        "to design",
+        "to build"
+      ],
+      "pos": "verb",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 277,
+      "note": "die Konstruktion = construction, design",
+      "example_de": "Wir konstruieren eine Brücke aus Spaghetti.",
+      "example_en": "We're constructing a bridge out of spaghetti."
+    },
+    {
+      "id": "s-comp-0055",
+      "de": "testen",
+      "de_alt": [],
+      "en": [
+        "to test"
+      ],
+      "pos": "verb",
+      "topic": "engineering",
+      "level": "A2",
+      "rank": 282,
+      "example_de": "Teste jede Funktion einzeln.",
+      "example_en": "Test each function separately."
+    },
+    {
+      "id": "s-comp-0056",
+      "de": "der Prototyp",
+      "de_alt": [],
+      "en": [
+        "prototype"
+      ],
+      "pos": "noun",
+      "plural": "die Prototypen",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 287,
+      "example_de": "Der Prototyp funktioniert schon ziemlich gut.",
+      "example_en": "The prototype already works pretty well."
+    },
+    {
+      "id": "s-comp-0057",
+      "de": "das Material",
+      "de_alt": [],
+      "en": [
+        "material"
+      ],
+      "pos": "noun",
+      "plural": "die Materialien",
+      "topic": "engineering",
+      "level": "A2",
+      "rank": 290,
+      "example_de": "Aluminium ist ein leichtes Material.",
+      "example_en": "Aluminium is a light material."
+    },
+    {
+      "id": "s-comp-0058",
+      "de": "das Werkzeug",
+      "de_alt": [],
+      "en": [
+        "tool"
+      ],
+      "pos": "noun",
+      "plural": "die Werkzeuge",
+      "topic": "engineering",
+      "level": "A2",
+      "rank": 292,
+      "note": "also used for software tools",
+      "example_de": "Hol bitte das Werkzeug aus der Werkstatt.",
+      "example_en": "Please get the tools from the workshop."
+    },
+    {
+      "id": "s-comp-0059",
+      "de": "der Motor",
+      "de_alt": [],
+      "en": [
+        "motor",
+        "engine"
+      ],
+      "pos": "noun",
+      "plural": "die Motoren",
+      "topic": "engineering",
+      "level": "A2",
+      "rank": 294,
+      "example_de": "Der Elektromotor treibt das Rad an.",
+      "example_en": "The electric motor drives the wheel."
+    },
+    {
+      "id": "s-comp-0060",
+      "de": "die Maschine",
+      "de_alt": [],
+      "en": [
+        "machine"
+      ],
+      "pos": "noun",
+      "plural": "die Maschinen",
+      "topic": "engineering",
+      "level": "A2",
+      "rank": 296,
+      "note": "also: plane (colloquial)",
+      "example_de": "Die Maschine produziert 500 Teile pro Stunde.",
+      "example_en": "The machine produces 500 parts per hour."
+    },
+    {
+      "id": "s-comp-0061",
+      "de": "automatisch",
+      "de_alt": [],
+      "en": [
+        "automatic",
+        "automatically"
+      ],
+      "pos": "adj",
+      "topic": "engineering",
+      "level": "A2",
+      "rank": 298,
+      "example_de": "Die Tür öffnet sich automatisch.",
+      "example_en": "The door opens automatically."
+    },
+    {
+      "id": "s-comp-0062",
+      "de": "der Nutzer",
+      "de_alt": [
+        "der Benutzer",
+        "der User"
+      ],
+      "en": [
+        "user"
+      ],
+      "pos": "noun",
+      "plural": "die Nutzer",
+      "topic": "computers",
+      "level": "B1",
+      "rank": 306,
+      "note": "female: die Nutzerin",
+      "example_de": "Der Nutzer muss sich zuerst anmelden.",
+      "example_en": "The user has to log in first."
+    },
+    {
+      "id": "s-comp-0063",
+      "de": "die Benutzeroberfläche",
+      "de_alt": [
+        "die Oberfläche",
+        "das Interface"
+      ],
+      "en": [
+        "user interface",
+        "UI"
+      ],
+      "pos": "noun",
+      "plural": "die Benutzeroberflächen",
+      "topic": "computers",
+      "level": "B2",
+      "rank": 311,
+      "example_de": "Die Benutzeroberfläche ist leicht verständlich.",
+      "example_en": "The user interface is easy to understand."
+    },
+    {
+      "id": "s-comp-0064",
+      "de": "die Schnittstelle",
+      "de_alt": [],
+      "en": [
+        "interface",
+        "API",
+        "port"
+      ],
+      "pos": "noun",
+      "plural": "die Schnittstellen",
+      "topic": "computers",
+      "level": "B2",
+      "rank": 316,
+      "note": "Programmierschnittstelle = API",
+      "example_de": "Die App nutzt eine Schnittstelle zum Wetterdienst.",
+      "example_en": "The app uses an interface to the weather service."
+    },
+    {
+      "id": "s-comp-0065",
+      "de": "installieren",
+      "de_alt": [],
+      "en": [
+        "to install"
+      ],
+      "pos": "verb",
+      "topic": "computers",
+      "level": "B1",
+      "rank": 321,
+      "example_de": "Installiere zuerst die neueste Version.",
+      "example_en": "Install the latest version first."
+    },
+    {
+      "id": "s-comp-0066",
+      "de": "die Festplatte",
+      "de_alt": [],
+      "en": [
+        "hard drive",
+        "hard disk"
+      ],
+      "pos": "noun",
+      "plural": "die Festplatten",
+      "topic": "computers",
+      "level": "B1",
+      "rank": 326,
+      "note": "SSD is also called „die SSD“",
+      "example_de": "Die Festplatte hat ein Terabyte Speicher.",
+      "example_en": "The hard drive has one terabyte of storage."
+    },
+    {
+      "id": "s-comp-0067",
+      "de": "der Arbeitsspeicher",
+      "de_alt": [
+        "der RAM"
+      ],
+      "en": [
+        "RAM",
+        "main memory",
+        "working memory"
+      ],
+      "pos": "noun",
+      "plural": "die Arbeitsspeicher",
+      "topic": "computers",
+      "level": "B2",
+      "rank": 331,
+      "example_de": "Mehr Arbeitsspeicher macht den Rechner schneller.",
+      "example_en": "More RAM makes the computer faster."
+    },
+    {
+      "id": "s-comp-0068",
+      "de": "der Akku",
+      "de_alt": [],
+      "en": [
+        "rechargeable battery",
+        "battery"
+      ],
+      "pos": "noun",
+      "plural": "die Akkus",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 336,
+      "note": "short for Akkumulator; single-use battery = die Batterie",
+      "example_de": "Mein Akku ist fast leer.",
+      "example_en": "My battery is almost dead."
+    },
+    {
+      "id": "s-comp-0069",
+      "de": "das Kabel",
+      "de_alt": [],
+      "en": [
+        "cable",
+        "wire",
+        "lead"
+      ],
+      "pos": "noun",
+      "plural": "die Kabel",
+      "topic": "computers",
+      "level": "A2",
+      "rank": 341,
+      "example_de": "Verbinde den Laptop mit einem Kabel.",
+      "example_en": "Connect the laptop with a cable."
+    },
+    {
+      "id": "s-comp-0070",
+      "de": "der Chip",
+      "de_alt": [],
+      "en": [
+        "chip",
+        "microchip"
+      ],
+      "pos": "noun",
+      "plural": "die Chips",
+      "topic": "computers",
+      "level": "B1",
+      "rank": 346,
+      "note": "also: crisps (die Chips)",
+      "example_de": "Der Chip enthält Milliarden Transistoren.",
+      "example_en": "The chip contains billions of transistors."
+    },
+    {
+      "id": "s-comp-0071",
+      "de": "die Cloud",
+      "de_alt": [],
+      "en": [
+        "cloud"
+      ],
+      "pos": "noun",
+      "plural": "die Clouds",
+      "topic": "networks",
+      "level": "B1",
+      "rank": 351,
+      "example_de": "Alle Fotos werden automatisch in die Cloud hochgeladen.",
+      "example_en": "All photos are automatically uploaded to the cloud."
+    },
+    {
+      "id": "s-comp-0072",
+      "de": "die Verschlüsselung",
+      "de_alt": [],
+      "en": [
+        "encryption"
+      ],
+      "pos": "noun",
+      "plural": "die Verschlüsselungen",
+      "topic": "networks",
+      "level": "B2",
+      "rank": 356,
+      "note": "verschlüsseln = to encrypt",
+      "example_de": "Die Nachricht ist durch Verschlüsselung geschützt.",
+      "example_en": "The message is protected by encryption."
+    },
+    {
+      "id": "s-comp-0073",
+      "de": "die Sicherheitslücke",
+      "de_alt": [],
+      "en": [
+        "security vulnerability",
+        "vulnerability",
+        "security hole"
+      ],
+      "pos": "noun",
+      "plural": "die Sicherheitslücken",
+      "topic": "networks",
+      "level": "B2",
+      "rank": 361,
+      "example_de": "Das Update schließt eine gefährliche Sicherheitslücke.",
+      "example_en": "The update closes a dangerous security hole."
+    },
+    {
+      "id": "s-comp-0074",
+      "de": "der Browser",
+      "de_alt": [],
+      "en": [
+        "browser",
+        "web browser"
+      ],
+      "pos": "noun",
+      "plural": "die Browser",
+      "topic": "networks",
+      "level": "B1",
+      "rank": 366,
+      "example_de": "Öffne die Seite in einem anderen Browser.",
+      "example_en": "Open the page in a different browser."
+    },
+    {
+      "id": "s-comp-0075",
+      "de": "der Datensatz",
+      "de_alt": [],
+      "en": [
+        "data set",
+        "dataset",
+        "record"
+      ],
+      "pos": "noun",
+      "plural": "die Datensätze",
+      "topic": "data",
+      "level": "B2",
+      "rank": 371,
+      "note": "in databases: record",
+      "example_de": "Der Datensatz enthält 10.000 Einträge.",
+      "example_en": "The data set contains 10,000 entries."
+    },
+    {
+      "id": "s-comp-0076",
+      "de": "die Datenmenge",
+      "de_alt": [],
+      "en": [
+        "amount of data",
+        "data volume"
+      ],
+      "pos": "noun",
+      "plural": "die Datenmengen",
+      "topic": "data",
+      "level": "B1",
+      "rank": 376,
+      "example_de": "Die Datenmenge wächst jedes Jahr.",
+      "example_en": "The amount of data grows every year."
+    },
+    {
+      "id": "s-comp-0077",
+      "de": "analog",
+      "de_alt": [],
+      "en": [
+        "analogue",
+        "analog"
+      ],
+      "pos": "adj",
+      "topic": "data",
+      "level": "B1",
+      "rank": 381,
+      "example_de": "Die alte Uhr zeigt die Zeit analog an.",
+      "example_en": "The old clock displays the time in analogue."
+    },
+    {
+      "id": "s-comp-0078",
+      "de": "das neuronale Netz",
+      "de_alt": [
+        "das neuronale Netzwerk"
+      ],
+      "en": [
+        "neural network"
+      ],
+      "pos": "noun",
+      "plural": "die neuronalen Netze",
+      "topic": "ai",
+      "level": "B2",
+      "rank": 386,
+      "example_de": "Ein neuronales Netz lernt aus Beispielen.",
+      "example_en": "A neural network learns from examples."
+    },
+    {
+      "id": "s-comp-0079",
+      "de": "der Chatbot",
+      "de_alt": [],
+      "en": [
+        "chatbot"
+      ],
+      "pos": "noun",
+      "plural": "die Chatbots",
+      "topic": "ai",
+      "level": "B1",
+      "rank": 391,
+      "example_de": "Der Chatbot beantwortet Fragen rund um die Uhr.",
+      "example_en": "The chatbot answers questions around the clock."
+    },
+    {
+      "id": "s-comp-0080",
+      "de": "optimieren",
+      "de_alt": [],
+      "en": [
+        "to optimise",
+        "to optimize",
+        "to improve"
+      ],
+      "pos": "verb",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 396,
+      "example_de": "Wir optimieren den Code, damit er schneller läuft.",
+      "example_en": "We optimise the code so that it runs faster."
+    },
+    {
+      "id": "s-comp-0081",
+      "de": "die Anforderung",
+      "de_alt": [],
+      "en": [
+        "requirement",
+        "demand"
+      ],
+      "pos": "noun",
+      "plural": "die Anforderungen",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 401,
+      "example_de": "Der Entwurf erfüllt alle Anforderungen.",
+      "example_en": "The design meets all requirements."
+    },
+    {
+      "id": "s-comp-0082",
+      "de": "die Skizze",
+      "de_alt": [],
+      "en": [
+        "sketch",
+        "drawing"
+      ],
+      "pos": "noun",
+      "plural": "die Skizzen",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 406,
+      "example_de": "Fertige zuerst eine Skizze an.",
+      "example_en": "First make a sketch."
+    },
+    {
+      "id": "s-comp-0083",
+      "de": "das Bauteil",
+      "de_alt": [],
+      "en": [
+        "component",
+        "part"
+      ],
+      "pos": "noun",
+      "plural": "die Bauteile",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 411,
+      "example_de": "Ein defektes Bauteil muss ersetzt werden.",
+      "example_en": "A faulty component has to be replaced."
+    },
+    {
+      "id": "s-comp-0084",
+      "de": "die Stabilität",
+      "de_alt": [],
+      "en": [
+        "stability"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 416,
+      "note": "stabil = stable, sturdy",
+      "example_de": "Dreiecke erhöhen die Stabilität der Konstruktion.",
+      "example_en": "Triangles increase the stability of the structure."
+    },
+    {
+      "id": "s-comp-0085",
+      "de": "die Belastung",
+      "de_alt": [],
+      "en": [
+        "load",
+        "strain",
+        "stress"
+      ],
+      "pos": "noun",
+      "plural": "die Belastungen",
+      "topic": "engineering",
+      "level": "B2",
+      "rank": 420,
+      "note": "also: burden",
+      "example_de": "Die Brücke hält eine Belastung von 40 Tonnen aus.",
+      "example_en": "The bridge withstands a load of 40 tonnes."
+    },
+    {
+      "id": "s-comp-0086",
+      "de": "effizient",
+      "de_alt": [],
+      "en": [
+        "efficient"
+      ],
+      "pos": "adj",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 424,
+      "note": "die Effizienz = efficiency",
+      "example_de": "LED-Lampen sind sehr effizient.",
+      "example_en": "LED lamps are very efficient."
+    },
+    {
+      "id": "s-comp-0087",
+      "de": "die Steuerung",
+      "de_alt": [],
+      "en": [
+        "control",
+        "control system",
+        "steering"
+      ],
+      "pos": "noun",
+      "plural": "die Steuerungen",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 427,
+      "note": "steuern = to control, to steer",
+      "example_de": "Die Steuerung des Roboters erfolgt per App.",
+      "example_en": "The robot is controlled via an app."
+    },
+    {
+      "id": "s-comp-0088",
+      "de": "das Zahnrad",
+      "de_alt": [],
+      "en": [
+        "gear",
+        "cog",
+        "gear wheel"
+      ],
+      "pos": "noun",
+      "plural": "die Zahnräder",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 430,
+      "example_de": "Die Zahnräder übertragen die Kraft auf die Achse.",
+      "example_en": "The gears transmit the force to the axle."
+    },
+    {
+      "id": "s-comp-0089",
+      "de": "die Erfindung",
+      "de_alt": [],
+      "en": [
+        "invention"
+      ],
+      "pos": "noun",
+      "plural": "die Erfindungen",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 432,
+      "note": "erfinden = to invent",
+      "example_de": "Der Buchdruck war eine wichtige Erfindung.",
+      "example_en": "Printing was an important invention."
+    },
+    {
+      "id": "s-comp-0090",
+      "de": "die Elektronik",
+      "de_alt": [],
+      "en": [
+        "electronics"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 434,
+      "example_de": "In jedem Auto steckt heute viel Elektronik.",
+      "example_en": "Every car contains lots of electronics today."
+    },
+    {
+      "id": "s-comp-0091",
+      "de": "die Automatisierung",
+      "de_alt": [],
+      "en": [
+        "automation"
+      ],
+      "pos": "noun",
+      "plural": "die Automatisierungen",
+      "topic": "engineering",
+      "level": "B2",
+      "rank": 440,
+      "example_de": "Automatisierung verändert die Arbeitswelt.",
+      "example_en": "Automation is changing the world of work."
+    },
+    {
+      "id": "s-comp-0092",
+      "de": "der 3D-Drucker",
+      "de_alt": [],
+      "en": [
+        "3D printer"
+      ],
+      "pos": "noun",
+      "plural": "die 3D-Drucker",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 445,
+      "note": "say „Dreh-De-Drucker“",
+      "example_de": "Wir drucken das Ersatzteil mit dem 3D-Drucker.",
+      "example_en": "We print the spare part with the 3D printer."
+    },
+    {
+      "id": "s-comp-0093",
+      "de": "die Robotik",
+      "de_alt": [],
+      "en": [
+        "robotics"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "engineering",
+      "level": "B1",
+      "rank": 450,
+      "example_de": "Die Robotik-AG baut einen Fußballroboter.",
+      "example_en": "The robotics club is building a football robot."
+    },
+    {
+      "id": "s-comp-0094",
+      "de": "kompilieren",
+      "de_alt": [],
+      "en": [
+        "to compile"
+      ],
+      "pos": "verb",
+      "topic": "programming",
+      "level": "B2",
+      "rank": 455,
+      "example_de": "Der Code lässt sich nicht kompilieren.",
+      "example_en": "The code won't compile."
+    },
+    {
+      "id": "s-comp-0095",
+      "de": "die Rekursion",
+      "de_alt": [],
+      "en": [
+        "recursion"
+      ],
+      "pos": "noun",
+      "plural": "die Rekursionen",
+      "topic": "programming",
+      "level": "B2",
+      "rank": 458,
+      "example_de": "Die Funktion löst das Problem mit Rekursion.",
+      "example_en": "The function solves the problem with recursion."
+    },
+    {
+      "id": "s-comp-0096",
+      "de": "die Open-Source-Software",
+      "de_alt": [],
+      "en": [
+        "open-source software",
+        "open source"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "programming",
+      "level": "B2",
+      "rank": 461,
+      "example_de": "Linux ist Open-Source-Software.",
+      "example_en": "Linux is open-source software."
+    }
+  ]
+}

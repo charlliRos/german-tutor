@@ -1,0 +1,1671 @@
+{
+  "bank": "daily",
+  "title": "Everyday German — useful phrases",
+  "words": [
+    {
+      "id": "d-phr-0001",
+      "de": "Hallo!",
+      "de_alt": [
+        "Hi!",
+        "Hey!"
+      ],
+      "en": [
+        "hello",
+        "hi"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 50,
+      "example_de": "Hallo! Wie geht's?",
+      "example_en": "Hi! How's it going?"
+    },
+    {
+      "id": "d-phr-0002",
+      "de": "Tschüss!",
+      "de_alt": [
+        "Tschüs!",
+        "Ciao!"
+      ],
+      "en": [
+        "bye",
+        "goodbye",
+        "see you"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 300,
+      "note": "informal goodbye",
+      "example_de": "Tschüss, bis morgen!",
+      "example_en": "Bye, see you tomorrow!"
+    },
+    {
+      "id": "d-phr-0003",
+      "de": "Guten Morgen!",
+      "de_alt": [],
+      "en": [
+        "good morning"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 400,
+      "example_de": "Guten Morgen, Frau Weber!",
+      "example_en": "Good morning, Ms Weber!"
+    },
+    {
+      "id": "d-phr-0004",
+      "de": "Guten Tag!",
+      "de_alt": [],
+      "en": [
+        "hello",
+        "good afternoon",
+        "good day"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 450,
+      "note": "polite, used during the day",
+      "example_de": "Guten Tag, ich habe eine Frage.",
+      "example_en": "Hello, I have a question."
+    },
+    {
+      "id": "d-phr-0005",
+      "de": "Guten Abend!",
+      "de_alt": [],
+      "en": [
+        "good evening"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 900,
+      "example_de": "Guten Abend, zusammen!",
+      "example_en": "Good evening, everyone!"
+    },
+    {
+      "id": "d-phr-0006",
+      "de": "Gute Nacht!",
+      "de_alt": [],
+      "en": [
+        "good night"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 1000,
+      "note": "only when going to bed",
+      "example_de": "Gute Nacht, schlaf gut!",
+      "example_en": "Good night, sleep well!"
+    },
+    {
+      "id": "d-phr-0007",
+      "de": "Auf Wiedersehen!",
+      "de_alt": [],
+      "en": [
+        "goodbye"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 700,
+      "note": "polite/formal",
+      "example_de": "Auf Wiedersehen und danke!",
+      "example_en": "Goodbye and thank you!"
+    },
+    {
+      "id": "d-phr-0008",
+      "de": "Bis später!",
+      "de_alt": [],
+      "en": [
+        "see you later"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 800,
+      "example_de": "Ich muss los. Bis später!",
+      "example_en": "I have to go. See you later!"
+    },
+    {
+      "id": "d-phr-0009",
+      "de": "Bis morgen!",
+      "de_alt": [],
+      "en": [
+        "see you tomorrow"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 850,
+      "example_de": "Tschüss, bis morgen in der Schule!",
+      "example_en": "Bye, see you tomorrow at school!"
+    },
+    {
+      "id": "d-phr-0010",
+      "de": "Bis bald!",
+      "de_alt": [],
+      "en": [
+        "see you soon"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 1100,
+      "example_de": "Schöne Ferien und bis bald!",
+      "example_en": "Have a good holiday and see you soon!"
+    },
+    {
+      "id": "d-phr-0011",
+      "de": "Wie geht's?",
+      "de_alt": [
+        "Wie geht es dir?",
+        "Wie geht es Ihnen?"
+      ],
+      "en": [
+        "how are you",
+        "how's it going"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 200,
+      "note": "Wie geht es Ihnen? = formal",
+      "example_de": "Hey Lea, wie geht's?",
+      "example_en": "Hey Lea, how's it going?"
+    },
+    {
+      "id": "d-phr-0012",
+      "de": "Mir geht's gut.",
+      "de_alt": [
+        "Mir geht es gut.",
+        "Gut, danke."
+      ],
+      "en": [
+        "I'm fine",
+        "I'm good",
+        "I'm well"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 500,
+      "example_de": "Danke, mir geht's gut. Und dir?",
+      "example_en": "Thanks, I'm fine. And you?"
+    },
+    {
+      "id": "d-phr-0013",
+      "de": "Und dir?",
+      "de_alt": [
+        "Und du?"
+      ],
+      "en": [
+        "and you",
+        "what about you"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 700,
+      "example_de": "Mir geht's super. Und dir?",
+      "example_en": "I'm great. And you?"
+    },
+    {
+      "id": "d-phr-0014",
+      "de": "Na?",
+      "de_alt": [
+        "Na, alles klar?"
+      ],
+      "en": [
+        "hey, how's it going",
+        "so",
+        "well"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A2",
+      "rank": 1200,
+      "note": "very casual greeting between friends",
+      "example_de": "Na, wie war die Party?",
+      "example_en": "So, how was the party?"
+    },
+    {
+      "id": "d-phr-0015",
+      "de": "Alles klar?",
+      "de_alt": [],
+      "en": [
+        "everything OK",
+        "all good",
+        "you alright"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 900,
+      "note": "also as an answer: Alles klar! = OK, got it!",
+      "example_de": "Alles klar bei dir?",
+      "example_en": "Everything OK with you?"
+    },
+    {
+      "id": "d-phr-0016",
+      "de": "Schönes Wochenende!",
+      "de_alt": [],
+      "en": [
+        "have a nice weekend"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Tschüss und schönes Wochenende!",
+      "example_en": "Bye and have a nice weekend!"
+    },
+    {
+      "id": "d-phr-0017",
+      "de": "Freut mich!",
+      "de_alt": [
+        "Freut mich, dich kennenzulernen."
+      ],
+      "en": [
+        "nice to meet you",
+        "pleased to meet you"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Ich bin Jonas. – Freut mich!",
+      "example_en": "I'm Jonas. – Nice to meet you!"
+    },
+    {
+      "id": "d-phr-0018",
+      "de": "Wie heißt du?",
+      "de_alt": [
+        "Wie heißen Sie?"
+      ],
+      "en": [
+        "what's your name"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 600,
+      "note": "Wie heißen Sie? = formal",
+      "example_de": "Hi, wie heißt du?",
+      "example_en": "Hi, what's your name?"
+    },
+    {
+      "id": "d-phr-0019",
+      "de": "Ich heiße …",
+      "de_alt": [
+        "Mein Name ist …"
+      ],
+      "en": [
+        "my name is …",
+        "I'm called …"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 600,
+      "example_de": "Ich heiße Mia und bin 16.",
+      "example_en": "My name is Mia and I'm 16."
+    },
+    {
+      "id": "d-phr-0020",
+      "de": "Woher kommst du?",
+      "de_alt": [],
+      "en": [
+        "where are you from"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 1200,
+      "example_de": "Woher kommst du ursprünglich?",
+      "example_en": "Where are you originally from?"
+    },
+    {
+      "id": "d-phr-0021",
+      "de": "Wie alt bist du?",
+      "de_alt": [],
+      "en": [
+        "how old are you"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 1200,
+      "example_de": "Wie alt bist du? – Sechzehn.",
+      "example_en": "How old are you? – Sixteen."
+    },
+    {
+      "id": "d-phr-0022",
+      "de": "Bitte.",
+      "de_alt": [],
+      "en": [
+        "please",
+        "you're welcome",
+        "here you are"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 100,
+      "note": "also the reply to Danke",
+      "example_de": "Ein Wasser, bitte.",
+      "example_en": "A water, please."
+    },
+    {
+      "id": "d-phr-0023",
+      "de": "Danke!",
+      "de_alt": [
+        "Danke schön!"
+      ],
+      "en": [
+        "thank you",
+        "thanks"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 150,
+      "example_de": "Danke für die Hilfe!",
+      "example_en": "Thanks for the help!"
+    },
+    {
+      "id": "d-phr-0024",
+      "de": "Vielen Dank!",
+      "de_alt": [
+        "Danke sehr!"
+      ],
+      "en": [
+        "thank you very much",
+        "thanks a lot",
+        "many thanks"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 600,
+      "example_de": "Vielen Dank für die Einladung!",
+      "example_en": "Thanks a lot for the invitation!"
+    },
+    {
+      "id": "d-phr-0025",
+      "de": "Bitte schön!",
+      "de_alt": [
+        "Bitte sehr!"
+      ],
+      "en": [
+        "you're welcome",
+        "here you are"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 900,
+      "example_de": "Danke! – Bitte schön!",
+      "example_en": "Thanks! – You're welcome!"
+    },
+    {
+      "id": "d-phr-0026",
+      "de": "Kein Problem.",
+      "de_alt": [
+        "Kein Ding."
+      ],
+      "en": [
+        "no problem"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 900,
+      "note": "Kein Ding = very casual",
+      "example_de": "Danke fürs Warten! – Kein Problem.",
+      "example_en": "Thanks for waiting! – No problem."
+    },
+    {
+      "id": "d-phr-0027",
+      "de": "Entschuldigung!",
+      "de_alt": [
+        "Entschuldigen Sie!"
+      ],
+      "en": [
+        "excuse me",
+        "sorry"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 500,
+      "note": "to get attention or apologise",
+      "example_de": "Entschuldigung, wo ist der Bahnhof?",
+      "example_en": "Excuse me, where is the station?"
+    },
+    {
+      "id": "d-phr-0028",
+      "de": "Es tut mir leid.",
+      "de_alt": [
+        "Tut mir leid."
+      ],
+      "en": [
+        "I'm sorry",
+        "sorry"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 700,
+      "example_de": "Es tut mir leid, dass ich zu spät bin.",
+      "example_en": "I'm sorry I'm late."
+    },
+    {
+      "id": "d-phr-0029",
+      "de": "Sorry!",
+      "de_alt": [],
+      "en": [
+        "sorry"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A2",
+      "rank": 1500,
+      "note": "very common among teenagers",
+      "example_de": "Sorry, hab deine Nachricht nicht gesehen.",
+      "example_en": "Sorry, didn't see your message."
+    },
+    {
+      "id": "d-phr-0030",
+      "de": "Macht nichts.",
+      "de_alt": [
+        "Schon gut."
+      ],
+      "en": [
+        "never mind",
+        "it doesn't matter",
+        "no worries"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 1100,
+      "example_de": "Sorry! – Macht nichts.",
+      "example_en": "Sorry! – No worries."
+    },
+    {
+      "id": "d-phr-0031",
+      "de": "Ich hätte gern …",
+      "de_alt": [
+        "Ich hätte gerne …",
+        "Ich möchte …"
+      ],
+      "en": [
+        "I'd like …"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 400,
+      "note": "polite way to order",
+      "example_de": "Ich hätte gern eine Cola, bitte.",
+      "example_en": "I'd like a Coke, please."
+    },
+    {
+      "id": "d-phr-0032",
+      "de": "Kann ich …?",
+      "de_alt": [
+        "Darf ich …?"
+      ],
+      "en": [
+        "can I …",
+        "may I …"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 500,
+      "note": "Darf ich …? = more polite",
+      "example_de": "Kann ich kurz dein Handy benutzen?",
+      "example_en": "Can I use your phone for a sec?"
+    },
+    {
+      "id": "d-phr-0033",
+      "de": "Könntest du …?",
+      "de_alt": [
+        "Kannst du …?"
+      ],
+      "en": [
+        "could you …",
+        "can you …"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A2",
+      "rank": 800,
+      "note": "polite request",
+      "example_de": "Könntest du mir kurz helfen?",
+      "example_en": "Could you help me for a moment?"
+    },
+    {
+      "id": "d-phr-0034",
+      "de": "Gern geschehen!",
+      "de_alt": [
+        "Gerne!"
+      ],
+      "en": [
+        "you're welcome",
+        "my pleasure"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Danke für den Tipp! – Gern geschehen!",
+      "example_en": "Thanks for the tip! – My pleasure!"
+    },
+    {
+      "id": "d-phr-0035",
+      "de": "Guten Appetit!",
+      "de_alt": [],
+      "en": [
+        "enjoy your meal",
+        "bon appétit"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 1500,
+      "note": "said before eating",
+      "example_de": "Das Essen ist fertig. Guten Appetit!",
+      "example_en": "Dinner's ready. Enjoy your meal!"
+    },
+    {
+      "id": "d-phr-0036",
+      "de": "Gesundheit!",
+      "de_alt": [],
+      "en": [
+        "bless you"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 2500,
+      "note": "said when someone sneezes",
+      "example_de": "Hatschi! – Gesundheit!",
+      "example_en": "Achoo! – Bless you!"
+    },
+    {
+      "id": "d-phr-0037",
+      "de": "Herzlichen Glückwunsch!",
+      "de_alt": [
+        "Alles Gute zum Geburtstag!"
+      ],
+      "en": [
+        "congratulations",
+        "happy birthday"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 1500,
+      "note": "+ zum Geburtstag = happy birthday",
+      "example_de": "Herzlichen Glückwunsch zur bestandenen Prüfung!",
+      "example_en": "Congratulations on passing the exam!"
+    },
+    {
+      "id": "d-phr-0038",
+      "de": "Viel Glück!",
+      "de_alt": [],
+      "en": [
+        "good luck"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Viel Glück bei der Prüfung!",
+      "example_en": "Good luck in the exam!"
+    },
+    {
+      "id": "d-phr-0039",
+      "de": "Viel Spaß!",
+      "de_alt": [],
+      "en": [
+        "have fun"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 1300,
+      "example_de": "Viel Spaß auf dem Konzert!",
+      "example_en": "Have fun at the concert!"
+    },
+    {
+      "id": "d-phr-0040",
+      "de": "Gute Besserung!",
+      "de_alt": [],
+      "en": [
+        "get well soon"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 2500,
+      "example_de": "Du bist krank? Gute Besserung!",
+      "example_en": "You're ill? Get well soon!"
+    },
+    {
+      "id": "d-phr-0041",
+      "de": "Wie bitte?",
+      "de_alt": [],
+      "en": [
+        "pardon",
+        "sorry",
+        "what did you say"
+      ],
+      "pos": "phrase",
+      "topic": "classroom",
+      "level": "A1",
+      "rank": 800,
+      "note": "polite way to ask someone to repeat",
+      "example_de": "Wie bitte? Ich habe dich nicht verstanden.",
+      "example_en": "Sorry? I didn't understand you."
+    },
+    {
+      "id": "d-phr-0042",
+      "de": "Ich verstehe das nicht.",
+      "de_alt": [
+        "Das verstehe ich nicht."
+      ],
+      "en": [
+        "I don't understand",
+        "I don't get it"
+      ],
+      "pos": "phrase",
+      "topic": "classroom",
+      "level": "A1",
+      "rank": 700,
+      "example_de": "Ich verstehe das nicht. Kannst du es erklären?",
+      "example_en": "I don't get it. Can you explain it?"
+    },
+    {
+      "id": "d-phr-0043",
+      "de": "Können Sie das wiederholen?",
+      "de_alt": [
+        "Kannst du das wiederholen?"
+      ],
+      "en": [
+        "can you repeat that",
+        "could you say that again"
+      ],
+      "pos": "phrase",
+      "topic": "classroom",
+      "level": "A1",
+      "rank": 1500,
+      "note": "Sie = to a teacher/adult",
+      "example_de": "Können Sie das bitte wiederholen?",
+      "example_en": "Could you repeat that, please?"
+    },
+    {
+      "id": "d-phr-0044",
+      "de": "Wie sagt man … auf Deutsch?",
+      "de_alt": [],
+      "en": [
+        "how do you say … in German"
+      ],
+      "pos": "phrase",
+      "topic": "classroom",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Wie sagt man \"charger\" auf Deutsch?",
+      "example_en": "How do you say \"charger\" in German?"
+    },
+    {
+      "id": "d-phr-0045",
+      "de": "Was bedeutet …?",
+      "de_alt": [
+        "Was heißt …?"
+      ],
+      "en": [
+        "what does … mean"
+      ],
+      "pos": "phrase",
+      "topic": "classroom",
+      "level": "A1",
+      "rank": 1100,
+      "example_de": "Was bedeutet \"peinlich\"?",
+      "example_en": "What does \"peinlich\" mean?"
+    },
+    {
+      "id": "d-phr-0046",
+      "de": "Ich weiß nicht.",
+      "de_alt": [
+        "Weiß nicht."
+      ],
+      "en": [
+        "I don't know"
+      ],
+      "pos": "phrase",
+      "topic": "classroom",
+      "level": "A1",
+      "rank": 400,
+      "example_de": "Wo ist Tim? – Ich weiß nicht.",
+      "example_en": "Where's Tim? – I don't know."
+    },
+    {
+      "id": "d-phr-0047",
+      "de": "Ich habe eine Frage.",
+      "de_alt": [],
+      "en": [
+        "I have a question",
+        "I've got a question"
+      ],
+      "pos": "phrase",
+      "topic": "classroom",
+      "level": "A1",
+      "rank": 1300,
+      "example_de": "Frau Müller, ich habe eine Frage.",
+      "example_en": "Ms Müller, I have a question."
+    },
+    {
+      "id": "d-phr-0048",
+      "de": "Langsamer, bitte.",
+      "de_alt": [
+        "Bitte langsamer."
+      ],
+      "en": [
+        "slower, please",
+        "more slowly, please"
+      ],
+      "pos": "phrase",
+      "topic": "classroom",
+      "level": "A1",
+      "rank": 2500,
+      "example_de": "Langsamer, bitte, ich schreibe mit.",
+      "example_en": "Slower, please, I'm taking notes."
+    },
+    {
+      "id": "d-phr-0049",
+      "de": "Ich bin fertig.",
+      "de_alt": [],
+      "en": [
+        "I'm done",
+        "I've finished",
+        "I'm finished"
+      ],
+      "pos": "phrase",
+      "topic": "classroom",
+      "level": "A1",
+      "rank": 1300,
+      "note": "also: I'm exhausted",
+      "example_de": "Ich bin fertig mit der Aufgabe.",
+      "example_en": "I've finished the task."
+    },
+    {
+      "id": "d-phr-0050",
+      "de": "Welche Seite?",
+      "de_alt": [
+        "Auf welcher Seite?"
+      ],
+      "en": [
+        "which page",
+        "what page"
+      ],
+      "pos": "phrase",
+      "topic": "classroom",
+      "level": "A1",
+      "rank": 2800,
+      "example_de": "Welche Seite sollen wir lesen?",
+      "example_en": "Which page are we supposed to read?"
+    },
+    {
+      "id": "d-phr-0051",
+      "de": "Ich habe meine Hausaufgaben vergessen.",
+      "de_alt": [],
+      "en": [
+        "I forgot my homework",
+        "I've forgotten my homework"
+      ],
+      "pos": "phrase",
+      "topic": "classroom",
+      "level": "A1",
+      "rank": 3000,
+      "example_de": "Sorry, ich habe meine Hausaufgaben vergessen.",
+      "example_en": "Sorry, I forgot my homework."
+    },
+    {
+      "id": "d-phr-0052",
+      "de": "Keine Ahnung.",
+      "de_alt": [
+        "Keinen Plan."
+      ],
+      "en": [
+        "no idea",
+        "I have no idea",
+        "dunno"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 500,
+      "note": "Keinen Plan = very casual",
+      "example_de": "Wann ist die Party? – Keine Ahnung.",
+      "example_en": "When is the party? – No idea."
+    },
+    {
+      "id": "d-phr-0053",
+      "de": "Das ist mir egal.",
+      "de_alt": [
+        "Egal.",
+        "Mir egal."
+      ],
+      "en": [
+        "I don't care",
+        "it doesn't matter to me",
+        "whatever"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 600,
+      "example_de": "Pizza oder Burger? – Das ist mir egal.",
+      "example_en": "Pizza or burgers? – I don't mind."
+    },
+    {
+      "id": "d-phr-0054",
+      "de": "Ich finde, …",
+      "de_alt": [
+        "Ich denke, …",
+        "Meiner Meinung nach …"
+      ],
+      "en": [
+        "I think …",
+        "in my opinion …"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 400,
+      "note": "verb comes second after the comma: Ich finde, das ist gut.",
+      "example_de": "Ich finde, der Film war zu lang.",
+      "example_en": "I think the film was too long."
+    },
+    {
+      "id": "d-phr-0055",
+      "de": "Ich bin dafür.",
+      "de_alt": [],
+      "en": [
+        "I'm for it",
+        "I'm in favour"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Kino am Samstag? Ich bin dafür!",
+      "example_en": "Cinema on Saturday? I'm up for it!"
+    },
+    {
+      "id": "d-phr-0056",
+      "de": "Ich bin dagegen.",
+      "de_alt": [],
+      "en": [
+        "I'm against it"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 2500,
+      "example_de": "Noch ein Test? Ich bin dagegen!",
+      "example_en": "Another test? I'm against it!"
+    },
+    {
+      "id": "d-phr-0057",
+      "de": "Das stimmt.",
+      "de_alt": [
+        "Stimmt."
+      ],
+      "en": [
+        "that's true",
+        "that's right",
+        "true"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 600,
+      "example_de": "Das stimmt, du hast recht.",
+      "example_en": "That's true, you're right."
+    },
+    {
+      "id": "d-phr-0058",
+      "de": "Du hast recht.",
+      "de_alt": [],
+      "en": [
+        "you're right"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 900,
+      "note": "recht haben = to be right",
+      "example_de": "Okay, du hast recht.",
+      "example_en": "OK, you're right."
+    },
+    {
+      "id": "d-phr-0059",
+      "de": "Wie war's?",
+      "de_alt": [
+        "Wie war es?"
+      ],
+      "en": [
+        "how was it"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1200,
+      "example_de": "Wie war's gestern auf der Party?",
+      "example_en": "How was the party yesterday?"
+    },
+    {
+      "id": "d-phr-0060",
+      "de": "Das finde ich auch.",
+      "de_alt": [
+        "Finde ich auch."
+      ],
+      "en": [
+        "I think so too",
+        "I agree"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 1200,
+      "example_de": "Die Serie ist toll. – Finde ich auch!",
+      "example_en": "The series is great. – I think so too!"
+    },
+    {
+      "id": "d-phr-0061",
+      "de": "Ich bin anderer Meinung.",
+      "de_alt": [
+        "Das sehe ich anders."
+      ],
+      "en": [
+        "I disagree",
+        "I see it differently"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "B1",
+      "rank": 2500,
+      "example_de": "Sorry, aber ich bin anderer Meinung.",
+      "example_en": "Sorry, but I disagree."
+    },
+    {
+      "id": "d-phr-0062",
+      "de": "Das ist mir wichtig.",
+      "de_alt": [],
+      "en": [
+        "that's important to me"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 2500,
+      "example_de": "Ehrlichkeit ist mir wichtig.",
+      "example_en": "Honesty is important to me."
+    },
+    {
+      "id": "d-phr-0063",
+      "de": "Das gefällt mir.",
+      "de_alt": [
+        "Gefällt mir."
+      ],
+      "en": [
+        "I like that",
+        "I like it"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 800,
+      "example_de": "Das neue Design gefällt mir.",
+      "example_en": "I like the new design."
+    },
+    {
+      "id": "d-phr-0064",
+      "de": "Ich habe keine Lust.",
+      "de_alt": [
+        "Keine Lust."
+      ],
+      "en": [
+        "I don't feel like it",
+        "I can't be bothered"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 700,
+      "note": "Lust haben auf + Akk = feel like",
+      "example_de": "Ich habe keine Lust auf Mathe.",
+      "example_en": "I can't be bothered with maths."
+    },
+    {
+      "id": "d-phr-0065",
+      "de": "Hast du Lust?",
+      "de_alt": [
+        "Hast du Bock?"
+      ],
+      "en": [
+        "do you feel like it",
+        "do you fancy it",
+        "are you up for it"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1000,
+      "note": "Bock = very casual",
+      "example_de": "Hast du Lust, ins Kino zu gehen?",
+      "example_en": "Do you fancy going to the cinema?"
+    },
+    {
+      "id": "d-phr-0066",
+      "de": "Ich habe Hunger.",
+      "de_alt": [],
+      "en": [
+        "I'm hungry"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A1",
+      "rank": 800,
+      "example_de": "Ich habe Hunger, lass uns was essen.",
+      "example_en": "I'm hungry, let's eat something."
+    },
+    {
+      "id": "d-phr-0067",
+      "de": "Ich habe Durst.",
+      "de_alt": [],
+      "en": [
+        "I'm thirsty"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A1",
+      "rank": 1300,
+      "example_de": "Ich habe Durst. Hast du Wasser?",
+      "example_en": "I'm thirsty. Have you got water?"
+    },
+    {
+      "id": "d-phr-0068",
+      "de": "Mir ist langweilig.",
+      "de_alt": [],
+      "en": [
+        "I'm bored"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 1500,
+      "note": "not \"Ich bin langweilig\" (= I am boring)!",
+      "example_de": "Mir ist so langweilig!",
+      "example_en": "I'm so bored!"
+    },
+    {
+      "id": "d-phr-0069",
+      "de": "Ich bin müde.",
+      "de_alt": [],
+      "en": [
+        "I'm tired"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A1",
+      "rank": 1000,
+      "example_de": "Ich bin müde, ich gehe schlafen.",
+      "example_en": "I'm tired, I'm going to bed."
+    },
+    {
+      "id": "d-phr-0070",
+      "de": "Was ist los?",
+      "de_alt": [
+        "Was ist passiert?"
+      ],
+      "en": [
+        "what's wrong",
+        "what's up",
+        "what's going on"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 500,
+      "example_de": "Du bist so still. Was ist los?",
+      "example_en": "You're so quiet. What's wrong?"
+    },
+    {
+      "id": "d-phr-0071",
+      "de": "Was geht?",
+      "de_alt": [
+        "Was geht ab?"
+      ],
+      "en": [
+        "what's up"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1800,
+      "note": "very casual, teen slang",
+      "example_de": "Hey, was geht?",
+      "example_en": "Hey, what's up?"
+    },
+    {
+      "id": "d-phr-0072",
+      "de": "Was machst du?",
+      "de_alt": [],
+      "en": [
+        "what are you doing",
+        "what do you do"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 700,
+      "example_de": "Was machst du heute Nachmittag?",
+      "example_en": "What are you doing this afternoon?"
+    },
+    {
+      "id": "d-phr-0073",
+      "de": "Hast du Zeit?",
+      "de_alt": [],
+      "en": [
+        "are you free",
+        "do you have time"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 800,
+      "example_de": "Hast du morgen Zeit?",
+      "example_en": "Are you free tomorrow?"
+    },
+    {
+      "id": "d-phr-0074",
+      "de": "Wollen wir …?",
+      "de_alt": [
+        "Sollen wir …?"
+      ],
+      "en": [
+        "shall we …",
+        "do you want to …"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 900,
+      "example_de": "Wollen wir zusammen lernen?",
+      "example_en": "Shall we study together?"
+    },
+    {
+      "id": "d-phr-0075",
+      "de": "Lass uns …",
+      "de_alt": [
+        "Lasst uns …"
+      ],
+      "en": [
+        "let's …"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 800,
+      "note": "Lasst uns = to a group",
+      "example_de": "Lass uns nach der Schule chillen.",
+      "example_en": "Let's chill after school."
+    },
+    {
+      "id": "d-phr-0076",
+      "de": "Gute Idee!",
+      "de_alt": [],
+      "en": [
+        "good idea"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1200,
+      "example_de": "Pizza bestellen? Gute Idee!",
+      "example_en": "Order pizza? Good idea!"
+    },
+    {
+      "id": "d-phr-0077",
+      "de": "Ich komme mit.",
+      "de_alt": [],
+      "en": [
+        "I'm coming along",
+        "I'll come with you"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1300,
+      "example_de": "Ihr geht ins Freibad? Ich komme mit!",
+      "example_en": "You're going to the pool? I'm coming too!"
+    },
+    {
+      "id": "d-phr-0078",
+      "de": "Ich kann leider nicht.",
+      "de_alt": [],
+      "en": [
+        "unfortunately I can't",
+        "sorry, I can't"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Samstag? Ich kann leider nicht.",
+      "example_en": "Saturday? Sorry, I can't."
+    },
+    {
+      "id": "d-phr-0079",
+      "de": "Wo treffen wir uns?",
+      "de_alt": [],
+      "en": [
+        "where are we meeting",
+        "where shall we meet"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 2000,
+      "example_de": "Wo treffen wir uns morgen?",
+      "example_en": "Where are we meeting tomorrow?"
+    },
+    {
+      "id": "d-phr-0080",
+      "de": "Ich bin gleich da.",
+      "de_alt": [
+        "Bin gleich da."
+      ],
+      "en": [
+        "I'll be there in a minute",
+        "I'm almost there"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Ich bin gleich da, warte kurz!",
+      "example_en": "I'll be there in a minute, hang on!"
+    },
+    {
+      "id": "d-phr-0081",
+      "de": "Ich bin spät dran.",
+      "de_alt": [],
+      "en": [
+        "I'm running late"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 2500,
+      "example_de": "Sorry, ich bin spät dran!",
+      "example_en": "Sorry, I'm running late!"
+    },
+    {
+      "id": "d-phr-0082",
+      "de": "Schreib mir!",
+      "de_alt": [
+        "Schreib mir einfach."
+      ],
+      "en": [
+        "text me",
+        "message me"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A1",
+      "rank": 2000,
+      "example_de": "Schreib mir, wenn du zu Hause bist.",
+      "example_en": "Text me when you're home."
+    },
+    {
+      "id": "d-phr-0083",
+      "de": "Ich melde mich.",
+      "de_alt": [
+        "Ich melde mich später."
+      ],
+      "en": [
+        "I'll get in touch",
+        "I'll let you know"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 2500,
+      "note": "sich melden = get in touch",
+      "example_de": "Ich melde mich heute Abend.",
+      "example_en": "I'll get back to you tonight."
+    },
+    {
+      "id": "d-phr-0084",
+      "de": "Kein Stress.",
+      "de_alt": [
+        "Kein Stress!"
+      ],
+      "en": [
+        "no stress",
+        "no pressure",
+        "no rush"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Antworte, wenn du Zeit hast. Kein Stress.",
+      "example_en": "Reply when you have time. No rush."
+    },
+    {
+      "id": "d-phr-0085",
+      "de": "Hab dich lieb!",
+      "de_alt": [
+        "HDL"
+      ],
+      "en": [
+        "love you"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 3000,
+      "note": "HDL = common abbreviation in chats; for friends and family",
+      "example_de": "Gute Nacht, hab dich lieb!",
+      "example_en": "Good night, love you!"
+    },
+    {
+      "id": "d-phr-0086",
+      "de": "LG",
+      "de_alt": [
+        "Liebe Grüße"
+      ],
+      "en": [
+        "best wishes",
+        "love",
+        "regards"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 3000,
+      "note": "end of message; Liebe Grüße = full form",
+      "example_de": "Bis dann, LG Anna",
+      "example_en": "See you then, love Anna"
+    },
+    {
+      "id": "d-phr-0087",
+      "de": "Voll gut!",
+      "de_alt": [
+        "Echt gut!"
+      ],
+      "en": [
+        "really good",
+        "so good"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 2500,
+      "note": "colloquial",
+      "example_de": "Das Konzert war voll gut!",
+      "example_en": "The concert was so good!"
+    },
+    {
+      "id": "d-phr-0088",
+      "de": "Mir ist schlecht.",
+      "de_alt": [],
+      "en": [
+        "I feel sick",
+        "I feel ill"
+      ],
+      "pos": "phrase",
+      "topic": "health",
+      "level": "A1",
+      "rank": 2000,
+      "note": "same pattern: Mir ist kalt = I am cold",
+      "example_de": "Mir ist schlecht, ich muss nach Hause.",
+      "example_en": "I feel sick, I have to go home."
+    },
+    {
+      "id": "d-phr-0089",
+      "de": "Krass!",
+      "de_alt": [],
+      "en": [
+        "wow",
+        "crazy",
+        "insane"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "B1",
+      "rank": 2500,
+      "note": "colloquial, positive or negative",
+      "example_de": "Du hast eine Eins? Krass!",
+      "example_en": "You got an A? Wow!"
+    },
+    {
+      "id": "d-phr-0090",
+      "de": "Na und?",
+      "de_alt": [],
+      "en": [
+        "so what"
+      ],
+      "pos": "phrase",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Ich habe verloren. Na und?",
+      "example_en": "I lost. So what?"
+    },
+    {
+      "id": "d-phr-0091",
+      "de": "Ach so!",
+      "de_alt": [],
+      "en": [
+        "oh I see",
+        "oh right"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 900,
+      "example_de": "Ach so, jetzt verstehe ich es.",
+      "example_en": "Oh I see, now I get it."
+    },
+    {
+      "id": "d-phr-0092",
+      "de": "Oh nein!",
+      "de_alt": [],
+      "en": [
+        "oh no"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Oh nein, ich habe den Bus verpasst!",
+      "example_en": "Oh no, I missed the bus!"
+    },
+    {
+      "id": "d-phr-0093",
+      "de": "Zum Glück!",
+      "de_alt": [],
+      "en": [
+        "luckily",
+        "thank goodness"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Zum Glück war die Arbeit einfach.",
+      "example_en": "Luckily the test was easy."
+    },
+    {
+      "id": "d-phr-0094",
+      "de": "Viel zu tun.",
+      "de_alt": [
+        "Ich habe viel zu tun."
+      ],
+      "en": [
+        "a lot to do",
+        "I'm busy"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 2500,
+      "example_de": "Sorry, ich habe gerade viel zu tun.",
+      "example_en": "Sorry, I'm really busy right now."
+    },
+    {
+      "id": "d-phr-0095",
+      "de": "Wie spät ist es?",
+      "de_alt": [
+        "Wie viel Uhr ist es?"
+      ],
+      "en": [
+        "what time is it"
+      ],
+      "pos": "phrase",
+      "topic": "time",
+      "level": "A1",
+      "rank": 900,
+      "example_de": "Wie spät ist es? – Halb drei.",
+      "example_en": "What time is it? – Half past two."
+    },
+    {
+      "id": "d-phr-0096",
+      "de": "Was kostet das?",
+      "de_alt": [
+        "Wie viel kostet das?"
+      ],
+      "en": [
+        "how much is it",
+        "how much does it cost"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 900,
+      "example_de": "Entschuldigung, was kostet das?",
+      "example_en": "Excuse me, how much is this?"
+    },
+    {
+      "id": "d-phr-0097",
+      "de": "Ich muss los.",
+      "de_alt": [
+        "Ich muss gehen."
+      ],
+      "en": [
+        "I have to go",
+        "I've got to go"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1000,
+      "example_de": "Oh, schon sechs! Ich muss los.",
+      "example_en": "Oh, it's six already! I have to go."
+    },
+    {
+      "id": "d-phr-0098",
+      "de": "Kommst du mit?",
+      "de_alt": [],
+      "en": [
+        "are you coming",
+        "are you coming along"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1300,
+      "example_de": "Wir gehen Eis essen. Kommst du mit?",
+      "example_en": "We're going for ice cream. Are you coming?"
+    },
+    {
+      "id": "d-phr-0099",
+      "de": "Das macht Spaß.",
+      "de_alt": [
+        "Macht Spaß!"
+      ],
+      "en": [
+        "that's fun",
+        "it's fun"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A1",
+      "rank": 800,
+      "example_de": "Klettern macht total Spaß!",
+      "example_en": "Climbing is so much fun!"
+    },
+    {
+      "id": "d-phr-0100",
+      "de": "Ich freue mich darauf.",
+      "de_alt": [
+        "Ich freu mich drauf!"
+      ],
+      "en": [
+        "I'm looking forward to it"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Die Party am Samstag? Ich freue mich darauf!",
+      "example_en": "The party on Saturday? I'm looking forward to it!"
+    },
+    {
+      "id": "d-phr-0101",
+      "de": "Keine Sorge.",
+      "de_alt": [
+        "Mach dir keine Sorgen."
+      ],
+      "en": [
+        "don't worry",
+        "no worries"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Keine Sorge, das schaffst du!",
+      "example_en": "Don't worry, you'll manage!"
+    },
+    {
+      "id": "d-phr-0102",
+      "de": "Das geht nicht.",
+      "de_alt": [
+        "Geht nicht."
+      ],
+      "en": [
+        "that's not possible",
+        "that doesn't work",
+        "I can't"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1200,
+      "example_de": "Freitag geht nicht, ich habe Training.",
+      "example_en": "Friday doesn't work, I have training."
+    }
+  ]
+}

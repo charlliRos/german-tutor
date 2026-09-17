@@ -1,0 +1,1161 @@
+{
+  "id": "rilke-briefe-an-einen-jungen-dichter",
+  "title": "Briefe an einen jungen Dichter",
+  "author": "Rainer Maria Rilke",
+  "author_died": 1926,
+  "year": 1929,
+  "level": "B2",
+  "source": "https://www.lernhelfer.de/sites/default/files/lexicon/pdf/BWS-DEU2-0519-08.pdf (full text), cross-checked against https://www.rilke.de/briefe/170203.htm, https://www.rilke.de/briefe/050403.htm, https://www.rilke.de/briefe/230403.htm, https://www.lieder.net/lieder/get_text.html?TextId=454997 and the Diogenes edition sample https://www.diogenes.ch/dam/jcr:f80b9fb0-ea05-4c00-9694-e085a34d284f/978-3-257-07368-3.pdf",
+  "orthography": "modernised to current German spelling (dass, muss, Missverständnisse, wusste, gewiss, jedes Mal, ...); wording unchanged; Rilke's own hyphenated 'Kunst-Werk' kept",
+  "intro_en": "Rainer Maria Rilke (1875–1926) is one of the most famous poets in the German language. Between 1903 and 1908 he wrote ten letters to Franz Xaver Kappus, a 19-year-old military cadet who had sent him his poems and asked whether they were any good; they were published in 1929. Rilke's advice – look inside yourself, be patient, don't chase other people's approval – is still loved by young people all over the world. Be aware that Rilke writes in a formal, poetic style from around 1900, so the notes point out which words and phrases you can still use today and which you can't. This book covers Letter 1, Letter 2 and the first half of Letter 3.",
+  "units": [
+    {
+      "n": 1,
+      "de": "Paris, am 17. Februar 1903\nSehr geehrter Herr,\nIhr Brief hat mich erst vor einigen Tagen erreicht. Ich will Ihnen danken für sein großes und liebes Vertrauen. Ich kann kaum mehr. Ich kann nicht auf die Art Ihrer Verse eingehen; denn mir liegt jede kritische Absicht zu fern.",
+      "en": "Paris, 17 February 1903\nDear Sir,\nYour letter reached me only a few days ago. I want to thank you for its great and kind trust. I can hardly do more. I cannot go into the nature of your poems, for any intention to criticise is too foreign to me.",
+      "explain_en": "LETTER 1 starts here (Paris, 17 February 1903). The young cadet Franz Xaver Kappus had sent Rilke his poems. 'Sehr geehrter Herr' is still how you start a formal letter or email today ('Sehr geehrte Frau Müller'). Rilke always uses the polite 'Sie/Ihnen/Ihr' – with capitals. 'Erst vor einigen Tagen' = only a few days ago. 'Auf etwas eingehen' (to go into / respond to something) is common in modern formal German: 'Ich gehe gleich auf Ihre Frage ein.' 'Mir liegt ... fern' (it's far from my mind) is formal and a bit old-fashioned.",
+      "words": [
+        {
+          "de": "der Brief, die Briefe",
+          "en": "letter"
+        },
+        {
+          "de": "erreichen",
+          "en": "to reach"
+        },
+        {
+          "de": "danken",
+          "en": "to thank",
+          "note": "+ dative: Ich danke Ihnen."
+        },
+        {
+          "de": "das Vertrauen",
+          "en": "trust"
+        },
+        {
+          "de": "der Vers, die Verse",
+          "en": "line of poetry; (pl.) poems"
+        },
+        {
+          "de": "die Absicht, die Absichten",
+          "en": "intention"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "de": "Mit nichts kann man ein Kunst-Werk so wenig berühren als mit kritischen Worten: es kommt dabei immer auf mehr oder minder glückliche Missverständnisse heraus. Die Dinge sind alle nicht so fassbar und sagbar, als man uns meistens glauben machen möchte; die meisten Ereignisse sind unsagbar, vollziehen sich in einem Raume, den nie ein Wort betreten hat, und unsagbarer als alle sind die Kunst-Werke, geheimnisvolle Existenzen, deren Leben neben dem unseren, das vergeht, dauert.",
+      "en": "Nothing touches a work of art as little as critical words do: they always end up as more or less fortunate misunderstandings. Things are not all as graspable and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all of them are works of art, mysterious existences whose life lasts on beside ours, which passes away.",
+      "explain_en": "Rilke's main idea: art can't really be explained or judged with words. He writes 'Kunst-Werk' with a hyphen – today it's always 'das Kunstwerk'. 'So wenig ... als' is old; modern German uses 'wie' after 'so' ('so groß wie'). 'Mehr oder minder' = 'mehr oder weniger' (more or less) – 'minder' is old-fashioned. 'Es kommt auf ... heraus' = it ends up as (today: 'Es läuft auf ... hinaus'). 'In einem Raume' – the extra -e in the dative is old; today: 'in einem Raum'. 'Unsagbar' (unsayable) is poetic; everyday: 'unbeschreiblich'.",
+      "words": [
+        {
+          "de": "das Kunstwerk, die Kunstwerke",
+          "en": "work of art",
+          "note": "Rilke writes 'Kunst-Werk'"
+        },
+        {
+          "de": "berühren",
+          "en": "to touch"
+        },
+        {
+          "de": "das Missverständnis, die Missverständnisse",
+          "en": "misunderstanding"
+        },
+        {
+          "de": "das Ereignis, die Ereignisse",
+          "en": "event"
+        },
+        {
+          "de": "geheimnisvoll",
+          "en": "mysterious"
+        },
+        {
+          "de": "dauern",
+          "en": "to last, to take (time)"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "de": "Wenn ich diese Notiz vorausschicke, darf ich Ihnen nur noch sagen, dass Ihre Verse keine eigene Art haben, wohl aber stille und verdeckte Ansätze zu Persönlichem. Am deutlichsten fühle ich das in dem letzten Gedicht „Meine Seele“. Da will etwas Eigenes zu Wort und Weise kommen. Und in dem schönen Gedicht „An Leopardi“ wächst vielleicht eine Art Verwandtschaft mit diesem Großen, Einsamen auf.",
+      "en": "Having said this first, I may only tell you that your poems have no style of their own, though they do have quiet, hidden beginnings of something personal. I feel this most clearly in the last poem, 'My Soul'. There, something of your own wants to find its words and its tune. And in the lovely poem 'To Leopardi' a kind of kinship with that great, solitary man is perhaps growing.",
+      "explain_en": "Rilke is honest but kind: the poems aren't original yet, but they show promise. 'Vorausschicken' = to say something first, as an introduction. 'Wohl aber' = 'but certainly' – a formal way to contrast. 'Etwas Eigenes' and 'zu Persönlichem' – adjectives used as nouns after 'etwas', 'nichts' or 'zu' get a capital letter ('etwas Neues', 'nichts Besonderes' – very common today!). Leopardi was a lonely 19th-century Italian poet. 'Zu Wort kommen' (to get a chance to speak) is a modern idiom; 'und Weise' (and tune) is Rilke's poetic addition.",
+      "words": [
+        {
+          "de": "die Notiz, die Notizen",
+          "en": "note, remark"
+        },
+        {
+          "de": "das Gedicht, die Gedichte",
+          "en": "poem"
+        },
+        {
+          "de": "deutlich",
+          "en": "clear, clearly"
+        },
+        {
+          "de": "die Seele, die Seelen",
+          "en": "soul"
+        },
+        {
+          "de": "etwas Eigenes",
+          "en": "something of your own"
+        },
+        {
+          "de": "die Verwandtschaft",
+          "en": "kinship; relatives"
+        },
+        {
+          "de": "einsam",
+          "en": "lonely, solitary"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "de": "Trotzdem sind die Gedichte noch nichts für sich, nichts Selbständiges, auch das letzte und das an Leopardi nicht. Ihr gütiger Brief, der sie begleitet hat, verfehlt nicht, mir manchen Mangel zu erklären, den ich im Lesen Ihrer Verse fühlte, ohne ihn indessen namentlich nennen zu können.",
+      "en": "Even so, the poems are not yet anything in their own right, nothing independent, not even the last one and the one to Leopardi. Your kind letter that came with them does not fail to explain to me several shortcomings that I sensed while reading your poems, though without being able to name them exactly.",
+      "explain_en": "'Trotzdem' (nevertheless, still) is one of the most useful words in German – the verb comes straight after it: 'Trotzdem sind die Gedichte...'. 'Selbständig' is spelled 'selbstständig' today too (independent). 'Gütig' (kind) is old-fashioned; today 'freundlich' or 'nett'. 'Verfehlt nicht, ... zu erklären' = does not fail to explain – very formal. 'Indessen' is old for 'jedoch' (however). 'Namentlich nennen' = to name specifically.",
+      "words": [
+        {
+          "de": "trotzdem",
+          "en": "nevertheless, still, anyway"
+        },
+        {
+          "de": "selbstständig",
+          "en": "independent",
+          "note": "Rilke: selbständig – both spellings are allowed"
+        },
+        {
+          "de": "gütig",
+          "en": "kind",
+          "note": "old-fashioned; today: freundlich, nett"
+        },
+        {
+          "de": "begleiten",
+          "en": "to accompany"
+        },
+        {
+          "de": "der Mangel, die Mängel",
+          "en": "flaw, shortcoming; lack"
+        },
+        {
+          "de": "erklären",
+          "en": "to explain"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "de": "Sie fragen, ob Ihre Verse gut sind. Sie fragen mich. Sie haben vorher andere gefragt. Sie senden sie an Zeitschriften. Sie vergleichen sie mit anderen Gedichten, und Sie beunruhigen sich, wenn gewisse Redaktionen Ihre Versuche ablehnen. Nun (da Sie mir gestattet haben, Ihnen zu raten) bitte ich Sie, das alles aufzugeben. Sie sehen nach außen, und das vor allem dürften Sie jetzt nicht tun. Niemand kann Ihnen raten und helfen, niemand. Es gibt nur ein einziges Mittel. Gehen Sie in sich.",
+      "en": "You ask whether your poems are good. You ask me. You have asked others before. You send them to magazines. You compare them with other poems, and you get worried when certain editors turn down your attempts. Now (since you have allowed me to advise you) I beg you to give all that up. You are looking outwards, and that, above all, is what you should not do now. Nobody can advise you or help you, nobody. There is only one single way. Go into yourself.",
+      "explain_en": "This is the most famous passage of the book. Notice the short, repeated sentences 'Sie fragen ... Sie fragen mich ...' – simple, clear German you can use yourself. 'Sich beunruhigen' (to worry) – today people say 'sich Sorgen machen'. 'Die Redaktion' = the editors/editorial office, still normal. 'Gestatten' is formal for 'erlauben' (to allow). 'Das dürften Sie nicht tun' – Konjunktiv II of 'dürfen', a polite 'you shouldn't'. 'In sich gehen' = to look inside yourself, reflect – still used.",
+      "words": [
+        {
+          "de": "vergleichen",
+          "en": "to compare"
+        },
+        {
+          "de": "die Zeitschrift, die Zeitschriften",
+          "en": "magazine"
+        },
+        {
+          "de": "ablehnen",
+          "en": "to reject, to turn down"
+        },
+        {
+          "de": "raten",
+          "en": "to advise; to guess",
+          "note": "+ dative: Ich rate dir, ..."
+        },
+        {
+          "de": "aufgeben",
+          "en": "to give up"
+        },
+        {
+          "de": "niemand",
+          "en": "nobody"
+        },
+        {
+          "de": "das Mittel, die Mittel",
+          "en": "means, way; remedy"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Erforschen Sie den Grund, der Sie schreiben heißt; prüfen Sie, ob er in der tiefsten Stelle Ihres Herzens seine Wurzeln ausstreckt, gestehen Sie sich ein, ob Sie sterben müssten, wenn es Ihnen versagt würde zu schreiben. Dieses vor allem: fragen Sie sich in der stillsten Stunde Ihrer Nacht: muss ich schreiben? Graben Sie in sich nach einer tiefen Antwort.",
+      "en": "Explore the reason that bids you write; test whether it stretches its roots into the deepest place of your heart; admit to yourself whether you would have to die if you were forbidden to write. This above all: ask yourself in the quietest hour of your night: must I write? Dig inside yourself for a deep answer.",
+      "explain_en": "Lots of polite commands (Sie-form): 'Erforschen Sie', 'prüfen Sie', 'fragen Sie sich' – the verb comes first, then 'Sie'. 'Der Grund, der Sie schreiben heißt' uses an old meaning of 'heißen' = 'to tell someone to do something'; today 'heißen' means 'to be called' – say 'der Grund, der Sie zum Schreiben bringt'. 'Sich etwas eingestehen' (to admit something to yourself) is still used. 'Versagen' here = to deny someone something; today it usually means 'to fail': 'Ich habe in der Prüfung versagt.'",
+      "words": [
+        {
+          "de": "der Grund, die Gründe",
+          "en": "reason"
+        },
+        {
+          "de": "prüfen",
+          "en": "to check, to test",
+          "note": "die Prüfung = exam"
+        },
+        {
+          "de": "das Herz, die Herzen",
+          "en": "heart"
+        },
+        {
+          "de": "die Wurzel, die Wurzeln",
+          "en": "root"
+        },
+        {
+          "de": "sich eingestehen",
+          "en": "to admit to yourself"
+        },
+        {
+          "de": "graben",
+          "en": "to dig"
+        },
+        {
+          "de": "die Antwort, die Antworten",
+          "en": "answer"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "de": "Und wenn diese zustimmend lauten sollte, wenn Sie mit einem starken und einfachen „Ich muss“ dieser ernsten Frage begegnen dürfen, dann bauen Sie Ihr Leben nach dieser Notwendigkeit; Ihr Leben bis hinein in seine gleichgültigste und geringste Stunde muss ein Zeichen und Zeugnis werden diesem Drange. Dann nähern Sie sich der Natur. Dann versuchen Sie, wie ein erster Mensch, zu sagen, was Sie sehen und erleben und lieben und verlieren.",
+      "en": "And if the answer should be yes, if you can meet this serious question with a strong and simple 'I must', then build your life according to this necessity; your life, right down to its most indifferent and unimportant hour, must become a sign and a witness of this urge. Then come close to nature. Then try, like the very first human being, to say what you see and experience and love and lose.",
+      "explain_en": "'Wenn diese zustimmend lauten sollte' = if it should turn out to be yes – 'sollte' makes the condition more careful. 'Einer Frage begegnen' (to face a question) takes the dative. 'Ein Zeichen ... werden diesem Drange' – the dative after the verb is poetic word order; normal German: 'ein Zeichen dieses Drangs werden'. 'Der Drang' = urge ('Ich habe den Drang, ...'). 'Gleichgültig' = indifferent: 'Das ist mir gleichgültig' (everyday: 'egal'). 'Sich nähern' + dative = to approach.",
+      "words": [
+        {
+          "de": "die Notwendigkeit, die Notwendigkeiten",
+          "en": "necessity"
+        },
+        {
+          "de": "gleichgültig",
+          "en": "indifferent",
+          "note": "everyday: egal"
+        },
+        {
+          "de": "das Zeichen, die Zeichen",
+          "en": "sign"
+        },
+        {
+          "de": "die Natur",
+          "en": "nature"
+        },
+        {
+          "de": "erleben",
+          "en": "to experience"
+        },
+        {
+          "de": "verlieren",
+          "en": "to lose"
+        },
+        {
+          "de": "versuchen",
+          "en": "to try"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "de": "Schreiben Sie nicht Liebesgedichte; weichen Sie zuerst denjenigen Formen aus, die zu geläufig und gewöhnlich sind: sie sind die schwersten, denn es gehört eine große, ausgereifte Kraft dazu, Eigenes zu geben, wo sich gute und zum Teil glänzende Überlieferungen in Menge einstellen. Darum retten Sie sich vor den allgemeinen Motiven zu denen, die Ihnen Ihr eigener Alltag bietet; schildern Sie Ihre Traurigkeiten und Wünsche, die vorübergehenden Gedanken und den Glauben an irgendeine Schönheit – schildern Sie das alles mit inniger, stiller, demütiger Aufrichtigkeit und gebrauchen Sie, um sich auszudrücken, die Dinge Ihrer Umgebung, die Bilder Ihrer Träume und die Gegenstände Ihrer Erinnerung.",
+      "en": "Don't write love poems; at first avoid those forms that are too familiar and ordinary: they are the hardest, because it takes a great, mature strength to give something of your own where good and in part brilliant traditions offer themselves in abundance. So rescue yourself from the general themes and turn to those that your own everyday life offers you; describe your sadnesses and wishes, passing thoughts and your belief in some kind of beauty – describe all this with heartfelt, quiet, humble sincerity, and to express yourself, use the things around you, the images from your dreams and the objects of your memory.",
+      "explain_en": "Great advice for any writer: write about your own life, not clichés. 'Ausweichen' + dative = to avoid ('Er weicht meiner Frage aus'). 'Es gehört ... Kraft dazu' = it takes strength – common today: 'Dazu gehört Mut' (that takes courage). 'In Menge' (in abundance) is old; today: 'jede Menge'. 'Retten Sie sich vor ... zu denen' is compressed: 'save yourself from the general themes (by escaping) to those...'. 'Der Alltag' (everyday life) is an everyday word itself. 'Schildern' = to describe, still used in school essays.",
+      "words": [
+        {
+          "de": "ausweichen",
+          "en": "to avoid, to dodge",
+          "note": "+ dative"
+        },
+        {
+          "de": "gewöhnlich",
+          "en": "ordinary, usual"
+        },
+        {
+          "de": "die Kraft, die Kräfte",
+          "en": "strength, power"
+        },
+        {
+          "de": "der Alltag",
+          "en": "everyday life"
+        },
+        {
+          "de": "schildern",
+          "en": "to describe"
+        },
+        {
+          "de": "die Aufrichtigkeit",
+          "en": "sincerity"
+        },
+        {
+          "de": "die Umgebung",
+          "en": "surroundings"
+        },
+        {
+          "de": "die Erinnerung, die Erinnerungen",
+          "en": "memory"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Wenn Ihr Alltag Ihnen arm scheint, klagen Sie ihn nicht an; klagen Sie sich an, sagen Sie sich, dass Sie nicht Dichter genug sind, seine Reichtümer zu rufen; denn für den Schaffenden gibt es keine Armut und keinen armen, gleichgültigen Ort. Und wenn Sie selbst in einem Gefängnis wären, dessen Wände keines von den Geräuschen der Welt zu Ihren Sinnen kommen ließen – hätten Sie dann nicht immer noch Ihre Kindheit, diesen köstlichen, königlichen Reichtum, dieses Schatzhaus der Erinnerungen? Wenden Sie dorthin Ihre Aufmerksamkeit.",
+      "en": "If your everyday life seems poor to you, don't blame it; blame yourself, tell yourself that you are not poet enough to call up its riches; for to the creative person there is no poverty and no poor, indifferent place. And even if you were in a prison whose walls let none of the sounds of the world reach your senses – wouldn't you still have your childhood, that precious, royal wealth, that treasure house of memories? Turn your attention there.",
+      "explain_en": "'Jemanden anklagen' = to accuse someone (in court: 'angeklagt werden'); here 'klagen Sie sich an' = blame yourself. 'Nicht Dichter genug' – 'genug' comes after the word ('alt genug'). 'Der Schaffende' = the creative person (from 'schaffen', to create) – old-fashioned; today: 'der Künstler'. 'Wenn Sie selbst in einem Gefängnis wären ... hätten Sie' – Konjunktiv II for an imagined situation ('selbst' here = even). 'Köstlich' today mostly means 'delicious' or 'hilarious'; Rilke means 'precious'.",
+      "words": [
+        {
+          "de": "arm",
+          "en": "poor"
+        },
+        {
+          "de": "anklagen",
+          "en": "to accuse, to blame"
+        },
+        {
+          "de": "der Reichtum, die Reichtümer",
+          "en": "wealth, riches"
+        },
+        {
+          "de": "das Gefängnis, die Gefängnisse",
+          "en": "prison"
+        },
+        {
+          "de": "das Geräusch, die Geräusche",
+          "en": "sound, noise"
+        },
+        {
+          "de": "die Kindheit",
+          "en": "childhood"
+        },
+        {
+          "de": "die Aufmerksamkeit",
+          "en": "attention"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "de": "Versuchen Sie die versunkenen Sensationen dieser weiten Vergangenheit zu heben; Ihre Persönlichkeit wird sich festigen, Ihre Einsamkeit wird sich erweitern und wird eine dämmernde Wohnung werden, daran der Lärm der anderen fern vorüber geht. – Und wenn aus dieser Wendung nach innen, aus dieser Versenkung in die eigene Welt Verse kommen, dann werden Sie nicht daran denken, jemanden zu fragen, ob es gute Verse sind. Sie werden auch nicht den Versuch machen, Zeitschriften für diese Arbeiten zu interessieren: denn Sie werden in ihnen Ihren lieben natürlichen Besitz, ein Stück und eine Stimme Ihres Lebens sehen.",
+      "en": "Try to raise the sunken sensations of that distant past; your personality will grow firmer, your solitude will widen and become a twilit dwelling that the noise of other people passes by far away. – And if poems come out of this turning inwards, this sinking into your own world, then you won't think of asking anyone whether they are good poems. Nor will you try to interest magazines in this work: for you will see in it your dear, natural possession, a piece and a voice of your life.",
+      "explain_en": "'Die Sensation' here means 'sensation, feeling' (from French); today it usually means 'a sensation, something spectacular'. 'Daran der Lärm ... vorüber geht' – 'daran' as a relative pronoun is very old; modern German: 'an der der Lärm vorbeigeht'. 'Die Wohnung' (flat, apartment) is an everyday word, used poetically here. 'Jemanden für etwas interessieren' = to get someone interested in something. 'Der Lärm' (noise) is very common.",
+      "words": [
+        {
+          "de": "die Vergangenheit",
+          "en": "the past"
+        },
+        {
+          "de": "die Persönlichkeit, die Persönlichkeiten",
+          "en": "personality"
+        },
+        {
+          "de": "die Einsamkeit",
+          "en": "loneliness, solitude"
+        },
+        {
+          "de": "der Lärm",
+          "en": "noise"
+        },
+        {
+          "de": "die Wohnung, die Wohnungen",
+          "en": "flat, apartment; dwelling"
+        },
+        {
+          "de": "der Besitz",
+          "en": "possession, property"
+        },
+        {
+          "de": "die Stimme, die Stimmen",
+          "en": "voice"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "de": "Ein Kunst-Werk ist gut, wenn es aus Notwendigkeit entstand. In dieser Art seines Ursprungs liegt sein Urteil: es gibt kein anderes. Darum, sehr geehrter Herr, wusste ich Ihnen keinen Rat als diesen: in sich zu gehen und die Tiefen zu prüfen, in denen Ihr Leben entspringt; an seiner Quelle werden Sie die Antwort auf die Frage finden, ob Sie schaffen müssen. Nehmen Sie sie, wie sie klingt, an, ohne daran zu deuten. Vielleicht erweist es sich, dass Sie berufen sind, Künstler zu sein.",
+      "en": "A work of art is good if it came into being out of necessity. Its judgement lies in the way it came about: there is no other. That is why, dear Sir, I knew no advice for you but this: to go into yourself and examine the depths from which your life springs; at its source you will find the answer to the question whether you must create. Accept it as it sounds, without reading anything into it. Perhaps it will turn out that you are called to be an artist.",
+      "explain_en": "'Entstehen' (to come into being, to arise) is very useful: 'Wie ist das Problem entstanden?' 'Der Ursprung' = origin, 'das Urteil' = judgement (also a court verdict). 'Keinen Rat als diesen' – today 'keinen anderen Rat als diesen'. 'Nehmen Sie sie, wie sie klingt, an' – the separable verb 'annehmen' (to accept) with a long gap before 'an'. 'An etwas deuten' is old; today 'etwas deuten/interpretieren'. 'Es erweist sich' = it turns out; everyday: 'Es stellt sich heraus, dass...'. 'Berufen sein' = to have a calling (der Beruf = job comes from the same idea!).",
+      "words": [
+        {
+          "de": "entstehen",
+          "en": "to arise, to come into being"
+        },
+        {
+          "de": "das Urteil, die Urteile",
+          "en": "judgement, verdict"
+        },
+        {
+          "de": "der Rat",
+          "en": "advice",
+          "note": "plural: die Ratschläge"
+        },
+        {
+          "de": "die Quelle, die Quellen",
+          "en": "source, spring"
+        },
+        {
+          "de": "annehmen",
+          "en": "to accept; to assume"
+        },
+        {
+          "de": "der Künstler, die Künstler",
+          "en": "artist"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Dann nehmen Sie das Los auf sich, und tragen Sie es, seine Last und seine Größe, ohne je nach dem Lohne zu fragen, der von außen kommen könnte. Denn der Schaffende muss eine Welt für sich sein und alles in sich finden und in der Natur, an die er sich angeschlossen hat. Vielleicht aber müssen Sie auch nach diesem Abstieg in sich und in Ihr Einsames darauf verzichten, ein Dichter zu werden (es genügt, wie gesagt, zu fühlen, dass man, ohne zu schreiben, leben könnte, um es überhaupt nicht zu dürfen).",
+      "en": "Then take that fate upon yourself and carry it, its burden and its greatness, without ever asking about the reward that might come from outside. For the creative person must be a world of his own and find everything within himself and in nature, to which he has joined himself. But perhaps, even after this descent into yourself and into your solitude, you will have to give up becoming a poet (as I said, it is enough to feel that you could live without writing for you not to be allowed to write at all).",
+      "explain_en": "'Das Los' = fate, lot (today also a lottery ticket: 'ein Los kaufen'). 'Die Last' = burden, still common. 'Nach dem Lohne' – old dative -e; today 'nach dem Lohn', and 'der Lohn' today mostly means wages. 'Auf etwas verzichten' (to do without something) is very useful: 'Ich verzichte auf Zucker.' The bracket is tricky: if you could live without writing, then you shouldn't write at all. 'Wie gesagt' (as I said) is super common in everyday speech.",
+      "words": [
+        {
+          "de": "das Los, die Lose",
+          "en": "fate; lottery ticket"
+        },
+        {
+          "de": "die Last, die Lasten",
+          "en": "burden, load"
+        },
+        {
+          "de": "der Lohn, die Löhne",
+          "en": "reward; wage"
+        },
+        {
+          "de": "verzichten auf",
+          "en": "to do without, to give up"
+        },
+        {
+          "de": "der Dichter, die Dichter",
+          "en": "poet, writer"
+        },
+        {
+          "de": "wie gesagt",
+          "en": "as I said"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "de": "Aber auch dann ist diese Einkehr, um die ich Sie bitte, nicht vergebens gewesen. Ihr Leben wird auf jeden Fall von da ab eigene Wege finden, und dass es gute, reiche und weite sein mögen, das wünsche ich Ihnen mehr, als ich sagen kann.",
+      "en": "But even then this turning inwards that I am asking of you will not have been in vain. Your life will in any case find its own paths from then on, and that they may be good, rich and wide ones is what I wish for you more than I can say.",
+      "explain_en": "'Die Einkehr' = reflection, turning inwards (literary; 'in sich gehen' is more common). 'Vergebens' is old-fashioned for 'vergeblich' or 'umsonst' (in vain). 'Auf jeden Fall' (in any case, definitely) is extremely common in modern speech: 'Ich komme auf jeden Fall!' 'Von da ab' – today 'von da an' (from then on). 'Dass es ... sein mögen' – 'mögen' in a wish is old; today: 'Ich wünsche Ihnen, dass es gute Wege sind.'",
+      "words": [
+        {
+          "de": "vergebens",
+          "en": "in vain",
+          "note": "old-fashioned; today: vergeblich, umsonst"
+        },
+        {
+          "de": "auf jeden Fall",
+          "en": "in any case, definitely"
+        },
+        {
+          "de": "der Weg, die Wege",
+          "en": "way, path"
+        },
+        {
+          "de": "wünschen",
+          "en": "to wish"
+        },
+        {
+          "de": "reich",
+          "en": "rich"
+        },
+        {
+          "de": "weit",
+          "en": "wide; far"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "de": "Was soll ich Ihnen noch sagen? Mir scheint alles betont nach seinem Recht; und schließlich wollte ich Ihnen ja auch nur raten, still und ernst durch Ihre Entwicklung durchzuwachsen; Sie können sie gar nicht heftiger stören, als wenn Sie nach außen sehen und von außen Antwort erwarten auf Fragen, die nur Ihr innerstes Gefühl in Ihrer leisesten Stunde vielleicht beantworten kann.",
+      "en": "What else should I tell you? Everything seems to me to have been given the weight it deserves; and after all I only wanted to advise you to grow quietly and seriously through your development; you could not disturb it more violently than by looking outwards and expecting answers from outside to questions that perhaps only your innermost feeling can answer in your quietest hour.",
+      "explain_en": "'Was soll ich Ihnen noch sagen?' is normal modern German. 'Mir scheint alles betont nach seinem Recht' is very compressed and old-fashioned: 'I think everything has been stressed as much as it deserves.' 'Schließlich' = after all, in the end – very common. 'Ja' in 'wollte ich ... ja auch nur' is a little filler word (modal particle) meaning 'after all' – Germans use it constantly. 'Nicht heftiger ... als wenn' = not more ... than if. 'Stören' (to disturb) is everyday: 'Störe ich?'",
+      "words": [
+        {
+          "de": "schließlich",
+          "en": "after all; finally"
+        },
+        {
+          "de": "die Entwicklung, die Entwicklungen",
+          "en": "development"
+        },
+        {
+          "de": "stören",
+          "en": "to disturb"
+        },
+        {
+          "de": "erwarten",
+          "en": "to expect"
+        },
+        {
+          "de": "das Gefühl, die Gefühle",
+          "en": "feeling"
+        },
+        {
+          "de": "beantworten",
+          "en": "to answer",
+          "note": "+ accusative: eine Frage beantworten; but: auf eine Frage antworten"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "de": "Es war mir eine Freude, in Ihrem Schreiben den Namen des Herrn Professor Horaček zu finden; ich bewahre diesem liebenswürdigen Gelehrten eine große Verehrung und eine durch die Jahre dauernde Dankbarkeit. Wollen Sie ihm, bitte, von dieser meiner Empfindung sagen; es ist sehr gütig, dass er meiner noch gedenkt, und ich weiß es zu schätzen. Die Verse, welche Sie mir freundlich vertrauen kamen, gebe ich Ihnen gleichzeitig wieder zurück.",
+      "en": "It was a pleasure for me to find the name of Professor Horaček in your letter; I keep a great respect for that kind scholar and a gratitude that has lasted through the years. Would you please tell him of this feeling of mine; it is very kind of him to still remember me, and I appreciate it. The poems that you kindly entrusted to me I am returning to you at the same time.",
+      "explain_en": "Horaček was a chaplain and teacher at the military school where both Rilke and Kappus had been pupils. 'Es war mir eine Freude' = It was a pleasure – still used in polite speech. 'Wollen Sie ihm, bitte, ... sagen' is a very polite old request; today: 'Könnten Sie ihm bitte sagen ...'. 'Meiner gedenken' (to remember me, with genitive) is very old; today 'sich an mich erinnern'. 'Etwas zu schätzen wissen' (to appreciate) is common today: 'Ich weiß das zu schätzen!' 'Vertrauen kamen' is an unusual Rilke construction meaning 'came to entrust'; today: 'anvertraut haben'.",
+      "words": [
+        {
+          "de": "die Freude, die Freuden",
+          "en": "joy, pleasure"
+        },
+        {
+          "de": "der/die Gelehrte, die Gelehrten",
+          "en": "scholar"
+        },
+        {
+          "de": "die Dankbarkeit",
+          "en": "gratitude"
+        },
+        {
+          "de": "gedenken",
+          "en": "to remember, to commemorate",
+          "note": "very formal, + genitive; today: sich erinnern an"
+        },
+        {
+          "de": "etwas zu schätzen wissen",
+          "en": "to appreciate something"
+        },
+        {
+          "de": "zurückgeben",
+          "en": "to give back"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "de": "Und ich danke Ihnen nochmals für die Größe und Herzlichkeit Ihres Vertrauens, dessen ich mich durch diese aufrichtige, nach bestem Wissen gegebene Antwort ein wenig würdiger zu machen suchte, als ich es, als ein Fremder, wirklich bin.\nMit aller Ergebenheit und Teilnahme\nRainer Maria Rilke",
+      "en": "And I thank you once again for the greatness and warmth of your trust, of which I have tried to make myself a little more worthy, through this sincere answer given to the best of my knowledge, than I, as a stranger, really am.\nWith all devotion and sympathy,\nRainer Maria Rilke",
+      "explain_en": "End of LETTER 1. 'Nochmals' = once again (today also 'noch einmal'). 'Nach bestem Wissen' (to the best of my knowledge) is still used in official forms: 'nach bestem Wissen und Gewissen'. 'Dessen ... würdiger zu machen suchte' – 'würdig' + genitive (worthy of) is formal, and 'suchte ... zu machen' = 'tried to make' is old (today: 'versuchte'). The closing 'Mit aller Ergebenheit' (with all devotion) is very old-fashioned – today write 'Mit freundlichen Grüßen' in formal letters or 'Viele Grüße' to people you know.",
+      "words": [
+        {
+          "de": "nochmals",
+          "en": "once again"
+        },
+        {
+          "de": "die Größe",
+          "en": "size; greatness"
+        },
+        {
+          "de": "die Herzlichkeit",
+          "en": "warmth, cordiality",
+          "note": "herzlich = warm: 'Herzlichen Glückwunsch!'"
+        },
+        {
+          "de": "aufrichtig",
+          "en": "sincere"
+        },
+        {
+          "de": "würdig",
+          "en": "worthy"
+        },
+        {
+          "de": "der/die Fremde, die Fremden",
+          "en": "stranger"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "de": "Viareggio bei Pisa (Italien), am 5. April 1903\nSie müssen es mir verzeihen, lieber und geehrter Herr, dass ich Ihres Briefes vom 24. Februar erst heute dankbar gedenke: ich war die ganze Zeit leidend, nicht gerade krank, aber von einer influenzaartigen Mattigkeit bedrückt, die mich unfähig machte zu allem. Und schließlich, als es gar nicht anders werden wollte, fuhr ich an dieses südliche Meer, dessen Wohltun mir schon einmal geholfen hat. Aber ich bin noch nicht gesund, das Schreiben fällt mir schwer, und so müssen Sie diese wenigen Zeilen nehmen für mehr.",
+      "en": "Viareggio near Pisa (Italy), 5 April 1903\nYou must forgive me, dear and respected Sir, for only today gratefully remembering your letter of 24 February: I was unwell the whole time, not exactly ill, but weighed down by a flu-like exhaustion that made me incapable of anything. And in the end, when things just wouldn't get better, I went to this southern sea, whose healing effect has helped me once before. But I am not well yet, writing is hard for me, and so you must take these few lines for more.",
+      "explain_en": "LETTER 2 starts here (Viareggio, Italy, 5 April 1903). Rilke apologises for replying late. 'Jemandem etwas verzeihen' (to forgive someone for something) is still normal: 'Verzeih mir!' 'Ihres Briefes gedenken' (genitive) is very old; today: 'auf Ihren Brief antworten'. 'Leidend' (ailing) is old; say 'angeschlagen' or 'nicht fit'. 'Nicht gerade krank' = not exactly ill – useful. 'Die Mattigkeit' (weariness) → today 'die Müdigkeit'. 'Das Schreiben fällt mir schwer' = I find writing hard – very common pattern: 'Mathe fällt mir schwer.'",
+      "words": [
+        {
+          "de": "verzeihen",
+          "en": "to forgive"
+        },
+        {
+          "de": "krank",
+          "en": "ill, sick"
+        },
+        {
+          "de": "unfähig",
+          "en": "incapable, unable"
+        },
+        {
+          "de": "das Meer, die Meere",
+          "en": "sea"
+        },
+        {
+          "de": "gesund",
+          "en": "healthy, well"
+        },
+        {
+          "de": "schwerfallen",
+          "en": "to be hard (for someone)",
+          "note": "Das fällt mir schwer."
+        },
+        {
+          "de": "die Zeile, die Zeilen",
+          "en": "line (of text)"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "de": "Natürlich müssen Sie wissen, dass Sie mich mit jedem Briefe immer erfreuen werden, und nur nachsichtig sein gegen die Antwort, die Sie vielleicht oft mit leeren Händen lassen wird; denn im Grunde, und gerade in den tiefsten und wichtigsten Dingen, sind wir namenlos allein, und damit einer dem andern raten oder gar helfen kann, muss viel geschehen, viel muss gelingen, eine ganze Konstellation von Dingen muss eintreffen, damit es einmal glückt.",
+      "en": "Of course you must know that you will always please me with every letter, and you must just be patient with the reply, which may often leave you empty-handed; for at bottom, and precisely in the deepest and most important things, we are unspeakably alone, and for one person to be able to advise or even help another, a lot must happen, a lot must go right, a whole constellation of things must come together for it to work out even once.",
+      "explain_en": "'Nachsichtig sein' = to be patient/forgiving with someone's faults. 'Mit leeren Händen' (empty-handed) is a normal idiom today. 'Im Grunde' (basically) is super common: 'Im Grunde hast du recht.' 'Namenlos allein' – 'namenlos' literally means 'nameless'; Rilke uses it for 'indescribably'. 'Damit' = so that (a conjunction, verb goes to the end). 'Glücken' (to work out) is old-fashioned; today 'klappen' or 'gelingen': 'Hat es geklappt?'",
+      "words": [
+        {
+          "de": "natürlich",
+          "en": "of course; natural"
+        },
+        {
+          "de": "nachsichtig",
+          "en": "patient, forgiving (towards faults)"
+        },
+        {
+          "de": "leer",
+          "en": "empty"
+        },
+        {
+          "de": "im Grunde",
+          "en": "basically, at heart"
+        },
+        {
+          "de": "allein",
+          "en": "alone"
+        },
+        {
+          "de": "helfen",
+          "en": "to help",
+          "note": "+ dative: Ich helfe dir."
+        },
+        {
+          "de": "gelingen",
+          "en": "to succeed, to work out",
+          "note": "Es ist mir gelungen. – everyday: klappen"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "de": "Ich wollte Ihnen heute nur noch zwei Dinge sagen: Ironie: Lassen Sie sich nicht von ihr beherrschen, besonders nicht in unschöpferischen Momenten. In schöpferischen versuchen Sie es, sich ihrer zu bedienen, als eines Mittels mehr, das Leben zu fassen. Rein gebraucht, ist sie auch rein, und man muss sich ihrer nicht schämen; und fühlen Sie sich ihr zu vertraut, fürchten Sie die wachsende Vertraulichkeit mit ihr, dann wenden Sie sich an große und ernste Gegenstände, vor denen sie klein und hilflos wird.",
+      "en": "I only wanted to tell you two more things today: Irony: don't let yourself be ruled by it, especially not in uncreative moments. In creative ones, try to make use of it as one more means of grasping life. Used purely, it is pure too, and you needn't be ashamed of it; and if you feel too familiar with it, if you are afraid of your growing closeness to it, then turn to great and serious subjects, in front of which it becomes small and helpless.",
+      "explain_en": "'Sich beherrschen lassen' = to let yourself be controlled ('Lass dich nicht von deiner Angst beherrschen'). 'Sich einer Sache bedienen' (genitive) = to make use of something – very formal; today 'etwas benutzen'. Same with 'sich ihrer schämen' – today 'sich für sie schämen'. 'Fühlen Sie sich ihr zu vertraut, ... dann' = 'if you feel ...' – verb-first condition, no 'wenn'. 'Sich an jemanden wenden' (to turn to someone) is common: 'Wenden Sie sich bitte an die Rezeption.'",
+      "words": [
+        {
+          "de": "die Ironie",
+          "en": "irony"
+        },
+        {
+          "de": "besonders",
+          "en": "especially"
+        },
+        {
+          "de": "der Moment, die Momente",
+          "en": "moment"
+        },
+        {
+          "de": "sich schämen",
+          "en": "to be ashamed",
+          "note": "today: sich für etwas schämen"
+        },
+        {
+          "de": "vertraut",
+          "en": "familiar"
+        },
+        {
+          "de": "sich wenden an",
+          "en": "to turn to (someone/something)"
+        },
+        {
+          "de": "hilflos",
+          "en": "helpless"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Suchen Sie die Tiefe der Dinge: dort steigt Ironie nie hinab – und wenn Sie so an den Rand des Großen führen, erproben Sie gleichzeitig, ob diese Auffassungsart einer Notwendigkeit Ihres Wesens entspringt. Denn unter dem Einfluss ernster Dinge wird sie entweder von Ihnen abfallen (wenn sie etwas Zufälliges ist), oder aber sie wird (so sie wirklich eingeboren Ihnen zugehört) erstarken zu einem ernsten Werkzeug und sich einordnen in die Reihe der Mittel, mit denen Sie Ihre Kunst werden bilden müssen.",
+      "en": "Seek the depths of things: irony never goes down there – and when you lead it like this to the edge of greatness, test at the same time whether this way of seeing things springs from a necessity of your nature. For under the influence of serious things it will either fall away from you (if it is something accidental), or else (if it truly belongs to you as something inborn) it will grow strong into a serious tool and take its place among the means with which you will have to shape your art.",
+      "explain_en": "'Hinabsteigen' (to climb down) is literary; today 'hinuntergehen'. 'Die Auffassungsart' = way of seeing things; today 'die Sichtweise'. 'Einer Notwendigkeit entspringen' = to spring from a necessity. 'So sie ... zugehört' – 'so' meaning 'if' is very old; don't copy that. 'Entweder ... oder' (either ... or) is essential modern German. 'Mit denen Sie Ihre Kunst werden bilden müssen' – future tense with a modal verb: 'werden' moves before the double infinitive in a subordinate clause – tricky and formal.",
+      "words": [
+        {
+          "de": "die Tiefe, die Tiefen",
+          "en": "depth"
+        },
+        {
+          "de": "der Rand, die Ränder",
+          "en": "edge"
+        },
+        {
+          "de": "gleichzeitig",
+          "en": "at the same time"
+        },
+        {
+          "de": "der Einfluss, die Einflüsse",
+          "en": "influence"
+        },
+        {
+          "de": "entweder ... oder",
+          "en": "either ... or"
+        },
+        {
+          "de": "zufällig",
+          "en": "by chance, accidental"
+        },
+        {
+          "de": "das Werkzeug, die Werkzeuge",
+          "en": "tool"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "de": "Und das zweite, was ich Ihnen heute erzählen wollte, ist dieses: Von allen meinen Büchern sind mir nur wenige unentbehrlich, und zwei sind sogar immer unter meinen Dingen, wo ich auch bin. Sie sind auch hier um mich: die Bibel, und die Bücher des großen dänischen Dichters Jens Peter Jacobsen. Es fällt mir ein, ob Sie seine Werke kennen. Sie können sich dieselben leicht verschaffen, denn ein Teil derselben ist in Reclams Universal-Bibliothek in sehr guter Übertragung erschienen.",
+      "en": "And the second thing I wanted to tell you today is this: of all my books only a few are indispensable to me, and two are even always among my things, wherever I am. They are here with me too: the Bible, and the books of the great Danish writer Jens Peter Jacobsen. I wonder whether you know his works. You can easily get hold of them, because some of them have come out in Reclam's Universal Library in a very good translation.",
+      "explain_en": "'Unentbehrlich' = indispensable ('Mein Handy ist unentbehrlich'). 'Wo ich auch bin' = wherever I am (today: 'wo auch immer ich bin'). 'Es fällt mir ein, ob' is unusual – normally 'Mir fällt ein, dass ...' means 'it occurs to me that ...'; Rilke means 'I wonder whether'. 'Dieselben/derselben' used for 'them/of them' is stiff and old-fashioned; just say 'sie'. 'Sich etwas verschaffen' = to get hold of something (today: 'besorgen'). Reclam books – little yellow paperbacks – are still used in German schools today!",
+      "words": [
+        {
+          "de": "das Buch, die Bücher",
+          "en": "book"
+        },
+        {
+          "de": "unentbehrlich",
+          "en": "indispensable"
+        },
+        {
+          "de": "die Bibel, die Bibeln",
+          "en": "Bible"
+        },
+        {
+          "de": "das Werk, die Werke",
+          "en": "work (of art/literature)"
+        },
+        {
+          "de": "einfallen",
+          "en": "to occur to, to come to mind",
+          "note": "Mir fällt nichts ein. = I can't think of anything."
+        },
+        {
+          "de": "die Übertragung, die Übertragungen",
+          "en": "translation; broadcast",
+          "note": "today 'translation' = die Übersetzung"
+        },
+        {
+          "de": "erscheinen",
+          "en": "to be published; to appear"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "de": "Verschaffen Sie sich das Bändchen „Sechs Novellen“ von J. P. Jacobsen und seinen Roman „Niels Lyhne“, und beginnen Sie des ersten Bändchens erste Novelle, welche „Mogens“ heißt. Eine Welt wird über Sie kommen, das Glück, der Reichtum, die unbegreifliche Größe einer Welt. Leben Sie eine Weile in diesen Büchern, lernen Sie davon, was Ihnen lernenswert scheint, aber vor allem lieben Sie sie.",
+      "en": "Get hold of the little volume 'Six Stories' by J. P. Jacobsen and his novel 'Niels Lyhne', and start with the first story in the first volume, which is called 'Mogens'. A whole world will come over you, the happiness, the richness, the incomprehensible greatness of a world. Live in these books for a while, learn from them whatever seems worth learning to you, but above all love them.",
+      "explain_en": "'Das Bändchen' = little volume (der Band = volume; das Band = ribbon; die Band = music band!). 'Des ersten Bändchens erste Novelle' – genitive placed before the noun, poetic; normal: 'die erste Novelle des ersten Bändchens'. 'Die Novelle' is a novella/long short story, not a 'novel' (= 'der Roman') – a classic false friend. 'Welche „Mogens“ heißt' – 'welche' as a relative pronoun is formal; today 'die'. 'Unbegreiflich' = incomprehensible. 'Eine Weile' = a while, everyday.",
+      "words": [
+        {
+          "de": "der Band, die Bände",
+          "en": "volume (book)",
+          "note": "das Band = ribbon; die Band = music group"
+        },
+        {
+          "de": "der Roman, die Romane",
+          "en": "novel",
+          "note": "false friend: die Novelle = novella"
+        },
+        {
+          "de": "beginnen",
+          "en": "to begin"
+        },
+        {
+          "de": "das Glück",
+          "en": "happiness; luck"
+        },
+        {
+          "de": "eine Weile",
+          "en": "a while"
+        },
+        {
+          "de": "lernen",
+          "en": "to learn"
+        },
+        {
+          "de": "vor allem",
+          "en": "above all"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "de": "Diese Liebe wird Ihnen tausend- und tausendmal vergolten werden, und wie Ihr Leben auch werden mag, – sie wird, ich bin dessen gewiss, durch das Gewebe Ihres Werdens gehen als einer von den wichtigsten Fäden unter allen Fäden Ihrer Erfahrungen, Enttäuschungen und Freuden.",
+      "en": "This love will be repaid to you a thousand and a thousand times, and whatever your life may become – it will, I am sure of it, run through the fabric of your growing up as one of the most important threads among all the threads of your experiences, disappointments and joys.",
+      "explain_en": "'Vergelten' (to repay) is old-fashioned; today 'belohnen' ('Vergelt's Gott' = 'thank you' is still said in Bavaria and Austria). 'Wie Ihr Leben auch werden mag' = however your life turns out; today 'egal, wie Ihr Leben wird'. 'Ich bin dessen gewiss' (genitive) = I'm sure of it – old; say 'Ich bin mir sicher'. 'Das Gewebe' = fabric, tissue. 'Das Werden' = becoming, growing. 'Die Enttäuschung' (disappointment) is a very common modern word – and it doesn't mean 'deception'!",
+      "words": [
+        {
+          "de": "die Liebe",
+          "en": "love"
+        },
+        {
+          "de": "gewiss",
+          "en": "certain, sure",
+          "note": "old-fashioned; today: sicher"
+        },
+        {
+          "de": "wichtig",
+          "en": "important"
+        },
+        {
+          "de": "der Faden, die Fäden",
+          "en": "thread"
+        },
+        {
+          "de": "die Erfahrung, die Erfahrungen",
+          "en": "experience"
+        },
+        {
+          "de": "die Enttäuschung, die Enttäuschungen",
+          "en": "disappointment"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "de": "Wenn ich sagen soll, von wem ich etwas über das Wesen des Schaffens, über seine Tiefe und Ewigkeit erfuhr, so sind es nur zwei Namen, die ich nennen kann: den Jacobsens, des großen, großen Dichters, und den Auguste Rodins, des Bildhauers, der seinesgleichen nicht hat unter allen Künstlern, die heute leben. –\nUnd alles Gelingen über Ihre Wege!\nIhr Rainer Maria Rilke",
+      "en": "If I am to say from whom I have learned something about the nature of creating, about its depth and eternity, there are only two names I can give: Jacobsen's, the great, great poet's, and Auguste Rodin's, the sculptor who has no equal among all the artists living today. –\nAnd every success on your paths!\nYours, Rainer Maria Rilke",
+      "explain_en": "End of LETTER 2. Rilke had worked as the sculptor Rodin's secretary in Paris, so this is personal. 'Wenn ich sagen soll' = if I have to say. 'Das Wesen' here = the essence/nature of something. 'Den Jacobsens' is short for 'den Namen Jacobsens' (Jacobsen's name), an old genitive construction. 'Seinesgleichen nicht haben' = to have no equal – still used in 'Das sucht seinesgleichen' (that's unmatched). 'Und alles Gelingen über Ihre Wege!' is an old poetic blessing; today you'd write 'Alles Gute und viel Erfolg!'",
+      "words": [
+        {
+          "de": "der Name, die Namen",
+          "en": "name"
+        },
+        {
+          "de": "nennen",
+          "en": "to name, to call"
+        },
+        {
+          "de": "das Wesen, die Wesen",
+          "en": "nature, essence; creature"
+        },
+        {
+          "de": "die Ewigkeit",
+          "en": "eternity; (colloq.) ages"
+        },
+        {
+          "de": "der Bildhauer, die Bildhauer",
+          "en": "sculptor"
+        },
+        {
+          "de": "das Gelingen",
+          "en": "success",
+          "note": "today: der Erfolg – 'Viel Erfolg!'"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "de": "Viareggio bei Pisa (Italien), am 23. April 1903\nSie haben mir, lieber und geehrter Herr, mit Ihrem österlichen Briefe viel Freude gemacht; denn er sagte viel Gutes von Ihnen, und die Art, wie Sie über Jacobsens große und liebe Kunst sprachen, zeigte mir, dass ich nicht geirrt habe, als ich Ihr Leben und seine vielen Fragen an diese Fülle führte. Nun wird sich Ihnen „Niels Lyhne“ auftun, ein Buch der Herrlichkeiten und der Tiefen; je öfter man es liest: es scheint alles darin zu sein von des Lebens allerleisestem Dufte bis zu dem vollen, großen Geschmack seiner schwersten Früchte.",
+      "en": "Viareggio near Pisa (Italy), 23 April 1903\nYou gave me a great deal of pleasure, dear and respected Sir, with your Easter letter; for it said many good things about you, and the way you spoke about Jacobsen's great and lovable art showed me that I was not wrong when I led your life and its many questions to this abundance. Now 'Niels Lyhne' will open up to you, a book of splendours and of depths; the more often you read it: everything seems to be in it, from life's faintest fragrance to the full, rich taste of its heaviest fruits.",
+      "explain_en": "LETTER 3 starts here (Viareggio, 23 April 1903). 'Jemandem Freude machen' = to make someone happy – very common: 'Damit hast du mir eine Freude gemacht.' 'Österlich' = Easter (adjective; Ostern = Easter). 'Sich irren' (to be wrong) – 'ich habe mich geirrt' is standard today; 'ich habe geirrt' without 'mich' is old. 'Je öfter man es liest' = the more often you read it – Rilke never finishes it with the usual 'desto ...'. 'Allerleisest' = the very faintest ('aller-' makes a superlative stronger: 'allerbeste'). 'Des Lebens ... Dufte' – genitive before the noun + old dative -e, poetic style.",
+      "words": [
+        {
+          "de": "Ostern",
+          "en": "Easter",
+          "note": "österlich = Easter (adj.)"
+        },
+        {
+          "de": "sich irren",
+          "en": "to be wrong, to be mistaken"
+        },
+        {
+          "de": "die Frage, die Fragen",
+          "en": "question"
+        },
+        {
+          "de": "öfter",
+          "en": "more often"
+        },
+        {
+          "de": "der Duft, die Düfte",
+          "en": "scent, fragrance"
+        },
+        {
+          "de": "der Geschmack, die Geschmäcker",
+          "en": "taste"
+        },
+        {
+          "de": "die Frucht, die Früchte",
+          "en": "fruit"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "de": "Da ist nichts, was nicht verstanden, erfasst, erfahren und in des Erinnerns zitterndem Nachklingen erkannt worden wäre; kein Erleben ist zu gering gewesen, und das kleinste Geschehen entfaltet sich wie ein Schicksal, und das Schicksal selbst ist wie ein wunderbares, weites Gewebe, darin jeder Faden von einer unendlich zärtlichen Hand geführt und neben einen anderen gelegt und von hundert anderen gehalten und getragen wird. Sie werden das große Glück erfahren, dieses Buch zum ersten Male zu lesen, und werden durch seine unzähligen Überraschungen gehen wie in einem neuen Traum.",
+      "en": "There is nothing in it that has not been understood, grasped, lived through and recognised in the trembling echo of memory; no experience has been too slight, and the smallest event unfolds like a destiny, and destiny itself is like a wonderful, wide fabric in which every thread is guided by an infinitely tender hand and laid beside another and held and carried by a hundred others. You will have the great happiness of reading this book for the first time, and you will go through its countless surprises as if in a new dream.",
+      "explain_en": "'Da ist nichts, was nicht ... erkannt worden wäre' – Konjunktiv II passive (would have been recognised) after a negative; formal. 'Das Erleben' / 'das Geschehen' are verbs turned into nouns (like 'das Essen', 'das Schreiben'). 'Sich entfalten' = to unfold. 'Darin jeder Faden ...' – 'darin' used for 'in which' is old; today 'in dem'. 'Zum ersten Male' – old dative -e; today 'zum ersten Mal'. 'Unzählig' = countless. 'Die Überraschung' (surprise) is an everyday word.",
+      "words": [
+        {
+          "de": "verstehen",
+          "en": "to understand"
+        },
+        {
+          "de": "das Schicksal, die Schicksale",
+          "en": "fate, destiny"
+        },
+        {
+          "de": "wunderbar",
+          "en": "wonderful"
+        },
+        {
+          "de": "die Hand, die Hände",
+          "en": "hand"
+        },
+        {
+          "de": "zum ersten Mal",
+          "en": "for the first time"
+        },
+        {
+          "de": "die Überraschung, die Überraschungen",
+          "en": "surprise"
+        },
+        {
+          "de": "der Traum, die Träume",
+          "en": "dream"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "de": "Aber ich kann Ihnen sagen, dass man auch später immer wieder als derselbe Staunende durch diese Bücher geht und dass sie nichts von der wunderbaren Macht verlieren und nichts von der Märchenhaftigkeit aufgeben, mit der sie den Lesenden das erste Mal überschütten. Man wird nur immer genießender an ihnen, immer dankbarer, und irgendwie besser und einfacher im Schauen, tiefer im Glauben an das Leben und im Leben seliger und größer.",
+      "en": "But I can tell you that later, too, you go through these books again and again as the same astonished person, and that they lose nothing of their wonderful power and give up nothing of the fairy-tale magic with which they shower the reader the first time. You just take more and more pleasure in them, become more and more grateful, and somehow better and simpler in the way you see, deeper in your faith in life, and happier and greater in life.",
+      "explain_en": "'Immer wieder' (again and again) is essential everyday German. 'Der Staunende' = the astonished one (from 'staunen', to be amazed – 'Da staunst du, was?'). 'Das Märchen' = fairy tale; 'die Märchenhaftigkeit' is a rare noun for 'fairy-tale quality'. 'Immer genießender' is odd even in German – 'genießen' (to enjoy) is common, but say 'Man genießt sie immer mehr'. 'Immer + comparative' = more and more: 'immer dankbarer'. 'Selig' (blissful) is old/religious; today 'glücklich'.",
+      "words": [
+        {
+          "de": "immer wieder",
+          "en": "again and again"
+        },
+        {
+          "de": "staunen",
+          "en": "to be amazed"
+        },
+        {
+          "de": "die Macht, die Mächte",
+          "en": "power"
+        },
+        {
+          "de": "das Märchen, die Märchen",
+          "en": "fairy tale"
+        },
+        {
+          "de": "genießen",
+          "en": "to enjoy"
+        },
+        {
+          "de": "dankbar",
+          "en": "grateful"
+        },
+        {
+          "de": "der Glaube",
+          "en": "belief, faith"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Und später müssen Sie das wunderbare Buch vom Schicksal und Sehnen der Marie Grubbe lesen und Jacobsens Briefe und Tagebuchblätter und Fragmente und endlich seine Verse, die (wenn sie auch nur mäßig übertragen sind) in unendlichem Klingen leben. (Dazu würde ich Ihnen raten, gelegentlich die schöne Gesamtausgabe von Jacobsens Werken – die alles das enthält – zu kaufen. Sie erschien in drei Bänden und gut übertragen bei Eugen Diederichs in Leipzig und kostet, soviel ich glaube, nur fünf oder sechs Mark pro Band.)",
+      "en": "And later you must read the wonderful book about the fate and longing of Marie Grubbe, and Jacobsen's letters and diary pages and fragments and finally his poems, which (even if they are only moderately well translated) live on in endless music. (For this I would advise you to buy, at some point, the beautiful complete edition of Jacobsen's works – which contains all of this. It came out in three volumes, well translated, from Eugen Diederichs in Leipzig and costs, I believe, only five or six marks a volume.)",
+      "explain_en": "'Das Sehnen' (longing) belongs to the same family as 'die Sehnsucht', the everyday word ('Ich habe Sehnsucht nach dir' = I miss you). 'Das Tagebuch' = diary. 'Wenn sie auch nur mäßig übertragen sind' = even if they're only moderately well translated ('wenn auch' = even if). 'Mäßig' = moderate, so-so. 'Gelegentlich' = at some point, occasionally – still common. 'Soviel ich glaube' is unusual; today 'soweit ich weiß' (as far as I know). The Mark was Germany's currency until 2002.",
+      "words": [
+        {
+          "de": "die Sehnsucht, die Sehnsüchte",
+          "en": "longing",
+          "note": "Rilke uses 'das Sehnen'"
+        },
+        {
+          "de": "das Tagebuch, die Tagebücher",
+          "en": "diary"
+        },
+        {
+          "de": "mäßig",
+          "en": "moderate, so-so"
+        },
+        {
+          "de": "gelegentlich",
+          "en": "occasionally, at some point"
+        },
+        {
+          "de": "kaufen",
+          "en": "to buy"
+        },
+        {
+          "de": "enthalten",
+          "en": "to contain"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "de": "Mit Ihrer Meinung über „Hier sollten Rosen stehen...“ (dieses Werk von so unvergleichlicher Feinheit und Form) haben Sie natürlich gegen den, der die Einleitung geschrieben hat, ganz, ganz unantastbar recht. Und es sei hier gleich die Bitte gesagt: Lesen Sie möglichst wenig ästhetisch-kritische Dinge, – es sind entweder Parteiansichten, versteinert und sinnlos geworden in ihrem leblosen Verhärtetsein, oder es sind geschickte Wortspiele, bei denen heute diese Ansicht gewinnt und morgen die entgegengesetzte.",
+      "en": "As for your opinion of 'There Should Have Been Roses...' (that work of such incomparable subtlety and form), you are of course completely, completely and unassailably right against the man who wrote the introduction. And let me make this request right away: read as few works of aesthetic criticism as possible – they are either partisan opinions that have turned to stone and lost their meaning in their lifeless hardness, or clever plays on words in which one view wins today and the opposite one tomorrow.",
+      "explain_en": "'Hier sollten Rosen stehen' is a short piece by Jacobsen. 'Recht haben' (to be right) is essential: 'Du hast recht!' 'Unantastbar' = untouchable – today best known from 'Die Würde des Menschen ist unantastbar', the first line of Germany's constitution. 'Es sei hier gleich die Bitte gesagt' – Konjunktiv I 'sei' as a formal 'let it be said'; today: 'Ich möchte Sie gleich um etwas bitten.' 'Möglichst wenig' = as little as possible – very useful. 'Die Ansicht' = view, opinion ('meiner Ansicht nach' = in my opinion).",
+      "words": [
+        {
+          "de": "die Meinung, die Meinungen",
+          "en": "opinion"
+        },
+        {
+          "de": "recht haben",
+          "en": "to be right"
+        },
+        {
+          "de": "die Einleitung, die Einleitungen",
+          "en": "introduction"
+        },
+        {
+          "de": "die Bitte, die Bitten",
+          "en": "request"
+        },
+        {
+          "de": "möglichst",
+          "en": "as ... as possible",
+          "note": "möglichst schnell = as fast as possible"
+        },
+        {
+          "de": "das Wortspiel, die Wortspiele",
+          "en": "pun, wordplay"
+        },
+        {
+          "de": "die Ansicht, die Ansichten",
+          "en": "view, opinion"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "de": "Kunst-Werke sind von einer unendlichen Einsamkeit und mit nichts so wenig erreichbar als mit Kritik. Nur Liebe kann sie erfassen und halten und kann gerecht sein gegen sie. Geben Sie jedes Mal sich und Ihrem Gefühl recht, jeder solchen Auseinandersetzung, Besprechung oder Einführung gegenüber; sollten Sie doch unrecht haben, so wird das natürliche Wachstum Ihres innern Lebens Sie langsam und mit der Zeit zu anderen Erkenntnissen führen. Lassen Sie Ihren Urteilen die eigene stille, ungestörte Entwicklung, die, wie jeder Fortschritt, tief aus innen kommen muss und durch nichts gedrängt oder beschleunigt werden kann.",
+      "en": "Works of art are infinitely solitary, and nothing can reach them less than criticism. Only love can grasp them and hold them and be fair to them. Each time, take your own side and the side of your feeling against any such discussion, review or introduction; if you should turn out to be wrong after all, the natural growth of your inner life will slowly, with time, lead you to other insights. Allow your judgements their own quiet, undisturbed development, which, like all progress, must come from deep within and cannot be pushed or hurried by anything.",
+      "explain_en": "Key message: trust your own feelings about art more than critics. 'Jemandem recht geben' = to agree someone is right ('Da muss ich dir recht geben'). 'Gerecht sein gegen' is old; today 'jemandem gerecht werden' or 'fair sein'. 'Sollten Sie doch unrecht haben, so ...' = if you should be wrong after all, then ... ('so' here = 'then', old style). 'Die Besprechung' = review (today it also means a meeting at work!). 'Die Erkenntnis' = insight. 'Der Fortschritt' (progress) and 'beschleunigen' (to speed up) are everyday modern words.",
+      "words": [
+        {
+          "de": "die Kritik, die Kritiken",
+          "en": "criticism; review"
+        },
+        {
+          "de": "gerecht",
+          "en": "fair, just"
+        },
+        {
+          "de": "die Besprechung, die Besprechungen",
+          "en": "review; meeting"
+        },
+        {
+          "de": "unrecht haben",
+          "en": "to be wrong"
+        },
+        {
+          "de": "das Wachstum",
+          "en": "growth"
+        },
+        {
+          "de": "die Erkenntnis, die Erkenntnisse",
+          "en": "insight, realisation"
+        },
+        {
+          "de": "der Fortschritt, die Fortschritte",
+          "en": "progress"
+        },
+        {
+          "de": "beschleunigen",
+          "en": "to speed up"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "de": "Alles ist austragen und dann gebären. Jeden Eindruck und jeden Keim eines Gefühls ganz in sich, im Dunkel, im Unsagbaren, Unbewussten, dem eigenen Verstande Unerreichbaren sich vollenden lassen und mit tiefer Demut und Geduld die Stunde der Niederkunft einer neuen Klarheit abwarten: das allein heißt künstlerisch leben: im Verstehen wie im Schaffen.",
+      "en": "Everything is carrying to term and then giving birth. To let every impression and every seed of a feeling come to completion entirely within yourself, in the dark, in the unsayable, the unconscious, in what your own mind cannot reach, and to wait with deep humility and patience for the hour when a new clarity is born: that alone is what living as an artist means: in understanding as in creating.",
+      "explain_en": "Rilke compares creativity to pregnancy: 'austragen' = to carry a baby to full term, 'gebären' = to give birth, 'die Niederkunft' = childbirth (old-fashioned). The long middle sentence has no subject – it's a chain of infinitives ('sich vollenden lassen ... abwarten') used like nouns: 'To let ... and to wait ...: that is ...'. 'Der Verstand' = mind, reason ('Hast du den Verstand verloren?' = Have you lost your mind?). 'Die Geduld' (patience) is the key word – 'Hab Geduld!' 'Abwarten' (to wait and see) is very common: 'Abwarten und Tee trinken!'",
+      "words": [
+        {
+          "de": "der Eindruck, die Eindrücke",
+          "en": "impression"
+        },
+        {
+          "de": "der Keim, die Keime",
+          "en": "seed, germ"
+        },
+        {
+          "de": "das Dunkel",
+          "en": "darkness"
+        },
+        {
+          "de": "der Verstand",
+          "en": "mind, reason"
+        },
+        {
+          "de": "die Demut",
+          "en": "humility"
+        },
+        {
+          "de": "die Geduld",
+          "en": "patience"
+        },
+        {
+          "de": "abwarten",
+          "en": "to wait and see"
+        },
+        {
+          "de": "die Klarheit",
+          "en": "clarity"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "de": "Da gibt es kein Messen mit der Zeit, da gilt kein Jahr, und zehn Jahre sind nichts, Künstler sein heißt: nicht rechnen und zählen; reifen wie der Baum, der seine Säfte nicht drängt und getrost in den Stürmen des Frühlings steht ohne die Angst, dass dahinter kein Sommer kommen könnte. Er kommt doch. Aber er kommt nur zu den Geduldigen, die da sind, als ob die Ewigkeit vor ihnen läge, so sorglos still und weit. Ich lerne es täglich, lerne es unter Schmerzen, denen ich dankbar bin: Geduld ist alles!",
+      "en": "There is no measuring with time there, a year doesn't count, and ten years are nothing. Being an artist means: not calculating and counting; ripening like the tree that doesn't force its sap and stands confidently in the storms of spring without being afraid that no summer might come after them. It does come. But it comes only to the patient, who are there as if eternity lay before them, so carefree, quiet and wide. I learn it every day, learn it through pains I am grateful for: patience is everything!",
+      "explain_en": "The famous ending of this passage: 'Geduld ist alles!' – a phrase you can use today. 'Da gilt kein Jahr' – 'gelten' = to count, to be valid ('Das gilt nicht!' = That doesn't count!). 'Künstler sein heißt' = being an artist means – here 'heißen' = 'to mean' (like 'das heißt' = that means, 'd. h.'). 'Reifen' (to ripen) – compare 'reif' (ripe, mature). 'Getrost' (confidently) is old-fashioned. 'Als ob die Ewigkeit vor ihnen läge' – 'als ob' + Konjunktiv II (as if). 'Er kommt doch' – 'doch' contradicts the fear: 'But it DOES come.'",
+      "words": [
+        {
+          "de": "messen",
+          "en": "to measure"
+        },
+        {
+          "de": "gelten",
+          "en": "to count, to be valid",
+          "note": "Das gilt nicht! = That doesn't count!"
+        },
+        {
+          "de": "zählen",
+          "en": "to count"
+        },
+        {
+          "de": "der Baum, die Bäume",
+          "en": "tree"
+        },
+        {
+          "de": "der Sturm, die Stürme",
+          "en": "storm"
+        },
+        {
+          "de": "der Frühling",
+          "en": "spring"
+        },
+        {
+          "de": "als ob",
+          "en": "as if",
+          "note": "+ Konjunktiv II: als ob er krank wäre"
+        },
+        {
+          "de": "täglich",
+          "en": "daily, every day"
+        }
+      ]
+    }
+  ]
+}

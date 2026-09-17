@@ -1,0 +1,1138 @@
+{
+  "id": "roth-hiob",
+  "title": "Hiob. Roman eines einfachen Mannes",
+  "author": "Joseph Roth",
+  "author_died": 1939,
+  "year": 1930,
+  "level": "B1-B2",
+  "source": "https://wolnelektury.pl/media/book/txt/roth-hiob.txt (Wolne Lektury, https://wolnelektury.pl/katalog/lektura/roth-hiob.html); checked against the scanned edition at https://archive.org/details/hiobromaneinesei0000unse",
+  "orthography": "modernised to current German spelling (dass, musste, gewiss, hässlich, zum dritten Mal, ...); wording unchanged",
+  "intro_en": "Joseph Roth (1894–1939) grew up in a Jewish family in Brody, on the eastern edge of the Austro-Hungarian Empire, and became one of the great German-language journalists and novelists. 'Hiob' (Job) retells the Bible story of Job in modern times: Mendel Singer, a poor, devout Jewish teacher in a small town in the Russian Empire, is hit by one blow after another, starting with the illness of his youngest son Menuchim. The sentences are short, rhythmic and almost like a Bible story, which makes the book great for learners – and it's a classic that many German students read at school.",
+  "units": [
+    {
+      "n": 1,
+      "de": "Vor vielen Jahren lebte in Zuchnow ein Mann namens Mendel Singer. Er war fromm, gottesfürchtig und gewöhnlich, ein ganz alltäglicher Jude. Er übte den schlichten Beruf eines Lehrers aus. In seinem Haus, das nur aus einer geräumigen Küche bestand, vermittelte er Kindern die Kenntnis der Bibel. Er lehrte mit ehrlichem Eifer und ohne aufsehenerregenden Erfolg. Hunderttausende vor ihm hatten wie er gelebt und unterrichtet.",
+      "en": "Many years ago there lived in Zuchnow a man called Mendel Singer. He was pious, God-fearing and ordinary, a completely everyday Jew. He practised the simple profession of a teacher. In his house, which consisted of nothing but a roomy kitchen, he taught children to know the Bible. He taught with honest zeal and without any remarkable success. Hundreds of thousands before him had lived and taught just as he did.",
+      "explain_en": "The opening sounds like a fairy tale or the Bible ('Vor vielen Jahren' = 'many years ago'). Zuchnow is a small made-up town in the Russian Empire around 1900, where many Jewish families lived. 'Er übte den Beruf eines Lehrers aus' uses the separable verb ausüben (to practise a job) – the 'aus' jumps to the end. Today you'd just say 'Er war Lehrer.' 'Vermitteln' here means to pass on knowledge; it's still used ('Wissen vermitteln').",
+      "words": [
+        {
+          "de": "fromm",
+          "en": "pious, devout"
+        },
+        {
+          "de": "gewöhnlich",
+          "en": "ordinary, usual"
+        },
+        {
+          "de": "der Beruf, die Berufe",
+          "en": "job, profession"
+        },
+        {
+          "de": "die Küche, die Küchen",
+          "en": "kitchen"
+        },
+        {
+          "de": "der Eifer",
+          "en": "zeal, eagerness"
+        },
+        {
+          "de": "der Erfolg, die Erfolge",
+          "en": "success"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "de": "Unbedeutend wie sein Wesen war sein blasses Gesicht. Ein Vollbart von einem gewöhnlichen Schwarz umrahmte es ganz. Den Mund verdeckte der Bart. Die Augen waren groß, schwarz, träge und halb verhüllt von schweren Lidern. Auf dem Kopf saß eine Mütze aus schwarzem Seidenrips, einem Stoff, aus dem manchmal unmoderne und billige Krawatten gemacht werden. Der Körper steckte im halblangen, landesüblichen jüdischen Kaftan, dessen Schöße flatterten, wenn Mendel Singer durch die Gasse eilte, und die mit hartem, regelmäßigem Flügelschlag an die Schäfte der hohen Lederstiefel pochten.",
+      "en": "His pale face was as unremarkable as his character. A full beard of an ordinary black framed it completely. The beard covered his mouth. His eyes were large, black, sleepy and half hidden by heavy lids. On his head sat a cap of black silk rep, a fabric that cheap, old-fashioned ties are sometimes made of. His body was wrapped in the knee-length Jewish kaftan customary in that region, whose skirts flapped when Mendel Singer hurried through the lane, and beat against the shafts of his tall leather boots like hard, regular wing-beats.",
+      "explain_en": "Roth likes to flip word order for effect: 'Unbedeutend wie sein Wesen war sein blasses Gesicht' puts the description first and the subject (sein Gesicht) last. 'Den Mund verdeckte der Bart' – 'den Mund' is accusative (the object), so the beard covers the mouth, not the other way round: always check the article, not the position! 'Das Wesen' here means 'nature, character'. 'Die Gasse' is a narrow lane, still common in Austria and southern Germany. The coat flaps like wings ('der Flügelschlag' = wing-beat).",
+      "words": [
+        {
+          "de": "das Gesicht, die Gesichter",
+          "en": "face"
+        },
+        {
+          "de": "der Bart, die Bärte",
+          "en": "beard"
+        },
+        {
+          "de": "die Mütze, die Mützen",
+          "en": "cap, woolly hat"
+        },
+        {
+          "de": "der Stoff, die Stoffe",
+          "en": "fabric, material"
+        },
+        {
+          "de": "die Krawatte, die Krawatten",
+          "en": "tie"
+        },
+        {
+          "de": "eilen",
+          "en": "to hurry",
+          "note": "formal; everyday: sich beeilen, rennen"
+        },
+        {
+          "de": "die Gasse, die Gassen",
+          "en": "lane, alley",
+          "note": "common in Austria/south; elsewhere often: die kleine Straße"
+        },
+        {
+          "de": "der Stiefel, die Stiefel",
+          "en": "boot"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "de": "Singer schien wenig Zeit zu haben und lauter dringende Ziele. Gewiss war sein Leben ständig schwer und zuweilen sogar eine Plage. Eine Frau und drei Kinder musste er kleiden und nähren. (Mit einem vierten ging sie schwanger.) Gott hatte seinen Lenden Fruchtbarkeit verliehen, seinem Herzen Gleichmut und seinen Händen Armut. Sie hatten kein Gold zu wägen und keine Banknoten zu zählen. Dennoch rann sein Leben stetig dahin, wie ein kleiner, armer Bach zwischen kärglichen Ufern.",
+      "en": "Singer seemed to have little time and nothing but urgent goals. Certainly his life was always hard and at times even a torment. He had to clothe and feed a wife and three children. (She was pregnant with a fourth.) God had given his loins fertility, his heart calm and his hands poverty. They had no gold to weigh and no banknotes to count. And yet his life flowed steadily on, like a small, poor stream between barren banks.",
+      "explain_en": "'Lauter' here doesn't mean 'louder' – before a noun it means 'nothing but' (lauter dringende Ziele = nothing but urgent goals); you still hear this today ('lauter Unsinn' = total nonsense). 'Zuweilen' is old-fashioned for 'manchmal' (sometimes). 'Die Lenden' (loins) is Bible language for a man's ability to father children. 'Wägen' is an old form of 'wiegen' (to weigh). 'Rann' is the past of 'rinnen' (to trickle) – today you'd say 'floss'. Note the datives: seinen Lenden, seinem Herzen, seinen Händen – God gave something TO each.",
+      "words": [
+        {
+          "de": "dringend",
+          "en": "urgent"
+        },
+        {
+          "de": "die Plage, die Plagen",
+          "en": "torment, nuisance",
+          "note": "today often for something annoying: 'Die Mücken sind eine Plage.'"
+        },
+        {
+          "de": "schwanger",
+          "en": "pregnant"
+        },
+        {
+          "de": "die Armut",
+          "en": "poverty"
+        },
+        {
+          "de": "zählen",
+          "en": "to count"
+        },
+        {
+          "de": "der Bach, die Bäche",
+          "en": "stream, brook"
+        },
+        {
+          "de": "das Ufer, die Ufer",
+          "en": "bank, shore"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "de": "Jeden Morgen dankte Mendel Gott für den Schlaf, für das Erwachen und den anbrechenden Tag. Wenn die Sonne unterging, betete er noch einmal. Wenn die ersten Sterne aufsprühten, betete er zum dritten Mal. Und bevor er sich schlafen legte, flüsterte er ein eiliges Gebet mit müden, aber eifrigen Lippen. Sein Schlaf war traumlos. Sein Gewissen war rein. Seine Seele war keusch. Er brauchte nichts zu bereuen, und nichts gab es, was er begehrt hätte.",
+      "en": "Every morning Mendel thanked God for sleep, for waking up and for the dawning day. When the sun went down, he prayed again. When the first stars sparkled into view, he prayed for the third time. And before he lay down to sleep, he whispered a hurried prayer with tired but eager lips. His sleep was dreamless. His conscience was clear. His soul was chaste. He had nothing to regret, and there was nothing he would have wished for.",
+      "explain_en": "This shows Mendel's simple, regular religious life: prayers in the morning, at sunset and at night. 'Jeden Morgen' is accusative used for time – a pattern you use every day (jeden Tag, jede Woche). 'Sich schlafen legen' = to lie down to sleep; today 'ins Bett gehen' is more common. 'Nichts gab es, was er begehrt hätte' uses Konjunktiv II ('begehrt hätte' = would have desired). 'Begehren' and 'keusch' (chaste) are old-fashioned; today say 'sich wünschen' and 'rein'.",
+      "words": [
+        {
+          "de": "danken",
+          "en": "to thank",
+          "note": "+ dative: Ich danke dir."
+        },
+        {
+          "de": "beten",
+          "en": "to pray"
+        },
+        {
+          "de": "das Gebet, die Gebete",
+          "en": "prayer"
+        },
+        {
+          "de": "flüstern",
+          "en": "to whisper"
+        },
+        {
+          "de": "das Gewissen",
+          "en": "conscience"
+        },
+        {
+          "de": "die Seele, die Seelen",
+          "en": "soul"
+        },
+        {
+          "de": "bereuen",
+          "en": "to regret"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "de": "Er liebte sein Weib und ergötzte sich an ihrem Fleische. Mit gesundem Hunger verzehrte er schnell seine Mahlzeiten. Seine zwei kleinen Söhne, Jonas und Schemarjah, prügelte er wegen Ungehorsams. Aber das Jüngste, die Tochter Mirjam, liebkoste er häufig. Sie hatte sein schwarzes Haar und seine schwarzen, trägen und sanften Augen. Ihre Glieder waren zart, ihre Gelenke zerbrechlich. Eine junge Gazelle.",
+      "en": "He loved his wife and took pleasure in her body. He ate his meals quickly and with a healthy appetite. He beat his two little sons, Jonas and Shemariah, for disobedience. But the youngest, his daughter Miriam, he often cuddled. She had his black hair and his black, sleepy, gentle eyes. Her limbs were delicate, her joints fragile. A young gazelle.",
+      "explain_en": "'Das Weib' was once the normal word for 'woman/wife', but today it's rude or jokey – always say 'die Frau'. 'Sich an etwas ergötzen' (to delight in something) is very old-fashioned; today: 'sich an etwas freuen'. 'Verzehren' is formal for 'essen'. Word order again: 'Seine zwei kleinen Söhne ... prügelte er' – the object comes first for emphasis. Beating children was normal back then; today 'prügeln' (to beat) is forbidden in German families. The last 'sentence' has no verb at all – just an image.",
+      "words": [
+        {
+          "de": "das Weib, die Weiber",
+          "en": "woman, wife",
+          "note": "old; today rude – use: die Frau"
+        },
+        {
+          "de": "die Mahlzeit, die Mahlzeiten",
+          "en": "meal",
+          "note": "'Mahlzeit!' is also a lunchtime greeting at work"
+        },
+        {
+          "de": "der Sohn, die Söhne",
+          "en": "son"
+        },
+        {
+          "de": "die Tochter, die Töchter",
+          "en": "daughter"
+        },
+        {
+          "de": "der Ungehorsam",
+          "en": "disobedience"
+        },
+        {
+          "de": "zart",
+          "en": "delicate, tender"
+        },
+        {
+          "de": "zerbrechlich",
+          "en": "fragile"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Zwölf sechsjährige Schüler unterrichtete er im Lesen und Memorieren der Bibel. Jeder von den zwölf brachte ihm an jedem Freitag zwanzig Kopeken. Sie waren Mendel Singers einzige Einnahmen. Dreißig Jahre war er erst alt. Aber seine Aussichten, mehr zu verdienen, waren gering, vielleicht überhaupt nicht vorhanden. Wurden die Schüler älter, kamen sie zu anderen, weiseren Lehrern. Das Leben verteuerte sich von Jahr zu Jahr. Die Ernten wurden ärmer und ärmer. Die Karotten verringerten sich, die Eier wurden hohl, die Kartoffeln erfroren, die Suppen wässerig, die Karpfen schmal und die Hechte kurz, die Enten mager, die Gänse hart und die Hühner ein Nichts.",
+      "en": "He taught twelve six-year-old pupils to read and memorise the Bible. Each of the twelve brought him twenty kopecks every Friday. That was Mendel Singer's only income. He was only thirty years old. But his chances of earning more were slim, perhaps non-existent. When the pupils got older, they went on to other, wiser teachers. Life got more expensive from year to year. The harvests got poorer and poorer. The carrots shrank, the eggs were hollow, the potatoes froze, the soups were watery, the carp thin and the pike short, the ducks scrawny, the geese tough and the chickens nothing at all.",
+      "explain_en": "Kopecks were small Russian coins, so Mendel is very poor. 'Erst' with a number means 'only' (Dreißig Jahre war er erst alt = he was only thirty) – very common today: 'Ich bin erst 16.' 'Wurden die Schüler älter, kamen sie...' is an 'if/when' sentence without 'wenn': the verb moves to the front instead. 'Sich verteuern' = to get more expensive; today you'd say 'Das Leben wurde teurer.' The long list of food is really Deborah's complaining – see the next unit.",
+      "words": [
+        {
+          "de": "der Schüler, die Schüler",
+          "en": "pupil, student (at school)"
+        },
+        {
+          "de": "verdienen",
+          "en": "to earn"
+        },
+        {
+          "de": "die Einnahme, die Einnahmen",
+          "en": "income, takings"
+        },
+        {
+          "de": "die Ernte, die Ernten",
+          "en": "harvest"
+        },
+        {
+          "de": "die Kartoffel, die Kartoffeln",
+          "en": "potato"
+        },
+        {
+          "de": "das Ei, die Eier",
+          "en": "egg"
+        },
+        {
+          "de": "das Huhn, die Hühner",
+          "en": "chicken"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "de": "Also klangen die Klagen Deborahs, der Frau Mendel Singers. Sie war ein Weib, manchmal ritt sie der Teufel. Sie schielte nach dem Besitz Wohlhabender und neidete Kaufleuten den Gewinn. Viel zu gering war Mendel Singer in ihren Augen. Die Kinder warf sie ihm vor, die Schwangerschaft, die Teuerung, die niedrigen Honorare und oft sogar das schlechte Wetter. Am Freitag scheuerte sie den Fußboden, bis er gelb wurde wie Safran.",
+      "en": "That was how the complaints of Deborah, Mendel Singer's wife, sounded. She was a woman; sometimes the devil got into her. She cast envious looks at the property of the well-off and begrudged the merchants their profits. In her eyes Mendel Singer was far too insignificant. She blamed him for the children, the pregnancy, the rising prices, the low fees and often even the bad weather. On Fridays she scrubbed the floor until it turned as yellow as saffron.",
+      "explain_en": "'Also' at the start is old-fashioned for 'so, in this way'. Careful: in modern German 'also' means 'so/well' ('Also, ich finde...') and NEVER English 'also' (= auch). 'Manchmal ritt sie der Teufel' – 'sie' is the object: the devil 'rode' her, i.e. she got into a nasty mood. 'Jemandem etwas vorwerfen' = to blame someone for something – very useful today: 'Er wirft mir vor, dass ich zu spät komme.' She cleans on Friday to get ready for the Sabbath.",
+      "words": [
+        {
+          "de": "die Klage, die Klagen",
+          "en": "complaint"
+        },
+        {
+          "de": "der Teufel, die Teufel",
+          "en": "devil"
+        },
+        {
+          "de": "neiden",
+          "en": "to envy, begrudge",
+          "note": "old-fashioned; today: neidisch sein auf"
+        },
+        {
+          "de": "jemandem etwas vorwerfen",
+          "en": "to blame someone for something"
+        },
+        {
+          "de": "das Wetter",
+          "en": "weather"
+        },
+        {
+          "de": "der Fußboden, die Fußböden",
+          "en": "floor"
+        },
+        {
+          "de": "scheuern",
+          "en": "to scrub",
+          "note": "today more often: schrubben, putzen"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "de": "Ihre breiten Schultern zuckten auf und nieder im gleichmäßigen Rhythmus, ihre starken Hände rieben kreuz und quer jedes einzelne Brett, und ihre Nägel fuhren in die Sparren und Hohlräume zwischen den Brettern und kratzten schwarzen Unrat hervor, den Sturzwellen aus dem Kübel vollends vernichteten. Wie ein breites, gewaltiges und bewegliches Gebirge kroch sie durch das kahle, blaugetünchte Zimmer. Draußen, vor der Tür, lüfteten sich die Möbel, das braune, hölzerne Bett, die Strohsäcke, ein blankgehobelter Tisch, zwei lange und schmale Bänke, horizontale Bretter, festgenagelt auf je zwei vertikalen.",
+      "en": "Her broad shoulders jerked up and down in a steady rhythm, her strong hands scrubbed every single board crosswise, and her nails dug into the joists and hollows between the boards and scraped out black dirt, which floods of water from the bucket then destroyed completely. Like a broad, mighty, moving mountain range she crawled through the bare, blue-washed room. Outside, in front of the door, the furniture was airing: the brown wooden bed, the straw mattresses, a smoothly planed table, two long narrow benches, horizontal boards each nailed onto two vertical ones.",
+      "explain_en": "Roth describes Deborah like a force of nature: 'wie ein ... Gebirge' (like a mountain range). 'Kreuz und quer' (criss-cross, all over the place) is still very common: 'Wir sind kreuz und quer durch die Stadt gelaufen.' In '..., den Sturzwellen aus dem Kübel vollends vernichteten', 'den' refers to the dirt (object) and 'Sturzwellen' is the subject. 'Der Unrat' is old-fashioned; today: 'der Dreck'. 'Lüften' (to air a room) is an everyday word: 'Mach mal das Fenster auf, wir müssen lüften!'",
+      "words": [
+        {
+          "de": "die Schulter, die Schultern",
+          "en": "shoulder"
+        },
+        {
+          "de": "das Brett, die Bretter",
+          "en": "board, plank"
+        },
+        {
+          "de": "der Nagel, die Nägel",
+          "en": "nail; fingernail"
+        },
+        {
+          "de": "der Kübel, die Kübel",
+          "en": "bucket, tub",
+          "note": "Austrian/southern; standard: der Eimer"
+        },
+        {
+          "de": "die Möbel (Pl.)",
+          "en": "furniture",
+          "note": "usually plural: Wir kaufen neue Möbel."
+        },
+        {
+          "de": "lüften",
+          "en": "to air, to ventilate"
+        },
+        {
+          "de": "die Bank, die Bänke",
+          "en": "bench",
+          "note": "die Bank, die Banken = bank (money)"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Sobald die erste Dämmerung an das Fenster hauchte, zündete Deborah die Kerzen an, in Leuchtern aus Alpaka, schlug die Hände vors Angesicht und betete. Ihr Mann kam nach Hause, in seidigem Schwarz, der Fußboden leuchtete ihm entgegen, gelb wie geschmolzene Sonne, sein Angesicht schimmerte weißer als gewöhnlich, schwärzer als an Wochentagen dunkelte auch sein Bart. Er setzte sich, sang ein Liedchen, dann schlürften die Eltern und die Kinder die heiße Suppe, lächelten den Tellern zu und sprachen kein Wort.",
+      "en": "As soon as the first dusk breathed against the window, Deborah lit the candles in candlesticks of nickel silver, covered her face with her hands and prayed. Her husband came home dressed in silky black; the floor shone up at him, yellow as melted sun; his face gleamed whiter than usual, and his beard, too, looked blacker than on weekdays. He sat down and sang a little song, then parents and children slurped the hot soup, smiled at their plates and didn't say a word.",
+      "explain_en": "This is Friday evening: the Sabbath begins at sunset with candles and a festive meal. 'Anzünden' (to light) is separable: 'zündete ... an'. 'Das Angesicht' is poetic/biblical for 'das Gesicht' – don't use it in normal speech. 'Alpaka' here is not the animal but a cheap silver-coloured metal. 'Vors' = 'vor das'. 'Schlürfen' (to slurp) is a normal modern word. The ending '-chen' in 'Liedchen' makes things small (a little song).",
+      "words": [
+        {
+          "de": "die Dämmerung",
+          "en": "dusk, twilight"
+        },
+        {
+          "de": "die Kerze, die Kerzen",
+          "en": "candle"
+        },
+        {
+          "de": "anzünden",
+          "en": "to light (a candle, fire)"
+        },
+        {
+          "de": "das Angesicht",
+          "en": "face",
+          "note": "poetic; everyday: das Gesicht"
+        },
+        {
+          "de": "der Wochentag, die Wochentage",
+          "en": "weekday"
+        },
+        {
+          "de": "die Suppe, die Suppen",
+          "en": "soup"
+        },
+        {
+          "de": "der Teller, die Teller",
+          "en": "plate"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "de": "Wärme erhob sich im Zimmer. Sie schwärmte aus den Töpfen, den Schüsseln, den Leibern. Die billigen Kerzen in den Leuchtern aus Alpaka hielten es nicht aus, sie begannen sich zu biegen. Auf das ziegelrote, blaukarierte Tischtuch tropfte Stearin und verkrustete im Nu. Man stieß das Fenster auf, die Kerzen ermannten sich und brannten friedlich ihrem Ende zu.",
+      "en": "Warmth rose in the room. It swarmed out of the pots, the bowls, the bodies. The cheap candles in the nickel-silver candlesticks couldn't stand it; they began to bend. Stearin dripped onto the brick-red, blue-checked tablecloth and hardened in no time. Someone flung the window open, the candles pulled themselves together and burned peacefully down to their end.",
+      "explain_en": "Roth brings things to life: the warmth 'swarms', the candles 'can't stand it' and then 'pull themselves together' ('sich ermannen', literally 'to become a man again' – very old; today: 'sich zusammenreißen'). 'Es nicht aushalten' (can't stand it) is very common: 'Ich halte es nicht mehr aus!' 'Im Nu' = in no time, still used. 'Man stieß das Fenster auf' – 'man' is often best translated as 'someone' or with a passive. Stearin is candle wax.",
+      "words": [
+        {
+          "de": "die Wärme",
+          "en": "warmth"
+        },
+        {
+          "de": "der Topf, die Töpfe",
+          "en": "pot"
+        },
+        {
+          "de": "die Schüssel, die Schüsseln",
+          "en": "bowl"
+        },
+        {
+          "de": "billig",
+          "en": "cheap"
+        },
+        {
+          "de": "etwas nicht aushalten",
+          "en": "can't stand something"
+        },
+        {
+          "de": "das Tischtuch, die Tischtücher",
+          "en": "tablecloth"
+        },
+        {
+          "de": "im Nu",
+          "en": "in no time"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "de": "Die Kinder legten sich auf die Strohsäcke in der Nähe des Ofens, die Eltern saßen noch und sahen mit bekümmerter Festlichkeit in die letzten blauen Flämmchen, die gezackt aus den Höhlungen der Leuchter emporschossen und sanft gewellt zurücksanken, ein Wasserspiel aus Feuer. Das Stearin schwelte, blaue, dünne Fäden aus Rauch zogen von den verkohlten Dochtresten aufwärts zur Decke. „Ach!“, seufzte die Frau. „Seufze nicht!“, gemahnte Mendel Singer. Sie schwiegen. „Schlafen wir, Deborah!“, befahl er. Und sie begannen, ein Nachtgebet zu murmeln.",
+      "en": "The children lay down on the straw mattresses near the stove; the parents stayed sitting and gazed, with troubled solemnity, into the last little blue flames, which shot up jaggedly out of the hollows of the candlesticks and sank back in gentle waves – a fountain made of fire. The stearin smouldered; thin blue threads of smoke rose from the charred stubs of wick up to the ceiling. 'Oh!' sighed the woman. 'Don't sigh!' Mendel Singer warned. They fell silent. 'Let's sleep, Deborah!' he ordered. And they began to murmur a night prayer.",
+      "explain_en": "'Seufzen' (to sigh) and the command 'Seufze nicht!' (du-form) are normal today. 'Gemahnte' (from 'gemahnen', to admonish) is very old-fashioned – today: 'ermahnte' or just 'sagte'. 'Schlafen wir!' is a 'let's' form: verb first + 'wir'; today you'd more often say 'Lass uns schlafen gehen!' 'Schweigen' (to be silent) is still common. Notice the sad mood: even the holiday is 'bekümmert' (worried).",
+      "words": [
+        {
+          "de": "der Ofen, die Öfen",
+          "en": "stove, oven"
+        },
+        {
+          "de": "die Flamme, die Flammen",
+          "en": "flame"
+        },
+        {
+          "de": "der Rauch",
+          "en": "smoke"
+        },
+        {
+          "de": "die Decke, die Decken",
+          "en": "ceiling; also: blanket"
+        },
+        {
+          "de": "seufzen",
+          "en": "to sigh"
+        },
+        {
+          "de": "schweigen",
+          "en": "to be silent"
+        },
+        {
+          "de": "murmeln",
+          "en": "to murmur, mumble"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Am Ende jeder Woche brach so der Sabbat an, mit Schweigen, Kerzen und Gesang. Vierundzwanzig Stunden später tauchte er unter in der Nacht, die den grauen Zug der Wochentage anführte, einen Reigen aus Mühsal. An einem heißen Tag im Hochsommer, um die vierte Stunde des Nachmittags, kam Deborah nieder. Ihre ersten Schreie stießen in den Singsang der zwölf lernenden Kinder. Sie gingen alle nach Hause. Sieben Tage Ferien begannen. Mendel bekam ein neues Kind, ein viertes, einen Knaben. Acht Tage später wurde es beschnitten und Menuchim genannt.",
+      "en": "So, at the end of every week, the Sabbath began, with silence, candles and song. Twenty-four hours later it sank into the night that led the grey procession of weekdays, a round dance of toil. On a hot day in high summer, at about four in the afternoon, Deborah gave birth. Her first screams broke into the sing-song of the twelve children at their lessons. They all went home. Seven days of holiday began. Mendel got a new child, a fourth, a boy. Eight days later it was circumcised and named Menuchim.",
+      "explain_en": "'Brach ... an' comes from 'anbrechen' (to begin, used for times: 'Der Tag bricht an'). 'Niederkommen' is an old, polite word for giving birth; today say 'ein Kind bekommen'. 'Der Knabe' is old-fashioned for 'der Junge'. Jewish boys are circumcised ('beschnitten') on the eighth day after birth. 'Die Ferien' is always plural – very useful: 'In den Ferien fahre ich weg.'",
+      "words": [
+        {
+          "de": "der Sabbat",
+          "en": "Sabbath"
+        },
+        {
+          "de": "der Nachmittag, die Nachmittage",
+          "en": "afternoon"
+        },
+        {
+          "de": "der Schrei, die Schreie",
+          "en": "scream, cry"
+        },
+        {
+          "de": "die Ferien (Pl.)",
+          "en": "holidays (from school)"
+        },
+        {
+          "de": "der Knabe, die Knaben",
+          "en": "boy",
+          "note": "old-fashioned; today: der Junge"
+        },
+        {
+          "de": "niederkommen",
+          "en": "to give birth",
+          "note": "old; today: ein Kind bekommen"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "de": "Menuchim hatte keine Wiege. Er schwebte in einem Korb aus geflochtenen Weidenruten in der Mitte des Zimmers, mit vier Seilen an einem Haken im Plafond befestigt wie ein Kronleuchter. Mendel Singer tippte von Zeit zu Zeit mit einem leichten, nicht lieblosen Finger an den hängenden Korb, der sofort anfing zu schaukeln. Diese Bewegung beruhigte den Säugling zuweilen. Manchmal aber half gar nichts gegen seine Lust, zu wimmern und zu schreien. Seine Stimme krächzte über den Stimmen der zwölf lernenden Kinder, profane, hässliche Laute über den heiligen Sätzen der Bibel.",
+      "en": "Menuchim had no cradle. He hovered in a basket of woven willow twigs in the middle of the room, fastened with four ropes to a hook in the ceiling like a chandelier. From time to time Mendel Singer tapped the hanging basket with a light, not unloving finger, and it immediately began to swing. This movement sometimes calmed the baby. But sometimes nothing at all helped against his urge to whimper and scream. His voice croaked above the voices of the twelve children at their lessons, profane, ugly sounds above the holy sentences of the Bible.",
+      "explain_en": "'Der Plafond' is an Austrian word (from French) for the ceiling; in standard German say 'die Decke'. 'Der Säugling' is a baby that is still breastfed; everyday: 'das Baby'. 'Nicht lieblos' (not unloving) is a careful double negative – Mendel is fond of the baby, but not exactly warm. 'Von Zeit zu Zeit' (from time to time) is everyday German. 'Profan' means worldly, not holy – the baby's cries disturb the Bible lessons.",
+      "words": [
+        {
+          "de": "die Wiege, die Wiegen",
+          "en": "cradle"
+        },
+        {
+          "de": "der Korb, die Körbe",
+          "en": "basket"
+        },
+        {
+          "de": "das Seil, die Seile",
+          "en": "rope"
+        },
+        {
+          "de": "schaukeln",
+          "en": "to swing, to rock"
+        },
+        {
+          "de": "der Säugling, die Säuglinge",
+          "en": "baby, infant",
+          "note": "formal; everyday: das Baby"
+        },
+        {
+          "de": "schreien",
+          "en": "to scream, to shout"
+        },
+        {
+          "de": "hässlich",
+          "en": "ugly"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "de": "Deborah stieg auf einen Schemel und holte den Säugling herunter. Weiß, geschwellt und kolossal entquoll ihre Brust der offenen Bluse und zog die Blicke der Knaben übermächtig auf sich. Alle Anwesenden schien Deborah zu säugen. Ihre eigenen älteren drei Kinder umstanden sie, eifersüchtig und lüstern. Stille brach ein. Man hörte das Schmatzen des Säuglings. Die Tage dehnten sich zu Wochen, die Wochen wuchsen sich zu Monaten aus, zwölf Monate machten ein Jahr. Menuchim trank immer noch die Milch seiner Mutter, eine schüttere, klare Milch. Sie konnte ihn nicht absetzen.",
+      "en": "Deborah climbed onto a stool and took the baby down. White, swollen and enormous, her breast welled out of her open blouse and drew the boys' eyes irresistibly. Deborah seemed to be nursing everyone present. Her own three older children stood around her, jealous and greedy. Silence fell. You could hear the baby smacking its lips. The days stretched into weeks, the weeks grew into months, twelve months made a year. Menuchim was still drinking his mother's milk, a thin, clear milk. She couldn't wean him.",
+      "explain_en": "Deborah breastfeeds in front of her husband's pupils – a very physical image. 'Säugen' (to suckle) is used for animals today; for people say 'stillen' (to breastfeed). 'Absetzen' here means to stop breastfeeding (wean); in everyday German it usually means 'to drop someone off' or 'to take off' glasses or a hat. 'Man hörte' = 'you could hear'. 'Lüstern' here means craving/greedy. 'Stille brach ein' = silence fell.",
+      "words": [
+        {
+          "de": "der Schemel, die Schemel",
+          "en": "stool",
+          "note": "old-fashioned; today: der Hocker"
+        },
+        {
+          "de": "die Brust, die Brüste",
+          "en": "chest, breast"
+        },
+        {
+          "de": "eifersüchtig",
+          "en": "jealous"
+        },
+        {
+          "de": "die Stille",
+          "en": "silence, quiet"
+        },
+        {
+          "de": "die Milch",
+          "en": "milk"
+        },
+        {
+          "de": "stillen",
+          "en": "to breastfeed",
+          "note": "modern word for 'säugen'"
+        },
+        {
+          "de": "absetzen",
+          "en": "to wean; also: to drop off, to take off"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "de": "Im dreizehnten Monat seines Lebens begann er, Grimassen zu schneiden und wie ein Tier zu stöhnen, in jagender Hast zu atmen und auf eine noch nie dagewesene Art zu keuchen. Sein großer Schädel hing schwer wie ein Kürbis an seinem dünnen Hals. Seine breite Stirn fältelte und furchte sich kreuz und quer wie ein zerknittertes Pergament. Seine Beine waren gekrümmt und ohne Leben wie zwei hölzerne Bögen. Seine dürren Ärmchen zappelten und zuckten. Lächerliche Laute stammelte sein Mund.",
+      "en": "In the thirteenth month of his life he began to pull faces and to groan like an animal, to breathe in frantic haste and to gasp in a way never heard before. His big skull hung heavy as a pumpkin on his thin neck. His broad forehead wrinkled and furrowed criss-cross like crumpled parchment. His legs were crooked and lifeless like two wooden bows. His skinny little arms twitched and jerked. His mouth stammered ridiculous sounds.",
+      "explain_en": "Menuchim is seriously ill – he has epileptic fits and doesn't develop normally. Roth uses harsh comparisons (pumpkin, parchment, wooden bows); they show how people looked at disability back then, not how we speak today. 'Grimassen schneiden' (to pull faces) is a normal modern idiom. 'Noch nie dagewesen' = unprecedented, still used. 'Dürr' means very thin, skinny (also 'dry', e.g. dürres Gras).",
+      "words": [
+        {
+          "de": "der Monat, die Monate",
+          "en": "month"
+        },
+        {
+          "de": "stöhnen",
+          "en": "to groan, to moan"
+        },
+        {
+          "de": "atmen",
+          "en": "to breathe"
+        },
+        {
+          "de": "der Hals, die Hälse",
+          "en": "neck, throat"
+        },
+        {
+          "de": "die Stirn, die Stirnen",
+          "en": "forehead"
+        },
+        {
+          "de": "das Bein, die Beine",
+          "en": "leg"
+        },
+        {
+          "de": "Grimassen schneiden",
+          "en": "to pull faces"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "de": "Bekam er einen Anfall, so nahm man ihn aus der Wiege und schüttelte ihn ordentlich, bis sein Angesicht bläulich wurde und der Atem ihm beinah verging. Dann erholte er sich langsam. Man legte gebrühten Tee (in mehreren Säckchen) auf seine magere Brust und wickelte Huflattich um seinen dünnen Hals. „Macht nichts“, sagte sein Vater, „es kommt vom Wachsen!“ „Söhne geraten nach den Brüdern der Mutter. Mein Bruder hat es fünf Jahre gehabt!“, sagte die Mutter. „Man wächst sich aus!“, sprachen die andern.",
+      "en": "Whenever he had a fit, they took him out of the cradle and shook him hard until his face turned bluish and he almost ran out of breath. Then he slowly recovered. They laid brewed tea (in several little bags) on his thin chest and wrapped coltsfoot around his thin neck. 'Never mind,' said his father, 'it comes from growing!' 'Sons take after their mother's brothers. My brother had it for five years!' said the mother. 'He'll grow out of it!' said the others.",
+      "explain_en": "Home remedies instead of medicine: tea bags and coltsfoot (a herb). 'Bekam er einen Anfall, so ...' = 'Whenever he had a fit, ...' – again a condition without 'wenn'. 'Der Anfall' (fit, attack) is modern: 'ein Asthmaanfall'. 'Macht nichts!' (never mind, no problem) is super common today. 'Nach jemandem geraten' = to take after someone (today more often 'nach jemandem kommen'). 'Sich auswachsen' = to grow out of something.",
+      "words": [
+        {
+          "de": "der Anfall, die Anfälle",
+          "en": "fit, attack"
+        },
+        {
+          "de": "sich erholen",
+          "en": "to recover"
+        },
+        {
+          "de": "der Tee, die Tees",
+          "en": "tea"
+        },
+        {
+          "de": "Macht nichts!",
+          "en": "Never mind! / No problem!"
+        },
+        {
+          "de": "wachsen",
+          "en": "to grow"
+        },
+        {
+          "de": "der Bruder, die Brüder",
+          "en": "brother"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "de": "Bis eines Tages die Pocken in der Stadt ausbrachen, die Behörden Impfungen vorschrieben und die Ärzte in die Häuser der Juden drangen. Manche verbargen sich. Mendel Singer aber, der Gerechte, floh vor keiner Strafe Gottes. Auch der Impfung sah er getrost entgegen. Es war an einem heißen, sonnigen Vormittag, an dem die Kommission durch Mendels Gasse kam. Das letzte in der Reihe der jüdischen Häuser war Mendels Haus.",
+      "en": "Until one day smallpox broke out in the town, the authorities ordered vaccinations and the doctors forced their way into the Jews' houses. Some people hid. But Mendel Singer, the righteous man, did not run from any punishment of God. He faced the vaccination calmly, too. It was on a hot, sunny morning that the commission came through Mendel's lane. The last house in the row of Jewish houses was Mendel's.",
+      "explain_en": "'Die Pocken' (smallpox) is plural in German. 'Die Impfung' (vaccination) and 'impfen' (to vaccinate) are everyday words today. 'Die Behörde, die Behörden' = the authorities, very common in modern German. Mendel sees even illness as something sent by God, so he doesn't hide. 'Einer Sache getrost entgegensehen' = to face something calmly; 'getrost' is a bit old-fashioned (today: 'gelassen' or 'ruhig').",
+      "words": [
+        {
+          "de": "die Pocken (Pl.)",
+          "en": "smallpox"
+        },
+        {
+          "de": "die Behörde, die Behörden",
+          "en": "authority, office"
+        },
+        {
+          "de": "die Impfung, die Impfungen",
+          "en": "vaccination"
+        },
+        {
+          "de": "sich verbergen",
+          "en": "to hide",
+          "note": "today more often: sich verstecken"
+        },
+        {
+          "de": "die Strafe, die Strafen",
+          "en": "punishment"
+        },
+        {
+          "de": "der Vormittag, die Vormittage",
+          "en": "morning (before noon)"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "de": "Mit einem Polizisten, der ein großes Buch im Arm trug, ging der Doktor Soltysiuk mit wehendem, blondem Schnurrbart im braunen Angesicht, einen goldgeränderten Kneifer auf der geröteten Nase, mit breiten Schritten, in knarrend gelben Ledergamaschen und den Rock, der Hitze wegen, über die blaue Rubaschka lässig gehängt, dass die Ärmel wie noch ein paar Arme aussahen, die ebenfalls bereit schienen, Impfungen vorzunehmen: also kam der Doktor Soltysiuk in die Gasse der Juden.",
+      "en": "Accompanied by a policeman carrying a big book under his arm, Doctor Soltysiuk walked along with long strides – a blond moustache blowing in his brown face, gold-rimmed pince-nez on his reddened nose, creaking yellow leather gaiters, and his jacket, because of the heat, slung casually over his blue Russian shirt, so that the sleeves looked like another pair of arms that also seemed ready to vaccinate people: that was how Doctor Soltysiuk came into the Jewish lane.",
+      "explain_en": "One huge sentence (72 words!) – Roth piles up details and then restarts with 'also kam der Doktor ... in die Gasse' ('that's how the doctor came'). 'Der Kneifer' is an old kind of glasses clipped onto the nose. 'Der Rock' here means a man's jacket (old meaning!) – today 'der Rock' is a skirt and a jacket is 'die Jacke'. 'Die Rubaschka' is a Russian peasant shirt. 'Der Hitze wegen' = 'wegen der Hitze' (because of the heat) – in formal German 'wegen' can come after the noun.",
+      "words": [
+        {
+          "de": "der Polizist, die Polizisten",
+          "en": "police officer"
+        },
+        {
+          "de": "der Schnurrbart, die Schnurrbärte",
+          "en": "moustache"
+        },
+        {
+          "de": "die Nase, die Nasen",
+          "en": "nose"
+        },
+        {
+          "de": "der Schritt, die Schritte",
+          "en": "step, stride"
+        },
+        {
+          "de": "die Hitze",
+          "en": "heat"
+        },
+        {
+          "de": "der Ärmel, die Ärmel",
+          "en": "sleeve"
+        },
+        {
+          "de": "der Rock, die Röcke",
+          "en": "(here) man's jacket",
+          "note": "old meaning; today: der Rock = skirt, jacket = die Jacke"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "de": "Ihm entgegen scholl das Wehklagen der Frauen und das Heulen der Kinder, die sich nicht hatten verbergen können. Der Polizist holte Frauen und Kinder aus tiefen Kellern und von hohen Dachböden, aus kleinen Kämmerchen und großen Strohkörben. Die Sonne brütete, der Doktor schwitzte. Nicht weniger als hundertsechsundsiebzig Juden hatte er zu impfen. Für jeden Geflohenen und Unerreichbaren dankte er Gott im Stillen. Als er zum vierten der kleinen, blaugetünchten Häuschen gelangt war, gab er dem Polizisten einen Wink, nicht mehr eifrig zu suchen.",
+      "en": "The wailing of the women and the howling of the children who hadn't managed to hide rang out to meet him. The policeman fetched women and children out of deep cellars and down from high attics, out of little closets and big straw baskets. The sun was scorching, the doctor was sweating. He had no fewer than a hundred and seventy-six Jews to vaccinate. For everyone who had fled or couldn't be reached, he silently thanked God. When he had reached the fourth of the little blue-washed houses, he signalled to the policeman not to search so hard any more.",
+      "explain_en": "Nice irony: the doctor is secretly glad about everyone who hides, because it means less work. 'Scholl' is the past tense of 'schallen' (to ring out, echo) – literary. 'Die sich nicht hatten verbergen können' – with modal verbs in the past perfect, 'hatten' moves in front of the two infinitives – tricky, but you'll meet it: 'Ich habe nicht kommen können.' 'Im Stillen' = silently, privately. 'Jemandem einen Wink geben' = to give someone a sign.",
+      "words": [
+        {
+          "de": "der Keller, die Keller",
+          "en": "cellar, basement"
+        },
+        {
+          "de": "der Dachboden, die Dachböden",
+          "en": "attic"
+        },
+        {
+          "de": "schwitzen",
+          "en": "to sweat"
+        },
+        {
+          "de": "fliehen",
+          "en": "to flee, to escape"
+        },
+        {
+          "de": "suchen",
+          "en": "to search, to look for"
+        },
+        {
+          "de": "das Häuschen, die Häuschen",
+          "en": "little house"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Immer stärker schwoll das Geschrei, je weiter der Doktor ging. Es wehte vor seinen Schritten einher. Das Geheul derjenigen, die sich noch fürchteten, verband sich mit dem Fluchen der bereits Geimpften. Müde und vollends verwirrt ließ er sich in Mendels Stube mit einem schweren Stöhnen auf die Bank nieder und verlangte ein Glas Wasser. Sein Blick fiel auf den kleinen Menuchim, er hob den Krüppel hoch und sagte: „Er wird ein Epileptiker.“ Angst goss er in des Vaters Herz.",
+      "en": "The screaming swelled louder and louder the further the doctor went. It blew along ahead of his steps. The howls of those who were still afraid mingled with the curses of those already vaccinated. Tired and completely confused, he sank down onto the bench in Mendel's room with a heavy groan and asked for a glass of water. His eyes fell on little Menuchim; he lifted the cripple up and said: 'He's going to be an epileptic.' He poured fear into the father's heart.",
+      "explain_en": "'Immer stärker ..., je weiter ...' = 'louder and louder, the further ...' – 'je + comparative' is very useful: 'Je mehr ich lerne, desto mehr weiß ich.' 'Die Stube' is old-fashioned for 'room' (today: das Zimmer). 'Der Krüppel' (cripple) is an offensive word today – say 'ein Mensch mit Behinderung'. 'Er wird ein Epileptiker' – 'werden' here means 'to become'. 'Angst goss er in des Vaters Herz' – object first and the genitive before the noun ('des Vaters Herz' = 'das Herz des Vaters'), a poetic style.",
+      "words": [
+        {
+          "de": "das Geschrei",
+          "en": "screaming, shouting"
+        },
+        {
+          "de": "sich fürchten",
+          "en": "to be afraid",
+          "note": "everyday: Angst haben"
+        },
+        {
+          "de": "müde",
+          "en": "tired"
+        },
+        {
+          "de": "verwirrt",
+          "en": "confused"
+        },
+        {
+          "de": "die Stube, die Stuben",
+          "en": "room",
+          "note": "old-fashioned; today: das Zimmer"
+        },
+        {
+          "de": "die Angst, die Ängste",
+          "en": "fear"
+        },
+        {
+          "de": "ein Glas Wasser",
+          "en": "a glass of water"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "de": "„Alle Kinder haben Fraisen“, wandte die Mutter ein. „Das ist es nicht“, bestimmte der Doktor. „Aber ich könnte ihn vielleicht gesund machen. Es ist Leben in seinen Augen.“ Gleich wollte er den Kleinen ins Krankenhaus mitnehmen. Schon war Deborah bereit. „Man wird ihn umsonst gesund machen“, sagte sie.",
+      "en": "'All children have fits,' the mother objected. 'That's not it,' the doctor declared. 'But I might be able to make him well. There's life in his eyes.' He wanted to take the little one to the hospital straight away. Deborah was ready at once. 'They'll make him well for free,' she said.",
+      "explain_en": "'Die Fraisen' is an old Austrian/Bavarian word for fits in babies; today: 'Krampfanfälle'. 'Einwenden' (to object) is separable: 'wandte ... ein'. 'Ich könnte ihn vielleicht gesund machen' – 'könnte' (Konjunktiv II) makes it a possibility: 'I might be able to'. 'Umsonst' means 'for free' here (in other places it means 'in vain') – both meanings are used today: 'Der Eintritt ist umsonst.' 'Gleich' = right away.",
+      "words": [
+        {
+          "de": "einwenden",
+          "en": "to object"
+        },
+        {
+          "de": "gesund machen",
+          "en": "to cure, to make well"
+        },
+        {
+          "de": "das Krankenhaus, die Krankenhäuser",
+          "en": "hospital"
+        },
+        {
+          "de": "mitnehmen",
+          "en": "to take along"
+        },
+        {
+          "de": "bereit",
+          "en": "ready"
+        },
+        {
+          "de": "umsonst",
+          "en": "for free; also: in vain"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "de": "Mendel aber erwiderte: „Sei still, Deborah! Gesund machen kann ihn kein Doktor, wenn Gott nicht will. Soll er unter russischen Kindern aufwachsen? Kein heiliges Wort hören? Milch und Fleisch essen und Hühner auf Butter gebraten, wie man sie im Spital bekommt? Wir sind arm, aber Menuchims Seele verkaufe ich nicht, nur weil seine Heilung umsonst sein kann. Man wird nicht geheilt in fremden Spitälern.“ Wie ein Held hielt Mendel seinen dürren, weißen Arm zum Impfen hin. Menuchim aber gab er nicht fort.",
+      "en": "But Mendel replied: 'Be quiet, Deborah! No doctor can make him well if God doesn't want it. Should he grow up among Russian children? Never hear a holy word? Eat milk together with meat, and chickens fried in butter, the way they get them in the hospital? We are poor, but I'm not going to sell Menuchim's soul just because his cure might be free. People don't get healed in strange hospitals.' Like a hero Mendel held out his skinny white arm to be vaccinated. But he did not give Menuchim away.",
+      "explain_en": "Mendel refuses because the hospital wouldn't keep the Jewish food laws: kosher rules forbid eating milk and meat together. 'Sei still!' = Be quiet! (command form of 'sein'; also 'Sei ruhig!'). 'Das Spital' is Austrian/Swiss for 'das Krankenhaus'. 'Gesund machen kann ihn kein Doktor' – object first again for emphasis. 'Menuchim aber gab er nicht fort' – 'fortgeben' is old-fashioned for 'weggeben' (to give away).",
+      "words": [
+        {
+          "de": "erwidern",
+          "en": "to reply",
+          "note": "formal; everyday: antworten"
+        },
+        {
+          "de": "aufwachsen",
+          "en": "to grow up"
+        },
+        {
+          "de": "das Fleisch",
+          "en": "meat"
+        },
+        {
+          "de": "arm",
+          "en": "poor"
+        },
+        {
+          "de": "verkaufen",
+          "en": "to sell"
+        },
+        {
+          "de": "das Spital, die Spitäler",
+          "en": "hospital",
+          "note": "Austrian/Swiss; standard: das Krankenhaus"
+        },
+        {
+          "de": "der Held, die Helden",
+          "en": "hero"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "de": "Er beschloss, Gottes Hilfe für seinen Jüngsten zu erflehen und zweimal in der Woche zu fasten, Montag und Donnerstag. Deborah nahm sich vor, auf den Friedhof zu pilgern und die Gebeine der Ahnen anzurufen um ihre Fürsprache beim Allmächtigen. Also würde Menuchim gesund werden und kein Epileptiker. Dennoch hing seit der Stunde der Impfung über dem Haus Mendel Singers die Furcht wie ein Ungetüm, und der Kummer durchzog die Herzen wie ein dauernder heißer und stechender Wind. Deborah durfte seufzen, und ihr Mann wies sie nicht zurecht.",
+      "en": "He decided to plead for God's help for his youngest and to fast twice a week, on Mondays and Thursdays. Deborah resolved to make a pilgrimage to the cemetery and to call on the bones of their ancestors to put in a word with the Almighty. And so Menuchim would get well and not be an epileptic. Nevertheless, from the hour of the vaccination onwards, fear hung over Mendel Singer's house like a monster, and grief swept through their hearts like a constant hot, stinging wind. Deborah was allowed to sigh, and her husband didn't tell her off.",
+      "explain_en": "'Beschließen' (to decide) and 'sich vornehmen' (to resolve, to plan) are both very useful today: 'Ich habe mir vorgenommen, mehr Sport zu machen.' 'Erflehen' (to beg for) is old/literary – today: 'um Hilfe bitten/beten'. 'Die Ahnen' (ancestors) is old-fashioned; today: 'die Vorfahren'. 'Also würde Menuchim gesund werden' shows the parents' hopeful thinking (würde = would). 'Jemanden zurechtweisen' = to tell someone off – formal; everyday: 'schimpfen'.",
+      "words": [
+        {
+          "de": "beschließen",
+          "en": "to decide"
+        },
+        {
+          "de": "fasten",
+          "en": "to fast (not eat)"
+        },
+        {
+          "de": "sich vornehmen",
+          "en": "to resolve, to plan to do"
+        },
+        {
+          "de": "der Friedhof, die Friedhöfe",
+          "en": "cemetery"
+        },
+        {
+          "de": "die Furcht",
+          "en": "fear",
+          "note": "more formal than 'die Angst'"
+        },
+        {
+          "de": "der Kummer",
+          "en": "grief, sorrow, worry"
+        },
+        {
+          "de": "der Wind, die Winde",
+          "en": "wind"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "de": "Länger als sonst hielt sie ihr Angesicht in den Händen vergraben, wenn sie betete, als schüfe sie sich eigene Nächte, die Furcht in ihnen zu begraben, und eigene Finsternisse, um zugleich die Gnade in ihnen zu finden. Denn sie glaubte, wie es geschrieben stand, dass Gottes Licht in den Dämmernissen aufleuchte und seine Güte das Schwarze erhelle. Menuchims Anfälle aber hörten nicht auf.",
+      "en": "When she prayed, she kept her face buried in her hands longer than usual, as if she were making her own nights in which to bury her fear, and her own darkness in which, at the same time, to find grace. For she believed, as it was written, that God's light shines out in the twilight and that His goodness brightens the black. But Menuchim's fits did not stop.",
+      "explain_en": "'Als schüfe sie sich' uses the Konjunktiv II of 'schaffen' (to create) after 'als' (as if) – literary; today you'd say 'als würde sie sich ... schaffen'. 'Wie es geschrieben stand' refers to the Bible. 'Aufleuchte' and 'erhelle' are Konjunktiv I, used for reported beliefs or speech (like in the news: 'Er sagte, er sei krank'). 'Länger als sonst' (longer than usual) is everyday German. 'Aufhören' (to stop) is separable: 'hörten ... auf'.",
+      "words": [
+        {
+          "de": "vergraben",
+          "en": "to bury"
+        },
+        {
+          "de": "die Nacht, die Nächte",
+          "en": "night"
+        },
+        {
+          "de": "die Gnade",
+          "en": "grace, mercy"
+        },
+        {
+          "de": "das Licht, die Lichter",
+          "en": "light"
+        },
+        {
+          "de": "die Güte",
+          "en": "goodness, kindness"
+        },
+        {
+          "de": "aufhören",
+          "en": "to stop"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "de": "Die älteren Kinder wuchsen und wuchsen, ihre Gesundheit lärmte wie ein Feind Menuchims, des Kranken, böse in den Ohren der Mutter. Es war, als bezögen die gesunden Kinder Kraft von dem Siechen, und Deborah hasste ihr Geschrei, ihre roten Wangen, ihre geraden Gliedmaßen. Sie pilgerte zum Friedhof durch Regen und Sonne. Sie schlug mit dem Kopf gegen die moosigen Sandsteine, die aus den Gebeinen ihrer Väter und Mütter wuchsen. Sie beschwor die Toten, deren stumme, tröstende Antworten sie zu hören vermeinte. Auf dem Heimweg zitterte sie vor Hoffnung, ihren Sohn gesund wiederzufinden.",
+      "en": "The older children grew and grew; their health was as loud as an enemy of Menuchim, the sick one, and sounded evil in their mother's ears. It was as if the healthy children drew their strength from the sickly one, and Deborah hated their shouting, their red cheeks, their straight limbs. She made pilgrimages to the cemetery through rain and sun. She beat her head against the mossy sandstones that grew out of the bones of her fathers and mothers. She pleaded with the dead, whose silent, comforting answers she believed she could hear. On the way home she trembled with hope of finding her son well again.",
+      "explain_en": "A dark twist: Deborah starts to hate her healthy children because they seem to take strength from Menuchim. 'Als bezögen' = Konjunktiv II after 'als' (as if). 'Der Sieche' (a sick, frail person) is very old-fashioned; today: 'der/die Kranke'. The 'sandstones' are gravestones. 'Vermeinen' (to believe, wrongly) is old; today 'glauben' or 'meinen'. 'Auf dem Heimweg' (on the way home) is everyday German.",
+      "words": [
+        {
+          "de": "die Gesundheit",
+          "en": "health",
+          "note": "'Gesundheit!' = Bless you! (after a sneeze)"
+        },
+        {
+          "de": "der Feind, die Feinde",
+          "en": "enemy"
+        },
+        {
+          "de": "hassen",
+          "en": "to hate"
+        },
+        {
+          "de": "die Wange, die Wangen",
+          "en": "cheek"
+        },
+        {
+          "de": "der Regen",
+          "en": "rain"
+        },
+        {
+          "de": "die Hoffnung, die Hoffnungen",
+          "en": "hope"
+        },
+        {
+          "de": "der Heimweg",
+          "en": "the way home"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "de": "Sie versäumte den Dienst am Herd, die Suppe lief über, die tönernen Töpfe zerbrachen, die Kasserollen verrosteten, die grünlich schimmernden Gläser zersprangen mit hartem Knall, der Zylinder der Petroleumlampe verfinsterte sich rußig, der Docht verkohlte kümmerlich zu einem Zäpfchen, der Schmutz vieler Sohlen und vieler Wochen überlagerte die Dielen des Bodens, das Schmalz im Topfe zerrann, die Knöpfe fielen dürr von den Hemden der Kinder wie Laub vor dem Winter.",
+      "en": "She neglected her work at the stove: the soup boiled over, the clay pots broke, the saucepans rusted, the greenish glasses cracked with a sharp bang, the chimney of the oil lamp went black with soot, the wick charred miserably into a little stump, the dirt of many soles and many weeks covered the floorboards, the lard melted in the pot, the buttons fell off the children's shirts, dry as leaves before winter.",
+      "explain_en": "One long sentence showing the household falling apart while Deborah is lost in worry. 'Versäumen' (to neglect, to miss) is still used: 'eine Frist versäumen' (to miss a deadline); everyday: 'verpassen'. 'Überlaufen' (to boil over) is normal kitchen German: 'Die Milch läuft über!' 'Der Herd' is the cooker in a modern kitchen too. 'Die Dielen' are floorboards. Great practice for the simple past: zerbrachen, zersprangen, fielen.",
+      "words": [
+        {
+          "de": "der Herd, die Herde",
+          "en": "stove, cooker"
+        },
+        {
+          "de": "überlaufen",
+          "en": "to boil over, to overflow"
+        },
+        {
+          "de": "zerbrechen",
+          "en": "to break (into pieces)"
+        },
+        {
+          "de": "rosten",
+          "en": "to rust"
+        },
+        {
+          "de": "der Schmutz",
+          "en": "dirt"
+        },
+        {
+          "de": "der Knopf, die Knöpfe",
+          "en": "button"
+        },
+        {
+          "de": "das Hemd, die Hemden",
+          "en": "shirt"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "de": "Eines Tages, eine Woche vor den hohen Feiertagen (aus dem Sommer war Regen geworden, und aus dem Regen wollte Schnee werden), packte Deborah den Korb mit ihrem Sohn, legte wollene Decken über ihn, stellte ihn auf die Fuhre des Kutschers Sameschkin und reiste nach Kluczysk, wo der Rabbi wohnte. Das Sitzbrett lag locker auf dem Stroh und rutschte bei jeder Bewegung des Wagens. Lediglich mit dem Gewicht ihres Körpers hielt Deborah es nieder, lebendig war es, hüpfen wollte es.",
+      "en": "One day, a week before the High Holidays (summer had turned into rain, and the rain was about to turn into snow), Deborah packed up the basket with her son, laid woollen blankets over him, put him on the cart of the coachman Sameshkin and travelled to Kluczysk, where the Rabbi lived. The seat board lay loose on the straw and slid with every movement of the cart. Deborah held it down with nothing but the weight of her body; it was alive, it wanted to jump.",
+      "explain_en": "The 'hohen Feiertage' are the Jewish High Holidays in autumn (New Year and Yom Kippur). The Rabbi here is a famous holy man people visit hoping for blessings and miracles. 'Aus dem Sommer war Regen geworden' = summer had turned into rain ('aus etwas wird etwas': 'Aus ihm ist ein guter Arzt geworden'). 'Die Fuhre' is an old word for a cart; 'der Kutscher' = coachman. 'Lediglich' is formal for 'nur' (only).",
+      "words": [
+        {
+          "de": "der Feiertag, die Feiertage",
+          "en": "holiday, public holiday"
+        },
+        {
+          "de": "die Decke, die Decken",
+          "en": "blanket; also: ceiling"
+        },
+        {
+          "de": "packen",
+          "en": "to pack; to grab"
+        },
+        {
+          "de": "reisen",
+          "en": "to travel"
+        },
+        {
+          "de": "das Stroh",
+          "en": "straw"
+        },
+        {
+          "de": "rutschen",
+          "en": "to slide, to slip"
+        },
+        {
+          "de": "das Gewicht, die Gewichte",
+          "en": "weight"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Die schmale, gewundene Straße bedeckte der silbergraue Schlamm, in dem die hohen Stiefel der Vorüberkommenden versanken und die halben Räder der Fuhre. Der Regen verhüllte die Felder, zerstäubte den Rauch über den vereinzelten Hütten, zermahlte mit unendlicher, feiner Geduld alles Feste, auf das er traf, den Kalkstein, der hier und dort wie weißer Zahn aus der schwarzen Erde wuchs, die zersägten Stämme an den Rändern der Straße, die aufeinandergeschichteten, duftenden Bretter vor dem Eingang zur Sägemühle, auch das Kopftuch Deborahs und die wollenen Decken, unter denen Menuchim begraben lag.",
+      "en": "The narrow, winding road was covered in silver-grey mud, into which the tall boots of passers-by sank, and the wheels of the cart up to half their height. The rain veiled the fields, scattered the smoke above the lonely huts, and with endless, fine patience ground down everything solid it met: the limestone that grew here and there out of the black earth like a white tooth, the sawn tree trunks at the edges of the road, the stacked, fragrant planks in front of the entrance to the sawmill, and also Deborah's headscarf and the woollen blankets under which Menuchim lay buried.",
+      "explain_en": "Word order trap: 'Die schmale, gewundene Straße bedeckte der silbergraue Schlamm' – 'der Schlamm' (nominative) is the subject, so the MUD covers the ROAD. Always check the articles! The rain is described like a patient machine grinding everything down ('zermahlen'). 'Der Vorüberkommende' = someone passing by (today: 'der Passant'). 'Das Kopftuch' (headscarf) and 'der Eingang' (entrance) are everyday words.",
+      "words": [
+        {
+          "de": "die Straße, die Straßen",
+          "en": "road, street"
+        },
+        {
+          "de": "der Schlamm",
+          "en": "mud"
+        },
+        {
+          "de": "versinken",
+          "en": "to sink"
+        },
+        {
+          "de": "das Feld, die Felder",
+          "en": "field"
+        },
+        {
+          "de": "die Geduld",
+          "en": "patience"
+        },
+        {
+          "de": "der Rand, die Ränder",
+          "en": "edge"
+        },
+        {
+          "de": "der Eingang, die Eingänge",
+          "en": "entrance"
+        },
+        {
+          "de": "das Kopftuch, die Kopftücher",
+          "en": "headscarf"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "de": "Kein Tröpfchen sollte ihn benetzen. Deborah berechnete, dass sie noch vier Stunden zu fahren hatte; hörte der Regen nicht auf, musste sie vor der Herberge halten und die Decken trocknen, einen Tee trinken und die mitgenommenen, ebenfalls schon durchweichten Mohnbrezeln verzehren. Das konnte fünf Kopeken kosten, fünf Kopeken, mit denen man nicht leichtsinnig umgehen darf. Gott hatte ein Einsehen, es hörte zu regnen auf. Über hastigen Wolkenfetzen bleichte eine zerronnene Sonne, eine Stunde kaum; in einem neuen, tieferen Dämmer versank sie endgültig.",
+      "en": "Not a single drop was to get him wet. Deborah worked out that she still had four hours to travel; if the rain didn't stop, she would have to stop at the inn and dry the blankets, drink a tea and eat the poppy-seed pretzels she had brought, which were already soaked too. That could cost five kopecks, five kopecks, which you mustn't spend carelessly. God took pity; the rain stopped. Above hurrying scraps of cloud a watery sun shone pale, for barely an hour; then it sank for good into a new, deeper dusk.",
+      "explain_en": "'Sollte' here means 'was supposed to' – Deborah is determined that no drop touches him. 'Hörte der Regen nicht auf, musste sie...' is again an 'if'-clause without 'wenn'. 'Die Herberge' = inn (today 'die Jugendherberge' = youth hostel!). 'Mit Geld leichtsinnig umgehen' (to be careless with money) is a useful modern phrase. 'Ein Einsehen haben' = to show understanding, take pity – a bit old-fashioned. 'Endgültig' = finally, for good – everyday word.",
+      "words": [
+        {
+          "de": "das Tröpfchen, die Tröpfchen",
+          "en": "little drop",
+          "note": "der Tropfen = drop"
+        },
+        {
+          "de": "die Herberge, die Herbergen",
+          "en": "inn",
+          "note": "die Jugendherberge = youth hostel"
+        },
+        {
+          "de": "trocknen",
+          "en": "to dry"
+        },
+        {
+          "de": "kosten",
+          "en": "to cost"
+        },
+        {
+          "de": "leichtsinnig",
+          "en": "careless, reckless"
+        },
+        {
+          "de": "die Wolke, die Wolken",
+          "en": "cloud"
+        },
+        {
+          "de": "endgültig",
+          "en": "final, for good"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "de": "Die schwarze Nacht lagerte in Kluczysk, als Deborah ankam. Viele ratlose Menschen waren bereits gekommen, den Rabbi zu sehn. Kluczysk bestand aus ein paar tausend niedrigen, stroh- und schindelgedeckten Häusern, einem kilometerweiten Marktplatz, der wie ein trockener See war, umkränzt von Gebäuden. Die Fuhrwerke, die in ihm herumstanden, erinnerten an steckengebliebene Wracks; übrigens verloren sie sich, winzig und sinnlos, in der kreisrunden Weite. Die ausgespannten Pferde wieherten neben den Fuhrwerken und traten mit müden, klatschenden Hufen den klebrigen Schlamm. Einzelne Männer irrten mit schwankenden, gelben Laternen durch die runde Nacht, eine vergessene Decke zu holen und ein klirrendes Geschirr mit Mundvorrat.",
+      "en": "Black night lay over Kluczysk when Deborah arrived. Many helpless people had already come to see the Rabbi. Kluczysk consisted of a few thousand low houses with straw or shingle roofs and a market square kilometres wide, like a dry lake, ringed by buildings. The carts standing about in it looked like stranded wrecks; besides, they got lost, tiny and pointless, in the circular expanse. The unharnessed horses neighed beside the carts and trod the sticky mud with tired, slapping hooves. Here and there men wandered through the round night with swaying yellow lanterns, to fetch a forgotten blanket and a clinking set of dishes with food for the journey.",
+      "explain_en": "'Sehn' is a shortened, poetic form of 'sehen'. 'Ratlos' = at a loss, not knowing what to do – very common today: 'Ich bin total ratlos.' 'Bestehen aus' (to consist of) + dative is useful: 'Das Team besteht aus fünf Leuten.' 'Übrigens' normally means 'by the way' in modern speech; here it means 'besides'. 'Der Mundvorrat' (food supplies) is old-fashioned; today: 'der Proviant'. 'Das Geschirr' means dishes – but also a horse's harness!",
+      "words": [
+        {
+          "de": "ankommen",
+          "en": "to arrive"
+        },
+        {
+          "de": "ratlos",
+          "en": "at a loss, helpless"
+        },
+        {
+          "de": "bestehen aus",
+          "en": "to consist of"
+        },
+        {
+          "de": "der Marktplatz, die Marktplätze",
+          "en": "market square"
+        },
+        {
+          "de": "das Pferd, die Pferde",
+          "en": "horse"
+        },
+        {
+          "de": "die Laterne, die Laternen",
+          "en": "lantern; street lamp"
+        },
+        {
+          "de": "das Geschirr",
+          "en": "dishes; also: harness"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "de": "Ringsum, in den tausend kleinen Häuschen, waren Ankömmlinge untergebracht. Sie schliefen auf Pritschen neben den Betten der Einheimischen, die Siechen, die Krummen, die Lahmen, die Wahnsinnigen, die Idiotischen, die Herzschwachen, die Zuckerkranken, die den Krebs im Leibe trugen, deren Augen mit Trachom verseucht waren, Frauen mit unfruchtbarem Schoß, Mütter mit missgestalteten Kindern, Männer, denen Gefängnis oder Militärdienst drohte, Deserteure, die um eine geglückte Flucht baten, von Ärzten Aufgegebene, von der Menschheit Verstoßene, von der irdischen Gerechtigkeit Misshandelte, Bekümmerte, Sehnsüchtige, Verhungernde und Satte, Betrüger und Ehrliche, alle, alle, alle…",
+      "en": "All around, in the thousand little houses, new arrivals had been put up. They slept on plank beds next to the beds of the locals: the sickly, the crooked, the lame, the insane, the feeble-minded, those with weak hearts, the diabetics, those who carried cancer in their bodies, those whose eyes were infected with trachoma, women with barren wombs, mothers with deformed children, men facing prison or military service, deserters praying for a successful escape, people given up by doctors, cast out by humanity, mistreated by earthly justice, the troubled, the longing, the starving and the well-fed, cheats and honest people, all, all, all …",
+      "explain_en": "A huge list of everyone who has come hoping for a miracle – it shows that Deborah is just one of countless desperate people. German easily turns adjectives and participles into nouns: 'die Lahmen' (the lame), 'die Verhungernden' (the starving), 'von Ärzten Aufgegebene' (people given up by doctors). Several words here are offensive or outdated today ('die Idiotischen', 'die Krummen', 'die Wahnsinnigen'); modern German uses neutral terms like 'Menschen mit Behinderung' or 'psychisch Kranke'. 'Untergebracht sein' (to be accommodated) is modern: 'Wir sind in einem Hotel untergebracht.' 'Die Zuckerkranken' = diabetics (today: 'Diabetiker').",
+      "words": [
+        {
+          "de": "der Ankömmling, die Ankömmlinge",
+          "en": "new arrival",
+          "note": "today often: der Neuankömmling"
+        },
+        {
+          "de": "unterbringen",
+          "en": "to accommodate, to put up"
+        },
+        {
+          "de": "der/die Einheimische, die Einheimischen",
+          "en": "local (person)"
+        },
+        {
+          "de": "drohen",
+          "en": "to threaten",
+          "note": "+ dative: Ihm droht eine Strafe."
+        },
+        {
+          "de": "das Gefängnis, die Gefängnisse",
+          "en": "prison"
+        },
+        {
+          "de": "die Flucht",
+          "en": "escape, flight"
+        },
+        {
+          "de": "ehrlich",
+          "en": "honest"
+        }
+      ]
+    }
+  ]
+}

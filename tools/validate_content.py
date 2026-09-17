@@ -8,8 +8,8 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from app.answers import normalize  # noqa: E402
 from app.config import BOOKS_DIR, VOCAB_DIR  # noqa: E402
+from app.content import is_duplicate  # noqa: E402
 
 POS = {"noun", "verb", "adj", "adv", "prep", "conj", "pron", "num", "phrase", "other"}
 LEVELS = {"A1", "A2", "B1", "B2", "C1"}
@@ -30,7 +30,7 @@ def load(path: Path):
 
 def check_vocab() -> Counter:
     ids: Counter = Counter()
-    de_seen: dict[str, str] = {}
+    meanings: dict[str, list[set[str]]] = {}
     banks: Counter = Counter()
     for path in sorted(VOCAB_DIR.glob("*.json")):
         data = load(path)
@@ -60,11 +60,8 @@ def check_vocab() -> Counter:
                     errors.append(f"{where}: noun without der/die/das: {w.get('de')!r}")
                 if not w.get("plural"):
                     warnings.append(f"{where}: noun without plural")
-            key = normalize(str(w.get("de", "")))
-            if key in de_seen:
-                warnings.append(f"{where}: same German as {de_seen[key]} ({w.get('de')}), skipped by the app")
-            else:
-                de_seen[key] = wid
+            if isinstance(w.get("en"), list) and is_duplicate(meanings, str(w.get("de", "")), w["en"]):
+                warnings.append(f"{where}: {w.get('de')} with the same meaning is already in the bank, skipped by the app")
     for wid, n in ids.items():
         if n > 1:
             errors.append(f"duplicate vocab id {wid} ({n}x)")

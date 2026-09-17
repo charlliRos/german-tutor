@@ -3,7 +3,7 @@ from datetime import date
 
 from app import srs
 from app.answers import ALMOST, CORRECT, WRONG, check_english, check_german, normalize
-from app.content import Word
+from app.content import Word, is_duplicate
 
 
 def word(de, en, pos="noun", **kw):
@@ -55,6 +55,14 @@ class EnglishAnswers(unittest.TestCase):
     def test_normalize(self):
         self.assertEqual(normalize("  Wie geht's?  "), "wie gehts")
         self.assertEqual(normalize("E-Mail"), "email")
+
+
+class Duplicates(unittest.TestCase):
+    def test_same_german_different_meaning_is_kept(self):
+        seen = {}
+        self.assertFalse(is_duplicate(seen, "gerade", ["straight", "just"]))
+        self.assertFalse(is_duplicate(seen, "gerade", ["even"]))
+        self.assertTrue(is_duplicate(seen, "gerade", ["straight"]))
 
 
 class SpacedRepetition(unittest.TestCase):

@@ -1,0 +1,3093 @@
+{
+  "bank": "daily",
+  "title": "Everyday German — adjectives and adverbs",
+  "words": [
+    {
+      "id": "d-adj-0001",
+      "de": "gut",
+      "de_alt": [],
+      "en": [
+        "good",
+        "well",
+        "fine"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 22,
+      "note": "besser – am besten",
+      "example_de": "Das Essen ist echt gut.",
+      "example_en": "The food is really good."
+    },
+    {
+      "id": "d-adj-0002",
+      "de": "groß",
+      "de_alt": [],
+      "en": [
+        "big",
+        "large",
+        "tall",
+        "great"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A1",
+      "rank": 42,
+      "note": "größer – am größten",
+      "example_de": "Mein Bruder ist sehr groß.",
+      "example_en": "My brother is very tall."
+    },
+    {
+      "id": "d-adj-0003",
+      "de": "klein",
+      "de_alt": [],
+      "en": [
+        "small",
+        "little",
+        "short"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A1",
+      "rank": 85,
+      "note": "kleiner – am kleinsten",
+      "example_de": "Wir wohnen in einer kleinen Wohnung.",
+      "example_en": "We live in a small flat."
+    },
+    {
+      "id": "d-adj-0004",
+      "de": "neu",
+      "de_alt": [],
+      "en": [
+        "new"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A1",
+      "rank": 50,
+      "note": "neuer – am neuesten",
+      "example_de": "Ist das dein neues Handy?",
+      "example_en": "Is that your new phone?"
+    },
+    {
+      "id": "d-adj-0005",
+      "de": "alt",
+      "de_alt": [],
+      "en": [
+        "old"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A1",
+      "rank": 70,
+      "note": "älter – am ältesten",
+      "example_de": "Wie alt bist du?",
+      "example_en": "How old are you?"
+    },
+    {
+      "id": "d-adj-0006",
+      "de": "lang",
+      "de_alt": [],
+      "en": [
+        "long"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A1",
+      "rank": 92,
+      "note": "länger – am längsten",
+      "example_de": "Der Film war viel zu lang.",
+      "example_en": "The film was far too long."
+    },
+    {
+      "id": "d-adj-0007",
+      "de": "kurz",
+      "de_alt": [],
+      "en": [
+        "short",
+        "brief"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A1",
+      "rank": 150,
+      "note": "kürzer – am kürzesten",
+      "example_de": "Ich habe mir die Haare kurz schneiden lassen.",
+      "example_en": "I had my hair cut short."
+    },
+    {
+      "id": "d-adj-0008",
+      "de": "schnell",
+      "de_alt": [],
+      "en": [
+        "fast",
+        "quick",
+        "quickly"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A1",
+      "rank": 180,
+      "note": "schneller – am schnellsten",
+      "example_de": "Kannst du schnell kommen?",
+      "example_en": "Can you come quickly?"
+    },
+    {
+      "id": "d-adj-0009",
+      "de": "langsam",
+      "de_alt": [],
+      "en": [
+        "slow",
+        "slowly"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A1",
+      "rank": 420,
+      "note": "langsamer – am langsamsten",
+      "example_de": "Sprich bitte langsamer!",
+      "example_en": "Please speak more slowly!"
+    },
+    {
+      "id": "d-adj-0010",
+      "de": "hoch",
+      "de_alt": [],
+      "en": [
+        "high",
+        "tall"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 110,
+      "note": "höher – am höchsten; drops c before endings: ein hoher Berg",
+      "example_de": "Der Turm ist sehr hoch.",
+      "example_en": "The tower is very tall."
+    },
+    {
+      "id": "d-adj-0011",
+      "de": "schön",
+      "de_alt": [],
+      "en": [
+        "beautiful",
+        "nice",
+        "lovely"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 130,
+      "note": "schöner – am schönsten",
+      "example_de": "Schönes Wochenende!",
+      "example_en": "Have a nice weekend!"
+    },
+    {
+      "id": "d-adj-0012",
+      "de": "schlecht",
+      "de_alt": [],
+      "en": [
+        "bad",
+        "poor",
+        "badly"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 250,
+      "note": "schlechter – am schlechtesten; mir ist schlecht = I feel sick",
+      "example_de": "Ich habe schlecht geschlafen.",
+      "example_en": "I slept badly."
+    },
+    {
+      "id": "d-adj-0013",
+      "de": "richtig",
+      "de_alt": [],
+      "en": [
+        "right",
+        "correct",
+        "really"
+      ],
+      "pos": "adj",
+      "topic": "school",
+      "level": "A1",
+      "rank": 160,
+      "note": "also colloquial \"really\": richtig cool",
+      "example_de": "Deine Antwort ist richtig.",
+      "example_en": "Your answer is correct."
+    },
+    {
+      "id": "d-adj-0014",
+      "de": "falsch",
+      "de_alt": [],
+      "en": [
+        "wrong",
+        "false",
+        "incorrect"
+      ],
+      "pos": "adj",
+      "topic": "school",
+      "level": "A1",
+      "rank": 500,
+      "example_de": "Das ist die falsche Nummer.",
+      "example_en": "That's the wrong number."
+    },
+    {
+      "id": "d-adj-0015",
+      "de": "wichtig",
+      "de_alt": [],
+      "en": [
+        "important"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 190,
+      "note": "wichtiger – am wichtigsten",
+      "example_de": "Freunde sind mir sehr wichtig.",
+      "example_en": "Friends are very important to me."
+    },
+    {
+      "id": "d-adj-0016",
+      "de": "einfach",
+      "de_alt": [],
+      "en": [
+        "easy",
+        "simple",
+        "simply",
+        "just"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 120,
+      "note": "also adverb \"simply/just\": Mach es einfach!",
+      "example_de": "Der Test war total einfach.",
+      "example_en": "The test was really easy."
+    },
+    {
+      "id": "d-adj-0017",
+      "de": "schwer",
+      "de_alt": [],
+      "en": [
+        "difficult",
+        "hard",
+        "heavy"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 240,
+      "note": "schwerer – am schwersten",
+      "example_de": "Mein Rucksack ist so schwer.",
+      "example_en": "My backpack is so heavy."
+    },
+    {
+      "id": "d-adj-0018",
+      "de": "schwierig",
+      "de_alt": [],
+      "en": [
+        "difficult",
+        "hard"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 520,
+      "example_de": "Die Aufgabe ist ziemlich schwierig.",
+      "example_en": "The task is quite difficult."
+    },
+    {
+      "id": "d-adj-0019",
+      "de": "leicht",
+      "de_alt": [],
+      "en": [
+        "easy",
+        "light"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 480,
+      "example_de": "Die Jacke ist super leicht.",
+      "example_en": "The jacket is really light."
+    },
+    {
+      "id": "d-adj-0020",
+      "de": "möglich",
+      "de_alt": [],
+      "en": [
+        "possible"
+      ],
+      "pos": "adj",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 200,
+      "note": "unmöglich = impossible",
+      "example_de": "Ist das überhaupt möglich?",
+      "example_en": "Is that even possible?"
+    },
+    {
+      "id": "d-adj-0021",
+      "de": "ganz",
+      "de_alt": [],
+      "en": [
+        "whole",
+        "entire",
+        "quite",
+        "completely"
+      ],
+      "pos": "adj",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 60,
+      "note": "ganz gut = quite good; den ganzen Tag = all day",
+      "example_de": "Ich habe den ganzen Tag geschlafen.",
+      "example_en": "I slept all day."
+    },
+    {
+      "id": "d-adj-0022",
+      "de": "eigen",
+      "de_alt": [],
+      "en": [
+        "own"
+      ],
+      "pos": "adj",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 210,
+      "note": "always with ending: mein eigenes Zimmer",
+      "example_de": "Ich hätte gern ein eigenes Zimmer.",
+      "example_en": "I'd like my own room."
+    },
+    {
+      "id": "d-adj-0023",
+      "de": "letzte",
+      "de_alt": [],
+      "en": [
+        "last",
+        "latest"
+      ],
+      "pos": "adj",
+      "topic": "time",
+      "level": "A1",
+      "rank": 230,
+      "note": "always with ending: letzte Woche",
+      "example_de": "Letzte Woche war ich krank.",
+      "example_en": "I was ill last week."
+    },
+    {
+      "id": "d-adj-0024",
+      "de": "nächste",
+      "de_alt": [],
+      "en": [
+        "next",
+        "nearest"
+      ],
+      "pos": "adj",
+      "topic": "time",
+      "level": "A1",
+      "rank": 260,
+      "note": "always with ending: nächstes Jahr",
+      "example_de": "Nächstes Jahr mache ich Abitur.",
+      "example_en": "I'm doing my A-levels next year."
+    },
+    {
+      "id": "d-adj-0025",
+      "de": "erst",
+      "de_alt": [],
+      "en": [
+        "first",
+        "only",
+        "not until"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 100,
+      "note": "adverb: erst morgen = not until tomorrow; adj: der erste Tag",
+      "example_de": "Ich stehe erst um zehn auf.",
+      "example_en": "I don't get up until ten."
+    },
+    {
+      "id": "d-adj-0026",
+      "de": "gleich",
+      "de_alt": [],
+      "en": [
+        "same",
+        "equal",
+        "right away",
+        "in a moment"
+      ],
+      "pos": "adj",
+      "topic": "time",
+      "level": "A1",
+      "rank": 170,
+      "note": "Ich komme gleich = I'll be there in a sec",
+      "example_de": "Wir haben die gleichen Schuhe!",
+      "example_en": "We've got the same shoes!"
+    },
+    {
+      "id": "d-adj-0027",
+      "de": "verschieden",
+      "de_alt": [],
+      "en": [
+        "different",
+        "various"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "B1",
+      "rank": 440,
+      "example_de": "Wir haben total verschiedene Interessen.",
+      "example_en": "We have totally different interests."
+    },
+    {
+      "id": "d-adj-0028",
+      "de": "anders",
+      "de_alt": [],
+      "en": [
+        "different",
+        "differently",
+        "else"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 320,
+      "note": "jemand anders = someone else",
+      "example_de": "Heute ist alles anders.",
+      "example_en": "Everything is different today."
+    },
+    {
+      "id": "d-adj-0029",
+      "de": "bekannt",
+      "de_alt": [],
+      "en": [
+        "well-known",
+        "famous",
+        "familiar"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 350,
+      "example_de": "Die Band ist in Deutschland sehr bekannt.",
+      "example_en": "The band is very well known in Germany."
+    },
+    {
+      "id": "d-adj-0030",
+      "de": "berühmt",
+      "de_alt": [],
+      "en": [
+        "famous"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 900,
+      "example_de": "Sie will später berühmt werden.",
+      "example_en": "She wants to become famous later."
+    },
+    {
+      "id": "d-adj-0031",
+      "de": "klar",
+      "de_alt": [],
+      "en": [
+        "clear",
+        "obvious",
+        "sure"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 220,
+      "note": "Klar! = Sure! Of course!",
+      "example_de": "Alles klar, bis morgen!",
+      "example_en": "All right, see you tomorrow!"
+    },
+    {
+      "id": "d-adj-0032",
+      "de": "sicher",
+      "de_alt": [],
+      "en": [
+        "sure",
+        "certain",
+        "safe",
+        "secure"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 270,
+      "example_de": "Bist du dir sicher?",
+      "example_en": "Are you sure?"
+    },
+    {
+      "id": "d-adj-0033",
+      "de": "stark",
+      "de_alt": [],
+      "en": [
+        "strong",
+        "great"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 300,
+      "note": "stärker – am stärksten; colloquial: Das ist stark! = That's great!",
+      "example_de": "Er ist stärker als ich.",
+      "example_en": "He's stronger than me."
+    },
+    {
+      "id": "d-adj-0034",
+      "de": "schwach",
+      "de_alt": [],
+      "en": [
+        "weak"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 800,
+      "note": "schwächer – am schwächsten",
+      "example_de": "Mein Akku ist schon schwach.",
+      "example_en": "My battery is already low."
+    },
+    {
+      "id": "d-adj-0035",
+      "de": "jung",
+      "de_alt": [],
+      "en": [
+        "young"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A1",
+      "rank": 280,
+      "note": "jünger – am jüngsten",
+      "example_de": "Meine jüngere Schwester ist zwölf.",
+      "example_en": "My younger sister is twelve."
+    },
+    {
+      "id": "d-adj-0036",
+      "de": "frei",
+      "de_alt": [],
+      "en": [
+        "free",
+        "available",
+        "off"
+      ],
+      "pos": "adj",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 290,
+      "note": "Ist hier noch frei? = Is this seat free?",
+      "example_de": "Morgen haben wir schulfrei.",
+      "example_en": "We have no school tomorrow."
+    },
+    {
+      "id": "d-adj-0037",
+      "de": "voll",
+      "de_alt": [],
+      "en": [
+        "full",
+        "totally"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 380,
+      "note": "colloquial: voll cool = totally cool",
+      "example_de": "Der Bus war total voll.",
+      "example_en": "The bus was completely full."
+    },
+    {
+      "id": "d-adj-0038",
+      "de": "leer",
+      "de_alt": [],
+      "en": [
+        "empty",
+        "flat"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 700,
+      "note": "Mein Akku ist leer = my battery is flat",
+      "example_de": "Mein Akku ist leer.",
+      "example_en": "My battery is dead."
+    },
+    {
+      "id": "d-adj-0039",
+      "de": "offen",
+      "de_alt": [],
+      "en": [
+        "open"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 400,
+      "example_de": "Hat der Laden noch offen?",
+      "example_en": "Is the shop still open?"
+    },
+    {
+      "id": "d-adj-0040",
+      "de": "geschlossen",
+      "de_alt": [],
+      "en": [
+        "closed",
+        "shut"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 950,
+      "note": "past participle of schließen",
+      "example_de": "Sonntags ist der Supermarkt geschlossen.",
+      "example_en": "The supermarket is closed on Sundays."
+    },
+    {
+      "id": "d-adj-0041",
+      "de": "fertig",
+      "de_alt": [],
+      "en": [
+        "ready",
+        "finished",
+        "done",
+        "exhausted"
+      ],
+      "pos": "adj",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 450,
+      "note": "fertig sein = be finished / be worn out",
+      "example_de": "Bist du fertig mit den Hausaufgaben?",
+      "example_en": "Have you finished your homework?"
+    },
+    {
+      "id": "d-adj-0042",
+      "de": "bereit",
+      "de_alt": [],
+      "en": [
+        "ready",
+        "prepared"
+      ],
+      "pos": "adj",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 600,
+      "example_de": "Seid ihr bereit?",
+      "example_en": "Are you ready?"
+    },
+    {
+      "id": "d-adj-0043",
+      "de": "spät",
+      "de_alt": [],
+      "en": [
+        "late"
+      ],
+      "pos": "adj",
+      "topic": "time",
+      "level": "A1",
+      "rank": 310,
+      "note": "später – am spätesten; Wie spät ist es? = What time is it?",
+      "example_de": "Es ist schon spät.",
+      "example_en": "It's already late."
+    },
+    {
+      "id": "d-adj-0044",
+      "de": "früh",
+      "de_alt": [],
+      "en": [
+        "early"
+      ],
+      "pos": "adj",
+      "topic": "time",
+      "level": "A1",
+      "rank": 330,
+      "note": "früher = earlier / in the past",
+      "example_de": "Ich muss morgen früh aufstehen.",
+      "example_en": "I have to get up early tomorrow."
+    },
+    {
+      "id": "d-adj-0045",
+      "de": "toll",
+      "de_alt": [],
+      "en": [
+        "great",
+        "fantastic",
+        "brilliant"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 550,
+      "example_de": "Das ist eine tolle Idee!",
+      "example_en": "That's a great idea!"
+    },
+    {
+      "id": "d-adj-0046",
+      "de": "super",
+      "de_alt": [],
+      "en": [
+        "great",
+        "super"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 520,
+      "note": "no endings: ein super Tag",
+      "example_de": "Das Konzert war super!",
+      "example_en": "The concert was great!"
+    },
+    {
+      "id": "d-adj-0047",
+      "de": "cool",
+      "de_alt": [],
+      "en": [
+        "cool"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 600,
+      "note": "colloquial",
+      "example_de": "Deine Jacke ist echt cool.",
+      "example_en": "Your jacket is really cool."
+    },
+    {
+      "id": "d-adj-0048",
+      "de": "blöd",
+      "de_alt": [],
+      "en": [
+        "stupid",
+        "silly",
+        "annoying"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 900,
+      "note": "colloquial",
+      "example_de": "So ein blöder Tag!",
+      "example_en": "What a stupid day!"
+    },
+    {
+      "id": "d-adj-0049",
+      "de": "dumm",
+      "de_alt": [],
+      "en": [
+        "stupid",
+        "dumb"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 850,
+      "note": "dümmer – am dümmsten",
+      "example_de": "Das war eine dumme Frage.",
+      "example_en": "That was a stupid question."
+    },
+    {
+      "id": "d-adj-0050",
+      "de": "klug",
+      "de_alt": [],
+      "en": [
+        "clever",
+        "smart",
+        "wise"
+      ],
+      "pos": "adj",
+      "topic": "personality",
+      "level": "A2",
+      "rank": 1100,
+      "note": "klüger – am klügsten",
+      "example_de": "Sie ist sehr klug.",
+      "example_en": "She is very clever."
+    },
+    {
+      "id": "d-adj-0051",
+      "de": "schlau",
+      "de_alt": [],
+      "en": [
+        "clever",
+        "smart"
+      ],
+      "pos": "adj",
+      "topic": "personality",
+      "level": "A2",
+      "rank": 1300,
+      "example_de": "Mein Hund ist echt schlau.",
+      "example_en": "My dog is really smart."
+    },
+    {
+      "id": "d-adj-0052",
+      "de": "nett",
+      "de_alt": [],
+      "en": [
+        "nice",
+        "kind"
+      ],
+      "pos": "adj",
+      "topic": "personality",
+      "level": "A1",
+      "rank": 560,
+      "example_de": "Die neue Lehrerin ist sehr nett.",
+      "example_en": "The new teacher is very nice."
+    },
+    {
+      "id": "d-adj-0053",
+      "de": "freundlich",
+      "de_alt": [],
+      "en": [
+        "friendly",
+        "kind"
+      ],
+      "pos": "adj",
+      "topic": "personality",
+      "level": "A1",
+      "rank": 700,
+      "note": "unfreundlich = unfriendly",
+      "example_de": "Die Leute hier sind sehr freundlich.",
+      "example_en": "The people here are very friendly."
+    },
+    {
+      "id": "d-adj-0054",
+      "de": "lustig",
+      "de_alt": [],
+      "en": [
+        "funny",
+        "fun"
+      ],
+      "pos": "adj",
+      "topic": "personality",
+      "level": "A1",
+      "rank": 750,
+      "example_de": "Mein Onkel ist total lustig.",
+      "example_en": "My uncle is really funny."
+    },
+    {
+      "id": "d-adj-0055",
+      "de": "witzig",
+      "de_alt": [],
+      "en": [
+        "funny",
+        "witty"
+      ],
+      "pos": "adj",
+      "topic": "personality",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Das Video ist so witzig!",
+      "example_en": "That video is so funny!"
+    },
+    {
+      "id": "d-adj-0056",
+      "de": "langweilig",
+      "de_alt": [],
+      "en": [
+        "boring"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 980,
+      "example_de": "Die Stunde war total langweilig.",
+      "example_en": "The lesson was really boring."
+    },
+    {
+      "id": "d-adj-0057",
+      "de": "interessant",
+      "de_alt": [],
+      "en": [
+        "interesting"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 620,
+      "example_de": "Das Buch ist echt interessant.",
+      "example_en": "The book is really interesting."
+    },
+    {
+      "id": "d-adj-0058",
+      "de": "spannend",
+      "de_alt": [],
+      "en": [
+        "exciting",
+        "thrilling"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 1000,
+      "example_de": "Die Serie ist mega spannend.",
+      "example_en": "The series is super exciting."
+    },
+    {
+      "id": "d-adj-0059",
+      "de": "glücklich",
+      "de_alt": [],
+      "en": [
+        "happy",
+        "lucky"
+      ],
+      "pos": "adj",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 650,
+      "example_de": "Ich bin gerade sehr glücklich.",
+      "example_en": "I'm very happy at the moment."
+    },
+    {
+      "id": "d-adj-0060",
+      "de": "traurig",
+      "de_alt": [],
+      "en": [
+        "sad"
+      ],
+      "pos": "adj",
+      "topic": "feelings",
+      "level": "A1",
+      "rank": 1050,
+      "example_de": "Warum bist du so traurig?",
+      "example_en": "Why are you so sad?"
+    },
+    {
+      "id": "d-adj-0061",
+      "de": "froh",
+      "de_alt": [],
+      "en": [
+        "glad",
+        "happy"
+      ],
+      "pos": "adj",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 880,
+      "example_de": "Ich bin froh, dass du da bist.",
+      "example_en": "I'm glad you're here."
+    },
+    {
+      "id": "d-adj-0062",
+      "de": "müde",
+      "de_alt": [],
+      "en": [
+        "tired"
+      ],
+      "pos": "adj",
+      "topic": "feelings",
+      "level": "A1",
+      "rank": 780,
+      "example_de": "Ich bin heute total müde.",
+      "example_en": "I'm totally tired today."
+    },
+    {
+      "id": "d-adj-0063",
+      "de": "krank",
+      "de_alt": [],
+      "en": [
+        "ill",
+        "sick"
+      ],
+      "pos": "adj",
+      "topic": "health",
+      "level": "A1",
+      "rank": 680,
+      "note": "kränker – am kränksten",
+      "example_de": "Ich bin krank und bleibe zu Hause.",
+      "example_en": "I'm ill and staying at home."
+    },
+    {
+      "id": "d-adj-0064",
+      "de": "gesund",
+      "de_alt": [],
+      "en": [
+        "healthy",
+        "well"
+      ],
+      "pos": "adj",
+      "topic": "health",
+      "level": "A1",
+      "rank": 720,
+      "note": "gesünder – am gesündesten",
+      "example_de": "Obst ist gesund.",
+      "example_en": "Fruit is healthy."
+    },
+    {
+      "id": "d-adj-0065",
+      "de": "wütend",
+      "de_alt": [],
+      "en": [
+        "angry",
+        "furious"
+      ],
+      "pos": "adj",
+      "topic": "feelings",
+      "level": "B1",
+      "rank": 1500,
+      "note": "wütend auf + Akk",
+      "example_de": "Sie ist wütend auf mich.",
+      "example_en": "She's angry with me."
+    },
+    {
+      "id": "d-adj-0066",
+      "de": "sauer",
+      "de_alt": [],
+      "en": [
+        "sour",
+        "annoyed",
+        "cross"
+      ],
+      "pos": "adj",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 1400,
+      "note": "colloquial: sauer sein = be annoyed",
+      "example_de": "Bist du sauer auf mich?",
+      "example_en": "Are you mad at me?"
+    },
+    {
+      "id": "d-adj-0067",
+      "de": "nervös",
+      "de_alt": [],
+      "en": [
+        "nervous"
+      ],
+      "pos": "adj",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 1450,
+      "example_de": "Vor der Prüfung bin ich immer nervös.",
+      "example_en": "I'm always nervous before the exam."
+    },
+    {
+      "id": "d-adj-0068",
+      "de": "auch",
+      "de_alt": [],
+      "en": [
+        "also",
+        "too",
+        "as well"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 12,
+      "example_de": "Ich komme auch mit.",
+      "example_en": "I'm coming too."
+    },
+    {
+      "id": "d-adj-0069",
+      "de": "noch",
+      "de_alt": [],
+      "en": [
+        "still",
+        "yet",
+        "else",
+        "more"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 30,
+      "note": "noch nicht = not yet; noch etwas = something else",
+      "example_de": "Bist du noch in der Schule?",
+      "example_en": "Are you still at school?"
+    },
+    {
+      "id": "d-adj-0070",
+      "de": "nur",
+      "de_alt": [],
+      "en": [
+        "only",
+        "just"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 40,
+      "example_de": "Ich habe nur fünf Euro dabei.",
+      "example_en": "I've only got five euros on me."
+    },
+    {
+      "id": "d-adj-0071",
+      "de": "schon",
+      "de_alt": [],
+      "en": [
+        "already",
+        "yet",
+        "ever"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 45,
+      "note": "also used for emphasis: Das ist schon cool.",
+      "example_de": "Bist du schon fertig?",
+      "example_en": "Are you finished already?"
+    },
+    {
+      "id": "d-adj-0072",
+      "de": "so",
+      "de_alt": [],
+      "en": [
+        "so",
+        "like this",
+        "like that",
+        "that way"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 35,
+      "example_de": "Mach es so wie ich.",
+      "example_en": "Do it like I do."
+    },
+    {
+      "id": "d-adj-0073",
+      "de": "jetzt",
+      "de_alt": [],
+      "en": [
+        "now"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 65,
+      "example_de": "Ich muss jetzt los.",
+      "example_en": "I have to go now."
+    },
+    {
+      "id": "d-adj-0074",
+      "de": "immer",
+      "de_alt": [],
+      "en": [
+        "always",
+        "every time"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 75,
+      "note": "immer noch = still; immer mehr = more and more",
+      "example_de": "Du kommst immer zu spät!",
+      "example_en": "You're always late!"
+    },
+    {
+      "id": "d-adj-0075",
+      "de": "sehr",
+      "de_alt": [],
+      "en": [
+        "very",
+        "very much",
+        "really"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 55,
+      "example_de": "Danke, das ist sehr nett.",
+      "example_en": "Thanks, that's very kind."
+    },
+    {
+      "id": "d-adj-0076",
+      "de": "wieder",
+      "de_alt": [],
+      "en": [
+        "again",
+        "back"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 90,
+      "example_de": "Das WLAN geht schon wieder nicht.",
+      "example_en": "The Wi-Fi isn't working again."
+    },
+    {
+      "id": "d-adj-0077",
+      "de": "hier",
+      "de_alt": [],
+      "en": [
+        "here"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A1",
+      "rank": 80,
+      "example_de": "Ich warte hier auf dich.",
+      "example_en": "I'll wait for you here."
+    },
+    {
+      "id": "d-adj-0078",
+      "de": "da",
+      "de_alt": [],
+      "en": [
+        "there",
+        "here",
+        "then"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A1",
+      "rank": 52,
+      "note": "Ist Paul da? = Is Paul here?",
+      "example_de": "Da drüben ist der Eingang.",
+      "example_en": "The entrance is over there."
+    },
+    {
+      "id": "d-adj-0079",
+      "de": "dort",
+      "de_alt": [],
+      "en": [
+        "there"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A1",
+      "rank": 190,
+      "example_de": "Dort ist die Bushaltestelle.",
+      "example_en": "The bus stop is there."
+    },
+    {
+      "id": "d-adj-0080",
+      "de": "heute",
+      "de_alt": [],
+      "en": [
+        "today"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 115,
+      "note": "heute Abend = this evening",
+      "example_de": "Heute haben wir nur fünf Stunden.",
+      "example_en": "We only have five lessons today."
+    },
+    {
+      "id": "d-adj-0081",
+      "de": "morgen",
+      "de_alt": [],
+      "en": [
+        "tomorrow"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 200,
+      "note": "morgen früh = tomorrow morning; der Morgen = the morning",
+      "example_de": "Morgen schreiben wir eine Arbeit.",
+      "example_en": "We have a test tomorrow."
+    },
+    {
+      "id": "d-adj-0082",
+      "de": "gestern",
+      "de_alt": [],
+      "en": [
+        "yesterday"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 350,
+      "note": "gestern Abend = last night",
+      "example_de": "Gestern war ich im Kino.",
+      "example_en": "I went to the cinema yesterday."
+    },
+    {
+      "id": "d-adj-0083",
+      "de": "dann",
+      "de_alt": [],
+      "en": [
+        "then",
+        "after that"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 58,
+      "example_de": "Erst Hausaufgaben, dann Handy.",
+      "example_en": "Homework first, then phone."
+    },
+    {
+      "id": "d-adj-0084",
+      "de": "gerade",
+      "de_alt": [],
+      "en": [
+        "just",
+        "right now",
+        "straight"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 240,
+      "note": "Ich bin gerade beschäftigt = I'm busy right now",
+      "example_de": "Ich esse gerade.",
+      "example_en": "I'm eating right now."
+    },
+    {
+      "id": "d-adj-0085",
+      "de": "bald",
+      "de_alt": [],
+      "en": [
+        "soon"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 380,
+      "note": "Bis bald! = See you soon!",
+      "example_de": "Die Ferien fangen bald an.",
+      "example_en": "The holidays start soon."
+    },
+    {
+      "id": "d-adj-0086",
+      "de": "oft",
+      "de_alt": [],
+      "en": [
+        "often",
+        "frequently"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 300,
+      "note": "öfter = more often",
+      "example_de": "Wie oft gehst du ins Training?",
+      "example_en": "How often do you go to training?"
+    },
+    {
+      "id": "d-adj-0087",
+      "de": "manchmal",
+      "de_alt": [],
+      "en": [
+        "sometimes"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 520,
+      "example_de": "Manchmal spiele ich bis Mitternacht.",
+      "example_en": "Sometimes I play until midnight."
+    },
+    {
+      "id": "d-adj-0088",
+      "de": "nie",
+      "de_alt": [],
+      "en": [
+        "never"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 320,
+      "note": "niemals = never ever",
+      "example_de": "Ich war noch nie in London.",
+      "example_en": "I've never been to London."
+    },
+    {
+      "id": "d-adj-0089",
+      "de": "selten",
+      "de_alt": [],
+      "en": [
+        "rarely",
+        "seldom"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A2",
+      "rank": 850,
+      "example_de": "Ich sehe meinen Cousin nur selten.",
+      "example_en": "I rarely see my cousin."
+    },
+    {
+      "id": "d-adj-0090",
+      "de": "meistens",
+      "de_alt": [],
+      "en": [
+        "usually",
+        "mostly"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A2",
+      "rank": 900,
+      "example_de": "Meistens fahre ich mit dem Bus.",
+      "example_en": "I usually take the bus."
+    },
+    {
+      "id": "d-adj-0091",
+      "de": "normalerweise",
+      "de_alt": [],
+      "en": [
+        "normally",
+        "usually"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A2",
+      "rank": 1200,
+      "example_de": "Normalerweise stehe ich um sieben auf.",
+      "example_en": "I normally get up at seven."
+    },
+    {
+      "id": "d-adj-0092",
+      "de": "eigentlich",
+      "de_alt": [],
+      "en": [
+        "actually",
+        "really"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 260,
+      "note": "softens statements: Eigentlich habe ich keine Lust.",
+      "example_de": "Eigentlich wollte ich heute lernen.",
+      "example_en": "Actually I wanted to study today."
+    },
+    {
+      "id": "d-adj-0093",
+      "de": "wirklich",
+      "de_alt": [],
+      "en": [
+        "really",
+        "truly"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 210,
+      "example_de": "Ist das wirklich wahr?",
+      "example_en": "Is that really true?"
+    },
+    {
+      "id": "d-adj-0094",
+      "de": "vielleicht",
+      "de_alt": [],
+      "en": [
+        "maybe",
+        "perhaps"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 230,
+      "example_de": "Vielleicht komme ich später.",
+      "example_en": "Maybe I'll come later."
+    },
+    {
+      "id": "d-adj-0095",
+      "de": "natürlich",
+      "de_alt": [],
+      "en": [
+        "of course",
+        "naturally",
+        "natural"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 250,
+      "example_de": "Natürlich helfe ich dir.",
+      "example_en": "Of course I'll help you."
+    },
+    {
+      "id": "d-adj-0096",
+      "de": "leider",
+      "de_alt": [],
+      "en": [
+        "unfortunately",
+        "sadly"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 420,
+      "example_de": "Ich kann leider nicht kommen.",
+      "example_en": "Unfortunately I can't come."
+    },
+    {
+      "id": "d-adj-0097",
+      "de": "gern",
+      "de_alt": [],
+      "en": [
+        "gladly",
+        "with pleasure"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A1",
+      "rank": 280,
+      "note": "gern + verb = like doing: Ich spiele gern.; lieber – am liebsten",
+      "example_de": "Ich lese gern Comics.",
+      "example_en": "I like reading comics."
+    },
+    {
+      "id": "d-adj-0098",
+      "de": "lieber",
+      "de_alt": [],
+      "en": [
+        "rather",
+        "preferably"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 700,
+      "note": "comparative of gern: Ich trinke lieber Tee = I prefer tea",
+      "example_de": "Ich bleibe lieber zu Hause.",
+      "example_en": "I'd rather stay at home."
+    },
+    {
+      "id": "d-adj-0099",
+      "de": "am liebsten",
+      "de_alt": [],
+      "en": [
+        "most of all",
+        "best"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 1100,
+      "note": "superlative of gern",
+      "example_de": "Am liebsten esse ich Pizza.",
+      "example_en": "I like pizza best."
+    },
+    {
+      "id": "d-adj-0100",
+      "de": "genau",
+      "de_alt": [],
+      "en": [
+        "exactly",
+        "precisely",
+        "exact"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 270,
+      "note": "Genau! = Exactly!",
+      "example_de": "Genau das meine ich.",
+      "example_en": "That's exactly what I mean."
+    },
+    {
+      "id": "d-adj-0101",
+      "de": "fast",
+      "de_alt": [],
+      "en": [
+        "almost",
+        "nearly"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 360,
+      "note": "false friend: not \"fast\" (= schnell)",
+      "example_de": "Ich bin fast fertig.",
+      "example_en": "I'm almost finished."
+    },
+    {
+      "id": "d-adj-0102",
+      "de": "ziemlich",
+      "de_alt": [],
+      "en": [
+        "quite",
+        "rather",
+        "pretty"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 600,
+      "example_de": "Das war ziemlich knapp.",
+      "example_en": "That was pretty close."
+    },
+    {
+      "id": "d-adj-0103",
+      "de": "besonders",
+      "de_alt": [],
+      "en": [
+        "especially",
+        "particularly"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 390,
+      "example_de": "Ich mag besonders die Musik.",
+      "example_en": "I especially like the music."
+    },
+    {
+      "id": "d-adj-0104",
+      "de": "echt",
+      "de_alt": [],
+      "en": [
+        "real",
+        "really",
+        "genuine"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 650,
+      "note": "colloquial \"really\": echt gut",
+      "example_de": "Das ist echt nervig.",
+      "example_en": "That's really annoying."
+    },
+    {
+      "id": "d-adj-0105",
+      "de": "total",
+      "de_alt": [],
+      "en": [
+        "totally",
+        "completely"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 750,
+      "note": "colloquial intensifier",
+      "example_de": "Ich habe es total vergessen.",
+      "example_en": "I totally forgot."
+    },
+    {
+      "id": "d-adj-0106",
+      "de": "wohl",
+      "de_alt": [],
+      "en": [
+        "probably",
+        "well",
+        "I suppose"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "B1",
+      "rank": 290,
+      "example_de": "Er ist wohl krank.",
+      "example_en": "He's probably ill."
+    },
+    {
+      "id": "d-adj-0107",
+      "de": "wahrscheinlich",
+      "de_alt": [],
+      "en": [
+        "probably",
+        "likely"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 480,
+      "example_de": "Ich komme wahrscheinlich etwas später.",
+      "example_en": "I'll probably come a bit later."
+    },
+    {
+      "id": "d-adj-0108",
+      "de": "bestimmt",
+      "de_alt": [],
+      "en": [
+        "definitely",
+        "certainly",
+        "surely"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 500,
+      "note": "also adj: certain, particular",
+      "example_de": "Das schaffst du bestimmt!",
+      "example_en": "You'll definitely manage it!"
+    },
+    {
+      "id": "d-adj-0109",
+      "de": "hoffentlich",
+      "de_alt": [],
+      "en": [
+        "hopefully"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 950,
+      "example_de": "Hoffentlich regnet es morgen nicht.",
+      "example_en": "Hopefully it won't rain tomorrow."
+    },
+    {
+      "id": "d-adj-0110",
+      "de": "sofort",
+      "de_alt": [],
+      "en": [
+        "immediately",
+        "right away",
+        "at once"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 560,
+      "example_de": "Komm sofort nach Hause!",
+      "example_en": "Come home right away!"
+    },
+    {
+      "id": "d-adj-0111",
+      "de": "endlich",
+      "de_alt": [],
+      "en": [
+        "finally",
+        "at last"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A2",
+      "rank": 580,
+      "example_de": "Endlich Wochenende!",
+      "example_en": "Finally, it's the weekend!"
+    },
+    {
+      "id": "d-adj-0112",
+      "de": "plötzlich",
+      "de_alt": [],
+      "en": [
+        "suddenly"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A2",
+      "rank": 640,
+      "example_de": "Plötzlich ging das Licht aus.",
+      "example_en": "Suddenly the light went out."
+    },
+    {
+      "id": "d-adj-0113",
+      "de": "zuerst",
+      "de_alt": [],
+      "en": [
+        "first",
+        "at first"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A2",
+      "rank": 620,
+      "example_de": "Zuerst machen wir die Hausaufgaben.",
+      "example_en": "First we'll do the homework."
+    },
+    {
+      "id": "d-adj-0114",
+      "de": "danach",
+      "de_alt": [],
+      "en": [
+        "afterwards",
+        "after that",
+        "then"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A2",
+      "rank": 540,
+      "example_de": "Danach gehen wir Eis essen.",
+      "example_en": "Afterwards we'll go for ice cream."
+    },
+    {
+      "id": "d-adj-0115",
+      "de": "vorher",
+      "de_alt": [],
+      "en": [
+        "before",
+        "beforehand"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A2",
+      "rank": 920,
+      "example_de": "Ruf mich vorher an.",
+      "example_en": "Call me beforehand."
+    },
+    {
+      "id": "d-adj-0116",
+      "de": "nachher",
+      "de_alt": [],
+      "en": [
+        "later",
+        "afterwards"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A2",
+      "rank": 1300,
+      "example_de": "Wir sehen uns nachher!",
+      "example_en": "See you later!"
+    },
+    {
+      "id": "d-adj-0117",
+      "de": "später",
+      "de_alt": [],
+      "en": [
+        "later"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A1",
+      "rank": 340,
+      "note": "comparative of spät",
+      "example_de": "Ich rufe dich später zurück.",
+      "example_en": "I'll call you back later."
+    },
+    {
+      "id": "d-adj-0118",
+      "de": "früher",
+      "de_alt": [],
+      "en": [
+        "earlier",
+        "in the past",
+        "used to"
+      ],
+      "pos": "adv",
+      "topic": "time",
+      "level": "A2",
+      "rank": 440,
+      "note": "früher + past = used to",
+      "example_de": "Früher habe ich Klavier gespielt.",
+      "example_en": "I used to play the piano."
+    },
+    {
+      "id": "d-adj-0119",
+      "de": "zusammen",
+      "de_alt": [],
+      "en": [
+        "together"
+      ],
+      "pos": "adv",
+      "topic": "social",
+      "level": "A1",
+      "rank": 410,
+      "example_de": "Wir lernen zusammen für den Test.",
+      "example_en": "We're studying together for the test."
+    },
+    {
+      "id": "d-adj-0120",
+      "de": "allein",
+      "de_alt": [],
+      "en": [
+        "alone",
+        "on one's own",
+        "by oneself"
+      ],
+      "pos": "adv",
+      "topic": "social",
+      "level": "A2",
+      "rank": 460,
+      "note": "also: alleine (colloquial)",
+      "example_de": "Ich gehe nicht gern allein nach Hause.",
+      "example_en": "I don't like walking home alone."
+    },
+    {
+      "id": "d-adj-0121",
+      "de": "trotzdem",
+      "de_alt": [],
+      "en": [
+        "anyway",
+        "nevertheless",
+        "still"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 700,
+      "example_de": "Es regnet, aber wir gehen trotzdem raus.",
+      "example_en": "It's raining, but we're going out anyway."
+    },
+    {
+      "id": "d-adj-0122",
+      "de": "deshalb",
+      "de_alt": [],
+      "en": [
+        "that's why",
+        "therefore",
+        "so"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 550,
+      "note": "verb comes next: Deshalb bin ich müde.",
+      "example_de": "Ich war krank, deshalb war ich nicht da.",
+      "example_en": "I was ill, that's why I wasn't there."
+    },
+    {
+      "id": "d-adj-0123",
+      "de": "also",
+      "de_alt": [],
+      "en": [
+        "so",
+        "well",
+        "therefore"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 110,
+      "note": "false friend: not \"also\" (= auch)",
+      "example_de": "Also, was machen wir jetzt?",
+      "example_en": "So, what are we doing now?"
+    },
+    {
+      "id": "d-adj-0124",
+      "de": "sonst",
+      "de_alt": [],
+      "en": [
+        "otherwise",
+        "or else",
+        "usually"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 470,
+      "note": "Sonst noch etwas? = Anything else?",
+      "example_de": "Beeil dich, sonst verpassen wir den Bus.",
+      "example_en": "Hurry up, otherwise we'll miss the bus."
+    },
+    {
+      "id": "d-adj-0125",
+      "de": "überhaupt",
+      "de_alt": [],
+      "en": [
+        "at all",
+        "even",
+        "anyway"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 430,
+      "note": "überhaupt nicht = not at all",
+      "example_de": "Das ist überhaupt nicht lustig.",
+      "example_en": "That's not funny at all."
+    },
+    {
+      "id": "d-adj-0126",
+      "de": "übrigens",
+      "de_alt": [],
+      "en": [
+        "by the way"
+      ],
+      "pos": "adv",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 1000,
+      "example_de": "Übrigens, hast du morgen Zeit?",
+      "example_en": "By the way, are you free tomorrow?"
+    },
+    {
+      "id": "d-adj-0127",
+      "de": "draußen",
+      "de_alt": [],
+      "en": [
+        "outside",
+        "outdoors"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A2",
+      "rank": 980,
+      "example_de": "Lass uns draußen spielen!",
+      "example_en": "Let's play outside!"
+    },
+    {
+      "id": "d-adj-0128",
+      "de": "drinnen",
+      "de_alt": [],
+      "en": [
+        "inside",
+        "indoors"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Bei Regen bleiben wir drinnen.",
+      "example_en": "When it rains we stay inside."
+    },
+    {
+      "id": "d-adj-0129",
+      "de": "oben",
+      "de_alt": [],
+      "en": [
+        "up",
+        "upstairs",
+        "at the top",
+        "above"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A2",
+      "rank": 680,
+      "example_de": "Mein Zimmer ist oben.",
+      "example_en": "My room is upstairs."
+    },
+    {
+      "id": "d-adj-0130",
+      "de": "unten",
+      "de_alt": [],
+      "en": [
+        "down",
+        "downstairs",
+        "at the bottom",
+        "below"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A2",
+      "rank": 720,
+      "example_de": "Ich warte unten auf dich.",
+      "example_en": "I'll wait for you downstairs."
+    },
+    {
+      "id": "d-adj-0131",
+      "de": "links",
+      "de_alt": [],
+      "en": [
+        "left",
+        "on the left"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A1",
+      "rank": 800,
+      "example_de": "Die Toilette ist links.",
+      "example_en": "The toilet is on the left."
+    },
+    {
+      "id": "d-adj-0132",
+      "de": "rechts",
+      "de_alt": [],
+      "en": [
+        "right",
+        "on the right"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A1",
+      "rank": 800,
+      "example_de": "Geh an der Ampel nach rechts.",
+      "example_en": "Turn right at the traffic lights."
+    },
+    {
+      "id": "d-adj-0133",
+      "de": "geradeaus",
+      "de_alt": [],
+      "en": [
+        "straight ahead",
+        "straight on"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A1",
+      "rank": 2200,
+      "example_de": "Geh einfach geradeaus.",
+      "example_en": "Just go straight on."
+    },
+    {
+      "id": "d-adj-0134",
+      "de": "weit",
+      "de_alt": [],
+      "en": [
+        "far",
+        "wide"
+      ],
+      "pos": "adj",
+      "topic": "place",
+      "level": "A2",
+      "rank": 340,
+      "note": "weiter – am weitesten; weiter = further, on",
+      "example_de": "Ist es weit bis zum Bahnhof?",
+      "example_en": "Is it far to the station?"
+    },
+    {
+      "id": "d-adj-0135",
+      "de": "nah",
+      "de_alt": [],
+      "en": [
+        "near",
+        "close"
+      ],
+      "pos": "adj",
+      "topic": "place",
+      "level": "A2",
+      "rank": 700,
+      "note": "näher – am nächsten",
+      "example_de": "Die Schule ist ganz nah.",
+      "example_en": "The school is really close."
+    },
+    {
+      "id": "d-adj-0136",
+      "de": "teuer",
+      "de_alt": [],
+      "en": [
+        "expensive",
+        "dear"
+      ],
+      "pos": "adj",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 740,
+      "note": "drops e before endings: ein teures Handy",
+      "example_de": "Die Sneaker sind mir zu teuer.",
+      "example_en": "The sneakers are too expensive for me."
+    },
+    {
+      "id": "d-adj-0137",
+      "de": "billig",
+      "de_alt": [],
+      "en": [
+        "cheap"
+      ],
+      "pos": "adj",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Im Internet ist es billiger.",
+      "example_en": "It's cheaper online."
+    },
+    {
+      "id": "d-adj-0138",
+      "de": "günstig",
+      "de_alt": [],
+      "en": [
+        "cheap",
+        "good value",
+        "affordable"
+      ],
+      "pos": "adj",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 1600,
+      "note": "more positive than billig",
+      "example_de": "Das Ticket ist ziemlich günstig.",
+      "example_en": "The ticket is pretty cheap."
+    },
+    {
+      "id": "d-adj-0139",
+      "de": "warm",
+      "de_alt": [],
+      "en": [
+        "warm"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "A1",
+      "rank": 760,
+      "note": "wärmer – am wärmsten",
+      "example_de": "Heute ist es richtig warm.",
+      "example_en": "It's really warm today."
+    },
+    {
+      "id": "d-adj-0140",
+      "de": "kalt",
+      "de_alt": [],
+      "en": [
+        "cold"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "A1",
+      "rank": 700,
+      "note": "kälter – am kältesten; Mir ist kalt = I'm cold",
+      "example_de": "Mir ist so kalt!",
+      "example_en": "I'm so cold!"
+    },
+    {
+      "id": "d-adj-0141",
+      "de": "heiß",
+      "de_alt": [],
+      "en": [
+        "hot"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "A1",
+      "rank": 1000,
+      "example_de": "Im Sommer ist es hier sehr heiß.",
+      "example_en": "It's very hot here in summer."
+    },
+    {
+      "id": "d-adj-0142",
+      "de": "kühl",
+      "de_alt": [],
+      "en": [
+        "cool",
+        "chilly"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Abends wird es schon kühl.",
+      "example_en": "It's already getting chilly in the evenings."
+    },
+    {
+      "id": "d-adj-0143",
+      "de": "sonnig",
+      "de_alt": [],
+      "en": [
+        "sunny"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "A1",
+      "rank": 2500,
+      "example_de": "Morgen wird es sonnig.",
+      "example_en": "It will be sunny tomorrow."
+    },
+    {
+      "id": "d-adj-0144",
+      "de": "nass",
+      "de_alt": [],
+      "en": [
+        "wet"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Meine Schuhe sind ganz nass.",
+      "example_en": "My shoes are completely wet."
+    },
+    {
+      "id": "d-adj-0145",
+      "de": "trocken",
+      "de_alt": [],
+      "en": [
+        "dry"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Ist die Wäsche schon trocken?",
+      "example_en": "Is the washing dry yet?"
+    },
+    {
+      "id": "d-adj-0146",
+      "de": "hell",
+      "de_alt": [],
+      "en": [
+        "light",
+        "bright"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 1000,
+      "example_de": "Mein Zimmer ist schön hell.",
+      "example_en": "My room is nice and bright."
+    },
+    {
+      "id": "d-adj-0147",
+      "de": "dunkel",
+      "de_alt": [],
+      "en": [
+        "dark"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 900,
+      "note": "drops e before endings: ein dunkles Zimmer",
+      "example_de": "Im Winter ist es früh dunkel.",
+      "example_en": "In winter it gets dark early."
+    },
+    {
+      "id": "d-adj-0148",
+      "de": "laut",
+      "de_alt": [],
+      "en": [
+        "loud",
+        "noisy",
+        "loudly"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A1",
+      "rank": 780,
+      "note": "also prep \"according to\"",
+      "example_de": "Mach die Musik nicht so laut!",
+      "example_en": "Don't play the music so loud!"
+    },
+    {
+      "id": "d-adj-0149",
+      "de": "leise",
+      "de_alt": [],
+      "en": [
+        "quiet",
+        "quietly",
+        "soft"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Sei bitte leise, ich telefoniere.",
+      "example_en": "Please be quiet, I'm on the phone."
+    },
+    {
+      "id": "d-adj-0150",
+      "de": "ruhig",
+      "de_alt": [],
+      "en": [
+        "quiet",
+        "calm",
+        "peaceful"
+      ],
+      "pos": "adj",
+      "topic": "description",
+      "level": "A2",
+      "rank": 1100,
+      "note": "also: go ahead (Frag ruhig!)",
+      "example_de": "Bleib ruhig!",
+      "example_en": "Stay calm!"
+    },
+    {
+      "id": "d-adj-0151",
+      "de": "sauber",
+      "de_alt": [],
+      "en": [
+        "clean"
+      ],
+      "pos": "adj",
+      "topic": "home",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Ist dein Zimmer jetzt sauber?",
+      "example_en": "Is your room clean now?"
+    },
+    {
+      "id": "d-adj-0152",
+      "de": "schmutzig",
+      "de_alt": [],
+      "en": [
+        "dirty"
+      ],
+      "pos": "adj",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2200,
+      "note": "colloquial: dreckig",
+      "example_de": "Deine Schuhe sind total schmutzig.",
+      "example_en": "Your shoes are really dirty."
+    },
+    {
+      "id": "d-adj-0153",
+      "de": "kaputt",
+      "de_alt": [],
+      "en": [
+        "broken",
+        "worn out"
+      ],
+      "pos": "adj",
+      "topic": "basics",
+      "level": "A1",
+      "rank": 1200,
+      "note": "colloquial: Ich bin kaputt = I'm exhausted",
+      "example_de": "Mein Handydisplay ist kaputt.",
+      "example_en": "My phone screen is broken."
+    },
+    {
+      "id": "d-adj-0154",
+      "de": "lecker",
+      "de_alt": [],
+      "en": [
+        "tasty",
+        "delicious",
+        "yummy"
+      ],
+      "pos": "adj",
+      "topic": "food",
+      "level": "A1",
+      "rank": 1700,
+      "example_de": "Die Pizza war mega lecker!",
+      "example_en": "The pizza was really delicious!"
+    },
+    {
+      "id": "d-adj-0155",
+      "de": "satt",
+      "de_alt": [],
+      "en": [
+        "full"
+      ],
+      "pos": "adj",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2400,
+      "note": "Ich bin satt = I'm full",
+      "example_de": "Danke, ich bin schon satt.",
+      "example_en": "Thanks, I'm already full."
+    },
+    {
+      "id": "d-adj-0156",
+      "de": "hungrig",
+      "de_alt": [],
+      "en": [
+        "hungry"
+      ],
+      "pos": "adj",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2600,
+      "note": "more common: Ich habe Hunger",
+      "example_de": "Nach dem Training bin ich immer hungrig.",
+      "example_en": "I'm always hungry after training."
+    },
+    {
+      "id": "d-adj-0157",
+      "de": "beliebt",
+      "de_alt": [],
+      "en": [
+        "popular"
+      ],
+      "pos": "adj",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Das Spiel ist bei Jugendlichen sehr beliebt.",
+      "example_en": "The game is very popular with teenagers."
+    },
+    {
+      "id": "d-adj-0158",
+      "de": "peinlich",
+      "de_alt": [],
+      "en": [
+        "embarrassing",
+        "awkward"
+      ],
+      "pos": "adj",
+      "topic": "feelings",
+      "level": "B1",
+      "rank": 2500,
+      "example_de": "Das war so peinlich!",
+      "example_en": "That was so embarrassing!"
+    },
+    {
+      "id": "d-adj-0159",
+      "de": "nervig",
+      "de_alt": [],
+      "en": [
+        "annoying"
+      ],
+      "pos": "adj",
+      "topic": "feelings",
+      "level": "B1",
+      "rank": 3000,
+      "note": "colloquial",
+      "example_de": "Die Werbung ist so nervig.",
+      "example_en": "The adverts are so annoying."
+    },
+    {
+      "id": "d-adj-0160",
+      "de": "hübsch",
+      "de_alt": [],
+      "en": [
+        "pretty",
+        "good-looking"
+      ],
+      "pos": "adj",
+      "topic": "appearance",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Du siehst heute hübsch aus.",
+      "example_en": "You look pretty today."
+    },
+    {
+      "id": "d-adj-0161",
+      "de": "süß",
+      "de_alt": [],
+      "en": [
+        "sweet",
+        "cute"
+      ],
+      "pos": "adj",
+      "topic": "appearance",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Dein Hund ist so süß!",
+      "example_en": "Your dog is so cute!"
+    },
+    {
+      "id": "d-adj-0162",
+      "de": "hässlich",
+      "de_alt": [],
+      "en": [
+        "ugly"
+      ],
+      "pos": "adj",
+      "topic": "appearance",
+      "level": "A2",
+      "rank": 2500,
+      "example_de": "Ich finde den Pulli echt hässlich.",
+      "example_en": "I think the jumper is really ugly."
+    },
+    {
+      "id": "d-adj-0163",
+      "de": "dick",
+      "de_alt": [],
+      "en": [
+        "thick",
+        "fat"
+      ],
+      "pos": "adj",
+      "topic": "appearance",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Das Buch ist ganz schön dick.",
+      "example_en": "The book is pretty thick."
+    },
+    {
+      "id": "d-adj-0164",
+      "de": "dünn",
+      "de_alt": [],
+      "en": [
+        "thin"
+      ],
+      "pos": "adj",
+      "topic": "appearance",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Die Wände hier sind sehr dünn.",
+      "example_en": "The walls here are very thin."
+    },
+    {
+      "id": "d-adj-0165",
+      "de": "fleißig",
+      "de_alt": [],
+      "en": [
+        "hard-working",
+        "diligent"
+      ],
+      "pos": "adj",
+      "topic": "personality",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Du warst heute aber fleißig!",
+      "example_en": "You've been really hard-working today!"
+    },
+    {
+      "id": "d-adj-0166",
+      "de": "faul",
+      "de_alt": [],
+      "en": [
+        "lazy",
+        "rotten"
+      ],
+      "pos": "adj",
+      "topic": "personality",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Am Sonntag bin ich gern faul.",
+      "example_en": "I like being lazy on Sundays."
+    },
+    {
+      "id": "d-adj-0167",
+      "de": "ehrlich",
+      "de_alt": [],
+      "en": [
+        "honest",
+        "honestly"
+      ],
+      "pos": "adj",
+      "topic": "personality",
+      "level": "A2",
+      "rank": 1300,
+      "note": "Ehrlich? = Really?",
+      "example_de": "Sei ehrlich, wie findest du es?",
+      "example_en": "Be honest, what do you think of it?"
+    },
+    {
+      "id": "d-adj-0168",
+      "de": "höflich",
+      "de_alt": [],
+      "en": [
+        "polite"
+      ],
+      "pos": "adj",
+      "topic": "personality",
+      "level": "B1",
+      "rank": 3200,
+      "note": "unhöflich = rude",
+      "example_de": "Sei bitte höflich zu den Gästen.",
+      "example_en": "Please be polite to the guests."
+    },
+    {
+      "id": "d-adj-0169",
+      "de": "mutig",
+      "de_alt": [],
+      "en": [
+        "brave",
+        "courageous"
+      ],
+      "pos": "adj",
+      "topic": "personality",
+      "level": "B1",
+      "rank": 3000,
+      "example_de": "Das war echt mutig von dir.",
+      "example_en": "That was really brave of you."
+    },
+    {
+      "id": "d-adj-0170",
+      "de": "wahr",
+      "de_alt": [],
+      "en": [
+        "true"
+      ],
+      "pos": "adj",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 650,
+      "note": "nicht wahr? = isn't it?",
+      "example_de": "Das ist nicht wahr!",
+      "example_en": "That's not true!"
+    },
+    {
+      "id": "d-adj-0171",
+      "de": "typisch",
+      "de_alt": [],
+      "en": [
+        "typical"
+      ],
+      "pos": "adj",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 1000,
+      "example_de": "Typisch Montag!",
+      "example_en": "Typical Monday!"
+    },
+    {
+      "id": "d-adj-0172",
+      "de": "normal",
+      "de_alt": [],
+      "en": [
+        "normal"
+      ],
+      "pos": "adj",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 800,
+      "example_de": "Ist das normal?",
+      "example_en": "Is that normal?"
+    },
+    {
+      "id": "d-adj-0173",
+      "de": "komisch",
+      "de_alt": [],
+      "en": [
+        "strange",
+        "weird",
+        "funny"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 1700,
+      "note": "funny = odd, not ha-ha",
+      "example_de": "Das Essen schmeckt komisch.",
+      "example_en": "The food tastes weird."
+    },
+    {
+      "id": "d-adj-0174",
+      "de": "seltsam",
+      "de_alt": [],
+      "en": [
+        "strange",
+        "odd",
+        "weird"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "B1",
+      "rank": 2000,
+      "example_de": "Er benimmt sich heute so seltsam.",
+      "example_en": "He's behaving so strangely today."
+    },
+    {
+      "id": "d-adj-0175",
+      "de": "schrecklich",
+      "de_alt": [],
+      "en": [
+        "terrible",
+        "awful",
+        "horrible"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Das Wetter ist schrecklich.",
+      "example_en": "The weather is terrible."
+    },
+    {
+      "id": "d-adj-0176",
+      "de": "furchtbar",
+      "de_alt": [],
+      "en": [
+        "terrible",
+        "awful",
+        "dreadful"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Ich hatte furchtbare Kopfschmerzen.",
+      "example_en": "I had terrible headaches."
+    },
+    {
+      "id": "d-adj-0177",
+      "de": "perfekt",
+      "de_alt": [],
+      "en": [
+        "perfect"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Das Wetter ist perfekt zum Baden.",
+      "example_en": "The weather is perfect for swimming."
+    },
+    {
+      "id": "d-adj-0178",
+      "de": "wunderbar",
+      "de_alt": [],
+      "en": [
+        "wonderful",
+        "marvellous"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Wir hatten einen wunderbaren Urlaub.",
+      "example_en": "We had a wonderful holiday."
+    },
+    {
+      "id": "d-adj-0179",
+      "de": "fair",
+      "de_alt": [],
+      "en": [
+        "fair"
+      ],
+      "pos": "adj",
+      "topic": "opinion",
+      "level": "B1",
+      "rank": 2600,
+      "note": "unfair = unfair",
+      "example_de": "Das ist nicht fair!",
+      "example_en": "That's not fair!"
+    },
+    {
+      "id": "d-adj-0180",
+      "de": "bunt",
+      "de_alt": [],
+      "en": [
+        "colourful",
+        "colorful",
+        "multicoloured"
+      ],
+      "pos": "adj",
+      "topic": "colours",
+      "level": "A1",
+      "rank": 2100,
+      "example_de": "Sie trägt gern bunte Klamotten.",
+      "example_en": "She likes wearing colourful clothes."
+    },
+    {
+      "id": "d-adj-0181",
+      "de": "schwarz",
+      "de_alt": [],
+      "en": [
+        "black"
+      ],
+      "pos": "adj",
+      "topic": "colours",
+      "level": "A1",
+      "rank": 600,
+      "example_de": "Ich hätte gern die schwarze Jacke.",
+      "example_en": "I'd like the black jacket."
+    },
+    {
+      "id": "d-adj-0182",
+      "de": "weiß",
+      "de_alt": [],
+      "en": [
+        "white"
+      ],
+      "pos": "adj",
+      "topic": "colours",
+      "level": "A1",
+      "rank": 650,
+      "example_de": "Meine Sneaker sind weiß.",
+      "example_en": "My sneakers are white."
+    },
+    {
+      "id": "d-adj-0183",
+      "de": "rot",
+      "de_alt": [],
+      "en": [
+        "red"
+      ],
+      "pos": "adj",
+      "topic": "colours",
+      "level": "A1",
+      "rank": 700,
+      "example_de": "Er wird immer rot, wenn er lügt.",
+      "example_en": "He always goes red when he lies."
+    },
+    {
+      "id": "d-adj-0184",
+      "de": "blau",
+      "de_alt": [],
+      "en": [
+        "blue"
+      ],
+      "pos": "adj",
+      "topic": "colours",
+      "level": "A1",
+      "rank": 900,
+      "note": "colloquial: blau sein = be drunk",
+      "example_de": "Der Himmel ist heute so blau.",
+      "example_en": "The sky is so blue today."
+    },
+    {
+      "id": "d-adj-0185",
+      "de": "grün",
+      "de_alt": [],
+      "en": [
+        "green"
+      ],
+      "pos": "adj",
+      "topic": "colours",
+      "level": "A1",
+      "rank": 850,
+      "example_de": "Die Ampel ist grün.",
+      "example_en": "The traffic light is green."
+    },
+    {
+      "id": "d-adj-0186",
+      "de": "gelb",
+      "de_alt": [],
+      "en": [
+        "yellow"
+      ],
+      "pos": "adj",
+      "topic": "colours",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Ich mag den gelben Pulli.",
+      "example_en": "I like the yellow jumper."
+    },
+    {
+      "id": "d-adj-0187",
+      "de": "grau",
+      "de_alt": [],
+      "en": [
+        "grey",
+        "gray"
+      ],
+      "pos": "adj",
+      "topic": "colours",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Der Himmel ist heute grau.",
+      "example_en": "The sky is grey today."
+    },
+    {
+      "id": "d-adj-0188",
+      "de": "braun",
+      "de_alt": [],
+      "en": [
+        "brown"
+      ],
+      "pos": "adj",
+      "topic": "colours",
+      "level": "A1",
+      "rank": 1600,
+      "example_de": "Sie hat braune Augen.",
+      "example_en": "She has brown eyes."
+    },
+    {
+      "id": "d-adj-0189",
+      "de": "rosa",
+      "de_alt": [
+        "pink"
+      ],
+      "en": [
+        "pink"
+      ],
+      "pos": "adj",
+      "topic": "colours",
+      "level": "A1",
+      "rank": 2800,
+      "note": "no endings in standard German: ein rosa Kleid",
+      "example_de": "Ihr Handy ist rosa.",
+      "example_en": "Her phone is pink."
+    },
+    {
+      "id": "d-adj-0190",
+      "de": "lila",
+      "de_alt": [],
+      "en": [
+        "purple",
+        "lilac"
+      ],
+      "pos": "adj",
+      "topic": "colours",
+      "level": "A1",
+      "rank": 3000,
+      "note": "no endings: ein lila T-Shirt",
+      "example_de": "Er hat sich die Haare lila gefärbt.",
+      "example_en": "He dyed his hair purple."
+    },
+    {
+      "id": "d-adj-0191",
+      "de": "unterwegs",
+      "de_alt": [],
+      "en": [
+        "on the way",
+        "out and about"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Ich bin schon unterwegs.",
+      "example_en": "I'm already on my way."
+    },
+    {
+      "id": "d-adj-0192",
+      "de": "überall",
+      "de_alt": [],
+      "en": [
+        "everywhere"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A2",
+      "rank": 900,
+      "example_de": "Ich habe überall gesucht.",
+      "example_en": "I've looked everywhere."
+    },
+    {
+      "id": "d-adj-0193",
+      "de": "irgendwo",
+      "de_alt": [],
+      "en": [
+        "somewhere",
+        "anywhere"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "B1",
+      "rank": 1500,
+      "example_de": "Mein Schlüssel muss irgendwo hier sein.",
+      "example_en": "My key must be here somewhere."
+    },
+    {
+      "id": "d-adj-0194",
+      "de": "weg",
+      "de_alt": [],
+      "en": [
+        "away",
+        "gone"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A2",
+      "rank": 520,
+      "note": "Mein Geld ist weg = My money is gone",
+      "example_de": "Mein Handy ist weg!",
+      "example_en": "My phone is gone!"
+    },
+    {
+      "id": "d-adj-0195",
+      "de": "zurück",
+      "de_alt": [],
+      "en": [
+        "back"
+      ],
+      "pos": "adv",
+      "topic": "place",
+      "level": "A2",
+      "rank": 480,
+      "example_de": "Ich bin um zehn zurück.",
+      "example_en": "I'll be back at ten."
+    },
+    {
+      "id": "d-adj-0196",
+      "de": "kaum",
+      "de_alt": [],
+      "en": [
+        "hardly",
+        "barely",
+        "scarcely"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "B1",
+      "rank": 700,
+      "example_de": "Ich habe kaum geschlafen.",
+      "example_en": "I hardly slept."
+    },
+    {
+      "id": "d-adj-0197",
+      "de": "ungefähr",
+      "de_alt": [],
+      "en": [
+        "about",
+        "approximately",
+        "roughly"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 1000,
+      "example_de": "Wir brauchen ungefähr zehn Minuten.",
+      "example_en": "We need about ten minutes."
+    },
+    {
+      "id": "d-adj-0198",
+      "de": "sogar",
+      "de_alt": [],
+      "en": [
+        "even"
+      ],
+      "pos": "adv",
+      "topic": "basics",
+      "level": "A2",
+      "rank": 450,
+      "example_de": "Er hat mir sogar geholfen.",
+      "example_en": "He even helped me."
+    },
+    {
+      "id": "d-adj-0199",
+      "de": "unbedingt",
+      "de_alt": [],
+      "en": [
+        "absolutely",
+        "definitely",
+        "really"
+      ],
+      "pos": "adv",
+      "topic": "opinion",
+      "level": "B1",
+      "rank": 1300,
+      "example_de": "Den Film musst du unbedingt sehen!",
+      "example_en": "You absolutely have to see this film!"
+    }
+  ]
+}

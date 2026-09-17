@@ -1,0 +1,1334 @@
+{
+  "bank": "stem",
+  "title": "STEM German — biology",
+  "words": [
+    {
+      "id": "s-bio-0001",
+      "de": "die Biologie",
+      "de_alt": [],
+      "en": [
+        "biology"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "cells",
+      "level": "A2",
+      "rank": 4,
+      "note": "at school often just „Bio“",
+      "example_de": "In Biologie lernen wir gerade über Zellen.",
+      "example_en": "In biology we're currently learning about cells."
+    },
+    {
+      "id": "s-bio-0002",
+      "de": "die Zelle",
+      "de_alt": [],
+      "en": [
+        "cell"
+      ],
+      "pos": "noun",
+      "plural": "die Zellen",
+      "topic": "cells",
+      "level": "A2",
+      "rank": 9,
+      "note": "also: prison cell, battery cell",
+      "example_de": "Alle Lebewesen bestehen aus Zellen.",
+      "example_en": "All living things are made of cells."
+    },
+    {
+      "id": "s-bio-0003",
+      "de": "das Lebewesen",
+      "de_alt": [
+        "der Organismus"
+      ],
+      "en": [
+        "living thing",
+        "organism",
+        "living being"
+      ],
+      "pos": "noun",
+      "plural": "die Lebewesen",
+      "topic": "ecology",
+      "level": "A2",
+      "rank": 14,
+      "example_de": "Bakterien sind winzige Lebewesen.",
+      "example_en": "Bacteria are tiny living things."
+    },
+    {
+      "id": "s-bio-0004",
+      "de": "der Körper",
+      "de_alt": [],
+      "en": [
+        "body"
+      ],
+      "pos": "noun",
+      "plural": "die Körper",
+      "topic": "body",
+      "level": "A2",
+      "rank": 19,
+      "note": "in physics also: object, solid",
+      "example_de": "Der menschliche Körper besteht zu 60 Prozent aus Wasser.",
+      "example_en": "The human body is 60 percent water."
+    },
+    {
+      "id": "s-bio-0005",
+      "de": "das Organ",
+      "de_alt": [],
+      "en": [
+        "organ"
+      ],
+      "pos": "noun",
+      "plural": "die Organe",
+      "topic": "body",
+      "level": "A2",
+      "rank": 24,
+      "example_de": "Die Haut ist das größte Organ des Menschen.",
+      "example_en": "Skin is the largest human organ."
+    },
+    {
+      "id": "s-bio-0006",
+      "de": "das Gen",
+      "de_alt": [],
+      "en": [
+        "gene"
+      ],
+      "pos": "noun",
+      "plural": "die Gene",
+      "topic": "genetics",
+      "level": "B1",
+      "rank": 29,
+      "note": "pronounced with a hard g: „Gehn“",
+      "example_de": "Dieses Gen bestimmt die Augenfarbe.",
+      "example_en": "This gene determines eye colour."
+    },
+    {
+      "id": "s-bio-0007",
+      "de": "die DNA",
+      "de_alt": [
+        "die DNS"
+      ],
+      "en": [
+        "DNA"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "genetics",
+      "level": "B1",
+      "rank": 34,
+      "note": "DNS = German abbreviation, now less common",
+      "example_de": "Die DNA liegt im Zellkern.",
+      "example_en": "DNA is found in the cell nucleus."
+    },
+    {
+      "id": "s-bio-0008",
+      "de": "die Pflanze",
+      "de_alt": [],
+      "en": [
+        "plant"
+      ],
+      "pos": "noun",
+      "plural": "die Pflanzen",
+      "topic": "ecology",
+      "level": "A2",
+      "rank": 39,
+      "example_de": "Pflanzen brauchen Licht zum Wachsen.",
+      "example_en": "Plants need light to grow."
+    },
+    {
+      "id": "s-bio-0009",
+      "de": "das Blut",
+      "de_alt": [],
+      "en": [
+        "blood"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "body",
+      "level": "A2",
+      "rank": 44,
+      "example_de": "Das Herz pumpt Blut durch den Körper.",
+      "example_en": "The heart pumps blood through the body."
+    },
+    {
+      "id": "s-bio-0010",
+      "de": "das Gehirn",
+      "de_alt": [
+        "das Hirn"
+      ],
+      "en": [
+        "brain"
+      ],
+      "pos": "noun",
+      "plural": "die Gehirne",
+      "topic": "body",
+      "level": "A2",
+      "rank": 49,
+      "example_de": "Das Gehirn verbraucht viel Energie.",
+      "example_en": "The brain uses a lot of energy."
+    },
+    {
+      "id": "s-bio-0011",
+      "de": "die Evolution",
+      "de_alt": [],
+      "en": [
+        "evolution"
+      ],
+      "pos": "noun",
+      "plural": "die Evolutionen",
+      "topic": "evolution",
+      "level": "B1",
+      "rank": 54,
+      "example_de": "Darwin erklärte die Evolution durch natürliche Selektion.",
+      "example_en": "Darwin explained evolution through natural selection."
+    },
+    {
+      "id": "s-bio-0012",
+      "de": "die Art",
+      "de_alt": [],
+      "en": [
+        "species",
+        "type",
+        "kind"
+      ],
+      "pos": "noun",
+      "plural": "die Arten",
+      "topic": "evolution",
+      "level": "B1",
+      "rank": 59,
+      "note": "also: way, manner",
+      "example_de": "Jedes Jahr sterben viele Arten aus.",
+      "example_en": "Many species die out every year."
+    },
+    {
+      "id": "s-bio-0013",
+      "de": "die Umwelt",
+      "de_alt": [],
+      "en": [
+        "environment"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "ecology",
+      "level": "A2",
+      "rank": 64,
+      "example_de": "Plastikmüll schadet der Umwelt.",
+      "example_en": "Plastic waste harms the environment."
+    },
+    {
+      "id": "s-bio-0014",
+      "de": "atmen",
+      "de_alt": [],
+      "en": [
+        "to breathe"
+      ],
+      "pos": "verb",
+      "topic": "body",
+      "level": "A2",
+      "rank": 69,
+      "example_de": "Fische atmen mit Kiemen.",
+      "example_en": "Fish breathe with gills."
+    },
+    {
+      "id": "s-bio-0015",
+      "de": "die Ernährung",
+      "de_alt": [],
+      "en": [
+        "nutrition",
+        "diet"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "body",
+      "level": "B1",
+      "rank": 74,
+      "note": "sich ernähren = to feed on, to eat",
+      "example_de": "Eine gesunde Ernährung ist wichtig für das Wachstum.",
+      "example_en": "A healthy diet is important for growth."
+    },
+    {
+      "id": "s-bio-0016",
+      "de": "das Wachstum",
+      "de_alt": [],
+      "en": [
+        "growth"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "cells",
+      "level": "B1",
+      "rank": 79,
+      "note": "wachsen = to grow",
+      "example_de": "Hormone steuern das Wachstum.",
+      "example_en": "Hormones control growth."
+    },
+    {
+      "id": "s-bio-0017",
+      "de": "der Zellkern",
+      "de_alt": [],
+      "en": [
+        "cell nucleus",
+        "nucleus"
+      ],
+      "pos": "noun",
+      "plural": "die Zellkerne",
+      "topic": "cells",
+      "level": "B1",
+      "rank": 101,
+      "example_de": "Der Zellkern enthält die Erbinformation.",
+      "example_en": "The nucleus contains the genetic information."
+    },
+    {
+      "id": "s-bio-0018",
+      "de": "die Zellmembran",
+      "de_alt": [],
+      "en": [
+        "cell membrane",
+        "membrane"
+      ],
+      "pos": "noun",
+      "plural": "die Zellmembranen",
+      "topic": "cells",
+      "level": "B1",
+      "rank": 106,
+      "example_de": "Die Zellmembran umgibt die Zelle.",
+      "example_en": "The cell membrane surrounds the cell."
+    },
+    {
+      "id": "s-bio-0019",
+      "de": "die Zellwand",
+      "de_alt": [],
+      "en": [
+        "cell wall"
+      ],
+      "pos": "noun",
+      "plural": "die Zellwände",
+      "topic": "cells",
+      "level": "B1",
+      "rank": 111,
+      "example_de": "Pflanzenzellen haben eine feste Zellwand.",
+      "example_en": "Plant cells have a rigid cell wall."
+    },
+    {
+      "id": "s-bio-0020",
+      "de": "die Zellteilung",
+      "de_alt": [
+        "die Mitose"
+      ],
+      "en": [
+        "cell division",
+        "mitosis"
+      ],
+      "pos": "noun",
+      "plural": "die Zellteilungen",
+      "topic": "cells",
+      "level": "B1",
+      "rank": 116,
+      "example_de": "Durch Zellteilung wächst der Körper.",
+      "example_en": "The body grows through cell division."
+    },
+    {
+      "id": "s-bio-0021",
+      "de": "das Bakterium",
+      "de_alt": [],
+      "en": [
+        "bacterium",
+        "bacteria"
+      ],
+      "pos": "noun",
+      "plural": "die Bakterien",
+      "topic": "cells",
+      "level": "B1",
+      "rank": 121,
+      "note": "usually used in the plural: die Bakterien",
+      "example_de": "Nicht jedes Bakterium macht krank.",
+      "example_en": "Not every bacterium makes you ill."
+    },
+    {
+      "id": "s-bio-0022",
+      "de": "das Virus",
+      "de_alt": [
+        "der Virus"
+      ],
+      "en": [
+        "virus"
+      ],
+      "pos": "noun",
+      "plural": "die Viren",
+      "topic": "cells",
+      "level": "B1",
+      "rank": 126,
+      "note": "„das Virus“ is standard; „der Virus“ is common in speech",
+      "example_de": "Ein Virus kann sich nur in Zellen vermehren.",
+      "example_en": "A virus can only reproduce inside cells."
+    },
+    {
+      "id": "s-bio-0023",
+      "de": "das Mikroskop",
+      "de_alt": [],
+      "en": [
+        "microscope"
+      ],
+      "pos": "noun",
+      "plural": "die Mikroskope",
+      "topic": "cells",
+      "level": "A2",
+      "rank": 131,
+      "example_de": "Unter dem Mikroskop sieht man die Zellen.",
+      "example_en": "You can see the cells under the microscope."
+    },
+    {
+      "id": "s-bio-0024",
+      "de": "das Protein",
+      "de_alt": [
+        "das Eiweiß"
+      ],
+      "en": [
+        "protein"
+      ],
+      "pos": "noun",
+      "plural": "die Proteine",
+      "topic": "cells",
+      "level": "B1",
+      "rank": 136,
+      "note": "das Eiweiß also = egg white",
+      "example_de": "Muskeln bestehen hauptsächlich aus Proteinen.",
+      "example_en": "Muscles consist mainly of proteins."
+    },
+    {
+      "id": "s-bio-0025",
+      "de": "das Chromosom",
+      "de_alt": [],
+      "en": [
+        "chromosome"
+      ],
+      "pos": "noun",
+      "plural": "die Chromosomen",
+      "topic": "genetics",
+      "level": "B1",
+      "rank": 141,
+      "example_de": "Menschen haben 46 Chromosomen.",
+      "example_en": "Humans have 46 chromosomes."
+    },
+    {
+      "id": "s-bio-0026",
+      "de": "die Vererbung",
+      "de_alt": [],
+      "en": [
+        "heredity",
+        "inheritance"
+      ],
+      "pos": "noun",
+      "plural": "die Vererbungen",
+      "topic": "genetics",
+      "level": "B1",
+      "rank": 146,
+      "example_de": "Mendel erforschte die Vererbung bei Erbsen.",
+      "example_en": "Mendel studied heredity in peas."
+    },
+    {
+      "id": "s-bio-0027",
+      "de": "vererben",
+      "de_alt": [],
+      "en": [
+        "to pass on",
+        "to inherit",
+        "to bequeath"
+      ],
+      "pos": "verb",
+      "topic": "genetics",
+      "level": "B1",
+      "rank": 151,
+      "note": "vererben = pass on (to children); erben = to inherit",
+      "example_de": "Eltern vererben ihren Kindern viele Merkmale.",
+      "example_en": "Parents pass on many traits to their children."
+    },
+    {
+      "id": "s-bio-0028",
+      "de": "das Merkmal",
+      "de_alt": [],
+      "en": [
+        "trait",
+        "characteristic",
+        "feature"
+      ],
+      "pos": "noun",
+      "plural": "die Merkmale",
+      "topic": "genetics",
+      "level": "B1",
+      "rank": 156,
+      "example_de": "Die Blütenfarbe ist ein erbliches Merkmal.",
+      "example_en": "Flower colour is an inherited trait."
+    },
+    {
+      "id": "s-bio-0029",
+      "de": "die Mutation",
+      "de_alt": [],
+      "en": [
+        "mutation"
+      ],
+      "pos": "noun",
+      "plural": "die Mutationen",
+      "topic": "genetics",
+      "level": "B1",
+      "rank": 161,
+      "example_de": "Eine Mutation verändert die DNA.",
+      "example_en": "A mutation changes the DNA."
+    },
+    {
+      "id": "s-bio-0030",
+      "de": "das Erbgut",
+      "de_alt": [
+        "die Erbinformation"
+      ],
+      "en": [
+        "genetic material",
+        "genome",
+        "genes"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "genetics",
+      "level": "B1",
+      "rank": 166,
+      "example_de": "Das Erbgut steckt in jeder Zelle.",
+      "example_en": "The genetic material is in every cell."
+    },
+    {
+      "id": "s-bio-0031",
+      "de": "die Fortpflanzung",
+      "de_alt": [],
+      "en": [
+        "reproduction"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "genetics",
+      "level": "B1",
+      "rank": 171,
+      "note": "sich fortpflanzen = to reproduce",
+      "example_de": "Blüten dienen der Fortpflanzung.",
+      "example_en": "Flowers are used for reproduction."
+    },
+    {
+      "id": "s-bio-0032",
+      "de": "sich vermehren",
+      "de_alt": [],
+      "en": [
+        "to reproduce",
+        "to breed"
+      ],
+      "pos": "verb",
+      "topic": "cells",
+      "level": "B1",
+      "rank": 176,
+      "example_de": "Bakterien vermehren sich sehr schnell.",
+      "example_en": "Bacteria reproduce very quickly."
+    },
+    {
+      "id": "s-bio-0033",
+      "de": "das Herz",
+      "de_alt": [],
+      "en": [
+        "heart"
+      ],
+      "pos": "noun",
+      "plural": "die Herzen",
+      "topic": "body",
+      "level": "A2",
+      "rank": 181,
+      "note": "irregular: des Herzens, dem Herzen",
+      "example_de": "Das Herz schlägt etwa 70-mal pro Minute.",
+      "example_en": "The heart beats about 70 times a minute."
+    },
+    {
+      "id": "s-bio-0034",
+      "de": "die Lunge",
+      "de_alt": [],
+      "en": [
+        "lungs",
+        "lung"
+      ],
+      "pos": "noun",
+      "plural": "die Lungen",
+      "topic": "body",
+      "level": "A2",
+      "rank": 186,
+      "note": "German uses the singular for both lungs",
+      "example_de": "Beim Einatmen füllt sich die Lunge mit Luft.",
+      "example_en": "When you breathe in, your lungs fill with air."
+    },
+    {
+      "id": "s-bio-0035",
+      "de": "der Muskel",
+      "de_alt": [],
+      "en": [
+        "muscle"
+      ],
+      "pos": "noun",
+      "plural": "die Muskeln",
+      "topic": "body",
+      "level": "A2",
+      "rank": 191,
+      "example_de": "Der Bizeps ist ein Muskel im Oberarm.",
+      "example_en": "The biceps is a muscle in the upper arm."
+    },
+    {
+      "id": "s-bio-0036",
+      "de": "der Knochen",
+      "de_alt": [],
+      "en": [
+        "bone"
+      ],
+      "pos": "noun",
+      "plural": "die Knochen",
+      "topic": "body",
+      "level": "A2",
+      "rank": 196,
+      "example_de": "Ein Erwachsener hat 206 Knochen.",
+      "example_en": "An adult has 206 bones."
+    },
+    {
+      "id": "s-bio-0037",
+      "de": "das Skelett",
+      "de_alt": [],
+      "en": [
+        "skeleton"
+      ],
+      "pos": "noun",
+      "plural": "die Skelette",
+      "topic": "body",
+      "level": "B1",
+      "rank": 201,
+      "example_de": "Das Skelett stützt den Körper.",
+      "example_en": "The skeleton supports the body."
+    },
+    {
+      "id": "s-bio-0038",
+      "de": "der Nerv",
+      "de_alt": [],
+      "en": [
+        "nerve"
+      ],
+      "pos": "noun",
+      "plural": "die Nerven",
+      "topic": "body",
+      "level": "B1",
+      "rank": 206,
+      "note": "du nervst = you're annoying",
+      "example_de": "Nerven leiten Signale zum Gehirn.",
+      "example_en": "Nerves carry signals to the brain."
+    },
+    {
+      "id": "s-bio-0039",
+      "de": "das Nervensystem",
+      "de_alt": [],
+      "en": [
+        "nervous system"
+      ],
+      "pos": "noun",
+      "plural": "die Nervensysteme",
+      "topic": "body",
+      "level": "B1",
+      "rank": 211,
+      "example_de": "Das Nervensystem steuert unsere Bewegungen.",
+      "example_en": "The nervous system controls our movements."
+    },
+    {
+      "id": "s-bio-0040",
+      "de": "die Verdauung",
+      "de_alt": [],
+      "en": [
+        "digestion"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "body",
+      "level": "B1",
+      "rank": 216,
+      "note": "verdauen = to digest",
+      "example_de": "Die Verdauung beginnt schon im Mund.",
+      "example_en": "Digestion already begins in the mouth."
+    },
+    {
+      "id": "s-bio-0041",
+      "de": "die Atmung",
+      "de_alt": [],
+      "en": [
+        "respiration",
+        "breathing"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "body",
+      "level": "B1",
+      "rank": 221,
+      "note": "Zellatmung = cellular respiration",
+      "example_de": "Bei der Atmung nehmen wir Sauerstoff auf.",
+      "example_en": "When breathing we take in oxygen."
+    },
+    {
+      "id": "s-bio-0042",
+      "de": "der Blutkreislauf",
+      "de_alt": [
+        "der Kreislauf"
+      ],
+      "en": [
+        "circulation",
+        "blood circulation",
+        "circulatory system"
+      ],
+      "pos": "noun",
+      "plural": "die Blutkreisläufe",
+      "topic": "body",
+      "level": "B1",
+      "rank": 226,
+      "example_de": "Der Blutkreislauf transportiert Nährstoffe zu den Zellen.",
+      "example_en": "The circulatory system transports nutrients to the cells."
+    },
+    {
+      "id": "s-bio-0043",
+      "de": "der Stoffwechsel",
+      "de_alt": [],
+      "en": [
+        "metabolism"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "body",
+      "level": "B1",
+      "rank": 231,
+      "note": "literally „substance exchange“",
+      "example_de": "Sport regt den Stoffwechsel an.",
+      "example_en": "Exercise stimulates the metabolism."
+    },
+    {
+      "id": "s-bio-0044",
+      "de": "das Immunsystem",
+      "de_alt": [],
+      "en": [
+        "immune system"
+      ],
+      "pos": "noun",
+      "plural": "die Immunsysteme",
+      "topic": "body",
+      "level": "B1",
+      "rank": 236,
+      "example_de": "Das Immunsystem bekämpft Krankheitserreger.",
+      "example_en": "The immune system fights pathogens."
+    },
+    {
+      "id": "s-bio-0045",
+      "de": "die Photosynthese",
+      "de_alt": [
+        "die Fotosynthese"
+      ],
+      "en": [
+        "photosynthesis"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "ecology",
+      "level": "B1",
+      "rank": 241,
+      "example_de": "Bei der Photosynthese entsteht Sauerstoff.",
+      "example_en": "Photosynthesis produces oxygen."
+    },
+    {
+      "id": "s-bio-0046",
+      "de": "das Ökosystem",
+      "de_alt": [],
+      "en": [
+        "ecosystem"
+      ],
+      "pos": "noun",
+      "plural": "die Ökosysteme",
+      "topic": "ecology",
+      "level": "B1",
+      "rank": 246,
+      "example_de": "Der Wald ist ein komplexes Ökosystem.",
+      "example_en": "The forest is a complex ecosystem."
+    },
+    {
+      "id": "s-bio-0047",
+      "de": "die Nahrungskette",
+      "de_alt": [],
+      "en": [
+        "food chain"
+      ],
+      "pos": "noun",
+      "plural": "die Nahrungsketten",
+      "topic": "ecology",
+      "level": "B1",
+      "rank": 251,
+      "example_de": "Am Anfang jeder Nahrungskette stehen Pflanzen.",
+      "example_en": "Every food chain starts with plants."
+    },
+    {
+      "id": "s-bio-0048",
+      "de": "der Lebensraum",
+      "de_alt": [
+        "das Habitat"
+      ],
+      "en": [
+        "habitat",
+        "living space"
+      ],
+      "pos": "noun",
+      "plural": "die Lebensräume",
+      "topic": "ecology",
+      "level": "B1",
+      "rank": 256,
+      "example_de": "Das Korallenriff ist Lebensraum für tausende Arten.",
+      "example_en": "The coral reef is a habitat for thousands of species."
+    },
+    {
+      "id": "s-bio-0049",
+      "de": "der Klimawandel",
+      "de_alt": [],
+      "en": [
+        "climate change"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "ecology",
+      "level": "B1",
+      "rank": 261,
+      "example_de": "Der Klimawandel bedroht viele Tierarten.",
+      "example_en": "Climate change threatens many animal species."
+    },
+    {
+      "id": "s-bio-0050",
+      "de": "aussterben",
+      "de_alt": [],
+      "en": [
+        "to die out",
+        "to become extinct"
+      ],
+      "pos": "verb",
+      "topic": "evolution",
+      "level": "B1",
+      "rank": 266,
+      "note": "Perfekt: ist ausgestorben",
+      "example_de": "Die Dinosaurier sind vor 66 Millionen Jahren ausgestorben.",
+      "example_en": "The dinosaurs died out 66 million years ago."
+    },
+    {
+      "id": "s-bio-0051",
+      "de": "die Anpassung",
+      "de_alt": [],
+      "en": [
+        "adaptation",
+        "adjustment"
+      ],
+      "pos": "noun",
+      "plural": "die Anpassungen",
+      "topic": "evolution",
+      "level": "B1",
+      "rank": 271,
+      "note": "sich anpassen = to adapt",
+      "example_de": "Das dicke Fell ist eine Anpassung an die Kälte.",
+      "example_en": "The thick fur is an adaptation to the cold."
+    },
+    {
+      "id": "s-bio-0052",
+      "de": "sich anpassen",
+      "de_alt": [],
+      "en": [
+        "to adapt",
+        "to adjust"
+      ],
+      "pos": "verb",
+      "topic": "evolution",
+      "level": "B1",
+      "rank": 276,
+      "note": "separable: er passt sich an",
+      "example_de": "Tiere passen sich an ihre Umgebung an.",
+      "example_en": "Animals adapt to their surroundings."
+    },
+    {
+      "id": "s-bio-0053",
+      "de": "überleben",
+      "de_alt": [],
+      "en": [
+        "to survive"
+      ],
+      "pos": "verb",
+      "topic": "evolution",
+      "level": "B1",
+      "rank": 281,
+      "note": "not separable: er überlebt",
+      "example_de": "Nur die Stärksten überleben den Winter.",
+      "example_en": "Only the strongest survive the winter."
+    },
+    {
+      "id": "s-bio-0054",
+      "de": "das Fossil",
+      "de_alt": [],
+      "en": [
+        "fossil"
+      ],
+      "pos": "noun",
+      "plural": "die Fossilien",
+      "topic": "evolution",
+      "level": "B1",
+      "rank": 286,
+      "example_de": "Fossilien zeigen, wie Tiere früher aussahen.",
+      "example_en": "Fossils show what animals used to look like."
+    },
+    {
+      "id": "s-bio-0055",
+      "de": "die Zellatmung",
+      "de_alt": [],
+      "en": [
+        "cellular respiration"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "cells",
+      "level": "B2",
+      "rank": 305,
+      "example_de": "Die Zellatmung findet in den Mitochondrien statt.",
+      "example_en": "Cellular respiration takes place in the mitochondria."
+    },
+    {
+      "id": "s-bio-0056",
+      "de": "das Mitochondrium",
+      "de_alt": [],
+      "en": [
+        "mitochondrion",
+        "mitochondria"
+      ],
+      "pos": "noun",
+      "plural": "die Mitochondrien",
+      "topic": "cells",
+      "level": "B2",
+      "rank": 310,
+      "example_de": "Das Mitochondrium ist das Kraftwerk der Zelle.",
+      "example_en": "The mitochondrion is the powerhouse of the cell."
+    },
+    {
+      "id": "s-bio-0057",
+      "de": "das Enzym",
+      "de_alt": [],
+      "en": [
+        "enzyme"
+      ],
+      "pos": "noun",
+      "plural": "die Enzyme",
+      "topic": "cells",
+      "level": "B1",
+      "rank": 315,
+      "example_de": "Enzyme beschleunigen Reaktionen im Körper.",
+      "example_en": "Enzymes speed up reactions in the body."
+    },
+    {
+      "id": "s-bio-0058",
+      "de": "einzellig",
+      "de_alt": [],
+      "en": [
+        "single-celled",
+        "unicellular"
+      ],
+      "pos": "adj",
+      "topic": "cells",
+      "level": "B1",
+      "rank": 320,
+      "note": "mehrzellig = multicellular",
+      "example_de": "Amöben sind einzellige Lebewesen.",
+      "example_en": "Amoebas are single-celled organisms."
+    },
+    {
+      "id": "s-bio-0059",
+      "de": "der Pilz",
+      "de_alt": [],
+      "en": [
+        "fungus",
+        "mushroom"
+      ],
+      "pos": "noun",
+      "plural": "die Pilze",
+      "topic": "cells",
+      "level": "A2",
+      "rank": 325,
+      "example_de": "Hefe ist ein einzelliger Pilz.",
+      "example_en": "Yeast is a single-celled fungus."
+    },
+    {
+      "id": "s-bio-0060",
+      "de": "dominant",
+      "de_alt": [],
+      "en": [
+        "dominant"
+      ],
+      "pos": "adj",
+      "topic": "genetics",
+      "level": "B1",
+      "rank": 330,
+      "example_de": "Das Allel für braune Augen ist dominant.",
+      "example_en": "The allele for brown eyes is dominant."
+    },
+    {
+      "id": "s-bio-0061",
+      "de": "rezessiv",
+      "de_alt": [],
+      "en": [
+        "recessive"
+      ],
+      "pos": "adj",
+      "topic": "genetics",
+      "level": "B2",
+      "rank": 335,
+      "example_de": "Rezessive Merkmale können eine Generation überspringen.",
+      "example_en": "Recessive traits can skip a generation."
+    },
+    {
+      "id": "s-bio-0062",
+      "de": "die Befruchtung",
+      "de_alt": [],
+      "en": [
+        "fertilisation",
+        "fertilization"
+      ],
+      "pos": "noun",
+      "plural": "die Befruchtungen",
+      "topic": "genetics",
+      "level": "B1",
+      "rank": 340,
+      "example_de": "Nach der Befruchtung entwickelt sich ein Embryo.",
+      "example_en": "After fertilisation an embryo develops."
+    },
+    {
+      "id": "s-bio-0063",
+      "de": "das Hormon",
+      "de_alt": [],
+      "en": [
+        "hormone"
+      ],
+      "pos": "noun",
+      "plural": "die Hormone",
+      "topic": "body",
+      "level": "B1",
+      "rank": 345,
+      "example_de": "Insulin ist ein wichtiges Hormon.",
+      "example_en": "Insulin is an important hormone."
+    },
+    {
+      "id": "s-bio-0064",
+      "de": "das Neuron",
+      "de_alt": [
+        "die Nervenzelle"
+      ],
+      "en": [
+        "neuron",
+        "nerve cell"
+      ],
+      "pos": "noun",
+      "plural": "die Neuronen",
+      "topic": "body",
+      "level": "B1",
+      "rank": 350,
+      "example_de": "Das Gehirn enthält rund 86 Milliarden Neuronen.",
+      "example_en": "The brain contains about 86 billion neurons."
+    },
+    {
+      "id": "s-bio-0065",
+      "de": "das Blutgefäß",
+      "de_alt": [],
+      "en": [
+        "blood vessel"
+      ],
+      "pos": "noun",
+      "plural": "die Blutgefäße",
+      "topic": "body",
+      "level": "B1",
+      "rank": 355,
+      "note": "Arterie = artery, Vene = vein",
+      "example_de": "Blutgefäße transportieren Blut durch den Körper.",
+      "example_en": "Blood vessels carry blood around the body."
+    },
+    {
+      "id": "s-bio-0066",
+      "de": "die Niere",
+      "de_alt": [],
+      "en": [
+        "kidney"
+      ],
+      "pos": "noun",
+      "plural": "die Nieren",
+      "topic": "body",
+      "level": "B1",
+      "rank": 360,
+      "example_de": "Die Nieren filtern das Blut.",
+      "example_en": "The kidneys filter the blood."
+    },
+    {
+      "id": "s-bio-0067",
+      "de": "die Leber",
+      "de_alt": [],
+      "en": [
+        "liver"
+      ],
+      "pos": "noun",
+      "plural": "die Lebern",
+      "topic": "body",
+      "level": "B1",
+      "rank": 365,
+      "example_de": "Die Leber baut Giftstoffe ab.",
+      "example_en": "The liver breaks down toxins."
+    },
+    {
+      "id": "s-bio-0068",
+      "de": "der Darm",
+      "de_alt": [],
+      "en": [
+        "intestine",
+        "gut",
+        "bowel"
+      ],
+      "pos": "noun",
+      "plural": "die Därme",
+      "topic": "body",
+      "level": "B1",
+      "rank": 370,
+      "example_de": "Im Darm leben Milliarden Bakterien.",
+      "example_en": "Billions of bacteria live in the gut."
+    },
+    {
+      "id": "s-bio-0069",
+      "de": "das Sinnesorgan",
+      "de_alt": [],
+      "en": [
+        "sense organ"
+      ],
+      "pos": "noun",
+      "plural": "die Sinnesorgane",
+      "topic": "body",
+      "level": "B1",
+      "rank": 375,
+      "example_de": "Das Auge ist ein Sinnesorgan.",
+      "example_en": "The eye is a sense organ."
+    },
+    {
+      "id": "s-bio-0070",
+      "de": "der Krankheitserreger",
+      "de_alt": [
+        "der Erreger"
+      ],
+      "en": [
+        "pathogen",
+        "germ"
+      ],
+      "pos": "noun",
+      "plural": "die Krankheitserreger",
+      "topic": "body",
+      "level": "B1",
+      "rank": 380,
+      "example_de": "Viren und Bakterien können Krankheitserreger sein.",
+      "example_en": "Viruses and bacteria can be pathogens."
+    },
+    {
+      "id": "s-bio-0071",
+      "de": "der Antikörper",
+      "de_alt": [],
+      "en": [
+        "antibody"
+      ],
+      "pos": "noun",
+      "plural": "die Antikörper",
+      "topic": "body",
+      "level": "B2",
+      "rank": 385,
+      "example_de": "Nach der Impfung bildet der Körper Antikörper.",
+      "example_en": "After vaccination the body produces antibodies."
+    },
+    {
+      "id": "s-bio-0072",
+      "de": "die Impfung",
+      "de_alt": [],
+      "en": [
+        "vaccination",
+        "vaccine",
+        "jab"
+      ],
+      "pos": "noun",
+      "plural": "die Impfungen",
+      "topic": "body",
+      "level": "B1",
+      "rank": 390,
+      "note": "der Impfstoff = vaccine (the substance)",
+      "example_de": "Die Impfung schützt vor Masern.",
+      "example_en": "The vaccination protects against measles."
+    },
+    {
+      "id": "s-bio-0073",
+      "de": "die Infektion",
+      "de_alt": [],
+      "en": [
+        "infection"
+      ],
+      "pos": "noun",
+      "plural": "die Infektionen",
+      "topic": "body",
+      "level": "B1",
+      "rank": 395,
+      "example_de": "Antibiotika helfen nur gegen bakterielle Infektionen.",
+      "example_en": "Antibiotics only help against bacterial infections."
+    },
+    {
+      "id": "s-bio-0074",
+      "de": "die Population",
+      "de_alt": [],
+      "en": [
+        "population"
+      ],
+      "pos": "noun",
+      "plural": "die Populationen",
+      "topic": "ecology",
+      "level": "B1",
+      "rank": 400,
+      "note": "biology term; people in a country = die Bevölkerung",
+      "example_de": "Die Population der Wölfe wächst wieder.",
+      "example_en": "The wolf population is growing again."
+    },
+    {
+      "id": "s-bio-0075",
+      "de": "die Artenvielfalt",
+      "de_alt": [
+        "die Biodiversität"
+      ],
+      "en": [
+        "biodiversity",
+        "species diversity"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "ecology",
+      "level": "B1",
+      "rank": 405,
+      "example_de": "Der Regenwald hat eine riesige Artenvielfalt.",
+      "example_en": "The rainforest has enormous biodiversity."
+    },
+    {
+      "id": "s-bio-0076",
+      "de": "der Parasit",
+      "de_alt": [],
+      "en": [
+        "parasite"
+      ],
+      "pos": "noun",
+      "plural": "die Parasiten",
+      "topic": "ecology",
+      "level": "B1",
+      "rank": 410,
+      "example_de": "Zecken sind Parasiten.",
+      "example_en": "Ticks are parasites."
+    },
+    {
+      "id": "s-bio-0077",
+      "de": "die Symbiose",
+      "de_alt": [],
+      "en": [
+        "symbiosis"
+      ],
+      "pos": "noun",
+      "plural": "die Symbiosen",
+      "topic": "ecology",
+      "level": "B2",
+      "rank": 415,
+      "example_de": "Flechten sind eine Symbiose aus Pilz und Alge.",
+      "example_en": "Lichens are a symbiosis of fungus and alga."
+    },
+    {
+      "id": "s-bio-0078",
+      "de": "die natürliche Selektion",
+      "de_alt": [
+        "die Selektion"
+      ],
+      "en": [
+        "natural selection"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "evolution",
+      "level": "B2",
+      "rank": 419,
+      "example_de": "Die natürliche Selektion begünstigt nützliche Merkmale.",
+      "example_en": "Natural selection favours useful traits."
+    },
+    {
+      "id": "s-bio-0079",
+      "de": "der Vorfahre",
+      "de_alt": [],
+      "en": [
+        "ancestor"
+      ],
+      "pos": "noun",
+      "plural": "die Vorfahren",
+      "topic": "evolution",
+      "level": "B1",
+      "rank": 423,
+      "note": "weak noun: den Vorfahren",
+      "example_de": "Mensch und Schimpanse haben einen gemeinsamen Vorfahren.",
+      "example_en": "Humans and chimpanzees share a common ancestor."
+    },
+    {
+      "id": "s-bio-0080",
+      "de": "das Genom",
+      "de_alt": [],
+      "en": [
+        "genome"
+      ],
+      "pos": "noun",
+      "plural": "die Genome",
+      "topic": "genetics",
+      "level": "B2",
+      "rank": 439,
+      "example_de": "Das menschliche Genom wurde 2003 entschlüsselt.",
+      "example_en": "The human genome was decoded in 2003."
+    },
+    {
+      "id": "s-bio-0081",
+      "de": "das Allel",
+      "de_alt": [],
+      "en": [
+        "allele"
+      ],
+      "pos": "noun",
+      "plural": "die Allele",
+      "topic": "genetics",
+      "level": "B2",
+      "rank": 444,
+      "example_de": "Jedes Gen liegt in zwei Allelen vor.",
+      "example_en": "Every gene exists as two alleles."
+    },
+    {
+      "id": "s-bio-0082",
+      "de": "die Gentechnik",
+      "de_alt": [],
+      "en": [
+        "genetic engineering"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "genetics",
+      "level": "B2",
+      "rank": 449,
+      "example_de": "Mit Gentechnik kann man Pflanzen resistenter machen.",
+      "example_en": "Genetic engineering can make plants more resistant."
+    },
+    {
+      "id": "s-bio-0083",
+      "de": "die Meiose",
+      "de_alt": [],
+      "en": [
+        "meiosis"
+      ],
+      "pos": "noun",
+      "plural": "die Meiosen",
+      "topic": "genetics",
+      "level": "B2",
+      "rank": 454,
+      "example_de": "Durch Meiose entstehen die Keimzellen.",
+      "example_en": "Germ cells are produced by meiosis."
+    }
+  ]
+}
