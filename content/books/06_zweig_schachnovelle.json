@@ -1,0 +1,1151 @@
+{
+  "id": "zweig-schachnovelle",
+  "title": "Schachnovelle",
+  "author": "Stefan Zweig",
+  "author_died": 1942,
+  "year": 1942,
+  "level": "B2",
+  "source": "http://www.zeno.org/Literatur/M/Zweig,+Stefan/Werke/Schachnovelle (Zeno.org, text of Stefan Zweig: Schachnovelle, S. Fischer, Frankfurt am Main 1974; first printed Buenos Aires 1942; licence: gemeinfrei)",
+  "orthography": "modernised to current German spelling (dass, musste, Fantasie, fotografiert, zum ersten Mal, ...); wording unchanged; page numbers removed; one scan typo fixed (aufgenomen → aufgenommen).",
+  "intro_en": "Stefan Zweig (1881–1942) was an Austrian writer and one of the most widely read authors in the world between the wars. He wrote 'Schachnovelle' (Chess Story) in exile in Brazil, shortly before his death. On a ship from New York to Buenos Aires, the narrator becomes fascinated by the world chess champion Czentovic – and later meets a mysterious stranger whose chess genius hides a dark story of Nazi imprisonment. It's short, gripping and one of the most-read German texts in schools; the sentences are long, so take them one clause at a time.",
+  "units": [
+    {
+      "n": 1,
+      "de": "Auf dem großen Passagierdampfer, der um Mitternacht von New York nach Buenos Aires abgehen sollte, herrschte die übliche Geschäftigkeit und Bewegung der letzten Stunde. Gäste vom Land drängten durcheinander, um ihren Freunden das Geleit zu geben, Telegrafenboys mit schiefen Mützen schossen Namen ausrufend durch die Gesellschaftsräume, Koffer und Blumen wurden geschleppt, Kinder liefen neugierig treppauf und treppab, während das Orchester unerschütterlich zur Deck-show spielte. Ich stand im Gespräch mit einem Bekannten etwas abseits von diesem Getümmel auf dem Promenadendeck, als neben uns zwei- oder dreimal Blitzlicht scharf aufsprühte – anscheinend war irgendein Prominenter knapp vor der Abfahrt noch rasch von Reportern interviewt und fotografiert worden.",
+      "en": "On the big passenger steamer that was due to leave New York for Buenos Aires at midnight, there was the usual bustle and movement of the last hour. Visitors from shore pushed and jostled to see their friends off, telegraph boys in crooked caps shot through the lounges calling out names, suitcases and flowers were hauled about, children ran curiously up and down the stairs, while the band played on unshakeably for the deck show. I was standing talking with an acquaintance a little apart from this commotion on the promenade deck when, right next to us, a flash went off sharply two or three times – apparently some celebrity had been quickly interviewed and photographed by reporters just before departure.",
+      "explain_en": "The story opens on a ship about to leave New York, told by a first-person narrator. 'herrschen' = to prevail ('Es herrschte Chaos' = there was chaos). 'vom Land' here means 'from the shore', not 'from the countryside'. 'jemandem das Geleit geben' is old and formal for 'jemanden verabschieden' (to see someone off). 'der Prominente' = celebrity (today often 'der Promi'). The last clause is passive in the past perfect: 'war ... interviewt und fotografiert worden' = had been interviewed and photographed.",
+      "words": [
+        {
+          "de": "der Dampfer, die Dampfer",
+          "en": "steamer, steamship"
+        },
+        {
+          "de": "die Mitternacht",
+          "en": "midnight"
+        },
+        {
+          "de": "der Koffer, die Koffer",
+          "en": "suitcase"
+        },
+        {
+          "de": "neugierig",
+          "en": "curious"
+        },
+        {
+          "de": "der Bekannte / die Bekannte",
+          "en": "acquaintance"
+        },
+        {
+          "de": "die Abfahrt",
+          "en": "departure"
+        },
+        {
+          "de": "anscheinend",
+          "en": "apparently"
+        },
+        {
+          "de": "der/die Prominente",
+          "en": "celebrity",
+          "note": "colloquial: der Promi"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "de": "Mein Freund blickte hin und lächelte. »Sie haben da einen raren Vogel an Bord, den Czentovic.« Und da ich offenbar ein ziemlich verständnisloses Gesicht zu dieser Mitteilung machte, fügte er erklärend bei: »Mirko Czentovic, der Weltschachmeister. Er hat ganz Amerika von Ost nach West mit Turnierspielen abgeklappert und fährt jetzt zu neuen Triumphen nach Argentinien.«",
+      "en": "My friend looked over and smiled. 'You've got a rare bird on board there – Czentovic.' And since I was obviously pulling a rather blank face at this news, he added by way of explanation: 'Mirko Czentovic, the world chess champion. He has done the rounds of the whole of America, east to west, playing tournaments, and is now off to Argentina for new triumphs.'",
+      "explain_en": "'ein rarer Vogel' = a rare bird, meaning an unusual person (today people say 'ein seltener Vogel' or 'ein komischer Vogel'). 'an Bord' = on board. 'ein Gesicht machen' = to pull a face. 'fügte ... bei' comes from 'beifügen', which is old-fashioned for 'hinzufügen' (to add). 'abklappern' is colloquial for going round one place after another – still used: 'alle Läden abklappern'.",
+      "words": [
+        {
+          "de": "lächeln",
+          "en": "to smile"
+        },
+        {
+          "de": "an Bord",
+          "en": "on board"
+        },
+        {
+          "de": "der Weltmeister",
+          "en": "world champion"
+        },
+        {
+          "de": "das Schach",
+          "en": "chess"
+        },
+        {
+          "de": "das Turnier, die Turniere",
+          "en": "tournament"
+        },
+        {
+          "de": "verständnislos",
+          "en": "uncomprehending, blank"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "de": "In der Tat erinnerte ich mich nun dieses jungen Weltmeisters und sogar einiger Einzelheiten im Zusammenhang mit seiner raketenhaften Karriere; mein Freund, ein aufmerksamerer Zeitungsleser als ich, konnte sie mit einer ganzen Reihe von Anekdoten ergänzen. Czentovic hatte sich vor etwa einem Jahr mit einem Schlage neben die bewährtesten Altmeister der Schachkunst, wie Aljechin, Capablanca, Tartakower, Lasker, Bogoljubow, gestellt. Seit dem Auftreten des siebenjährigen Wunderkindes Rzecewski bei dem Schachturnier 1922 in New York hatte noch nie der Einbruch eines völlig Unbekannten in die ruhmreiche Gilde derart allgemeines Aufsehen erregt.",
+      "en": "And indeed I now remembered this young world champion, and even some details of his meteoric career; my friend, a more attentive reader of newspapers than I, was able to add a whole string of anecdotes. About a year earlier, Czentovic had at a single stroke placed himself alongside the most established old masters of chess, such as Alekhine, Capablanca, Tartakower, Lasker and Bogoljubov. Not since the appearance of the seven-year-old child prodigy Rzecewski at the 1922 chess tournament in New York had a complete unknown's breakthrough into that glorious guild caused such a general sensation.",
+      "explain_en": "'sich erinnern' normally takes 'an' + accusative: 'Ich erinnere mich an ihn.' Using the genitive ('sich dieses Weltmeisters erinnern') is old-fashioned and literary. 'raketenhaft' = like a rocket. 'mit einem Schlage' = all at once; today 'auf einen Schlag' (the -e ending on 'Schlage' is old). 'das Wunderkind' = child prodigy. 'Aufsehen erregen' (to cause a stir) is still used.",
+      "words": [
+        {
+          "de": "sich erinnern an",
+          "en": "to remember"
+        },
+        {
+          "de": "die Einzelheit, die Einzelheiten",
+          "en": "detail"
+        },
+        {
+          "de": "die Karriere",
+          "en": "career"
+        },
+        {
+          "de": "ergänzen",
+          "en": "to add, to complete"
+        },
+        {
+          "de": "das Wunderkind",
+          "en": "child prodigy"
+        },
+        {
+          "de": "völlig",
+          "en": "completely"
+        },
+        {
+          "de": "das Aufsehen",
+          "en": "stir, sensation"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "de": "Denn Czentovics intellektuelle Eigenschaften schienen ihm keineswegs solch eine blendende Karriere von vornherein zu weissagen. Bald sickerte das Geheimnis durch, dass dieser Schachmeister in seinem Privatleben außerstande war, in irgendeiner Sprache einen Satz ohne orthografischen Fehler zu schreiben, und wie einer seiner verärgerten Kollegen ingrimmig spottete, »seine Unbildung war auf allen Gebieten gleich universell«.",
+      "en": "For Czentovic's intellectual qualities didn't seem at all to promise him such a brilliant career from the start. Soon the secret leaked out that in his private life this chess master was incapable of writing a single sentence in any language without spelling mistakes, and, as one of his irritated colleagues grimly mocked, 'his ignorance was equally universal in every field'.",
+      "explain_en": "'Denn' at the start of a sentence means 'for' or 'because'. 'keineswegs' = not at all (formal; in speech 'überhaupt nicht'). 'von vornherein' (from the start) is common. 'weissagen' is old for 'vorhersagen' (to predict). 'durchsickern' = to leak out. 'außerstande sein' is formal for 'nicht in der Lage sein' (to be unable). 'ingrimmig' is literary for 'wütend' (furious).",
+      "words": [
+        {
+          "de": "die Eigenschaft, die Eigenschaften",
+          "en": "quality, trait"
+        },
+        {
+          "de": "von vornherein",
+          "en": "from the start"
+        },
+        {
+          "de": "das Geheimnis, die Geheimnisse",
+          "en": "secret"
+        },
+        {
+          "de": "der Satz, die Sätze",
+          "en": "sentence"
+        },
+        {
+          "de": "der Fehler, die Fehler",
+          "en": "mistake"
+        },
+        {
+          "de": "der Kollege, die Kollegen",
+          "en": "colleague"
+        },
+        {
+          "de": "spotten",
+          "en": "to mock"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "de": "Sohn eines blutarmen südslawischen Donauschiffers, dessen winzige Barke eines Nachts von einem Getreidedampfer überrannt wurde, war der damals Zwölfjährige nach dem Tode seines Vaters vom Pfarrer des abgelegenen Ortes aus Mitleid aufgenommen worden, und der gute Pater bemühte sich redlich, durch häusliche Nachhilfe wettzumachen, was das maulfaule, dumpfe, breitstirnige Kind in der Dorfschule nicht zu erlernen vermochte.",
+      "en": "The son of a desperately poor South Slav boatman on the Danube, whose tiny barge was run down one night by a grain steamer, the boy – twelve at the time – had been taken in out of pity by the priest of the remote village after his father's death, and the good Father did his honest best, with extra lessons at home, to make up for what the sullen, dull, broad-browed child couldn't manage to learn at the village school.",
+      "explain_en": "A long sentence: the subject 'der damals Zwölfjährige' (the boy, then twelve) only comes after a long introduction. 'blutarm' = extremely poor (literary; today 'bettelarm'). 'aus Mitleid' = out of pity. 'aufnehmen' = to take in (a person). 'sich bemühen' = to try hard. 'die Nachhilfe' (tutoring) is a word every German student knows! 'wettmachen' = to make up for. 'maulfaul' = too lazy to talk (colloquial). 'vermögen' is old-fashioned for 'können'.",
+      "words": [
+        {
+          "de": "der Sohn, die Söhne",
+          "en": "son"
+        },
+        {
+          "de": "der Pfarrer",
+          "en": "priest, parish priest"
+        },
+        {
+          "de": "das Mitleid",
+          "en": "pity"
+        },
+        {
+          "de": "aufnehmen",
+          "en": "to take in"
+        },
+        {
+          "de": "sich bemühen",
+          "en": "to try hard"
+        },
+        {
+          "de": "die Nachhilfe",
+          "en": "tutoring, extra lessons"
+        },
+        {
+          "de": "wettmachen",
+          "en": "to make up for"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Aber die Anstrengungen blieben vergeblich. Mirko starrte die ihm schon hundertmal erklärten Schriftzeichen immer wieder fremd an; auch für die simpelsten Unterrichtsgegenstände fehlte seinem schwerfällig arbeitenden Gehirn jede festhaltende Kraft. Wenn er rechnen sollte, musste er noch mit vierzehn Jahren die Finger zu Hilfe nehmen, und ein Buch oder eine Zeitung zu lesen, bedeutete für den schon halbwüchsigen Jungen noch besondere Anstrengung. Dabei konnte man Mirko keineswegs unwillig oder widerspenstig nennen.",
+      "en": "But the efforts were in vain. Mirko kept staring at the letters, which had been explained to him a hundred times, as if he'd never seen them; even for the simplest school subjects his slow-working brain had no power to hold on to anything. When he had to do sums, he still needed his fingers at fourteen, and reading a book or a newspaper was still a special effort for the boy, already half-grown. And yet you couldn't call Mirko unwilling or stubborn in any way.",
+      "explain_en": "'vergeblich' = in vain. 'fremd anstarren' = to stare at something as if it were strange. 'die Schriftzeichen' = letters or written characters. 'rechnen' = to calculate, do maths. 'zu Hilfe nehmen' = to use as a help. 'halbwüchsig' = teenage (a bit old; today 'jugendlich'). 'widerspenstig' (unruly, stubborn) is literary; today you'd say 'bockig' or 'stur'. 'Dabei' at the start of a sentence often means 'and yet'.",
+      "words": [
+        {
+          "de": "die Anstrengung, die Anstrengungen",
+          "en": "effort"
+        },
+        {
+          "de": "vergeblich",
+          "en": "in vain"
+        },
+        {
+          "de": "erklären",
+          "en": "to explain"
+        },
+        {
+          "de": "das Gehirn",
+          "en": "brain"
+        },
+        {
+          "de": "rechnen",
+          "en": "to calculate, to do maths"
+        },
+        {
+          "de": "widerspenstig",
+          "en": "stubborn, unruly",
+          "note": "literary; today: stur, bockig"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "de": "Er tat gehorsam, was man ihm gebot, holte Wasser, spaltete Holz, arbeitete mit auf dem Felde, räumte die Küche auf und erledigte verlässlich, wenn auch mit verärgernder Langsamkeit, jeden geforderten Dienst. Was den guten Pfarrer aber an dem querköpfigen Knaben am meisten verdross, war seine totale Teilnahmslosigkeit.",
+      "en": "He obediently did what he was told: fetched water, split wood, helped in the fields, tidied the kitchen and reliably, if with irritating slowness, carried out every chore he was given. But what annoyed the good priest most about the pig-headed boy was his total lack of interest in anything.",
+      "explain_en": "'gebieten' is old and formal for 'befehlen' (to order), so 'was man ihm gebot' = what he was told. 'auf dem Felde' has an old dative -e (today 'auf dem Feld'). 'aufräumen' = to tidy up. 'verlässlich' = reliable. 'wenn auch' = even if, albeit. 'der Knabe' is old-fashioned for 'der Junge'. 'verdross' comes from 'verdrießen' (to annoy), which is old; today: 'ärgern'.",
+      "words": [
+        {
+          "de": "gehorsam",
+          "en": "obedient"
+        },
+        {
+          "de": "holen",
+          "en": "to fetch, to get"
+        },
+        {
+          "de": "das Holz",
+          "en": "wood"
+        },
+        {
+          "de": "aufräumen",
+          "en": "to tidy up"
+        },
+        {
+          "de": "verlässlich",
+          "en": "reliable"
+        },
+        {
+          "de": "der Knabe",
+          "en": "boy",
+          "note": "old-fashioned; today: der Junge"
+        },
+        {
+          "de": "die Teilnahmslosigkeit",
+          "en": "apathy, lack of interest"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "de": "Er tat nichts ohne besondere Aufforderung, stellte nie eine Frage, spielte nicht mit anderen Burschen und suchte von selbst keine Beschäftigung, sofern man sie nicht ausdrücklich anordnete; sobald Mirko die Verrichtungen des Haushalts erledigt hatte, saß er stur im Zimmer herum mit jenem leeren Blick, wie ihn Schafe auf der Weide haben, ohne an den Geschehnissen rings um ihn den geringsten Anteil zu nehmen. Während der Pfarrer abends, die lange Bauernpfeife schmauchend, mit dem Gendarmeriewachtmeister seine üblichen drei Schachpartien spielte, hockte der blondsträhnige Bursche stumm daneben und starrte unter seinen schweren Lidern anscheinend schläfrig und gleichgültig auf das karierte Brett.",
+      "en": "He did nothing unless he was specifically asked, never asked a question, didn't play with the other boys and never found himself something to do unless he was expressly told to; as soon as Mirko had finished the household chores, he sat about the room, dull and stubborn, with that empty look that sheep have in a meadow, without taking the slightest interest in what was going on around him. In the evenings, while the priest, puffing on his long peasant's pipe, played his usual three games of chess with the village police sergeant, the fair-haired lad sat hunched silently beside them and stared, apparently sleepy and indifferent, from under his heavy eyelids at the chequered board.",
+      "explain_en": "'eine Frage stellen' (to ask a question) is a very useful word pair. 'der Bursche' = lad (a bit old; today 'Junge' or 'Typ'). 'sofern' = provided that, as long as. 'stur' (stubborn, dull) is very common today. 'die Partie' is one game of chess or cards. 'Gendarmeriewachtmeister' is an old title for a village police officer (today: 'Polizist'). 'hocken' = to crouch or sit around. 'gleichgültig' = indifferent – useful.",
+      "words": [
+        {
+          "de": "eine Frage stellen",
+          "en": "to ask a question"
+        },
+        {
+          "de": "der Bursche, die Burschen",
+          "en": "lad",
+          "note": "old-fashioned; today: der Junge"
+        },
+        {
+          "de": "stur",
+          "en": "stubborn"
+        },
+        {
+          "de": "der Blick, die Blicke",
+          "en": "look, gaze"
+        },
+        {
+          "de": "die Partie, die Partien",
+          "en": "game (of chess, cards)"
+        },
+        {
+          "de": "gleichgültig",
+          "en": "indifferent"
+        },
+        {
+          "de": "das Brett, die Bretter",
+          "en": "board"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Eines Winterabends klingelten, während die beiden Partner in ihre tägliche Partie vertieft waren, von der Dorfstraße her die Glöckchen eines Schlittens rasch und immer rascher heran. Ein Bauer, die Mütze mit Schnee überstäubt, stapfte hastig herein, seine alte Mutter läge im Sterben, und der Pfarrer möge eilen, ihr noch rechtzeitig die letzte Ölung zu erteilen. Ohne zu zögern folgte ihm der Priester. Der Gendarmeriewachtmeister, der sein Glas Bier noch nicht ausgetrunken hatte, zündete sich zum Abschied eine neue Pfeife an und bereitete sich eben vor, die schweren Schaftstiefel anzuziehen, als ihm auffiel, wie unentwegt der Blick Mirkos auf dem Schachbrett mit der angefangenen Partie haftete.",
+      "en": "One winter evening, while the two players were absorbed in their daily game, the little bells of a sleigh came jingling closer from the village street, faster and faster. A farmer, his cap dusted with snow, stomped hurriedly in: his old mother was dying, and would the priest please hurry so as to give her the last rites in time. The priest followed him without hesitating. The police sergeant, who hadn't finished his glass of beer yet, lit a fresh pipe for the road and was just getting ready to pull on his heavy boots when he noticed how steadily Mirko's gaze was fixed on the chessboard with the unfinished game.",
+      "explain_en": "'vertieft sein in' = to be absorbed in. 'der Schlitten' = sleigh or sledge. 'seine alte Mutter läge im Sterben' uses the subjunctive for reported speech ('im Sterben liegen' = to be dying); 'der Pfarrer möge eilen' = the priest should please hurry. 'die letzte Ölung' = the last rites (Catholic). 'ohne zu zögern' (without hesitating) is very useful. 'auffallen' = to be noticed: 'Mir ist aufgefallen, dass ...' = 'I noticed that ...' – very common.",
+      "words": [
+        {
+          "de": "der Schlitten, die Schlitten",
+          "en": "sleigh, sledge"
+        },
+        {
+          "de": "der Schnee",
+          "en": "snow"
+        },
+        {
+          "de": "eilen",
+          "en": "to hurry"
+        },
+        {
+          "de": "zögern",
+          "en": "to hesitate"
+        },
+        {
+          "de": "anziehen",
+          "en": "to put on (clothes)"
+        },
+        {
+          "de": "der Stiefel, die Stiefel",
+          "en": "boot"
+        },
+        {
+          "de": "auffallen",
+          "en": "to be noticed",
+          "note": "Mir ist aufgefallen, dass ... = I noticed that ..."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "de": "»Na, willst du sie zu Ende spielen?« spaßte er, vollkommen überzeugt, dass der schläfrige Junge nicht einen einzigen Stein auf dem Brett richtig zu rücken verstünde. Der Knabe starrte scheu auf, nickte dann und setzte sich auf den Platz des Pfarrers. Nach vierzehn Zügen war der Gendarmeriewachtmeister geschlagen und musste zudem eingestehen, dass keineswegs ein versehentlicher nachlässiger Zug seine Niederlage verschuldet habe. Die zweite Partie fiel nicht anders aus.",
+      "en": "'Well, do you want to finish it off?' he joked, completely convinced that the sleepy boy wouldn't know how to move a single piece on the board correctly. The boy looked up shyly, then nodded and sat down in the priest's place. After fourteen moves the police sergeant was beaten, and on top of that he had to admit that it was by no means a careless slip that had caused his defeat. The second game went no differently.",
+      "explain_en": "'zu Ende spielen' = to play to the end. 'spaßen' is old-fashioned for 'Spaß machen' or 'scherzen' (to joke). 'überzeugt' = convinced. 'verstünde' is an old subjunctive of 'verstehen' (today 'verstehen würde'); 'verstehen zu' here means 'to know how to'. 'der Stein' is an old word for a chess piece (today: 'die Figur'). 'der Zug' = a move in a game – it also means train! 'eingestehen' is formal for 'zugeben' (to admit). 'ausfallen' here = to turn out.",
+      "words": [
+        {
+          "de": "überzeugt",
+          "en": "convinced"
+        },
+        {
+          "de": "schläfrig",
+          "en": "sleepy"
+        },
+        {
+          "de": "nicken",
+          "en": "to nod"
+        },
+        {
+          "de": "der Zug, die Züge",
+          "en": "move (in a game); train"
+        },
+        {
+          "de": "eingestehen",
+          "en": "to admit",
+          "note": "formal; everyday: zugeben"
+        },
+        {
+          "de": "die Niederlage, die Niederlagen",
+          "en": "defeat"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "de": "»Bileams Esel!« rief erstaunt bei seiner Rückkehr der Pfarrer aus, dem weniger bibelfesten Gendarmeriewachtmeister erklärend, schon vor zweitausend Jahren hätte sich ein ähnliches Wunder ereignet, dass ein stummes Wesen plötzlich die Sprache der Weisheit gefunden habe. Trotz der vorgerückten Stunde konnte der Pfarrer sich nicht enthalten, seinen halb analphabetischen Famulus zu einem Zweikampf herauszufordern. Mirko schlug auch ihn mit Leichtigkeit. Er spielte zäh, langsam, unerschütterlich, ohne ein einziges Mal die gesenkte breite Stirn vom Brette aufzuheben. Aber er spielte mit unwiderlegbarer Sicherheit; weder der Gendarmeriewachtmeister noch der Pfarrer waren in den nächsten Tagen imstande, eine Partie gegen ihn zu gewinnen.",
+      "en": "'Balaam's ass!' the priest exclaimed in astonishment when he got back, explaining to the police sergeant, who knew his Bible less well, that a similar miracle had happened two thousand years ago, when a dumb creature had suddenly found the language of wisdom. Despite the late hour, the priest couldn't resist challenging his half-illiterate helper to a duel. Mirko beat him too, with ease. He played doggedly, slowly, unshakeably, without once lifting his lowered broad forehead from the board. But he played with unanswerable certainty; in the days that followed, neither the police sergeant nor the priest managed to win a single game against him.",
+      "explain_en": "In the Bible, the prophet Balaam's donkey suddenly starts to speak, so the priest compares Mirko to it. 'bibelfest' = knowing the Bible well. 'sich nicht enthalten können' is old for 'nicht widerstehen können' (can't resist). 'der Famulus' is an old Latin word for an assistant. 'herausfordern' (to challenge) is very useful in sport and games. 'weder ... noch' = neither ... nor. 'imstande sein' = to be able to.",
+      "words": [
+        {
+          "de": "die Rückkehr",
+          "en": "return"
+        },
+        {
+          "de": "das Wunder, die Wunder",
+          "en": "miracle"
+        },
+        {
+          "de": "herausfordern",
+          "en": "to challenge"
+        },
+        {
+          "de": "die Leichtigkeit",
+          "en": "ease"
+        },
+        {
+          "de": "die Stirn",
+          "en": "forehead"
+        },
+        {
+          "de": "weder ... noch",
+          "en": "neither ... nor"
+        },
+        {
+          "de": "gewinnen",
+          "en": "to win"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Der Pfarrer, besser als irgendjemand befähigt, die sonstige Rückständigkeit seines Zöglings zu beurteilen, wurde nun ernstlich neugierig, wie weit diese einseitige sonderbare Begabung einer strengeren Prüfung standhalten würde. Nachdem er Mirko bei dem Dorfbarbier die struppigen strohblonden Haare hatte schneiden lassen, um ihn einigermaßen präsentabel zu machen, nahm er ihn in seinem Schlitten mit in die kleine Nachbarstadt, wo er im Café des Hauptplatzes eine Ecke mit enragierten Schachspielern wusste, denen er selbst erfahrungsgemäß nicht gewachsen war.",
+      "en": "The priest, better placed than anyone to judge how backward his pupil was in every other respect, now became seriously curious to see how far this one-sided, peculiar talent would stand up to a tougher test. After having the village barber cut Mirko's shaggy straw-blond hair to make him reasonably presentable, he took him in his sleigh to the small neighbouring town, where he knew of a corner in the café on the main square with keen chess players whom, as he knew from experience, he himself was no match for.",
+      "explain_en": "'neugierig' = curious. 'die Begabung' = talent, gift. 'standhalten' = to withstand. 'sich die Haare schneiden lassen' means to get your hair cut: 'lassen' + infinitive = to have something done – very useful. 'einigermaßen' (reasonably, more or less) is common. 'enragiert' is an old French loan word; today: 'leidenschaftlich' (passionate). 'jemandem gewachsen sein' = to be a match for someone.",
+      "words": [
+        {
+          "de": "neugierig",
+          "en": "curious"
+        },
+        {
+          "de": "die Begabung, die Begabungen",
+          "en": "talent"
+        },
+        {
+          "de": "die Prüfung, die Prüfungen",
+          "en": "test, exam"
+        },
+        {
+          "de": "die Haare schneiden lassen",
+          "en": "to get one's hair cut"
+        },
+        {
+          "de": "einigermaßen",
+          "en": "reasonably, more or less"
+        },
+        {
+          "de": "erfahrungsgemäß",
+          "en": "from experience"
+        },
+        {
+          "de": "jemandem gewachsen sein",
+          "en": "to be a match for someone"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "de": "Es erregte bei der ansässigen Runde nicht geringes Staunen, als der Pfarrer den fünfzehnjährigen strohblonden und rotbackigen Burschen in seinem nach innen getragenen Schafspelz und schweren, hohen Schaftstiefeln in das Kaffeehaus schob, wo der Junge befremdet mit scheu niedergeschlagenen Augen in einer Ecke stehen blieb, bis man ihn zu einem der Schachtische hinrief. In der ersten Partie wurde Mirko geschlagen, da er die sogenannte Sizilianische Eröffnung bei dem guten Pfarrer nie gesehen hatte. In der zweiten Partie kam er schon gegen den besten Spieler auf Remis. Von der dritten und vierten an schlug er sie alle, einen nach dem andern.",
+      "en": "It caused no small astonishment among the local regulars when the priest pushed the fifteen-year-old, straw-blond, red-cheeked lad into the coffee house in his sheepskin coat worn fur-side in and his heavy high boots, where the boy stood in a corner, bewildered, eyes shyly lowered, until someone called him over to one of the chess tables. In the first game Mirko was beaten, because he had never seen the so-called Sicilian Defence at the good priest's. In the second game he already managed a draw against the best player. From the third and fourth game on, he beat them all, one after another.",
+      "explain_en": "'die Runde' here means a group of regulars who meet at the same table. 'nicht geringes Staunen' ('not a little astonishment') is understatement for 'a lot of astonishment'. 'schieben' = to push. 'stehen bleiben' = to stay standing, to stop. 'sogenannt' = so-called. 'Remis' is the chess word for a draw; in other sports people say 'unentschieden'. 'einen nach dem andern' = one after another ('andern' = 'anderen').",
+      "words": [
+        {
+          "de": "das Staunen",
+          "en": "astonishment"
+        },
+        {
+          "de": "die Ecke, die Ecken",
+          "en": "corner"
+        },
+        {
+          "de": "stehen bleiben",
+          "en": "to stop, to stay standing"
+        },
+        {
+          "de": "sogenannt",
+          "en": "so-called"
+        },
+        {
+          "de": "das Remis",
+          "en": "draw (in chess)",
+          "note": "in other sports: unentschieden"
+        },
+        {
+          "de": "schlagen",
+          "en": "to beat; to hit"
+        },
+        {
+          "de": "einer nach dem anderen",
+          "en": "one after another"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "de": "Nun ereignen sich in einer kleinen südslawischen Provinzstadt höchst selten aufregende Dinge; so wurde das erste Auftreten dieses bäuerlichen Champions für die versammelten Honoratioren unverzüglich zur Sensation. Einstimmig wurde beschlossen, der Wunderknabe müsste unbedingt noch bis zum nächsten Tage in der Stadt bleiben, damit man die anderen Mitglieder des Schachklubs zusammenrufen und vor allem den alten Grafen Simczic, einen Fanatiker des Schachspiels, auf seinem Schlosse verständigen könne.",
+      "en": "Now, exciting things very rarely happen in a small South Slav provincial town; and so the first appearance of this peasant champion immediately became a sensation for the assembled local worthies. It was unanimously decided that the boy wonder simply had to stay in town until the next day, so that the other members of the chess club could be called together and, above all, old Count Simczic, a chess fanatic, could be told about it at his castle.",
+      "explain_en": "'sich ereignen' is formal for 'passieren' (to happen). 'Honoratioren' (the important, respectable people of a town) is old-fashioned. 'unverzüglich' is formal for 'sofort' (immediately). 'einstimmig' = unanimous. 'müsste' and 'könne' are subjunctive forms used to report a decision. 'verständigen' here = to inform (today: 'Bescheid sagen' or 'informieren'). 'bis zum nächsten Tage' and 'auf seinem Schlosse' have old dative -e endings.",
+      "words": [
+        {
+          "de": "selten",
+          "en": "rarely, rare"
+        },
+        {
+          "de": "aufregend",
+          "en": "exciting"
+        },
+        {
+          "de": "einstimmig",
+          "en": "unanimous"
+        },
+        {
+          "de": "beschließen",
+          "en": "to decide"
+        },
+        {
+          "de": "unbedingt",
+          "en": "absolutely, definitely"
+        },
+        {
+          "de": "das Mitglied, die Mitglieder",
+          "en": "member"
+        },
+        {
+          "de": "der Graf, die Grafen",
+          "en": "count (nobleman)"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "de": "Der Pfarrer, der mit einem ganz neuen Stolz auf seinen Pflegling blickte, aber über seiner Entdeckerfreude doch seinen pflichtgemäßen Sonntagsgottesdienst nicht versäumen wollte, erklärte sich bereit, Mirko für eine weitere Probe zurückzulassen. Der junge Czentovic wurde auf Kosten der Schachecke im Hotel einquartiert und sah an diesem Abend zum ersten Mal ein Wasserklosett.",
+      "en": "The priest, who looked at his foster son with a completely new pride but, for all his joy at his discovery, didn't want to miss the Sunday service it was his duty to hold, agreed to leave Mirko behind for a further test. Young Czentovic was put up in the hotel at the chess corner's expense, and that evening he saw a flush toilet for the first time.",
+      "explain_en": "'der Stolz' = pride; 'stolz auf' = proud of. 'versäumen' is formal for 'verpassen' (to miss). 'sich bereit erklären' = to agree to do something. 'auf Kosten' = at the expense of. 'einquartieren' = to put someone up. 'das Wasserklosett' is old for 'die Toilette' or 'das Klo' – a funny detail showing how poor his village was.",
+      "words": [
+        {
+          "de": "der Stolz",
+          "en": "pride"
+        },
+        {
+          "de": "versäumen",
+          "en": "to miss",
+          "note": "formal; everyday: verpassen"
+        },
+        {
+          "de": "sich bereit erklären",
+          "en": "to agree (to do something)"
+        },
+        {
+          "de": "die Probe, die Proben",
+          "en": "test, trial; rehearsal"
+        },
+        {
+          "de": "auf Kosten",
+          "en": "at the expense of"
+        },
+        {
+          "de": "zum ersten Mal",
+          "en": "for the first time"
+        },
+        {
+          "de": "das Wasserklosett",
+          "en": "flush toilet",
+          "note": "old-fashioned; today: die Toilette, das Klo"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "de": "Am folgenden Sonntagnachmittag war der Schachraum überfüllt. Mirko, unbeweglich vier Stunden vor dem Brett sitzend, besiegte, ohne ein Wort zu sprechen oder auch nur aufzuschauen, einen Spieler nach dem andern; schließlich wurde eine Simultanpartie vorgeschlagen. Es dauerte eine Weile, ehe man dem Unbelehrten begreiflich machen konnte, dass bei einer Simultanpartie er allein gegen die verschiedenen Spieler zu kämpfen hätte. Aber sobald Mirko diesen Usus begriffen, fand er sich rasch in die Aufgabe, ging mit seinen schweren, knarrenden Schuhen langsam von Tisch zu Tisch und gewann schließlich sieben von den acht Partien.",
+      "en": "The following Sunday afternoon the chess room was packed. Mirko, sitting motionless in front of the board for four hours, beat one player after another without saying a word or even looking up; in the end, a simultaneous game was suggested. It took a while before they could make the untaught boy understand that in a simultaneous game he alone would have to take on all the different players. But as soon as Mirko had grasped this custom, he quickly got the hang of the task, walked slowly from table to table in his heavy, creaking shoes and in the end won seven of the eight games.",
+      "explain_en": "'überfüllt' = overcrowded. 'besiegen' = to defeat. 'ohne ... zu' + infinitive = without ...-ing: 'ohne ein Wort zu sprechen'. 'vorschlagen' (to suggest) is very useful. 'Es dauerte eine Weile' = it took a while. 'begreiflich machen' = to make someone understand. 'der Usus' is a Latin word for custom – old-fashioned. In 'sobald Mirko diesen Usus begriffen' Zweig leaves out 'hatte', a literary habit. 'sich in etwas finden' = to adjust to (today: 'sich zurechtfinden').",
+      "words": [
+        {
+          "de": "überfüllt",
+          "en": "overcrowded"
+        },
+        {
+          "de": "besiegen",
+          "en": "to defeat"
+        },
+        {
+          "de": "vorschlagen",
+          "en": "to suggest"
+        },
+        {
+          "de": "eine Weile",
+          "en": "a while"
+        },
+        {
+          "de": "begreifen",
+          "en": "to understand, to grasp"
+        },
+        {
+          "de": "der Schuh, die Schuhe",
+          "en": "shoe"
+        },
+        {
+          "de": "schließlich",
+          "en": "finally, in the end"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "de": "Nun begannen große Beratungen. Obwohl dieser neue Champion im strengen Sinne nicht zur Stadt gehörte, war doch der heimische Nationalstolz lebhaft entzündet. Vielleicht konnte endlich die kleine Stadt, deren Vorhandensein auf der Landkarte kaum jemand bisher wahrgenommen, zum ersten Mal sich die Ehre erwerben, einen berühmten Mann in die Welt zu schicken.",
+      "en": "Now came long discussions. Although, strictly speaking, this new champion didn't belong to the town, local patriotic pride had been fired up. Perhaps the little town, whose existence on the map hardly anyone had noticed until then, could at last win the honour, for the first time, of sending a famous man out into the world.",
+      "explain_en": "'die Beratung' = discussion, consultation. 'obwohl' (although) sends the verb to the end of the clause. 'im strengen Sinne' = strictly speaking. 'entzünden' = to set alight. After 'wahrgenommen' Zweig again leaves out 'hatte' (literary style). 'die Landkarte' = map. 'sich die Ehre erwerben' = to win the honour.",
+      "words": [
+        {
+          "de": "obwohl",
+          "en": "although"
+        },
+        {
+          "de": "gehören zu",
+          "en": "to belong to"
+        },
+        {
+          "de": "die Landkarte, die Landkarten",
+          "en": "map"
+        },
+        {
+          "de": "kaum",
+          "en": "hardly"
+        },
+        {
+          "de": "berühmt",
+          "en": "famous"
+        },
+        {
+          "de": "die Ehre",
+          "en": "honour"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "de": "Ein Agent namens Koller, sonst nur Chansonetten und Sängerinnen für das Kabarett der Garnison vermittelnd, erklärte sich bereit, sofern man den Zuschuss für ein Jahr leiste, den jungen Menschen in Wien von einem ihm bekannten ausgezeichneten kleinen Meister fachmäßig in der Schachkunst ausbilden zu lassen. Graf Simczic, dem in sechzig Jahren täglichen Schachspieles nie ein so merkwürdiger Gegner entgegengetreten war, zeichnete sofort den Betrag. Mit diesem Tage begann die erstaunliche Karriere des Schiffersohnes.",
+      "en": "An agent named Koller, who otherwise only found work for chanteuses and singers at the garrison's cabaret, said he was prepared – provided the money for one year was put up – to have the young man trained properly in chess in Vienna by an excellent minor master he knew. Count Simczic, who in sixty years of playing chess every day had never come up against such a strange opponent, pledged the sum at once. And from that day on began the astonishing career of the boatman's son.",
+      "explain_en": "'namens' = named, called: 'ein Junge namens Max'. 'vermitteln' = to arrange or find (jobs, contacts). 'sofern' = provided that. 'der Zuschuss' = grant, subsidy. 'ausbilden lassen' = to have someone trained; 'die Ausbildung' (training, apprenticeship) is a key word in Germany today. 'der Gegner' = opponent. 'einen Betrag zeichnen' = to sign up to pay an amount (old business language).",
+      "words": [
+        {
+          "de": "namens",
+          "en": "named, called"
+        },
+        {
+          "de": "der Zuschuss, die Zuschüsse",
+          "en": "grant, subsidy"
+        },
+        {
+          "de": "ausbilden",
+          "en": "to train"
+        },
+        {
+          "de": "ausgezeichnet",
+          "en": "excellent"
+        },
+        {
+          "de": "der Gegner, die Gegner",
+          "en": "opponent"
+        },
+        {
+          "de": "der Betrag, die Beträge",
+          "en": "amount (of money)"
+        },
+        {
+          "de": "erstaunlich",
+          "en": "astonishing"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "de": "Nach einem halben Jahre beherrschte Mirko sämtliche Geheimnisse der Schachtechnik, allerdings mit einer seltsamen Einschränkung, die später in den Fachkreisen viel beobachtet und bespöttelt wurde. Denn Czentovic brachte es nie dazu, auch nur eine einzige Schachpartie auswendig – oder wie man fachgemäß sagt: blind – zu spielen.",
+      "en": "After six months Mirko had mastered all the secrets of chess technique, though with one strange limitation which was later much observed and mocked in expert circles. For Czentovic never managed to play even a single game of chess from memory – or, as the experts say: blind.",
+      "explain_en": "'nach einem halben Jahre' – today 'nach einem halben Jahr' (after six months). 'sämtliche' = all (formal). 'allerdings' (however, admittedly) is very common. 'die Einschränkung' = limitation. 'es zu etwas bringen' = to manage or achieve something, so 'brachte es nie dazu' = never managed it. 'auswendig' = by heart, as in 'auswendig lernen'. 'blind spielen' = playing chess without looking at a board.",
+      "words": [
+        {
+          "de": "das Geheimnis, die Geheimnisse",
+          "en": "secret"
+        },
+        {
+          "de": "allerdings",
+          "en": "however, admittedly"
+        },
+        {
+          "de": "die Einschränkung, die Einschränkungen",
+          "en": "limitation"
+        },
+        {
+          "de": "beobachten",
+          "en": "to observe"
+        },
+        {
+          "de": "auswendig",
+          "en": "by heart, from memory"
+        },
+        {
+          "de": "blind",
+          "en": "blind"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Ihm fehlte vollkommen die Fähigkeit, das Schlachtfeld in den unbegrenzten Raum der Fantasie zu stellen. Er musste immer das schwarzweiße Karree mit den vierundsechzig Feldern und zweiunddreißig Figuren handgreiflich vor sich haben; noch zur Zeit seines Weltruhmes führte er ständig ein zusammenlegbares Taschenschach mit sich, um, wenn er eine Meisterpartie rekonstruieren oder ein Problem für sich lösen wollte, sich die Stellung optisch vor Augen zu führen.",
+      "en": "He completely lacked the ability to place the battlefield in the boundless space of the imagination. He always had to have the black-and-white square with its sixty-four squares and thirty-two pieces physically in front of him; even at the height of his world fame he always carried a folding pocket chess set so that, whenever he wanted to reconstruct a master game or solve a problem for himself, he could see the position with his own eyes.",
+      "explain_en": "'Ihm fehlte die Fähigkeit' = he lacked the ability; 'fehlen' takes the dative: 'Mir fehlt die Zeit.' 'das Karree' is an old French word for a square (today 'das Quadrat'), while 'das Feld' is one square on a chessboard. 'handgreiflich' today usually means 'violent' ('handgreiflich werden' = to get physical); here it means 'physically, tangibly' – an older use. 'zusammenlegbar' = foldable. 'ein Problem lösen' (to solve a problem) is useful.",
+      "words": [
+        {
+          "de": "die Fähigkeit, die Fähigkeiten",
+          "en": "ability"
+        },
+        {
+          "de": "die Fantasie",
+          "en": "imagination"
+        },
+        {
+          "de": "das Feld, die Felder",
+          "en": "square (on a board); field"
+        },
+        {
+          "de": "die Figur, die Figuren",
+          "en": "piece (in chess); figure"
+        },
+        {
+          "de": "ständig",
+          "en": "constantly"
+        },
+        {
+          "de": "ein Problem lösen",
+          "en": "to solve a problem"
+        },
+        {
+          "de": "die Stellung",
+          "en": "position"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "de": "Dieser an sich unbeträchtliche Defekt verriet einen Mangel an imaginativer Kraft und wurde in dem engen Kreise ebenso lebhaft diskutiert, wie wenn unter Musikern ein hervorragender Virtuose oder Dirigent sich unfähig gezeigt hätte, ohne aufgeschlagene Partitur zu spielen oder zu dirigieren. Aber diese merkwürdige Eigenheit verzögerte keineswegs Mirkos stupenden Aufstieg. Mit siebzehn Jahren hatte er schon ein Dutzend Schachpreise gewonnen, mit achtzehn sich die ungarische Meisterschaft, mit zwanzig endlich die Weltmeisterschaft erobert.",
+      "en": "This defect, trivial in itself, revealed a lack of imaginative power and was discussed in that small circle just as eagerly as if an outstanding virtuoso or conductor among musicians had turned out to be unable to play or conduct without the score open in front of him. But this odd quirk in no way slowed down Mirko's stupendous rise. At seventeen he had already won a dozen chess prizes, at eighteen the Hungarian championship, and finally, at twenty, the world championship.",
+      "explain_en": "'an sich' = in itself. 'verraten' = to reveal or betray. 'der Mangel an' = lack of. 'wie wenn ... hätte' works like 'als ob' + subjunctive: as if. 'der Dirigent' = conductor, 'die Partitur' = musical score. 'der Aufstieg' = rise (also promotion in football!). 'mit siebzehn Jahren' = at the age of seventeen – useful. The verb 'erobert' (conquered) belongs to all three achievements.",
+      "words": [
+        {
+          "de": "der Mangel an",
+          "en": "lack of"
+        },
+        {
+          "de": "diskutieren",
+          "en": "to discuss"
+        },
+        {
+          "de": "der Musiker, die Musiker",
+          "en": "musician"
+        },
+        {
+          "de": "die Eigenheit",
+          "en": "quirk, peculiarity"
+        },
+        {
+          "de": "der Aufstieg",
+          "en": "rise; promotion"
+        },
+        {
+          "de": "der Preis, die Preise",
+          "en": "prize; price"
+        },
+        {
+          "de": "die Meisterschaft, die Meisterschaften",
+          "en": "championship"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "de": "Die verwegensten Champions, jeder einzelne an intellektueller Begabung, an Fantasie und Kühnheit ihm unermesslich überlegen, erlagen ebenso seiner zähen und kalten Logik wie Napoleon dem schwerfälligen Kutusow, wie Hannibal dem Fabius Cunctator, von dem Livius berichtet, dass er gleichfalls in seiner Kindheit derart auffällige Züge von Phlegma und Imbezillität gezeigt habe.",
+      "en": "The boldest champions, every one of them immeasurably superior to him in intellectual talent, imagination and daring, went down before his tough, cold logic just as Napoleon did before the slow-moving Kutuzov, and Hannibal before Fabius Cunctator, of whom Livy reports that he too had shown such striking signs of sluggishness and feeble-mindedness in his childhood.",
+      "explain_en": "Zweig compares Czentovic to slow, patient generals who beat brilliant ones: Kutuzov defeated Napoleon in Russia, and Fabius wore Hannibal down. 'verwegen' is literary for 'mutig' or 'waghalsig' (daring). 'jemandem überlegen sein' = to be superior to someone. 'erliegen' (+ dative) = to succumb to. 'zäh' = tough, stubborn. 'berichten' = to report. 'gleichfalls' is formal for 'ebenfalls' or 'auch'.",
+      "words": [
+        {
+          "de": "überlegen",
+          "en": "superior"
+        },
+        {
+          "de": "die Kühnheit",
+          "en": "daring, boldness"
+        },
+        {
+          "de": "zäh",
+          "en": "tough, tenacious"
+        },
+        {
+          "de": "die Logik",
+          "en": "logic"
+        },
+        {
+          "de": "berichten",
+          "en": "to report"
+        },
+        {
+          "de": "die Kindheit",
+          "en": "childhood"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "de": "So geschah es, dass in die illustre Galerie der Schachmeister, die in ihren Reihen die verschiedensten Typen intellektueller Überlegenheit vereinigt – Philosophen, Mathematiker, kalkulierende, imaginierende und oft schöpferische Naturen –, zum ersten Mal ein völliger Outsider der geistigen Welt einbrach, ein schwerer, maulfauler Bauernbursche, aus dem auch nur ein einziges publizistisch brauchbares Wort herauszulocken selbst den gerissensten Journalisten nie gelang.",
+      "en": "And so it happened that into the illustrious gallery of chess masters – which unites in its ranks the most varied types of intellectual superiority: philosophers, mathematicians, calculating, imaginative and often creative minds – there broke, for the first time, a complete outsider to the world of the mind: a heavy, tongue-tied peasant lad from whom even the craftiest journalists never managed to coax a single word worth printing.",
+      "explain_en": "A long sentence where the main verb 'einbrach' (broke in) comes very late – typical Zweig. 'So geschah es, dass ...' = and so it happened that ... 'vereinigen' = to unite. 'geistig' = intellectual, mental. 'herauslocken' = to coax out. 'gerissen' (crafty, cunning) is still used: 'ein gerissener Typ'. 'gelingen' takes the dative: 'Es ist mir gelungen' = I managed it.",
+      "words": [
+        {
+          "de": "geschehen",
+          "en": "to happen"
+        },
+        {
+          "de": "vereinigen",
+          "en": "to unite"
+        },
+        {
+          "de": "der Outsider",
+          "en": "outsider",
+          "note": "usual German word: der Außenseiter"
+        },
+        {
+          "de": "der Journalist, die Journalisten",
+          "en": "journalist"
+        },
+        {
+          "de": "gerissen",
+          "en": "crafty, cunning"
+        },
+        {
+          "de": "gelingen",
+          "en": "to succeed",
+          "note": "Es ist mir gelungen. = I managed it."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "de": "Freilich, was Czentovic den Zeitungen an geschliffenen Sentenzen vorenthielt, ersetzte er bald reichlich durch Anekdoten über seine Person. Denn rettungslos wurde mit der Sekunde, da er vom Schachbrette aufstand, wo er Meister ohnegleichen war, Czentovic zu einer grotesken und beinahe komischen Figur; trotz seines feierlichen schwarzen Anzuges, seiner pompösen Krawatte mit der etwas aufdringlichen Perlennadel und seiner mühsam manikürten Finger blieb er in seinem Gehaben und seinen Manieren derselbe beschränkte Bauernjunge, der im Dorf die Stube des Pfarrers gefegt.",
+      "en": "Admittedly, whatever polished sayings Czentovic denied the newspapers, he soon made up for in plenty with anecdotes about himself. For the second he stood up from the chessboard, where he was a master without equal, Czentovic hopelessly turned into a grotesque, almost comic figure; despite his formal black suit, his pompous tie with its rather showy pearl pin and his carefully manicured fingers, in his behaviour and manners he remained the same narrow-minded peasant boy who had swept the priest's room back in the village.",
+      "explain_en": "'freilich' = admittedly, of course (a bit old; today 'allerdings'). 'vorenthalten' = to withhold. 'ohnegleichen' = without equal. 'der Anzug' = suit, 'die Krawatte' = tie. 'aufdringlich' (pushy, showy) is common. 'das Gehaben' is old for 'das Benehmen' (behaviour), and 'die Stube' is old for 'das Zimmer'. Zweig leaves out 'hatte' after 'gefegt' again.",
+      "words": [
+        {
+          "de": "freilich",
+          "en": "admittedly, of course",
+          "note": "a bit old-fashioned; today: allerdings"
+        },
+        {
+          "de": "aufstehen",
+          "en": "to stand up, to get up"
+        },
+        {
+          "de": "der Anzug, die Anzüge",
+          "en": "suit"
+        },
+        {
+          "de": "die Krawatte, die Krawatten",
+          "en": "tie"
+        },
+        {
+          "de": "aufdringlich",
+          "en": "pushy, showy"
+        },
+        {
+          "de": "die Manieren",
+          "en": "manners"
+        },
+        {
+          "de": "fegen",
+          "en": "to sweep"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "de": "Ungeschickt und geradezu schamlos plump suchte er zum Gaudium und zum Ärger seiner Fachkollegen aus seiner Begabung und seinem Ruhm mit einer kleinlichen und sogar oft ordinären Habgier herauszuholen, was an Geld herauszuholen war. Er reiste von Stadt zu Stadt, immer in den billigsten Hotels wohnend, er spielte in den kläglichsten Vereinen, sofern man ihm sein Honorar bewilligte, er ließ sich abbilden auf Seifenreklamen und verkaufte sogar, ohne auf den Spott seiner Konkurrenten zu achten, die genau wussten, dass er nicht imstande war, drei Sätze richtig zu schreiben, seinen Namen für eine ›Philosophie des Schachs‹, die in Wirklichkeit ein kleiner galizischer Student für den geschäftstüchtigen Verleger geschrieben.",
+      "en": "Clumsily and quite shamelessly crudely, to the amusement and annoyance of his fellow players, he tried with petty and often vulgar greed to squeeze out of his talent and fame whatever money could be squeezed out. He travelled from town to town, always staying in the cheapest hotels, he played at the most pitiful clubs as long as they paid his fee, he let himself be pictured in soap advertisements and – ignoring the mockery of his rivals, who knew perfectly well he couldn't write three sentences correctly – even sold his name for a 'Philosophy of Chess' that had actually been written by a little student from Galicia for the business-minded publisher.",
+      "explain_en": "'ungeschickt' = clumsy. 'zum Gaudium' is an old Latin-style phrase for 'zur Belustigung' (to the amusement of). 'die Habgier' = greed. 'herausholen' (to get the most out of) is common today: 'das Beste herausholen'. 'billig' = cheap. 'das Honorar' = fee. 'die Reklame' is old for 'die Werbung' (advertising). 'geschäftstüchtig' = business-savvy. Galicia was a region of Austria-Hungary, now in Poland and Ukraine.",
+      "words": [
+        {
+          "de": "ungeschickt",
+          "en": "clumsy"
+        },
+        {
+          "de": "die Habgier",
+          "en": "greed"
+        },
+        {
+          "de": "herausholen",
+          "en": "to get out of"
+        },
+        {
+          "de": "billig",
+          "en": "cheap"
+        },
+        {
+          "de": "das Honorar, die Honorare",
+          "en": "fee"
+        },
+        {
+          "de": "die Reklame",
+          "en": "advertising",
+          "note": "old-fashioned; today: die Werbung"
+        },
+        {
+          "de": "der Verleger, die Verleger",
+          "en": "publisher"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "de": "Wie allen zähen Naturen fehlte ihm jeder Sinn für das Lächerliche; seit seinem Siege im Weltturnier hielt er sich für den wichtigsten Mann der Welt, und das Bewusstsein, all diese gescheiten, intellektuellen, blendenden Sprecher und Schreiber auf ihrem eigenen Feld geschlagen zu haben, und vor allem die handgreifliche Tatsache, mehr als sie zu verdienen, verwandelte die ursprüngliche Unsicherheit in einen kalten und meist plump zur Schau getragenen Stolz.",
+      "en": "Like all stubborn natures, he completely lacked any sense of the ridiculous; since his victory in the world tournament he considered himself the most important man in the world, and the awareness of having beaten all those clever, intellectual, brilliant speakers and writers on their own ground – and above all the solid fact of earning more than they did – turned his original insecurity into a cold pride that he mostly paraded crudely.",
+      "explain_en": "'der Sinn für' = sense of ('Sinn für Humor' = sense of humour). 'sich halten für' = to think you are something: 'Er hält sich für cool.' – very useful. 'seit seinem Siege' has an old dative -e (today 'seit seinem Sieg'). 'das Bewusstsein' = awareness. 'verdienen' = to earn. 'die Unsicherheit' = insecurity. 'zur Schau tragen' = to show off, to display.",
+      "words": [
+        {
+          "de": "lächerlich",
+          "en": "ridiculous"
+        },
+        {
+          "de": "der Sieg, die Siege",
+          "en": "victory"
+        },
+        {
+          "de": "sich halten für",
+          "en": "to consider oneself"
+        },
+        {
+          "de": "wichtig",
+          "en": "important"
+        },
+        {
+          "de": "verdienen",
+          "en": "to earn"
+        },
+        {
+          "de": "die Unsicherheit",
+          "en": "insecurity"
+        },
+        {
+          "de": "der Stolz",
+          "en": "pride"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "de": "»Aber wie sollte ein so rascher Ruhm nicht einen so leeren Kopf beduseln?« schloss mein Freund, der mir gerade einige klassische Proben von Czentovics kindischer Präpotenz anvertraut hatte. »Wie sollte ein einundzwanzigjähriger Bauernbursche aus dem Banat nicht den Eitelkeitskoller kriegen, wenn er plötzlich mit ein bisschen Figurenherumschieben auf einem Holzbrett in einer Woche mehr verdient als sein ganzes Dorf daheim mit Holzfällen und den bittersten Abrackereien in einem ganzen Jahr?",
+      "en": "'But how could such quick fame not go to such an empty head?' my friend concluded, having just told me a few classic examples of Czentovic's childish arrogance. 'How could a twenty-one-year-old peasant lad from the Banat not get big-headed when, just by pushing a few pieces around a wooden board, he suddenly earns more in one week than his whole village back home earns in a whole year of chopping wood and the most bitter slog?'",
+      "explain_en": "'beduseln' (to make someone tipsy) is colloquial; today you'd say 'zu Kopf steigen': 'Der Ruhm ist ihm zu Kopf gestiegen.' 'anvertrauen' = to confide. 'Präpotenz' is Austrian for arrogance. The Banat is a region in today's Romania and Serbia. 'kriegen' is everyday German for 'bekommen' (to get). 'daheim' = at home (southern; in the north: 'zu Hause'). 'sich abrackern' = to slog away (colloquial).",
+      "words": [
+        {
+          "de": "der Ruhm",
+          "en": "fame"
+        },
+        {
+          "de": "leer",
+          "en": "empty"
+        },
+        {
+          "de": "kindisch",
+          "en": "childish"
+        },
+        {
+          "de": "kriegen",
+          "en": "to get",
+          "note": "colloquial for bekommen"
+        },
+        {
+          "de": "verdienen",
+          "en": "to earn"
+        },
+        {
+          "de": "das Dorf, die Dörfer",
+          "en": "village"
+        },
+        {
+          "de": "daheim",
+          "en": "at home",
+          "note": "southern; also: zu Hause"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Und dann, ist es nicht eigentlich verflucht leicht, sich für einen großen Menschen zu halten, wenn man nicht mit der leisesten Ahnung belastet ist, dass ein Rembrandt, ein Beethoven, ein Dante, ein Napoleon je gelebt haben? Dieser Bursche weiß in seinem vermauerten Gehirn nur das eine, dass er seit Monaten nicht eine einzige Schachpartie verloren hat, und da er eben nicht ahnt, dass es außer Schach und Geld noch andere Werte auf unserer Erde gibt, hat er allen Grund, von sich begeistert zu sein.«",
+      "en": "'And then, isn't it actually damn easy to think you're a great man when you aren't burdened with the faintest idea that a Rembrandt, a Beethoven, a Dante or a Napoleon ever lived? All this fellow knows, in his walled-up brain, is that he hasn't lost a single game of chess in months, and since he just has no idea that there are other things of value on this earth besides chess and money, he has every reason to be thrilled with himself.'",
+      "explain_en": "'verflucht' (damn, cursed) is colloquial and a bit rude, like 'verdammt'. 'die Ahnung' = idea, clue: 'Keine Ahnung!' (No idea!) is something you'll say every day. 'ahnen' = to have an idea, to suspect. 'seit Monaten' = for months – German uses the present or perfect tense here, not a special tense like English. 'außer' = apart from, besides. 'allen Grund haben' = to have every reason. 'begeistert von' = thrilled with.",
+      "words": [
+        {
+          "de": "verflucht",
+          "en": "damn, cursed",
+          "note": "colloquial"
+        },
+        {
+          "de": "die Ahnung",
+          "en": "idea, clue",
+          "note": "Keine Ahnung! = No idea!"
+        },
+        {
+          "de": "verlieren",
+          "en": "to lose"
+        },
+        {
+          "de": "seit Monaten",
+          "en": "for months"
+        },
+        {
+          "de": "außer",
+          "en": "apart from, except"
+        },
+        {
+          "de": "der Wert, die Werte",
+          "en": "value"
+        },
+        {
+          "de": "begeistert",
+          "en": "enthusiastic, thrilled"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "de": "Diese Mitteilungen meines Freundes verfehlten nicht, meine besondere Neugierde zu erregen. Alle Arten von monomanischen, in eine einzige Idee verschossenen Menschen haben mich zeitlebens angereizt, denn je mehr sich einer begrenzt, um so mehr ist er andererseits dem Unendlichen nahe; gerade solche scheinbar Weltabseitigen bauen in ihrer besonderen Materie sich termitenhaft eine merkwürdige und durchaus einmalige Abbreviatur der Welt. So machte ich aus meiner Absicht, dieses sonderbare Spezimen intellektueller Eingleisigkeit auf der zwölftägigen Fahrt bis Rio näher unter die Lupe zu nehmen, kein Hehl.",
+      "en": "What my friend told me did not fail to arouse my particular curiosity. All kinds of monomaniacs, people obsessed with a single idea, have fascinated me all my life, for the more a person limits himself, the closer, on the other hand, he comes to the infinite; it's precisely such people, apparently cut off from the world, who build out of their special material, like termites, a strange and utterly unique miniature version of the world. So I made no secret of my plan to take a closer look at this peculiar specimen of one-track intellect during the twelve-day voyage to Rio.",
+      "explain_en": "Here the narrator explains why he wants to meet Czentovic. 'die Neugierde' (also 'die Neugier') = curiosity. 'verschossen in' is colloquial for 'verliebt in' (in love with); here it means obsessed with. 'zeitlebens' = all one's life. 'je mehr ..., umso mehr ...' = the more ..., the more ... – a very useful structure. 'unter die Lupe nehmen' (to examine closely) is a common idiom. 'kein Hehl aus etwas machen' = to make no secret of something.",
+      "words": [
+        {
+          "de": "die Neugierde / die Neugier",
+          "en": "curiosity"
+        },
+        {
+          "de": "je mehr ..., umso mehr ...",
+          "en": "the more ..., the more ..."
+        },
+        {
+          "de": "die Absicht, die Absichten",
+          "en": "intention"
+        },
+        {
+          "de": "die Fahrt, die Fahrten",
+          "en": "journey, trip"
+        },
+        {
+          "de": "unter die Lupe nehmen",
+          "en": "to examine closely"
+        },
+        {
+          "de": "kein Hehl aus etwas machen",
+          "en": "to make no secret of something"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "de": "Jedoch: »Da werden Sie wenig Glück haben«, warnte mein Freund. »So viel ich weiß, ist es noch keinem gelungen, aus Czentovic das geringste an psychologischem Material herauszuholen. Hinter all seiner abgründigen Beschränktheit verbirgt dieser gerissene Bauer die große Klugheit, sich keine Blößen zu geben, und zwar dank der simplen Technik, dass er außer mit Landsleuten seiner eigenen Sphäre, die er sich in kleinen Gasthäusern zusammensucht, jedes Gespräch vermeidet. Wo er einen gebildeten Menschen spürt, kriecht er in sein Schneckenhaus; so kann niemand sich rühmen, je ein dummes Wort von ihm gehört oder die angeblich unbegrenzte Tiefe seiner Unbildung ausgemessen zu haben.«",
+      "en": "However: 'You won't have much luck there,' my friend warned. 'As far as I know, nobody has ever managed to get the slightest bit of psychological material out of Czentovic. Behind all his bottomless narrow-mindedness this crafty peasant hides the great cleverness of never exposing a weakness – thanks to the simple technique of avoiding all conversation, except with fellow countrymen of his own sort, whom he seeks out in little inns. Wherever he senses an educated person, he crawls into his shell; so nobody can boast of ever having heard a stupid word from him or of having measured the supposedly unlimited depths of his ignorance.'",
+      "explain_en": "'Glück haben' = to be lucky. 'So viel ich weiß' (as far as I know) is very useful; you'll also hear 'soweit ich weiß'. 'sich eine Blöße geben' = to show a weakness (a bit formal). 'dank' = thanks to. 'vermeiden' = to avoid. 'das Gasthaus' = inn, pub. 'gebildet' = educated. 'in sein Schneckenhaus kriechen' = to crawl into one's shell (literally a snail's shell). 'angeblich' (supposedly) is common.",
+      "words": [
+        {
+          "de": "Glück haben",
+          "en": "to be lucky"
+        },
+        {
+          "de": "So viel ich weiß ...",
+          "en": "As far as I know ..."
+        },
+        {
+          "de": "die Klugheit",
+          "en": "cleverness"
+        },
+        {
+          "de": "das Gespräch, die Gespräche",
+          "en": "conversation"
+        },
+        {
+          "de": "vermeiden",
+          "en": "to avoid"
+        },
+        {
+          "de": "gebildet",
+          "en": "educated"
+        },
+        {
+          "de": "angeblich",
+          "en": "supposedly"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "de": "Mein Freund sollte in der Tat recht behalten. Während der ersten Tage der Reise erwies es sich als vollkommen unmöglich, an Czentovic ohne grobe Zudringlichkeit, die schließlich nicht meine Sache ist, heranzukommen. Manchmal schritt er zwar über das Promenadendeck, aber dann immer die Hände auf dem Rücken verschränkt mit jener stolz in sich versenkten Haltung, wie Napoleon auf dem bekannten Bilde; außerdem erledigte er immer so eilig und stoßhaft seine peripatetische Deckrunde, dass man ihm hätte im Trab nachlaufen müssen, um ihn ansprechen zu können.",
+      "en": "My friend did indeed turn out to be right. During the first days of the voyage it proved completely impossible to get anywhere near Czentovic without being grossly pushy, which, after all, isn't my style. He did sometimes stride across the promenade deck, but always with his hands clasped behind his back, in that proud, self-absorbed pose, like Napoleon in the famous painting; besides, he always did his walking lap of the deck in such a hurried, jerky way that you would have had to jog after him to speak to him.",
+      "explain_en": "'recht behalten' = to turn out to be right. 'sich erweisen als' = to prove to be. 'an jemanden herankommen' = to get close to someone. 'Das ist nicht meine Sache' = that's not my thing – common. 'schreiten' (to stride) is literary; today just 'gehen'. 'peripatetisch' is a Greek-based word meaning 'walking around'. 'hätte ... nachlaufen müssen' (would have had to run after) is subjunctive past with a modal verb – note the two infinitives at the end.",
+      "words": [
+        {
+          "de": "recht behalten",
+          "en": "to turn out to be right"
+        },
+        {
+          "de": "die Reise, die Reisen",
+          "en": "journey, trip"
+        },
+        {
+          "de": "unmöglich",
+          "en": "impossible"
+        },
+        {
+          "de": "der Rücken",
+          "en": "back"
+        },
+        {
+          "de": "die Haltung",
+          "en": "posture; attitude"
+        },
+        {
+          "de": "eilig",
+          "en": "hurried"
+        },
+        {
+          "de": "ansprechen",
+          "en": "to speak to, to approach"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "de": "In den Gesellschaftsräumen wiederum, in der Bar, im Rauchzimmer zeigte er sich niemals; wie mir der Steward auf vertrauliche Erkundigung hin mitteilte, verbrachte er den Großteil des Tages in seiner Kabine, um auf einem mächtigen Brett Schachpartien einzuüben oder zu rekapitulieren.",
+      "en": "In the lounges, on the other hand – in the bar, in the smoking room – he never showed himself; as the steward told me when I asked him discreetly, he spent most of the day in his cabin, practising or going over chess games on a huge board.",
+      "explain_en": "'wiederum' here means 'on the other hand'. 'sich zeigen' = to show up, to appear. 'die Erkundigung' = an enquiry; 'sich erkundigen nach' (to ask about) is very useful. 'mitteilen' is a formal word for 'to tell, to inform'. 'der Großteil' = the greater part. 'einüben' = to practise (today usually just 'üben').",
+      "words": [
+        {
+          "de": "sich zeigen",
+          "en": "to show up, to appear"
+        },
+        {
+          "de": "vertraulich",
+          "en": "confidential"
+        },
+        {
+          "de": "mitteilen",
+          "en": "to inform, to tell"
+        },
+        {
+          "de": "der Großteil",
+          "en": "the greater part, most"
+        },
+        {
+          "de": "die Kabine, die Kabinen",
+          "en": "cabin"
+        },
+        {
+          "de": "einüben",
+          "en": "to practise",
+          "note": "today usually: üben"
+        }
+      ]
+    }
+  ]
+}

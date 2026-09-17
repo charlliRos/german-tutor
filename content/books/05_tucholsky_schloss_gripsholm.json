@@ -1,0 +1,1078 @@
+{
+  "id": "tucholsky-schloss-gripsholm",
+  "title": "Schloss Gripsholm",
+  "author": "Kurt Tucholsky",
+  "author_died": 1935,
+  "year": 1931,
+  "level": "B1-B2",
+  "source": "http://www.zeno.org/Literatur/M/Tucholsky,+Kurt/Werke/1931/Schlo%C3%9F+Gripsholm/Erstes+Kapitel (Zeno.org, text of Kurt Tucholsky: Gesammelte Werke in zehn Bänden, Bd. 9, Reinbek 1975; licence: gemeinfrei)",
+  "orthography": "modernised to current German spelling (dass, muss, bisschen, Fantasie, Gestern Abend, ...); wording unchanged; page numbers and section numbers removed; one scan typo fixed (l2% → 12%). Lydia's dialect (Missingsch/Low German) is kept exactly as Tucholsky wrote it.",
+  "intro_en": "Kurt Tucholsky (1890–1935) was one of the sharpest and funniest journalists in 1920s Berlin. 'Schloss Gripsholm' (1931) is his light summer story: the narrator Peter and his girlfriend Lydia go on holiday to Sweden, near Gripsholm Castle. It opens with a comic exchange of letters with his real publisher, Ernst Rowohlt, and then becomes a witty, warm love story full of natural spoken German. Heads-up: Lydia sometimes speaks Missingsch, a northern German dialect mix – enjoy it, but don't copy those spellings.",
+  "units": [
+    {
+      "n": 1,
+      "de": "Ernst Rowohlt Verlag\nBerlin W 50\nPassauer Straße 8/9\n8. Juni\nLieber Herr Tucholsky,\nschönen Dank für Ihren Brief vom 2. Juni. Wir haben Ihren Wunsch notiert. Für heute etwas andres.\nWie Sie wissen, habe ich in der letzten Zeit allerhand politische Bücher verlegt, mit denen Sie sich ja hinlänglich beschäftigt haben. Nun möchte ich doch aber wieder einmal die ›schöne Literatur‹ pflegen.",
+      "en": "Ernst Rowohlt Publishing House\nBerlin W 50\nPassauer Strasse 8/9\n8 June\nDear Mr Tucholsky,\nMany thanks for your letter of 2 June. We have made a note of your request. Something different for today.\nAs you know, I have recently published all sorts of political books, which you have certainly dealt with at length. But now I'd really like to look after 'fine literature' again for once.",
+      "explain_en": "The novel begins with letters between Tucholsky and his real publisher, Ernst Rowohlt. German letters start with 'Lieber Herr ...,' and the next line begins with a small letter because it follows a comma. 'andres' is a shortened, old-fashioned form of 'anderes'. 'hinlänglich' is old-fashioned for 'genug' or 'ausreichend'. 'wieder einmal' means 'once again'.",
+      "words": [
+        {
+          "de": "der Verlag, die Verlage",
+          "en": "publishing house"
+        },
+        {
+          "de": "der Brief, die Briefe",
+          "en": "letter"
+        },
+        {
+          "de": "der Wunsch, die Wünsche",
+          "en": "wish, request"
+        },
+        {
+          "de": "verlegen",
+          "en": "to publish",
+          "note": "as an adjective 'verlegen' means embarrassed"
+        },
+        {
+          "de": "sich beschäftigen mit",
+          "en": "to deal with, to be busy with"
+        },
+        {
+          "de": "die Literatur",
+          "en": "literature"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "de": "Haben Sie gar nichts? Wie wäre es denn mit einer kleinen Liebesgeschichte? Überlegen Sie sich das mal! Das Buch soll nicht teuer werden, und ich drucke Ihnen für den Anfang zehntausend Stück. Die befreundeten Sortimenter sagen mir jedes Mal auf meinen Reisen, wie gern die Leute so etwas lesen. Wie ist es damit?\nSie haben bei uns noch 46 RM gut – wohin sollen wir Ihnen die überweisen?\nMit den besten Grüßen\nIhr\n(Riesenschnörkel) Ernst Rowohlt",
+      "en": "Haven't you got anything at all? How about a little love story? Think it over! The book shouldn't be expensive, and to start with I'll print ten thousand copies for you. Every time I'm travelling, the booksellers I'm friends with tell me how much people like reading that sort of thing. What do you say?\nWe still owe you 46 Reichsmarks – where should we transfer the money?\nWith best wishes\nYours\n(huge flourish) Ernst Rowohlt",
+      "explain_en": "'Wie wäre es mit ...?' is an everyday way to suggest something: 'Wie wär's mit Pizza?' The little word 'mal' in 'Überlegen Sie sich das mal!' makes a command sound friendlier – very common in speech. 'Sortimenter' is an old trade word; today you say 'Buchhändler'. 'Sie haben bei uns noch 46 RM gut' means 'you still have 46 RM credit with us' (RM = Reichsmark, the currency back then). '(Riesenschnörkel)' is Tucholsky joking about Rowohlt's giant signature.",
+      "words": [
+        {
+          "de": "die Liebesgeschichte, die Liebesgeschichten",
+          "en": "love story"
+        },
+        {
+          "de": "sich etwas überlegen",
+          "en": "to think something over"
+        },
+        {
+          "de": "teuer",
+          "en": "expensive"
+        },
+        {
+          "de": "der Anfang",
+          "en": "beginning",
+          "note": "für den Anfang = to start with"
+        },
+        {
+          "de": "das Stück, die Stücke",
+          "en": "piece; here: copy"
+        },
+        {
+          "de": "überweisen",
+          "en": "to transfer (money)"
+        },
+        {
+          "de": "der Gruß, die Grüße",
+          "en": "greeting",
+          "note": "Mit besten Grüßen = best wishes (end of a letter)"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "de": "10. Juni\nLieber Herr Rowohlt,\nDank für Ihren Brief vom 8. 6.\nJa, eine Liebesgeschichte . . . lieber Meister, wie denken Sie sich das? In der heutigen Zeit Liebe? Lieben Sie? Wer liebt denn heute noch?\nDann schon lieber eine kleine Sommergeschichte.\nDie Sache ist nicht leicht. Sie wissen, wie sehr es mir widerstrebt, die Öffentlichkeit mit meinem persönlichen Kram zu behelligen – das fällt also fort.",
+      "en": "10 June\nDear Mr Rowohlt,\nThanks for your letter of 8/6.\nYes, a love story... my dear master, what are you thinking? Love, in times like these? Are you in love? Who still loves anyone these days?\nA little summer story, then, if anything.\nIt isn't easy. You know how much I hate bothering the public with my personal stuff – so that's out.",
+      "explain_en": "Tucholsky answers ironically. Calling Rowohlt 'Meister' (master) is teasing flattery. 'Dann schon lieber ...' means 'I'd rather ..., then'. 'es widerstrebt mir' is formal for 'I really don't like to' – today you'd say 'Ich mag es gar nicht, ...'. 'behelligen' is old-fashioned for 'belästigen' or 'nerven' (to bother). 'Kram' (stuff) is informal and still very common. 'das fällt fort' – today we say 'das fällt weg' (that's out).",
+      "words": [
+        {
+          "de": "die Liebe",
+          "en": "love"
+        },
+        {
+          "de": "heute",
+          "en": "today",
+          "note": "'heute noch' = still today"
+        },
+        {
+          "de": "leicht",
+          "en": "easy; light"
+        },
+        {
+          "de": "die Öffentlichkeit",
+          "en": "the public"
+        },
+        {
+          "de": "persönlich",
+          "en": "personal"
+        },
+        {
+          "de": "der Kram",
+          "en": "stuff, junk",
+          "note": "informal"
+        },
+        {
+          "de": "wegfallen",
+          "en": "to be dropped, to be out",
+          "note": "text: fortfallen (old-fashioned)"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "de": "Außerdem betrüge ich jede Frau mit meiner Schreibmaschine und erlebe daher nichts Romantisches. Und soll ich mir die Geschichte vielleicht ausdenken? Fantasie haben doch nur die Geschäftsleute, wenn sie nicht zahlen können. Dann fällt ihnen viel ein. Unsereinem . . .\nSchreibe ich den Leuten nicht ihren Wunschtraum (›Die Gräfin raffte ihre Silber-Robe, würdigte den Grafen keines Blickes und fiel die Schlosstreppe hinunter‹), dann bleibt nur noch das Propplem über die Ehe als Zimmer-Gymnastik, die ›Menschliche Einstellung‹ und all das Zeug, das wir nicht mögen. Woher nehmen und nicht bei Villon stehlen?",
+      "en": "Besides, I cheat on every woman with my typewriter, so I never experience anything romantic. And am I supposed to make the story up? Only businessmen have imagination – when they can't pay. Then they come up with all sorts of things. People like me...\nIf I don't write people their dream fantasy ('The countess gathered up her silver gown, didn't deign to look at the count, and fell down the castle stairs'), then all that's left is the Probblem of marriage as indoor gymnastics, 'The Human Approach' and all that stuff we don't like. Where am I supposed to get it from without stealing from Villon?",
+      "explain_en": "'betrügen' means to cheat (on someone) and is still normal. 'sich etwas ausdenken' (to make something up) and 'einfallen' (to occur to someone: 'Mir fällt nichts ein' = I can't think of anything) are very useful verbs. 'Propplem' is a deliberate misspelling that mocks a pompous way of saying 'Problem'. The countess joke parodies cheap romance novels: she should walk down the stairs, but she 'falls' down them. 'Woher nehmen und nicht stehlen?' is a real idiom (where on earth should I get it?); Tucholsky adds Villon, a French poet other writers liked to borrow from.",
+      "words": [
+        {
+          "de": "betrügen",
+          "en": "to cheat, to deceive"
+        },
+        {
+          "de": "die Schreibmaschine",
+          "en": "typewriter"
+        },
+        {
+          "de": "sich etwas ausdenken",
+          "en": "to make something up"
+        },
+        {
+          "de": "die Fantasie",
+          "en": "imagination"
+        },
+        {
+          "de": "einfallen",
+          "en": "to occur to (someone)",
+          "note": "Mir fällt nichts ein. = I can't think of anything."
+        },
+        {
+          "de": "der Wunschtraum, die Wunschträume",
+          "en": "dream, fantasy"
+        },
+        {
+          "de": "die Ehe",
+          "en": "marriage"
+        },
+        {
+          "de": "das Zeug",
+          "en": "stuff",
+          "note": "informal"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "de": "Da wir grade von Lyrik sprechen:\nWie kommt es, dass Sie in § 9 unsres Verlagsvertrages 15 Prozent honorarfreie Exemplare berechnen? So viel Rezensionsexemplare schicken Sie doch niemals in die Welt hinaus! So jagen Sie den sauern Schweiß Ihrer Autoren durch die Gurgel – kein Wunder, dass Sie auf Samt saufen, während unsereiner auf harten Bänken dünnes Bier schluckt. Aber so ist alles.\nDass Sie mir gut sind, wusste ich. Dass Sie mir für 46 RM gut sind, erfreut mein Herz. Bitte wie gewöhnlich an die alte Adresse. Übrigens fahre ich nächste Woche in Urlaub.\nMit vielen schönen Grüßen\nIhr\nTucholsky",
+      "en": "Speaking of poetry:\nHow come that in § 9 of our publishing contract you count 15 per cent royalty-free copies? You never send that many review copies out into the world! That's how you pour your authors' bitter sweat down your throat – no wonder you drink on velvet while people like me swallow thin beer on hard benches. But that's how everything is.\nThat you're fond of me, I knew. That you're good for 46 RM to me warms my heart. Please send it to the old address as usual. By the way, I'm going on holiday next week.\nWith very best wishes\nYours\nTucholsky",
+      "explain_en": "'Da wir grade von ... sprechen' = 'speaking of ...' ('grade' is the spoken form of 'gerade'). 'Wie kommt es, dass ...?' = 'How come ...?' – very useful. He complains about 'honorarfreie Exemplare': copies the author earns nothing on. There's a pun: 'Sie sind mir gut' is old-fashioned for 'you like me', while 'Sie sind mir 46 RM gut' means 'you owe me 46 RM'. 'unsres' is an older short form of 'unseres'. 'saufen' is a rude word for drinking a lot – OK with friends, not with teachers.",
+      "words": [
+        {
+          "de": "der Vertrag, die Verträge",
+          "en": "contract"
+        },
+        {
+          "de": "das Exemplar, die Exemplare",
+          "en": "copy (of a book)"
+        },
+        {
+          "de": "der Schweiß",
+          "en": "sweat"
+        },
+        {
+          "de": "kein Wunder",
+          "en": "no wonder"
+        },
+        {
+          "de": "wie gewöhnlich",
+          "en": "as usual"
+        },
+        {
+          "de": "übrigens",
+          "en": "by the way"
+        },
+        {
+          "de": "der Urlaub",
+          "en": "holiday, vacation",
+          "note": "in Urlaub fahren = to go on holiday"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Ernst Rowohlt Verlag\nBerlin W 50\nPassauer Straße 8/9\n12. Juni\nLieber Herr Tucholsky,\nvielen Dank für Ihren Brief vom 10. d. M.\nDie 15% honorarfreien Exemplare sind – also das können Sie mir wirklich glauben – meine einzige Verdienstmöglichkeit. Lieber Herr Tucholsky, wenn Sie unsre Bilanz sähen, dann wüssten Sie, dass es ein armer Verleger gar nicht leicht hat. Ohne die 15% könnte ich überhaupt nicht existieren und würde glatt verhungern. Das werden Sie doch nicht wollen.\nDie Sommergeschichte sollten Sie sich durch den Kopf gehn lassen.",
+      "en": "Ernst Rowohlt Publishing House\nBerlin W 50\nPassauer Strasse 8/9\n12 June\nDear Mr Tucholsky,\nmany thanks for your letter of the 10th of this month.\nThe 15% royalty-free copies are – and you really can believe me on this – my only way of making money. Dear Mr Tucholsky, if you saw our balance sheet, you'd know that a poor publisher really doesn't have an easy time. Without the 15% I couldn't exist at all and would simply starve. Surely you don't want that.\nYou should give the summer story some thought.",
+      "explain_en": "'d. M.' stands for 'dieses Monats' (of this month), an old business abbreviation. 'wenn Sie ... sähen, dann wüssten Sie' is Konjunktiv II ('if you saw, you would know'); in everyday speech people say 'wenn Sie ... sehen würden, dann würden Sie wissen'. 'glatt' here means 'simply, flat out'. 'sich etwas durch den Kopf gehen lassen' (to think something over) is a very common idiom; 'gehn' is just the spoken form of 'gehen'. 'doch' in 'Das werden Sie doch nicht wollen' adds 'surely'.",
+      "words": [
+        {
+          "de": "die Bilanz",
+          "en": "balance sheet"
+        },
+        {
+          "de": "der Verleger, die Verleger",
+          "en": "publisher"
+        },
+        {
+          "de": "glauben",
+          "en": "to believe"
+        },
+        {
+          "de": "existieren",
+          "en": "to exist"
+        },
+        {
+          "de": "verhungern",
+          "en": "to starve"
+        },
+        {
+          "de": "sich etwas durch den Kopf gehen lassen",
+          "en": "to think something over"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "de": "Die Leute wollen neben der Politik und dem Aktuellen etwas haben, was sie ihrer Freundin schenken können. Sie glauben gar nicht, wie das fehlt. Ich denke an eine kleine Geschichte, nicht zu umfangreich, etwa 15 – 16 Bogen, zart im Gefühl, kartoniert, leicht ironisch und mit einem bunten Umschlag. Der Inhalt kann so frei sein, wie Sie wollen. Ich würde Ihnen vielleicht insoweit entgegenkommen, dass ich die honorarfreien Exemplare auf 14% heruntersetze.\nWie gefällt Ihnen unser neuer Verlagskatalog?\nIch wünsche Ihnen einen vergnügten Urlaub und bin mit vielen Grüßen\nIhr\n(Riesenschnörkel) Ernst Rowohlt",
+      "en": "Besides politics and current affairs, people want something they can give their girlfriend. You wouldn't believe how much that's missing. I'm thinking of a little story, not too long, about 15–16 printed sheets, delicate in feeling, with a card cover, lightly ironic and with a colourful jacket. The content can be as free as you like. I might meet you halfway to the extent of lowering the royalty-free copies to 14%.\nHow do you like our new catalogue?\nI wish you a happy holiday and remain, with best wishes,\nYours\n(huge flourish) Ernst Rowohlt",
+      "explain_en": "'neben' here means 'besides' or 'apart from'. 'Sie glauben gar nicht, wie ...' = 'You wouldn't believe how ...' – great for conversations. 'Bogen' is a printing term (one big sheet folded into 16 pages). 'jemandem entgegenkommen' means to meet someone halfway, and it's still common. 'Wie gefällt Ihnen ...?' (How do you like ...?) is one of the most useful questions in German. 'vergnügt' sounds a bit old-fashioned; today: 'einen schönen Urlaub'.",
+      "words": [
+        {
+          "de": "schenken",
+          "en": "to give (as a present)"
+        },
+        {
+          "de": "fehlen",
+          "en": "to be missing"
+        },
+        {
+          "de": "die Freundin, die Freundinnen",
+          "en": "girlfriend; female friend"
+        },
+        {
+          "de": "der Umschlag",
+          "en": "cover; envelope"
+        },
+        {
+          "de": "der Inhalt",
+          "en": "content"
+        },
+        {
+          "de": "entgegenkommen",
+          "en": "to meet (someone) halfway"
+        },
+        {
+          "de": "gefallen",
+          "en": "to please",
+          "note": "Wie gefällt dir ...? = How do you like ...?"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "de": "15. Juni\nLieber Meister Rowohlt,\nauf dem neuen Verlagskatalog hat Sie Gulbransson ganz richtig gezeichnet: still sinnend an des Baches Rand sitzen Sie da und angeln die fetten Fische. Der Köder mit 14% honorarfreier Exemplare ist nicht fett genug – 12 sind auch ganz schön. Denken Sie mal ein bisschen darüber nach und geben Sie Ihrem harten Verlegerherzen einen Stoß. Bei 14% fällt mir bestimmt nichts ein – ich dichte erst ab 12%.",
+      "en": "15 June\nDear Master Rowohlt,\non the new catalogue Gulbransson has drawn you exactly right: you sit there, quietly musing by the edge of the brook, angling for the fat fish. The bait of 14% royalty-free copies isn't fat enough – 12 is pretty nice too. Think it over a little and give your hard publisher's heart a nudge. At 14% I definitely won't come up with anything – I only write poetry from 12% up.",
+      "explain_en": "Olaf Gulbransson was a famous cartoonist. 'still sinnend an des Baches Rand' quotes the poem by Theodor Storm at the very start of the book. 'an des Baches Rand' is poetic word order – normal German is 'am Rand des Baches'. 'angeln' = to fish with a rod, 'der Köder' = bait. 'einen Stoß geben' = to give a push. 'dichten' means to write poetry – he jokes that he only gets creative at a better percentage.",
+      "words": [
+        {
+          "de": "zeichnen",
+          "en": "to draw"
+        },
+        {
+          "de": "angeln",
+          "en": "to fish (with a rod)"
+        },
+        {
+          "de": "der Köder",
+          "en": "bait"
+        },
+        {
+          "de": "nachdenken über",
+          "en": "to think about"
+        },
+        {
+          "de": "das Herz, die Herzen",
+          "en": "heart"
+        },
+        {
+          "de": "bestimmt",
+          "en": "definitely, certainly"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Ich schreibe diesen Brief schon mit einem Fuß in der Bahn. In einer Stunde fahre ich ab – nach Schweden. Ich will in diesem Urlaub überhaupt nicht arbeiten, sondern ich möchte in die Bäume gucken und mich mal richtig ausruhn.\nWenn ich zurückkomme, wollen wir den Fall noch einmal bebrüten. Nun aber schwenke ich meinen Hut, grüße Sie recht herzlich und wünsche Ihnen einen guten Sommer! Und vergessen Sie nicht: 12%!\nMit vielen schönen Grüßen\nIhr getreuer\nTucholsky",
+      "en": "I'm writing this letter with one foot on the train already. In an hour I leave – for Sweden. I don't want to do any work at all on this holiday; I want to look at the trees and have a really good rest.\nWhen I get back, let's mull the matter over again. But now I wave my hat, send you my warmest regards and wish you a good summer! And don't forget: 12%!\nWith very best wishes\nYours faithfully\nTucholsky",
+      "explain_en": "'die Bahn' is the railway or train (today you'd say 'mit einem Fuß im Zug'). 'nicht ..., sondern ...' = 'not ..., but rather ...' – an important structure. 'gucken' is everyday German for 'schauen' (to look). 'ausruhn' is the spoken form of 'ausruhen'. 'bebrüten' literally means 'to sit on eggs' like a hen – a joke; today you'd say 'besprechen' (discuss). 'Ihr getreuer' (yours faithfully) is old-fashioned.",
+      "words": [
+        {
+          "de": "der Fuß, die Füße",
+          "en": "foot"
+        },
+        {
+          "de": "abfahren",
+          "en": "to leave, to depart"
+        },
+        {
+          "de": "arbeiten",
+          "en": "to work"
+        },
+        {
+          "de": "gucken",
+          "en": "to look",
+          "note": "everyday word"
+        },
+        {
+          "de": "sich ausruhen",
+          "en": "to rest"
+        },
+        {
+          "de": "zurückkommen",
+          "en": "to come back"
+        },
+        {
+          "de": "vergessen",
+          "en": "to forget"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "de": "Unterschrieben – zugeklebt – frankiert – es war genau acht Uhr zehn Minuten. Um neun Uhr zwanzig ging der Zug von Berlin nach Kopenhagen. Und nun wollten wir ja wohl die Prinzessin abholen.\nSie hatte eine Altstimme und hieß Lydia.\nKarlchen und Jakopp aber nannten jede Frau, mit der einer von uns dreien zu tun hatte, ›die Prinzessin‹, um den betreffenden Prinzgemahl zu ehren – und dies war nun also die Prinzessin; aber keine andre durfte je mehr so genannt werden.\nSie war keine Prinzessin.",
+      "en": "Signed – sealed – stamped – it was exactly ten past eight. At twenty past nine the train left Berlin for Copenhagen. And now, I suppose, it was time to pick up the princess.\nShe had a contralto voice and her name was Lydia.\nKarlchen and Jakopp, however, called every woman that any of us three had anything to do with 'the princess', to honour the prince consort in question – and so this was now the princess; but no other woman was ever to be called that again.\nShe wasn't a princess.",
+      "explain_en": "Now the story begins. The three past participles 'unterschrieben – zugeklebt – frankiert' give a quick rhythm ('frankieren' = to put stamps on; today 'eine Briefmarke draufkleben'). 'abholen' (to pick someone up) is very common. 'hieß Lydia' comes from 'heißen' (to be called). Karlchen and Jakopp are the narrator's two best friends. 'andre' is short for 'andere'. 'mit jemandem zu tun haben' = to have something to do with someone.",
+      "words": [
+        {
+          "de": "unterschreiben",
+          "en": "to sign"
+        },
+        {
+          "de": "der Zug, die Züge",
+          "en": "train"
+        },
+        {
+          "de": "abholen",
+          "en": "to pick up (someone)"
+        },
+        {
+          "de": "die Altstimme",
+          "en": "alto voice"
+        },
+        {
+          "de": "heißen",
+          "en": "to be called"
+        },
+        {
+          "de": "nennen",
+          "en": "to call, to name"
+        },
+        {
+          "de": "die Prinzessin",
+          "en": "princess"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "de": "Sie war etwas, was alle Schattierungen umfasst, die nur möglich sind: sie war Sekretärin. Sie war Sekretärin bei einem unförmig dicken Patron; ich hatte ihn einmal gesehn und fand ihn scheußlich, und zwischen ihm und Lydia . . . nein! Das kommt beinah nur in Romanen vor. Zwischen ihm und Lydia bestand jenes merkwürdige Verhältnis von Zuneigung, nervöser Duldung und Vertrauen auf der einen Seite und Zuneigung, Abneigung und duldender Nervosität auf der andern: sie war seine Sekretärin.",
+      "en": "She was something that includes every shade there possibly is: she was a secretary. She was secretary to a shapelessly fat boss; I had seen him once and thought he was hideous, and between him and Lydia... no! That practically only happens in novels. Between him and Lydia there was that strange relationship of fondness, nervous tolerance and trust on one side, and fondness, dislike and tolerant nervousness on the other: she was his secretary.",
+      "explain_en": "The narrator jokes that a secretary's relationship with her boss contains every possible mixed feeling. 'Patron' is old-fashioned and mocking for 'boss' or 'guy' (today: 'Chef' or 'Typ'). 'gesehn' is spoken 'gesehen'; 'beinah' = 'beinahe' or 'fast' (almost). 'auf der einen Seite ... auf der andern (Seite)' = 'on the one hand ... on the other' – still very common. 'scheußlich' (horrible) is still used.",
+      "words": [
+        {
+          "de": "die Sekretärin, die Sekretärinnen",
+          "en": "secretary (female)"
+        },
+        {
+          "de": "dick",
+          "en": "fat, thick"
+        },
+        {
+          "de": "scheußlich",
+          "en": "horrible, hideous"
+        },
+        {
+          "de": "der Roman, die Romane",
+          "en": "novel"
+        },
+        {
+          "de": "das Verhältnis",
+          "en": "relationship"
+        },
+        {
+          "de": "das Vertrauen",
+          "en": "trust"
+        },
+        {
+          "de": "die Abneigung",
+          "en": "dislike"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Der Mann führte den Titel eines Generalkonsuls und handelte ansonsten mit Seifen. Immer lagen da Pakete im Büro herum, und so hatte der Dicke wenigstens eine Ausrede, wenn seine Hände fettig waren.\nDer Generalkonsul hatte ihr in einer Anwandlung fürstlicher Freigebigkeit fünf Wochen Urlaub gewährt; er fuhr nach Abbazia. Gestern Abend war er abgefahren – werde ihm der Schlafwagen leicht! Im Büro saßen sein Schwager und für Lydia eine Stellvertreterin. Was gingen mich denn seine Seifen an – Lydia ging mich an.",
+      "en": "The man held the title of Consul General and otherwise dealt in soaps. There were always packages lying around the office, so the fat man at least had an excuse when his hands were greasy.\nIn a fit of princely generosity the Consul General had given her five weeks' holiday; he was going to Abbazia. He had left last night – may the sleeping car lie lightly upon him! His brother-in-law and a stand-in for Lydia were sitting in the office. What did his soaps matter to me – Lydia mattered to me.",
+      "explain_en": "'handeln mit' = to trade in or deal in. 'die Ausrede' (excuse) is common. 'werde ihm der Schlafwagen leicht!' parodies the funeral phrase 'Möge ihm die Erde leicht sein' (may the earth lie lightly on him) – a dark joke. Abbazia is a seaside resort, today Opatija in Croatia. 'Was gehen mich ... an?' means 'What has ... got to do with me?' – compare the everyday phrase 'Das geht dich nichts an!' (That's none of your business!).",
+      "words": [
+        {
+          "de": "die Seife, die Seifen",
+          "en": "soap"
+        },
+        {
+          "de": "das Büro, die Büros",
+          "en": "office"
+        },
+        {
+          "de": "die Ausrede, die Ausreden",
+          "en": "excuse"
+        },
+        {
+          "de": "fettig",
+          "en": "greasy"
+        },
+        {
+          "de": "gestern Abend",
+          "en": "last night, yesterday evening"
+        },
+        {
+          "de": "der Schwager",
+          "en": "brother-in-law"
+        },
+        {
+          "de": "jemanden etwas angehen",
+          "en": "to be someone's business",
+          "note": "Das geht dich nichts an. = That's none of your business."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "de": "Da stand sie schon mit den Koffern vor ihrem Haus –\n»Hallo!«\n»Du bischa all do?« sagte die Prinzessin – zur grenzenlosen Verwunderung des Taxichauffeurs, der dieses für ostchinesisch hielt. Es war aber missingsch.\nMissingsch ist das, was herauskommt, wenn ein Plattdeutscher hochdeutsch sprechen will. Er krabbelt auf der glatt gebohnerten Treppe der deutschen Grammatik empor und lutscht alle Nase lang wieder in sein geliebtes Platt zurück.",
+      "en": "There she was already, with her suitcases in front of her house –\n'Hello!'\n'You're here already?' said the princess – to the boundless amazement of the taxi driver, who took this for East Chinese. But it was Missingsch.\nMissingsch is what comes out when a Low German speaker tries to speak High German. He clambers up the slippery polished staircase of German grammar and every few steps slides back down into his beloved Platt.",
+      "explain_en": "'Du bischa all do?' is dialect for 'Du bist ja schon da?' – don't learn this spelling! Missingsch mixes Plattdeutsch (Low German, the old language of northern Germany) with Hochdeutsch (standard German). 'Chauffeur' is old-fashioned; today it's 'Taxifahrer'. 'alle Nase lang' is a colloquial idiom for 'every few moments' – today 'ständig' or 'alle paar Minuten'. 'empor' is literary for 'nach oben' (upwards).",
+      "words": [
+        {
+          "de": "der Koffer, die Koffer",
+          "en": "suitcase"
+        },
+        {
+          "de": "die Verwunderung",
+          "en": "amazement"
+        },
+        {
+          "de": "der Chauffeur",
+          "en": "driver",
+          "note": "old-fashioned; today: der Taxifahrer / der Fahrer"
+        },
+        {
+          "de": "herauskommen",
+          "en": "to come out"
+        },
+        {
+          "de": "die Treppe, die Treppen",
+          "en": "stairs"
+        },
+        {
+          "de": "die Grammatik",
+          "en": "grammar"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "de": "Lydia stammte aus Rostock, und sie beherrschte dieses Idiom in der Vollendung. Es ist kein bäurisches Platt – es ist viel feiner. Das Hochdeutsch darin nimmt sich aus wie Hohn und Karikatur; es ist, wie wenn ein Bauer in Frack und Zylinder aufs Feld ginge und so ackerte. Der Zylinder ischa en finen statschen Haut, över wen dor nich mit grot worn is, denn rutscht hei ümmer werrer aff, dat deiht he . . .",
+      "en": "Lydia came from Rostock, and she had mastered this idiom to perfection. It isn't a peasant Platt – it's much finer. The High German in it comes across like mockery and caricature; it's as if a farmer went out to the field in tailcoat and top hat and ploughed like that. The top hat's a fine, stately hat, but if you haven't grown up with it, it keeps slipping off, that's what it does...",
+      "explain_en": "'stammen aus' = to come from (a place); today people also just say 'kommen aus'. 'beherrschen' = to master: 'Sie beherrscht drei Sprachen.' 'sich ausnehmen wie' is old-fashioned for 'wirken wie' (to seem like). 'wie wenn' = 'als ob' (as if) and takes Konjunktiv II: 'ginge'. The sentence 'Der Zylinder ischa en finen statschen Haut ...' is itself written in Missingsch as a demonstration. In standard German: 'Der Zylinder ist ja ein feiner, stattlicher Hut, aber wer damit nicht groß geworden ist, dem rutscht er immer wieder ab.'",
+      "words": [
+        {
+          "de": "stammen aus",
+          "en": "to come from"
+        },
+        {
+          "de": "beherrschen",
+          "en": "to master (e.g. a language)"
+        },
+        {
+          "de": "der Bauer, die Bauern",
+          "en": "farmer"
+        },
+        {
+          "de": "das Feld, die Felder",
+          "en": "field"
+        },
+        {
+          "de": "der Hut, die Hüte",
+          "en": "hat"
+        },
+        {
+          "de": "rutschen",
+          "en": "to slip, to slide"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "de": "Und dann ist da im Platt der ganze Humor dieser Norddeutschen; ihr gutmütiger Spott, wenn es einer gar zu toll treibt, ihr fest zupackender Spaß, wenn sie falschen Glanz wittern, und sie wittern ihn, unfehlbar . . . diese Sprache konnte Lydia bei Gelegenheit sprechen. Hier war eine Gelegenheit.",
+      "en": "And then Platt holds all the humour of these northern Germans: their good-natured mockery when someone goes too far, their down-to-earth fun when they sniff out false glamour – and they do sniff it out, unfailingly... Lydia could speak this language when the occasion arose. Here was an occasion.",
+      "explain_en": "'es zu toll treiben' = to go too far (today: 'es übertreiben' or 'zu weit gehen'). 'wittern' means to sniff out, like an animal – literary; today 'merken' (to notice). 'der Spott' = mockery. 'die Gelegenheit' (opportunity, occasion) is a very useful word: 'bei Gelegenheit' = when there's a chance.",
+      "words": [
+        {
+          "de": "der Humor",
+          "en": "humour"
+        },
+        {
+          "de": "der Spott",
+          "en": "mockery"
+        },
+        {
+          "de": "der Spaß",
+          "en": "fun"
+        },
+        {
+          "de": "falsch",
+          "en": "false, wrong"
+        },
+        {
+          "de": "die Sprache, die Sprachen",
+          "en": "language"
+        },
+        {
+          "de": "die Gelegenheit, die Gelegenheiten",
+          "en": "opportunity, occasion"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "de": "»Kann mir gahnich gienug wunnern, dasse den Zeit nich verschlafen hass!« sagte sie und ging mit festen, ruhigen Bewegungen daran, mir und dem Chauffeur zu helfen. Wir packten auf. »Hier, nimm den Dackel!« – Der Dackel war eine fette, bis zur Albernheit lang gezogne Handtasche. Und so pünktlich war sie! Auf ihren Nasenflügeln lag ein Hauch von Puder. Wir fuhren.",
+      "en": "'I just can't get over it – you didn't oversleep!' she said, and with firm, calm movements set about helping me and the driver. We loaded up. 'Here, take the dachshund!' – The dachshund was a fat handbag, stretched out to the point of silliness. And she was so punctual! There was a hint of powder on the sides of her nose. We set off.",
+      "explain_en": "Lydia's first sentence is Missingsch; in standard German it's: 'Ich kann mich gar nicht genug wundern, dass du die Zeit nicht verschlafen hast!' 'verschlafen' (to oversleep) is a very useful word for school mornings. 'sich wundern' = to be surprised. 'der Dackel' (dachshund, a long dog) is her nickname for a long bag. 'lang gezogne' = 'lang gezogene'. 'pünktlich' = punctual.",
+      "words": [
+        {
+          "de": "verschlafen",
+          "en": "to oversleep"
+        },
+        {
+          "de": "sich wundern",
+          "en": "to be surprised"
+        },
+        {
+          "de": "helfen",
+          "en": "to help"
+        },
+        {
+          "de": "die Bewegung, die Bewegungen",
+          "en": "movement"
+        },
+        {
+          "de": "die Handtasche",
+          "en": "handbag"
+        },
+        {
+          "de": "pünktlich",
+          "en": "punctual, on time"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "de": "»Frau Kremser hat gesagt«, begann Lydia, »ich soll mir meinen Pelz mitnehmen und viele warme Mäntel – denn in Schweden gibt es überhaupt keinen Sommer, hat Frau Kremser gesagt. Da wär immer Winter. Ische woll nich möchlich!« Frau Kremser war die Haushälterin der Prinzessin, Stubenmädchen, Reinmachefrau und Großsiegelbewahrerin. Gegen mich hatte sie noch immer, nach so langer Zeit, ein leise schnüffelndes Misstrauen – die Frau hatte einen guten Instinkt. »Sag mal . . . ist es wirklich so kalt da oben?«",
+      "en": "'Frau Kremser said,' Lydia began, 'I should take my fur and lots of warm coats – because there's no summer at all in Sweden, Frau Kremser said. It's always winter there. That can't be true!' Frau Kremser was the princess's housekeeper, chambermaid, cleaning lady and Keeper of the Great Seal. Even now, after such a long time, she still had a quiet, sniffing distrust of me – the woman had good instincts. 'Tell me... is it really that cold up there?'",
+      "explain_en": "'hat gesagt, ich soll ...' is everyday reported speech (formal written German would use 'ich solle'). 'Da wär immer Winter' – 'wär' = 'wäre', Konjunktiv for reported speech. 'Ische woll nich möchlich!' is Missingsch for 'Das ist wohl nicht möglich!' 'Großsiegelbewahrerin' (keeper of the great seal) is a joke royal title. 'Stubenmädchen' and 'Reinmachefrau' are old words; today: 'Putzfrau' or 'Reinigungskraft'. 'Sag mal ...' (Tell me ...) is used all the time.",
+      "words": [
+        {
+          "de": "der Pelz, die Pelze",
+          "en": "fur (coat)"
+        },
+        {
+          "de": "der Mantel, die Mäntel",
+          "en": "coat"
+        },
+        {
+          "de": "überhaupt kein",
+          "en": "none at all"
+        },
+        {
+          "de": "die Haushälterin",
+          "en": "housekeeper"
+        },
+        {
+          "de": "das Misstrauen",
+          "en": "distrust"
+        },
+        {
+          "de": "Sag mal ...",
+          "en": "Tell me ...",
+          "note": "very common in speech"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "de": "»Es ist doch merkwürdig«, sagte ich. »Wenn die Leute in Deutschland an Schweden denken, dann denken sie: Schwedenpunsch, furchtbar kalt, Ivar Kreuger, Zündhölzer, furchtbar kalt, blonde Frauen und furchtbar kalt. So kalt ist es gar nicht.« – »Also wie kalt ist es denn?« – »Alle Frauen sind pedantisch«, sagte ich. »Außer dir!« sagte Lydia. – »Ich bin keine Frau.« – »Aber pedantisch!«",
+      "en": "'It's funny, though,' I said. 'When people in Germany think of Sweden, they think: Swedish punch, terribly cold, Ivar Kreuger, matches, terribly cold, blonde women and terribly cold. It's not that cold at all.' – 'So how cold is it, then?' – 'All women are pedantic,' I said. 'Except you!' said Lydia. – 'I'm not a woman.' – 'But pedantic!'",
+      "explain_en": "Ivar Kreuger was a famous Swedish 'match king' at the time. 'Zündhölzer' is old-fashioned or southern; today most people say 'Streichhölzer'. 'furchtbar' (terribly) is very common in speech: 'furchtbar kalt', 'furchtbar nett'. 'gar nicht' = not at all. 'pedantisch' = fussy about details. Lydia turns his joke around on him.",
+      "words": [
+        {
+          "de": "merkwürdig",
+          "en": "strange, odd"
+        },
+        {
+          "de": "denken an",
+          "en": "to think of"
+        },
+        {
+          "de": "furchtbar",
+          "en": "terrible; terribly"
+        },
+        {
+          "de": "das Zündholz, die Zündhölzer",
+          "en": "match",
+          "note": "today usually: das Streichholz"
+        },
+        {
+          "de": "gar nicht",
+          "en": "not at all"
+        },
+        {
+          "de": "pedantisch",
+          "en": "pedantic, fussy"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "de": "»Erlaube mal«, sagte ich, »hier liegt ein logischer Fehler vor. Es ist genaustens zu unterscheiden, ob pro primo . . . « – »Gib mal 'n Kuss auf Lydia!« sagte die Dame. Ich tat es, und der Chauffeur nuckelte leicht mit dem Kopf, denn seine Scheibe vorn spiegelte. Und dann hielt das Auto da, wo alle bessern Geschichten anfangen: am Bahnhof.",
+      "en": "'Hold on,' I said, 'there's a logical error here. One must distinguish most precisely whether, primo...' – 'Give Lydia a kiss!' said the lady. I did, and the driver gave a little nod, because his windscreen showed a reflection. And then the car stopped where all the better stories begin: at the station.",
+      "explain_en": "'Erlaube mal!' = 'Hold on a minute!' (a protest). 'Es liegt ein Fehler vor' is formal for 'there's a mistake'. 'genaustens' is a jokey form of 'genauestens' (most precisely), and 'pro primo' is Latin – he's being pompous on purpose. 'Gib mal 'n Kuss auf Lydia' is northern speech for 'Gib Lydia mal einen Kuss'. 'nuckeln' usually means to suck like a baby; here it describes a little nodding movement. 'bessern' = 'besseren'.",
+      "words": [
+        {
+          "de": "der Fehler, die Fehler",
+          "en": "mistake, error"
+        },
+        {
+          "de": "unterscheiden",
+          "en": "to distinguish"
+        },
+        {
+          "de": "der Kuss, die Küsse",
+          "en": "kiss"
+        },
+        {
+          "de": "halten",
+          "en": "to stop; to hold"
+        },
+        {
+          "de": "anfangen",
+          "en": "to begin"
+        },
+        {
+          "de": "der Bahnhof, die Bahnhöfe",
+          "en": "station"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Es ergab sich, dass der Gepäckträger Nr. 47 aus Warnemünde stammte, und der Freude und des Geredes war kein Ende, bis ich diese landsmännische Idylle, der Zeit wegen, unterbrach. »Fährt der Gepäckträger mit? Dann könnt ihr euch ja vielleicht im Zug weiter unterhalten . . . « – »Olln Döskopp! Heww di man nich so!« sagte die Prinzessin. Und: »Wi hemm noch bannig Tid!« der Gepäckträger.",
+      "en": "It turned out that porter No. 47 came from Warnemünde, and there was no end of joy and chatter, until I broke up this idyll between people from the same region, because of the time. 'Is the porter coming with us? Then maybe you can carry on chatting on the train...' – 'You old dimwit! Don't make such a fuss!' said the princess. And: 'We've still got loads of time!' said the porter.",
+      "explain_en": "'Es ergab sich, dass ...' = 'It turned out that ...' (today: 'Es stellte sich heraus, dass ...'). A 'Gepäckträger' (porter) carried luggage at stations – a job that has mostly disappeared. 'der Zeit wegen' is old word order for 'wegen der Zeit'. 'sich unterhalten' = to chat – very useful. The Platt lines: 'Olln Döskopp! Heww di man nich so!' = 'Alter Dummkopf! Hab dich nicht so!' ('Hab dich nicht so!' – don't make such a fuss – is still common). 'Wi hemm noch bannig Tid!' = 'Wir haben noch viel Zeit!'",
+      "words": [
+        {
+          "de": "der Gepäckträger",
+          "en": "porter"
+        },
+        {
+          "de": "die Freude",
+          "en": "joy"
+        },
+        {
+          "de": "unterbrechen",
+          "en": "to interrupt"
+        },
+        {
+          "de": "mitfahren",
+          "en": "to come along (in a vehicle)"
+        },
+        {
+          "de": "sich unterhalten",
+          "en": "to chat, to talk"
+        },
+        {
+          "de": "Hab dich nicht so!",
+          "en": "Don't make such a fuss!",
+          "note": "colloquial"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "de": "Da schwieg ich überstimmt, und die beiden begannen ein emsiges Palaver darüber, ob Korl Düsig noch am ›Strom‹ wohnte – wissen Sie: Düsig – näää . . . de Olsch! So, Gott sei Dank, er wohnte noch da! Und hatte wiederum ein Kind hergestellt: der Mann war achtundsiebzig Jahre und wurde von mir, hier an der Gepäckausgabe, außerordentlich beneidet. Es war sein sechzehntes Kind.",
+      "en": "Outvoted, I fell silent, and the two of them started a busy palaver about whether Korl Düsig still lived by the 'Strom' – you know: Düsig – nooo... the old girl's one! Well, thank God, he still lived there! And had produced yet another child: the man was seventy-eight and was extraordinarily envied by me, here at the luggage counter. It was his sixteenth child.",
+      "explain_en": "'schweigen' (schwieg, geschwiegen) = to be silent. 'überstimmt' = outvoted. 'Palaver' (long chatter) is still used jokingly. 'der Strom' is the local name for the river in Warnemünde. 'de Olsch' is Platt for 'die Alte' (the old woman). 'Gott sei Dank' (thank God) is very common. 'ein Kind hergestellt' ('manufactured a child') is a cheeky joke. 'beneiden' = to envy.",
+      "words": [
+        {
+          "de": "schweigen",
+          "en": "to be silent"
+        },
+        {
+          "de": "wohnen",
+          "en": "to live (somewhere)"
+        },
+        {
+          "de": "Gott sei Dank",
+          "en": "thank God"
+        },
+        {
+          "de": "das Kind, die Kinder",
+          "en": "child"
+        },
+        {
+          "de": "beneiden",
+          "en": "to envy"
+        },
+        {
+          "de": "die Gepäckausgabe",
+          "en": "luggage counter"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "de": "Aber nun waren es nur noch acht Minuten bis zum Abgang des Zuges, und . . . »Willst du Zeitungen haben, Lydia?« – Nein, sie wollte keine. Sie hatte sich etwas zum Lesen mitgebracht – wir unterlagen beide nicht dieser merkwürdigen Krankheit, plötzlich auf den Bahnhöfen zwei Pfund bedrucktes Papier zu kaufen, von dem man vorher ziemlich genau weiß: Makulatur. Also kauften wir Zeitungen.\nUnd dann fuhren wir – allein im Abteil – über Kopenhagen nach Schweden. Vorläufig waren wir noch in der Mark Brandenburg.",
+      "en": "But now there were only eight minutes left until the train left, and... 'Do you want any newspapers, Lydia?' – No, she didn't want any. She had brought something to read – neither of us suffered from that strange illness of suddenly buying two pounds of printed paper at stations when you know pretty well in advance that it's waste paper. So we bought newspapers.\nAnd then we travelled – alone in the compartment – via Copenhagen to Sweden. For the time being we were still in the Mark Brandenburg.",
+      "explain_en": "The joke: they both think buying newspapers at stations is silly – and then buy some anyway. 'der Abgang des Zuges' is old-fashioned; today: 'die Abfahrt'. 'Makulatur' means waste paper (today 'Altpapier'). 'das Abteil' = compartment on a train. 'vorläufig' = for now. 'über Kopenhagen' – here 'über' means 'via'. The Mark Brandenburg is the region around Berlin.",
+      "words": [
+        {
+          "de": "die Zeitung, die Zeitungen",
+          "en": "newspaper"
+        },
+        {
+          "de": "mitbringen",
+          "en": "to bring along"
+        },
+        {
+          "de": "die Krankheit, die Krankheiten",
+          "en": "illness"
+        },
+        {
+          "de": "kaufen",
+          "en": "to buy"
+        },
+        {
+          "de": "das Abteil, die Abteile",
+          "en": "compartment"
+        },
+        {
+          "de": "vorläufig",
+          "en": "for now, for the time being"
+        },
+        {
+          "de": "über",
+          "en": "via; over; about"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "de": "»Finnste die Gegend hier, Peter?« sagte die Prinzessin. Wir hatten uns unter anderm auf Peter geeinigt – Gott weiß, warum.\nDie Gegend? Es war ein heller, windiger Junitag – recht frisch, und diese Landschaft sah gut aufgeräumt und gereinigt aus – sie wartete auf den Sommer und sagte: Ich bin karg. »Ja . . . « sagte ich. »Die Gegend . . . «",
+      "en": "'D'you like the countryside here, Peter?' said the princess. Among other things we had agreed on 'Peter' – God knows why.\nThe countryside? It was a bright, windy June day – quite fresh, and this landscape looked neatly tidied and cleaned – it was waiting for summer and said: I am bare. 'Yes...' I said. 'The countryside...'",
+      "explain_en": "'Finnste' is northern spoken German for 'Findest du'. 'Wie findest du ...?' (What do you think of ...?) is super useful. 'sich einigen auf' = to agree on. 'Gott weiß, warum' = God knows why. 'die Gegend' (area, surroundings) is very common: 'hier in der Gegend' = around here. 'aufgeräumt' = tidied up – as in 'Räum dein Zimmer auf!'. 'karg' (bare, meagre) is a literary word.",
+      "words": [
+        {
+          "de": "die Gegend",
+          "en": "area, countryside"
+        },
+        {
+          "de": "finden",
+          "en": "to find; to think (of)",
+          "note": "Wie findest du ...? = What do you think of ...?"
+        },
+        {
+          "de": "sich einigen auf",
+          "en": "to agree on"
+        },
+        {
+          "de": "windig",
+          "en": "windy"
+        },
+        {
+          "de": "die Landschaft",
+          "en": "landscape"
+        },
+        {
+          "de": "aufräumen",
+          "en": "to tidy up"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "de": "»Du könntest für mein Geld wirklich etwas Gescheiteres von dir geben«, sagte sie. »Zum Beispiel: diese Landschaft ist wie erstarrte Dichtkunst, oder sie erinnert mich an Fiume, nur ist da die Flora katholischer – oder so.« – »Ich bin nicht aus Wien«, sagte ich. »Gott sei Dank«, sagte sie. Und wir fuhren.\nDie Prinzessin schlief. Ich denkelte so vor mich hin.",
+      "en": "'For my money you could really come out with something more intelligent,' she said. 'For example: this landscape is like frozen poetry, or it reminds me of Fiume, only the flora there is more Catholic – or something.' – 'I'm not from Vienna,' I said. 'Thank God,' she said. And on we went.\nThe princess slept. I thought little thoughts to myself.",
+      "explain_en": "'etwas von sich geben' = to say something (slightly mocking). 'gescheit' (clever) is used mostly in Austria and southern Germany. 'erinnern an' = to remind of: 'Das erinnert mich an ...' – very useful. Fiume is today Rijeka in Croatia. 'oder so' (or something) is everyday slang. 'denkeln' is a word Tucholsky made up, meaning 'to think in a small, lazy way'. 'vor sich hin' = to oneself.",
+      "words": [
+        {
+          "de": "das Beispiel",
+          "en": "example",
+          "note": "zum Beispiel = for example"
+        },
+        {
+          "de": "gescheit",
+          "en": "clever",
+          "note": "southern/Austrian"
+        },
+        {
+          "de": "erinnern an",
+          "en": "to remind of"
+        },
+        {
+          "de": "oder so",
+          "en": "or something",
+          "note": "colloquial"
+        },
+        {
+          "de": "schlafen",
+          "en": "to sleep"
+        },
+        {
+          "de": "vor sich hin",
+          "en": "to oneself"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "de": "Die Prinzessin behauptete, ich sagte zu jeder von mir geliebten Frau, aber auch zu jeder –: »Wie schön, dass du da bist!« Das war eine pfundsdicke Lüge – manchmal sagte oder dachte ich doch auch: »Wie schön, dass du da bist . . . und nicht hier!« – aber wenn ich die Lydia so neben mir sitzen sah, da sagte ich es nun wirklich. Warum –?",
+      "en": "The princess claimed that I said to every woman I loved – and, for that matter, to every woman –: 'How lovely that you're here!' That was a whopping lie – sometimes I did also say or think: 'How lovely that you're there... and not here!' – but when I saw Lydia sitting next to me like that, then I really did say it. Why –?",
+      "explain_en": "'behaupten' = to claim. The joke plays with 'da' and 'hier': 'Schön, dass du da bist!' is a friendly greeting people use all the time today, but 'da' can also mean 'over there' – so 'nice that you're there and not here'. 'pfundsdick' is colloquial – 'Pfunds-' means 'huge' (compare 'ein Pfundskerl' = a great guy). 'die Lüge' = lie. 'neben mir' = next to me.",
+      "words": [
+        {
+          "de": "behaupten",
+          "en": "to claim"
+        },
+        {
+          "de": "Schön, dass du da bist!",
+          "en": "Nice that you're here!",
+          "note": "common friendly greeting"
+        },
+        {
+          "de": "die Lüge, die Lügen",
+          "en": "lie"
+        },
+        {
+          "de": "manchmal",
+          "en": "sometimes"
+        },
+        {
+          "de": "neben",
+          "en": "next to"
+        },
+        {
+          "de": "warum",
+          "en": "why"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "de": "Natürlich deswegen. In erster Linie . . . ? Ich weiß das nicht. Wir wussten nur dieses: Eines der tiefsten Worte der deutschen Sprache sagt von zwei Leuten, dass sie sich nicht riechen können. Wir konnten es, und das ist, wenn es anhält, schon sehr viel. Sie war mir alles in einem: Geliebte, komische Oper, Mutter und Freund. Was ich ihr war, habe ich nie ergründen können.",
+      "en": "Because of that, of course. First and foremost...? I don't know. We only knew this: one of the deepest expressions in the German language says of two people that they can't stand the smell of each other. We could, and if that lasts, it's already a great deal. She was everything to me in one: lover, comic opera, mother and friend. What I was to her I have never been able to fathom.",
+      "explain_en": "'jemanden nicht riechen können' (literally: can't smell someone) means 'can't stand someone' – a very common idiom today! Here he says they could 'smell' each other, meaning they really got on. 'in erster Linie' = first and foremost. 'anhalten' = to last. 'ergründen' is literary for 'herausfinden' (to find out).",
+      "words": [
+        {
+          "de": "natürlich",
+          "en": "of course; natural"
+        },
+        {
+          "de": "in erster Linie",
+          "en": "first and foremost"
+        },
+        {
+          "de": "jemanden nicht riechen können",
+          "en": "to not be able to stand someone",
+          "note": "idiom"
+        },
+        {
+          "de": "anhalten",
+          "en": "to last; to stop"
+        },
+        {
+          "de": "die Geliebte",
+          "en": "lover (female)"
+        },
+        {
+          "de": "ergründen",
+          "en": "to get to the bottom of",
+          "note": "literary; today: herausfinden"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "de": "Und dann die Altstimme. Ich habe sie einmal nachts geweckt, und, als sie aufschrak: »Sag etwas!« bat ich. »Du Dummer!« sagte sie. Und schlief lächelnd wieder ein. Aber ich hatte die Stimme gehört, ich hatte ihre tiefe Stimme gehört.\nUnd das dritte war das Missingsch. Manchen Leuten erscheint die plattdeutsche Sprache grob, und sie mögen sie nicht. Ich habe diese Sprache immer geliebt; mein Vater sprach sie wie hochdeutsch, sie, die »vollkommnere der beiden Schwestern«, wie Klaus Groth sie genannt hat. Es ist die Sprache des Meeres.",
+      "en": "And then her deep alto voice. Once I woke her up at night, and as she started up: 'Say something!' I begged. 'You silly!' she said. And fell asleep again, smiling. But I had heard the voice, I had heard her deep voice.\nAnd the third thing was the Missingsch. Some people find Low German coarse, and they don't like it. I have always loved this language; my father spoke it like High German – it, the 'more perfect of the two sisters', as Klaus Groth called it. It is the language of the sea.",
+      "explain_en": "'wecken' = to wake someone else up; 'aufwachen' = to wake up yourself. 'aufschrecken' (schrak auf) = to wake with a start. 'einschlafen' (to fall asleep) is separable: 'sie schlief wieder ein'. 'erscheinen' here means 'to seem' (today more often 'wirken'). Klaus Groth was a poet who wrote in Low German. 'vollkommnere' = 'vollkommenere' (more perfect).",
+      "words": [
+        {
+          "de": "wecken",
+          "en": "to wake (someone) up"
+        },
+        {
+          "de": "einschlafen",
+          "en": "to fall asleep"
+        },
+        {
+          "de": "lächeln",
+          "en": "to smile"
+        },
+        {
+          "de": "tief",
+          "en": "deep"
+        },
+        {
+          "de": "grob",
+          "en": "coarse, rude"
+        },
+        {
+          "de": "das Meer, die Meere",
+          "en": "sea"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Das Plattdeutsche kann alles sein: zart und grob, humorvoll und herzlich, klar und nüchtern und vor allem, wenn man will, herrlich besoffen. Die Prinzessin bog sich diese Sprache ins Hochdeutsche um, wie es ihr passte – denn vom Missingschen gibt es hundert und aber hundert Abarten, von Friesland über Hamburg bis nach Pommern; da hat jeder kleine Ort seine Eigenheiten. Philologisch ist dem sehr schwer beizukommen; aber mit dem Herzen ist ihm beizukommen.",
+      "en": "Low German can be anything: gentle and coarse, funny and warm-hearted, clear and sober and above all, if you like, gloriously drunk. The princess bent this language into High German however it suited her – because there are hundreds and hundreds of kinds of Missingsch, from Friesland via Hamburg to Pomerania; every little place has its own quirks. It's very hard to pin down scientifically; but you can get to it with your heart.",
+      "explain_en": "'nüchtern' means sober – both 'not drunk' and 'matter-of-fact'. 'besoffen' is slang for drunk – fine with friends. 'wie es ihr passte' = however it suited her; 'Das passt mir nicht' = 'That doesn't suit me'. 'hundert und aber hundert' is an old way of saying 'Hunderte und Aberhunderte'. 'einer Sache beikommen' (to get to grips with something) is old-fashioned.",
+      "words": [
+        {
+          "de": "zart",
+          "en": "gentle, tender"
+        },
+        {
+          "de": "herzlich",
+          "en": "warm, cordial"
+        },
+        {
+          "de": "nüchtern",
+          "en": "sober"
+        },
+        {
+          "de": "vor allem",
+          "en": "above all"
+        },
+        {
+          "de": "passen",
+          "en": "to suit, to fit"
+        },
+        {
+          "de": "der Ort, die Orte",
+          "en": "place, village"
+        },
+        {
+          "de": "die Eigenheit, die Eigenheiten",
+          "en": "peculiarity, quirk"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "de": "Das also sprach die Prinzessin – ah, nicht alle Tage! Das wäre ja unerträglich gewesen. Manchmal, zur Erholung, wenn ihr grade so zu Mut war, sprach sie missingsch; sie sagte darin die Dinge, die ihr besonders am Herzen lagen, und daneben hatte sie im Lauf der Zeit schon viel von Berlin angenommen. Wenn sie ganz schnell »Allmächtiger Braten!« sagte, dann wusste man gut Bescheid. Aber mitunter sprach sie doch ihr Platt, oder eben jenes halbe Platt: missingsch.",
+      "en": "So that was what the princess spoke – ah, not every day! That would have been unbearable. Sometimes, for a break, when she just felt like it, she spoke Missingsch; she used it to say the things that were especially close to her heart, and besides that, over time she had picked up a lot from Berlin. When she said 'Almighty roast!' very fast, you knew exactly where you stood. But now and then she did speak her Platt, or rather that half-Platt: Missingsch.",
+      "explain_en": "'Das wäre unerträglich gewesen' is Konjunktiv II in the past: 'that would have been unbearable'. 'wenn ihr grade so zu Mut war' = when she was in the mood (today: 'wenn sie gerade Lust dazu hatte'). 'am Herzen liegen' (to matter a lot) is still common: 'Das liegt mir sehr am Herzen.' 'im Lauf der Zeit' = over time. 'Bescheid wissen' = to know what's going on – very useful. 'mitunter' is a bit formal for 'manchmal'.",
+      "words": [
+        {
+          "de": "unerträglich",
+          "en": "unbearable"
+        },
+        {
+          "de": "die Erholung",
+          "en": "rest, relaxation"
+        },
+        {
+          "de": "am Herzen liegen",
+          "en": "to matter a lot (to someone)"
+        },
+        {
+          "de": "im Lauf der Zeit",
+          "en": "over time"
+        },
+        {
+          "de": "Bescheid wissen",
+          "en": "to know what's what"
+        },
+        {
+          "de": "mitunter",
+          "en": "now and then",
+          "note": "formal; everyday: manchmal"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "de": "Das weiß ich noch wie heute . . . Das war, als wir uns kennenlernten. Ich war damals zum Tee bei ihr und bot den diskret lächerlichen Anblick eines Mannes, der balzt. Dabei sind wir ja rechtschaffen komisch . . . Ich machte Plüschaugen und sprach über Literatur – sie lächelte. Ich erzählte Scherze und beleuchtete alle Schaufenster meines Herzens. Und dann sprachen wir von der Liebe. Das ist wie bei einer bayerischen Rauferei – die raufen auch erst mit Worten.",
+      "en": "I remember it as if it were today... It was when we first met. I was at her place for tea back then and presented the discreetly ridiculous sight of a man doing his mating dance. We really are thoroughly comical... I made puppy-dog eyes and talked about literature – she smiled. I told jokes and lit up all the shop windows of my heart. And then we talked about love. It's like a Bavarian brawl – they also start by fighting with words.",
+      "explain_en": "'Das weiß ich noch wie heute' = I remember it clearly. 'sich kennenlernen' (to meet, to get to know each other) is very useful. 'balzen' describes birds showing off to find a mate – funny and still understood. 'Plüschaugen machen' (plush eyes) is old; today people say 'einen Hundeblick aufsetzen'. 'rechtschaffen' here means 'thoroughly' (old use). 'die Rauferei' = scuffle, brawl.",
+      "words": [
+        {
+          "de": "sich kennenlernen",
+          "en": "to meet, to get to know each other"
+        },
+        {
+          "de": "damals",
+          "en": "back then"
+        },
+        {
+          "de": "lächerlich",
+          "en": "ridiculous"
+        },
+        {
+          "de": "der Scherz, die Scherze",
+          "en": "joke"
+        },
+        {
+          "de": "das Schaufenster",
+          "en": "shop window"
+        },
+        {
+          "de": "die Liebe",
+          "en": "love"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "de": "Und als ich ihr alles auseinandergesetzt hatte, alles, was ich im Augenblick wusste, und das war nicht wenig, und ich war so stolz, was für gewagte Sachen ich da gesagt hatte, und wie ich das alles so genau und brennendrot dargestellt und vorgeführt hatte, in Worten, so dass nun eigentlich der Augenblick gekommen war, zu sagen: »Ja, also dann . . . « – da sah mich die Prinzessin lange an. Und sprach:\n»Einen weltbefohrnen dschungen Mann –!«\nUnd da war es aus. Und ich fand mich erst viel später bei ihr wieder, immer noch lachend, und mit der erotischen Weihe war es nichts geworden. Aber mit der Liebe war es etwas geworden.",
+      "en": "And when I had explained everything to her, everything I knew at that moment – and that was quite a lot – and I was so proud of the daring things I'd said, and of how precisely and red-hot I had described and demonstrated it all, in words, so that now the moment had really come to say: 'Well, then...' – the princess gave me a long look. And said:\n'Such a worldly young man –!'\nAnd that was the end of that. And only much later did I come to my senses at her place, still laughing, and nothing had come of the erotic solemnity. But something had come of the love.",
+      "explain_en": "Lydia's mock-posh line in Missingsch (standard German: 'Ein weltgewandter junger Mann!') makes him laugh so much that his big seduction speech collapses – and that's how they really fall in love. 'auseinandersetzen' here means 'to explain in detail' (today 'erklären'; 'sich auseinandersetzen mit' = to deal with). 'der Augenblick' = moment (today 'der Moment' is more common). 'Da war es aus' = then it was over. 'Aus etwas wird nichts' = something comes to nothing: 'Aus dem Ausflug wurde nichts.'",
+      "words": [
+        {
+          "de": "erklären",
+          "en": "to explain",
+          "note": "text: auseinandersetzen"
+        },
+        {
+          "de": "stolz",
+          "en": "proud"
+        },
+        {
+          "de": "der Augenblick",
+          "en": "moment"
+        },
+        {
+          "de": "lange",
+          "en": "for a long time"
+        },
+        {
+          "de": "lachen",
+          "en": "to laugh"
+        },
+        {
+          "de": "aus etwas wird nichts",
+          "en": "nothing comes of something"
+        }
+      ]
+    }
+  ]
+}
