@@ -1,0 +1,2860 @@
+{
+  "bank": "admin",
+  "title": "Official German — offices, forms and paperwork",
+  "words": [
+    {
+      "id": "a-0001",
+      "de": "das Formular",
+      "de_alt": [],
+      "en": [
+        "form"
+      ],
+      "pos": "noun",
+      "plural": "die Formulare",
+      "topic": "offices-forms",
+      "level": "A2",
+      "rank": 1,
+      "example_de": "Bitte füllen Sie dieses Formular aus.",
+      "example_en": "Please fill in this form."
+    },
+    {
+      "id": "a-0002",
+      "de": "ausfüllen",
+      "de_alt": [],
+      "en": [
+        "to fill in",
+        "to fill out",
+        "to complete"
+      ],
+      "pos": "verb",
+      "topic": "offices-forms",
+      "level": "A2",
+      "rank": 2,
+      "note": "separable: Ich fülle das Formular aus.",
+      "example_de": "Ich fülle den Antrag gleich hier aus.",
+      "example_en": "I'll fill in the application right here."
+    },
+    {
+      "id": "a-0003",
+      "de": "unterschreiben",
+      "de_alt": [],
+      "en": [
+        "to sign"
+      ],
+      "pos": "verb",
+      "topic": "offices-forms",
+      "level": "A2",
+      "rank": 3,
+      "note": "Perfekt: hat unterschrieben",
+      "example_de": "Sie müssen hier unten unterschreiben.",
+      "example_en": "You need to sign down here."
+    },
+    {
+      "id": "a-0004",
+      "de": "die Unterschrift",
+      "de_alt": [],
+      "en": [
+        "signature"
+      ],
+      "pos": "noun",
+      "plural": "die Unterschriften",
+      "topic": "offices-forms",
+      "level": "A2",
+      "rank": 4,
+      "example_de": "Ohne Ihre Unterschrift ist der Antrag nicht gültig.",
+      "example_en": "Without your signature the application isn't valid."
+    },
+    {
+      "id": "a-0005",
+      "de": "die Unterlagen",
+      "de_alt": [],
+      "en": [
+        "documents",
+        "papers",
+        "paperwork"
+      ],
+      "pos": "noun",
+      "plural": "die Unterlagen",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 5,
+      "note": "usually plural: all the papers you need to bring",
+      "example_de": "Haben Sie alle Unterlagen dabei?",
+      "example_en": "Have you got all the documents with you?"
+    },
+    {
+      "id": "a-0006",
+      "de": "das Amt",
+      "de_alt": [],
+      "en": [
+        "office",
+        "public office",
+        "authority"
+      ],
+      "pos": "noun",
+      "plural": "die Ämter",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 6,
+      "note": "general word for a government office: Bürgeramt, Finanzamt, Jugendamt",
+      "example_de": "Für den Ausweis muss ich aufs Amt.",
+      "example_en": "I have to go to the office for my ID card."
+    },
+    {
+      "id": "a-0007",
+      "de": "die Behörde",
+      "de_alt": [],
+      "en": [
+        "authority",
+        "public authority",
+        "government office",
+        "agency"
+      ],
+      "pos": "noun",
+      "plural": "die Behörden",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 7,
+      "example_de": "Die Behörde hat mir einen Brief geschickt.",
+      "example_en": "The authority sent me a letter."
+    },
+    {
+      "id": "a-0008",
+      "de": "das Bürgeramt",
+      "de_alt": [
+        "das Bürgerbüro",
+        "das Einwohnermeldeamt"
+      ],
+      "en": [
+        "citizens' office",
+        "citizens office",
+        "registration office",
+        "local authority office"
+      ],
+      "pos": "noun",
+      "plural": "die Bürgerämter",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 8,
+      "note": "city office for address registration, ID cards and passports; also called Bürgerbüro or Einwohnermeldeamt",
+      "example_de": "Im Bürgeramt bekomme ich meinen neuen Personalausweis.",
+      "example_en": "I get my new ID card at the citizens' office."
+    },
+    {
+      "id": "a-0009",
+      "de": "der Antrag",
+      "de_alt": [],
+      "en": [
+        "application",
+        "request",
+        "application form"
+      ],
+      "pos": "noun",
+      "plural": "die Anträge",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 9,
+      "note": "einen Antrag stellen = to submit an application",
+      "example_de": "Mein Antrag wird noch bearbeitet.",
+      "example_en": "My application is still being processed."
+    },
+    {
+      "id": "a-0010",
+      "de": "beantragen",
+      "de_alt": [],
+      "en": [
+        "to apply for",
+        "to request"
+      ],
+      "pos": "verb",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 10,
+      "note": "used with the thing you want: ein Visum beantragen (no 'für')",
+      "example_de": "Ich möchte einen neuen Reisepass beantragen.",
+      "example_en": "I'd like to apply for a new passport."
+    },
+    {
+      "id": "a-0011",
+      "de": "die Frist",
+      "de_alt": [],
+      "en": [
+        "deadline",
+        "time limit"
+      ],
+      "pos": "noun",
+      "plural": "die Fristen",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 11,
+      "note": "official deadlines are strict: miss one and you may pay a fine or lose a right",
+      "example_de": "Die Frist endet am 30. Juni.",
+      "example_en": "The deadline is the 30th of June."
+    },
+    {
+      "id": "a-0012",
+      "de": "die Anmeldung",
+      "de_alt": [],
+      "en": [
+        "registration",
+        "address registration",
+        "registering"
+      ],
+      "pos": "noun",
+      "plural": "die Anmeldungen",
+      "topic": "registration-residence",
+      "level": "B1",
+      "rank": 12,
+      "note": "registering your address at the Bürgeramt within 14 days of moving in",
+      "example_de": "Für die Anmeldung brauche ich die Wohnungsgeberbestätigung.",
+      "example_en": "For registration I need the landlord's confirmation."
+    },
+    {
+      "id": "a-0013",
+      "de": "sich anmelden",
+      "de_alt": [
+        "anmelden"
+      ],
+      "en": [
+        "to register",
+        "to sign up",
+        "to register one's address"
+      ],
+      "pos": "verb",
+      "topic": "registration-residence",
+      "level": "B1",
+      "rank": 13,
+      "note": "separable: Ich melde mich an.",
+      "example_de": "Ich muss mich innerhalb von zwei Wochen anmelden.",
+      "example_en": "I have to register within two weeks."
+    },
+    {
+      "id": "a-0014",
+      "de": "die Meldebescheinigung",
+      "de_alt": [],
+      "en": [
+        "registration certificate",
+        "proof of address",
+        "proof of registration"
+      ],
+      "pos": "noun",
+      "plural": "die Meldebescheinigungen",
+      "topic": "registration-residence",
+      "level": "B2",
+      "rank": 14,
+      "note": "paper from the Bürgeramt confirming your registered address; banks and employers ask for it",
+      "example_de": "Die Bank will meine Meldebescheinigung sehen.",
+      "example_en": "The bank wants to see my registration certificate."
+    },
+    {
+      "id": "a-0015",
+      "de": "die Wohnungsgeberbestätigung",
+      "de_alt": [],
+      "en": [
+        "landlord's confirmation",
+        "landlord confirmation",
+        "confirmation of residence"
+      ],
+      "pos": "noun",
+      "plural": "die Wohnungsgeberbestätigungen",
+      "topic": "registration-residence",
+      "level": "B2",
+      "rank": 15,
+      "note": "form your landlord signs saying you moved in; required for the Anmeldung",
+      "example_de": "Mein Vermieter hat die Wohnungsgeberbestätigung schon unterschrieben.",
+      "example_en": "My landlord has already signed the landlord's confirmation."
+    },
+    {
+      "id": "a-0016",
+      "de": "die Ausländerbehörde",
+      "de_alt": [],
+      "en": [
+        "immigration office",
+        "foreigners' office",
+        "foreigners office",
+        "immigration authority"
+      ],
+      "pos": "noun",
+      "plural": "die Ausländerbehörden",
+      "topic": "registration-residence",
+      "level": "B2",
+      "rank": 16,
+      "note": "handles visas and residence permits for non-EU citizens; name varies by city",
+      "example_de": "Mein Termin bei der Ausländerbehörde ist erst im März.",
+      "example_en": "My appointment at the immigration office isn't until March."
+    },
+    {
+      "id": "a-0017",
+      "de": "der Aufenthaltstitel",
+      "de_alt": [],
+      "en": [
+        "residence permit",
+        "residence title"
+      ],
+      "pos": "noun",
+      "plural": "die Aufenthaltstitel",
+      "topic": "registration-residence",
+      "level": "B2",
+      "rank": 17,
+      "note": "umbrella term for all permits letting non-EU citizens stay in Germany",
+      "example_de": "Ohne gültigen Aufenthaltstitel darf sie nicht arbeiten.",
+      "example_en": "Without a valid residence permit she isn't allowed to work."
+    },
+    {
+      "id": "a-0018",
+      "de": "das Visum",
+      "de_alt": [],
+      "en": [
+        "visa"
+      ],
+      "pos": "noun",
+      "plural": "die Visa",
+      "topic": "registration-residence",
+      "level": "B1",
+      "rank": 18,
+      "note": "plural also die Visen; EU citizens don't need one",
+      "example_de": "Für das Studium in Deutschland brauche ich ein Visum.",
+      "example_en": "I need a visa to study in Germany."
+    },
+    {
+      "id": "a-0019",
+      "de": "die Staatsangehörigkeit",
+      "de_alt": [],
+      "en": [
+        "nationality",
+        "citizenship"
+      ],
+      "pos": "noun",
+      "plural": "die Staatsangehörigkeiten",
+      "topic": "registration-residence",
+      "level": "B1",
+      "rank": 19,
+      "note": "on forms; in speech also die Nationalität",
+      "example_de": "Welche Staatsangehörigkeit haben Sie?",
+      "example_en": "What is your nationality?"
+    },
+    {
+      "id": "a-0020",
+      "de": "der Personalausweis",
+      "de_alt": [
+        "der Perso"
+      ],
+      "en": [
+        "ID card",
+        "identity card",
+        "national ID card",
+        "ID"
+      ],
+      "pos": "noun",
+      "plural": "die Personalausweise",
+      "topic": "documents",
+      "level": "A2",
+      "rank": 20,
+      "note": "German ID card for citizens; everyone over 16 must have one or a passport; short: Perso",
+      "example_de": "Ab 16 braucht man einen Personalausweis oder Reisepass.",
+      "example_en": "From 16 you need an ID card or passport."
+    },
+    {
+      "id": "a-0021",
+      "de": "der Reisepass",
+      "de_alt": [
+        "der Pass"
+      ],
+      "en": [
+        "passport"
+      ],
+      "pos": "noun",
+      "plural": "die Reisepässe",
+      "topic": "documents",
+      "level": "A2",
+      "rank": 21,
+      "example_de": "Mein Reisepass läuft nächsten Monat ab.",
+      "example_en": "My passport expires next month."
+    },
+    {
+      "id": "a-0022",
+      "de": "die Geburtsurkunde",
+      "de_alt": [],
+      "en": [
+        "birth certificate"
+      ],
+      "pos": "noun",
+      "plural": "die Geburtsurkunden",
+      "topic": "documents",
+      "level": "B1",
+      "rank": 22,
+      "example_de": "Für den Pass brauche ich meine Geburtsurkunde.",
+      "example_en": "I need my birth certificate for the passport."
+    },
+    {
+      "id": "a-0023",
+      "de": "das Passfoto",
+      "de_alt": [
+        "das Passbild"
+      ],
+      "en": [
+        "passport photo",
+        "ID photo"
+      ],
+      "pos": "noun",
+      "plural": "die Passfotos",
+      "topic": "documents",
+      "level": "A2",
+      "rank": 23,
+      "note": "must be biometric; since 2025 it is sent digitally by a photo studio or taken at the office",
+      "example_de": "Das Passfoto darf nicht älter als sechs Monate sein.",
+      "example_en": "The passport photo mustn't be older than six months."
+    },
+    {
+      "id": "a-0024",
+      "de": "die Kopie",
+      "de_alt": [],
+      "en": [
+        "copy",
+        "photocopy"
+      ],
+      "pos": "noun",
+      "plural": "die Kopien",
+      "topic": "documents",
+      "level": "A2",
+      "rank": 24,
+      "note": "stress: Ko-PIE",
+      "example_de": "Kann ich eine Kopie von meinem Zeugnis bekommen?",
+      "example_en": "Can I get a copy of my certificate?"
+    },
+    {
+      "id": "a-0025",
+      "de": "gültig",
+      "de_alt": [],
+      "en": [
+        "valid"
+      ],
+      "pos": "adj",
+      "topic": "documents",
+      "level": "B1",
+      "rank": 25,
+      "note": "gültig bis = valid until",
+      "example_de": "Ist mein Ausweis noch gültig?",
+      "example_en": "Is my ID card still valid?"
+    },
+    {
+      "id": "a-0026",
+      "de": "das Finanzamt",
+      "de_alt": [],
+      "en": [
+        "tax office",
+        "revenue office"
+      ],
+      "pos": "noun",
+      "plural": "die Finanzämter",
+      "topic": "taxes-money",
+      "level": "B1",
+      "rank": 26,
+      "example_de": "Das Finanzamt hat mir 300 Euro zurückgezahlt.",
+      "example_en": "The tax office paid me back 300 euros."
+    },
+    {
+      "id": "a-0027",
+      "de": "die Steuererklärung",
+      "de_alt": [],
+      "en": [
+        "tax return",
+        "tax declaration"
+      ],
+      "pos": "noun",
+      "plural": "die Steuererklärungen",
+      "topic": "taxes-money",
+      "level": "B1",
+      "rank": 27,
+      "note": "often worth it: you may get money back",
+      "example_de": "Studierende machen oft freiwillig eine Steuererklärung.",
+      "example_en": "Students often file a tax return voluntarily."
+    },
+    {
+      "id": "a-0028",
+      "de": "die Steuer-ID",
+      "de_alt": [
+        "die Steueridentifikationsnummer",
+        "die Steuer-Identifikationsnummer"
+      ],
+      "en": [
+        "tax ID",
+        "tax identification number",
+        "tax number",
+        "TIN"
+      ],
+      "pos": "noun",
+      "plural": "die Steuer-IDs",
+      "topic": "taxes-money",
+      "level": "B1",
+      "rank": 28,
+      "note": "Steuer-Identifikationsnummer: 11-digit number sent by post after your first Anmeldung; you keep it for life",
+      "example_de": "Mein neuer Arbeitgeber braucht meine Steuer-ID.",
+      "example_en": "My new employer needs my tax ID."
+    },
+    {
+      "id": "a-0029",
+      "de": "das Girokonto",
+      "de_alt": [],
+      "en": [
+        "current account",
+        "checking account",
+        "bank account"
+      ],
+      "pos": "noun",
+      "plural": "die Girokonten",
+      "topic": "taxes-money",
+      "level": "B1",
+      "rank": 29,
+      "note": "the everyday bank account; free student accounts are common",
+      "example_de": "Für mein Gehalt brauche ich ein Girokonto.",
+      "example_en": "I need a current account for my salary."
+    },
+    {
+      "id": "a-0030",
+      "de": "die Überweisung",
+      "de_alt": [],
+      "en": [
+        "bank transfer",
+        "transfer",
+        "referral"
+      ],
+      "pos": "noun",
+      "plural": "die Überweisungen",
+      "topic": "taxes-money",
+      "level": "B1",
+      "rank": 30,
+      "note": "also a doctor's referral to a specialist",
+      "example_de": "Die Miete zahle ich per Überweisung.",
+      "example_en": "I pay the rent by bank transfer."
+    },
+    {
+      "id": "a-0031",
+      "de": "die Krankenversicherung",
+      "de_alt": [],
+      "en": [
+        "health insurance",
+        "medical insurance"
+      ],
+      "pos": "noun",
+      "plural": "die Krankenversicherungen",
+      "topic": "insurance-health",
+      "level": "B1",
+      "rank": 31,
+      "note": "compulsory for everyone living in Germany; universities ask for proof",
+      "example_de": "In Deutschland ist eine Krankenversicherung Pflicht.",
+      "example_en": "Health insurance is compulsory in Germany."
+    },
+    {
+      "id": "a-0032",
+      "de": "die Krankenkasse",
+      "de_alt": [],
+      "en": [
+        "health insurance fund",
+        "health insurance company",
+        "health insurer",
+        "health insurance"
+      ],
+      "pos": "noun",
+      "plural": "die Krankenkassen",
+      "topic": "insurance-health",
+      "level": "B1",
+      "rank": 32,
+      "note": "public health insurers such as TK, AOK or Barmer",
+      "example_de": "Bei welcher Krankenkasse sind Sie?",
+      "example_en": "Which health insurer are you with?"
+    },
+    {
+      "id": "a-0033",
+      "de": "die Versicherung",
+      "de_alt": [],
+      "en": [
+        "insurance",
+        "insurance company"
+      ],
+      "pos": "noun",
+      "plural": "die Versicherungen",
+      "topic": "insurance-health",
+      "level": "A2",
+      "rank": 33,
+      "example_de": "Die Versicherung zahlt den Schaden.",
+      "example_en": "The insurance pays for the damage."
+    },
+    {
+      "id": "a-0034",
+      "de": "die Versichertenkarte",
+      "de_alt": [
+        "die Gesundheitskarte",
+        "die elektronische Gesundheitskarte",
+        "die Krankenversicherungskarte"
+      ],
+      "en": [
+        "health insurance card",
+        "insurance card",
+        "health card"
+      ],
+      "pos": "noun",
+      "plural": "die Versichertenkarten",
+      "topic": "insurance-health",
+      "level": "B1",
+      "rank": 34,
+      "note": "chip card from your Krankenkasse; show it at every doctor's visit",
+      "example_de": "Bringen Sie bitte Ihre Versichertenkarte mit.",
+      "example_en": "Please bring your health insurance card."
+    },
+    {
+      "id": "a-0035",
+      "de": "die Krankmeldung",
+      "de_alt": [
+        "die Arbeitsunfähigkeitsbescheinigung",
+        "die AU"
+      ],
+      "en": [
+        "sick note",
+        "doctor's note",
+        "medical certificate",
+        "notification of sickness"
+      ],
+      "pos": "noun",
+      "plural": "die Krankmeldungen",
+      "topic": "insurance-health",
+      "level": "B1",
+      "rank": 35,
+      "note": "the doctor now sends it digitally, but you must still tell your employer yourself",
+      "example_de": "Ab dem vierten Krankheitstag brauchen Sie eine Krankmeldung.",
+      "example_en": "From the fourth day of illness you need a sick note."
+    },
+    {
+      "id": "a-0036",
+      "de": "der Arbeitsvertrag",
+      "de_alt": [],
+      "en": [
+        "employment contract",
+        "work contract",
+        "contract of employment"
+      ],
+      "pos": "noun",
+      "plural": "die Arbeitsverträge",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 36,
+      "example_de": "Lies den Arbeitsvertrag, bevor du unterschreibst.",
+      "example_en": "Read the employment contract before you sign."
+    },
+    {
+      "id": "a-0037",
+      "de": "der Lebenslauf",
+      "de_alt": [],
+      "en": [
+        "CV",
+        "résumé",
+        "resume",
+        "curriculum vitae"
+      ],
+      "pos": "noun",
+      "plural": "die Lebensläufe",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 37,
+      "note": "German CVs are usually in table form, in reverse order",
+      "example_de": "Im Lebenslauf steht oft ein Foto.",
+      "example_en": "German CVs often include a photo."
+    },
+    {
+      "id": "a-0038",
+      "de": "der Mietvertrag",
+      "de_alt": [],
+      "en": [
+        "tenancy agreement",
+        "rental agreement",
+        "lease",
+        "rental contract"
+      ],
+      "pos": "noun",
+      "plural": "die Mietverträge",
+      "topic": "housing",
+      "level": "B1",
+      "rank": 38,
+      "example_de": "Wir haben den Mietvertrag gestern unterschrieben.",
+      "example_en": "We signed the tenancy agreement yesterday."
+    },
+    {
+      "id": "a-0039",
+      "de": "die Kaution",
+      "de_alt": [],
+      "en": [
+        "deposit",
+        "security deposit",
+        "rental deposit"
+      ],
+      "pos": "noun",
+      "plural": "die Kautionen",
+      "topic": "housing",
+      "level": "B1",
+      "rank": 39,
+      "note": "at most three months' basic rent; paid back if the flat is undamaged",
+      "example_de": "Die Kaution bekomme ich beim Auszug zurück.",
+      "example_en": "I get the deposit back when I move out."
+    },
+    {
+      "id": "a-0040",
+      "de": "die Nebenkosten",
+      "de_alt": [
+        "die Betriebskosten"
+      ],
+      "en": [
+        "additional costs",
+        "utilities",
+        "service charges",
+        "bills"
+      ],
+      "pos": "noun",
+      "plural": "die Nebenkosten",
+      "topic": "housing",
+      "level": "B1",
+      "rank": 40,
+      "note": "plural; heating, water, rubbish etc. on top of the rent",
+      "example_de": "Sind die Nebenkosten in der Miete enthalten?",
+      "example_en": "Are utilities included in the rent?"
+    },
+    {
+      "id": "a-0041",
+      "de": "der Vermieter",
+      "de_alt": [],
+      "en": [
+        "landlord",
+        "lessor"
+      ],
+      "pos": "noun",
+      "plural": "die Vermieter",
+      "topic": "housing",
+      "level": "B1",
+      "rank": 41,
+      "note": "female: die Vermieterin = landlady",
+      "example_de": "Unser Vermieter wohnt im Erdgeschoss.",
+      "example_en": "Our landlord lives on the ground floor."
+    },
+    {
+      "id": "a-0042",
+      "de": "Ich möchte einen Termin vereinbaren.",
+      "de_alt": [],
+      "en": [
+        "I'd like to make an appointment",
+        "I would like to make an appointment",
+        "I'd like to book an appointment"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "A2",
+      "rank": 42,
+      "example_de": "Guten Tag, ich möchte einen Termin vereinbaren.",
+      "example_en": "Hello, I'd like to make an appointment."
+    },
+    {
+      "id": "a-0043",
+      "de": "Welche Unterlagen brauche ich?",
+      "de_alt": [],
+      "en": [
+        "what documents do I need",
+        "which documents do I need",
+        "what papers do I need"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 43,
+      "example_de": "Welche Unterlagen brauche ich für die Anmeldung?",
+      "example_en": "What documents do I need to register?"
+    },
+    {
+      "id": "a-0044",
+      "de": "Wo muss ich unterschreiben?",
+      "de_alt": [],
+      "en": [
+        "where do I have to sign",
+        "where do I sign",
+        "where should I sign"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "A2",
+      "rank": 44,
+      "example_de": "Wo muss ich unterschreiben? – Hier unten, bitte.",
+      "example_en": "Where do I sign? – Down here, please."
+    },
+    {
+      "id": "a-0045",
+      "de": "Könnten Sie das bitte langsamer sagen?",
+      "de_alt": [],
+      "en": [
+        "could you say that more slowly please",
+        "could you say that more slowly",
+        "could you speak more slowly please"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "A2",
+      "rank": 45,
+      "example_de": "Entschuldigung, könnten Sie das bitte langsamer sagen?",
+      "example_en": "Sorry, could you say that more slowly, please?"
+    },
+    {
+      "id": "a-0046",
+      "de": "Bis wann muss ich das abgeben?",
+      "de_alt": [],
+      "en": [
+        "by when do I have to hand this in",
+        "when is the deadline",
+        "when do I have to hand this in",
+        "by when do I have to submit this"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 46,
+      "example_de": "Bis wann muss ich das abgeben? – Bis Ende Mai.",
+      "example_en": "When do I have to hand this in? – By the end of May."
+    },
+    {
+      "id": "a-0047",
+      "de": "Ich habe einen Termin um zehn Uhr.",
+      "de_alt": [],
+      "en": [
+        "I have an appointment at ten",
+        "I've got an appointment at ten o'clock",
+        "I have an appointment at 10"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "A2",
+      "rank": 47,
+      "example_de": "Guten Morgen, ich habe einen Termin um zehn Uhr.",
+      "example_en": "Good morning, I have an appointment at ten."
+    },
+    {
+      "id": "a-0048",
+      "de": "Wer ist dafür zuständig?",
+      "de_alt": [],
+      "en": [
+        "who is responsible for this",
+        "who is in charge of this",
+        "who deals with this"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 48,
+      "example_de": "Hier sind Sie falsch. – Wer ist dafür zuständig?",
+      "example_en": "You're in the wrong place. – Who is responsible for this?"
+    },
+    {
+      "id": "a-0049",
+      "de": "der Bescheid",
+      "de_alt": [],
+      "en": [
+        "official notice",
+        "notice",
+        "decision",
+        "notification"
+      ],
+      "pos": "noun",
+      "plural": "die Bescheide",
+      "topic": "offices-forms",
+      "level": "B2",
+      "rank": 49,
+      "note": "official letter with a decision, e.g. Steuerbescheid; you can usually object within one month",
+      "example_de": "Der Bescheid vom Finanzamt kam heute mit der Post.",
+      "example_en": "The notice from the tax office came in the post today."
+    },
+    {
+      "id": "a-0050",
+      "de": "der Stempel",
+      "de_alt": [],
+      "en": [
+        "stamp",
+        "official stamp"
+      ],
+      "pos": "noun",
+      "plural": "die Stempel",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 50,
+      "example_de": "Ohne Stempel akzeptieren sie die Kopie nicht.",
+      "example_en": "They won't accept the copy without a stamp."
+    },
+    {
+      "id": "a-0051",
+      "de": "beglaubigt",
+      "de_alt": [],
+      "en": [
+        "certified",
+        "officially certified",
+        "attested"
+      ],
+      "pos": "adj",
+      "topic": "offices-forms",
+      "level": "B2",
+      "rank": 51,
+      "note": "a beglaubigte Kopie is officially confirmed to match the original, e.g. by the Bürgeramt",
+      "example_de": "Ich brauche eine beglaubigte Kopie meines Zeugnisses.",
+      "example_en": "I need a certified copy of my certificate."
+    },
+    {
+      "id": "a-0052",
+      "de": "die Gebühr",
+      "de_alt": [],
+      "en": [
+        "fee",
+        "charge"
+      ],
+      "pos": "noun",
+      "plural": "die Gebühren",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 52,
+      "example_de": "Die Gebühr für den Reisepass beträgt etwa 70 Euro.",
+      "example_en": "The passport fee is about 70 euros."
+    },
+    {
+      "id": "a-0053",
+      "de": "der Widerspruch",
+      "de_alt": [],
+      "en": [
+        "objection",
+        "appeal",
+        "formal objection",
+        "contradiction"
+      ],
+      "pos": "noun",
+      "plural": "die Widersprüche",
+      "topic": "offices-forms",
+      "level": "B2",
+      "rank": 53,
+      "note": "formal written objection to a Bescheid, usually within one month",
+      "example_de": "Gegen den Bescheid können Sie Widerspruch einlegen.",
+      "example_en": "You can lodge an objection to the decision."
+    },
+    {
+      "id": "a-0054",
+      "de": "zuständig",
+      "de_alt": [],
+      "en": [
+        "responsible",
+        "in charge",
+        "competent"
+      ],
+      "pos": "adj",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 54,
+      "note": "zuständig für + accusative; 'nicht zuständig' = this is the wrong office",
+      "example_de": "Welches Amt ist für Visa zuständig?",
+      "example_en": "Which office is responsible for visas?"
+    },
+    {
+      "id": "a-0055",
+      "de": "die Wartenummer",
+      "de_alt": [],
+      "en": [
+        "queue number",
+        "waiting number",
+        "ticket number"
+      ],
+      "pos": "noun",
+      "plural": "die Wartenummern",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 55,
+      "note": "you wait until your number appears on the screen",
+      "example_de": "Ziehen Sie bitte eine Wartenummer am Automaten.",
+      "example_en": "Please take a queue number from the machine."
+    },
+    {
+      "id": "a-0056",
+      "de": "die Bestätigung",
+      "de_alt": [],
+      "en": [
+        "confirmation",
+        "certificate",
+        "proof"
+      ],
+      "pos": "noun",
+      "plural": "die Bestätigungen",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 56,
+      "example_de": "Sie bekommen eine Bestätigung per E-Mail.",
+      "example_en": "You'll get a confirmation by email."
+    },
+    {
+      "id": "a-0057",
+      "de": "einreichen",
+      "de_alt": [],
+      "en": [
+        "to submit",
+        "to hand in",
+        "to file"
+      ],
+      "pos": "verb",
+      "topic": "offices-forms",
+      "level": "B2",
+      "rank": 57,
+      "note": "separable: Ich reiche den Antrag ein.",
+      "example_de": "Die Unterlagen müssen bis Freitag eingereicht werden.",
+      "example_en": "The documents must be submitted by Friday."
+    },
+    {
+      "id": "a-0058",
+      "de": "vereinbaren",
+      "de_alt": [],
+      "en": [
+        "to arrange",
+        "to agree on",
+        "to make",
+        "to schedule"
+      ],
+      "pos": "verb",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 58,
+      "note": "einen Termin vereinbaren = to make an appointment",
+      "example_de": "Termine kann man online vereinbaren.",
+      "example_en": "You can make appointments online."
+    },
+    {
+      "id": "a-0059",
+      "de": "abgeben",
+      "de_alt": [],
+      "en": [
+        "to hand in",
+        "to submit",
+        "to drop off"
+      ],
+      "pos": "verb",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 59,
+      "note": "separable; Perfekt: hat abgegeben",
+      "example_de": "Ich gebe die Steuererklärung morgen ab.",
+      "example_en": "I'll hand in my tax return tomorrow."
+    },
+    {
+      "id": "a-0060",
+      "de": "erledigen",
+      "de_alt": [],
+      "en": [
+        "to deal with",
+        "to take care of",
+        "to get done",
+        "to handle"
+      ],
+      "pos": "verb",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 60,
+      "example_de": "Das kann ich heute nicht mehr erledigen.",
+      "example_en": "I can't get that done today."
+    },
+    {
+      "id": "a-0061",
+      "de": "der Nachweis",
+      "de_alt": [],
+      "en": [
+        "proof",
+        "evidence",
+        "certificate"
+      ],
+      "pos": "noun",
+      "plural": "die Nachweise",
+      "topic": "offices-forms",
+      "level": "B2",
+      "rank": 61,
+      "example_de": "Als Nachweis reicht eine Kopie des Mietvertrags.",
+      "example_en": "A copy of the tenancy agreement is enough as proof."
+    },
+    {
+      "id": "a-0062",
+      "de": "die Postleitzahl",
+      "de_alt": [
+        "die PLZ"
+      ],
+      "en": [
+        "postcode",
+        "zip code",
+        "postal code"
+      ],
+      "pos": "noun",
+      "plural": "die Postleitzahlen",
+      "topic": "offices-forms",
+      "level": "A2",
+      "rank": 62,
+      "note": "short PLZ",
+      "example_de": "Die Postleitzahl hat in Deutschland fünf Ziffern.",
+      "example_en": "In Germany the postcode has five digits."
+    },
+    {
+      "id": "a-0063",
+      "de": "der Familienstand",
+      "de_alt": [],
+      "en": [
+        "marital status",
+        "family status"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 63,
+      "example_de": "Beim Familienstand kreuze ich 'ledig' an.",
+      "example_en": "For marital status I tick 'single'."
+    },
+    {
+      "id": "a-0064",
+      "de": "ledig",
+      "de_alt": [],
+      "en": [
+        "single",
+        "unmarried"
+      ],
+      "pos": "adj",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 64,
+      "note": "the official word on forms; in speech people say 'Single'",
+      "example_de": "Auf dem Formular steht: ledig, verheiratet oder geschieden.",
+      "example_en": "The form says: single, married or divorced."
+    },
+    {
+      "id": "a-0065",
+      "de": "das Geburtsdatum",
+      "de_alt": [],
+      "en": [
+        "date of birth",
+        "birth date",
+        "birthdate"
+      ],
+      "pos": "noun",
+      "plural": "die Geburtsdaten",
+      "topic": "offices-forms",
+      "level": "A2",
+      "rank": 65,
+      "example_de": "Bitte tragen Sie Ihr Geburtsdatum ein.",
+      "example_en": "Please enter your date of birth."
+    },
+    {
+      "id": "a-0066",
+      "de": "die Öffnungszeiten",
+      "de_alt": [],
+      "en": [
+        "opening hours",
+        "office hours",
+        "business hours"
+      ],
+      "pos": "noun",
+      "plural": "die Öffnungszeiten",
+      "topic": "offices-forms",
+      "level": "A2",
+      "rank": 66,
+      "note": "plural; many offices are only open some mornings",
+      "example_de": "Die Öffnungszeiten stehen auf der Website.",
+      "example_en": "The opening hours are on the website."
+    },
+    {
+      "id": "a-0067",
+      "de": "das Original",
+      "de_alt": [],
+      "en": [
+        "original"
+      ],
+      "pos": "noun",
+      "plural": "die Originale",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 67,
+      "example_de": "Bringen Sie bitte das Original und eine Kopie mit.",
+      "example_en": "Please bring the original and a copy."
+    },
+    {
+      "id": "a-0068",
+      "de": "der Vertrag",
+      "de_alt": [],
+      "en": [
+        "contract",
+        "agreement"
+      ],
+      "pos": "noun",
+      "plural": "die Verträge",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 68,
+      "example_de": "Lies den Vertrag genau, bevor du unterschreibst.",
+      "example_en": "Read the contract carefully before you sign."
+    },
+    {
+      "id": "a-0069",
+      "de": "der Wohnsitz",
+      "de_alt": [],
+      "en": [
+        "residence",
+        "place of residence",
+        "domicile",
+        "registered address"
+      ],
+      "pos": "noun",
+      "plural": "die Wohnsitze",
+      "topic": "registration-residence",
+      "level": "B2",
+      "rank": 69,
+      "example_de": "Mein Wohnsitz ist jetzt in Hamburg.",
+      "example_en": "My place of residence is now in Hamburg."
+    },
+    {
+      "id": "a-0070",
+      "de": "sich abmelden",
+      "de_alt": [
+        "abmelden"
+      ],
+      "en": [
+        "to deregister",
+        "to cancel one's registration",
+        "to unregister"
+      ],
+      "pos": "verb",
+      "topic": "registration-residence",
+      "level": "B1",
+      "rank": 70,
+      "note": "do this at the Bürgeramt when you leave Germany",
+      "example_de": "Vor dem Auszug ins Ausland melde ich mich ab.",
+      "example_en": "Before moving abroad I deregister."
+    },
+    {
+      "id": "a-0071",
+      "de": "die Aufenthaltserlaubnis",
+      "de_alt": [],
+      "en": [
+        "residence permit",
+        "temporary residence permit"
+      ],
+      "pos": "noun",
+      "plural": "die Aufenthaltserlaubnisse",
+      "topic": "registration-residence",
+      "level": "B2",
+      "rank": 71,
+      "note": "the most common, time-limited type of Aufenthaltstitel",
+      "example_de": "Meine Aufenthaltserlaubnis gilt zwei Jahre.",
+      "example_en": "My residence permit is valid for two years."
+    },
+    {
+      "id": "a-0072",
+      "de": "die Arbeitserlaubnis",
+      "de_alt": [],
+      "en": [
+        "work permit",
+        "permission to work"
+      ],
+      "pos": "noun",
+      "plural": "die Arbeitserlaubnisse",
+      "topic": "registration-residence",
+      "level": "B1",
+      "rank": 72,
+      "example_de": "Mit diesem Visum habe ich keine Arbeitserlaubnis.",
+      "example_en": "With this visa I don't have a work permit."
+    },
+    {
+      "id": "a-0073",
+      "de": "der Aufenthalt",
+      "de_alt": [],
+      "en": [
+        "stay",
+        "residence",
+        "period of stay"
+      ],
+      "pos": "noun",
+      "plural": "die Aufenthalte",
+      "topic": "registration-residence",
+      "level": "B1",
+      "rank": 73,
+      "example_de": "Wie lange dauert Ihr Aufenthalt in Deutschland?",
+      "example_en": "How long is your stay in Germany?"
+    },
+    {
+      "id": "a-0074",
+      "de": "verlängern",
+      "de_alt": [],
+      "en": [
+        "to extend",
+        "to renew",
+        "to prolong"
+      ],
+      "pos": "verb",
+      "topic": "registration-residence",
+      "level": "B1",
+      "rank": 74,
+      "example_de": "Ich muss mein Visum rechtzeitig verlängern lassen.",
+      "example_en": "I need to get my visa extended in time."
+    },
+    {
+      "id": "a-0075",
+      "de": "ablaufen",
+      "de_alt": [],
+      "en": [
+        "to expire",
+        "to run out"
+      ],
+      "pos": "verb",
+      "topic": "documents",
+      "level": "B1",
+      "rank": 75,
+      "note": "separable; Perfekt: ist abgelaufen",
+      "example_de": "Mein Personalausweis ist letzte Woche abgelaufen.",
+      "example_en": "My ID card expired last week."
+    },
+    {
+      "id": "a-0076",
+      "de": "die Fahrschule",
+      "de_alt": [],
+      "en": [
+        "driving school"
+      ],
+      "pos": "noun",
+      "plural": "die Fahrschulen",
+      "topic": "driving",
+      "level": "A2",
+      "rank": 76,
+      "example_de": "Meine Fahrschule ist gleich neben der Schule.",
+      "example_en": "My driving school is right next to my school."
+    },
+    {
+      "id": "a-0077",
+      "de": "die Fahrprüfung",
+      "de_alt": [],
+      "en": [
+        "driving test",
+        "driving exam"
+      ],
+      "pos": "noun",
+      "plural": "die Fahrprüfungen",
+      "topic": "driving",
+      "level": "B1",
+      "rank": 77,
+      "note": "there is a theory test and a practical test",
+      "example_de": "Ich habe die Fahrprüfung beim ersten Mal bestanden!",
+      "example_en": "I passed my driving test the first time!"
+    },
+    {
+      "id": "a-0078",
+      "de": "der TÜV",
+      "de_alt": [],
+      "en": [
+        "MOT",
+        "vehicle inspection",
+        "TÜV",
+        "TUV",
+        "safety inspection"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "driving",
+      "level": "B1",
+      "rank": 78,
+      "note": "Technischer Überwachungsverein: the compulsory car safety check, usually every two years, and the company doing it",
+      "example_de": "Mein Auto muss nächsten Monat zum TÜV.",
+      "example_en": "My car has its MOT next month."
+    },
+    {
+      "id": "a-0079",
+      "de": "das Bußgeld",
+      "de_alt": [],
+      "en": [
+        "fine",
+        "penalty"
+      ],
+      "pos": "noun",
+      "plural": "die Bußgelder",
+      "topic": "driving",
+      "level": "B2",
+      "rank": 79,
+      "note": "serious offences also give points in Flensburg (the national driving register)",
+      "example_de": "Für zu schnelles Fahren gibt es ein Bußgeld.",
+      "example_en": "You get a fine for speeding."
+    },
+    {
+      "id": "a-0080",
+      "de": "die Rückerstattung",
+      "de_alt": [
+        "die Erstattung"
+      ],
+      "en": [
+        "refund",
+        "reimbursement",
+        "tax refund"
+      ],
+      "pos": "noun",
+      "plural": "die Rückerstattungen",
+      "topic": "taxes-money",
+      "level": "B2",
+      "rank": 80,
+      "example_de": "Die Rückerstattung kommt in etwa sechs Wochen.",
+      "example_en": "The refund will arrive in about six weeks."
+    },
+    {
+      "id": "a-0081",
+      "de": "überweisen",
+      "de_alt": [],
+      "en": [
+        "to transfer",
+        "to wire",
+        "to send money"
+      ],
+      "pos": "verb",
+      "topic": "taxes-money",
+      "level": "B1",
+      "rank": 81,
+      "note": "not separable: Ich habe überwiesen.",
+      "example_de": "Kannst du mir das Geld heute überweisen?",
+      "example_en": "Can you transfer me the money today?"
+    },
+    {
+      "id": "a-0082",
+      "de": "die IBAN",
+      "de_alt": [],
+      "en": [
+        "IBAN",
+        "account number",
+        "bank account number"
+      ],
+      "pos": "noun",
+      "plural": "die IBANs",
+      "topic": "taxes-money",
+      "level": "B1",
+      "rank": 82,
+      "note": "International Bank Account Number; German ones start with DE and have 22 characters",
+      "example_de": "Tragen Sie bitte Ihre IBAN ins Formular ein.",
+      "example_en": "Please enter your IBAN in the form."
+    },
+    {
+      "id": "a-0083",
+      "de": "die SCHUFA",
+      "de_alt": [
+        "die Schufa"
+      ],
+      "en": [
+        "SCHUFA",
+        "credit agency",
+        "credit bureau",
+        "credit check"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "taxes-money",
+      "level": "B2",
+      "rank": 83,
+      "note": "private credit agency; landlords and phone companies check your SCHUFA score",
+      "example_de": "Der Vermieter möchte eine Auskunft von der SCHUFA sehen.",
+      "example_en": "The landlord wants to see a SCHUFA credit report."
+    },
+    {
+      "id": "a-0084",
+      "de": "der Rundfunkbeitrag",
+      "de_alt": [],
+      "en": [
+        "TV licence fee",
+        "broadcasting fee",
+        "licence fee",
+        "license fee",
+        "TV license fee"
+      ],
+      "pos": "noun",
+      "plural": "die Rundfunkbeiträge",
+      "topic": "taxes-money",
+      "level": "B2",
+      "rank": 84,
+      "note": "monthly fee per household for public TV and radio, even without a TV; still often called GEZ",
+      "example_de": "Den Rundfunkbeitrag zahlt jede Wohnung nur einmal.",
+      "example_en": "Each household pays the broadcasting fee only once."
+    },
+    {
+      "id": "a-0085",
+      "de": "die Mahnung",
+      "de_alt": [],
+      "en": [
+        "payment reminder",
+        "reminder",
+        "dunning letter",
+        "final notice"
+      ],
+      "pos": "noun",
+      "plural": "die Mahnungen",
+      "topic": "taxes-money",
+      "level": "B2",
+      "rank": 85,
+      "note": "letter saying you're late paying; ignoring it adds fees",
+      "example_de": "Ich habe die Rechnung vergessen und jetzt eine Mahnung bekommen.",
+      "example_en": "I forgot the bill and now got a payment reminder."
+    },
+    {
+      "id": "a-0086",
+      "de": "versichert",
+      "de_alt": [],
+      "en": [
+        "insured",
+        "covered"
+      ],
+      "pos": "adj",
+      "topic": "insurance-health",
+      "level": "B1",
+      "rank": 86,
+      "note": "familienversichert/mitversichert = covered free under a parent's public insurance",
+      "example_de": "Ich bin bei meinen Eltern mitversichert.",
+      "example_en": "I'm covered by my parents' insurance."
+    },
+    {
+      "id": "a-0087",
+      "de": "die Haftpflichtversicherung",
+      "de_alt": [],
+      "en": [
+        "personal liability insurance",
+        "liability insurance",
+        "third-party insurance"
+      ],
+      "pos": "noun",
+      "plural": "die Haftpflichtversicherungen",
+      "topic": "insurance-health",
+      "level": "B2",
+      "rank": 87,
+      "note": "not compulsory, but almost everyone has one; covers damage you cause to others",
+      "example_de": "Die Haftpflichtversicherung zahlt, wenn ich etwas kaputt mache.",
+      "example_en": "Liability insurance pays if I break something."
+    },
+    {
+      "id": "a-0088",
+      "de": "sich krankmelden",
+      "de_alt": [
+        "krankmelden"
+      ],
+      "en": [
+        "to call in sick",
+        "to report sick",
+        "to phone in sick"
+      ],
+      "pos": "verb",
+      "topic": "insurance-health",
+      "level": "B1",
+      "rank": 88,
+      "note": "separable: Ich melde mich krank.",
+      "example_de": "Ich habe mich heute Morgen krankgemeldet.",
+      "example_en": "I called in sick this morning."
+    },
+    {
+      "id": "a-0089",
+      "de": "der Beitrag",
+      "de_alt": [],
+      "en": [
+        "contribution",
+        "fee",
+        "subscription",
+        "premium"
+      ],
+      "pos": "noun",
+      "plural": "die Beiträge",
+      "topic": "insurance-health",
+      "level": "B1",
+      "rank": 89,
+      "note": "also 'article' or 'post' in media",
+      "example_de": "Der Beitrag für die Krankenkasse wird vom Lohn abgezogen.",
+      "example_en": "The health insurance contribution is deducted from your wage."
+    },
+    {
+      "id": "a-0090",
+      "de": "der Hausarzt",
+      "de_alt": [],
+      "en": [
+        "GP",
+        "family doctor",
+        "general practitioner",
+        "primary care doctor"
+      ],
+      "pos": "noun",
+      "plural": "die Hausärzte",
+      "topic": "insurance-health",
+      "level": "B1",
+      "rank": 90,
+      "note": "female: die Hausärztin; your first stop for any health problem",
+      "example_de": "Mein Hausarzt hat mir eine Überweisung gegeben.",
+      "example_en": "My GP gave me a referral."
+    },
+    {
+      "id": "a-0091",
+      "de": "die Immatrikulation",
+      "de_alt": [
+        "die Einschreibung"
+      ],
+      "en": [
+        "enrolment",
+        "enrollment",
+        "matriculation",
+        "registration"
+      ],
+      "pos": "noun",
+      "plural": "die Immatrikulationen",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 91,
+      "note": "officially enrolling at a university",
+      "example_de": "Für die Immatrikulation braucht die Uni eine Krankenversicherung.",
+      "example_en": "For enrolment the university needs proof of health insurance."
+    },
+    {
+      "id": "a-0092",
+      "de": "der Semesterbeitrag",
+      "de_alt": [],
+      "en": [
+        "semester fee",
+        "semester contribution",
+        "student fee"
+      ],
+      "pos": "noun",
+      "plural": "die Semesterbeiträge",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 92,
+      "note": "fee of a few hundred euros each semester, often with a transport ticket; not tuition",
+      "example_de": "Im Semesterbeitrag ist das Ticket für Bus und Bahn enthalten.",
+      "example_en": "The semester fee includes the bus and train ticket."
+    },
+    {
+      "id": "a-0093",
+      "de": "die Anerkennung",
+      "de_alt": [],
+      "en": [
+        "recognition",
+        "acknowledgement",
+        "acknowledgment",
+        "accreditation"
+      ],
+      "pos": "noun",
+      "plural": "die Anerkennungen",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 93,
+      "note": "official recognition of foreign school or university qualifications",
+      "example_de": "Die Anerkennung meines ausländischen Abschlusses dauert Monate.",
+      "example_en": "Getting my foreign degree recognised takes months."
+    },
+    {
+      "id": "a-0094",
+      "de": "das BAföG",
+      "de_alt": [
+        "das Bafög"
+      ],
+      "en": [
+        "student grant",
+        "student loan",
+        "BAföG",
+        "BAfoeG",
+        "student finance"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 94,
+      "note": "Bundesausbildungsförderungsgesetz: state money for students, half grant and half interest-free loan",
+      "example_de": "Ohne BAföG könnte ich mir das Studium nicht leisten.",
+      "example_en": "I couldn't afford to study without BAföG."
+    },
+    {
+      "id": "a-0095",
+      "de": "die Probezeit",
+      "de_alt": [],
+      "en": [
+        "probation",
+        "probation period",
+        "trial period",
+        "probationary period"
+      ],
+      "pos": "noun",
+      "plural": "die Probezeiten",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 95,
+      "note": "usually the first six months of a job; new drivers also have a two-year Probezeit",
+      "example_de": "In der Probezeit kann man schneller kündigen.",
+      "example_en": "During probation you can quit more quickly."
+    },
+    {
+      "id": "a-0096",
+      "de": "die Kündigung",
+      "de_alt": [],
+      "en": [
+        "notice",
+        "termination",
+        "dismissal",
+        "resignation",
+        "cancellation"
+      ],
+      "pos": "noun",
+      "plural": "die Kündigungen",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 96,
+      "note": "used for jobs, flats and contracts; email is not enough for jobs",
+      "example_de": "Die Kündigung muss schriftlich und unterschrieben sein.",
+      "example_en": "The notice must be in writing and signed."
+    },
+    {
+      "id": "a-0097",
+      "de": "kündigen",
+      "de_alt": [],
+      "en": [
+        "to cancel",
+        "to quit",
+        "to give notice",
+        "to terminate",
+        "to resign"
+      ],
+      "pos": "verb",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 97,
+      "note": "false friend: ankündigen = to announce",
+      "example_de": "Ich habe meinen Handyvertrag gekündigt.",
+      "example_en": "I've cancelled my phone contract."
+    },
+    {
+      "id": "a-0098",
+      "de": "die Gehaltsabrechnung",
+      "de_alt": [
+        "die Lohnabrechnung"
+      ],
+      "en": [
+        "payslip",
+        "pay slip",
+        "salary statement",
+        "pay stub"
+      ],
+      "pos": "noun",
+      "plural": "die Gehaltsabrechnungen",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 98,
+      "example_de": "Auf der Gehaltsabrechnung sieht man alle Abzüge.",
+      "example_en": "You can see all deductions on the payslip."
+    },
+    {
+      "id": "a-0099",
+      "de": "brutto",
+      "de_alt": [],
+      "en": [
+        "gross",
+        "before tax",
+        "before deductions"
+      ],
+      "pos": "adv",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 99,
+      "note": "pay before tax and social insurance; salaries in Germany are usually quoted brutto",
+      "example_de": "Ich verdiene 2.800 Euro brutto im Monat.",
+      "example_en": "I earn 2,800 euros gross a month."
+    },
+    {
+      "id": "a-0100",
+      "de": "netto",
+      "de_alt": [],
+      "en": [
+        "net",
+        "after tax",
+        "after deductions"
+      ],
+      "pos": "adv",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 100,
+      "note": "what actually reaches your account",
+      "example_de": "Netto bleiben davon ungefähr 1.900 Euro übrig.",
+      "example_en": "About 1,900 euros of that is left after tax."
+    },
+    {
+      "id": "a-0101",
+      "de": "die Sozialversicherung",
+      "de_alt": [],
+      "en": [
+        "social insurance",
+        "social security",
+        "national insurance"
+      ],
+      "pos": "noun",
+      "plural": "die Sozialversicherungen",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 101,
+      "note": "health, long-term care, pension and unemployment insurance, shared by employer and employee",
+      "example_de": "Die Sozialversicherung wird direkt vom Gehalt abgezogen.",
+      "example_en": "Social insurance is deducted directly from your salary."
+    },
+    {
+      "id": "a-0102",
+      "de": "der Lohn",
+      "de_alt": [],
+      "en": [
+        "wage",
+        "wages",
+        "pay"
+      ],
+      "pos": "noun",
+      "plural": "die Löhne",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 102,
+      "note": "Lohn is usually hourly pay; Gehalt is a fixed monthly salary",
+      "example_de": "Der Lohn kommt immer am Monatsende.",
+      "example_en": "The wages always come at the end of the month."
+    },
+    {
+      "id": "a-0103",
+      "de": "der Arbeitgeber",
+      "de_alt": [],
+      "en": [
+        "employer"
+      ],
+      "pos": "noun",
+      "plural": "die Arbeitgeber",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 103,
+      "note": "literally 'work-giver'; female: die Arbeitgeberin",
+      "example_de": "Mein Arbeitgeber zahlt einen Teil der Fahrkarte.",
+      "example_en": "My employer pays part of the travel ticket."
+    },
+    {
+      "id": "a-0104",
+      "de": "das Anschreiben",
+      "de_alt": [],
+      "en": [
+        "cover letter",
+        "covering letter",
+        "motivation letter"
+      ],
+      "pos": "noun",
+      "plural": "die Anschreiben",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 104,
+      "example_de": "Das Anschreiben sollte nicht länger als eine Seite sein.",
+      "example_en": "The cover letter shouldn't be longer than a page."
+    },
+    {
+      "id": "a-0105",
+      "de": "das Vorstellungsgespräch",
+      "de_alt": [],
+      "en": [
+        "job interview",
+        "interview"
+      ],
+      "pos": "noun",
+      "plural": "die Vorstellungsgespräche",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 105,
+      "example_de": "Morgen habe ich ein Vorstellungsgespräch bei einer Bank.",
+      "example_en": "Tomorrow I have a job interview at a bank."
+    },
+    {
+      "id": "a-0106",
+      "de": "die Kaltmiete",
+      "de_alt": [],
+      "en": [
+        "basic rent",
+        "rent without utilities",
+        "net rent"
+      ],
+      "pos": "noun",
+      "plural": "die Kaltmieten",
+      "topic": "housing",
+      "level": "B2",
+      "rank": 106,
+      "note": "rent without heating and other Nebenkosten",
+      "example_de": "Die Kaltmiete beträgt 450 Euro im Monat.",
+      "example_en": "The basic rent is 450 euros a month."
+    },
+    {
+      "id": "a-0107",
+      "de": "die Warmmiete",
+      "de_alt": [],
+      "en": [
+        "total rent",
+        "rent including utilities",
+        "gross rent"
+      ],
+      "pos": "noun",
+      "plural": "die Warmmieten",
+      "topic": "housing",
+      "level": "B2",
+      "rank": 107,
+      "note": "Kaltmiete plus Nebenkosten; electricity is usually extra",
+      "example_de": "Mit Heizung und Wasser liegt die Warmmiete bei 600 Euro.",
+      "example_en": "With heating and water the total rent is 600 euros."
+    },
+    {
+      "id": "a-0108",
+      "de": "die Hausverwaltung",
+      "de_alt": [],
+      "en": [
+        "property management",
+        "building management",
+        "property manager",
+        "managing agent"
+      ],
+      "pos": "noun",
+      "plural": "die Hausverwaltungen",
+      "topic": "housing",
+      "level": "B2",
+      "rank": 108,
+      "note": "company managing a building for the owner; often your contact instead of the landlord",
+      "example_de": "Die Heizung ist kaputt, ich rufe die Hausverwaltung an.",
+      "example_en": "The heating is broken, I'll call the property management."
+    },
+    {
+      "id": "a-0109",
+      "de": "die WG",
+      "de_alt": [
+        "die Wohngemeinschaft"
+      ],
+      "en": [
+        "shared flat",
+        "flatshare",
+        "flat share",
+        "shared apartment"
+      ],
+      "pos": "noun",
+      "plural": "die WGs",
+      "topic": "housing",
+      "level": "B1",
+      "rank": 109,
+      "note": "Wohngemeinschaft; very common among students",
+      "example_de": "Ich wohne mit drei Studierenden in einer WG.",
+      "example_en": "I live in a flatshare with three students."
+    },
+    {
+      "id": "a-0110",
+      "de": "das Wohnheim",
+      "de_alt": [
+        "das Studentenwohnheim",
+        "das Studierendenwohnheim"
+      ],
+      "en": [
+        "dorm",
+        "dormitory",
+        "halls of residence",
+        "student residence"
+      ],
+      "pos": "noun",
+      "plural": "die Wohnheime",
+      "topic": "housing",
+      "level": "B1",
+      "rank": 110,
+      "example_de": "Im Wohnheim sind die Zimmer günstig, aber klein.",
+      "example_en": "Rooms in halls are cheap but small."
+    },
+    {
+      "id": "a-0111",
+      "de": "der Umzug",
+      "de_alt": [],
+      "en": [
+        "move",
+        "house move",
+        "removal",
+        "relocation"
+      ],
+      "pos": "noun",
+      "plural": "die Umzüge",
+      "topic": "housing",
+      "level": "B1",
+      "rank": 111,
+      "example_de": "Nach dem Umzug muss ich mich sofort ummelden.",
+      "example_en": "After the move I have to update my registration straight away."
+    },
+    {
+      "id": "a-0112",
+      "de": "Ich möchte meine Wohnung anmelden.",
+      "de_alt": [],
+      "en": [
+        "I'd like to register my address",
+        "I would like to register my flat",
+        "I'd like to register my apartment"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 112,
+      "example_de": "Ich bin neu in Leipzig und möchte meine Wohnung anmelden.",
+      "example_en": "I'm new in Leipzig and would like to register my address."
+    },
+    {
+      "id": "a-0113",
+      "de": "Wie lange dauert die Bearbeitung?",
+      "de_alt": [],
+      "en": [
+        "how long does processing take",
+        "how long will it take to process",
+        "how long does it take"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 113,
+      "example_de": "Wie lange dauert die Bearbeitung ungefähr?",
+      "example_en": "Roughly how long does processing take?"
+    },
+    {
+      "id": "a-0114",
+      "de": "Brauche ich dafür einen Termin?",
+      "de_alt": [],
+      "en": [
+        "do I need an appointment for this",
+        "do I need an appointment"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "A2",
+      "rank": 114,
+      "example_de": "Brauche ich dafür einen Termin, oder kann ich einfach vorbeikommen?",
+      "example_en": "Do I need an appointment, or can I just drop in?"
+    },
+    {
+      "id": "a-0115",
+      "de": "Ich verstehe dieses Formular nicht.",
+      "de_alt": [],
+      "en": [
+        "I don't understand this form",
+        "I do not understand this form"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "A2",
+      "rank": 115,
+      "example_de": "Ich verstehe dieses Formular nicht. Können Sie mir helfen?",
+      "example_en": "I don't understand this form. Can you help me?"
+    },
+    {
+      "id": "a-0116",
+      "de": "Muss ich das Original mitbringen?",
+      "de_alt": [],
+      "en": [
+        "do I have to bring the original",
+        "do I need to bring the original",
+        "must I bring the original"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 116,
+      "example_de": "Muss ich das Original mitbringen oder reicht eine Kopie?",
+      "example_en": "Do I need to bring the original or is a copy enough?"
+    },
+    {
+      "id": "a-0117",
+      "de": "Reicht eine Kopie?",
+      "de_alt": [],
+      "en": [
+        "is a copy enough",
+        "is a copy sufficient",
+        "will a copy do"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 117,
+      "example_de": "Ich habe das Zeugnis nicht dabei. Reicht eine Kopie?",
+      "example_en": "I don't have the certificate with me. Is a copy enough?"
+    },
+    {
+      "id": "a-0118",
+      "de": "Ich habe meinen Ausweis verloren.",
+      "de_alt": [],
+      "en": [
+        "I've lost my ID card",
+        "I have lost my ID",
+        "I lost my ID card"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "A2",
+      "rank": 118,
+      "example_de": "Ich habe meinen Ausweis verloren. Was soll ich tun?",
+      "example_en": "I've lost my ID card. What should I do?"
+    },
+    {
+      "id": "a-0119",
+      "de": "ankreuzen",
+      "de_alt": [],
+      "en": [
+        "to tick",
+        "to check",
+        "to mark with a cross"
+      ],
+      "pos": "verb",
+      "topic": "offices-forms",
+      "level": "B1",
+      "rank": 119,
+      "note": "separable; Zutreffendes ankreuzen = tick what applies",
+      "example_de": "Kreuzen Sie bitte Zutreffendes an.",
+      "example_en": "Please tick where applicable."
+    },
+    {
+      "id": "a-0120",
+      "de": "das Einschreiben",
+      "de_alt": [],
+      "en": [
+        "registered letter",
+        "registered mail",
+        "registered post"
+      ],
+      "pos": "noun",
+      "plural": "die Einschreiben",
+      "topic": "offices-forms",
+      "level": "B2",
+      "rank": 120,
+      "note": "gives you proof that an important letter arrived",
+      "example_de": "Ich schicke die Kündigung per Einschreiben.",
+      "example_en": "I'm sending the notice by registered post."
+    },
+    {
+      "id": "a-0121",
+      "de": "sich ummelden",
+      "de_alt": [
+        "ummelden"
+      ],
+      "en": [
+        "to change one's registered address",
+        "to re-register",
+        "to update one's address"
+      ],
+      "pos": "verb",
+      "topic": "registration-residence",
+      "level": "B2",
+      "rank": 121,
+      "note": "for a move within Germany",
+      "example_de": "Nach dem Umzug in Berlin musste ich mich ummelden.",
+      "example_en": "After moving within Berlin I had to update my registration."
+    },
+    {
+      "id": "a-0122",
+      "de": "die Einbürgerung",
+      "de_alt": [],
+      "en": [
+        "naturalisation",
+        "naturalization",
+        "getting citizenship"
+      ],
+      "pos": "noun",
+      "plural": "die Einbürgerungen",
+      "topic": "registration-residence",
+      "level": "B2",
+      "rank": 122,
+      "note": "becoming a German citizen; includes a citizenship test",
+      "example_de": "Nach der Einbürgerung bekam er einen deutschen Pass.",
+      "example_en": "After naturalisation he got a German passport."
+    },
+    {
+      "id": "a-0123",
+      "de": "die Botschaft",
+      "de_alt": [],
+      "en": [
+        "embassy",
+        "message"
+      ],
+      "pos": "noun",
+      "plural": "die Botschaften",
+      "topic": "registration-residence",
+      "level": "B1",
+      "rank": 123,
+      "note": "also means 'message'",
+      "example_de": "Das Visum beantragt man bei der deutschen Botschaft.",
+      "example_en": "You apply for the visa at the German embassy."
+    },
+    {
+      "id": "a-0124",
+      "de": "die Übersetzung",
+      "de_alt": [],
+      "en": [
+        "translation"
+      ],
+      "pos": "noun",
+      "plural": "die Übersetzungen",
+      "topic": "documents",
+      "level": "B1",
+      "rank": 124,
+      "note": "beglaubigte Übersetzung = certified translation by a sworn translator",
+      "example_de": "Das Amt verlangt eine beglaubigte Übersetzung.",
+      "example_en": "The office requires a certified translation."
+    },
+    {
+      "id": "a-0125",
+      "de": "ausstellen",
+      "de_alt": [],
+      "en": [
+        "to issue"
+      ],
+      "pos": "verb",
+      "topic": "documents",
+      "level": "B2",
+      "rank": 125,
+      "note": "also means 'to exhibit'; ausgestellt am = date of issue",
+      "example_de": "Der Pass wurde in London ausgestellt.",
+      "example_en": "The passport was issued in London."
+    },
+    {
+      "id": "a-0126",
+      "de": "das Führungszeugnis",
+      "de_alt": [],
+      "en": [
+        "certificate of good conduct",
+        "police certificate",
+        "criminal record check"
+      ],
+      "pos": "noun",
+      "plural": "die Führungszeugnisse",
+      "topic": "documents",
+      "level": "B2",
+      "rank": 126,
+      "note": "official proof of no criminal record, applied for at the Bürgeramt; often needed for work with children",
+      "example_de": "Für den Job im Sportverein brauche ich ein Führungszeugnis.",
+      "example_en": "I need a police certificate for the job at the sports club."
+    },
+    {
+      "id": "a-0127",
+      "de": "die Führerscheinstelle",
+      "de_alt": [],
+      "en": [
+        "driving licence office",
+        "licensing office",
+        "DMV"
+      ],
+      "pos": "noun",
+      "plural": "die Führerscheinstellen",
+      "topic": "driving",
+      "level": "B2",
+      "rank": 127,
+      "note": "office where you apply for or exchange a driving licence",
+      "example_de": "Den Antrag auf den Führerschein stellt man bei der Führerscheinstelle.",
+      "example_en": "You apply for your licence at the licensing office."
+    },
+    {
+      "id": "a-0128",
+      "de": "die Fahrstunde",
+      "de_alt": [],
+      "en": [
+        "driving lesson"
+      ],
+      "pos": "noun",
+      "plural": "die Fahrstunden",
+      "topic": "driving",
+      "level": "A2",
+      "rank": 128,
+      "example_de": "Heute habe ich meine erste Fahrstunde auf der Autobahn.",
+      "example_en": "Today I have my first driving lesson on the motorway."
+    },
+    {
+      "id": "a-0129",
+      "de": "die Zulassung",
+      "de_alt": [],
+      "en": [
+        "registration",
+        "vehicle registration",
+        "admission",
+        "approval"
+      ],
+      "pos": "noun",
+      "plural": "die Zulassungen",
+      "topic": "driving",
+      "level": "B2",
+      "rank": 129,
+      "note": "also university admission",
+      "example_de": "Die Zulassung für das Auto kostet etwa 30 Euro.",
+      "example_en": "Registering the car costs about 30 euros."
+    },
+    {
+      "id": "a-0130",
+      "de": "das Kennzeichen",
+      "de_alt": [],
+      "en": [
+        "number plate",
+        "license plate",
+        "registration number"
+      ],
+      "pos": "noun",
+      "plural": "die Kennzeichen",
+      "topic": "driving",
+      "level": "B1",
+      "rank": 130,
+      "note": "also means 'characteristic, sign'",
+      "example_de": "Die ersten Buchstaben im Kennzeichen zeigen die Stadt.",
+      "example_en": "The first letters on the number plate show the town."
+    },
+    {
+      "id": "a-0131",
+      "de": "der Strafzettel",
+      "de_alt": [],
+      "en": [
+        "parking ticket",
+        "ticket",
+        "fine"
+      ],
+      "pos": "noun",
+      "plural": "die Strafzettel",
+      "topic": "driving",
+      "level": "B1",
+      "rank": 131,
+      "note": "everyday word; the official letter is a Bußgeldbescheid",
+      "example_de": "Ich habe schon wieder einen Strafzettel bekommen.",
+      "example_en": "I got another parking ticket."
+    },
+    {
+      "id": "a-0132",
+      "de": "die Steuerklasse",
+      "de_alt": [],
+      "en": [
+        "tax class",
+        "tax bracket"
+      ],
+      "pos": "noun",
+      "plural": "die Steuerklassen",
+      "topic": "taxes-money",
+      "level": "B2",
+      "rank": 132,
+      "note": "classes 1 to 6; decides how much tax is taken from your pay each month",
+      "example_de": "Als Single ist man in Steuerklasse eins.",
+      "example_en": "Single people are in tax class one."
+    },
+    {
+      "id": "a-0133",
+      "de": "die Lohnsteuer",
+      "de_alt": [],
+      "en": [
+        "wage tax",
+        "payroll tax",
+        "income tax"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "taxes-money",
+      "level": "B2",
+      "rank": 133,
+      "note": "income tax taken straight from employees' wages",
+      "example_de": "Die Lohnsteuer zieht der Arbeitgeber direkt vom Gehalt ab.",
+      "example_en": "The employer deducts income tax directly from your salary."
+    },
+    {
+      "id": "a-0134",
+      "de": "der Kontoauszug",
+      "de_alt": [],
+      "en": [
+        "bank statement",
+        "account statement",
+        "statement"
+      ],
+      "pos": "noun",
+      "plural": "die Kontoauszüge",
+      "topic": "taxes-money",
+      "level": "B1",
+      "rank": 134,
+      "example_de": "Schicken Sie uns bitte die letzten drei Kontoauszüge.",
+      "example_en": "Please send us your last three bank statements."
+    },
+    {
+      "id": "a-0135",
+      "de": "die Girocard",
+      "de_alt": [
+        "die EC-Karte"
+      ],
+      "en": [
+        "debit card",
+        "bank card",
+        "EC card",
+        "cash card"
+      ],
+      "pos": "noun",
+      "plural": "die Girocards",
+      "topic": "taxes-money",
+      "level": "B1",
+      "rank": 135,
+      "note": "German debit card; many people still call it EC-Karte",
+      "example_de": "Kann ich hier mit Girocard bezahlen?",
+      "example_en": "Can I pay with a debit card here?"
+    },
+    {
+      "id": "a-0136",
+      "de": "das Kindergeld",
+      "de_alt": [],
+      "en": [
+        "child benefit"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "taxes-money",
+      "level": "B1",
+      "rank": 136,
+      "note": "monthly payment to parents until 18, or up to 25 while in education",
+      "example_de": "Meine Eltern bekommen für mich noch Kindergeld.",
+      "example_en": "My parents still get child benefit for me."
+    },
+    {
+      "id": "a-0137",
+      "de": "gesetzlich",
+      "de_alt": [],
+      "en": [
+        "statutory",
+        "public",
+        "legal"
+      ],
+      "pos": "adj",
+      "topic": "insurance-health",
+      "level": "B2",
+      "rank": 137,
+      "note": "gesetzlich versichert = in public health insurance; privat versichert = private",
+      "example_de": "Die meisten Studierenden sind gesetzlich versichert.",
+      "example_en": "Most students have public health insurance."
+    },
+    {
+      "id": "a-0138",
+      "de": "die Sozialversicherungsnummer",
+      "de_alt": [],
+      "en": [
+        "social security number",
+        "social insurance number",
+        "national insurance number"
+      ],
+      "pos": "noun",
+      "plural": "die Sozialversicherungsnummern",
+      "topic": "insurance-health",
+      "level": "B2",
+      "rank": 138,
+      "note": "you get it automatically with your first job or from your Krankenkasse",
+      "example_de": "Für den ersten Job brauche ich eine Sozialversicherungsnummer.",
+      "example_en": "I need a social security number for my first job."
+    },
+    {
+      "id": "a-0139",
+      "de": "die Immatrikulationsbescheinigung",
+      "de_alt": [
+        "die Studienbescheinigung"
+      ],
+      "en": [
+        "certificate of enrolment",
+        "proof of enrolment",
+        "enrollment certificate",
+        "student certificate"
+      ],
+      "pos": "noun",
+      "plural": "die Immatrikulationsbescheinigungen",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 139,
+      "example_de": "Für den Studentenrabatt brauche ich eine Immatrikulationsbescheinigung.",
+      "example_en": "I need proof of enrolment for the student discount."
+    },
+    {
+      "id": "a-0140",
+      "de": "die Studiengebühren",
+      "de_alt": [],
+      "en": [
+        "tuition fees",
+        "tuition",
+        "university fees"
+      ],
+      "pos": "noun",
+      "plural": "die Studiengebühren",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 140,
+      "note": "plural; some states charge non-EU students",
+      "example_de": "An den meisten staatlichen Unis gibt es keine Studiengebühren.",
+      "example_en": "Most state universities have no tuition fees."
+    },
+    {
+      "id": "a-0141",
+      "de": "das Studierendenwerk",
+      "de_alt": [
+        "das Studentenwerk"
+      ],
+      "en": [
+        "student services",
+        "student union services",
+        "student services organisation"
+      ],
+      "pos": "noun",
+      "plural": "die Studierendenwerke",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 141,
+      "note": "runs dorms, canteens and BAföG offices; older name Studentenwerk",
+      "example_de": "Das Studierendenwerk vermietet günstige Zimmer im Wohnheim.",
+      "example_en": "Student services rent out cheap rooms in halls."
+    },
+    {
+      "id": "a-0142",
+      "de": "der Urlaubsanspruch",
+      "de_alt": [],
+      "en": [
+        "holiday entitlement",
+        "vacation entitlement",
+        "annual leave entitlement",
+        "annual leave"
+      ],
+      "pos": "noun",
+      "plural": "die Urlaubsansprüche",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 142,
+      "note": "legal minimum: 20 working days a year on a five-day week",
+      "example_de": "Mein Urlaubsanspruch beträgt 28 Tage im Jahr.",
+      "example_en": "My holiday entitlement is 28 days a year."
+    },
+    {
+      "id": "a-0143",
+      "de": "das Arbeitszeugnis",
+      "de_alt": [],
+      "en": [
+        "job reference",
+        "reference",
+        "employment reference",
+        "letter of reference"
+      ],
+      "pos": "noun",
+      "plural": "die Arbeitszeugnisse",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 143,
+      "note": "written reference employees have a right to; its polite wording is coded",
+      "example_de": "Nach dem Praktikum habe ich ein Arbeitszeugnis bekommen.",
+      "example_en": "I got a written reference after my internship."
+    },
+    {
+      "id": "a-0144",
+      "de": "der Ferienjob",
+      "de_alt": [],
+      "en": [
+        "holiday job",
+        "summer job",
+        "vacation job"
+      ],
+      "pos": "noun",
+      "plural": "die Ferienjobs",
+      "topic": "study-work",
+      "level": "A2",
+      "rank": 144,
+      "note": "under-18s may only work limited hours under youth protection law",
+      "example_de": "Im Sommer habe ich einen Ferienjob im Supermarkt.",
+      "example_en": "In summer I've got a holiday job at the supermarket."
+    },
+    {
+      "id": "a-0145",
+      "de": "der Minijob",
+      "de_alt": [],
+      "en": [
+        "mini job",
+        "part-time job",
+        "marginal employment"
+      ],
+      "pos": "noun",
+      "plural": "die Minijobs",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 145,
+      "note": "small job up to about 600 euros a month, usually without tax deductions for you",
+      "example_de": "Neben der Schule habe ich einen Minijob im Café.",
+      "example_en": "Besides school I have a mini job at a café."
+    },
+    {
+      "id": "a-0146",
+      "de": "der Werkstudent",
+      "de_alt": [],
+      "en": [
+        "working student",
+        "student employee",
+        "student worker"
+      ],
+      "pos": "noun",
+      "plural": "die Werkstudenten",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 146,
+      "note": "student job of up to 20 hours a week in term time with lower deductions; female: die Werkstudentin",
+      "example_de": "Als Werkstudent arbeite ich zwanzig Stunden pro Woche.",
+      "example_en": "As a working student I work twenty hours a week."
+    },
+    {
+      "id": "a-0147",
+      "de": "der Mindestlohn",
+      "de_alt": [],
+      "en": [
+        "minimum wage"
+      ],
+      "pos": "noun",
+      "plural": "die Mindestlöhne",
+      "topic": "study-work",
+      "level": "B1",
+      "rank": 147,
+      "note": "legal minimum hourly pay; under-18s without a finished apprenticeship are excluded",
+      "example_de": "Der Mindestlohn gilt nicht für Jugendliche ohne Ausbildung.",
+      "example_en": "The minimum wage doesn't apply to under-18s without vocational training."
+    },
+    {
+      "id": "a-0148",
+      "de": "die Nebenkostenabrechnung",
+      "de_alt": [],
+      "en": [
+        "utility bill",
+        "service charge statement",
+        "annual utility statement"
+      ],
+      "pos": "noun",
+      "plural": "die Nebenkostenabrechnungen",
+      "topic": "housing",
+      "level": "B2",
+      "rank": 148,
+      "note": "yearly statement: you pay extra or get money back",
+      "example_de": "Laut Nebenkostenabrechnung müssen wir 120 Euro nachzahlen.",
+      "example_en": "According to the utility statement we owe 120 euros extra."
+    },
+    {
+      "id": "a-0149",
+      "de": "die Untermiete",
+      "de_alt": [],
+      "en": [
+        "sublet",
+        "subletting",
+        "sublease"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "housing",
+      "level": "B2",
+      "rank": 149,
+      "note": "zur Untermiete wohnen = rent from the main tenant; the landlord must agree",
+      "example_de": "Ich wohne für ein Semester zur Untermiete.",
+      "example_en": "I'm subletting a room for one semester."
+    },
+    {
+      "id": "a-0150",
+      "de": "der Hausmeister",
+      "de_alt": [],
+      "en": [
+        "caretaker",
+        "janitor",
+        "superintendent"
+      ],
+      "pos": "noun",
+      "plural": "die Hausmeister",
+      "topic": "housing",
+      "level": "A2",
+      "rank": 150,
+      "example_de": "Der Hausmeister repariert morgen das Licht im Flur.",
+      "example_en": "The caretaker is fixing the hallway light tomorrow."
+    },
+    {
+      "id": "a-0151",
+      "de": "Ich habe Widerspruch eingelegt.",
+      "de_alt": [],
+      "en": [
+        "I have lodged an objection",
+        "I've filed an appeal",
+        "I have appealed",
+        "I've lodged an objection"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B2",
+      "rank": 151,
+      "note": "Widerspruch einlegen = to formally object",
+      "example_de": "Ich habe gegen den Bescheid Widerspruch eingelegt.",
+      "example_en": "I've lodged an objection to the decision."
+    },
+    {
+      "id": "a-0152",
+      "de": "Wie hoch ist die Gebühr?",
+      "de_alt": [],
+      "en": [
+        "how much is the fee",
+        "how high is the fee",
+        "what is the fee"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 152,
+      "example_de": "Wie hoch ist die Gebühr für einen neuen Ausweis?",
+      "example_en": "How much is the fee for a new ID card?"
+    },
+    {
+      "id": "a-0153",
+      "de": "Können Sie mir das schriftlich geben?",
+      "de_alt": [],
+      "en": [
+        "can you give me that in writing",
+        "could I have that in writing",
+        "can I have that in writing"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 153,
+      "example_de": "Können Sie mir das bitte schriftlich geben?",
+      "example_en": "Could you give me that in writing, please?"
+    },
+    {
+      "id": "a-0154",
+      "de": "Mein Visum läuft bald ab.",
+      "de_alt": [],
+      "en": [
+        "my visa expires soon",
+        "my visa is expiring soon",
+        "my visa runs out soon"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 154,
+      "example_de": "Mein Visum läuft bald ab. Wie kann ich es verlängern?",
+      "example_en": "My visa expires soon. How can I extend it?"
+    },
+    {
+      "id": "a-0155",
+      "de": "Kann ich das auch online erledigen?",
+      "de_alt": [],
+      "en": [
+        "can I do this online",
+        "can I also do this online",
+        "can I do that online too"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 155,
+      "example_de": "Kann ich das auch online erledigen, ohne Termin?",
+      "example_en": "Can I do this online as well, without an appointment?"
+    },
+    {
+      "id": "a-0156",
+      "de": "Ich bin hier, um mein Visum abzuholen.",
+      "de_alt": [],
+      "en": [
+        "I'm here to pick up my visa",
+        "I am here to collect my visa"
+      ],
+      "pos": "phrase",
+      "topic": "office-phrases",
+      "level": "B1",
+      "rank": 156,
+      "example_de": "Guten Tag, ich bin hier, um mein Visum abzuholen.",
+      "example_en": "Hello, I'm here to pick up my visa."
+    },
+    {
+      "id": "a-0157",
+      "de": "das begleitete Fahren",
+      "de_alt": [],
+      "en": [
+        "accompanied driving",
+        "supervised driving"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "driving",
+      "level": "B2",
+      "rank": 157,
+      "note": "BF17: from 17 you may drive if a named adult sits next to you",
+      "example_de": "Mit begleitetem Fahren darf ich mit meinem Vater fahren.",
+      "example_en": "With accompanied driving I can drive with my dad."
+    },
+    {
+      "id": "a-0158",
+      "de": "der Erste-Hilfe-Kurs",
+      "de_alt": [],
+      "en": [
+        "first aid course",
+        "first-aid course"
+      ],
+      "pos": "noun",
+      "plural": "die Erste-Hilfe-Kurse",
+      "topic": "driving",
+      "level": "B1",
+      "rank": 158,
+      "note": "compulsory for every driving licence in Germany",
+      "example_de": "Vor der Führerscheinprüfung muss man einen Erste-Hilfe-Kurs machen.",
+      "example_en": "You must take a first aid course before the driving test."
+    },
+    {
+      "id": "a-0159",
+      "de": "die Kirchensteuer",
+      "de_alt": [],
+      "en": [
+        "church tax"
+      ],
+      "pos": "noun",
+      "plural": "die Kirchensteuern",
+      "topic": "taxes-money",
+      "level": "B2",
+      "rank": 159,
+      "note": "extra tax if you're registered as Catholic or Protestant; you're asked at the Anmeldung",
+      "example_de": "Wer aus der Kirche austritt, zahlt keine Kirchensteuer.",
+      "example_en": "If you leave the church, you pay no church tax."
+    },
+    {
+      "id": "a-0160",
+      "de": "die Auslandskrankenversicherung",
+      "de_alt": [],
+      "en": [
+        "travel health insurance",
+        "international health insurance",
+        "travel medical insurance"
+      ],
+      "pos": "noun",
+      "plural": "die Auslandskrankenversicherungen",
+      "topic": "insurance-health",
+      "level": "B2",
+      "rank": 160,
+      "example_de": "Für das Austauschjahr brauche ich eine Auslandskrankenversicherung.",
+      "example_en": "I need travel health insurance for my exchange year."
+    },
+    {
+      "id": "a-0161",
+      "de": "die Exmatrikulation",
+      "de_alt": [],
+      "en": [
+        "exmatriculation",
+        "de-registration",
+        "withdrawal from university",
+        "disenrollment"
+      ],
+      "pos": "noun",
+      "plural": "die Exmatrikulationen",
+      "topic": "study-work",
+      "level": "B2",
+      "rank": 161,
+      "note": "leaving the university's register, after graduating or dropping out",
+      "example_de": "Nach dem Abschluss kommt automatisch die Exmatrikulation.",
+      "example_en": "After graduating you are automatically removed from the student register."
+    },
+    {
+      "id": "a-0162",
+      "de": "das Übergabeprotokoll",
+      "de_alt": [],
+      "en": [
+        "handover report",
+        "handover protocol",
+        "inventory report",
+        "check-in report"
+      ],
+      "pos": "noun",
+      "plural": "die Übergabeprotokolle",
+      "topic": "housing",
+      "level": "B2",
+      "rank": 162,
+      "note": "written record of the flat's condition when you move in or out; protects your deposit",
+      "example_de": "Alle Schäden stehen im Übergabeprotokoll.",
+      "example_en": "All damage is listed in the handover report."
+    }
+  ]
+}
