@@ -56,13 +56,15 @@ def word_details(word: Word) -> Table:
 def _listen_options(ctx, word: Word, options: dict[str, str]) -> str:
     """Show options (plus replay ones when audio works); handle replays; return the other choice."""
     if ctx.audio.can_speak:
-        options = {**options, "r": "hear again"}
+        options = {**options, "r": "hear again", "s": "say it myself"}
         if word.example_de:
             options["e"] = "hear the example"
     while True:
         choice = ui.keys(options)
         if choice == "r":
             hear(ctx, word.de)
+        elif choice == "s":
+            speak_and_compare(ctx, word.de)
         elif choice == "e":
             hear(ctx, word.example_de, slow=False)
         else:

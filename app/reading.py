@@ -64,8 +64,12 @@ def _replay_until_enter(ctx, text: str, enter_label: str) -> None:
     options = {"": enter_label}
     if ctx.audio.can_speak:
         options["r"] = "hear the German again"
-    while ui.keys(options) == "r":
-        hear(ctx, text, slow=False)
+        options["s"] = "read it out loud myself"
+    while (choice := ui.keys(options)) != "":
+        if choice == "r":
+            hear(ctx, text, slow=False)
+        else:
+            speak_and_compare(ctx, text, long_text=True)
 
 
 def _explain(unit: Unit) -> None:
