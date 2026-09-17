@@ -43,6 +43,7 @@ gtutor            # in a new terminal; or ./run.sh
 ```
 gtutor --profile Anna    # skip the name chooser
 gtutor --no-audio        # no speech or microphone
+gtutor update            # get the latest words, books and fixes
 ```
 
 ## Progress
@@ -55,7 +56,13 @@ Each kid has a profile. Progress is saved automatically after every word and eve
 
 ## Updating
 
-To get new books and words: in the app folder run `git pull` (or download the ZIP again and keep your old `data/` folder). Then run `setup.bat` / `./setup.sh` again if `requirements.txt` changed.
+To get the latest app, words and books, type:
+```
+gtutor update
+```
+It downloads the changes from GitHub and installs new libraries if needed. It never touches progress, and your own `config.json` edits are kept.
+
+If you installed from a ZIP (no git), download the new ZIP instead, unzip it over the old folder, and keep your `data/` folder.
 
 ## Settings
 

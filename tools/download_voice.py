@@ -19,12 +19,13 @@ def download(url: str, target: Path) -> None:
     tmp = target.with_suffix(target.suffix + ".part")
     with urllib.request.urlopen(url) as response, tmp.open("wb") as out:
         total = int(response.headers.get("Content-Length", 0))
-        done = 0
+        done = shown = 0
         while chunk := response.read(1 << 16):
             out.write(chunk)
             done += len(chunk)
-            if total:
-                print(f"\r  {target.name}: {done * 100 // total}%", end="", flush=True)
+            if total and done * 100 // total >= shown + 10:  # every 10%
+                shown = done * 100 // total
+                print(f"\r  {target.name}: {shown}%", end="", flush=True)
     tmp.replace(target)
     print(f"\r  {target.name}: done      ")
 
