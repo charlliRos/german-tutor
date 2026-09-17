@@ -34,12 +34,18 @@ def choose_profile(name: str | None) -> Profile:
     if name:
         return Profile.open_or_create(name)
     profiles = Profile.list_all()
+    last = Profile.last_used(profiles)
     console.print(banner())
     for i, p in enumerate(profiles, 1):
-        console.print(f"  [cyan]{i}[/] {p.name}")
-    prompt = "Your number, or type a new name:" if profiles else "Type your name:"
+        console.print(f"  [cyan]{i}[/] {p.name}" + ("  [dim]← last time[/]" if p is last else ""))
+    if last:
+        prompt = f"Press Enter to continue as {last.name}, or pick a number / type a new name:"
+    else:
+        prompt = "Your number, or type a new name:" if profiles else "Type your name:"
     while True:
         answer = ui.ask(prompt)
+        if not answer and last:
+            return last
         if answer.isdigit() and 1 <= int(answer) <= len(profiles):
             return profiles[int(answer) - 1]
         if answer and not answer.isdigit():

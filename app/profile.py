@@ -30,6 +30,11 @@ class Profile:
     def list_all(cls) -> list["Profile"]:
         return [cls.load(p) for p in sorted(PROFILES_DIR.glob("*.json"))]
 
+    @staticmethod
+    def last_used(profiles: list["Profile"]) -> "Profile | None":
+        """The profile saved most recently (every lesson step saves, so this is whoever practised last)."""
+        return max(profiles, key=lambda p: p.path.stat().st_mtime, default=None)
+
     @classmethod
     def load(cls, path: Path) -> "Profile":
         with path.open(encoding="utf-8") as f:
