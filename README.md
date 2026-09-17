@@ -15,18 +15,23 @@ Needs internet once (setup downloads the libraries and the German voice, ~63 MB)
 
 ### Windows
 
-1. **Install Python** (skip if you have it). In PowerShell:
+1. **Install Python and Git** (skip what you already have). In PowerShell:
    ```
    winget install Python.Python.3.12
+   winget install Git.Git
    ```
-   Or download it from [python.org](https://www.python.org/downloads/) and tick **"Add python.exe to PATH"**.
-2. **Get the app.** Either run `git clone https://github.com/charlliRos/german-tutor.git`, or on GitHub click **Code → Download ZIP** and unzip it.
+   Or download Python from [python.org](https://www.python.org/downloads/) (tick **"Add python.exe to PATH"**) and Git from [git-scm.com](https://git-scm.com/downloads).
+2. **Get the app.** Open a **new** PowerShell window and run:
+   ```
+   git clone https://github.com/charlliRos/german-tutor.git
+   ```
+   This creates a `german-tutor` folder. (Without Git you can click **Code → Download ZIP** on GitHub and unzip it, but then `gtutor update` won't work.)
 3. **Run setup.** Double-click **`setup.bat`** in the app folder. It takes a few minutes and also adds the `gtutor` command.
 4. **Start.** Open a **new** terminal and type:
    ```
    gtutor
    ```
-   Or double-click `run.bat`. Type your name, then choose **7** to test your speakers and microphone.
+   Or double-click `run.bat`. Type your name: a short welcome explains how it works and offers to test your speakers and microphone (also in the menu as **7**).
 
 ### Linux (Debian/Ubuntu)
 
