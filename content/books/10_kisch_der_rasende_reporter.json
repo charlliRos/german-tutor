@@ -1,0 +1,517 @@
+{
+  "id": "kisch-rasende-reporter",
+  "title": "Der rasende Reporter",
+  "author": "Egon Erwin Kisch",
+  "author_died": 1948,
+  "year": 1925,
+  "level": "B2",
+  "source": "https://archive.org/details/der_rasende_reporter-reiss_1925 (scan of the first edition, Erich Reiss Verlag, Berlin, 1925; OCR errors checked against the page images) – reportages “Ein Spaziergang auf dem Meeresboden” (pp. 7–11) and “Experiment mit einem hohen Trinkgeld” (pp. 43–46), both complete",
+  "orthography": "modernised to current German spelling (dass, muss, zu viel, zum zweiten Mal, im Voraus, Delfine, deplatziert, ...); wording unchanged; obvious OCR/printing slips corrected from the page scans",
+  "intro_en": "Egon Erwin Kisch (1885–1948) was a journalist from Prague who wrote in German, and this 1925 collection made his nickname famous: “der rasende Reporter” (the racing reporter). Instead of just reporting news, he tried things out himself and wrote about them with humour and a sharp eye. In these two complete reportages he walks on the seabed in an old copper-helmet diving suit, and he tests how Berlin tram and bus conductors react to a ridiculously big tip. His German is lively and factual – much closer to today's language than 19th-century novels, though you'll meet some 1920s words along the way.",
+  "units": [
+    {
+      "n": 1,
+      "de": "Die Taucherplätte fährt, gefolgt vom Ambulanzwagen für Taucherunfälle, auf dem die Dekompressionskammer ist, zur Suchstelle. Dort wird das Lot ausgeworfen. Siebzehn Meter zeigt die Senkschnur. Ich bin abergläubisch, und siebzehn ist – wie ich schnell ausrechne – die Summe von dreizehn und der an sich bedeutungslosen Zahl vier. Die „dreizehn“ stört mich – kein gutes Omen. Aber jetzt ist nichts mehr zu machen. Ich bin nicht schuld, wenn es schlecht ausgeht. Der Taucher von Schiller ist schuld mit seiner Wichtigtuerei und seinem ewigen Abraten: „Da unten aber ist's fürchterlich, und der Mensch versuche die Götter nicht...“ und so weiter. Ich lasse mir aber nun einmal nicht abraten. Justament nicht.",
+      "en": "The diving barge sets off for the search site, followed by the ambulance boat for diving accidents, which carries the decompression chamber. There the plumb line is thrown out. The sounding line shows seventeen metres. I'm superstitious, and seventeen – as I quickly work out – is the sum of thirteen and the number four, which means nothing in itself. The “thirteen” bothers me – not a good omen. But there's nothing more to be done now. It's not my fault if it goes badly. Schiller's Diver is to blame, with his showing off and his constant warnings: “But down there it is dreadful, and let man not tempt the gods...” and so on. But I simply won't be talked out of it. No way.",
+      "explain_en": "START OF REPORTAGE 1: “Ein Spaziergang auf dem Meeresboden” (A Walk on the Seabed). Kisch goes down to the sea floor with navy divers in an old-style diving suit. He jokes about Schiller's ballad “Der Taucher” (The Diver), a poem German pupils once had to learn by heart. “Ich bin nicht schuld” / “X ist schuld” = it's not my fault / X is to blame – very useful. “jemandem von etwas abraten” = to advise someone against something. “Justament” is old Austrian for “jetzt erst recht” (now more than ever).",
+      "words": [
+        {"de": "der Taucher, die Taucher", "en": "diver"},
+        {"de": "abergläubisch", "en": "superstitious"},
+        {"de": "ausrechnen", "en": "to work out, to calculate"},
+        {"de": "die Zahl, die Zahlen", "en": "number"},
+        {"de": "schuld sein", "en": "to be to blame", "note": "Ich bin nicht schuld. = It's not my fault."},
+        {"de": "abraten", "en": "to advise against", "note": "Ich rate dir davon ab."}
+      ]
+    },
+    {
+      "n": 2,
+      "de": "Und den Gürtel werf' ich, den Mantel weg und auch Gamaschen, Stiefel, Rock und Hosen. Es waren keine Ritter da und Frauen, den kühnen Jüngling verwundert zu schauen. Und wenn schon: meine Wäsche habe ich ja anbehalten. Darüber kommen noch eine Unterhose und zwei Hemden aus Trikot und außerdem der Taucheranzug. Er ist aus gummigetränktem Stoffe und aus einem Stück geschnitten und passt für alle Körpergrößen mehr oder weniger. (Mir: weniger.)",
+      "en": "And I throw off my belt and my coat, and my gaiters, boots, jacket and trousers too. There were no knights and ladies there to gaze in wonder at the bold young man. And so what: I've kept my underwear on, after all. Over it go another pair of long johns and two jersey vests, and on top of that the diving suit. It's made of rubber-soaked fabric, cut in one piece, and fits all body sizes more or less. (Me: less.)",
+      "explain_en": "Kisch parodies Schiller's poem, where the hero throws off his belt and coat while knights and ladies watch in amazement. “werf' ich” = “werfe ich” (a poetic short form). “Und wenn schon!” = So what! – still used. “anbehalten” = to keep (clothes) on; the opposite is “ausziehen”. “der Rock” here is old for a man's jacket; today “der Rock” means a skirt! “(Mir: weniger.)” – his dry humour: the suit doesn't fit him.",
+      "words": [
+        {"de": "der Gürtel, die Gürtel", "en": "belt"},
+        {"de": "der Stiefel, die Stiefel", "en": "boot"},
+        {"de": "die Hose, die Hosen", "en": "trousers"},
+        {"de": "das Hemd, die Hemden", "en": "shirt"},
+        {"de": "anbehalten", "en": "to keep on (clothes)"},
+        {"de": "passen", "en": "to fit"},
+        {"de": "mehr oder weniger", "en": "more or less"}
+      ]
+    },
+    {
+      "n": 3,
+      "de": "Über die Schenkel bis zu den Hüften kann man ihn noch selbst hinaufziehen, dann muss man aufstehen, mit angezogenen Ellenbogen die Hände auf den Bauch pressen, und zwei Henkersknechte zerren das Gewand so hoch hinauf, dass der Kautschukkragen den Hals umschließt. In die engen, allzu engen Kautschukmanschetten hilft dir ein Tauchergehilfe mit zwei schuhlöffelartigen Dehnern. Man bedenke: Trikotwäsche, Kautschukmanschetten! Es ist doch gut, dass keine Ritter da sind.",
+      "en": "You can still pull it up over your thighs to your hips yourself, then you have to stand up, press your hands against your belly with your elbows tucked in, and two executioner's assistants haul the garment up so high that the rubber collar closes around your neck. A diver's helper gets you into the tight, far too tight rubber cuffs with two stretchers that look like shoehorns. Just imagine: jersey underwear, rubber cuffs! It's a good thing there are no knights around after all.",
+      "explain_en": "Kisch jokingly calls the helpers “Henkersknechte” (executioner's assistants) – getting dressed feels like torture. Notice he switches from “man” (one) to “dir” (you) – both are ways of talking about people in general. “aufstehen” = to stand up, to get up. “eng” = tight, narrow; “allzu” = far too. “der Kautschuk” is natural rubber; today we'd just say “das Gummi”. “Man bedenke!” = Just think! (formal).",
+      "words": [
+        {"de": "die Hüfte, die Hüften", "en": "hip"},
+        {"de": "aufstehen", "en": "to stand up, to get up"},
+        {"de": "der Ellenbogen, die Ellenbogen", "en": "elbow"},
+        {"de": "der Bauch, die Bäuche", "en": "belly, stomach"},
+        {"de": "der Hals, die Hälse", "en": "neck, throat"},
+        {"de": "eng", "en": "tight, narrow"},
+        {"de": "das Gummi", "en": "rubber", "note": "Kisch says 'Kautschuk'"}
+      ]
+    },
+    {
+      "n": 4,
+      "de": "Ein gestreifter Zwillichanzug wird übergezogen, das Gummikostüm zu schonen. Na, ich muss ja fein aussehen! Um den Hals und über die Schultern stülpt man mir den metallenen Koller, den kugelrunden Kupferhelm hebe ich mir selbst auf das Haupt. Der Gummikragen des Anzuges, der Helmkragen und der Helmkopf werden nun von eifrigen Händen und mächtigen Schraubenschlüsseln zu ewiger Einheit geschmiedet.",
+      "en": "A striped canvas overall is pulled on over it to protect the rubber costume. Well, I must look lovely! Around my neck and over my shoulders they slip the metal breastplate; I lift the perfectly round copper helmet onto my head myself. The rubber collar of the suit, the helmet collar and the helmet itself are now forged into an eternal unity by eager hands and huge spanners.",
+      "explain_en": "Now comes the famous round copper helmet. “überziehen” = to pull on over something. “(um etwas) zu schonen” = to protect or go easy on something: “Ich schone mein Handy.” – Kisch leaves out the “um”, which is old-fashioned. “Na, ich muss ja fein aussehen!” is ironic: I must look great! “das Haupt” is old/poetic for “der Kopf”. “der Schraubenschlüssel” = spanner, wrench.",
+      "words": [
+        {"de": "gestreift", "en": "striped"},
+        {"de": "überziehen", "en": "to pull on (over something)"},
+        {"de": "aussehen", "en": "to look (like)", "note": "Du siehst gut aus!"},
+        {"de": "der Helm, die Helme", "en": "helmet"},
+        {"de": "das Kupfer", "en": "copper"},
+        {"de": "der Kopf, die Köpfe", "en": "head", "note": "Kisch uses poetic 'das Haupt'"}
+      ]
+    },
+    {
+      "n": 5,
+      "de": "Zum Glück ist das mittlere der drei Rundfenster (ein viertes, ungefähr in Stirnhöhe, ist vergittert) noch offen, so dass ich auf normalem Wege atmen, hören und sprechen kann. Inzwischen sind meine Füße zu Blei geworden, denn riesige Rindlederschuhe mit Sohlen aus diesem Metall wurden mir umgeschnallt, jeder sechs Kilo schwer. Ich schleppe mich, unfreiwillig die Gangart des Golems kopierend, zur Taucherstiege, die vom Deck ins Meer führt. Allein auf der dritten Stufe habe ich, das Gesicht gegen das Boot gewendet, stehen zu bleiben. Ich bin also nur bis zu den Hüften im Wasser und muss meinen Kopf auf das Deck legen – die Schwere des Helmes würde mich sonst umwerfen.",
+      "en": "Luckily the middle one of the three round windows (a fourth, at about forehead height, has bars over it) is still open, so I can breathe, hear and speak the normal way. Meanwhile my feet have turned to lead, because huge cowhide boots with soles made of this metal have been strapped onto me, each weighing six kilos. I drag myself to the diving ladder that leads from the deck into the sea, unintentionally copying the walk of the Golem. But on the third step I have to stop, with my face turned towards the boat. So I'm only in the water up to my hips and have to rest my head on the deck – otherwise the weight of the helmet would knock me over.",
+      "explain_en": "“Zum Glück” = luckily – everyday German. “inzwischen” = meanwhile, by now. The Golem is a clay giant from a Jewish legend of Prague, Kisch's home town – he walks stiffly. “Allein” at the start of a sentence here means “but” (old-fashioned), not “alone”. “habe ich ... stehen zu bleiben” = “haben + zu” means “to have to”; today “muss ich stehen bleiben”. “sonst” = otherwise – very useful: “Beeil dich, sonst verpassen wir den Bus!”",
+      "words": [
+        {"de": "zum Glück", "en": "luckily"},
+        {"de": "das Fenster, die Fenster", "en": "window"},
+        {"de": "atmen", "en": "to breathe"},
+        {"de": "inzwischen", "en": "meanwhile, by now"},
+        {"de": "schwer", "en": "heavy; difficult"},
+        {"de": "die Stufe, die Stufen", "en": "step"},
+        {"de": "sonst", "en": "otherwise"}
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Das Bleigewicht der Füße spüre ich nicht so sehr, da sie im Wasser sind. Man hängt mir einen stolzen Orden um den Hals, wie ein Lebkuchenherz aussehend und ebenso groß. Er ist aber keineswegs aus Lebkuchen, sondern aus Blei und wiegt zehn Kilogramm. Das Rückenblei – mir bleibt doch nichts erspart auf dieser Welt! – wiegt sieben. Indes ich, die Stirne reuig auf den Erdboden gepresst, alles mit mir geschehen lassen muss, schnallt man auf meinem Rücken auch noch den Lufttornister an.",
+      "en": "I don't feel the lead weights on my feet so much, since they're in the water. They hang a proud medal round my neck, looking like a gingerbread heart and just as big. But it's not made of gingerbread at all; it's made of lead and weighs ten kilograms. The weight on my back – I'm spared nothing in this world! – weighs seven. While I, my forehead pressed humbly to the floor, have to let everything be done to me, they also strap the air pack onto my back.",
+      "explain_en": "Kisch jokes that the lead chest weight looks like a medal or a gingerbread heart (“Lebkuchenherz”, the kind sold at German fairs). “spüren” = to feel (physically). “keineswegs” = not at all. “Mir bleibt nichts erspart” = I'm spared nothing – still said when everything goes wrong. “indes” is old for “während” (while). “der Tornister” is an old word for a backpack; today normally “der Rucksack”.",
+      "words": [
+        {"de": "spüren", "en": "to feel, to sense"},
+        {"de": "das Blei", "en": "lead (the metal)"},
+        {"de": "wiegen", "en": "to weigh", "note": "wog, hat gewogen"},
+        {"de": "keineswegs", "en": "not at all, by no means"},
+        {"de": "der Rücken, die Rücken", "en": "back"},
+        {"de": "der Rucksack, die Rucksäcke", "en": "backpack", "note": "Kisch uses old 'Tornister'"}
+      ]
+    },
+    {
+      "n": 7,
+      "de": "Der ist durch den Luftschlauch mit der vierzylindrigen Luftpumpe an Bord der Taucherplätte verbunden und führt durch ein Rohr im Helm und den kleinen Atmungsschlauch in meinen Mund. Guter Tornister, du wirst da unten mein einziger Freund sein, nicht wahr, du wirst für mich sorgen? Du weißt doch: für je zehn Meter Wassertiefe schenkst du mir Luft von einer Atmosphäre mehr. Braver Tornister! (Ich streichle ihn geradezu mit meinen Gedanken.)",
+      "en": "It's connected by the air hose to the four-cylinder air pump on board the diving barge, and it leads through a pipe in the helmet and the little breathing tube into my mouth. Good old air pack, you'll be my only friend down there, won't you, you'll look after me? You know, don't you: for every ten metres of water depth you give me one more atmosphere of air. Good air pack! (I'm practically stroking it with my thoughts.)",
+      "explain_en": "Kisch talks to his air pack like a pet – “Braver Tornister!” sounds like “Good dog!” (“Braver Hund!”). The physics is right: every 10 m of water adds about one atmosphere (1 bar) of pressure. “nicht wahr?” = isn't it? / right? – in speech people usually say “oder?” or “ne?”. “für jemanden sorgen” = to look after someone. “je” = per, for every: “zwei Euro je Stück”.",
+      "words": [
+        {"de": "die Luft", "en": "air"},
+        {"de": "der Schlauch, die Schläuche", "en": "hose, tube"},
+        {"de": "verbunden", "en": "connected"},
+        {"de": "einzig", "en": "only, single"},
+        {"de": "sorgen für", "en": "to look after, to take care of"},
+        {"de": "die Tiefe, die Tiefen", "en": "depth"},
+        {"de": "streicheln", "en": "to stroke, to pet"}
+      ]
+    },
+    {
+      "n": 8,
+      "de": "Noch ist die Ausrüstung nicht vollendet, die zum „Skafander“ – so nennt die Marine den Tauchapparat Rouquayrol-Denayrouze – gehört. Ein Hanftau, die Führungsleine, schlingt man mir mittels eines Leibstiches um die Hüften, Handschellen aus Kautschuk presst man mir über die Gelenke, damit die Gummimanschetten noch fester anliegen und meine Hand sich blutig rötet, und einen Dolch in bronzener Scheide reicht man mir, und ich stecke ihn in den Gürtel. Ha, jetzt sollen sie nur kommen, die Haifische und Delfine – oder die Seeschlange!",
+      "en": "The equipment that belongs to the “scaphander” – that's what the navy calls the Rouquayrol-Denayrouze diving apparatus – isn't complete yet. A hemp rope, the guide line, is tied around my hips with a special knot; rubber handcuffs are pressed over my wrists so that the rubber cuffs fit even more tightly and my hands turn blood-red; and I'm handed a dagger in a bronze sheath, which I stick in my belt. Ha, just let them come now, the sharks and dolphins – or the sea serpent!",
+      "explain_en": "“die Ausrüstung” = equipment, gear – used today for sport too: “die Skiausrüstung”. “damit” = so that: “Ich lerne, damit ich die Prüfung bestehe.” “mittels” (by means of) is formal; in speech use “mit”. “der Haifisch” is a bit old-fashioned; today mostly “der Hai”. “Die sollen nur kommen!” = Just let them come! – a joking show of courage.",
+      "words": [
+        {"de": "die Ausrüstung, die Ausrüstungen", "en": "equipment, gear"},
+        {"de": "die Leine, die Leinen", "en": "line, rope; (dog) lead"},
+        {"de": "das Handgelenk, die Handgelenke", "en": "wrist", "note": "Kisch just says 'Gelenke' (joints)"},
+        {"de": "damit", "en": "so that"},
+        {"de": "der Hai, die Haie", "en": "shark", "note": "Kisch says 'Haifisch'"},
+        {"de": "der Delfin, die Delfine", "en": "dolphin"}
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Der Tauchermeister dämpft meine kriegerische Stimmung etwas herab. Er ist ein erfahrener Mann, hat schon manches Schiff auf dem Meeresgrund betreten und wurde oft geholt, in Seen und Flüssen des Binnenlandes zu tauchen; unter anderem hat er im Veldeser See nach der versunkenen Glocke gesucht. Er ist ein erfahrener Mann und auf sein Wort muss man hören, solange das Mittelfenster des Helmes noch offen ist. O weh, wie viele Lehren gibt er mir!",
+      "en": "The chief diver dampens my warlike mood a bit. He's an experienced man; he has stepped onto many a ship on the seabed and has often been called in to dive in lakes and rivers inland; among other things, he searched Lake Bled for the sunken bell. He's an experienced man, and you have to listen to what he says while the middle window of the helmet is still open. Oh dear, how many lessons he gives me!",
+      "explain_en": "“erfahren” as an adjective = experienced (from “die Erfahrung”, experience). “unter anderem” (u. a.) = among other things – very common in written German. The “Veldeser See” is Lake Bled in today's Slovenia, where legend says a church bell sank. “auf jemanden hören” = to listen to (and obey) someone: “Hör auf deine Mutter!” “solange” = as long as. “O weh!” is old; today “Oje!”.",
+      "words": [
+        {"de": "die Stimmung, die Stimmungen", "en": "mood, atmosphere"},
+        {"de": "erfahren", "en": "experienced"},
+        {"de": "das Schiff, die Schiffe", "en": "ship"},
+        {"de": "der See, die Seen", "en": "lake", "note": "die See = the sea"},
+        {"de": "unter anderem", "en": "among other things"},
+        {"de": "suchen nach", "en": "to search for, to look for"},
+        {"de": "auf jemanden hören", "en": "to listen to someone"}
+      ]
+    },
+    {
+      "n": 10,
+      "de": "Ich muss, um Gottes willen, immer das Mundstück des Atmungsschlauches schön im Munde behalten, und kann, um Gottes willen, ja nicht durch die Nase atmen, und soll, um Gottes willen, ja nicht die Führungsleine loslassen, und darf, um Gottes willen, die Orientierung nicht verlieren, und wenn ich Nasenbluten oder Ohrensausen bekomme, so macht das gar nichts, und ein Ruck an der Führungsleine bedeutet, dass ich den Grund erreicht habe, zwei Rucke, dass ich zu wenig Luft habe und dass man daher oben rascher pumpen müsse, drei Rucke bedeuten Gefahr, vier, dass ich nach rechts, fünf, dass ich nach links, sechs, dass ich zurückgehen will, und ähnliche Dinge.",
+      "en": "For heaven's sake I must always keep the mouthpiece of the breathing tube nicely in my mouth, and for heaven's sake I can't breathe through my nose, and for heaven's sake I mustn't let go of the guide line, and for heaven's sake I mustn't lose my sense of direction, and if I get a nosebleed or a ringing in my ears, that doesn't matter at all, and one tug on the guide line means I've reached the bottom, two tugs that I haven't got enough air and so they need to pump faster up top, three tugs mean danger, four that I want to go right, five that I want to go left, six that I want to go back, and similar things.",
+      "explain_en": "One huge sentence that copies how the instructions pour over him. Look at all the modal verbs: “muss” (must), “kann” (can), “soll” (should), “darf” (may) – “nicht dürfen” means “must not”: “Du darfst hier nicht parken.” “um Gottes willen” = for God's sake – still used. “ja nicht” = whatever you do, don't: “Vergiss es ja nicht!” “loslassen” = to let go. “zu wenig” = not enough. “müsse” is subjunctive for reported speech. Remember the signals – Kisch will mix them up later!",
+      "words": [
+        {"de": "der Mund, die Münder", "en": "mouth"},
+        {"de": "loslassen", "en": "to let go"},
+        {"de": "verlieren", "en": "to lose", "note": "verlor, hat verloren"},
+        {"de": "das Nasenbluten", "en": "nosebleed"},
+        {"de": "zu wenig", "en": "not enough, too little"},
+        {"de": "die Gefahr, die Gefahren", "en": "danger"},
+        {"de": "rechts / links", "en": "right / left"}
+      ]
+    },
+    {
+      "n": 11,
+      "de": "Das hätte er mir früher sagen sollen, der Herr Tauchermeister, dann hätte ich mir's wohl überlegt... Aber schon wird an der Luftpumpe gearbeitet, ich habe das Mundstück, das vor mir einige hundert wackere Taucher in den Mund genommen haben, zwischen Zähne und Lippen gepresst, und das letzte Fenster wird mit erschreckend großen Schlüsseln festgeschraubt. Ade, schöne Luft, die man da oben nach Gutdünken einatmen kann, durch Mund oder Nase, in x-beliebigen Atmosphären... Ich bin hermetisch von dir abgesperrt, ich sehe dich, aber ich fühle dich nicht mehr! Ade!",
+      "en": "He should have told me that earlier, Mr Chief Diver, then I might well have thought twice... But they're already working the air pump; I've clamped the mouthpiece, which several hundred brave divers have had in their mouths before me, between my teeth and lips, and the last window is screwed shut with frighteningly large spanners. Farewell, lovely air, which you can breathe up there as you please, through your mouth or your nose, at any number of atmospheres you like... I'm sealed off from you completely; I can see you, but I can't feel you any more! Farewell!",
+      "explain_en": "“Das hätte er mir früher sagen sollen” = he should have told me earlier – a really useful pattern: “Du hättest mich anrufen sollen!” (You should have called me!) “sich etwas überlegen” = to think something over: “Ich überleg's mir.” “wird ... gearbeitet” is an impersonal passive: work is being done. Kisch also points out, a bit disgustingly, that hundreds of divers used that mouthpiece before him. “Ade” is old for “Tschüss”. “x-beliebig” = any old – still used in speech.",
+      "words": [
+        {"de": "früher", "en": "earlier; in the past"},
+        {"de": "sich etwas überlegen", "en": "to think something over"},
+        {"de": "der Zahn, die Zähne", "en": "tooth"},
+        {"de": "die Lippe, die Lippen", "en": "lip"},
+        {"de": "der Schlüssel, die Schlüssel", "en": "key; spanner"},
+        {"de": "einatmen", "en": "to breathe in"}
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Es geht die Treppe abwärts, meine rechte Hand umklammert die Führungsleine, die linke ist frei. Ein paar Stufen, dann hört die Treppe auf, und ich schwebe, schwebe tief hinab. Ich segne das verfluchte Gewicht auf meinen Stiefeln, – das bewirkt jetzt, dass ich meine Abwärtsfahrt in aufrechter Haltung zurücklege und mit den Füßen zuerst auf den Meeresboden komme. Nun, ehrlich gesprochen, ich segne meine Bleisohlen derzeit nicht, ich habe ganz andere Dinge im Kopf.",
+      "en": "Down the ladder I go, my right hand gripping the guide line, the left one free. A few steps, then the ladder ends, and I float, float deep down. I bless the cursed weight on my boots – it's what makes me travel down standing upright and reach the seabed feet first. Well, to be honest, I'm not blessing my lead soles right now; I've got completely different things on my mind.",
+      "explain_en": "“Es geht ... abwärts” = down it goes – “es geht” + a direction is very common: “Morgen geht es nach Berlin.” “aufhören” = to stop, to end: “Hör auf!” (Stop it!) “schweben” = to float, to hover. “bewirken” = to cause, to bring about. “ehrlich gesprochen” – today people say “ehrlich gesagt” (to be honest). “derzeit” = at the moment. “etwas im Kopf haben” = to have something on your mind.",
+      "words": [
+        {"de": "die Treppe, die Treppen", "en": "stairs, steps"},
+        {"de": "aufhören", "en": "to stop, to end"},
+        {"de": "schweben", "en": "to float, to hover"},
+        {"de": "das Gewicht, die Gewichte", "en": "weight"},
+        {"de": "zuerst", "en": "first"},
+        {"de": "ehrlich gesagt", "en": "to be honest", "note": "Kisch writes 'ehrlich gesprochen'"}
+      ]
+    },
+    {
+      "n": 13,
+      "de": "In Augenblicken der Erregung pflege ich mir vor allem eine Zigarette anzuzünden, – daran ist jetzt nicht zu denken. Ich denke zwar doch daran, aber ich weiß, dass es nicht möglich ist, und so verzichte ich. Ich denke also an andere Dinge, an die ich in meinem Leben noch nicht gedacht habe: dass du mir nicht durch die Nase atmest, Kerl, und dass du das Mundstück um Gottes willen nicht aus dem Maul fallen lässt, der Helm, zum Teufel nochmal, ist der Helm schwer! Nein, das ist nicht der Helm, das wird der Wasserdruck sein, siebzehn Meter, keine Kleinigkeit.",
+      "en": "In moments of excitement the first thing I usually do is light a cigarette – that's out of the question now. I do think about it, but I know it isn't possible, and so I do without. So I think about other things I've never thought about in my life: don't you dare breathe through your nose, mate, and for God's sake don't let the mouthpiece fall out of your gob; the helmet, damn it, how heavy the helmet is! No, it isn't the helmet, it must be the water pressure, seventeen metres, that's no small thing.",
+      "explain_en": "“pflegen, etwas zu tun” = to usually do something (formal); in speech: “Normalerweise zünde ich mir ... an.” “Daran ist nicht zu denken” = that's out of the question. “verzichten (auf)” = to do without, to give up: “Ich verzichte auf Zucker.” “Dass du mir nicht ...!” is a warning he gives himself: Don't you dare ...! “das Maul” is an animal's mouth and rude for a person's. “Das wird der Wasserdruck sein” – “werden” here means “probably”.",
+      "words": [
+        {"de": "die Zigarette, die Zigaretten", "en": "cigarette"},
+        {"de": "anzünden", "en": "to light"},
+        {"de": "möglich", "en": "possible"},
+        {"de": "verzichten auf", "en": "to do without, to give up"},
+        {"de": "der Druck", "en": "pressure"},
+        {"de": "keine Kleinigkeit", "en": "no small thing"}
+      ]
+    },
+    {
+      "n": 14,
+      "de": "Nein, auch der Wasserdruck ist es nicht, es ist der Kautschukanzug, der drückt das Blut aufwärts gegen den Kopf und schröpft mich; wie war das doch, was der Tauchermeister sagte, ein Ruck heißt Hinaufholen, zwei Rucke heißen, dass ein Haifisch da ist, drei Rucke bedeuten Kautschukmanschetten, vier Rucke, dass ich nach links will... Aber schließlich gewöhne ich mich daran, auf dem Meeresgrunde zu sein. Ich trete meine Wanderung an und komme mir wie ein Kind im Storchenteiche vor. Nun, da bin ich eigentlich doch schon weiter: die Nabelschnur fehlt mir nicht und sogar einen Gummilutscher habe ich im Mund. Nicht verlieren, Bubi, sonst kommt der böse Tauchermeister!",
+      "en": "No, it isn't the water pressure either, it's the rubber suit, which pushes the blood up towards my head and squeezes me; what was it the chief diver said, one tug means pull me up, two tugs mean there's a shark, three tugs mean rubber cuffs, four tugs that I want to go left... But in the end I get used to being on the seabed. I set off on my hike and feel like a baby in the stork's pond. Well, actually I'm a bit further along than that: I've still got my umbilical cord, and I even have a rubber dummy in my mouth. Don't lose it, baby boy, or the nasty chief diver will come!",
+      "explain_en": "In his panic Kisch mixes up all the signals – compare with unit 10! “sich an etwas gewöhnen” = to get used to something: “Ich habe mich an die neue Schule gewöhnt.” “sich wie ... vorkommen” = to feel like ...: “Ich komme mir blöd vor.” (I feel stupid.) German children used to be told that the stork brings babies from a pond. The air hose is his “umbilical cord” (Nabelschnur) and the mouthpiece his “dummy” (today “der Schnuller”). “Bubi” is an old pet name for a little boy.",
+      "words": [
+        {"de": "sich gewöhnen an", "en": "to get used to"},
+        {"de": "schließlich", "en": "finally, in the end"},
+        {"de": "sich vorkommen wie", "en": "to feel like"},
+        {"de": "fehlen", "en": "to be missing", "note": "Mir fehlt nichts. = I'm fine."},
+        {"de": "der Schnuller, die Schnuller", "en": "dummy, pacifier", "note": "Kisch says 'Gummilutscher'"},
+        {"de": "böse", "en": "nasty, evil; angry"}
+      ]
+    },
+    {
+      "n": 15,
+      "de": "Nur meine Hände sind nackt und greifen in die Nässe, es ist keine Feuchtigkeit zu spüren, bloß zu sehen. Rings um mich überall Wasser, blaues Wasser. Ich gehe trockenen Fußes durch das Meer: das Wunder, das der Gesamtheit der Kinder Israels widerfahren war, vollzieht sich nun an mir Einzelnem. Ich tappe schweren Schrittes über kalkige Steine, Austermuscheln und Muschelkalk, überwachsen mit Seegras, Algen, Tang, Moos oder Gott weiß was.",
+      "en": "Only my hands are bare and reach into the wet; you can't feel any dampness, only see it. All around me, water everywhere, blue water. I walk through the sea with dry feet: the miracle that once happened to all the Children of Israel is now happening to me, one single person. I plod with heavy steps over chalky stones, oyster shells and shell limestone, overgrown with seagrass, algae, seaweed, moss or God knows what.",
+      "explain_en": "Kisch compares himself to the Bible story in which Moses leads the Israelites through the Red Sea with dry feet. “bloß” = only, just (common in speech, especially in the south). “rings um mich” – today “um mich herum” (all around me). “widerfahren” is formal for “passieren”. “Gott weiß was” = God knows what – exactly like English.",
+      "words": [
+        {"de": "nackt", "en": "naked, bare"},
+        {"de": "bloß", "en": "only, just"},
+        {"de": "trocken", "en": "dry"},
+        {"de": "das Wunder, die Wunder", "en": "miracle, wonder"},
+        {"de": "der Stein, die Steine", "en": "stone"},
+        {"de": "die Muschel, die Muscheln", "en": "shell; mussel"},
+        {"de": "die Alge, die Algen", "en": "alga, seaweed"}
+      ]
+    },
+    {
+      "n": 16,
+      "de": "Dort, die Muschel will ich aufheben, sozusagen als Edelweiß des Meeres; ich lege sie mir dann zu Hause auf den Schreibtisch als Andenken für mich, und wenn mich Besucher nach der Besonderheit dieser Muschel fragen, so bemerke ich leichthin: „Ach nichts, die habe ich einmal so vom Meeresgrund aufgelesen, siebzehn Meter unter der Oberfläche.“ Ja, hat sich was mit „aufgelesen“. Ich knie nieder, um sie „aufzulesen“. Aber erstens kann ich sie nicht packen, denn bald greift meine Hand viel zu nahe, bald viel zu weit.",
+      "en": "There, I want to pick up that shell, as a sort of edelweiss of the sea; then I'll put it on my desk at home as a souvenir for myself, and when visitors ask me what's special about this shell, I'll say casually: “Oh, nothing, I just picked it up off the seabed once, seventeen metres below the surface.” Yeah, so much for “picked it up”. I kneel down to “pick it up”. But firstly, I can't grab it, because one moment my hand reaches much too close, the next much too far.",
+      "explain_en": "The edelweiss is a rare flower that climbers pick in the Alps to prove they were up there – Kisch wants a trophy to show off. “aufheben” = to pick up (also: to keep). “das Andenken” = souvenir; today more often “das Souvenir” or “die Erinnerung”. “auflesen” is old for “aufsammeln”. “Hat sich was mit ...!” is sarcastic: So much for ...! – today you'd say “Von wegen!”. “bald ..., bald ...” = one moment ..., the next ...",
+      "words": [
+        {"de": "aufheben", "en": "to pick up; to keep"},
+        {"de": "packen", "en": "to grab; to pack"},
+        {"de": "der Schreibtisch, die Schreibtische", "en": "desk"},
+        {"de": "das Andenken, die Andenken", "en": "souvenir, keepsake"},
+        {"de": "fragen nach", "en": "to ask about"},
+        {"de": "die Oberfläche, die Oberflächen", "en": "surface"},
+        {"de": "Von wegen!", "en": "As if! So much for that!"}
+      ]
+    },
+    {
+      "n": 17,
+      "de": "Ich habe zwar in der Schule einmal etwas von der Brechung des Lichtes im Wasser gehört, ohne es zu glauben. Es ist doch so, – ich kann die Muschel nicht finden, die ich vor mir sehe. Schließlich finde ich sie. Sie ist aber so fest angewachsen, dass ich sie nicht loskriege. Ruhig fasse ich eine andere – ganz vergeblich, auch die bewegt sich nicht. Na, liegt auch nichts dran, ich kaufe mir morgen irgendeine Muschel und lege sie auf meinen Schreibtisch. Nach ein, zwei Jahren werde ich schon selber steif und fest glauben, dass ich sie vom Meeresgrunde aufgelesen habe.",
+      "en": "I did once hear something at school about light being refracted in water, but I didn't believe it. But it's true – I can't find the shell I can see right in front of me. Finally I find it. But it's stuck on so firmly that I can't get it off. Calmly I take hold of another one – no use at all, that one won't move either. Oh well, doesn't matter, tomorrow I'll buy myself some shell or other and put it on my desk. After a year or two I'll firmly believe myself that I picked it up from the seabed.",
+      "explain_en": "Physics lesson in real life: refraction of light (“die Brechung des Lichtes”) makes things underwater look closer than they are – that's why his hand keeps missing. “zwar ..., aber/doch” = admittedly ..., but. “fest angewachsen” = firmly stuck on (literally: grown on). “loskriegen” is colloquial for “losbekommen” (to get something off). “Liegt nichts dran” – today “Egal!” or “Macht nichts!”. “steif und fest glauben/behaupten” = to firmly believe/insist – still used.",
+      "words": [
+        {"de": "glauben", "en": "to believe"},
+        {"de": "finden", "en": "to find", "note": "fand, hat gefunden"},
+        {"de": "kaufen", "en": "to buy"},
+        {"de": "irgendein", "en": "some ... or other, any"},
+        {"de": "Macht nichts!", "en": "Never mind!"}
+      ]
+    },
+    {
+      "n": 18,
+      "de": "Ich stehe auf und gehe weiter. Also, dieser Schillersche Taucher, das war ein Lügner: es wallet nicht und siedet nicht und brauset nicht und zischt nicht, und kein dampfender Gischt spritzt bis zum Himmel, und von Salamandern und Molchen und Drachen, die sich laut Aussage des Mauldreschers der Ballade hier in dem „furchtbaren Höllenrachen“ regen sollen, habe ich nichts bemerkt, geschweige denn von einem grausen, zu scheußlichen Klumpen geballten Gemisch des stachlichten Rochen, des Klippenfischs und des Hammers gräulicher Ungestalt, auch wies mir nicht dräuend die grimmigen Zähne der entsetzliche Hai, des Meeres Hyäne.",
+      "en": "I get up and walk on. Well, this Diver of Schiller's was a liar: it doesn't seethe and doesn't boil and doesn't roar and doesn't hiss, and no steaming spray shoots up to the sky, and I noticed nothing of salamanders and newts and dragons, which according to the ballad's blabbermouth are supposed to be stirring here in the “terrible jaws of hell”, let alone a horrible mixture, balled into a hideous lump, of the spiny ray, the rock fish and the gruesome misshapen hammerhead; nor did the dreadful shark, the hyena of the sea, menacingly show me its grim teeth.",
+      "explain_en": "Kisch the reporter checks Schiller's poem against reality and quotes its dramatic, old-fashioned words to make fun of them. The old -et endings (“wallet, brauset”) are poetic; today “wallt, braust”. “dräuend” is poetic for “drohend” (threatening). “laut” + genitive/dative = according to: “laut Wetterbericht” (according to the weather forecast). “geschweige denn” = let alone – still common. “der Lügner” = liar.",
+      "words": [
+        {"de": "weitergehen", "en": "to walk on, to carry on"},
+        {"de": "der Lügner, die Lügner", "en": "liar"},
+        {"de": "laut", "en": "according to; loud"},
+        {"de": "bemerken", "en": "to notice"},
+        {"de": "geschweige denn", "en": "let alone"},
+        {"de": "der Drache, die Drachen", "en": "dragon"},
+        {"de": "der Zahn, die Zähne", "en": "tooth"}
+      ]
+    },
+    {
+      "n": 19,
+      "de": "Schiller ist da einem Hochstapler tüchtig aufgesessen. Oder hat sein Taucher in submariner Angst in den braven Sardinen so grimmige Meeresungeheuer gesehen? Die schwimmen nämlich wirklich in großen Mengen umher, kommen bis an mein Visier und schauen mir treuherzig in die Augen. Sie halten mich wohl für irgendeines der seltsamen, leblosen Dinge, die ihnen in den Kriegsjahren von freundlicher Seite als Spielzeug auf den Meeresgrund gesandt wurden. Da ich mir ein solches Fischlein haschen will, springt es schnell davon.",
+      "en": "Schiller was well and truly taken in by a con man there. Or did his diver, in his underwater fear, see such grim sea monsters in the harmless sardines? Because those really do swim around in large numbers, come right up to my visor and look trustingly into my eyes. They probably take me for one of those strange, lifeless things that were sent down to them on the seabed as toys by friendly parties during the war years. When I try to catch one of these little fish, it darts away quickly.",
+      "explain_en": "“jemandem aufsitzen” = to be fooled by someone; today “auf jemanden hereinfallen”. “der Hochstapler” = con man, impostor – still used. The “lifeless things” sent down “as toys” during the war are mines and sunken wrecks – dark irony from Europe after World War I. “jemanden für etwas halten” = to take someone for something: “Sie hält mich für blöd.” “haschen” is old for “fangen” (to catch). “-lein” makes things small: “das Fischlein” = little fish.",
+      "words": [
+        {"de": "die Angst, die Ängste", "en": "fear"},
+        {"de": "das Ungeheuer, die Ungeheuer", "en": "monster"},
+        {"de": "die Menge, die Mengen", "en": "amount, crowd, lots"},
+        {"de": "halten für", "en": "to take for, to consider"},
+        {"de": "das Spielzeug", "en": "toy, toys"},
+        {"de": "fangen", "en": "to catch", "note": "Kisch uses old 'haschen'"}
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Nach einem mehr als halbstündigen (dreiunddreißig Minuten, um präzis zu sein) Spaziergang komme ich ohne irgendein Corpus delicti an das Tageslicht. Und doch habe ich das Meer von Grund auf gesehen und ein Erlebnis gehabt, das mir nirgends vorgekommen ist, außer heute auf dem Meeresgrunde. Auf die Gefahr hin, dass man mich für einen noch größeren Aufschneider halten werde, als ich den Taucher Schillers, will ich es verraten: ich bin während der ganzen Promenade keinem Bekannten begegnet.",
+      "en": "After a walk of more than half an hour (thirty-three minutes, to be precise) I come back up into the daylight without any corpus delicti. And yet I have seen the sea from the bottom up and had an experience that has never happened to me anywhere except today on the seabed. At the risk of people thinking I'm an even bigger show-off than I think Schiller's Diver is, I'll let you in on it: during the whole stroll I didn't run into a single person I knew.",
+      "explain_en": "The punchline: the only real “adventure” is that for once he met nobody he knew – a joke about busy city life, where you bump into acquaintances everywhere. “Corpus delicti” is Latin for evidence (here: the shell). “von Grund auf” = thoroughly, from the ground up – a pun, because he was literally on the “Grund” (sea floor). “das Erlebnis” = an experience you live through. “der Aufschneider” = show-off (a bit old; today “der Angeber”). “jemandem begegnen” (+ dative) = to run into someone.",
+      "words": [
+        {"de": "halbstündig", "en": "half-hour, lasting half an hour"},
+        {"de": "das Tageslicht", "en": "daylight"},
+        {"de": "das Erlebnis, die Erlebnisse", "en": "experience"},
+        {"de": "der Angeber, die Angeber", "en": "show-off", "note": "Kisch says 'Aufschneider'"},
+        {"de": "verraten", "en": "to reveal, to give away"},
+        {"de": "begegnen", "en": "to meet, to run into", "note": "+ Dativ, ist begegnet"}
+      ]
+    },
+    {
+      "n": 21,
+      "de": "Der Passagier zahlt in Berlin den Fahrpreis und weiter nichts. Vielleicht macht es ihm zu viel Mühe, noch ein Nickelstück aus der Münzenfülle seiner Tasche herauszusuchen. Zeigt sich ausnahmsweise doch jemand so splendid, einen Sechser zuzulegen, so streckt er die zwanzig Pfennig dem Schaffner hin, ohne sie ihm gleich zu geben, und sagt: „Fünfzehn – ist schon gut.“ Der Schaffner salutiert angesichts der in Aussicht stehenden Überzahlung, reicht dem Fahrgast höflich den Schein, nimmt die zwei Groschen entgegen und legt zum zweiten Mal die Hand an die Mütze.",
+      "en": "In Berlin a passenger pays the fare and nothing more. Maybe it's too much trouble for him to dig one more nickel coin out of the pile of change in his pocket. If, for once, someone is generous enough to add a five-pfennig piece, he holds the twenty pfennigs out to the conductor without handing them over straight away and says: “Fifteen – that's fine.” With the overpayment in sight, the conductor salutes, politely hands the passenger the ticket, takes the two ten-pfennig coins and touches his cap a second time.",
+      "explain_en": "START OF REPORTAGE 2: “Experiment mit einem hohen Trinkgeld” (Experiment with a Big Tip). In 1920s Berlin a conductor (“der Schaffner”) went through the tram selling tickets; a ride cost 15 pfennigs. Berlin coin slang: “ein Sechser” = 5 pfennigs, “ein Groschen” = 10 pfennigs. When Germans tip today they say “Stimmt so!” (keep the change). “der Fahrpreis” = fare; “der Fahrgast” = passenger. “der Schein” here is the ticket (“der Fahrschein”). “splendid” is old for “großzügig” (generous).",
+      "words": [
+        {"de": "zahlen", "en": "to pay"},
+        {"de": "der Fahrpreis, die Fahrpreise", "en": "fare"},
+        {"de": "das Trinkgeld, die Trinkgelder", "en": "tip"},
+        {"de": "der Schaffner, die Schaffner", "en": "conductor"},
+        {"de": "der Fahrgast, die Fahrgäste", "en": "passenger"},
+        {"de": "die Tasche, die Taschen", "en": "pocket; bag"},
+        {"de": "Stimmt so!", "en": "Keep the change!"}
+      ]
+    },
+    {
+      "n": 22,
+      "de": "Die dritte Ehrenerweisung erwartet der munifizente Herr, wenn er sich später zum Aussteigen von der Elektrischen bereitmacht. Drei Respektbezeigungen für fünf Pfennig! Das wären bei einem Trinkgeld von zehn Pfennigen sechs Grüße, bei einem Trinkgeld von ... Mir fiel ein, dass man empirisch feststellen müsse: wie reagiert die Psyche des Straßenbahnkondukteurs auf ein Douceur von ungewöhnlichem Ausmaße, das zum Beispiel mehr als dreimal so groß ist als der Fahrpreis, und siebenmal so groß als das Normaltrinkgeld ist?",
+      "en": "The generous gentleman can expect the third mark of respect later, when he gets ready to get off the tram. Three salutes for five pfennigs! With a tip of ten pfennigs that would make six salutes, with a tip of ... It occurred to me that someone ought to find out by experiment: how does the mind of a tram conductor react to a tip of unusual size – one that is, say, more than three times as big as the fare and seven times as big as the normal tip?",
+      "explain_en": "Kisch sets up his experiment like a scientist and uses fancy foreign words for fun: “munifizent” (normal word: “großzügig”), “das Douceur” (old French word for a tip; normal: “das Trinkgeld”), “empirisch” (by experiment), “der Kondukteur” (Austrian for “der Schaffner”). “die Elektrische” is old for “die Straßenbahn” (tram). “aussteigen” = to get off; “einsteigen” = to get on. “Mir fiel ein, dass ...” = it occurred to me that ... “so groß als” is old; today “so groß wie”.",
+      "words": [
+        {"de": "aussteigen", "en": "to get off (a bus, train)", "note": "ist ausgestiegen"},
+        {"de": "die Straßenbahn, die Straßenbahnen", "en": "tram", "note": "Kisch says 'die Elektrische'"},
+        {"de": "Mir fällt ein ...", "en": "It occurs to me ..."},
+        {"de": "großzügig", "en": "generous"},
+        {"de": "ungewöhnlich", "en": "unusual"},
+        {"de": "dreimal", "en": "three times"}
+      ]
+    },
+    {
+      "n": 23,
+      "de": "Auf meinen diesbezüglichen Entdeckungsreisen ins Land der Berliner Schaffnerseele war festzustellen, dass sich erstens eine einheitliche Reaktion nicht ergeben hat, dass zweitens – aber nein: es seien hier nur schlicht die nackten Ergebnisse der Fahrten aufgezählt und alle Deduktionen dem Leser überlassen. 1. Ich stieg an der Ecke der Potsdamer- und Lützowstraße in die nach dem Westen fahrende „76“.",
+      "en": "On my voyages of discovery into the land of the Berlin conductor's soul, it turned out, firstly, that there was no single typical reaction, secondly – but no: let me simply list the bare results of the rides here and leave all conclusions to the reader. 1. I got on the westbound number 76 at the corner of Potsdamer Straße and Lützowstraße.",
+      "explain_en": "“erstens, zweitens” = firstly, secondly – great for essays. “es seien ... aufgezählt” is subjunctive meaning “let ... be listed” – formal; today “Ich zähle hier nur ... auf.” “jemandem etwas überlassen” = to leave something to someone: “Das überlasse ich dir.” “an der Ecke” = on the corner. Berlin trams and buses are still known by their numbers: “Ich nehme die 76.”",
+      "words": [
+        {"de": "die Reise, die Reisen", "en": "journey, trip"},
+        {"de": "erstens, zweitens", "en": "firstly, secondly"},
+        {"de": "das Ergebnis, die Ergebnisse", "en": "result"},
+        {"de": "die Fahrt, die Fahrten", "en": "ride, journey"},
+        {"de": "einsteigen", "en": "to get on (a bus, train)", "note": "ist eingestiegen"},
+        {"de": "die Ecke, die Ecken", "en": "corner"}
+      ]
+    },
+    {
+      "n": 24,
+      "de": "Dem Schaffner, der eine Brille trug, reichte ich ein Fünfzigpfennigstück, wobei ich ihm mit der nachlässigen Gebärde des noblen Schenkers bedeutete, den Rest zu behalten. Hätte ihm jemand statt des Fahrpreises von fünfzehn Pfennig zwei Groschen mit dieser Handbewegung überreicht – er hätte sie nicht übersehen. Aber für ein Geschenk von fünfunddreißig Pfennigen war sie doch nicht nachdrücklich genug. Er kramte also noch in seiner Ledertasche. Ich musste zu einer sprachlichen Unterstützung meiner Geste Zuflucht nehmen und bemerkte mit Nonchalance: „Es ist gut.“",
+      "en": "I handed the conductor, who wore glasses, a fifty-pfennig coin, signalling to him with the casual gesture of a noble giver that he should keep the change. If someone had handed him two ten-pfennig coins instead of the fifteen-pfennig fare with that wave of the hand, he wouldn't have missed it. But for a gift of thirty-five pfennigs it wasn't clear enough. So he went on rummaging in his leather bag. I had to fall back on words to back up my gesture and said nonchalantly: “That's fine.”",
+      "explain_en": "Test 1: the tip is so big that the conductor doesn't get it. “Hätte ihm jemand ... überreicht, er hätte sie nicht übersehen” = if someone had handed him ..., he wouldn't have missed it – past subjunctive without “wenn”. “den Rest behalten” = to keep the change. “kramen” = to rummage – everyday word: “Sie kramt in ihrer Tasche.” “die Brille” (glasses) is singular in German: “Ich trage eine Brille.”",
+      "words": [
+        {"de": "die Brille, die Brillen", "en": "glasses", "note": "singular in German: eine Brille"},
+        {"de": "reichen", "en": "to hand, to pass"},
+        {"de": "behalten", "en": "to keep"},
+        {"de": "übersehen", "en": "to overlook, to miss"},
+        {"de": "das Geschenk, die Geschenke", "en": "present, gift"},
+        {"de": "kramen", "en": "to rummage"}
+      ]
+    },
+    {
+      "n": 25,
+      "de": "Der Mann mit der Brille stutzte kaum einen Augenblick. Dann dankte er. Wie dankte er? Er dankte ganz gewöhnlich, er dankte kaum für fünf Pfennige! Anscheinend vermutete er, einen zerstreuten Menschen vor sich zu haben... Er ging während der Fahrt noch oft an mir vorbei, aber die Brillengläser würdigten mich keines Blickes. Als ich an der Gedächtniskirche ausstieg, gab er das Abfahrtssignal, ehe ich das Trittbrett verlassen hatte.",
+      "en": "The man with the glasses hesitated for barely a moment. Then he said thank you. How did he say thank you? Quite ordinarily – his thanks were hardly worth five pfennigs! Apparently he assumed he was dealing with an absent-minded person... During the ride he walked past me many more times, but his glasses didn't give me a single glance. When I got off at the Memorial Church, he gave the signal to move off before I had even stepped off the running board.",
+      "explain_en": "“stutzen” = to pause in surprise. “danken” = to say thank you; “sich bedanken” is more common today: “Er bedankte sich.” “anscheinend” = apparently. “zerstreut” = absent-minded, scatterbrained. “jemanden keines Blickes würdigen” = to not even look at someone (still used, a bit formal). “ehe” is formal for “bevor” (before). The Gedächtniskirche is the famous church near Kurfürstendamm – its bombed tower is still a Berlin landmark.",
+      "words": [
+        {"de": "sich bedanken", "en": "to say thank you"},
+        {"de": "anscheinend", "en": "apparently"},
+        {"de": "vermuten", "en": "to assume, to suspect"},
+        {"de": "zerstreut", "en": "absent-minded"},
+        {"de": "vorbeigehen an", "en": "to walk past"},
+        {"de": "bevor", "en": "before", "note": "Kisch uses formal 'ehe'"}
+      ]
+    },
+    {
+      "n": 26,
+      "de": "2. Von der Uhlandstraße fuhr ich auf den Belle-Alliance-Platz. Auf der hinteren Plattform blieb ich stehen. Ich zahlte mit einem Markstück. Der Schaffner tropfte in meine ausgestreckte Hand fünf Groschen und wollte mir rasch weitere drei Zehnpfennigstücke hinzählen, um erst dann, bei dem letzten Sechser, die aus dem Unterricht der Physik und vom Zahlkellner her bekannte gleichmäßig verzögerte Bewegung eintreten zu lassen. Ich begnügte mich, nach Erhalt der fünfzig Pfennig die Hand zur Faust zu ballen und in die Tasche zu stecken.",
+      "en": "2. I rode from Uhlandstraße to Belle-Alliance-Platz. I stayed standing on the rear platform. I paid with a one-mark coin. The conductor dripped five ten-pfennig coins into my outstretched hand and was about to count out three more ten-pfennig coins quickly, so that only at the last five-pfennig piece would he switch to that uniformly slowed-down movement familiar from physics lessons and from waiters settling the bill. After receiving the fifty pfennigs, I simply closed my hand into a fist and put it in my pocket.",
+      "explain_en": "Test 2: Kisch lets the conductor start giving change and simply stops taking it. 1 Mark = 100 pfennigs, so his change should be 85 pfennigs. The joke: conductors and waiters hand over the last coin very slowly, hoping you'll say “keep it” – like “uniformly decelerated motion” in physics. “die Hand zur Faust ballen” = to make a fist. “sich mit etwas begnügen” is formal for “sich mit etwas zufriedengeben” (to settle for something). “rasch” = quick (today more often “schnell”).",
+      "words": [
+        {"de": "hinten / hintere", "en": "at the back / rear"},
+        {"de": "stehen bleiben", "en": "to stay standing; to stop"},
+        {"de": "die Mark", "en": "mark (German currency before the euro)"},
+        {"de": "die Physik", "en": "physics"},
+        {"de": "die Faust, die Fäuste", "en": "fist"},
+        {"de": "stecken", "en": "to put, to stick"}
+      ]
+    },
+    {
+      "n": 27,
+      "de": "Der Schaffner wartete eine Sekunde. Als jedoch meine Hand nicht hervorkam, sagte er (mit etwas mürrischem Unterton): „Sie haben noch zu kriegen.“ „Es ist gut.“ Aber er war beharrlich: „Sie bekommen noch fünfunddreißig Pfennig.“ Ich nickte und winkte ab. Da trat er einen Schritt zurück, straffte seinen Körper in Achtungsstellung, legte die linke Hand an seine Hosennaht und die rechte an seine Mütze. Dann rief er mit lauter Stimme (als ob er mindestens die Haltestelle „Potsdamer Platz“ auszurufen hätte): „Danke sehr!“",
+      "en": "The conductor waited a second. But when my hand didn't come out again, he said (with a slightly grumpy undertone): “You've still got change to come.” “That's fine.” But he insisted: “You're still owed thirty-five pfennigs.” I nodded and waved it away. At that he took a step back, drew himself up to attention, put his left hand to the seam of his trousers and his right to his cap. Then he called out in a loud voice (as if he had at least the Potsdamer Platz stop to announce): “Thank you very much!”",
+      "explain_en": "Now the conductor understands – and reacts like a soldier saluting an officer (“Achtungsstellung” = standing to attention). “Sie haben noch zu kriegen” = you've still got something to come; “kriegen” is colloquial for “bekommen” and totally normal today. “mürrisch” = grumpy. “beharrlich” = persistent. “abwinken” = to wave something away. “die Haltestelle” = stop (bus/tram) – essential word. “als ob” + subjunctive = as if.",
+      "words": [
+        {"de": "kriegen", "en": "to get", "note": "colloquial for 'bekommen'"},
+        {"de": "mürrisch", "en": "grumpy"},
+        {"de": "nicken", "en": "to nod"},
+        {"de": "abwinken", "en": "to wave away"},
+        {"de": "die Haltestelle, die Haltestellen", "en": "stop (bus, tram)"},
+        {"de": "als ob", "en": "as if"},
+        {"de": "Danke sehr!", "en": "Thank you very much!"}
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Die Mitfahrenden wurden auf mich aufmerksam. Ich aber machte, ohne eine Miene zu verziehen, ein unsagbar dummes Gesicht, um nicht zu verraten, dass mich diese Ovation berühre. Von diesem Momente an war für den Schaffner nur ich auf der Welt. Nie ging er an mir vorbei, ohne in seinen Blicken Devotion, Dankbarkeit und Demut auszudrücken, und als ich mir eine Zigarette anstecken wollte, rannte er aus dem Wageninnern heraus, um mir Feuer zu geben. Am Belle-Alliance-Platz half er mir aus dem Wagen, wie einem Krüppel.",
+      "en": "The other passengers noticed me. But without moving a muscle, I put on an unspeakably stupid expression so as not to give away that this ovation affected me. From that moment on, I was the only person in the world as far as the conductor was concerned. He never walked past me without devotion, gratitude and humility in his eyes, and when I wanted to light a cigarette, he came running out from inside the car to give me a light. At Belle-Alliance-Platz he helped me off the tram as if I were a cripple.",
+      "explain_en": "The big tip makes the conductor almost worship Kisch. “auf jemanden aufmerksam werden” = to notice someone. “ohne eine Miene zu verziehen” = with a straight face – still used. “ohne ... zu” = without ...-ing: “Er ging, ohne Tschüss zu sagen.” “Feuer geben” = to give someone a light. Warning: “der Krüppel” (cripple) is offensive today – say “ein Mensch mit Behinderung”.",
+      "words": [
+        {"de": "aufmerksam werden auf", "en": "to notice"},
+        {"de": "dumm", "en": "stupid"},
+        {"de": "verraten", "en": "to give away, to reveal"},
+        {"de": "die Dankbarkeit", "en": "gratitude"},
+        {"de": "rennen", "en": "to run", "note": "rannte, ist gerannt"},
+        {"de": "helfen", "en": "to help", "note": "+ Dativ: Er half mir."}
+      ]
+    },
+    {
+      "n": 29,
+      "de": "3. Ob ich im E-Wagen der Aboag eine so auszeichnende Behandlung erfahren werde, wusste ich nicht: zu viele Kavaliere fahren kurfürstendammwärts. Daher entschloss ich mich, die Versuchssumme zu erhöhen. Unter den Linden Ecke Friedrichstraße stieg ich ein. Im Fond des Autobus nahm ich Platz, dos-à-dos mit dem Chauffeur. Neben mir saß ein hübsches Mädchen mit Pagenfrisur und ebensolchen Beinen. Bei der Kurve am Brandenburger Tor stieß ich sie ein wenig an und entschuldigte mich. „Bitte“, sagte sie sehr nett, „nichts geschehen.“",
+      "en": "3. I didn't know whether I'd get such special treatment on the E bus of the Aboag: too many gentlemen out to impress ride towards the Kurfürstendamm. So I decided to raise the test amount. I got on at Unter den Linden, corner of Friedrichstraße. I took a seat at the back of the bus, back to back with the driver. Next to me sat a pretty girl with a bob and legs to match. At the bend by the Brandenburg Gate I bumped into her slightly and apologised. “That's all right,” she said very nicely, “no harm done.”",
+      "explain_en": "Test 3: now on a double-decker bus of the Aboag (Berlin's bus company then), on the smart Kurfürstendamm route, where rich men tip to impress. “ob” = whether: “Ich weiß nicht, ob er kommt.” “sich entschließen” = to decide (today more often “sich entscheiden”). “erhöhen” = to raise, to increase. “der Chauffeur” is old for “der Fahrer/Busfahrer”. “Bitte, nichts geschehen” – today people say “Kein Problem!” or “Nichts passiert!”. “sich entschuldigen” = to apologise.",
+      "words": [
+        {"de": "sich entscheiden", "en": "to decide", "note": "Kisch says 'sich entschließen'"},
+        {"de": "erhöhen", "en": "to raise, to increase"},
+        {"de": "neben", "en": "next to"},
+        {"de": "das Mädchen, die Mädchen", "en": "girl", "note": "neuter: das Mädchen"},
+        {"de": "sich entschuldigen", "en": "to apologise"},
+        {"de": "Nichts passiert!", "en": "No harm done!"}
+      ]
+    },
+    {
+      "n": 30,
+      "de": "Anknüpfungsmöglichkeit war also gegeben. Im selben Augenblick kam der Schaffner, ich gab ihm einen Einmarkschein und ließ mir – trotzdem er mich laut darauf aufmerksam machte, dass es ja eine Mark gewesen – nichts zurückgeben. Was geschah? Er dankte zwar, allein mit einem sarkastischen, verständnisinnigen Lächeln, das auch das Mädel an meiner Seite streifte, als ob sein Dank mehr diesem als mir gelte. Die Leute gegenüber lächelten gleichfalls malitiös, und nur meine Nachbarin blickte halb unwillig, halb verächtlich vor sich hin.",
+      "en": "So there was a chance to start a conversation. At that very moment the conductor came; I gave him a one-mark note and took no change – even though he pointed out loudly that it had been a whole mark. What happened? He did say thank you, but with a sarcastic, knowing smile that also brushed over the girl at my side, as if his thanks were meant more for her than for me. The people opposite smiled maliciously too, and only the girl next to me stared ahead, half annoyed, half contemptuous.",
+      "explain_en": "The plan backfires: everybody thinks he's showing off for the girl. “trotzdem” is used here as a conjunction (“even though”) – that's old; today use “obwohl”. “jemanden auf etwas aufmerksam machen” = to point something out to someone. “zwar ..., allein ...” = admittedly ..., but (old “allein” = “aber”). “das Mädel” is a southern/old word for “das Mädchen”. “gegenüber” = opposite: “Sie wohnt gegenüber.”",
+      "words": [
+        {"de": "der Geldschein, die Geldscheine", "en": "banknote"},
+        {"de": "zurückgeben", "en": "to give back"},
+        {"de": "obwohl", "en": "although, even though", "note": "Kisch uses 'trotzdem' this way – old-fashioned"},
+        {"de": "das Lächeln", "en": "smile"},
+        {"de": "gegenüber", "en": "opposite"},
+        {"de": "die Nachbarin, die Nachbarinnen", "en": "neighbour (female)"}
+      ]
+    },
+    {
+      "n": 31,
+      "de": "In allen war derselbe Gedanke: „Der Esel glaubt der Dame zu imponieren, wenn er achtzig Pfennig Trinkgeld gibt.“ Und die Kleine dachte noch dazu: „Wenn man nicht anders imponieren kann!“ Und außerdem freute sie sich im Voraus darauf, dass sie abends ihrem Gustav von dem dummen Kerl erzählen wird, der auf sie Eindruck zu machen glaubte, indem er im Autobus achtzig Pfennig Trinkgeld gab. Und der Gustav wird sie noch heißer lieben, weil er sieht, zu welchen Mitteln die Herren greifen, um sie zu gewinnen.",
+      "en": "Everyone had the same thought: “That idiot thinks he'll impress the lady by giving an eighty-pfennig tip.” And the girl also thought: “If that's the only way he can impress!” And on top of that she was already looking forward to telling her Gustav that evening about the stupid guy who thought he could make an impression on her by giving an eighty-pfennig tip on the bus. And Gustav will love her even more passionately, because he'll see what lengths gentlemen go to in order to win her.",
+      "explain_en": "Kisch imagines the story going on in everyone else's head – and it gets funnier and funnier. “der Esel” (donkey) = idiot – still used as an insult. “jemandem imponieren” = to impress someone; also “Eindruck machen auf”. “indem” = by (doing): “indem er Trinkgeld gab” = by giving a tip. “im Voraus” = in advance. Notice the switch to the future (“wird erzählen, wird lieben”) because he's imagining what will happen.",
+      "words": [
+        {"de": "der Gedanke, die Gedanken", "en": "thought"},
+        {"de": "der Esel, die Esel", "en": "donkey; idiot"},
+        {"de": "imponieren", "en": "to impress", "note": "+ Dativ"},
+        {"de": "erzählen", "en": "to tell"},
+        {"de": "der Kerl, die Kerle", "en": "guy, bloke"},
+        {"de": "Eindruck machen", "en": "to make an impression"},
+        {"de": "im Voraus", "en": "in advance"}
+      ]
+    },
+    {
+      "n": 32,
+      "de": "Mich wird er verachten und sich vor seinen Kameraden brüsten, ihnen die Geschichte von dem Fatzken im Omnibus zum Besten gebend. Die werden den Spaß weiterverbreiten, und morgen kann ich nicht mehr auf die Straße gehen, denn sonst zeigt jemand mit den Fingern auf mich und ruft: „Das ist der Fatzke aus dem Aboag.“ Fürwahr, ich habe mich um achtzig Pfennig unsterblich lächerlich gemacht! Eigentlich für fünfundachtzig Pfennig – denn ich schämte mich so, dass ich sofort ausstieg. Hinter meinem Rücken, das fühlte ich, verstärkte sich das Lächeln zu einem Lachen.",
+      "en": "He'll despise me and brag to his mates, entertaining them with the story of the poser on the bus. They'll spread the joke, and tomorrow I won't be able to go out in the street, because someone will point at me and shout: “That's the poser from the Aboag bus.” Truly, for eighty pfennigs I've made a fool of myself for all eternity! Actually for eighty-five pfennigs – because I was so embarrassed that I got off straight away. Behind my back, I could feel it, the smiles grew into laughter.",
+      "explain_en": "“sich brüsten” = to brag (formal); today “angeben”. “der Fatzke” is Berlin slang for a vain, stuck-up man. “etwas zum Besten geben” = to tell a story or joke to entertain people. “mit dem Finger auf jemanden zeigen” = to point at someone. “sich lächerlich machen” = to make a fool of yourself – very useful. “fürwahr” is very old for “wirklich”. “sich schämen” = to be embarrassed or ashamed.",
+      "words": [
+        {"de": "angeben", "en": "to show off, to brag", "note": "Kisch uses 'sich brüsten'"},
+        {"de": "die Geschichte, die Geschichten", "en": "story; history"},
+        {"de": "zeigen auf", "en": "to point at"},
+        {"de": "sich lächerlich machen", "en": "to make a fool of oneself"},
+        {"de": "sich schämen", "en": "to be embarrassed, to be ashamed"},
+        {"de": "sofort", "en": "immediately, straight away"},
+        {"de": "lachen", "en": "to laugh"}
+      ]
+    },
+    {
+      "n": 33,
+      "de": "4. Um halb sieben Uhr früh fuhr ich aus der Seestraße im Norden, aus der Gegend, wo die Arbeiterhäuser stehen, der Friedrichstadt zu. Greise, Männer, Burschen in blauen Blusen, nur durch mehrfach um den Hals geschlungene Flanellschals vor der Kälte geschützt, Frauen und Mädchen mit Kopftüchern saßen mit mir in der Tram. Die Gesichter waren verschlafen, Unwillen lag auf ihnen, der Unwillen, aus dem wenigstens animalisch erwärmten Bett in den Frost der Straße, aus der Ruhe in harte Fron zu müssen.",
+      "en": "4. At half past six in the morning I rode from Seestraße in the north, from the area where the workers' housing is, towards Friedrichstadt. Old men, men, young lads in blue work smocks, protected from the cold only by flannel scarves wound several times around their necks, women and girls in headscarves sat with me in the tram. Their faces were sleepy and resentful – resentful at having to leave a bed that was at least warmed by their own bodies for the frost of the street, rest for hard labour.",
+      "explain_en": "Test 4 is different: an early tram full of factory workers, and the joke stops being funny. “um halb sieben” = at 6:30 – careful: German “halb sieben” means half an hour BEFORE seven! “die Gegend” = area, neighbourhood. “der Greis” is formal for an old man; today “ein alter Mann”. “verschlafen” = sleepy (also: to oversleep). “die Fron” is a very old word for forced labour – today “harte Arbeit” or “Schufterei”.",
+      "words": [
+        {"de": "halb sieben", "en": "half past six (6:30)"},
+        {"de": "früh", "en": "early"},
+        {"de": "die Gegend, die Gegenden", "en": "area, neighbourhood"},
+        {"de": "der Schal, die Schals", "en": "scarf"},
+        {"de": "das Kopftuch, die Kopftücher", "en": "headscarf"},
+        {"de": "verschlafen", "en": "sleepy; to oversleep"},
+        {"de": "die Kälte", "en": "cold"}
+      ]
+    },
+    {
+      "n": 34,
+      "de": "Der Wagen war vollgepfercht, alle Fahrgäste kannten einander, sie waren aus derselben Straße, manche vielleicht aus demselben Haus, und allmorgens fahren sie gemeinsam in die Fabriken. Die Blicke, die mich streifen, gelten einem Fremden, der hier nichts zu suchen hat, einem Eindringling. Und nun kommt die Szene mit meinem Fünfzigpfennigstück, von allen beachtet: der Schaffner, der vielleicht auf dieser Strecke zu dieser Stunde noch nie einen Pfennig Trinkgeld erhalten hat, dankt mir vernehmlich, und ich zweifle nicht daran, dass er mich mit seinem Leben verteidigen würde, wollte man mich als mehrfachen Raubmörder festnehmen.",
+      "en": "The car was packed; all the passengers knew each other, they were from the same street, some maybe from the same building, and every morning they ride to the factories together. The looks that brush over me are meant for a stranger who has no business being here, an intruder. And now comes the scene with my fifty-pfennig coin, watched by everyone: the conductor, who has perhaps never received a single pfennig as a tip on this route at this hour, thanks me loudly, and I have no doubt that he would defend me with his life if anyone tried to arrest me as a robber and multiple murderer.",
+      "explain_en": "“einander” = each other; in speech: “Sie kannten sich alle.” “derselbe / dieselbe / dasselbe” = the same: “aus derselben Straße”. “Du hast hier nichts zu suchen” = you have no business here – common, and a bit rude. “zweifeln an” = to doubt. “wollte man mich festnehmen” = if someone wanted to arrest me (an if-clause without “wenn”). “festnehmen” = to arrest – you hear it in the news all the time.",
+      "words": [
+        {"de": "vollgepfercht", "en": "crammed full, packed"},
+        {"de": "die Fabrik, die Fabriken", "en": "factory"},
+        {"de": "der/die Fremde, die Fremden", "en": "stranger"},
+        {"de": "zweifeln an", "en": "to doubt"},
+        {"de": "verteidigen", "en": "to defend"},
+        {"de": "festnehmen", "en": "to arrest"}
+      ]
+    },
+    {
+      "n": 35,
+      "de": "Aber die Menschen im Wagen flüstern und tuscheln mit Seitenblicken auf mich, vielleicht fassen sie mein Experiment als Verhöhnung auf, vielleicht beneiden sie mich, weil sie glauben, dass ich, nicht ganz bei Besinnung, nach einer tollen Nacht eben heimkehre, während sie in die Werkstätte fahren, vielleicht hassen sie mich als einen Reichen, dem das Geld nichts bedeutet, während sie es mühsam erwerben müssen. Und mein Scherz kommt mir hier selber besonders deplatziert und töricht vor.",
+      "en": "But the people in the tram whisper and mutter, glancing sideways at me; maybe they see my experiment as mockery, maybe they envy me because they think I'm just coming home, not quite in my right mind, after a wild night, while they're going to the workshop; maybe they hate me as a rich man to whom money means nothing, while they have to earn it the hard way. And here even I find my joke particularly out of place and foolish.",
+      "explain_en": "The reporter ends by criticising himself: a big tip isn't funny in front of poor workers – Kisch was a socialist who cared about social injustice. “flüstern” = to whisper; “tuscheln” = to whisper secretly, to gossip. “nicht ganz bei Besinnung” – today “nicht ganz bei sich”. “eine tolle Nacht” here means a wild night (“toll” used to mean crazy; today it mostly means great). “Das kommt mir ... vor” = that seems ... to me. “heimkehren” is formal for “nach Hause kommen”. “deplatziert” = out of place.",
+      "words": [
+        {"de": "flüstern", "en": "to whisper"},
+        {"de": "hassen", "en": "to hate"},
+        {"de": "reich", "en": "rich"},
+        {"de": "verdienen", "en": "to earn", "note": "Kisch uses 'erwerben'"},
+        {"de": "der Scherz, die Scherze", "en": "joke"},
+        {"de": "vorkommen", "en": "to seem", "note": "Das kommt mir komisch vor. = That seems strange to me."},
+        {"de": "toll", "en": "great; (old) crazy, wild"}
+      ]
+    }
+  ]
+}
