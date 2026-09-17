@@ -5,7 +5,7 @@ import argparse
 import random
 import time
 from dataclasses import dataclass
-from datetime import date, datetime
+from datetime import date
 
 from rich.panel import Panel
 from rich.table import Table
@@ -17,6 +17,7 @@ from .config import load_settings
 from .content import Content, load_content
 from .mascot import banner
 from .profile import Profile
+from .report import print_translation, run_report
 from .reading import choose_book, run_reading
 from .speaking import speak_and_compare
 from .ui import QuitSession, console, icon
@@ -149,11 +150,12 @@ def show_progress(ctx: Context) -> None:
     console.print(books)
 
     days = Table(title="Last 7 practice days", title_justify="left")
-    for col in ("Date", "Words", "Correct", "Almost", "New", "Paragraphs"):
+    for col in ("Date", "Words", "Correct", "Almost", "New", "Paragraphs", "Minutes"):
         days.add_column(col)
     for d, v in sorted(ctx.profile.data["days"].items())[-7:]:
         days.add_row(date.fromisoformat(d).strftime("%a %d %b"), str(v.get("words", 0)), str(v.get("right", 0)),
-                     str(v.get("almost", 0)), str(v.get("new", 0)), str(v.get("units", 0)))
+                     str(v.get("almost", 0)), str(v.get("new", 0)), str(v.get("units", 0)),
+                     str(round(v["seconds"] / 60)) if "seconds" in v else "–")
     console.print(days)
     ui.keys({"": "back"})
 
@@ -166,16 +168,7 @@ def show_journal(ctx: Context) -> None:
     if not entries:
         console.print("[hint]No translations yet.[/]")
     for e in entries:
-        book = books.get(e["book"])
-        to_english = e["task"] == "de2en"
-        when = datetime.fromisoformat(e["date"]).strftime("%a %d %b %H:%M")
-        grade = "skipped" if e.get("skipped") else e.get("self_grade", "")
-        console.print(f"\n[bold]{when}[/]  {ui.escape(book.short_title if book else e['book'])} · part {e['unit']} · "
-                      f"{'German → English' if to_english else 'English → German'} · [note]{grade}[/]")
-        console.print(Text("  You:       " + (e.get("answer") or "(nothing written)"), style="magenta"))
-        unit = next((u for u in book.units if u.kind == "text" and u.part == e["unit"]), None) if book else None
-        if unit:
-            console.print(Text("  Reference: " + (unit.en if to_english else unit.de), style="hint"))
+        print_translation(e, books)
     console.print()
     ui.keys({"": "back"})
 
@@ -225,6 +218,7 @@ def menu(ctx: Context) -> None:
             message = ""
         choice = ui.ask("Choose:").lower()  # q / Ctrl+C here leaves the app
         started = time.monotonic()
+        ui.start_clock()
         ctx.step = ""
         try:
             if choice == "1":
@@ -254,6 +248,9 @@ def menu(ctx: Context) -> None:
                 message = f"[warn]'{ui.escape(choice)}' isn't an option. Pick 1–7, or q to quit.[/]"
         except QuitSession:
             message = "[hint]Stopped. Your progress is saved.[/]"
+        finally:
+            if choice in ("1", "2", "3"):
+                ctx.profile.add_time(ctx.today, ui.clock_seconds())
         ctx.profile.save()
 
 
@@ -261,12 +258,15 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="gtutor", description="Offline German tutor")
     parser.add_argument("--profile", help="student name (skips the chooser)")
     parser.add_argument("--no-audio", action="store_true", help="run without speech or microphone")
-    parser.add_argument("command", nargs="?", choices=["update"],
-                        help="update: download the latest app, words and books")
+    parser.add_argument("command", nargs="?", choices=["update", "report"],
+                        help="update: download the latest app, words and books; "
+                             "report: every kid's progress on one screen (for parents)")
     args = parser.parse_args(argv)
     if args.command == "update":
         from .update import run_update
         return run_update()
+    if args.command == "report":
+        return run_report(args.profile)
 
     settings = load_settings()
     content = load_content()

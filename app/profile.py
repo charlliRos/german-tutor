@@ -85,6 +85,12 @@ class Profile:
         for key, amount in amounts.items():
             day[key] = day.get(key, 0) + amount
 
+    def add_time(self, today: date, seconds: int) -> None:
+        """Practice time, only on days something was practised (opening a lesson and quitting adds nothing)."""
+        day = self.data["days"].get(today.isoformat())
+        if day is not None and seconds > 0:
+            day["seconds"] = day.get("seconds", 0) + seconds
+
     def practice_days(self, before: date) -> int:
         """Days with a finished warm-up before the given day (drives the warm-up size)."""
         return sum(1 for d, c in self.data["days"].items() if d < before.isoformat() and c.get("warmups", 0))
@@ -104,9 +110,9 @@ class Profile:
         with self.journal_path.open("a", encoding="utf-8") as f:
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
-    def read_journal(self, limit: int = 10) -> list[dict]:
+    def read_journal(self, limit: int | None = 10) -> list[dict]:
         if not self.journal_path.exists():
             return []
         with self.journal_path.open(encoding="utf-8") as f:
             entries = [json.loads(line) for line in f if line.strip()]
-        return entries[-limit:]
+        return entries if limit is None else entries[-limit:]

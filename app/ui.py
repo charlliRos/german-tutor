@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import os
 import sys
+import time
 
 from rich import box
 from rich.console import Console
@@ -36,7 +37,7 @@ FANCY = bool(os.environ.get("WT_SESSION") or os.environ.get("TERM_PROGRAM")) or 
     os.name != "nt" and os.environ.get("TERM", "") not in ("linux", "dumb", ""))
 _ICONS = {"fire": ("🔥", "*"), "mic": ("🎤", "(mic)"), "ok": ("✔", "OK"), "almost": ("≈", "~"),
           "bad": ("✘", "X"), "play": ("▶", ">"), "rec": ("●", "(rec)"), "party": ("🎉", "!"),
-          "book": ("📖", "*"), "done": ("✓", "done")}
+          "book": ("📖", "*"), "done": ("✓", "done"), "day": ("■", "#"), "no_day": ("·", ".")}
 
 
 def icon(name: str) -> str:
@@ -94,12 +95,36 @@ def key_pressed() -> bool:
         return False
 
 
+# Practice time: the time between answers, with one long pause counted as at most IDLE_LIMIT
+# (so walking away from the screen doesn't add an hour).
+IDLE_LIMIT = 5 * 60
+_clock = {"since": time.monotonic(), "seconds": 0.0}
+
+
+def start_clock() -> None:
+    _clock.update(since=time.monotonic(), seconds=0.0)
+
+
+def _tick() -> None:
+    now = time.monotonic()
+    _clock["seconds"] += min(now - _clock["since"], IDLE_LIMIT)
+    _clock["since"] = now
+
+
+def clock_seconds() -> int:
+    """Active seconds since start_clock()."""
+    _tick()
+    return round(_clock["seconds"])
+
+
 def _read(prompt: str) -> str:
     try:
         return console.input(f"[bold]{prompt}[/] " if prompt else "")
     except (EOFError, KeyboardInterrupt):
         console.print()
         raise QuitSession from None
+    finally:
+        _tick()
 
 
 def ask(prompt: str) -> str:

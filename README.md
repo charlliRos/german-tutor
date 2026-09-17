@@ -49,6 +49,7 @@ gtutor            # in a new terminal; or ./run.sh
 gtutor --profile Anna    # skip the name chooser
 gtutor --no-audio        # no speech or microphone
 gtutor update            # get the latest words, books and fixes
+gtutor report            # every kid's progress on one screen (for parents)
 ```
 
 ## Progress
@@ -56,6 +57,15 @@ gtutor update            # get the latest words, books and fixes
 Each kid has a profile. Progress is saved automatically after every word and every paragraph, so quitting is safe: type `q` (or press Ctrl+C) to leave an activity, and `q` on the menu to close the app:
 - `data/profiles/<name>.json`: word boxes, reading position, daily history
 - `data/profiles/<name>_journal.jsonl`: every translation they typed, with their self-grade
+
+### Checking progress (for the parent)
+
+```
+gtutor report                 # all kids
+gtutor report --profile Anna  # one kid
+```
+
+For each kid it shows when they last practised, practice days and time in the last 7 and 30 days, a 4-week calendar, words learned, reading position, their 10 most-missed words, and their last 5 translations next to the reference (with the grade they gave themselves). Practice time counts the time between answers; one long pause counts as at most 5 minutes. The report only reads the profiles.
 
 `data/` is not uploaded to GitHub. To move a kid to another computer, copy `data/profiles/` across.
 
