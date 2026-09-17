@@ -6,7 +6,7 @@
   "year": 1915,
   "level": "B1-B2",
   "source": "https://www.gutenberg.org/ebooks/22367 (Project Gutenberg, from the Kurt Wolff Verlag edition, Leipzig 1917)",
-  "orthography": "modernised to current German spelling (dass, muss, ...) and current comma rules around quotations; wording unchanged except two obvious print errors (den→der, missing comma)",
+  "orthography": "modernised to current German spelling (dass, muss, ein für alle Mal, umso, ...) and current comma rules around quotations; wording unchanged except three obvious print errors (den→der, missing comma, 'um, Da' → 'um. Da')",
   "intro_en": "Franz Kafka (1883–1924) was a German-speaking writer from Prague who worked in an insurance office by day and wrote at night. In 'The Metamorphosis', the travelling salesman Gregor Samsa wakes up one morning to find he has turned into a giant insect – and his first worry is that he'll miss his train to work. It is one of the most famous stories ever written, and its calm, precise sentences are great for learning how German builds long sentences.",
   "units": [
     {
@@ -1086,6 +1086,1554 @@
           "de": "sich trauen",
           "en": "to dare",
           "note": "Kafka: wagen (more formal)"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "de": "»Gregor«, sagte nun der Vater aus dem Nebenzimmer links, »der Herr Prokurist ist gekommen und erkundigt sich, warum du nicht mit dem Frühzug weggefahren bist. Wir wissen nicht, was wir ihm sagen sollen. Übrigens will er auch mit dir persönlich sprechen. Also bitte mach die Tür auf. Er wird die Unordnung im Zimmer zu entschuldigen schon die Güte haben.« »Guten Morgen, Herr Samsa«, rief der Prokurist freundlich dazwischen.",
+      "en": "'Gregor,' his father now said from the room on the left, 'the chief clerk has come and is asking why you didn't leave on the early train. We don't know what to tell him. Besides, he wants to speak to you in person. So please open the door. I'm sure he'll be kind enough to excuse the mess in your room.' 'Good morning, Mr Samsa,' the chief clerk called out in a friendly voice, interrupting.",
+      "explain_en": "Now the whole family is at Gregor's doors. 'sich erkundigen, warum ...' = to ask why ... 'der Frühzug' = the early train. 'Er wird ... schon die Güte haben' is a very polite, old-fashioned phrase (he will surely be so kind); today you'd say 'Er wird das sicher entschuldigen.' 'dazwischenrufen' = to call out while someone else is talking.",
+      "words": [
+        {
+          "de": "sich erkundigen",
+          "en": "to enquire, to ask about"
+        },
+        {
+          "de": "der Zug, die Züge",
+          "en": "train"
+        },
+        {
+          "de": "persönlich",
+          "en": "personally, in person"
+        },
+        {
+          "de": "die Unordnung",
+          "en": "mess, untidiness"
+        },
+        {
+          "de": "entschuldigen",
+          "en": "to excuse"
+        },
+        {
+          "de": "freundlich",
+          "en": "friendly"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "de": "»Ihm ist nicht wohl«, sagte die Mutter zum Prokuristen, während der Vater noch an der Tür redete, »ihm ist nicht wohl, glauben Sie mir, Herr Prokurist. Wie würde denn Gregor sonst einen Zug versäumen! Der Junge hat ja nichts im Kopf als das Geschäft. Ich ärgere mich schon fast, dass er abends niemals ausgeht; jetzt war er doch acht Tage in der Stadt, aber jeden Abend war er zu Hause. Da sitzt er bei uns am Tisch und liest still die Zeitung oder studiert Fahrpläne.",
+      "en": "'He isn't well,' his mother said to the chief clerk while his father was still talking at the door, 'he isn't well, believe me, sir. Why else would Gregor miss a train! The boy has nothing in his head but the business. It almost annoys me that he never goes out in the evening; he's just been in town for eight days, but he was at home every single evening. He sits with us at the table and quietly reads the newspaper or studies train timetables.",
+      "explain_en": "The mother defends Gregor – and accidentally shows how empty his life is. 'Ihm ist nicht wohl' = he isn't feeling well (dative, like 'mir ist kalt'). 'versäumen' is formal; today 'verpassen' (to miss). 'nichts im Kopf haben als ...' = to think of nothing but ... 'sich ärgern, dass ...' = to be annoyed that ... Addressing someone by job title ('Herr Prokurist') was very polite; here it's translated as 'sir'.",
+      "words": [
+        {
+          "de": "der Prokurist, die Prokuristen",
+          "en": "chief clerk, senior manager"
+        },
+        {
+          "de": "verpassen",
+          "en": "to miss",
+          "note": "Kafka: versäumen (formal)"
+        },
+        {
+          "de": "sich ärgern",
+          "en": "to be annoyed"
+        },
+        {
+          "de": "ausgehen",
+          "en": "to go out"
+        },
+        {
+          "de": "die Zeitung, die Zeitungen",
+          "en": "newspaper"
+        },
+        {
+          "de": "der Fahrplan, die Fahrpläne",
+          "en": "timetable"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "type": "summary",
+      "covers": "Part I, from the mother's praise of Gregor to his struggle to stand up",
+      "en": "The mother tells the chief clerk about a little picture frame Gregor carved as a hobby. Gregor says 'I'm coming' but doesn't move. When his father asks whether the chief clerk may come in, Gregor simply says 'No' – there is an embarrassed silence, and his sister starts to sob. The chief clerk loses patience: Gregor is neglecting his duties, the boss suspects something to do with money Gregor recently collected, his work has been poor, and his job is not safe. In a panic Gregor calls back that he only felt a little dizzy and will catch the eight o'clock train. Meanwhile he pushes himself up against the wardrobe and holds on to the back of a chair."
+    },
+    {
+      "n": 34,
+      "de": "»Haben Sie auch nur ein Wort verstanden?« fragte der Prokurist die Eltern, »er macht sich doch wohl nicht einen Narren aus uns?« »Um Gottes willen«, rief die Mutter schon unter Weinen, »er ist vielleicht schwer krank, und wir quälen ihn. Grete! Grete!« schrie sie dann. »Mutter?« rief die Schwester von der anderen Seite. Sie verständigten sich durch Gregors Zimmer. »Du musst augenblicklich zum Arzt. Gregor ist krank. Rasch um den Arzt. Hast du Gregor jetzt reden hören?« »Das war eine Tierstimme«, sagte der Prokurist, auffallend leise gegenüber dem Schreien der Mutter.",
+      "en": "'Did you understand a single word?' the chief clerk asked the parents. 'He isn't making fools of us, is he?' 'For God's sake,' cried the mother, already in tears, 'perhaps he's seriously ill and we're tormenting him. Grete! Grete!' she then shouted. 'Mother?' called the sister from the other side. They were talking to each other through Gregor's room. 'You must go to the doctor at once. Gregor is ill. Quick, fetch the doctor. Did you hear Gregor speaking just now?' 'That was an animal's voice,' said the chief clerk, strikingly quietly compared with the mother's screaming.",
+      "explain_en": "Gregor has just made a long speech – but nobody could understand it. 'sich einen Narren aus jemandem machen' is old; today 'jemanden zum Narren halten' or 'sich über jemanden lustig machen' (to make fun of someone). 'Um Gottes willen' = for God's sake. 'Rasch um den Arzt' is short for 'Lauf rasch und hol den Arzt'. 'die Tierstimme' is a compound: das Tier + die Stimme.",
+      "words": [
+        {
+          "de": "verstehen",
+          "en": "to understand"
+        },
+        {
+          "de": "quälen",
+          "en": "to torment"
+        },
+        {
+          "de": "krank",
+          "en": "ill, sick"
+        },
+        {
+          "de": "der Arzt, die Ärzte",
+          "en": "doctor"
+        },
+        {
+          "de": "die Stimme, die Stimmen",
+          "en": "voice"
+        },
+        {
+          "de": "leise",
+          "en": "quiet, quietly"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "de": "»Anna! Anna!« rief der Vater durch das Vorzimmer in die Küche und klatschte in die Hände, »sofort einen Schlosser holen!« Und schon liefen die zwei Mädchen mit rauschenden Röcken durch das Vorzimmer – wie hatte sich die Schwester denn so schnell angezogen? – und rissen die Wohnungstüre auf. Man hörte gar nicht die Türe zuschlagen; sie hatten sie wohl offen gelassen, wie es in Wohnungen zu sein pflegt, in denen ein großes Unglück geschehen ist.",
+      "en": "'Anna! Anna!' the father called through the hall into the kitchen, clapping his hands. 'Fetch a locksmith at once!' And already the two girls were running through the hall with rustling skirts – how had his sister got dressed so quickly? – and flung open the front door of the flat. There was no sound of the door slamming; they had probably left it open, as tends to happen in homes where a great misfortune has occurred.",
+      "explain_en": "Anna is the family's maid. 'das Vorzimmer' is Austrian/old for the hall; today 'der Flur'. 'der Schlosser' = locksmith (from 'das Schloss', lock). 'wie es ... zu sein pflegt' = as is usually the case – 'pflegen zu' + infinitive is a formal way to say 'usually'. 'die Wohnungstüre' is an older/Austrian form of 'die Wohnungstür'.",
+      "words": [
+        {
+          "de": "der Flur, die Flure",
+          "en": "hall, corridor",
+          "note": "Kafka: das Vorzimmer"
+        },
+        {
+          "de": "holen",
+          "en": "to fetch, to get"
+        },
+        {
+          "de": "der Schlosser, die Schlosser",
+          "en": "locksmith"
+        },
+        {
+          "de": "sich anziehen",
+          "en": "to get dressed"
+        },
+        {
+          "de": "aufreißen",
+          "en": "to tear open, to fling open"
+        },
+        {
+          "de": "das Unglück",
+          "en": "misfortune, disaster"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "type": "summary",
+      "covers": "Part I, from Gregor's new calm to his first try at the key",
+      "en": "Gregor actually feels calmer. Nobody understands his words any more, but at least they now believe something is wrong with him and are getting help, so he feels included in the human world again. He clears his throat very quietly, in case even his cough no longer sounds human. Then he pushes the chair over to the door, holds himself upright against it with the slightly sticky pads of his feet, and starts turning the key in the lock with his mouth. He has no real teeth, but his jaws are strong; a brown liquid comes out of his mouth – he has hurt himself – but he doesn't care."
+    },
+    {
+      "n": 37,
+      "de": "»Hören Sie nur«, sagte der Prokurist im Nebenzimmer, »er dreht den Schlüssel um.« Das war für Gregor eine große Aufmunterung; aber alle hätten ihm zurufen sollen, auch der Vater und die Mutter: »Frisch, Gregor«, hätten sie rufen sollen, »immer nur heran, fest an das Schloss heran!« Und in der Vorstellung, dass alle seine Bemühungen mit Spannung verfolgten, verbiss er sich mit allem, was er an Kraft aufbringen konnte, besinnungslos in den Schlüssel.",
+      "en": "'Just listen,' said the chief clerk in the next room, 'he's turning the key.' That was a great encouragement for Gregor; but they all should have called out to him, his father and mother too: 'Go on, Gregor,' they should have shouted, 'keep going, get right at that lock!' And imagining that everyone was following his efforts with excitement, he bit blindly into the key with all the strength he could muster.",
+      "explain_en": "'hätten ... sollen' = should have (done) – a past subjunctive for something that didn't happen. 'Frisch!' is an old cheer, like 'Come on!' 'die Vorstellung' = the idea, imagination (also: a performance). 'sich in etwas verbeißen' = to bite hard into something and not let go; figuratively, to refuse to give up on something. 'besinnungslos' = senselessly, without thinking.",
+      "words": [
+        {
+          "de": "der Schlüssel, die Schlüssel",
+          "en": "key"
+        },
+        {
+          "de": "umdrehen",
+          "en": "to turn (round)"
+        },
+        {
+          "de": "die Aufmunterung",
+          "en": "encouragement"
+        },
+        {
+          "de": "das Schloss, die Schlösser",
+          "en": "lock; castle"
+        },
+        {
+          "de": "die Kraft, die Kräfte",
+          "en": "strength"
+        },
+        {
+          "de": "die Spannung",
+          "en": "suspense, excitement"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "de": "Je nach dem Fortschreiten der Drehung des Schlüssels umtanzte er das Schloss, hielt sich jetzt nur noch mit dem Munde aufrecht, und je nach Bedarf hing er sich an den Schlüssel oder drückte ihn dann wieder nieder mit der ganzen Last seines Körpers. Der hellere Klang des endlich zurückschnappenden Schlosses erweckte Gregor förmlich. Aufatmend sagte er sich: »Ich habe also den Schlosser nicht gebraucht«, und legte den Kopf auf die Klinke, um die Türe gänzlich zu öffnen.",
+      "en": "As the key turned further, he danced around the lock; now he was holding himself upright with his mouth alone, and as needed he either hung on the key or pressed it down again with the whole weight of his body. The brighter sound of the lock finally snapping back really brought Gregor to his senses. With a sigh of relief he said to himself: 'So I didn't need the locksmith after all,' and laid his head on the handle to open the door all the way.",
+      "explain_en": "'je nach' = depending on. 'die Last' = load, burden; in this sense today you'd say 'das Gewicht' (weight). 'förmlich' here means 'literally, positively', not 'formal'. 'aufatmen' = to breathe a sigh of relief. 'die Klinke' (or 'die Türklinke') = door handle.",
+      "words": [
+        {
+          "de": "je nach",
+          "en": "depending on"
+        },
+        {
+          "de": "aufrecht",
+          "en": "upright"
+        },
+        {
+          "de": "das Gewicht",
+          "en": "weight",
+          "note": "Kafka: die Last"
+        },
+        {
+          "de": "aufatmen",
+          "en": "to breathe a sigh of relief"
+        },
+        {
+          "de": "brauchen",
+          "en": "to need"
+        },
+        {
+          "de": "die Klinke, die Klinken",
+          "en": "door handle"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "de": "Da er die Türe auf diese Weise öffnen musste, war sie eigentlich schon recht weit geöffnet, und er selbst noch nicht zu sehen. Er musste sich erst langsam um den einen Türflügel herumdrehen, und zwar sehr vorsichtig, wenn er nicht gerade vor dem Eintritt ins Zimmer plump auf den Rücken fallen wollte.",
+      "en": "Because he had to open the door in this way, it was actually already wide open while he himself still couldn't be seen. He first had to turn himself slowly round one half of the door, and very carefully at that, if he didn't want to fall flat on his back right at the entrance to the room.",
+      "explain_en": "'Da' at the start of a sentence often means 'because/since', not 'there'. 'auf diese Weise' = in this way. 'der Türflügel' = one half of a double door. 'und zwar' adds a detail: 'and in fact', 'and what's more'. 'plump' = clumsily, heavily.",
+      "words": [
+        {
+          "de": "auf diese Weise",
+          "en": "in this way"
+        },
+        {
+          "de": "öffnen",
+          "en": "to open"
+        },
+        {
+          "de": "vorsichtig",
+          "en": "careful, carefully"
+        },
+        {
+          "de": "der Eingang, die Eingänge",
+          "en": "entrance",
+          "note": "Kafka: der Eintritt"
+        },
+        {
+          "de": "fallen",
+          "en": "to fall"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "de": "Er war noch mit jener schwierigen Bewegung beschäftigt und hatte nicht Zeit, auf anderes zu achten, da hörte er schon den Prokuristen ein lautes »Oh!« ausstoßen – es klang, wie wenn der Wind saust – und nun sah er ihn auch, wie er, der der Nächste an der Türe war, die Hand gegen den offenen Mund drückte und langsam zurückwich, als vertreibe ihn eine unsichtbare, gleichmäßig fortwirkende Kraft.",
+      "en": "He was still busy with that difficult movement and had no time to pay attention to anything else when he heard the chief clerk let out a loud 'Oh!' – it sounded like the wind rushing – and now he saw him too: he was the nearest to the door, and he pressed his hand against his open mouth and slowly backed away, as if driven off by an invisible force that kept pushing steadily.",
+      "explain_en": "The chief clerk is the first to see Gregor. 'auf etwas achten' = to pay attention to something. 'ausstoßen' = to let out (a cry). 'wie wenn' is an older way of saying 'als ob' (as if). 'der der Nächste' looks strange: it is 'der' (who) + 'der Nächste' (the nearest). 'als vertreibe ihn' = 'als ob ihn ... vertriebe' – after 'als' alone, the verb jumps forward.",
+      "words": [
+        {
+          "de": "beschäftigt",
+          "en": "busy"
+        },
+        {
+          "de": "achten auf",
+          "en": "to pay attention to"
+        },
+        {
+          "de": "der Mund, die Münder",
+          "en": "mouth"
+        },
+        {
+          "de": "zurückweichen",
+          "en": "to back away"
+        },
+        {
+          "de": "unsichtbar",
+          "en": "invisible"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "de": "Die Mutter – sie stand hier trotz der Anwesenheit des Prokuristen mit von der Nacht her noch aufgelösten, hoch sich sträubenden Haaren – sah zuerst mit gefalteten Händen den Vater an, ging dann zwei Schritte zu Gregor hin und fiel inmitten ihrer rings um sie herum sich ausbreitenden Röcke nieder, das Gesicht ganz unauffindbar zu ihrer Brust gesenkt. Der Vater ballte mit feindseligem Ausdruck die Faust, als wolle er Gregor in sein Zimmer zurückstoßen, sah sich dann unsicher im Wohnzimmer um, beschattete dann mit den Händen die Augen und weinte, dass sich seine mächtige Brust schüttelte.",
+      "en": "His mother – despite the chief clerk being there, she was standing with her hair still loose from the night and sticking up – first looked at his father with her hands clasped, then took two steps towards Gregor and sank down in the middle of her skirts, which spread out all around her, her face hidden, sunk onto her chest. His father clenched his fist with a hostile expression, as if he wanted to push Gregor back into his room, then looked uncertainly around the living room, covered his eyes with his hands and wept so hard that his powerful chest shook.",
+      "explain_en": "The parents react in completely different ways. 'trotz' + genitive = despite ('trotz der Anwesenheit' = despite the presence). 'die Faust ballen' = to clench your fist. 'feindselig' = hostile. 'dass sich seine Brust schüttelte' – here 'dass' means 'so that'. In 'ihrer rings um sie herum sich ausbreitenden Röcke' a whole clause sits in front of the noun like an adjective – typical of literary German.",
+      "words": [
+        {
+          "de": "die Anwesenheit",
+          "en": "presence"
+        },
+        {
+          "de": "die Faust, die Fäuste",
+          "en": "fist"
+        },
+        {
+          "de": "feindselig",
+          "en": "hostile"
+        },
+        {
+          "de": "unsicher",
+          "en": "uncertain, unsure"
+        },
+        {
+          "de": "weinen",
+          "en": "to cry, to weep"
+        },
+        {
+          "de": "die Brust",
+          "en": "chest; breast"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "type": "summary",
+      "covers": "Part I, from Gregor in the doorway to his mother knocking over the coffee",
+      "en": "Gregor stays leaning against the door. Outside, rain falls on the endless grey hospital across the street; on the wall hangs a photo of Gregor as a smiling army lieutenant. Feeling that he is the only calm one, Gregor makes a long speech: he'll get dressed and go on his trip, he loves his work, and the chief clerk must stand up for him at the firm. But the chief clerk has turned away at his very first words and is backing towards the stairs. Gregor knows he mustn't let him leave like this. He lets go of the door and drops onto his many little legs – which, to his joy, carry him perfectly. But his mother jumps up screaming 'Help!', backs into the breakfast table and knocks over the big coffee pot."
+    },
+    {
+      "n": 43,
+      "de": "»Mutter, Mutter«, sagte Gregor leise und sah zu ihr hinauf. Der Prokurist war ihm für einen Augenblick ganz aus dem Sinn gekommen; dagegen konnte er sich nicht versagen, im Anblick des fließenden Kaffees mehrmals mit den Kiefern ins Leere zu schnappen. Darüber schrie die Mutter neuerdings auf, flüchtete vom Tisch und fiel dem ihr entgegeneilenden Vater in die Arme.",
+      "en": "'Mother, Mother,' said Gregor softly, looking up at her. For a moment he had completely forgotten the chief clerk; instead, at the sight of the flowing coffee, he couldn't stop himself from snapping his jaws at the empty air several times. At this his mother screamed again, fled from the table and fell into the arms of his father, who was hurrying towards her.",
+      "explain_en": "'aus dem Sinn kommen' = to slip your mind. 'sich nicht versagen können, etwas zu tun' is formal for 'can't resist doing something'. 'der Kiefer' = jaw. 'neuerdings' here is old for 'again'; today it means 'recently'. 'dem ihr entgegeneilenden Vater' = the father, who was hurrying towards her – another clause squeezed in front of a noun.",
+      "words": [
+        {
+          "de": "leise",
+          "en": "softly, quietly"
+        },
+        {
+          "de": "der Anblick",
+          "en": "sight"
+        },
+        {
+          "de": "der Kiefer, die Kiefer",
+          "en": "jaw"
+        },
+        {
+          "de": "schnappen",
+          "en": "to snap"
+        },
+        {
+          "de": "flüchten",
+          "en": "to flee"
+        },
+        {
+          "de": "der Arm, die Arme",
+          "en": "arm"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "de": "Aber Gregor hatte jetzt keine Zeit für seine Eltern; der Prokurist war schon auf der Treppe; das Kinn auf dem Geländer, sah er noch zum letzten Male zurück. Gregor nahm einen Anlauf, um ihn möglichst sicher einzuholen; der Prokurist musste etwas ahnen, denn er machte einen Sprung über mehrere Stufen und verschwand; »Huh!« aber schrie er noch, es klang durchs ganze Treppenhaus.",
+      "en": "But Gregor had no time for his parents now; the chief clerk was already on the stairs; with his chin on the banister he looked back one last time. Gregor took a run-up so as to be sure of catching him; the chief clerk must have sensed something, because he leapt down several steps at once and disappeared; but he still shouted 'Huh!', and it echoed through the whole stairwell.",
+      "explain_en": "'das Geländer' = banister, railing. 'einen Anlauf nehmen' = to take a run-up. 'einholen' = to catch up with. 'musste etwas ahnen' = must have sensed something – 'müssen' can express a guess. 'durchs' = durch das.",
+      "words": [
+        {
+          "de": "die Treppe, die Treppen",
+          "en": "stairs, staircase"
+        },
+        {
+          "de": "das Geländer",
+          "en": "banister, railing"
+        },
+        {
+          "de": "einholen",
+          "en": "to catch up with"
+        },
+        {
+          "de": "ahnen",
+          "en": "to sense, to suspect"
+        },
+        {
+          "de": "die Stufe, die Stufen",
+          "en": "step, stair"
+        },
+        {
+          "de": "verschwinden",
+          "en": "to disappear"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "de": "Leider schien nun auch diese Flucht des Prokuristen den Vater, der bisher verhältnismäßig gefasst gewesen war, völlig zu verwirren, denn statt selbst dem Prokuristen nachzulaufen oder wenigstens Gregor in der Verfolgung nicht zu hindern, packte er mit der Rechten den Stock des Prokuristen, den dieser mit Hut und Überzieher auf einem Sessel zurückgelassen hatte, holte mit der Linken eine große Zeitung vom Tisch und machte sich unter Füßestampfen daran, Gregor durch Schwenken des Stockes und der Zeitung in sein Zimmer zurückzutreiben.",
+      "en": "Unfortunately, the chief clerk's flight now seemed to throw the father, who until then had been relatively composed, into complete confusion; for instead of running after the chief clerk himself, or at least not stopping Gregor from chasing him, he seized with his right hand the chief clerk's walking stick, which he had left behind on a chair with his hat and overcoat, grabbed a large newspaper from the table with his left, and, stamping his feet, set about driving Gregor back into his room by waving the stick and the newspaper at him.",
+      "explain_en": "One very long sentence – follow the main verbs: 'packte' (seized), 'holte' (grabbed), 'machte sich daran' (set about). 'gefasst' = composed, calm. 'statt ... zu' + infinitive = instead of ...-ing. 'der Überzieher' is an old word for an overcoat; today 'der Mantel'. In Austria 'der Sessel' can mean an ordinary chair (in Germany: an armchair).",
+      "words": [
+        {
+          "de": "die Flucht",
+          "en": "escape, flight"
+        },
+        {
+          "de": "verwirren",
+          "en": "to confuse"
+        },
+        {
+          "de": "der Stock, die Stöcke",
+          "en": "stick, walking stick"
+        },
+        {
+          "de": "der Mantel, die Mäntel",
+          "en": "coat",
+          "note": "Kafka: der Überzieher"
+        },
+        {
+          "de": "stampfen",
+          "en": "to stamp"
+        },
+        {
+          "de": "zurücktreiben",
+          "en": "to drive back"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "type": "summary",
+      "covers": "Part I, from the father's attack to the end of Part I",
+      "en": "The father stamps his feet and makes hissing noises like a wild man, driving Gregor back. Gregor isn't used to walking backwards, so he slowly turns around, terrified the stick will hit him. When his head is finally at the doorway, his body turns out to be too wide to fit through – and the father doesn't think of opening the other half of the door. Gregor squeezes in, gets stuck at an angle and hurts his side. Then his father gives him a hard shove from behind, and Gregor flies far into his room, badly injured. The door is slammed shut with the stick, and at last everything is quiet."
+    },
+    {
+      "n": 47,
+      "de": "Erst in der Abenddämmerung erwachte Gregor aus seinem schweren ohnmachtähnlichen Schlaf. Er wäre gewiss nicht viel später auch ohne Störung erwacht, denn er fühlte sich genügend ausgeruht und ausgeschlafen, doch schien es ihm, als hätte ihn ein flüchtiger Schritt und ein vorsichtiges Schließen der zum Vorzimmer führenden Tür geweckt. Der Schein der elektrischen Straßenbahn lag bleich hier und da auf der Zimmerdecke und auf den höheren Teilen der Möbel, aber unten bei Gregor war es finster.",
+      "en": "Not until dusk did Gregor wake from his heavy, almost unconscious sleep. He would certainly have woken not much later even without being disturbed, because he felt he had rested and slept enough, but it seemed to him that a hurried step and the careful closing of the door to the hall had woken him. The glow of the electric trams lay pale here and there on the ceiling and on the higher parts of the furniture, but down where Gregor was it was dark.",
+      "explain_en": "Part II begins on the evening of the same day. 'Erst' + a time = not until ('erst am Abend' = not until the evening). 'erwachen' is literary; today 'aufwachen'. 'ohnmachtähnlich' = like a faint ('die Ohnmacht' = unconsciousness, fainting). 'Er wäre ... erwacht' = he would have woken (past subjunctive). 'finster' = dark; today usually 'dunkel'.",
+      "words": [
+        {
+          "de": "die Dämmerung",
+          "en": "dusk, twilight"
+        },
+        {
+          "de": "die Störung, die Störungen",
+          "en": "disturbance"
+        },
+        {
+          "de": "ausgeschlafen",
+          "en": "well rested"
+        },
+        {
+          "de": "die Straßenbahn, die Straßenbahnen",
+          "en": "tram"
+        },
+        {
+          "de": "die Decke, die Decken",
+          "en": "ceiling; blanket"
+        },
+        {
+          "de": "finster",
+          "en": "dark",
+          "note": "today usually: dunkel"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "de": "Langsam schob er sich, noch ungeschickt mit seinen Fühlern tastend, die er jetzt erst schätzen lernte, zur Türe hin, um nachzusehen, was dort geschehen war. Seine linke Seite schien eine einzige lange, unangenehm spannende Narbe, und er musste auf seinen zwei Beinreihen regelrecht hinken. Ein Beinchen war übrigens im Laufe der vormittägigen Vorfälle schwer verletzt worden – es war fast ein Wunder, dass nur eines verletzt worden war – und schleppte leblos nach.",
+      "en": "Slowly he pushed himself towards the door, still groping clumsily with his feelers, which he was only now learning to value, to see what had happened there. His left side seemed to be one single long, unpleasantly tight scar, and he really had to limp on his two rows of legs. One little leg, by the way, had been badly hurt during the events of the morning – it was almost a miracle that only one had been hurt – and it dragged along lifelessly behind him.",
+      "explain_en": "'der Fühler' = an insect's feeler (antenna). 'die Narbe' = scar. 'regelrecht' = really, downright. 'hinken' = to limp. 'das Beinchen' = little leg: '-chen' makes things small, and those words are always neuter. 'nachschleppen' = to drag along behind.",
+      "words": [
+        {
+          "de": "tasten",
+          "en": "to grope, to feel your way"
+        },
+        {
+          "de": "die Narbe, die Narben",
+          "en": "scar"
+        },
+        {
+          "de": "hinken",
+          "en": "to limp"
+        },
+        {
+          "de": "verletzen",
+          "en": "to injure, to hurt"
+        },
+        {
+          "de": "das Wunder, die Wunder",
+          "en": "miracle"
+        },
+        {
+          "de": "das Bein, die Beine",
+          "en": "leg"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "de": "Erst bei der Tür merkte er, was ihn dorthin eigentlich gelockt hatte; es war der Geruch von etwas Essbarem gewesen. Denn dort stand ein Napf mit süßer Milch gefüllt, in der kleine Schnitte von Weißbrot schwammen. Fast hätte er vor Freude gelacht, denn er hatte noch größeren Hunger als am Morgen, und gleich tauchte er seinen Kopf fast bis über die Augen in die Milch hinein.",
+      "en": "Only when he got to the door did he notice what had actually drawn him there; it had been the smell of something to eat. For there stood a bowl filled with sweet milk, with little pieces of white bread floating in it. He could almost have laughed for joy, because he was even hungrier than in the morning, and he immediately dipped his head into the milk almost up over his eyes.",
+      "explain_en": "Someone – his sister – has put food out for him. 'locken' = to lure, to attract. 'etwas Essbares' = something edible. 'der Napf' is a bowl for animals – a telling choice of word. 'Fast hätte er gelacht' = he almost laughed. 'die Schnitte' is old/regional for a slice; today 'die Scheibe' or 'das Stück'.",
+      "words": [
+        {
+          "de": "der Geruch, die Gerüche",
+          "en": "smell"
+        },
+        {
+          "de": "essbar",
+          "en": "edible"
+        },
+        {
+          "de": "die Milch",
+          "en": "milk"
+        },
+        {
+          "de": "das Weißbrot",
+          "en": "white bread"
+        },
+        {
+          "de": "der Hunger",
+          "en": "hunger"
+        },
+        {
+          "de": "tauchen",
+          "en": "to dip, to dive"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "de": "Aber bald zog er ihn enttäuscht wieder zurück; nicht nur, dass ihm das Essen wegen seiner heiklen linken Seite Schwierigkeiten machte – und er konnte nur essen, wenn der ganze Körper schnaufend mitarbeitete –, so schmeckte ihm überdies die Milch, die sonst sein Lieblingsgetränk war und die ihm gewiss die Schwester deshalb hereingestellt hatte, gar nicht, ja er wandte sich fast mit Widerwillen von dem Napf ab und kroch in die Zimmermitte zurück.",
+      "en": "But soon he pulled it out again in disappointment; not only did eating cause him difficulties because of his sore left side – and he could only eat if his whole body joined in, panting – but on top of that the milk, which was normally his favourite drink and which his sister had surely put in for that very reason, didn't taste good to him at all; in fact he turned away from the bowl almost in disgust and crawled back to the middle of the room.",
+      "explain_en": "A first sign that Gregor is changing on the inside too. 'nicht nur, dass ..., so ... überdies' = not only ..., but also ... 'heikel' usually means 'tricky, delicate'; here 'sore, sensitive'. 'schmecken' + dative: 'Die Milch schmeckte ihm nicht' = he didn't like the taste. 'der Widerwille' = disgust, strong dislike.",
+      "words": [
+        {
+          "de": "enttäuscht",
+          "en": "disappointed"
+        },
+        {
+          "de": "die Schwierigkeit, die Schwierigkeiten",
+          "en": "difficulty"
+        },
+        {
+          "de": "das Lieblingsgetränk",
+          "en": "favourite drink"
+        },
+        {
+          "de": "schmecken",
+          "en": "to taste (good)"
+        },
+        {
+          "de": "der Widerwille",
+          "en": "disgust, strong dislike"
+        },
+        {
+          "de": "kriechen",
+          "en": "to crawl"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "type": "summary",
+      "covers": "Part II, from the first quiet evening to the sister's visit next morning",
+      "en": "The flat is strangely silent. Gregor feels proud that he has given his parents and sister such a life in such a nice flat – but what if it all ends in horror? During the evening someone opens each side door a crack and quickly shuts it again; the keys are now on the outside. At night Gregor hides under the sofa, where he feels cosy, and decides to be patient and considerate so the family can bear the trouble he causes. Early next morning his sister Grete looks in, gets such a fright when she sees him under the sofa that she slams the door, then comes back in on tiptoe. She notices the untouched milk and carries the bowl out – with a rag, not with her bare hands."
+    },
+    {
+      "n": 52,
+      "de": "Sie brachte ihm, um seinen Geschmack zu prüfen, eine ganze Auswahl, alles auf einer alten Zeitung ausgebreitet. Da war altes halbverfaultes Gemüse; Knochen vom Nachtmahl her, die von festgewordener weißer Sauce umgeben waren; ein paar Rosinen und Mandeln; ein Käse, den Gregor vor zwei Tagen für ungenießbar erklärt hatte; ein trockenes Brot, ein mit Butter beschmiertes Brot und ein mit Butter beschmiertes und gesalzenes Brot.",
+      "en": "To test his taste, she brought him a whole selection, all spread out on an old newspaper. There were old, half-rotten vegetables; bones left over from supper, covered in white sauce that had gone solid; a few raisins and almonds; a cheese that Gregor had declared inedible two days before; a dry piece of bread, a piece of bread and butter, and a piece of bread and butter with salt.",
+      "explain_en": "Grete cleverly finds out what her brother can eat now. 'die Auswahl' = selection, choice. 'halbverfault' = half-rotten ('faul' = rotten – but also lazy!). 'das Nachtmahl' is Austrian for supper; in Germany 'das Abendessen'. 'ungenießbar' = inedible (also said jokingly about grumpy people).",
+      "words": [
+        {
+          "de": "der Geschmack",
+          "en": "taste"
+        },
+        {
+          "de": "die Auswahl",
+          "en": "selection, choice"
+        },
+        {
+          "de": "das Gemüse",
+          "en": "vegetables"
+        },
+        {
+          "de": "der Knochen, die Knochen",
+          "en": "bone"
+        },
+        {
+          "de": "der Käse",
+          "en": "cheese"
+        },
+        {
+          "de": "das Abendessen",
+          "en": "dinner, supper",
+          "note": "Kafka: das Nachtmahl (Austrian)"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "de": "Außerdem stellte sie zu dem allen noch den wahrscheinlich ein für alle Mal für Gregor bestimmten Napf, in den sie Wasser gegossen hatte. Und aus Zartgefühl, da sie wusste, dass Gregor vor ihr nicht essen würde, entfernte sie sich eiligst und drehte sogar den Schlüssel um, damit nur Gregor merken könne, dass er es sich so behaglich machen dürfe, wie er wolle.",
+      "en": "Besides all this she also put down the bowl, which was probably meant for Gregor once and for all, and poured water into it. And out of tact, because she knew Gregor wouldn't eat in front of her, she left as fast as she could and even turned the key, just so Gregor could tell that he could make himself as comfortable as he liked.",
+      "explain_en": "'ein für alle Mal' = once and for all – the bowl now belongs to him, like a pet's. 'das Zartgefühl' is old; today 'das Taktgefühl' (tact). 'eiligst' = as fast as possible. 'es sich behaglich machen' = to make yourself comfortable; today more often 'es sich gemütlich machen'. 'dürfen' here means he is free to.",
+      "words": [
+        {
+          "de": "gießen",
+          "en": "to pour"
+        },
+        {
+          "de": "das Wasser",
+          "en": "water"
+        },
+        {
+          "de": "das Taktgefühl",
+          "en": "tact",
+          "note": "Kafka: das Zartgefühl"
+        },
+        {
+          "de": "sich entfernen",
+          "en": "to go away, to leave"
+        },
+        {
+          "de": "behaglich",
+          "en": "comfortable, cosy",
+          "note": "today often: gemütlich"
+        },
+        {
+          "de": "dürfen",
+          "en": "to be allowed to"
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "type": "summary",
+      "covers": "Part II, from Gregor's first meal to the father's talk about money",
+      "en": "Gregor greedily eats the cheese, the vegetables and the sauce, but can't stand fresh food. From now on Grete feeds him twice a day while the others aren't around. Nobody believes he can understand them, so he listens at the doors. The maid begs to be dismissed and swears she will never tell anyone anything. The family hardly eat. On the very first day the father explains the family's finances: a little money survived the collapse of his business five years ago. Back then Gregor had worked extremely hard to support everyone, and at first it had felt wonderful; but later the family simply got used to his money, and the warmth faded."
+    },
+    {
+      "n": 55,
+      "de": "Nur die Schwester war Gregor doch noch nahe geblieben, und es war sein geheimer Plan, sie, die zum Unterschied von Gregor Musik sehr liebte und rührend Violine zu spielen verstand, nächstes Jahr, ohne Rücksicht auf die großen Kosten, die das verursachen musste, und die man schon auf andere Weise hereinbringen würde, auf das Konservatorium zu schicken.",
+      "en": "Only his sister had stayed close to Gregor, and it was his secret plan to send her – who, unlike Gregor, loved music very much and could play the violin movingly – to the conservatory next year, regardless of the great expense that would involve, which could be made up for in some other way.",
+      "explain_en": "Remember the conservatory (a music college) – it matters later. 'jemandem nahe bleiben' = to stay close to someone. 'zum Unterschied von' is old; today 'im Unterschied zu' or 'anders als'. 'ohne Rücksicht auf' = regardless of. 'hereinbringen' here = to make up for (costs). Kafka writes 'die Violine'; everyday German says 'die Geige'.",
+      "words": [
+        {
+          "de": "geheim",
+          "en": "secret"
+        },
+        {
+          "de": "der Plan, die Pläne",
+          "en": "plan"
+        },
+        {
+          "de": "die Geige, die Geigen",
+          "en": "violin",
+          "note": "Kafka: die Violine"
+        },
+        {
+          "de": "die Kosten",
+          "en": "costs"
+        },
+        {
+          "de": "verursachen",
+          "en": "to cause"
+        },
+        {
+          "de": "das Konservatorium",
+          "en": "music college, conservatory"
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "type": "summary",
+      "covers": "Part II, from the family's savings to the clearing of Gregor's room",
+      "en": "Gregor learns there are some savings, but they won't last long, so his tired old father, his mother, who has asthma, and his seventeen-year-old sister will have to earn money – he burns with shame. His eyesight is getting worse. Grete looks after his room, but always rushes to open the window as if she can't breathe. When she flinches at the sight of him, he covers himself with a sheet on the sofa. To pass the time he crawls over the walls and ceiling. Grete decides to take the furniture out to give him more room, and fetches their mother to help while the father is out. As they struggle with the heavy wardrobe, the mother whispers her doubts."
+    },
+    {
+      "n": 57,
+      "de": "»Und ist es dann nicht so«, schloss die Mutter ganz leise, wie sie überhaupt fast flüsterte, als wolle sie vermeiden, dass Gregor, dessen genauen Aufenthalt sie ja nicht kannte, auch nur den Klang der Stimme höre, denn dass er die Worte nicht verstand, davon war sie überzeugt, »und ist es nicht so, als ob wir durch die Entfernung der Möbel zeigten, dass wir jede Hoffnung auf Besserung aufgeben und ihn rücksichtslos sich selbst überlassen? Ich glaube, es wäre das Beste, wir suchen das Zimmer genau in dem Zustand zu erhalten, in dem es früher war, damit Gregor, wenn er wieder zu uns zurückkommt, alles unverändert findet und umso leichter die Zwischenzeit vergessen kann.«",
+      "en": "'And isn't it the case,' the mother ended very quietly – she was almost whispering the whole time, as if she wanted to avoid Gregor, whose exact whereabouts she didn't know, hearing even the sound of her voice, because she was convinced that he didn't understand the words – 'and isn't it as if, by taking out the furniture, we were showing that we're giving up all hope of him getting better and heartlessly leaving him to himself? I think it would be best if we try to keep the room exactly the way it was before, so that when Gregor comes back to us he finds everything unchanged and can forget the time in between all the more easily.'",
+      "explain_en": "The mother has doubts about emptying Gregor's room. 'flüstern' = to whisper. 'der Aufenthalt' = whereabouts (also: a stay). 'als ob wir ... zeigten' = as if we were showing (subjunctive after 'als ob'). 'die Besserung' = improvement, recovery ('Gute Besserung!' = get well soon). 'umso leichter' = all the more easily.",
+      "words": [
+        {
+          "de": "flüstern",
+          "en": "to whisper"
+        },
+        {
+          "de": "überzeugt",
+          "en": "convinced"
+        },
+        {
+          "de": "die Hoffnung, die Hoffnungen",
+          "en": "hope"
+        },
+        {
+          "de": "aufgeben",
+          "en": "to give up"
+        },
+        {
+          "de": "unverändert",
+          "en": "unchanged"
+        },
+        {
+          "de": "vergessen",
+          "en": "to forget"
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "de": "Beim Anhören dieser Worte der Mutter erkannte Gregor, dass der Mangel jeder unmittelbaren menschlichen Ansprache, verbunden mit dem einförmigen Leben inmitten der Familie, im Laufe dieser zwei Monate seinen Verstand hatte verwirren müssen, denn anders konnte er es sich nicht erklären, dass er ernsthaft darnach hatte verlangen können, dass sein Zimmer ausgeleert würde. Hatte er wirklich Lust, das warme, mit ererbten Möbeln gemütlich ausgestattete Zimmer in eine Höhle verwandeln zu lassen, in der er dann freilich nach allen Richtungen ungestört würde kriechen können, jedoch auch unter gleichzeitigem, schnellen, gänzlichen Vergessen seiner menschlichen Vergangenheit?",
+      "en": "Hearing these words of his mother's, Gregor realised that the lack of any direct human conversation, together with the monotonous life in the middle of the family, must have confused his mind over these two months, because otherwise he couldn't explain how he could seriously have wanted his room to be emptied. Did he really want the warm room, cosily furnished with inherited furniture, to be turned into a cave where he could of course crawl around undisturbed in every direction – but at the same time quickly and completely forget his human past?",
+      "explain_en": "'erkennen' = to realise, to recognise. 'der Mangel an' = lack of. 'hatte verwirren müssen' = must have confused (double infinitive at the end). 'darnach' is an old form of 'danach'. 'ererbt' is old for 'geerbt' (inherited). 'die Höhle' = cave. The furniture is what keeps Gregor human.",
+      "words": [
+        {
+          "de": "erkennen",
+          "en": "to realise, to recognise"
+        },
+        {
+          "de": "der Mangel",
+          "en": "lack, shortage"
+        },
+        {
+          "de": "der Verstand",
+          "en": "mind, reason"
+        },
+        {
+          "de": "ernsthaft",
+          "en": "serious, seriously"
+        },
+        {
+          "de": "die Höhle, die Höhlen",
+          "en": "cave"
+        },
+        {
+          "de": "die Vergangenheit",
+          "en": "past"
+        },
+        {
+          "de": "erben",
+          "en": "to inherit"
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "de": "War er doch jetzt schon nahe daran, zu vergessen, und nur die seit langem nicht gehörte Stimme der Mutter hatte ihn aufgerüttelt. Nichts sollte entfernt werden, alles musste bleiben, die guten Einwirkungen der Möbel auf seinen Zustand konnte er nicht entbehren; und wenn die Möbel ihn hinderten, das sinnlose Herumkriechen zu betreiben, so war es kein Schaden, sondern ein großer Vorteil.",
+      "en": "After all, he was already close to forgetting, and only his mother's voice, which he hadn't heard for so long, had shaken him awake. Nothing should be taken away; everything had to stay; he couldn't do without the good effect the furniture had on his condition; and if the furniture stopped him from crawling around pointlessly, that was no loss but a great advantage.",
+      "explain_en": "'War er doch ...' with the verb first is not a question here: with 'doch' it means 'after all, he was ...'. 'aufrütteln' = to shake someone up, to rouse. 'entbehren' = to do without (formal; today 'verzichten auf'). 'der Vorteil' / 'der Nachteil' = advantage / disadvantage.",
+      "words": [
+        {
+          "de": "nahe daran sein",
+          "en": "to be close to (doing something)"
+        },
+        {
+          "de": "aufrütteln",
+          "en": "to shake up, to rouse"
+        },
+        {
+          "de": "entfernen",
+          "en": "to remove"
+        },
+        {
+          "de": "verzichten auf",
+          "en": "to do without",
+          "note": "Kafka: entbehren"
+        },
+        {
+          "de": "sinnlos",
+          "en": "pointless"
+        },
+        {
+          "de": "der Vorteil, die Vorteile",
+          "en": "advantage"
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "type": "summary",
+      "covers": "Part II, from Grete's insistence to Gregor's breakout",
+      "en": "But Grete disagrees. She has become the family's 'expert' on Gregor, and now she insists that everything must go except the sofa – partly because she really has seen that he needs space, partly out of stubbornness and her new self-confidence. The mother gives in. While they drag the wardrobe out, the mother catches a movement of the sheet and is unsettled. For Gregor, the noise and the scraping of furniture become unbearable: they are taking away everything he loves – even the desk where he did his homework ever since primary school."
+    },
+    {
+      "n": 61,
+      "de": "Und so brach er denn hervor – die Frauen stützten sich gerade im Nebenzimmer an den Schreibtisch, um ein wenig zu verschnaufen –, wechselte viermal die Richtung des Laufes, er wusste wirklich nicht, was er zuerst retten sollte, da sah er an der im Übrigen schon leeren Wand auffallend das Bild der in lauter Pelzwerk gekleideten Dame hängen, kroch eilends hinauf und presste sich an das Glas, das ihn festhielt und seinem heißen Bauch wohltat. Dieses Bild wenigstens, das Gregor jetzt ganz verdeckte, würde nun gewiss niemand wegnehmen. Er verdrehte den Kopf nach der Tür des Wohnzimmers, um die Frauen bei ihrer Rückkehr zu beobachten.",
+      "en": "And so he broke out – the women were just leaning on the desk in the next room to get their breath back – changed direction four times, since he really didn't know what to save first, and then he saw, standing out on the otherwise already empty wall, the picture of the lady dressed all in fur. He quickly crawled up and pressed himself against the glass, which held him fast and felt good on his hot belly. This picture at least, which Gregor now covered completely, nobody would take away now. He twisted his head towards the living-room door to watch the women when they came back.",
+      "explain_en": "The picture of the lady in furs appeared on the very first pages – Gregor cut it out of a magazine. 'verschnaufen' = to get your breath back. 'retten' = to save, to rescue. 'in lauter Pelzwerk' = in nothing but fur ('lauter' here means 'nothing but', not 'louder'). 'wohltun' + dative = to do someone good, to feel good.",
+      "words": [
+        {
+          "de": "hervorbrechen",
+          "en": "to break out, to burst out"
+        },
+        {
+          "de": "die Richtung, die Richtungen",
+          "en": "direction"
+        },
+        {
+          "de": "retten",
+          "en": "to save, to rescue"
+        },
+        {
+          "de": "die Wand, die Wände",
+          "en": "wall"
+        },
+        {
+          "de": "das Bild, die Bilder",
+          "en": "picture"
+        },
+        {
+          "de": "der Pelz, die Pelze",
+          "en": "fur"
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "de": "Sie hatten sich nicht viel Ruhe gegönnt und kamen schon wieder; Grete hatte den Arm um die Mutter gelegt und trug sie fast. »Also was nehmen wir jetzt?« sagte Grete und sah sich um. Da kreuzten sich ihre Blicke mit denen Gregors an der Wand. Wohl nur infolge der Gegenwart der Mutter behielt sie ihre Fassung, beugte ihr Gesicht zur Mutter, um diese vom Herumschauen abzuhalten, und sagte, allerdings zitternd und unüberlegt: »Komm, wollen wir nicht lieber auf einen Augenblick noch ins Wohnzimmer zurückgehen?«",
+      "en": "They hadn't allowed themselves much of a rest and were already coming back; Grete had put her arm around her mother and was almost carrying her. 'So what shall we take now?' said Grete, looking around. Then her eyes met Gregor's on the wall. Probably only because her mother was there, she kept her composure, bent her face towards her mother to stop her looking around, and said, though trembling and without thinking: 'Come on, shouldn't we go back into the living room for a moment?'",
+      "explain_en": "'sich etwas gönnen' = to allow yourself something nice ('Gönn dir eine Pause!'). 'Da kreuzten sich ihre Blicke' = then their eyes met. 'die Fassung behalten/verlieren' = to keep/lose your composure. 'infolge' + genitive = as a result of. 'Wollen wir ...?' is a friendly suggestion: shall we ...?",
+      "words": [
+        {
+          "de": "sich etwas gönnen",
+          "en": "to allow yourself something, to treat yourself"
+        },
+        {
+          "de": "tragen",
+          "en": "to carry; to wear"
+        },
+        {
+          "de": "der Blick, die Blicke",
+          "en": "look, glance"
+        },
+        {
+          "de": "die Fassung",
+          "en": "composure"
+        },
+        {
+          "de": "zittern",
+          "en": "to tremble, to shake"
+        },
+        {
+          "de": "zurückgehen",
+          "en": "to go back"
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "de": "Die Absicht Gretes war für Gregor klar, sie wollte die Mutter in Sicherheit bringen und dann ihn von der Wand hinunterjagen. Nun, sie konnte es ja immerhin versuchen! Er saß auf seinem Bild und gab es nicht her. Lieber würde er Grete ins Gesicht springen.",
+      "en": "Grete's intention was clear to Gregor: she wanted to get their mother to safety and then chase him down off the wall. Well, let her try! He was sitting on his picture and wouldn't give it up. He would rather jump in Grete's face.",
+      "explain_en": "A rare moment when Gregor fights back. 'die Absicht' = intention. 'in Sicherheit bringen' = to get someone to safety. 'immerhin' here: anyway, at least. 'hergeben' = to hand over, to give up. 'Lieber würde er ...' = he would rather ...",
+      "words": [
+        {
+          "de": "die Absicht, die Absichten",
+          "en": "intention"
+        },
+        {
+          "de": "die Sicherheit",
+          "en": "safety, security"
+        },
+        {
+          "de": "jagen",
+          "en": "to chase, to hunt"
+        },
+        {
+          "de": "hergeben",
+          "en": "to hand over, to give up"
+        },
+        {
+          "de": "lieber",
+          "en": "rather"
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "type": "summary",
+      "covers": "Part II, from the mother fainting to the father's return",
+      "en": "The mother steps aside, sees the huge brown shape on the flowery wallpaper, cries 'Oh God, oh God!' and faints onto the sofa. 'You, Gregor!' shouts Grete, raising her fist – the first words she has spoken to him since his transformation. Gregor follows her into the next room to help; she jumps in fright, a medicine bottle smashes, and a splinter cuts his face. Grete shuts herself in with the mother. Full of guilt, Gregor crawls over everything until he drops onto the table. Then the father comes home. Grete tells him, 'Gregor has broken out,' and he assumes Gregor has done something violent. Gregor waits by his own door to show he'll go back in – but when his father walks in, Gregor hardly recognises him. The weak old man who used to sit around in his dressing gown has changed."
+    },
+    {
+      "n": 65,
+      "de": "Nun aber war er doch gut aufgerichtet; in eine straffe blaue Uniform mit Goldknöpfen gekleidet, wie sie Diener der Bankinstitute tragen; über dem hohen steifen Kragen des Rockes entwickelte sich sein starkes Doppelkinn; unter den buschigen Augenbrauen drang der Blick der schwarzen Augen frisch und aufmerksam hervor; das sonst zerzauste weiße Haar war zu einer peinlich genauen, leuchtenden Scheitelfrisur niedergekämmt.",
+      "en": "But now he was standing up straight, dressed in a tight blue uniform with gold buttons, like the ones messengers at banks wear; above the high, stiff collar of the jacket his heavy double chin spread out; under his bushy eyebrows his black eyes looked out fresh and alert; his usually messy white hair was combed down flat into a painfully exact, shiny parting.",
+      "explain_en": "The tired father now has a job as a bank messenger – and a new energy. 'aufgerichtet' = upright. 'der Diener' usually means servant; here a messenger or porter. 'der Kragen' = collar. 'zerzaust' = messy, tousled. 'der Scheitel' = the parting in your hair. 'peinlich genau' = extremely precise ('peinlich' usually means embarrassing).",
+      "words": [
+        {
+          "de": "die Uniform, die Uniformen",
+          "en": "uniform"
+        },
+        {
+          "de": "der Knopf, die Knöpfe",
+          "en": "button"
+        },
+        {
+          "de": "der Kragen, die Kragen",
+          "en": "collar"
+        },
+        {
+          "de": "die Augenbraue, die Augenbrauen",
+          "en": "eyebrow"
+        },
+        {
+          "de": "aufmerksam",
+          "en": "attentive, alert"
+        },
+        {
+          "de": "kämmen",
+          "en": "to comb"
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "type": "summary",
+      "covers": "Part II, from the father's approach to the end of Part II",
+      "en": "With a grim face the father walks towards Gregor, who runs away from him around the room; they go round several times, slowly. Gregor soon runs out of breath. Then the father takes apples from the fruit bowl and starts throwing them. One apple hits Gregor and gets stuck in his back, causing terrible pain, and he can't move any more. As he loses consciousness, he sees his mother rush out of his room, run to the father, throw her arms around him and beg him to spare Gregor's life."
+    },
+    {
+      "n": 67,
+      "de": "Die schwere Verwundung Gregors, an der er über einen Monat litt – der Apfel blieb, da ihn niemand zu entfernen wagte, als sichtbares Andenken im Fleische sitzen –, schien selbst den Vater daran erinnert zu haben, dass Gregor trotz seiner gegenwärtigen traurigen und ekelhaften Gestalt ein Familienglied war, das man nicht wie einen Feind behandeln durfte, sondern dem gegenüber es das Gebot der Familienpflicht war, den Widerwillen hinunterzuschlucken und zu dulden, nichts als dulden.",
+      "en": "Gregor's serious wound, from which he suffered for more than a month – the apple stayed stuck in his flesh as a visible reminder, since nobody dared to remove it – seemed to have reminded even his father that, despite his present sad and disgusting shape, Gregor was a member of the family who must not be treated like an enemy; on the contrary, family duty demanded that they swallow their disgust and put up with him – just put up with him.",
+      "explain_en": "Part III begins. 'leiden an' = to suffer from. 'wagen' = to dare; today people often say 'sich trauen'. 'das Andenken' = souvenir, reminder. 'ekelhaft' = disgusting. 'dulden' = to tolerate, to put up with – repeated to show how cold this 'duty' is.",
+      "words": [
+        {
+          "de": "die Wunde, die Wunden",
+          "en": "wound"
+        },
+        {
+          "de": "leiden",
+          "en": "to suffer"
+        },
+        {
+          "de": "sich trauen",
+          "en": "to dare",
+          "note": "Kafka: wagen"
+        },
+        {
+          "de": "ekelhaft",
+          "en": "disgusting"
+        },
+        {
+          "de": "der Feind, die Feinde",
+          "en": "enemy"
+        },
+        {
+          "de": "die Pflicht, die Pflichten",
+          "en": "duty"
+        },
+        {
+          "de": "dulden",
+          "en": "to tolerate, to put up with"
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "type": "summary",
+      "covers": "Part III, from the family's tired evenings to the lodgers' dinner",
+      "en": "In the evenings the living-room door is left open, so Gregor can watch the family from the dark. Life is quiet and exhausted: the father works as a bank messenger and sleeps in his uniform in his chair; the mother sews underwear for a shop; Grete works as a shop assistant and learns shorthand and French at night. The maid is let go, family jewellery is sold. Grete now just pushes food into Gregor's room with her foot, and the room gets filthy. A bony old cleaning woman peeks in and calls him 'old dung beetle'. The family rent a room to three strict, bearded lodgers, and all the junk ends up in Gregor's room. One evening the living-room door is left slightly open while the lodgers eat dinner."
+    },
+    {
+      "n": 69,
+      "de": "Gerade an diesem Abend – Gregor erinnerte sich nicht, während der ganzen Zeit die Violine gehört zu haben – ertönte sie von der Küche her. Die Zimmerherren hatten schon ihr Nachtmahl beendet, der mittlere hatte eine Zeitung hervorgezogen, den zwei anderen je ein Blatt gegeben, und nun lasen sie zurückgelehnt und rauchten. Als die Violine zu spielen begann, wurden sie aufmerksam, erhoben sich und gingen auf den Fußspitzen zur Vorzimmertür, in der sie aneinandergedrängt stehen blieben.",
+      "en": "That very evening – Gregor couldn't remember hearing the violin during the whole time – it rang out from the kitchen. The lodgers had already finished their supper; the middle one had taken out a newspaper and given the other two a page each, and now they sat leaning back, reading and smoking. When the violin began to play, they took notice, got up and went on tiptoe to the door to the hall, where they stood huddled together.",
+      "explain_en": "The family now rents a room to three lodgers – Kafka calls them 'die Zimmerherren', an old word; today 'die Untermieter'. 'gerade an diesem Abend' = that very evening. 'ertönen' = to ring out, to sound. 'je ein Blatt' = one page each. 'auf den Fußspitzen' = on tiptoe; today 'auf Zehenspitzen'.",
+      "words": [
+        {
+          "de": "der Untermieter, die Untermieter",
+          "en": "lodger, subtenant",
+          "note": "Kafka: der Zimmerherr"
+        },
+        {
+          "de": "die Küche, die Küchen",
+          "en": "kitchen"
+        },
+        {
+          "de": "rauchen",
+          "en": "to smoke"
+        },
+        {
+          "de": "auf Zehenspitzen",
+          "en": "on tiptoe",
+          "note": "Kafka: auf den Fußspitzen"
+        },
+        {
+          "de": "sich erheben",
+          "en": "to get up, to rise"
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "de": "Man musste sie von der Küche aus gehört haben, denn der Vater rief: »Ist den Herren das Spiel vielleicht unangenehm? Es kann sofort eingestellt werden.« »Im Gegenteil«, sagte der mittlere der Herren, »möchte das Fräulein nicht zu uns hereinkommen und hier im Zimmer spielen, wo es doch viel bequemer und gemütlicher ist?« »O bitte«, rief der Vater, als sei er der Violinspieler. Die Herren traten ins Zimmer zurück und warteten. Bald kam der Vater mit dem Notenpult, die Mutter mit den Noten und die Schwester mit der Violine.",
+      "en": "They must have been heard from the kitchen, because the father called: 'Do the gentlemen perhaps find the playing unpleasant? It can be stopped at once.' 'On the contrary,' said the middle gentleman, 'wouldn't the young lady like to come in and play here in this room, where it's so much more comfortable and cosy?' 'Oh, please!' called the father, as if he were the violinist. The gentlemen went back into the room and waited. Soon the father came with the music stand, the mother with the sheet music and the sister with the violin.",
+      "explain_en": "The parents are painfully polite to their paying guests. 'Man musste sie gehört haben' = they must have been heard. 'einstellen' here means to stop (it can also mean to hire or to adjust). 'Im Gegenteil' = on the contrary. 'das Fräulein' = Miss, young lady – today it's old-fashioned and people avoid it. 'die Noten' = sheet music.",
+      "words": [
+        {
+          "de": "unangenehm",
+          "en": "unpleasant"
+        },
+        {
+          "de": "im Gegenteil",
+          "en": "on the contrary"
+        },
+        {
+          "de": "bequem",
+          "en": "comfortable"
+        },
+        {
+          "de": "gemütlich",
+          "en": "cosy"
+        },
+        {
+          "de": "das Notenpult, die Notenpulte",
+          "en": "music stand"
+        },
+        {
+          "de": "die Noten",
+          "en": "sheet music"
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "de": "Die Schwester bereitete alles ruhig zum Spiele vor; die Eltern, die niemals früher Zimmer vermietet hatten und deshalb die Höflichkeit gegen die Zimmerherren übertrieben, wagten gar nicht, sich auf ihre eigenen Sessel zu setzen; der Vater lehnte an der Tür, die rechte Hand zwischen zwei Knöpfe des geschlossenen Livreerockes gesteckt; die Mutter aber erhielt von einem Herrn einen Sessel angeboten und saß, da sie den Sessel dort ließ, wohin ihn der Herr zufällig gestellt hatte, abseits in einem Winkel.",
+      "en": "The sister calmly got everything ready to play; the parents, who had never let rooms before and so overdid their politeness towards the lodgers, didn't even dare to sit on their own chairs; the father leaned against the door, his right hand pushed between two buttons of his buttoned-up uniform coat; the mother, though, was offered a chair by one of the gentlemen and, since she left the chair where the gentleman had happened to put it, sat off to one side in a corner.",
+      "explain_en": "'vermieten' = to rent out; 'mieten' = to rent. 'übertreiben' = to exaggerate, to overdo. 'der Livreerock' is a servant's uniform coat – the father wears his work uniform even at home. 'zufällig' = by chance. 'der Winkel' = corner (also: angle); in everyday German 'die Ecke'.",
+      "words": [
+        {
+          "de": "vorbereiten",
+          "en": "to prepare"
+        },
+        {
+          "de": "vermieten",
+          "en": "to rent out, to let"
+        },
+        {
+          "de": "die Höflichkeit",
+          "en": "politeness"
+        },
+        {
+          "de": "übertreiben",
+          "en": "to exaggerate, to overdo"
+        },
+        {
+          "de": "zufällig",
+          "en": "by chance"
+        },
+        {
+          "de": "die Ecke, die Ecken",
+          "en": "corner",
+          "note": "Kafka: der Winkel"
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "de": "Die Schwester begann zu spielen; Vater und Mutter verfolgten, jeder von seiner Seite, aufmerksam die Bewegungen ihrer Hände. Gregor hatte, von dem Spiele angezogen, sich ein wenig weiter vorgewagt und war schon mit dem Kopf im Wohnzimmer. Er wunderte sich kaum darüber, dass er in letzter Zeit so wenig Rücksicht auf die andern nahm; früher war diese Rücksichtnahme sein Stolz gewesen.",
+      "en": "The sister began to play; father and mother, each from their own side, closely followed the movements of her hands. Drawn by the playing, Gregor had ventured a little further forward and already had his head in the living room. He was hardly surprised that recently he had shown so little consideration for the others; in the past this consideration had been his pride.",
+      "explain_en": "'sich vorwagen' = to venture forward. 'sich wundern über' = to be surprised at. 'die Rücksicht(nahme) auf' = consideration for. 'die andern' is a shortened form of 'die anderen'. 'der Stolz' = pride; 'stolz auf' = proud of.",
+      "words": [
+        {
+          "de": "verfolgen",
+          "en": "to follow; to pursue"
+        },
+        {
+          "de": "die Bewegung, die Bewegungen",
+          "en": "movement"
+        },
+        {
+          "de": "anziehen",
+          "en": "to attract; to put on"
+        },
+        {
+          "de": "sich wundern",
+          "en": "to be surprised"
+        },
+        {
+          "de": "die Rücksicht",
+          "en": "consideration"
+        },
+        {
+          "de": "der Stolz",
+          "en": "pride"
+        }
+      ]
+    },
+    {
+      "n": 73,
+      "de": "Und dabei hätte er gerade jetzt mehr Grund gehabt, sich zu verstecken, denn infolge des Staubes, der in seinem Zimmer überall lag und bei der kleinsten Bewegung umherflog, war auch er ganz staubbedeckt; Fäden, Haare, Speiseüberreste schleppte er auf seinem Rücken und an den Seiten mit sich herum; seine Gleichgültigkeit gegen alles war viel zu groß, als dass er sich, wie früher mehrmals während des Tages, auf den Rücken gelegt und am Teppich gescheuert hätte. Und trotz dieses Zustandes hatte er keine Scheu, ein Stück auf dem makellosen Fußboden des Wohnzimmers vorzurücken.",
+      "en": "And yet right now he would have had more reason than ever to hide: because of the dust that lay everywhere in his room and flew up at the slightest movement, he too was completely covered in dust; he dragged threads, hairs and scraps of food around with him on his back and sides; his indifference to everything was far too great for him to lie on his back and rub himself clean on the carpet, as he used to do several times a day. And despite this state he felt no shyness about moving a little way forward onto the spotless floor of the living room.",
+      "explain_en": "'der Grund' = reason. 'der Staub' = dust. 'die Gleichgültigkeit' = indifference ('gleichgültig' = indifferent). 'zu groß, als dass ...' = too great for ... to ... (followed by the subjunctive 'hätte'). 'makellos' = spotless, flawless. 'die Scheu' = shyness, timidity.",
+      "words": [
+        {
+          "de": "sich verstecken",
+          "en": "to hide"
+        },
+        {
+          "de": "der Staub",
+          "en": "dust"
+        },
+        {
+          "de": "der Faden, die Fäden",
+          "en": "thread"
+        },
+        {
+          "de": "gleichgültig",
+          "en": "indifferent"
+        },
+        {
+          "de": "der Teppich, die Teppiche",
+          "en": "carpet, rug"
+        },
+        {
+          "de": "makellos",
+          "en": "spotless, flawless"
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "type": "summary",
+      "covers": "Part III, from the lodgers' boredom with the music",
+      "en": "Nobody pays attention to Gregor. The family are completely absorbed in the music. But the lodgers, who at first stood far too close behind Grete's music stand, soon drift over to the window, heads down, talking in low voices, and puff their cigar smoke up towards the ceiling. It's obvious they are disappointed and bored, and only stay out of politeness."
+    },
+    {
+      "n": 75,
+      "de": "Und doch spielte die Schwester so schön. Ihr Gesicht war zur Seite geneigt, prüfend und traurig folgten ihre Blicke den Notenzeilen. Gregor kroch noch ein Stück vorwärts und hielt den Kopf eng an den Boden, um möglicherweise ihren Blicken begegnen zu können. War er ein Tier, da ihn Musik so ergriff? Ihm war, als zeige sich ihm der Weg zu der ersehnten unbekannten Nahrung. Er war entschlossen, bis zur Schwester vorzudringen, sie am Rock zu zupfen und ihr dadurch anzudeuten, sie möge doch mit ihrer Violine in sein Zimmer kommen, denn niemand lohnte hier das Spiel so, wie er es lohnen wollte.",
+      "en": "And yet his sister was playing so beautifully. Her face was tilted to one side, and her eyes followed the lines of music, searching and sad. Gregor crawled forward a little more and kept his head close to the floor so that he might be able to meet her eyes. Was he an animal, if music moved him so? He felt as if the way to the unknown food he longed for was being shown to him. He was determined to push forward to his sister, tug at her skirt and so let her know that she should come into his room with her violin, because nobody here appreciated her playing the way he would.",
+      "explain_en": "One of the most famous lines: 'War er ein Tier, da ihn Musik so ergriff?' – 'da' here means 'since, given that'. 'ergreifen' = to move deeply (also: to seize). 'ersehnt' = longed-for ('sich sehnen nach' = to long for). 'entschlossen' = determined. 'lohnen' here = to reward, to appreciate.",
+      "words": [
+        {
+          "de": "neigen",
+          "en": "to tilt, to incline"
+        },
+        {
+          "de": "traurig",
+          "en": "sad"
+        },
+        {
+          "de": "das Tier, die Tiere",
+          "en": "animal"
+        },
+        {
+          "de": "sich sehnen nach",
+          "en": "to long for"
+        },
+        {
+          "de": "die Nahrung",
+          "en": "food, nourishment"
+        },
+        {
+          "de": "entschlossen",
+          "en": "determined"
+        },
+        {
+          "de": "zupfen",
+          "en": "to tug, to pluck"
+        }
+      ]
+    },
+    {
+      "n": 76,
+      "type": "summary",
+      "covers": "Part III, from Gregor's daydream to the lodgers giving notice",
+      "en": "Gregor dreams of keeping his sister with him in his room and telling her that he had planned to send her to the conservatory; she would cry with emotion. Then the middle lodger spots him and points: 'Mr Samsa!' The violin stops. The father tries to push the lodgers back into their room. At the door the middle lodger stamps his foot and announces that, because of the 'disgusting conditions' in this flat and family, he is leaving at once, won't pay a penny, and may even take legal action. The other two say the same and the door slams. The father sinks into his chair; the violin slides from the mother's lap with a ringing sound. Gregor, weak and disappointed, lies still and waits."
+    },
+    {
+      "n": 77,
+      "de": "»Liebe Eltern«, sagte die Schwester und schlug zur Einleitung mit der Hand auf den Tisch, »so geht es nicht weiter. Wenn ihr das vielleicht nicht einsehet, ich sehe es ein. Ich will vor diesem Untier nicht den Namen meines Bruders aussprechen und sage daher bloß: wir müssen versuchen es loszuwerden. Wir haben das Menschenmögliche versucht, es zu pflegen und zu dulden, ich glaube, es kann uns niemand den geringsten Vorwurf machen.«",
+      "en": "'Dear parents,' said the sister, striking the table with her hand to begin, 'things can't go on like this. Maybe you don't see it, but I do. I won't say my brother's name in front of this monster, so all I'll say is: we must try to get rid of it. We've done everything humanly possible to look after it and put up with it; I don't think anyone can blame us in the slightest.'",
+      "explain_en": "The turning point: Grete, who cared for Gregor most, now calls him 'es' (it). 'So geht es nicht weiter' = things can't go on like this – very common today. 'einsehet' is an old form of 'einseht' (you realise, you see). 'das Untier' = monster, beast. 'loswerden' = to get rid of. 'jemandem einen Vorwurf machen' = to blame someone.",
+      "words": [
+        {
+          "de": "So geht es nicht weiter.",
+          "en": "Things can't go on like this."
+        },
+        {
+          "de": "einsehen",
+          "en": "to see, to realise"
+        },
+        {
+          "de": "das Untier, die Untiere",
+          "en": "monster, beast"
+        },
+        {
+          "de": "loswerden",
+          "en": "to get rid of"
+        },
+        {
+          "de": "pflegen",
+          "en": "to look after, to care for"
+        },
+        {
+          "de": "der Vorwurf, die Vorwürfe",
+          "en": "reproach, blame"
+        }
+      ]
+    },
+    {
+      "n": 78,
+      "de": "»Sie hat tausendmal recht«, sagte der Vater für sich. Die Mutter, die noch immer nicht genug Atem finden konnte, fing mit einem irrsinnigen Ausdruck der Augen dumpf in die vorgehaltene Hand zu husten an. Die Schwester eilte zur Mutter und hielt ihr die Stirn. Der Vater schien durch die Worte der Schwester auf bestimmtere Gedanken gebracht zu sein, hatte sich aufrecht gesetzt, spielte mit seiner Dienermütze zwischen den Tellern, die noch vom Nachtmahl der Zimmerherren her auf dem Tische standen, und sah bisweilen auf den stillen Gregor hin.",
+      "en": "'She's absolutely right,' the father said to himself. The mother, who still couldn't get enough breath, began to cough hollowly into her hand, which she held in front of her mouth, with a wild look in her eyes. The sister hurried to her mother and held her forehead. The sister's words seemed to have brought the father to more definite thoughts; he had sat up straight, was playing with his messenger's cap among the plates still on the table from the lodgers' supper, and every now and then looked over at the silent Gregor.",
+      "explain_en": "'tausendmal recht haben' = to be completely right. 'der Atem' = breath. 'irrsinnig' = insane, crazed (today also slang for 'extremely': 'irrsinnig teuer'). 'die Stirn' = forehead. 'bisweilen' = sometimes; old-fashioned, today 'manchmal'.",
+      "words": [
+        {
+          "de": "recht haben",
+          "en": "to be right"
+        },
+        {
+          "de": "husten",
+          "en": "to cough"
+        },
+        {
+          "de": "die Stirn, die Stirnen",
+          "en": "forehead"
+        },
+        {
+          "de": "die Mütze, die Mützen",
+          "en": "cap"
+        },
+        {
+          "de": "der Teller, die Teller",
+          "en": "plate"
+        },
+        {
+          "de": "manchmal",
+          "en": "sometimes",
+          "note": "Kafka: bisweilen"
+        }
+      ]
+    },
+    {
+      "n": 79,
+      "de": "»Wir müssen es loszuwerden suchen«, sagte die Schwester nun ausschließlich zum Vater, denn die Mutter hörte in ihrem Husten nichts, »es bringt euch noch beide um, ich sehe es kommen. Wenn man schon so schwer arbeiten muss, wie wir alle, kann man nicht noch zu Hause diese ewige Quälerei ertragen. Ich kann es auch nicht mehr.« Und sie brach so heftig in Weinen aus, dass ihre Tränen auf das Gesicht der Mutter niederflossen, von dem sie sie mit mechanischen Handbewegungen wischte.",
+      "en": "'We must try to get rid of it,' the sister now said only to her father, since her mother couldn't hear anything because of her coughing. 'It will be the death of you both, I can see it coming. When you have to work as hard as all of us do, you can't put up with this endless torment at home as well. I can't take it any more either.' And she burst into tears so violently that her tears ran down onto her mother's face, and she wiped them off with mechanical movements of her hand.",
+      "explain_en": "'es bringt euch noch beide um' = it will end up killing you both ('umbringen' = to kill). 'ertragen' = to bear, to stand. 'die Quälerei' = torment (from 'quälen'). 'Ich kann nicht mehr' = I can't take any more – very common. 'in Weinen/Tränen ausbrechen' = to burst into tears.",
+      "words": [
+        {
+          "de": "umbringen",
+          "en": "to kill"
+        },
+        {
+          "de": "ertragen",
+          "en": "to bear, to endure"
+        },
+        {
+          "de": "ewig",
+          "en": "eternal, endless"
+        },
+        {
+          "de": "die Träne, die Tränen",
+          "en": "tear"
+        },
+        {
+          "de": "in Tränen ausbrechen",
+          "en": "to burst into tears"
+        },
+        {
+          "de": "wischen",
+          "en": "to wipe"
+        }
+      ]
+    },
+    {
+      "n": 80,
+      "de": "»Kind«, sagte der Vater mitleidig und mit auffallendem Verständnis, »was sollen wir aber tun?« Die Schwester zuckte nur die Achseln zum Zeichen der Ratlosigkeit, die sie nun während des Weinens im Gegensatz zu ihrer früheren Sicherheit ergriffen hatte. »Wenn er uns verstünde«, sagte der Vater halb fragend; die Schwester schüttelte aus dem Weinen heraus heftig die Hand zum Zeichen, dass daran nicht zu denken sei. »Wenn er uns verstünde«, wiederholte der Vater und nahm durch Schließen der Augen die Überzeugung der Schwester von der Unmöglichkeit dessen in sich auf, »dann wäre vielleicht ein Übereinkommen mit ihm möglich. Aber so –«",
+      "en": "'Child,' said the father with pity and remarkable understanding, 'but what are we to do?' The sister only shrugged her shoulders to show the helplessness that had come over her while she was crying, so unlike her earlier confidence. 'If he understood us,' said the father, half asking; the sister, still crying, shook her hand hard to show that this was out of the question. 'If he understood us,' the father repeated, closing his eyes to take in the sister's conviction that this was impossible, 'then perhaps we could come to some agreement with him. But as it is –'",
+      "explain_en": "The father still says 'er' (he) – he hasn't quite given up on Gregor as a person. And the irony: Gregor understands every word. 'die Achseln zucken' is old; today 'mit den Schultern zucken' (to shrug). 'ratlos' = at a loss. 'Wenn er uns verstünde' = if he understood us – 'verstünde' is an older subjunctive; today 'verstehen würde'. 'daran ist nicht zu denken' = that's out of the question.",
+      "words": [
+        {
+          "de": "mitleidig",
+          "en": "with pity, compassionate"
+        },
+        {
+          "de": "mit den Schultern zucken",
+          "en": "to shrug",
+          "note": "Kafka: die Achseln zucken"
+        },
+        {
+          "de": "ratlos",
+          "en": "helpless, at a loss"
+        },
+        {
+          "de": "wiederholen",
+          "en": "to repeat"
+        },
+        {
+          "de": "die Überzeugung",
+          "en": "conviction"
+        },
+        {
+          "de": "möglich",
+          "en": "possible"
+        }
+      ]
+    },
+    {
+      "n": 81,
+      "de": "»Weg muss es«, rief die Schwester, »das ist das einzige Mittel, Vater. Du musst bloß den Gedanken loszuwerden suchen, dass es Gregor ist. Dass wir es so lange geglaubt haben, das ist ja unser eigentliches Unglück. Aber wie kann es denn Gregor sein? Wenn es Gregor wäre, er hätte längst eingesehen, dass ein Zusammenleben von Menschen mit einem solchen Tier nicht möglich ist, und wäre freiwillig fortgegangen. Wir hätten dann keinen Bruder, aber könnten weiterleben und sein Andenken in Ehren halten.",
+      "en": "'It has to go,' cried the sister, 'that's the only way, Father. You just have to try to get rid of the idea that it's Gregor. The fact that we believed it for so long – that's our real misfortune. But how can it be Gregor? If it were Gregor, he would have realised long ago that people can't live together with an animal like that, and he would have gone away of his own free will. Then we wouldn't have a brother, but we could go on living and honour his memory.",
+      "explain_en": "'Weg muss es' is emphatic word order for 'Es muss weg' (it has to go). 'das Mittel' = means, way (also: medicine). 'Wenn es Gregor wäre, er hätte ... eingesehen' = if it were Gregor, he would have realised – an unreal condition. 'freiwillig' = voluntarily. 'jemandes Andenken in Ehren halten' = to honour someone's memory.",
+      "words": [
+        {
+          "de": "das Mittel, die Mittel",
+          "en": "means, way; remedy"
+        },
+        {
+          "de": "das Zusammenleben",
+          "en": "living together"
+        },
+        {
+          "de": "freiwillig",
+          "en": "voluntarily, of your own free will"
+        },
+        {
+          "de": "fortgehen",
+          "en": "to go away"
+        },
+        {
+          "de": "weiterleben",
+          "en": "to go on living"
+        },
+        {
+          "de": "das Andenken",
+          "en": "memory, keepsake"
+        }
+      ]
+    },
+    {
+      "n": 82,
+      "de": "So aber verfolgt uns dieses Tier, vertreibt die Zimmerherren, will offenbar die ganze Wohnung einnehmen und uns auf der Gasse übernachten lassen. Sieh nur, Vater«, schrie sie plötzlich auf, »er fängt schon wieder an!« Und in einem für Gregor gänzlich unverständlichen Schrecken verließ die Schwester sogar die Mutter, stieß sich förmlich von ihrem Sessel ab, als wollte sie lieber die Mutter opfern, als in Gregors Nähe bleiben, und eilte hinter den Vater, der, lediglich durch ihr Benehmen erregt, auch aufstand und die Arme wie zum Schutze der Schwester vor ihr halb erhob.",
+      "en": "But as it is, this animal is persecuting us, driving away the lodgers, obviously wants to take over the whole flat and leave us to sleep in the street. Just look, Father,' she suddenly screamed, 'he's starting again!' And in a terror that Gregor couldn't understand at all, the sister even abandoned her mother, practically pushed herself away from her chair, as if she would rather sacrifice her mother than stay near Gregor, and rushed behind her father, who, alarmed only by her behaviour, also stood up and half raised his arms in front of her as if to protect her.",
+      "explain_en": "Notice that Grete slips and says 'er' (he) – part of her still sees her brother. 'vertreiben' = to drive away. 'die Gasse' = lane, street (in Austria; in Germany 'die Straße'). 'opfern' = to sacrifice. 'lediglich' = merely, only (formal).",
+      "words": [
+        {
+          "de": "vertreiben",
+          "en": "to drive away"
+        },
+        {
+          "de": "einnehmen",
+          "en": "to take over, to occupy"
+        },
+        {
+          "de": "übernachten",
+          "en": "to spend the night"
+        },
+        {
+          "de": "der Schrecken",
+          "en": "fright, terror"
+        },
+        {
+          "de": "opfern",
+          "en": "to sacrifice"
+        },
+        {
+          "de": "schützen",
+          "en": "to protect"
+        }
+      ]
+    },
+    {
+      "n": 83,
+      "type": "summary",
+      "covers": "Part III, from Gregor's slow return to the sister locking him in",
+      "en": "Gregor hadn't meant to frighten anyone; he had only started turning round to go back to his room, which looks strange because he has to help with his head. Now everyone watches him silently and sadly. Exhausted, he slowly crawls back, and nobody hurries him. At the door he turns his head once more and sees that his mother has fallen asleep. As soon as he is inside, Grete slams the door, bolts it and turns the key, calling out 'At last!' to her parents."
+    },
+    {
+      "n": 84,
+      "de": "»Und jetzt?« fragte sich Gregor und sah sich im Dunkeln um. Er machte bald die Entdeckung, dass er sich nun überhaupt nicht mehr rühren konnte. Er wunderte sich darüber nicht, eher kam es ihm unnatürlich vor, dass er sich bis jetzt tatsächlich mit diesen dünnen Beinchen hatte fortbewegen können. Im Übrigen fühlte er sich verhältnismäßig behaglich. Er hatte zwar Schmerzen im ganzen Leib, aber ihm war, als würden sie allmählich schwächer und schwächer und würden schließlich ganz vergehen.",
+      "en": "'And now?' Gregor asked himself, looking around in the dark. He soon discovered that he couldn't move at all any more. He wasn't surprised by this; if anything, it seemed unnatural to him that he had actually been able to get around on these thin little legs until now. Otherwise he felt fairly comfortable. He did have pains all over his body, but it seemed to him as if they were gradually getting weaker and weaker and would finally go away completely.",
+      "explain_en": "Gregor's last night is told very calmly. 'die Entdeckung machen, dass ...' = to discover that ... 'sich rühren' = to move, to stir. 'sich fortbewegen' = to move about, to get around. 'Im Übrigen' = apart from that, otherwise. 'allmählich' = gradually.",
+      "words": [
+        {
+          "de": "die Entdeckung, die Entdeckungen",
+          "en": "discovery"
+        },
+        {
+          "de": "sich rühren",
+          "en": "to move, to stir"
+        },
+        {
+          "de": "dünn",
+          "en": "thin"
+        },
+        {
+          "de": "der Schmerz, die Schmerzen",
+          "en": "pain"
+        },
+        {
+          "de": "allmählich",
+          "en": "gradually"
+        },
+        {
+          "de": "vergehen",
+          "en": "to pass, to go away"
+        }
+      ]
+    },
+    {
+      "n": 85,
+      "de": "Den verfaulten Apfel in seinem Rücken und die entzündete Umgebung, die ganz von weichem Staub bedeckt war, spürte er schon kaum. An seine Familie dachte er mit Rührung und Liebe zurück. Seine Meinung darüber, dass er verschwinden müsse, war womöglich noch entschiedener, als die seiner Schwester. In diesem Zustand leeren und friedlichen Nachdenkens blieb er, bis die Turmuhr die dritte Morgenstunde schlug. Den Anfang des allgemeinen Hellerwerdens draußen vor dem Fenster erlebte er noch. Dann sank sein Kopf ohne seinen Willen gänzlich nieder, und aus seinen Nüstern strömte sein letzter Atem schwach hervor.",
+      "en": "The rotten apple in his back and the inflamed area around it, all covered in soft dust, he could hardly feel any more. He thought back on his family with tenderness and love. His own opinion that he had to disappear was, if anything, even firmer than his sister's. He stayed in this state of empty and peaceful reflection until the church clock struck three in the morning. He still saw the first light beginning to grow outside the window. Then, without his willing it, his head sank all the way down, and his last breath flowed weakly from his nostrils.",
+      "explain_en": "Gregor dies peacefully, agreeing with his family that he must go. 'verfault' = rotten. 'entzündet' = inflamed. 'die Rührung' = emotion, tenderness. 'womöglich' here means 'if anything, perhaps even'. 'die Turmuhr' = a clock on a tower. 'die Nüstern' are an animal's nostrils – the word reminds us what Gregor has become.",
+      "words": [
+        {
+          "de": "spüren",
+          "en": "to feel, to sense"
+        },
+        {
+          "de": "die Liebe",
+          "en": "love"
+        },
+        {
+          "de": "die Meinung, die Meinungen",
+          "en": "opinion"
+        },
+        {
+          "de": "friedlich",
+          "en": "peaceful"
+        },
+        {
+          "de": "die Turmuhr, die Turmuhren",
+          "en": "tower clock"
+        },
+        {
+          "de": "der Atem",
+          "en": "breath"
+        }
+      ]
+    },
+    {
+      "n": 86,
+      "type": "summary",
+      "covers": "Part III, from the discovery of Gregor's body to the family's day off",
+      "en": "Early in the morning the cleaning woman finds Gregor lying still, pokes him with her broom and then loudly tells the parents that he is dead. The family come in. 'Now we can thank God,' says Mr Samsa, and they cross themselves. Grete notices how thin he had become. It is the end of March, and the window is opened to the mild air. Mr Samsa, in his uniform and arm in arm with his wife and daughter, orders the three lodgers out of the flat, and they leave meekly. The family decide to take the day off and write letters to their employers. The cleaning woman announces, grinning, that they needn't worry about getting rid of 'the thing next door' – it has all been taken care of. Mr Samsa stops her from explaining, and she leaves, offended, slamming the door."
+    },
+    {
+      "n": 87,
+      "de": "»Abends wird sie entlassen«, sagte Herr Samsa, bekam aber weder von seiner Frau noch von seiner Tochter eine Antwort, denn die Bedienerin schien ihre kaum gewonnene Ruhe wieder gestört zu haben. Sie erhoben sich, gingen zum Fenster und blieben dort, sich umschlungen haltend. Herr Samsa drehte sich in seinem Sessel nach ihnen um und beobachtete sie still ein Weilchen. Dann rief er: »Also kommt doch her. Lasst schon endlich die alten Sachen. Und nehmt auch ein wenig Rücksicht auf mich.« Gleich folgten ihm die Frauen, eilten zu ihm, liebkosten ihn und beendeten rasch ihre Briefe.",
+      "en": "'She'll be dismissed this evening,' said Mr Samsa, but he got no answer from either his wife or his daughter, because the cleaning woman seemed to have disturbed the calm they had only just found. They got up, went to the window and stayed there, holding each other. Mr Samsa turned round in his chair towards them and watched them quietly for a little while. Then he called: 'Come over here, then. Let go of the old things at last. And show me a little consideration too.' The women came to him at once, hurried over, caressed him and quickly finished their letters.",
+      "explain_en": "The family begin to move on. 'entlassen' = to dismiss, to fire. 'die Bedienerin' is an old Austrian word for a cleaning woman; today 'die Putzfrau' or 'die Reinigungskraft'. 'sich umschlungen halten' = to hold each other tight. 'Lasst die alten Sachen' = let the past be. 'liebkosen' = to caress – old-fashioned; today 'streicheln' or 'umarmen'.",
+      "words": [
+        {
+          "de": "entlassen",
+          "en": "to dismiss, to fire"
+        },
+        {
+          "de": "die Putzfrau, die Putzfrauen",
+          "en": "cleaning woman",
+          "note": "Kafka: die Bedienerin"
+        },
+        {
+          "de": "die Ruhe",
+          "en": "peace, calm"
+        },
+        {
+          "de": "beobachten",
+          "en": "to watch, to observe"
+        },
+        {
+          "de": "der Brief, die Briefe",
+          "en": "letter"
+        },
+        {
+          "de": "beenden",
+          "en": "to finish"
+        }
+      ]
+    },
+    {
+      "n": 88,
+      "de": "Dann verließen alle drei gemeinschaftlich die Wohnung, was sie schon seit Monaten nicht getan hatten, und fuhren mit der Elektrischen ins Freie vor die Stadt. Der Wagen, in dem sie allein saßen, war ganz von warmer Sonne durchschienen. Sie besprachen, bequem auf ihren Sitzen zurückgelehnt, die Aussichten für die Zukunft, und es fand sich, dass diese bei näherer Betrachtung durchaus nicht schlecht waren, denn aller drei Anstellungen waren, worüber sie einander eigentlich noch gar nicht ausgefragt hatten, überaus günstig und besonders für später vielversprechend.",
+      "en": "Then all three of them left the flat together, something they hadn't done for months, and took the tram out into the open country outside the town. The carriage, in which they were the only passengers, was full of warm sunshine. Leaning back comfortably in their seats, they talked about their prospects for the future, and it turned out that on closer inspection these weren't bad at all, for all three of their jobs – which they had never really asked each other about – were very good and especially promising for later on.",
+      "explain_en": "The final page: sunshine and hope – a shocking contrast to Gregor's dark room. 'die Elektrische' is an old word for the tram; today 'die Straßenbahn'. 'ins Freie' = out into the open air or countryside. 'die Aussichten' = prospects (also: views). 'es fand sich, dass ...' is old; today 'es stellte sich heraus, dass ...' (it turned out that ...). 'die Anstellung' = job, position.",
+      "words": [
+        {
+          "de": "gemeinsam",
+          "en": "together",
+          "note": "Kafka: gemeinschaftlich"
+        },
+        {
+          "de": "ins Freie",
+          "en": "out into the open air"
+        },
+        {
+          "de": "die Sonne",
+          "en": "sun"
+        },
+        {
+          "de": "die Zukunft",
+          "en": "future"
+        },
+        {
+          "de": "die Aussicht, die Aussichten",
+          "en": "prospect; view"
+        },
+        {
+          "de": "vielversprechend",
+          "en": "promising"
+        }
+      ]
+    },
+    {
+      "n": 89,
+      "de": "Die größte augenblickliche Besserung der Lage musste sich natürlich leicht durch einen Wohnungswechsel ergeben; sie wollten nun eine kleinere und billigere, aber besser gelegene und überhaupt praktischere Wohnung nehmen, als es die jetzige, noch von Gregor ausgesuchte war. Während sie sich so unterhielten, fiel es Herrn und Frau Samsa im Anblick ihrer immer lebhafter werdenden Tochter fast gleichzeitig ein, wie sie in der letzten Zeit trotz aller Pflege, die ihre Wangen bleich gemacht hatte, zu einem schönen und üppigen Mädchen aufgeblüht war.",
+      "en": "The biggest immediate improvement in their situation would of course come easily from moving; they now wanted to take a smaller and cheaper flat, but one that was better located and more practical in every way than the present one, which Gregor had chosen. While they were talking like this, it occurred to Mr and Mrs Samsa, almost at the same moment, as they looked at their daughter, who was growing livelier and livelier, how she had recently blossomed into a pretty, full-figured girl, despite all the caring that had made her cheeks pale.",
+      "explain_en": "'die Besserung' = improvement. 'der Wohnungswechsel' = moving flat; today 'der Umzug'. 'die jetzige' = the present one. 'einfallen' + dative = to occur to someone ('Mir fällt nichts ein' = I can't think of anything). 'die Pflege' = care, nursing – Grete's care for Gregor. 'aufblühen' = to blossom.",
+      "words": [
+        {
+          "de": "die Lage",
+          "en": "situation"
+        },
+        {
+          "de": "der Umzug, die Umzüge",
+          "en": "move (to a new home)",
+          "note": "Kafka: der Wohnungswechsel"
+        },
+        {
+          "de": "billig",
+          "en": "cheap"
+        },
+        {
+          "de": "einfallen",
+          "en": "to occur to, to come to mind"
+        },
+        {
+          "de": "die Wange, die Wangen",
+          "en": "cheek"
+        },
+        {
+          "de": "blass",
+          "en": "pale",
+          "note": "Kafka: bleich"
+        }
+      ]
+    },
+    {
+      "n": 90,
+      "de": "Stiller werdend und fast unbewusst durch Blicke sich verständigend, dachten sie daran, dass es nun Zeit sein werde, auch einen braven Mann für sie zu suchen. Und es war ihnen wie eine Bestätigung ihrer neuen Träume und guten Absichten, als am Ziele ihrer Fahrt die Tochter als Erste sich erhob und ihren jungen Körper dehnte.",
+      "en": "Growing quieter, and communicating almost unconsciously through glances, they thought that it would soon be time to find her a good husband too. And it seemed to them like a confirmation of their new dreams and good intentions when, at the end of their journey, their daughter was the first to get up and stretched her young body.",
+      "explain_en": "The last sentence of the story: the future belongs to Grete, and Gregor is already forgotten. 'sich verständigen' = to communicate, to make yourself understood. 'brav' here means good, decent (today it mostly means 'well-behaved', about children). 'die Bestätigung' = confirmation. 'als Erste' = as the first one. 'sich dehnen' = to stretch; today usually 'sich strecken'.",
+      "words": [
+        {
+          "de": "unbewusst",
+          "en": "unconsciously"
+        },
+        {
+          "de": "sich verständigen",
+          "en": "to communicate"
+        },
+        {
+          "de": "die Bestätigung",
+          "en": "confirmation"
+        },
+        {
+          "de": "das Ziel, die Ziele",
+          "en": "destination; goal"
+        },
+        {
+          "de": "sich strecken",
+          "en": "to stretch",
+          "note": "Kafka: sich dehnen"
+        },
+        {
+          "de": "brav",
+          "en": "good, well-behaved"
         }
       ]
     }

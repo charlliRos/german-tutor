@@ -6,7 +6,7 @@
   "year": 1942,
   "level": "B2",
   "source": "http://www.zeno.org/Literatur/M/Zweig,+Stefan/Werke/Schachnovelle (Zeno.org, text of Stefan Zweig: Schachnovelle, S. Fischer, Frankfurt am Main 1974; first printed Buenos Aires 1942; licence: gemeinfrei)",
-  "orthography": "modernised to current German spelling (dass, musste, Fantasie, fotografiert, zum ersten Mal, ...); wording unchanged; page numbers removed; one scan typo fixed (aufgenomen → aufgenommen).",
+  "orthography": "modernised to current German spelling (dass, musste, Fantasie, fotografiert, zum ersten Mal, ...); wording unchanged; page numbers removed; one scan typo fixed (aufgenomen → aufgenommen). Later units: same rules (dass, wusste, jedes Mal, im Voraus, mit einem Mal, irgendetwas, Auf-und-nieder-Laufen, ...).",
   "intro_en": "Stefan Zweig (1881–1942) was an Austrian writer and one of the most widely read authors in the world between the wars. He wrote 'Schachnovelle' (Chess Story) in exile in Brazil, shortly before his death. On a ship from New York to Buenos Aires, the narrator becomes fascinated by the world chess champion Czentovic – and later meets a mysterious stranger whose chess genius hides a dark story of Nazi imprisonment. It's short, gripping and one of the most-read German texts in schools; the sentences are long, so take them one clause at a time.",
   "units": [
     {
@@ -1144,6 +1144,1700 @@
           "de": "einüben",
           "en": "to practise",
           "note": "today usually: üben"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "type": "summary",
+      "covers": "From the narrator's fascination with Czentovic to his first games with McConnor",
+      "en": "For three days the narrator can't get anywhere near Czentovic, and his curiosity keeps growing: how can a man who is slow and dull in everything else be a genius at chess – a game that is part science, part art? He decides to use a hunter's trick and imitate the call of the bird he wants to catch. So he sits down in the smoking room and plays chess with his wife as bait. Soon spectators gather, and a partner turns up: McConnor, a Scottish civil engineer who got rich drilling for oil in California. McConnor is broad-shouldered, stubborn and a terrible loser – after every defeat he demands a rematch. The narrator puts up with it, hoping the games will lure the world champion to their table."
+    },
+    {
+      "n": 34,
+      "de": "Am dritten Tag gelang es und gelang doch nur halb. Sei es, dass Czentovic uns vom Promenadendeck aus durch das Bordfenster vor dem Schachbrett beobachtet oder dass er nur zufälligerweise den Smoking Room mit seiner Anwesenheit beehrte – jedenfalls trat er, sobald er uns Unberufene seine Kunst ausüben sah, unwillkürlich einen Schritt näher und warf aus dieser gemessenen Distanz einen prüfenden Blick auf unser Brett.",
+      "en": "On the third day it worked – and yet only half. Whether Czentovic had watched us sitting at the chessboard from the promenade deck through the ship's window, or whether he just happened to honour the smoking room with his presence – at any rate, as soon as he saw us unqualified people practising his art, he automatically took a step closer and, from this measured distance, cast a searching glance at our board.",
+      "explain_en": "Czentovic finally shows up. 'Sei es, dass ... oder dass ...' is a formal way of saying 'whether ... or ...'. 'beehren' (to honour) is ironic here. 'Unberufene' are people who have no business doing something. 'unwillkürlich' = involuntarily, without thinking – one of Zweig's favourite words. 'einen Blick auf etwas werfen' = to glance at something.",
+      "words": [
+        {
+          "de": "gelingen",
+          "en": "to work out, to succeed",
+          "note": "es gelingt mir = I manage"
+        },
+        {
+          "de": "beobachten",
+          "en": "to watch, to observe"
+        },
+        {
+          "de": "zufällig",
+          "en": "by chance",
+          "note": "Zweig: zufälligerweise"
+        },
+        {
+          "de": "die Anwesenheit",
+          "en": "presence"
+        },
+        {
+          "de": "der Schritt, die Schritte",
+          "en": "step"
+        },
+        {
+          "de": "einen Blick werfen auf",
+          "en": "to glance at"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "de": "McConnor war gerade am Zuge. Und schon dieser eine Zug schien ausreichend, um Czentovic zu belehren, wie wenig ein weiteres Verfolgen unserer dilettantischen Bemühungen seines meisterlichen Interesses würdig sei. Mit derselben selbstverständlichen Geste, mit der unsereiner in einer Buchhandlung einen angebotenen schlechten Detektivroman weglegt, ohne ihn auch nur anzublättern, trat er von unserem Tische fort und verließ den Smoking Room. ›Gewogen und zu leicht befunden‹, dachte ich mir, ein bisschen verärgert durch diesen kühlen, verächtlichen Blick, und um meinem Unmut irgendwie Luft zu machen, äußerte ich zu McConnor: »Ihr Zug scheint den Meister nicht sehr begeistert zu haben.« »Welchen Meister?«",
+      "en": "It was McConnor's turn. And this one move seemed enough to teach Czentovic how little our amateurish efforts deserved any more of his masterly attention. With the same casual gesture with which people like us put down a bad detective novel in a bookshop without even flicking through it, he stepped away from our table and left the smoking room. 'Weighed and found wanting,' I thought, a little annoyed by that cool, contemptuous look, and to let off steam somehow I said to McConnor: 'Your move doesn't seem to have impressed the master much.' 'Which master?'",
+      "explain_en": "'am Zug sein' = to be someone's turn in a game – 'Du bist am Zug!' is still what you say. 'unsereiner' = people like us (colloquial). 'Gewogen und zu leicht befunden' (weighed and found too light) is a quotation from the Bible. 'seinem Unmut Luft machen' = to vent your annoyance. 'äußerte ich' = I remarked; today you'd simply say 'sagte ich'.",
+      "words": [
+        {
+          "de": "am Zug sein",
+          "en": "to be someone's turn"
+        },
+        {
+          "de": "der Zug, die Züge",
+          "en": "move (in a game); train"
+        },
+        {
+          "de": "die Geste, die Gesten",
+          "en": "gesture"
+        },
+        {
+          "de": "der Krimi, die Krimis",
+          "en": "detective story, crime novel",
+          "note": "Zweig: der Detektivroman"
+        },
+        {
+          "de": "verlassen",
+          "en": "to leave"
+        },
+        {
+          "de": "verärgert",
+          "en": "annoyed"
+        },
+        {
+          "de": "begeistern",
+          "en": "to excite, to impress"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "type": "summary",
+      "covers": "From McConnor learning who Czentovic is to his return from the deck",
+      "en": "The narrator explains that the man who just walked past was Czentovic, the world chess champion. McConnor is electrified: he has never played a world champion, except once in a simultaneous game with forty others. He wants the narrator to invite Czentovic over. The narrator refuses and adds that a world champion won't bother with 'third-rate players' like them. That hurts McConnor's pride. He asks what Czentovic looks like and storms off onto the promenade deck to find him. Ten minutes later he comes back – and he doesn't look very happy."
+    },
+    {
+      "n": 37,
+      "de": "»Sie haben recht gehabt«, antwortete er etwas verärgert. »Kein sehr angenehmer Herr. Ich stellte mich vor, erklärte ihm, wer ich sei. Er reichte mir nicht einmal die Hand. Ich versuchte, ihm auseinanderzusetzen, wie stolz und geehrt wir alle an Bord sein würden, wenn er eine Simultanpartie gegen uns spielen wollte. Aber er hielt seinen Rücken verflucht steif; es täte ihm leid, aber er habe kontraktliche Verpflichtungen gegen seinen Agenten, die ihm ausdrücklich untersagten, während seiner ganzen Tournee ohne Honorar zu spielen. Sein Minimum sei zweihundertfünfzig Dollar pro Partie.«",
+      "en": "'You were right,' he answered, somewhat annoyed. 'Not a very pleasant gentleman. I introduced myself and told him who I was. He didn't even shake my hand. I tried to explain to him how proud and honoured we would all be on board if he would play a simultaneous game against us. But he kept his back damned stiff; he said he was sorry, but he had contractual obligations to his agent that expressly forbade him to play without a fee during his whole tour. His minimum was two hundred and fifty dollars a game.'",
+      "explain_en": "McConnor reports back. Notice the subjunctive in reported speech: 'wer ich sei', 'es täte ihm leid', 'er habe', 'Sein Minimum sei' – this shows he is repeating Czentovic's words. 'recht haben' = to be right. 'jemandem die Hand reichen' = to shake hands (today: 'die Hand geben'). 'auseinandersetzen' here means 'to explain'; today it usually means 'to deal with' ('sich mit etwas auseinandersetzen'). In a 'Simultanpartie' one master plays many opponents at once.",
+      "words": [
+        {
+          "de": "recht haben",
+          "en": "to be right"
+        },
+        {
+          "de": "sich vorstellen",
+          "en": "to introduce yourself"
+        },
+        {
+          "de": "stolz",
+          "en": "proud"
+        },
+        {
+          "de": "die Verpflichtung, die Verpflichtungen",
+          "en": "obligation"
+        },
+        {
+          "de": "verbieten",
+          "en": "to forbid",
+          "note": "Zweig: untersagen"
+        },
+        {
+          "de": "das Honorar, die Honorare",
+          "en": "fee"
+        },
+        {
+          "de": "die Partie, die Partien",
+          "en": "game (of chess or cards)"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "type": "summary",
+      "covers": "From McConnor agreeing to pay the fee to the end of the first game against Czentovic",
+      "en": "The narrator laughs and assumes McConnor politely said goodbye. Not at all: McConnor has agreed to pay the 250 dollars, and the game is set for three o'clock the next afternoon. 'It's his job,' he says – he'd rather pay cash than beg for favours. The next day the little group of amateur players meets. Czentovic keeps them waiting ten minutes, doesn't introduce himself and coolly sets the rules: they will all play together against him; after each move he will wait at another table, and they must tap a glass with a spoon when they have made their move. The game ends with a total defeat for the group at the 24th move. What annoys them most is not losing, but Czentovic's arrogant manner."
+    },
+    {
+      "n": 39,
+      "de": "Er warf jedes Mal nur einen scheinbar flüchtigen Blick auf das Brett, sah an uns so lässig vorbei, als ob wir selbst tote Holzfiguren wären, und diese impertinente Geste erinnerte unwillkürlich an die, mit der man einem räudigen Hund abgewendeten Blicks einen Brocken zuwirft. Bei einiger Feinfühligkeit hätte er meiner Meinung nach uns auf Fehler aufmerksam machen können oder durch ein freundliches Wort aufmuntern.",
+      "en": "Each time he threw only a seemingly careless glance at the board and looked past us so casually, as if we ourselves were dead wooden pieces, and this impertinent gesture automatically reminded you of the way you toss a scrap to a mangy dog without looking at it. With a little tact, in my opinion, he could have pointed out our mistakes or encouraged us with a friendly word.",
+      "explain_en": "The narrator describes Czentovic's rudeness. 'als ob wir ... wären' = as if we were (subjunctive II after 'als ob'). 'abgewendeten Blicks' is an old genitive meaning 'with eyes turned away'. 'hätte ... aufmerksam machen können' = could have pointed out – past subjunctive with a modal verb. 'jemanden auf etwas aufmerksam machen' = to draw someone's attention to something. 'aufmuntern' = to cheer someone up.",
+      "words": [
+        {
+          "de": "flüchtig",
+          "en": "quick, fleeting"
+        },
+        {
+          "de": "lässig",
+          "en": "casual, relaxed"
+        },
+        {
+          "de": "erinnern an",
+          "en": "to remind of"
+        },
+        {
+          "de": "der Fehler, die Fehler",
+          "en": "mistake"
+        },
+        {
+          "de": "meiner Meinung nach",
+          "en": "in my opinion"
+        },
+        {
+          "de": "aufmuntern",
+          "en": "to cheer up, to encourage"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "de": "Aber auch nach Beendigung der Partie äußerte dieser unmenschliche Schachautomat keine Silbe, sondern wartete, nachdem er »Matt« gesagt, regungslos vor dem Tische, ob man noch eine zweite Partie von ihm wünsche. Schon war ich aufgestanden, um hilflos, wie man immer gegen dickfellige Grobheit bleibt, durch eine Geste anzudeuten, dass mit diesem erledigten Dollargeschäft wenigstens meinerseits das Vergnügen unserer Bekanntschaft beendet sei, als zu meinem Ärger neben mir McConnor mit ganz heiserer Stimme sagte: »Revanche!«",
+      "en": "But even after the game was over, this inhuman chess machine didn't utter a syllable; having said 'Mate', he simply waited motionless at the table to see whether anyone wanted a second game from him. I had already stood up – helpless, as you always are against thick-skinned rudeness – to show with a gesture that, with this dollar deal done, the pleasure of our acquaintance was over, at least as far as I was concerned, when, to my annoyance, McConnor next to me said in a very hoarse voice: 'Rematch!'",
+      "explain_en": "'nach Beendigung der Partie' = after the end of the game (formal). 'nachdem er »Matt« gesagt' leaves out 'hatte' – Zweig often drops the helping verb at the end of a clause; today you'd write 'gesagt hatte'. 'matt' = checkmate, 'Schach' = check. 'meinerseits' = on my part. 'dickfellig' = thick-skinned. 'Revanche' is French for a return match and is still normal German: 'Ich will Revanche!'",
+      "words": [
+        {
+          "de": "das Ende",
+          "en": "end",
+          "note": "Zweig: die Beendigung"
+        },
+        {
+          "de": "die Silbe, die Silben",
+          "en": "syllable"
+        },
+        {
+          "de": "regungslos",
+          "en": "motionless"
+        },
+        {
+          "de": "aufstehen",
+          "en": "to stand up, to get up"
+        },
+        {
+          "de": "die Bekanntschaft, die Bekanntschaften",
+          "en": "acquaintance"
+        },
+        {
+          "de": "heiser",
+          "en": "hoarse"
+        },
+        {
+          "de": "die Revanche",
+          "en": "rematch, revenge"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "type": "summary",
+      "covers": "From McConnor's demand for a rematch to the middle of the second game",
+      "en": "The narrator is alarmed: McConnor looks like a boxer about to punch, red in the face, like a gambler at the roulette table who keeps losing. He will keep playing, whatever it costs, until he wins at least one game – a gold mine for Czentovic. Czentovic calmly agrees: 'Please. The gentlemen will play Black now.' The second game attracts more spectators, and McConnor's fierce will to win spreads to the whole group. Every move is now discussed passionately before they tap the glass to call Czentovic back."
+    },
+    {
+      "n": 42,
+      "de": "Allmählich waren wir beim siebzehnten Zuge angelangt, und zu unserer eigenen Überraschung war eine Konstellation eingetreten, die verblüffend vorteilhaft schien, weil es uns gelungen war, den Bauern der c-Linie bis auf das vorletzte Feld c2 zu bringen; wir brauchten ihn nur vorzuschieben auf c1, um eine neue Dame zu gewinnen. Ganz behaglich war uns freilich nicht bei dieser allzu offenkundigen Chance; wir argwöhnten einmütig, dieser scheinbar von uns errungene Vorteil müsse von Czentovic, der doch die Situation viel weitblickender übersah, mit Absicht uns als Angelhaken zugeschoben sein. Aber trotz angestrengtem gemeinsamem Suchen und Diskutieren vermochten wir die versteckte Finte nicht wahrzunehmen.",
+      "en": "Gradually we had got to the seventeenth move, and to our own surprise a position had come about that looked amazingly good for us, because we had managed to get the pawn on the c-file to the second-to-last square, c2; we only needed to push it on to c1 to win a new queen. Of course, we didn't feel entirely comfortable with this all-too-obvious chance; we all suspected that this advantage we seemed to have won must have been slipped to us on purpose, like a fishhook, by Czentovic, who could see much further ahead. But in spite of searching and discussing hard together, we couldn't spot the hidden trick.",
+      "explain_en": "Chess words: 'der Bauer' = pawn (it also means farmer!), 'die Dame' = queen, 'das Feld' = square, 'der Zug' = move. A pawn that reaches the last row becomes a queen. 'es gelang uns' = we managed. 'argwöhnen' is old-fashioned for 'to suspect' – today 'vermuten' or 'misstrauisch sein'. 'freilich' = admittedly, of course (today mostly southern German/Austrian). 'vermochten wir nicht' = we weren't able to (today 'konnten wir nicht').",
+      "words": [
+        {
+          "de": "der Bauer, die Bauern",
+          "en": "pawn; farmer"
+        },
+        {
+          "de": "die Dame, die Damen",
+          "en": "queen (chess); lady"
+        },
+        {
+          "de": "das Feld, die Felder",
+          "en": "square (on a board); field"
+        },
+        {
+          "de": "der Vorteil, die Vorteile",
+          "en": "advantage"
+        },
+        {
+          "de": "vermuten",
+          "en": "to suspect, to assume",
+          "note": "Zweig: argwöhnen"
+        },
+        {
+          "de": "mit Absicht",
+          "en": "on purpose"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "de": "Schließlich, schon knapp am Rande der verstatteten Überlegungsfrist, entschlossen wir uns, den Zug zu wagen. Schon rührte McConnor den Bauern an, um ihn auf das letzte Feld zu schieben, als er sich jäh am Arm gepackt fühlte und jemand leise und heftig flüsterte: »Um Gottes willen! Nicht!« Unwillkürlich wandten wir uns alle um. Ein Herr von etwa fünfundvierzig Jahren, dessen schmales, scharfes Gesicht mir schon vordem auf der Deckpromenade durch seine merkwürdige, fast kreidige Blässe aufgefallen war, musste in den letzten Minuten, indes wir unsere ganze Aufmerksamkeit dem Problem zuwandten, zu uns getreten sein. Hastig fügte er, unsern Blick spürend, hinzu:",
+      "en": "Finally, right at the very end of the permitted thinking time, we decided to risk the move. McConnor was already touching the pawn to push it onto the last square when he felt himself suddenly grabbed by the arm and someone whispered, quietly and urgently: 'For God's sake! Don't!' Without thinking, we all turned round. A gentleman of about forty-five, whose narrow, sharp face I had already noticed on the promenade deck because of its strange, almost chalk-white paleness, must have joined us in the last few minutes while we were giving the problem all our attention. Feeling our eyes on him, he quickly added:",
+      "explain_en": "The mysterious stranger appears. 'sich entschließen' = to decide. 'wagen' = to risk, to dare. 'jäh' is literary for 'plötzlich' (suddenly). 'Um Gottes willen!' = For God's sake! – still very common. 'musste ... getreten sein' = must have stepped: 'müssen' + perfect infinitive is a logical guess about the past. 'indes' is old for 'während' (while), and 'verstattet' is old for 'erlaubt' (allowed).",
+      "words": [
+        {
+          "de": "sich entschließen",
+          "en": "to decide"
+        },
+        {
+          "de": "wagen",
+          "en": "to risk, to dare"
+        },
+        {
+          "de": "flüstern",
+          "en": "to whisper"
+        },
+        {
+          "de": "Um Gottes willen!",
+          "en": "For God's sake!"
+        },
+        {
+          "de": "sich umdrehen",
+          "en": "to turn round",
+          "note": "Zweig: sich umwenden"
+        },
+        {
+          "de": "auffallen",
+          "en": "to be noticed, to strike"
+        },
+        {
+          "de": "hinzufügen",
+          "en": "to add"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "type": "summary",
+      "covers": "From the stranger's warning to the end of the second game",
+      "en": "The stranger explains quickly: if they make a new queen now, Czentovic will take it and win within ten moves – it's almost the same position as in a famous 1922 game between the chess masters Alekhine and Bogoljubov. Amazed, McConnor follows his advice move by move. Czentovic notices that someone new is resisting him and looks up at the group – and for the first time he sits down to think. After a long back-and-forth between the stranger and the champion, Czentovic announces: 'Remis' – a draw. For a moment there is total silence; McConnor sighs with delight. Czentovic, a little paler than before, calmly clears the pieces off the board and asks: 'Would the gentlemen like a third game?'"
+    },
+    {
+      "n": 45,
+      "de": "Er stellte die Frage rein sachlich, rein geschäftlich. Aber das Merkwürdige war, er hatte dabei nicht McConnor angeblickt, sondern scharf und gerade das Auge gegen unseren Retter erhoben. Wie ein Pferd am festeren Sitz einen neuen, einen besseren Reiter, musste er an den letzten Zügen seinen wirklichen, seinen eigentlichen Gegner erkannt haben. Unwillkürlich folgten wir seinem Blick und sahen gespannt auf den Fremden. Jedoch ehe dieser sich besinnen oder gar antworten konnte, hatte in seiner ehrgeizigen Erregung McConnor schon triumphierend ihm zugerufen:",
+      "en": "He asked the question in a purely matter-of-fact, purely businesslike way. But the strange thing was that he wasn't looking at McConnor as he did so; he had raised his eyes sharply and straight at our rescuer. Just as a horse recognises a new, better rider by his firmer seat, he must have recognised his real, his true opponent from those last moves. Without thinking, we followed his gaze and looked at the stranger in suspense. But before the stranger could collect himself, let alone answer, McConnor, in his ambitious excitement, had already called out to him triumphantly:",
+      "explain_en": "Czentovic has noticed who his real opponent is. 'sachlich' = objective, matter-of-fact. 'Das Merkwürdige war' = the strange thing was (an adjective used as a noun). In 'ehe dieser sich besinnen konnte', 'dieser' means 'the latter', i.e. the stranger. 'sich besinnen' = to collect your thoughts (today 'sich fassen' or 'nachdenken'). 'oder gar' = let alone.",
+      "words": [
+        {
+          "de": "sachlich",
+          "en": "matter-of-fact, objective"
+        },
+        {
+          "de": "merkwürdig",
+          "en": "strange, odd"
+        },
+        {
+          "de": "der Gegner, die Gegner",
+          "en": "opponent"
+        },
+        {
+          "de": "erkennen",
+          "en": "to recognise"
+        },
+        {
+          "de": "der Fremde, die Fremden",
+          "en": "stranger",
+          "note": "adjective noun: ein Fremder"
+        },
+        {
+          "de": "gespannt",
+          "en": "in suspense, eager"
+        },
+        {
+          "de": "ehrgeizig",
+          "en": "ambitious"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "de": "»Selbstverständlich! Aber jetzt müssen Sie allein gegen ihn spielen! Sie allein gegen Czentovic!« Doch nun ereignete sich etwas Unvorhergesehenes. Der Fremde, der merkwürdigerweise noch immer angestrengt auf das schon abgeräumte Schachbrett starrte, schrak auf, da er alle Blicke auf sich gerichtet und sich so begeistert angesprochen fühlte. Seine Züge verwirrten sich.",
+      "en": "'Of course! But now you must play against him on your own! You alone against Czentovic!' But now something unexpected happened. The stranger, who oddly enough was still staring hard at the chessboard, although it had already been cleared, gave a start when he felt all eyes on him and found himself addressed so enthusiastically. His features became confused.",
+      "explain_en": "'sich ereignen' = to happen (formal; everyday: 'passieren'). 'etwas Unvorhergesehenes' = something unforeseen – after 'etwas', an adjective becomes a noun with a capital letter. 'aufschrecken' (past: 'schrak auf') = to jump with fright. 'Seine Züge verwirrten sich' – here 'Züge' means facial features, not chess moves: a nice double meaning.",
+      "words": [
+        {
+          "de": "selbstverständlich",
+          "en": "of course"
+        },
+        {
+          "de": "sich ereignen",
+          "en": "to happen",
+          "note": "everyday: passieren"
+        },
+        {
+          "de": "merkwürdigerweise",
+          "en": "oddly enough"
+        },
+        {
+          "de": "starren",
+          "en": "to stare"
+        },
+        {
+          "de": "aufschrecken",
+          "en": "to start, to jump with fright"
+        },
+        {
+          "de": "die Gesichtszüge",
+          "en": "facial features",
+          "note": "plural"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "de": "»Auf keinen Fall, meine Herren«, stammelte er sichtlich betroffen. »Das ist völlig ausgeschlossen... ich komme gar nicht in Betracht ... ich habe seit zwanzig, nein, fünfundzwanzig Jahren vor keinem Schachbrett gesessen ... und ich sehe erst jetzt, wie ungehörig ich mich betragen habe, indem ich mich ohne Ihre Verstattung in Ihr Spiel einmengte ... Bitte, entschuldigen Sie meine Vordringlichkeit ... ich will gewiss nicht weiter stören.« Und noch ehe wir uns von unserer Überraschung zurechtfanden, hatte er sich bereits zurückgezogen und das Zimmer verlassen.",
+      "en": "'Certainly not, gentlemen,' he stammered, visibly upset. 'That is completely out of the question... I'm not a candidate at all... I haven't sat at a chessboard for twenty, no, twenty-five years... and only now do I see how improperly I have behaved, interfering in your game without your permission... Please excuse my pushiness... I really don't want to disturb you any further.' And before we had even recovered from our surprise, he had already withdrawn and left the room.",
+      "explain_en": "'Auf keinen Fall' = certainly not, no way – very common. 'ausgeschlossen' = out of the question. 'in Betracht kommen' = to be considered. 'seit ... Jahren' shows how long something has (not) happened: 'Ich habe seit Jahren nicht gespielt' = I haven't played for years. 'sich betragen' is old for 'sich benehmen' (to behave), 'sich einmengen' is old/Austrian for 'sich einmischen' (to interfere), and 'Verstattung' is an archaic word for 'Erlaubnis' (permission).",
+      "words": [
+        {
+          "de": "auf keinen Fall",
+          "en": "certainly not, no way"
+        },
+        {
+          "de": "stammeln",
+          "en": "to stammer"
+        },
+        {
+          "de": "ausgeschlossen",
+          "en": "out of the question"
+        },
+        {
+          "de": "sich benehmen",
+          "en": "to behave",
+          "note": "Zweig: sich betragen"
+        },
+        {
+          "de": "sich einmischen",
+          "en": "to interfere",
+          "note": "Zweig: sich einmengen"
+        },
+        {
+          "de": "die Erlaubnis",
+          "en": "permission",
+          "note": "Zweig: die Verstattung"
+        },
+        {
+          "de": "stören",
+          "en": "to disturb"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "type": "summary",
+      "covers": "From the stranger's hasty exit to his agreement to play Czentovic",
+      "en": "McConnor bangs the table: nobody who hasn't played for 25 years could calculate so many moves ahead! Czentovic coolly claims he gave the stranger a chance on purpose, and offers another game the next day at three. Nobody believes him, and now the whole group is desperate to see the proud champion beaten. The steward says the stranger is Austrian, so the narrator, also Austrian, is sent to ask him. He finds him on a deck chair: a pale man with snow-white hair who doesn't seem old. He belongs to an old Viennese family; the narrator calls him Dr. B. Dr. B. is shaken to hear that his opponent was the world champion. He agrees to play one game, but insists he hasn't touched a chess piece since school. The narrator asks how he can know the masters' games so well."
+    },
+    {
+      "n": 49,
+      "de": "»Viel beschäftigt! – Weiß Gott, das kann man wohl sagen, dass ich mich mit Schach viel beschäftigt habe. Aber das geschah unter ganz besonderen, ja völlig einmaligen Umständen. Es war dies eine ziemlich komplizierte Geschichte, und sie könnte allenfalls als kleiner Beitrag gelten zu unserer lieblichen großen Zeit. Wenn Sie eine halbe Stunde Geduld haben...« Er hatte auf den Deckchair neben sich gedeutet. Gerne folgte ich seiner Einladung. Wir waren ohne Nachbarn. Dr. B. nahm die Lesebrille von den Augen, legte sie zur Seite und begann:",
+      "en": "'Spent time on it! – God knows, you can certainly say that I've spent a lot of time on chess. But that happened under very special, indeed quite unique circumstances. It's a rather complicated story, and it might count as a small contribution to our lovely great age. If you have half an hour's patience...' He had pointed to the deck chair next to him. I gladly accepted his invitation. There was nobody near us. Dr. B. took off his reading glasses, put them aside and began:",
+      "explain_en": "The narrator has asked how Dr. B. knows so much about chess. 'sich mit etwas beschäftigen' = to spend time on, to be busy with something. 'Weiß Gott' = God knows. 'unsere liebliche große Zeit' is bitter irony: he means the terrible age of Nazism and war. 'auf etwas deuten' = to point at something (today 'auf etwas zeigen'). 'die Brille' (glasses) is singular in German.",
+      "words": [
+        {
+          "de": "sich beschäftigen mit",
+          "en": "to spend time on, to deal with"
+        },
+        {
+          "de": "der Umstand, die Umstände",
+          "en": "circumstance"
+        },
+        {
+          "de": "die Geschichte, die Geschichten",
+          "en": "story; history"
+        },
+        {
+          "de": "die Geduld",
+          "en": "patience"
+        },
+        {
+          "de": "die Einladung, die Einladungen",
+          "en": "invitation"
+        },
+        {
+          "de": "die Brille, die Brillen",
+          "en": "glasses"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "type": "summary",
+      "covers": "Dr. B.'s story: from his work as a lawyer to his arrest",
+      "en": "Dr. B. begins his story. He was a lawyer in Vienna and ran a quiet office with his father. They looked after the money of large Catholic monasteries and of members of the former Austrian imperial family, and when Hitler came to power in Germany they helped protect these assets from the Nazis. But a clerk in their office was secretly working for the Nazis and spied on them. In March 1938, on the evening the Austrian chancellor resigned and just before Hitler marched into Vienna, SS men arrested Dr. B. He had just managed to burn the most important papers and to send the rest to his uncle, hidden in a laundry basket carried by his housekeeper. As Dr. B. lights a cigar, the narrator notices a nervous twitch at the corner of his mouth."
+    },
+    {
+      "n": 51,
+      "de": "»Sie vermuten nun wahrscheinlich, dass ich Ihnen jetzt vom Konzentrationslager erzählen werde, in das doch alle jene übergeführt wurden, die unserem alten Österreich die Treue gehalten, von den Erniedrigungen, Martern, Torturen, die ich dort erlitten. Aber nichts dergleichen geschah. Ich kam in eine andere Kategorie. Ich wurde nicht zu jenen Unglücklichen getrieben, an denen man mit körperlichen und seelischen Erniedrigungen ein lang aufgespartes Ressentiment austobte, sondern jener anderen, ganz kleinen Gruppe zugeteilt, aus der die Nationalsozialisten entweder Geld oder wichtige Informationen herauszupressen hofften.",
+      "en": "'You probably assume now that I'm going to tell you about the concentration camp to which all those who had stayed loyal to our old Austria were taken, and about the humiliations, torments and tortures I suffered there. But nothing of the kind happened. I was put into a different category. I was not driven in with those unfortunate people on whom a long-stored-up resentment was let loose through physical and mental humiliation; instead I was put in that other, very small group from whom the National Socialists hoped to squeeze either money or important information.",
+      "explain_en": "Dr. B. starts telling how he was imprisoned by the Nazis after they took over Austria in 1938. 'vermuten' = to assume. 'jemandem die Treue halten' = to stay loyal to someone. Zweig again leaves out the helping verbs: 'die Treue gehalten' = 'gehalten hatten', 'die ich dort erlitten' = 'erlitten hätte'. 'nichts dergleichen' = nothing of the kind. 'herauspressen' = to squeeze out (compare 'erpressen' = to blackmail).",
+      "words": [
+        {
+          "de": "vermuten",
+          "en": "to assume, to suspect"
+        },
+        {
+          "de": "das Konzentrationslager, die Konzentrationslager",
+          "en": "concentration camp",
+          "note": "short: das KZ"
+        },
+        {
+          "de": "die Treue",
+          "en": "loyalty"
+        },
+        {
+          "de": "die Erniedrigung, die Erniedrigungen",
+          "en": "humiliation"
+        },
+        {
+          "de": "geschehen",
+          "en": "to happen"
+        },
+        {
+          "de": "die Information, die Informationen",
+          "en": "information"
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "type": "summary",
+      "covers": "Dr. B.'s story: the Hotel Metropole",
+      "en": "Prisoners like Dr. B., from whom the Nazis wanted money or secrets, were given 'special treatment'. They were not sent to camps but held in separate rooms of the Hotel Metropole in Vienna, which was the headquarters of the Gestapo, the Nazi secret police. A private hotel room sounds almost comfortable, Dr. B. says – but the idea was not to be kinder, only more cunning. The pressure was not supposed to come from beatings, but from total isolation."
+    },
+    {
+      "n": 53,
+      "de": "Man tat uns nichts – man stellte uns nur in das vollkommene Nichts, denn bekanntlich erzeugt kein Ding auf Erden einen solchen Druck auf die menschliche Seele wie das Nichts. Indem man uns jeden einzeln in ein völliges Vakuum sperrte, in ein Zimmer, das hermetisch von der Außenwelt abgeschlossen war, sollte, statt von außen durch Prügel und Kälte, jener Druck von innen erzeugt werden, der uns schließlich die Lippen aufsprengte. Auf den ersten Blick sah das mir angewiesene Zimmer durchaus nicht unbehaglich aus. Es hatte eine Tür, ein Bett, einen Sessel, eine Waschschüssel, ein vergittertes Fenster.",
+      "en": "They did nothing to us – they just put us into complete nothingness, because, as everyone knows, nothing on earth puts such pressure on the human soul as nothingness. By locking each of us up alone in a total vacuum, in a room hermetically sealed off from the outside world, the pressure was meant to come not from outside, through beatings and cold, but from inside – the pressure that would finally force our lips open. At first sight, the room I was given didn't look uncomfortable at all. It had a door, a bed, a chair, a washbasin, a barred window.",
+      "explain_en": "This is the key idea of the book: torture through 'das Nichts' (nothingness). With a capital N, 'Nichts' is a noun. 'bekanntlich' = as everyone knows. 'Indem man ...' = by doing ... – 'indem' tells you how something is done. 'die Prügel' (plural) = a beating. 'unbehaglich' = uncomfortable, uneasy. In Austria 'der Sessel' means a chair; in Germany it's an armchair.",
+      "words": [
+        {
+          "de": "das Nichts",
+          "en": "nothingness"
+        },
+        {
+          "de": "der Druck",
+          "en": "pressure"
+        },
+        {
+          "de": "die Seele, die Seelen",
+          "en": "soul"
+        },
+        {
+          "de": "einsperren",
+          "en": "to lock up"
+        },
+        {
+          "de": "die Außenwelt",
+          "en": "outside world"
+        },
+        {
+          "de": "unbehaglich",
+          "en": "uncomfortable, uneasy"
+        },
+        {
+          "de": "das Fenster, die Fenster",
+          "en": "window"
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "de": "Aber die Tür blieb Tag und Nacht verschlossen, auf dem Tisch durfte kein Buch, keine Zeitung, kein Blatt Papier, kein Bleistift liegen, das Fenster starrte eine Feuermauer an; rings um mein Ich und selbst an meinem eigenen Körper war das vollkommene Nichts konstruiert. Man hatte mir jeden Gegenstand abgenommen, die Uhr, damit ich nicht wisse um die Zeit, den Bleistift, dass ich nicht etwa schreiben könne, das Messer, damit ich mir nicht die Adern öffnen könne; selbst die kleinste Betäubung wie eine Zigarette wurde mir versagt.",
+      "en": "But the door stayed locked day and night; no book, no newspaper, no sheet of paper, no pencil was allowed on the table; the window stared at a blank wall; all around me, and even on my own body, complete nothingness had been built. They had taken every object away from me: my watch, so that I wouldn't know the time; my pencil, so that I couldn't write; my knife, so that I couldn't harm myself; even the smallest comfort, like a cigarette, was denied me.",
+      "explain_en": "'Feuermauer' is Austrian for a windowless side wall of a building (in Germany: 'Brandmauer'). 'damit' = so that: 'damit ich nicht wisse um die Zeit' uses an old subjunctive; today 'damit ich die Zeit nicht wüsste'. 'jemandem etwas abnehmen' = to take something away from someone. 'versagen' here means 'to deny' (today 'verweigern'); normally 'versagen' means 'to fail'. 'die Adern öffnen' refers to hurting oneself – the guards wanted to prevent that.",
+      "words": [
+        {
+          "de": "verschlossen",
+          "en": "locked"
+        },
+        {
+          "de": "die Zeitung, die Zeitungen",
+          "en": "newspaper"
+        },
+        {
+          "de": "der Bleistift, die Bleistifte",
+          "en": "pencil"
+        },
+        {
+          "de": "der Gegenstand, die Gegenstände",
+          "en": "object"
+        },
+        {
+          "de": "abnehmen",
+          "en": "to take away; to lose weight"
+        },
+        {
+          "de": "verweigern",
+          "en": "to refuse, to deny",
+          "note": "Zweig: versagen"
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "type": "summary",
+      "covers": "Dr. B.'s story: from the months of isolation to the waiting room on 27 July",
+      "en": "Nobody spoke to him; the guard was not allowed to say a word. With nothing to see, hear or do, his thoughts went round in circles. After two weeks the interrogations began. He never knew how much the Gestapo already knew, so every answer was dangerous. Even worse was going back to the empty room, where he replayed every question in his head, day and night. He tried reciting poems and doing sums, but couldn't concentrate. This went on for four months, and he felt his mind beginning to crack; one evening he almost shouted that he would tell them everything. Then, on 27 July, he was made to stand for two hours in a waiting room. Starved of anything new to look at, he stared at the guards' wet coats hanging there, counting their buttons and watching a raindrop."
+    },
+    {
+      "n": 56,
+      "de": "Und plötzlich blieb mein Blick starr an etwas haften. Ich hatte entdeckt, dass an einem der Mäntel die Seitentasche etwas aufgebauscht war. Ich trat näher heran und glaubte an der rechteckigen Form der Ausbuchtung zu erkennen, was diese etwas geschwellte Tasche in sich barg: ein Buch! Mir begannen die Knie zu zittern: ein BUCH! Vier Monate lang hatte ich kein Buch in der Hand gehabt, und schon die bloße Vorstellung eines Buches, in dem man aneinandergereihte Worte sehen konnte, Zeilen, Seiten und Blätter, eines Buches, aus dem man andere, neue, fremde, ablenkende Gedanken lesen, verfolgen, sich ins Hirn nehmen könnte, hatte etwas Berauschendes und gleichzeitig Betäubendes.",
+      "en": "And suddenly my eyes stuck fast on something. I had discovered that the side pocket of one of the coats was bulging a little. I stepped closer and, from the rectangular shape of the bulge, thought I could tell what this slightly swollen pocket was hiding: a book! My knees began to tremble: a BOOK! For four months I hadn't held a book in my hands, and the mere idea of a book in which you could see words lined up, lines, pages and leaves, a book from which you could read, follow and take into your mind other, new, strange, distracting thoughts, was intoxicating and dizzying at the same time.",
+      "explain_en": "This is the turning point of Dr. B.'s story. 'an etwas haften bleiben' = to stick to something. 'bergen' (past: 'barg') = to hide, to contain – literary. 'Mir begannen die Knie zu zittern' – German often uses the dative ('mir') with body parts where English says 'my'. 'die bloße Vorstellung' = the mere idea. 'etwas Berauschendes' = something intoxicating.",
+      "words": [
+        {
+          "de": "entdecken",
+          "en": "to discover"
+        },
+        {
+          "de": "die Tasche, die Taschen",
+          "en": "pocket; bag"
+        },
+        {
+          "de": "rechteckig",
+          "en": "rectangular"
+        },
+        {
+          "de": "das Knie, die Knie",
+          "en": "knee"
+        },
+        {
+          "de": "zittern",
+          "en": "to tremble, to shake"
+        },
+        {
+          "de": "die Zeile, die Zeilen",
+          "en": "line (of text)"
+        },
+        {
+          "de": "ablenken",
+          "en": "to distract"
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "type": "summary",
+      "covers": "Dr. B.'s story: from stealing the book to opening it in his cell",
+      "en": "Dr. B. edges closer to the coat, feels the book through the cloth, and a thought hits him like a shot: steal it! With his hands behind his back he slowly pushes the book up out of the pocket and hides it under his belt. During the interrogation he can think of nothing but holding it in place; once it nearly slips out in the corridor, and he fakes a coughing fit so he can bend down and push it back. Back in his room he doesn't open it at once: first he enjoys imagining what it might be – ideally something long and difficult, like Goethe or Homer. Finally, lying on the bed so the guard can't catch him, he pulls it out with trembling hands."
+    },
+    {
+      "n": 58,
+      "de": "Der erste Blick war eine Enttäuschung und sogar eine Art erbitterter Ärger: dieses mit so ungeheurer Gefahr erbeutete, mit so glühender Erwartung aufgesparte Buch war nichts anderes als ein Schachrepetitorium, eine Sammlung von hundertfünfzig Meisterpartien. Wäre ich nicht verriegelt, verschlossen gewesen, ich hätte im ersten Zorn das Buch durch ein offenes Fenster geschleudert, denn was sollte, was konnte ich mit diesem Nonsens beginnen? Ich hatte als Knabe im Gymnasium wie die meisten anderen mich ab und zu aus Langeweile vor einem Schachbrett versucht. Aber was sollte mir dieses theoretische Zeug? Schach kann man doch nicht spielen ohne einen Partner und schon gar nicht ohne Steine, ohne Brett.",
+      "en": "The first glance was a disappointment, and even a kind of bitter anger: this book, captured at such enormous risk and saved up with such burning expectation, was nothing but a chess manual, a collection of a hundred and fifty master games. If I hadn't been bolted and locked in, I would have hurled the book out of an open window in my first rage, because what was I supposed to do, what could I do with this nonsense? As a boy at school I had, like most others, tried my hand at chess now and then out of boredom. But what use was this theoretical stuff to me? After all, you can't play chess without a partner, let alone without pieces, without a board.",
+      "explain_en": "The stolen book is a chess book! 'Wäre ich nicht ... gewesen, ich hätte ...' = If I hadn't been ..., I would have ... – past subjunctive; the verb 'wäre' comes first instead of using 'wenn'. 'nichts anderes als' = nothing but. 'das Gymnasium' is an academic secondary school, not a gym. 'der Knabe' is old for 'der Junge'. 'sich an etwas versuchen' = to try your hand at something.",
+      "words": [
+        {
+          "de": "die Enttäuschung, die Enttäuschungen",
+          "en": "disappointment"
+        },
+        {
+          "de": "der Ärger",
+          "en": "anger, annoyance"
+        },
+        {
+          "de": "die Sammlung, die Sammlungen",
+          "en": "collection"
+        },
+        {
+          "de": "werfen",
+          "en": "to throw",
+          "note": "Zweig: schleudern (to hurl)"
+        },
+        {
+          "de": "die Langeweile",
+          "en": "boredom"
+        },
+        {
+          "de": "der Junge, die Jungen",
+          "en": "boy",
+          "note": "Zweig: der Knabe"
+        },
+        {
+          "de": "das Schachbrett, die Schachbretter",
+          "en": "chessboard"
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "type": "summary",
+      "covers": "Dr. B.'s story: learning chess from the stolen book",
+      "en": "Then he has an idea: his bed sheet has a check pattern, and folded the right way it makes a board of 64 squares. He shapes chess pieces out of breadcrumbs, darkening half of them with dust, and starts replaying the games from the book. At first he keeps getting lost, but after a few weeks he no longer needs the crumbs or the sheet – he can see every position in his head and replay all 150 games blind. The games give his empty days a structure: two in the morning, two in the afternoon. His mind becomes sharp again, and he even does better in the interrogations; the Gestapo men start to look at him with a certain respect."
+    },
+    {
+      "n": 60,
+      "de": "Diese meine Glückszeit, da ich die hundertfünfzig Partien jenes Buches Tag für Tag systematisch nachspielte, dauerte etwa zweieinhalb bis drei Monate. Dann geriet ich unvermuteterweise an einen toten Punkt. Plötzlich stand ich neuerdings vor dem Nichts. Denn sobald ich jede einzelne Partie zwanzig- oder dreißigmal durchgespielt hatte, verlor sie den Reiz der Neuheit, der Überraschung, ihre vordem so aufregende, so anregende Kraft war erschöpft. Welchen Sinn hatte es, nochmals und nochmals Partien zu wiederholen, die ich Zug um Zug längst auswendig kannte? Kaum ich die erste Eröffnung getan, klöppelte sich ihr Ablauf gleichsam automatisch in mir ab, es gab keine Überraschung mehr, keine Spannungen, keine Probleme.",
+      "en": "This happy time of mine, when I systematically replayed the hundred and fifty games in that book day after day, lasted about two and a half to three months. Then, unexpectedly, I came to a standstill. Suddenly I was facing nothingness again. Because as soon as I had played through each game twenty or thirty times, it lost the charm of novelty, of surprise; its once so exciting, so stimulating power was used up. What was the point of repeating, again and again, games I had long known by heart, move by move? As soon as I had made the first opening move, the rest unwound almost automatically inside me; there were no more surprises, no tension, no problems.",
+      "explain_en": "'an einen toten Punkt geraten' = to come to a standstill. 'neuerdings' here is old/Austrian for 'again' (today it means 'recently'). 'auswendig kennen' = to know by heart. 'Welchen Sinn hatte es ...?' = What was the point ...? 'Kaum ich die erste Eröffnung getan' = hardly had I made the first move – today 'Kaum hatte ich ... gemacht'. 'klöppeln' is making lace with bobbins: the game unwound like thread.",
+      "words": [
+        {
+          "de": "dauern",
+          "en": "to last"
+        },
+        {
+          "de": "der Monat, die Monate",
+          "en": "month"
+        },
+        {
+          "de": "die Überraschung, die Überraschungen",
+          "en": "surprise"
+        },
+        {
+          "de": "wiederholen",
+          "en": "to repeat"
+        },
+        {
+          "de": "auswendig",
+          "en": "by heart"
+        },
+        {
+          "de": "die Eröffnung, die Eröffnungen",
+          "en": "opening (in chess)"
+        },
+        {
+          "de": "die Spannung, die Spannungen",
+          "en": "tension, suspense"
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "de": "Um mich zu beschäftigen, um mir die schon unentbehrlich gewordene Anstrengung und Ablenkung zu schaffen, hätte ich eigentlich ein anderes Buch mit anderen Partien gebraucht. Da dies aber vollkommen unmöglich war, gab es nur einen Weg auf dieser sonderbaren Irrbahn; ich musste mir statt der alten Partien neue erfinden. Ich musste versuchen, mit mir selbst oder vielmehr gegen mich selbst zu spielen.",
+      "en": "To keep myself busy, to give myself the effort and distraction that had already become indispensable to me, I really would have needed another book with other games. But since that was completely impossible, there was only one way forward on this strange wrong path: I had to invent new games instead of the old ones. I had to try to play with myself, or rather against myself.",
+      "explain_en": "Dr. B. decides to play chess against himself. 'hätte ... gebraucht' = would have needed (past subjunctive). 'unentbehrlich' = indispensable, essential. 'Da dies aber ... unmöglich war' – 'da' at the start of a clause means 'since, because'. 'statt' + genitive = instead of. 'vielmehr' = rather.",
+      "words": [
+        {
+          "de": "sich beschäftigen",
+          "en": "to keep yourself busy"
+        },
+        {
+          "de": "die Ablenkung, die Ablenkungen",
+          "en": "distraction"
+        },
+        {
+          "de": "unentbehrlich",
+          "en": "indispensable"
+        },
+        {
+          "de": "unmöglich",
+          "en": "impossible"
+        },
+        {
+          "de": "erfinden",
+          "en": "to invent"
+        },
+        {
+          "de": "statt",
+          "en": "instead of"
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "type": "summary",
+      "covers": "Dr. B.'s story: from playing against himself to his obsession",
+      "en": "Dr. B. explains that playing chess against yourself is really absurd: chess works because two different brains don't know each other's plans. To play both sides, your mind would have to split in two. But he had no other choice, so for months he tried to become two players, 'I-Black' and 'I-White'. Without a real board, he had to calculate several moves ahead for both sides at once. And now he was no longer a calm spectator of the masters' games: each of his two selves wanted to win and was furious at the other. He played faster and faster, one game after another – perhaps a thousand games."
+    },
+    {
+      "n": 63,
+      "de": "Aus der Spielfreude war eine Spiellust geworden, aus der Spiellust ein Spielzwang, eine Manie, eine frenetische Wut, die nicht nur meine wachen Stunden, sondern allmählich auch meinen Schlaf durchdrang. Ich konnte nur Schach denken, nur in Schachbewegungen, Schachproblemen; manchmal wachte ich mit feuchter Stirn auf und erkannte, dass ich sogar im Schlaf unbewusst weitergespielt haben musste, und wenn ich von Menschen träumte, so geschah es ausschließlich in den Bewegungen des Läufers, des Turms, im Vor- und Zurück des Rösselsprungs.",
+      "en": "The joy of playing had turned into a craving to play, the craving into a compulsion, a mania, a frenzied rage that took over not only my waking hours but gradually my sleep too. I could only think chess, only in chess moves, chess problems; sometimes I woke up with a damp forehead and realised that I must have gone on playing unconsciously even in my sleep, and when I dreamed about people, it was only in the movements of the bishop, the rook, in the back-and-forth of the knight's jump.",
+      "explain_en": "German loves compound nouns: 'Spielfreude' (joy of playing), 'Spiellust' (desire to play), 'Spielzwang' (compulsion to play) – the chain shows how an obsession grows. 'Aus A war B geworden' = A had turned into B. 'weitergespielt haben musste' = must have gone on playing. Chess pieces: 'der Läufer' (bishop), 'der Turm' (rook), 'der Springer' (knight); 'Rösselsprung' is an old word for the knight's move.",
+      "words": [
+        {
+          "de": "der Zwang, die Zwänge",
+          "en": "compulsion"
+        },
+        {
+          "de": "die Wut",
+          "en": "rage, fury"
+        },
+        {
+          "de": "der Schlaf",
+          "en": "sleep"
+        },
+        {
+          "de": "die Stirn, die Stirnen",
+          "en": "forehead"
+        },
+        {
+          "de": "träumen",
+          "en": "to dream"
+        },
+        {
+          "de": "der Läufer, die Läufer",
+          "en": "bishop (chess); runner"
+        },
+        {
+          "de": "der Turm, die Türme",
+          "en": "rook (chess); tower"
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "type": "summary",
+      "covers": "Dr. B.'s story: the 'chess poisoning'",
+      "en": "At the interrogations he could hardly think any more and only wanted to get back to his cell to play. He forgot to eat and suffered from a terrible thirst. He paced up and down faster and faster, shouting at himself 'Faster, faster!' He calls this state 'chess poisoning' (Schachvergiftung), an illness no doctor had a name for. His body grew weak and his hands shook, but as soon as a game began a wild energy took hold of him, and he sometimes heard his own voice hoarsely screaming 'Check!' or 'Mate!' at himself."
+    },
+    {
+      "n": 65,
+      "de": "Wie dieser grauenhafte, dieser unbeschreibbare Zustand zur Krise kam, vermag ich selbst nicht zu berichten. Alles, was ich darüber weiß, ist, dass ich eines Morgens aufwachte, und es war ein anderes Erwachen als sonst. Mein Körper war gleichsam abgelöst von mir, ich ruhte weich und wohlig. Eine dichte, gute Müdigkeit, wie ich sie seit Monaten nicht gekannt, lag auf meinen Lidern, lag so warm und wohltätig auf ihnen, dass ich mich zuerst gar nicht entschließen konnte, die Augen aufzutun.",
+      "en": "How this dreadful, this indescribable state came to a crisis, I can't tell you myself. All I know about it is that one morning I woke up, and it was a different kind of waking up from usual. My body seemed separate from me; I was lying softly and comfortably. A thick, good tiredness, such as I hadn't known for months, lay on my eyelids, lay on them so warmly and kindly that at first I couldn't bring myself to open my eyes.",
+      "explain_en": "Dr. B. wakes up somewhere new. 'vermag ich nicht' is formal for 'kann ich nicht'. 'Alles, was ich darüber weiß' = all I know about it. 'als sonst' = than usual. 'gleichsam' = as it were, so to speak (today 'sozusagen'). 'sich entschließen, etwas zu tun' = to make up your mind to do something. 'auftun' = to open (today 'aufmachen' or 'öffnen').",
+      "words": [
+        {
+          "de": "der Zustand, die Zustände",
+          "en": "state, condition"
+        },
+        {
+          "de": "aufwachen",
+          "en": "to wake up"
+        },
+        {
+          "de": "sonst",
+          "en": "usually; otherwise"
+        },
+        {
+          "de": "die Müdigkeit",
+          "en": "tiredness"
+        },
+        {
+          "de": "das Lid, die Lider",
+          "en": "eyelid"
+        },
+        {
+          "de": "sozusagen",
+          "en": "so to speak",
+          "note": "Zweig: gleichsam"
+        },
+        {
+          "de": "öffnen",
+          "en": "to open",
+          "note": "Zweig: auftun"
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "de": "Minuten lag ich schon wach und genoss noch diese schwere Dumpfheit, dies laue Liegen mit wollüstig betäubten Sinnen. Auf einmal war mir, als ob ich hinter mir Stimmen hörte, lebendige menschliche Stimmen, die Worte sprachen, und Sie können sich mein Entzücken nicht ausdenken, denn ich hatte doch seit Monaten, seit bald einem Jahr keine anderen Worte gehört als die harten, scharfen und bösen von der Richterbank.",
+      "en": "I had been lying awake for minutes, still enjoying this heavy drowsiness, this warm lying-there with blissfully dulled senses. All at once it seemed to me that I could hear voices behind me, living human voices speaking words, and you can't imagine my delight, because for months, for almost a year, I hadn't heard any words except the hard, sharp and nasty ones from the judges' bench.",
+      "explain_en": "'genießen' (past: 'genoss') = to enjoy. 'Auf einmal' = suddenly, all at once. 'Mir war, als ob ...' = it seemed to me as if ... 'sich etwas ausdenken' normally means 'to invent', but here it means 'to imagine' (today 'sich etwas vorstellen'). 'seit bald einem Jahr' = for almost a year – 'bald' here means 'fast' (almost).",
+      "words": [
+        {
+          "de": "wach",
+          "en": "awake"
+        },
+        {
+          "de": "genießen",
+          "en": "to enjoy"
+        },
+        {
+          "de": "auf einmal",
+          "en": "all at once, suddenly"
+        },
+        {
+          "de": "die Stimme, die Stimmen",
+          "en": "voice"
+        },
+        {
+          "de": "lebendig",
+          "en": "living, alive"
+        },
+        {
+          "de": "sich vorstellen",
+          "en": "to imagine"
+        },
+        {
+          "de": "fast",
+          "en": "almost",
+          "note": "Zweig: bald"
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "de": "›Du träumst‹, sagte ich mir. ›Du träumst! Tu keinesfalls die Augen auf! Lass ihn noch dauern, diesen Traum, sonst siehst du wieder die verfluchte Zelle um dich, den Stuhl und den Waschtisch und den Tisch und die Tapete mit dem ewig gleichen Muster. Du träumst – träume weiter!‹",
+      "en": "'You're dreaming,' I told myself. 'You're dreaming! Whatever you do, don't open your eyes! Let it go on a little longer, this dream, or else you'll see the damned cell around you again, the chair and the washstand and the table and the wallpaper with the same old pattern. You're dreaming – keep dreaming!'",
+      "explain_en": "Dr. B. talks to himself with 'du' and imperatives: 'Tu die Augen nicht auf!', 'Lass ihn dauern', 'Träume weiter!'. 'keinesfalls' = on no account. 'sonst' = otherwise, or else. 'ewig gleich' = always the same. 'weiter-' + verb means to keep doing something: 'weiterträumen', 'weiterspielen', 'weitermachen'.",
+      "words": [
+        {
+          "de": "der Traum, die Träume",
+          "en": "dream"
+        },
+        {
+          "de": "keinesfalls",
+          "en": "on no account"
+        },
+        {
+          "de": "sonst",
+          "en": "otherwise, or else"
+        },
+        {
+          "de": "die Zelle, die Zellen",
+          "en": "cell"
+        },
+        {
+          "de": "die Tapete, die Tapeten",
+          "en": "wallpaper"
+        },
+        {
+          "de": "das Muster, die Muster",
+          "en": "pattern"
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "type": "summary",
+      "covers": "Dr. B.'s story: waking up in hospital",
+      "en": "Curiosity wins, and he opens his eyes. He is in a different room – bigger, with a window without bars, green trees outside and white walls. A nurse comes over, tells him gently to stay calm and smiles at him; after a year of hearing only harsh voices, her kindness seems like a miracle. When he tries to sit up, he finds that his right hand is wrapped in a thick bandage. Slowly he understands: he is in a hospital."
+    },
+    {
+      "n": 69,
+      "de": "Mittags kam der Arzt, ein freundlicher älterer Herr. Er kannte den Namen meiner Familie und erwähnte derart respektvoll meinen Onkel, den kaiserlichen Leibarzt, dass mich sofort das Gefühl überkam, er meine es gut mit mir. Im weiteren Verlauf richtete er allerhand Fragen an mich, vor allem eine, die mich erstaunte – ob ich Mathematiker sei oder Chemiker. Ich verneinte. ›Sonderbar‹, murmelte er. ›Im Fieber haben Sie immer so sonderbare Formeln geschrien – c3, c4. Wir haben uns alle nicht ausgekannt.‹",
+      "en": "At midday the doctor came, a friendly elderly gentleman. He knew my family's name and spoke so respectfully of my uncle, the emperor's doctor, that I immediately felt he meant well by me. Later he asked me all sorts of questions, above all one that surprised me – whether I was a mathematician or a chemist. I said no. 'Strange,' he murmured. 'In your fever you kept shouting such strange formulas – c3, c4. None of us could make sense of it.'",
+      "explain_en": "'ein älterer Herr' means an elderly man (not 'an older one'). 'es gut mit jemandem meinen' = to mean well by someone. 'verneinen' = to say no (formal). 'geschrien' is the past participle of 'schreien' (to shout, to scream). 'sich auskennen' = to know your way around; 'Wir haben uns nicht ausgekannt' is Austrian for 'we couldn't make sense of it'. And of course c3 and c4 are squares on a chessboard.",
+      "words": [
+        {
+          "de": "der Arzt, die Ärzte",
+          "en": "doctor"
+        },
+        {
+          "de": "erwähnen",
+          "en": "to mention"
+        },
+        {
+          "de": "allerlei",
+          "en": "all sorts of",
+          "note": "Zweig: allerhand"
+        },
+        {
+          "de": "das Fieber",
+          "en": "fever"
+        },
+        {
+          "de": "schreien",
+          "en": "to shout, to scream",
+          "note": "schrie, hat geschrien"
+        },
+        {
+          "de": "die Formel, die Formeln",
+          "en": "formula"
+        },
+        {
+          "de": "sich auskennen",
+          "en": "to know your way around"
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "de": "Ich erkundigte mich, was mit mir vorgegangen sei. Er lächelte merkwürdig. ›Nichts Ernstliches. Eine akute Irritation der Nerven‹, und fügte, nachdem er sich zuvor vorsichtig umgeblickt hatte, leise bei: ›Schließlich eine recht verständliche. Seit dem 13. März, nicht wahr?‹ Ich nickte. ›Kein Wunder bei dieser Methode‹, murmelte er. ›Sie sind nicht der Erste. Aber sorgen Sie sich nicht.‹",
+      "en": "I asked what had happened to me. He smiled strangely. 'Nothing serious. An acute irritation of the nerves,' and after first looking around carefully he added quietly: 'A perfectly understandable one, after all. Since 13 March, isn't that right?' I nodded. 'No wonder, with this method,' he murmured. 'You're not the first. But don't worry.'",
+      "explain_en": "13 March 1938 is the day Austria was officially made part of Nazi Germany (the 'Anschluss'). The doctor looks around first because showing sympathy for a prisoner of the Gestapo was dangerous. 'sich erkundigen' = to ask, to enquire. 'vorgehen' here means 'to happen'. 'beifügen' is old for 'hinzufügen' (to add). 'Sorgen Sie sich nicht' – today you'd usually say 'Machen Sie sich keine Sorgen'.",
+      "words": [
+        {
+          "de": "sich erkundigen",
+          "en": "to ask, to enquire"
+        },
+        {
+          "de": "lächeln",
+          "en": "to smile"
+        },
+        {
+          "de": "ernst",
+          "en": "serious"
+        },
+        {
+          "de": "vorsichtig",
+          "en": "careful"
+        },
+        {
+          "de": "nicken",
+          "en": "to nod"
+        },
+        {
+          "de": "kein Wunder",
+          "en": "no wonder"
+        },
+        {
+          "de": "sich Sorgen machen",
+          "en": "to worry"
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "type": "summary",
+      "covers": "Dr. B.'s story: from the doctor's explanation to the end of his story",
+      "en": "Two days later the doctor tells him what happened. Dr. B. had been shouting in his cell, and when the guard came in, Dr. B. attacked him in a frenzy. On the way to a medical examination he broke free and smashed a corridor window, cutting his hand – the deep scar is still visible. The kind doctor managed to get him released, perhaps by declaring him mentally unfit, on condition that he left Austria within two weeks. For a long time Dr. B. couldn't bear to think about his cell. Only on this ship, when he saw real chess pieces, did it all come back – and when McConnor was about to make a fatal move, he stopped him by instinct, the way you grab a child leaning over a railing. The narrator says they are all looking forward to tomorrow's game. Dr. B. looks uneasy."
+    },
+    {
+      "n": 72,
+      "de": "»Nein, erwarten Sie wirklich nicht zu viel. Es soll nichts als eine Probe für mich sein ... eine Probe, ob ich ... ob ich überhaupt fähig bin, eine normale Schachpartie zu spielen, eine Partie auf einem wirklichen Schachbrett mit faktischen Figuren und einem lebendigen Partner ... denn ich zweifle jetzt immer mehr daran, ob jene Hunderte und vielleicht Tausende Partien, die ich gespielt habe, tatsächlich regelrechte Schachpartien waren und nicht bloß eine Art Traumschach, ein Fieberschach, ein Fieberspiel, in dem wie immer im Traum Zwischenstufen übersprungen wurden. Sie werden mir doch hoffentlich nicht im Ernst zumuten, dass ich mir anmaße, einem Schachmeister, und gar dem ersten der Welt, Paroli bieten zu können.",
+      "en": "'No, really, don't expect too much. It's only meant to be a test for me... a test of whether I... whether I'm even capable of playing a normal game of chess, a game on a real chessboard with actual pieces and a living partner... because I doubt more and more whether those hundreds, perhaps thousands of games I played were really proper games of chess and not just a kind of dream chess, fever chess, a fever game in which, as always in dreams, steps in between were skipped. Surely you don't seriously expect me to imagine that I could stand up to a chess master, and the best in the world at that.",
+      "explain_en": "Dr. B. explains why he agreed to play. 'erwarten' = to expect. 'fähig sein, etwas zu tun' = to be capable of doing something. 'an etwas zweifeln' = to doubt something. 'jemandem etwas zumuten' = to expect something unreasonable of someone. 'sich etwas anmaßen' = to presume, to claim a right you don't have. 'jemandem Paroli bieten' = to stand up to someone – still used today.",
+      "words": [
+        {
+          "de": "erwarten",
+          "en": "to expect"
+        },
+        {
+          "de": "die Probe, die Proben",
+          "en": "test; rehearsal"
+        },
+        {
+          "de": "fähig",
+          "en": "capable"
+        },
+        {
+          "de": "zweifeln an",
+          "en": "to doubt"
+        },
+        {
+          "de": "im Ernst",
+          "en": "seriously"
+        },
+        {
+          "de": "überspringen",
+          "en": "to skip"
+        }
+      ]
+    },
+    {
+      "n": 73,
+      "de": "Was mich interessiert und intrigiert, ist einzig die posthume Neugier, festzustellen, ob das in der Zelle damals noch Schachspiel oder schon Wahnsinn gewesen, ob ich damals noch knapp vor oder schon jenseits der gefährlichen Klippe mich befand – nur dies, nur dies allein.«",
+      "en": "What interests and intrigues me is only the curiosity, now that it's all over, to find out whether what I did in that cell back then was still chess or already madness – whether I was still just this side of the dangerous cliff or already beyond it – only that, only that alone.'",
+      "explain_en": "'posthum' normally means 'after someone's death'; Dr. B. means a curiosity that comes afterwards, now that his ordeal is over. 'feststellen' = to find out, to establish. 'der Wahnsinn' = madness ('Wahnsinn!' is also everyday slang for 'Crazy!/Amazing!'). 'jenseits' + genitive = beyond. 'ob' = whether.",
+      "words": [
+        {
+          "de": "die Neugier",
+          "en": "curiosity"
+        },
+        {
+          "de": "feststellen",
+          "en": "to find out, to establish"
+        },
+        {
+          "de": "der Wahnsinn",
+          "en": "madness"
+        },
+        {
+          "de": "gefährlich",
+          "en": "dangerous"
+        },
+        {
+          "de": "jenseits",
+          "en": "beyond, on the other side of"
+        },
+        {
+          "de": "sich befinden",
+          "en": "to be (located)"
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "type": "summary",
+      "covers": "The dinner gong",
+      "en": "At that moment the gong rings for dinner. The two men have been talking for almost two hours. The narrator thanks Dr. B. warmly and says goodbye, but before he has gone far along the deck, Dr. B. hurries after him, visibly nervous and stammering a little."
+    },
+    {
+      "n": 75,
+      "de": "»Noch eines! Wollen Sie den Herren gleich im Voraus ausrichten, damit ich nachträglich nicht unhöflich erscheine; ich spiele nur eine einzige Partie ... sie soll nichts als der Schlussstrich unter eine alte Rechnung sein – eine endgültige Erledigung und nicht ein neuer Anfang ...",
+      "en": "'One more thing! Would you tell the gentlemen right now, in advance, so that I don't seem rude afterwards: I'll only play one single game... it's meant to be nothing but a line drawn under an old account – a final settlement and not a new beginning...",
+      "explain_en": "'Noch eines!' = One more thing! (today: 'Noch etwas!'). 'jemandem etwas ausrichten' = to pass on a message to someone – very common: 'Kannst du ihr etwas ausrichten?'. 'im Voraus' = in advance. 'erscheinen' here means 'to seem'. 'einen Schlussstrich unter etwas ziehen' = to draw a line under something, to put an end to it.",
+      "words": [
+        {
+          "de": "ausrichten",
+          "en": "to pass on (a message)"
+        },
+        {
+          "de": "im Voraus",
+          "en": "in advance"
+        },
+        {
+          "de": "unhöflich",
+          "en": "rude, impolite"
+        },
+        {
+          "de": "einzig",
+          "en": "single, only"
+        },
+        {
+          "de": "der Schlussstrich, die Schlussstriche",
+          "en": "line drawn under something, end"
+        },
+        {
+          "de": "die Rechnung, die Rechnungen",
+          "en": "bill, account"
+        },
+        {
+          "de": "der Anfang, die Anfänge",
+          "en": "beginning"
+        }
+      ]
+    },
+    {
+      "n": 76,
+      "de": "Ich möchte nicht ein zweites Mal in dieses leidenschaftliche Spielfieber geraten, an das ich nur mit Grauen zurückdenken kann ... und übrigens ... übrigens hat mich damals auch der Arzt gewarnt ... ausdrücklich gewarnt. Jeder, der einer Manie verfallen war, bleibt für immer gefährdet, und mit einer – wenn auch ausgeheilten – Schachvergiftung soll man besser keinem Schachbrett nahekommen ... Also Sie verstehen – nur diese eine Probepartie für mich selbst und nicht mehr.«",
+      "en": "I don't want to fall into this passionate gaming fever a second time; I can only think back to it with horror... and by the way... by the way, the doctor warned me back then too... warned me expressly. Anyone who has fallen victim to a mania stays at risk for ever, and with a case of chess poisoning – even a cured one – you'd better not go near a chessboard... So you understand – just this one test game for myself and no more.'",
+      "explain_en": "Dr. B. knows the danger. 'in etwas geraten' = to get into (a state, usually a bad one). 'zurückdenken an' = to think back to. 'mit Grauen' = with horror. 'übrigens' = by the way – very common. 'einer Sache verfallen' = to become addicted to something. 'soll man besser' = you'd better. 'nahekommen' + dative = to come close to.",
+      "words": [
+        {
+          "de": "leidenschaftlich",
+          "en": "passionate"
+        },
+        {
+          "de": "zurückdenken an",
+          "en": "to think back to"
+        },
+        {
+          "de": "warnen",
+          "en": "to warn"
+        },
+        {
+          "de": "übrigens",
+          "en": "by the way"
+        },
+        {
+          "de": "gefährdet",
+          "en": "at risk"
+        },
+        {
+          "de": "die Vergiftung, die Vergiftungen",
+          "en": "poisoning"
+        },
+        {
+          "de": "verstehen",
+          "en": "to understand"
+        }
+      ]
+    },
+    {
+      "n": 77,
+      "type": "summary",
+      "covers": "From the start of the big game to Dr. B.'s surprise attack",
+      "en": "At three o'clock the next day everyone meets in the smoking room, even two ship's officers. The contrast between the players is striking: Czentovic sits like a block of stone, staring at the board and thinking with great effort, while Dr. B. is relaxed, chats and smokes, and only glances at the board when it's his turn. Czentovic takes his full thinking time for every move, and Dr. B., who calculates a hundred times faster, becomes more and more impatient, drinking glass after glass of water. At the 42nd move, after almost three hours, Dr. B. suddenly moves his queen and announces triumphantly: 'There! Done!' None of the spectators can see the threat. Czentovic doesn't move. Three, seven, eight minutes pass."
+    },
+    {
+      "n": 78,
+      "de": "Unserem Freunde schien dieses stumme Warten ebenso unerträglich wie uns selbst. Mit einem Ruck stand er plötzlich auf und begann im Rauchzimmer auf und ab zu gehen, erst langsam, dann schneller und immer schneller. Alle blickten wir ihm etwas verwundert zu, aber keiner beunruhigter als ich, denn mir fiel auf, dass seine Schritte trotz aller Heftigkeit dieses Auf und Ab immer nur die gleiche Spanne Raum ausmaßen; es war, als ob er jedes Mal mitten im leeren Zimmer an eine unsichtbare Schranke stieße, die ihn nötigte umzukehren.",
+      "en": "Our friend seemed to find this silent waiting just as unbearable as we did. Suddenly he stood up with a jerk and began to walk up and down the smoking room, slowly at first, then faster and faster. We all watched him in some surprise, but none of us more uneasily than I did, because I noticed that, however violent this pacing was, his steps always covered only the same stretch of space; it was as if each time, in the middle of the empty room, he bumped into an invisible barrier that forced him to turn round.",
+      "explain_en": "'unerträglich' = unbearable. 'mit einem Ruck' = with a jerk, abruptly. 'auf und ab gehen' = to walk up and down. 'immer schneller' = faster and faster ('immer' + comparative). 'als ob er ... stieße' = as if he bumped into – subjunctive II of 'stoßen'. 'nötigen' = to force (today usually 'zwingen').",
+      "words": [
+        {
+          "de": "unerträglich",
+          "en": "unbearable"
+        },
+        {
+          "de": "auf und ab gehen",
+          "en": "to walk up and down"
+        },
+        {
+          "de": "immer schneller",
+          "en": "faster and faster"
+        },
+        {
+          "de": "beunruhigt",
+          "en": "uneasy, worried"
+        },
+        {
+          "de": "unsichtbar",
+          "en": "invisible"
+        },
+        {
+          "de": "umkehren",
+          "en": "to turn back, to turn round"
+        }
+      ]
+    },
+    {
+      "n": 79,
+      "de": "Und schaudernd erkannte ich, es reproduzierte unbewusst dieses Auf und Ab das Ausmaß seiner einstmaligen Zelle: genau so musste er in den Monaten des Eingesperrtseins auf und ab gerannt sein wie ein eingesperrtes Tier im Käfig, genau so die Hände verkrampft und die Schultern eingeduckt; so und nur so musste er dort tausendmal auf und nieder gelaufen sein, die roten Lichter des Wahnsinns im starren und doch fiebernden Blick. Aber noch schien sein Denkvermögen völlig intakt, denn von Zeit zu Zeit wandte er sich ungeduldig dem Tisch zu, ob Czentovic sich inzwischen schon entschieden hätte.",
+      "en": "And with a shudder I realised that this pacing unconsciously reproduced the size of his former cell: this is exactly how he must have run up and down during his months of imprisonment, like a caged animal, exactly like this, with his hands clenched and his shoulders hunched; like this and only like this he must have walked up and down there a thousand times, with the red lights of madness in his fixed yet feverish eyes. But his mind still seemed completely intact, because from time to time he turned impatiently to the table to see whether Czentovic had made up his mind yet.",
+      "explain_en": "The narrator understands what is happening to Dr. B. 'schaudernd' = shuddering. 'einstmalig' is old for 'früher' (former). 'musste er ... gerannt sein' = he must have run – a guess about the past. 'wie ein eingesperrtes Tier im Käfig' = like a caged animal. 'das Denkvermögen' = the ability to think. 'sich entscheiden' = to decide.",
+      "words": [
+        {
+          "de": "erkennen",
+          "en": "to realise, to recognise"
+        },
+        {
+          "de": "das Tier, die Tiere",
+          "en": "animal"
+        },
+        {
+          "de": "der Käfig, die Käfige",
+          "en": "cage"
+        },
+        {
+          "de": "die Schulter, die Schultern",
+          "en": "shoulder"
+        },
+        {
+          "de": "von Zeit zu Zeit",
+          "en": "from time to time"
+        },
+        {
+          "de": "ungeduldig",
+          "en": "impatient"
+        },
+        {
+          "de": "sich entscheiden",
+          "en": "to decide"
+        }
+      ]
+    },
+    {
+      "n": 80,
+      "de": "Aber es wurden neun, es wurden zehn Minuten. Dann endlich geschah, was niemand von uns erwartet hatte. Czentovic hob langsam seine schwere Hand, die bisher unbeweglich auf dem Tisch gelegen. Gespannt blickten wir alle auf seine Entscheidung. Aber Czentovic tat keinen Zug, sondern sein gewendeter Handrücken schob mit einem entschiedenen Ruck alle Figuren langsam vom Brett.",
+      "en": "But nine minutes passed, then ten. Then at last something happened that none of us had expected. Czentovic slowly raised his heavy hand, which until then had lain motionless on the table. We all watched tensely for his decision. But Czentovic made no move; instead, with a firm jerk, the back of his turned hand slowly pushed all the pieces off the board.",
+      "explain_en": "'Es wurden neun Minuten' – 'werden' here shows time passing: it got to nine minutes. 'was niemand erwartet hatte' = what nobody had expected. In 'die bisher ... gelegen' the helping verb 'hatte' is missing again. 'keinen Zug tun' = to make no move. 'der Handrücken' = the back of the hand. Sweeping the pieces off the board means giving up.",
+      "words": [
+        {
+          "de": "endlich",
+          "en": "at last, finally"
+        },
+        {
+          "de": "heben",
+          "en": "to raise, to lift"
+        },
+        {
+          "de": "die Entscheidung, die Entscheidungen",
+          "en": "decision"
+        },
+        {
+          "de": "der Handrücken, die Handrücken",
+          "en": "back of the hand"
+        },
+        {
+          "de": "schieben",
+          "en": "to push"
+        },
+        {
+          "de": "die Figur, die Figuren",
+          "en": "(chess) piece; figure"
+        }
+      ]
+    },
+    {
+      "n": 81,
+      "de": "Erst im nächsten Augenblick verstanden wir: Czentovic hatte die Partie aufgegeben. Er hatte kapituliert, um nicht vor uns sichtbar mattgesetzt zu werden. Das Unwahrscheinliche hatte sich ereignet, der Weltmeister, der Champion zahlloser Turniere hatte die Fahne gestrichen vor einem Unbekannten, einem Manne, der zwanzig oder fünfundzwanzig Jahre kein Schachbrett angerührt. Unser Freund, der Anonymus, der Ignotus, hatte den stärksten Schachspieler der Erde in offenem Kampfe besiegt!",
+      "en": "Only a moment later did we understand: Czentovic had resigned the game. He had surrendered so as not to be checkmated in front of our eyes. The improbable had happened: the world champion, the winner of countless tournaments, had lowered his flag before an unknown man, a man who hadn't touched a chessboard for twenty or twenty-five years. Our friend, the nameless one, the unknown one, had beaten the strongest chess player on earth in open battle!",
+      "explain_en": "Dr. B. has won! 'eine Partie aufgeben' = to resign a game. 'um nicht ... zu werden' = so as not to be ... 'mattsetzen' = to checkmate. 'die Fahne streichen' = to lower your flag, i.e. surrender (from sea battles). 'Anonymus' and 'Ignotus' are Latin for 'nameless' and 'unknown'. 'besiegen' = to defeat.",
+      "words": [
+        {
+          "de": "aufgeben",
+          "en": "to give up, to resign"
+        },
+        {
+          "de": "das Turnier, die Turniere",
+          "en": "tournament"
+        },
+        {
+          "de": "unbekannt",
+          "en": "unknown"
+        },
+        {
+          "de": "der Weltmeister, die Weltmeister",
+          "en": "world champion"
+        },
+        {
+          "de": "besiegen",
+          "en": "to defeat"
+        },
+        {
+          "de": "der Kampf, die Kämpfe",
+          "en": "fight, battle"
+        }
+      ]
+    },
+    {
+      "n": 82,
+      "de": "Ohne es zu merken, waren wir in unserer Erregung einer nach dem anderen aufgestanden. Jeder von uns hatte das Gefühl, er müsste etwas sagen oder tun, um unserem freudigen Schrecken Luft zu machen. Der Einzige, der unbeweglich in seiner Ruhe verharrte, war Czentovic. Erst nach einer gemessenen Pause hob er den Kopf und blickte unseren Freund mit steinernem Blick an. »Noch eine Partie?« fragte er.",
+      "en": "Without noticing it, in our excitement we had stood up one after the other. Each of us felt he had to say or do something to let out our joyful shock. The only one who remained motionless and calm was Czentovic. Only after a measured pause did he raise his head and look at our friend with a stony stare. 'Another game?' he asked.",
+      "explain_en": "'ohne es zu merken' = without noticing. 'einer nach dem anderen' = one after the other. 'er müsste etwas sagen' = he ought to say something (subjunctive II). 'Der Einzige, der ...' = the only one who ... 'steinern' = made of stone, stony. 'noch ein/eine' = another: 'Noch eine Partie?', 'Noch ein Stück Kuchen?'.",
+      "words": [
+        {
+          "de": "merken",
+          "en": "to notice"
+        },
+        {
+          "de": "die Aufregung",
+          "en": "excitement",
+          "note": "Zweig: die Erregung"
+        },
+        {
+          "de": "das Gefühl, die Gefühle",
+          "en": "feeling"
+        },
+        {
+          "de": "der Einzige, die Einzigen",
+          "en": "the only one"
+        },
+        {
+          "de": "die Pause, die Pausen",
+          "en": "pause, break"
+        },
+        {
+          "de": "Noch eine?",
+          "en": "Another one?"
+        }
+      ]
+    },
+    {
+      "n": 83,
+      "de": "»Selbstverständlich«, antwortete Dr. B. mit einer mir unangenehmen Begeisterung und setzte sich, noch ehe ich ihn an seinen Vorsatz mahnen konnte, es bei einer Partie bewenden zu lassen, sofort nieder und begann mit fiebriger Hast die Figuren neu aufzustellen. Er rückte sie mit solcher Hitzigkeit zusammen, dass zweimal ein Bauer durch die zitternden Finger zu Boden glitt; mein schon früher peinliches Unbehagen angesichts seiner unnatürlichen Erregtheit wuchs zu einer Art Angst. Denn eine sichtbare Exaltiertheit war über den vorher so stillen und ruhigen Menschen gekommen; das Zucken fuhr immer öfter um seinen Mund, und sein Körper zitterte wie von einem jähen Fieber geschüttelt.",
+      "en": "'Of course,' answered Dr. B., with an enthusiasm I found unpleasant, and before I could remind him of his resolution to stop at one game, he immediately sat down and began to set up the pieces again in feverish haste. He pushed them together so hastily that twice a pawn slipped through his trembling fingers onto the floor; my discomfort at his unnatural excitement, already painful before, grew into a kind of fear. For a visible over-excitement had come over this man who had been so quiet and calm before; the twitch ran round his mouth more and more often, and his body trembled as if shaken by a sudden fever.",
+      "explain_en": "Dr. B. breaks his promise to himself. 'jemanden an etwas mahnen' = to remind someone of something (today: 'an etwas erinnern'). 'der Vorsatz' = resolution, intention – as in 'gute Vorsätze' for New Year. 'es bei etwas bewenden lassen' = to leave it at that. 'aufstellen' = to set up. 'das Zucken' = the twitch – a sign that his old illness is coming back.",
+      "words": [
+        {
+          "de": "die Begeisterung",
+          "en": "enthusiasm"
+        },
+        {
+          "de": "erinnern an",
+          "en": "to remind of",
+          "note": "Zweig: mahnen an"
+        },
+        {
+          "de": "der Vorsatz, die Vorsätze",
+          "en": "resolution, intention"
+        },
+        {
+          "de": "aufstellen",
+          "en": "to set up"
+        },
+        {
+          "de": "die Angst, die Ängste",
+          "en": "fear"
+        },
+        {
+          "de": "das Zucken",
+          "en": "twitch"
+        }
+      ]
+    },
+    {
+      "n": 84,
+      "de": "»Nicht!« flüsterte ich ihm leise zu. »Nicht jetzt! Lassen Sie's für heute genug sein! Es ist für Sie zu anstrengend.« »Anstrengend! Ha!« lachte er laut und boshaft. »Siebzehn Partien hätte ich unterdessen spielen können statt dieser Bummelei! Anstrengend ist für mich einzig bei diesem Tempo nicht einzuschlafen! – Nun! Fangen Sie schon einmal an!«",
+      "en": "'Don't!' I whispered to him quietly. 'Not now! Leave it at that for today! It's too much of a strain for you.' 'A strain! Ha!' he laughed, loud and spiteful. 'I could have played seventeen games in the meantime instead of this dawdling! The only strain for me is not falling asleep at this speed! – Well! Go on, start, then!'",
+      "explain_en": "'Lassen Sie's für heute genug sein' = leave it at that for today. 'anstrengend' = tiring, exhausting – very common ('Der Tag war anstrengend'). 'boshaft' = spiteful, nasty. 'hätte ... spielen können' = could have played. 'die Bummelei' = dawdling ('bummeln' = to stroll, to dawdle). In 'Fangen Sie schon einmal an!' the little word 'schon' makes the order sound impatient.",
+      "words": [
+        {
+          "de": "anstrengend",
+          "en": "tiring, exhausting"
+        },
+        {
+          "de": "boshaft",
+          "en": "spiteful, nasty"
+        },
+        {
+          "de": "unterdessen",
+          "en": "in the meantime"
+        },
+        {
+          "de": "die Bummelei",
+          "en": "dawdling"
+        },
+        {
+          "de": "einschlafen",
+          "en": "to fall asleep"
+        },
+        {
+          "de": "anfangen",
+          "en": "to start, to begin"
+        }
+      ]
+    },
+    {
+      "n": 85,
+      "type": "summary",
+      "covers": "The start of the second game between Dr. B. and Czentovic",
+      "en": "From now on there is real hatred between the two players – they are enemies. Czentovic has realised that he can wear Dr. B. down by being slow, so he deliberately takes the longest possible time over every move. Dr. B. drinks glass after glass of water, just like the terrible thirst he described from his cell; his forehead is damp, and the scar on his hand looks redder. At the fourth move he loses control and snaps at Czentovic: 'Just play, will you!'"
+    },
+    {
+      "n": 86,
+      "de": "Czentovic blickte kühl auf. »Wir haben meines Wissens zehn Minuten Zugzeit vereinbart. Ich spiele prinzipiell nicht mit kürzerer Zeit.« Dr. B. biss sich die Lippe; ich merkte, wie unter dem Tisch seine Sohle unruhig und immer unruhiger gegen den Boden wippte, und wurde selbst unaufhaltsam nervöser durch das drückende Vorgefühl, dass sich irgendetwas Unsinniges in ihm vorbereitete. In der Tat ereignete sich bei dem achten Zug ein weiterer Zwischenfall. Dr. B., der immer unbeherrschter gewartet hatte, konnte seine Spannung nicht mehr verhalten; er rückte hin und her und begann unbewusst mit den Fingern auf dem Tisch zu trommeln. Abermals hob Czentovic seinen schweren bäurischen Kopf.",
+      "en": "Czentovic looked up coolly. 'As far as I know, we agreed on ten minutes per move. On principle, I don't play with less time.' Dr. B. bit his lip; I noticed his foot tapping restlessly, more and more restlessly, against the floor under the table, and I myself grew steadily more nervous, with the heavy feeling that something crazy was building up inside him. And indeed, at the eighth move there was another incident. Dr. B., who had been waiting with less and less self-control, could no longer hold back his tension; he shifted back and forth and, without realising, began to drum his fingers on the table. Once again Czentovic raised his heavy, peasant-like head.",
+      "explain_en": "'meines Wissens' = as far as I know (formal). 'vereinbaren' = to agree on. 'prinzipiell' = on principle. 'sich auf die Lippe beißen' = to bite your lip. 'der Zwischenfall' = incident. 'trommeln' = to drum. 'bäurisch' (peasant-like, coarse) is a snobbish, insulting description of Czentovic, who comes from a poor village family; today you would avoid it.",
+      "words": [
+        {
+          "de": "vereinbaren",
+          "en": "to agree on"
+        },
+        {
+          "de": "meines Wissens",
+          "en": "as far as I know"
+        },
+        {
+          "de": "die Lippe, die Lippen",
+          "en": "lip"
+        },
+        {
+          "de": "der Zwischenfall, die Zwischenfälle",
+          "en": "incident"
+        },
+        {
+          "de": "trommeln",
+          "en": "to drum"
+        },
+        {
+          "de": "der Boden, die Böden",
+          "en": "floor; ground"
+        }
+      ]
+    },
+    {
+      "n": 87,
+      "de": "»Darf ich Sie bitten, nicht zu trommeln? Es stört mich. Ich kann so nicht spielen.« »Ha!« lachte Dr. B. kurz. »Das sieht man.« Czentovics Stirn wurde rot. »Was wollen Sie damit sagen?« fragte er scharf und böse. Dr. B. lachte abermals knapp und boshaft. »Nichts. Nur dass Sie offenbar sehr nervös sind.« Czentovic schwieg und beugte seinen Kopf nieder.",
+      "en": "'May I ask you not to drum? It disturbs me. I can't play like this.' 'Ha!' Dr. B. gave a short laugh. 'So I see.' Czentovic's forehead turned red. 'What do you mean by that?' he asked, sharply and angrily. Dr. B. laughed again, short and spiteful. 'Nothing. Only that you are obviously very nervous.' Czentovic said nothing and bent his head down.",
+      "explain_en": "A sharp exchange of words. 'Darf ich Sie bitten, ... zu ...?' = May I ask you to ...? – polite but cold. 'Das sieht man' = that's obvious – a nasty dig at Czentovic's slow play. 'Was wollen Sie damit sagen?' = What do you mean by that? – very useful. 'schweigen' (schwieg, geschwiegen) = to be silent.",
+      "words": [
+        {
+          "de": "bitten",
+          "en": "to ask (for)"
+        },
+        {
+          "de": "stören",
+          "en": "to disturb, to bother"
+        },
+        {
+          "de": "Was wollen Sie damit sagen?",
+          "en": "What do you mean by that?"
+        },
+        {
+          "de": "offenbar",
+          "en": "obviously, apparently"
+        },
+        {
+          "de": "schweigen",
+          "en": "to be silent"
+        },
+        {
+          "de": "rot werden",
+          "en": "to turn red, to blush"
+        }
+      ]
+    },
+    {
+      "n": 88,
+      "de": "Erst nach sieben Minuten tat er den nächsten Zug, und in diesem tödlichen Tempo schleppte sich die Partie fort. Czentovic versteinte gleichsam immer mehr; schließlich schaltete er immer das Maximum der vereinbarten Überlegungspause ein, ehe er sich zu einem Zug entschloss, und von einem Intervall zum andern wurde das Benehmen unseres Freundes sonderbarer. Es hatte den Anschein, als ob er an der Partie gar keinen Anteil mehr nehme, sondern mit etwas ganz anderem beschäftigt sei. Er ließ sein hitziges Auf-und-nieder-Laufen und blieb an seinem Platz regungslos sitzen.",
+      "en": "Only after seven minutes did he make his next move, and at this deadly pace the game dragged on. Czentovic seemed to turn more and more to stone; in the end he always used the maximum agreed thinking time before deciding on a move, and from one interval to the next our friend's behaviour became stranger. It looked as if he were no longer taking any part in the game, but were busy with something quite different. He stopped his heated pacing up and down and sat motionless in his seat.",
+      "explain_en": "Things are getting worse. 'Erst nach sieben Minuten' = not until seven minutes had passed – with time, 'erst' means 'only/not until'. 'sich fortschleppen' = to drag on. 'das Benehmen' = behaviour. 'Es hatte den Anschein, als ob ...' = it looked as if ... 'Anteil nehmen an' = to take part in. 'lassen' here means 'to stop doing' ('Lass das!' = Stop it!).",
+      "words": [
+        {
+          "de": "das Tempo",
+          "en": "pace, speed"
+        },
+        {
+          "de": "sich entschließen",
+          "en": "to decide"
+        },
+        {
+          "de": "das Benehmen",
+          "en": "behaviour"
+        },
+        {
+          "de": "sonderbar",
+          "en": "strange, odd"
+        },
+        {
+          "de": "der Anschein",
+          "en": "appearance"
+        },
+        {
+          "de": "beschäftigt",
+          "en": "busy"
+        },
+        {
+          "de": "regungslos",
+          "en": "motionless"
+        }
+      ]
+    },
+    {
+      "n": 89,
+      "de": "Mit einem stieren und fast irren Blick ins Leere vor sich starrend, murmelte er ununterbrochen unverständliche Worte vor sich hin; entweder verlor er sich in endlosen Kombinationen, oder er arbeitete – dies war mein innerster Verdacht – sich ganz andere Partien aus, denn jedes Mal, wenn Czentovic endlich gezogen hatte, musste man ihn aus seiner Geistesabwesenheit zurückmahnen.",
+      "en": "Staring into space in front of him with a glassy, almost crazed look, he kept muttering words nobody could understand; either he was losing himself in endless combinations, or – and this was my deepest suspicion – he was working out completely different games, because every time Czentovic had finally moved, he had to be called back from his absent-mindedness.",
+      "explain_en": "'stier' = glassy, fixed (of a stare). 'ins Leere starren' = to stare into space. 'murmeln' = to mutter. 'entweder ... oder' = either ... or. 'der Verdacht' = suspicion. 'die Geistesabwesenheit' = absent-mindedness ('geistesabwesend' = absent-minded).",
+      "words": [
+        {
+          "de": "ins Leere starren",
+          "en": "to stare into space"
+        },
+        {
+          "de": "murmeln",
+          "en": "to mutter"
+        },
+        {
+          "de": "unverständlich",
+          "en": "incomprehensible"
+        },
+        {
+          "de": "entweder ... oder",
+          "en": "either ... or"
+        },
+        {
+          "de": "der Verdacht",
+          "en": "suspicion"
+        },
+        {
+          "de": "geistesabwesend",
+          "en": "absent-minded"
+        }
+      ]
+    },
+    {
+      "n": 90,
+      "de": "Dann brauchte er immer eine einzige Minute, um sich in der Situation wieder zurechtzufinden; immer mehr beschlich mich der Verdacht, er habe eigentlich Czentovic und uns alle längst vergessen in dieser kalten Form des Wahnsinns, der sich plötzlich in irgendeiner Heftigkeit entladen konnte. Und tatsächlich, bei dem neunzehnten Zug brach die Krise aus. Kaum dass Czentovic seine Figur bewegt, stieß Dr. B. plötzlich, ohne recht auf das Brett zu blicken, seinen Läufer drei Felder vor und schrie derart laut, dass wir alle zusammenfuhren: »Schach! Schach dem König!«",
+      "en": "Then he always needed a full minute to find his way back into the situation; more and more the suspicion crept over me that he had really long since forgotten Czentovic and all of us in this cold form of madness, which might suddenly break out in some kind of violence. And indeed, at the nineteenth move the crisis broke out. Czentovic had hardly moved his piece when Dr. B. suddenly, without really looking at the board, pushed his bishop forward three squares and shouted so loudly that we all jumped: 'Check! Check to the king!'",
+      "explain_en": "'sich zurechtfinden' = to find your way around. 'jemanden beschleichen' = to creep over someone (of a feeling). 'Kaum dass ...' = hardly had ... when. 'ausbrechen' = to break out. 'zusammenfahren' = to jump, to flinch. 'Schach!' = Check!; 'Schachmatt!' = Checkmate!",
+      "words": [
+        {
+          "de": "sich zurechtfinden",
+          "en": "to find your way around"
+        },
+        {
+          "de": "vergessen",
+          "en": "to forget"
+        },
+        {
+          "de": "ausbrechen",
+          "en": "to break out"
+        },
+        {
+          "de": "kaum dass",
+          "en": "hardly, as soon as"
+        },
+        {
+          "de": "schreien",
+          "en": "to shout"
+        },
+        {
+          "de": "zusammenfahren",
+          "en": "to jump, to flinch"
+        }
+      ]
+    },
+    {
+      "n": 91,
+      "de": "Wir blickten in der Erwartung eines besonderen Zuges sofort auf das Brett. Aber nach einer Minute geschah, was keiner von uns erwartet. Czentovic hob ganz, ganz langsam den Kopf und blickte – was er bisher nie getan – in unserem Kreise von einem zum andern. Er schien irgendetwas unermesslich zu genießen, denn allmählich begann auf seinen Lippen ein zufriedenes und deutlich höhnisches Lächeln. Erst nachdem er diesen seinen uns noch unverständlichen Triumph bis zur Neige genossen, wandte er sich mit falscher Höflichkeit unserer Runde zu.",
+      "en": "We immediately looked at the board, expecting some special move. But after a minute something happened that none of us had expected. Very, very slowly Czentovic raised his head and – something he had never done before – looked round our circle from one to the other. He seemed to be enjoying something enormously, because gradually a satisfied and clearly mocking smile appeared on his lips. Only when he had enjoyed this triumph of his, which we still didn't understand, to the last drop did he turn to our group with false politeness.",
+      "explain_en": "'in der Erwartung' = expecting. 'höhnisch' = mocking, scornful. 'etwas bis zur Neige genießen' = to enjoy something to the last drop ('die Neige' is the last bit left in a glass). 'sich jemandem zuwenden' = to turn to someone. 'die Höflichkeit' = politeness.",
+      "words": [
+        {
+          "de": "die Erwartung, die Erwartungen",
+          "en": "expectation"
+        },
+        {
+          "de": "langsam",
+          "en": "slow, slowly"
+        },
+        {
+          "de": "genießen",
+          "en": "to enjoy"
+        },
+        {
+          "de": "zufrieden",
+          "en": "satisfied"
+        },
+        {
+          "de": "höhnisch",
+          "en": "mocking, scornful"
+        },
+        {
+          "de": "die Höflichkeit",
+          "en": "politeness"
+        }
+      ]
+    },
+    {
+      "n": 92,
+      "de": "»Bedaure – aber ich sehe kein Schach. Sieht vielleicht einer von den Herren ein Schach gegen meinen König?« Wir blickten auf das Brett und dann beunruhigt zu Dr. B. hinüber. Czentovics Königsfeld war tatsächlich – ein Kind konnte das erkennen – durch einen Bauern gegen den Läufer völlig gedeckt, also kein Schach dem König möglich. Wir wurden unruhig. Sollte unser Freund in seiner Hitzigkeit eine Figur danebengestoßen haben, ein Feld zu weit oder zu nah? Durch unser Schweigen aufmerksam gemacht, starrte jetzt auch Dr. B. auf das Brett und begann heftig zu stammeln:",
+      "en": "'I'm sorry – but I see no check. Does one of you gentlemen perhaps see a check against my king?' We looked at the board and then anxiously over at Dr. B. Czentovic's king was in fact – a child could see it – completely protected from the bishop by a pawn, so no check to the king was possible. We grew uneasy. Could our friend, in his agitation, have put a piece on the wrong square, one square too far or too near? Alerted by our silence, Dr. B. now stared at the board too and began to stammer wildly:",
+      "explain_en": "'Bedaure' = I'm sorry – a short, formal version of 'Es tut mir leid'. 'decken' = to cover, to protect (in chess). 'Sollte unser Freund ... haben?' = Could our friend have ...? – 'sollte' expresses a worried guess. 'daneben' = next to it, off target ('danebengehen' = to miss, to go wrong). 'das Schweigen' = silence.",
+      "words": [
+        {
+          "de": "bedauern",
+          "en": "to regret, to be sorry"
+        },
+        {
+          "de": "decken",
+          "en": "to cover, to protect"
+        },
+        {
+          "de": "möglich",
+          "en": "possible"
+        },
+        {
+          "de": "unruhig",
+          "en": "restless, uneasy"
+        },
+        {
+          "de": "das Schweigen",
+          "en": "silence"
+        },
+        {
+          "de": "stammeln",
+          "en": "to stammer"
+        }
+      ]
+    },
+    {
+      "n": 93,
+      "de": "»Aber der König gehört doch auf f7 ... er steht falsch, ganz falsch. Sie haben falsch gezogen! Alles steht ganz falsch auf diesem Brett ... der Bauer gehört doch auf g5 und nicht auf g4 ... das ist doch eine ganz andere Partie ... Das ist ...« Er stockte plötzlich. Ich hatte ihn heftig am Arm gepackt oder vielmehr ihn so hart in den Arm gekniffen, dass er selbst in seiner fiebrigen Verwirrtheit meinen Griff spüren musste. Er wandte sich um und starrte mich wie ein Traumwandler an.",
+      "en": "'But the king belongs on f7... it's in the wrong place, completely wrong. You've made a wrong move! Everything on this board is completely wrong... the pawn belongs on g5, not on g4... this is a completely different game... This is...' He suddenly stopped short. I had grabbed him hard by the arm, or rather pinched his arm so hard that even in his feverish confusion he had to feel my grip. He turned round and stared at me like a sleepwalker.",
+      "explain_en": "Dr. B. is mixing up the real game with a game in his head. 'gehören auf/in' = to belong on/in. 'falsch ziehen' = to make a wrong move. 'stocken' = to stop short, to falter. 'kneifen' (kniff, gekniffen) = to pinch. 'der Traumwandler' is an old word; today you say 'der Schlafwandler' (sleepwalker).",
+      "words": [
+        {
+          "de": "gehören",
+          "en": "to belong"
+        },
+        {
+          "de": "falsch",
+          "en": "wrong"
+        },
+        {
+          "de": "stocken",
+          "en": "to stop short, to falter"
+        },
+        {
+          "de": "packen",
+          "en": "to grab"
+        },
+        {
+          "de": "kneifen",
+          "en": "to pinch"
+        },
+        {
+          "de": "die Verwirrung",
+          "en": "confusion",
+          "note": "Zweig: die Verwirrtheit"
+        },
+        {
+          "de": "der Schlafwandler, die Schlafwandler",
+          "en": "sleepwalker",
+          "note": "Zweig: der Traumwandler"
+        }
+      ]
+    },
+    {
+      "n": 94,
+      "de": "»Was ... wollen Sie?« Ich sagte nichts als »Remember!« und fuhr ihm gleichzeitig mit dem Finger über die Narbe seiner Hand. Er folgte unwillkürlich meiner Bewegung, sein Auge starrte glasig auf den blutroten Strich. Dann begann er plötzlich zu zittern, und ein Schauer lief über seinen ganzen Körper. »Um Gottes willen«, flüsterte er mit blassen Lippen. »Habe ich etwas Unsinniges gesagt oder getan... bin ich am Ende wieder ...?«",
+      "en": "'What... do you want?' I said nothing but 'Remember!' and at the same time ran my finger over the scar on his hand. Without thinking, he followed my movement, and his eyes stared glassily at the blood-red line. Then he suddenly began to tremble, and a shiver ran through his whole body. 'For God's sake,' he whispered with pale lips. 'Did I say or do something crazy... am I, after all, again...?'",
+      "explain_en": "The narrator says 'Remember!' in English so that the others won't understand. 'die Narbe' is the scar from the window he smashed while ill in prison. 'der Schauer' = shiver (it also means a rain shower). 'blass' = pale. 'am Ende' here means 'perhaps, after all'. Dr. B. can't finish his sentence – he is afraid he is becoming ill again.",
+      "words": [
+        {
+          "de": "die Narbe, die Narben",
+          "en": "scar"
+        },
+        {
+          "de": "die Bewegung, die Bewegungen",
+          "en": "movement"
+        },
+        {
+          "de": "der Schauer, die Schauer",
+          "en": "shiver; shower"
+        },
+        {
+          "de": "blass",
+          "en": "pale"
+        },
+        {
+          "de": "flüstern",
+          "en": "to whisper"
+        },
+        {
+          "de": "unsinnig",
+          "en": "senseless, crazy"
+        }
+      ]
+    },
+    {
+      "n": 95,
+      "de": "»Nein«, flüsterte ich leise. »Aber Sie müssen sofort die Partie abbrechen, es ist höchste Zeit. Erinnern Sie sich, was der Arzt Ihnen gesagt hat!« Dr. B. stand mit einem Ruck auf. »Ich bitte um Entschuldigung für meinen dummen Irrtum«, sagte er mit seiner alten höflichen Stimme und verbeugte sich vor Czentovic. »Es ist natürlich purer Unsinn, was ich gesagt habe. Selbstverständlich bleibt es Ihre Partie.« Dann wandte er sich zu uns. »Auch die Herren muss ich um Entschuldigung bitten. Aber ich hatte Sie gleich im Voraus gewarnt, Sie sollten von mir nicht zu viel erwarten. Verzeihen Sie die Blamage – es war das letzte Mal, dass ich mich im Schach versucht habe.«",
+      "en": "'No,' I whispered quietly. 'But you must stop the game at once – it's high time. Remember what the doctor told you!' Dr. B. stood up abruptly. 'I apologise for my stupid mistake,' he said in his old polite voice, bowing to Czentovic. 'What I said is of course pure nonsense. The game is naturally yours.' Then he turned to us. 'I must apologise to you gentlemen as well. But I did warn you from the start not to expect too much from me. Forgive the embarrassment – that was the last time I'll ever try my hand at chess.'",
+      "explain_en": "Dr. B. pulls himself together and leaves with dignity. 'abbrechen' = to break off, to stop. 'höchste Zeit' = high time. 'um Entschuldigung bitten' = to apologise (formal; everyday: 'sich entschuldigen'). 'sich verbeugen' = to bow. 'die Blamage' (from French) = embarrassment; 'sich blamieren' = to make a fool of yourself – very common.",
+      "words": [
+        {
+          "de": "abbrechen",
+          "en": "to break off, to stop"
+        },
+        {
+          "de": "höchste Zeit",
+          "en": "high time"
+        },
+        {
+          "de": "der Irrtum, die Irrtümer",
+          "en": "mistake, error"
+        },
+        {
+          "de": "sich verbeugen",
+          "en": "to bow"
+        },
+        {
+          "de": "sich entschuldigen",
+          "en": "to apologise"
+        },
+        {
+          "de": "warnen",
+          "en": "to warn"
+        },
+        {
+          "de": "die Blamage, die Blamagen",
+          "en": "embarrassment"
+        }
+      ]
+    },
+    {
+      "n": 96,
+      "de": "Er verbeugte sich und ging, in der gleichen bescheidenen und geheimnisvollen Weise, mit der er zuerst erschienen. Nur ich wusste, warum dieser Mann nie mehr ein Schachbrett berühren würde, indes die anderen ein wenig verwirrt zurückblieben mit dem ungewissen Gefühl, mit knapper Not etwas Unbehaglichem und Gefährlichem entgangen zu sein. »Damned fool!« knurrte McConnor in seiner Enttäuschung. Als Letzter erhob sich Czentovic von seinem Sessel und warf noch einen Blick auf die halbbeendete Partie. »Schade«, sagte er großmütig. »Der Angriff war gar nicht so übel disponiert. Für einen Dilettanten ist dieser Herr eigentlich ungewöhnlich begabt.«",
+      "en": "He bowed and left, in the same modest and mysterious way in which he had first appeared. Only I knew why this man would never touch a chessboard again, while the others stayed behind, a little confused, with the vague feeling of having narrowly escaped something unpleasant and dangerous. 'Damned fool!' growled McConnor in his disappointment. Czentovic was the last to get up from his chair, and he took one more look at the half-finished game. 'A pity,' he said generously. 'The attack wasn't badly planned at all. For an amateur, this gentleman is actually unusually talented.'",
+      "explain_en": "These are the last lines of the book. 'bescheiden' = modest. 'indes' is old for 'während' (while). 'mit knapper Not' = only just, narrowly. 'entgehen' + dative = to escape. 'als Letzter' = as the last one. 'großmütig' (generous) is ironic: Czentovic stays superior to the very end. 'Schade!' = What a pity! – very common. A 'Dilettant' is an amateur.",
+      "words": [
+        {
+          "de": "bescheiden",
+          "en": "modest"
+        },
+        {
+          "de": "geheimnisvoll",
+          "en": "mysterious"
+        },
+        {
+          "de": "berühren",
+          "en": "to touch"
+        },
+        {
+          "de": "knurren",
+          "en": "to growl"
+        },
+        {
+          "de": "Schade!",
+          "en": "What a pity!"
+        },
+        {
+          "de": "der Angriff, die Angriffe",
+          "en": "attack"
+        },
+        {
+          "de": "begabt",
+          "en": "talented"
         }
       ]
     }
