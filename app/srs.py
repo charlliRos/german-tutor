@@ -81,7 +81,8 @@ class Plan:
 def plan_session(states: dict, words: dict, settings: dict, today: date, size: int, new_allowed: int) -> Plan:
     """Fill a warm-up of `size` words: some new words (always a few, if allowed), then due reviews
     (most overdue first), then extra practice on words already started (weakest, least recent first).
-    If there is still room on a day new words are allowed, it is topped up with more new words."""
+    If there is still room (early on, few words have been started), it is topped up with new words,
+    so a warm-up is always full while the bank has words left."""
     t = today.isoformat()
     shares = settings["bank_shares"]
     new = pick_new_words(states, words, min(max(new_allowed, 0), size), shares)
@@ -94,7 +95,7 @@ def plan_session(states: dict, words: dict, settings: dict, today: date, size: i
     started.sort(key=lambda wid: (states[wid].get("last") == t, states[wid]["box"], states[wid].get("last") or ""))
     practice = started[: size - len(new) - len(reviews)]
     room = size - len(new) - len(reviews) - len(practice)
-    if room > 0 and new_allowed > 0:
+    if room > 0:
         new = pick_new_words(states, words, len(new) + room, shares)
     return Plan(reviews, new, practice)
 

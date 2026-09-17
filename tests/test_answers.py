@@ -98,9 +98,12 @@ class SpacedRepetition(unittest.TestCase):
         plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=10, new_allowed=3)
         self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (3, 7, 0))
         self.assertTrue(set(plan.new).isdisjoint(states))
-        # Extra practice later the same day: no new words, remaining due words, then weakest started words.
+        # Extra practice later the same day: due words, then weakest started words, then (only because
+        # too few words have been started yet) topped up with new words to fill the warm-up.
         plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=20, new_allowed=0)
-        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (0, 12, 5))
+        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (3, 12, 5))
+        plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=15, new_allowed=0)
+        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (0, 12, 3))
 
     def test_practice_does_not_promote_but_a_miss_demotes(self):
         s = {"box": 3, "due": "2026-02-01"}
