@@ -5,9 +5,9 @@
   "author_died": 1926,
   "year": 1929,
   "level": "B2",
-  "source": "https://www.lernhelfer.de/sites/default/files/lexicon/pdf/BWS-DEU2-0519-08.pdf (full text), cross-checked against https://www.rilke.de/briefe/170203.htm, https://www.rilke.de/briefe/050403.htm, https://www.rilke.de/briefe/230403.htm, https://www.lieder.net/lieder/get_text.html?TextId=454997 and the Diogenes edition sample https://www.diogenes.ch/dam/jcr:f80b9fb0-ea05-4c00-9694-e085a34d284f/978-3-257-07368-3.pdf",
+  "source": "https://www.lernhelfer.de/sites/default/files/lexicon/pdf/BWS-DEU2-0519-08.pdf (full text), cross-checked against https://www.rilke.de/briefe/170203.htm, https://www.rilke.de/briefe/050403.htm, https://www.rilke.de/briefe/230403.htm, https://www.lieder.net/lieder/get_text.html?TextId=454997, https://www.rilke.de/briefe/160703.htm, https://www.rilke.de/briefe/291003.htm, https://www.rilke.de/briefe/231203.htm, https://www.rilke.de/briefe/140504.htm, https://www.rilke.de/briefe/120804.htm, https://www.rilke.de/briefe/040904.htm, https://www.rilke.de/briefe/261208.htm and the Diogenes edition sample https://www.diogenes.ch/dam/jcr:f80b9fb0-ea05-4c00-9694-e085a34d284f/978-3-257-07368-3.pdf",
   "orthography": "modernised to current German spelling (dass, muss, Missverständnisse, wusste, gewiss, jedes Mal, ...); wording unchanged; Rilke's own hyphenated 'Kunst-Werk' kept",
-  "intro_en": "Rainer Maria Rilke (1875–1926) is one of the most famous poets in the German language. Between 1903 and 1908 he wrote ten letters to Franz Xaver Kappus, a 19-year-old military cadet who had sent him his poems and asked whether they were any good; they were published in 1929. Rilke's advice – look inside yourself, be patient, don't chase other people's approval – is still loved by young people all over the world. Be aware that Rilke writes in a formal, poetic style from around 1900, so the notes point out which words and phrases you can still use today and which you can't. This book covers Letter 1, Letter 2 and the first half of Letter 3.",
+  "intro_en": "Rainer Maria Rilke (1875–1926) is one of the most famous poets in the German language. Between 1903 and 1908 he wrote ten letters to Franz Xaver Kappus, a 19-year-old military cadet who had sent him his poems and asked whether they were any good; they were published in 1929. Rilke's advice – look inside yourself, be patient, don't chase other people's approval – is still loved by young people all over the world. Be aware that Rilke writes in a formal, poetic style from around 1900, so the notes point out which words and phrases you can still use today and which you can't. This book covers all ten letters: the key passages in German, with short summaries of the parts in between.",
   "units": [
     {
       "n": 1,
@@ -1154,6 +1154,1793 @@
         {
           "de": "täglich",
           "en": "daily, every day"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "type": "summary",
+      "covers": "Letter 3 (end) – Letter 4 (start)",
+      "en": "Rilke then answers Kappus's question about the poet Richard Dehmel. He admires the raw power of Dehmel's poems but finds them uneven: after every beautiful page he fears the next one will spoil it, partly because Dehmel mixes his creative energy with a rather crude, self-centred view of love and sexuality. You can enjoy what is great in such art, Rilke says, without becoming a follower. He adds that he is too poor to send Kappus his own books, so he writes down the titles for him to order. The next letter comes almost three months later from Worpswede, an artists' village near Bremen. Rilke has left noisy Paris, tired and unwell, and is rereading Kappus's letter of 2 May in the wide, quiet, rainy countryside."
+    },
+    {
+      "n": 34,
+      "de": "Hier, wo ein gewaltiges Land um mich ist, über das von den Meeren her die Winde gehen, hier fühle ich, dass auf jene Fragen und Gefühle, die in ihren Tiefen ein eigenes Leben haben, nirgend ein Mensch Ihnen antworten kann; denn es irren auch die Besten in den Worten, wenn sie Leisestes bedeuten sollen und fast Unsägliches. Aber ich glaube trotzdem, dass Sie nicht ohne Lösung bleiben müssen, wenn Sie sich an Dinge halten, die denen ähnlich sind, an welchen jetzt meine Augen sich erholen.",
+      "en": "Here, where a vast land lies around me, over which the winds blow in from the seas, here I feel that nobody anywhere can answer those questions and feelings of yours that have a life of their own in their depths; for even the best people go wrong with words when the words are meant to express the quietest and almost unsayable things. But I still believe that you need not remain without a solution if you hold on to things similar to those on which my eyes are now resting.",
+      "explain_en": "From LETTER 4 (Worpswede, 16 July 1903). Rilke is in the flat, windy North German countryside. 'Gewaltig' = huge, tremendous – still common: 'ein gewaltiger Unterschied'. 'Nirgend' is old; today: 'nirgends' or 'nirgendwo'. 'Irren' = to be wrong ('Da irrst du dich!' = You're wrong there!). 'Unsäglich' (unsayable) is a poetic word Rilke loves; everyday German: 'unbeschreiblich'. 'Sich an etwas halten' = to hold on to, to stick to something.",
+      "words": [
+        {
+          "de": "das Land, die Länder",
+          "en": "land, country"
+        },
+        {
+          "de": "der Wind, die Winde",
+          "en": "wind"
+        },
+        {
+          "de": "das Meer, die Meere",
+          "en": "sea"
+        },
+        {
+          "de": "antworten",
+          "en": "to answer",
+          "note": "+ dative: Ich antworte Ihnen."
+        },
+        {
+          "de": "sich irren",
+          "en": "to be mistaken"
+        },
+        {
+          "de": "die Lösung, die Lösungen",
+          "en": "solution"
+        },
+        {
+          "de": "sich erholen",
+          "en": "to recover, to rest"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "de": "Wenn Sie sich an die Natur halten, an das Einfache in ihr, an das Kleine, das kaum einer sieht, und das so unversehens zum Großen und Unermesslichen werden kann; wenn Sie diese Liebe haben zu dem Geringen und ganz schlicht als ein Dienender das Vertrauen dessen zu gewinnen suchen, was arm scheint: dann wird Ihnen alles leichter, einheitlicher und irgendwie versöhnender werden, nicht im Verstande vielleicht, der staunend zurückbleibt, aber in Ihrem innersten Bewusstsein, Wach-sein und Wissen.",
+      "en": "If you hold on to nature, to what is simple in it, to the small things that hardly anyone sees and that can so unexpectedly become great and immeasurable; if you have this love for what is humble and try, quite simply, as someone who serves, to win the trust of what seems poor: then everything will become easier for you, more unified and somehow more reconciling, not perhaps in your intellect, which stays behind in amazement, but in your innermost consciousness, wakefulness and knowing.",
+      "explain_en": "Rilke's advice: look at nature, especially the small, unnoticed things. The sentence is built as 'Wenn ..., wenn ...: dann ...' (If ..., if ...: then ...) – a clear structure you can copy. 'Das Einfache, das Kleine, das Geringe' are adjectives used as nouns (what is simple, small, humble). 'Unversehens' (unexpectedly) is old-fashioned; today: 'unerwartet' or 'plötzlich'. 'Wach-sein' with a hyphen is Rilke's spelling; today 'das Wachsein'.",
+      "words": [
+        {
+          "de": "die Natur",
+          "en": "nature"
+        },
+        {
+          "de": "einfach",
+          "en": "simple, easy"
+        },
+        {
+          "de": "unermesslich",
+          "en": "immeasurable, immense"
+        },
+        {
+          "de": "das Vertrauen",
+          "en": "trust"
+        },
+        {
+          "de": "gewinnen",
+          "en": "to win, to gain"
+        },
+        {
+          "de": "leicht",
+          "en": "easy; light"
+        },
+        {
+          "de": "das Bewusstsein",
+          "en": "consciousness, awareness"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "de": "Sie sind so jung, so vor allem Anfang, und ich möchte Sie, so gut ich es kann, bitten, lieber Herr, Geduld zu haben gegen alles Ungelöste in Ihrem Herzen und zu versuchen, die Fragen selbst liebzuhaben wie verschlossene Stuben und wie Bücher, die in einer sehr fremden Sprache geschrieben sind.",
+      "en": "You are so young, so much before all beginning, and I would like to ask you, as well as I can, dear sir, to be patient towards everything that is unresolved in your heart and to try to love the questions themselves, like locked rooms and like books written in a very foreign language.",
+      "explain_en": "One of the most famous passages Rilke ever wrote. 'So gut ich es kann' = as well as I can – very useful. 'Geduld haben' = to be patient ('Hab Geduld!'); Rilke says 'gegen alles', but today you'd say 'Geduld haben mit etwas'. 'Das Ungelöste' = what is unsolved (from 'lösen', to solve). 'Liebhaben' = to love, to be fond of – today mostly used for people ('Ich hab dich lieb'). 'Die Stube' is old-fashioned for 'das Zimmer'.",
+      "words": [
+        {
+          "de": "jung",
+          "en": "young"
+        },
+        {
+          "de": "der Anfang, die Anfänge",
+          "en": "beginning"
+        },
+        {
+          "de": "bitten",
+          "en": "to ask (for something)",
+          "note": "Ich bitte Sie, ... = I ask you to ..."
+        },
+        {
+          "de": "die Geduld",
+          "en": "patience"
+        },
+        {
+          "de": "das Herz, die Herzen",
+          "en": "heart"
+        },
+        {
+          "de": "die Frage, die Fragen",
+          "en": "question"
+        },
+        {
+          "de": "verschlossen",
+          "en": "locked, closed"
+        },
+        {
+          "de": "die Sprache, die Sprachen",
+          "en": "language"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "de": "Forschen Sie jetzt nicht nach den Antworten, die Ihnen nicht gegeben werden können, weil Sie sie nicht leben könnten. Und es handelt sich darum, alles zu leben. Leben Sie jetzt die Fragen. Vielleicht leben Sie dann allmählich, ohne es zu merken, eines fernen Tages in die Antwort hinein.",
+      "en": "Don't search now for the answers, which cannot be given to you because you would not be able to live them. And the point is to live everything. Live the questions now. Perhaps then, gradually, without noticing it, you will live your way into the answer some distant day.",
+      "explain_en": "'Leben Sie jetzt die Fragen' (Live the questions now) is quoted all over the world. 'Forschen nach' = to search for (compare 'die Forschung' = research). 'Es handelt sich darum, ...' = the point is ..., it's about ... – common today: 'Es handelt sich um ein Missverständnis.' 'Allmählich' = gradually. 'Eines fernen Tages' is a genitive used for time, like 'eines Tages' (one day). 'In die Antwort hineinleben' is Rilke's own invention: to grow into the answer by living.",
+      "words": [
+        {
+          "de": "die Antwort, die Antworten",
+          "en": "answer"
+        },
+        {
+          "de": "forschen",
+          "en": "to search, to research"
+        },
+        {
+          "de": "leben",
+          "en": "to live"
+        },
+        {
+          "de": "allmählich",
+          "en": "gradually"
+        },
+        {
+          "de": "merken",
+          "en": "to notice"
+        },
+        {
+          "de": "eines Tages",
+          "en": "one day, some day"
+        },
+        {
+          "de": "fern",
+          "en": "distant, far"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "de": "Vielleicht tragen Sie ja in sich die Möglichkeit, zu bilden und zu formen, als eine besonders selige und reine Art des Lebens; erziehen Sie sich dazu, – aber nehmen Sie das, was kommt, in großem Vertrauen hin, und wenn es nur aus Ihrem Willen kommt, aus irgendeiner Not Ihres Innern, so nehmen Sie es auf sich und hassen Sie nichts.",
+      "en": "Perhaps you really do carry within you the possibility of shaping and forming, as an especially blissful and pure way of living; train yourself for it – but accept whatever comes with great trust, and if it comes only from your own will, from some need deep inside you, then take it upon yourself and hate nothing.",
+      "explain_en": "'Bilden' and 'formen' both mean to shape – Rilke means creating art. 'Ja' here is a filler word meaning 'indeed, after all'. 'Sich zu etwas erziehen' = to train yourself to become something. 'Etwas hinnehmen' = to accept something (without complaining). 'Etwas auf sich nehmen' = to take something on, to accept responsibility for it. 'Ihres Innern' is an old short form; today 'Ihres Inneren' (of your inner self).",
+      "words": [
+        {
+          "de": "tragen",
+          "en": "to carry; to wear"
+        },
+        {
+          "de": "die Möglichkeit, die Möglichkeiten",
+          "en": "possibility"
+        },
+        {
+          "de": "rein",
+          "en": "pure, clean"
+        },
+        {
+          "de": "erziehen",
+          "en": "to bring up, to educate"
+        },
+        {
+          "de": "hinnehmen",
+          "en": "to accept"
+        },
+        {
+          "de": "der Wille",
+          "en": "will"
+        },
+        {
+          "de": "hassen",
+          "en": "to hate"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "type": "summary",
+      "covers": "Letter 4 (middle)",
+      "en": "Kappus had also written about sex, which troubles him. Rilke answers seriously and calmly: sexuality is difficult, he says, but almost everything serious is difficult, and it is nothing to be ashamed of. What is wrong is treating it lightly, as a cheap distraction. He compares it with other deep experiences of life and with the patient way plants and animals grow. Perhaps one day, he suggests, men and women will no longer meet as opposites but as brothers and sisters and neighbours – as human beings who carry this difficult part of life together."
+    },
+    {
+      "n": 40,
+      "de": "Aber alles, was vielleicht einmal vielen möglich sein wird, kann der Einsame jetzt schon vorbereiten und bauen mit seinen Händen, die weniger irren. Darum, lieber Herr, lieben Sie Ihre Einsamkeit, und tragen Sie den Schmerz, den sie Ihnen verursacht, mit schön klingender Klage. Denn die Ihnen nahe sind, sind fern, sagen Sie, und das zeigt, dass es anfängt, weit um Sie zu werden.",
+      "en": "But everything that may one day be possible for many, the solitary person can already prepare and build now, with his hands, which make fewer mistakes. Therefore, dear sir, love your solitude and bear the pain it causes you with a beautifully sounding lament. For those who are close to you are far away, you say, and that shows that a wide space is beginning to open up around you.",
+      "explain_en": "Now comes Rilke's big theme: 'Lieben Sie Ihre Einsamkeit' (Love your solitude). 'Der Einsame' = the solitary person – an adjective used as a noun. 'Die Einsamkeit' can mean loneliness or solitude; Rilke means the good kind, being alone with yourself. 'Verursachen' = to cause ('Das verursacht Probleme'). 'Die Klage' is a lament or complaint – today 'die Klage' is mostly a lawsuit, and people say 'sich beschweren' for complaining. 'Es fängt an, weit um Sie zu werden' – 'es' is an empty subject, like 'it's getting dark'.",
+      "words": [
+        {
+          "de": "vorbereiten",
+          "en": "to prepare"
+        },
+        {
+          "de": "bauen",
+          "en": "to build"
+        },
+        {
+          "de": "die Einsamkeit",
+          "en": "solitude, loneliness"
+        },
+        {
+          "de": "der Schmerz, die Schmerzen",
+          "en": "pain"
+        },
+        {
+          "de": "verursachen",
+          "en": "to cause"
+        },
+        {
+          "de": "nah",
+          "en": "close, near"
+        },
+        {
+          "de": "fern",
+          "en": "far away"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "de": "Und wenn Ihre Nähe fern ist, dann ist Ihre Weite schon unter den Sternen und sehr groß; freuen Sie sich Ihres Wachstums, in das Sie ja niemanden mitnehmen können, und seien Sie gut gegen die, welche zurückbleiben, und seien Sie sicher und ruhig vor ihnen und quälen Sie sie nicht mit Ihren Zweifeln und erschrecken Sie sie nicht mit Ihrer Zuversicht oder Freude, die sie nicht begreifen könnten.",
+      "en": "And if what is near to you is far away, then your wide space is already out among the stars and very large; be glad of your growth, into which, after all, you can take no one with you, and be kind to those who stay behind, and be sure and calm in front of them, and don't torment them with your doubts and don't frighten them with your confidence or joy, which they could not understand.",
+      "explain_en": "Rilke tells Kappus how to treat family and friends who don't understand him: be kind, don't torture them with doubts. 'Sich einer Sache freuen' (genitive) is old; today 'sich über etwas freuen': 'Freuen Sie sich über Ihr Wachstum.' 'Das Wachstum' = growth (also used for the economy). 'Gut gegen jemanden sein' is old; today 'gut zu jemandem sein' or 'nett zu jemandem sein'. 'Quälen' = to torment. 'Begreifen' = to grasp, understand.",
+      "words": [
+        {
+          "de": "der Stern, die Sterne",
+          "en": "star"
+        },
+        {
+          "de": "das Wachstum",
+          "en": "growth"
+        },
+        {
+          "de": "zurückbleiben",
+          "en": "to stay behind"
+        },
+        {
+          "de": "ruhig",
+          "en": "calm, quiet"
+        },
+        {
+          "de": "quälen",
+          "en": "to torment"
+        },
+        {
+          "de": "der Zweifel, die Zweifel",
+          "en": "doubt"
+        },
+        {
+          "de": "erschrecken",
+          "en": "to frighten; to get a fright"
+        },
+        {
+          "de": "begreifen",
+          "en": "to grasp, to understand"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "de": "Suchen Sie sich mit ihnen irgendeine schlichte und treue Gemeinsamkeit, die sich nicht notwendig verändern muss, wenn Sie selbst anders und anders werden; lieben Sie an ihnen das Leben in einer fremden Form und haben Sie Nachsicht gegen die alternden Menschen, die das Alleinsein fürchten, zu dem Sie Vertrauen haben. Vermeiden Sie, jenem Drama, das zwischen Eltern und Kindern immer ausgespannt ist, Stoff zuzuführen; es verbraucht viel Kraft der Kinder und zehrt die Liebe der Alten auf, die wirkt und wärmt, auch wenn sie nicht begreift.",
+      "en": "Look for some simple and faithful common ground with them, which doesn't necessarily have to change when you yourself become more and more different; love in them life in an unfamiliar form, and be patient with the ageing people who fear the being-alone that you trust. Avoid adding fuel to that drama which is always stretched between parents and children; it uses up a lot of the children's strength and wears out the love of the old, which works and warms even when it doesn't understand.",
+      "explain_en": "Wise advice about parents: don't feed the constant parent–child drama. 'Die Gemeinsamkeit' = something you have in common ('Wir haben viele Gemeinsamkeiten'). 'Anders und anders werden' = to become more and more different; today 'immer anders'. 'Nachsicht haben mit' = to be lenient/patient with (Rilke says 'gegen'). 'Stoff zuführen' literally 'to supply material' – like 'adding fuel to the fire', today 'Öl ins Feuer gießen'. 'Die Alten' here simply means the older generation.",
+      "words": [
+        {
+          "de": "die Gemeinsamkeit, die Gemeinsamkeiten",
+          "en": "common ground, something in common"
+        },
+        {
+          "de": "sich verändern",
+          "en": "to change"
+        },
+        {
+          "de": "die Nachsicht",
+          "en": "leniency, patience"
+        },
+        {
+          "de": "fürchten",
+          "en": "to fear"
+        },
+        {
+          "de": "vermeiden",
+          "en": "to avoid"
+        },
+        {
+          "de": "die Eltern",
+          "en": "parents",
+          "note": "always plural"
+        },
+        {
+          "de": "die Kraft, die Kräfte",
+          "en": "strength, power"
+        },
+        {
+          "de": "wärmen",
+          "en": "to warm"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "de": "Verlangen Sie keinen Rat von ihnen und rechnen Sie mit keinem Verstehen; aber glauben Sie an eine Liebe, die für Sie aufbewahrt wird wie eine Erbschaft, und vertrauen Sie, dass in dieser Liebe eine Kraft ist und ein Segen, aus dem Sie nicht herausgehen müssen, um ganz weit zu gehen! Es ist gut, dass Sie zunächst in einen Beruf münden, der Sie selbständig macht und Sie vollkommen auf sich selbst stellt in jedem Sinne.",
+      "en": "Don't ask them for advice and don't count on any understanding; but believe in a love that is being kept for you like an inheritance, and trust that in this love there is a strength and a blessing that you don't have to step out of in order to go very far! It is good that you are first entering a profession that makes you independent and puts you entirely on your own feet in every sense.",
+      "explain_en": "'Der Rat' = advice (no plural in this meaning; 'Ratschläge' = pieces of advice). 'Mit etwas rechnen' = to count on / expect something – very common: 'Damit habe ich nicht gerechnet!' 'Die Erbschaft' = inheritance (from 'erben', to inherit). Kappus is about to become an army officer: 'in einen Beruf münden' = literally to flow into a job, like a river into the sea. 'Selbständig' (also spelled 'selbstständig') = independent; today it also means self-employed.",
+      "words": [
+        {
+          "de": "der Rat",
+          "en": "advice"
+        },
+        {
+          "de": "verlangen",
+          "en": "to demand, to ask for"
+        },
+        {
+          "de": "rechnen mit",
+          "en": "to count on, to expect"
+        },
+        {
+          "de": "die Erbschaft, die Erbschaften",
+          "en": "inheritance"
+        },
+        {
+          "de": "vertrauen",
+          "en": "to trust",
+          "note": "+ dative: Ich vertraue dir."
+        },
+        {
+          "de": "der Beruf, die Berufe",
+          "en": "job, profession"
+        },
+        {
+          "de": "selbständig",
+          "en": "independent",
+          "note": "also: selbstständig"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "de": "Warten Sie geduldig ab, ob Ihr innerstes Leben sich beschränkt fühlt durch die Form dieses Berufes. Ich halte ihn für sehr schwer und für sehr anspruchsvoll, da er von großen Konventionen belastet ist und einer persönlichen Auffassung seiner Aufgaben fast keinen Raum lässt. Aber Ihre Einsamkeit wird Ihnen auch inmitten sehr fremder Verhältnisse Halt und Heimat sein, und aus ihr heraus werden Sie alle Ihre Wege finden.\nAlle meine Wünsche sind bereit, Sie zu begleiten, und mein Vertrauen ist mit Ihnen.\nIhr Rainer Maria Rilke",
+      "en": "Wait patiently to see whether your innermost life feels restricted by the form of this profession. I consider it very hard and very demanding, since it is weighed down by great conventions and leaves almost no room for a personal view of its tasks. But your solitude will be a support and a home for you even in the midst of very strange circumstances, and from it you will find all your ways.\nAll my wishes are ready to go with you, and my trust is with you.\nYours, Rainer Maria Rilke",
+      "explain_en": "The end of Letter 4. 'Abwarten, ob ...' = to wait and see whether ... . 'Ich halte ihn für sehr schwer' – 'etwas für ... halten' = to consider something ...: 'Ich halte das für eine gute Idee.' 'Anspruchsvoll' = demanding. 'Die Konvention' = convention, fixed social rules. 'Halt und Heimat' is a nice pair: 'der Halt' = support, something to hold on to; 'die Heimat' = home, homeland. 'Inmitten' = in the middle of (formal).",
+      "words": [
+        {
+          "de": "abwarten",
+          "en": "to wait and see"
+        },
+        {
+          "de": "halten für",
+          "en": "to consider, to think of as"
+        },
+        {
+          "de": "anspruchsvoll",
+          "en": "demanding"
+        },
+        {
+          "de": "die Aufgabe, die Aufgaben",
+          "en": "task"
+        },
+        {
+          "de": "der Halt",
+          "en": "support, hold"
+        },
+        {
+          "de": "die Heimat",
+          "en": "home, homeland"
+        },
+        {
+          "de": "der Wunsch, die Wünsche",
+          "en": "wish"
+        },
+        {
+          "de": "begleiten",
+          "en": "to accompany"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "type": "summary",
+      "covers": "Letter 5 (start)",
+      "en": "The next letter comes from Rome, dated 29 October 1903. Rilke apologises for answering two months late: while travelling he dislikes writing letters, because a letter needs quiet, solitude and an hour that doesn't feel too foreign. He arrived in Rome about six weeks earlier, when the city was still empty, hot and known for fever. At first Rome seemed crushingly sad to him: like a gloomy museum, full of dug-up ruins from the past, which scholars and tourists admire far more than they deserve."
+    },
+    {
+      "n": 46,
+      "de": "Schließlich, nach Wochen täglicher Abwehr, findet man sich, obwohl noch ein wenig verwirrt, zu sich selber zurück, und man sagt sich: Nein, es ist hier nicht mehr Schönheit als anderswo, und alle diese von Generationen immer weiter bewunderten Gegenstände, an denen Handlangerhände gebessert und ergänzt haben, bedeuten nichts, sind nichts und haben kein Herz und keinen Wert; – aber es ist viel Schönheit hier, weil überall viel Schönheit ist.",
+      "en": "Finally, after weeks of daily resistance, you find your way back to yourself, although still a little confused, and you say to yourself: No, there is no more beauty here than anywhere else, and all these objects, admired by generation after generation, patched up and completed by the hands of labourers, mean nothing, are nothing and have no heart and no value; – but there is much beauty here, because there is much beauty everywhere.",
+      "explain_en": "From LETTER 5 (Rome, 29 October 1903). The key sentence is the last one: there is beauty here because there is beauty everywhere. 'Man' = you/one, used for people in general: 'man sagt sich' = you tell yourself. 'Die Abwehr' = defence, resistance (also 'die Abwehr' in football = the defence). 'Anderswo' = somewhere else (still used; more common: 'woanders'). 'Der Handlanger' = unskilled helper – today it mostly means a henchman.",
+      "words": [
+        {
+          "de": "schließlich",
+          "en": "finally, after all"
+        },
+        {
+          "de": "verwirrt",
+          "en": "confused"
+        },
+        {
+          "de": "die Schönheit, die Schönheiten",
+          "en": "beauty"
+        },
+        {
+          "de": "anderswo",
+          "en": "elsewhere",
+          "note": "more common: woanders"
+        },
+        {
+          "de": "bewundern",
+          "en": "to admire"
+        },
+        {
+          "de": "der Gegenstand, die Gegenstände",
+          "en": "object"
+        },
+        {
+          "de": "der Wert, die Werte",
+          "en": "value"
+        },
+        {
+          "de": "überall",
+          "en": "everywhere"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "de": "Unendlich lebensvolle Wasser gehen über die alten Aquädukte in die große Stadt und tanzen auf den vielen Plätzen über steinernen weißen Schalen und breiten sich aus in weiten, geräumigen Becken und rauschen bei Tag und erheben ihr Rauschen zur Nacht, die hier groß und gestirnt ist und weich von Winden. Und Gärten sind hier, unvergessliche Alleen und Treppen, Treppen, von Michelangelo ersonnen, Treppen, die nach dem Vorbild abwärts gleitender Wasser erbaut sind, – breit im Gefäll Stufe aus Stufe gebärend wie Welle aus Welle.",
+      "en": "Endlessly lively waters flow over the old aqueducts into the great city and dance in the many squares over white stone basins and spread out in wide, spacious pools and murmur by day and raise their murmuring into the night, which here is vast and starry and soft with winds. And there are gardens here, unforgettable avenues and staircases, staircases devised by Michelangelo, staircases built on the model of water gliding downwards – broad in their slope, giving birth to step after step like wave after wave.",
+      "explain_en": "A beautiful description of Rome's fountains and the Spanish Steps area. Rilke uses 'und ... und ... und' to imitate the endless flowing water. 'Die Wasser' as a plural is poetic; normally 'das Wasser' has no plural. 'Rauschen' = to murmur, rush, roar (water, wind, trees) – also 'das Rauschen' (noise, static). 'Ersinnen' = to devise, think up (old; today 'sich ausdenken'). 'Nach dem Vorbild' = on the model of. 'Das Gefäll' is old for 'das Gefälle' (slope).",
+      "words": [
+        {
+          "de": "das Wasser",
+          "en": "water"
+        },
+        {
+          "de": "der Platz, die Plätze",
+          "en": "square; place, space"
+        },
+        {
+          "de": "tanzen",
+          "en": "to dance"
+        },
+        {
+          "de": "rauschen",
+          "en": "to murmur, to rush"
+        },
+        {
+          "de": "der Garten, die Gärten",
+          "en": "garden"
+        },
+        {
+          "de": "die Treppe, die Treppen",
+          "en": "staircase, stairs"
+        },
+        {
+          "de": "unvergesslich",
+          "en": "unforgettable"
+        },
+        {
+          "de": "die Welle, die Wellen",
+          "en": "wave"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "de": "Durch solche Eindrücke sammelt man sich, gewinnt sich zurück aus dem anspruchsvollen Vielen, das da spricht und schwätzt (und wie gesprächig ist es!), und lernt langsam die sehr wenigen Dinge erkennen, in denen Ewiges dauert, das man lieben, und Einsames, daran man leise teilnehmen kann.",
+      "en": "Through such impressions you collect yourself, win yourself back from the demanding many things that talk and chatter there (and how talkative they are!), and slowly learn to recognise the very few things in which something eternal lasts that you can love, and something solitary that you can quietly share in.",
+      "explain_en": "'Sich sammeln' = to collect/compose yourself, to concentrate. 'Das Viele' = the many things – an adjective used as a noun, like 'das Ewige' (the eternal) and 'das Einsame' (the solitary). 'Schwätzen' = to chatter (in southern Germany also 'schwätzen' at school = talking in class). 'Gesprächig' = talkative. 'Teilnehmen an' = to take part in; Rilke writes 'daran man', today 'an dem man teilnehmen kann'.",
+      "words": [
+        {
+          "de": "der Eindruck, die Eindrücke",
+          "en": "impression"
+        },
+        {
+          "de": "sich sammeln",
+          "en": "to collect oneself, to concentrate"
+        },
+        {
+          "de": "schwätzen",
+          "en": "to chatter"
+        },
+        {
+          "de": "gesprächig",
+          "en": "talkative"
+        },
+        {
+          "de": "erkennen",
+          "en": "to recognise"
+        },
+        {
+          "de": "ewig",
+          "en": "eternal"
+        },
+        {
+          "de": "teilnehmen an",
+          "en": "to take part in"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "type": "summary",
+      "covers": "Letter 5 (end)",
+      "en": "Rilke says he is still living in the city on the Capitol hill, near the famous ancient statue of Marcus Aurelius on horseback, but in a few weeks he will move into a simple, quiet studio hidden deep in a large park, where he hopes to spend a good, productive winter. He then tells Kappus that the book with Kappus's work, announced in his letter, never arrived – perhaps it was sent back, perhaps it was lost in the Italian post. Rilke promises that he will always read, and reread, any new poems Kappus sends him."
+    },
+    {
+      "n": 50,
+      "de": "Rom, am 23. Dezember 1903\nMein lieber Herr Kappus,\nSie sollen nicht ohne einen Gruß von mir sein, wenn es Weihnachten wird und wenn Sie, inmitten des Festes, Ihre Einsamkeit schwerer tragen als sonst. Aber wenn Sie dann merken, dass sie groß ist, so freuen Sie sich dessen; denn was (so fragen Sie sich) wäre eine Einsamkeit, welche nicht Größe hätte; es gibt nur eine Einsamkeit, und die ist groß und ist nicht leicht zu tragen, und es kommen fast allen die Stunden, da sie sie gerne vertauschen möchten gegen irgendeine noch so banale und billige Gemeinsamkeit, gegen den Schein einer geringen Übereinstimmung mit dem Nächstbesten, mit dem Unwürdigsten.",
+      "en": "Rome, 23 December 1903\nMy dear Mr Kappus,\nYou shall not be without a greeting from me when Christmas comes and when, in the middle of the holiday, you carry your solitude more heavily than usual. But if you then notice that it is great, be glad of it; for what (so ask yourself) would a solitude be that had no greatness; there is only one solitude, and it is great and not easy to bear, and to almost everyone come the hours when they would gladly exchange it for any togetherness, however banal and cheap, for the mere appearance of some small agreement with the first person who comes along, with the least worthy.",
+      "explain_en": "LETTER 6 starts here (Rome, 23 December 1903) – a Christmas letter. Note the warmer greeting now: 'Mein lieber Herr Kappus'. 'Sie sollen nicht ohne ... sein' = you shall not be without – 'sollen' expresses Rilke's wish. 'Inmitten des Festes' = in the middle of the holiday (formal). 'Noch so banal' = however banal ('Egal, wie banal'). 'Der Nächstbeste' = the first person who comes along, anyone at all – still used: 'Nimm nicht den Nächstbesten!'",
+      "words": [
+        {
+          "de": "der Gruß, die Grüße",
+          "en": "greeting"
+        },
+        {
+          "de": "Weihnachten",
+          "en": "Christmas",
+          "note": "Frohe Weihnachten!"
+        },
+        {
+          "de": "das Fest, die Feste",
+          "en": "celebration, holiday, party"
+        },
+        {
+          "de": "schwer",
+          "en": "heavy; difficult"
+        },
+        {
+          "de": "merken",
+          "en": "to notice"
+        },
+        {
+          "de": "vertauschen",
+          "en": "to exchange, to swap"
+        },
+        {
+          "de": "billig",
+          "en": "cheap"
+        },
+        {
+          "de": "der Nächstbeste",
+          "en": "the first person who comes along"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "de": "Aber vielleicht sind das gerade die Stunden, wo die Einsamkeit wächst; denn ihr Wachsen ist schmerzhaft wie das Wachsen der Knaben und traurig wie der Anfang der Frühlinge. Aber das darf Sie nicht irre machen. Was not tut, ist doch nur dieses: Einsamkeit, große innere Einsamkeit. In-sich-Gehen und stundenlang niemandem begegnen, – das muss man erreichen können. Einsam sein, wie man als Kind einsam war, als die Erwachsenen umhergingen, mit Dingen verflochten, die wichtig und groß schienen, weil die Großen so geschäftig aussahen und weil man von ihrem Tun nichts begriff.",
+      "en": "But perhaps those are exactly the hours when solitude grows; for its growing is painful like the growing of boys and sad like the beginning of springs. But that must not confuse you. What is needed, after all, is only this: solitude, great inner solitude. Going into yourself and meeting no one for hours – that is what you must be able to achieve. Being alone the way you were alone as a child, when the grown-ups walked around, tangled up in things that seemed important and big because the grown-ups looked so busy and because you understood nothing of what they did.",
+      "explain_en": "Rilke compares solitude to a child watching busy adults without understanding them. 'Das darf Sie nicht irre machen' = that mustn't confuse you (old; today 'verunsichern' or 'durcheinanderbringen'). 'Was not tut' = what is needed – old-fashioned; today 'was nötig ist'. 'In-sich-Gehen' = going into yourself, reflecting; the phrase 'in sich gehen' is still used. 'Niemandem begegnen' – 'begegnen' takes the dative. 'Die Großen' = the grown-ups, how children talk; normal word: 'die Erwachsenen'.",
+      "words": [
+        {
+          "de": "wachsen",
+          "en": "to grow"
+        },
+        {
+          "de": "schmerzhaft",
+          "en": "painful"
+        },
+        {
+          "de": "traurig",
+          "en": "sad"
+        },
+        {
+          "de": "begegnen",
+          "en": "to meet (by chance)",
+          "note": "+ dative, Perfekt with sein"
+        },
+        {
+          "de": "erreichen",
+          "en": "to achieve, to reach"
+        },
+        {
+          "de": "das Kind, die Kinder",
+          "en": "child"
+        },
+        {
+          "de": "der/die Erwachsene, die Erwachsenen",
+          "en": "adult, grown-up"
+        },
+        {
+          "de": "geschäftig",
+          "en": "busy, bustling"
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "de": "Und wenn man eines Tages einsieht, dass ihre Beschäftigungen armselig, ihre Berufe erstarrt und mit dem Leben nicht mehr verbunden sind, warum dann nicht weiter wie ein Kind darauf hinsehen als auf ein Fremdes, aus der Tiefe der eigenen Welt heraus, aus der Weite der eigenen Einsamkeit, die selber Arbeit ist und Rang und Beruf? Warum eines Kindes weises Nicht-Verstehen vertauschen wollen gegen Abwehr und Verachtung, da doch Nicht-Verstehen Alleinsein ist, Abwehr und Verachtung aber Teilnahme an dem, wovon man sich mit diesen Mitteln scheiden will.",
+      "en": "And when one day you realise that their occupations are paltry, their professions rigid and no longer connected with life, why not go on looking at them like a child, as at something foreign, from the depths of your own world, from the wide space of your own solitude, which is itself work and rank and profession? Why want to exchange a child's wise not-understanding for defensiveness and contempt, since not-understanding is being alone, whereas defensiveness and contempt are a way of taking part in the very thing you want to separate yourself from by these means.",
+      "explain_en": "A clever thought: if you despise something, you are still involved in it; if you simply don't understand it, like a child, you stay free. 'Einsehen' = to realise, to accept ('Das sehe ich ein' = I accept that). 'Armselig' = pathetic, paltry. 'Erstarrt' = frozen stiff, rigid. 'Warum ... vertauschen wollen' – a question with only an infinitive, no subject: 'Why want to ...?' 'Sich scheiden von' = to separate from – today 'sich scheiden lassen' only means to get divorced; say 'sich abgrenzen von'.",
+      "words": [
+        {
+          "de": "einsehen",
+          "en": "to realise, to accept"
+        },
+        {
+          "de": "die Beschäftigung, die Beschäftigungen",
+          "en": "occupation, activity"
+        },
+        {
+          "de": "verbunden",
+          "en": "connected"
+        },
+        {
+          "de": "fremd",
+          "en": "foreign, strange"
+        },
+        {
+          "de": "weise",
+          "en": "wise"
+        },
+        {
+          "de": "die Verachtung",
+          "en": "contempt"
+        },
+        {
+          "de": "das Mittel, die Mittel",
+          "en": "means, method"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "de": "Denken Sie, lieber Herr, an die Welt, die Sie in sich tragen, und nennen Sie dieses Denken, wie Sie wollen; mag es Erinnerung an die eigene Kindheit sein oder Sehnsucht zur eigenen Zukunft hin, – nur seien Sie aufmerksam gegen das, was in Ihnen aufsteht, und stellen Sie es über alles, was Sie um sich bemerken. Ihr innerstes Geschehen ist Ihrer ganzen Liebe wert, an ihm müssen Sie irgendwie arbeiten und nicht zu viel Zeit und zu viel Mut damit verlieren, Ihre Stellung zu den Menschen aufzuklären. Wer sagt Ihnen denn, dass Sie überhaupt eine haben?",
+      "en": "Think, dear sir, of the world that you carry within you, and call this thinking whatever you like; whether it is memory of your own childhood or longing towards your own future – only be attentive to what rises up in you, and place it above everything you notice around you. What happens deep inside you is worth all your love; you must somehow work on it and not lose too much time and too much courage trying to clarify your position towards other people. Who says you even have one?",
+      "explain_en": "Rilke's advice: your inner world matters more than your social position. 'Nennen Sie es, wie Sie wollen' = call it what you like – very useful. 'Mag es ... sein oder ...' = whether it is ... or ... (formal; today 'Ob es ... ist oder ...'). 'Aufmerksam sein' = to be attentive; today 'aufmerksam auf etwas', not 'gegen'. 'Etwas wert sein' = to be worth something: 'Das ist es wert!' 'Überhaupt' in a question = at all, even: 'Hast du überhaupt Zeit?'",
+      "words": [
+        {
+          "de": "die Welt, die Welten",
+          "en": "world"
+        },
+        {
+          "de": "die Erinnerung, die Erinnerungen",
+          "en": "memory"
+        },
+        {
+          "de": "die Kindheit",
+          "en": "childhood"
+        },
+        {
+          "de": "die Zukunft",
+          "en": "future"
+        },
+        {
+          "de": "aufmerksam",
+          "en": "attentive"
+        },
+        {
+          "de": "wert sein",
+          "en": "to be worth"
+        },
+        {
+          "de": "der Mut",
+          "en": "courage"
+        },
+        {
+          "de": "überhaupt",
+          "en": "at all, even"
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "type": "summary",
+      "covers": "Letter 6 (middle)",
+      "en": "Rilke knows that Kappus's job as a young army officer is hard and that he is unhappy in it. He cannot comfort him, but asks him to consider whether all professions are like this: full of demands, hostile to the individual, and soaked in the resentment of people who have grimly accepted their dull duty. The army, he says, is no more weighed down by conventions and prejudices than any other walk of life. Only the solitary person stands, like a thing of nature, under the deep laws: whoever goes out into the early morning or looks at the evening sky and really feels what is happening there loses all sense of rank and status. Kappus would have felt the same pressure in any job."
+    },
+    {
+      "n": 55,
+      "de": "Es ist überall so; aber das ist kein Grund zu Angst oder Traurigkeit; wenn keine Gemeinsamkeit zwischen den Menschen ist und Ihnen, versuchen Sie es, den Dingen nahe zu sein, die Sie nicht verlassen werden; noch sind die Nächte da und die Winde, die durch die Bäume gehen und über viele Länder; noch ist unter den Dingen und bei den Tieren alles voll Geschehen, daran Sie teilnehmen dürfen; und die Kinder sind noch so, wie Sie gewesen sind als Kind, so traurig und glücklich, – und wenn Sie an Ihre Kindheit denken, dann leben Sie wieder unter ihnen, unter den einsamen Kindern, und die Erwachsenen sind nichts, und ihre Würde hat keinen Wert.",
+      "en": "It is like that everywhere; but that is no reason for fear or sadness; if there is no common ground between people and you, try to be close to things, which will not abandon you; the nights are still there and the winds that go through the trees and over many lands; among things and animals everything is still full of happenings in which you may take part; and children are still the way you were as a child, so sad and happy – and when you think of your childhood, then you live among them again, among the lonely children, and the grown-ups are nothing, and their dignity has no value.",
+      "explain_en": "Rilke's comfort: when people fail you, turn to nature, animals and your own childhood. The sentence is a long chain joined by semicolons – typical of Rilke. 'Noch sind die Nächte da' = the nights are still there – 'noch' at the start stresses 'still'. 'Verlassen' = to leave, to abandon ('Er hat sie verlassen' = He left her). 'Die Würde' = dignity; famous from Germany's constitution: 'Die Würde des Menschen ist unantastbar.'",
+      "words": [
+        {
+          "de": "der Grund, die Gründe",
+          "en": "reason; ground"
+        },
+        {
+          "de": "die Angst, die Ängste",
+          "en": "fear"
+        },
+        {
+          "de": "verlassen",
+          "en": "to leave, to abandon"
+        },
+        {
+          "de": "die Nacht, die Nächte",
+          "en": "night"
+        },
+        {
+          "de": "der Baum, die Bäume",
+          "en": "tree"
+        },
+        {
+          "de": "das Tier, die Tiere",
+          "en": "animal"
+        },
+        {
+          "de": "glücklich",
+          "en": "happy"
+        },
+        {
+          "de": "die Würde",
+          "en": "dignity"
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "type": "summary",
+      "covers": "Letter 6 (end)",
+      "en": "Kappus had written that thinking of his childhood hurts, because he can no longer believe in God, who was part of it. Rilke asks whether he ever really 'had' God – could a child hold something that grown men can barely carry? Instead of missing a God who is lost, Rilke suggests imagining God as someone still to come, at the end of time, like the final fruit of a tree whose leaves we are. Just as bees gather honey, we build him out of the sweetest things in life, beginning even with small acts done out of love. Rilke asks Kappus to celebrate Christmas with this feeling: perhaps his present fear of life and these days of change are part of that slow work."
+    },
+    {
+      "n": 57,
+      "de": "Seien Sie geduldig und ohne Unwillen und denken Sie, dass das wenigste, was wir tun können, ist, Ihm das Werden nicht schwerer zu machen, als die Erde es dem Frühling macht, wenn er kommen will. Und seien Sie froh und getrost.\nIhr Rainer Maria Rilke",
+      "en": "Be patient and without resentment, and remember that the least we can do is not to make his coming-into-being harder than the earth makes it for spring when spring wants to come.\nAnd be glad and confident.\nYours, Rainer Maria Rilke",
+      "explain_en": "The end of Letter 6. 'Seien Sie ...!' is the polite imperative of 'sein': 'Seien Sie vorsichtig!' (Be careful!). 'Der Unwille' = annoyance, resentment (formal; today 'der Ärger'). 'Das Wenigste, was wir tun können' = the least we can do – today 'das Mindeste'. 'Ihm' with a capital letter refers to God. 'Das Werden' = becoming, coming into being. 'Getrost' (confident, comforted) is old-fashioned; today 'zuversichtlich'.",
+      "words": [
+        {
+          "de": "geduldig",
+          "en": "patient"
+        },
+        {
+          "de": "schwer machen",
+          "en": "to make difficult"
+        },
+        {
+          "de": "die Erde",
+          "en": "earth"
+        },
+        {
+          "de": "der Frühling",
+          "en": "spring"
+        },
+        {
+          "de": "froh",
+          "en": "glad, happy"
+        },
+        {
+          "de": "zuversichtlich",
+          "en": "confident",
+          "note": "Rilke uses old 'getrost'"
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "type": "summary",
+      "covers": "Letter 7 (start)",
+      "en": "The next letter is from Rome, dated 14 May 1904. Rilke apologises that so much time has passed: first work, then interruptions and finally illness kept him from answering, and he wanted his reply to come from calm, good days. With this letter he sends back one of Kappus's sonnets, copied out in his own handwriting, because he thinks it is simple and beautiful – the best poem Kappus has sent him. It is an important experience, he says, to find your own work in someone else's writing: read the lines as if they were a stranger's, and you will feel deep inside how much they are your own."
+    },
+    {
+      "n": 59,
+      "de": "Und Sie dürfen sich nicht beirren lassen in Ihrer Einsamkeit, dadurch, dass etwas in Ihnen ist, das sich herauswünscht aus ihr. Gerade dieser Wunsch wird Ihnen, wenn Sie ihn ruhig und überlegen und wie ein Werkzeug gebrauchen, Ihre Einsamkeit ausbreiten helfen über weites Land.",
+      "en": "And you must not let yourself be put off in your solitude by the fact that there is something in you that wishes to get out of it. This very wish, if you use it calmly and thoughtfully and like a tool, will help you to spread your solitude out over a wide land.",
+      "explain_en": "From LETTER 7 (Rome, 14 May 1904). 'Sich nicht beirren lassen' = not to let yourself be put off or confused – still used in formal German: 'Lass dich nicht beirren!' 'Dadurch, dass ...' = by the fact that / because ... – very common: 'Dadurch, dass es regnete, kamen wir zu spät.' 'Gerade dieser Wunsch' = this very wish. 'Überlegen' as an adjective = superior, calm and in control; as a verb 'überlegen' = to think about. 'Das Werkzeug' = tool.",
+      "words": [
+        {
+          "de": "sich beirren lassen",
+          "en": "to be put off, to be confused"
+        },
+        {
+          "de": "der Wunsch, die Wünsche",
+          "en": "wish"
+        },
+        {
+          "de": "ruhig",
+          "en": "calm"
+        },
+        {
+          "de": "das Werkzeug, die Werkzeuge",
+          "en": "tool"
+        },
+        {
+          "de": "gebrauchen",
+          "en": "to use"
+        },
+        {
+          "de": "helfen",
+          "en": "to help",
+          "note": "+ dative: Das hilft Ihnen."
+        },
+        {
+          "de": "weit",
+          "en": "wide, far"
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "de": "Die Leute haben (mit Hilfe von Konventionen) alles nach dem Leichten hin gelöst und nach des Leichten leichtester Seite; es ist aber klar, dass wir uns an das Schwere halten müssen; alles Lebendige hält sich daran, alles in der Natur wächst und wehrt sich nach seiner Art und ist ein Eigenes aus sich heraus, versucht es um jeden Preis zu sein und gegen allen Widerstand. Wir wissen wenig, aber dass wir uns zu Schwerem halten müssen, ist eine Sicherheit, die uns nicht verlassen wird; es ist gut, einsam zu sein, denn Einsamkeit ist schwer; dass etwas schwer ist, muss uns ein Grund mehr sein, es zu tun.",
+      "en": "People have (with the help of conventions) solved everything in the direction of what is easy, and towards the easiest side of the easy; but it is clear that we must hold on to what is difficult; everything alive holds on to it, everything in nature grows and defends itself in its own way and is something of its own, out of itself, tries to be that at any price and against all resistance. We know little, but that we must hold on to what is difficult is a certainty that will not leave us; it is good to be solitary, for solitude is difficult; the fact that something is difficult must be one more reason for us to do it.",
+      "explain_en": "A key idea of the whole book: choose what is difficult. 'Das Schwere' = what is difficult (and 'schwer' also means heavy). 'Mit Hilfe von' = with the help of (also written 'mithilfe'). 'Um jeden Preis' = at any price – still very common. 'Der Widerstand' = resistance. 'Ein Grund mehr' = one more reason: 'Das ist ein Grund mehr, früh zu gehen.' 'Wir wissen wenig' – remember 'wissen' is irregular: ich weiß, wir wissen.",
+      "words": [
+        {
+          "de": "die Leute",
+          "en": "people",
+          "note": "always plural"
+        },
+        {
+          "de": "lösen",
+          "en": "to solve"
+        },
+        {
+          "de": "klar",
+          "en": "clear"
+        },
+        {
+          "de": "lebendig",
+          "en": "alive, lively"
+        },
+        {
+          "de": "sich wehren",
+          "en": "to defend oneself"
+        },
+        {
+          "de": "um jeden Preis",
+          "en": "at any price"
+        },
+        {
+          "de": "der Widerstand, die Widerstände",
+          "en": "resistance"
+        },
+        {
+          "de": "die Sicherheit, die Sicherheiten",
+          "en": "certainty; safety"
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "de": "Auch zu lieben ist gut: denn Liebe ist schwer. Liebhaben von Mensch zu Mensch: das ist vielleicht das Schwerste, was uns aufgegeben ist, das Äußerste, die letzte Probe und Prüfung, die Arbeit, für die alle andere Arbeit nur Vorbereitung ist. Darum können junge Menschen, die Anfänger in allem sind, die Liebe noch nicht: sie müssen sie lernen. Mit dem ganzen Wesen, mit allen Kräften, versammelt um ihr einsames, banges, aufwärts schlagendes Herz, müssen sie lieben lernen. Lernzeit aber ist immer eine lange, abgeschlossene Zeit, und so ist Lieben für lange hinaus und weit ins Leben hinein –: Einsamkeit, gesteigertes und vertieftes Alleinsein für den, der liebt.",
+      "en": "To love is also good: for love is difficult. For one human being to love another: that is perhaps the most difficult thing we have been given to do, the ultimate, the final test and trial, the work for which all other work is only preparation. That is why young people, who are beginners in everything, cannot yet love: they have to learn it. With their whole being, with all their strength, gathered around their lonely, anxious, upward-beating heart, they must learn to love. But learning time is always a long, secluded time, and so loving, for a long time ahead and far into life, is –: solitude, heightened and deepened aloneness for the one who loves.",
+      "explain_en": "Rilke's famous thoughts on love – and a message for young people: love has to be learned. 'Die Liebe können' = to know how to love; 'können' + noun can mean to know: 'Kannst du Deutsch?' 'Das Schwerste' = the most difficult thing – superlative adjective as a noun. 'Die Prüfung' = test, exam ('Ich habe morgen eine Prüfung'). 'Der Anfänger' = beginner. 'Bang' is old for 'ängstlich' (anxious). 'Die Lernzeit' = learning period.",
+      "words": [
+        {
+          "de": "lieben",
+          "en": "to love"
+        },
+        {
+          "de": "die Liebe",
+          "en": "love"
+        },
+        {
+          "de": "die Prüfung, die Prüfungen",
+          "en": "test, exam"
+        },
+        {
+          "de": "die Vorbereitung, die Vorbereitungen",
+          "en": "preparation"
+        },
+        {
+          "de": "der Anfänger, die Anfänger",
+          "en": "beginner"
+        },
+        {
+          "de": "lernen",
+          "en": "to learn"
+        },
+        {
+          "de": "das Alleinsein",
+          "en": "being alone"
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "de": "Lieben ist zunächst nichts, was aufgehen, hingeben und sich mit einem Zweiten vereinen heißt (denn was wäre eine Vereinigung von Ungeklärtem und Unfertigem, noch Ungeordnetem –?), es ist ein erhabener Anlass für den einzelnen, zu reifen, in sich etwas zu werden, Welt zu werden, Welt zu werden für sich um eines anderen willen, es ist ein großer, unbescheidener Anspruch an ihn, etwas, was ihn auserwählt und zu Weitem beruft.",
+      "en": "Loving is at first nothing that means merging, giving yourself up and uniting with a second person (for what would a union of the unclarified and unfinished, of the still disordered be –?), it is a sublime occasion for the individual to mature, to become something in himself, to become world, to become world for himself for the sake of another; it is a great, immodest claim upon him, something that chooses him and calls him to wide horizons.",
+      "explain_en": "Rilke says love is not about losing yourself in another person but about growing into someone yourself. 'Zunächst' = first, at first. 'Aufgehen in' = to be absorbed in; 'sich hingeben' = to give yourself up. 'Um eines anderen willen' = for the sake of another – today 'wegen' or 'für': 'um ... willen' survives in 'Um Himmels willen!' (For heaven's sake!). 'Der Anlass' = occasion, reason. 'Reifen' = to mature (compare 'reif' = ripe, mature).",
+      "words": [
+        {
+          "de": "zunächst",
+          "en": "at first, first of all"
+        },
+        {
+          "de": "vereinen",
+          "en": "to unite"
+        },
+        {
+          "de": "fertig",
+          "en": "finished, ready"
+        },
+        {
+          "de": "der Anlass, die Anlässe",
+          "en": "occasion, reason"
+        },
+        {
+          "de": "reifen",
+          "en": "to mature, to ripen"
+        },
+        {
+          "de": "um ... willen",
+          "en": "for the sake of"
+        },
+        {
+          "de": "der Anspruch, die Ansprüche",
+          "en": "claim, demand"
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "de": "Nur in diesem Sinne, als Aufgabe, an sich zu arbeiten („zu horchen und zu hämmern Tag und Nacht“) dürften junge Menschen die Liebe, die ihnen gegeben wird, gebrauchen. Das Aufgehen und das Hingeben und alle Art der Gemeinsamkeit ist nicht für sie (die noch lange, lange sparen und sammeln müssen), ist das Endliche, ist vielleicht das, wofür Menschenleben jetzt noch kaum ausreichen.",
+      "en": "Only in this sense, as a task to work on themselves ('to listen and to hammer day and night'), should young people use the love that is given to them. Merging and giving yourself up and every kind of togetherness is not for them (they still have to save and gather for a long, long time); it is the final thing, perhaps the thing for which human lives are still barely long enough.",
+      "explain_en": "'In diesem Sinne' = in this sense – very common, also as a way to end a speech or email ('In diesem Sinne – bis bald!'). 'Dürften' here is Konjunktiv II of 'dürfen' = should be allowed to. 'Horchen' is old for 'hören, lauschen' (to listen). 'Hämmern' = to hammer. 'Sparen' = to save (money, energy). 'Ausreichen' = to be enough: 'Das Geld reicht nicht aus.'",
+      "words": [
+        {
+          "de": "der Sinn, die Sinne",
+          "en": "sense; meaning"
+        },
+        {
+          "de": "die Aufgabe, die Aufgaben",
+          "en": "task"
+        },
+        {
+          "de": "an sich arbeiten",
+          "en": "to work on oneself"
+        },
+        {
+          "de": "gebrauchen",
+          "en": "to use"
+        },
+        {
+          "de": "sparen",
+          "en": "to save"
+        },
+        {
+          "de": "sammeln",
+          "en": "to collect, to gather"
+        },
+        {
+          "de": "ausreichen",
+          "en": "to be enough"
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "type": "summary",
+      "covers": "Letter 7 (middle)",
+      "en": "Rilke goes on: young people, who by nature are impatient, often throw themselves at each other as soon as love comes, before they have become anyone themselves – and then lose themselves, each other and many possibilities. Society has invented countless 'lifebelts' and 'boats' for love – conventions that make it easy, cheap and safe, like public entertainment – but these don't answer the real, personal questions. Love and death are the hardest tasks, with no general rule; if we bear love seriously, people who come long after us may find it a little easier. Rilke then predicts that girls and women, who are beginning to develop freely, will one day no longer be seen as the mere opposite of men, but as full human beings in their own right."
+    },
+    {
+      "n": 65,
+      "de": "Dieser Fortschritt wird das Liebe-Erleben, das jetzt voll Irrung ist (sehr gegen den Willen der überholten Männer zunächst), verwandeln, von Grund aus verändern, zu einer Beziehung umbilden, die von Mensch zu Mensch gemeint ist, nicht mehr von Mann zu Weib. Und diese menschlichere Liebe (die unendlich rücksichtsvoll und leise, und gut und klar in Binden und Lösen sich vollziehen wird) wird jener ähneln, die wir ringend und mühsam vorbereiten, der Liebe, die darin besteht, dass zwei Einsamkeiten einander schützen, grenzen und grüßen.",
+      "en": "This progress will transform the experience of love, which is now full of mistakes (at first very much against the will of the men who have been overtaken), change it from the ground up, reshape it into a relationship that is meant from one human being to another, no longer from man to woman. And this more human love (which will be carried out infinitely considerately and gently, and kindly and clearly in binding and releasing) will resemble the love we are preparing with struggle and effort: the love that consists in two solitudes protecting, bordering and greeting each other.",
+      "explain_en": "The last sentence is one of Rilke's most quoted: love as 'two solitudes that protect, border and greet each other'. 'Weib' was once a normal word for 'woman', but today it is rude or jokey – always say 'die Frau' ('von Mann zu Frau'). 'Von Grund aus' = from the ground up – today 'von Grund auf'. 'Überholt' = overtaken, outdated ('Diese Idee ist überholt'). 'Bestehen in' = to consist in. 'Einander' = each other; in speech people usually say 'sich': 'Sie schützen sich gegenseitig.'",
+      "words": [
+        {
+          "de": "der Fortschritt, die Fortschritte",
+          "en": "progress"
+        },
+        {
+          "de": "verändern",
+          "en": "to change"
+        },
+        {
+          "de": "die Beziehung, die Beziehungen",
+          "en": "relationship"
+        },
+        {
+          "de": "rücksichtsvoll",
+          "en": "considerate"
+        },
+        {
+          "de": "ähneln",
+          "en": "to resemble",
+          "note": "+ dative"
+        },
+        {
+          "de": "bestehen in",
+          "en": "to consist in"
+        },
+        {
+          "de": "schützen",
+          "en": "to protect"
+        },
+        {
+          "de": "grüßen",
+          "en": "to greet"
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "de": "Und das noch: Glauben Sie nicht, dass jene große Liebe, welche Ihnen, dem Knaben, einst auferlegt worden ist, verloren war; können Sie sagen, ob damals nicht große und gute Wünsche in Ihnen gereift sind und Vorsätze, von denen Sie heute noch leben? Ich glaube, dass jene Liebe so stark und mächtig in Ihrer Erinnerung bleibt, weil sie Ihr erstes tiefes Alleinsein war und die erste innere Arbeit, die Sie an Ihrem Leben getan haben. –\nAlle guten Wünsche für Sie, lieber Herr Kappus!\nIhr Rainer Maria Rilke",
+      "en": "And one more thing: don't believe that the great love that was once laid upon you as a boy was lost; can you say whether great and good wishes did not ripen in you back then, and resolutions that you still live by today? I believe that that love remains so strong and powerful in your memory because it was your first deep being-alone and the first inner work you did on your life. –\nAll good wishes to you, dear Mr Kappus!\nYours, Rainer Maria Rilke",
+      "explain_en": "The end of Letter 7. Kappus had told Rilke about a great, unhappy love from his boyhood. 'Und das noch' = and one more thing. 'Der Knabe' is old-fashioned for 'der Junge' (boy). 'Auferlegen' = to impose, to lay upon (formal). 'Der Vorsatz' = resolution, intention – still used for New Year: 'gute Vorsätze fürs neue Jahr'. 'Von etwas leben' = to live on/by something.",
+      "words": [
+        {
+          "de": "glauben",
+          "en": "to believe"
+        },
+        {
+          "de": "verloren",
+          "en": "lost"
+        },
+        {
+          "de": "damals",
+          "en": "back then"
+        },
+        {
+          "de": "der Vorsatz, die Vorsätze",
+          "en": "resolution, intention"
+        },
+        {
+          "de": "mächtig",
+          "en": "powerful"
+        },
+        {
+          "de": "die Erinnerung, die Erinnerungen",
+          "en": "memory"
+        },
+        {
+          "de": "der Junge, die Jungen",
+          "en": "boy",
+          "note": "Rilke uses old 'der Knabe'"
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "type": "summary",
+      "covers": "Letter 7 (end) – Letter 8 (start)",
+      "en": "Below his signature Rilke copied out Kappus's sonnet. In it the young poet describes a deep, dark sadness that runs through his life without complaint, a great unanswered question that makes him feel small, and hands that reach out for love because his mouth cannot find the words to pray. Three months later Rilke writes again, this time from Borgeby gård, a country estate in southern Sweden, where he is staying as a guest."
+    },
+    {
+      "n": 68,
+      "de": "Borgeby gård, Flädie, Schweden, am 12. August 1904\nIch will wieder eine Weile zu Ihnen reden, lieber Herr Kappus, obwohl ich fast nichts sagen kann, was hilfreich ist, kaum etwas Nützliches. Sie haben viele und große Traurigkeiten gehabt, die vorübergingen. Und Sie sagen, dass auch dieses Vorübergehen schwer und verstimmend für Sie war. Aber, bitte, überlegen Sie, ob diese großen Traurigkeiten nicht vielmehr mitten durch Sie durchgegangen sind? Ob nicht vieles in Ihnen sich verwandelt hat, ob Sie nicht irgendwo, an irgendeiner Stelle Ihres Wesens sich verändert haben, während Sie traurig waren?",
+      "en": "Borgeby gård, Flädie, Sweden, 12 August 1904\nI want to talk to you again for a while, dear Mr Kappus, although I can say almost nothing that is helpful, hardly anything useful. You have had many great sadnesses, which passed. And you say that even this passing was hard and upsetting for you. But please consider whether these great sadnesses have not rather gone right through the middle of you? Whether much in you has not been transformed, whether somewhere, at some point in your being, you have not changed while you were sad?",
+      "explain_en": "LETTER 8 starts here (Borgeby gård, Sweden, 12 August 1904) – many readers think it is the most beautiful letter. 'Eine Weile' = a while ('Das dauert eine Weile'). 'Die Traurigkeit' = sadness; the plural 'Traurigkeiten' is unusual and poetic. 'Vorübergehen' = to pass (also 'vorübergehend' = temporary). 'Verstimmend' = upsetting (from 'verstimmt' = in a bad mood; an instrument can also be 'verstimmt' = out of tune). 'Ob nicht ...?' = whether ... not ...? – a gentle way to suggest something.",
+      "words": [
+        {
+          "de": "eine Weile",
+          "en": "a while"
+        },
+        {
+          "de": "hilfreich",
+          "en": "helpful"
+        },
+        {
+          "de": "nützlich",
+          "en": "useful"
+        },
+        {
+          "de": "traurig",
+          "en": "sad"
+        },
+        {
+          "de": "vorübergehen",
+          "en": "to pass, to go by"
+        },
+        {
+          "de": "überlegen",
+          "en": "to consider, to think about"
+        },
+        {
+          "de": "sich verwandeln",
+          "en": "to be transformed"
+        },
+        {
+          "de": "sich verändern",
+          "en": "to change"
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "de": "Gefährlich und schlecht sind nur jene Traurigkeiten, die man unter die Leute trägt, um sie zu übertönen; wie Krankheiten, die oberflächlich und töricht behandelt werden, treten sie nur zurück und brechen nach einer kleinen Pause um so furchtbarer aus; und sammeln sich an im Innern und sind Leben, sind ungelebtes, verschmähtes, verlorenes Leben, an dem man sterben kann.",
+      "en": "Dangerous and bad are only those sadnesses that you carry out among people in order to drown them out; like illnesses that are treated superficially and foolishly, they only withdraw and break out all the more terribly after a short pause; and they gather inside you and are life, unlived, rejected, lost life, of which you can die.",
+      "explain_en": "Rilke warns against hiding sadness by distracting yourself with other people – it comes back worse. The sentence starts with the adjectives for emphasis: 'Gefährlich und schlecht sind nur ...' – the verb still comes second. 'Übertönen' = to drown out (a sound). 'Töricht' is old-fashioned for 'dumm'. 'Um so furchtbarer' = all the more terribly – today written 'umso'. 'Verschmäht' = rejected, scorned (literary). 'Sterben an' = to die of: 'an einer Krankheit sterben'.",
+      "words": [
+        {
+          "de": "gefährlich",
+          "en": "dangerous"
+        },
+        {
+          "de": "die Krankheit, die Krankheiten",
+          "en": "illness, disease"
+        },
+        {
+          "de": "behandeln",
+          "en": "to treat"
+        },
+        {
+          "de": "oberflächlich",
+          "en": "superficial"
+        },
+        {
+          "de": "ausbrechen",
+          "en": "to break out"
+        },
+        {
+          "de": "die Pause, die Pausen",
+          "en": "break, pause"
+        },
+        {
+          "de": "sterben an",
+          "en": "to die of"
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "de": "Wäre es uns möglich, weiter zu sehen, als unser Wissen reicht, und noch ein wenig über die Vorwerke unseres Ahnens hinaus, vielleicht würden wir dann unsere Traurigkeiten mit größerem Vertrauen ertragen als unsere Freuden. Denn sie sind die Augenblicke, da etwas Neues in uns eingetreten ist, etwas Unbekanntes; unsere Gefühle verstummen in scheuer Befangenheit, alles in uns tritt zurück, es entsteht eine Stille, und das Neue, das niemand kennt, steht mitten darin und schweigt.",
+      "en": "If it were possible for us to see further than our knowledge reaches, and a little beyond the outworks of our intuition, perhaps we would then bear our sadnesses with greater trust than our joys. For they are the moments when something new has entered into us, something unknown; our feelings fall silent in shy embarrassment, everything in us steps back, a stillness arises, and the new thing, which no one knows, stands in the middle of it and is silent.",
+      "explain_en": "'Wäre es uns möglich, ... würden wir ...' is a conditional without 'wenn': the verb comes first instead – 'Hätte ich Zeit, käme ich mit' = 'Wenn ich Zeit hätte, ...'. 'Das Ahnen' = intuition, sensing (from 'ahnen' = to suspect, sense: 'Ich hab's geahnt!'). 'Die Vorwerke' are the outer defences of a fortress. 'Ertragen' = to bear, to endure. 'Die Befangenheit' = self-consciousness, embarrassment. 'Schweigen' = to be silent.",
+      "words": [
+        {
+          "de": "möglich",
+          "en": "possible"
+        },
+        {
+          "de": "das Wissen",
+          "en": "knowledge"
+        },
+        {
+          "de": "ertragen",
+          "en": "to bear, to endure"
+        },
+        {
+          "de": "die Freude, die Freuden",
+          "en": "joy"
+        },
+        {
+          "de": "der Augenblick, die Augenblicke",
+          "en": "moment"
+        },
+        {
+          "de": "unbekannt",
+          "en": "unknown"
+        },
+        {
+          "de": "die Stille",
+          "en": "silence, stillness"
+        },
+        {
+          "de": "schweigen",
+          "en": "to be silent"
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "de": "Ich glaube, dass fast alle unsere Traurigkeiten Momente der Spannung sind, die wir als Lähmung empfinden, weil wir unsere befremdeten Gefühle nicht mehr leben hören. Weil wir mit dem Fremden, das bei uns eingetreten ist, allein sind; weil uns alles Vertraute und Gewohnte für einen Augenblick fortgenommen ist; weil wir mitten in einem Übergang stehen, wo wir nicht stehen bleiben können. Darum geht die Traurigkeit auch vorüber: das Neue in uns, das Hinzugekommene, ist in unser Herz eingetreten, ist in seine innerste Kammer gegangen und ist auch dort nicht mehr, – ist schon im Blut.",
+      "en": "I believe that almost all our sadnesses are moments of tension that we feel as paralysis because we no longer hear our estranged feelings living. Because we are alone with the stranger that has entered us; because everything familiar and habitual is taken away from us for a moment; because we stand in the middle of a transition where we cannot stay standing. That is why sadness passes, too: the new thing in us, the thing that has been added, has entered our heart, has gone into its innermost chamber and is no longer there either – it is already in the blood.",
+      "explain_en": "Rilke's comforting idea: sadness is a moment of change, and it passes because the new thing becomes part of us. Notice the three 'weil' clauses in a row – a strong way to give reasons. 'Die Spannung' = tension (also suspense in a film: 'Das ist spannend!'). 'Die Lähmung' = paralysis. 'Das Vertraute und Gewohnte' = what is familiar and usual. 'Der Übergang' = transition. 'Stehen bleiben' = to stop, to stand still.",
+      "words": [
+        {
+          "de": "die Spannung, die Spannungen",
+          "en": "tension; suspense"
+        },
+        {
+          "de": "empfinden",
+          "en": "to feel, to perceive"
+        },
+        {
+          "de": "das Gefühl, die Gefühle",
+          "en": "feeling"
+        },
+        {
+          "de": "vertraut",
+          "en": "familiar"
+        },
+        {
+          "de": "der Übergang, die Übergänge",
+          "en": "transition"
+        },
+        {
+          "de": "stehen bleiben",
+          "en": "to stop, to stand still"
+        },
+        {
+          "de": "das Blut",
+          "en": "blood"
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "de": "Und wir erfahren nicht, was es war. Man könnte uns leicht glauben machen, es sei nichts geschehen, und doch haben wir uns verwandelt, wie ein Haus sich verwandelt, in welches ein Gast eingetreten ist. Wir können nicht sagen, wer gekommen ist, wir werden es vielleicht nie wissen, aber es sprechen viele Anzeichen dafür, dass die Zukunft in solcher Weise in uns eintritt, um sich in uns zu verwandeln, lange bevor sie geschieht.",
+      "en": "And we don't find out what it was. People could easily make us believe that nothing had happened, and yet we have been transformed, the way a house is transformed when a guest has entered it. We cannot say who has come, perhaps we will never know, but there are many signs suggesting that the future enters into us in this way, in order to transform itself in us long before it happens.",
+      "explain_en": "The image of the guest entering a house is one of Rilke's most beautiful. 'Erfahren' = to find out, to learn (news); 'die Erfahrung' = experience. 'Jemanden glauben machen' = to make someone believe (today more often 'jemandem weismachen'). 'Es sei nichts geschehen' – Konjunktiv I for reported speech. 'Es spricht viel dafür, dass ...' = there is a lot to suggest that ... – very common in discussions.",
+      "words": [
+        {
+          "de": "erfahren",
+          "en": "to find out, to learn"
+        },
+        {
+          "de": "geschehen",
+          "en": "to happen"
+        },
+        {
+          "de": "das Haus, die Häuser",
+          "en": "house"
+        },
+        {
+          "de": "der Gast, die Gäste",
+          "en": "guest"
+        },
+        {
+          "de": "das Anzeichen, die Anzeichen",
+          "en": "sign, indication"
+        },
+        {
+          "de": "die Zukunft",
+          "en": "future"
+        },
+        {
+          "de": "bevor",
+          "en": "before (conjunction)"
+        }
+      ]
+    },
+    {
+      "n": 73,
+      "de": "Und darum ist es so wichtig, einsam und aufmerksam zu sein, wenn man traurig ist: weil der scheinbar ereignislose und starre Augenblick, da unsere Zukunft uns betritt, dem Leben so viel näher steht als jener andere laute und zufällige Zeitpunkt, da sie uns, wie von außen her, geschieht.",
+      "en": "And that is why it is so important to be solitary and attentive when you are sad: because the seemingly uneventful and frozen moment when our future steps into us is so much closer to life than that other loud and accidental point in time when it happens to us, as if from outside.",
+      "explain_en": "'Darum' = that's why (also 'deshalb', 'deswegen'). 'Scheinbar' = seemingly (it looks like it, but isn't really); don't mix it up with 'anscheinend' = apparently. 'Ereignislos' = uneventful (from 'das Ereignis' = event + '-los' = without). 'Starr' = rigid, frozen. 'Der Zeitpunkt' = point in time: 'zum richtigen Zeitpunkt'. 'Da' here means 'when' – old; today 'als' or 'in dem'.",
+      "words": [
+        {
+          "de": "wichtig",
+          "en": "important"
+        },
+        {
+          "de": "einsam",
+          "en": "lonely, solitary"
+        },
+        {
+          "de": "scheinbar",
+          "en": "seemingly"
+        },
+        {
+          "de": "der Zeitpunkt, die Zeitpunkte",
+          "en": "point in time"
+        },
+        {
+          "de": "laut",
+          "en": "loud"
+        },
+        {
+          "de": "zufällig",
+          "en": "accidental, by chance"
+        },
+        {
+          "de": "von außen",
+          "en": "from outside"
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "type": "summary",
+      "covers": "Letter 8 (middle)",
+      "en": "Rilke continues: what we call fate does not enter us from outside – it comes out of us. The future stands still, he says; it is we who move through endless space. Solitude is not something we choose: we simply are alone. Realising this is like being set down on a high mountain top: all distances change and you feel dizzy. But we must have the courage to face even the strangest, most inexplicable experiences. Fear of the unknown makes our lives and our relationships narrow, like people who only ever know one corner of their room, one spot by the window where they walk up and down. Yet we are not prisoners, Rilke says: there are no traps around us, and nothing that should frighten or torment us."
+    },
+    {
+      "n": 75,
+      "de": "Wir sind ins Leben gesetzt, als in das Element, dem wir am meisten entsprechen, und wir sind überdies durch jahrtausendelange Anpassung diesem Leben so ähnlich geworden, dass wir, wenn wir stille halten, durch ein glückliches Mimikry von allem, was uns umgibt, kaum zu unterscheiden sind. Wir haben keinen Grund, gegen unsere Welt Misstrauen zu haben, denn sie ist nicht gegen uns. Hat sie Schrecken, so sind es unsere Schrecken, hat sie Abgründe, so gehören diese Abgründe uns, sind Gefahren da, so müssen wir versuchen, sie zu lieben.",
+      "en": "We have been set into life as into the element we most correspond to, and moreover, through thousands of years of adaptation, we have become so similar to this life that, when we keep still, we can hardly be distinguished, by a happy mimicry, from everything that surrounds us. We have no reason to distrust our world, for it is not against us. If it has terrors, they are our terrors; if it has abysses, these abysses belong to us; if there are dangers, we must try to love them.",
+      "explain_en": "'Wir haben keinen Grund, ... Misstrauen zu haben' = we have no reason to distrust. 'Die Anpassung' = adaptation (from 'sich anpassen' = to adapt). 'Mimikry' is the biology word for animals that look like their surroundings. 'Hat sie Schrecken, so ...' = 'Wenn sie Schrecken hat, dann ...' – a conditional with the verb first, a pattern Rilke uses a lot. 'Der Abgrund' = abyss. 'Stille halten' is old; today 'stillhalten' (to keep still).",
+      "words": [
+        {
+          "de": "das Leben",
+          "en": "life"
+        },
+        {
+          "de": "ähnlich",
+          "en": "similar"
+        },
+        {
+          "de": "unterscheiden",
+          "en": "to distinguish"
+        },
+        {
+          "de": "umgeben",
+          "en": "to surround"
+        },
+        {
+          "de": "das Misstrauen",
+          "en": "distrust"
+        },
+        {
+          "de": "der Abgrund, die Abgründe",
+          "en": "abyss"
+        },
+        {
+          "de": "die Gefahr, die Gefahren",
+          "en": "danger"
+        },
+        {
+          "de": "versuchen",
+          "en": "to try"
+        }
+      ]
+    },
+    {
+      "n": 76,
+      "de": "Und wenn wir nur unser Leben nach jenem Grundsatz einrichten, der uns rät, dass wir uns immer an das Schwere halten müssen, so wird das, welches uns jetzt noch als das Fremdeste erscheint, unser Vertrautestes und Treuestes werden. Wie sollten wir jener alten Mythen vergessen können, die am Anfange aller Völker stehen, der Mythen von den Drachen, die sich im äußersten Augenblick in Prinzessinnen verwandeln; vielleicht sind alle Drachen unseres Lebens Prinzessinnen, die nur darauf warten, uns einmal schön und mutig zu sehen. Vielleicht ist alles Schreckliche im tiefsten Grunde das Hilflose, das von uns Hilfe will.",
+      "en": "And if only we arrange our life according to the principle that advises us always to hold on to what is difficult, then what now still appears to us as the strangest will become the most familiar and faithful to us. How could we forget those ancient myths that stand at the beginning of all peoples, the myths about dragons that at the very last moment turn into princesses; perhaps all the dragons of our lives are princesses who are only waiting to see us, just once, beautiful and brave. Perhaps everything terrible is, in its deepest essence, something helpless that wants help from us.",
+      "explain_en": "The dragons that are really princesses – one of the most loved images in the letters. 'Der Grundsatz' = principle ('Das ist ein Grundsatz von mir'). 'Einrichten' = to arrange, to set up (also 'eine Wohnung einrichten' = to furnish a flat). 'Jener Mythen vergessen' – 'vergessen' with the genitive is very old; today 'jene Mythen vergessen'. 'Sich verwandeln in' = to turn into. 'Das Schreckliche' and 'das Hilflose' are adjectives used as nouns.",
+      "words": [
+        {
+          "de": "der Grundsatz, die Grundsätze",
+          "en": "principle"
+        },
+        {
+          "de": "vertraut",
+          "en": "familiar"
+        },
+        {
+          "de": "vergessen",
+          "en": "to forget"
+        },
+        {
+          "de": "der Drache, die Drachen",
+          "en": "dragon"
+        },
+        {
+          "de": "die Prinzessin, die Prinzessinnen",
+          "en": "princess"
+        },
+        {
+          "de": "mutig",
+          "en": "brave"
+        },
+        {
+          "de": "schrecklich",
+          "en": "terrible"
+        },
+        {
+          "de": "hilflos",
+          "en": "helpless"
+        }
+      ]
+    },
+    {
+      "n": 77,
+      "type": "summary",
+      "covers": "Letter 8 (later)",
+      "en": "So Kappus must not be frightened, Rilke writes, if a sadness rises before him bigger than any he has known: life has not forgotten him, it holds him in its hand and will not let him fall. If some of what he is going through feels like illness, he should remember that illness is how a body frees itself from something foreign; he must be patient like a sick person and confident like someone recovering – and he is his own doctor too, who often can only wait. Rilke advises him not to watch himself too closely or draw quick conclusions, and not to judge his boyhood harshly: a label can do more harm than the thing itself. What matters is that something true and real has already grown in his life."
+    },
+    {
+      "n": 78,
+      "de": "Erinnern Sie sich, wie sich dieses Leben aus der Kindheit heraus nach den „Großen“ gesehnt hat? Ich sehe, wie es sich jetzt von den Großen fort nach den Größeren sehnt. Darum hört es nicht auf, schwer zu sein, aber darum wird es auch nicht aufhören zu wachsen. Und wenn ich Ihnen noch eines sagen soll, so ist es dies: Glauben Sie nicht, dass der, welcher Sie zu trösten versucht, mühelos unter den einfachen und stillen Worten lebt, die Ihnen manchmal wohltun. Sein Leben hat viel Mühsal und Traurigkeit und bleibt weit hinter Ihnen zurück. Wäre es aber anders, so hätte er jene Worte nie finden können.\nIhr Rainer Maria Rilke",
+      "en": "Do you remember how this life of yours, coming out of childhood, longed for the 'grown-ups'? I can see how it is now longing away from the grown-ups towards the greater ones. That is why it doesn't stop being difficult, but that is also why it won't stop growing. And if I am to tell you one more thing, it is this: don't believe that the person who tries to comfort you lives effortlessly among the simple and quiet words that sometimes do you good. His life has much hardship and sadness and remains far behind yours. But if it were otherwise, he could never have found those words.\nYours, Rainer Maria Rilke",
+      "explain_en": "The end of Letter 8, with a touching confession: Rilke's own life is hard too – that's why he can find comforting words. 'Sich erinnern' = to remember ('Erinnerst du dich?'). 'Sich sehnen nach' = to long for. 'Die Großen' is what children call adults. 'Aufhören zu' = to stop doing: 'Hör auf zu lachen!' 'Trösten' = to comfort. 'Jemandem wohltun' = to do someone good (formal; today 'jemandem guttun'). 'Die Mühsal' is old for 'die Mühe' (hardship, effort).",
+      "words": [
+        {
+          "de": "sich erinnern",
+          "en": "to remember"
+        },
+        {
+          "de": "sich sehnen nach",
+          "en": "to long for"
+        },
+        {
+          "de": "aufhören",
+          "en": "to stop"
+        },
+        {
+          "de": "trösten",
+          "en": "to comfort"
+        },
+        {
+          "de": "mühelos",
+          "en": "effortless"
+        },
+        {
+          "de": "guttun",
+          "en": "to do good",
+          "note": "Rilke uses 'wohltun'"
+        },
+        {
+          "de": "die Traurigkeit",
+          "en": "sadness"
+        }
+      ]
+    },
+    {
+      "n": 79,
+      "type": "summary",
+      "covers": "Letter 9 (start)",
+      "en": "Rilke's next letter is written from Furuborg, Jonsered, in Sweden, on 4 November 1904. He tells Kappus that during the long silence he was partly travelling and partly so busy that he couldn't write. Even today writing is hard for him, because he has already written so many letters that his hand is tired. If he could dictate, he would say a lot – as it is, Kappus must accept just a few words in reply to his long letter."
+    },
+    {
+      "n": 80,
+      "de": "Ich denke, lieber Herr Kappus, oft und mit so konzentrierten Wünschen an Sie, dass Ihnen das eigentlich irgendwie helfen müsste. Ob meine Briefe wirklich eine Hilfe sein können, daran zweifle ich oft. Sagen Sie nicht: Ja, sie sind es. Nehmen Sie sie ruhig auf und ohne vielen Dank, und lassen Sie uns abwarten, was kommen will.",
+      "en": "I think of you often, dear Mr Kappus, and with such concentrated wishes that it really ought to help you somehow. Whether my letters can really be a help, I often doubt. Don't say: Yes, they are. Just accept them calmly and without much thanks, and let us wait and see what will come.",
+      "explain_en": "From LETTER 9 (Furuborg, Jonsered, Sweden, 4 November 1904), the shortest of the ten letters. 'Denken an' = to think of/about: 'Ich denke an dich.' 'Müsste' = Konjunktiv II of 'müssen' = ought to, should really. 'Zweifeln an' = to doubt: 'Ich zweifle daran.' Here the 'woran' part comes first: 'Ob ..., daran zweifle ich.' 'Lassen Sie uns ...' = let's ... (polite form). 'Abwarten' = to wait and see.",
+      "words": [
+        {
+          "de": "denken an",
+          "en": "to think of"
+        },
+        {
+          "de": "helfen",
+          "en": "to help",
+          "note": "+ dative"
+        },
+        {
+          "de": "die Hilfe, die Hilfen",
+          "en": "help"
+        },
+        {
+          "de": "zweifeln an",
+          "en": "to doubt"
+        },
+        {
+          "de": "der Dank",
+          "en": "thanks"
+        },
+        {
+          "de": "abwarten",
+          "en": "to wait and see"
+        }
+      ]
+    },
+    {
+      "n": 81,
+      "de": "Es nützt vielleicht nichts, dass ich nun auf Ihre einzelnen Worte eingehe; denn was ich über Ihre Neigung zum Zweifel sagen könnte oder über Ihr Unvermögen, das äußere und innere Leben in Einklang zu bringen, oder über alles, was Sie sonst bedrängt –: es ist immer das, was ich schon gesagt habe: immer der Wunsch, Sie möchten Geduld genug in sich finden, zu ertragen, und Einfalt genug, zu glauben; Sie möchten mehr und mehr Vertrauen gewinnen zu dem, was schwer ist, und zu Ihrer Einsamkeit unter den anderen.",
+      "en": "Perhaps it's no use my going into your individual words now; for what I could say about your tendency to doubt, or about your inability to bring your outer and inner life into harmony, or about everything else that troubles you –: it is always what I have already said: always the wish that you may find enough patience in yourself to endure, and enough simplicity to believe; that you may gain more and more trust in what is difficult, and in your solitude among the others.",
+      "explain_en": "Rilke sums up all his advice in one sentence: patience, simple faith, trust in difficult things and in solitude. 'Es nützt nichts' = it's no use ('Das nützt doch nichts!'). 'Eingehen auf' = to respond to, go into (see Letter 1). 'Die Neigung zu' = tendency to. 'Das Unvermögen' = inability (formal; today 'die Unfähigkeit'). 'In Einklang bringen' = to bring into harmony. 'Sie möchten ... finden' is Konjunktiv used for a wish: 'that you might find'. 'Die Einfalt' = simplicity, naivety (old-fashioned; 'einfältig' today means simple-minded).",
+      "words": [
+        {
+          "de": "nützen",
+          "en": "to be of use",
+          "note": "Das nützt nichts."
+        },
+        {
+          "de": "die Neigung, die Neigungen",
+          "en": "tendency, inclination"
+        },
+        {
+          "de": "der Zweifel, die Zweifel",
+          "en": "doubt"
+        },
+        {
+          "de": "äußere",
+          "en": "outer, external"
+        },
+        {
+          "de": "innere",
+          "en": "inner"
+        },
+        {
+          "de": "die Geduld",
+          "en": "patience"
+        },
+        {
+          "de": "ertragen",
+          "en": "to endure"
+        }
+      ]
+    },
+    {
+      "n": 82,
+      "de": "Und im Übrigen lassen Sie sich das Leben geschehen. Glauben Sie mir: das Leben hat recht, auf alle Fälle. Und von den Gefühlen: Rein sind alle Gefühle, die Sie zusammenfassen und aufheben; unrein ist das Gefühl, das nur eine Seite Ihres Wesens erfasst und Sie so verzerrt. Alles, was Sie angesichts Ihrer Kindheit denken können, ist gut. Alles, was mehr aus Ihnen macht, als Sie bisher in Ihren besten Stunden waren, ist recht. Jede Steigerung ist gut, wenn sie in Ihrem ganzen Blute ist, wenn sie nicht Rausch ist, nicht Trübe, sondern Freude, der man auf den Grund sieht. Verstehen Sie, was ich meine?",
+      "en": "And for the rest, let life happen to you. Believe me: life is right, in every case. And about feelings: all feelings are pure that gather you together and lift you up; impure is the feeling that grasps only one side of your being and so distorts you. Everything you can think in the face of your childhood is good. Everything that makes more of you than you have been so far in your best hours is right. Every intensification is good if it is in all your blood, if it is not intoxication, not murkiness, but joy that you can see to the bottom of. Do you understand what I mean?",
+      "explain_en": "'Das Leben hat recht, auf alle Fälle' (life is right, in any case) is one of the best-known lines of the book. 'Im Übrigen' = besides, for the rest – capitalised in modern spelling. 'Recht haben' = to be right ('Du hast recht'). 'Auf alle Fälle' = in any case, definitely – still common: 'Ich komme auf alle Fälle!' 'Aufheben' here = to lift up, to preserve. 'Angesichts' + genitive = in view of, in the face of. 'Der Rausch' = intoxication, high. 'Auf den Grund sehen' = to see to the bottom.",
+      "words": [
+        {
+          "de": "recht haben",
+          "en": "to be right"
+        },
+        {
+          "de": "auf alle Fälle",
+          "en": "in any case, definitely"
+        },
+        {
+          "de": "das Gefühl, die Gefühle",
+          "en": "feeling"
+        },
+        {
+          "de": "die Seite, die Seiten",
+          "en": "side; page"
+        },
+        {
+          "de": "bisher",
+          "en": "so far, until now"
+        },
+        {
+          "de": "der Rausch, die Räusche",
+          "en": "intoxication, high"
+        },
+        {
+          "de": "verstehen",
+          "en": "to understand"
+        },
+        {
+          "de": "meinen",
+          "en": "to mean; to think"
+        }
+      ]
+    },
+    {
+      "n": 83,
+      "de": "Und Ihr Zweifel kann eine gute Eigenschaft werden, wenn Sie ihn erziehen. Er muss wissend werden, er muss Kritik werden. Fragen Sie ihn, sooft er Ihnen etwas verderben will, weshalb etwas hässlich ist, verlangen Sie Beweise von ihm, prüfen Sie ihn, und Sie werden ihn vielleicht ratlos und verlegen, vielleicht auch aufbegehrend finden. Aber geben Sie nicht nach, fordern Sie Argumente und handeln Sie so, aufmerksam und konsequent, jedes einzelne Mal, und der Tag wird kommen, da er aus einem Zerstörer einer Ihrer besten Arbeiter werden wird, – vielleicht der klügste von allen, die an Ihrem Leben bauen.",
+      "en": "And your doubt can become a good quality if you train it. It must become knowing, it must become criticism. Ask it, whenever it wants to spoil something for you, why something is ugly; demand proof from it, test it, and you will perhaps find it helpless and embarrassed, perhaps also rebellious. But don't give in, insist on arguments and act like this, attentively and consistently, every single time, and the day will come when, from a destroyer, it will become one of your best workers – perhaps the cleverest of all those who are building your life.",
+      "explain_en": "Great advice for anyone full of self-doubt: question your doubt and make it prove its claims. 'Die Eigenschaft' = quality, characteristic. 'Sooft' = whenever ('Komm, sooft du willst'). 'Verderben' = to spoil, ruin ('Du verdirbst mir den Spaß!'). 'Der Beweis' = proof. 'Nachgeben' = to give in. 'Konsequent' = consistent – a false friend, it does NOT mean 'consequent'. 'Jedes einzelne Mal' = every single time.",
+      "words": [
+        {
+          "de": "die Eigenschaft, die Eigenschaften",
+          "en": "quality, characteristic"
+        },
+        {
+          "de": "verderben",
+          "en": "to spoil, to ruin"
+        },
+        {
+          "de": "hässlich",
+          "en": "ugly"
+        },
+        {
+          "de": "der Beweis, die Beweise",
+          "en": "proof"
+        },
+        {
+          "de": "prüfen",
+          "en": "to test, to check"
+        },
+        {
+          "de": "nachgeben",
+          "en": "to give in"
+        },
+        {
+          "de": "konsequent",
+          "en": "consistent",
+          "note": "false friend!"
+        },
+        {
+          "de": "klug",
+          "en": "clever, wise"
+        }
+      ]
+    },
+    {
+      "n": 84,
+      "de": "Das ist alles, lieber Herr Kappus, was ich Ihnen heute zu sagen vermag. Aber ich sende Ihnen zugleich den Separatdruck einer kleinen Dichtung, die jetzt in der Prager „Deutschen Arbeit“ erschienen ist. Dort rede ich weiter zu Ihnen vom Leben und vom Tode und davon, dass beides groß und herrlich ist.\nIhr Rainer Maria Rilke",
+      "en": "That is all, dear Mr Kappus, that I am able to tell you today. But at the same time I am sending you an offprint of a small poem that has just appeared in the Prague magazine 'Deutsche Arbeit'. There I go on speaking to you about life and about death, and about how both are great and glorious.\nYours, Rainer Maria Rilke",
+      "explain_en": "The end of Letter 9. 'Vermögen' + zu = to be able to (very formal; today 'können'). 'Zugleich' = at the same time (today more often 'gleichzeitig'). 'Der Separatdruck' = offprint, a separately printed copy. Rilke was born in Prague, which then belonged to Austria-Hungary and had many German speakers. 'Vom Tode' – the extra -e in the dative is old; today 'vom Tod'. 'Herrlich' = glorious, wonderful – still common: 'Das Wetter ist herrlich!'",
+      "words": [
+        {
+          "de": "senden",
+          "en": "to send"
+        },
+        {
+          "de": "das Gedicht, die Gedichte",
+          "en": "poem",
+          "note": "Rilke says 'die Dichtung'"
+        },
+        {
+          "de": "erscheinen",
+          "en": "to appear, to be published"
+        },
+        {
+          "de": "reden",
+          "en": "to talk"
+        },
+        {
+          "de": "der Tod",
+          "en": "death"
+        },
+        {
+          "de": "beides",
+          "en": "both (things)"
+        },
+        {
+          "de": "herrlich",
+          "en": "wonderful, glorious"
+        }
+      ]
+    },
+    {
+      "n": 85,
+      "de": "Paris, am zweiten Weihnachtstage 1908\nSie sollen wissen, lieber Herr Kappus, wie froh ich war, diesen schönen Brief von Ihnen zu haben. Die Nachrichten, die Sie mir geben, wirklich und aussprechbar, wie sie nun wieder sind, scheinen mir gut, und je länger ichs bedachte, desto mehr empfand ich sie als tatsächlich gute. Dieses wollte ich Ihnen eigentlich zum Weihnachtsabend schreiben; aber über der Arbeit, in der ich diesen Winter vielfach und ununterbrochen lebe, ist das alte Fest so schnell herangekommen, dass ich kaum mehr Zeit hatte, die nötigsten Besorgungen zu machen, viel weniger zu schreiben.",
+      "en": "Paris, the second day of Christmas 1908\nYou should know, dear Mr Kappus, how glad I was to have this beautiful letter from you. The news you give me, real and speakable as it now is again, seems good to me, and the longer I thought about it, the more I felt it to be really good. I actually wanted to write this to you for Christmas Eve; but with the work in which I live this winter in many ways and without a break, the old holiday came so quickly that I hardly had time to do the most necessary errands, let alone write.",
+      "explain_en": "LETTER 10 starts here (Paris, 26 December 1908) – the last letter, written more than four years after Letter 9. 'Der zweite Weihnachtstag' = 26 December, a public holiday in Germany (the extra -e in 'Weihnachtstage' is old). 'Die Nachrichten' = news (always plural in this meaning). 'Je länger ..., desto mehr ...' = the longer ..., the more ... – very useful. 'Ichs' = 'ich es' (spoken style). 'Die Besorgungen machen' = to run errands. 'Viel weniger' here means 'let alone' – today: 'geschweige denn'.",
+      "words": [
+        {
+          "de": "die Nachricht, die Nachrichten",
+          "en": "piece of news, message"
+        },
+        {
+          "de": "je ... desto",
+          "en": "the ... the"
+        },
+        {
+          "de": "eigentlich",
+          "en": "actually, really"
+        },
+        {
+          "de": "der Heiligabend",
+          "en": "Christmas Eve",
+          "note": "Rilke says 'Weihnachtsabend'"
+        },
+        {
+          "de": "ununterbrochen",
+          "en": "without a break"
+        },
+        {
+          "de": "kaum",
+          "en": "hardly"
+        },
+        {
+          "de": "die Besorgung, die Besorgungen",
+          "en": "errand"
+        }
+      ]
+    },
+    {
+      "n": 86,
+      "de": "Aber gedacht hab ich an Sie in diesen Festtagen oft und mir vorgestellt, wie still Sie sein müssen in Ihrem einsamen Fort zwischen den leeren Bergen, über die sich jene großen südlichen Winde stürzen, als wollten sie sie in großen Stücken verschlingen.",
+      "en": "But I did think of you often during these holidays and imagined how quiet it must be for you in your lonely fort among the empty mountains, over which those great southern winds hurl themselves as if they wanted to devour them in huge pieces.",
+      "explain_en": "Kappus is now an officer at a lonely fort in the mountains on the Adriatic coast (in today's Croatia). 'Gedacht hab ich an Sie' – the participle comes first for emphasis: 'But THINK of you I did.' 'Hab' = 'habe', dropping the -e as in speech. 'Sich etwas vorstellen' = to imagine something: 'Stell dir vor!' 'Sich stürzen' = to hurl oneself, to rush. 'Als wollten sie ...' = as if they wanted – 'als' + verb in Konjunktiv II. 'Verschlingen' = to devour, to gobble up.",
+      "words": [
+        {
+          "de": "sich vorstellen",
+          "en": "to imagine"
+        },
+        {
+          "de": "still",
+          "en": "quiet, still"
+        },
+        {
+          "de": "der Berg, die Berge",
+          "en": "mountain"
+        },
+        {
+          "de": "leer",
+          "en": "empty"
+        },
+        {
+          "de": "südlich",
+          "en": "southern"
+        },
+        {
+          "de": "das Stück, die Stücke",
+          "en": "piece"
+        },
+        {
+          "de": "verschlingen",
+          "en": "to devour"
+        }
+      ]
+    },
+    {
+      "n": 87,
+      "de": "Die Stille muss immens sein, in der solche Geräusche und Bewegungen Raum haben, und wenn man denkt, dass zu allem noch des entfernten Meeres Gegenwart hinzukommt und mittönt, vielleicht als der innerste Ton in dieser vorhistorischen Harmonie, so kann man Ihnen nur wünschen, dass Sie vertrauensvoll und geduldig die großartige Einsamkeit an sich arbeiten lassen, die nicht mehr aus Ihrem Leben wird zu streichen sein; die in allem, was Ihnen zu erleben und zu tun bevorsteht, als ein anonymer Einfluss fortgesetzt und leise entscheidend wirken wird, etwa wie in uns Blut von Vorfahren sich unablässig bewegt und sich mit unserm eigenen zu dem Einzigen, nicht Wiederholbaren zusammensetzt, das wir an jeder Wendung unseres Lebens sind.",
+      "en": "The silence must be immense in which such noises and movements have room, and when you think that on top of everything the presence of the distant sea joins in and sounds along, perhaps as the innermost note in this prehistoric harmony, then one can only wish that you will trustingly and patiently let the magnificent solitude work on you, which will no longer be erased from your life; which, in everything you are about to experience and do, will go on having an effect as an anonymous influence, quietly decisive, rather as in us the blood of our ancestors moves unceasingly and combines with our own to form the unique, unrepeatable being that we are at every turn of our life.",
+      "explain_en": "One long sentence about solitude shaping a whole life. 'Immens' = immense, huge. 'Des entfernten Meeres Gegenwart' = the distant sea's presence – putting the genitive first is poetic; normal order: 'die Gegenwart des entfernten Meeres'. 'Etwas an sich arbeiten lassen' = to let something work on you. 'Die nicht mehr ... wird zu streichen sein' = which can no longer be deleted ('streichen' = to cross out; also to paint). 'Der Vorfahr, die Vorfahren' = ancestor(s). 'Unablässig' is formal for 'ständig' (constantly).",
+      "words": [
+        {
+          "de": "das Geräusch, die Geräusche",
+          "en": "noise, sound"
+        },
+        {
+          "de": "die Bewegung, die Bewegungen",
+          "en": "movement"
+        },
+        {
+          "de": "die Gegenwart",
+          "en": "presence; the present"
+        },
+        {
+          "de": "wünschen",
+          "en": "to wish"
+        },
+        {
+          "de": "der Einfluss, die Einflüsse",
+          "en": "influence"
+        },
+        {
+          "de": "entscheidend",
+          "en": "decisive"
+        },
+        {
+          "de": "die Vorfahren",
+          "en": "ancestors"
+        },
+        {
+          "de": "einzig",
+          "en": "unique, only"
+        }
+      ]
+    },
+    {
+      "n": 88,
+      "de": "Ja: ich freue mich, dass Sie diese feste, sagbare Existenz mit sich haben, diesen Titel, diese Uniform, diesen Dienst, alles dieses Greifbare und Beschränkte, das in solchen Umgebungen mit einer gleich isolierten nicht zahlreichen Mannschaft Ernst und Notwendigkeit annimmt, über das Spielerische und Zeithinbringende des militärischen Berufs hinaus eine wachsame Verwendung bedeutet und eine selbständige Aufmerksamkeit nicht nur zulässt, sondern geradezu erzieht. Und dass wir in Verhältnissen sind, die an uns arbeiten, die uns vor große natürliche Dinge stellen von Zeit zu Zeit, das ist alles, was not tut.",
+      "en": "Yes: I am glad that you have this firm, speakable existence with you, this title, this uniform, this duty, all these tangible and limited things, which in such surroundings, with an equally isolated, small troop of men, take on seriousness and necessity, and beyond the playful and time-wasting side of military life mean an alert use of yourself, and not only allow independent attentiveness but actively train it. And that we are in circumstances that work on us, that put us in front of great natural things from time to time – that is all that is needed.",
+      "explain_en": "Rilke is glad Kappus has a real, solid job in a lonely place. 'Sich freuen, dass ...' = to be glad that. 'Greifbar' = tangible, something you can grasp (from 'greifen'). 'Beschränkt' = limited – careful: said about a person it means narrow-minded or stupid! 'Die Mannschaft' = crew, troops; today mostly 'team' in sport. 'Zulassen' = to allow. 'Von Zeit zu Zeit' = from time to time. 'Was not tut' is old-fashioned; today 'was nötig ist'.",
+      "words": [
+        {
+          "de": "sich freuen",
+          "en": "to be glad, to be happy"
+        },
+        {
+          "de": "fest",
+          "en": "firm, solid"
+        },
+        {
+          "de": "die Uniform, die Uniformen",
+          "en": "uniform"
+        },
+        {
+          "de": "der Dienst, die Dienste",
+          "en": "service, duty"
+        },
+        {
+          "de": "die Umgebung, die Umgebungen",
+          "en": "surroundings"
+        },
+        {
+          "de": "die Mannschaft, die Mannschaften",
+          "en": "team; crew"
+        },
+        {
+          "de": "zulassen",
+          "en": "to allow"
+        },
+        {
+          "de": "von Zeit zu Zeit",
+          "en": "from time to time"
+        }
+      ]
+    },
+    {
+      "n": 89,
+      "de": "Auch die Kunst ist nur eine Art zu leben, und man kann sich, irgendwie lebend, ohne es zu wissen, auf sie vorbereiten; in jedem Wirklichen ist man ihr näher und benachbarter als in den unwirklichen halbartistischen Berufen, die, indem sie eine Kunstnähe vorspiegeln, das Dasein aller Kunst praktisch leugnen und angreifen, wie etwa der ganze Journalismus es tut und fast alle Kritik und drei Viertel dessen, was Literatur heißt und heißen will. Ich freue mich, mit einem Wort, dass Sie die Gefahr, dahinein zu geraten, überstanden haben und irgendwo in einer rauen Realität einsam und mutig sind. Möchte das Jahr, das bevorsteht, Sie darin erhalten und bestärken.\nImmer Ihr Rainer Maria Rilke",
+      "en": "Art, too, is only a way of living, and one can prepare for it, somehow living, without knowing it; in everything real you are nearer and closer to it than in the unreal, half-artistic professions which, by pretending to be close to art, in practice deny and attack the existence of all art, as for example the whole of journalism does, and almost all criticism, and three quarters of what calls itself and wants to be called literature. In a word, I am glad that you have escaped the danger of ending up in that, and that somewhere in a rough reality you are solitary and brave. May the year that lies ahead keep you and strengthen you in that.\nAlways yours, Rainer Maria Rilke",
+      "explain_en": "THE END of the letters. Rilke's last advice: 'Auch die Kunst ist nur eine Art zu leben' – you don't need an 'artistic' job to prepare for art; real life is better. 'Vorspiegeln' = to pretend, to fake (literary; today 'vortäuschen'). 'Leugnen' = to deny. 'Drei Viertel' = three quarters. 'Mit einem Wort' = in a word. 'Geraten in' = to end up in (something bad). 'Möchte das Jahr ... erhalten' – 'möchte' at the start expresses a wish: 'May the year ...'. Kappus later became a journalist and writer himself.",
+      "words": [
+        {
+          "de": "die Kunst, die Künste",
+          "en": "art"
+        },
+        {
+          "de": "die Art, die Arten",
+          "en": "way, kind"
+        },
+        {
+          "de": "sich vorbereiten auf",
+          "en": "to prepare for"
+        },
+        {
+          "de": "wirklich",
+          "en": "real, really"
+        },
+        {
+          "de": "leugnen",
+          "en": "to deny"
+        },
+        {
+          "de": "die Gefahr, die Gefahren",
+          "en": "danger"
+        },
+        {
+          "de": "mutig",
+          "en": "brave"
+        },
+        {
+          "de": "bestärken",
+          "en": "to strengthen, to encourage"
         }
       ]
     }

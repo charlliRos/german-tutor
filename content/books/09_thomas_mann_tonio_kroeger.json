@@ -5,9 +5,9 @@
   "author_died": 1955,
   "year": 1903,
   "level": "B2-C1",
-  "source": "https://www.gutenberg.org/ebooks/23313 (Project Gutenberg eBook #23313, German text; plain text: https://www.gutenberg.org/cache/epub/23313/pg23313.txt) – chapter I complete",
+  "source": "https://www.gutenberg.org/ebooks/23313 (Project Gutenberg eBook #23313, German text; plain text: https://www.gutenberg.org/cache/epub/23313/pg23313.txt) – chapter I complete; chapters II–IX as key passages with summaries in between",
   "orthography": "modernised to current German spelling (dass, muss, bisschen, spazieren gehen, Fotografien, ...); wording unchanged",
-  "intro_en": "Thomas Mann (1875–1955) won the Nobel Prize in Literature in 1929 and is one of the most important German writers of the 20th century. In “Tonio Kröger” (1903), a boy from a rich merchant family in a North German town feels different from everyone around him: he writes poems, daydreams in class and secretly adores his popular, sporty classmate Hans Hansen. This first chapter is about one walk home from school – and about being an outsider, wanting to belong, and liking someone more than they like you. Mann's sentences are long and old-fashioned, so this is a challenge, but the feelings are completely modern.",
+  "intro_en": "Thomas Mann (1875–1955) won the Nobel Prize in Literature in 1929 and is one of the most important German writers of the 20th century. In “Tonio Kröger” (1903), a boy from a rich merchant family in a North German town feels different from everyone around him: he writes poems, daydreams in class and secretly adores his popular, sporty classmate Hans Hansen – and later the cheerful Inge Holm. Chapter I, one walk home from school, is here in full; after that the book follows Tonio all the way to the end – to Munich as a famous writer, and back north to his home town and the Danish coast – with the key passages in German and short English summaries in between. It is about being an outsider, wanting to belong, and liking someone more than they like you. Mann's sentences are long and old-fashioned, so this is a challenge, but the feelings are completely modern.",
   "units": [
     {
       "n": 1,
@@ -15,12 +15,30 @@
       "en": "The winter sun was only a feeble glimmer, milky and dull behind layers of cloud above the narrow town. It was wet and draughty in the lanes between the gabled houses, and now and then a kind of soft hail fell, not ice, not snow. School was out. Across the paved yard and out through the gate streamed crowds of the liberated, splitting up and hurrying off to the right and left.",
       "explain_en": "The story opens in a cold, grey North German town (Mann was thinking of his home town, Lübeck). “war's” is short for “war es” – you still hear this all the time: “Wie war's?” (How was it?). In “Nass und zugig war's” the description comes first for emphasis, but the verb still stays in second position. “die Befreiten” (the freed ones) is a joke – the pupils are like prisoners let out. “enteilen” is literary; today you'd say “davoneilen” or just “wegrennen”.",
       "words": [
-        {"de": "die Wolke, die Wolken", "en": "cloud"},
-        {"de": "nass", "en": "wet"},
-        {"de": "die Gasse, die Gassen", "en": "lane, alley"},
-        {"de": "der Schnee", "en": "snow"},
-        {"de": "Die Schule ist aus.", "en": "School is out."},
-        {"de": "der Hof, die Höfe", "en": "yard, courtyard"}
+        {
+          "de": "die Wolke, die Wolken",
+          "en": "cloud"
+        },
+        {
+          "de": "nass",
+          "en": "wet"
+        },
+        {
+          "de": "die Gasse, die Gassen",
+          "en": "lane, alley"
+        },
+        {
+          "de": "der Schnee",
+          "en": "snow"
+        },
+        {
+          "de": "Die Schule ist aus.",
+          "en": "School is out."
+        },
+        {
+          "de": "der Hof, die Höfe",
+          "en": "yard, courtyard"
+        }
       ]
     },
     {
@@ -29,13 +47,36 @@
       "en": "The older boys, with great dignity, held their bundles of books pressed high against their left shoulders while rowing with their right arms against the wind towards lunch; the little ones set off at a merry trot, so that the icy slush splashed about and the bits and pieces of learning rattled in their sealskin satchels. But here and there everyone snatched off their caps with reverent eyes before the Wotan hat and Jupiter beard of a senior teacher striding past at a measured pace...",
       "explain_en": "Mann describes the pupils with gentle humour: the big boys “row” through the wind, the small ones (“kleines Volk”, little folk) trot. “indem” means “while/by doing”. “wider” is old-fashioned for “gegen” – say “gegen den Wind”. “hie und da” is old; today “hier und da” or “ab und zu”. “Siebensachen” is still used: “Pack deine Siebensachen!” = Pack your stuff! Around 1900 pupils had to take off their caps to greet teachers – this one looks like the gods Wotan and Jupiter.",
       "words": [
-        {"de": "der Schüler, die Schüler", "en": "pupil, school student"},
-        {"de": "die Schulter, die Schultern", "en": "shoulder"},
-        {"de": "das Mittagessen", "en": "lunch"},
-        {"de": "die Mütze, die Mützen", "en": "cap, woolly hat"},
-        {"de": "der Lehrer, die Lehrer", "en": "teacher"},
-        {"de": "die Siebensachen", "en": "stuff, belongings", "note": "colloquial, still common"},
-        {"de": "ab und zu", "en": "now and then", "note": "Mann uses old 'hie und da'"}
+        {
+          "de": "der Schüler, die Schüler",
+          "en": "pupil, school student"
+        },
+        {
+          "de": "die Schulter, die Schultern",
+          "en": "shoulder"
+        },
+        {
+          "de": "das Mittagessen",
+          "en": "lunch"
+        },
+        {
+          "de": "die Mütze, die Mützen",
+          "en": "cap, woolly hat"
+        },
+        {
+          "de": "der Lehrer, die Lehrer",
+          "en": "teacher"
+        },
+        {
+          "de": "die Siebensachen",
+          "en": "stuff, belongings",
+          "note": "colloquial, still common"
+        },
+        {
+          "de": "ab und zu",
+          "en": "now and then",
+          "note": "Mann uses old 'hie und da'"
+        }
       ]
     },
     {
@@ -44,13 +85,36 @@
       "en": "“Are you finally coming, Hans?” said Tonio Kröger, who had been waiting on the street for a long time; smiling, he went up to his friend, who was coming out of the gate talking to some other boys and was just about to go off with them... “What do you mean?” he asked, looking at Tonio... “Oh yes, that's true! Let's go for a bit of a walk, then.” Tonio fell silent, and his eyes clouded over. Had Hans forgotten, was he only remembering now that they had planned to go for a little walk together this lunchtime? And he himself had been looking forward to it almost non-stop since they'd arranged it!",
       "explain_en": "The dots “...” are Mann's: they show that Hans had forgotten and is covering it up. “im Begriff sein, etwas zu tun” = to be about to do something; in speech say “gerade dabei sein”. “dem Freunde” has an old dative -e; today just “dem Freund”. “der Fahrdamm” is old for “die Straße/Fahrbahn”. “sich auf etwas freuen” = to look forward to something – super useful: “Ich freue mich auf die Ferien.” “unausgesetzt” is old; today “die ganze Zeit”.",
       "words": [
-        {"de": "warten", "en": "to wait"},
-        {"de": "vergessen", "en": "to forget", "note": "vergaß, hat vergessen"},
-        {"de": "spazieren gehen", "en": "to go for a walk"},
-        {"de": "sich freuen auf", "en": "to look forward to"},
-        {"de": "die Verabredung, die Verabredungen", "en": "arrangement, plan to meet, date"},
-        {"de": "verstummen", "en": "to fall silent"},
-        {"de": "der Kamerad, die Kameraden", "en": "companion, classmate", "note": "old-fashioned; today: der Mitschüler, der Kumpel"}
+        {
+          "de": "warten",
+          "en": "to wait"
+        },
+        {
+          "de": "vergessen",
+          "en": "to forget",
+          "note": "vergaß, hat vergessen"
+        },
+        {
+          "de": "spazieren gehen",
+          "en": "to go for a walk"
+        },
+        {
+          "de": "sich freuen auf",
+          "en": "to look forward to"
+        },
+        {
+          "de": "die Verabredung, die Verabredungen",
+          "en": "arrangement, plan to meet, date"
+        },
+        {
+          "de": "verstummen",
+          "en": "to fall silent"
+        },
+        {
+          "de": "der Kamerad, die Kameraden",
+          "en": "companion, classmate",
+          "note": "old-fashioned; today: der Mitschüler, der Kumpel"
+        }
       ]
     },
     {
@@ -59,12 +123,32 @@
       "en": "“Well, bye, you lot!” Hans Hansen said to the others. “I'll walk a bit with Kröger, then.” And the two of them turned left, while the others strolled off to the right. Hans and Tonio had time to go for a walk after school because both belonged to households where lunch wasn't eaten until four o'clock. Their fathers were important merchants who held public offices and were powerful in the town.",
       "explain_en": "“adieu” (from French) was a normal goodbye in northern Germany back then; today say “tschüss” or “ciao”. Notice that Hans calls his friend by his surname, Kröger – remember this, it matters later. “indes” is old for “während” (while). “in denen ... gegessen wurde” is passive: “where eating was done”, i.e. where they ate. “ein Amt bekleiden” is formal for “ein Amt haben” (to hold an office).",
       "words": [
-        {"de": "tschüss", "en": "bye", "note": "the modern word for 'adieu'"},
-        {"de": "sich wenden", "en": "to turn", "note": "wandte sich / wendete sich"},
-        {"de": "schlendern", "en": "to stroll"},
-        {"de": "der Kaufmann, die Kaufleute", "en": "merchant, businessman"},
-        {"de": "mächtig", "en": "powerful"},
-        {"de": "das Amt, die Ämter", "en": "office, official post"}
+        {
+          "de": "tschüss",
+          "en": "bye",
+          "note": "the modern word for 'adieu'"
+        },
+        {
+          "de": "sich wenden",
+          "en": "to turn",
+          "note": "wandte sich / wendete sich"
+        },
+        {
+          "de": "schlendern",
+          "en": "to stroll"
+        },
+        {
+          "de": "der Kaufmann, die Kaufleute",
+          "en": "merchant, businessman"
+        },
+        {
+          "de": "mächtig",
+          "en": "powerful"
+        },
+        {
+          "de": "das Amt, die Ämter",
+          "en": "office, official post"
+        }
       ]
     },
     {
@@ -73,13 +157,35 @@
       "en": "For generations the Hansens had owned the sprawling timber yards down by the river, where huge sawing machines hissed and snorted as they cut up the tree trunks. But Tonio was the son of Consul Kröger, whose grain sacks, printed with the firm's name in broad black letters, could be seen being driven through the streets day after day; and his ancestors' big old house was the grandest in the whole town... Because they knew so many people, the friends constantly had to take off their caps; in fact, some people even greeted the fourteen-year-olds first...",
       "explain_en": "“Den Hansens gehörten ...” – the verb “gehören” takes the dative: “Das Handy gehört mir.” (The phone belongs to me.) “drunten” is old/southern for “dort unten”. “seiner Vorfahren großes altes Haus” uses old word order with the genitive first; today: “das große alte Haus seiner Vorfahren”. “der vielen Bekannten wegen” = “wegen der vielen Bekannten” (because of all the people they knew). The boys are only 14, but adults greet them first because their families are so important.",
       "words": [
-        {"de": "gehören", "en": "to belong to", "note": "+ Dativ: Das gehört mir."},
-        {"de": "der Fluss, die Flüsse", "en": "river"},
-        {"de": "der Sohn, die Söhne", "en": "son"},
-        {"de": "die Vorfahren", "en": "ancestors"},
-        {"de": "grüßen", "en": "to greet, to say hello to"},
-        {"de": "der/die Bekannte, die Bekannten", "en": "acquaintance, someone you know"},
-        {"de": "wegen", "en": "because of"}
+        {
+          "de": "gehören",
+          "en": "to belong to",
+          "note": "+ Dativ: Das gehört mir."
+        },
+        {
+          "de": "der Fluss, die Flüsse",
+          "en": "river"
+        },
+        {
+          "de": "der Sohn, die Söhne",
+          "en": "son"
+        },
+        {
+          "de": "die Vorfahren",
+          "en": "ancestors"
+        },
+        {
+          "de": "grüßen",
+          "en": "to greet, to say hello to"
+        },
+        {
+          "de": "der/die Bekannte, die Bekannten",
+          "en": "acquaintance, someone you know"
+        },
+        {
+          "de": "wegen",
+          "en": "because of"
+        }
       ]
     },
     {
@@ -88,13 +194,35 @@
       "en": "Both had slung their school bags over their shoulders, and both were well and warmly dressed: Hans in a short sailor's jacket, with the wide blue collar of his sailor suit lying over its shoulders and back, and Tonio in a grey belted overcoat. Hans wore a Danish sailor's cap with short ribbons, and a tuft of his straw-blond hair spilled out from under it. He was extraordinarily good-looking and well built, broad in the shoulders and narrow in the hips, with wide-open, sharp steel-blue eyes.",
       "explain_en": "Mann now contrasts the two boys by their looks. Hans is the typical fair-haired North German. “gekleidet in” + accusative = dressed in. “über welcher” is formal; in speech use “über der”. “der Paletot” is an old word for a coat – today “der Mantel”. “hervorquellen” = to spill or bulge out. “hübsch” today is used mostly for girls or things; for a boy you'd say “gut aussehend”.",
       "words": [
-        {"de": "die Schultasche, die Schultaschen", "en": "school bag", "note": "Mann says 'Schulmappe'; many teens today just use a Rucksack"},
-        {"de": "die Jacke, die Jacken", "en": "jacket"},
-        {"de": "das Haar, die Haare", "en": "hair"},
-        {"de": "hübsch", "en": "pretty, good-looking"},
-        {"de": "breit", "en": "broad, wide"},
-        {"de": "schmal", "en": "narrow, slim"},
-        {"de": "der Mantel, die Mäntel", "en": "coat"}
+        {
+          "de": "die Schultasche, die Schultaschen",
+          "en": "school bag",
+          "note": "Mann says 'Schulmappe'; many teens today just use a Rucksack"
+        },
+        {
+          "de": "die Jacke, die Jacken",
+          "en": "jacket"
+        },
+        {
+          "de": "das Haar, die Haare",
+          "en": "hair"
+        },
+        {
+          "de": "hübsch",
+          "en": "pretty, good-looking"
+        },
+        {
+          "de": "breit",
+          "en": "broad, wide"
+        },
+        {
+          "de": "schmal",
+          "en": "narrow, slim"
+        },
+        {
+          "de": "der Mantel, die Mäntel",
+          "en": "coat"
+        }
       ]
     },
     {
@@ -103,13 +231,35 @@
       "en": "But under Tonio's round fur cap, out of a dark, sharply cut, thoroughly southern face, dark eyes with delicate shadows and lids that were too heavy looked out dreamily and a little timidly... His mouth and chin were unusually soft in shape. He walked carelessly and unevenly, while Hans's slim legs in their black stockings strode along so springily and in such perfect rhythm... Tonio didn't speak. He was hurting. Drawing his slightly slanting eyebrows together and keeping his lips rounded as if to whistle, he gazed into the distance with his head tilted to one side. This posture and expression were typical of him.",
       "explain_en": "Tonio looks “southern” because his mother is from South America – he's the outsider. In the first sentence the subject (“dunkle ... Augen”) comes only near the end, and the separable verb “hervorblicken” is split into “blickten ... hervor”. “Mund und Kinn waren ihm ...” uses the dative “ihm” for body parts; today say “Sein Mund und sein Kinn waren ...”. “einherschreiten” and “empfinden” are literary; today “gehen” and “fühlen”. “eigentümlich” here means “typical”, but today it usually means “strange” – say “typisch für ihn”.",
       "words": [
-        {"de": "das Gesicht, die Gesichter", "en": "face"},
-        {"de": "das Auge, die Augen", "en": "eye"},
-        {"de": "träumerisch", "en": "dreamy"},
-        {"de": "das Bein, die Beine", "en": "leg"},
-        {"de": "der Schmerz, die Schmerzen", "en": "pain"},
-        {"de": "pfeifen", "en": "to whistle", "note": "pfiff, hat gepfiffen"},
-        {"de": "der Kopf, die Köpfe", "en": "head"}
+        {
+          "de": "das Gesicht, die Gesichter",
+          "en": "face"
+        },
+        {
+          "de": "das Auge, die Augen",
+          "en": "eye"
+        },
+        {
+          "de": "träumerisch",
+          "en": "dreamy"
+        },
+        {
+          "de": "das Bein, die Beine",
+          "en": "leg"
+        },
+        {
+          "de": "der Schmerz, die Schmerzen",
+          "en": "pain"
+        },
+        {
+          "de": "pfeifen",
+          "en": "to whistle",
+          "note": "pfiff, hat gepfiffen"
+        },
+        {
+          "de": "der Kopf, die Köpfe",
+          "en": "head"
+        }
       ]
     },
     {
@@ -118,13 +268,35 @@
       "en": "Suddenly Hans slipped his arm through Tonio's and looked at him sideways as he did so, because he understood perfectly well what this was about. And although Tonio stayed silent for the next few steps too, he suddenly felt very soft-hearted. “I hadn't forgotten, you know, Tonio,” said Hans, looking down at the pavement in front of him, “I just thought it probably wouldn't happen today, because it's so wet and windy. But I don't mind at all, and I think it's great that you waited for me anyway. I thought you'd already gone home, and I was annoyed...”",
       "explain_en": "Walking arm in arm was normal for boys back then. “um was es sich handelte” – today “worum es ging” (what it was about). “obgleich” is old for “obwohl” (although). “ward” is the old past tense of “werden”; today “wurde”. “famos” (great) is very old-fashioned – today say “super”, “toll” or “cool”. “das Trottoir” (from French) is old for “der Gehweg”. “du seist” is subjunctive for reported thoughts; in everyday speech: “Ich dachte, du bist schon nach Hause gegangen.” “sich ärgern” = to be annoyed – very common!",
       "words": [
-        {"de": "plötzlich", "en": "suddenly"},
-        {"de": "obwohl", "en": "although", "note": "Mann uses old 'obgleich'"},
-        {"de": "trotzdem", "en": "anyway, nevertheless"},
-        {"de": "windig", "en": "windy"},
-        {"de": "sich ärgern", "en": "to be annoyed"},
-        {"de": "nach Hause gehen", "en": "to go home"},
-        {"de": "Das macht mir nichts.", "en": "I don't mind."}
+        {
+          "de": "plötzlich",
+          "en": "suddenly"
+        },
+        {
+          "de": "obwohl",
+          "en": "although",
+          "note": "Mann uses old 'obgleich'"
+        },
+        {
+          "de": "trotzdem",
+          "en": "anyway, nevertheless"
+        },
+        {
+          "de": "windig",
+          "en": "windy"
+        },
+        {
+          "de": "sich ärgern",
+          "en": "to be annoyed"
+        },
+        {
+          "de": "nach Hause gehen",
+          "en": "to go home"
+        },
+        {
+          "de": "Das macht mir nichts.",
+          "en": "I don't mind."
+        }
       ]
     },
     {
@@ -133,12 +305,30 @@
       "en": "At these words everything inside Tonio began to jump and cheer. “Right, so we'll go along the ramparts!” he said, his voice full of emotion. “Along the Mühlenwall and the Holstenwall, and that way I'll take you home, Hans... Oh no, it doesn't matter at all that I'll walk home on my own afterwards; next time you'll walk with me.”",
       "explain_en": "Hans's apology makes Tonio happy straight away. The “Wälle” are the old town ramparts, turned into parks – there really is a Holstenwall in Lübeck. “in Bewegung geraten” = to start moving. “Bewahre!” is an old exclamation meaning “not at all!”; today say “Ach was!” or “Quatsch!”. “der Heimweg” = the way home: “Auf dem Heimweg habe ich ihn getroffen.” “das nächste Mal” = next time – no preposition needed in German.",
       "words": [
-        {"de": "die Stimme, die Stimmen", "en": "voice"},
-        {"de": "nach Hause bringen", "en": "to take someone home"},
-        {"de": "der Heimweg", "en": "the way home"},
-        {"de": "allein", "en": "alone"},
-        {"de": "begleiten", "en": "to go with, to walk someone somewhere"},
-        {"de": "das nächste Mal", "en": "next time"}
+        {
+          "de": "die Stimme, die Stimmen",
+          "en": "voice"
+        },
+        {
+          "de": "nach Hause bringen",
+          "en": "to take someone home"
+        },
+        {
+          "de": "der Heimweg",
+          "en": "the way home"
+        },
+        {
+          "de": "allein",
+          "en": "alone"
+        },
+        {
+          "de": "begleiten",
+          "en": "to go with, to walk someone somewhere"
+        },
+        {
+          "de": "das nächste Mal",
+          "en": "next time"
+        }
       ]
     },
     {
@@ -147,12 +337,30 @@
       "en": "Deep down he didn't really believe what Hans had said, and he could feel very clearly that Hans cared only half as much about this walk together as he did. But he could see that Hans was sorry he had forgotten and was making an effort to make up with him. And Tonio had no intention at all of holding up the making-up...",
       "explain_en": "Tonio sees through Hans but forgives him anyway. “an etwas glauben” = to believe in something. “jener” (that one) refers back to Hans; in speech just say “er”. “Gewicht auf etwas legen” = to attach importance to something. “es sich angelegen sein lassen” is very old-fashioned for “sich Mühe geben” (to make an effort). “sich versöhnen” (to make up) is still very useful: “Wir haben uns wieder versöhnt.” “hintanhalten” is old for “verhindern” or “verzögern” (to prevent, to delay).",
       "words": [
-        {"de": "glauben an", "en": "to believe in"},
-        {"de": "der Spaziergang, die Spaziergänge", "en": "walk"},
-        {"de": "bereuen", "en": "to regret, to be sorry about"},
-        {"de": "sich versöhnen", "en": "to make up, to be reconciled"},
-        {"de": "sich Mühe geben", "en": "to make an effort"},
-        {"de": "die Absicht, die Absichten", "en": "intention"}
+        {
+          "de": "glauben an",
+          "en": "to believe in"
+        },
+        {
+          "de": "der Spaziergang, die Spaziergänge",
+          "en": "walk"
+        },
+        {
+          "de": "bereuen",
+          "en": "to regret, to be sorry about"
+        },
+        {
+          "de": "sich versöhnen",
+          "en": "to make up, to be reconciled"
+        },
+        {
+          "de": "sich Mühe geben",
+          "en": "to make an effort"
+        },
+        {
+          "de": "die Absicht, die Absichten",
+          "en": "intention"
+        }
       ]
     },
     {
@@ -161,13 +369,36 @@
       "en": "The thing was that Tonio loved Hans Hansen and had already suffered a lot because of him. Whoever loves more is the weaker one and has to suffer – his fourteen-year-old soul had already learned this simple, hard lesson from life; and he was the kind of person who took careful note of such experiences, wrote them down inside himself, as it were, and in a way even enjoyed them, without, of course, living by them himself or getting any practical use out of them.",
       "explain_en": "This is the heart of the story: “Wer am meisten liebt, ist der Unterlegene und muss leiden” – a famous line. “Wer ..., (der) ...” = whoever ...: “Wer zu spät kommt, muss draußen warten.” “leiden” (to suffer) has the past participle “gelitten”. “gleichsam” and “freilich” are old-fashioned: today “sozusagen” (so to speak) and “allerdings” (admittedly, of course). “sich nach etwas richten” = to go by / follow something.",
       "words": [
-        {"de": "die Sache, die Sachen", "en": "thing, matter"},
-        {"de": "lieben", "en": "to love"},
-        {"de": "leiden", "en": "to suffer", "note": "litt, hat gelitten"},
-        {"de": "die Seele, die Seelen", "en": "soul"},
-        {"de": "die Erfahrung, die Erfahrungen", "en": "experience"},
-        {"de": "aufschreiben", "en": "to write down"},
-        {"de": "sozusagen", "en": "so to speak", "note": "Mann uses old 'gleichsam'"}
+        {
+          "de": "die Sache, die Sachen",
+          "en": "thing, matter"
+        },
+        {
+          "de": "lieben",
+          "en": "to love"
+        },
+        {
+          "de": "leiden",
+          "en": "to suffer",
+          "note": "litt, hat gelitten"
+        },
+        {
+          "de": "die Seele, die Seelen",
+          "en": "soul"
+        },
+        {
+          "de": "die Erfahrung, die Erfahrungen",
+          "en": "experience"
+        },
+        {
+          "de": "aufschreiben",
+          "en": "to write down"
+        },
+        {
+          "de": "sozusagen",
+          "en": "so to speak",
+          "note": "Mann uses old 'gleichsam'"
+        }
       ]
     },
     {
@@ -176,13 +407,34 @@
       "en": "It was also the case with him that he considered such lessons far more important and interesting than the knowledge that was forced on him at school; in fact, during lessons in the Gothic vaulted classrooms he mostly busied himself with feeling such insights right to the bottom and thinking them all the way through. And this gave him a very similar satisfaction to when he walked around his room with his violin (for he played the violin) and let the notes, as soft as he could possibly make them, ring out into the splashing of the fountain that rose, dancing, down in the garden under the branches of the old walnut tree...",
       "explain_en": "Tonio daydreams in class instead of learning – many readers recognise that! Today “to consider something important” is “etwas für wichtig halten”; Mann's “wichtiger achten als” is old. “sich mit etwas abgeben” = to spend time on something (today often slightly negative). “vermögen” (to be able to) is formal; today “können”: “so weich, wie er konnte”. “der Springstrahl” is Mann's word for the jet of a fountain (“der Springbrunnen”).",
       "words": [
-        {"de": "der Unterricht", "en": "lessons, teaching"},
-        {"de": "die Schulstunde, die Schulstunden", "en": "lesson, period"},
-        {"de": "wichtig", "en": "important"},
-        {"de": "die Geige, die Geigen", "en": "violin"},
-        {"de": "das Zimmer, die Zimmer", "en": "room"},
-        {"de": "der Garten, die Gärten", "en": "garden"},
-        {"de": "der Baum, die Bäume", "en": "tree"}
+        {
+          "de": "der Unterricht",
+          "en": "lessons, teaching"
+        },
+        {
+          "de": "die Schulstunde, die Schulstunden",
+          "en": "lesson, period"
+        },
+        {
+          "de": "wichtig",
+          "en": "important"
+        },
+        {
+          "de": "die Geige, die Geigen",
+          "en": "violin"
+        },
+        {
+          "de": "das Zimmer, die Zimmer",
+          "en": "room"
+        },
+        {
+          "de": "der Garten, die Gärten",
+          "en": "garden"
+        },
+        {
+          "de": "der Baum, die Bäume",
+          "en": "tree"
+        }
       ]
     },
     {
@@ -191,13 +443,37 @@
       "en": "The fountain, the old walnut tree, his violin and, in the distance, the sea, the Baltic, whose summer dreams he was allowed to listen in on during the holidays – these were the things he loved, the things he surrounded himself with, so to speak, and among which his inner life took place; things whose names work well in poems and which really did come up again and again in the poems that Tonio Kröger sometimes wrote.",
       "explain_en": "One long sentence listing the things Tonio loves – and then the surprise: he writes poems. Look at the relative pronouns: “deren” (whose – for die Ostsee and for the plural Dinge), “mit denen” and “zwischen denen” (with which, among which). “sich abspielen” = to take place. “zuweilen” is old; today “manchmal”. “verfertigen” is old for “schreiben/machen”. “die Ferien” (holidays) is always plural.",
       "words": [
-        {"de": "der Springbrunnen, die Springbrunnen", "en": "fountain"},
-        {"de": "das Meer, die Meere", "en": "sea"},
-        {"de": "die Ostsee", "en": "the Baltic Sea"},
-        {"de": "die Ferien", "en": "holidays", "note": "always plural"},
-        {"de": "der Traum, die Träume", "en": "dream"},
-        {"de": "das Gedicht, die Gedichte", "en": "poem", "note": "Mann says 'Verse'"},
-        {"de": "manchmal", "en": "sometimes", "note": "Mann uses old 'zuweilen'"}
+        {
+          "de": "der Springbrunnen, die Springbrunnen",
+          "en": "fountain"
+        },
+        {
+          "de": "das Meer, die Meere",
+          "en": "sea"
+        },
+        {
+          "de": "die Ostsee",
+          "en": "the Baltic Sea"
+        },
+        {
+          "de": "die Ferien",
+          "en": "holidays",
+          "note": "always plural"
+        },
+        {
+          "de": "der Traum, die Träume",
+          "en": "dream"
+        },
+        {
+          "de": "das Gedicht, die Gedichte",
+          "en": "poem",
+          "note": "Mann says 'Verse'"
+        },
+        {
+          "de": "manchmal",
+          "en": "sometimes",
+          "note": "Mann uses old 'zuweilen'"
+        }
       ]
     },
     {
@@ -206,13 +482,34 @@
       "en": "The fact that he owned a notebook of poems he had written himself had got around through his own fault, and it did him a lot of harm, with his classmates as well as with the teachers. On the one hand, Consul Kröger's son felt it was stupid and mean to take offence at it, and he despised both classmates and teachers for it; their bad manners disgusted him anyway, and he saw through their personal weaknesses with strange sharpness. On the other hand, he himself felt that writing poems was over the top and actually improper, and in a way he had to agree with everyone who thought it a strange thing to do. But that couldn't make him give it up...",
       "explain_en": "Poetry makes Tonio an outsider at school. “einerseits ... andererseits” (on the one hand ... on the other hand) is extremely useful for essays and discussions. “an etwas Anstoß nehmen” = to take offence at something. “jemandem recht geben” = to agree that someone is right. “Allein” at the start of a sentence is old for “aber” – careful, normally it means “alone”! “vermögen” is old for “können”.",
       "words": [
-        {"de": "das Heft, die Hefte", "en": "exercise book, notebook"},
-        {"de": "der Mitschüler, die Mitschüler", "en": "classmate"},
-        {"de": "einerseits ... andererseits", "en": "on the one hand ... on the other hand"},
-        {"de": "dumm", "en": "stupid"},
-        {"de": "verachten", "en": "to despise"},
-        {"de": "jemandem recht geben", "en": "to agree with someone"},
-        {"de": "die Schwäche, die Schwächen", "en": "weakness"}
+        {
+          "de": "das Heft, die Hefte",
+          "en": "exercise book, notebook"
+        },
+        {
+          "de": "der Mitschüler, die Mitschüler",
+          "en": "classmate"
+        },
+        {
+          "de": "einerseits ... andererseits",
+          "en": "on the one hand ... on the other hand"
+        },
+        {
+          "de": "dumm",
+          "en": "stupid"
+        },
+        {
+          "de": "verachten",
+          "en": "to despise"
+        },
+        {
+          "de": "jemandem recht geben",
+          "en": "to agree with someone"
+        },
+        {
+          "de": "die Schwäche, die Schwächen",
+          "en": "weakness"
+        }
       ]
     },
     {
@@ -221,13 +518,36 @@
       "en": "Since he wasted his time at home, was slow and absent-minded in lessons and was in the teachers' bad books, he always brought home the most miserable marks, which made his father – a tall, carefully dressed gentleman with thoughtful blue eyes who always wore a wild flower in his buttonhole – very angry and worried. But Tonio's mother, his beautiful black-haired mother, whose first name was Consuelo and who was altogether so different from the other ladies in town, because his father had once fetched her from right at the bottom of the map – his mother couldn't have cared less about his school reports...",
       "explain_en": "Tonio's parents are opposites: the strict northern father and the relaxed southern mother (“von ganz unten auf der Landkarte” = from the bottom of the map, i.e. South America). “bei jemandem schlecht angeschrieben sein” = to be in someone's bad books – still used. “die Zensur” is old for a school mark; today “die Note”. “daheim” is southern/old for “zu Hause”. “grundeinerlei” = totally unimportant; today “total egal”: “Das ist mir total egal.” “lang” for a person is old; today “groß”.",
       "words": [
-        {"de": "die Note, die Noten", "en": "mark, grade", "note": "Mann says 'die Zensur'"},
-        {"de": "das Zeugnis, die Zeugnisse", "en": "school report"},
-        {"de": "der Vater, die Väter", "en": "father"},
-        {"de": "die Mutter, die Mütter", "en": "mother"},
-        {"de": "der Vorname, die Vornamen", "en": "first name"},
-        {"de": "die Landkarte, die Landkarten", "en": "map"},
-        {"de": "egal", "en": "doesn't matter", "note": "Das ist mir egal. = I don't care."}
+        {
+          "de": "die Note, die Noten",
+          "en": "mark, grade",
+          "note": "Mann says 'die Zensur'"
+        },
+        {
+          "de": "das Zeugnis, die Zeugnisse",
+          "en": "school report"
+        },
+        {
+          "de": "der Vater, die Väter",
+          "en": "father"
+        },
+        {
+          "de": "die Mutter, die Mütter",
+          "en": "mother"
+        },
+        {
+          "de": "der Vorname, die Vornamen",
+          "en": "first name"
+        },
+        {
+          "de": "die Landkarte, die Landkarten",
+          "en": "map"
+        },
+        {
+          "de": "egal",
+          "en": "doesn't matter",
+          "note": "Das ist mir egal. = I don't care."
+        }
       ]
     },
     {
@@ -236,12 +556,32 @@
       "en": "Tonio loved his dark, fiery mother, who played the grand piano and the mandolin so wonderfully, and he was glad that she didn't worry about his dubious position among people. On the other hand, he felt that his father's anger was far more dignified and respectable, and although his father told him off, deep down he quite agreed with him, while he found his mother's cheerful indifference a little sloppy.",
       "explain_en": "Tonio is torn: he loves his mother but secretly sides with his strict father. “ob” + genitive is an old word for “wegen” (because of) – don't confuse it with “ob” = whether! “sich grämen” is old; today “sich Sorgen machen”. “schelten” (gescholten) is old for “schimpfen” (to tell off): “Mein Vater hat mit mir geschimpft.” “mit jemandem einverstanden sein” = to agree with someone – very common.",
       "words": [
-        {"de": "froh", "en": "glad"},
-        {"de": "der Flügel, die Flügel", "en": "grand piano; wing"},
-        {"de": "die Wut", "en": "anger, rage", "note": "Mann says 'der Zorn' (more formal)"},
-        {"de": "schimpfen", "en": "to tell off, to scold", "note": "Mann uses old 'schelten'"},
-        {"de": "einverstanden sein", "en": "to agree, to be OK with"},
-        {"de": "im Grunde", "en": "basically, deep down"}
+        {
+          "de": "froh",
+          "en": "glad"
+        },
+        {
+          "de": "der Flügel, die Flügel",
+          "en": "grand piano; wing"
+        },
+        {
+          "de": "die Wut",
+          "en": "anger, rage",
+          "note": "Mann says 'der Zorn' (more formal)"
+        },
+        {
+          "de": "schimpfen",
+          "en": "to tell off, to scold",
+          "note": "Mann uses old 'schelten'"
+        },
+        {
+          "de": "einverstanden sein",
+          "en": "to agree, to be OK with"
+        },
+        {
+          "de": "im Grunde",
+          "en": "basically, deep down"
+        }
       ]
     },
     {
@@ -250,13 +590,34 @@
       "en": "Sometimes he thought something like this: It's bad enough that I am the way I am and won't and can't change – careless, stubborn and occupied with things nobody else thinks about. At least it's only right that they should seriously scold and punish me for it, instead of glossing over it with kisses and music. After all, we're not gypsies in a green caravan, we're respectable people, Consul Kröger's family, the Krögers...",
       "explain_en": "Here we hear Tonio's thoughts directly. “Es gehört sich” = it's proper, the right thing: “Das gehört sich nicht!” (That's not done!) “strafen” is fine, but today you'd more often say “bestrafen”. Important: “Zigeuner” was the normal word in 1903, but today it is considered offensive – say “Sinti und Roma”. Tonio uses it as an image for people who live outside respectable society, and he comes back to it later.",
       "words": [
-        {"de": "sich ändern", "en": "to change (oneself)"},
-        {"de": "niemand", "en": "nobody"},
-        {"de": "wenigstens", "en": "at least"},
-        {"de": "bestrafen", "en": "to punish"},
-        {"de": "der Kuss, die Küsse", "en": "kiss"},
-        {"de": "anständig", "en": "decent, respectable"},
-        {"de": "die Familie, die Familien", "en": "family"}
+        {
+          "de": "sich ändern",
+          "en": "to change (oneself)"
+        },
+        {
+          "de": "niemand",
+          "en": "nobody"
+        },
+        {
+          "de": "wenigstens",
+          "en": "at least"
+        },
+        {
+          "de": "bestrafen",
+          "en": "to punish"
+        },
+        {
+          "de": "der Kuss, die Küsse",
+          "en": "kiss"
+        },
+        {
+          "de": "anständig",
+          "en": "decent, respectable"
+        },
+        {
+          "de": "die Familie, die Familien",
+          "en": "family"
+        }
       ]
     },
     {
@@ -265,12 +626,30 @@
       "en": "Quite often he also thought: Why am I so odd and at odds with everything, on bad terms with the teachers and a stranger among the other boys? Look at them, the good pupils and the solidly average ones. They don't find the teachers funny, they don't write poems, and they only think the things people just do think and that can be said out loud. How orderly they must feel, and how at peace with everything and everybody! That must be nice... But what about me, and how will all this turn out?",
       "explain_en": "A question lots of teenagers ask themselves: why am I different? “Nicht selten” (not rarely) = quite often. “sonderlich” is old; today “seltsam” or “komisch”. “Siehe sie an” is an old imperative; today “Sieh sie dir an!” or “Guck sie dir an!”. “jedermann” is old for “jeder”. “ablaufen” = to go, to turn out: “Wie ist die Party abgelaufen?”",
       "words": [
-        {"de": "fremd", "en": "strange, foreign; a stranger"},
-        {"de": "der Junge, die Jungen", "en": "boy"},
-        {"de": "komisch", "en": "funny, weird"},
-        {"de": "laut", "en": "loud, out loud"},
-        {"de": "ordentlich", "en": "tidy, orderly, proper"},
-        {"de": "ablaufen", "en": "to go, to turn out"}
+        {
+          "de": "fremd",
+          "en": "strange, foreign; a stranger"
+        },
+        {
+          "de": "der Junge, die Jungen",
+          "en": "boy"
+        },
+        {
+          "de": "komisch",
+          "en": "funny, weird"
+        },
+        {
+          "de": "laut",
+          "en": "loud, out loud"
+        },
+        {
+          "de": "ordentlich",
+          "en": "tidy, orderly, proper"
+        },
+        {
+          "de": "ablaufen",
+          "en": "to go, to turn out"
+        }
       ]
     },
     {
@@ -279,13 +658,36 @@
       "en": "This way of looking at himself and his relationship to life played an important part in Tonio's love for Hans Hansen. He loved him first of all because he was handsome; but then because in every respect he seemed to be his own opposite. Hans Hansen was an excellent pupil and also a lively lad who rode, did gymnastics, swam like a hero and was popular with everyone.",
       "explain_en": "Now we learn why Tonio loves Hans: Hans is everything Tonio is not. “eine Rolle spielen” = to play a part – very common. “in allen Stücken” is old for “in jeder Hinsicht” (in every way). “der Gesell” is old for a young fellow; today “der Typ” or “der Kerl”. Past tenses of strong verbs: reiten → ritt, schwimmen → schwamm. “sich einer Sache erfreuen” is formal; today simply “Er war sehr beliebt.”",
       "words": [
-        {"de": "das Verhältnis, die Verhältnisse", "en": "relationship"},
-        {"de": "eine Rolle spielen", "en": "to play a part, to matter"},
-        {"de": "das Gegenteil", "en": "opposite"},
-        {"de": "reiten", "en": "to ride (a horse)", "note": "ritt, ist geritten"},
-        {"de": "schwimmen", "en": "to swim", "note": "schwamm, ist geschwommen"},
-        {"de": "der Held, die Helden", "en": "hero"},
-        {"de": "beliebt", "en": "popular"}
+        {
+          "de": "das Verhältnis, die Verhältnisse",
+          "en": "relationship"
+        },
+        {
+          "de": "eine Rolle spielen",
+          "en": "to play a part, to matter"
+        },
+        {
+          "de": "das Gegenteil",
+          "en": "opposite"
+        },
+        {
+          "de": "reiten",
+          "en": "to ride (a horse)",
+          "note": "ritt, ist geritten"
+        },
+        {
+          "de": "schwimmen",
+          "en": "to swim",
+          "note": "schwamm, ist geschwommen"
+        },
+        {
+          "de": "der Held, die Helden",
+          "en": "hero"
+        },
+        {
+          "de": "beliebt",
+          "en": "popular"
+        }
       ]
     },
     {
@@ -294,12 +696,32 @@
       "en": "The teachers were fond of him almost to the point of tenderness, called him by his first name and supported him in every way; his classmates were eager to win his favour, and in the street ladies and gentlemen stopped him, took hold of the tuft of straw-blond hair that spilled out from under his Danish sailor's cap, and said: “Hello, Hans Hansen, with your lovely tuft of hair! Are you still top of the class? Say hello to your mum and dad, you splendid boy...”",
       "explain_en": "Everybody loves Hans. “jemandem zugetan sein” is old for “jemanden mögen” (to like someone). “jemanden fördern” = to support or encourage someone – used in schools today (“Förderunterricht” = extra support lessons). “der Primus” was the best pupil in the class; today “der Klassenbeste”. “Grüß Papa und Mama!” – “Grüß deine Eltern von mir!” is still exactly how you say “say hi to your parents”.",
       "words": [
-        {"de": "nennen", "en": "to call, to name", "note": "nannte, hat genannt"},
-        {"de": "fördern", "en": "to support, to encourage"},
-        {"de": "anhalten", "en": "to stop"},
-        {"de": "die Straße, die Straßen", "en": "street"},
-        {"de": "Grüß ... von mir!", "en": "Say hi to ... from me!"},
-        {"de": "der/die Klassenbeste", "en": "top of the class", "note": "Mann uses old 'Primus'"}
+        {
+          "de": "nennen",
+          "en": "to call, to name",
+          "note": "nannte, hat genannt"
+        },
+        {
+          "de": "fördern",
+          "en": "to support, to encourage"
+        },
+        {
+          "de": "anhalten",
+          "en": "to stop"
+        },
+        {
+          "de": "die Straße, die Straßen",
+          "en": "street"
+        },
+        {
+          "de": "Grüß ... von mir!",
+          "en": "Say hi to ... from me!"
+        },
+        {
+          "de": "der/die Klassenbeste",
+          "en": "top of the class",
+          "note": "Mann uses old 'Primus'"
+        }
       ]
     },
     {
@@ -308,13 +730,36 @@
       "en": "That was Hans Hansen, and ever since Tonio Kröger had known him, he felt a longing whenever he caught sight of him, an envious longing that sat just above his chest and burned. If only I had such blue eyes, he thought, and lived in such good order and happy harmony with the whole world as you do! You're always busy with something perfectly proper that everyone respects.",
       "explain_en": "“Wer so blaue Augen hätte ...!” is a wish in the subjunctive (Konjunktiv II): “If only one had ...!”. Today you might say “Hätte ich doch so blaue Augen!” or “Ich wünschte, ich hätte ...”. “die Sehnsucht” (longing) is a famous German word with no exact English equivalent. “erblicken” is literary for “sehen”. “stets” is formal for “immer”. Notice Tonio switches to talking to Hans as “du” in his head.",
       "words": [
-        {"de": "die Sehnsucht", "en": "longing, yearning"},
-        {"de": "neidisch", "en": "envious, jealous"},
-        {"de": "sobald", "en": "as soon as"},
-        {"de": "die Brust", "en": "chest"},
-        {"de": "brennen", "en": "to burn", "note": "brannte, hat gebrannt"},
-        {"de": "beschäftigt", "en": "busy"},
-        {"de": "immer", "en": "always", "note": "Mann uses formal 'stets'"}
+        {
+          "de": "die Sehnsucht",
+          "en": "longing, yearning"
+        },
+        {
+          "de": "neidisch",
+          "en": "envious, jealous"
+        },
+        {
+          "de": "sobald",
+          "en": "as soon as"
+        },
+        {
+          "de": "die Brust",
+          "en": "chest"
+        },
+        {
+          "de": "brennen",
+          "en": "to burn",
+          "note": "brannte, hat gebrannt"
+        },
+        {
+          "de": "beschäftigt",
+          "en": "busy"
+        },
+        {
+          "de": "immer",
+          "en": "always",
+          "note": "Mann uses formal 'stets'"
+        }
       ]
     },
     {
@@ -323,13 +768,36 @@
       "en": "When you've done your homework, you have riding lessons or work with your fretsaw, and even in the holidays, at the seaside, you're kept busy rowing, sailing and swimming, while I lie idle and lost in the sand, staring at the mysterious, ever-changing expressions that flit across the face of the sea. But that's why your eyes are so clear. To be like you...",
       "explain_en": "Tonio keeps talking to Hans in his head. “Schulaufgaben erledigen” – today “Hausaufgaben machen” (to do homework). “in Anspruch genommen sein” = to be kept busy. “an der See” = at the seaside (die See = the sea; der See = the lake!). “des Meeres Antlitz” is poetic word order plus an old word; today “das Gesicht des Meeres”. Verbs become nouns with “das”: das Rudern, das Segeln, das Schwimmen (rowing, sailing, swimming).",
       "words": [
-        {"de": "die Hausaufgaben", "en": "homework", "note": "Mann says 'Schulaufgaben'"},
-        {"de": "die Reitstunde, die Reitstunden", "en": "riding lesson"},
-        {"de": "segeln", "en": "to sail"},
-        {"de": "rudern", "en": "to row"},
-        {"de": "der Sand", "en": "sand"},
-        {"de": "die See", "en": "the sea", "note": "der See = lake"},
-        {"de": "klar", "en": "clear"}
+        {
+          "de": "die Hausaufgaben",
+          "en": "homework",
+          "note": "Mann says 'Schulaufgaben'"
+        },
+        {
+          "de": "die Reitstunde, die Reitstunden",
+          "en": "riding lesson"
+        },
+        {
+          "de": "segeln",
+          "en": "to sail"
+        },
+        {
+          "de": "rudern",
+          "en": "to row"
+        },
+        {
+          "de": "der Sand",
+          "en": "sand"
+        },
+        {
+          "de": "die See",
+          "en": "the sea",
+          "note": "der See = lake"
+        },
+        {
+          "de": "klar",
+          "en": "clear"
+        }
       ]
     },
     {
@@ -338,12 +806,30 @@
       "en": "He didn't try to become like Hans Hansen, and perhaps he wasn't even very serious about this wish. But he longed painfully to be loved by him just as he was, and he tried to win his love in his own way – a slow, heartfelt, devoted, suffering and wistful way, but with a wistfulness that can burn deeper and more consumingly than any sudden passion you might have expected from his foreign looks.",
       "explain_en": "“den Versuch machen” = to make an attempt; more common today: simply “versuchen”. “Es ist mir ernst damit” = I really mean it. “begehren” is old/literary for “sich wünschen”. “um jemanden werben” = to woo someone (old); today “um jemanden kämpfen” or “jemanden für sich gewinnen wollen”. “geliebt werden” is passive: to be loved. “hätte erwarten können” = could have expected (past subjunctive).",
       "words": [
-        {"de": "der Versuch, die Versuche", "en": "attempt, try"},
-        {"de": "der Wunsch, die Wünsche", "en": "wish"},
-        {"de": "ernst", "en": "serious"},
-        {"de": "langsam", "en": "slow"},
-        {"de": "tief", "en": "deep"},
-        {"de": "erwarten", "en": "to expect"}
+        {
+          "de": "der Versuch, die Versuche",
+          "en": "attempt, try"
+        },
+        {
+          "de": "der Wunsch, die Wünsche",
+          "en": "wish"
+        },
+        {
+          "de": "ernst",
+          "en": "serious"
+        },
+        {
+          "de": "langsam",
+          "en": "slow"
+        },
+        {
+          "de": "tief",
+          "en": "deep"
+        },
+        {
+          "de": "erwarten",
+          "en": "to expect"
+        }
       ]
     },
     {
@@ -352,13 +838,35 @@
       "en": "And he didn't try completely in vain, because Hans – who, by the way, respected a certain superiority in him, a way with words that let Tonio express difficult things – understood very well that here was an unusually strong and tender feeling for him; he showed he was grateful and gave Tonio many happy moments by being friendly – but also many pangs of jealousy, disappointment and the useless effort of creating a meeting of minds. For the strange thing was that Tonio, who envied Hans Hansen his way of being, kept trying to pull him over to his own, which could only work for moments at most, and even then only on the surface...",
       "explain_en": "“vergebens” / “vergeblich” = in vain. “übrigens” (by the way) is very common in speech. “die Eifersucht” (jealousy) and “die Enttäuschung” (disappointment) are essential words for feelings. “die Pein” is old for “die Qual” (torment). “trachten” is old for “versuchen”. “jemanden um etwas beneiden” = to envy someone something: “Ich beneide dich um deine Ferien.”",
       "words": [
-        {"de": "übrigens", "en": "by the way"},
-        {"de": "schwierig", "en": "difficult"},
-        {"de": "dankbar", "en": "grateful"},
-        {"de": "die Eifersucht", "en": "jealousy"},
-        {"de": "die Enttäuschung, die Enttäuschungen", "en": "disappointment"},
-        {"de": "beneiden", "en": "to envy"},
-        {"de": "gelingen", "en": "to succeed, to work out", "note": "Es ist mir gelungen. = I managed it."}
+        {
+          "de": "übrigens",
+          "en": "by the way"
+        },
+        {
+          "de": "schwierig",
+          "en": "difficult"
+        },
+        {
+          "de": "dankbar",
+          "en": "grateful"
+        },
+        {
+          "de": "die Eifersucht",
+          "en": "jealousy"
+        },
+        {
+          "de": "die Enttäuschung, die Enttäuschungen",
+          "en": "disappointment"
+        },
+        {
+          "de": "beneiden",
+          "en": "to envy"
+        },
+        {
+          "de": "gelingen",
+          "en": "to succeed, to work out",
+          "note": "Es ist mir gelungen. = I managed it."
+        }
       ]
     },
     {
@@ -367,12 +875,33 @@
       "en": "“I've just read something wonderful, something magnificent...” he said. They were walking along, sharing a bag of fruit sweets they had bought for ten pfennigs at Iwersen's little shop in Mühlenstraße. “You have to read it, Hans, it's Schiller's ‘Don Carlos’... I'll lend it to you if you like...”",
       "explain_en": "Tonio tries to share his love of literature; “Don Carlos” is a famous play by Friedrich Schiller (1787). “der Krämer” is old for a small grocer; today “der kleine Laden” or “der Kiosk”. “erstehen” is old for “kaufen”. The Pfennig was 1/100 of a Mark, Germany's money before the euro. “nämlich” here just adds “you see” – very common in speech. “wenn du willst” = if you like.",
       "words": [
-        {"de": "lesen", "en": "to read", "note": "liest, las, hat gelesen"},
-        {"de": "gemeinsam", "en": "together"},
-        {"de": "die Tüte, die Tüten", "en": "(paper or plastic) bag"},
-        {"de": "kaufen", "en": "to buy", "note": "Mann uses old 'erstehen'"},
-        {"de": "leihen", "en": "to lend, to borrow", "note": "Ich leihe dir das Buch. = I'll lend you the book."},
-        {"de": "wenn du willst", "en": "if you like"}
+        {
+          "de": "lesen",
+          "en": "to read",
+          "note": "liest, las, hat gelesen"
+        },
+        {
+          "de": "gemeinsam",
+          "en": "together"
+        },
+        {
+          "de": "die Tüte, die Tüten",
+          "en": "(paper or plastic) bag"
+        },
+        {
+          "de": "kaufen",
+          "en": "to buy",
+          "note": "Mann uses old 'erstehen'"
+        },
+        {
+          "de": "leihen",
+          "en": "to lend, to borrow",
+          "note": "Ich leihe dir das Buch. = I'll lend you the book."
+        },
+        {
+          "de": "wenn du willst",
+          "en": "if you like"
+        }
       ]
     },
     {
@@ -381,12 +910,31 @@
       "en": "“Oh no,” said Hans Hansen, “don't bother, Tonio, that's not for me. I'll stick to my horse books, you know. They've got brilliant pictures in them, I'm telling you. When you come round to mine, I'll show you. They're snapshot photos, and you can see the horses trotting and galloping and jumping, in all the positions you never actually get to see in real life because it happens too fast...”",
       "explain_en": "Hans isn't interested – he prefers horse books with high-speed photos, which were high tech around 1900! “Lass nur!” = Don't bother. “bei etwas bleiben” = to stick with something. “bei mir” = at my place: “Kommst du heute zu mir?” “die Abbildung” = picture, illustration (in a book). “der Gaul” (die Gäule) is a slangy word for a horse; normally “das Pferd”. “zu sehen bekommen” = to get to see.",
       "words": [
-        {"de": "Das ist nichts für mich.", "en": "That's not my thing.", "note": "Hans says 'das passt nicht für mich'"},
-        {"de": "das Pferd, die Pferde", "en": "horse"},
-        {"de": "zeigen", "en": "to show"},
-        {"de": "das Foto, die Fotos", "en": "photo"},
-        {"de": "in Wirklichkeit", "en": "in reality, in real life"},
-        {"de": "schnell", "en": "fast, quick"}
+        {
+          "de": "Das ist nichts für mich.",
+          "en": "That's not my thing.",
+          "note": "Hans says 'das passt nicht für mich'"
+        },
+        {
+          "de": "das Pferd, die Pferde",
+          "en": "horse"
+        },
+        {
+          "de": "zeigen",
+          "en": "to show"
+        },
+        {
+          "de": "das Foto, die Fotos",
+          "en": "photo"
+        },
+        {
+          "de": "in Wirklichkeit",
+          "en": "in reality, in real life"
+        },
+        {
+          "de": "schnell",
+          "en": "fast, quick"
+        }
       ]
     },
     {
@@ -395,13 +943,35 @@
       "en": "“In all positions?” Tonio asked politely. “Yes, that's nice. But as for ‘Don Carlos’, it's beyond anything. There are passages in it, you'll see, that are so beautiful they give you a jolt, it's like a bang...” “A bang?” asked Hans Hansen... “How come?” “For example, there's the part where the king has cried because he's been betrayed by the Marquis... but the Marquis only betrayed him for the prince's sake, you see, because he's sacrificing himself for him. And now the news comes out of the king's private room into the antechamber that the king has cried. ‘Cried?’ ‘The king cried?’",
       "explain_en": "Tonio is only polite about the horse pictures – he's bursting to talk about his book. “Was ... betrifft” = as for ...: “Was mich betrifft, ...” (As for me, ...). “Das geht über alle Begriffe” = it's beyond words (old-fashioned). “jemandem zuliebe” = for someone's sake – still common: “Ich mache das dir zuliebe.” “betrogen ist” is old; today “betrogen worden ist”. “das Kabinett” here means a king's private room, not the government.",
       "words": [
-        {"de": "höflich", "en": "polite"},
-        {"de": "die Stelle, die Stellen", "en": "passage, place, spot"},
-        {"de": "zum Beispiel", "en": "for example"},
-        {"de": "weinen", "en": "to cry"},
-        {"de": "betrügen", "en": "to betray, to cheat", "note": "betrog, hat betrogen"},
-        {"de": "die Nachricht, die Nachrichten", "en": "news, message"},
-        {"de": "jemandem zuliebe", "en": "for someone's sake"}
+        {
+          "de": "höflich",
+          "en": "polite"
+        },
+        {
+          "de": "die Stelle, die Stellen",
+          "en": "passage, place, spot"
+        },
+        {
+          "de": "zum Beispiel",
+          "en": "for example"
+        },
+        {
+          "de": "weinen",
+          "en": "to cry"
+        },
+        {
+          "de": "betrügen",
+          "en": "to betray, to cheat",
+          "note": "betrog, hat betrogen"
+        },
+        {
+          "de": "die Nachricht, die Nachrichten",
+          "en": "news, message"
+        },
+        {
+          "de": "jemandem zuliebe",
+          "en": "for someone's sake"
+        }
       ]
     },
     {
@@ -410,12 +980,32 @@
       "en": "All the courtiers are terribly embarrassed, and it goes right through you, because he's an awfully rigid, strict king. But you understand so well why he cried, and actually I feel sorrier for him than for the prince and the Marquis put together. He's always so completely alone and without love, and now he thinks he's found someone, and that person betrays him...” Hans Hansen looked sideways into Tonio's face, and something in that face must have won him over to the subject, because he suddenly slipped his arm through Tonio's again and asked: “So how does he betray him, Tonio?”",
       "explain_en": "Tonio is really talking about himself: the lonely king who finds a friend and is betrayed. “Jemand tut mir leid” = I feel sorry for someone – a must-know phrase. “Es geht einem durch und durch” = it goes right through you. “betreten” as an adjective means embarrassed or awkward. “denn” in a question (“Wie verrät er ihn denn?”) adds curiosity – Germans use it constantly: “Was ist denn los?”",
       "words": [
-        {"de": "streng", "en": "strict"},
-        {"de": "leidtun", "en": "to feel sorry", "note": "Er tut mir leid. = I feel sorry for him."},
-        {"de": "eigentlich", "en": "actually"},
-        {"de": "verraten", "en": "to betray; to give away (a secret)", "note": "verriet, hat verraten"},
-        {"de": "zusammen", "en": "together"},
-        {"de": "Was ist denn los?", "en": "What's up? What's wrong?"}
+        {
+          "de": "streng",
+          "en": "strict"
+        },
+        {
+          "de": "leidtun",
+          "en": "to feel sorry",
+          "note": "Er tut mir leid. = I feel sorry for him."
+        },
+        {
+          "de": "eigentlich",
+          "en": "actually"
+        },
+        {
+          "de": "verraten",
+          "en": "to betray; to give away (a secret)",
+          "note": "verriet, hat verraten"
+        },
+        {
+          "de": "zusammen",
+          "en": "together"
+        },
+        {
+          "de": "Was ist denn los?",
+          "en": "What's up? What's wrong?"
+        }
       ]
     },
     {
@@ -424,12 +1014,31 @@
       "en": "Tonio got excited. “Well, the thing is,” he began, “that all the letters to Brabant and Flanders...” “Here comes Erwin Jimmerthal,” said Hans. Tonio fell silent. If only the earth would swallow him up, he thought, this Jimmerthal! Why does he have to come and disturb us! If only he doesn't walk with us and talk about riding lessons the whole way... Because Erwin Jimmerthal had riding lessons too. He was the bank director's son and lived out here beyond the town gate. With his bandy legs and slit eyes he came towards them along the avenue, already without his school bag.",
       "explain_en": "Just when Hans is finally interested, a third boy interrupts. “Möchte ihn doch die Erde verschlingen!” is an old way to make a wish; today you'd think “Kann der nicht einfach verschwinden?”. “stören” (to disturb) is very common: “Störe ich?” (Am I interrupting?). “ebenfalls” = also, too. Warning: “Schlitzaugen” was used casually back then, but today it is a racist insult – never use it.",
       "words": [
-        {"de": "anfangen", "en": "to begin, to start", "note": "fing an, hat angefangen"},
-        {"de": "der Brief, die Briefe", "en": "letter"},
-        {"de": "stören", "en": "to disturb, to interrupt"},
-        {"de": "ebenfalls", "en": "also, likewise"},
-        {"de": "wohnen", "en": "to live (somewhere)"},
-        {"de": "die Bank, die Banken", "en": "bank"}
+        {
+          "de": "anfangen",
+          "en": "to begin, to start",
+          "note": "fing an, hat angefangen"
+        },
+        {
+          "de": "der Brief, die Briefe",
+          "en": "letter"
+        },
+        {
+          "de": "stören",
+          "en": "to disturb, to interrupt"
+        },
+        {
+          "de": "ebenfalls",
+          "en": "also, likewise"
+        },
+        {
+          "de": "wohnen",
+          "en": "to live (somewhere)"
+        },
+        {
+          "de": "die Bank, die Banken",
+          "en": "bank"
+        }
       ]
     },
     {
@@ -438,12 +1047,30 @@
       "en": "“Hi, Jimmerthal,” said Hans. “I'm walking a bit with Kröger...” “I have to go into town,” said Jimmerthal, “and get something. But I'll walk part of the way with you... Those are fruit sweets you've got there, I suppose? Yes, thanks, I'll have a few. We've got our lesson again tomorrow, Hans.” He meant the riding lesson. “Great!” said Hans. “I'm getting the leather gaiters now, you know, because I got top marks in my written exercise the other day...” “I suppose you don't have riding lessons, Kröger?” asked Jimmerthal, and his eyes were just a pair of shiny slits... “No,” Tonio answered, sounding very unsure.",
       "explain_en": "Watch how Hans says “Kröger” as soon as someone else is there. “Tag!” is short for “Guten Tag” – still common and casual. “etwas besorgen” = to get/buy something: “Ich muss noch Milch besorgen.” “wohl” here means “I suppose, probably”. In German schools “eine Eins” (a 1) is the best mark. “neulich” = recently, the other day. “das Exerzitium” is old for a written school exercise – today “die Klassenarbeit” or “der Test”.",
       "words": [
-        {"de": "besorgen", "en": "to get, to buy"},
-        {"de": "ein Stück", "en": "part of the way; a piece"},
-        {"de": "morgen", "en": "tomorrow"},
-        {"de": "die Eins", "en": "a 1 (the best German school mark)"},
-        {"de": "neulich", "en": "recently, the other day"},
-        {"de": "antworten", "en": "to answer"}
+        {
+          "de": "besorgen",
+          "en": "to get, to buy"
+        },
+        {
+          "de": "ein Stück",
+          "en": "part of the way; a piece"
+        },
+        {
+          "de": "morgen",
+          "en": "tomorrow"
+        },
+        {
+          "de": "die Eins",
+          "en": "a 1 (the best German school mark)"
+        },
+        {
+          "de": "neulich",
+          "en": "recently, the other day"
+        },
+        {
+          "de": "antworten",
+          "en": "to answer"
+        }
       ]
     },
     {
@@ -452,12 +1079,31 @@
       "en": "“You should ask your father,” Hans Hansen remarked, “if you can have lessons too, Kröger.” “Yes...” said Tonio, both hastily and indifferently. For a moment his throat tightened, because Hans had called him by his surname; and Hans seemed to sense this, because he explained: “I call you Kröger because your first name is so crazy, you know – sorry, but I can't stand it, Tonio... It's not even a proper name. Anyway, it's not your fault, of course not!”",
       "explain_en": "A painful moment: Hans's excuse makes it even worse. “jemanden bitten” = to ask someone for something – don't mix it up with “fragen” (to ask a question). “verrückt” (crazy) is everyday German. “jemanden/etwas nicht leiden können” = to be unable to stand someone – today with “können”, not “mögen”: “Ich kann ihn nicht leiden.” “Du kannst nichts dafür” = it's not your fault – very common. “Entschuldige!” = Sorry!",
       "words": [
-        {"de": "bitten", "en": "to ask (for), to request", "note": "bat, hat gebeten"},
-        {"de": "der Nachname, die Nachnamen", "en": "surname"},
-        {"de": "verrückt", "en": "crazy"},
-        {"de": "Entschuldige!", "en": "Sorry!"},
-        {"de": "nicht leiden können", "en": "to not be able to stand"},
-        {"de": "Du kannst nichts dafür.", "en": "It's not your fault."}
+        {
+          "de": "bitten",
+          "en": "to ask (for), to request",
+          "note": "bat, hat gebeten"
+        },
+        {
+          "de": "der Nachname, die Nachnamen",
+          "en": "surname"
+        },
+        {
+          "de": "verrückt",
+          "en": "crazy"
+        },
+        {
+          "de": "Entschuldige!",
+          "en": "Sorry!"
+        },
+        {
+          "de": "nicht leiden können",
+          "en": "to not be able to stand"
+        },
+        {
+          "de": "Du kannst nichts dafür.",
+          "en": "It's not your fault."
+        }
       ]
     },
     {
@@ -466,13 +1112,35 @@
       "en": "“No, I suppose you're called that mainly because it sounds so foreign and is something special...” said Jimmerthal, pretending he wanted to smooth things over. Tonio's mouth twitched. He pulled himself together and said: “Yes, it's a silly name – God knows I'd rather be called Heinrich or Wilhelm, you can believe me. But it's because one of my mother's brothers, who I was named after, is called Antonio; my mother's from over there, after all...”",
       "explain_en": "Tonio pretends to agree so that he fits in. “tun, als ob” = to act as if: “Er tut, als ob er schläft.” “sich zusammennehmen” = to pull yourself together. “albern” = silly – still used. “lieber” = rather: “Ich möchte lieber Pizza.” “Es kommt daher, dass ...” = it's because ... “getauft werden” = to be baptised.",
       "words": [
-        {"de": "ausländisch", "en": "foreign"},
-        {"de": "klingen", "en": "to sound", "note": "klang, hat geklungen"},
-        {"de": "tun, als ob", "en": "to act as if, to pretend"},
-        {"de": "albern", "en": "silly"},
-        {"de": "lieber", "en": "rather, preferably"},
-        {"de": "der Bruder, die Brüder", "en": "brother"},
-        {"de": "sich zusammennehmen", "en": "to pull oneself together"}
+        {
+          "de": "ausländisch",
+          "en": "foreign"
+        },
+        {
+          "de": "klingen",
+          "en": "to sound",
+          "note": "klang, hat geklungen"
+        },
+        {
+          "de": "tun, als ob",
+          "en": "to act as if, to pretend"
+        },
+        {
+          "de": "albern",
+          "en": "silly"
+        },
+        {
+          "de": "lieber",
+          "en": "rather, preferably"
+        },
+        {
+          "de": "der Bruder, die Brüder",
+          "en": "brother"
+        },
+        {
+          "de": "sich zusammennehmen",
+          "en": "to pull oneself together"
+        }
       ]
     },
     {
@@ -481,12 +1149,31 @@
       "en": "Then he fell silent and let the other two talk about horses and leather gear. Hans had linked arms with Jimmerthal and was talking with an easy enthusiasm that could never have been awakened in him for ‘Don Carlos’... Every now and then Tonio felt the urge to cry rising, tingling, into his nose; he also struggled to keep control of his chin, which kept starting to tremble...",
       "explain_en": "Now Hans has linked arms with Jimmerthal instead – ouch. “schweigen” (schwieg, geschwiegen) = to be silent. “jemanden unterfassen/unterhaken” = to link arms with someone. “zu erwecken gewesen wäre” is a complicated past subjunctive: “could never have been awakened”. “von Zeit zu Zeit” = from time to time. “Mühe haben, etwas zu tun” = to struggle to do something. “zittern” = to tremble or shiver: “Ich zittere vor Kälte.”",
       "words": [
-        {"de": "schweigen", "en": "to be silent", "note": "schwieg, hat geschwiegen"},
-        {"de": "von Zeit zu Zeit", "en": "from time to time"},
-        {"de": "die Nase, die Nasen", "en": "nose"},
-        {"de": "Mühe haben", "en": "to struggle, to have trouble"},
-        {"de": "das Kinn", "en": "chin"},
-        {"de": "zittern", "en": "to tremble, to shake"}
+        {
+          "de": "schweigen",
+          "en": "to be silent",
+          "note": "schwieg, hat geschwiegen"
+        },
+        {
+          "de": "von Zeit zu Zeit",
+          "en": "from time to time"
+        },
+        {
+          "de": "die Nase, die Nasen",
+          "en": "nose"
+        },
+        {
+          "de": "Mühe haben",
+          "en": "to struggle, to have trouble"
+        },
+        {
+          "de": "das Kinn",
+          "en": "chin"
+        },
+        {
+          "de": "zittern",
+          "en": "to tremble, to shake"
+        }
       ]
     },
     {
@@ -495,12 +1182,32 @@
       "en": "Hans couldn't stand his name – what could be done about it? He himself was called Hans, and Jimmerthal was called Erwin; fine, those were names everyone accepted, names nobody found strange. But ‘Tonio’ was something foreign and special. Yes, there was something special about him in every way, whether he liked it or not, and he was alone and shut out from the orderly, ordinary people, even though he was no gypsy in a green caravan but a son of Consul Kröger, from the Kröger family...",
       "explain_en": "We're inside Tonio's head again (this technique is called free indirect speech). “Was war dabei zu tun?” = what could be done about it? – “sein + zu + infinitive” means “can/must be done”: “Das ist nicht zu ändern.” (That can't be changed.) “ob er wollte oder nicht” = whether he liked it or not. “ausgeschlossen” = excluded, left out – it can also mean “impossible”: “Das ist ausgeschlossen!” Again “Zigeuner” – an offensive word today (see unit 16).",
       "words": [
-        {"de": "der Name, die Namen", "en": "name", "note": "genitive: des Namens"},
-        {"de": "heißen", "en": "to be called", "note": "hieß, hat geheißen"},
-        {"de": "etwas Besonderes", "en": "something special"},
-        {"de": "ob ... oder nicht", "en": "whether ... or not"},
-        {"de": "ausgeschlossen", "en": "excluded; out of the question"},
-        {"de": "gewöhnlich", "en": "ordinary, usual"}
+        {
+          "de": "der Name, die Namen",
+          "en": "name",
+          "note": "genitive: des Namens"
+        },
+        {
+          "de": "heißen",
+          "en": "to be called",
+          "note": "hieß, hat geheißen"
+        },
+        {
+          "de": "etwas Besonderes",
+          "en": "something special"
+        },
+        {
+          "de": "ob ... oder nicht",
+          "en": "whether ... or not"
+        },
+        {
+          "de": "ausgeschlossen",
+          "en": "excluded; out of the question"
+        },
+        {
+          "de": "gewöhnlich",
+          "en": "ordinary, usual"
+        }
       ]
     },
     {
@@ -509,12 +1216,32 @@
       "en": "But why did Hans call him Tonio as long as they were alone, if he started to be ashamed of him whenever a third person came along? Sometimes he was close to him and won over, yes. So how does he betray him, Tonio? he had asked, and taken his arm. But then, when Jimmerthal had come, he had still breathed a sigh of relief, had dropped him and, for no reason, held his foreign first name against him. How much it hurt to have to see through all this!...",
       "explain_en": "“kam ein Dritter hinzu” is an if-clause without “wenn”: the verb comes first = “if a third person came along”. “sich schämen” (to be ashamed) + genitive “seiner” is old; today “sich für ihn schämen”. “erleichtert” = relieved: “Ich bin so erleichtert!” “jemandem etwas vorwerfen” = to hold something against someone, to accuse. “Es tut weh” = it hurts – the everyday phrase for pain, physical or emotional.",
       "words": [
-        {"de": "sich schämen (für)", "en": "to be ashamed (of), to be embarrassed (by)"},
-        {"de": "solange", "en": "as long as"},
-        {"de": "erleichtert", "en": "relieved"},
-        {"de": "verlassen", "en": "to leave, to abandon", "note": "verließ, hat verlassen"},
-        {"de": "vorwerfen", "en": "to accuse, to hold against"},
-        {"de": "wehtun", "en": "to hurt", "note": "Es tut weh. = It hurts."}
+        {
+          "de": "sich schämen (für)",
+          "en": "to be ashamed (of), to be embarrassed (by)"
+        },
+        {
+          "de": "solange",
+          "en": "as long as"
+        },
+        {
+          "de": "erleichtert",
+          "en": "relieved"
+        },
+        {
+          "de": "verlassen",
+          "en": "to leave, to abandon",
+          "note": "verließ, hat verlassen"
+        },
+        {
+          "de": "vorwerfen",
+          "en": "to accuse, to hold against"
+        },
+        {
+          "de": "wehtun",
+          "en": "to hurt",
+          "note": "Es tut weh. = It hurts."
+        }
       ]
     },
     {
@@ -523,12 +1250,32 @@
       "en": "Deep down Hans Hansen liked him a little when they were on their own, he knew that. But if a third person came, he was ashamed of it and sacrificed him. And he was alone again. He thought of King Philip. The king has cried... “Oh my God,” said Erwin Jimmerthal, “now I really do have to go into town! Bye, you two, and thanks for the fruit sweets!” With that he jumped onto a bench by the path, ran along it on his bandy legs and trotted off.",
       "explain_en": "Tonio compares himself to King Philip from “Don Carlos”, who cried when his friend betrayed him. “jemanden gern haben” = to like someone – still normal: “Ich hab dich gern.” “unter sich sein” = to be on their own, just the two of them. “Gott bewahre!” is old; today “Oh Gott!” or “Mist!” would fit here. Today you'd say “Danke für ...!” (Jimmerthal says “Dank für”).",
       "words": [
-        {"de": "jemanden gern haben", "en": "to like someone"},
-        {"de": "wieder", "en": "again"},
-        {"de": "springen", "en": "to jump", "note": "sprang, ist gesprungen"},
-        {"de": "die Bank, die Bänke", "en": "bench", "note": "bank = die Bank, die Banken"},
-        {"de": "entlanglaufen", "en": "to run along"},
-        {"de": "Danke für ...!", "en": "Thanks for ...!"}
+        {
+          "de": "jemanden gern haben",
+          "en": "to like someone"
+        },
+        {
+          "de": "wieder",
+          "en": "again"
+        },
+        {
+          "de": "springen",
+          "en": "to jump",
+          "note": "sprang, ist gesprungen"
+        },
+        {
+          "de": "die Bank, die Bänke",
+          "en": "bench",
+          "note": "bank = die Bank, die Banken"
+        },
+        {
+          "de": "entlanglaufen",
+          "en": "to run along"
+        },
+        {
+          "de": "Danke für ...!",
+          "en": "Thanks for ...!"
+        }
       ]
     },
     {
@@ -537,12 +1284,31 @@
       "en": "“I like Jimmerthal!” Hans said firmly. He had a spoilt, self-confident way of announcing his likes and dislikes, of handing them out, so to speak, like royal favours... And then he carried on talking about the riding lesson, since he'd got going. And it wasn't very far now to the Hansens' house; the way over the ramparts didn't take that long.",
       "explain_en": "“mit Nachdruck” = firmly, emphatically. “verwöhnt” = spoilt – a useful word: “ein verwöhntes Kind”. “selbstbewusst” = self-confident (a positive word – NOT “self-conscious”!). “kundgeben” is formal/old for “zeigen” or “sagen”. “fortfahren, etwas zu tun” = to carry on doing something. “im Zuge sein” is old; today “in Fahrt sein”. “Zeit in Anspruch nehmen” = to take time.",
       "words": [
-        {"de": "verwöhnt", "en": "spoilt"},
-        {"de": "selbstbewusst", "en": "self-confident", "note": "false friend: not 'self-conscious'"},
-        {"de": "die Abneigung, die Abneigungen", "en": "dislike"},
-        {"de": "fortfahren", "en": "to carry on, to continue"},
-        {"de": "weit", "en": "far"},
-        {"de": "der Weg, die Wege", "en": "way, path"}
+        {
+          "de": "verwöhnt",
+          "en": "spoilt"
+        },
+        {
+          "de": "selbstbewusst",
+          "en": "self-confident",
+          "note": "false friend: not 'self-conscious'"
+        },
+        {
+          "de": "die Abneigung, die Abneigungen",
+          "en": "dislike"
+        },
+        {
+          "de": "fortfahren",
+          "en": "to carry on, to continue"
+        },
+        {
+          "de": "weit",
+          "en": "far"
+        },
+        {
+          "de": "der Weg, die Wege",
+          "en": "way, path"
+        }
       ]
     },
     {
@@ -551,12 +1317,30 @@
       "en": "They held on to their caps and bowed their heads against the strong, damp wind that creaked and groaned in the bare branches of the trees. And Hans Hansen talked, while Tonio only now and then put in a forced “oh” or “yeah, yeah”, taking no pleasure in the fact that Hans, carried away by his talking, had taken his arm again, because that was only a closeness that seemed real, and it meant nothing.",
       "explain_en": "“festhalten” = to hold on to: “Halt dich fest!” (Hold on tight!). “kahl” = bare (trees) or bald (people). “dann und wann” = now and then (a bit old; today “ab und zu”). A German “Jaja” often sounds bored or unconvinced – just like “yeah, yeah”. “scheinbar” = only seeming, apparent – it looks like closeness, but it isn't. “die Bedeutung” = meaning.",
       "words": [
-        {"de": "festhalten", "en": "to hold on to"},
-        {"de": "der Wind, die Winde", "en": "wind"},
-        {"de": "feucht", "en": "damp"},
-        {"de": "kahl", "en": "bare; bald"},
-        {"de": "künstlich", "en": "artificial, fake"},
-        {"de": "die Bedeutung, die Bedeutungen", "en": "meaning"}
+        {
+          "de": "festhalten",
+          "en": "to hold on to"
+        },
+        {
+          "de": "der Wind, die Winde",
+          "en": "wind"
+        },
+        {
+          "de": "feucht",
+          "en": "damp"
+        },
+        {
+          "de": "kahl",
+          "en": "bare; bald"
+        },
+        {
+          "de": "künstlich",
+          "en": "artificial, fake"
+        },
+        {
+          "de": "die Bedeutung, die Bedeutungen",
+          "en": "meaning"
+        }
       ]
     },
     {
@@ -565,12 +1349,30 @@
       "en": "Then they left the rampart gardens not far from the station, watched a train puff past in clumsy haste, counted the carriages to pass the time and waved to the man who sat, bundled up in his fur, right on top of the very last one. And on Lindenplatz, in front of wholesale merchant Hansen's villa, they stopped, and Hans demonstrated in detail how much fun it was to stand on the bottom of the garden gate and swing back and forth on its hinges so that it really squealed. But after that he said goodbye.",
       "explain_en": "A small everyday moment: two boys counting train carriages and swinging on a gate. “unfern” is old for “nicht weit von” or “in der Nähe von”. “der Bahnhof” (station) and “der Zug” (train) are essential words. “zum Zeitvertreib” = to pass the time. “jemandem zuwinken” = to wave to someone. “stehen bleiben” = to stop (walking). “sich verabschieden” = to say goodbye.",
       "words": [
-        {"de": "der Bahnhof, die Bahnhöfe", "en": "(train) station"},
-        {"de": "der Zug, die Züge", "en": "train"},
-        {"de": "zählen", "en": "to count"},
-        {"de": "winken", "en": "to wave"},
-        {"de": "stehen bleiben", "en": "to stop (walking)"},
-        {"de": "sich verabschieden", "en": "to say goodbye"}
+        {
+          "de": "der Bahnhof, die Bahnhöfe",
+          "en": "(train) station"
+        },
+        {
+          "de": "der Zug, die Züge",
+          "en": "train"
+        },
+        {
+          "de": "zählen",
+          "en": "to count"
+        },
+        {
+          "de": "winken",
+          "en": "to wave"
+        },
+        {
+          "de": "stehen bleiben",
+          "en": "to stop (walking)"
+        },
+        {
+          "de": "sich verabschieden",
+          "en": "to say goodbye"
+        }
       ]
     },
     {
@@ -579,13 +1381,37 @@
       "en": "“Right, I've got to go in now,” he said. “Bye, Tonio. Next time I'll walk you home, I promise.” “Bye, Hans,” said Tonio, “it was nice going for a walk.” Their hands, as they shook, were all wet and rusty from the garden gate. But when Hans looked into Tonio's eyes, something like a guilty second thought appeared on his handsome face. “By the way, I'm going to read ‘Don Carlos’ soon!” he said quickly. “That bit with the king in his room must be brilliant!” Then he tucked his bag under his arm and ran through the front garden. Before he disappeared into the house, he nodded back once more.",
       "explain_en": "Hans feels guilty and makes a quick promise. “Sei sicher!” is old-fashioned here; today “Versprochen!” (Promise!). “Es war nett” = it was nice – very common. “Das mit dem König” = that thing with the king – “das mit ...” is super common in speech: “Das mit gestern tut mir leid.” “nächstens” is old; today “demnächst” or “bald”. “verschwinden” (verschwand, ist verschwunden) = to disappear.",
       "words": [
-        {"de": "reingehen", "en": "to go in", "note": "Hans says 'hinein' (muss ich hinein); in speech: Ich muss rein."},
-        {"de": "nett", "en": "nice"},
-        {"de": "die Hand, die Hände", "en": "hand"},
-        {"de": "bald", "en": "soon", "note": "Hans says 'nächstens'"},
-        {"de": "verschwinden", "en": "to disappear", "note": "verschwand, ist verschwunden"},
-        {"de": "nicken", "en": "to nod"},
-        {"de": "Versprochen!", "en": "Promise!"}
+        {
+          "de": "reingehen",
+          "en": "to go in",
+          "note": "Hans says 'hinein' (muss ich hinein); in speech: Ich muss rein."
+        },
+        {
+          "de": "nett",
+          "en": "nice"
+        },
+        {
+          "de": "die Hand, die Hände",
+          "en": "hand"
+        },
+        {
+          "de": "bald",
+          "en": "soon",
+          "note": "Hans says 'nächstens'"
+        },
+        {
+          "de": "verschwinden",
+          "en": "to disappear",
+          "note": "verschwand, ist verschwunden"
+        },
+        {
+          "de": "nicken",
+          "en": "to nod"
+        },
+        {
+          "de": "Versprochen!",
+          "en": "Promise!"
+        }
       ]
     },
     {
@@ -594,12 +1420,30 @@
       "en": "And Tonio Kröger walked away completely radiant and light-hearted. The wind was pushing him from behind, but that wasn't the only reason he moved along so easily. Hans would read ‘Don Carlos’, and then they would have something together that neither Jimmerthal nor anyone else could join in on! How well they understood each other! Who knew – perhaps he might even get him to write poems too?... No, no, he didn't want that! Hans shouldn't become like Tonio, but stay as he was, so bright and strong, the way everyone loved him, and Tonio most of all!",
       "explain_en": "One small promise and Tonio is happy again. “von dannen gehen” is very old; today “weggehen” or “losgehen”. “würde ... lesen” = would read (the future, seen from the past). “weder ... noch” = neither ... nor. “mitreden” = to join in a conversation and have a say. “einander” = each other; in speech people usually say “sich”: “Sie verstanden sich gut.” “jemanden dazu bringen, etwas zu tun” = to get someone to do something.",
       "words": [
-        {"de": "leicht", "en": "light; easy"},
-        {"de": "weder ... noch", "en": "neither ... nor"},
-        {"de": "mitreden", "en": "to join in, to have a say"},
-        {"de": "sich gut verstehen", "en": "to get on well"},
-        {"de": "jemanden dazu bringen", "en": "to get someone to do something"},
-        {"de": "stark", "en": "strong"}
+        {
+          "de": "leicht",
+          "en": "light; easy"
+        },
+        {
+          "de": "weder ... noch",
+          "en": "neither ... nor"
+        },
+        {
+          "de": "mitreden",
+          "en": "to join in, to have a say"
+        },
+        {
+          "de": "sich gut verstehen",
+          "en": "to get on well"
+        },
+        {
+          "de": "jemanden dazu bringen",
+          "en": "to get someone to do something"
+        },
+        {
+          "de": "stark",
+          "en": "strong"
+        }
       ]
     },
     {
@@ -608,13 +1452,1436 @@
       "en": "But it still wouldn't hurt if he read ‘Don Carlos’... And Tonio walked through the old, squat town gate, along the harbour and up the steep, draughty, wet lane of gabled houses to his parents' house. Back then his heart was alive; there was longing in it, and gloomy envy, and just a little contempt, and a whole, innocent bliss.",
       "explain_en": "The last sentence of the chapter is famous. “Damals” = back then – it tells us the narrator is looking back, and hints that later Tonio's heart will not be so alive. “Es schadet nicht” = it doesn't hurt: “Ein bisschen Sport schadet nicht.” “entlanggehen” = to walk along. “die Eltern” (parents) is always plural. “keusch” (chaste, pure) and “die Seligkeit” (bliss) are old, poetic words; today you might say “reines Glück”.",
       "words": [
-        {"de": "schaden", "en": "to harm, to hurt"},
-        {"de": "der Hafen, die Häfen", "en": "harbour, port"},
-        {"de": "steil", "en": "steep"},
-        {"de": "die Eltern", "en": "parents", "note": "always plural"},
-        {"de": "damals", "en": "back then, at that time"},
-        {"de": "das Herz, die Herzen", "en": "heart"},
-        {"de": "der Neid", "en": "envy"}
+        {
+          "de": "schaden",
+          "en": "to harm, to hurt"
+        },
+        {
+          "de": "der Hafen, die Häfen",
+          "en": "harbour, port"
+        },
+        {
+          "de": "steil",
+          "en": "steep"
+        },
+        {
+          "de": "die Eltern",
+          "en": "parents",
+          "note": "always plural"
+        },
+        {
+          "de": "damals",
+          "en": "back then, at that time"
+        },
+        {
+          "de": "das Herz, die Herzen",
+          "en": "heart"
+        },
+        {
+          "de": "der Neid",
+          "en": "envy"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "de": "Die blonde Inge, Ingeborg Holm, Doktor Holms Tochter, der am Markte wohnte, dort, wo hoch, spitzig und vielfach der gotische Brunnen stand, sie war's, die Tonio Kröger liebte, als er sechzehn Jahre alt war. Wie geschah das?",
+      "en": "Blonde Inge, Ingeborg Holm, the daughter of Doctor Holm, who lived on the market square, where the tall, pointed, many-spired Gothic fountain stood – she was the one Tonio Kröger loved when he was sixteen. How did it happen?",
+      "explain_en": "CHAPTER II starts here: Tonio is now sixteen. The sentence piles up description before the main point: “sie war's, die Tonio Kröger liebte” = she was the one (whom) Tonio Kröger loved. “war's” = “war es”. “am Markte” has the old dative -e; today “am Markt”. “Wie geschah das?” – “geschehen” (to happen) is formal; in everyday German you'd ask “Wie ist das passiert?”",
+      "words": [
+        {
+          "de": "blond",
+          "en": "blond, blonde"
+        },
+        {
+          "de": "die Tochter, die Töchter",
+          "en": "daughter"
+        },
+        {
+          "de": "der Markt, die Märkte",
+          "en": "market; market square"
+        },
+        {
+          "de": "der Brunnen, die Brunnen",
+          "en": "fountain; well"
+        },
+        {
+          "de": "lieben",
+          "en": "to love"
+        },
+        {
+          "de": "geschehen",
+          "en": "to happen",
+          "note": "geschah, ist geschehen; everyday: passieren"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "type": "summary",
+      "covers": "Chapter II",
+      "en": "One evening at dance class, Tonio suddenly sees Inge in a new light: the way she laughs and tosses her head, the warm ring in her voice. He can't sleep and knows this is love – painful, but it makes him feel rich and alive. The dance lessons, for children of the town's best families, are run by François Knaak, a ballet master from Hamburg who is so perfectly sure of himself that Tonio thinks him a ridiculous ape – yet Inge watches him with a smile. Magdalena Vermehren, a serious girl who keeps falling over when she dances, likes Tonio and wants to read his poems, but he only has eyes for Inge. In a quadrille (a square dance for four couples) he ends up in Inge's group and, lost in dreams, joins in the ladies' figure, the ‘moulinet des dames’."
+    },
+    {
+      "n": 45,
+      "de": "Ringsum entstand ein Kichern und Lachen. Herr Knaak fiel in eine Ballettpose, welche ein stilisiertes Entsetzen ausdrückte. »O weh!« rief er. »Halt, halt! Kröger ist unter die Damen geraten! En arrière, Fräulein Kröger, zurück, fi donc! Alle haben es nun verstanden, nur Sie nicht. Husch! Fort! Zurück mit Ihnen!« Und er zog ein gelbseidenes Taschentuch und scheuchte Tonio Kröger damit an seinen Platz zurück.",
+      "en": "All around there was giggling and laughter. Herr Knaak struck a ballet pose that expressed stylised horror. ‘Oh dear!’ he cried. ‘Stop, stop! Kröger has got mixed up with the ladies! En arrière, Fräulein Kröger, back you go, fi donc! Everyone has understood it now except you. Shoo! Off! Back with you!’ And he pulled out a yellow silk handkerchief and shooed Tonio Kröger back to his place with it.",
+      "explain_en": "The humiliating moment: Knaak calls him “Fräulein Kröger” (Miss Kröger) because he danced the girls' part, and the whole class laughs. French phrases were fashionable in dance lessons: “en arrière” = backwards, “fi donc!” = shame on you! “geraten” means to end up somewhere by accident: “in einen Stau geraten” = to get stuck in a traffic jam. “Husch!” = shoo! “scheuchen” = to shoo away.",
+      "words": [
+        {
+          "de": "das Kichern",
+          "en": "giggling",
+          "note": "kichern = to giggle"
+        },
+        {
+          "de": "das Entsetzen",
+          "en": "horror"
+        },
+        {
+          "de": "geraten",
+          "en": "to end up, to get into",
+          "note": "geriet, ist geraten"
+        },
+        {
+          "de": "zurück",
+          "en": "back"
+        },
+        {
+          "de": "das Taschentuch, die Taschentücher",
+          "en": "handkerchief"
+        },
+        {
+          "de": "der Platz, die Plätze",
+          "en": "place, seat"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "type": "summary",
+      "covers": "Chapter II",
+      "en": "Everyone laughs – the boys, the girls and the mothers watching from the next room. In the break Tonio slips out into the corridor and stands in front of a window with the blind pulled down, pretending to look out. Why is he here, instead of at home reading Theodor Storm's ‘Immensee’ by the window, with the old walnut tree outside? But no – his place is here, near Inge. She ought to notice he's gone, follow him, put her hand on his shoulder and say: ‘Come in and join us, be happy, I love you.’ But she doesn't come. Things like that don't happen. Did she laugh at him too? Yes, she did. One day he will be a famous writer – but that would never impress Inge, only Magdalena, who always falls over."
+    },
+    {
+      "n": 47,
+      "de": "Tonio Krögers Herz zog sich schmerzlich zusammen bei diesem Gedanken. Zu fühlen, wie wunderbare spielende und schwermütige Kräfte sich in dir regen, und dabei zu wissen, dass diejenigen, zu denen du dich hinübersehnst, ihnen in heiterer Unzugänglichkeit gegenüberstehen, das tut sehr weh. Aber obgleich er einsam, ausgeschlossen und ohne Hoffnung vor einer geschlossenen Jalousie stand und in seinem Kummer tat, als könne er hindurchblicken, so war er dennoch glücklich. Denn damals lebte sein Herz. Warm und traurig schlug es für dich, Ingeborg Holm, und seine Seele umfasste deine blonde, lichte und übermütig gewöhnliche kleine Persönlichkeit in seliger Selbstverleugnung.",
+      "en": "Tonio Kröger's heart contracted painfully at this thought. To feel wonderful powers, playful and melancholy, stirring inside you, and at the same time to know that the people you long for face them in cheerful unreachability – that hurts very much. But although he stood lonely, shut out and without hope in front of a closed blind, pretending in his misery that he could see through it, he was happy all the same. For in those days his heart was alive. Warm and sad, it beat for you, Ingeborg Holm, and his soul embraced your blond, bright and cheerfully ordinary little personality in blissful self-denial.",
+      "explain_en": "Suddenly the narrator speaks to Inge directly (“für dich, Ingeborg Holm”), like in a love poem. “Zu fühlen ... und dabei zu wissen ..., das tut sehr weh” – the infinitive phrases are the subject: “To feel ... and to know ... – that hurts.” “sich hinübersehnen zu” = to long for (normally “sich sehnen nach”). “als könne er hindurchblicken” = as if he could see through it (Konjunktiv I after “als”). “Denn damals lebte sein Herz” repeats the last line of Chapter I – watch out for it again later.",
+      "words": [
+        {
+          "de": "wehtun",
+          "en": "to hurt",
+          "note": "Das tut sehr weh."
+        },
+        {
+          "de": "einsam",
+          "en": "lonely"
+        },
+        {
+          "de": "ausgeschlossen",
+          "en": "shut out, excluded"
+        },
+        {
+          "de": "die Hoffnung, die Hoffnungen",
+          "en": "hope"
+        },
+        {
+          "de": "glücklich",
+          "en": "happy"
+        },
+        {
+          "de": "die Seele, die Seelen",
+          "en": "soul"
+        },
+        {
+          "de": "gewöhnlich",
+          "en": "ordinary, usual"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "de": "Mehr als einmal stand er mit erhitztem Angesicht an einsamen Stellen, wohin Musik, Blumenduft und Gläsergeklirr nur leise drangen, und suchte in dem fernen Festgeräusch deine klingende Stimme zu unterscheiden, stand in Schmerzen um dich und war dennoch glücklich. Mehr als einmal kränkte es ihn, dass er mit Magdalena Vermehren, die immer hinfiel, sprechen konnte, dass sie ihn verstand und mit ihm lachte und ernst war, während die blonde Inge, saß er auch neben ihr, ihm fern und fremd und befremdet erschien, denn seine Sprache war nicht ihre Sprache; und dennoch war er glücklich.",
+      "en": "More than once he stood with a flushed face in lonely corners, where music, the scent of flowers and the clinking of glasses reached him only faintly, and tried to make out your ringing voice in the distant noise of the party; he stood there aching for you and was happy all the same. More than once it hurt him that he could talk to Magdalena Vermehren, who always fell over, that she understood him and laughed with him and was serious with him, while blonde Inge, even when he sat next to her, seemed distant and strange and puzzled by him, because his language was not her language; and yet he was happy.",
+      "explain_en": "“Mehr als einmal” = more than once. “das Angesicht” is a poetic word for “das Gesicht”. “unterscheiden” = to tell apart, to make out. “kränken” = to hurt someone's feelings: “Das hat mich gekränkt.” “saß er auch neben ihr” = even when he sat next to her – a literary way of saying “auch wenn er neben ihr saß”. “seine Sprache war nicht ihre Sprache” doesn't mean a foreign language: they simply live in different worlds. This sentence comes back near the end of the book.",
+      "words": [
+        {
+          "de": "die Stimme, die Stimmen",
+          "en": "voice"
+        },
+        {
+          "de": "unterscheiden",
+          "en": "to tell apart, to make out"
+        },
+        {
+          "de": "kränken",
+          "en": "to hurt (someone's feelings)"
+        },
+        {
+          "de": "verstehen",
+          "en": "to understand"
+        },
+        {
+          "de": "fremd",
+          "en": "strange, foreign"
+        },
+        {
+          "de": "die Sprache, die Sprachen",
+          "en": "language"
+        },
+        {
+          "de": "dennoch",
+          "en": "nevertheless, all the same"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "de": "Denn das Glück, sagte er sich, ist nicht, geliebt zu werden; das ist eine mit Ekel gemischte Genugtuung für die Eitelkeit. Das Glück ist, zu lieben und vielleicht kleine, trügerische Annäherungen an den geliebten Gegenstand zu erhaschen. Und er schrieb diesen Gedanken innerlich auf, dachte ihn völlig aus und empfand ihn bis auf den Grund.",
+      "en": "For happiness, he told himself, is not being loved; that is a satisfaction for your vanity, mixed with disgust. Happiness is loving, and perhaps catching little, deceptive moments of closeness to the one you love. And he wrote this thought down inside himself, thought it through completely and felt it to the very bottom.",
+      "explain_en": "One of the most famous ideas in the story: “Das Glück ist, zu lieben” – happiness means loving, not being loved. “das Glück” means both happiness and luck (“Viel Glück!” = good luck). “geliebt werden” is the passive: to be loved. “die Eitelkeit” = vanity (“eitel” = vain). “erhaschen” is old-fashioned for “erwischen” (to catch). Tonio is already a writer: he even “writes down” his feelings in his head.",
+      "words": [
+        {
+          "de": "das Glück",
+          "en": "happiness; luck"
+        },
+        {
+          "de": "geliebt werden",
+          "en": "to be loved"
+        },
+        {
+          "de": "die Eitelkeit",
+          "en": "vanity"
+        },
+        {
+          "de": "der Ekel",
+          "en": "disgust"
+        },
+        {
+          "de": "der Gedanke, die Gedanken",
+          "en": "thought"
+        },
+        {
+          "de": "erwischen",
+          "en": "to catch",
+          "note": "Mann uses old 'erhaschen'"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "de": "Treue! dachte Tonio Kröger. Ich will treu sein und dich lieben, Ingeborg, solange ich lebe! So wohlmeinend war er. Und dennoch flüsterte in ihm eine leise Furcht und Trauer, dass er ja auch Hans Hansen ganz und gar vergessen habe, obgleich er ihn täglich sah. Und es war das Hässliche und Erbärmliche, dass diese leise und ein wenig hämische Stimme recht behielt, dass die Zeit verging und Tage kamen, da Tonio Kröger nicht mehr so unbedingt wie ehemals für die lustige Inge zu sterben bereit war, weil er Lust und Kräfte in sich fühlte, auf seine Art in der Welt eine Menge des Merkwürdigen zu leisten.",
+      "en": "Faithfulness! thought Tonio Kröger. I will be faithful and love you, Ingeborg, as long as I live! That was how well-meaning he was. And yet a quiet fear and sadness whispered in him that he had, after all, completely forgotten Hans Hansen too, although he saw him every day. And the ugly and pitiful thing was that this quiet and slightly spiteful voice turned out to be right: time passed, and days came when Tonio Kröger was no longer as unconditionally ready to die for cheerful Inge as before, because he felt the desire and the strength in himself to achieve a great many remarkable things in the world in his own way.",
+      "explain_en": "“die Treue” = faithfulness, loyalty; “treu” = faithful (“ein treuer Freund”). “solange ich lebe” = as long as I live. “recht behalten” = to turn out to be right. “ehemals” is formal for “früher” (before). “bereit sein, etwas zu tun” = to be ready to do something. “leisten” = to achieve: “Du hast viel geleistet!” The chapter gently shows how first love fades, even when you promise it never will.",
+      "words": [
+        {
+          "de": "die Treue",
+          "en": "faithfulness, loyalty"
+        },
+        {
+          "de": "treu",
+          "en": "faithful, loyal"
+        },
+        {
+          "de": "vergessen",
+          "en": "to forget",
+          "note": "vergaß, hat vergessen"
+        },
+        {
+          "de": "recht behalten",
+          "en": "to turn out to be right"
+        },
+        {
+          "de": "bereit",
+          "en": "ready"
+        },
+        {
+          "de": "leisten",
+          "en": "to achieve"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "de": "Und er umkreiste behutsam den Opferaltar, auf dem die lautere und keusche Flamme seiner Liebe loderte, kniete davor und schürte und nährte sie auf alle Weise, weil er treu sein wollte. Und über eine Weile, unmerklich, ohne Aufsehen und Geräusch, war sie dennoch erloschen. Aber Tonio Kröger stand noch eine Zeit lang vor dem erkalteten Altar, voll Staunen und Enttäuschung darüber, dass Treue auf Erden unmöglich war. Dann zuckte er die Achseln und ging seiner Wege.",
+      "en": "And he carefully walked around the altar on which the pure and chaste flame of his love was blazing, knelt before it and stoked and fed it in every way, because he wanted to be faithful. And after a while, without anyone noticing, without fuss or noise, it had gone out all the same. But Tonio Kröger stood a while longer in front of the cold altar, full of amazement and disappointment that faithfulness was impossible on earth. Then he shrugged his shoulders and went his way.",
+      "explain_en": "CHAPTER II ends with a picture: love is a fire on an altar that Tonio tries to keep burning. “erlöschen” (erlosch, ist erloschen) = to go out (fire, light) – formal; everyday “ausgehen”: “Das Feuer ist ausgegangen.” “die Achseln zucken” = to shrug – today more often “mit den Schultern zucken”. “seiner Wege gehen” is old-fashioned; today just “weitergehen”. “eine Zeit lang” = for a while.",
+      "words": [
+        {
+          "de": "die Flamme, die Flammen",
+          "en": "flame"
+        },
+        {
+          "de": "knien",
+          "en": "to kneel"
+        },
+        {
+          "de": "erlöschen",
+          "en": "to go out (fire, light)",
+          "note": "everyday: ausgehen"
+        },
+        {
+          "de": "die Enttäuschung, die Enttäuschungen",
+          "en": "disappointment"
+        },
+        {
+          "de": "unmöglich",
+          "en": "impossible"
+        },
+        {
+          "de": "mit den Schultern zucken",
+          "en": "to shrug",
+          "note": "Mann: die Achseln zucken"
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "de": "Er ging den Weg, den er gehen musste, ein wenig nachlässig und ungleichmäßig, vor sich hin pfeifend, mit seitwärts geneigtem Kopfe ins Weite blickend, und wenn er irreging, so geschah es, weil es für etliche einen richtigen Weg überhaupt nicht gibt. Fragte man ihn, was in aller Welt er zu werden gedachte, so erteilte er wechselnde Auskunft, denn er pflegte zu sagen (und hatte es auch bereits aufgeschrieben), dass er die Möglichkeiten zu tausend Daseinsformen in sich trage, zusammen mit dem heimlichen Bewusstsein, dass es im Grunde lauter Unmöglichkeiten seien...",
+      "en": "He went the way he had to go, a little carelessly and unevenly, whistling to himself, with his head tilted to one side, gazing into the distance; and if he went astray, it was because for some people there simply is no right way. If anyone asked him what on earth he intended to become, he gave different answers, for he used to say (and had already written it down) that he carried within him the possibilities for a thousand ways of living, together with the secret awareness that at bottom they were nothing but impossibilities...",
+      "explain_en": "CHAPTER III starts here and races through many years. “irregehen” = to go astray (today “sich verirren” or “sich verlaufen”). “etliche” = some, quite a few (old-fashioned; today “manche”). “was in aller Welt” = what on earth. “er pflegte zu sagen” = he used to say – formal; everyday “er sagte immer”. “lauter Unmöglichkeiten” – here “lauter” doesn't mean “louder” but “nothing but”: “lauter Unsinn” = nothing but nonsense.",
+      "words": [
+        {
+          "de": "der Weg, die Wege",
+          "en": "way, path"
+        },
+        {
+          "de": "pfeifen",
+          "en": "to whistle",
+          "note": "pfiff, hat gepfiffen"
+        },
+        {
+          "de": "werden",
+          "en": "to become"
+        },
+        {
+          "de": "die Möglichkeit, die Möglichkeiten",
+          "en": "possibility"
+        },
+        {
+          "de": "heimlich",
+          "en": "secret"
+        },
+        {
+          "de": "lauter",
+          "en": "nothing but",
+          "note": "here not 'louder'"
+        },
+        {
+          "de": "pflegen zu",
+          "en": "to be in the habit of",
+          "note": "formal: Er pflegte zu sagen ..."
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "type": "summary",
+      "covers": "Chapter III",
+      "en": "Tonio's old merchant family slowly falls apart. His grandmother dies, then his father; the big house is sold and the family firm closes. His beautiful, fiery mother soon marries a musician with an Italian name and moves far away. Tonio leaves his narrow home town without any pain, full of scorn for ordinary life, and gives himself to the ‘power of mind and word’. Writing sharpens his eye until everywhere he sees only ‘comedy and misery’ – and it makes him lonely. He lives in big cities and in the south, drifts into a wild, restless life that he secretly despises, and swings between icy intellect and burning passion. His health suffers, but his art gets sharper: his first book is a success, and his name – the one his teachers used to scold – becomes a byword for excellent writing."
+    },
+    {
+      "n": 54,
+      "de": "Er arbeitete stumm, abgeschlossen, unsichtbar und voller Verachtung für jene Kleinen, denen das Talent ein geselliger Schmuck war, die, ob sie nun arm oder reich waren, wild und abgerissen einhergingen oder mit persönlichen Krawatten Luxus trieben, in erster Linie glücklich, liebenswürdig und künstlerisch zu leben bedacht waren, unwissend darüber, dass gute Werke nur unter dem Druck eines schlimmen Lebens entstehen, dass, wer lebt, nicht arbeitet, und dass man gestorben sein muss, um ganz ein Schaffender zu sein.",
+      "en": "He worked silently, shut away, invisibly, and full of contempt for those minor talents for whom talent was a social decoration, who – whether they were poor or rich, went around wild and shabby or showed off with fancy ties – cared above all about living happily, charmingly and artistically, unaware that good works only come into being under the pressure of a bad life, that whoever lives does not work, and that you have to have died to be wholly a creator.",
+      "explain_en": "CHAPTER III ends with Tonio's harsh belief: real art comes from suffering, and a real artist has to give up “living”. “die Verachtung” = contempt; “verachten” = to despise. “abgerissen” here means shabby, ragged (from “reißen”, to tear). “bedacht sein auf” = to be keen on (formal). “dass, wer lebt, nicht arbeitet” – “wer ..., (der) ...” = whoever ...: “Wer zuletzt lacht, lacht am besten.” “der Schaffende” = the creator, the artist – a verb turned into a noun.",
+      "words": [
+        {
+          "de": "stumm",
+          "en": "silent, mute"
+        },
+        {
+          "de": "unsichtbar",
+          "en": "invisible"
+        },
+        {
+          "de": "die Verachtung",
+          "en": "contempt"
+        },
+        {
+          "de": "arm",
+          "en": "poor"
+        },
+        {
+          "de": "reich",
+          "en": "rich"
+        },
+        {
+          "de": "das Werk, die Werke",
+          "en": "work (of art)"
+        },
+        {
+          "de": "der Druck",
+          "en": "pressure; printing"
+        },
+        {
+          "de": "entstehen",
+          "en": "to come into being, to arise",
+          "note": "entstand, ist entstanden"
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "de": "»Störe ich?« fragte Tonio Kröger auf der Schwelle des Ateliers. Er hielt seinen Hut in der Hand und verbeugte sich sogar ein wenig, obgleich Lisaweta Iwanowna seine Freundin war, der er alles sagte. »Erbarmen Sie sich, Tonio Kröger, und kommen Sie ohne Zeremonien hinein!« antwortete sie mit ihrer hüpfenden Betonung. »Es ist bekannt, dass Sie eine gute Kinderstube genossen haben und wissen, was sich schickt.« Dabei steckte sie ihren Pinsel zu der Palette in die linke Hand, reichte ihm die rechte und blickte ihm lachend und kopfschüttelnd ins Gesicht.",
+      "en": "‘Am I disturbing you?’ asked Tonio Kröger in the doorway of the studio. He held his hat in his hand and even bowed slightly, although Lisaweta Ivanovna was his friend, to whom he told everything. ‘Have mercy, Tonio Kröger, and come in without any ceremony!’ she answered in her bouncy way of speaking. ‘Everybody knows you were brought up well and know what's proper.’ As she said this, she put her brush into her left hand with the palette, held out her right hand to him and looked him in the face, laughing and shaking her head.",
+      "explain_en": "CHAPTER IV starts here, many years later, in Munich. Lisaweta Iwanowna is a Russian painter and Tonio's close friend. “Störe ich?” = Am I disturbing you? – still exactly what you say at someone's door. Although they are close, they say “Sie” – normal for adult friends around 1900. “eine gute Kinderstube genossen haben” = to have been brought up well; still used: “Der hat keine Kinderstube!” (He has no manners!). “was sich schickt” = what is proper (old-fashioned; today “was sich gehört”). Her speech is “hüpfend” (bouncing) because of her Russian accent.",
+      "words": [
+        {
+          "de": "stören",
+          "en": "to disturb"
+        },
+        {
+          "de": "das Atelier, die Ateliers",
+          "en": "studio"
+        },
+        {
+          "de": "der Hut, die Hüte",
+          "en": "hat"
+        },
+        {
+          "de": "sich verbeugen",
+          "en": "to bow"
+        },
+        {
+          "de": "der Pinsel, die Pinsel",
+          "en": "paintbrush"
+        },
+        {
+          "de": "die Kinderstube",
+          "en": "upbringing, manners"
+        },
+        {
+          "de": "sich gehören",
+          "en": "to be proper",
+          "note": "Mann: sich schicken"
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "type": "summary",
+      "covers": "Chapter IV",
+      "en": "It's a sunny spring afternoon in Lisaweta's studio. Tonio, now in his thirties, elegant but tired, has come straight from his writing desk, troubled by a problem. Spring, he says, makes you feel things – and feeling is the enemy of art: a writer whose heart is too warm writes something sentimental and boring. To write well you must stand outside human life, cool and distant. Grateful letters from readers make him blush, because he believes an honest, healthy person wouldn't write at all. Literature, he says, is not a job but a curse: it separates you from ordinary people and marks you like a sign on your forehead. Lisaweta replies that literature leads to understanding, forgiveness and love. Tonio answers that seeing through everything can make you sick of it, like Hamlet, and that putting a feeling into words kills it. ‘But I am not a nihilist…’"
+    },
+    {
+      "n": 57,
+      "de": "Ich bin am Ziel, Lisaweta. Hören Sie mich an. Ich liebe das Leben – dies ist ein Geständnis. Nehmen Sie es und bewahren Sie es, – ich habe es noch keinem gemacht. Man hat gesagt, man hat es sogar geschrieben und drucken lassen, dass ich das Leben hasse oder fürchte oder verachte oder verabscheue. Ich habe dies gern gehört, es hat mir geschmeichelt; aber darum ist es nicht weniger falsch. Ich liebe das Leben...",
+      "en": "I've come to my point, Lisaweta. Listen to me. I love life – this is a confession. Take it and keep it – I have never made it to anyone. People have said, they have even written it and had it printed, that I hate or fear or despise or loathe life. I liked hearing that, it flattered me; but that doesn't make it any less false. I love life...",
+      "explain_en": "Tonio finally says what he has been circling around: “Ich liebe das Leben.” “das Geständnis” = confession (“gestehen” = to confess, admit). “drucken lassen” = to have something printed – “lassen” + infinitive means getting something done: “Ich lasse mir die Haare schneiden.” “verabscheuen” = to loathe. “schmeicheln” (+ dative) = to flatter: “Das schmeichelt mir.” “darum ist es nicht weniger falsch” = that doesn't make it any less wrong.",
+      "words": [
+        {
+          "de": "das Ziel, die Ziele",
+          "en": "goal, destination"
+        },
+        {
+          "de": "das Geständnis, die Geständnisse",
+          "en": "confession"
+        },
+        {
+          "de": "hassen",
+          "en": "to hate"
+        },
+        {
+          "de": "fürchten",
+          "en": "to fear"
+        },
+        {
+          "de": "verachten",
+          "en": "to despise"
+        },
+        {
+          "de": "schmeicheln",
+          "en": "to flatter",
+          "note": "+ dative: Das schmeichelt mir."
+        },
+        {
+          "de": "falsch",
+          "en": "wrong, false"
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "de": "Sie lächeln, Lisaweta, und ich weiß, worüber. Aber ich beschwöre Sie, halten Sie es nicht für Literatur, was ich da sage! Denken Sie nicht an Cesare Borgia oder an irgendeine trunkene Philosophie, die ihn auf den Schild erhebt! Er ist mir nichts, dieser Cesare Borgia, ich halte nicht das Geringste auf ihn, und ich werde nie und nimmer begreifen, wie man das Außerordentliche und Dämonische als Ideal verehren mag.",
+      "en": "You're smiling, Lisaweta, and I know why. But I beg you, don't take what I'm saying for literature! Don't think of Cesare Borgia or of some drunken philosophy that raises him up on its shield! He means nothing to me, this Cesare Borgia, I don't think the slightest thing of him, and I shall never, ever understand how anyone can worship the extraordinary and demonic as an ideal.",
+      "explain_en": "Around 1900 many artists, inspired by the philosopher Nietzsche, admired ruthless “great men” like the Renaissance prince Cesare Borgia – Tonio rejects this. “jemanden auf den Schild erheben” = to make someone your hero (old Germanic kings were lifted up on shields). “etwas / nichts halten von” = to think much / nothing of: “Ich halte nichts von dieser Idee.” “nicht das Geringste” = not the slightest bit. “nie und nimmer” = never ever. “beschwören” here means to beg urgently (today “anflehen”).",
+      "words": [
+        {
+          "de": "lächeln",
+          "en": "to smile"
+        },
+        {
+          "de": "verehren",
+          "en": "to worship, to admire"
+        },
+        {
+          "de": "das Ideal, die Ideale",
+          "en": "ideal"
+        },
+        {
+          "de": "halten von",
+          "en": "to think of",
+          "note": "Ich halte nichts davon. = I don't think much of it."
+        },
+        {
+          "de": "begreifen",
+          "en": "to grasp, to understand",
+          "note": "begriff, hat begriffen"
+        },
+        {
+          "de": "nie und nimmer",
+          "en": "never ever"
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "de": "Nein, das ›Leben‹, wie es als ewiger Gegensatz dem Geiste und der Kunst gegenübersteht, – nicht als eine Vision von blutiger Größe und wilder Schönheit, nicht als das Ungewöhnliche stellt es uns Ungewöhnlichen sich dar; sondern das Normale, Wohlanständige und Liebenswürdige ist das Reich unserer Sehnsucht, ist das Leben in seiner verführerischen Banalität! Der ist noch lange kein Künstler, meine Liebe, dessen letzte und tiefste Schwärmerei das Raffinierte, Exzentrische und Satanische ist, der die Sehnsucht nicht kennt nach dem Harmlosen, Einfachen und Lebendigen, nach ein wenig Freundschaft, Hingebung, Vertraulichkeit und menschlichem Glück, – die verstohlene und zehrende Sehnsucht, Lisaweta, nach den Wonnen der Gewöhnlichkeit!...",
+      "en": "No, ‘life’, as the eternal opposite of the mind and of art – it doesn't appear to us unusual people as a vision of bloody greatness and wild beauty, not as the unusual; no, the normal, the respectable and the likeable is the kingdom of our longing: life in its seductive ordinariness! Far from being an artist, my dear, is the man whose last and deepest passion is for the refined, the eccentric and the satanic, who doesn't know the longing for the harmless, the simple and the living, for a little friendship, devotion, trust and human happiness – the secret, gnawing longing, Lisaweta, for the joys of the ordinary!...",
+      "explain_en": "The heart of the story: artists like Tonio don't long for wild adventures, but for normal, simple life – “die Wonnen der Gewöhnlichkeit” (the joys of being ordinary). Mann turns adjectives into nouns with a capital letter: “das Normale” (what is normal), “das Einfache”, “das Lebendige”. “Der ist noch lange kein Künstler, der ...” = someone who ... is far from being an artist – “noch lange nicht” = far from: “Das ist noch lange nicht fertig.” “der Geist” here means mind/intellect, not ghost. “die Wonne” is an old word for joy, bliss.",
+      "words": [
+        {
+          "de": "der Gegensatz, die Gegensätze",
+          "en": "opposite, contrast"
+        },
+        {
+          "de": "der Geist",
+          "en": "mind, intellect; ghost"
+        },
+        {
+          "de": "die Sehnsucht",
+          "en": "longing"
+        },
+        {
+          "de": "einfach",
+          "en": "simple; easy"
+        },
+        {
+          "de": "die Freundschaft, die Freundschaften",
+          "en": "friendship"
+        },
+        {
+          "de": "die Gewöhnlichkeit",
+          "en": "ordinariness"
+        },
+        {
+          "de": "noch lange nicht",
+          "en": "far from, not by a long way"
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "type": "summary",
+      "covers": "Chapter IV",
+      "en": "Tonio goes on: a human friend – one who isn't a writer – would make him proud and happy. When he gives readings, he secretly searches the audience, but only finds people like himself: sufferers and dreamers, ‘people who always fall over’ – never the cheerful, blue-eyed ones who don't need books. And perhaps that is right: why drag healthy life into literature? He tells how, at a dinner party, a handsome young lieutenant stood up and read out a poem he had written. Everyone was embarrassed, and Tonio suddenly felt pity instead of respect for him: you can't pick a single leaf from the laurel tree of art without paying for it with your life. Finally he asks whether he isn't talking as much as Hamlet today."
+    },
+    {
+      "n": 61,
+      "de": "»Sind Sie nun fertig, Tonio Kröger?« »Nein. Aber ich sage nichts mehr.« »Und es genügt auch. – Erwarten Sie eine Antwort?« »Haben Sie eine?« »Ich dächte doch. – Ich habe Ihnen gut zugehört, Tonio, von Anfang bis zu Ende, und ich will Ihnen die Antwort geben, die auf alles passt, was Sie heute Nachmittag gesagt haben, und die die Lösung ist für das Problem, das Sie so sehr beunruhigt hat. Nun also! Die Lösung ist die, dass Sie, wie Sie da sitzen, ganz einfach ein Bürger sind.«",
+      "en": "‘Have you finished now, Tonio Kröger?’ ‘No. But I won't say any more.’ ‘And that's enough, too. – Are you expecting an answer?’ ‘Do you have one?’ ‘I should think so. – I've listened to you carefully, Tonio, from beginning to end, and I'll give you the answer that fits everything you've said this afternoon and that is the solution to the problem that has troubled you so much. Well then! The solution is that you, sitting there as you are, are quite simply a bourgeois.’",
+      "explain_en": "“der Bürger” is hard to translate here: it means a solid, respectable middle-class person, like Tonio's merchant father – the opposite of a bohemian artist. English often uses the French word “bourgeois”. Today “Bürger” mostly means “citizen” (“die Bürger der Stadt”), and “bürgerlich” = middle-class. “Ich dächte doch” = I should think so (today “Ich denke schon”). “genügen” = to be enough: “Das genügt!” “zuhören” (+ dative) = to listen to: “Hör mir zu!”",
+      "words": [
+        {
+          "de": "fertig",
+          "en": "finished, done"
+        },
+        {
+          "de": "erwarten",
+          "en": "to expect"
+        },
+        {
+          "de": "die Antwort, die Antworten",
+          "en": "answer"
+        },
+        {
+          "de": "zuhören",
+          "en": "to listen",
+          "note": "+ dative: Hör mir zu!"
+        },
+        {
+          "de": "die Lösung, die Lösungen",
+          "en": "solution"
+        },
+        {
+          "de": "der Bürger, die Bürger",
+          "en": "citizen; middle-class person"
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "de": "»Bin ich?« fragte er und sank ein wenig in sich zusammen... »Nicht wahr, das trifft Sie hart, und das muss es ja auch. Und darum will ich den Urteilsspruch um etwas mildern, denn das kann ich. Sie sind ein Bürger auf Irrwegen, Tonio Kröger, – ein verirrter Bürger.« – Stillschweigen. Dann stand er entschlossen auf und griff nach Hut und Stock. »Ich danke Ihnen, Lisaweta Iwanowna; nun kann ich getrost nach Hause gehn. Ich bin erledigt.«",
+      "en": "‘Am I?’ he asked, and slumped a little... ‘It hits you hard, doesn't it, and so it should. And that's why I'll soften the verdict a little, because I can. You are a bourgeois on the wrong path, Tonio Kröger – a bourgeois gone astray.’ – Silence. Then he stood up resolutely and reached for his hat and walking stick. ‘Thank you, Lisaweta Ivanovna; now I can go home in peace. I am done for.’",
+      "explain_en": "CHAPTER IV ends with this famous verdict: “ein verirrter Bürger” – a middle-class man who got lost in art (“sich verirren” = to get lost). “Das trifft Sie hart” = that hits you hard. “mildern” = to soften. “gehn” is short for “gehen”, as in speech. “Ich bin erledigt” has a double meaning: “I'm finished” and “I've been dealt with” – Tonio had complained that writers ‘erledigen’ (dispose of) feelings by putting them into words, and now Lisaweta has done the same to him. Today “Ich bin total erledigt” = I'm completely exhausted.",
+      "words": [
+        {
+          "de": "treffen",
+          "en": "to hit; to meet",
+          "note": "traf, hat getroffen"
+        },
+        {
+          "de": "mildern",
+          "en": "to soften, to ease"
+        },
+        {
+          "de": "sich verirren",
+          "en": "to get lost"
+        },
+        {
+          "de": "das Schweigen",
+          "en": "silence",
+          "note": "Mann: das Stillschweigen"
+        },
+        {
+          "de": "der Stock, die Stöcke",
+          "en": "stick, walking stick"
+        },
+        {
+          "de": "erledigt",
+          "en": "done, finished; exhausted"
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "type": "summary",
+      "covers": "Chapter V",
+      "en": "CHAPTER V. In autumn Tonio tells Lisaweta that he needs to get away. ‘Off to Italy again?’ she asks. No – he has had enough of Italy, with its velvety blue sky, hot wine and sensuality; all that ‘bellezza’ (beauty) just makes him nervous now. He is going to Denmark. Although he grew up close to the border, he has never been there, and yet he has always loved the North – perhaps he gets that from his father, while his mother was more for the south. He loves the deep, pure and humorous books written up there, and the hearty Scandinavian meals, which are just like the food back home."
+    },
+    {
+      "n": 64,
+      "de": "Nehmen Sie auch nur die Namen, die Vornamen, mit denen die Leute dort oben geschmückt sind und von denen es ebenfalls schon viele bei mir zu Hause gibt, einen Laut wie ›Ingeborg‹, ein Harfenschlag makellosester Poesie. Und dann die See, – sie haben die Ostsee dort oben!... Mit einem Worte, ich fahre hinauf, Lisaweta. Ich will die Ostsee wiedersehen, will diese Vornamen wieder hören, diese Bücher an Ort und Stelle lesen; ich will auch auf der Terrasse von Kronborg stehen, wo der ›Geist‹ zu Hamlet kam und Not und Tod über den armen, edlen jungen Menschen brachte...«",
+      "en": "Just take the names, the first names the people up there are adorned with, many of which you also find back home – a sound like ‘Ingeborg’, a stroke of the harp of the most flawless poetry. And then the sea – they have the Baltic up there!... In a word, I'm going up there, Lisaweta. I want to see the Baltic again, hear those first names again, read those books right where they were written; and I want to stand on the terrace at Kronborg, where the ‘Ghost’ came to Hamlet and brought misery and death to the poor, noble young man...",
+      "explain_en": "“Nehmen Sie ... die Namen” = take the names, for example – a way of listing reasons. Notice “Ingeborg”: the name alone reminds him of his first love. “die Ostsee” = the Baltic Sea (literally “East Sea”). Careful: “die See” = the sea, but “der See” = a lake! “an Ort und Stelle” = right there, on the spot – still common. Kronborg Castle in Helsingør (Elsinore) is where Shakespeare's “Hamlet” is set. “Mit einem Worte” – today “Mit einem Wort” (in a word).",
+      "words": [
+        {
+          "de": "der Vorname, die Vornamen",
+          "en": "first name"
+        },
+        {
+          "de": "die See",
+          "en": "the sea",
+          "note": "der See = lake"
+        },
+        {
+          "de": "die Ostsee",
+          "en": "the Baltic Sea"
+        },
+        {
+          "de": "wiedersehen",
+          "en": "to see again"
+        },
+        {
+          "de": "an Ort und Stelle",
+          "en": "right there, on the spot"
+        },
+        {
+          "de": "der Geist, die Geister",
+          "en": "ghost; mind"
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "de": "»Wie fahren Sie, Tonio, wenn ich fragen darf? Welche Route nehmen Sie?« »Die übliche«, sagte er achselzuckend und errötete deutlich. »Ja, ich berühre meine – meinen Ausgangspunkt, Lisaweta, nach dreizehn Jahren, und das kann ziemlich komisch werden.« Sie lächelte. »Das ist es, was ich hören wollte, Tonio Kröger. Und also fahren Sie mit Gott. Versäumen Sie auch nicht, mir zu schreiben, hören Sie? Ich verspreche mir einen erlebnisvollen Brief von Ihrer Reise nach – Dänemark...«",
+      "en": "‘How are you travelling, Tonio, if I may ask? Which route are you taking?’ ‘The usual one,’ he said with a shrug, and blushed visibly. ‘Yes, I'll pass through my – my starting point, Lisaweta, after thirteen years, and that could turn out rather funny.’ She smiled. ‘That's what I wanted to hear, Tonio Kröger. Well then, go with God. And don't forget to write to me, do you hear? I'm expecting a letter full of adventures from your journey to – Denmark...’",
+      "explain_en": "CHAPTER V ends. Tonio blushes because the usual route north goes through his home town, where he hasn't been for thirteen years – and Lisaweta sees through him: the real journey is not “to Denmark” but back into his past. “erröten” = to blush (everyday: “rot werden”). “berühren” (to touch) here means to pass through. “Fahren Sie mit Gott” is an old way of wishing someone a safe journey; today “Gute Reise!” “Versäumen Sie nicht, ...” = don't fail to ... (today “Vergessen Sie nicht, ...”). “sich etwas versprechen von” = to expect something from.",
+      "words": [
+        {
+          "de": "die Route, die Routen",
+          "en": "route"
+        },
+        {
+          "de": "üblich",
+          "en": "usual"
+        },
+        {
+          "de": "erröten",
+          "en": "to blush",
+          "note": "everyday: rot werden"
+        },
+        {
+          "de": "der Ausgangspunkt, die Ausgangspunkte",
+          "en": "starting point"
+        },
+        {
+          "de": "versäumen",
+          "en": "to miss, to fail to do"
+        },
+        {
+          "de": "die Reise, die Reisen",
+          "en": "journey, trip"
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "type": "summary",
+      "covers": "Chapter VI",
+      "en": "CHAPTER VI. Tonio travels north in comfort and stops in his home town. On a grey afternoon he walks from the smoky station through the narrow streets: everything looks tiny and strangely familiar, as if in a dream. For years he has dreamt that his father scolds him for his wild way of life. He stays at the town's best hotel, in front of which lie the two black stone lions he was afraid of as a child; the staff eye him suspiciously, unable to work out who he is. After a night of confused, longing dreams he wakes to sunshine, dresses with great care and goes out, relieved that nobody recognises him. Almost without knowing it, he lets his feet lead him through the old town."
+    },
+    {
+      "n": 67,
+      "de": "Wohin ging er? Ihm war, als stehe die Richtung, die er einschlug, in einem Zusammenhange mit seinen traurigen und seltsam reuevollen Träumen zur Nacht... Auf den Markt ging er, unter den Bogengewölben des Rathauses hindurch, wo Fleischer mit blutigen Händen ihre Ware wogen, auf den Marktplatz, wo hoch, spitzig und vielfach der gotische Brunnen stand. Dort blieb er vor einem Hause stehen, einem schmalen und schlichten, gleich anderen mehr, mit einem geschwungenen, durchbrochenen Giebel, und versank in dessen Anblick. Er las das Namensschild an der Tür und ließ seine Augen ein Weilchen auf jedem der Fenster ruhen. Dann wandte er sich langsam zum Gehen.",
+      "en": "Where was he going? He felt as if the direction he took had something to do with his sad and strangely remorseful dreams of the night... He went to the market, under the arches of the town hall, where butchers with bloody hands were weighing their meat, onto the market square, where the tall, pointed, many-spired Gothic fountain stood. There he stopped in front of a house, a narrow and plain one like many others, with a curved, openwork gable, and became lost in looking at it. He read the name plate on the door and let his eyes rest for a little while on each of the windows. Then he slowly turned to go.",
+      "explain_en": "The words “wo hoch, spitzig und vielfach der gotische Brunnen stand” are exactly the ones used for Inge Holm's home at the start of Chapter II – so we know whose house this is without being told. “Ihm war, als ...” = he felt as if ...: “Mir ist, als hätte ich das schon mal gesehen.” “der Fleischer” = butcher (in southern Germany “der Metzger”). “wiegen” (wog, hat gewogen) = to weigh. “versinken in” = to become absorbed in. “ein Weilchen” = a little while.",
+      "words": [
+        {
+          "de": "die Richtung, die Richtungen",
+          "en": "direction"
+        },
+        {
+          "de": "der Traum, die Träume",
+          "en": "dream"
+        },
+        {
+          "de": "das Rathaus, die Rathäuser",
+          "en": "town hall"
+        },
+        {
+          "de": "der Marktplatz, die Marktplätze",
+          "en": "market square"
+        },
+        {
+          "de": "stehen bleiben",
+          "en": "to stop"
+        },
+        {
+          "de": "das Fenster, die Fenster",
+          "en": "window"
+        },
+        {
+          "de": "sich wenden",
+          "en": "to turn",
+          "note": "wandte sich, hat sich gewandt"
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "type": "summary",
+      "covers": "Chapter VI",
+      "en": "Next Tonio walks out to Hans Hansen's old villa and swings the squeaking garden gate, just as Hans did when they were boys. Then he climbs the steep lane to his parents' house. His heart pounds: he half expects his father to step out of the office and tell him off. But the grand old house has changed. On the landing there is a sign: ‘Volksbibliothek’ – a public library. Inside, poorly dressed clerks sit among long shelves of books. Pretending to be a tourist, Tonio takes out a book and stands at the window. This used to be the breakfast room; there is the bedroom where his grandmother died, and later his father, with Tonio sitting at the foot of the bed and his mother in tears – before she went off with her musician."
+    },
+    {
+      "n": 69,
+      "de": "Aber dort hinten, das kleinere, dritte Zimmer, nun ebenfalls ganz mit Büchern angefüllt, die ein dürftiger Mensch bewachte, war lange Jahre hindurch sein eigenes gewesen. Dorthin war er nach der Schule heimgekehrt, nachdem er einen Spaziergang, wie eben jetzt, gemacht, an jener Wand hatte sein Tisch gestanden, in dessen Schublade er seine ersten, innigen und hilflosen Verse verwahrt hatte... Der Walnussbaum... Eine stechende Wehmut durchzuckte ihn. Er blickte seitwärts durchs Fenster hinaus. Der Garten lag wüst, aber der alte Walnussbaum stand an seinem Platze, schwerfällig knarrend und rauschend im Winde.",
+      "en": "But back there, the smaller third room, now also completely filled with books guarded by a shabby-looking man, had been his own for many years. That was where he had come home to after school, after taking a walk just like now; against that wall his desk had stood, in whose drawer he had kept his first heartfelt and helpless poems... The walnut tree... A piercing sadness shot through him. He glanced sideways out of the window. The garden lay neglected, but the old walnut tree still stood in its place, creaking heavily and rustling in the wind.",
+      "explain_en": "The walnut tree, the fountain and the sea were the “friends” of Tonio's youth that he wrote his first poems about. The tree has survived, although everything else has changed. Notice the pluperfect (“war heimgekehrt”, “hatte gestanden”) for the past before the past. “verwahren” = to keep safe (everyday “aufbewahren”). “die Wehmut” = wistful sadness, nostalgia. “wüst” = wild, neglected (compare “die Wüste” = desert). “knarren” = to creak; “rauschen” = to rustle or roar (trees, sea, water).",
+      "words": [
+        {
+          "de": "das Zimmer, die Zimmer",
+          "en": "room"
+        },
+        {
+          "de": "die Schublade, die Schubladen",
+          "en": "drawer"
+        },
+        {
+          "de": "der Vers, die Verse",
+          "en": "line of poetry; (pl.) poems"
+        },
+        {
+          "de": "der Walnussbaum, die Walnussbäume",
+          "en": "walnut tree"
+        },
+        {
+          "de": "die Wehmut",
+          "en": "wistful sadness, nostalgia"
+        },
+        {
+          "de": "der Garten, die Gärten",
+          "en": "garden"
+        },
+        {
+          "de": "rauschen",
+          "en": "to rustle, to roar"
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "type": "summary",
+      "covers": "Chapter VI",
+      "en": "Tonio reads a few lines of the book – ‘Yes, that's well done!’ – and leaves. He decides to take the afternoon steamer to Copenhagen. But at the foot of the hotel stairs the owner, Herr Seehaase, and a policeman are waiting for him. The policeman asks for his papers – Tonio has none, only the proofs of a story he is writing. When Tonio gives his name and his profession, the policeman asks whether he is not in fact a wanted man with a complicated, romantic-sounding name, ‘of unknown parents’, who has committed fraud in Munich and is probably fleeing to Denmark. ‘I'm not just claiming that,’ Tonio says nervously. Herr Seehaase says it's only a formality – if the gentleman could just show some kind of document…"
+    },
+    {
+      "n": 71,
+      "de": "Alle schwiegen. Sollte er der Sache ein Ende machen, indem er sich zu erkennen gab, indem er Herrn Seehaase eröffnete, dass er kein Hochstapler von unbestimmter Zuständigkeit sei, von Geburt kein Zigeuner im grünen Wagen, sondern der Sohn Konsul Krögers, aus der Familie der Kröger? Nein, er hatte keine Lust dazu. Und waren diese Männer der bürgerlichen Ordnung nicht im Grunde ein wenig im Recht? Gewissermaßen war er ganz einverstanden mit ihnen... Er zuckte die Achseln und blieb stumm.",
+      "en": "Everyone was silent. Should he put an end to the matter by revealing who he was, by informing Herr Seehaase that he was not a con man of no fixed abode, not a gypsy in a green caravan by birth, but the son of Consul Kröger, of the Kröger family? No, he didn't feel like it. And weren't these men of middle-class order basically a little bit right? In a way he quite agreed with them... He shrugged his shoulders and said nothing.",
+      "explain_en": "Tonio could easily prove that he is the son of the town's respected Consul Kröger – but he doesn't, because deep down he feels the police are right to see him as an outsider. “der Hochstapler” = con man, impostor – still used. “sich zu erkennen geben” = to reveal who you are. “keine Lust haben” = not to feel like it: “Ich habe keine Lust!” Important: “Zigeuner” was the normal word in 1903, but today it is considered offensive – say “Sinti und Roma”. Tonio is repeating a phrase from Chapter I.",
+      "words": [
+        {
+          "de": "schweigen",
+          "en": "to be silent",
+          "note": "schwieg, hat geschwiegen"
+        },
+        {
+          "de": "der Hochstapler, die Hochstapler",
+          "en": "con man, impostor"
+        },
+        {
+          "de": "der Sohn, die Söhne",
+          "en": "son"
+        },
+        {
+          "de": "Lust haben",
+          "en": "to feel like (doing something)"
+        },
+        {
+          "de": "einverstanden",
+          "en": "in agreement, OK with"
+        },
+        {
+          "de": "stumm",
+          "en": "silent, mute"
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "type": "summary",
+      "covers": "Chapters VI–VII",
+      "en": "The policeman reads Tonio's proofs, and Herr Seehaase reads along. ‘Look – there's my name. I wrote this, and it's going to be published,’ says Tonio. That is good enough for Herr Seehaase, who sends the policeman, Petersen, away and sees his guest to the carriage with many apologies. So ends Tonio's strange stay in his home town. CHAPTER VII: At nightfall his steamer reaches the open sea. He felt a little low at nearly being arrested as a con man, but watching the ship being loaded – including a polar bear and a tiger in cages for a Danish zoo – cheered him up. Now, in the moonlight, he sees the distant beach where he spent his summers as a boy, the lighthouse and the lights of the spa hotel."
+    },
+    {
+      "n": 73,
+      "de": "Die Ostsee! Er lehnte den Kopf gegen den starken Salzwind, der frei und ohne Hindernis daherkam, die Ohren umhüllte und einen gelinden Schwindel, eine gedämpfte Betäubung hervorrief, in der die Erinnerung an alles Böse, an Qual und Irrsal, an Wollen und Mühen träge und selig unterging. Und in dem Sausen, Klatschen, Schäumen und Ächzen rings um ihn her glaubte er das Rauschen und Knarren des alten Walnussbaumes, das Kreischen einer Gartenpforte zu hören... Es dunkelte mehr und mehr.",
+      "en": "The Baltic! He leaned his head into the strong salt wind, which came freely and unhindered, wrapped itself around his ears and brought on a gentle dizziness, a muffled daze, in which the memory of everything bad, of torment and confusion, of wanting and struggling, sank away lazily and blissfully. And in the rushing, slapping, foaming and groaning all around him he thought he could hear the rustling and creaking of the old walnut tree and the squeaking of a garden gate... It grew darker and darker.",
+      "explain_en": "For Tonio the sea means freedom and childhood. Mann piles up nouns made from verbs – “das Sausen, Klatschen, Schäumen und Ächzen” – so that we can hear the sea (any verb can become a neuter noun: “das Lesen”, “das Schwimmen”). “der Schwindel” = dizziness (and also a swindle!). “das Irrsal” is a rare old word for confusion. “Es dunkelte” is literary; today “Es wurde dunkel”. “mehr und mehr” = more and more (or “immer dunkler”).",
+      "words": [
+        {
+          "de": "das Salz",
+          "en": "salt"
+        },
+        {
+          "de": "der Schwindel",
+          "en": "dizziness; swindle"
+        },
+        {
+          "de": "die Erinnerung, die Erinnerungen",
+          "en": "memory"
+        },
+        {
+          "de": "das Tor, die Tore",
+          "en": "gate",
+          "note": "Mann: die Gartenpforte"
+        },
+        {
+          "de": "hören",
+          "en": "to hear"
+        },
+        {
+          "de": "dunkel",
+          "en": "dark"
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "type": "summary",
+      "covers": "Chapter VII",
+      "en": "On deck a young businessman from Hamburg, who ate an enormous amount of lobster omelette at dinner, gazes up at the sky. ‘Just look at the stars,’ he says, pronouncing it ‘Sderne’ in his Hamburg accent – next to them, we humans are nothing but worms. Tonio thinks with amusement that this man has no literature in him, and yet he feels friendly towards him. The man admits that he is often melancholy, and Tonio suspects he secretly writes poems. The wind gets stronger and they go to bed, but Tonio can't sleep and feels seasick, so he goes back on deck. A storm is raging: the waves leap up like flames, the polar bear and the tiger roar below deck, and the young man from Hamburg is being sick over the rail."
+    },
+    {
+      "n": 75,
+      "de": "Tonio Kröger hielt sich an irgendeinem gestrafften Tau und blickte hinaus in all den unbändigen Übermut. In ihm schwang sich ein Jauchzen auf, und ihm war, als sei es mächtig genug, um Sturm und Flut zu übertönen. Ein Sang an das Meer, begeistert von Liebe, tönte in ihm. Du meiner Jugend wilder Freund, so sind wir einmal noch vereint... Aber dann war das Gedicht zu Ende. Es ward nicht fertig, nicht rund geformt und nicht in Gelassenheit zu etwas Ganzem geschmiedet. Sein Herz lebte...",
+      "en": "Tonio Kröger held on to a taut rope and looked out into all that untamed wildness. A shout of joy rose up inside him, and it seemed to him mighty enough to drown out storm and sea. A song to the sea, inspired by love, sounded within him. You wild friend of my youth, so we are united once again... But then the poem was over. It didn't get finished, didn't get rounded off, wasn't calmly forged into a whole. His heart was alive...",
+      "explain_en": "In Chapter II love stopped Tonio from shaping things calmly into a whole (“in Gelassenheit etwas Ganzes schmieden”). The same words return here: his poem doesn't get finished – and that's good news, because “sein Herz lebte” (his heart was alive) again, as when he was young. “ihm war, als sei es ...” = it seemed to him as if it were ... (Konjunktiv I). “übertönen” = to drown out (a sound). “ward” is old for “wurde”. “die Gelassenheit” = calmness – still used: “Bleib gelassen!” = Stay calm!",
+      "words": [
+        {
+          "de": "sich festhalten",
+          "en": "to hold on"
+        },
+        {
+          "de": "das Meer, die Meere",
+          "en": "sea"
+        },
+        {
+          "de": "der Sturm, die Stürme",
+          "en": "storm"
+        },
+        {
+          "de": "die Jugend",
+          "en": "youth"
+        },
+        {
+          "de": "das Gedicht, die Gedichte",
+          "en": "poem"
+        },
+        {
+          "de": "gelassen",
+          "en": "calm, relaxed"
+        }
+      ]
+    },
+    {
+      "n": 76,
+      "type": "summary",
+      "covers": "Chapters VII–VIII",
+      "en": "At dawn the ship passes the white chalk cliffs of Møn. Tonio spends three days sightseeing in Copenhagen, but what he really notices are familiar old names on the houses and, everywhere, blue eyes and blond hair like in his dreams. Restless, he travels on past Helsingør to a small white seaside hotel in Aalsgaard. CHAPTER VIII: It's September and there are few guests – the elderly landlady, a wheezing fish dealer from Copenhagen, and three silent American boys with their tutor. Tonio spends peaceful days on the beach and in the beech woods, forgetting time. Then one morning, after a glorious sunrise and a swim, he finds the hotel full of day-trippers from Helsingør. ‘There'll be a dance here tonight – we won't get a wink of sleep!’ grumbles the fish dealer."
+    },
+    {
+      "n": 77,
+      "de": "Da geschah dies auf einmal: Hans Hansen und Ingeborg Holm gingen durch den Saal. – Tonio Kröger lehnte, in einer wohligen Ermüdung nach dem Bade und seinem hurtigen Gang, im Stuhl und aß geräucherten Lachs auf Röstbrot; – er saß der Veranda und dem Meere zugewandt. Und plötzlich öffnete sich die Tür, und Hand in Hand kamen die beiden herein, – schlendernd und ohne Eile.",
+      "en": "Then, all of a sudden, this happened: Hans Hansen and Ingeborg Holm walked through the dining room. – Tonio Kröger was leaning back in his chair, pleasantly tired after his swim and his brisk walk, eating smoked salmon on toast; he was sitting facing the veranda and the sea. And suddenly the door opened, and the two of them came in hand in hand – strolling and in no hurry.",
+      "explain_en": "The big surprise of the story. Mann states it as a plain fact – but read on carefully: are these really Hans and Inge from school, or a young Danish couple who look just like them? “auf einmal” = suddenly. “das Bad” here means the swim in the sea (“baden gehen” = to go swimming). “hurtig” is old-fashioned for “schnell”. “zugewandt” = facing (from “zuwenden”). “schlendern” = to stroll – still common.",
+      "words": [
+        {
+          "de": "auf einmal",
+          "en": "suddenly; at once"
+        },
+        {
+          "de": "der Stuhl, die Stühle",
+          "en": "chair"
+        },
+        {
+          "de": "der Lachs, die Lachse",
+          "en": "salmon"
+        },
+        {
+          "de": "die Tür, die Türen",
+          "en": "door"
+        },
+        {
+          "de": "Hand in Hand",
+          "en": "hand in hand"
+        },
+        {
+          "de": "schlendern",
+          "en": "to stroll"
+        },
+        {
+          "de": "die Eile",
+          "en": "hurry",
+          "note": "Ich bin in Eile. = I'm in a hurry."
+        }
+      ]
+    },
+    {
+      "n": 78,
+      "type": "summary",
+      "covers": "Chapter VIII",
+      "en": "‘Inge’ wears a light summer dress, just like at Herr Knaak's dance lessons, though her braid is now pinned up; ‘Hans’ wears his sailor jacket, swings his cap and stares defiantly at the people eating. (Mann never says whether they really are Hans and Inge or a Danish pair of exactly the same type.) The day-trippers drive off and come back in the evening for the dance. All day Tonio waits with an anxious, sweet joy he hasn't felt for years. When the music starts, he creeps down to the dark glass veranda and secretly watches the dancers through the open door. There they are: ‘Hans’ eating a big piece of cake near the door, ‘Inge’ resting by the wall. To Tonio they stand for everything light, cheerful and uncomplicated."
+    },
+    {
+      "n": 79,
+      "de": "Er sah sie an, sah, wie Hans Hansen so keck und wohlgestaltet wie nur jemals, breit in den Schultern und schmal in den Hüften, in seinem Matrosenanzug dastand, sah, wie Ingeborg auf eine gewisse übermütige Art lachend den Kopf zur Seite warf, auf eine gewisse Art ihre Hand, eine gar nicht besonders schmale, gar nicht besonders feine Kleinmädchenhand, zum Hinterkopfe führte, wobei der leichte Ärmel von ihrem Ellenbogen zurückglitt, – und plötzlich erschütterte das Heimweh seine Brust mit einem solchen Schmerz, dass er unwillkürlich weiter ins Dunkel zurückwich, damit niemand das Zucken seines Gesichtes sähe.",
+      "en": "He looked at them, saw how Hans Hansen stood there in his sailor suit, as bold and well-built as ever, broad in the shoulders and narrow in the hips; saw how Ingeborg tossed her head to one side, laughing in a certain high-spirited way, and in a certain way raised her hand – a not particularly slender, not particularly delicate little girl's hand – to the back of her head, so that the light sleeve slid back from her elbow – and suddenly homesickness shook his chest with such pain that he drew back further into the darkness without meaning to, so that no one would see his face twitch.",
+      "explain_en": "These are almost the same words as the moment Tonio fell in love with Inge in Chapter II (“auf eine gewisse übermütige Art lachend den Kopf zur Seite warf ...”) – as if time had stood still. “das Heimweh” = homesickness (“Ich habe Heimweh”); here it is a longing for his lost youth, not just for a place. “unwillkürlich” = involuntarily, without meaning to. “damit niemand ... sähe” = so that no one would see (Konjunktiv II; today usually “sehen konnte”). “zucken” = to twitch.",
+      "words": [
+        {
+          "de": "die Schulter, die Schultern",
+          "en": "shoulder"
+        },
+        {
+          "de": "die Hüfte, die Hüften",
+          "en": "hip"
+        },
+        {
+          "de": "der Ärmel, die Ärmel",
+          "en": "sleeve"
+        },
+        {
+          "de": "der Ellenbogen, die Ellenbogen",
+          "en": "elbow"
+        },
+        {
+          "de": "das Heimweh",
+          "en": "homesickness"
+        },
+        {
+          "de": "der Schmerz, die Schmerzen",
+          "en": "pain"
+        },
+        {
+          "de": "das Gesicht, die Gesichter",
+          "en": "face"
+        }
+      ]
+    },
+    {
+      "n": 80,
+      "de": "Hatte ich euch vergessen? fragte er. Nein, niemals! Nicht dich, Hans, noch dich, blonde Inge! Ihr wart es ja, für die ich arbeitete, und wenn ich Applaus vernahm, blickte ich heimlich um mich, ob ihr daran teilhättet... Hast du nun den ›Don Carlos‹ gelesen, Hans Hansen, wie du es mir an eurer Gartenpforte versprachst? Tu's nicht! Ich verlange es nicht mehr von dir. Was geht dich der König an, der weint, weil er einsam ist? Du sollst deine hellen Augen nicht trüb und traumblöde machen vom Starren in Verse und Melancholie...",
+      "en": "Had I forgotten you? he asked. No, never! Not you, Hans, nor you, blonde Inge! It was you I was working for, and whenever I heard applause I secretly looked around to see if you were part of it... Have you read ‘Don Carlos’ now, Hans Hansen, as you promised me at your garden gate? Don't! I don't ask it of you any more. What's the king who weeps because he is lonely to you? You shouldn't make your bright eyes dull and dreamy from staring at poems and melancholy...",
+      "explain_en": "Tonio talks to them silently in his head, using “du” and “ihr” (plural you). In Chapter I Hans promised to read Schiller's play ‘Don Carlos’, about a lonely king – now Tonio doesn't want him to. “Tu's nicht!” = Don't (do it)! “Was geht dich ... an?” = What's ... to you? – very common: “Das geht dich nichts an!” = That's none of your business! “teilhaben an” = to share in. “verlangen” = to demand, ask for. “traumblöde” is Mann's own word: dazed from dreaming.",
+      "words": [
+        {
+          "de": "vergessen",
+          "en": "to forget"
+        },
+        {
+          "de": "niemals",
+          "en": "never"
+        },
+        {
+          "de": "der Beifall",
+          "en": "applause",
+          "note": "also: der Applaus"
+        },
+        {
+          "de": "versprechen",
+          "en": "to promise",
+          "note": "versprach, hat versprochen"
+        },
+        {
+          "de": "angehen",
+          "en": "to concern",
+          "note": "Das geht dich nichts an! = None of your business!"
+        },
+        {
+          "de": "der König, die Könige",
+          "en": "king"
+        },
+        {
+          "de": "einsam",
+          "en": "lonely"
+        }
+      ]
+    },
+    {
+      "n": 81,
+      "de": "Zu sein wie du! Noch einmal anfangen, aufwachsen gleich dir, rechtschaffen, fröhlich und schlicht, regelrecht, ordnungsgemäß und im Einverständnis mit Gott und der Welt, geliebt werden von den Harmlosen und Glücklichen, dich zum Weibe nehmen, Ingeborg Holm, und einen Sohn haben wie du, Hans Hansen, – frei vom Fluch der Erkenntnis und der schöpferischen Qual leben, lieben und loben in seliger Gewöhnlichkeit!... Noch einmal anfangen? Aber es hülfe nichts. Es würde wieder so werden, – alles würde wieder so kommen, wie es gekommen ist. Denn etliche gehen mit Notwendigkeit in die Irre, weil es einen rechten Weg für sie überhaupt nicht gibt.",
+      "en": "To be like you! To start again, to grow up like you, decent, cheerful and simple, normal, orderly and at peace with God and the world, loved by the harmless and happy, to take you as my wife, Ingeborg Holm, and to have a son like you, Hans Hansen – to live free from the curse of knowledge and the torment of creation, to live, love and praise in blissful ordinariness!... Start again? But it would be no use. It would all turn out the same – everything would happen again just the way it has happened. For some people go astray of necessity, because for them there simply is no right way.",
+      "explain_en": "Tonio dreams of an ordinary life – then admits it would change nothing. The last sentence repeats the start of Chapter III. “jemanden zum Weibe nehmen” is very old: today “jemanden heiraten” (to marry someone); “das Weib” is old-fashioned and today sounds rude or insulting – say “die Frau”. “Es hülfe nichts” uses the old Konjunktiv II of “helfen”; today “Es würde nichts helfen” or “Das bringt nichts”. “mit Gott und der Welt” = with everybody. “in die Irre gehen” = to go astray.",
+      "words": [
+        {
+          "de": "aufwachsen",
+          "en": "to grow up",
+          "note": "wuchs auf, ist aufgewachsen"
+        },
+        {
+          "de": "fröhlich",
+          "en": "cheerful"
+        },
+        {
+          "de": "heiraten",
+          "en": "to marry",
+          "note": "Mann: zum Weibe nehmen"
+        },
+        {
+          "de": "der Fluch, die Flüche",
+          "en": "curse"
+        },
+        {
+          "de": "die Erkenntnis, die Erkenntnisse",
+          "en": "knowledge, insight"
+        },
+        {
+          "de": "anfangen",
+          "en": "to start, to begin"
+        },
+        {
+          "de": "in die Irre gehen",
+          "en": "to go astray"
+        }
+      ]
+    },
+    {
+      "n": 82,
+      "type": "summary",
+      "covers": "Chapter VIII",
+      "en": "In the break ‘Hans’ and ‘Inge’ glance at Tonio with complete indifference. But a pale, thin girl whom hardly anyone has asked to dance keeps looking at him with dark, swimming eyes; he turns away. He longs to say something to Hans and Inge, just a joke to get a smile, but can't find the courage: their language is not his language. Then a quadrille begins, with French commands, just like at Herr Knaak's. Inge dances right in front of him, and he wonders whether she would still laugh at him now that he is famous – and thinks she'd be right to. In the wild final gallop the pale girl falls hard. Tonio helps her up. ‘Tak! O, mange Tak!’ (Danish: thank you so much), she says. ‘You shouldn't dance any more, Fräulein,’ he says gently, and leaves."
+    },
+    {
+      "n": 83,
+      "de": "Er war berauscht von dem Feste, an dem er nicht teilgehabt, und müde von Eifersucht. Wie früher, ganz wie früher war es gewesen! Mit erhitztem Gesicht hatte er an dunkler Stelle gestanden, in Schmerzen um euch, ihr Blonden, Lebendigen, Glücklichen, und war dann einsam hinweggegangen. Jemand müsste nun kommen! Ingeborg müsste nun kommen, müsste bemerken, dass er fort war, müsste ihm heimlich folgen, ihm die Hand auf die Schulter legen und sagen: Komm herein zu uns! Sei froh! Ich liebe dich!...",
+      "en": "He was intoxicated by the party he had not taken part in, and tired from jealousy. It had been like before, exactly like before! With a flushed face he had stood in a dark place, aching for you, you blond, living, happy ones, and had then gone away alone. Someone ought to come now! Ingeborg ought to come now, ought to notice that he had gone, ought to follow him secretly, put her hand on his shoulder and say: Come in and join us! Be happy! I love you!...",
+      "explain_en": "This is the same wish Tonio had at sixteen, in the corridor after the dance lesson, almost word for word – the story comes full circle. “berauscht” = intoxicated (“der Rausch” = intoxication, high). “die Eifersucht” = jealousy; “eifersüchtig” = jealous. “müsste” (Konjunktiv II of “müssen”) = ought to: “Sie müsste eigentlich gleich kommen.” “an dem er nicht teilgehabt” – Mann leaves out the “hatte” at the end, which is old-fashioned.",
+      "words": [
+        {
+          "de": "die Eifersucht",
+          "en": "jealousy"
+        },
+        {
+          "de": "früher",
+          "en": "before, in the past"
+        },
+        {
+          "de": "bemerken",
+          "en": "to notice"
+        },
+        {
+          "de": "folgen",
+          "en": "to follow",
+          "note": "+ dative: Folg mir!"
+        },
+        {
+          "de": "die Hand auf die Schulter legen",
+          "en": "to put your hand on someone's shoulder"
+        },
+        {
+          "de": "froh",
+          "en": "glad, happy"
+        }
+      ]
+    },
+    {
+      "n": 84,
+      "de": "Aber sie kam keines Weges. Dergleichen geschah nicht. Ja, wie damals war es, und er war glücklich wie damals. Denn sein Herz lebte. Was aber war gewesen während all der Zeit, in der er das geworden, was er nun war? – Erstarrung; Öde; Eis; und Geist! Und Kunst!... Er entkleidete sich, legte sich zur Ruhe, löschte das Licht. Er flüsterte zwei Namen in das Kissen hinein, diese paar keuschen, nordischen Silben, die ihm seine eigentliche und ursprüngliche Liebes-, Leides- und Glückesart, das Leben, das simple und innige Gefühl, die Heimat bezeichneten. Er blickte zurück auf die Jahre seit damals bis auf diesen Tag.",
+      "en": "But she did not come at all. Things like that didn't happen. Yes, it was just like back then, and he was happy, as he had been back then. For his heart was alive. But what had there been during all the time in which he had become what he now was? – Numbness; emptiness; ice; and intellect! And art!... He undressed, lay down to rest and put out the light. He whispered two names into the pillow, those few chaste, northern syllables that stood for his true and original way of loving, suffering and being happy, for life, for simple and heartfelt feeling, for home. He looked back over the years from then until this day.",
+      "explain_en": "“Denn sein Herz lebte” – the key sentence from Chapters I and II returns: feeling lonely and hurt means his heart is alive again, after years of “Eis” (ice) and “Geist” (intellect). “keines Weges” is Mann's spelling of “keineswegs” (not at all). “Dergleichen” = things like that (formal; everyday “so was”). “das Licht löschen” = to put out the light (everyday “das Licht ausmachen”). “die Heimat” = home, homeland – a word full of feeling in German.",
+      "words": [
+        {
+          "de": "damals",
+          "en": "back then"
+        },
+        {
+          "de": "das Eis",
+          "en": "ice; ice cream"
+        },
+        {
+          "de": "die Kunst, die Künste",
+          "en": "art"
+        },
+        {
+          "de": "flüstern",
+          "en": "to whisper"
+        },
+        {
+          "de": "das Kissen, die Kissen",
+          "en": "pillow, cushion"
+        },
+        {
+          "de": "die Heimat",
+          "en": "home, homeland"
+        },
+        {
+          "de": "zurückblicken",
+          "en": "to look back"
+        }
+      ]
+    },
+    {
+      "n": 85,
+      "de": "Er gedachte der wüsten Abenteuer der Sinne, der Nerven und des Gedankens, die er durchlebt, sah sich zerfressen von Ironie und Geist, verödet und gelähmt von Erkenntnis, halb aufgerieben von den Fiebern und Frösten des Schaffens, haltlos und unter Gewissensnöten zwischen krassen Extremen, zwischen Heiligkeit und Brunst hin und her geworfen, raffiniert, verarmt, erschöpft von kalten und künstlich erlesenen Exaltationen, verirrt, verwüstet, zermartert, krank – und schluchzte vor Reue und Heimweh. Um ihn war es still und dunkel. Aber von unten tönte gedämpft und wiegend des Lebens süßer, trivialer Dreitakt zu ihm herauf.",
+      "en": "He thought of the wild adventures of the senses, the nerves and the mind that he had lived through, saw himself eaten away by irony and intellect, laid waste and paralysed by knowledge, half worn out by the fevers and chills of creating, tossed back and forth, unsteady and tormented by his conscience, between crude extremes, between holiness and lust – over-refined, impoverished, exhausted by cold and artificial raptures, lost, ruined, tortured, sick – and he sobbed with remorse and homesickness. Around him all was quiet and dark. But from below, muffled and swaying, the sweet, trivial three-four time of life drifted up to him.",
+      "explain_en": "CHAPTER VIII ends. The long sentence lists everything that went wrong in Tonio's adult life, until it breaks off in sobbing. “gedenken” (+ genitive) is old-fashioned for “denken an”. “die Brunst” is a strong old word for animal lust. “schluchzen” = to sob. “die Reue” = remorse, regret (“bereuen” = to regret). The “Dreitakt” is the waltz rhythm of the dance downstairs: ordinary life goes on, sweet and a bit banal – without him.",
+      "words": [
+        {
+          "de": "das Abenteuer, die Abenteuer",
+          "en": "adventure"
+        },
+        {
+          "de": "krank",
+          "en": "ill, sick"
+        },
+        {
+          "de": "erschöpft",
+          "en": "exhausted"
+        },
+        {
+          "de": "schluchzen",
+          "en": "to sob"
+        },
+        {
+          "de": "die Reue",
+          "en": "remorse, regret"
+        },
+        {
+          "de": "still",
+          "en": "quiet, still"
+        },
+        {
+          "de": "der Takt, die Takte",
+          "en": "beat, rhythm, bar"
+        }
+      ]
+    },
+    {
+      "n": 86,
+      "de": "Tonio Kröger saß im Norden und schrieb an Lisaweta Iwanowna, seine Freundin, wie er es ihr versprochen hatte. Liebe Lisaweta dort unten in Arkadien, wohin ich bald zurückkehren werde, schrieb er. Hier ist nun also so etwas wie ein Brief, aber er wird Sie wohl enttäuschen, denn ich denke, ihn ein wenig allgemein zu halten. Nicht, dass ich so gar nichts zu erzählen, auf meine Weise nicht dies und das erlebt hätte. Zu Hause, in meiner Vaterstadt, wollte man mich sogar verhaften... aber davon sollen Sie mündlich hören. Ich habe jetzt manchmal Tage, an denen ich es vorziehe, auf gute Art etwas Allgemeines zu sagen, anstatt Geschichten zu erzählen.",
+      "en": "Tonio Kröger sat in the North and wrote to Lisaweta Ivanovna, his friend, as he had promised her. Dear Lisaweta down there in Arcadia, where I shall soon return, he wrote. So here is something like a letter, but it will probably disappoint you, because I intend to keep it rather general. Not that I have nothing at all to tell, or haven't experienced this and that in my own way. At home, in my native town, they even wanted to arrest me... but you shall hear about that in person. These days I sometimes have days when I prefer to say something general in a good way rather than tell stories.",
+      "explain_en": "CHAPTER IX, the last, is Tonio's letter to Lisaweta – the one she asked for at the end of Chapter V. “Arkadien” (Arcadia) is the ancient Greek dreamland of happy shepherds; Tonio jokingly means sunny Munich. “verhaften” = to arrest – still the normal word. “mündlich” = in person, spoken (the opposite of “schriftlich”, in writing). “etwas vorziehen” = to prefer something: “Ich ziehe Tee vor.” “Nicht, dass ...” = not that ...",
+      "words": [
+        {
+          "de": "versprechen",
+          "en": "to promise"
+        },
+        {
+          "de": "enttäuschen",
+          "en": "to disappoint"
+        },
+        {
+          "de": "allgemein",
+          "en": "general"
+        },
+        {
+          "de": "erleben",
+          "en": "to experience"
+        },
+        {
+          "de": "verhaften",
+          "en": "to arrest"
+        },
+        {
+          "de": "mündlich",
+          "en": "orally, in person",
+          "note": "opposite: schriftlich"
+        },
+        {
+          "de": "vorziehen",
+          "en": "to prefer",
+          "note": "zog vor, hat vorgezogen"
+        }
+      ]
+    },
+    {
+      "n": 87,
+      "de": "Wissen Sie wohl noch, Lisaweta, dass Sie mich einmal einen Bürger, einen verirrten Bürger nannten? Sie nannten mich so in einer Stunde, da ich Ihnen, verführt durch andere Geständnisse, die ich mir vorher hatte entschlüpfen lassen, meine Liebe zu dem gestand, was ich das ›Leben‹ nenne; und ich frage mich, ob Sie wohl wussten, wie sehr Sie damit die Wahrheit trafen, wie sehr mein Bürgertum und meine Liebe zum ›Leben‹ eins und dasselbe sind. Diese Reise hat mir Veranlassung gegeben, darüber nachzudenken...",
+      "en": "Do you still remember, Lisaweta, that you once called me a bourgeois, a bourgeois gone astray? You called me that at a moment when, carried away by other confessions I had let slip before, I confessed to you my love for what I call ‘life’; and I wonder whether you knew how very much you hit the truth, how very much my bourgeois nature and my love of ‘life’ are one and the same. This journey has given me cause to think about it...",
+      "explain_en": "Tonio now agrees with Lisaweta's verdict from Chapter IV and explains it. “Wissen Sie wohl noch ...?” = Do you still remember ...? (today “Erinnern Sie sich noch ...?” or, among friends, “Weißt du noch ...?”). “in einer Stunde, da ...” – “da” here means “when” (old-fashioned; today “als”). “entschlüpfen” = to slip out. “die Wahrheit treffen” = to hit the truth. “eins und dasselbe” = one and the same. “die Veranlassung” = reason, occasion (today usually “der Anlass”).",
+      "words": [
+        {
+          "de": "sich erinnern an",
+          "en": "to remember"
+        },
+        {
+          "de": "nennen",
+          "en": "to call, to name",
+          "note": "nannte, hat genannt"
+        },
+        {
+          "de": "die Wahrheit, die Wahrheiten",
+          "en": "truth"
+        },
+        {
+          "de": "gestehen",
+          "en": "to confess, to admit",
+          "note": "gestand, hat gestanden"
+        },
+        {
+          "de": "nachdenken über",
+          "en": "to think about"
+        },
+        {
+          "de": "eins und dasselbe",
+          "en": "one and the same"
+        }
+      ]
+    },
+    {
+      "n": 88,
+      "de": "Mein Vater, wissen Sie, war ein nordisches Temperament: betrachtsam, gründlich, korrekt aus Puritanismus und zur Wehmut geneigt; meine Mutter von unbestimmt exotischem Blut, schön, sinnlich, naiv, zugleich fahrlässig und leidenschaftlich und von einer impulsiven Liederlichkeit. Ganz ohne Zweifel war dies eine Mischung, die außerordentliche Möglichkeiten – und außerordentliche Gefahren in sich schloss.",
+      "en": "My father, you know, had a northern temperament: thoughtful, thorough, correct out of Puritanism and inclined to melancholy; my mother was of vaguely exotic blood, beautiful, sensual, naive, both careless and passionate, and impulsively disorderly. Without any doubt this was a mixture that held extraordinary possibilities – and extraordinary dangers.",
+      "explain_en": "Tonio explains himself through his parents: the serious northern father and the passionate southern mother. Explaining someone's character by their “Blut” (blood) was common around 1900, but today it sounds like old racial thinking – we would talk about background or upbringing. “geneigt zu” = inclined to. “die Liederlichkeit” = sloppiness, loose living (old-fashioned). “Ganz ohne Zweifel” = without any doubt – still normal.",
+      "words": [
+        {
+          "de": "der Vater, die Väter",
+          "en": "father"
+        },
+        {
+          "de": "die Mutter, die Mütter",
+          "en": "mother"
+        },
+        {
+          "de": "gründlich",
+          "en": "thorough"
+        },
+        {
+          "de": "leidenschaftlich",
+          "en": "passionate"
+        },
+        {
+          "de": "die Mischung, die Mischungen",
+          "en": "mixture"
+        },
+        {
+          "de": "die Gefahr, die Gefahren",
+          "en": "danger"
+        },
+        {
+          "de": "der Zweifel, die Zweifel",
+          "en": "doubt"
+        }
+      ]
+    },
+    {
+      "n": 89,
+      "de": "Was herauskam, war dies: ein Bürger, der sich in die Kunst verirrte, ein Bohemien mit Heimweh nach der guten Kinderstube, ein Künstler mit schlechtem Gewissen. Denn mein bürgerliches Gewissen ist es ja, was mich in allem Künstlertum, aller Außerordentlichkeit und allem Genie etwas tief Zweideutiges, tief Anrüchiges, tief Zweifelhaftes erblicken lässt, was mich mit dieser verliebten Schwäche für das Simple, Treuherzige und Angenehm-Normale, das Ungeniale und Anständige erfüllt.",
+      "en": "What came out of it was this: a bourgeois who strayed into art, a bohemian homesick for a good upbringing, an artist with a bad conscience. For it is my bourgeois conscience that makes me see something deeply ambiguous, deeply disreputable, deeply dubious in all artistry, all extraordinariness and all genius, and that fills me with this lovesick weakness for the simple, the true-hearted and the pleasantly normal, for what is decent and not a genius.",
+      "explain_en": "The famous self-description: “ein Künstler mit schlechtem Gewissen” – an artist with a bad conscience. “Was herauskam, war dies” = what came out of it was this (“Was ist dabei herausgekommen?” = What was the result?). “ein Bohemien” = a free-living artist type. “ein schlechtes Gewissen haben” = to feel guilty – very common. “zweideutig” = ambiguous (literally “two-meaning”); “anrüchig” = shady, disreputable. “eine Schwäche für” = a soft spot for: “Ich habe eine Schwäche für Schokolade.”",
+      "words": [
+        {
+          "de": "herauskommen",
+          "en": "to come out, to result"
+        },
+        {
+          "de": "der Künstler, die Künstler",
+          "en": "artist"
+        },
+        {
+          "de": "das Gewissen",
+          "en": "conscience",
+          "note": "ein schlechtes Gewissen haben = to feel guilty"
+        },
+        {
+          "de": "das Genie, die Genies",
+          "en": "genius"
+        },
+        {
+          "de": "zweideutig",
+          "en": "ambiguous"
+        },
+        {
+          "de": "die Schwäche, die Schwächen",
+          "en": "weakness; soft spot"
+        },
+        {
+          "de": "anständig",
+          "en": "decent, respectable"
+        }
+      ]
+    },
+    {
+      "n": 90,
+      "de": "Ich stehe zwischen zwei Welten, bin in keiner daheim und habe es infolgedessen ein wenig schwer. Ihr Künstler nennt mich einen Bürger, und die Bürger sind versucht, mich zu verhaften... ich weiß nicht, was von beiden mich bitterer kränkt. Die Bürger sind dumm; ihr Anbeter der Schönheit aber, die ihr mich phlegmatisch und ohne Sehnsucht heißt, solltet bedenken, dass es ein Künstlertum gibt, so tief, so von Anbeginn und Schicksals wegen, dass keine Sehnsucht ihm süßer und empfindenswerter erscheint als die nach den Wonnen der Gewöhnlichkeit.",
+      "en": "I stand between two worlds, I am at home in neither, and so I have rather a hard time of it. You artists call me a bourgeois, and the bourgeois are tempted to arrest me... I don't know which of the two hurts me more bitterly. The bourgeois are stupid; but you worshippers of beauty, who call me dull and without longing, should remember that there is a kind of artistry so deep, so much there from the very beginning and by fate, that no longing seems sweeter and more worth feeling to it than the longing for the joys of the ordinary.",
+      "explain_en": "“Ich stehe zwischen zwei Welten, bin in keiner daheim” is one of Thomas Mann's most quoted sentences – many people who grow up between two cultures recognise themselves in it. “es schwer haben” = to have a hard time: “Er hat es nicht leicht.” “versucht sein” = to be tempted. “kränken” = to hurt someone's feelings. “heißen” here is old-fashioned for “nennen” (to call someone something). “phlegmatisch” = sluggish, unemotional. “daheim” = at home (southern German; elsewhere “zu Hause”).",
+      "words": [
+        {
+          "de": "die Welt, die Welten",
+          "en": "world"
+        },
+        {
+          "de": "daheim",
+          "en": "at home",
+          "note": "also: zu Hause"
+        },
+        {
+          "de": "es schwer haben",
+          "en": "to have a hard time"
+        },
+        {
+          "de": "versucht sein",
+          "en": "to be tempted"
+        },
+        {
+          "de": "dumm",
+          "en": "stupid"
+        },
+        {
+          "de": "die Schönheit",
+          "en": "beauty"
+        },
+        {
+          "de": "süß",
+          "en": "sweet"
+        }
+      ]
+    },
+    {
+      "n": 91,
+      "de": "Ich bewundere die Stolzen und Kalten, die auf den Pfaden der großen, der dämonischen Schönheit abenteuern und den ›Menschen‹ verachten, – aber ich beneide sie nicht. Denn wenn irgendetwas imstande ist, aus einem Literaten einen Dichter zu machen, so ist es diese meine Bürgerliebe zum Menschlichen, Lebendigen und Gewöhnlichen. Alle Wärme, alle Güte, aller Humor kommt aus ihr, und fast will mir scheinen, als sei sie jene Liebe selbst, von der geschrieben steht, dass einer mit Menschen- und Engelszungen reden könne und ohne sie doch nur ein tönendes Erz und eine klingende Schelle sei.",
+      "en": "I admire the proud and cold who go adventuring on the paths of great, demonic beauty and despise ‘human beings’ – but I don't envy them. For if anything can make a poet out of a mere man of letters, it is this bourgeois love of mine for the human, the living and the ordinary. All warmth, all kindness, all humour come from it, and it almost seems to me as if it were that very love of which it is written that a man may speak with the tongues of men and of angels, and without it still be only a sounding brass and a tinkling cymbal.",
+      "explain_en": "The end of this passage quotes the Bible (1 Corinthians 13): “Though I speak with the tongues of men and of angels, and have not love, I am become as sounding brass, or a tinkling cymbal.” Tonio separates a “Literat” (a clever writer) from a “Dichter” (a true poet): what makes the difference is love for ordinary people. “bewundern” = to admire; “beneiden” = to envy. “imstande sein” = to be able to (formal; everyday “können”). “fast will mir scheinen” = it almost seems to me (old-fashioned; today “Mir scheint fast”).",
+      "words": [
+        {
+          "de": "bewundern",
+          "en": "to admire"
+        },
+        {
+          "de": "beneiden",
+          "en": "to envy"
+        },
+        {
+          "de": "stolz",
+          "en": "proud"
+        },
+        {
+          "de": "die Wärme",
+          "en": "warmth"
+        },
+        {
+          "de": "die Güte",
+          "en": "kindness, goodness"
+        },
+        {
+          "de": "der Humor",
+          "en": "humour"
+        },
+        {
+          "de": "der Engel, die Engel",
+          "en": "angel"
+        }
+      ]
+    },
+    {
+      "n": 92,
+      "de": "Was ich getan habe, ist nichts, nicht viel, so gut wie nichts. Ich werde Besseres machen, Lisaweta, – dies ist ein Versprechen. Während ich schreibe, rauscht das Meer zu mir herauf, und ich schließe die Augen. Ich schaue in eine ungeborene und schemenhafte Welt hinein, die geordnet und gebildet sein will, ich sehe in ein Gewimmel von Schatten menschlicher Gestalten, die mir winken, dass ich sie banne und erlöse: tragische und lächerliche und solche, die beides zugleich sind, – und diesen bin ich sehr zugetan.",
+      "en": "What I have done is nothing, not much, as good as nothing. I will do better things, Lisaweta – this is a promise. As I write, the sea murmurs up to me, and I close my eyes. I look into an unborn, shadowy world that wants to be ordered and shaped; I see a swarm of shadowy human figures who beckon to me to capture them and set them free: tragic ones and ridiculous ones and ones that are both at once – and I am very fond of those.",
+      "explain_en": "Tonio feels his next books coming: characters are waiting to be written. “so gut wie nichts” = as good as nothing – very common. “das Versprechen” = promise (a verb used as a noun). “das Gewimmel” = swarm, throng (“Es wimmelt von Ameisen” = It's teeming with ants). “winken” = to wave, to beckon. “bannen” = to capture (as if by magic); “erlösen” = to set free, to redeem. “jemandem zugetan sein” is old-fashioned for “jemanden mögen”.",
+      "words": [
+        {
+          "de": "das Versprechen, die Versprechen",
+          "en": "promise"
+        },
+        {
+          "de": "die Augen schließen",
+          "en": "to close your eyes",
+          "note": "schloss, hat geschlossen"
+        },
+        {
+          "de": "der Schatten, die Schatten",
+          "en": "shadow"
+        },
+        {
+          "de": "die Gestalt, die Gestalten",
+          "en": "figure"
+        },
+        {
+          "de": "winken",
+          "en": "to wave, to beckon"
+        },
+        {
+          "de": "tragisch",
+          "en": "tragic"
+        },
+        {
+          "de": "lächerlich",
+          "en": "ridiculous"
+        }
+      ]
+    },
+    {
+      "n": 93,
+      "de": "Aber meine tiefste und verstohlenste Liebe gehört den Blonden und Blauäugigen, den hellen Lebendigen, den Glücklichen, Liebenswürdigen und Gewöhnlichen. Schelten Sie diese Liebe nicht, Lisaweta; sie ist gut und fruchtbar. Sehnsucht ist darin und schwermütiger Neid und ein klein wenig Verachtung und eine ganze keusche Seligkeit.",
+      "en": "But my deepest and most secret love belongs to the blond and blue-eyed, the bright and living, the happy, the lovable and the ordinary. Don't scold this love, Lisaweta; it is good and fruitful. There is longing in it, and gloomy envy, and just a little contempt, and a whole, innocent bliss.",
+      "explain_en": "THE END. The very last sentence repeats the last sentence of Chapter I almost word for word – “war darin” (was in it) has become “ist darin” (is in it): Tonio's heart is still alive. In the story “die Blonden und Blauäugigen” stand for people like Hans and Inge – cheerful, uncomplicated, “normal” people – not for a race (although ideas like this were later misused in terrible ways). “schelten” (schalt, hat gescholten) is old-fashioned for “schimpfen”. “fruchtbar” = fruitful.",
+      "words": [
+        {
+          "de": "tief",
+          "en": "deep"
+        },
+        {
+          "de": "gehören",
+          "en": "to belong to",
+          "note": "+ dative: Das gehört mir."
+        },
+        {
+          "de": "schimpfen",
+          "en": "to scold, to tell off",
+          "note": "Mann: schelten"
+        },
+        {
+          "de": "fruchtbar",
+          "en": "fruitful"
+        },
+        {
+          "de": "der Neid",
+          "en": "envy"
+        },
+        {
+          "de": "die Verachtung",
+          "en": "contempt"
+        },
+        {
+          "de": "die Seligkeit",
+          "en": "bliss",
+          "note": "poetic"
+        }
       ]
     }
   ]
