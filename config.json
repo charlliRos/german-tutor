@@ -1,0 +1,15 @@
+{
+  "_comment": "Change any value, save, restart the app. Delete a line to go back to the default.",
+  "warmup_words": 20,
+  "new_words_per_day": 8,
+  "stem_share": 0.3,
+  "units_per_day": 1,
+  "speak_chance": 0.25,
+  "reading_tasks": {"read_aloud": 1, "de2en": 1, "en2de": 1},
+  "word_record_seconds": 3,
+  "voice": "de_DE-thorsten-medium",
+  "word_speed": 1.15,
+  "text_speed": 1.0,
+  "input_device": null,
+  "output_device": null
+}

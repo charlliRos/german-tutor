@@ -1,0 +1,1093 @@
+{
+  "id": "kafka-verwandlung",
+  "title": "Die Verwandlung",
+  "author": "Franz Kafka",
+  "author_died": 1924,
+  "year": 1915,
+  "level": "B1-B2",
+  "source": "https://www.gutenberg.org/ebooks/22367 (Project Gutenberg, from the Kurt Wolff Verlag edition, Leipzig 1917)",
+  "orthography": "modernised to current German spelling (dass, muss, ...) and current comma rules around quotations; wording unchanged except two obvious print errors (den→der, missing comma)",
+  "intro_en": "Franz Kafka (1883–1924) was a German-speaking writer from Prague who worked in an insurance office by day and wrote at night. In 'The Metamorphosis', the travelling salesman Gregor Samsa wakes up one morning to find he has turned into a giant insect – and his first worry is that he'll miss his train to work. It is one of the most famous stories ever written, and its calm, precise sentences are great for learning how German builds long sentences.",
+  "units": [
+    {
+      "n": 1,
+      "de": "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt. Er lag auf seinem panzerartig harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch, auf dessen Höhe sich die Bettdecke, zum gänzlichen Niedergleiten bereit, kaum noch erhalten konnte. Seine vielen, im Vergleich zu seinem sonstigen Umfang kläglich dünnen Beine flimmerten ihm hilflos vor den Augen.",
+      "en": "When Gregor Samsa woke one morning from troubled dreams, he found himself transformed in his bed into a monstrous vermin. He was lying on his hard, armour-like back, and when he lifted his head a little he could see his domed brown belly, divided into arch-shaped segments; the blanket, about to slide off completely, could barely stay on top of it. His many legs, pitifully thin compared with the rest of his bulk, flickered helplessly before his eyes.",
+      "explain_en": "The most famous first sentence in German literature: Gregor has turned into a giant bug. 'Als' + past tense means 'when' for a single event in the past (don't use 'wenn' here). 'erwachen' is literary – today you'd say 'aufwachen'. 'Ungeziefer' means pests/vermin in general (cockroaches, bedbugs), so Kafka never says exactly what insect he is. 'ungeheueren' is an older spelling; today 'ungeheuren'.",
+      "words": [
+        {
+          "de": "erwachen",
+          "en": "to wake up",
+          "note": "literary; today: aufwachen"
+        },
+        {
+          "de": "der Traum, die Träume",
+          "en": "dream"
+        },
+        {
+          "de": "sich verwandeln",
+          "en": "to transform, to turn into"
+        },
+        {
+          "de": "das Ungeziefer",
+          "en": "vermin, pests"
+        },
+        {
+          "de": "der Rücken",
+          "en": "back"
+        },
+        {
+          "de": "der Bauch, die Bäuche",
+          "en": "belly, stomach"
+        },
+        {
+          "de": "die Bettdecke",
+          "en": "duvet, blanket"
+        },
+        {
+          "de": "hilflos",
+          "en": "helpless"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "de": "»Was ist mit mir geschehen?«, dachte er. Es war kein Traum. Sein Zimmer, ein richtiges, nur etwas zu kleines Menschenzimmer, lag ruhig zwischen den vier wohlbekannten Wänden. Über dem Tisch, auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war – Samsa war Reisender –, hing das Bild, das er vor kurzem aus einer illustrierten Zeitschrift ausgeschnitten und in einem hübschen, vergoldeten Rahmen untergebracht hatte. Es stellte eine Dame dar, die, mit einem Pelzhut und einer Pelzboa versehen, aufrecht dasaß und einen schweren Pelzmuff, in dem ihr ganzer Unterarm verschwunden war, dem Beschauer entgegenhob.",
+      "en": "'What's happened to me?' he thought. It wasn't a dream. His room, a proper human room, only a bit too small, lay quietly between its four familiar walls. Above the table, on which a collection of cloth samples was spread out and unpacked – Samsa was a travelling salesman – hung the picture he had recently cut out of an illustrated magazine and put in a pretty gilt frame. It showed a lady sitting upright, wearing a fur hat and a fur boa, holding out towards the viewer a heavy fur muff into which her whole forearm had disappeared.",
+      "explain_en": "Gregor looks around his normal room. 'Was ist mit mir geschehen?' – 'geschehen' is a bit formal; in everyday German you'd say 'Was ist mit mir passiert?'. 'Reisender' here means a travelling salesman (today: 'Handelsvertreter' or 'Außendienstmitarbeiter'). Notice the long relative clauses with 'das', 'die', 'in dem' – the verb goes to the end of each one.",
+      "words": [
+        {
+          "de": "geschehen",
+          "en": "to happen",
+          "note": "today usually: passieren"
+        },
+        {
+          "de": "das Zimmer, die Zimmer",
+          "en": "room"
+        },
+        {
+          "de": "die Wand, die Wände",
+          "en": "wall"
+        },
+        {
+          "de": "das Bild, die Bilder",
+          "en": "picture"
+        },
+        {
+          "de": "die Zeitschrift, die Zeitschriften",
+          "en": "magazine"
+        },
+        {
+          "de": "der Rahmen",
+          "en": "frame"
+        },
+        {
+          "de": "ausschneiden",
+          "en": "to cut out"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "de": "Gregors Blick richtete sich dann zum Fenster, und das trübe Wetter – man hörte Regentropfen auf das Fensterblech aufschlagen – machte ihn ganz melancholisch. »Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße«, dachte er, aber das war gänzlich undurchführbar, denn er war gewöhnt, auf der rechten Seite zu schlafen, konnte sich aber in seinem gegenwärtigen Zustand nicht in diese Lage bringen.",
+      "en": "Gregor's gaze then turned to the window, and the gloomy weather – you could hear raindrops hitting the metal windowsill – made him quite melancholy. 'What if I slept a little longer and forgot all this nonsense,' he thought, but that was completely impossible, because he was used to sleeping on his right side and in his present state he couldn't get into that position.",
+      "explain_en": "Gregor tries to ignore the problem and go back to sleep. 'Wie wäre es, wenn ich ... weiterschliefe und ... vergäße' uses the Konjunktiv II for a wish or 'what if' idea; in speech people usually say 'Wie wäre es, wenn ich noch ein bisschen weiterschlafen würde?'. 'gewöhnt sein' + zu-infinitive = to be used to doing something. 'trübe' weather is grey and dull.",
+      "words": [
+        {
+          "de": "das Fenster",
+          "en": "window"
+        },
+        {
+          "de": "das Wetter",
+          "en": "weather"
+        },
+        {
+          "de": "der Regentropfen, die Regentropfen",
+          "en": "raindrop"
+        },
+        {
+          "de": "weiterschlafen",
+          "en": "to keep sleeping"
+        },
+        {
+          "de": "gewöhnt sein",
+          "en": "to be used to"
+        },
+        {
+          "de": "der Zustand, die Zustände",
+          "en": "state, condition"
+        },
+        {
+          "de": "die Seite, die Seiten",
+          "en": "side; page"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "de": "Mit welcher Kraft er sich auch auf die rechte Seite warf, immer wieder schaukelte er in die Rückenlage zurück. Er versuchte es wohl hundertmal, schloss die Augen, um die zappelnden Beine nicht sehen zu müssen, und ließ erst ab, als er in der Seite einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann.",
+      "en": "However hard he threw himself onto his right side, he always rocked back onto his back again. He must have tried it a hundred times, closing his eyes so he wouldn't have to see his wriggling legs, and only stopped when he began to feel a faint, dull pain in his side that he had never felt before.",
+      "explain_en": "Gregor keeps failing to turn over. 'Mit welcher Kraft er sich auch ... warf' means 'no matter how hard he threw himself' – 'auch' here makes it 'however/whatever'. 'wohl hundertmal' = 'probably a hundred times'; 'wohl' often means 'probably'. 'ablassen' (ließ ab) is old-fashioned for 'aufhören' (to stop).",
+      "words": [
+        {
+          "de": "die Kraft, die Kräfte",
+          "en": "strength, force"
+        },
+        {
+          "de": "versuchen",
+          "en": "to try"
+        },
+        {
+          "de": "die Augen schließen",
+          "en": "to close your eyes"
+        },
+        {
+          "de": "zappeln",
+          "en": "to wriggle, to fidget"
+        },
+        {
+          "de": "der Schmerz, die Schmerzen",
+          "en": "pain"
+        },
+        {
+          "de": "aufhören",
+          "en": "to stop",
+          "note": "Kafka writes the older 'ablassen'"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "de": "»Ach Gott«, dachte er, »was für einen anstrengenden Beruf habe ich gewählt! Tagaus, tagein auf der Reise. Die geschäftlichen Aufregungen sind viel größer, als im eigentlichen Geschäft zu Hause, und außerdem ist mir noch diese Plage des Reisens auferlegt, die Sorgen um die Zuganschlüsse, das unregelmäßige, schlechte Essen, ein immer wechselnder, nie andauernder, nie herzlich werdender menschlicher Verkehr. Der Teufel soll das alles holen!«",
+      "en": "'Oh God,' he thought, 'what an exhausting job I've chosen! Travelling day in, day out. The stress of doing business is much greater than in the actual office at home, and on top of that I'm stuck with this curse of travelling: worrying about train connections, bad and irregular meals, and always new people you never get to know properly or become friends with. To hell with it all!'",
+      "explain_en": "Instead of panicking about being a bug, Gregor complains about his job – that's Kafka's dark humour. 'anstrengend' (exhausting) is a very useful everyday word. 'Tagaus, tagein' = day in, day out. 'Der Teufel soll das alles holen!' is an old curse; today you might say 'Ich hab's so satt!' or 'Zum Teufel damit!'. 'Verkehr' here means contact with people; today it mostly means traffic.",
+      "words": [
+        {
+          "de": "anstrengend",
+          "en": "exhausting, tiring"
+        },
+        {
+          "de": "der Beruf, die Berufe",
+          "en": "job, profession"
+        },
+        {
+          "de": "wählen",
+          "en": "to choose; to vote"
+        },
+        {
+          "de": "die Reise, die Reisen",
+          "en": "trip, journey"
+        },
+        {
+          "de": "die Sorge, die Sorgen",
+          "en": "worry"
+        },
+        {
+          "de": "der Anschluss, die Anschlüsse",
+          "en": "connection (train)"
+        },
+        {
+          "de": "das Essen",
+          "en": "food, meal"
+        },
+        {
+          "de": "außerdem",
+          "en": "besides, in addition"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Er fühlte ein leichtes Jucken oben auf dem Bauch; schob sich auf dem Rücken langsam näher zum Bettpfosten, um den Kopf besser heben zu können; fand die juckende Stelle, die mit lauter kleinen weißen Pünktchen besetzt war, die er nicht zu beurteilen verstand; und wollte mit einem Bein die Stelle betasten, zog es aber gleich zurück, denn bei der Berührung umwehten ihn Kälteschauer.",
+      "en": "He felt a slight itch up on his belly; slowly pushed himself on his back closer to the bedpost so he could lift his head better; found the itchy spot, which was covered with lots of little white dots he couldn't make sense of; and tried to touch the spot with one leg, but pulled it back at once, because the touch sent cold shivers through him.",
+      "explain_en": "One long sentence held together by semicolons: he felt... pushed... found... wanted to touch... Each part has the same subject 'er', so Kafka doesn't repeat it. 'lauter' before a noun means 'nothing but, lots of' ('lauter kleine Punkte'), not 'louder'. '-chen' makes things small: 'Pünktchen' = little dots, and all '-chen' words are 'das'.",
+      "words": [
+        {
+          "de": "jucken",
+          "en": "to itch"
+        },
+        {
+          "de": "die Stelle, die Stellen",
+          "en": "spot, place; job position"
+        },
+        {
+          "de": "der Punkt, die Punkte",
+          "en": "dot, point"
+        },
+        {
+          "de": "das Bein, die Beine",
+          "en": "leg"
+        },
+        {
+          "de": "berühren",
+          "en": "to touch"
+        },
+        {
+          "de": "zurückziehen",
+          "en": "to pull back"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "de": "Er glitt wieder in seine frühere Lage zurück. »Dies frühzeitige Aufstehen«, dachte er, »macht einen ganz blödsinnig. Der Mensch muss seinen Schlaf haben. Andere Reisende leben wie Haremsfrauen. Wenn ich zum Beispiel im Laufe des Vormittags ins Gasthaus zurückgehe, um die erlangten Aufträge zu überschreiben, sitzen diese Herren erst beim Frühstück. Das sollte ich bei meinem Chef versuchen; ich würde auf der Stelle hinausfliegen.",
+      "en": "He slid back into his earlier position. 'Getting up this early,' he thought, 'makes you completely stupid. People need their sleep. Other salesmen live like women in a harem. When I go back to the inn in the middle of the morning, for example, to write up the orders I've got, those gentlemen are only just having breakfast. I should try that with my boss; I'd be fired on the spot.'",
+      "explain_en": "Gregor is jealous of other salesmen who have an easy life. 'einen' in 'macht einen ganz blödsinnig' is the object form of 'man' – 'it makes you stupid'. 'hinausfliegen' (literally 'to fly out') is still normal slang for getting fired or kicked out: 'Ich fliege raus.' 'Gasthaus' is an inn; today a salesman would stay in a 'Hotel'. 'auf der Stelle' = immediately.",
+      "words": [
+        {
+          "de": "aufstehen",
+          "en": "to get up"
+        },
+        {
+          "de": "der Schlaf",
+          "en": "sleep"
+        },
+        {
+          "de": "das Frühstück",
+          "en": "breakfast"
+        },
+        {
+          "de": "der Chef, die Chefs",
+          "en": "boss"
+        },
+        {
+          "de": "der Auftrag, die Aufträge",
+          "en": "order, assignment"
+        },
+        {
+          "de": "auf der Stelle",
+          "en": "immediately, on the spot"
+        },
+        {
+          "de": "rausfliegen",
+          "en": "to get fired, to be kicked out",
+          "note": "colloquial; Kafka: hinausfliegen"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "de": "Wer weiß übrigens, ob das nicht sehr gut für mich wäre. Wenn ich mich nicht wegen meiner Eltern zurückhielte, ich hätte längst gekündigt, ich wäre vor den Chef hingetreten und hätte ihm meine Meinung von Grund des Herzens aus gesagt. Vom Pult hätte er fallen müssen! Es ist auch eine sonderbare Art, sich auf das Pult zu setzen und von der Höhe herab mit dem Angestellten zu reden, der überdies wegen der Schwerhörigkeit des Chefs ganz nahe herantreten muss.",
+      "en": "Who knows, though, whether that wouldn't be very good for me. If I weren't holding back because of my parents, I'd have quit long ago; I'd have gone up to the boss and told him exactly what I think of him from the bottom of my heart. He'd have fallen off his desk! It's a strange way to behave, too, sitting up on the desk and talking down to the employee, who on top of that has to come right up close because the boss is hard of hearing.",
+      "explain_en": "Gregor daydreams about quitting and telling his boss off. This is full of Konjunktiv II for things that didn't happen: 'ich hätte längst gekündigt' = I would have quit long ago; 'Vom Pult hätte er fallen müssen' = he would have had to fall off his desk. 'kündigen' = to quit a job (or to fire someone, 'jemandem kündigen'). 'Pult' is a high desk; today 'Schreibtisch'.",
+      "words": [
+        {
+          "de": "die Eltern",
+          "en": "parents",
+          "note": "plural only"
+        },
+        {
+          "de": "kündigen",
+          "en": "to quit (a job); to give notice"
+        },
+        {
+          "de": "die Meinung, die Meinungen",
+          "en": "opinion"
+        },
+        {
+          "de": "sonderbar",
+          "en": "strange",
+          "note": "today more often: seltsam, komisch"
+        },
+        {
+          "de": "der/die Angestellte, die Angestellten",
+          "en": "employee"
+        },
+        {
+          "de": "schwerhörig",
+          "en": "hard of hearing"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Nun, die Hoffnung ist noch nicht gänzlich aufgegeben, habe ich einmal das Geld beisammen, um die Schuld der Eltern an ihn abzuzahlen – es dürfte noch fünf bis sechs Jahre dauern –, mache ich die Sache unbedingt. Dann wird der große Schnitt gemacht. Vorläufig allerdings muss ich aufstehen, denn mein Zug fährt um fünf.«",
+      "en": "Well, I haven't given up hope completely; once I've got the money together to pay off my parents' debt to him – that should take another five or six years – I'll definitely do it. Then I'll make a clean break. For now, though, I have to get up, because my train leaves at five.'",
+      "explain_en": "We learn why Gregor can't quit: his parents owe his boss money. 'habe ich einmal das Geld beisammen, ... mache ich die Sache' is an 'if/once' sentence without 'wenn' – the verb comes first instead. 'Das dürfte ... dauern' means 'that will probably take'. 'beisammen' is old-fashioned; today 'zusammen'. 'unbedingt' = definitely, absolutely – very common in daily speech.",
+      "words": [
+        {
+          "de": "die Hoffnung, die Hoffnungen",
+          "en": "hope"
+        },
+        {
+          "de": "das Geld",
+          "en": "money"
+        },
+        {
+          "de": "die Schulden",
+          "en": "debts",
+          "note": "Kafka uses the singular 'die Schuld'"
+        },
+        {
+          "de": "abzahlen",
+          "en": "to pay off"
+        },
+        {
+          "de": "dauern",
+          "en": "to take (time), to last"
+        },
+        {
+          "de": "unbedingt",
+          "en": "definitely, absolutely"
+        },
+        {
+          "de": "vorläufig",
+          "en": "for now"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "de": "Und er sah zur Weckuhr hinüber, die auf dem Kasten tickte. »Himmlischer Vater!«, dachte er. Es war halb sieben Uhr, und die Zeiger gingen ruhig vorwärts, es war sogar halb vorüber, es näherte sich schon dreiviertel. Sollte der Wecker nicht geläutet haben? Man sah vom Bett aus, dass er auf vier Uhr richtig eingestellt war; gewiss hatte er auch geläutet. Ja, aber war es möglich, dieses möbelerschütternde Läuten ruhig zu verschlafen? Nun, ruhig hatte er ja nicht geschlafen, aber wahrscheinlich desto fester.",
+      "en": "And he looked over at the alarm clock ticking on the chest of drawers. 'Good heavens!' he thought. It was half past six, and the hands were calmly moving on; it was even past half past, it was already getting on for quarter to seven. Could the alarm not have gone off? You could see from the bed that it was correctly set for four o'clock; it had surely rung. Yes, but was it possible to sleep peacefully through that furniture-shaking ringing? Well, he hadn't slept peacefully, but probably all the more deeply.",
+      "explain_en": "Gregor realises he has overslept. German times: 'halb sieben' = 6:30 (half TO seven, not half past!), 'dreiviertel sieben' = 6:45 (in many regions; elsewhere 'Viertel vor sieben'). 'Kasten' is Austrian/southern for a cupboard; in northern Germany 'Schrank'. 'Weckuhr' is old; today just 'der Wecker'. 'verschlafen' = to oversleep.",
+      "words": [
+        {
+          "de": "der Wecker",
+          "en": "alarm clock",
+          "note": "Kafka also says 'die Weckuhr'"
+        },
+        {
+          "de": "halb sieben",
+          "en": "half past six (6:30)"
+        },
+        {
+          "de": "einstellen",
+          "en": "to set (a clock, device)"
+        },
+        {
+          "de": "verschlafen",
+          "en": "to oversleep"
+        },
+        {
+          "de": "wahrscheinlich",
+          "en": "probably"
+        },
+        {
+          "de": "klingeln",
+          "en": "to ring",
+          "note": "Kafka uses the older 'läuten'"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "de": "Was aber sollte er jetzt tun? Der nächste Zug ging um sieben Uhr; um den einzuholen, hätte er sich unsinnig beeilen müssen, und die Kollektion war noch nicht eingepackt, und er selbst fühlte sich durchaus nicht besonders frisch und beweglich. Und selbst wenn er den Zug einholte, ein Donnerwetter des Chefs war nicht zu vermeiden, denn der Geschäftsdiener hatte beim Fünfuhrzug gewartet und die Meldung von seiner Versäumnis längst erstattet. Es war eine Kreatur des Chefs, ohne Rückgrat und Verstand.",
+      "en": "But what was he supposed to do now? The next train left at seven; to catch it he would have had to rush like mad, and the samples weren't packed yet, and he himself didn't feel especially fresh or lively at all. And even if he caught the train, there was no avoiding a telling-off from the boss, because the office boy had been waiting at the five o'clock train and had long since reported that he'd missed it. He was the boss's creature, with no backbone and no brains.",
+      "explain_en": "Gregor thinks through his options like it's a normal late morning. 'hätte er sich ... beeilen müssen' = he would have had to hurry (Konjunktiv II with a modal verb: 'hätte ... müssen'). 'ein Donnerwetter' (literally 'thunderstorm') means a big telling-off – still used, but 'Ärger' is more everyday: 'Ich krieg Ärger vom Chef.' 'einholen' = to catch up with; for trains today you say 'den Zug erwischen/kriegen'.",
+      "words": [
+        {
+          "de": "der Zug, die Züge",
+          "en": "train"
+        },
+        {
+          "de": "sich beeilen",
+          "en": "to hurry"
+        },
+        {
+          "de": "einpacken",
+          "en": "to pack"
+        },
+        {
+          "de": "vermeiden",
+          "en": "to avoid"
+        },
+        {
+          "de": "den Zug erwischen",
+          "en": "to catch the train",
+          "note": "Kafka: den Zug einholen"
+        },
+        {
+          "de": "warten",
+          "en": "to wait"
+        },
+        {
+          "de": "das Donnerwetter",
+          "en": "big telling-off (lit. thunderstorm)"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Wie nun, wenn er sich krank meldete? Das wäre aber äußerst peinlich und verdächtig, denn Gregor war während seines fünfjährigen Dienstes noch nicht einmal krank gewesen. Gewiss würde der Chef mit dem Krankenkassenarzt kommen, würde den Eltern wegen des faulen Sohnes Vorwürfe machen und alle Einwände durch den Hinweis auf den Krankenkassenarzt abschneiden, für den es ja überhaupt nur ganz gesunde, aber arbeitsscheue Menschen gibt. Und hätte er übrigens in diesem Falle so ganz unrecht? Gregor fühlte sich tatsächlich, abgesehen von einer nach dem langen Schlaf wirklich überflüssigen Schläfrigkeit, ganz wohl und hatte sogar einen besonders kräftigen Hunger.",
+      "en": "What if he called in sick? But that would be extremely awkward and suspicious, because in his five years at the firm Gregor hadn't been ill even once. The boss would certainly come with the health-insurance doctor, blame his parents for their lazy son, and cut off every objection by pointing to the insurance doctor, for whom there are only completely healthy people who are afraid of work. And would he really be so wrong in this case? Apart from a sleepiness that was truly unnecessary after such a long sleep, Gregor actually felt quite well and was even especially hungry.",
+      "explain_en": "'sich krank melden' = to call in sick – still exactly what you say today. 'peinlich' = embarrassing/awkward, a very common teen word. 'Krankenkasse' is German health insurance. 'arbeitsscheu' means work-shy, lazy. The joke: Gregor, now a beetle, thinks he actually feels fine. 'einen kräftigen Hunger haben' – today simply 'großen Hunger haben'.",
+      "words": [
+        {
+          "de": "sich krank melden",
+          "en": "to call in sick"
+        },
+        {
+          "de": "peinlich",
+          "en": "embarrassing, awkward"
+        },
+        {
+          "de": "verdächtig",
+          "en": "suspicious"
+        },
+        {
+          "de": "der Arzt, die Ärzte",
+          "en": "doctor"
+        },
+        {
+          "de": "faul",
+          "en": "lazy"
+        },
+        {
+          "de": "gesund",
+          "en": "healthy"
+        },
+        {
+          "de": "Hunger haben",
+          "en": "to be hungry"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "de": "Als er dies alles in größter Eile überlegte, ohne sich entschließen zu können, das Bett zu verlassen – gerade schlug der Wecker dreiviertel sieben – klopfte es vorsichtig an die Tür am Kopfende seines Bettes. »Gregor«, rief es – es war die Mutter –, »es ist dreiviertel sieben. Wolltest du nicht wegfahren?« Die sanfte Stimme! Gregor erschrak, als er seine antwortende Stimme hörte, die wohl unverkennbar seine frühere war, in die sich aber, wie von unten her, ein nicht zu unterdrückendes, schmerzliches Piepsen mischte, das die Worte förmlich nur im ersten Augenblick in ihrer Deutlichkeit beließ, um sie im Nachklang derart zu zerstören, dass man nicht wusste, ob man recht gehört hatte.",
+      "en": "While he was thinking all this over in a great hurry, unable to make up his mind to get out of bed – the alarm clock was just striking a quarter to seven – there was a careful knock on the door at the head of his bed. 'Gregor,' someone called – it was his mother – 'it's quarter to seven. Weren't you going to leave?' That gentle voice! Gregor got a shock when he heard his own voice answering: it was clearly his old voice, but mixed into it, as if from below, was an unstoppable, painful squeaking that left the words clear only for the first moment and then garbled them so badly as they faded that you didn't know if you'd heard right.",
+      "explain_en": "The family knocks and Gregor discovers his voice is changing. 'klopfte es an die Tür' – German often uses 'es' for sounds with no clear subject: 'Es klopft' = someone's knocking. 'sich entschließen' = to decide. 'erschrecken' (erschrak) = to get a fright. 'Wolltest du nicht wegfahren?' is exactly how a parent would ask it today.",
+      "words": [
+        {
+          "de": "klopfen",
+          "en": "to knock"
+        },
+        {
+          "de": "die Tür, die Türen",
+          "en": "door"
+        },
+        {
+          "de": "die Stimme, die Stimmen",
+          "en": "voice"
+        },
+        {
+          "de": "sich entschließen",
+          "en": "to decide, to make up your mind"
+        },
+        {
+          "de": "erschrecken",
+          "en": "to get a fright, to be startled"
+        },
+        {
+          "de": "die Mutter, die Mütter",
+          "en": "mother"
+        },
+        {
+          "de": "vorsichtig",
+          "en": "careful"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "de": "Gregor hatte ausführlich antworten und alles erklären wollen, beschränkte sich aber bei diesen Umständen darauf, zu sagen: »Ja, ja, danke, Mutter, ich stehe schon auf.« Infolge der Holztür war die Veränderung in Gregors Stimme draußen wohl nicht zu merken, denn die Mutter beruhigte sich mit dieser Erklärung und schlürfte davon. Aber durch das kleine Gespräch waren die anderen Familienmitglieder darauf aufmerksam geworden, dass Gregor wider Erwarten noch zu Hause war, und schon klopfte an der einen Seitentür der Vater, schwach, aber mit der Faust. »Gregor, Gregor«, rief er, »was ist denn?« Und nach einer kleinen Weile mahnte er nochmals mit tieferer Stimme: »Gregor! Gregor!«",
+      "en": "Gregor had wanted to give a full answer and explain everything, but under the circumstances he just said: 'Yes, yes, thanks, Mother, I'm getting up now.' Because of the wooden door the change in Gregor's voice probably couldn't be noticed outside, since his mother was satisfied with this answer and shuffled off. But the little conversation had made the rest of the family realise that, unexpectedly, Gregor was still at home, and already his father was knocking on one of the side doors, weakly, but with his fist. 'Gregor, Gregor,' he called, 'what's the matter?' And after a little while he warned again in a deeper voice: 'Gregor! Gregor!'",
+      "explain_en": "Gregor's room has three doors, and family members knock on each one. 'Ich stehe schon auf' – German uses the present tense with 'schon' for 'I'm already getting up / I'm coming'. 'Was ist denn?' = 'What's up?' – 'denn' in questions sounds natural and a bit impatient. 'wider Erwarten' is formal for 'unexpectedly' (today: 'gegen alle Erwartungen' or just 'unerwartet').",
+      "words": [
+        {
+          "de": "erklären",
+          "en": "to explain"
+        },
+        {
+          "de": "aufstehen",
+          "en": "to get up"
+        },
+        {
+          "de": "die Veränderung, die Veränderungen",
+          "en": "change"
+        },
+        {
+          "de": "sich beruhigen",
+          "en": "to calm down"
+        },
+        {
+          "de": "das Gespräch, die Gespräche",
+          "en": "conversation"
+        },
+        {
+          "de": "der Vater, die Väter",
+          "en": "father"
+        },
+        {
+          "de": "die Faust, die Fäuste",
+          "en": "fist"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "de": "An der anderen Seitentür aber klagte leise die Schwester: »Gregor? Ist dir nicht wohl? Brauchst du etwas?« Nach beiden Seiten hin antwortete Gregor: »Bin schon fertig«, und bemühte sich, durch die sorgfältigste Aussprache und durch Einschaltung von langen Pausen zwischen den einzelnen Worten seiner Stimme alles Auffallende zu nehmen. Der Vater kehrte auch zu seinem Frühstück zurück, die Schwester aber flüsterte: »Gregor, mach auf, ich beschwöre dich.« Gregor aber dachte gar nicht daran aufzumachen, sondern lobte die vom Reisen her übernommene Vorsicht, auch zu Hause alle Türen während der Nacht zu versperren.",
+      "en": "But at the other side door his sister softly asked: 'Gregor? Aren't you feeling well? Do you need anything?' To both sides Gregor answered: 'Nearly ready,' and tried, by pronouncing very carefully and leaving long pauses between the individual words, to take everything odd out of his voice. His father went back to his breakfast, but his sister whispered: 'Gregor, open the door, I'm begging you.' But Gregor had no intention of opening up; instead he congratulated himself on the habit he'd picked up from travelling of locking all the doors at night, even at home.",
+      "explain_en": "'Ist dir nicht wohl?' is old-fashioned; today you'd ask 'Geht's dir nicht gut?' or 'Ist dir schlecht?'. 'Bin schon fertig' leaves out 'ich', which is normal in quick speech. 'Mach auf!' = Open up! 'ich beschwöre dich' is dramatic (I implore you); a sister today would say 'bitte, bitte!'. 'nicht daran denken, etwas zu tun' = to have no intention of doing something.",
+      "words": [
+        {
+          "de": "die Schwester, die Schwestern",
+          "en": "sister"
+        },
+        {
+          "de": "brauchen",
+          "en": "to need"
+        },
+        {
+          "de": "fertig",
+          "en": "ready, finished"
+        },
+        {
+          "de": "die Aussprache",
+          "en": "pronunciation"
+        },
+        {
+          "de": "flüstern",
+          "en": "to whisper"
+        },
+        {
+          "de": "aufmachen",
+          "en": "to open"
+        },
+        {
+          "de": "abschließen",
+          "en": "to lock",
+          "note": "Kafka: versperren (Austrian)"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "de": "Zunächst wollte er ruhig und ungestört aufstehen, sich anziehen und vor allem frühstücken, und dann erst das Weitere überlegen, denn, das merkte er wohl, im Bett würde er mit dem Nachdenken zu keinem vernünftigen Ende kommen. Er erinnerte sich, schon öfters im Bett irgendeinen vielleicht durch ungeschicktes Liegen erzeugten, leichten Schmerz empfunden zu haben, der sich dann beim Aufstehen als reine Einbildung herausstellte, und er war gespannt, wie sich seine heutigen Vorstellungen allmählich auflösen würden. Dass die Veränderung der Stimme nichts anderes war als der Vorbote einer tüchtigen Verkühlung, einer Berufskrankheit der Reisenden, daran zweifelte er nicht im Geringsten.",
+      "en": "First he wanted to get up quietly and undisturbed, get dressed and above all have breakfast, and only then think about everything else, because he could tell that in bed his thinking would never reach any sensible conclusion. He remembered that he had often felt some slight pain in bed, perhaps caused by lying awkwardly, which then turned out to be pure imagination once he got up, and he was curious to see how today's fantasies would gradually fade away. He didn't doubt for a moment that the change in his voice was nothing but the first sign of a heavy cold, an occupational illness of travelling salesmen.",
+      "explain_en": "Gregor is in total denial and blames a cold. 'sich anziehen' = to get dressed. 'gespannt sein' = to be curious/excited to see (very common: 'Ich bin gespannt!'). 'sich herausstellen als' = to turn out to be. 'Verkühlung' is Austrian; in Germany people say 'Erkältung'. 'nicht im Geringsten' = not in the slightest.",
+      "words": [
+        {
+          "de": "sich anziehen",
+          "en": "to get dressed"
+        },
+        {
+          "de": "frühstücken",
+          "en": "to have breakfast"
+        },
+        {
+          "de": "sich erinnern (an)",
+          "en": "to remember"
+        },
+        {
+          "de": "gespannt sein",
+          "en": "to be curious, can't wait to see"
+        },
+        {
+          "de": "sich herausstellen",
+          "en": "to turn out"
+        },
+        {
+          "de": "zweifeln (an)",
+          "en": "to doubt"
+        },
+        {
+          "de": "die Erkältung",
+          "en": "cold (illness)",
+          "note": "Kafka: Verkühlung (Austrian)"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "de": "Die Decke abzuwerfen war ganz einfach; er brauchte sich nur ein wenig aufzublasen und sie fiel von selbst. Aber weiterhin wurde es schwierig, besonders weil er so ungemein breit war. Er hätte Arme und Hände gebraucht, um sich aufzurichten; stattdessen aber hatte er nur die vielen Beinchen, die ununterbrochen in der verschiedensten Bewegung waren und die er überdies nicht beherrschen konnte. Wollte er eines einmal einknicken, so war es das erste, dass er sich streckte; und gelang es ihm endlich, mit diesem Bein das auszuführen, was er wollte, so arbeiteten inzwischen alle anderen, wie freigelassen, in höchster, schmerzlicher Aufregung. »Nur sich nicht im Bett unnütz aufhalten«, sagte sich Gregor.",
+      "en": "Throwing off the blanket was quite easy; he only had to puff himself up a little and it fell off by itself. But after that it got difficult, especially because he was so extremely wide. He would have needed arms and hands to sit up; instead he had only the many little legs, which were constantly moving in all sorts of ways and which, on top of that, he couldn't control. If he wanted to bend one of them, the first thing it did was stretch out; and when he finally managed to make that leg do what he wanted, all the others were meanwhile flailing about, as if set free, in the greatest, painful excitement. 'Just don't lie around uselessly in bed,' Gregor told himself.",
+      "explain_en": "Gregor tries to get out of bed with an insect body. 'Die Decke abzuwerfen war ganz einfach' – a zu-infinitive can be the subject: 'Throwing off the blanket was easy.' 'Er hätte Arme gebraucht' = he would have needed arms. 'Wollte er eines einknicken, so ...' is another if-sentence without 'wenn' (verb first). 'es gelingt mir' = I manage to (literally 'it succeeds for me').",
+      "words": [
+        {
+          "de": "schwierig",
+          "en": "difficult"
+        },
+        {
+          "de": "breit",
+          "en": "wide, broad"
+        },
+        {
+          "de": "die Hand, die Hände",
+          "en": "hand"
+        },
+        {
+          "de": "stattdessen",
+          "en": "instead"
+        },
+        {
+          "de": "sich strecken",
+          "en": "to stretch"
+        },
+        {
+          "de": "gelingen",
+          "en": "to succeed, to manage",
+          "note": "es gelingt mir = I manage"
+        },
+        {
+          "de": "inzwischen",
+          "en": "meanwhile"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "de": "Zuerst wollte er mit dem unteren Teil seines Körpers aus dem Bett hinauskommen, aber dieser untere Teil, den er übrigens noch nicht gesehen hatte und von dem er sich auch keine rechte Vorstellung machen konnte, erwies sich als zu schwer beweglich; es ging so langsam; und als er schließlich, fast wild geworden, mit gesammelter Kraft, ohne Rücksicht sich vorwärtsstieß, hatte er die Richtung falsch gewählt, schlug an den unteren Bettpfosten heftig an, und der brennende Schmerz, den er empfand, belehrte ihn, dass gerade der untere Teil seines Körpers augenblicklich vielleicht der empfindlichste war.",
+      "en": "First he wanted to get out of bed with the lower part of his body, but this lower part, which he still hadn't seen and couldn't really picture, turned out to be too hard to move; it went so slowly; and when in the end, almost frantic, he pushed himself forward with all his strength and without caution, he had chosen the wrong direction, banged hard against the bottom bedpost, and the burning pain he felt taught him that the lower part of his body was, right now, perhaps the most sensitive.",
+      "explain_en": "Plan A fails: he hits the bedpost. 'sich erweisen als' = to prove to be (formal; everyday: 'sich herausstellen als' or 'war'). 'sich eine Vorstellung machen von' = to imagine, to have an idea of. 'empfinden' is a bit formal for 'fühlen/spüren'. 'augenblicklich' = at the moment; today 'im Moment' or 'gerade'.",
+      "words": [
+        {
+          "de": "der Körper, die Körper",
+          "en": "body"
+        },
+        {
+          "de": "unten / der untere Teil",
+          "en": "below / the lower part"
+        },
+        {
+          "de": "die Richtung, die Richtungen",
+          "en": "direction"
+        },
+        {
+          "de": "empfindlich",
+          "en": "sensitive"
+        },
+        {
+          "de": "spüren",
+          "en": "to feel",
+          "note": "Kafka uses the more formal 'empfinden'"
+        },
+        {
+          "de": "im Moment",
+          "en": "at the moment",
+          "note": "Kafka: augenblicklich"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "de": "Er versuchte es daher, zuerst den Oberkörper aus dem Bett zu bekommen, und drehte vorsichtig den Kopf dem Bettrand zu. Dies gelang auch leicht, und trotz ihrer Breite und Schwere folgte schließlich die Körpermasse langsam der Wendung des Kopfes. Aber als er den Kopf endlich außerhalb des Bettes in der freien Luft hielt, bekam er Angst, weiter auf diese Weise vorzurücken, denn wenn er sich schließlich so fallen ließ, musste geradezu ein Wunder geschehen, wenn der Kopf nicht verletzt werden sollte. Und die Besinnung durfte er gerade jetzt um keinen Preis verlieren; lieber wollte er im Bett bleiben.",
+      "en": "So he tried to get the upper part of his body out of bed first, and carefully turned his head towards the edge of the bed. This worked easily too, and despite its width and weight the mass of his body finally followed the turn of his head. But when at last he was holding his head outside the bed in the open air, he was afraid to go any further this way, because if he let himself fall like that it would take a real miracle for his head not to get hurt. And he must not lose consciousness right now at any price; he would rather stay in bed.",
+      "explain_en": "Plan B: head first – but he's scared of falling on his head. 'Angst bekommen/haben' = to get scared. 'trotz' takes the genitive in written German ('trotz ihrer Breite'); in speech many people use the dative. 'um keinen Preis' = not at any price, no way. 'lieber wollte er im Bett bleiben' – 'lieber' = rather: 'Ich bleibe lieber im Bett' (I'd rather stay in bed) is very useful.",
+      "words": [
+        {
+          "de": "der Kopf, die Köpfe",
+          "en": "head"
+        },
+        {
+          "de": "Angst haben/bekommen",
+          "en": "to be/get scared"
+        },
+        {
+          "de": "fallen",
+          "en": "to fall"
+        },
+        {
+          "de": "das Wunder, die Wunder",
+          "en": "miracle"
+        },
+        {
+          "de": "verletzen",
+          "en": "to injure, to hurt"
+        },
+        {
+          "de": "lieber",
+          "en": "rather",
+          "note": "Ich bleibe lieber hier."
+        },
+        {
+          "de": "trotz",
+          "en": "despite"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Aber als er wieder nach gleicher Mühe aufseufzend so dalag wie früher, und wieder seine Beinchen womöglich noch ärger gegeneinander kämpfen sah und keine Möglichkeit fand, in diese Willkür Ruhe und Ordnung zu bringen, sagte er sich wieder, dass er unmöglich im Bett bleiben könne und dass es das Vernünftigste sei, alles zu opfern, wenn auch nur die kleinste Hoffnung bestünde, sich dadurch vom Bett zu befreien. Gleichzeitig aber vergaß er nicht, sich zwischendurch daran zu erinnern, dass viel besser als verzweifelte Entschlüsse ruhige und ruhigste Überlegung sei.",
+      "en": "But when, after the same effort, he lay there sighing just as before, and again saw his little legs fighting each other perhaps even worse, and found no way to bring calm and order to this chaos, he told himself again that he couldn't possibly stay in bed and that the most sensible thing was to sacrifice everything if there was even the slightest hope of freeing himself from the bed by doing so. At the same time, though, he didn't forget to remind himself every so often that calm – the very calmest – reflection was far better than desperate decisions.",
+      "explain_en": "A long sentence showing Gregor going round in circles. 'die Mühe' = effort ('sich Mühe geben' = to make an effort). 'ärger' is an old comparative of 'arg' (bad); today 'schlimmer'. 'bestünde' is Konjunktiv II of 'bestehen'; in speech: 'wenn es auch nur die kleinste Hoffnung gäbe'. 'das Vernünftigste' = the most sensible thing – adjectives become nouns with a capital letter.",
+      "words": [
+        {
+          "de": "die Mühe",
+          "en": "effort",
+          "note": "sich Mühe geben = to try hard"
+        },
+        {
+          "de": "schlimmer",
+          "en": "worse",
+          "note": "Kafka: ärger (old-fashioned)"
+        },
+        {
+          "de": "vernünftig",
+          "en": "sensible, reasonable"
+        },
+        {
+          "de": "opfern",
+          "en": "to sacrifice"
+        },
+        {
+          "de": "sich befreien",
+          "en": "to free yourself"
+        },
+        {
+          "de": "verzweifelt",
+          "en": "desperate"
+        },
+        {
+          "de": "die Entscheidung, die Entscheidungen",
+          "en": "decision",
+          "note": "Kafka: der Entschluss"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "de": "In solchen Augenblicken richtete er die Augen möglichst scharf auf das Fenster, aber leider war aus dem Anblick des Morgennebels, der sogar die andere Seite der engen Straße verhüllte, wenig Zuversicht und Munterkeit zu holen. »Schon sieben Uhr«, sagte er sich beim neuerlichen Schlagen des Weckers, »schon sieben Uhr und noch immer ein solcher Nebel.« Und ein Weilchen lang lag er ruhig mit schwachem Atem, als erwarte er vielleicht von der völligen Stille die Wiederkehr der wirklichen und selbstverständlichen Verhältnisse.",
+      "en": "At such moments he fixed his eyes as sharply as he could on the window, but unfortunately there was little confidence or cheer to be had from the sight of the morning fog, which even hid the other side of the narrow street. 'Seven o'clock already,' he said to himself when the alarm clock struck again, 'seven o'clock already and still such fog.' And for a little while he lay quietly, breathing weakly, as if he perhaps expected the total silence to bring back the real, normal state of things.",
+      "explain_en": "'leider' = unfortunately – one of the most useful words in German. 'der Nebel' = fog. 'Schon sieben Uhr' – 'schon' = already. 'als erwarte er' = as if he expected: after 'als' meaning 'as if', the verb comes straight after it (in Konjunktiv). In everyday speech: 'als ob er ... erwarten würde'. 'Munterkeit' (cheerfulness) is rare now; 'munter' still means lively/awake.",
+      "words": [
+        {
+          "de": "der Augenblick, die Augenblicke",
+          "en": "moment"
+        },
+        {
+          "de": "leider",
+          "en": "unfortunately"
+        },
+        {
+          "de": "der Nebel",
+          "en": "fog"
+        },
+        {
+          "de": "die Straße, die Straßen",
+          "en": "street"
+        },
+        {
+          "de": "eng",
+          "en": "narrow; tight"
+        },
+        {
+          "de": "der Atem",
+          "en": "breath"
+        },
+        {
+          "de": "die Stille",
+          "en": "silence, quiet"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "de": "Dann aber sagte er sich: »Ehe es einviertel acht schlägt, muss ich unbedingt das Bett vollständig verlassen haben. Im Übrigen wird auch bis dahin jemand aus dem Geschäft kommen, um nach mir zu fragen, denn das Geschäft wird vor sieben Uhr geöffnet.« Und er machte sich nun daran, den Körper in seiner ganzen Länge vollständig gleichmäßig aus dem Bett hinauszuschaukeln.",
+      "en": "But then he told himself: 'Before it strikes quarter past seven I absolutely must be completely out of bed. Anyway, by then someone from the firm will come to ask about me, because the office opens before seven.' And now he set about rocking his body out of the bed along its whole length, completely evenly.",
+      "explain_en": "New plan: rock out of bed. 'ehe' = before (today mostly 'bevor'). 'einviertel acht' = 7:15 in some regions; elsewhere 'Viertel nach sieben'. 'Ich muss das Bett verlassen haben' = I must have left the bed (future deadline). 'nach jemandem fragen' = to ask after/about someone. 'sich daranmachen, etwas zu tun' = to get down to doing something.",
+      "words": [
+        {
+          "de": "bevor",
+          "en": "before",
+          "note": "Kafka: ehe (more formal)"
+        },
+        {
+          "de": "Viertel nach sieben",
+          "en": "quarter past seven",
+          "note": "regional: viertel acht"
+        },
+        {
+          "de": "unbedingt",
+          "en": "absolutely, definitely"
+        },
+        {
+          "de": "verlassen",
+          "en": "to leave (a place)"
+        },
+        {
+          "de": "das Geschäft, die Geschäfte",
+          "en": "business, shop, office"
+        },
+        {
+          "de": "nach jemandem fragen",
+          "en": "to ask about someone"
+        },
+        {
+          "de": "öffnen",
+          "en": "to open"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "de": "Wenn er sich auf diese Weise aus dem Bett fallen ließ, blieb der Kopf, den er beim Fall scharf heben wollte, voraussichtlich unverletzt. Der Rücken schien hart zu sein; dem würde wohl bei dem Fall auf den Teppich nichts geschehen. Das größte Bedenken machte ihm die Rücksicht auf den lauten Krach, den es geben müsste und der wahrscheinlich hinter allen Türen wenn nicht Schrecken, so doch Besorgnisse erregen würde. Das musste aber gewagt werden.",
+      "en": "If he let himself fall out of bed this way, his head, which he meant to lift up sharply as he fell, would probably stay unhurt. His back seemed to be hard; nothing would happen to it when it fell onto the carpet. What worried him most was the thought of the loud crash it would have to make, which would probably cause, if not terror, then at least concern behind all the doors. But that had to be risked.",
+      "explain_en": "'sich fallen lassen' = to let yourself fall. 'voraussichtlich' = probably, expected to – you hear it in announcements: 'Der Zug hat voraussichtlich zehn Minuten Verspätung.' 'wenn nicht ..., so doch ...' = if not ..., then at least ... 'Das musste gewagt werden' is passive with a modal: 'had to be risked'. 'das Bedenken' = doubt/worry.",
+      "words": [
+        {
+          "de": "sich fallen lassen",
+          "en": "to let yourself fall"
+        },
+        {
+          "de": "voraussichtlich",
+          "en": "probably, expected to"
+        },
+        {
+          "de": "der Teppich, die Teppiche",
+          "en": "carpet, rug"
+        },
+        {
+          "de": "der Krach",
+          "en": "crash, loud noise; also: argument"
+        },
+        {
+          "de": "die Sorge, die Sorgen",
+          "en": "worry",
+          "note": "Kafka: die Besorgnis (formal)"
+        },
+        {
+          "de": "wagen",
+          "en": "to dare, to risk"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "de": "Als Gregor schon zur Hälfte aus dem Bette ragte – die neue Methode war mehr ein Spiel als eine Anstrengung, er brauchte immer nur ruckweise zu schaukeln –, fiel ihm ein, wie einfach alles wäre, wenn man ihm zu Hilfe käme.",
+      "en": "When Gregor was already sticking halfway out of the bed – the new method was more a game than an effort; he only had to keep rocking in little jerks – it occurred to him how simple everything would be if someone came to help him.",
+      "explain_en": "'zur Hälfte' = halfway. 'mehr ein Spiel als eine Anstrengung' = more a game than hard work ('mehr ... als' = more ... than). 'Es fiel ihm ein' = it occurred to him ('einfallen' – 'Mir fällt nichts ein' = I can't think of anything). 'wenn man ihm zu Hilfe käme' uses Konjunktiv II; in speech: 'wenn ihm jemand helfen würde'. 'Bette' is an old dative form; today 'aus dem Bett'.",
+      "words": [
+        {
+          "de": "die Hälfte",
+          "en": "half"
+        },
+        {
+          "de": "das Spiel, die Spiele",
+          "en": "game"
+        },
+        {
+          "de": "die Anstrengung, die Anstrengungen",
+          "en": "effort, exertion"
+        },
+        {
+          "de": "einfallen",
+          "en": "to occur to (someone)",
+          "note": "Mir fällt nichts ein."
+        },
+        {
+          "de": "einfach",
+          "en": "simple, easy"
+        },
+        {
+          "de": "die Hilfe",
+          "en": "help"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "de": "Zwei starke Leute – er dachte an seinen Vater und das Dienstmädchen – hätten vollständig genügt; sie hätten ihre Arme nur unter seinen gewölbten Rücken schieben, ihn so aus dem Bett schälen, sich mit der Last niederbeugen und dann bloß vorsichtig dulden müssen, dass er den Überschwung auf dem Fußboden vollzog, wo dann die Beinchen hoffentlich einen Sinn bekommen würden. Nun, ganz abgesehen davon, dass die Türen versperrt waren, hätte er wirklich um Hilfe rufen sollen? Trotz aller Not konnte er bei diesem Gedanken ein Lächeln nicht unterdrücken.",
+      "en": "Two strong people – he was thinking of his father and the maid – would have been quite enough; they would only have had to slide their arms under his domed back, peel him out of bed like that, bend down with the load and then just carefully let him flip himself over onto the floor, where his little legs would hopefully start to make some sense. Well, quite apart from the fact that the doors were locked, should he really have called for help? Despite all his trouble he couldn't hold back a smile at the thought.",
+      "explain_en": "Gregor imagines being lifted out of bed and then smiles at the absurd idea of calling for help. 'hätten ... schieben ... müssen' = would have had to push (Konjunktiv II with modal verb at the end). 'hoffentlich' = hopefully – extremely common. 'Dienstmädchen' (maid) is historical; hardly any family has one today. 'um Hilfe rufen' = to call for help.",
+      "words": [
+        {
+          "de": "stark",
+          "en": "strong"
+        },
+        {
+          "de": "genügen",
+          "en": "to be enough",
+          "note": "everyday: reichen"
+        },
+        {
+          "de": "der Fußboden",
+          "en": "floor",
+          "note": "also just: der Boden"
+        },
+        {
+          "de": "hoffentlich",
+          "en": "hopefully"
+        },
+        {
+          "de": "um Hilfe rufen",
+          "en": "to call for help"
+        },
+        {
+          "de": "das Lächeln",
+          "en": "smile"
+        },
+        {
+          "de": "unterdrücken",
+          "en": "to suppress, to hold back"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "de": "Schon war er so weit, dass er bei stärkerem Schaukeln kaum das Gleichgewicht noch erhielt, und sehr bald musste er sich nun endgültig entscheiden, denn es war in fünf Minuten einviertel acht, – als es an der Wohnungstür läutete. »Das ist jemand aus dem Geschäft«, sagte er sich und erstarrte fast, während seine Beinchen nur desto eiliger tanzten. Einen Augenblick blieb alles still. »Sie öffnen nicht«, sagte sich Gregor, befangen in irgendeiner unsinnigen Hoffnung. Aber dann ging natürlich wie immer das Dienstmädchen festen Schrittes zur Tür und öffnete.",
+      "en": "He had already got so far that when he rocked harder he could hardly keep his balance, and very soon he would have to make a final decision, because in five minutes it would be quarter past seven – when the doorbell of the flat rang. 'That's someone from the firm,' he told himself, and almost froze, while his little legs just danced all the faster. For a moment everything stayed quiet. 'They're not opening,' Gregor told himself, caught up in some senseless hope. But then of course, as always, the maid went to the door with firm steps and opened it.",
+      "explain_en": "The doorbell rings – trouble arrives. 'das Gleichgewicht' = balance. 'sich entscheiden' = to decide (everyday word). 'es läutete' = the bell rang; today in Germany you'd say 'es klingelte' ('läuten' is southern/Austrian or for church bells). 'die Wohnungstür' = front door of a flat. 'desto eiliger' = all the faster.",
+      "words": [
+        {
+          "de": "das Gleichgewicht",
+          "en": "balance"
+        },
+        {
+          "de": "sich entscheiden",
+          "en": "to decide"
+        },
+        {
+          "de": "klingeln",
+          "en": "to ring (doorbell)",
+          "note": "Kafka: läuten (southern/Austrian)"
+        },
+        {
+          "de": "die Wohnung, die Wohnungen",
+          "en": "flat, apartment"
+        },
+        {
+          "de": "erstarren",
+          "en": "to freeze (with fear)"
+        },
+        {
+          "de": "still",
+          "en": "quiet, still"
+        },
+        {
+          "de": "natürlich",
+          "en": "of course; natural"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "de": "Gregor brauchte nur das erste Grußwort des Besuchers zu hören und wusste schon, wer es war – der Prokurist selbst. Warum war nur Gregor dazu verurteilt, bei einer Firma zu dienen, wo man bei der kleinsten Versäumnis gleich den größten Verdacht fasste? Waren denn alle Angestellten samt und sonders Lumpen, gab es denn unter ihnen keinen treuen ergebenen Menschen, der, wenn er auch nur ein paar Morgenstunden für das Geschäft nicht ausgenützt hatte, vor Gewissensbissen närrisch wurde und geradezu nicht imstande war, das Bett zu verlassen?",
+      "en": "Gregor only had to hear the visitor's first word of greeting and he already knew who it was – the chief clerk himself. Why was Gregor of all people condemned to work for a firm where the smallest slip immediately aroused the greatest suspicion? Were all the employees, every single one of them, good-for-nothings? Was there not one loyal, devoted person among them who, if he failed to use even a couple of morning hours for the firm, would go mad with guilt and be literally unable to get out of bed?",
+      "explain_en": "The 'Prokurist' (a senior manager allowed to sign for the company) has come in person. Gregor is outraged – and also describes himself as the loyal employee. 'Warum war nur Gregor dazu verurteilt' – 'nur' in questions shows frustration: 'Warum ich?' 'Gewissensbisse' = pangs of conscience, guilt. 'samt und sonders' = each and every one (old). 'Lumpen' = scoundrels; today 'Faulenzer' or 'Nichtsnutze'. The Gutenberg text has a misprint 'den'; the correct relative pronoun is 'der'.",
+      "words": [
+        {
+          "de": "der Besucher, die Besucher",
+          "en": "visitor"
+        },
+        {
+          "de": "die Firma, die Firmen",
+          "en": "company, firm"
+        },
+        {
+          "de": "der Verdacht",
+          "en": "suspicion"
+        },
+        {
+          "de": "treu",
+          "en": "loyal, faithful"
+        },
+        {
+          "de": "das schlechte Gewissen",
+          "en": "guilty conscience",
+          "note": "Kafka: Gewissensbisse"
+        },
+        {
+          "de": "imstande sein",
+          "en": "to be able to"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Genügte es wirklich nicht, einen Lehrjungen nachfragen zu lassen – wenn überhaupt diese Fragerei nötig war –, musste da der Prokurist selbst kommen, und musste dadurch der ganzen unschuldigen Familie gezeigt werden, dass die Untersuchung dieser verdächtigen Angelegenheit nur dem Verstand des Prokuristen anvertraut werden konnte?",
+      "en": "Was it really not enough to send an apprentice to ask – if all this questioning was even necessary – did the chief clerk himself have to come, and did the whole innocent family have to be shown that the investigation of this suspicious matter could only be trusted to the chief clerk's intelligence?",
+      "explain_en": "One long angry question. 'Genügte es nicht, ... zu lassen' = Wasn't it enough to have someone ... 'jemanden etwas tun lassen' = to have/let someone do something. 'der Lehrjunge' is old; today 'der Azubi' (short for Auszubildender, apprentice/trainee). 'nötig' = necessary. 'musste ... gezeigt werden' is passive with a modal verb.",
+      "words": [
+        {
+          "de": "reichen",
+          "en": "to be enough",
+          "note": "Kafka: genügen"
+        },
+        {
+          "de": "der/die Azubi",
+          "en": "apprentice, trainee",
+          "note": "Kafka: der Lehrjunge"
+        },
+        {
+          "de": "nötig",
+          "en": "necessary"
+        },
+        {
+          "de": "unschuldig",
+          "en": "innocent"
+        },
+        {
+          "de": "die Angelegenheit, die Angelegenheiten",
+          "en": "matter, affair"
+        },
+        {
+          "de": "anvertrauen",
+          "en": "to entrust"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "de": "Und mehr infolge der Erregung, in welche Gregor durch diese Überlegungen versetzt wurde, als infolge eines richtigen Entschlusses, schwang er sich mit aller Macht aus dem Bett. Es gab einen lauten Schlag, aber ein eigentlicher Krach war es nicht. Ein wenig wurde der Fall durch den Teppich abgeschwächt, auch war der Rücken elastischer, als Gregor gedacht hatte, daher kam der nicht gar so auffallende dumpfe Klang. Nur den Kopf hatte er nicht vorsichtig genug gehalten und ihn angeschlagen; er drehte ihn und rieb ihn an dem Teppich vor Ärger und Schmerz.",
+      "en": "And more because of the agitation these thoughts put him into than because of a proper decision, he swung himself out of bed with all his might. There was a loud thump, but it wasn't really a crash. The fall was softened a little by the carpet, and his back was also more elastic than Gregor had thought – that's why the sound was a dull one and not so very noticeable. Only he hadn't held his head carefully enough and had banged it; he turned it and rubbed it on the carpet in anger and pain.",
+      "explain_en": "Gregor finally falls out of bed – out of anger, not a plan. 'mehr infolge ... als infolge ...' = more because of ... than because of ... ('infolge' + genitive is formal; say 'wegen'). 'Es gab einen lauten Schlag' – 'es gibt' also describes events: there was a loud bang. 'elastischer, als Gregor gedacht hatte' = more elastic than Gregor had thought. 'sich den Kopf anschlagen' = to bang your head.",
+      "words": [
+        {
+          "de": "die Aufregung",
+          "en": "excitement, agitation",
+          "note": "Kafka: die Erregung"
+        },
+        {
+          "de": "mit aller Kraft",
+          "en": "with all your strength",
+          "note": "Kafka: mit aller Macht"
+        },
+        {
+          "de": "der Schlag, die Schläge",
+          "en": "blow, bang"
+        },
+        {
+          "de": "sich den Kopf anschlagen",
+          "en": "to bang your head"
+        },
+        {
+          "de": "reiben",
+          "en": "to rub"
+        },
+        {
+          "de": "der Ärger",
+          "en": "anger, annoyance; trouble"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "de": "»Da drin ist etwas gefallen«, sagte der Prokurist im Nebenzimmer links. Gregor suchte sich vorzustellen, ob nicht auch einmal dem Prokuristen etwas Ähnliches passieren könnte, wie heute ihm; die Möglichkeit dessen musste man doch eigentlich zugeben. Aber wie zur rohen Antwort auf diese Frage machte jetzt der Prokurist im Nebenzimmer ein paar bestimmte Schritte und ließ seine Lackstiefel knarren. Aus dem Nebenzimmer rechts flüsterte die Schwester, um Gregor zu verständigen: »Gregor, der Prokurist ist da.« »Ich weiß«, sagte Gregor vor sich hin; aber so laut, dass es die Schwester hätte hören können, wagte er die Stimme nicht zu erheben.",
+      "en": "'Something fell in there,' said the chief clerk in the room next door on the left. Gregor tried to imagine whether something like what happened to him today might not happen to the chief clerk one day too; you really had to admit it was possible. But as if in rude answer to this question, the chief clerk now took a few firm steps in the next room and made his patent-leather boots creak. From the room on the right, his sister whispered to let Gregor know: 'Gregor, the chief clerk is here.' 'I know,' Gregor said to himself; but he didn't dare raise his voice loud enough for his sister to hear.",
+      "explain_en": "The chief clerk has heard the thump. 'Da drin' = in there – very everyday. 'sich etwas vorstellen' = to imagine something. 'etwas Ähnliches' = something similar (after 'etwas', adjectives become capitalised nouns with -es). 'passieren' = to happen. 'Ich weiß' = I know. 'hätte hören können' = could have heard – with two infinitives, 'hätte' moves before them in a subordinate clause.",
+      "words": [
+        {
+          "de": "das Nebenzimmer",
+          "en": "room next door"
+        },
+        {
+          "de": "sich vorstellen",
+          "en": "to imagine; to introduce yourself"
+        },
+        {
+          "de": "passieren",
+          "en": "to happen"
+        },
+        {
+          "de": "zugeben",
+          "en": "to admit"
+        },
+        {
+          "de": "der Schritt, die Schritte",
+          "en": "step"
+        },
+        {
+          "de": "der Stiefel, die Stiefel",
+          "en": "boot"
+        },
+        {
+          "de": "sich trauen",
+          "en": "to dare",
+          "note": "Kafka: wagen (more formal)"
+        }
+      ]
+    }
+  ]
+}

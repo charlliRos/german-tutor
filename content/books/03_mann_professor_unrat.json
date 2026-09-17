@@ -1,0 +1,1057 @@
+{
+  "id": "mann-professor-unrat",
+  "title": "Professor Unrat",
+  "author": "Heinrich Mann",
+  "author_died": 1950,
+  "year": 1905,
+  "level": "B2",
+  "source": "https://www.gutenberg.org/ebooks/35264 (Project Gutenberg, from the Kurt Wolff Verlag edition, Leipzig)",
+  "orthography": "modernised to current German spelling (dass, muss, riss, ...) and current comma rules around quotations; wording unchanged",
+  "intro_en": "Heinrich Mann (1871–1950), the older brother of Thomas Mann, wrote this satire about a small-town grammar-school teacher whom all his pupils secretly call 'Unrat' (rubbish, filth) instead of his real name, Raat. The novel is set in a classroom full of teenagers who play tricks on a bitter, power-hungry teacher – so the situations will feel familiar even though the school is from 1900. It was later filmed as 'The Blue Angel' with Marlene Dietrich. The narrator's German is dense, but the classroom scenes are full of real school slang and dialogue.",
+  "units": [
+    {
+      "n": 1,
+      "de": "Da er Raat hieß, nannte die ganze Schule ihn Unrat. Nichts konnte einfacher und natürlicher sein. Der und jener Professor wechselten zuweilen ihr Pseudonym. Ein neuer Schub Schüler gelangte in die Klasse, legte mordgierig eine vom vorigen Jahrgang noch nicht genug gewürdigte Komik an dem Lehrer bloß und nannte sie schonungslos bei Namen. Unrat aber trug den seinigen seit vielen Generationen, der ganzen Stadt war er geläufig, seine Kollegen benutzten ihn außerhalb des Gymnasiums und auch drinnen, sobald er den Rücken drehte.",
+      "en": "Since his name was Raat, the whole school called him Unrat. Nothing could be simpler or more natural. Now and then one professor or another changed his nickname. A new batch of pupils would arrive in the class, gleefully expose some funny feature of the teacher that last year's lot hadn't made enough of, and name it without mercy. Unrat, however, had carried his for many generations; the whole town knew it, and his colleagues used it outside the grammar school and inside too, as soon as he turned his back.",
+      "explain_en": "The joke of the whole book: the teacher is called Raat, and 'Unrat' means rubbish or filth, so the pupils just added 'Un-'. 'Da' at the start of a sentence means 'since/because' (not 'there'). 'Professor' was the title of a senior teacher at a German 'Gymnasium' back then; today he would just be 'Lehrer' or 'Herr Raat'. 'den seinigen' is old for 'seinen' (his one). 'Pseudonym' here means nickname – today 'Spitzname'.",
+      "words": [
+        {
+          "de": "die Schule, die Schulen",
+          "en": "school"
+        },
+        {
+          "de": "der Spitzname, die Spitznamen",
+          "en": "nickname",
+          "note": "Mann writes 'Pseudonym'"
+        },
+        {
+          "de": "der Schüler, die Schüler",
+          "en": "pupil, student (at school)"
+        },
+        {
+          "de": "die Klasse, die Klassen",
+          "en": "class; school year"
+        },
+        {
+          "de": "der Lehrer, die Lehrer",
+          "en": "teacher"
+        },
+        {
+          "de": "der Kollege, die Kollegen",
+          "en": "colleague"
+        },
+        {
+          "de": "das Gymnasium, die Gymnasien",
+          "en": "grammar school (academic secondary school)"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "de": "Die Herren, die in ihrem Hause Schüler verpflegten und sie zur Arbeit anhielten, sprachen vor ihren Pensionären vom Professor Unrat. Der aufgeweckte Kopf, der den Ordinarius der Untersekunda hätte neu beobachten und nochmals abstempeln wollen, wäre nie durchgedrungen; schon darum nicht, weil der gewohnte Ruf auf den alten Lehrer noch so gut seine Wirkung übte wie vor sechsundzwanzig Jahren. Man brauchte nur auf dem Schulhof, sobald er vorbeikam, einander zuzuschreien:\n»Riecht es hier nicht nach Unrat?«\nOder:\n»Oho! Ich wittere Unrat!«",
+      "en": "The gentlemen who took in pupils as boarders and made them do their homework talked about 'Professor Unrat' in front of their lodgers. Any bright spark who might have wanted to take a fresh look at the form teacher of the Year 10 class and give him a new label would never have succeeded – if only because the old name still worked on the old teacher just as well as it had twenty-six years ago. All you had to do was shout to each other in the schoolyard as he walked past:\n'Doesn't it smell of Unrat in here?'\nOr:\n'Oho! I can smell Unrat!'",
+      "explain_en": "The nickname is so old that it is part of the town. 'Ordinarius' is an old word for the class teacher – today 'Klassenlehrer'. 'Untersekunda' is an old name for a school year (roughly Year 10 / tenth grade). 'Man brauchte nur ... zu' = you only had to ... – still normal: 'Du brauchst nur zu fragen.' 'Riecht es hier nach ...?' = does it smell of ... here? 'wittern' = to scent, like an animal; today 'riechen'.",
+      "words": [
+        {
+          "de": "der Klassenlehrer, die Klassenlehrer",
+          "en": "form teacher, class teacher",
+          "note": "Mann: der Ordinarius"
+        },
+        {
+          "de": "der Schulhof, die Schulhöfe",
+          "en": "schoolyard, playground"
+        },
+        {
+          "de": "vorbeikommen",
+          "en": "to come past, to drop by"
+        },
+        {
+          "de": "schreien",
+          "en": "to shout, to scream"
+        },
+        {
+          "de": "riechen (nach)",
+          "en": "to smell (of)"
+        },
+        {
+          "de": "aufgeweckt",
+          "en": "bright, clever"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "de": "Und sofort zuckte der Alte heftig mit der Schulter, immer mit der rechten, zu hohen, und sandte schief aus seinen Brillengläsern einen grünen Blick, den die Schüler falsch nannten, und der scheu und rachsüchtig war: der Blick eines Tyrannen mit schlechtem Gewissen, der in den Falten der Mäntel nach Dolchen späht. Sein hölzernes Kinn mit dem dünnen, graugelben Bärtchen daran klappte herunter und hinauf. Er konnte dem Schüler, der geschrien hatte, »nichts beweisen« und musste weiterschleichen auf seinen magern, eingeknickten Beinen und unter seinem fettigen Maurerhut.",
+      "en": "And immediately the old man's shoulder twitched violently, always the right one, the one that sat too high, and from his glasses he shot a sideways green glance which the pupils called sly, but which was shy and vengeful: the look of a tyrant with a guilty conscience, searching the folds of people's coats for daggers. His wooden chin with its thin, greyish-yellow little beard dropped down and snapped shut. He couldn't 'prove anything' against the pupil who had shouted, and had to slink on, on his skinny, knock-kneed legs and under his greasy bricklayer's hat.",
+      "explain_en": "A mean but funny description of Unrat. 'zucken' = to twitch. 'falsch' about a person means two-faced, sly. 'ein schlechtes Gewissen haben' = to have a guilty conscience – very common today. 'nichts beweisen können' = not to be able to prove anything; it's in quotation marks because it's Unrat's favourite phrase. 'magern' is an old short form of 'mageren' (skinny).",
+      "words": [
+        {
+          "de": "die Schulter, die Schultern",
+          "en": "shoulder"
+        },
+        {
+          "de": "die Brille, die Brillen",
+          "en": "glasses",
+          "note": "Brillengläser = lenses"
+        },
+        {
+          "de": "der Blick, die Blicke",
+          "en": "look, glance"
+        },
+        {
+          "de": "das schlechte Gewissen",
+          "en": "guilty conscience"
+        },
+        {
+          "de": "das Kinn",
+          "en": "chin"
+        },
+        {
+          "de": "beweisen",
+          "en": "to prove"
+        },
+        {
+          "de": "fettig",
+          "en": "greasy"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "de": "Zu seiner Jubelfeier im Vorjahr hatte das Gymnasium ihm einen Fackelzug gebracht. Er war auf seinen Balkon getreten und hatte geredet. Während alle Köpfe, in den Nacken gelegt, zu ihm hinaufsahen, war plötzlich eine unschöne Quetschstimme losgegangen:\n»Da ist Unrat in der Luft!«\nAndere hatten wiederholt:\n»Unrat in der Luft! Unrat in der Luft!«\nDer Professor dort oben fing an zu stottern, obwohl er den Zwischenfall vorausgesehn hatte, und sah dabei jedem der Schreier in den geöffneten Mund. Die andern Herren standen in der Nähe; er fühlte, dass er wieder einmal »nichts beweisen« könne; aber er merkte sich alle Namen.",
+      "en": "For his anniversary the year before, the school had held a torchlight procession for him. He had stepped out onto his balcony and given a speech. While all heads were tipped back looking up at him, suddenly an ugly squashed-sounding voice had gone off:\n'There's Unrat in the air!'\nOthers had repeated:\n'Unrat in the air! Unrat in the air!'\nThe professor up there began to stammer, although he had expected this incident, and looked into the open mouth of each of the shouters. The other teachers were standing nearby; he felt that once again he 'couldn't prove anything'; but he memorised every name.",
+      "explain_en": "Even at Unrat's big celebration the pupils mock him. This part is told in the Plusquamperfekt ('hatte gebracht', 'war getreten') because it happened before the main story. 'fing an zu stottern' = started to stammer ('anfangen zu' + infinitive). 'sich etwas merken' = to remember/make a note of something: 'Merk dir das!' 'vorausgesehn' is Mann's shortened form of 'vorausgesehen'.",
+      "words": [
+        {
+          "de": "im Vorjahr",
+          "en": "the year before"
+        },
+        {
+          "de": "reden",
+          "en": "to talk, to give a speech"
+        },
+        {
+          "de": "plötzlich",
+          "en": "suddenly"
+        },
+        {
+          "de": "wiederholen",
+          "en": "to repeat"
+        },
+        {
+          "de": "stottern",
+          "en": "to stammer, to stutter"
+        },
+        {
+          "de": "sich etwas merken",
+          "en": "to remember, to take note of"
+        },
+        {
+          "de": "in der Nähe",
+          "en": "nearby"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "de": "Schon tags darauf gab der mit der gequetschten Stimme dadurch, dass er das Heimatsdorf der Jungfrau von Orleans nicht kannte, dem Professor Gelegenheit zu der Versicherung, er werde ihm im Leben noch oftmals hinderlich sein. Richtig war dieser Kieselack zu Ostern nicht versetzt worden. Mit ihm blieben die meisten in der Klasse zurück von denen, die am Jubiläumsabend geschrien hatten, so auch von Ertzum. Lohmann hatte nicht geschrien und blieb dennoch sitzen. Dieser erleichterte die Absicht Unrats durch seine Trägheit und jener durch seine Unbegabtheit.",
+      "en": "The very next day the boy with the squashed voice didn't know the home village of Joan of Arc, and so gave the professor the chance to assure him that he would stand in his way many more times in life. Sure enough, this Kieselack had not been moved up at Easter. Most of those in the class who had shouted on the anniversary evening were kept back with him, including von Ertzum. Lohmann had not shouted, but was kept back all the same. Lohmann made Unrat's plan easy through his laziness, von Ertzum through his lack of talent.",
+      "explain_en": "Unrat takes revenge through grades. 'versetzt werden' = to be moved up to the next school year; 'sitzen bleiben' = to repeat a year – both still used in German schools today. 'die Jungfrau von Orleans' is Joan of Arc, and also the title of a play by Schiller that the class is studying. 'Dieser ... jener' = the latter ... the former. 'von' in 'von Ertzum' shows he's from a noble family.",
+      "words": [
+        {
+          "de": "versetzt werden",
+          "en": "to move up a year (at school)"
+        },
+        {
+          "de": "sitzen bleiben",
+          "en": "to repeat a school year"
+        },
+        {
+          "de": "Ostern",
+          "en": "Easter"
+        },
+        {
+          "de": "die Gelegenheit, die Gelegenheiten",
+          "en": "opportunity, chance"
+        },
+        {
+          "de": "die Faulheit",
+          "en": "laziness",
+          "note": "Mann: die Trägheit"
+        },
+        {
+          "de": "dennoch",
+          "en": "nevertheless, still"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Nächsten Spätherbst nun, an einem Vormittag um elf, in der Pause vor dem Klassenaufsatz über die Jungfrau von Orleans, geschah es, dass von Ertzum, der der Jungfrau immer noch nicht nähergetreten war und eine Katastrophe voraussah, in einem Anfall schwerfälliger Verzweiflung das Fenster aufriss und aufs Geratewohl, mit wüster Stimme in den Nebel hinausbrüllte:\n»Unrat!«",
+      "en": "Now, the following late autumn, one morning at eleven, in the break before the class essay on Joan of Arc, it happened that von Ertzum – who still hadn't got to know Joan any better and could see a disaster coming – in a fit of clumsy despair tore open the window and, at random, bellowed wildly into the fog:\n'Unrat!'",
+      "explain_en": "The main story begins. 'die Pause' = break between lessons. 'der Aufsatz' = essay – a word every German pupil knows. 'geschah es, dass ...' = it happened that ... (today: 'passierte es, dass ...'). 'aufs Geratewohl' = at random, just on the off chance – still used, but 'einfach so' is more everyday. 'der Nebel' = fog.",
+      "words": [
+        {
+          "de": "die Pause, die Pausen",
+          "en": "break"
+        },
+        {
+          "de": "der Aufsatz, die Aufsätze",
+          "en": "essay"
+        },
+        {
+          "de": "die Verzweiflung",
+          "en": "despair"
+        },
+        {
+          "de": "das Fenster aufreißen",
+          "en": "to fling open the window"
+        },
+        {
+          "de": "brüllen",
+          "en": "to roar, to bellow"
+        },
+        {
+          "de": "der Spätherbst",
+          "en": "late autumn"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "de": "Es war ihm unbekannt, ob der Professor in der Nähe sei, und es war ihm gleichgültig. Der arme, breite Landjunker war nur von dem Bedürfnis fortgerissen worden, noch einen kurzen Augenblick seinen Organen freies Spiel zu gewähren, bevor er sich für zwei Stunden hinhocken musste vor ein weißes Blatt, das leer war, und es mit Worten bedecken aus seinem Kopf heraus, der auch leer war.",
+      "en": "He didn't know whether the professor was nearby, and he didn't care. The poor, broad young country squire had simply been carried away by the need to give his lungs free play for one brief moment before he had to squat down for two hours in front of a white sheet of paper that was empty, and cover it with words out of his head, which was empty too.",
+      "explain_en": "Von Ertzum just needed to scream before a hard exam – very relatable. 'Es war ihm gleichgültig' = he didn't care; today you'd say 'Es war ihm egal' – 'Das ist mir egal!' is one of the most common phrases in German. 'ob der Professor in der Nähe sei' uses Konjunktiv I for reported thought. 'das Blatt' = sheet of paper (also: leaf). The joke: both the paper and his head are empty.",
+      "words": [
+        {
+          "de": "egal sein",
+          "en": "not to matter; to not care",
+          "note": "Das ist mir egal. Mann: gleichgültig"
+        },
+        {
+          "de": "das Bedürfnis, die Bedürfnisse",
+          "en": "need"
+        },
+        {
+          "de": "der Augenblick, die Augenblicke",
+          "en": "moment"
+        },
+        {
+          "de": "das Blatt, die Blätter",
+          "en": "sheet (of paper); leaf"
+        },
+        {
+          "de": "leer",
+          "en": "empty"
+        },
+        {
+          "de": "bedecken",
+          "en": "to cover"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "de": "Tatsächlich aber ging Unrat grade über den Hof. Als der Ruf aus dem Fenster ihn traf, machte er einen eckigen Sprung. Im Nebel droben unterschied er von Ertzums knorrigen Umriss. Kein Schüler hielt sich drunten auf, keinem konnte von Ertzum das Wort zugerufen haben. »Dieses Mal«, dachte Unrat frohlockend, »hat er mich gemeint. Diesmal kann ich es ihm beweisen!«",
+      "en": "But in fact Unrat was just crossing the yard. When the shout from the window hit him, he gave an awkward jump. Up in the fog he made out von Ertzum's knobbly outline. There were no pupils down below; von Ertzum couldn't have been shouting the word at anyone else. 'This time,' Unrat thought triumphantly, 'he meant me. This time I can prove it!'",
+      "explain_en": "Unrat finally has a chance to catch someone. 'grade' is the spoken form of 'gerade' (just, right now) – you hear 'grade' all the time today. 'droben' and 'drunten' are old/southern for 'oben' and 'unten'. 'Dieses Mal' and 'diesmal' both mean 'this time'. 'meinen' = to mean someone: 'Meinst du mich?' = Do you mean me?",
+      "words": [
+        {
+          "de": "tatsächlich",
+          "en": "actually, in fact"
+        },
+        {
+          "de": "gerade",
+          "en": "just, right now",
+          "note": "spoken: grade"
+        },
+        {
+          "de": "der Hof, die Höfe",
+          "en": "yard, courtyard"
+        },
+        {
+          "de": "der Sprung, die Sprünge",
+          "en": "jump"
+        },
+        {
+          "de": "diesmal",
+          "en": "this time"
+        },
+        {
+          "de": "meinen",
+          "en": "to mean; to think (opinion)"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Er nahm die Treppe in fünf Sätzen, riss die Klassentür auf, hastete zwischen den Bänken hindurch, schwang sich, in das Katheder gekrallt, auf die Stufe. Da blieb er bebend stehn und musste Atem schöpfen. Die Sekundaner hatten sich zu seiner Begrüßung erhoben, und äußerster Lärm war jäh in ein Schweigen versunken, das förmlich betäubte. Sie sahen ihrem Ordinarius zu, wie einem gemeingefährlichen Vieh, das man leider nicht totschlagen durfte, und das augenblicklich sogar einen peinlichen Vorteil über sie gewonnen hatte. Unrats Brust arbeitete heftig; schließlich sagte er mit seiner begrabenen Stimme:",
+      "en": "He took the stairs in five leaps, tore open the classroom door, rushed between the desks and, clutching the teacher's desk, swung himself up onto the platform. There he stood trembling and had to catch his breath. The Year 10 boys had stood up to greet him, and the most tremendous noise had suddenly sunk into a silence that was positively stunning. They watched their form teacher like a dangerous beast which, unfortunately, they weren't allowed to kill, and which for the moment had even gained an embarrassing advantage over them. Unrat's chest heaved; finally he said in his buried voice:",
+      "explain_en": "Pupils in 1900 stood up when the teacher entered. 'das Katheder' is the raised teacher's desk – an old word; today 'das Pult' or 'der Lehrertisch'. 'Atem schöpfen' = to catch your breath (today 'Luft holen'). 'stehn' is a shortened form of 'stehen'. 'leider' = unfortunately. 'der Vorteil' = advantage.",
+      "words": [
+        {
+          "de": "die Treppe, die Treppen",
+          "en": "stairs, staircase"
+        },
+        {
+          "de": "die Bank, die Bänke",
+          "en": "bench, school desk (here); bank = die Bank, die Banken"
+        },
+        {
+          "de": "der Lärm",
+          "en": "noise"
+        },
+        {
+          "de": "das Schweigen",
+          "en": "silence"
+        },
+        {
+          "de": "Luft holen",
+          "en": "to catch your breath",
+          "note": "Mann: Atem schöpfen"
+        },
+        {
+          "de": "der Vorteil, die Vorteile",
+          "en": "advantage"
+        },
+        {
+          "de": "zusehen",
+          "en": "to watch"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "de": "»Es ist mir da vorhin immer mal wieder ein Wort zugerufen worden, eine Bezeichnung – ein Name denn also: ich bin nicht gewillt, ihn mir bieten zu lassen. Ich werde diese Schmähung durch solche Menschen, als welche ich Sie kennenzulernen leider Gelegenheit hatte, nie dulden, merken Sie sich das! Ich werde Sie fassen, wo immer ich es vermag.",
+      "en": "'Just now a word was repeatedly shouted at me, a label – a name, then, in short: I am not willing to put up with it. I shall never tolerate this insult from people such as I have unfortunately had occasion to get to know you as – mark my words! I shall catch you wherever I am able.'",
+      "explain_en": "Unrat's speeches are deliberately pompous and full of filler words – Mann makes fun of how he talks, so don't copy this style! 'sich etwas bieten lassen' = to put up with something – still common: 'Das lasse ich mir nicht bieten!' = I won't stand for that! 'Merken Sie sich das!' = Remember that! (formal 'Sie'). 'denn also' is empty filler; normal German would be 'also'. 'dulden' = to tolerate.",
+      "words": [
+        {
+          "de": "rufen",
+          "en": "to call, to shout"
+        },
+        {
+          "de": "sich etwas bieten lassen",
+          "en": "to put up with something"
+        },
+        {
+          "de": "die Beleidigung, die Beleidigungen",
+          "en": "insult",
+          "note": "Mann: die Schmähung (old)"
+        },
+        {
+          "de": "dulden",
+          "en": "to tolerate"
+        },
+        {
+          "de": "kennenlernen",
+          "en": "to get to know, to meet"
+        },
+        {
+          "de": "leider",
+          "en": "unfortunately"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "de": "Ihre Verworfenheit, von Ertzum, nicht genug damit, dass sie mir Abscheu einflößt, soll sie an der Festigkeit eines Entschlusses wie Glas zerbrechen, den ich Ihnen hiermit verkünde. Noch heute werde ich von Ihrer Tat dem Herrn Direktor Anzeige erstatten, und was in meiner Macht steht, soll – traun fürwahr – geschehen, damit die Anstalt wenigstens von dem schlimmsten Abschaum der menschlichen Gesellschaft befreit werde!«",
+      "en": "'Your depravity, von Ertzum – not only does it fill me with disgust, it shall also shatter like glass against the firmness of a decision which I hereby announce to you. This very day I shall report your deed to the headmaster, and everything in my power shall – verily and forsooth – be done so that the school may at least be freed from the worst scum of human society!'",
+      "explain_en": "Unrat threatens to report von Ertzum to the head teacher. 'traun fürwahr' is a joke-archaic phrase like 'verily, forsooth' – nobody said it even in 1905! 'dem Direktor Anzeige erstatten' is very formal; today: 'Ich melde das dem Direktor' or 'Ich sag's dem Direktor'. 'die Anstalt' (institution) for the school sounds cold; today it's used for prisons or psychiatric hospitals. 'damit' = so that.",
+      "words": [
+        {
+          "de": "der Direktor, die Direktoren",
+          "en": "headmaster, head teacher; director"
+        },
+        {
+          "de": "melden",
+          "en": "to report"
+        },
+        {
+          "de": "die Entscheidung, die Entscheidungen",
+          "en": "decision",
+          "note": "Mann: der Entschluss"
+        },
+        {
+          "de": "die Gesellschaft, die Gesellschaften",
+          "en": "society; company"
+        },
+        {
+          "de": "zerbrechen",
+          "en": "to break, to shatter"
+        },
+        {
+          "de": "damit",
+          "en": "so that"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Darauf riss er sich den Mantel von den Schultern und zischte:\n»Setzen!«\nDie Klasse setzte sich, nur von Ertzum blieb stehn. Sein dicker, gelb punktierter Kopf war jetzt so feuerrot wie die Borsten oben darauf. Er wollte etwas sagen, setzte mehrmals an, gab es wieder auf. Schließlich stieß er heraus:\n»Ich bin es nicht gewesen, Herr Professor!«\nMehrere Stimmen unterstützten ihn, opferfreudig und solidarisch:\n»Er ist es nicht gewesen!«\nUnrat stampfte auf:",
+      "en": "Then he tore his coat off his shoulders and hissed:\n'Sit down!'\nThe class sat down; only von Ertzum stayed standing. His fat head with its yellow spots was now as fiery red as the bristly hair on top. He wanted to say something, started several times, gave up again. Finally he blurted out:\n'It wasn't me, sir!'\nSeveral voices backed him up, self-sacrificing and loyal:\n'It wasn't him!'\nUnrat stamped his foot:",
+      "explain_en": "Very useful school dialogue! 'Setzen!' (short for 'Setzen Sie sich!') is still what strict teachers say. 'Ich bin es nicht gewesen!' = It wasn't me! – today usually 'Ich war's nicht!'. 'Herr Professor' is how pupils addressed him; today pupils say 'Herr' + surname, e.g. 'Herr Raat'. 'etwas sagen wollen' = to want to say something. 'stehn' = stehen.",
+      "words": [
+        {
+          "de": "der Mantel, die Mäntel",
+          "en": "coat"
+        },
+        {
+          "de": "sich setzen",
+          "en": "to sit down"
+        },
+        {
+          "de": "stehen bleiben",
+          "en": "to stay standing; to stop"
+        },
+        {
+          "de": "Ich war's nicht!",
+          "en": "It wasn't me!",
+          "note": "Mann: Ich bin es nicht gewesen!"
+        },
+        {
+          "de": "die Stimme, die Stimmen",
+          "en": "voice; vote"
+        },
+        {
+          "de": "unterstützen",
+          "en": "to support"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "de": "»Stille!... Und Sie, von Ertzum, merken Sie sich, dass Sie nicht der erste Ihres Namens sind, den ich in seiner Laufbahn – gewiss nun freilich – beträchtlich aufgehalten habe, und dass ich Ihnen auch ferner Ihr Fortkommen, wenn nicht gar unmöglich machen, so doch, wie seinerzeit Ihrem Onkel, wesentlich erschweren werde. Sie wollen Offizier werden, nicht wahr, von Ertzum? Das wollte Ihr Onkel auch.",
+      "en": "'Silence!... And you, von Ertzum, mark my words: you are not the first of your name whose career I have – yes, indeed, certainly – considerably held up, and I shall continue to make your progress, if not actually impossible, then at least considerably harder, as I once did for your uncle. You want to become an officer, don't you, von Ertzum? So did your uncle.'",
+      "explain_en": "Unrat attacks von Ertzum's whole family. 'Stille!' = Silence! (today teachers say 'Ruhe!'). 'nicht wahr?' at the end of a sentence is like 'isn't it?/don't you?' – in speech people now mostly say 'oder?' or 'ne?'. 'Offizier werden' = to become an officer. 'erschweren' = to make more difficult. 'wenn nicht ..., so doch ...' = if not ..., then at least ...",
+      "words": [
+        {
+          "de": "Ruhe!",
+          "en": "Quiet!",
+          "note": "Mann: Stille!"
+        },
+        {
+          "de": "die Laufbahn, die Laufbahnen",
+          "en": "career",
+          "note": "today often: die Karriere"
+        },
+        {
+          "de": "unmöglich",
+          "en": "impossible"
+        },
+        {
+          "de": "der Onkel, die Onkel",
+          "en": "uncle"
+        },
+        {
+          "de": "werden",
+          "en": "to become"
+        },
+        {
+          "de": "..., oder?",
+          "en": "..., right? / isn't it?",
+          "note": "Mann: nicht wahr?"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "de": "Weil er jedoch das Ziel der Klasse nie erreichte und das Reifezeugnis für den Einjährig-Freiwilligen-Dienst – aufgemerkt nun also – ihm dauernd versagt werden musste, kam er auf eine sogenannte Presse, wo er jedoch ebenfalls gescheitert sein mag, so dass er endlich nur infolge eines besonderen Gnadenaktes seines Landesherrn – doch nun immerhin – den Zutritt zur Offizierskarriere erlangte, die er dann aber, scheint es, bald wieder unterbrechen musste. Wohlan! Das Schicksal Ihres Onkels, von Ertzum, dürfte auch das Ihre werden oder doch dem jenes sich ähnlich gestalten. Ich wünsche Ihnen Glück dazu, von Ertzum. Mein Urteil über Ihre Familie, von Ertzum, steht seit fünfzehn Jahren fest ... Und nun –«",
+      "en": "'However, since he never reached the level required by the class, and the certificate for one-year volunteer service – now pay attention – had to be refused to him again and again, he went to a so-called cram school, where, however, he may have failed as well, so that in the end only through a special act of mercy by his sovereign – but still, all the same – did he gain entry to an officer's career, which he then, it seems, soon had to break off again. Well then! Your uncle's fate, von Ertzum, may well become yours too, or at least turn out similar to it. I wish you luck with it, von Ertzum. My opinion of your family, von Ertzum, has been fixed for fifteen years ... And now –'",
+      "explain_en": "Unrat publicly tells the embarrassing story of von Ertzum's uncle. 'das Reifezeugnis' is an old term for a school-leaving certificate (today 'das Abitur' or 'das Abschlusszeugnis'). 'die Presse' here is slang for a private cram school. 'scheitern' = to fail – very common. 'Wohlan!' is archaic ('Well then!'); today 'Also!'. 'Ich wünsche Ihnen Glück' = I wish you luck. The repeated 'von Ertzum' shows how nasty he is being.",
+      "words": [
+        {
+          "de": "das Ziel, die Ziele",
+          "en": "goal, aim"
+        },
+        {
+          "de": "erreichen",
+          "en": "to reach, to achieve"
+        },
+        {
+          "de": "das Zeugnis, die Zeugnisse",
+          "en": "school report, certificate"
+        },
+        {
+          "de": "scheitern",
+          "en": "to fail"
+        },
+        {
+          "de": "das Schicksal, die Schicksale",
+          "en": "fate"
+        },
+        {
+          "de": "das Urteil, die Urteile",
+          "en": "judgement, opinion; verdict"
+        },
+        {
+          "de": "Viel Glück!",
+          "en": "Good luck!"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "de": "Hierbei schwoll Unrats Stimme unterirdisch an.\n»Sie sind nicht würdig, an der erhabenen Jungfrauengestalt, zu der wir jetzt übergehen, Ihre geistlose Feder zu wetzen. Fort mit Ihnen ins Kabuff!«\nVon Ertzum, langsam von Verständnis, lauschte noch immer. Vor angestrengter Aufmerksamkeit ahmte er unbewusst mit den Kiefern die Bewegungen nach, die der Professor mit den seinigen vollführte. Unrats Kinn, in dessen oberem Rand mehrere gelbe Gräten staken, rollte, während er sprach, zwischen den hölzernen Mundfalten wie auf Geleisen, und sein Speichel spritzte bis auf die vorderste Bank. Er schrie auf:\n»Sie haben die Kühnheit, Bursche!... Fort, sage ich, ins Kabuff!«",
+      "en": "At this, Unrat's voice swelled up from somewhere underground.\n'You are not worthy to sharpen your brainless pen on the sublime figure of the Maid, to whom we now turn. Off with you into the cupboard!'\nVon Ertzum, slow to understand, was still listening. In his strained attention he unconsciously copied with his jaws the movements the professor was making with his. Unrat's chin, in whose upper edge several yellow fish bones were stuck, rolled between the wooden folds of his mouth as he spoke, as if on rails, and his spit sprayed as far as the front desk. He shrieked:\n'You have the nerve, boy!... Off, I say, into the cupboard!'",
+      "explain_en": "Unrat sends von Ertzum to the 'Kabuff' – a dark little cloakroom used as punishment. 'Kabuff' is still used today in colloquial German for a tiny, poky room. 'würdig' = worthy. 'Fort mit Ihnen!' = Get out! (today: 'Raus!'). 'nachahmen' = to imitate. 'der Speichel' = spit. 'Bursche' (lad, boy) sounds old and insulting here; 'Junge' would be normal today.",
+      "words": [
+        {
+          "de": "würdig",
+          "en": "worthy"
+        },
+        {
+          "de": "das Kabuff",
+          "en": "tiny poky room, cubbyhole",
+          "note": "colloquial, still used"
+        },
+        {
+          "de": "Raus!",
+          "en": "Get out!",
+          "note": "Mann: Fort mit Ihnen!"
+        },
+        {
+          "de": "zuhören",
+          "en": "to listen",
+          "note": "Mann: lauschen (literary)"
+        },
+        {
+          "de": "die Aufmerksamkeit",
+          "en": "attention"
+        },
+        {
+          "de": "nachahmen",
+          "en": "to imitate, to copy"
+        },
+        {
+          "de": "unbewusst",
+          "en": "unconsciously"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "de": "Aufgescheucht drängte von Ertzum sich aus der Bank hervor. Kieselack raunte ihm zu:\n»Mensch, wehr dich doch!«\nLohmann, dahinter, verhieß unterdrückt:\n»Lass nur, den kriegen wir noch wieder kirre.«\nDer Verurteilte trollte sich am Katheder vorbei, in das Gelass, das der Klasse als Garderobe diente, und worin es stockfinster war. Unrat stöhnte vor Erleichterung, als hinter dem breiten Menschen sich die Tür geschlossen hatte.\n»Nun wollen wir die Zeit nachholen«, sagte er, »die uns dieser Bursche gestohlen hat. Angst, hier haben Sie das Thema, schreiben Sie es an die Tafel.«",
+      "en": "Startled, von Ertzum pushed his way out of his desk. Kieselack muttered to him:\n'Come on, man, stand up for yourself!'\nLohmann, behind him, promised under his breath:\n'Forget it, we'll get him tamed again yet.'\nThe condemned boy shuffled off past the teacher's desk into the little room that served as the class cloakroom and was pitch dark inside. Unrat groaned with relief when the door had closed behind the big lad.\n'Now let us make up the time,' he said, 'that this fellow has stolen from us. Angst, here is the topic – write it on the board.'",
+      "explain_en": "Real teenage slang: 'Mensch, wehr dich doch!' = Come on, man, fight back! – 'Mensch!' as an exclamation and 'sich wehren' are still totally normal. 'Lass nur' = Leave it / Don't worry. 'kriegen' is the everyday word for 'bekommen' (to get). 'jemanden kirre kriegen' = to tame someone, make them obedient (colloquial, a bit old). 'Angst' here is a pupil's surname! 'die Tafel' = the board; 'das Thema' = topic.",
+      "words": [
+        {
+          "de": "sich wehren",
+          "en": "to defend yourself, to fight back"
+        },
+        {
+          "de": "kriegen",
+          "en": "to get",
+          "note": "colloquial for bekommen"
+        },
+        {
+          "de": "die Garderobe, die Garderoben",
+          "en": "cloakroom"
+        },
+        {
+          "de": "stockfinster",
+          "en": "pitch dark"
+        },
+        {
+          "de": "die Erleichterung",
+          "en": "relief"
+        },
+        {
+          "de": "nachholen",
+          "en": "to make up for, to catch up on"
+        },
+        {
+          "de": "die Tafel, die Tafeln",
+          "en": "(black)board"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "de": "Der Primus nahm den Zettel vor seine kurzsichtigen Augen und machte sich langsam ans Schreiben. Alle sahen mit Spannung unter der Kreide die Buchstaben entstehn, von denen so viel abhing. Wenn es nun eine Szene betraf, die man zufällig nie »präpariert« hatte, dann hatte man »keinen Dunst« und »saß drin«. Aus Aberglaube sagte man, noch bevor die Silben an der Tafel einen Sinn annahmen:\n»O Gott, ich fall' rein.«\nSchließlich stand dort oben zu lesen:\n»Johanna: Es waren drei Gebete, die du tatst; Gib wohl acht, Dauphin, ob ich sie dir nenne!«\n(Jungfrau von Orleans, erster Aufzug, zehnter Auftritt.)\n»Thema: Das dritte Gebet des Dauphins.«",
+      "en": "The top boy held the slip of paper up to his short-sighted eyes and slowly started writing. Everyone watched tensely as the letters appeared under the chalk – so much depended on them. If it was about a scene you happened never to have 'prepared', then you 'hadn't a clue' and 'were stuck'. Out of superstition people said, even before the syllables on the board made any sense:\n'Oh God, I'm done for.'\nFinally, up there, it read:\n'Joan: There were three prayers that you prayed; Take care, Dauphin, whether I name them to you!'\n(The Maid of Orleans, Act One, Scene Ten.)\n'Topic: The Dauphin's third prayer.'",
+      "explain_en": "The dreaded essay question appears. 'der Primus' is the best pupil in the class (old; today 'der/die Klassenbeste'). Pupil slang in quotation marks: 'keinen Dunst haben' = to have no clue (today 'keine Ahnung haben'), 'drinsitzen' = to be in trouble, 'reinfallen' = to fall for it / be caught out. 'ich fall' rein' drops the -e, as in speech. The quote is from Schiller's play 'Die Jungfrau von Orleans'.",
+      "words": [
+        {
+          "de": "der Zettel, die Zettel",
+          "en": "slip of paper, note"
+        },
+        {
+          "de": "kurzsichtig",
+          "en": "short-sighted"
+        },
+        {
+          "de": "die Kreide",
+          "en": "chalk"
+        },
+        {
+          "de": "der Buchstabe, die Buchstaben",
+          "en": "letter (of the alphabet)"
+        },
+        {
+          "de": "keine Ahnung haben",
+          "en": "to have no idea",
+          "note": "1900s slang: keinen Dunst haben"
+        },
+        {
+          "de": "reinfallen",
+          "en": "to fall for something, to be caught out"
+        },
+        {
+          "de": "das Thema, die Themen",
+          "en": "topic"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "de": "Als sie dies gelesen hatten, sahen alle einander an. Denn alle »saßen drin«. Unrat hatte sie »hineingelegt«. Er ließ sich mit einem schiefen Lächeln im Lehnstuhl auf dem Katheder nieder und blätterte in seinem Notizbuch.\n»Nun?«, fragte er, ohne aufzusehn, als sei alles klar, »wollen Sie noch was wissen?... Also los!«\nDie meisten knickten über ihrem Heft zusammen und taten, als schrieben sie schon. Einige starrten entgeistert vor sich hin.",
+      "en": "When they had read this, they all looked at each other. Because they were all 'stuck'. Unrat had 'caught them out'. With a crooked smile he sat down in the armchair on the platform and leafed through his notebook.\n'Well?' he asked without looking up, as if everything were clear, 'is there anything else you want to know?... Off you go, then!'\nMost of them hunched over their exercise books and pretended they were already writing. A few stared blankly into space.",
+      "explain_en": "'einander' = each other (in speech: 'sich gegenseitig'). 'jemanden reinlegen' (Mann: hineinlegen) = to trick someone – very common today. 'Also los!' = Off you go! / Let's go! – totally current. 'noch was wissen' – 'was' is spoken for 'etwas'. 'so tun, als ob/als' = to pretend: 'taten, als schrieben sie' = pretended they were writing; in speech 'taten so, als ob sie schreiben würden'.",
+      "words": [
+        {
+          "de": "einander",
+          "en": "each other"
+        },
+        {
+          "de": "jemanden reinlegen",
+          "en": "to trick someone",
+          "note": "Mann: hineinlegen"
+        },
+        {
+          "de": "das Notizbuch, die Notizbücher",
+          "en": "notebook"
+        },
+        {
+          "de": "Also los!",
+          "en": "Off you go! / Let's go!"
+        },
+        {
+          "de": "das Heft, die Hefte",
+          "en": "exercise book"
+        },
+        {
+          "de": "so tun, als ob",
+          "en": "to pretend"
+        },
+        {
+          "de": "starren",
+          "en": "to stare"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "de": "»Sie haben noch fünfviertel Stunden«, bemerkte Unrat gleichmütig, während er innerlich jubelte. Dieses Aufsatzthema hatte noch keiner gefunden von den unbegreiflich gewissenlosen Schulmännern, die durch gedruckte Leitfäden es der Bande ermöglichten, mühelos und auf Eselsbrücken die Analyse jeder beliebigen Dramenszene herzustellen.\nManche in der Klasse erinnerten sich des zehnten Auftritts im ersten Aufzug und kannten beiläufig die zwei ersten Gebete Karls. Vom dritten wussten sie nichts mehr, es war, als hätten sie es nie gelesen. Der Primus und noch zwei oder drei, darunter Lohmann, waren sogar sicher, sie hätten es nie gelesen.",
+      "en": "'You have an hour and a quarter left,' Unrat remarked calmly, while inwardly he was rejoicing. None of those incredibly unscrupulous schoolmasters had found this essay topic yet – the ones who, with their printed study guides, made it possible for the rabble to produce an analysis of any drama scene effortlessly, using cribs.\nSome in the class remembered Scene Ten of Act One and roughly knew Charles's first two prayers. About the third they knew nothing any more; it was as if they had never read it. The top boy and two or three others, Lohmann among them, were even sure they had never read it.",
+      "explain_en": "'fünfviertel Stunden' = five quarters of an hour (75 minutes). 'die Eselsbrücke' (literally 'donkey bridge') = a memory trick – still used today: 'Ich hab eine Eselsbrücke dafür.' 'sich erinnern an' = to remember – Mann uses the older genitive 'sich des Auftritts erinnern'; today say 'sich an den Auftritt erinnern'. 'als hätten sie es nie gelesen' = as if they had never read it.",
+      "words": [
+        {
+          "de": "die Stunde, die Stunden",
+          "en": "hour; lesson"
+        },
+        {
+          "de": "die Eselsbrücke, die Eselsbrücken",
+          "en": "memory aid, mnemonic"
+        },
+        {
+          "de": "sich erinnern (an)",
+          "en": "to remember"
+        },
+        {
+          "de": "mühelos",
+          "en": "effortless"
+        },
+        {
+          "de": "sicher",
+          "en": "sure; safe"
+        },
+        {
+          "de": "darunter",
+          "en": "among them; underneath"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Der Dauphin ließ sich ja von der Prophetin nur zwei seiner nächtlichen Bitten wiederholen; das genügte ihm, um an Johannas Gottgesandtheit zu glauben. Das dritte stand schlechterdings nicht da. Dann stand es gewiss an einer andern Stelle oder ergab sich irgendwo mittelbar aus dem Zusammenhang; oder es ging gar ohne Weiteres in Erfüllung, ohne dass man wissen konnte, hier ging etwas in Erfüllung? Dass es einen Punkt geben konnte, wo er niemals aufgemerkt hatte, das gab auch der Primus Angst im Stillen zu. Auf alle Fälle musste über dieses dritte Gebet, ja selbst über ein viertes und fünftes, wenn Unrat es verlangt hätte, irgendetwas zu sagen sein.",
+      "en": "After all, the Dauphin only had the prophetess repeat two of his nightly requests; that was enough for him to believe Joan was sent by God. The third simply wasn't there. So it must be somewhere else, or it followed indirectly somewhere from the context; or maybe it simply came true without you being able to tell that something was coming true here? Even the top boy secretly admitted, with fear, that there might be a point where he had never paid attention. In any case there had to be something to say about this third prayer – and even about a fourth and fifth, if Unrat had demanded it.",
+      "explain_en": "The pupils panic about something that isn't in the play at all – Unrat's trick question. 'ja' in 'ließ sich ja ... wiederholen' means 'after all, as you know'. 'in Erfüllung gehen' = to come true: 'Mein Wunsch ist in Erfüllung gegangen.' 'zugeben' = to admit. 'Auf alle Fälle' = in any case (also 'auf jeden Fall', very common). 'aufmerken' is old for 'aufpassen' (to pay attention).",
+      "words": [
+        {
+          "de": "wiederholen",
+          "en": "to repeat"
+        },
+        {
+          "de": "glauben (an)",
+          "en": "to believe (in)"
+        },
+        {
+          "de": "in Erfüllung gehen",
+          "en": "to come true"
+        },
+        {
+          "de": "zugeben",
+          "en": "to admit"
+        },
+        {
+          "de": "aufpassen",
+          "en": "to pay attention",
+          "note": "Mann: aufmerken"
+        },
+        {
+          "de": "auf jeden Fall",
+          "en": "in any case, definitely",
+          "note": "Mann: auf alle Fälle"
+        },
+        {
+          "de": "verlangen",
+          "en": "to demand"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "de": "Über Gegenstände, von deren Vorhandensein man nichts weniger als überzeugt war, etwa über die Pflichttreue, den Segen der Schule und die Liebe zum Waffendienst, eine gewisse Anzahl Seiten mit Phrasen zu bedecken, dazu war man durch den deutschen Aufsatz seit Jahren erzogen. Das Thema ging einen nichts an; aber man schrieb. Die Dichtung, der es entstammte, war einem, da sie schon seit Monaten dazu diente, einen »hineinzulegen«, auf das gründlichste verleidet; aber man schrieb mit Schwung.",
+      "en": "Years of German essays had trained them to cover a certain number of pages with empty phrases about things whose existence they were anything but convinced of – devotion to duty, say, or the blessings of school, or the love of military service. The topic meant nothing to you; but you wrote. The play it came from had been utterly spoiled for you, since for months it had been used to 'catch you out'; but you wrote with gusto.",
+      "explain_en": "Mann criticises a school system that trains pupils to write fake, patriotic phrases. 'man' / 'einen' / 'einem' = 'you, one' in its different cases. 'nichts weniger als überzeugt' = anything but convinced. 'Das geht dich nichts an' = That's none of your business – a very useful phrase ('Das Thema ging einen nichts an'). 'jemandem etwas verleiden' = to spoil something for someone. 'mit Schwung' = with energy, with a flourish.",
+      "words": [
+        {
+          "de": "überzeugt",
+          "en": "convinced"
+        },
+        {
+          "de": "die Seite, die Seiten",
+          "en": "page; side"
+        },
+        {
+          "de": "die Pflicht, die Pflichten",
+          "en": "duty"
+        },
+        {
+          "de": "Das geht dich nichts an.",
+          "en": "That's none of your business."
+        },
+        {
+          "de": "der Monat, die Monate",
+          "en": "month"
+        },
+        {
+          "de": "erziehen",
+          "en": "to bring up, to educate"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "de": "Mit der Jungfrau von Orleans beschäftigte die Klasse sich seit Ostern, seit dreiviertel Jahren. Den Sitzengebliebenen war sie sogar schon aus dem Vorjahr geläufig. Man hatte sie vor- und rückwärts gelesen, Szenen auswendig gelernt, geschichtliche Erläuterungen geliefert, Poetik an ihr getrieben und Grammatik, ihre Verse in Prosa übertragen und die Prosa zurück in Verse. Für alle, die beim ersten Lesen Schmelz und Schimmer auf diesen Versen gespürt hatten, waren sie längst erblindet. Man unterschied in der verstimmten Leier, die täglich wieder einsetzte, keine Melodie mehr.",
+      "en": "The class had been working on The Maid of Orleans since Easter – for nine months. Those who'd been kept back even knew it from the year before. They had read it forwards and backwards, learned scenes by heart, supplied historical notes, done poetics on it and grammar, turned its verses into prose and the prose back into verse. For everyone who had felt a glow and shimmer on these verses at first reading, they had long since gone blind. In the out-of-tune droning that started up again every day, you couldn't make out any melody any more.",
+      "explain_en": "Over-studying has killed the poem for everyone – something many students today would agree with! 'sich beschäftigen mit' = to deal with, to work on. 'seit dreiviertel Jahren' = for three quarters of a year; note German uses 'seit' + present tense for things still going on ('Ich lerne seit zwei Jahren Deutsch'). 'auswendig lernen' = to learn by heart – essential school vocabulary. 'die Sitzengebliebenen' = those who repeated the year.",
+      "words": [
+        {
+          "de": "sich beschäftigen mit",
+          "en": "to deal with, to work on"
+        },
+        {
+          "de": "seit",
+          "en": "since, for (time)"
+        },
+        {
+          "de": "auswendig lernen",
+          "en": "to learn by heart"
+        },
+        {
+          "de": "rückwärts",
+          "en": "backwards"
+        },
+        {
+          "de": "der Vers, die Verse",
+          "en": "verse, line of poetry"
+        },
+        {
+          "de": "täglich",
+          "en": "daily"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "de": "Niemand vernahm die eigen weiße Mädchenstimme, in der geisterhafte, strenge Schwerter sich erheben, der Panzer kein Herz mehr deckt, und Engelflügel weit ausgebreitet, licht und grausam dastehn. Wer von diesen jungen Leuten später einmal unter der fast schwülen Unschuld jener Hirtin gezittert hätte, wer den Triumph der Schwäche in ihr geliebt hätte, wer um die kindliche Hoheit, die vom Himmel verlassen, zu einem armen, hilflos verliebten kleinen Mädel wird, je geweint hätte, der wird nun das alles nicht so bald erleben. Zwanzig Jahre vielleicht wird er brauchen, bis Johanna ihm wieder etwas anderes sein kann als eine staubige Pedantin.",
+      "en": "No one heard the strangely white girl's voice in which ghostly, stern swords rise up, armour no longer covers a heart, and angels' wings stand spread wide, bright and cruel. Whoever among these young people might later have trembled at the almost sultry innocence of that shepherd girl, whoever might have loved the triumph of weakness in her, whoever might ever have wept for the childlike majesty that, abandoned by heaven, becomes a poor, helplessly lovesick little girl – he will not experience any of that for a long time now. Perhaps he will need twenty years before Joan can be anything other to him than a dusty pedant.",
+      "explain_en": "The hardest passage so far – the narrator mourns what school has destroyed: the chance to love great literature. Don't worry about every word. Key structure: 'Wer ... hätte, ... der wird ...' = whoever might have ..., he will ... 'vernehmen' is literary for 'hören'. 'das Mädel' is southern/colloquial for 'das Mädchen'. 'etwas erleben' = to experience something – very common: 'Ich habe viel erlebt.'",
+      "words": [
+        {
+          "de": "die Stimme, die Stimmen",
+          "en": "voice"
+        },
+        {
+          "de": "niemand",
+          "en": "nobody"
+        },
+        {
+          "de": "die Unschuld",
+          "en": "innocence"
+        },
+        {
+          "de": "die Schwäche, die Schwächen",
+          "en": "weakness"
+        },
+        {
+          "de": "weinen",
+          "en": "to cry"
+        },
+        {
+          "de": "erleben",
+          "en": "to experience"
+        },
+        {
+          "de": "brauchen",
+          "en": "to need"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "de": "Die Federn kritzelten; Professor Unrat lugte, mit nichts weiter beschäftigt, über die gebeugten Nacken hinweg. Es war ein guter Tag, an dem er einen »gefasst« hatte, besonders wenn es einer war, der ihm »seinen Namen« gegeben hatte. Dadurch ward das ganze Jahr gut. Leider hatte er schon seit zwei Jahren keinen der heimtückischen Schreier mehr »fassen« können. Das waren schlechte Jahre gewesen. Ein Jahr war gut oder schlecht, je nachdem Unrat einige »fasste« oder ihnen »nichts beweisen« konnte.",
+      "en": "The pens scratched away; Professor Unrat, with nothing else to do, peered over the bent necks. It was a good day when he had 'caught' someone, especially if it was one who had given him 'his name'. That made the whole year a good one. Unfortunately, for two years now he hadn't been able to 'catch' any of the sneaky shouters. Those had been bad years. A year was good or bad depending on whether Unrat 'caught' some of them or 'couldn't prove anything' against them.",
+      "explain_en": "We see Unrat's twisted way of measuring success. 'jemanden fassen/erwischen' = to catch someone – today 'erwischen' is the normal word: 'Der Lehrer hat mich erwischt!' 'ward' is an old form of 'wurde' (became). 'lugen' is old for 'gucken/spähen' (to peek). 'je nachdem' = depending on – very useful: 'Je nachdem, wie das Wetter ist.'",
+      "words": [
+        {
+          "de": "die Feder, die Federn",
+          "en": "pen (nib); feather"
+        },
+        {
+          "de": "erwischen",
+          "en": "to catch (someone)",
+          "note": "Mann: fassen"
+        },
+        {
+          "de": "besonders",
+          "en": "especially"
+        },
+        {
+          "de": "leider",
+          "en": "unfortunately"
+        },
+        {
+          "de": "je nachdem",
+          "en": "depending on"
+        },
+        {
+          "de": "gucken",
+          "en": "to look, to peek",
+          "note": "Mann: lugen (old)"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "de": "Unrat, der sich von den Schülern hinterrücks angefeindet, betrogen und gehasst wusste, behandelte sie seinerseits als Erbfeinde, von denen man nicht genug »hineinlegen« und vom »Ziel der Klasse« zurückhalten konnte. Da er sein Leben ganz in Schulen verbracht hatte, war es ihm versagt geblieben, die Knaben und ihre Dinge in die Perspektive des Erfahrenen zu schieben. Er sah sie so nah, wie einer aus ihrer Mitte, der unversehens mit Machtbefugnissen ausgestattet und aufs Katheder erhoben wäre.",
+      "en": "Unrat, who knew that the pupils attacked, cheated and hated him behind his back, for his part treated them as sworn enemies – you could never catch out enough of them or keep enough of them from reaching 'the class goal'. Since he had spent his whole life in schools, he had never been able to see boys and their affairs from the perspective of an experienced adult. He saw them as close up as one of their own would – one who had suddenly been given power and raised up onto the teacher's desk.",
+      "explain_en": "The narrator explains why Unrat acts like a bully: he never grew up and fights the kids as if he were one of them. 'hinter jemandes Rücken / hinterrücks' = behind someone's back. 'der Feind, die Feinde' = enemy; 'Erbfeind' = arch-enemy. 'Knaben' is old-fashioned for 'Jungen' (boys). 'verbringen' = to spend (time) – 'Ich verbringe viel Zeit am Handy.'",
+      "words": [
+        {
+          "de": "hassen",
+          "en": "to hate"
+        },
+        {
+          "de": "betrügen",
+          "en": "to cheat, to deceive"
+        },
+        {
+          "de": "der Feind, die Feinde",
+          "en": "enemy"
+        },
+        {
+          "de": "verbringen",
+          "en": "to spend (time)"
+        },
+        {
+          "de": "der Junge, die Jungen",
+          "en": "boy",
+          "note": "Mann: der Knabe (old)"
+        },
+        {
+          "de": "die Macht, die Mächte",
+          "en": "power"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "de": "Er redete und dachte in ihrer Sprache, gebrauchte ihr Rotwälsch, nannte die Garderobe ein »Kabuff«. Er hielt seine Ansprachen in dem Stil, den auch sie in solchen Fällen angewendet haben würden, nämlich in latinisierenden Perioden und durchwirkt mit »traun fürwahr«, »denn also« und ähnlichen Häufungen alberner kleiner Flickworte, Gewohnheiten seiner Homerstunde in Prima; denn die leichten Umständlichkeiten des Griechen mussten alle recht plump mitübersetzt werden.",
+      "en": "He spoke and thought in their language, used their slang, called the cloakroom a 'Kabuff'. He gave his speeches in the very style they themselves would have used in such cases, namely in Latin-style long sentences, woven through with 'verily, forsooth', 'then, in short' and similar heaps of silly little filler words – habits from his Homer lessons with the top class, because every slight long-windedness of the Greek had to be clumsily translated along with it.",
+      "explain_en": "Now we understand Unrat's weird speeches: he copies the clumsy style of schoolboys translating ancient Greek (Homer). 'Rotwälsch' (usually 'Rotwelsch') is thieves' slang; here it just means pupil slang – today you'd say 'Jugendsprache'. 'das Füllwort/Flickwort' = filler word, like 'like' or 'basically' in English. 'Prima' was the name for the top two years of school.",
+      "words": [
+        {
+          "de": "die Sprache, die Sprachen",
+          "en": "language"
+        },
+        {
+          "de": "die Jugendsprache",
+          "en": "youth slang"
+        },
+        {
+          "de": "der Stil, die Stile",
+          "en": "style"
+        },
+        {
+          "de": "das Füllwort, die Füllwörter",
+          "en": "filler word",
+          "note": "Mann: Flickwort"
+        },
+        {
+          "de": "übersetzen",
+          "en": "to translate"
+        },
+        {
+          "de": "albern",
+          "en": "silly"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "de": "Da er selber steife Gliedmaßen bekommen hatte, verlangte er das Gleiche von den andern Insassen der Anstalt. Das fortwährende Bedürfnis in jugendlichen Gliedern und in jugendlichen Gehirnen, in denen von Knaben, von jungen Hunden – ihr Bedürfnis zu jagen, Lärm zu machen, Püffe auszuteilen, wehzutun, Streiche zu begehn, überflüssigen Mut und Kraft ohne Verwendung auf nichtsnutzige Weise loszuwerden: Unrat hatte es vergessen und nie begriffen.",
+      "en": "Since his own limbs had grown stiff, he demanded the same from the other inmates of the institution. The constant need in young limbs and young brains – in those of boys, of young dogs – the need to chase about, make noise, hand out punches, hurt someone, play pranks, and get rid of surplus courage and energy in useless ways: Unrat had forgotten it and had never understood it.",
+      "explain_en": "Unrat forgets that teenagers need to move and let off steam. 'verlangen' = to demand. 'das Gleiche' = the same. 'Lärm machen' = to make noise. 'wehtun' = to hurt: 'Das tut weh!' = That hurts! 'Streiche spielen' (Mann: 'begehn') = to play pranks – 'ein Streich' is a prank. 'Insassen' (inmates) makes the school sound like a prison – that's the point.",
+      "words": [
+        {
+          "de": "steif",
+          "en": "stiff"
+        },
+        {
+          "de": "das Bedürfnis, die Bedürfnisse",
+          "en": "need"
+        },
+        {
+          "de": "das Gehirn, die Gehirne",
+          "en": "brain"
+        },
+        {
+          "de": "Lärm machen",
+          "en": "to make noise"
+        },
+        {
+          "de": "wehtun",
+          "en": "to hurt"
+        },
+        {
+          "de": "der Streich, die Streiche",
+          "en": "prank"
+        },
+        {
+          "de": "vergessen",
+          "en": "to forget"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Wenn er strafte, tat er es nicht mit dem überlegenen Vorbehalt: »Ihr seid Rangen, wie's euch zukommt, aber Zucht muss sein«; sondern er strafte im Ernst und mit zusammengebissenen Zähnen. Was in der Schule vorging, hatte für Unrat Ernst und Wirklichkeit des Lebens. Trägheit kam der Verderblichkeit eines unnützen Bürgers gleich, Unachtsamkeit und Lachen waren Widerstand gegen die Staatsgewalt, eine Knallerbse leitete Revolution ein, »versuchter Betrug« entehrte für alle Zukunft.",
+      "en": "When he punished, he didn't do it with the relaxed attitude of someone above it all: 'You're rascals, as boys should be, but there has to be discipline'; instead he punished in deadly earnest and with gritted teeth. What happened in school had, for Unrat, all the seriousness and reality of life. Laziness was as bad as being a useless citizen, inattention and laughter were resistance against the authority of the state, a cap-gun banger started a revolution, and 'attempted cheating' brought dishonour for all time.",
+      "explain_en": "For Unrat, school is a small state and he is its dictator. 'strafen/bestrafen' = to punish; 'die Strafe' = punishment. 'Rangen' is old for naughty kids; today 'Frechdachse' or 'Rotzlöffel'. 'Zucht muss sein' = there must be discipline (today 'Disziplin muss sein'). 'mit zusammengebissenen Zähnen' = with gritted teeth. 'der Betrug' = cheating, fraud – 'bei der Klausur schummeln' is how pupils say 'cheat in a test'.",
+      "words": [
+        {
+          "de": "bestrafen",
+          "en": "to punish"
+        },
+        {
+          "de": "der Ernst",
+          "en": "seriousness",
+          "note": "Ist das dein Ernst? = Are you serious?"
+        },
+        {
+          "de": "der Zahn, die Zähne",
+          "en": "tooth"
+        },
+        {
+          "de": "das Lachen",
+          "en": "laughter"
+        },
+        {
+          "de": "der Widerstand",
+          "en": "resistance"
+        },
+        {
+          "de": "schummeln",
+          "en": "to cheat (in a game/test)",
+          "note": "Mann: der Betrug = fraud, cheating"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "de": "Aus solchen Anlässen erbleichte Unrat. Schickte er einen ins »Kabuff«, war ihm dabei zumute, wie dem Selbstherrscher, der wieder einmal einen Haufen Umstürzler in die Strafkolonie versendet und, mit Angst und Triumph, zugleich seine vollste Macht und ein unheimliches Wühlen an ihrer Wurzel fühlt. Und den aus dem »Kabuff« Zurückgekehrten und allen andern, die ihn je angetastet hatten, vergaß Unrat es nie. Da er seit einem Vierteljahrhundert an der Anstalt wirkte, waren Stadt und Umgegend voll von seinen ehemaligen Schülern, von solchen, die er bei Nennung seines Namens »gefasst« oder denen er es »nicht hatte beweisen« können, und die alle ihn noch jetzt so nannten!",
+      "en": "On such occasions Unrat turned pale. When he sent someone into the 'Kabuff', he felt like an autocrat who once again sends a bunch of rebels off to a penal colony and at the same time, with fear and triumph, feels both his fullest power and an eerie burrowing at its roots. And Unrat never forgave those who came back from the 'Kabuff', or anyone else who had ever touched him. Since he had worked at the school for a quarter of a century, the town and the surrounding area were full of his former pupils – ones he had 'caught' when they said his name, or ones he 'hadn't been able to prove it' against – and all of them still called him that!",
+      "explain_en": "Unrat feels like a dictator – powerful but afraid of revolution. 'erbleichen' is literary for 'blass werden' (to go pale). 'es war ihm zumute wie ...' = he felt like ... (today: 'er fühlte sich wie ...'). 'jemandem etwas nie vergessen' = never to forgive someone for something. 'ehemalig' = former: 'meine ehemalige Schule'. 'das Vierteljahrhundert' = quarter century.",
+      "words": [
+        {
+          "de": "blass werden",
+          "en": "to go pale",
+          "note": "Mann: erbleichen"
+        },
+        {
+          "de": "schicken",
+          "en": "to send"
+        },
+        {
+          "de": "die Angst, die Ängste",
+          "en": "fear"
+        },
+        {
+          "de": "zugleich",
+          "en": "at the same time"
+        },
+        {
+          "de": "ehemalig",
+          "en": "former"
+        },
+        {
+          "de": "nennen",
+          "en": "to call, to name"
+        },
+        {
+          "de": "unheimlich",
+          "en": "eerie, creepy; (slang) incredibly"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "de": "Die Schule endete für ihn nicht mit der Hofmauer; sie erstreckte sich über die Häuser ringsumher und auf alle Altersklassen der Einwohner. Überall saßen störrische, verworfene Burschen, die »ihr's« nicht »präpariert« hatten und den Lehrer befeindeten. Ein Neuer, noch ahnungslos, bei dem zu Haus ältere Verwandte über den Professor Unrat gelacht hatten wie über eine Jugenderinnerung von freundlicher Komik, und der nun mit dem Schub zu Ostern in Unrats Klasse gelangt war, konnte sich bei der ersten falschen Antwort anfauchen hören:\n»Von Ihnen habe ich hier schon drei gehabt. Ich hasse Ihre ganze Familie!«",
+      "en": "For him, school didn't end at the wall of the yard; it spread out over all the houses around and over the inhabitants of every age. Everywhere sat stubborn, depraved lads who hadn't 'prepared' 'their bit' and were hostile to the teacher. A new boy, still unsuspecting, whose older relatives at home had laughed about Professor Unrat as a fond, funny memory from their youth, and who had now come into Unrat's class with the Easter intake, might find himself snapped at after his first wrong answer:\n'I've already had three of you here. I hate your whole family!'",
+      "explain_en": "A final shocking line that shows how personal Unrat's hate is. 'ahnungslos' = clueless, unsuspecting (from 'die Ahnung' – 'keine Ahnung!'). 'die Verwandten' = relatives. 'zu Haus' is a short form of 'zu Hause' (at home). 'die falsche Antwort' = the wrong answer. 'anfauchen' = to hiss/snap at (like a cat). 'Ich hasse ...' = I hate ...",
+      "words": [
+        {
+          "de": "die Mauer, die Mauern",
+          "en": "wall (outside)"
+        },
+        {
+          "de": "überall",
+          "en": "everywhere"
+        },
+        {
+          "de": "ahnungslos",
+          "en": "clueless, unsuspecting"
+        },
+        {
+          "de": "die Verwandten",
+          "en": "relatives"
+        },
+        {
+          "de": "zu Hause",
+          "en": "at home"
+        },
+        {
+          "de": "die Antwort, die Antworten",
+          "en": "answer"
+        },
+        {
+          "de": "anfauchen",
+          "en": "to snap at, to hiss at"
+        }
+      ]
+    }
+  ]
+}
