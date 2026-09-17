@@ -1302,39 +1302,9 @@
     },
     {
       "n": 39,
-      "de": "„Ich möchte ein Bauer sein“, sagte plötzlich Jonas.\n„Ich nicht“, erwiderte Schemarjah.\n„Ich möchte ein Bauer sein“, wiederholte Jonas, „ich möchte betrunken sein und mit den Mädchen da schlafen.“\n„Ich will sein, was ich bin“, sagte Schemarjah, „ein Jude wie mein Vater Mendel Singer, kein Soldat und nüchtern.“\n„Ich freue mich ein bisschen, dass ich Soldat werde“, sagte Jonas.\n„Du wirst schon deine Freuden erleben! Ich möchte lieber ein reicher Mann sein und das Leben sehen.“\n„Was ist das Leben?“",
-      "en": "'I'd like to be a peasant', Jonas said suddenly.\n'I wouldn't', replied Schemarjah.\n'I'd like to be a peasant', Jonas repeated, 'I'd like to be drunk and sleep with the girls there.'\n'I want to be what I am', said Schemarjah, 'a Jew like my father Mendel Singer, not a soldier, and sober.'\n'I'm a bit glad I'm going to be a soldier', said Jonas.\n'You'll get plenty of joy out of it! I'd rather be a rich man and see life.'\n'What is life?'",
-      "explain_en": "The two brothers show their different characters: Jonas wants to live simply like the peasants and soldiers, Schemarjah wants to be rich and see the world. 'Ich möchte ... sein' = I'd like to be – the most useful way to say what you want. 'der Bauer' = peasant, farmer. 'betrunken' = drunk; 'nüchtern' = sober. 'sich freuen, dass ...' = to be glad that. 'Du wirst schon deine Freuden erleben!' is ironic: 'You'll see what fun it is!' 'lieber' = rather: 'Ich möchte lieber ...'",
-      "words": [
-        {
-          "de": "der Bauer, die Bauern",
-          "en": "farmer, peasant"
-        },
-        {
-          "de": "betrunken",
-          "en": "drunk"
-        },
-        {
-          "de": "nüchtern",
-          "en": "sober"
-        },
-        {
-          "de": "der Soldat, die Soldaten",
-          "en": "soldier"
-        },
-        {
-          "de": "sich freuen",
-          "en": "to be glad, to be happy"
-        },
-        {
-          "de": "lieber",
-          "en": "rather"
-        },
-        {
-          "de": "reich",
-          "en": "rich"
-        }
-      ]
+      "type": "summary",
+      "covers": "Chapter 3 (the train home)",
+      "en": "On the train the two brothers talk about their future. Jonas says he would like to be a simple peasant, and admits he is a little glad to become a soldier. Schemarjah wants to stay what he is, a Jew like his father and no soldier, or better still, become a rich man and 'see life'. Jonas asks him: 'What is life?'"
     },
     {
       "n": 40,
@@ -1770,39 +1740,9 @@
     },
     {
       "n": 58,
-      "de": "„Alles ist möglich“, wiederholte er, „die Weiber taugen nichts.“\nPlötzlich begann Mendel zu schluchzen. Mendel weinte, mitten in einer fremden Nacht, neben Sameschkin.\nDer Bauer drückte seine Fäuste gegen die Augen, denn er fühlte, dass er auch weinen würde.\nDann legte er einen Arm um die dünnen Schultern Mendels und sagte leise:\n„Schlaf, lieber Jude, schlaf dich aus!“\nEr blieb lange wach. Mendel Singer schlief und schnarchte. Die Frösche quakten bis zum Morgen.",
-      "en": "'Anything is possible', he repeated, 'women are good for nothing.'\nSuddenly Mendel began to sob. Mendel wept, in the middle of a strange night, next to Sameschkin.\nThe peasant pressed his fists against his eyes, because he felt that he would weep too.\nThen he put an arm around Mendel's thin shoulders and said softly:\n'Sleep, dear Jew, sleep it off!'\nHe stayed awake for a long time. Mendel Singer slept and snored. The frogs croaked until morning.",
-      "explain_en": "A very moving moment of friendship. Mendel's remark about women ('die Weiber taugen nichts') shows his bitterness and the prejudices of his time; 'Weib' is an old, today insulting word for 'woman'. 'taugen' = to be good for something: 'Das taugt nichts' = that's useless. 'schluchzen' = to sob. 'die Faust, die Fäuste' = fist. 'sich ausschlafen' = to have a good long sleep. 'schnarchen' = to snore. 'quaken' = to croak (frogs) or quack (ducks).",
-      "words": [
-        {
-          "de": "taugen",
-          "en": "to be good for something"
-        },
-        {
-          "de": "schluchzen",
-          "en": "to sob"
-        },
-        {
-          "de": "weinen",
-          "en": "to cry, to weep"
-        },
-        {
-          "de": "die Faust, die Fäuste",
-          "en": "fist"
-        },
-        {
-          "de": "sich ausschlafen",
-          "en": "to have a good sleep, to sleep in"
-        },
-        {
-          "de": "wach bleiben",
-          "en": "to stay awake"
-        },
-        {
-          "de": "schnarchen",
-          "en": "to snore"
-        }
-      ]
+      "type": "summary",
+      "covers": "Chapter 7 (the night with Sameschkin)",
+      "en": "Mendel, bitter and exhausted, suddenly begins to sob in the middle of the strange night. The peasant Sameschkin presses his fists against his eyes because he feels he will cry too. Then he puts an arm around Mendel's thin shoulders and says softly: 'Sleep, dear Jew, sleep it off!' Mendel falls asleep and snores, while Sameschkin lies awake and the frogs croak until morning."
     },
     {
       "n": 59,
