@@ -50,6 +50,23 @@ class Report(unittest.TestCase):
             self.assertIn("No profile called Ben. Profiles: Anna", text)
             self.assertEqual(kid.path.read_bytes(), before)  # the report changes nothing
 
+    def test_repetition_section(self):
+        from app.content import load_content
+        today = date.today()
+        content = load_content()
+        book = content.books[0]
+        kid = Profile(Path("x.json"), {"name": "Anna"})
+        kid.count(today, reviews=5, reviews_missed=1, dictations=2, dictation_pct=150, paragraphs_learned=3)
+        kid.data["paragraph_reviews"]["a"] = {"book": book.id, "n": 2, "sessions_left": 0, "due_days": [],
+                                              "last_ok": False, "misses": 2}
+        with ui.console.capture() as out:
+            ui.console.print(report._repetition(kid, content, today))
+        text = out.get()
+        self.assertIn("5 · 4 counted · 1 need work", text)
+        self.assertIn("2 sentences · 75% of words right", text)
+        self.assertIn("1 being repeated (0 due now) · 3 learned", text)
+        self.assertIn("(missed 2 times)", text)
+
 
 if __name__ == "__main__":
     unittest.main()

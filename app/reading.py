@@ -202,7 +202,7 @@ def _dictation(ctx, book: Book, unit: Unit, heading: str) -> bool:
         hear(ctx, sentence)
     if not answer:
         console.print(ui.german(sentence, "The sentence"))
-        ok = False
+        score, ok = 0.0, False
     else:
         marked, score = mark_words(answer, sentence)
         ok = score >= DICTATION_PASS
@@ -212,6 +212,7 @@ def _dictation(ctx, book: Book, unit: Unit, heading: str) -> bool:
                             border_style="green" if ok else "red", padding=(1, 2)))
         if not ok:
             console.print("[hint]It comes back next session.[/]")
+    ctx.profile.count(ctx.today, dictations=1, dictation_pct=round(score * 100))
     hear(ctx, sentence, slow=False)
     while ui.keys({"": "next", "r": "hear it again"}) == "r":
         hear(ctx, sentence, slow=False)
@@ -342,12 +343,17 @@ def review(ctx, book: Book, unit: Unit, item: dict, i: int, total: int) -> None:
         entry = _translate(ctx, book, unit, task, heading, review=True)
         ok = not entry.get("skipped") and entry.get("self_grade") != NEEDS_WORK
     item["last_task"] = task
+    item["last_ok"] = ok
+    learned = False
     if ok:  # one good look back counts for this session and every review day that has come
         item["sessions_left"] = max(0, item["sessions_left"] - 1)
         item["due_days"] = [d for d in item["due_days"] if d > ctx.today.isoformat()]
         if not item["sessions_left"] and not item["due_days"]:
-            del ctx.profile.data["paragraph_reviews"][f"{book.id}:{unit.n}"]  # learned for good
-    ctx.profile.count(ctx.today, reviews=1)
+            del ctx.profile.data["paragraph_reviews"][f"{book.id}:{unit.n}"]
+            learned = True
+    else:
+        item["misses"] = item.get("misses", 0) + 1
+    ctx.profile.count(ctx.today, reviews=1, reviews_missed=int(not ok), paragraphs_learned=int(learned))
     ctx.profile.save()
 
 

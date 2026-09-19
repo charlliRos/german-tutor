@@ -186,6 +186,19 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Co
 ARTICLES = ("der ", "die ", "das ")
 
 
+def words_in_reach(content: Content, profile_data: dict) -> set[str]:
+    """Words the kid can meet now: the word lists, plus key words of paragraphs already read
+    (and any word already practised). Key words of paragraphs still ahead aren't counted yet."""
+    ids = {wid for wid, w in content.words.items() if w.bank != READING}
+    for book in content.books:
+        next_n = profile_data["books"].get(book.id, {}).get("next", 1)
+        for unit in book.units:
+            if unit.kind == "text" and unit.n < next_n:
+                ids.update(unit.word_ids)
+    ids.update(wid for wid in profile_data["vocab"] if wid in content.words)
+    return ids
+
+
 def reading_words(content: Content) -> None:
     """Turn each paragraph's key words into practice words (unit.word_ids). A word already in the bank
     with the same meaning is reused, so it isn't learned twice."""

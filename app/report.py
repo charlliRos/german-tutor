@@ -11,7 +11,7 @@ from rich.table import Table
 from rich.text import Text
 
 from . import srs, ui
-from .content import Book, Content, load_content
+from .content import Book, Content, load_content, words_in_reach
 from .profile import Profile
 from .ui import console, icon
 
@@ -103,7 +103,7 @@ def _word_counts(profile: Profile, content: Content) -> tuple[int, int, int]:
     boxes = [s.get("box", 0) for wid, s in profile.data["vocab"].items() if wid in content.words]
     learning = sum(1 for b in boxes if 1 <= b < srs.LEARNED_BOX)
     learned = sum(1 for b in boxes if b >= srs.LEARNED_BOX)
-    return learning, learned, len(content.words) - learning - learned
+    return learning, learned, len(words_in_reach(content, profile.data)) - learning - learned
 
 
 def _overview(profiles: list[Profile], content: Content, today: date) -> Table:
@@ -154,6 +154,43 @@ def _summary(profile: Profile, content: Content, today: date) -> Table:
     return t
 
 
+def _days_total(profile: Profile, today: date, length: int, key: str) -> int:
+    first = (today - timedelta(days=length - 1)).isoformat()
+    return sum(c.get(key, 0) for d, c in profile.data["days"].items() if d >= first)
+
+
+def _repetition(profile: Profile, content: Content, today: date) -> Table:
+    """Is the repetition working? Look backs done, listen-and-type scores, paragraphs still being repeated."""
+    t = Table(title=f"{ui.escape(profile.name)}'s repetition", title_justify="left", show_header=False,
+              box=None, padding=(0, 2))
+    t.add_column(no_wrap=True)
+    t.add_column()
+    for length in (7, 30):
+        done = _days_total(profile, today, length, "reviews")
+        missed = _days_total(profile, today, length, "reviews_missed")
+        t.add_row(f"Look backs, last {length} days",
+                  f"{done} · [good]{done - missed} counted[/]" + (f" · [warn]{missed} need work[/]" if missed else "")
+                  if done else "[hint]none[/]")
+    typed = _days_total(profile, today, 30, "dictations")
+    t.add_row("Listen and type, last 30 days",
+              f"{ui.plural(typed, 'sentence')} · {_days_total(profile, today, 30, 'dictation_pct') // typed}% "
+              "of words right on average" if typed else "[hint]none yet[/]")
+    items = profile.data["paragraph_reviews"].values()
+    due = sum(1 for i in items if i["sessions_left"] > 0 or (i["due_days"] and i["due_days"][0] <= today.isoformat()))
+    learned = sum(c.get("paragraphs_learned", 0) for c in profile.data["days"].values())
+    t.add_row("Paragraphs", f"{len(items)} being repeated ({due} due now) · [good]{learned} learned for good[/]")
+    books = {b.id: b for b in content.books}
+    struggling = [i for i in items if i.get("last_ok") is False and i["book"] in books]
+    struggling.sort(key=lambda i: -i.get("misses", 0))
+    for i in struggling[:5]:
+        book = books[i["book"]]
+        unit = next((u for u in book.units if u.n == i["n"]), None)
+        t.add_row("[warn]Needs work[/]" if i is struggling[0] else "",
+                  f"{ui.escape(book.short_title)} · paragraph {unit.part if unit else i['n']} "
+                  f"[hint](missed {ui.plural(i.get('misses', 1), 'time')})[/]")
+    return t
+
+
 def _hard_words(profile: Profile, content: Content) -> Table | None:
     """Words still being learned, most missed first (words learned since then are left out)."""
     missed = [(content.words[wid], s) for wid, s in profile.data["vocab"].items()
@@ -174,6 +211,8 @@ def _report(profile: Profile, content: Content, today: date) -> None:
     name = ui.escape(profile.name)
     console.print(Panel(Text(profile.name, style="bold", justify="center"), border_style="magenta"))
     console.print(_summary(profile, content, today))
+    console.print()
+    console.print(_repetition(profile, content, today))
     console.print()
     hard = _hard_words(profile, content)
     if hard:

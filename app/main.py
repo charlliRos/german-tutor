@@ -13,7 +13,7 @@ from rich.text import Text
 from . import sfx, srs, ui
 from .audio import Audio
 from .config import load_settings
-from .content import Content, load_content
+from .content import Content, load_content, words_in_reach
 from .mascot import banner
 from .profile import Profile
 from .report import print_translation, run_report
@@ -152,13 +152,17 @@ def show_progress(ctx: Context) -> None:
     right = sum(s.get("right", 0) for s in states.values())
     wrong = sum(s.get("wrong", 0) for s in states.values())
     t = Table(show_header=False, box=None, padding=(0, 2))
-    t.add_row("Words in the bank", f"{len(words):,}")
-    t.add_row("Not started yet", f"{len(words) - sum(boxes[1:]):,}")
+    reach = words_in_reach(ctx.content, ctx.profile.data)
+    t.add_row("Words so far", f"{len(reach):,} [hint](every paragraph you read adds its key words)[/]")
+    t.add_row("Not started yet", f"{len(reach) - sum(boxes[1:]):,}")
     t.add_row("Learning", str(boxes[1] + boxes[2]))
     t.add_row("Learned", f"[good]{sum(boxes[3:])}[/]")
     t.add_row("Answers right", f"{right * 100 // (right + wrong)}%" if right + wrong else "–")
     t.add_row("Days in a row", str(ctx.profile.streak(ctx.today)))
     t.add_row("Today's warm-up size", ui.plural(warmup_size(ctx), "word"))
+    learned_paragraphs = sum(c.get("paragraphs_learned", 0) for c in ctx.profile.data["days"].values())
+    t.add_row("Paragraphs", f"{len(ctx.profile.data['paragraph_reviews'])} being repeated · "
+                            f"[good]{learned_paragraphs} learned for good[/]")
     console.print(t)
 
     narrow = console.width < 70
