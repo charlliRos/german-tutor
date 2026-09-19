@@ -1415,8 +1415,16 @@
           "en": "“For example, there's the part where the king has cried because he's been betrayed by the Marquis... but the Marquis only betrayed him for the prince's sake, you see, because he's sacrificing himself for him."
         },
         {
-          "de": "Und nun kommt aus dem Kabinett in das Vorzimmer die Nachricht, dass der König geweint hat. ›Geweint?‹ ›Der König geweint?‹",
-          "en": "And now the news comes out of the king's private room into the antechamber that the king has cried. ‘Cried?’ ‘The king cried?’"
+          "de": "Und nun kommt aus dem Kabinett in das Vorzimmer die Nachricht, dass der König geweint hat.",
+          "en": "And now the news comes out of the king's private room into the antechamber that the king has cried."
+        },
+        {
+          "de": "›Geweint?‹",
+          "en": "‘Cried?’"
+        },
+        {
+          "de": "›Der König geweint?‹",
+          "en": "‘The king cried?’"
         }
       ]
     },

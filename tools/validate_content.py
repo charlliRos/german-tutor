@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from app.config import BOOKS_DIR, VOCAB_DIR  # noqa: E402
-from app.content import BANKS, is_duplicate, vocab_files  # noqa: E402
+from app.content import BANKS, is_duplicate, sentences, vocab_files  # noqa: E402
 
 POS = {"noun", "verb", "adj", "adv", "prep", "conj", "pron", "num", "phrase", "other"}
 LEVELS = {"A1", "A2", "B1", "B2", "C1"}
@@ -103,9 +103,10 @@ def check_books() -> list[tuple[str, int]]:
             if u.get("de") and u.get("en") and not pairs:
                 warnings.append(f"{where}: no sentence-by-sentence English yet (tools/sentence_pairs.py)")
             elif pairs:
-                if " ".join(" ".join(p.get("de", "") for p in pairs).split()) != " ".join(u.get("de", "").split()):
-                    errors.append(f"{where}: 'sentences' don't match the German text any more "
-                                  "(it was edited): remove 'sentences' and redo them with tools/sentence_pairs.py")
+                if [p.get("de", "") for p in pairs] != sentences(u.get("de", "")):
+                    errors.append(f"{where}: 'sentences' don't match the German text (it was edited, or the "
+                                  "sentence splitter changed): remove 'sentences' and redo them with "
+                                  "tools/sentence_pairs.py")
                 if any(not p.get("en") for p in pairs):
                     errors.append(f"{where}: a sentence has no English")
         summary.append((data.get("title", path.stem), len(units)))

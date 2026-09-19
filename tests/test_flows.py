@@ -261,9 +261,9 @@ class BookSentences(unittest.TestCase):
     def test_the_word_in_its_book_sentence(self):
         from app.content import story_sentence
         text = "Er war traurig. Sie traute sich nicht. Die Staatsanwälte kamen."
-        self.assertEqual(story_sentence("sich trauen", text), "Sie traute sich nicht.")
-        self.assertEqual(story_sentence("der Staatsanwalt", text), "Die Staatsanwälte kamen.")
-        self.assertEqual(story_sentence("gehen", text), "")
+        self.assertEqual(story_sentence("sich trauen", text, "verb"), "Sie traute sich nicht.")
+        self.assertEqual(story_sentence("der Staatsanwalt", text, "noun", "die Staatsanwälte"), "Die Staatsanwälte kamen.")
+        self.assertEqual(story_sentence("gehen", text, "verb"), "")
 
     def test_quote_marks_balanced_when_a_sentence_stands_alone(self):
         from app.content import balance_quotes
@@ -274,6 +274,28 @@ class BookSentences(unittest.TestCase):
         self.assertEqual(balance_quotes("He said: 'Stop!", "en"), "He said: 'Stop!'")
         self.assertEqual(balance_quotes("Mendel's son went to the Skowronneks' shop.", "en"),
                          "Mendel's son went to the Skowronneks' shop.")
+        self.assertEqual(balance_quotes("in which 'side matters' now went on.", "en"), "in which 'side matters' now went on.")
+
+    def test_closing_marks_stay_with_their_sentence(self):
+        from app.content import sentences
+        self.assertEqual(sentences("»Das Meer . . . « sagte sie. »Ja?‹ Er nickte.")[0], "»Das Meer . . . « sagte sie.")
+        self.assertEqual(sentences("›März, nicht wahr?‹ Ich nickte."), ["›März, nicht wahr?‹", "Ich nickte."])
+
+    def test_key_word_options_and_english_in_brackets(self):
+        from app.content import key_word
+        self.assertEqual(key_word({"de": "der/die Angestellte", "en": "employee"})[0],
+                         ["der Angestellte", "die Angestellte"])
+        self.assertEqual(key_word({"de": "Angst haben/bekommen", "en": "to be afraid"})[0],
+                         ["Angst haben", "Angst bekommen"])
+        self.assertEqual(key_word({"de": "anzünden", "en": "to light (a candle, fire); to kindle"})[2],
+                         ["to light (a candle, fire)", "to kindle"])
+
+    def test_book_sentence_really_uses_the_word(self):
+        from app.content import story_sentence
+        text = "Da stand der kleine Gegenstand. Sie trug ein rotes Kleid. Er dachte an meinem Otto."
+        self.assertEqual(story_sentence("das Kleid", text, "noun"), "Sie trug ein rotes Kleid.")
+        self.assertEqual(story_sentence("meinen", text, "verb"), "")
+        self.assertEqual(story_sentence("die Beschwerde", "Er beschwert sich.", "noun"), "")
 
     def test_card_shows_the_book_sentence(self):
         word = Word(id="x", bank="reading", de="der Hund", en=["dog"], pos="noun",

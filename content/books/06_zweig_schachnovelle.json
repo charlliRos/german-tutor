@@ -1639,8 +1639,12 @@
           "en": "And this one move seemed enough to teach Czentovic how little our amateurish efforts deserved any more of his masterly attention."
         },
         {
-          "de": "Mit derselben selbstverständlichen Geste, mit der unsereiner in einer Buchhandlung einen angebotenen schlechten Detektivroman weglegt, ohne ihn auch nur anzublättern, trat er von unserem Tische fort und verließ den Smoking Room. ›Gewogen und zu leicht befunden‹, dachte ich mir, ein bisschen verärgert durch diesen kühlen, verächtlichen Blick, und um meinem Unmut irgendwie Luft zu machen, äußerte ich zu McConnor: »Ihr Zug scheint den Meister nicht sehr begeistert zu haben.«",
-          "en": "With the same casual gesture with which people like us put down a bad detective novel in a bookshop without even flicking through it, he stepped away from our table and left the smoking room. 'Weighed and found wanting,' I thought, a little annoyed by that cool, contemptuous look, and to let off steam somehow I said to McConnor: 'Your move doesn't seem to have impressed the master much.'"
+          "de": "Mit derselben selbstverständlichen Geste, mit der unsereiner in einer Buchhandlung einen angebotenen schlechten Detektivroman weglegt, ohne ihn auch nur anzublättern, trat er von unserem Tische fort und verließ den Smoking Room.",
+          "en": "With the same casual gesture with which people like us put down a bad detective novel in a bookshop without even flicking through it, he stepped away from our table and left the smoking room."
+        },
+        {
+          "de": "›Gewogen und zu leicht befunden‹, dachte ich mir, ein bisschen verärgert durch diesen kühlen, verächtlichen Blick, und um meinem Unmut irgendwie Luft zu machen, äußerte ich zu McConnor: »Ihr Zug scheint den Meister nicht sehr begeistert zu haben.«",
+          "en": "'Weighed and found wanting,' I thought, a little annoyed by that cool, contemptuous look, and to let off steam somehow I said to McConnor: 'Your move doesn't seem to have impressed the master much.'"
         },
         {
           "de": "»Welchen Meister?«",
@@ -2788,8 +2792,12 @@
       ],
       "sentences": [
         {
-          "de": "›Du träumst‹, sagte ich mir. ›Du träumst!",
-          "en": "'You're dreaming,' I told myself. 'You're dreaming!"
+          "de": "›Du träumst‹, sagte ich mir.",
+          "en": "'You're dreaming,' I told myself."
+        },
+        {
+          "de": "›Du träumst!",
+          "en": "'You're dreaming!"
         },
         {
           "de": "Tu keinesfalls die Augen auf!",
@@ -2862,8 +2870,16 @@
           "en": "Later he asked me all sorts of questions, above all one that surprised me – whether I was a mathematician or a chemist."
         },
         {
-          "de": "Ich verneinte. ›Sonderbar‹, murmelte er. ›Im Fieber haben Sie immer so sonderbare Formeln geschrien – c3, c4.",
-          "en": "I said no. 'Strange,' he murmured. 'In your fever you kept shouting such strange formulas – c3, c4."
+          "de": "Ich verneinte.",
+          "en": "I said no."
+        },
+        {
+          "de": "›Sonderbar‹, murmelte er.",
+          "en": "'Strange,' he murmured."
+        },
+        {
+          "de": "›Im Fieber haben Sie immer so sonderbare Formeln geschrien – c3, c4.",
+          "en": "'In your fever you kept shouting such strange formulas – c3, c4."
         },
         {
           "de": "Wir haben uns alle nicht ausgekannt.‹",
@@ -2912,20 +2928,32 @@
           "en": "I asked what had happened to me."
         },
         {
-          "de": "Er lächelte merkwürdig. ›Nichts Ernstliches.",
-          "en": "He smiled strangely. 'Nothing serious."
+          "de": "Er lächelte merkwürdig.",
+          "en": "He smiled strangely."
+        },
+        {
+          "de": "›Nichts Ernstliches.",
+          "en": "'Nothing serious."
         },
         {
           "de": "Eine akute Irritation der Nerven‹, und fügte, nachdem er sich zuvor vorsichtig umgeblickt hatte, leise bei: ›Schließlich eine recht verständliche.",
           "en": "An acute irritation of the nerves,' and after first looking around carefully he added quietly: 'A perfectly understandable one, after all."
         },
         {
-          "de": "Seit dem 13.",
-          "en": "Since the 13th"
+          "de": "Seit dem 13. März, nicht wahr?‹",
+          "en": "Since the 13th of March, isn't that right?'"
         },
         {
-          "de": "März, nicht wahr?‹ Ich nickte. ›Kein Wunder bei dieser Methode‹, murmelte er. ›Sie sind nicht der Erste.",
-          "en": "of March, isn't that right?' I nodded. 'No wonder, with this method,' he murmured. 'You're not the first."
+          "de": "Ich nickte.",
+          "en": "I nodded."
+        },
+        {
+          "de": "›Kein Wunder bei dieser Methode‹, murmelte er.",
+          "en": "'No wonder, with this method,' he murmured."
+        },
+        {
+          "de": "›Sie sind nicht der Erste.",
+          "en": "'You're not the first."
         },
         {
           "de": "Aber sorgen Sie sich nicht.‹",

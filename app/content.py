@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import re
+from functools import lru_cache
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -238,11 +239,15 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR, verbs
     return content
 
 
+_HELPERS = {"hat", "habe", "hast", "haben", "habt", "hatte", "hattest", "hatten", "hattet", "ist", "bin", "bist",
+            "sind", "seid", "war", "warst", "waren", "wart", "wäre", "wären", "hätte", "hätten"}
+
+
 def index_verbs(content: Content) -> None:
     """Find every sentence in the books that uses a past or perfect form of a listed verb.
     Past forms must match exactly (lowercase, so "Schloss" the castle isn't "schloss" the verb);
     participles may have a separable prefix in front: "angekommen" is a form of kommen."""
-    past = {form: v.inf for v in content.verbs.values() for form in v.past_forms}
+    past = {form: (v.inf, person) for v in content.verbs.values() for person, form in enumerate(v.past_forms)}
     # A participle that looks like its own infinitive (vergessen, bekommen, gefallen) can't tell "sie vergessen"
     # from "hat vergessen", so those verbs are found by their past forms only.
     participles = {v.participle: v.inf for v in content.verbs.values() if v.participle != v.inf}
@@ -253,17 +258,23 @@ def index_verbs(content: Content) -> None:
                 continue
             for sentence in sentences(unit.de):
                 tokens = re.findall(r"\w+", sentence)
+                lower = {t.lower() for t in tokens}
+                helper = bool(lower & _HELPERS)  # "hat verloren": perfect, not "wir verloren"
                 seen = set()
                 for i, token in enumerate(tokens):
                     word = token.lower() if i == 0 else token
+                    perfect = participles.get(word) or (
+                        next((inf for part, inf in ge_participles if word.endswith(part) and len(word) - len(part) <= 5),
+                             None) if "ge" in word[1:] and word[0].islower() else None)
+                    # a du/ihr form only right next to du/ihr: "schlicht" is an adjective, "ihr schlicht" a verb
+                    next_to = {tokens[j] for j in (i - 1, i + 1) if 0 <= j < len(tokens)}
+                    in_past = word in past and (past[word][1] in (0, 2) or bool(next_to & {"du", "ihr", "Du"}))
                     hit = None
-                    if word in past:
-                        hit = (past[word], word, "past")
-                    elif word in participles:
-                        hit = (participles[word], word, "perfect")
-                    elif "ge" in word[1:] and word[0].islower():
-                        hit = next(((inf, word, "perfect") for part, inf in ge_participles
-                                    if word.endswith(part) and len(word) - len(part) <= 5), None)
+                    # "verloren" alone is usually the participle/adjective; the past only with "wir"
+                    if perfect and (helper or not in_past or "wir" not in lower):
+                        hit = (perfect, word, "perfect")
+                    elif in_past:
+                        hit = (past[word][0], word, "past")
                     if hit and (hit[0], hit[2]) not in seen:
                         seen.add((hit[0], hit[2]))
                         content.verb_hits.setdefault(hit[0], []).append(
@@ -286,6 +297,28 @@ def words_in_reach(content: Content, profile_data: dict) -> set[str]:
     return ids
 
 
+def _german_options(de: str) -> list[str]:
+    """"der/die Angestellte" -> der Angestellte, die Angestellte; "die Neugierde / die Neugier" -> both;
+    "Angst haben/bekommen" -> Angst haben, Angst bekommen. The first is shown, all are accepted."""
+    if " / " in de:
+        return [o.strip() for o in de.split(" / ") if o.strip()]
+    words = de.split()
+    for i, w in enumerate(words):
+        if "/" in w.strip("/"):
+            return [" ".join(words[:i] + [alt] + words[i + 1:]) for alt in w.split("/") if alt]
+    return [de]
+
+
+def key_word(raw: dict) -> tuple[list[str], str, list[str]]:
+    """(German options, plural, English answers) of a paragraph key word like
+    {"de": "der Staatsanwalt, die Staatsanwälte", "en": "to light (a candle, fire); to kindle"}."""
+    de, _, plural = str(raw.get("de", "")).partition(", ")
+    if plural and not plural.startswith(ARTICLES):  # "etwas, jemand": not a plural
+        de, plural = str(raw["de"]), ""
+    en = [e.strip() for e in re.split(r"[,;](?![^()]*\))", str(raw.get("en", ""))) if e.strip()]
+    return _german_options(de.strip()), plural.strip(), en
+
+
 def reading_words(content: Content) -> None:
     """Turn each paragraph's key words into practice words (unit.word_ids). A word already in the bank
     with the same meaning is reused, so it isn't learned twice."""
@@ -296,11 +329,8 @@ def reading_words(content: Content) -> None:
     for book in content.books:
         for unit in book.units:
             for raw in unit.words:
-                de, _, plural = str(raw.get("de", "")).partition(", ")
-                if plural and not plural.startswith(ARTICLES):  # "etwas, jemand": not a plural
-                    de, plural = raw["de"], ""
-                en = [e.strip() for e in str(raw.get("en", "")).replace(";", ",").split(",") if e.strip()]
-                de = de.strip()
+                options, plural, en = key_word(raw)
+                de = options[0] if options else ""
                 if not de or not en:
                     continue
                 key, meanings = meaning_key(de, en)
@@ -312,27 +342,44 @@ def reading_words(content: Content) -> None:
                     pos = ("noun" if de.lower().startswith(ARTICLES)
                            else "verb" if all(e.startswith("to ") for e in en) else "other")
                     content.words[wid] = Word(id=wid, bank=READING, de=de, en=en, pos=pos, topic=book.short_title,
-                                              plural=plural.strip(), note=str(raw.get("note", "")))
+                                              de_alt=options[1:], plural=plural, note=str(raw.get("note", "")))
                     by_german.setdefault(key, []).append((meanings, wid))
                 if wid not in unit.word_ids:
                     unit.word_ids.append(wid)
                 word = content.words[wid]
-                if not word.story_de and (sentence := story_sentence(de, unit.de) or _verb_sentence(content, de, book, unit)):
+                if not word.story_de and (sentence := story_sentence(de, unit.de, word.pos, word.plural)
+                                          or _verb_sentence(content, de, word.pos, book, unit)):
                     word.story_de, word.story_from = sentence, book.short_title
 
 
-def _verb_sentence(content: Content, de: str, book: Book, unit: Unit) -> str:
-    """For a key word that is an irregular verb (maybe with a prefix: aufbrechen -> brechen), the sentence
-    of this paragraph that uses one of its forms: "brach ... auf"."""
-    last = normalize(de).split()[-1] if de.strip() else ""
+def _verb_sentence(content: Content, de: str, pos: str, book: Book, unit: Unit) -> str:
+    """For a key word that is an irregular verb, maybe with a prefix (aufbrechen -> "brach ... auf"), the sentence
+    of this paragraph that uses one of its forms. The prefix and any other words (alt aussehen) must be there too."""
+    if pos == "noun":
+        return ""
+    tokens = [t for t in normalize(de).split() if t not in _NOT_THE_WORD]
+    if not tokens:
+        return ""
+    last, others = tokens[-1], tokens[:-1]
     for inf in sorted(content.verb_hits, key=len, reverse=True):
-        if last.endswith(normalize(inf)):
-            hit = next((h for h in content.verb_hits[inf] if h.book_id == book.id and h.unit_n == unit.n), None)
-            return trim_around(hit.sentence, hit.form) if hit else ""
+        base = normalize(inf)
+        if not last.endswith(base):
+            continue
+        prefix = last[: -len(base)]
+        for hit in content.verb_hits[inf]:
+            if hit.book_id != book.id or hit.unit_n != unit.n:
+                continue
+            words = normalize(hit.sentence).split()
+            if all(t in words for t in others) and (
+                    not prefix or prefix in words or prefix + normalize(hit.form) in words):
+                return trim_around(hit.sentence, hit.form)
+        return ""
     return ""
 
 
-_SENTENCE_END = re.compile(r"[.!?…]+[“”\"»«’]*\s+(?=[„\"»«‚(–A-ZÄÖÜ-])")
+# End of a sentence: . ! ? … then maybe closing quote marks (Tucholsky writes ". . . «" with a space),
+# then a space and something that starts a sentence. « and ‹ only ever close a quote here.
+_SENTENCE_END = re.compile(r"[.!?…]+(?:\s?[“”\"»«’›‹])*\s+(?=[„\"»‚›(–A-ZÄÖÜ-])")
 _ABBREVIATIONS = {"dr", "nr", "st", "hr", "fr", "usw", "bzw", "ca", "vgl", "ggf"}
 
 
@@ -384,7 +431,10 @@ def balance_quotes(text: str, lang: str = "de") -> str:
         stack: list[int] = []
         stray_close: list[int] = []
         for i, ch in enumerate(text):
-            if ch not in (open_q, close_q) or (ch in "'’" and _is_apostrophe(text, i)):
+            if ch not in (open_q, close_q):
+                continue
+            if ch in "'’" and _is_apostrophe(text, i) and not (stack and text[i - 1] == "s"
+                                                               and not text[i + 1:i + 2].isalpha()):
                 continue
             if open_q == close_q:  # straight quotes: opening after a space (or at the start) and before a word
                 opening = (i == 0 or text[i - 1] in " (–—-\n") and i + 1 < len(text) and not text[i + 1].isspace()
@@ -431,26 +481,52 @@ _NOT_THE_WORD = {"der", "die", "das", "den", "dem", "des", "ein", "eine", "einen
                  "ueber", "fuer", "aus", "nach", "bei", "zum", "zur", "und", "oder"}
 
 
-def story_sentence(de: str, text: str) -> str:
-    """The first sentence of text that uses the word (any ending: Staatsanwalt ~ Staatsanwälte), or "".
-    A long sentence is cut to about STORY_WORDS words around the word."""
+_NOUN_ENDINGS = ("", "s", "es", "e", "en", "n", "er", "ern", "ns")
+_VERB_ENDINGS = ("", "e", "st", "est", "t", "et", "en", "te", "test", "ten", "tet", "end", "ende", "enden", "ender")
+_OTHER_ENDINGS = ("", "e", "er", "es", "en", "em", "ere", "eren", "erer", "eres", "erem", "ste", "sten", "ster",
+                  "stes", "stem", "este", "esten")
+
+
+@lru_cache(maxsize=None)
+def _normalized_sentences(text: str) -> tuple[tuple[str, tuple[str, ...]], ...]:
+    return tuple((s, tuple(normalize(w) for w in s.split())) for s in sentences(text))
+
+
+def _uses_word(word: str, key: str, pos: str, plural: str) -> bool:
+    """Is `word` (normalised) a form of `key`? Staatsanwalt ~ Staatsanwälte, strafen ~ strafte, müde ~ müden,
+    but not Kleid ~ kleine or meinen ~ meinem."""
+    if pos == "noun":
+        return any(word == stem + e for stem in {key, plural} if stem for e in _NOUN_ENDINGS)
+    if pos == "verb":
+        stem = key[:-2] if key.endswith("en") else key[:-1] if key.endswith("n") else key
+        return (word.startswith(stem) and word[len(stem):] in _VERB_ENDINGS) or word in {
+            f"ge{stem}t", f"ge{stem}et", f"ge{stem}en"}
+    return word.startswith(key) and word[len(key):] in _OTHER_ENDINGS
+
+
+def story_sentence(de: str, text: str, pos: str = "other", plural: str = "") -> str:
+    """The first sentence of text that uses the word, or "". A long sentence is cut to about STORY_WORDS
+    words around the word. For a phrase ("einen Blick werfen auf") its longest word is looked for."""
     tokens = [t for t in normalize(de).split() if t not in _NOT_THE_WORD and len(t) >= 3]
     if not tokens:
         return ""
-    key = max(tokens, key=len)
-    stem = key[: max(4, len(key) - 2)]
-    ending = 2 if len(stem) <= 4 else 4  # an ending, not another word: trau-te but not trau-rig
-    for sentence in sentences(text):
-        words = sentence.split()
-        hits = [i for i, w in enumerate(words)
-                if (n := normalize(w)).startswith(stem) and len(n) - len(stem) <= ending]
+    if len(tokens) > 1:  # a phrase: its longest word, with a short ending at most
+        key = max(tokens, key=len)
+        matches = lambda w: w.startswith(key[:-1]) and len(w) - len(key) <= 2  # noqa: E731
+    else:
+        key = tokens[0]
+        plural_key = normalize(plural).split()[-1] if plural.strip() and plural != "—" else ""
+        matches = lambda w: _uses_word(w, key, pos, plural_key)  # noqa: E731
+    for sentence, words in _normalized_sentences(text):
+        hits = [i for i, w in enumerate(words) if matches(w)]
         if not hits:
             continue
-        if len(words) <= STORY_WORDS:
+        parts = sentence.split()
+        if len(parts) <= STORY_WORDS:
             return balance_quotes(sentence)
-        start = max(0, min(hits[0] - STORY_WORDS // 2, len(words) - STORY_WORDS))
-        part = " ".join(words[start:start + STORY_WORDS])
-        return balance_quotes(("… " if start else "") + part + (" …" if start + STORY_WORDS < len(words) else ""))
+        start = max(0, min(hits[0] - STORY_WORDS // 2, len(parts) - STORY_WORDS))
+        part = " ".join(parts[start:start + STORY_WORDS])
+        return balance_quotes(("… " if start else "") + part + (" …" if start + STORY_WORDS < len(parts) else ""))
     return ""
 
 

@@ -47,12 +47,8 @@
       ],
       "sentences": [
         {
-          "de": "25.",
-          "en": "25"
-        },
-        {
-          "de": "März.",
-          "en": "March."
+          "de": "25. März.",
+          "en": "25 March."
         },
         {
           "de": "Auf meinem Tische stehen Blumen.",
@@ -2309,12 +2305,8 @@
           "en": "“I'm only an amateur astrologer, but the earth is turning into the sign of Pisces."
         },
         {
-          "de": "Da wird die Seele des Menschen unbeweglich wie das Antlitz eines Fisches.“",
-          "en": "Then the human soul will become as motionless as the face of a fish.”"
-        },
-        {
-          "de": "–",
-          "en": "–"
+          "de": "Da wird die Seele des Menschen unbeweglich wie das Antlitz eines Fisches.“ –",
+          "en": "Then the human soul will become as motionless as the face of a fish.” –"
         }
       ]
     },
@@ -2425,19 +2417,15 @@
           "en": "And while the goalkeeper was talking, little W fell asleep."
         },
         {
-          "de": "Mit einem seligen Lächeln, still und friedlich.",
-          "en": "With a blissful smile, quiet and peaceful."
-        },
-        {
-          "de": "– – –",
-          "en": "– – –"
+          "de": "Mit einem seligen Lächeln, still und friedlich. – – –",
+          "en": "With a blissful smile, quiet and peaceful. – – –"
         },
         {
           "de": "Das Begräbnis fand an einem Mittwoch statt, nachmittags um halb zwei.",
           "en": "The funeral took place on a Wednesday, at half past one in the afternoon."
         },
         {
-          "de": "Die Märzsonne schien, Ostern war nicht mehr weit.",
+          "de": "Die Märzsonne schien, Ostern war nicht mehr weit. ",
           "en": "The March sun was shining; Easter was not far off."
         },
         {
@@ -3233,7 +3221,7 @@
       ],
       "sentences": [
         {
-          "de": "Unwillkürlich blick ich empor.",
+          "de": "Unwillkürlich blick ich empor. ",
           "en": "Without meaning to, I look up."
         },
         {
@@ -4388,7 +4376,7 @@
           "en": "Only two eyes do not look at me with disgust."
         },
         {
-          "de": "Sie ruhen auf mir.",
+          "de": "Sie ruhen auf mir. ",
           "en": "They rest on me."
         },
         {
