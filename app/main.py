@@ -43,7 +43,9 @@ def share(ctx: Context, status: str | None = None) -> None:
         summary = presence.today_summary(ctx.profile, ctx.today)
         if status is None:  # in the middle of an activity: its time isn't saved yet
             summary["minutes"] = round((ctx.profile.day(ctx.today).get("seconds", 0) + ui.clock_seconds()) / 60)
-        ctx.presence.set_today(summary)
+        ctx.presence.set_today(summary, presence.history(ctx.profile, ctx.today))
+        # What the others told us is kept, so news can catch up next time both apps are open.
+        ctx.profile.data["friends"], ctx.profile.data["friend_addresses"] = ctx.presence.keep()
         if status:
             ctx.presence.set_status(status)
 
@@ -160,9 +162,8 @@ def finish_screen(ctx: Context, warm: WarmupResult | None, paragraphs: int | Non
             lines.append(f"{icon('book')} {ui.plural(looked_back, 'paragraph')} looked back at today")
     if ctx.presence:
         share(ctx)  # the others see it now ("… just finished a warm-up")
-        for name, t in ctx.presence.seen_today.items():
-            if t.get("date") == ctx.today.isoformat():
-                lines.append(f"[magenta]{ui.escape(name)} today: {ui.escape(presence.describe(name, t))}[/]")
+        for name, t in ctx.presence.friends_today().items():
+            lines.append(f"[magenta]{ui.escape(name)} today: {ui.escape(presence.describe(name, t))}[/]")
     # This activity's time isn't saved until it ends, so add the clock to what today already has.
     minutes = max(1, round((ctx.profile.day(ctx.today).get("seconds", 0) + ui.clock_seconds()) / 60))
     streak = ctx.profile.streak(ctx.today)
@@ -360,6 +361,7 @@ def main(argv: list[str] | None = None) -> int:
         ctx = Context(settings, content, profile, audio, random.Random(), date.today())
         if settings.get("share_on_wifi", True):
             ctx.presence = presence.Presence(profile.name)
+            ctx.presence.remember(profile.data.get("friends", {}), profile.data.get("friend_addresses", []))
             problem = ctx.presence.start()
             if problem:
                 audio.problems.append(problem)

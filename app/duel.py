@@ -25,7 +25,7 @@ from .ui import QuitSession, console, icon
 QUESTIONS = 10
 COUNTDOWN = 3            # seconds before a round starts
 FEEDBACK_SECONDS = 1.2   # how long "✔ +137" stays before the next word
-SILENT_LIMIT = 10.0      # seconds without any message: the other computer is gone
+SILENT_LIMIT = 30.0      # seconds without any message: the other computer is gone (patient: Wi-Fi hiccups)
 COMMON_RANK = 1500       # words to fill up with when the players haven't started enough words in common
 FAST, SLOW = 2.0, 15.0   # an answer within FAST seconds gets the full speed bonus, after SLOW none
 

@@ -1,11 +1,13 @@
 """Who else is practising on this Wi-Fi? Finding each other, sharing today's results, and duel challenges.
 
-Every running app announces its state on the local network every ANNOUNCE_EVERY seconds (one small UDP
-broadcast): the kid's name, what they're doing, today's results, and an open challenge or the answer
-to one. Everything is worked out from those announcements, so nothing depends on a single message
-arriving. Only local-network senders are listened to. The news ("Anna just finished a warm-up…") is
-collected here and shown at the top of the next screen (ui.NEWS), never in the middle of a question.
-Switch it all off with "share_on_wifi": false in config.json.
+Reliable, not fast: every running app announces its whole state every ANNOUNCE_EVERY seconds (one small
+UDP packet, broadcast AND sent straight to the addresses of kids met before, for Wi-Fi that blocks
+broadcasts): the kid's name, what they're doing, the results of the last HISTORY_DAYS days, and an open
+challenge or the answer to one. The same state is sent again and again, so a lost packet never matters,
+and the results each app has received are kept in the kid's profile: when the two apps are next open at
+the same time, the news catches up ("While you were away: Ben did a warm-up on Tue 16 Sep…").
+Only local-network senders are listened to. News is shown at the top of the next screen (ui.NEWS),
+never in the middle of a question. Switch it all off with "share_on_wifi": false in config.json.
 """
 from __future__ import annotations
 
@@ -19,19 +21,63 @@ from . import lan
 
 PORT = 50506
 APP = "gtutor"
-VERSION = 1
-ANNOUNCE_EVERY = 2.0   # seconds
-GONE_AFTER = 8.0       # seconds without an announcement: that player went offline
-INVITE_SECONDS = 120   # a challenge waits this long for an answer
-MAX_PACKET = 8192
+VERSION = 2  # apps with a different version don't listen to each other: update both
+ANNOUNCE_EVERY = 5.0   # seconds: no hurry, the same state is sent again and again
+GONE_AFTER = 20.0      # seconds without an announcement: that player went offline
+INVITE_SECONDS = 300   # a challenge waits this long for an answer
+HISTORY_DAYS = 7       # days of results in every announcement (and kept by the others)
+KEEP_DAYS = 14         # days of the others' results kept in the profile
+MAX_ADDRESSES = 8      # other computers remembered, to send to directly
+MAX_PACKET = 16384
+FIELDS = ("warmups", "words", "right", "paragraphs", "minutes")
+
+
+def day_summary(counts: dict) -> dict:
+    return {"warmups": counts.get("warmups", 0), "words": counts.get("words", 0), "right": counts.get("right", 0),
+            "paragraphs": counts.get("units", 0), "minutes": round(counts.get("seconds", 0) / 60)}
 
 
 def today_summary(profile, today) -> dict:
-    """What the others see of today's practice."""
-    day = profile.day(today)
-    return {"date": today.isoformat(), "warmups": day.get("warmups", 0), "words": day.get("words", 0),
-            "right": day.get("right", 0), "paragraphs": day.get("units", 0),
-            "minutes": round(day.get("seconds", 0) / 60), "streak": profile.streak(today)}
+    """What the others see of today's practice (streak included)."""
+    return {"date": today.isoformat(), **day_summary(profile.day(today)), "streak": profile.streak(today)}
+
+
+def history(profile, today, days: int = HISTORY_DAYS) -> dict:
+    """{date: summary} for the practice days of the last `days` days (today's may be updated separately)."""
+    first = date_minus(today, days - 1)
+    return {d: day_summary(c) for d, c in profile.data["days"].items()
+            if first <= d <= today.isoformat() and (c.get("warmups") or c.get("units"))}
+
+
+def date_minus(today, days: int) -> str:
+    from datetime import timedelta
+    return (today - timedelta(days=days)).isoformat()
+
+
+def date_minus_str(iso: str, days: int) -> str:
+    from datetime import date
+    try:
+        return date_minus(date.fromisoformat(iso), days)
+    except ValueError:
+        return ""
+
+
+def weekday(iso: str) -> str:
+    from datetime import date
+    try:
+        return date.fromisoformat(iso).strftime("%a %d %b")
+    except ValueError:
+        return iso
+
+
+def _clean_day(raw) -> dict | None:
+    """A day's results from another computer: known numbers only, else None."""
+    if not isinstance(raw, dict):
+        return None
+    day = {k: raw.get(k, 0) for k in FIELDS}
+    if not all(isinstance(v, int) and not isinstance(v, bool) and 0 <= v < 100000 for v in day.values()):
+        return None
+    return day
 
 
 def describe(name: str, t: dict) -> str:
@@ -61,7 +107,9 @@ class Presence:
         self.peers: dict[str, dict] = {}    # id -> latest announcement (+ "ip", "seen")
         self.invites: dict[str, dict] = {}  # challenges to me: invite id -> {"from", "name", "ip", "port", "until"}
         self.news: list[str] = []
-        self.seen_today: dict[str, dict] = {}  # name -> their latest results today (kept after they go offline)
+        self.days: dict[str, dict] = {}         # this kid's last HISTORY_DAYS days of results
+        self.friends: dict[str, dict] = {}      # name -> {date: results}, from the others; kept in the profile
+        self.addresses: list[str] = []          # other computers met before (sent to directly too)
         self._answered: set[str] = set()   # challenges already answered (still announced for a while)
         self._lock = threading.Lock()
         self._stop = threading.Event()
@@ -98,16 +146,43 @@ class Presence:
             self.status = status
             self._announce()
 
-    def set_today(self, summary: dict) -> None:
-        if summary != self.today:
-            self.today = summary
+    def set_today(self, summary: dict, days: dict | None = None) -> None:
+        """Today's results (with "date" and "streak"), and the last days' (see history())."""
+        days = dict(days or {})
+        days[summary["date"]] = {k: summary.get(k, 0) for k in FIELDS}
+        if summary != self.today or days != self.days:
+            self.today, self.days = summary, days
             self._announce()
+
+    def remember(self, friends: dict, addresses: list[str]) -> None:
+        """What the profile kept from earlier: the others' results and their computers' addresses."""
+        with self._lock:
+            self.friends = {name: dict(days) for name, days in friends.items() if isinstance(days, dict)}
+            self.addresses = [a for a in addresses if isinstance(a, str) and lan.local_address(a)][:MAX_ADDRESSES]
+
+    def keep(self) -> tuple[dict, list[str]]:
+        """What to keep in the profile: the others' results (last KEEP_DAYS days) and their addresses."""
+        first = date_minus_str(self.today.get("date", ""), KEEP_DAYS)
+        with self._lock:
+            friends = {name: {d: r for d, r in days.items() if d >= first} for name, days in self.friends.items()}
+            return friends, list(self.addresses)
+
+    def friend_day(self, name: str, iso: str) -> dict | None:
+        with self._lock:
+            return dict(self.friends.get(name, {}).get(iso) or {}) or None
+
+    def friends_today(self) -> dict[str, dict]:
+        """name -> today's results, for everyone heard from (even if they've gone offline since)."""
+        today = self.today.get("date")
+        with self._lock:
+            return {name: dict(days[today]) for name, days in self.friends.items() if today in days}
 
     def message(self) -> dict:
         with self._lock:
             invite = dict(self.invite) if self.invite and self.invite["until"] > time.time() else None
             return {"app": APP, "v": VERSION, "id": self.id, "name": self.name, "status": self.status,
-                    "today": self.today, "duel_port": self.duel_port,
+                    "today": self.today.get("date"), "streak": self.today.get("streak", 0), "days": self.days,
+                    "duel_port": self.duel_port,
                     "invite": {"id": invite["id"], "to": invite["to"]} if invite else None,
                     "reply": self.reply}
 
@@ -115,10 +190,13 @@ class Presence:
         if not self.sock or (self._stop.is_set() and self.status != "offline"):
             return
         data = json.dumps(self.message(), ensure_ascii=False).encode("utf-8")
-        try:
-            self.sock.sendto(data, ("255.255.255.255", self.port))
-        except OSError:
-            pass  # no network right now: try again next time
+        with self._lock:
+            targets = ["255.255.255.255", *self.addresses]
+        for target in targets:  # broadcast, and straight to the computers met before
+            try:
+                self.sock.sendto(data, (target, self.port))
+            except OSError:
+                pass  # no network right now, or that computer is off: next time
 
     def _announce_loop(self) -> None:
         while not self._stop.wait(ANNOUNCE_EVERY):
@@ -149,23 +227,21 @@ class Presence:
         if not isinstance(peer_id, str) or peer_id == self.id or not isinstance(name, str) or not name.strip():
             return
         name = name.strip()[:30]
-        raw = m.get("today") if isinstance(m.get("today"), dict) else {}
-        today = {k: v for k, v in raw.items() if k == "date" and isinstance(v, str)
-                 or isinstance(v, int) and not isinstance(v, bool) and 0 <= v < 100000}  # numbers only
+        days = m.get("days") if isinstance(m.get("days"), dict) else {}
+        days = {d: day for d, raw in list(days.items())[:HISTORY_DAYS + 1]
+                if isinstance(d, str) and len(d) == 10 and (day := _clean_day(raw))}
+        streak = m.get("streak") if isinstance(m.get("streak"), int) and not isinstance(m.get("streak"), bool) else 0
         with self._lock:
-            before = self.peers.get(peer_id)
-            if today.get("date") == self.today.get("date"):
-                self.seen_today[name] = today
+            if ip not in self.addresses and not ip.startswith("127."):
+                self.addresses = [ip, *self.addresses][:MAX_ADDRESSES]
+            self._news_about(name, days, streak)
             if m.get("status") == "offline":
                 self.peers.pop(peer_id, None)
                 return
-            self.peers[peer_id] = {"name": name, "status": str(m.get("status", ""))[:40], "today": today,
+            self.peers[peer_id] = {"name": name, "status": str(m.get("status", ""))[:40],
+                                   "today": days.get(self.today.get("date"), {}),
                                    "ip": ip, "duel_port": m.get("duel_port", lan.PORT), "seen": time.monotonic(),
                                    "reply": m.get("reply") if isinstance(m.get("reply"), dict) else None}
-            try:
-                self._news_about(name, before["today"] if before else None, today)
-            except (TypeError, ValueError):
-                pass  # nonsense numbers from the other computer: no news
             invite = m.get("invite") if isinstance(m.get("invite"), dict) else None
             if invite and invite.get("to") == self.id and isinstance(invite.get("id"), str) \
                     and invite["id"] not in self.invites and invite["id"] not in self._answered:
@@ -175,20 +251,30 @@ class Presence:
                                               "until": time.time() + INVITE_SECONDS}
                 self.news.append(f"{name} challenges you to a duel! Go to the menu and choose 8 to accept.")
 
-    def _news_about(self, name: str, before: dict | None, now: dict) -> None:
-        if now.get("date") != self.today.get("date"):
-            return  # another day (a computer with a different date, or just after midnight)
-        if before is None or before.get("date") != now.get("date"):
-            if now.get("warmups") or now.get("paragraphs"):
-                self.news.append(f"{name} has practised today already: {describe(name, now)}.")
-            return
-        finished = []
-        if now.get("warmups", 0) > before.get("warmups", 0):
-            finished.append("a warm-up")
-        if now.get("paragraphs", 0) > before.get("paragraphs", 0):
-            finished.append("a new paragraph")
-        if finished:
-            self.news.append(f"{name} just finished {' and '.join(finished)}: {describe(name, now)}. Your turn!")
+    def _news_about(self, name: str, days: dict, streak: int) -> None:
+        """Compare their days with what we knew (kept in the profile): news only for what's new."""
+        today = self.today.get("date", "")
+        known = self.friends.setdefault(name, {})
+        first_meeting = not known
+        missed = []
+        for iso in sorted(days):
+            if iso > today or iso < date_minus_str(today, HISTORY_DAYS):
+                continue  # a computer with a wrong date, or too old
+            now, before = days[iso], known.get(iso)
+            known[iso] = now
+            if iso == today:
+                done = [what for what, key in (("a warm-up", "warmups"), ("a new paragraph", "paragraphs"))
+                        if now[key] > (before or {}).get(key, 0)]
+                if done and before is not None:
+                    self.news.append(f"{name} just finished {' and '.join(done)}: "
+                                     f"{describe(name, {**now, 'streak': streak})}. Your turn!")
+                elif done:
+                    self.news.append(f"{name} has practised today already: "
+                                     f"{describe(name, {**now, 'streak': streak})}.")
+            elif before is None and not first_meeting and (now["warmups"] or now["paragraphs"]):
+                missed.append(f"{weekday(iso)}: {describe(name, now)}")
+        if missed:
+            self.news.append(f"While you were away, {name} practised on " + "; ".join(missed[-3:]) + ".")
 
     # ----- for the screens -----
 
