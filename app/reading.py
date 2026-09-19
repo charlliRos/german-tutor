@@ -15,7 +15,7 @@ from rich.table import Table
 from rich.text import Text
 
 from . import sfx, ui
-from .answers import normalize
+from .answers import normalize, real_try
 from .config import DEFAULTS
 from .content import Book, Unit, balance_quotes, sentences
 from .speaking import hear, speak_and_compare
@@ -25,6 +25,7 @@ SELF_GRADES = {"1": "needs work", "2": "mostly right", "3": "nailed it"}
 NEEDS_WORK = SELF_GRADES["1"]
 REVIEW_SESSIONS = 2
 REVIEW_DAYS = (1, 3, 7, 16, 35)  # the same ladder as the words
+CAUGHT_EXTRA_SESSIONS = 2  # pasted or random answers: the paragraph comes back in this many more sessions
 
 
 def current_book(ctx) -> Book | None:
@@ -109,8 +110,34 @@ def _self_grade(ctx, german_text: str | None) -> str:
         hear(ctx, german_text, slow=False)
 
 
+def _not_a_try(pastes_before: int, answer: str, reference: str, source: str = "") -> str:
+    """Why an answer isn't a real try ('' if it is): something was pasted, or it's random or copied."""
+    if ui.paste_count() > pastes_before:
+        return "you pasted text in. Type it yourself!"
+    return real_try(answer, reference, source) if answer else ""
+
+
+def _caught(ctx, reason: str) -> None:
+    ctx.profile.count(ctx.today, caught=1)  # for the parent's report
+    ctx.profile.save()
+    sfx.play(ctx.audio, "wrong")
+    console.print(f"[bad]{icon('bad')} Not a real try:[/] {ui.escape(reason)}")
+
+
+def _do_it_again(ctx, what: str) -> None:
+    ui.clear()
+    ui.title(f"{ctx.step}Once more, properly")
+    console.print(Panel(Text.from_markup(
+        f"Pasted or random answers count as skipping, so {what} starts again now.\n"
+        f"It also comes back [bold]{CAUGHT_EXTRA_SESSIONS} extra times[/] in the next sessions.\n"
+        f"[hint]Don't know something? Type {ui.DONT_KNOW}: that's always OK.[/]"),
+        border_style="red", padding=(1, 2)))
+    ui.keys({"": "start again"})
+
+
 def _translate(ctx, book: Book, unit: Unit, direction: str, heading: str, review: bool = False) -> dict:
-    """One translation. The journal gets it as soon as it's typed, even if they stop at the self-grade."""
+    """One translation. The journal gets it as soon as it's typed, even if they stop at the self-grade.
+    entry["caught"] says why, if it wasn't a real try (pasted, random, or the given text copied)."""
     to_english = direction == "de2en"
     reference = unit.en if to_english else unit.de
     entry = {"date": datetime.now().isoformat(timespec="minutes"), "book": book.id, "unit": unit.part,
@@ -124,10 +151,14 @@ def _translate(ctx, book: Book, unit: Unit, direction: str, heading: str, review
         if unit.words:
             console.print(ui.key_words(unit.words))
         console.print(ui.umlaut_tip())
+    pastes = ui.paste_count()
     answer = ui.ask_multiline(f"Your {'English' if to_english else 'German'} translation:")
-    if not answer:  # typed ? : show the answer, the round counts as skipped
-        entry.update(answer="", skipped=True)
+    caught = _not_a_try(pastes, answer, reference, unit.de if to_english else unit.en)
+    if not answer or caught:  # typed ? (or not a real try): show the answer, the round counts as skipped
+        entry.update(answer=answer, skipped=True, **({"caught": caught} if caught else {}))
         ctx.profile.add_journal(entry)
+        if caught:
+            _caught(ctx, caught)
         console.print(Panel(Text(reference, style="en" if to_english else "de"),
                             title="Reference translation" if to_english else "Original German",
                             border_style="green" if to_english else "cyan", padding=(1, 2)))
@@ -147,10 +178,10 @@ def _translate(ctx, book: Book, unit: Unit, direction: str, heading: str, review
     return entry
 
 
-def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: str) -> bool | None:
+def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: str) -> tuple[bool, str] | None:
     """Translate a few sentences of the paragraph in a row, one at a time: quicker than the whole
-    paragraph, so more repetitions fit in. True if none needed work; None if the paragraph has no
-    sentence-by-sentence translation (then the whole paragraph is used)."""
+    paragraph, so more repetitions fit in. Returns (none needed work, why it wasn't a real try or '');
+    None if the paragraph has no sentence-by-sentence translation (then the whole paragraph is used)."""
     pairs = [(balance_quotes(de, "de"), balance_quotes(en, "en")) for de, en in unit.sentence_pairs
              if len(de.split()) >= 3]
     if not pairs:
@@ -176,15 +207,21 @@ def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: st
             if unit.words:
                 console.print(ui.key_words(unit.words))
             console.print(ui.umlaut_tip())
+        pastes = ui.paste_count()
         answer = ui.ask_answer("Your translation:")
-        if not answer:  # typed ?
-            entry.update(answer="", skipped=True)
+        caught = _not_a_try(pastes, answer, reference, source)
+        if not answer or caught:  # typed ? (or not a real try)
+            entry.update(answer=answer, skipped=True, **({"caught": caught} if caught else {}))
             ctx.profile.add_journal(entry)
+            if caught:
+                _caught(ctx, caught)
             console.print(Panel(Text(reference, style="en" if to_english else "de"), title="Here it is",
                                 border_style="green" if to_english else "cyan", padding=(1, 2)))
             if not to_english:
                 hear(ctx, de, slow=False)
             ui.keys({"": "next"})
+            if caught:
+                return False, caught
             ok = False
             continue
         entry.update(answer=answer, self_grade="not graded")
@@ -197,7 +234,7 @@ def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: st
         finally:
             ctx.profile.add_journal(entry)
         ok = ok and entry["self_grade"] != NEEDS_WORK
-    return ok
+    return ok, ""
 
 
 SHADOW_TIMED_UP_TO = 70  # characters: shorter sentences record for a fixed time, longer ones until Enter
@@ -265,8 +302,9 @@ def mark_words(answer: str, sentence: str) -> tuple[Text, float]:
     return text, (right / counted if counted else 1.0)
 
 
-def _dictation(ctx, book: Book, unit: Unit, heading: str) -> bool:
-    """Hear one sentence of the paragraph and type it. True if most words were right."""
+def _dictation(ctx, book: Book, unit: Unit, heading: str) -> tuple[bool, str]:
+    """Hear one sentence of the paragraph and type it. Returns (most words were right,
+    why it wasn't a real try or '')."""
     choices = [s for s in sentences(unit.de) if 4 <= len(s.split()) <= 20] or sentences(unit.de) or [unit.de]
     sentence = balance_quotes(ctx.rng.choice(choices), "de")
     ui.clear()
@@ -274,9 +312,15 @@ def _dictation(ctx, book: Book, unit: Unit, heading: str) -> bool:
     console.print("Listen to a sentence from this paragraph and type exactly what you hear.")
     console.print(ui.umlaut_tip())
     hear(ctx, sentence)
+    pastes = ui.paste_count()
     while (answer := ui.ask_answer("Type it (r = hear again, ? = show me):")).lower() == "r":
         hear(ctx, sentence)
-    if not answer:
+    caught = _not_a_try(pastes, answer, sentence)
+    if caught:
+        _caught(ctx, caught)
+        console.print(ui.german(sentence, "The sentence"))
+        score, ok = 0.0, False
+    elif not answer:
         console.print(ui.german(sentence, "The sentence"))
         score, ok = 0.0, False
     else:
@@ -292,7 +336,7 @@ def _dictation(ctx, book: Book, unit: Unit, heading: str) -> bool:
     hear(ctx, sentence, slow=False)
     while ui.keys({"": "next", "r": "hear it again"}) == "r":
         hear(ctx, sentence, slow=False)
-    return ok
+    return ok, caught
 
 
 def _story_so_far(ctx, book: Book, state: dict) -> Unit | None:
@@ -322,22 +366,8 @@ def _celebrate(ctx, book: Book) -> None:
     console.print(choose_book(ctx))
 
 
-def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
-    """One new paragraph in 3 rounds: translate it, read it out loud, translate it back.
-    Returns True if it counts as read. Stopping halfway keeps the typed translations (journal),
-    and the paragraph starts again next time."""
-    state = ctx.profile.book_state(book.id)
-    if state["next"] == 1 and book.intro_en:
-        ui.clear()
-        ui.title(f"{ctx.step}{book.short_title}", book.author)
-        console.print(Panel(Text(book.intro_en), title="About this book", border_style="magenta", padding=(1, 2)))
-        ui.keys({"": "start reading"})
-    unit = _story_so_far(ctx, book, state)
-    if unit is None:
-        _celebrate(ctx, book)
-        return False
-
-    header = f"{ctx.step}Paragraph {unit.part} of {book.total_parts} · {book.short_title}"
+def _three_rounds(ctx, book: Book, unit: Unit, header: str) -> tuple[dict, dict]:
+    """Listen, then translate it, read it out loud, translate it back. Returns both translations."""
     ui.clear()
     ui.title(header, book.author)
     console.print(ui.german(unit.de))
@@ -356,14 +386,41 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
     # Round 2: say it.
     _read_aloud(ctx, book, unit, "Round 2 of 3")
     # Round 3: build it again from the English.
-    last = _translate(ctx, book, unit, "en2de", "Round 3 of 3")
+    return first, _translate(ctx, book, unit, "en2de", "Round 3 of 3")
+
+
+def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
+    """One new paragraph in 3 rounds: translate it, read it out loud, translate it back.
+    Returns True if it counts as read. Stopping halfway keeps the typed translations (journal),
+    and the paragraph starts again next time."""
+    state = ctx.profile.book_state(book.id)
+    if state["next"] == 1 and book.intro_en:
+        ui.clear()
+        ui.title(f"{ctx.step}{book.short_title}", book.author)
+        console.print(Panel(Text(book.intro_en), title="About this book", border_style="magenta", padding=(1, 2)))
+        ui.keys({"": "start reading"})
+    unit = _story_so_far(ctx, book, state)
+    if unit is None:
+        _celebrate(ctx, book)
+        return False
+
+    header = f"{ctx.step}Paragraph {unit.part} of {book.total_parts} · {book.short_title}"
+    while True:
+        first, last = _three_rounds(ctx, book, unit, header)
+        if not (first.get("caught") or last.get("caught")):
+            break
+        # Pasted or random: the paragraph isn't read. It starts again now (or next time, if they stop),
+        # and comes back more often afterwards.
+        state["caught"] = True
+        ctx.profile.save()
+        _do_it_again(ctx, "this paragraph")
 
     counted = not (first.get("skipped") and last.get("skipped"))
     state["next"] = unit.n + 1
     ctx.profile.data["current_book"] = book.id
     if counted:
         ctx.profile.count(ctx.today, units=1)
-    _schedule_reviews(ctx, book, unit)
+    _schedule_reviews(ctx, book, unit, CAUGHT_EXTRA_SESSIONS if state.pop("caught", False) else 0)
     if learned_now is not None:
         learned_now.add(f"{book.id}:{unit.n}")
     ctx.profile.save()
@@ -373,10 +430,11 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
     return counted
 
 
-def _schedule_reviews(ctx, book: Book, unit: Unit) -> None:
+def _schedule_reviews(ctx, book: Book, unit: Unit, extra_sessions: int = 0) -> None:
     """The paragraph comes back in the next sessions, and its key words join the warm-up."""
     ctx.profile.data["paragraph_reviews"][f"{book.id}:{unit.n}"] = {
-        "book": book.id, "n": unit.n, "learned": ctx.today.isoformat(), "sessions_left": REVIEW_SESSIONS,
+        "book": book.id, "n": unit.n, "learned": ctx.today.isoformat(),
+        "sessions_left": REVIEW_SESSIONS + extra_sessions,
         "due_days": [(ctx.today + timedelta(days=d)).isoformat() for d in REVIEW_DAYS], "last_task": "en2de"}
     queue = ctx.profile.data["reading_words"]
     queue.extend(wid for wid in unit.word_ids if wid not in queue)
@@ -416,22 +474,35 @@ def _review_task(ctx, last: str) -> str:
     return ctx.rng.choice(tasks)
 
 
+def _look_back_task(ctx, book: Book, unit: Unit, task: str, heading: str) -> tuple[bool, str]:
+    """One look back exercise. Returns (it counts, why it wasn't a real try or '')."""
+    if task == "read_aloud":
+        _read_aloud(ctx, book, unit, heading)
+        return True, ""
+    if task == "dictation":
+        return _dictation(ctx, book, unit, heading)
+    if task == "shadow":
+        _shadow(ctx, book, unit, heading)
+        return True, ""
+    result = _sentence_look_back(ctx, book, unit, task, heading)
+    if result is not None:
+        return result
+    entry = _translate(ctx, book, unit, task, heading, review=True)
+    return not entry.get("skipped") and entry.get("self_grade") != NEEDS_WORK, entry.get("caught", "")
+
+
 def review(ctx, book: Book, unit: Unit, item: dict, i: int, total: int) -> None:
     task = _review_task(ctx, item.get("last_task", ""))
     heading = f"Look back {i} of {total} · paragraph {unit.part}"
-    if task == "read_aloud":
-        _read_aloud(ctx, book, unit, heading)
-        ok = True
-    elif task == "dictation":
-        ok = _dictation(ctx, book, unit, heading)
-    elif task == "shadow":
-        _shadow(ctx, book, unit, heading)
-        ok = True
-    else:
-        ok = _sentence_look_back(ctx, book, unit, task, heading)
-        if ok is None:
-            entry = _translate(ctx, book, unit, task, heading, review=True)
-            ok = not entry.get("skipped") and entry.get("self_grade") != NEEDS_WORK
+    while True:
+        ok, caught = _look_back_task(ctx, book, unit, task, heading)
+        if not caught:
+            break
+        # Pasted or random: this look back again now, and the paragraph comes back more often.
+        item["sessions_left"] += CAUGHT_EXTRA_SESSIONS
+        item["caught"] = item.get("caught", 0) + 1
+        ctx.profile.save()
+        _do_it_again(ctx, "this look back")
     item["last_task"] = task
     item["last_ok"] = ok
     learned = False

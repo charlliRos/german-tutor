@@ -26,7 +26,8 @@ def print_translation(entry: dict, books: dict[str, Book], who: str = "You") -> 
     book = books.get(entry["book"])
     to_english = entry["task"] == "de2en"
     when = datetime.fromisoformat(entry["date"]).strftime("%a %d %b %H:%M")
-    grade = "skipped" if entry.get("skipped") else entry.get("self_grade", "")
+    grade = ("not a real try (pasted or random)" if entry.get("caught")
+             else "skipped" if entry.get("skipped") else entry.get("self_grade", ""))
     part = f"paragraph {entry['unit']}" + (", one sentence" if entry.get("reference") else "")
     console.print(f"\n[bold]{when}[/]  {ui.escape(book.short_title if book else entry['book'])} · "
                   f"{part} · {'German → English' if to_english else 'English → German'} · "
@@ -145,6 +146,10 @@ def _summary(profile: Profile, content: Content, today: date) -> Table:
     t.add_row("Days in a row", str(profile.streak(today)))
     t.add_row("Words", f"{learning} learning · [good]{learned} learned[/] · {not_started:,} not started")
     t.add_row("Answers right", f"{right * 100 // (right + wrong)}%" if right + wrong else "–")
+    caught = _days_total(profile, today, 30, "caught")
+    if caught:
+        t.add_row("[warn]Cheating caught[/]", f"[warn]{caught}× in the last 30 days[/] "
+                  "[hint](pasted or random answers: redone on the spot and repeated extra)[/]")
 
     books = {b.id: b for b in content.books}
     finished = [b for b in content.books if b.id in profile.data["books"] and b.finished(profile.book_state(b.id)["next"])]

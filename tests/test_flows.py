@@ -1,6 +1,8 @@
 """Quitting in the middle of a lesson keeps the work that was already done."""
+import io
 import random
 import tempfile
+import time
 import unittest
 from datetime import date, timedelta
 from pathlib import Path
@@ -8,7 +10,7 @@ from types import SimpleNamespace
 from unittest import mock
 
 from app import profile as profile_module, reading, ui, verbs, warmup
-from app.answers import WRONG, check_english
+from app.answers import WRONG, check_english, real_try
 from app.config import load_settings
 from app.content import Book, Content, Unit, Verb, Word
 from app.profile import Profile
@@ -56,12 +58,12 @@ class QuitMidLesson(unittest.TestCase):
 
     def test_typed_translation_kept_when_quitting_at_the_self_grade(self):
         ctx = make_ctx(self.tmp)
-        with mock.patch("app.ui.ask_multiline", lambda prompt: "Satz eins."), \
+        with mock.patch("app.ui.ask_multiline", lambda prompt: "Sentence one."), \
                 mock.patch("app.reading._self_grade", mock.Mock(side_effect=QuitSession)), console.capture():
             with self.assertRaises(QuitSession):
                 reading.run_reading(ctx)
         journal = ctx.profile.read_journal(None)
-        self.assertEqual([(e["answer"], e["self_grade"]) for e in journal], [("Satz eins.", "not graded")])
+        self.assertEqual([(e["answer"], e["self_grade"]) for e in journal], [("Sentence one.", "not graded")])
         # All 3 rounds weren't done: the same paragraph starts again next time.
         self.assertEqual(ctx.profile.book_state("b")["next"], 1)
         self.assertEqual(ctx.profile.day(TODAY).get("units", 0), 0)
@@ -191,11 +193,11 @@ class ListenAndType(unittest.TestCase):
                 with mock.patch("app.ui._read", mock.Mock(side_effect=[typed])), \
                         mock.patch("app.reading.hear", lambda *a, **k: None), mock.patch("app.ui.clear", lambda: None), \
                         mock.patch("app.ui.keys", lambda options: ""), console.capture():
-                    self.assertEqual(reading._dictation(ctx, book, unit, "Look back"), expected, typed)
+                    self.assertEqual(reading._dictation(ctx, book, unit, "Look back"), (expected, ""), typed)
 
 
 class SentenceLookBack(unittest.TestCase):
-    def run_look_back(self, grades, typed="My answer."):
+    def run_look_back(self, grades, typed="My answer.", check_try=False):
         with tempfile.TemporaryDirectory() as tmp:
             ctx = make_ctx(tmp, look_back_sentences=2)
             pairs = [("Der Hund bellt laut.", "The dog barks loudly."), ("–", "–"),
@@ -203,20 +205,28 @@ class SentenceLookBack(unittest.TestCase):
             unit = Unit(n=1, de=" ".join(d for d, _ in pairs), en="…", part=1, sentence_pairs=pairs)
             grades = iter(grades)
             with mock.patch("app.ui._read", lambda *a, **k: typed), mock.patch("app.ui.clear", lambda: None), \
+                    mock.patch("app.reading.real_try", real_try if check_try else lambda *a: ""), \
                     mock.patch("app.ui.keys", lambda options: ""), \
                     mock.patch("app.reading._self_grade", lambda *a: next(grades)), console.capture():
                 ok = reading._sentence_look_back(ctx, ctx.content.books[0], unit, "de2en", "Look back")
             return ok, ctx.profile.read_journal(None)
 
     def test_two_sentences_in_a_row_skipping_bits_of_punctuation(self):
-        ok, journal = self.run_look_back(["mostly right", "nailed it"])
+        (ok, caught), journal = self.run_look_back(["mostly right", "nailed it"])
         self.assertTrue(ok)
+        self.assertEqual(caught, "")
         self.assertEqual(len(journal), 2)
         self.assertTrue(all(e["reference"] != "–" and e["review"] for e in journal))
 
     def test_one_needs_work_means_it_comes_back(self):
-        self.assertFalse(self.run_look_back(["nailed it", "needs work"])[0])
-        self.assertFalse(self.run_look_back([], typed="?")[0])
+        self.assertEqual(self.run_look_back(["nailed it", "needs work"])[0], (False, ""))
+        self.assertEqual(self.run_look_back([], typed="?")[0], (False, ""))
+
+    def test_random_keys_are_caught(self):
+        (ok, caught), journal = self.run_look_back(["nailed it"], typed="asdf jkl", check_try=True)
+        self.assertFalse(ok)
+        self.assertTrue(caught)
+        self.assertTrue(journal[0]["caught"] and journal[0]["skipped"])
 
     def test_no_sentence_pairs_falls_back_to_the_paragraph(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -501,6 +511,104 @@ class HeldEnter(unittest.TestCase):
 
     def test_held_enter_buzzes_once(self):
         self.assertEqual(self.drain_with([(10.0, True), (10.03, True), (10.06, True), (10.09, True)]), 1)
+
+
+class NoCheating(unittest.TestCase):
+    """Pasted or random answers: the work is redone at once and repeated extra."""
+
+    def test_real_try(self):
+        en = "The old man walked slowly into the village and looked for his brother."
+        de = "Der alte Mann ging langsam ins Dorf und suchte seinen Bruder."
+        self.assertEqual(real_try(en, en, de), "")
+        self.assertEqual(real_try("The old man went into the village", en, de), "")  # half, honest
+        self.assertEqual(real_try("the old man walkd slowly into the vilage", en, de), "")  # typos
+        self.assertEqual(real_try("Der alte Mann geht in das Dorf", de, en), "")  # weak German
+        for junk in ("asdf jkl", "idk", "I like pizza and football very much", "man"):
+            self.assertTrue(real_try(junk, en, de), junk)
+        self.assertIn("given", real_try(de, en, de))  # the German typed back as "English"
+
+    def run_lesson(self, answers):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        ctx = make_ctx(tmp.name)
+        with mock.patch("app.ui.ask_multiline", mock.Mock(side_effect=answers)) as asked, \
+                mock.patch("app.ui.clear", lambda: None), mock.patch("app.ui.keys", lambda options: ""), \
+                mock.patch("app.reading._self_grade", lambda *a: "nailed it"), console.capture():
+            reading.lesson(ctx, ctx.content.books[0])
+        return ctx, asked.call_count
+
+    def test_random_answer_means_the_paragraph_again_and_extra_look_backs(self):
+        ctx, asked = self.run_lesson(["asdf", "Satz 1.", "Sentence one.", "Satz 1."])
+        self.assertEqual(asked, 4)  # all 3 rounds twice
+        item = ctx.profile.data["paragraph_reviews"]["b:1"]
+        self.assertEqual(item["sessions_left"], reading.REVIEW_SESSIONS + reading.CAUGHT_EXTRA_SESSIONS)
+        self.assertEqual(ctx.profile.day(TODAY)["units"], 1)
+        self.assertEqual(ctx.profile.day(TODAY)["caught"], 1)
+        self.assertNotIn("caught", ctx.profile.book_state("b"))
+
+    def test_honest_lesson_is_not_punished(self):
+        ctx, asked = self.run_lesson(["Sentence one.", "Satz 1."])
+        self.assertEqual(asked, 2)
+        self.assertEqual(ctx.profile.data["paragraph_reviews"]["b:1"]["sessions_left"], reading.REVIEW_SESSIONS)
+        self.assertNotIn("caught", ctx.profile.day(TODAY))
+
+    def test_caught_look_back_is_redone_and_comes_back_more(self):
+        ctx, _ = self.run_lesson(["Sentence one.", "Satz 1."])
+        book = ctx.content.books[0]
+        item = ctx.profile.data["paragraph_reviews"]["b:1"]
+        with mock.patch("app.ui.ask_multiline", mock.Mock(side_effect=["qwerty", "Sentence one."])), \
+                mock.patch("app.reading._review_task", lambda ctx, last: "de2en"), \
+                mock.patch("app.ui.clear", lambda: None), mock.patch("app.ui.keys", lambda options: ""), \
+                mock.patch("app.reading._self_grade", lambda *a: "nailed it"), console.capture():
+            reading.review(ctx, book, book.units[0], item, 1, 1)
+        # 2 extra for the random answer, 1 done by the honest redo
+        self.assertEqual(item["sessions_left"], reading.REVIEW_SESSIONS + reading.CAUGHT_EXTRA_SESSIONS - 1)
+        self.assertEqual(item["caught"], 1)
+
+    def test_pasted_keys_are_thrown_away(self):
+        out = io.StringIO()
+        with mock.patch.object(console, "_file", out), mock.patch.object(ui, "BUZZ", [None]), \
+                mock.patch.object(ui, "_pastes", [0]):
+            editor = ui._LineEditor("German:")
+            self.assertIsNone(ui._typed_keys(list("der "), editor))
+            editor.times = [0.0] * len(editor.chars)  # typed long before the paste
+            self.assertFalse(ui._is_paste(list("Hund")))
+            self.assertTrue(ui._is_paste(list("der Hund bellt laut")))
+            editor.pasted(time.monotonic())
+            self.assertEqual(ui.paste_count(), 1)
+            self.assertEqual(ui._typed_keys(list("Hun\bnd\r"), editor), "der Hund")
+        self.assertIn("No pasting", out.getvalue())
+
+    def test_backspace_goes_back_over_a_wrapped_line(self):
+        out = io.StringIO()
+        with mock.patch.object(console, "_file", out), mock.patch.object(ui._LineEditor, "_width", lambda self: 10):
+            editor = ui._LineEditor("ab")  # "ab " = 3 cells
+            ui._typed_keys(list("1234567"), editor)  # fills the row
+            self.assertTrue(out.getvalue().endswith("7 \r"))
+            ui._typed_keys(["\b"], editor)
+            self.assertTrue(out.getvalue().endswith("\x1b[A\x1b[10G\x1b[K"))
+            ui._typed_keys(["\b"], editor)
+            self.assertTrue(out.getvalue().endswith("\b \b"))
+            self.assertEqual(ui._typed_keys(["\r"], editor), "12345")
+
+    def test_my_answer_was_right_too_still_comes_back_once(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        ctx = make_ctx(tmp.name)
+        again = []
+
+        def quiz(ctx, word, direction, second_chance=False):
+            if second_chance:
+                again.append(word.id)
+                return warmup.CORRECT
+            return warmup.ONCE_MORE if not again and word.id == "w0" else warmup.CORRECT
+
+        with mock.patch("app.warmup.quiz", quiz), mock.patch("app.ui.clear", lambda: None), \
+                mock.patch("app.ui.keys", lambda options: ""), mock.patch("app.ui.pause", lambda *a, **k: None), \
+                mock.patch("app.warmup.show_card", lambda *a: None), console.capture():
+            result = warmup.run_warmup(ctx)
+        self.assertEqual(again, ["w0"])
+        self.assertEqual(result.correct, result.graded)  # it still counts as right
 
 
 if __name__ == "__main__":

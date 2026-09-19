@@ -19,6 +19,7 @@ from .ui import console, icon
 
 KINDS = {"past": "Past tense", "perfect": "Perfect tense"}
 NEXT_SECONDS = 2.0
+ONCE_MORE = "once_more"  # card(): "my answer was right too": counts as correct, but comes back once more today
 
 
 PRONOUNS = {"ich", "du", "er", "sie", "es", "wir", "ihr", "man"}
@@ -124,7 +125,7 @@ def _cloze(hit: VerbHit) -> tuple[str, str] | None:
 
 
 def card(ctx, key: str, heading: str, repeat: bool = False) -> str:
-    """One question. Returns CORRECT, ALMOST or WRONG."""
+    """One question. Returns CORRECT, ALMOST, WRONG or ONCE_MORE."""
     inf, kind = key.split("|")
     verb = ctx.content.verbs[inf]
     hits = [h for h in read_hits(ctx, inf) if h.kind == kind] or read_hits(ctx, inf)
@@ -148,9 +149,13 @@ def card(ctx, key: str, heading: str, repeat: bool = False) -> str:
         console.print("[hint]Helper verb (hat / ist) + past participle, e.g. hat gemacht, ist gereist.[/]")
         prompt = "er/sie/es … (perfect):"
     console.print(ui.umlaut_tip())
+    pastes = ui.paste_count()
     answer = ui.ask_answer(prompt)
 
     check = check_form(answer, verb, kind, expected, other_forms(ctx.content)) if answer else Check(WRONG)
+    if ui.paste_count() > pastes:
+        check = Check(WRONG, "No pasting! This one comes back until you type it yourself.", overridable=False)
+        ctx.profile.count(ctx.today, caught=1)
     if not answer:
         console.print(f"[hint]Here it is: {ui.escape(expected)}[/]")
     else:
@@ -169,16 +174,16 @@ def card(ctx, key: str, heading: str, repeat: bool = False) -> str:
         ui.pause(NEXT_SECONDS, skippable=True)
     else:
         options = {"": "next"}
-        if answer and not repeat:
+        if answer and not repeat and check.overridable:
             options["o"] = "my answer was right too"
         if ctx.audio.can_speak:
             options["r"] = "hear the forms again"
         while (choice := ui.keys(options)) == "r":
             hear(ctx, f"{verb.inf}. {verb.past}. {verb.perfect}.")
         if choice == "o":
-            console.print("[good]OK, counted as correct.[/]")
+            console.print("[good]OK, counted as correct.[/] [hint]It comes back once more at the end.[/]")
             sfx.play(ctx.audio, "right")
-            return CORRECT
+            return ONCE_MORE
     return check.outcome
 
 
@@ -190,6 +195,9 @@ def run_verbs(ctx, first_today: bool) -> VerbResult:
     ctx.rng.shuffle(keys)
     for i, key in enumerate(keys, 1):
         outcome = card(ctx, key, f"Verb forms {i} of {len(keys)}")
+        if outcome == ONCE_MORE:
+            result.missed.append(key)  # an answer the app didn't know: one more go, so it can't skip a card
+            outcome = CORRECT
         srs.apply_result(states.setdefault(key, srs.new_state()), outcome, ctx.today)
         result.total += 1
         result.right += outcome == CORRECT

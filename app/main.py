@@ -309,6 +309,7 @@ def main(argv: list[str] | None = None) -> int:
         console.print(f"[warn]{len(content.problems)} content problem(s). "
                       "Run tools/validate_content.py for details.[/]")
     profile = None
+    unlock = ui.lock_console()
     try:
         profile = choose_profile(args.profile)
         with console.status("Waking up Fritz (loading the German voice)…"):
@@ -318,6 +319,7 @@ def main(argv: list[str] | None = None) -> int:
     except (KeyboardInterrupt, QuitSession):
         pass
     finally:
+        unlock()
         if profile:
             profile.save()
     console.print("\n[bold cyan]Tschüss![/] [green]Bye![/]")

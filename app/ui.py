@@ -145,12 +145,12 @@ def _enter_held() -> bool:
         return False
 
 
-def typing_waiting() -> bool:
-    """Windows: True if the next waiting key is a letter (the kid has started typing an answer), not Enter.
-    It only looks, so the prompt still gets every key. Elsewhere keys only arrive with Enter: False."""
-    if os.name != "nt" or not sys.stdin or not sys.stdin.isatty():
-        return False
-    try:
+_RECORD = []
+
+
+def _input_record():
+    """The Windows console INPUT_RECORD (only its key-event part), made once."""
+    if not _RECORD:
         import ctypes
         from ctypes import wintypes
 
@@ -161,8 +161,40 @@ def typing_waiting() -> bool:
         class InputRecord(ctypes.Structure):
             _fields_ = [("type", wintypes.WORD), ("key", KeyEvent)]
 
+        _RECORD.append(InputRecord)
+    return _RECORD[0]
+
+
+def lock_console():
+    """Windows' classic console: switch off selecting and right-click pasting with the mouse (QuickEdit).
+    Returns a function that switches it back. Windows Terminal ignores this: there, pasting is caught
+    by the answer prompts (see PASTE_BURST)."""
+    if os.name != "nt" or not sys.stdin or not sys.stdin.isatty():
+        return lambda: None
+    try:
+        import ctypes
+        from ctypes import wintypes
         kernel32 = ctypes.windll.kernel32
-        records, count = (InputRecord * 64)(), wintypes.DWORD()
+        hin, mode = kernel32.GetStdHandle(-10), wintypes.DWORD()
+        if not kernel32.GetConsoleMode(hin, ctypes.byref(mode)):
+            return lambda: None
+        old = mode.value
+        kernel32.SetConsoleMode(hin, (old | 0x0080) & ~0x0040)  # extended flags on, QuickEdit off
+        return lambda: kernel32.SetConsoleMode(hin, old)
+    except Exception:
+        return lambda: None
+
+
+def typing_waiting() -> bool:
+    """Windows: True if the next waiting key is a letter (the kid has started typing an answer), not Enter.
+    It only looks, so the prompt still gets every key. Elsewhere keys only arrive with Enter: False."""
+    if os.name != "nt" or not sys.stdin or not sys.stdin.isatty():
+        return False
+    try:
+        import ctypes
+        from ctypes import wintypes
+        kernel32 = ctypes.windll.kernel32
+        records, count = (_input_record() * 64)(), wintypes.DWORD()
         if not kernel32.PeekConsoleInputW(kernel32.GetStdHandle(-10), records, 64, ctypes.byref(count)):
             return False
         chars = [r.key.char for r in records[: count.value] if r.type == 1 and r.key.down and r.key.char != "\x00"]
@@ -249,10 +281,191 @@ def pause(seconds: float, skippable: bool = False) -> None:
         raise QuitSession from None
 
 
-def _read(prompt: str, wait_for_quiet: bool = True) -> str:
+# No pasting: a terminal can't switch paste off, but pasted text arrives all at once and typing doesn't,
+# so answers are read key by key and a burst of keys is thrown away.
+PASTE_BURST = 10    # keys arriving together: more than anyone can type at once
+PASTE_QUIET = 0.3   # seconds without keys that end a paste (a long one arrives in pieces)
+PASTE_START = 0.15  # keys typed this shortly before a paste belong to it
+_pastes = [0]       # paste attempts so far (callers compare before and after a question)
+
+
+def paste_count() -> int:
+    return _pastes[0]
+
+
+class _LineEditor:
+    """Echoes typed keys after the prompt and can take the last one back, also across a wrapped line.
+    The cursor is always right after the text, never in the pending-wrap spot at the end of a row."""
+
+    def __init__(self, prompt: str):
+        self.prompt = Text.from_markup(f"[bold]{prompt}[/] " if prompt else "")
+        self.chars: list[str] = []
+        self.times: list[float] = []
+
+    def _width(self) -> int:
+        try:
+            return os.get_terminal_size(console.file.fileno()).columns
+        except (OSError, ValueError, AttributeError):
+            return console.width
+
+    def _pos(self) -> int:
+        return self.prompt.cell_len + len(self.chars)
+
+    def _write(self, text: str) -> None:
+        console.file.write(text)
+        if self._pos() and self._pos() % self._width() == 0:
+            console.file.write(" \r")  # a row just filled up: go to the start of the next one
+        console.file.flush()
+
+    def start(self) -> None:
+        console.print(self.prompt, end="", soft_wrap=True)
+        self._write("".join(self.chars))
+
+    def add(self, ch: str) -> None:
+        self.chars.append(ch)
+        self.times.append(time.monotonic())
+        self._write(ch)
+
+    def backspace(self) -> None:
+        if not self.chars:
+            return
+        at_row_start = self._pos() % self._width() == 0
+        self.chars.pop()
+        self.times.pop()
+        if at_row_start:  # the last key is at the end of the row above
+            console.file.write(f"\x1b[A\x1b[{self._width()}G\x1b[K")
+        else:
+            console.file.write("\b \b")
+        console.file.flush()
+
+    def pasted(self, since: float) -> None:
+        """Throw away a paste (and the keys just before it that belong to it) and say so."""
+        _pastes[0] += 1
+        cutoff = since - PASTE_START
+        while self.times and self.times[-1] >= cutoff:
+            self.chars.pop()
+            self.times.pop()
+        console.file.write("\r\n")
+        console.print(f"[bad]{icon('bad')} No pasting![/] [warn]Pasted text is thrown away and counts as "
+                      "skipping. Type it yourself.[/]")
+        if BUZZ[0]:
+            BUZZ[0]()
+        self.start()
+
+    def finish(self) -> str:
+        console.file.write("\r\n")
+        console.file.flush()
+        return "".join(self.chars)
+
+
+def _is_paste(chars: list[str]) -> bool:
+    return sum(1 for c in chars if c >= " " and c != "\x7f") > PASTE_BURST
+
+
+def _typed_keys(chars: list[str], editor: _LineEditor) -> str | None:
+    """Apply one batch of typed characters. Returns the line once Enter is pressed."""
+    for c in chars:
+        if c in "\r\n":
+            return editor.finish()
+        if c == "\x03":
+            raise KeyboardInterrupt
+        if c == "\x04" and not editor.chars:
+            raise EOFError
+        if c in "\b\x7f":
+            editor.backspace()
+        elif c >= " ":
+            editor.add(c)
+    return None
+
+
+def _read_typed_windows(editor: _LineEditor) -> str:
+    import ctypes
+    from ctypes import wintypes
+    kernel32 = ctypes.windll.kernel32
+    hin, hout = kernel32.GetStdHandle(-10), kernel32.GetStdHandle(-11)
+    in_mode, out_mode = wintypes.DWORD(), wintypes.DWORD()
+    kernel32.GetConsoleMode(hin, ctypes.byref(in_mode))
+    if kernel32.GetConsoleMode(hout, ctypes.byref(out_mode)):
+        kernel32.SetConsoleMode(hout, out_mode.value | 0x0004)  # understand cursor moves (\x1b[A)
+    records, count = (_input_record() * 256)(), wintypes.DWORD()
+
+    def batch() -> list[str]:
+        if not kernel32.ReadConsoleInputW(hin, records, 256, ctypes.byref(count)):
+            raise EOFError
+        return list("".join(r.key.char * max(1, r.key.repeat) for r in records[: count.value]
+                            if r.type == 1 and r.key.down and r.key.char != "\x00"))
+
+    # Keys one by one, no echo; Ctrl+C arrives as a key (processed, line, echo and VT input off).
+    kernel32.SetConsoleMode(hin, in_mode.value & ~(0x0001 | 0x0002 | 0x0004 | 0x0200))
+    try:
+        editor.start()
+        while True:
+            chars = batch()
+            if _is_paste(chars):
+                since = time.monotonic()
+                while kernel32.WaitForSingleObject(hin, int(PASTE_QUIET * 1000)) == 0:
+                    batch()  # the rest of the paste
+                editor.pasted(since)
+                continue
+            line = _typed_keys(chars, editor)
+            if line is not None:
+                return line
+    finally:
+        kernel32.SetConsoleMode(hin, in_mode.value)
+
+
+def _read_typed_posix(editor: _LineEditor) -> str:
+    import codecs
+    import re
+    import select
+    import termios
+    import tty
+    fd = sys.stdin.fileno()
+    old = termios.tcgetattr(fd)
+    decoder = codecs.getincrementaldecoder("utf-8")(errors="replace")
+    escapes = re.compile(r"\x1b(\[[0-9;?]*[ -/]*[@-~]|O.|.)?")  # arrow keys and the like
+
+    def batch() -> str:
+        data = os.read(fd, 4096)
+        if not data:
+            raise EOFError
+        return decoder.decode(data)
+
+    try:
+        tty.setcbreak(fd)  # keys one by one, no echo; Ctrl+C still stops
+        console.file.write("\x1b[?2004h")  # bracketed paste: the terminal marks pasted text
+        editor.start()
+        while True:
+            text = batch()
+            if "\x1b[200~" in text or _is_paste(list(escapes.sub("", text))):
+                since = time.monotonic()
+                while select.select([fd], [], [], PASTE_QUIET)[0]:
+                    batch()  # the rest of the paste
+                editor.pasted(since)
+                continue
+            line = _typed_keys(list(escapes.sub("", text)), editor)
+            if line is not None:
+                return line
+    finally:
+        console.file.write("\x1b[?2004l")
+        console.file.flush()
+        termios.tcsetattr(fd, termios.TCSADRAIN, old)
+
+
+def _read_typed(prompt: str) -> str:
+    """Like input(), but pasted text is thrown away (see PASTE_BURST)."""
+    if not console.is_terminal or not sys.stdin or not sys.stdin.isatty():
+        return console.input(f"[bold]{prompt}[/] " if prompt else "")
+    editor = _LineEditor(prompt)
+    return (_read_typed_windows if os.name == "nt" else _read_typed_posix)(editor)
+
+
+def _read(prompt: str, wait_for_quiet: bool = True, typed: bool = False) -> str:
     if wait_for_quiet:
         settle()
     try:
+        if typed:
+            return _read_typed(prompt)
         return console.input(f"[bold]{prompt}[/] " if prompt else "")
     except (EOFError, KeyboardInterrupt):
         console.print()
@@ -262,8 +475,9 @@ def _read(prompt: str, wait_for_quiet: bool = True) -> str:
         _tick()
 
 
-def ask(prompt: str, wait_for_quiet: bool = True) -> str:
-    value = _read(prompt, wait_for_quiet).strip()
+def ask(prompt: str, wait_for_quiet: bool = True, typed: bool = False) -> str:
+    """One line. With typed, pasting is caught (for answers; see paste_count())."""
+    value = _read(prompt, wait_for_quiet, typed).strip()
     if value.lower() in QUIT_WORDS:
         raise QuitSession
     return value
@@ -274,9 +488,9 @@ DONT_KNOW = "?"
 
 def ask_answer(prompt: str) -> str:
     """An answer to a question. Enter on its own does nothing (so a held Enter can't skip the question);
-    '?' means "I don't know" and returns ''."""
+    '?' means "I don't know" and returns ''. Pasted text is thrown away."""
     while True:
-        value = ask(prompt)
+        value = ask(prompt, typed=True)
         if value == DONT_KNOW:
             return ""
         if value:
@@ -285,7 +499,7 @@ def ask_answer(prompt: str) -> str:
 
 
 def ask_multiline(prompt: str) -> str:
-    """Several lines of text. A single empty line is kept (pasted paragraphs); two in a row finish.
+    """Several lines of text. A single empty line is kept; two in a row finish.
     Empty lines before any text are ignored; '?' as the first line means "I don't know" and returns ''."""
     console.print(f"[bold]{prompt}[/] [hint](press Enter twice when you're done; {DONT_KNOW} if you don't know)[/]")
     first = ask_answer(">")
@@ -294,7 +508,7 @@ def ask_multiline(prompt: str) -> str:
     lines = [first]
     empty_in_a_row = 0
     while True:
-        line = ask("…", wait_for_quiet=False)  # no pause between lines, so pasting works
+        line = ask("…", wait_for_quiet=False, typed=True)  # no pause between lines: keep typing
         if line:
             lines.append(line)
             empty_in_a_row = 0

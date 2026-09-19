@@ -18,6 +18,8 @@ from .speaking import hear, speak_and_compare
 from .ui import console, icon
 
 AUTO_NEXT = "auto_next"  # quiz(): correct, and no key press needed to continue
+ONCE_MORE = "once_more"  # quiz(): "my answer was right too": counts as correct, but comes back once more today
+PASTED = Check(WRONG, "No pasting! This one comes back until you type it yourself.", overridable=False)
 AUTO_NEXT_SECONDS = 2.0
 
 POS_HINTS = {"noun": "noun: include der / die / das", "verb": "verb", "adj": "adjective", "adv": "adverb",
@@ -104,6 +106,7 @@ def _synonym_check(ctx, answer: str, word: Word, check: Check) -> Check:
 
 
 def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
+    pastes = ui.paste_count()
     if direction == "en2de":
         console.print(Panel(Text(", ".join(word.en[:2]), style="bold green"), title="English → German",
                             subtitle=POS_HINTS.get(word.pos, "") or None, border_style="green", padding=(1, 2)))
@@ -115,6 +118,9 @@ def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
         hear(ctx, word.de)
         answer = ui.ask_answer("English:")
         check = check_english(answer, word)
+    if ui.paste_count() > pastes:
+        check = PASTED
+        ctx.profile.count(ctx.today, caught=1)
 
     if not answer:
         console.print("[hint]Here it is:[/]")
@@ -136,9 +142,9 @@ def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
     if check.overridable and answer and not second_chance and check.outcome != CORRECT:
         options["o"] = "my answer was right too"
     if _listen_options(ctx, word, options) == "o":
-        console.print("[good]OK, counted as correct.[/]")
+        console.print("[good]OK, counted as correct.[/] [hint]It comes back once more at the end.[/]")
         sfx.play(ctx.audio, "right")
-        return CORRECT
+        return ONCE_MORE
     return check.outcome
 
 
@@ -215,7 +221,9 @@ def run_warmup(ctx) -> WarmupResult | None:
             result.spoken += 1
         else:
             outcome = auto = quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")))
-            if outcome == AUTO_NEXT:
+            if outcome == ONCE_MORE:
+                not_yet.append(word)  # an answer the app didn't know: one more go, so it can't skip a word
+            if outcome in (AUTO_NEXT, ONCE_MORE):
                 outcome = CORRECT
             (srs.apply_practice if kind in ("practice", "reading") else srs.apply_result)(state, outcome, ctx.today)
             result.correct += outcome == CORRECT

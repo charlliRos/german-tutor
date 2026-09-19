@@ -5,6 +5,7 @@ Forgiving about case, punctuation, "to"/"the" prefixes and umlaut spelling
 """
 from __future__ import annotations
 
+import difflib
 import re
 import unicodedata
 from dataclasses import dataclass
@@ -143,3 +144,35 @@ def check_german(answer: str, word) -> Check:
             if _is_typo(given, norm):
                 return Check(ALMOST, "Small spelling mistake.")
     return Check(WRONG)
+
+
+# Not a real try: random keys, a word or two for a whole text, or the given text copied back.
+# Kept loose on purpose: an honest weak translation still shares plenty of words with the reference.
+REAL_TRY_SHARE = 0.3    # at least this part of the typed words must be (close to) a word of the reference
+REAL_TRY_LENGTH = 0.2   # and at least this many different words, for each word of the reference
+COPIED_SOURCE = 0.85    # this similar to the text they were given = copied, not translated
+
+
+def _close_to(word: str, words: set[str]) -> bool:
+    """The word, or a misspelling of it (only for longer words: like/life, much/such are different words)."""
+    return word in words or len(word) >= 6 and any(
+        difflib.SequenceMatcher(a=word, b=w).ratio() >= 0.75 for w in words)
+
+
+def real_try(answer: str, reference: str, source: str = "") -> str:
+    """'' if `answer` looks like a real try at `reference`, else what's wrong with it.
+    `source` is the text the kid was given (typing it back isn't translating)."""
+    given, ref = normalize(answer).split(), normalize(reference).split()
+    if not given or not ref:
+        return ""
+    if source and len(given) >= 3 and difflib.SequenceMatcher(
+            a=normalize(answer), b=normalize(source), autojunk=False).ratio() >= COPIED_SOURCE:
+        return "that's the text you were given, not a translation."
+    ref_words = set(ref)
+    # Longer words only, when there are some: "the", "and", "is" fit any text.
+    content = [w for w in given if len(w) >= 4] or given
+    if sum(_close_to(w, ref_words) for w in content) < REAL_TRY_SHARE * len(content):
+        return "that doesn't match the text at all."
+    if len(ref) >= 5 and len(set(given)) < REAL_TRY_LENGTH * len(ref):
+        return "that's far too short for this text."
+    return ""

@@ -65,7 +65,13 @@ gtutor report                 # all kids
 gtutor report --profile Anna  # one kid
 ```
 
-It starts with a one-line overview per kid. Then, for each kid: when they last practised, practice days and time in the last 7 and 30 days, a 4-week calendar, words learned, reading position, the 10 words they still miss most, and their last 5 translations next to the reference (with the grade they gave themselves). Practice time counts the time between answers; one long pause counts as at most 5 minutes. The report only reads the profiles.
+It starts with a one-line overview per kid. Then, for each kid: when they last practised, practice days and time in the last 7 and 30 days, a 4-week calendar, words learned, reading position, how often cheating was caught (last 30 days), the 10 words they still miss most, and their last 5 translations next to the reference (with the grade they gave themselves). Practice time counts the time between answers; one long pause counts as at most 5 minutes. The report only reads the profiles.
+
+### No cheating
+
+- **Pasting doesn't work.** A terminal can't switch paste off, but pasted text arrives all at once and typing doesn't, so the app throws it away (with a buzz). In the classic Windows console, mouse select and right-click paste are also switched off while the app runs.
+- **Random or copied answers are caught** in translations and listen-and-type: random keys, a word or two for a whole text, or the given text typed back. Typing `?` (don't know) is always fine.
+- **Caught = redo + extra repetition.** A new paragraph is done again from the start (all 3 rounds), a look back is done again at once, and the paragraph comes back in 2 extra sessions. A pasted word or verb counts as wrong and comes back until it's typed right. "My answer was right too" still counts, but the word comes back once more.
 
 `data/` is not uploaded to GitHub. To move a kid to another computer, copy `data/profiles/` across.
 
