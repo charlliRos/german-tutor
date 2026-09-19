@@ -129,6 +129,24 @@ class Repetition(unittest.TestCase):
         self.assertEqual(self.ctx.profile.data["paragraph_reviews"]["b:1"]["sessions_left"], 1)
 
 
+class RepeatUntilRight(unittest.TestCase):
+    def test_missed_and_almost_words_come_back_until_right(self):
+        from app.answers import ALMOST
+        with tempfile.TemporaryDirectory() as tmp:
+            ctx = make_ctx(tmp)
+            a, b = ctx.content.words["w1"], ctx.content.words["w2"]
+            answers = {"w1": [WRONG, ALMOST, warmup.AUTO_NEXT], "w2": [warmup.AUTO_NEXT]}
+            asked = []
+
+            def quiz(ctx, word, direction, second_chance=False):
+                asked.append(word.id)
+                return answers[word.id].pop(0)
+
+            with mock.patch("app.ui.clear", lambda: None), mock.patch("app.warmup.quiz", quiz), console.capture():
+                warmup.repeat_until_right(ctx, [a, b])
+            self.assertEqual(sorted(asked), ["w1", "w1", "w1", "w2"])
+
+
 class RestartBook(unittest.TestCase):
     def test_start_a_half_read_book_again(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -166,6 +166,7 @@ def run_warmup(ctx) -> WarmupResult | None:
         return None
 
     result = WarmupResult(extra_practice=not first_today)
+    not_yet: list[Word] = []  # wrong or almost: they come back until they're right
     ui.clear()
     ui.title(f"{ctx.step}{'Extra practice' if result.extra_practice else 'Warm-up'}",
              ui.plural(plan.total + len(again), "word"))
@@ -205,6 +206,8 @@ def run_warmup(ctx) -> WarmupResult | None:
             result.almost += outcome == ALMOST
             if outcome == WRONG:
                 result.to_practise.append(word)
+            if outcome != CORRECT:
+                not_yet.append(word)
             ctx.profile.count(ctx.today, words=1, right=int(outcome == CORRECT), almost=int(outcome == ALMOST),
                               new=int(kind == "new"))
         if wid in reading_queue:
@@ -213,12 +216,28 @@ def run_warmup(ctx) -> WarmupResult | None:
         if auto == AUTO_NEXT:
             ui.pause(AUTO_NEXT_SECONDS, skippable=True)
 
-    # Every word is graded: the warm-up counts now, even if they stop during the second chances.
+    # Every word is graded: the warm-up counts now, even if they stop during the repeats.
     ctx.profile.count(ctx.today, warmups=1)
     ctx.profile.save()
-    for i, word in enumerate(result.to_practise, 1):
-        ui.clear()
-        ui.title(f"{ctx.step}Second chance {i} of {len(result.to_practise)}", "just for practice, no score")
-        if quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance=True) == AUTO_NEXT:
-            ui.pause(AUTO_NEXT_SECONDS, skippable=True)
+    repeat_until_right(ctx, not_yet)
     return result
+
+
+def repeat_until_right(ctx, words: list[Word]) -> None:
+    """Missed words come back, shuffled, round after round until each one is answered right.
+    Just for practice: the score and the schedule were already saved."""
+    round_no = 0
+    while words:
+        round_no += 1
+        ctx.rng.shuffle(words)
+        missed = []
+        for i, word in enumerate(words, 1):
+            ui.clear()
+            ui.title(f"{ctx.step}Again until it sticks · round {round_no} · {i} of {len(words)}",
+                     "just for practice, no score")
+            outcome = quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance=True)
+            if outcome == AUTO_NEXT:
+                ui.pause(AUTO_NEXT_SECONDS, skippable=True)
+            elif outcome != CORRECT:
+                missed.append(word)
+        words = missed
