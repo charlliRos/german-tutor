@@ -3,5 +3,7 @@ __pycache__/
 *.pyc
 voices/*.onnx
 voices/*.onnx.json
+voices/vosk-model-*/
+voices/*.zip
 /data/
 *.tmp

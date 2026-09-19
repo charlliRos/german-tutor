@@ -52,23 +52,29 @@ def run_update() -> int:
     after = _git("rev-parse", "HEAD").stdout.strip()
     if before == after:
         console.print("[green]Already up to date.[/]")
-        return 0
+    else:
+        changes = _git("log", "--format=  • %s", f"{before}..{after}").stdout.rstrip()
+        console.print(f"[green]Updated![/] What's new:\n{changes}")
+        if _file_hash("requirements.txt") != requirements_before:
+            console.print("Installing new libraries…")
+            pip = subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-r", "requirements.txt"], cwd=ROOT)
+            if pip.returncode != 0:
+                console.print("[red]Installing libraries failed.[/] Run setup.bat (or ./setup.sh) to repair.")
+                return 1
+    # Also when already up to date: an older updater may have pulled a version that needs a new download.
+    _download_missing()
+    if before != after:
+        content = load_content()
+        console.print(f"[hint]{len(content.words)} words and {len(content.books)} books ready.[/]")
+    return 0
 
-    changes = _git("log", "--format=  • %s", f"{before}..{after}").stdout.rstrip()
-    console.print(f"[green]Updated![/] What's new:\n{changes}")
 
-    if _file_hash("requirements.txt") != requirements_before:
-        console.print("Installing new libraries…")
-        pip = subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-r", "requirements.txt"], cwd=ROOT)
-        if pip.returncode != 0:
-            console.print("[red]Installing libraries failed.[/] Run setup.bat (or ./setup.sh) to repair.")
-            return 1
-
+def _download_missing() -> None:
     voice = load_settings()["voice"]
     if not (VOICES_DIR / f"{voice}.onnx").exists():
         console.print("Downloading the German voice…")
         subprocess.run([sys.executable, str(ROOT / "tools" / "download_voice.py"), voice], cwd=ROOT)
-
-    content = load_content()
-    console.print(f"[hint]{len(content.words)} words and {len(content.books)} books ready.[/]")
-    return 0
+    from .listen import MODEL_DIR
+    if not MODEL_DIR.exists():
+        console.print("Downloading the speech checker…")
+        subprocess.run([sys.executable, str(ROOT / "tools" / "download_speech_model.py")], cwd=ROOT)

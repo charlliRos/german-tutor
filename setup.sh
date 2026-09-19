@@ -7,6 +7,7 @@ cd "$(dirname "$0")"
 .venv/bin/python -m pip install --upgrade pip
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python tools/download_voice.py
+.venv/bin/python tools/download_speech_model.py
 
 # "gtutor" command in ~/.local/bin (on PATH by default on most distributions).
 mkdir -p "$HOME/.local/bin"

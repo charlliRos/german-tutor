@@ -11,9 +11,12 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import sfx, srs, ui, verbs
+from . import genders, grammar, sentences, sfx, srs, ui, verbs
 from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german, normalize
+from .config import DEFAULTS
 from .content import BANK_LABELS, Word, words_sharing_english
+from .sentences import Gap
+from .verbs import VerbResult
 from .speaking import hear, speak_and_compare
 from .ui import console, icon
 
@@ -34,7 +37,9 @@ class WarmupResult:
     almost: int = 0
     to_practise: list[Word] = field(default_factory=list)
     spoken: int = 0
-    verbs: verbs.VerbResult = field(default_factory=verbs.VerbResult)
+    verbs: VerbResult = field(default_factory=VerbResult)
+    genders: VerbResult = field(default_factory=VerbResult)  # same shape: right, total, missed
+    grammar: VerbResult = field(default_factory=VerbResult)
 
     @property
     def graded(self) -> int:
@@ -124,7 +129,61 @@ def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
     if ui.paste_count() > pastes:
         check = PASTED
         ctx.profile.count(ctx.today, caught=1)
+    return _result(ctx, word, answer, check, second_chance, word.de if direction == "en2de" else "")
 
+
+def gap_quiz(ctx, word: Word, gap: Gap, second_chance: bool = False) -> str:
+    """The word's example sentence with the word blanked out: type it in the right form."""
+    pastes = ui.paste_count()
+    ui.todo("type", what="Fill the gap: the word in the form the sentence needs.")
+    console.print(Panel(Text(gap.blanked, style="de"), title="Fill the gap", subtitle=word.example_en or None,
+                        border_style="cyan", padding=(1, 2)))
+    console.print(Text.assemble(("The missing word means: ", "hint"), (", ".join(word.en[:2]), "en")))
+    console.print(ui.umlaut_tip())
+    answer = ui.ask_answer("Missing word:")
+    check = sentences.check_gap(answer, gap, word)
+    if ui.paste_count() > pastes:
+        check = PASTED
+        ctx.profile.count(ctx.today, caught=1)
+    return _result(ctx, word, answer, check, second_chance, gap.sentence)
+
+
+DICTATION_RIGHT, DICTATION_ALMOST = 0.6, 0.4  # share of the sentence's words right, with the word itself right
+
+
+def dictation_quiz(ctx, word: Word, second_chance: bool = False) -> str:
+    """Hear the word's example sentence and type it. Graded on the word itself, with most of the rest right."""
+    from .reading import mark_words
+    sentence = word.example_de
+    pastes = ui.paste_count()
+    ui.todo("listen", "type", what="Listen and type the whole sentence.")
+    console.print(Text.assemble(("It has the word for ", "hint"), (f"„{word.en[0]}“", "en"), (" in it.", "hint")))
+    console.print(ui.umlaut_tip())
+    hear(ctx, sentence, slow=False)
+    while (answer := ui.ask_answer("Type it (r = hear again, ? = show me):")).lower() == "r":
+        hear(ctx, sentence, slow=False)
+    gap = sentences.find_gap(word)
+    if ui.paste_count() > pastes:
+        check = PASTED
+        ctx.profile.count(ctx.today, caught=1)
+    elif not answer:
+        check = Check(WRONG, overridable=False)
+    else:
+        marked, score = mark_words(answer, sentence)
+        word_right = gap is None or normalize(gap.form) in normalize(answer).split()
+        console.print(Panel(marked, title=f"The sentence · {round(score * 100)}% right", border_style="cyan",
+                            padding=(0, 2)))
+        if word_right and score >= DICTATION_RIGHT:
+            check = Check(CORRECT)
+        elif word_right and score >= DICTATION_ALMOST:
+            check = Check(ALMOST, "The word is right; some of the sentence isn't yet.", overridable=False)
+        else:
+            check = Check(WRONG, f"Listen for {gap.form if gap else word.de}.", overridable=False)
+    return _result(ctx, word, answer, check, second_chance, sentence)
+
+
+def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say: str) -> str:
+    """Show how it went and the word card, say `say` (if any), and ask to go on. Returns the outcome."""
     if not answer:
         console.print("[hint]Here it is:[/]")
         style = "bad"
@@ -135,8 +194,8 @@ def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
         sfx.play(ctx.audio, {CORRECT: "right", ALMOST: "almost", WRONG: "wrong"}[check.outcome])
     border = {"good": "green", "almost": "dark_orange", "bad": "red"}[style]
     console.print(Panel(word_details(word), border_style=border, padding=(0, 2)))
-    if direction == "en2de":
-        hear(ctx, word.de)
+    if say:
+        hear(ctx, say, slow=say == word.de)
 
     if check.outcome == CORRECT and ctx.settings.get("auto_next_on_correct", True):
         console.print("[hint]Next one in a moment… (Enter = go now)[/]")
@@ -151,11 +210,25 @@ def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
     return check.outcome
 
 
-def read_aloud(ctx, word: Word) -> None:
+def read_aloud(ctx, word: Word) -> bool:
+    """A speaking turn. True if the speech check heard the word (or can't check)."""
     ui.todo("say", what="Say this word out loud. Nothing to type.")
     console.print(ui.german(word.de, f"{icon('mic')} Speaking turn: read it out loud",
                             subtitle=", ".join(word.en), word=True))
-    speak_and_compare(ctx, word.de)
+    return speak_and_compare(ctx, word.de, must_say=True)
+
+
+def ask_word(ctx, word: Word, kind: str, second_chance: bool = False) -> str:
+    """A question about a word: usually a quiz either way; for words already met, sometimes the gap in its
+    example sentence or listening to that sentence (settings: sentence_tasks)."""
+    if kind != "new" and word.example_de:
+        shares = {**DEFAULTS["sentence_tasks"], **ctx.settings.get("sentence_tasks", {})}
+        roll = ctx.rng.random()
+        if roll < shares["gap"] and (gap := sentences.find_gap(word)):
+            return gap_quiz(ctx, word, gap, second_chance)
+        if shares["gap"] <= roll < shares["gap"] + shares["dictation"] and ctx.audio.can_speak:
+            return dictation_quiz(ctx, word, second_chance)
+    return quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance)
 
 
 def run_warmup(ctx) -> WarmupResult | None:
@@ -221,13 +294,20 @@ def run_warmup(ctx) -> WarmupResult | None:
         sub = ("from your reading" if wid in from_reading
                else "a word to strengthen" if kind == "practice" else "")
         ui.title(f"{ctx.step}Word {pos} of {len(queue)}", sub)
+        spoken = False
         if kind != "new" and ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:
-            read_aloud(ctx, word)
-            if kind == "review":
-                srs.mark_practised(state, ctx.today)
-            result.spoken += 1
-        else:
-            outcome = auto = quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")))
+            spoken = read_aloud(ctx, word)
+            if spoken:
+                if kind == "review":
+                    srs.mark_practised(state, ctx.today)
+                result.spoken += 1
+            else:  # not heard: it's practised by typing instead
+                console.print("[hint]I didn't hear it, so let's type it instead.[/]")
+                ui.keys({"": "type it"})
+                ui.clear()
+                ui.title(f"{ctx.step}Word {pos} of {len(queue)}", sub)
+        if not spoken:
+            outcome = auto = ask_word(ctx, word, kind)
             if outcome == ONCE_MORE:
                 not_yet.append(word)  # an answer the app didn't know: one more go, so it can't skip a word
             if outcome in (AUTO_NEXT, ONCE_MORE):
@@ -252,8 +332,12 @@ def run_warmup(ctx) -> WarmupResult | None:
     ctx.profile.save()
     # Verbs are graded before the practice-only repeats, so stopping during the repeats loses nothing.
     result.verbs = verbs.run_verbs(ctx, first_today)
+    result.genders = genders.run_genders(ctx, first_today)
+    result.grammar = grammar.run_grammar(ctx, first_today)
     repeat_until_right(ctx, not_yet)
     verbs.repeat_verbs(ctx, result.verbs.missed)
+    genders.repeat_genders(ctx, result.genders.missed)
+    grammar.repeat_grammar(ctx, result.grammar.missed)
     return result
 
 

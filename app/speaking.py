@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from . import ui
 from .audio import QUIET_PEAK
+from .listen import said_it
 from .ui import console, icon
 
 
@@ -63,16 +64,38 @@ def _play_both(ctx, recording, text: str, slow: bool) -> None:
     hear(ctx, text, slow)
 
 
-def speak_and_compare(ctx, text: str, long_text: bool = False, slow: bool | None = None) -> None:
+def _check_speech(ctx, recording, text: str) -> bool:
+    """Show what the speech checker heard. True if it sounds like `text`."""
+    with console.status("[hint]Listening to your recording…[/]"):
+        heard = ctx.audio.heard(*recording)
+    if not heard:
+        console.print(f"[warn]{icon('bad')} I didn't catch any words.[/] [hint]Speak clearly, close to the mic.[/]")
+        return False
+    if said_it(heard, text):
+        console.print(f"[good]{icon('ok')} I heard:[/] [de]{ui.escape(heard)}[/]")
+        return True
+    console.print(f"[warn]{icon('almost')} I heard:[/] [de]{ui.escape(heard)}[/] "
+                  "[hint]That doesn't sound like it yet. Press a to try again.[/]")
+    return False
+
+
+def speak_and_compare(ctx, text: str, long_text: bool = False, slow: bool | None = None,
+                      must_say: bool = False) -> bool:
     """The kid says `text`; then their recording and the reference pronunciation play back to back.
-    Single words play slowly, texts at normal speed (unless `slow` says otherwise)."""
+    Single words play slowly, texts at normal speed (unless `slow` says otherwise).
+    Returns True if the speech checker heard it (or can't check: no mic or no checker).
+    must_say: it counts (a look back, a speaking turn): say so if it wasn't heard, and count it for the report."""
     slow = not long_text if slow is None else slow
+    checking = ctx.audio.can_record and ctx.audio.can_check_speech
+    said = not checking
     while True:
         if ctx.audio.can_record:
             recording = _record(ctx, text, long_text)
         else:
             ui.ask("Say it out loud now, then press Enter to hear how it should sound.")
             recording = None
+        if checking:
+            said = (recording is not None and _check_speech(ctx, recording, text)) or said
         _play_both(ctx, recording, text, slow)
 
         options = {"": "next", "r": "play again" if recording is not None else "hear it again"}
@@ -81,7 +104,11 @@ def speak_and_compare(ctx, text: str, long_text: bool = False, slow: bool | None
         while True:
             choice = ui.keys(options)
             if choice == "":
-                return
+                if must_say and checking:
+                    ctx.profile.count(ctx.today, speaking=1, speaking_heard=int(said))
+                    if not said:
+                        console.print("[hint]Not heard, so this one doesn't count yet.[/]")
+                return said
             if choice == "a":
                 break
             _play_both(ctx, recording, text, slow)

@@ -12,6 +12,7 @@ from rich.text import Text
 
 from . import srs, ui
 from .content import Book, Content, load_content, words_in_reach
+from .genders import gender_progress
 from .verbs import verb_progress
 from .profile import Profile
 from .ui import console, icon
@@ -194,6 +195,16 @@ def _repetition(profile: Profile, content: Content, today: date) -> Table:
     right, done = (_days_total(profile, today, 30, k) for k in ("verbs_right", "verbs"))
     t.add_row("Irregular verbs", verb_progress(profile.data["verbs"])
               + (f" · {right * 100 // done}% right in the last 30 days" if done else ""))
+    right, done = (_days_total(profile, today, 30, k) for k in ("genders_right", "genders"))
+    t.add_row("der / die / das", gender_progress(profile.data["genders"])
+              + (f" · {right * 100 // done}% right in the last 30 days" if done else ""))
+    right, done = (_days_total(profile, today, 30, k) for k in ("grammar_right", "grammar"))
+    t.add_row("Grammar, last 30 days", f"{ui.plural(done, 'question')} · {right * 100 // done}% right"
+              if done else "[hint]none yet[/]")
+    heard, spoken = (_days_total(profile, today, 30, k) for k in ("speaking_heard", "speaking"))
+    if spoken:
+        t.add_row("Speaking, last 30 days", f"{ui.plural(spoken, 'turn')} · {heard * 100 // spoken}% heard by the "
+                  "speech check" + (" [warn](low: are they really speaking?)[/]" if heard * 2 < spoken else ""))
     books = {b.id: b for b in content.books}
     struggling = [i for i in items if i.get("last_ok") is False and i["book"] in books]
     struggling.sort(key=lambda i: -i.get("misses", 0))

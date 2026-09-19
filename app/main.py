@@ -20,6 +20,7 @@ from .report import print_translation, run_report
 from .reading import choose_book, run_reading
 from .speaking import speak_and_compare
 from .ui import QuitSession, console, icon
+from .genders import gender_progress
 from .verbs import verb_progress
 from .warmup import WarmupResult, run_warmup
 
@@ -130,8 +131,9 @@ def finish_screen(ctx: Context, warm: WarmupResult | None, paragraphs: int | Non
             lines.append(f"[hint]Practise: {ui.escape(names)}[/]")
         if warm.spoken:
             lines.append(f"{icon('mic')} {ui.plural(warm.spoken, 'speaking turn')}")
-        if warm.verbs.total:
-            lines.append(f"Verb forms: [good]{warm.verbs.right} of {warm.verbs.total} right[/]")
+        for label, drill in (("Verb forms", warm.verbs), ("der / die / das", warm.genders), ("Grammar", warm.grammar)):
+            if drill.total:
+                lines.append(f"{label}: [good]{drill.right} of {drill.total} right[/]")
     if paragraphs is not None:
         lines.append(f"{icon('book')} {ui.plural(paragraphs, 'new paragraph')} read")
         looked_back = ctx.profile.day(ctx.today).get("reviews", 0)
@@ -169,6 +171,7 @@ def show_progress(ctx: Context) -> None:
     t.add_row("Paragraphs", f"{len(ctx.profile.data['paragraph_reviews'])} being repeated · "
                             f"[good]{learned_paragraphs} learned for good[/]")
     t.add_row("Irregular verbs", verb_progress(ctx.profile.data["verbs"]))
+    t.add_row("der / die / das", gender_progress(ctx.profile.data["genders"]))
     console.print(t)
 
     narrow = console.width < 70

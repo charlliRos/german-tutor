@@ -242,9 +242,10 @@ def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: st
 SHADOW_TIMED_UP_TO = 70  # characters: shorter sentences record for a fixed time, longer ones until Enter
 
 
-def _shadow(ctx, book: Book, unit: Unit, heading: str) -> None:
+def _shadow(ctx, book: Book, unit: Unit, heading: str) -> bool:
     """Shadowing: hear a sentence, say it straight after, hear yourself next to the voice. A few
-    sentences in a row, so the paragraph's sound and rhythm get repeated too."""
+    sentences in a row, so the paragraph's sound and rhythm get repeated too.
+    True if the speech check heard at least half of them (or can't check)."""
     pairs = unit.sentence_pairs or [(s, "") for s in sentences(unit.de)]
     pairs = [(balance_quotes(de, "de"), balance_quotes(en, "en")) for de, en in pairs if len(de.split()) >= 3]
     pairs = pairs or [(unit.de, "")]
@@ -252,6 +253,7 @@ def _shadow(ctx, book: Book, unit: Unit, heading: str) -> None:
     if len(pairs) > count:
         start = ctx.rng.randrange(len(pairs) - count + 1)
         pairs = pairs[start:start + count]
+    heard = 0
     for i, (de, en) in enumerate(pairs, 1):
         ui.clear()
         ui.title(f"{ctx.step}{heading}: say it after me · sentence {i} of {len(pairs)}", book.short_title)
@@ -259,20 +261,22 @@ def _shadow(ctx, book: Book, unit: Unit, heading: str) -> None:
         console.print(ui.german(de, "German", subtitle=en or None))
         console.print("[hint]Copy the voice: same speed, same melody. Then you hear yourself next to it.[/]")
         hear(ctx, de, slow=False)
-        speak_and_compare(ctx, de, long_text=len(de) > SHADOW_TIMED_UP_TO, slow=False)
+        heard += speak_and_compare(ctx, de, long_text=len(de) > SHADOW_TIMED_UP_TO, slow=False, must_say=True)
         ctx.profile.count(ctx.today, shadowed=1)
+    return heard * 2 >= len(pairs)
 
 
-def _read_aloud(ctx, book: Book, unit: Unit, heading: str) -> None:
+def _read_aloud(ctx, book: Book, unit: Unit, heading: str) -> bool:
+    """True if the speech check heard the text (or can't check)."""
     ui.clear()
     ui.title(f"{ctx.step}{heading}: read it out loud", book.short_title)
     ui.todo("say", what="Read the whole text out loud. Nothing to type.")
     console.print(ui.german(unit.de))
     if ctx.audio.can_speak:
-        speak_and_compare(ctx, unit.de, long_text=True)
-    else:
-        console.print("Read it out loud to yourself, slowly and clearly.")
-        ui.keys({"": "done"})
+        return speak_and_compare(ctx, unit.de, long_text=True, must_say=True)
+    console.print("Read it out loud to yourself, slowly and clearly.")
+    ui.keys({"": "done"})
+    return True
 
 
 DICTATION_PASS = 0.8  # share of words right for a listen-and-type look back to count
@@ -483,14 +487,12 @@ def _review_task(ctx, last: str) -> str:
 
 def _look_back_task(ctx, book: Book, unit: Unit, task: str, heading: str) -> tuple[bool, str]:
     """One look back exercise. Returns (it counts, why it wasn't a real try or '')."""
-    if task == "read_aloud":
-        _read_aloud(ctx, book, unit, heading)
-        return True, ""
+    if task == "read_aloud":  # not heard: it doesn't count, so it comes back next session
+        return _read_aloud(ctx, book, unit, heading), ""
     if task == "dictation":
         return _dictation(ctx, book, unit, heading)
     if task == "shadow":
-        _shadow(ctx, book, unit, heading)
-        return True, ""
+        return _shadow(ctx, book, unit, heading), ""
     result = _sentence_look_back(ctx, book, unit, task, heading)
     if result is not None:
         return result

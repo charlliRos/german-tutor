@@ -20,6 +20,9 @@ TODAY = date(2026, 9, 17)
 
 
 def make_ctx(tmp: str, **settings) -> SimpleNamespace:
+    # The der/die/das, grammar and sentence questions are off unless a test turns them on.
+    settings = {"genders_per_day": 0, "grammar_per_day": 0, "sentence_tasks": {"gap": 0, "dictation": 0},
+                **settings}
     words = {f"w{i}": Word(id=f"w{i}", bank="daily", de=f"das Wort{i}", en=[f"word {i}"], pos="noun", rank=i)
              for i in range(12)}
     units = [Unit(n=i, de=f"Satz {i}.", en=f"Sentence {i}.", part=i) for i in (1, 2)]
@@ -89,6 +92,7 @@ class Repetition(unittest.TestCase):
 
         def read_aloud(ctx, book, unit, heading):
             self.log.append((unit.part, "look back" if heading.startswith("Look") else heading))
+            return True  # heard
 
         for target, value in (("app.ui.clear", lambda: None), ("app.ui.keys", lambda options: ""),
                               ("app.reading._translate", translate), ("app.reading._read_aloud", read_aloud)):
@@ -244,7 +248,7 @@ class Shadowing(unittest.TestCase):
                 ("Der Hund bellt laut.", "The dog barks."), ("„Ruhe!", "'Quiet!"), ("Die Katze schläft jetzt.", "The cat sleeps.")])
             events = []
             with mock.patch("app.reading.hear", lambda ctx, text, slow=True: events.append(("hear", text))), \
-                    mock.patch("app.reading.speak_and_compare", lambda ctx, text, **k: events.append(("say", text))), \
+                    mock.patch("app.reading.speak_and_compare", lambda ctx, text, **k: events.append(("say", text)) or True), \
                     mock.patch("app.ui.clear", lambda: None), console.capture():
                 ctx.rng = random.Random(0)
                 reading._shadow(ctx, ctx.content.books[0], unit, "Look back")

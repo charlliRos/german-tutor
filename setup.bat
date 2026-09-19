@@ -9,6 +9,7 @@ if not exist .venv\Scripts\python.exe (
 .venv\Scripts\python -m pip install --upgrade pip || goto :error
 .venv\Scripts\python -m pip install -r requirements.txt || goto :error
 .venv\Scripts\python tools\download_voice.py || goto :error
+.venv\Scripts\python tools\download_speech_model.py || goto :error
 
 rem Put bin\ on the user PATH so "gtutor" starts the app from any terminal.
 rem Read and write the raw registry value, so entries like %%USERPROFILE%%\... stay unexpanded.

@@ -60,6 +60,7 @@ class Audio:
         self.voice = None
         self.has_mic = False
         self.last_peak = 0.0  # loudness of the last raw recording, before volume boost
+        self.listener = None  # speech check (app/listen.py): only loaded when there's a mic
         self.problems: list[str] = []
         self._cache: dict[tuple[str, float], tuple[np.ndarray, int]] = {}
         if not enabled:
@@ -68,6 +69,22 @@ class Audio:
         self._init_devices()
         if self.sd:
             self._init_voice()
+        if self.can_record and settings.get("speech_check", True):
+            from . import listen
+            self.listener, problem = listen.load()
+            if problem:
+                self.problems.append(problem)
+
+    @property
+    def can_check_speech(self) -> bool:
+        return self.listener is not None
+
+    def heard(self, audio: np.ndarray, rate: int) -> str:
+        """What the speech checker heard in a recording ('' for nothing)."""
+        try:
+            return self.listener.transcribe(audio, rate) if self.listener and audio.size else ""
+        except Exception:
+            return ""
 
     def _init_devices(self) -> None:
         try:
