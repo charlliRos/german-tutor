@@ -358,6 +358,44 @@ def sentences(text: str) -> list[str]:
     return out
 
 
+_QUOTES = {"de": [("„", "“"), ("»", "«"), ("‚", "‘"), ("›", "‹"), ('"', '"')],
+           "en": [("“", "”"), ("‘", "’"), ('"', '"'), ("'", "'")]}
+_EDGE = " \t–—-.,;:…"
+
+
+def _is_apostrophe(text: str, i: int) -> bool:
+    """don't, don’t, Mendel's (a letter on both sides) and the Skowronneks' shop (s' then a space)."""
+    before = text[i - 1] if i > 0 else " "
+    after = text[i + 1] if i < len(text) - 1 else " "
+    return before.isalpha() and (after.isalpha() or (before == "s" and after == " "))
+
+
+def balance_quotes(text: str, lang: str = "de") -> str:
+    """A sentence cut out of a longer quote can have only half of its quote marks. A stray mark at the very
+    start or end is dropped (the quoted part isn't in this sentence); otherwise the missing partner is added."""
+    for open_q, close_q in _QUOTES[lang]:
+        stack: list[int] = []
+        stray_close: list[int] = []
+        for i, ch in enumerate(text):
+            if ch not in (open_q, close_q) or (ch in "'’" and _is_apostrophe(text, i)):
+                continue
+            if open_q == close_q:  # straight quotes: opening after a space (or at the start) and before a word
+                opening = (i == 0 or text[i - 1] in " (–—-\n") and i + 1 < len(text) and not text[i + 1].isspace()
+            else:
+                opening = ch == open_q
+            if opening:
+                stack.append(i)
+            elif stack:
+                stack.pop()
+            else:
+                stray_close.append(i)
+        drop = {i for i in stray_close if not text[:i].strip(_EDGE)} | {i for i in stack if not text[i + 1:].strip(_EDGE)}
+        prefix = open_q if any(i not in drop for i in stray_close) else ""
+        suffix = close_q if any(i not in drop for i in stack) else ""
+        text = prefix + "".join(ch for i, ch in enumerate(text) if i not in drop).strip() + suffix
+    return text
+
+
 STORY_WORDS = 24  # longer book sentences are cut down to the part around the word
 
 
@@ -365,11 +403,11 @@ def trim_around(sentence: str, form: str) -> str:
     """The sentence, or about STORY_WORDS words of it around the first word containing `form`."""
     words = sentence.split()
     if len(words) <= STORY_WORDS:
-        return sentence
+        return balance_quotes(sentence)
     hit = next((i for i, w in enumerate(words) if form in w), 0)
     start = max(0, min(hit - STORY_WORDS // 2, len(words) - STORY_WORDS))
     part = " ".join(words[start:start + STORY_WORDS])
-    return ("… " if start else "") + part + (" …" if start + STORY_WORDS < len(words) else "")
+    return balance_quotes(("… " if start else "") + part + (" …" if start + STORY_WORDS < len(words) else ""))
 
 
 _NOT_THE_WORD = {"der", "die", "das", "den", "dem", "des", "ein", "eine", "einen", "einem", "einer", "sich",
@@ -393,10 +431,10 @@ def story_sentence(de: str, text: str) -> str:
         if not hits:
             continue
         if len(words) <= STORY_WORDS:
-            return sentence
+            return balance_quotes(sentence)
         start = max(0, min(hits[0] - STORY_WORDS // 2, len(words) - STORY_WORDS))
         part = " ".join(words[start:start + STORY_WORDS])
-        return ("… " if start else "") + part + (" …" if start + STORY_WORDS < len(words) else "")
+        return balance_quotes(("… " if start else "") + part + (" …" if start + STORY_WORDS < len(words) else ""))
     return ""
 
 

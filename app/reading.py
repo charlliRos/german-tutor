@@ -17,7 +17,7 @@ from rich.text import Text
 from . import sfx, ui
 from .answers import normalize
 from .config import DEFAULTS
-from .content import Book, Unit, sentences
+from .content import Book, Unit, balance_quotes, sentences
 from .speaking import hear, speak_and_compare
 from .ui import console, icon
 
@@ -151,7 +151,8 @@ def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: st
     """Translate a few sentences of the paragraph in a row, one at a time: quicker than the whole
     paragraph, so more repetitions fit in. True if none needed work; None if the paragraph has no
     sentence-by-sentence translation (then the whole paragraph is used)."""
-    pairs = [(de, en) for de, en in unit.sentence_pairs if len(de.split()) >= 3]
+    pairs = [(balance_quotes(de, "de"), balance_quotes(en, "en")) for de, en in unit.sentence_pairs
+             if len(de.split()) >= 3]
     if not pairs:
         return None
     count = max(1, int(ctx.settings["look_back_sentences"]))
@@ -244,7 +245,7 @@ def mark_words(answer: str, sentence: str) -> tuple[Text, float]:
 def _dictation(ctx, book: Book, unit: Unit, heading: str) -> bool:
     """Hear one sentence of the paragraph and type it. True if most words were right."""
     choices = [s for s in sentences(unit.de) if 4 <= len(s.split()) <= 20] or sentences(unit.de) or [unit.de]
-    sentence = ctx.rng.choice(choices)
+    sentence = balance_quotes(ctx.rng.choice(choices), "de")
     ui.clear()
     ui.title(f"{ctx.step}{heading}: listen and type", book.short_title)
     console.print("Listen to a sentence from this paragraph and type exactly what you hear.")

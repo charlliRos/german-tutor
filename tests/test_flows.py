@@ -211,6 +211,16 @@ class BookSentences(unittest.TestCase):
         self.assertEqual(story_sentence("der Staatsanwalt", text), "Die Staatsanwälte kamen.")
         self.assertEqual(story_sentence("gehen", text), "")
 
+    def test_quote_marks_balanced_when_a_sentence_stands_alone(self):
+        from app.content import balance_quotes
+        self.assertEqual(balance_quotes("„Komm her.", "de"), "„Komm her.“")
+        self.assertEqual(balance_quotes("Er ging.“ Dann kam sie.", "de"), "„Er ging.“ Dann kam sie.")
+        self.assertEqual(balance_quotes("»Ja!« – »Nein«", "de"), "»Ja!« – »Nein«")
+        self.assertEqual(balance_quotes("' I said.", "en"), "I said.")  # the quote closed before this sentence
+        self.assertEqual(balance_quotes("He said: 'Stop!", "en"), "He said: 'Stop!'")
+        self.assertEqual(balance_quotes("Mendel's son went to the Skowronneks' shop.", "en"),
+                         "Mendel's son went to the Skowronneks' shop.")
+
     def test_card_shows_the_book_sentence(self):
         word = Word(id="x", bank="reading", de="der Hund", en=["dog"], pos="noun",
                     story_de="Der Hund bellt.", story_from="Buch")
