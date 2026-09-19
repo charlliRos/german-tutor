@@ -73,10 +73,12 @@ It starts with a one-line overview per kid. Then, for each kid: when they last p
 
 Two kids side by side race through the same 10 words: 100 points for a right answer plus up to 50 for speed, 50 for "almost". Each screen shows both scores and progress bars, updated live while you type.
 
-- On one computer: menu **8** → **h** (host), or `gtutor host`. It shows its address, e.g. `192.168.1.23`.
-- On the other: menu **8** → **j** (join) and type that address, or `gtutor join 192.168.1.23`.
+- **Challenge someone:** when both apps are open on the same Wi-Fi they find each other by themselves. The menu shows who's online ("Online: Ben (doing a warm-up)"); in menu **8**, pick the other kid to challenge them. They see "Anna challenges you to a duel!" at the top of their next screen and accept in menu **8** (**a**), and the duel starts.
+- **By address** (if the Wi-Fi doesn't let the computers find each other): on one computer menu **8** → **h** (host), or `gtutor host`; it shows its address, e.g. `192.168.1.23`. On the other: menu **8** → **j** and type that address, or `gtutor join 192.168.1.23`.
 
-The host picks the words (words both kids have already started, then common everyday words), starts the round, and works out the final scores; both screens show the same result and the winner. No internet, account or server: the two computers talk directly (TCP port 50505), and only computers on the local network can connect. The first time a computer hosts, Windows asks whether Python may use the network: allow it on **private** networks. If one player leaves or the Wi-Fi drops, the other is told and goes back to the menu. Duels don't change the word schedule.
+**Seeing each other's results:** while both apps are open, each one hears when the other finishes something: "📣 Ben just finished a warm-up: 38 of 40 words right · 14 min · 6 days in a row. Your turn!" appears at the top of the next screen (never in the middle of a question), and the finish screen shows the other kid's day next to yours. It only works while both apps are open at the same time (there's no server to keep results for later). To switch all of this off (e.g. on school or public Wi-Fi), set `"share_on_wifi": false` in `config.json`; then nothing is sent or received, and duels by address still work.
+
+The host picks the words (words both kids have already started, then common everyday words), starts the round, and works out the final scores; both screens show the same result and the winner. No internet, account or server: the computers talk directly (duels on TCP port 50505, finding each other with small UDP broadcasts on port 50506), and only computers on the local network are listened to. The first time a computer hosts, Windows asks whether Python may use the network: allow it on **private** networks. If one player leaves or the Wi-Fi drops, the other is told and goes back to the menu. Duels don't change the word schedule.
 
 ### No cheating
 
@@ -98,7 +100,7 @@ If you installed from a ZIP (no git), download the new ZIP instead, unzip it ove
 
 ## Settings
 
-Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`, `new_word_share`), the mix of everyday / STEM / official words (`bank_shares`), paragraphs per day, look backs per session (`paragraph_reviews_per_session`), key words from reading per day (`reading_words_per_day`), der/die/das cards per day (`genders_per_day`), grammar questions per day (`grammar_per_day`), how often a question uses the example sentence (`sentence_tasks`), the speech check on/off (`speech_check`), how often to speak, speech speed, sound effects on/off (`sound_effects`), microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
+Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`, `new_word_share`), the mix of everyday / STEM / official words (`bank_shares`), paragraphs per day, look backs per session (`paragraph_reviews_per_session`), key words from reading per day (`reading_words_per_day`), der/die/das cards per day (`genders_per_day`), grammar questions per day (`grammar_per_day`), how often a question uses the example sentence (`sentence_tasks`), the speech check on/off (`speech_check`), finding the other kids on the Wi-Fi on/off (`share_on_wifi`), how often to speak, speech speed, sound effects on/off (`sound_effects`), microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
 
 ## Adding content (for the parent)
 

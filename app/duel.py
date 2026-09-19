@@ -17,7 +17,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import lan, sfx, ui
+from . import lan, presence, sfx, ui
 from .answers import ALMOST, CORRECT, WRONG, check_english, check_german
 from .content import READING, Word
 from .ui import QuitSession, console, icon
@@ -296,17 +296,23 @@ def _wait_message(conn: lan.Connection, kind: str, timeout: float, leave_on_key:
     raise OpponentLeft("the other computer didn't answer in time")
 
 
-def _wait_for_guest(host: lan.Host, ip: str) -> lan.Connection | None:
+def _wait_for_guest(host: lan.Host, ip: str, invite: dict | None = None) -> lan.Connection | None:
+    """invite: {"name", "answer"}: a challenge was sent; answer() is True/False once they answered, else None."""
     ui.clear()
     ui.title("Duel · host")
+    if invite:
+        text = (f"You challenged [bold]{ui.escape(invite['name'])}[/]. They see it on their next screen "
+                "and accept in the menu (8).")
+    else:
+        text = (f"On the other computer, choose [key]8[/] (duel) and [key]j[/] (join), then type:\n\n"
+                f"      [bold]{ip}[/]")
     console.print(Panel(Text.from_markup(
-        f"On the other computer, choose [key]8[/] (duel) and [key]j[/] (join), then type:\n\n"
-        f"      [bold]{ip}[/]\n\n"
-        "[hint]Both computers must be on the same Wi-Fi. If Windows asks whether Python may use the network, "
-        "click Allow (private networks).[/]"), title="Waiting for the other player…", border_style="magenta",
-        padding=(1, 2)))
+        text + "\n\n[hint]Both computers must be on the same Wi-Fi. If Windows asks whether Python may use "
+        "the network, click Allow (private networks).[/]"), title="Waiting for the other player…",
+        border_style="magenta", padding=(1, 2)))
     console.print("[hint]Press any key to stop waiting.[/]")
     ui.flush_input()
+    until = time.monotonic() + presence.INVITE_SECONDS
     while True:
         conn = host.accept()
         if conn:
@@ -314,9 +320,13 @@ def _wait_for_guest(host: lan.Host, ip: str) -> lan.Connection | None:
         if ui.key_pressed():
             ui.flush_input()
             return None
+        if invite and invite["answer"]() is False:
+            raise OpponentLeft(f"{invite['name']} said no this time")
+        if invite and time.monotonic() > until:
+            raise OpponentLeft(f"{invite['name']} didn't answer the challenge")
 
 
-def run_host(ctx, port: int = lan.PORT) -> None:
+def run_host(ctx, port: int = lan.PORT, invite: dict | None = None) -> None:
     try:
         host = lan.Host(port)
     except lan.LanError as exc:
@@ -325,7 +335,7 @@ def run_host(ctx, port: int = lan.PORT) -> None:
         return
     conn = None
     try:
-        conn = _wait_for_guest(host, lan.my_ip())
+        conn = _wait_for_guest(host, lan.my_ip(), invite)
         if conn is None:
             return
         conn.start_pings()
@@ -413,12 +423,39 @@ def run_join(ctx, ip: str, port: int = lan.PORT) -> None:
 
 
 def menu(ctx) -> None:
-    """From the main menu: host or join."""
+    """From the main menu: accept a challenge, challenge someone online, or host / join by address."""
+    others = [p for p in ctx.presence.online() if p["status"] != "in a duel"] if ctx.presence else []
+    invites = ctx.presence.pending_invites() if ctx.presence else []
     ui.clear()
     ui.title("Duel: play against someone on the same Wi-Fi")
-    console.print("One computer hosts, the other joins. You both get the same words: right and fast wins.")
-    choice = ui.keys({"h": "host (the other player joins me)", "j": "join (the other player is hosting)", "": "back"})
-    if choice == "h":
+    console.print("You both get the same words: right and fast wins.")
+    options = {}
+    if invites:
+        invite = invites[-1]
+        console.print(f"[bold magenta]{ui.escape(invite['name'])} challenges you![/]")
+        options.update({"a": f"accept {invite['name']}'s challenge", "d": "say no"})
+    for n, other in enumerate(others[:9], 1):
+        options[str(n)] = f"challenge {other['name']} ({other['status']})"
+    if ctx.presence and not others:
+        console.print("[hint]Nobody else is online on this Wi-Fi right now (they need the app open).[/]")
+    options.update({"h": "host by address", "j": "join by address", "": "back"})
+    choice = ui.keys(options)
+    if choice in ("a", "d"):
+        accepted = ctx.presence.answer(invite["id"], choice == "a")
+        if choice == "a":
+            if accepted:
+                run_join(ctx, accepted["ip"], accepted["port"])
+            else:
+                console.print("[warn]That challenge has run out. Challenge them back![/]")
+                ui.keys({"": "back"})
+    elif choice.isdigit():
+        other = others[int(choice) - 1]
+        invite_id = ctx.presence.challenge(other["id"])
+        try:
+            run_host(ctx, invite={"name": other["name"], "answer": lambda: ctx.presence.challenge_answer(invite_id)})
+        finally:
+            ctx.presence.cancel_challenge()
+    elif choice == "h":
         run_host(ctx)
     elif choice == "j":
         last = ctx.profile.data.get("duel_host", "")

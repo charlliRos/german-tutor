@@ -10,7 +10,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import duel, lan, sfx, srs, ui
+from . import duel, lan, presence, sfx, srs, ui
 from .audio import Audio
 from .config import load_settings
 from .content import Content, load_content, words_in_reach
@@ -34,6 +34,18 @@ class Context:
     rng: random.Random
     today: date
     step: str = ""  # e.g. "Today 1/2 · " in front of screen titles during the full lesson
+    presence: presence.Presence | None = None  # the others on the same Wi-Fi (None: sharing is off)
+
+
+def share(ctx: Context, status: str | None = None) -> None:
+    """Tell the others on the Wi-Fi what this kid is doing and today's results (time so far included)."""
+    if ctx.presence:
+        summary = presence.today_summary(ctx.profile, ctx.today)
+        if status is None:  # in the middle of an activity: its time isn't saved yet
+            summary["minutes"] = round((ctx.profile.day(ctx.today).get("seconds", 0) + ui.clock_seconds()) / 60)
+        ctx.presence.set_today(summary)
+        if status:
+            ctx.presence.set_status(status)
 
 
 def open_profile(name: str) -> Profile | None:
@@ -96,6 +108,13 @@ def facts(ctx: Context) -> list[str]:
         lines.append(f"[good]{icon('done')} Warm-up done today[/] (extra practice any time)")
     else:
         lines.append(f"Today's warm-up: {warmup_size(ctx)} words")
+    if ctx.presence:
+        for invite in ctx.presence.pending_invites()[-1:]:
+            lines.append(f"[bold magenta]{ui.escape(invite['name'])} challenges you to a duel! Choose 8.[/]")
+        online = ctx.presence.online()
+        if online:
+            lines.append("[hint]Online: " + ", ".join(f"{ui.escape(p['name'])} ({ui.escape(p['status'])})"
+                                                      for p in online[:3]) + "[/]")
     return lines
 
 
@@ -139,6 +158,11 @@ def finish_screen(ctx: Context, warm: WarmupResult | None, paragraphs: int | Non
         looked_back = ctx.profile.day(ctx.today).get("reviews", 0)
         if looked_back:
             lines.append(f"{icon('book')} {ui.plural(looked_back, 'paragraph')} looked back at today")
+    if ctx.presence:
+        share(ctx)  # the others see it now ("… just finished a warm-up")
+        for name, t in ctx.presence.seen_today.items():
+            if t.get("date") == ctx.today.isoformat():
+                lines.append(f"[magenta]{ui.escape(name)} today: {ui.escape(presence.describe(name, t))}[/]")
     # This activity's time isn't saved until it ends, so add the clock to what today already has.
     minutes = max(1, round((ctx.profile.day(ctx.today).get("seconds", 0) + ui.clock_seconds()) / 60))
     streak = ctx.profile.streak(ctx.today)
@@ -237,6 +261,7 @@ MENU = {
     "8": "Duel: play against someone on the same Wi-Fi",
     "q": "Quit",
 }
+ACTIVITIES = {"1": "doing today's lesson", "2": "doing a warm-up", "3": "reading", "8": "in a duel"}
 
 
 def menu(ctx: Context) -> None:
@@ -247,6 +272,7 @@ def menu(ctx: Context) -> None:
             pass
     message = ""
     while True:
+        share(ctx, "on the menu")
         ui.clear()
         console.print(banner(ctx.profile.name, facts(ctx), width=console.width))
         for problem in ctx.audio.problems:
@@ -261,10 +287,13 @@ def menu(ctx: Context) -> None:
         ctx.today = date.today()  # after the wait: the menu may have been left open overnight
         ui.start_clock()
         ctx.step = ""
+        if ctx.presence and choice in ACTIVITIES:
+            ctx.presence.set_status(ACTIVITIES[choice])
         try:
             if choice == "1":
                 ctx.step = "Today 1/2 · "
                 warm = run_warmup(ctx)
+                share(ctx)  # the warm-up is done: the others hear it before the reading starts
                 ctx.step = "Today 2/2 · "
                 paragraphs = run_reading(ctx)
                 finish_screen(ctx, warm, paragraphs)
@@ -321,7 +350,7 @@ def main(argv: list[str] | None = None) -> int:
     if content.problems:
         console.print(f"[warn]{len(content.problems)} content problem(s). "
                       "Run tools/validate_content.py for details.[/]")
-    profile = None
+    profile = ctx = None
     unlock = ui.lock_console()
     try:
         profile = choose_profile(args.profile)
@@ -329,6 +358,15 @@ def main(argv: list[str] | None = None) -> int:
             audio = Audio(settings, enabled=not args.no_audio)
         ui.BUZZ[0] = lambda: sfx.play(audio, "buzz", wait=False)
         ctx = Context(settings, content, profile, audio, random.Random(), date.today())
+        if settings.get("share_on_wifi", True):
+            ctx.presence = presence.Presence(profile.name)
+            problem = ctx.presence.start()
+            if problem:
+                audio.problems.append(problem)
+                ctx.presence = None
+            else:
+                share(ctx, "on the menu")
+                ui.NEWS[0] = ctx.presence.take_news
         if args.command == "host":
             duel.run_host(ctx, args.port)
         elif args.command == "join":
@@ -339,6 +377,8 @@ def main(argv: list[str] | None = None) -> int:
         pass
     finally:
         unlock()
+        if ctx is not None and ctx.presence:
+            ctx.presence.stop()
         if profile:
             profile.save()
     console.print("\n[bold cyan]Tschüss![/] [green]Bye![/]")

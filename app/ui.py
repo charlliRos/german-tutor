@@ -44,7 +44,7 @@ FANCY = bool(os.environ.get("WT_SESSION") or os.environ.get("TERM_PROGRAM")) or 
 _ICONS = {"fire": ("🔥", "*"), "mic": ("🎤", "(mic)"), "ok": ("✔", "OK"), "almost": ("≈", "~"),
           "bad": ("✘", "X"), "play": ("▶", ">"), "rec": ("●", "(rec)"), "party": ("🎉", "!"),
           "book": ("📖", "*"), "done": ("✓", "done"), "day": ("■", "#"), "no_day": ("·", "."),
-          "current": ("◀", "<")}
+          "current": ("◀", "<"), "news": ("📣", ">>")}
 
 
 def icon(name: str) -> str:
@@ -64,12 +64,19 @@ class QuitSession(Exception):
     """The user typed q (or pressed Ctrl+C / closed input) to leave the current activity."""
 
 
+NEWS = [None]  # main.py sets this: news from the others on the Wi-Fi, shown at the top of the next screen
+
+
 def clear() -> None:
-    """Clear the screen AND the scroll-back, so earlier answers can't be scrolled up to."""
+    """Clear the screen AND the scroll-back, so earlier answers can't be scrolled up to.
+    News from the others on the Wi-Fi ("Anna just finished a warm-up") goes at the top: between
+    screens, never in the middle of a question."""
     console.clear()
     if console.is_terminal:
         console.file.write("\x1b[3J")
         console.file.flush()
+    for line in NEWS[0]() if NEWS[0] else []:
+        console.print(f"[bold magenta]{icon('news')} {escape(line)}[/]")
 
 
 def flush_input() -> None:

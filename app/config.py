@@ -37,6 +37,9 @@ DEFAULTS = {
     # fill the gap, or listen and type the sentence (shares of those questions; 0 = never).
     "sentence_tasks": {"gap": 0.2, "dictation": 0.1},
     "speech_check": True,        # check with offline speech recognition that words were really said
+    # Find the other kids on the same Wi-Fi: see who's online, get "… just finished a warm-up" news,
+    # challenge each other to a duel. Off: nothing is sent or received (typing the host's address still works).
+    "share_on_wifi": True,
     "word_record_seconds": 3,
     "voice": "de_DE-thorsten-medium",
     "word_speed": 1.15,          # >1 is slower; words are read slowly for learners
