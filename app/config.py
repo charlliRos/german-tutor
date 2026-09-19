@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -10,7 +11,7 @@ VOCAB_DIR = CONTENT_DIR / "vocab"
 BOOKS_DIR = CONTENT_DIR / "books"
 VERBS_DIR = CONTENT_DIR / "verbs"
 VOICES_DIR = ROOT / "voices"
-PROFILES_DIR = ROOT / "data" / "profiles"
+PROFILES_DIR = Path(os.environ.get("GTUTOR_PROFILES") or ROOT / "data" / "profiles")  # tests use their own folder
 CONFIG_FILE = ROOT / "config.json"
 
 DEFAULTS = {

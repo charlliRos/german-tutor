@@ -50,6 +50,8 @@ gtutor --profile Anna    # skip the name chooser
 gtutor --no-audio        # no speech or microphone
 gtutor update            # get the latest words, books and fixes
 gtutor report            # every kid's progress on one screen (for parents)
+gtutor host              # duel: wait for the other player (same Wi-Fi)
+gtutor join 192.168.1.23 # duel: join the host at that address
 ```
 
 ## Progress
@@ -66,6 +68,15 @@ gtutor report --profile Anna  # one kid
 ```
 
 It starts with a one-line overview per kid. Then, for each kid: when they last practised, practice days and time in the last 7 and 30 days, a 4-week calendar, words learned, reading position, how often cheating was caught (last 30 days), the 10 words they still miss most, and their last 5 translations next to the reference (with the grade they gave themselves). Practice time counts the time between answers; one long pause counts as at most 5 minutes. The report only reads the profiles.
+
+### Duel (two computers, same Wi-Fi)
+
+Two kids side by side race through the same 10 words: 100 points for a right answer plus up to 50 for speed, 50 for "almost". Each screen shows both scores and progress bars, updated live while you type.
+
+- On one computer: menu **8** → **h** (host), or `gtutor host`. It shows its address, e.g. `192.168.1.23`.
+- On the other: menu **8** → **j** (join) and type that address, or `gtutor join 192.168.1.23`.
+
+The host picks the words (words both kids have already started, then common everyday words), starts the round, and works out the final scores; both screens show the same result and the winner. No internet, account or server: the two computers talk directly (TCP port 50505), and only computers on the local network can connect. The first time a computer hosts, Windows asks whether Python may use the network: allow it on **private** networks. If one player leaves or the Wi-Fi drops, the other is told and goes back to the menu. Duels don't change the word schedule.
 
 ### No cheating
 

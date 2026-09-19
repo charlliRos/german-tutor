@@ -10,7 +10,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import sfx, srs, ui
+from . import duel, lan, sfx, srs, ui
 from .audio import Audio
 from .config import load_settings
 from .content import Content, load_content, words_in_reach
@@ -234,6 +234,7 @@ MENU = {
     "5": "My progress",
     "6": "My translations",
     "7": "Test speakers & microphone",
+    "8": "Duel: play against someone on the same Wi-Fi",
     "q": "Quit",
 }
 
@@ -284,8 +285,10 @@ def menu(ctx: Context) -> None:
                 show_journal(ctx)
             elif choice == "7":
                 audio_check(ctx)
+            elif choice == "8":
+                duel.menu(ctx)
             elif choice:
-                message = f"[warn]'{ui.escape(choice)}' isn't an option. Pick 1–7, or q to quit.[/]"
+                message = f"[warn]'{ui.escape(choice)}' isn't an option. Pick 1–8, or q to quit.[/]"
         except QuitSession:
             message = "[hint]Stopped. Your progress is saved.[/]"
         finally:
@@ -298,10 +301,15 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="gtutor", description="Offline German tutor")
     parser.add_argument("--profile", help="student name (skips the chooser)")
     parser.add_argument("--no-audio", action="store_true", help="run without speech or microphone")
-    parser.add_argument("command", nargs="?", choices=["update", "report"],
+    parser.add_argument("command", nargs="?", choices=["update", "report", "host", "join"],
                         help="update: download the latest app, words and books; "
-                             "report: every kid's progress on one screen (for parents)")
+                             "report: every kid's progress on one screen (for parents); "
+                             "host / join ADDRESS: a duel with someone on the same Wi-Fi")
+    parser.add_argument("address", nargs="?", help="join: the host's address, as its screen shows it")
+    parser.add_argument("--port", type=int, default=lan.PORT, help=argparse.SUPPRESS)
     args = parser.parse_args(argv)
+    if args.command == "join" and not args.address:
+        parser.error("join needs the host's address, e.g. gtutor join 192.168.1.23")
     if args.command == "update":
         from .update import run_update
         return run_update()
@@ -320,7 +328,13 @@ def main(argv: list[str] | None = None) -> int:
         with console.status("Waking up Fritz (loading the German voice)…"):
             audio = Audio(settings, enabled=not args.no_audio)
         ui.BUZZ[0] = lambda: sfx.play(audio, "buzz", wait=False)
-        menu(Context(settings, content, profile, audio, random.Random(), date.today()))
+        ctx = Context(settings, content, profile, audio, random.Random(), date.today())
+        if args.command == "host":
+            duel.run_host(ctx, args.port)
+        elif args.command == "join":
+            duel.run_join(ctx, args.address, args.port)
+        else:
+            menu(ctx)
     except (KeyboardInterrupt, QuitSession):
         pass
     finally:
