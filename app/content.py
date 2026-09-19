@@ -36,6 +36,7 @@ class Unit:
     kind: str = "text"     # "text" = German lesson, "summary" = English bridge over skipped parts
     part: int = 0          # lesson number counting only text units
     covers: str = ""
+    word_ids: list[str] = field(default_factory=list)  # its key words in the word practice (see reading_words)
 
 
 @dataclass
@@ -93,6 +94,8 @@ def _load_json(path: Path, problems: list[str]):
 
 
 BANKS = {"daily": "everyday", "stem": "STEM", "admin": "official German"}
+READING = "reading"  # key words from the books: they join the warm-up once their paragraph is read
+BANK_LABELS = {**BANKS, READING: "from your reading"}
 
 
 def vocab_files(vocab_dir: Path = VOCAB_DIR) -> list[Path]:
@@ -173,7 +176,43 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Co
             intro_en=data.get("intro_en", ""), units=units, total_parts=part,
             short_title=data.get("short_title") or _shorten(data.get("title", path.stem)),
         ))
+    reading_words(content)
     return content
+
+
+ARTICLES = ("der ", "die ", "das ")
+
+
+def reading_words(content: Content) -> None:
+    """Turn each paragraph's key words into practice words (unit.word_ids). A word already in the bank
+    with the same meaning is reused, so it isn't learned twice."""
+    by_german: dict[str, list[tuple[set[str], str]]] = {}
+    for w in content.words.values():
+        key, meanings = meaning_key(w.de, w.en)
+        by_german.setdefault(key, []).append((meanings, w.id))
+    for book in content.books:
+        for unit in book.units:
+            for raw in unit.words:
+                de, _, plural = str(raw.get("de", "")).partition(", ")
+                if plural and not plural.startswith(ARTICLES):  # "etwas, jemand": not a plural
+                    de, plural = raw["de"], ""
+                en = [e.strip() for e in str(raw.get("en", "")).replace(";", ",").split(",") if e.strip()]
+                de = de.strip()
+                if not de or not en:
+                    continue
+                key, meanings = meaning_key(de, en)
+                wid = next((other for m, other in by_german.get(key, []) if m & meanings), None)
+                if wid is None:
+                    wid = f"{READING}.{book.id}.{key}"
+                    if wid in content.words:  # same German, another meaning in the same book
+                        wid += f".{unit.n}"
+                    pos = ("noun" if de.lower().startswith(ARTICLES)
+                           else "verb" if all(e.startswith("to ") for e in en) else "other")
+                    content.words[wid] = Word(id=wid, bank=READING, de=de, en=en, pos=pos, topic=book.short_title,
+                                              plural=plural.strip(), note=str(raw.get("note", "")))
+                    by_german.setdefault(key, []).append((meanings, wid))
+                if wid not in unit.word_ids:
+                    unit.word_ids.append(wid)
 
 
 def words_sharing_english(content: Content, word: Word) -> list[Word]:

@@ -172,13 +172,15 @@ class ReviewFixes(unittest.TestCase):
                                        {"daily": 1, "admin": 0})
         self.assertEqual(len(topped_up), 3)
 
-    def test_reading_task_with_no_usable_weight(self):
+    def test_look_back_task_changes_and_survives_zero_weights(self):
         import random
         from types import SimpleNamespace
-        from app.reading import _choose_task
-        ctx = SimpleNamespace(settings={"reading_tasks": {"read_aloud": 1, "de2en": 0, "en2de": 0}},
-                              audio=SimpleNamespace(can_speak=False), rng=random.Random(1))
-        self.assertIn(_choose_task(ctx), {"de2en", "en2de"})
+        from app.reading import _review_task
+        ctx = SimpleNamespace(settings={"reading_tasks": {"read_aloud": 1, "de2en": 1, "en2de": 1}},
+                              rng=random.Random(1))
+        self.assertTrue(all(_review_task(ctx, "en2de") != "en2de" for _ in range(20)))
+        ctx.settings["reading_tasks"] = {"read_aloud": 0, "de2en": 0, "en2de": 0}
+        self.assertEqual(_review_task(ctx, "de2en"), "de2en")
 
     def test_profiles_streak_and_names(self):
         import tempfile

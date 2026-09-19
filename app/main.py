@@ -102,7 +102,8 @@ def welcome(ctx: Context) -> None:
     console.print(banner(ctx.profile.name, width=console.width,
                          heading=(f"Willkommen, {ctx.profile.name}!", f"Welcome, {ctx.profile.name}!")))
     console.print(Panel(Text.from_markup(
-        "[bold]1.[/] Every day, choose [key]1[/]: a vocabulary warm-up, then one paragraph of a German book.\n"
+        "[bold]1.[/] Every day, choose [key]1[/]: a vocabulary warm-up, then a new paragraph of a German book\n"
+        "   and a look back at earlier ones. Repetition is how it sticks!\n"
         "   The warm-up starts with 10 words and grows a little every day you practise.\n"
         "[bold]2.[/] Type your answers. No ä ö ü ß on your keyboard? Type ae oe ue ss.\n"
         f"[bold]3.[/] Sometimes it's a {icon('mic')} speaking turn: you hear yourself next to the right pronunciation.\n"
@@ -127,7 +128,10 @@ def finish_screen(ctx: Context, warm: WarmupResult | None, paragraphs: int | Non
         if warm.spoken:
             lines.append(f"{icon('mic')} {ui.plural(warm.spoken, 'speaking turn')}")
     if paragraphs is not None:
-        lines.append(f"{icon('book')} {ui.plural(paragraphs, 'paragraph')} read")
+        lines.append(f"{icon('book')} {ui.plural(paragraphs, 'new paragraph')} read")
+        looked_back = ctx.profile.day(ctx.today).get("reviews", 0)
+        if looked_back:
+            lines.append(f"{icon('book')} {ui.plural(looked_back, 'paragraph')} looked back at today")
     # This activity's time isn't saved until it ends, so add the clock to what today already has.
     minutes = max(1, round((ctx.profile.day(ctx.today).get("seconds", 0) + ui.clock_seconds()) / 60))
     streak = ctx.profile.streak(ctx.today)

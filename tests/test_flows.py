@@ -2,7 +2,7 @@
 import random
 import tempfile
 import unittest
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 from types import SimpleNamespace
 from unittest import mock
@@ -55,15 +55,102 @@ class QuitMidLesson(unittest.TestCase):
         self.assertEqual(ctx.profile.streak(TODAY), 1)
 
     def test_typed_translation_kept_when_quitting_at_the_self_grade(self):
-        ctx = make_ctx(self.tmp, reading_tasks={"en2de": 1})
+        ctx = make_ctx(self.tmp)
         with mock.patch("app.ui.ask_multiline", lambda prompt: "Satz eins."), \
                 mock.patch("app.reading._self_grade", mock.Mock(side_effect=QuitSession)), console.capture():
             with self.assertRaises(QuitSession):
                 reading.run_reading(ctx)
         journal = ctx.profile.read_journal(None)
         self.assertEqual([(e["answer"], e["self_grade"]) for e in journal], [("Satz eins.", "not graded")])
-        self.assertEqual(ctx.profile.book_state("b")["next"], 2)
-        self.assertEqual(ctx.profile.day(TODAY)["units"], 1)
+        # All 3 rounds weren't done: the same paragraph starts again next time.
+        self.assertEqual(ctx.profile.book_state("b")["next"], 1)
+        self.assertEqual(ctx.profile.day(TODAY).get("units", 0), 0)
+
+
+class Repetition(unittest.TestCase):
+    """A new paragraph in 3 rounds, then look backs in the next 2 sessions and on days 1, 3, 7, 16, 35."""
+
+    def setUp(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        units = [Unit(n=i, de=f"Satz {i}.", en=f"Sentence {i}.", part=i, word_ids=[f"w{i}"]) for i in range(1, 60)]
+        book = Book(id="b", title="Buch", author="A", year=1900, level="B1", intro_en="", units=units,
+                    total_parts=59, short_title="Buch")
+        self.ctx = make_ctx(tmp.name)
+        self.ctx.content.books = [book]
+        self.grade = "mostly right"
+        self.log = []
+
+        def translate(ctx, book, unit, direction, heading, review=False):
+            self.log.append((unit.part, "look back" if review else heading))
+            return {"self_grade": self.grade}
+
+        def read_aloud(ctx, book, unit, heading):
+            self.log.append((unit.part, "look back" if heading.startswith("Look") else heading))
+
+        for target, value in (("app.ui.clear", lambda: None), ("app.ui.keys", lambda options: ""),
+                              ("app.reading._translate", translate), ("app.reading._read_aloud", read_aloud)):
+            patcher = mock.patch(target, value)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+    def session(self, day: int) -> list:
+        self.ctx.today = TODAY + timedelta(days=day)
+        self.log = []
+        with console.capture():
+            reading.run_reading(self.ctx)
+        return self.log
+
+    def test_new_paragraph_has_three_rounds_and_queues_its_words(self):
+        self.assertEqual(self.session(0), [(1, "Round 1 of 3"), (1, "Round 2 of 3"), (1, "Round 3 of 3")])
+        self.assertEqual(self.ctx.profile.data["reading_words"], ["w1"])
+        self.assertEqual(self.ctx.profile.day(TODAY)["units"], 1)
+
+    def test_session_three_repeats_sessions_one_and_two_after_the_new_paragraph(self):
+        self.session(0)
+        self.assertEqual(self.session(1)[3:], [(1, "look back")])
+        self.assertEqual(self.session(2)[:3], [(3, "Round 1 of 3"), (3, "Round 2 of 3"), (3, "Round 3 of 3")])
+        self.assertEqual(self.log[3:], [(1, "look back"), (2, "look back")])
+
+    def test_review_days_then_learned(self):
+        self.session(0)
+        looked_back = [day for day in range(1, 40) if (1, "look back") in self.session(day)]
+        # sessions 1 and 2 (days 1, 2), then days 3, 7, 16, 35
+        self.assertEqual(looked_back, [1, 2, 3, 7, 16, 35])
+        self.assertNotIn("b:1", self.ctx.profile.data["paragraph_reviews"])
+
+    def test_needs_work_comes_back_next_session(self):
+        self.ctx.settings["reading_tasks"] = {"read_aloud": 0, "de2en": 1, "en2de": 1}  # graded look backs only
+        self.session(0)
+        self.grade = "needs work"
+        self.session(1)
+        self.grade = "mostly right"
+        self.assertIn((1, "look back"), self.session(2))
+        self.assertEqual(self.ctx.profile.data["paragraph_reviews"]["b:1"]["sessions_left"], 1)
+
+
+class RestartBook(unittest.TestCase):
+    def test_start_a_half_read_book_again(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ctx = make_ctx(tmp)
+            ctx.profile.book_state("b")["next"] = 2
+            with mock.patch("app.ui.ask", lambda prompt: "1"), mock.patch("app.ui.keys", lambda options: "s"), \
+                    console.capture():
+                reading.choose_book(ctx)
+            self.assertEqual(ctx.profile.book_state("b")["next"], 1)
+
+
+class ReadingWordsInWarmup(unittest.TestCase):
+    def test_key_words_of_read_paragraphs_come_first_in_the_next_warmup(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ctx = make_ctx(tmp)
+            ctx.profile.data["reading_words"] = ["w11", "w10"]
+            seen = []
+            with mock.patch("app.ui.clear", lambda: None), mock.patch("app.ui.keys", lambda options: ""), \
+                    mock.patch("app.warmup.show_card", lambda ctx, word, i, total: seen.append(word.id)), \
+                    mock.patch("app.warmup.quiz", lambda *a, **k: warmup.AUTO_NEXT), console.capture():
+                warmup.run_warmup(ctx)
+            self.assertEqual(seen[:2], ["w11", "w10"])
 
 
 class EnglishAnswers(unittest.TestCase):

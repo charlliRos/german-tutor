@@ -6,6 +6,8 @@ from datetime import date, timedelta
 
 from .answers import ALMOST, CORRECT, WRONG
 
+READING = "reading"  # same as content.READING (no import: content imports answers)
+
 MAX_BOX = 5
 INTERVALS = {1: 1, 2: 3, 3: 7, 4: 16, 5: 35}  # days until the next review, per box
 LEARNED_BOX = 3
@@ -78,6 +80,11 @@ class Plan:
         return len(self.reviews) + len(self.new) + len(self.practice)
 
 
+def reading_words_due(states: dict, words: dict, queue: list[str], count: int) -> list[str]:
+    """Key words from paragraphs already read that haven't been learned yet, oldest first."""
+    return [wid for wid in queue if wid in words and states.get(wid, {}).get("box", 0) == 0][: max(count, 0)]
+
+
 def plan_session(states: dict, words: dict, settings: dict, today: date, size: int, new_allowed: int) -> Plan:
     """Fill a warm-up of `size` words: some new words (always a few, if allowed), then due reviews
     (most overdue first), then extra practice on words already started (weakest, least recent first).
@@ -101,10 +108,11 @@ def plan_session(states: dict, words: dict, settings: dict, today: date, size: i
 
 
 def pick_new_words(states: dict, words: dict, count: int, shares: dict[str, float]) -> list[str]:
-    """Pick the most common unseen words, mixing the banks (daily, stem, admin) by their share."""
+    """Pick the most common unseen words, mixing the banks (daily, stem, admin) by their share.
+    Words from the books never come this way: they join once their paragraph is read."""
     pools: dict[str, list[str]] = {}
     for w in sorted(words.values(), key=lambda w: (w.rank, w.id)):
-        if states.get(w.id, {}).get("box", 0) == 0:
+        if w.bank != READING and states.get(w.id, {}).get("box", 0) == 0:
             pools.setdefault(w.bank, []).append(w.id)
     taken = {bank: 0 for bank in pools}
     picked: list[str] = []

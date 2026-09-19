@@ -1,7 +1,13 @@
-"""Daily reading: the next paragraph of a classic, explained, with a random exercise."""
+"""Daily reading: the next paragraph of a classic in 3 rounds, then a look back at earlier paragraphs.
+
+Learning is repetition. A new paragraph is translated, read out loud and translated back. After it,
+each session looks back at earlier paragraphs: every paragraph comes back in each of the next
+REVIEW_SESSIONS sessions (session 3 repeats sessions 1 and 2) AND on REVIEW_DAYS after it was learned.
+A look back marked "needs work" (or skipped) doesn't count, so it comes back next session.
+"""
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from rich.panel import Panel
 from rich.table import Table
@@ -10,9 +16,12 @@ from rich.text import Text
 from . import ui
 from .content import Book, Unit
 from .speaking import hear, speak_and_compare
-from .ui import QuitSession, console, icon
+from .ui import console, icon
 
 SELF_GRADES = {"1": "needs work", "2": "mostly right", "3": "nailed it"}
+NEEDS_WORK = SELF_GRADES["1"]
+REVIEW_SESSIONS = 2
+REVIEW_DAYS = (1, 3, 7, 16, 35)  # the same ladder as the words
 
 
 def current_book(ctx) -> Book | None:
@@ -55,6 +64,11 @@ def choose_book(ctx) -> str:
             if ui.keys({"y": "read it again from the start", "": "pick another book"}) != "y":
                 continue
             state["next"] = 1
+        elif book.parts_read(state["next"]):
+            console.print(f"You've read {book.parts_read(state['next'])} of {book.parts} paragraphs "
+                          f"of {book.short_title}.")
+            if ui.keys({"": "carry on where I stopped", "s": "start again from the beginning"}) == "s":
+                state["next"] = 1
         ctx.profile.data["current_book"] = book.id
         ctx.profile.save()
         return f"[good]Now reading: {ui.escape(book.short_title)}[/]"
@@ -80,14 +94,6 @@ def _explain(unit: Unit) -> None:
         console.print(ui.key_words(unit.words))
 
 
-def _choose_task(ctx) -> str:
-    weights = dict(ctx.settings["reading_tasks"])
-    if not ctx.audio.can_speak:
-        weights.pop("read_aloud", None)
-    usable = {t: w for t, w in weights.items() if w > 0} or {"de2en": 1, "en2de": 1}
-    return ctx.rng.choices(list(usable), weights=list(usable.values()))[0]
-
-
 def _self_grade(ctx, german_text: str | None) -> str:
     console.print("How did you do? Compare honestly. This is for you, not a score.")
     options = dict(SELF_GRADES)
@@ -100,12 +106,14 @@ def _self_grade(ctx, german_text: str | None) -> str:
         hear(ctx, german_text, slow=False)
 
 
-def _translate(ctx, book: Book, unit: Unit, direction: str, entry: dict) -> None:
-    """Fills entry with the answer (straight away, so quitting at the self-grade keeps it) and the grade."""
+def _translate(ctx, book: Book, unit: Unit, direction: str, heading: str, review: bool = False) -> dict:
+    """One translation. The journal gets it as soon as it's typed, even if they stop at the self-grade."""
     to_english = direction == "de2en"
     reference = unit.en if to_english else unit.de
+    entry = {"date": datetime.now().isoformat(timespec="minutes"), "book": book.id, "unit": unit.part,
+             "task": direction, **({"review": True} if review else {})}
     ui.clear()
-    ui.title(f"{ctx.step}Your turn: translate into {'English' if to_english else 'German'}", book.short_title)
+    ui.title(f"{ctx.step}{heading}: translate into {'English' if to_english else 'German'}", book.short_title)
     if to_english:
         console.print(ui.german(unit.de, "German"))
     else:
@@ -114,21 +122,37 @@ def _translate(ctx, book: Book, unit: Unit, direction: str, entry: dict) -> None
             console.print(ui.key_words(unit.words))
         console.print(ui.umlaut_tip())
     answer = ui.ask_multiline(f"Your {'English' if to_english else 'German'} translation:")
-    if not answer:  # typed ? : show the answer, the task counts as skipped
+    if not answer:  # typed ? : show the answer, the round counts as skipped
+        entry.update(answer="", skipped=True)
+        ctx.profile.add_journal(entry)
         console.print(Panel(Text(reference, style="en" if to_english else "de"),
                             title="Reference translation" if to_english else "Original German",
                             border_style="green" if to_english else "cyan", padding=(1, 2)))
         if not to_english:
             hear(ctx, unit.de, slow=False)
-        entry.update(answer="", skipped=True)
         ui.keys({"": "continue"})
-        return
+        return entry
     entry.update(answer=answer, self_grade="not graded")
-    ui.side_by_side("Your translation", answer,
-                    "Reference translation" if to_english else "Original German", reference)
-    if not to_english:
-        hear(ctx, unit.de, slow=False)
-    entry["self_grade"] = _self_grade(ctx, None if to_english else unit.de)
+    try:
+        ui.side_by_side("Your translation", answer,
+                        "Reference translation" if to_english else "Original German", reference)
+        if not to_english:
+            hear(ctx, unit.de, slow=False)
+        entry["self_grade"] = _self_grade(ctx, None if to_english else unit.de)
+    finally:
+        ctx.profile.add_journal(entry)
+    return entry
+
+
+def _read_aloud(ctx, book: Book, unit: Unit, heading: str) -> None:
+    ui.clear()
+    ui.title(f"{ctx.step}{heading}: read it out loud", book.short_title)
+    console.print(ui.german(unit.de))
+    if ctx.audio.can_speak:
+        speak_and_compare(ctx, unit.de, long_text=True)
+    else:
+        console.print("Read it out loud to yourself, slowly and clearly.")
+        ui.keys({"": "done"})
 
 
 def _story_so_far(ctx, book: Book, state: dict) -> Unit | None:
@@ -158,20 +182,10 @@ def _celebrate(ctx, book: Book) -> None:
     console.print(choose_book(ctx))
 
 
-def _finish_lesson(ctx, book: Book, state: dict, unit: Unit, entry: dict) -> bool:
-    """Move on to the next paragraph and keep the journal entry. True if it counts as read (not skipped)."""
-    counted = not entry.get("skipped")
-    state["next"] = unit.n + 1
-    ctx.profile.data["current_book"] = book.id
-    if counted:
-        ctx.profile.count(ctx.today, units=1)
-    ctx.profile.save()
-    ctx.profile.add_journal(entry)
-    return counted
-
-
 def lesson(ctx, book: Book) -> bool:
-    """One paragraph. Returns True if it counts as read (not skipped)."""
+    """One new paragraph in 3 rounds: translate it, read it out loud, translate it back.
+    Returns True if it counts as read. Stopping halfway keeps the typed translations (journal),
+    and the paragraph starts again next time."""
     state = ctx.profile.book_state(book.id)
     if state["next"] == 1 and book.intro_en:
         ui.clear()
@@ -183,62 +197,120 @@ def lesson(ctx, book: Book) -> bool:
         _celebrate(ctx, book)
         return False
 
-    task = _choose_task(ctx)
     header = f"{ctx.step}Paragraph {unit.part} of {book.total_parts} · {book.short_title}"
-
-    # 1. Read and listen
     ui.clear()
     ui.title(header, book.author)
     console.print(ui.german(unit.de))
+    console.print("[hint]New paragraph: listen and read along. Then 3 rounds: translate it, "
+                  "read it out loud, translate it back.[/]")
     hear(ctx, unit.de, slow=False)
+    _replay_until_enter(ctx, unit.de, "round 1: translate it")
 
-    entry = {"date": datetime.now().isoformat(timespec="minutes"), "book": book.id, "unit": unit.part, "task": task}
-    try:
-        if task == "de2en":
-            # Translate first, so the English meaning isn't on screen just before.
-            _replay_until_enter(ctx, unit.de, "translate it")
-            _translate(ctx, book, unit, task, entry)
-            ui.clear()
-            ui.title(header, "what it means")
-            console.print(ui.german(unit.de))
-            _explain(unit)
-            _replay_until_enter(ctx, unit.de, "done")
-        else:
-            _replay_until_enter(ctx, unit.de, "show me what it means")
-            _explain(unit)
-            _replay_until_enter(ctx, unit.de, "my turn")
-            if task == "read_aloud":
-                ui.clear()
-                ui.title(f"{ctx.step}Your turn: read it out loud", book.short_title)
-                console.print(ui.german(unit.de))
-                speak_and_compare(ctx, unit.de, long_text=True)
-            else:
-                _translate(ctx, book, unit, task, entry)
-    except QuitSession:
-        if "answer" in entry:  # the translation is typed: keep it, and the paragraph counts as done
-            _finish_lesson(ctx, book, state, unit, entry)
-        raise
+    # Round 1: try to understand it before seeing the meaning.
+    first = _translate(ctx, book, unit, "de2en", "Round 1 of 3")
+    ui.clear()
+    ui.title(header, "what it means")
+    console.print(ui.german(unit.de))
+    _explain(unit)
+    _replay_until_enter(ctx, unit.de, "round 2: read it out loud")
+    # Round 2: say it.
+    _read_aloud(ctx, book, unit, "Round 2 of 3")
+    # Round 3: build it again from the English.
+    last = _translate(ctx, book, unit, "en2de", "Round 3 of 3")
 
-    counted = _finish_lesson(ctx, book, state, unit, entry)
+    counted = not (first.get("skipped") and last.get("skipped"))
+    state["next"] = unit.n + 1
+    ctx.profile.data["current_book"] = book.id
+    if counted:
+        ctx.profile.count(ctx.today, units=1)
+    _schedule_reviews(ctx, book, unit)
+    ctx.profile.save()
     if book.finished(state["next"]):
         _story_so_far(ctx, book, state)  # a closing summary, if the book ends with one
         _celebrate(ctx, book)
     return counted
 
 
+def _schedule_reviews(ctx, book: Book, unit: Unit) -> None:
+    """The paragraph comes back in the next sessions, and its key words join the warm-up."""
+    ctx.profile.data["paragraph_reviews"][f"{book.id}:{unit.n}"] = {
+        "book": book.id, "n": unit.n, "learned": ctx.today.isoformat(), "sessions_left": REVIEW_SESSIONS,
+        "due_days": [(ctx.today + timedelta(days=d)).isoformat() for d in REVIEW_DAYS], "last_task": "en2de"}
+    queue = ctx.profile.data["reading_words"]
+    queue.extend(wid for wid in unit.word_ids if wid not in queue)
+
+
+def due_reviews(ctx) -> list[tuple[Book, Unit, dict]]:
+    """Paragraphs to look back at, oldest first: from the last sessions, or with a review day that has come."""
+    books = {b.id: b for b in ctx.content.books}
+    out = []
+    for key, item in list(ctx.profile.data["paragraph_reviews"].items()):
+        book = books.get(item["book"])
+        unit = next((u for u in book.units if u.n == item["n"] and u.kind == "text"), None) if book else None
+        if unit is None:  # the text was changed or removed
+            del ctx.profile.data["paragraph_reviews"][key]
+            continue
+        if item["sessions_left"] > 0 or (item["due_days"] and item["due_days"][0] <= ctx.today.isoformat()):
+            out.append((book, unit, item))
+    out.sort(key=lambda r: r[2]["learned"])  # stable: same day keeps reading order
+    return out[: max(0, int(ctx.settings["paragraph_reviews_per_session"]))]
+
+
+def _review_task(ctx, last: str) -> str:
+    """A different exercise from last time, so each look back practises something else."""
+    tasks = [t for t in ("read_aloud", "de2en", "en2de") if ctx.settings["reading_tasks"].get(t, 0) > 0]
+    tasks = [t for t in tasks if t != last] or tasks or ["de2en"]
+    return ctx.rng.choice(tasks)
+
+
+def review(ctx, book: Book, unit: Unit, item: dict, i: int, total: int) -> None:
+    task = _review_task(ctx, item.get("last_task", ""))
+    heading = f"Look back {i} of {total} · paragraph {unit.part}"
+    if task == "read_aloud":
+        _read_aloud(ctx, book, unit, heading)
+        ok = True
+    else:
+        entry = _translate(ctx, book, unit, task, heading, review=True)
+        ok = not entry.get("skipped") and entry.get("self_grade") != NEEDS_WORK
+    item["last_task"] = task
+    if ok:  # one good look back counts for this session and every review day that has come
+        item["sessions_left"] = max(0, item["sessions_left"] - 1)
+        item["due_days"] = [d for d in item["due_days"] if d > ctx.today.isoformat()]
+        if not item["sessions_left"] and not item["due_days"]:
+            del ctx.profile.data["paragraph_reviews"][f"{book.id}:{unit.n}"]  # learned for good
+    ctx.profile.count(ctx.today, reviews=1)
+    ctx.profile.save()
+
+
+def look_back(ctx, reviews: list[tuple[Book, Unit, dict]]) -> None:
+    if not reviews:
+        return
+    ui.clear()
+    ui.title(f"{ctx.step}Look back")
+    console.print(f"Now {ui.plural(len(reviews), 'paragraph')} you read before. Repetition is how it sticks!")
+    ui.keys({"": "start"})
+    for i, (book, unit, item) in enumerate(reviews, 1):
+        review(ctx, book, unit, item, i, len(reviews))
+
+
 def run_reading(ctx) -> int:
-    """Paragraphs until the daily amount is reached (and more if wanted). Returns paragraphs read."""
+    """New paragraphs until the daily amount is reached (and more if wanted), then a look back at the
+    paragraphs of earlier sessions. Returns new paragraphs read."""
+    reviews = due_reviews(ctx)  # chosen now: today's new paragraph waits for the next sessions
     done = lessons = 0
     while True:
         book = current_book(ctx)
         if book is None:
             console.print("[good]You've read every paragraph we have! Ask for new texts.[/]")
-            return done
+            break
         done += lesson(ctx, book)
         lessons += 1
         if lessons >= ctx.settings["units_per_day"]:
             ui.clear()
             ui.title(f"{ctx.step}Reading")
-            console.print(f"{ui.plural(done, 'paragraph')} read. Want to keep going?")
-            if ui.keys({"": "finish reading", "y": "one more paragraph"}) != "y":
-                return done
+            console.print(f"{ui.plural(done, 'paragraph')} read."
+                          + (" Then a look back at earlier ones." if reviews else "") + " Want another new one first?")
+            if ui.keys({"": "go on" if reviews else "finish reading", "y": "one more paragraph"}) != "y":
+                break
+    look_back(ctx, reviews)
+    return done

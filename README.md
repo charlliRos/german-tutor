@@ -5,7 +5,7 @@ Fritz the Dackel and Pip the robin say hello when it starts.
 
 **Every day:**
 1. **Warm-up (scored).** About 1,900 words from everyday German, STEM and "official German" (offices, forms, taxes, permits): English→German or German→English, with the German read out loud. Sometimes you say the word into the microphone and hear your recording next to the correct pronunciation. The warm-up **starts with 10 words and grows about half a word per practice day, to 200 words after a year**. It mixes new words, words that are due (spaced repetition) and extra practice on weaker words. Run it again any time for extra practice.
-2. **Reading (not scored).** The next paragraph of a German classic, read aloud and explained in English. Then one random task: read it into the mic, translate it to English, or translate it back to German. Your answer is shown next to the reference so you can grade yourself. Long books go from key scene to key scene, with short English "Meanwhile in the story…" recaps, all the way to the ending.
+2. **Reading (not scored), built on repetition.** The next paragraph of a German classic, read aloud, in 3 rounds: translate it to English, see what it means (explained in English, with key words), read it into the mic, then translate it back to German. Your answer is shown next to the reference so you can grade yourself. After the new paragraph comes a **look back**: every paragraph returns in each of the next 2 sessions (session 3 repeats sessions 1 and 2) and again 1, 3, 7, 16 and 35 days after you learned it, each time with a different exercise. "Needs work" means it comes back next session. The paragraph's key words also join the next warm-up. Long books go from key scene to key scene, with short English "Meanwhile in the story…" recaps, all the way to the ending. To start a book again, use "Choose a book".
 
 No AI at runtime. After setup it needs no internet. Speech is generated offline with [Piper](https://github.com/OHF-Voice/piper1-gpl).
 
@@ -81,7 +81,7 @@ If you installed from a ZIP (no git), download the new ZIP instead, unzip it ove
 
 ## Settings
 
-Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`, `new_word_share`), the mix of everyday / STEM / official words (`bank_shares`), paragraphs per day, how often to speak, speech speed, sound effects on/off (`sound_effects`), microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
+Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`, `new_word_share`), the mix of everyday / STEM / official words (`bank_shares`), paragraphs per day, look backs per session (`paragraph_reviews_per_session`), key words from reading per day (`reading_words_per_day`), how often to speak, speech speed, sound effects on/off (`sound_effects`), microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
 
 ## Adding content (for the parent)
 

@@ -21,7 +21,9 @@ DEFAULTS = {
     "bank_shares": {"daily": 0.6, "stem": 0.25, "admin": 0.15},  # mix of new words per word list
     "units_per_day": 1,          # book paragraphs per day before asking "another one?"
     "speak_chance": 0.25,        # how often a word must be said into the microphone
-    "reading_tasks": {"read_aloud": 1, "de2en": 1, "en2de": 1},  # relative weights
+    "reading_tasks": {"read_aloud": 1, "de2en": 1, "en2de": 1},  # exercises for looking back (0 = never)
+    "paragraph_reviews_per_session": 6,  # most earlier paragraphs to look back at in one session (oldest first)
+    "reading_words_per_day": 8,  # key words from read paragraphs added to the day's first warm-up
     "word_record_seconds": 3,
     "voice": "de_DE-thorsten-medium",
     "word_speed": 1.15,          # >1 is slower; words are read slowly for learners

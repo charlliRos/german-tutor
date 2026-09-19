@@ -13,7 +13,7 @@ from rich.text import Text
 
 from . import sfx, srs, ui
 from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german, normalize
-from .content import BANKS, Word, words_sharing_english
+from .content import BANK_LABELS, Word, words_sharing_english
 from .speaking import hear, speak_and_compare
 from .ui import console, icon
 
@@ -74,7 +74,7 @@ def _listen_options(ctx, word: Word, options: dict[str, str]) -> str:
 
 def show_card(ctx, word: Word, i: int, total: int) -> None:
     ui.clear()
-    ui.title(f"{ctx.step}New word {i} of {total}", f"{BANKS.get(word.bank, word.bank)} · {word.topic}")
+    ui.title(f"{ctx.step}New word {i} of {total}", f"{BANK_LABELS.get(word.bank, word.bank)} · {word.topic}")
     console.print(Panel(word_details(word), border_style="magenta", padding=(1, 2)))
     hear(ctx, word.de)
     if ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:
@@ -148,7 +148,14 @@ def run_warmup(ctx) -> WarmupResult | None:
     first_today = not today.get("warmups")
     size = srs.warmup_size(ctx.settings, ctx.profile.practice_days(ctx.today))
     new_allowed = max(0, srs.new_word_cap(ctx.settings, size) - today.get("new", 0)) if first_today else 0
-    plan = srs.plan_session(ctx.profile.data["vocab"], words, ctx.settings, ctx.today, size, new_allowed)
+    states = ctx.profile.data["vocab"]
+    plan = srs.plan_session(states, words, ctx.settings, ctx.today, size, new_allowed)
+    # Key words of paragraphs already read: on top of the usual new words, in the day's first warm-up.
+    queue = ctx.profile.data["reading_words"]
+    queue[:] = [wid for wid in queue if wid in words and states.get(wid, {}).get("box", 0) == 0]
+    from_reading = srs.reading_words_due(states, words, queue, int(ctx.settings["reading_words_per_day"])
+                                         if first_today else 0)
+    plan.new = from_reading + [wid for wid in plan.new if wid not in from_reading]
     if plan.total == 0:
         console.print("[warn]Nothing to practise yet. Do a normal warm-up first.[/]")
         return None
@@ -156,7 +163,8 @@ def run_warmup(ctx) -> WarmupResult | None:
     result = WarmupResult(extra_practice=not first_today)
     ui.clear()
     ui.title(f"{ctx.step}{'Extra practice' if result.extra_practice else 'Warm-up'}", ui.plural(plan.total, "word"))
-    parts = [f"{len(plan.new)} new", f"{len(plan.reviews)} to review", f"{len(plan.practice)} to strengthen"]
+    parts = [f"{len(plan.new)} new" + (f" ({len(from_reading)} from your reading)" if from_reading else ""),
+             f"{len(plan.reviews)} to review", f"{len(plan.practice)} to strengthen"]
     console.print(" · ".join(p for p in parts if not p.startswith("0 ")))
     if result.extra_practice:
         console.print("[hint]You've already done today's warm-up, so this round is extra practice: "
