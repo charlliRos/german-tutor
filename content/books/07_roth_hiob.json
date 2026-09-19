@@ -39,6 +39,32 @@
           "de": "der Erfolg, die Erfolge",
           "en": "success"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Vor vielen Jahren lebte in Zuchnow ein Mann namens Mendel Singer.",
+          "en": "Many years ago there lived in Zuchnow a man called Mendel Singer."
+        },
+        {
+          "de": "Er war fromm, gottesfürchtig und gewöhnlich, ein ganz alltäglicher Jude.",
+          "en": "He was pious, God-fearing and ordinary, a completely everyday Jew."
+        },
+        {
+          "de": "Er übte den schlichten Beruf eines Lehrers aus.",
+          "en": "He practised the simple profession of a teacher."
+        },
+        {
+          "de": "In seinem Haus, das nur aus einer geräumigen Küche bestand, vermittelte er Kindern die Kenntnis der Bibel.",
+          "en": "In his house, which consisted of nothing but a roomy kitchen, he taught children to know the Bible."
+        },
+        {
+          "de": "Er lehrte mit ehrlichem Eifer und ohne aufsehenerregenden Erfolg.",
+          "en": "He taught with honest zeal and without any remarkable success."
+        },
+        {
+          "de": "Hunderttausende vor ihm hatten wie er gelebt und unterrichtet.",
+          "en": "Hundreds of thousands before him had lived and taught just as he did."
+        }
       ]
     },
     {
@@ -81,6 +107,32 @@
           "de": "der Stiefel, die Stiefel",
           "en": "boot"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Unbedeutend wie sein Wesen war sein blasses Gesicht.",
+          "en": "His pale face was as unremarkable as his character."
+        },
+        {
+          "de": "Ein Vollbart von einem gewöhnlichen Schwarz umrahmte es ganz.",
+          "en": "A full beard of an ordinary black framed it completely."
+        },
+        {
+          "de": "Den Mund verdeckte der Bart.",
+          "en": "The beard covered his mouth."
+        },
+        {
+          "de": "Die Augen waren groß, schwarz, träge und halb verhüllt von schweren Lidern.",
+          "en": "His eyes were large, black, sleepy and half hidden by heavy lids."
+        },
+        {
+          "de": "Auf dem Kopf saß eine Mütze aus schwarzem Seidenrips, einem Stoff, aus dem manchmal unmoderne und billige Krawatten gemacht werden.",
+          "en": "On his head sat a cap of black silk rep, a fabric that cheap, old-fashioned ties are sometimes made of."
+        },
+        {
+          "de": "Der Körper steckte im halblangen, landesüblichen jüdischen Kaftan, dessen Schöße flatterten, wenn Mendel Singer durch die Gasse eilte, und die mit hartem, regelmäßigem Flügelschlag an die Schäfte der hohen Lederstiefel pochten.",
+          "en": "His body was wrapped in the knee-length Jewish kaftan customary in that region, whose skirts flapped when Mendel Singer hurried through the lane, and beat against the shafts of his tall leather boots like hard, regular wing-beats."
+        }
       ]
     },
     {
@@ -118,6 +170,32 @@
           "de": "das Ufer, die Ufer",
           "en": "bank, shore"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Singer schien wenig Zeit zu haben und lauter dringende Ziele.",
+          "en": "Singer seemed to have little time and nothing but urgent goals."
+        },
+        {
+          "de": "Gewiss war sein Leben ständig schwer und zuweilen sogar eine Plage.",
+          "en": "Certainly his life was always hard and at times even a torment."
+        },
+        {
+          "de": "Eine Frau und drei Kinder musste er kleiden und nähren.",
+          "en": "He had to clothe and feed a wife and three children."
+        },
+        {
+          "de": "(Mit einem vierten ging sie schwanger.) Gott hatte seinen Lenden Fruchtbarkeit verliehen, seinem Herzen Gleichmut und seinen Händen Armut.",
+          "en": "(She was pregnant with a fourth.) God had given his loins fertility, his heart calm and his hands poverty."
+        },
+        {
+          "de": "Sie hatten kein Gold zu wägen und keine Banknoten zu zählen.",
+          "en": "They had no gold to weigh and no banknotes to count."
+        },
+        {
+          "de": "Dennoch rann sein Leben stetig dahin, wie ein kleiner, armer Bach zwischen kärglichen Ufern.",
+          "en": "And yet his life flowed steadily on, like a small, poor stream between barren banks."
+        }
       ]
     },
     {
@@ -154,6 +232,40 @@
         {
           "de": "bereuen",
           "en": "to regret"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Jeden Morgen dankte Mendel Gott für den Schlaf, für das Erwachen und den anbrechenden Tag.",
+          "en": "Every morning Mendel thanked God for sleep, for waking up and for the dawning day."
+        },
+        {
+          "de": "Wenn die Sonne unterging, betete er noch einmal.",
+          "en": "When the sun went down, he prayed again."
+        },
+        {
+          "de": "Wenn die ersten Sterne aufsprühten, betete er zum dritten Mal.",
+          "en": "When the first stars sparkled into view, he prayed for the third time."
+        },
+        {
+          "de": "Und bevor er sich schlafen legte, flüsterte er ein eiliges Gebet mit müden, aber eifrigen Lippen.",
+          "en": "And before he lay down to sleep, he whispered a hurried prayer with tired but eager lips."
+        },
+        {
+          "de": "Sein Schlaf war traumlos.",
+          "en": "His sleep was dreamless."
+        },
+        {
+          "de": "Sein Gewissen war rein.",
+          "en": "His conscience was clear."
+        },
+        {
+          "de": "Seine Seele war keusch.",
+          "en": "His soul was chaste."
+        },
+        {
+          "de": "Er brauchte nichts zu bereuen, und nichts gab es, was er begehrt hätte.",
+          "en": "He had nothing to regret, and there was nothing he would have wished for."
         }
       ]
     },
@@ -193,6 +305,36 @@
           "de": "zerbrechlich",
           "en": "fragile"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Er liebte sein Weib und ergötzte sich an ihrem Fleische.",
+          "en": "He loved his wife and took pleasure in her body."
+        },
+        {
+          "de": "Mit gesundem Hunger verzehrte er schnell seine Mahlzeiten.",
+          "en": "He ate his meals quickly and with a healthy appetite."
+        },
+        {
+          "de": "Seine zwei kleinen Söhne, Jonas und Schemarjah, prügelte er wegen Ungehorsams.",
+          "en": "He beat his two little sons, Jonas and Shemariah, for disobedience."
+        },
+        {
+          "de": "Aber das Jüngste, die Tochter Mirjam, liebkoste er häufig.",
+          "en": "But the youngest, his daughter Miriam, he often cuddled."
+        },
+        {
+          "de": "Sie hatte sein schwarzes Haar und seine schwarzen, trägen und sanften Augen.",
+          "en": "She had his black hair and his black, sleepy, gentle eyes."
+        },
+        {
+          "de": "Ihre Glieder waren zart, ihre Gelenke zerbrechlich.",
+          "en": "Her limbs were delicate, her joints fragile."
+        },
+        {
+          "de": "Eine junge Gazelle.",
+          "en": "A young gazelle."
+        }
       ]
     },
     {
@@ -228,6 +370,44 @@
         {
           "de": "das Huhn, die Hühner",
           "en": "chicken"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Zwölf sechsjährige Schüler unterrichtete er im Lesen und Memorieren der Bibel.",
+          "en": "He taught twelve six-year-old pupils to read and memorise the Bible."
+        },
+        {
+          "de": "Jeder von den zwölf brachte ihm an jedem Freitag zwanzig Kopeken.",
+          "en": "Each of the twelve brought him twenty kopecks every Friday."
+        },
+        {
+          "de": "Sie waren Mendel Singers einzige Einnahmen.",
+          "en": "That was Mendel Singer's only income."
+        },
+        {
+          "de": "Dreißig Jahre war er erst alt.",
+          "en": "He was only thirty years old."
+        },
+        {
+          "de": "Aber seine Aussichten, mehr zu verdienen, waren gering, vielleicht überhaupt nicht vorhanden.",
+          "en": "But his chances of earning more were slim, perhaps non-existent."
+        },
+        {
+          "de": "Wurden die Schüler älter, kamen sie zu anderen, weiseren Lehrern.",
+          "en": "When the pupils got older, they went on to other, wiser teachers."
+        },
+        {
+          "de": "Das Leben verteuerte sich von Jahr zu Jahr.",
+          "en": "Life got more expensive from year to year."
+        },
+        {
+          "de": "Die Ernten wurden ärmer und ärmer.",
+          "en": "The harvests got poorer and poorer."
+        },
+        {
+          "de": "Die Karotten verringerten sich, die Eier wurden hohl, die Kartoffeln erfroren, die Suppen wässerig, die Karpfen schmal und die Hechte kurz, die Enten mager, die Gänse hart und die Hühner ein Nichts.",
+          "en": "The carrots shrank, the eggs were hollow, the potatoes froze, the soups were watery, the carp thin and the pike short, the ducks scrawny, the geese tough and the chickens nothing at all."
         }
       ]
     },
@@ -266,6 +446,32 @@
           "de": "scheuern",
           "en": "to scrub",
           "note": "today more often: schrubben, putzen"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Also klangen die Klagen Deborahs, der Frau Mendel Singers.",
+          "en": "That was how the complaints of Deborah, Mendel Singer's wife, sounded."
+        },
+        {
+          "de": "Sie war ein Weib, manchmal ritt sie der Teufel.",
+          "en": "She was a woman; sometimes the devil got into her."
+        },
+        {
+          "de": "Sie schielte nach dem Besitz Wohlhabender und neidete Kaufleuten den Gewinn.",
+          "en": "She cast envious looks at the property of the well-off and begrudged the merchants their profits."
+        },
+        {
+          "de": "Viel zu gering war Mendel Singer in ihren Augen.",
+          "en": "In her eyes Mendel Singer was far too insignificant."
+        },
+        {
+          "de": "Die Kinder warf sie ihm vor, die Schwangerschaft, die Teuerung, die niedrigen Honorare und oft sogar das schlechte Wetter.",
+          "en": "She blamed him for the children, the pregnancy, the rising prices, the low fees and often even the bad weather."
+        },
+        {
+          "de": "Am Freitag scheuerte sie den Fußboden, bis er gelb wurde wie Safran.",
+          "en": "On Fridays she scrubbed the floor until it turned as yellow as saffron."
         }
       ]
     },
@@ -306,6 +512,20 @@
           "en": "bench",
           "note": "die Bank, die Banken = bank (money)"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Ihre breiten Schultern zuckten auf und nieder im gleichmäßigen Rhythmus, ihre starken Hände rieben kreuz und quer jedes einzelne Brett, und ihre Nägel fuhren in die Sparren und Hohlräume zwischen den Brettern und kratzten schwarzen Unrat hervor, den Sturzwellen aus dem Kübel vollends vernichteten.",
+          "en": "Her broad shoulders jerked up and down in a steady rhythm, her strong hands scrubbed every single board crosswise, and her nails dug into the joists and hollows between the boards and scraped out black dirt, which floods of water from the bucket then destroyed completely."
+        },
+        {
+          "de": "Wie ein breites, gewaltiges und bewegliches Gebirge kroch sie durch das kahle, blaugetünchte Zimmer.",
+          "en": "Like a broad, mighty, moving mountain range she crawled through the bare, blue-washed room."
+        },
+        {
+          "de": "Draußen, vor der Tür, lüfteten sich die Möbel, das braune, hölzerne Bett, die Strohsäcke, ein blankgehobelter Tisch, zwei lange und schmale Bänke, horizontale Bretter, festgenagelt auf je zwei vertikalen.",
+          "en": "Outside, in front of the door, the furniture was airing: the brown wooden bed, the straw mattresses, a smoothly planed table, two long narrow benches, horizontal boards each nailed onto two vertical ones."
+        }
       ]
     },
     {
@@ -343,6 +563,20 @@
           "de": "der Teller, die Teller",
           "en": "plate"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sobald die erste Dämmerung an das Fenster hauchte, zündete Deborah die Kerzen an, in Leuchtern aus Alpaka, schlug die Hände vors Angesicht und betete.",
+          "en": "As soon as the first dusk breathed against the window, Deborah lit the candles in candlesticks of nickel silver, covered her face with her hands and prayed."
+        },
+        {
+          "de": "Ihr Mann kam nach Hause, in seidigem Schwarz, der Fußboden leuchtete ihm entgegen, gelb wie geschmolzene Sonne, sein Angesicht schimmerte weißer als gewöhnlich, schwärzer als an Wochentagen dunkelte auch sein Bart.",
+          "en": "Her husband came home dressed in silky black; the floor shone up at him, yellow as melted sun; his face gleamed whiter than usual, and his beard, too, looked blacker than on weekdays."
+        },
+        {
+          "de": "Er setzte sich, sang ein Liedchen, dann schlürften die Eltern und die Kinder die heiße Suppe, lächelten den Tellern zu und sprachen kein Wort.",
+          "en": "He sat down and sang a little song, then parents and children slurped the hot soup, smiled at their plates and didn't say a word."
+        }
       ]
     },
     {
@@ -378,6 +612,28 @@
         {
           "de": "im Nu",
           "en": "in no time"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Wärme erhob sich im Zimmer.",
+          "en": "Warmth rose in the room."
+        },
+        {
+          "de": "Sie schwärmte aus den Töpfen, den Schüsseln, den Leibern.",
+          "en": "It swarmed out of the pots, the bowls, the bodies."
+        },
+        {
+          "de": "Die billigen Kerzen in den Leuchtern aus Alpaka hielten es nicht aus, sie begannen sich zu biegen.",
+          "en": "The cheap candles in the nickel-silver candlesticks couldn't stand it; they began to bend."
+        },
+        {
+          "de": "Auf das ziegelrote, blaukarierte Tischtuch tropfte Stearin und verkrustete im Nu.",
+          "en": "Stearin dripped onto the brick-red, blue-checked tablecloth and hardened in no time."
+        },
+        {
+          "de": "Man stieß das Fenster auf, die Kerzen ermannten sich und brannten friedlich ihrem Ende zu.",
+          "en": "Someone flung the window open, the candles pulled themselves together and burned peacefully down to their end."
         }
       ]
     },
@@ -415,6 +671,36 @@
           "de": "murmeln",
           "en": "to murmur, mumble"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die Kinder legten sich auf die Strohsäcke in der Nähe des Ofens, die Eltern saßen noch und sahen mit bekümmerter Festlichkeit in die letzten blauen Flämmchen, die gezackt aus den Höhlungen der Leuchter emporschossen und sanft gewellt zurücksanken, ein Wasserspiel aus Feuer.",
+          "en": "The children lay down on the straw mattresses near the stove; the parents stayed sitting and gazed, with troubled solemnity, into the last little blue flames, which shot up jaggedly out of the hollows of the candlesticks and sank back in gentle waves – a fountain made of fire."
+        },
+        {
+          "de": "Das Stearin schwelte, blaue, dünne Fäden aus Rauch zogen von den verkohlten Dochtresten aufwärts zur Decke.",
+          "en": "The stearin smouldered; thin blue threads of smoke rose from the charred stubs of wick up to the ceiling."
+        },
+        {
+          "de": "„Ach!“, seufzte die Frau.",
+          "en": "'Oh!' sighed the woman."
+        },
+        {
+          "de": "„Seufze nicht!“, gemahnte Mendel Singer.",
+          "en": "'Don't sigh!' Mendel Singer warned."
+        },
+        {
+          "de": "Sie schwiegen.",
+          "en": "They fell silent."
+        },
+        {
+          "de": "„Schlafen wir, Deborah!“, befahl er.",
+          "en": "'Let's sleep, Deborah!' he ordered."
+        },
+        {
+          "de": "Und sie begannen, ein Nachtgebet zu murmeln.",
+          "en": "And they began to murmur a night prayer."
+        }
       ]
     },
     {
@@ -448,6 +734,40 @@
           "de": "niederkommen",
           "en": "to give birth",
           "note": "old; today: ein Kind bekommen"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Ende jeder Woche brach so der Sabbat an, mit Schweigen, Kerzen und Gesang.",
+          "en": "So, at the end of every week, the Sabbath began, with silence, candles and song."
+        },
+        {
+          "de": "Vierundzwanzig Stunden später tauchte er unter in der Nacht, die den grauen Zug der Wochentage anführte, einen Reigen aus Mühsal.",
+          "en": "Twenty-four hours later it sank into the night that led the grey procession of weekdays, a round dance of toil."
+        },
+        {
+          "de": "An einem heißen Tag im Hochsommer, um die vierte Stunde des Nachmittags, kam Deborah nieder.",
+          "en": "On a hot day in high summer, at about four in the afternoon, Deborah gave birth."
+        },
+        {
+          "de": "Ihre ersten Schreie stießen in den Singsang der zwölf lernenden Kinder.",
+          "en": "Her first screams broke into the sing-song of the twelve children at their lessons."
+        },
+        {
+          "de": "Sie gingen alle nach Hause.",
+          "en": "They all went home."
+        },
+        {
+          "de": "Sieben Tage Ferien begannen.",
+          "en": "Seven days of holiday began."
+        },
+        {
+          "de": "Mendel bekam ein neues Kind, ein viertes, einen Knaben.",
+          "en": "Mendel got a new child, a fourth, a boy."
+        },
+        {
+          "de": "Acht Tage später wurde es beschnitten und Menuchim genannt.",
+          "en": "Eight days later it was circumcised and named Menuchim."
         }
       ]
     },
@@ -485,6 +805,32 @@
         {
           "de": "hässlich",
           "en": "ugly"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Menuchim hatte keine Wiege.",
+          "en": "Menuchim had no cradle."
+        },
+        {
+          "de": "Er schwebte in einem Korb aus geflochtenen Weidenruten in der Mitte des Zimmers, mit vier Seilen an einem Haken im Plafond befestigt wie ein Kronleuchter.",
+          "en": "He hovered in a basket of woven willow twigs in the middle of the room, fastened with four ropes to a hook in the ceiling like a chandelier."
+        },
+        {
+          "de": "Mendel Singer tippte von Zeit zu Zeit mit einem leichten, nicht lieblosen Finger an den hängenden Korb, der sofort anfing zu schaukeln.",
+          "en": "From time to time Mendel Singer tapped the hanging basket with a light, not unloving finger, and it immediately began to swing."
+        },
+        {
+          "de": "Diese Bewegung beruhigte den Säugling zuweilen.",
+          "en": "This movement sometimes calmed the baby."
+        },
+        {
+          "de": "Manchmal aber half gar nichts gegen seine Lust, zu wimmern und zu schreien.",
+          "en": "But sometimes nothing at all helped against his urge to whimper and scream."
+        },
+        {
+          "de": "Seine Stimme krächzte über den Stimmen der zwölf lernenden Kinder, profane, hässliche Laute über den heiligen Sätzen der Bibel.",
+          "en": "His voice croaked above the voices of the twelve children at their lessons, profane, ugly sounds above the holy sentences of the Bible."
         }
       ]
     },
@@ -524,6 +870,44 @@
           "de": "absetzen",
           "en": "to wean; also: to drop off, to take off"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Deborah stieg auf einen Schemel und holte den Säugling herunter.",
+          "en": "Deborah climbed onto a stool and took the baby down."
+        },
+        {
+          "de": "Weiß, geschwellt und kolossal entquoll ihre Brust der offenen Bluse und zog die Blicke der Knaben übermächtig auf sich.",
+          "en": "White, swollen and enormous, her breast welled out of her open blouse and drew the boys' eyes irresistibly."
+        },
+        {
+          "de": "Alle Anwesenden schien Deborah zu säugen.",
+          "en": "Deborah seemed to be nursing everyone present."
+        },
+        {
+          "de": "Ihre eigenen älteren drei Kinder umstanden sie, eifersüchtig und lüstern.",
+          "en": "Her own three older children stood around her, jealous and greedy."
+        },
+        {
+          "de": "Stille brach ein.",
+          "en": "Silence fell."
+        },
+        {
+          "de": "Man hörte das Schmatzen des Säuglings.",
+          "en": "You could hear the baby smacking its lips."
+        },
+        {
+          "de": "Die Tage dehnten sich zu Wochen, die Wochen wuchsen sich zu Monaten aus, zwölf Monate machten ein Jahr.",
+          "en": "The days stretched into weeks, the weeks grew into months, twelve months made a year."
+        },
+        {
+          "de": "Menuchim trank immer noch die Milch seiner Mutter, eine schüttere, klare Milch.",
+          "en": "Menuchim was still drinking his mother's milk, a thin, clear milk."
+        },
+        {
+          "de": "Sie konnte ihn nicht absetzen.",
+          "en": "She couldn't wean him."
+        }
       ]
     },
     {
@@ -560,6 +944,32 @@
           "de": "Grimassen schneiden",
           "en": "to pull faces"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Im dreizehnten Monat seines Lebens begann er, Grimassen zu schneiden und wie ein Tier zu stöhnen, in jagender Hast zu atmen und auf eine noch nie dagewesene Art zu keuchen.",
+          "en": "In the thirteenth month of his life he began to pull faces and to groan like an animal, to breathe in frantic haste and to gasp in a way never heard before."
+        },
+        {
+          "de": "Sein großer Schädel hing schwer wie ein Kürbis an seinem dünnen Hals.",
+          "en": "His big skull hung heavy as a pumpkin on his thin neck."
+        },
+        {
+          "de": "Seine breite Stirn fältelte und furchte sich kreuz und quer wie ein zerknittertes Pergament.",
+          "en": "His broad forehead wrinkled and furrowed criss-cross like crumpled parchment."
+        },
+        {
+          "de": "Seine Beine waren gekrümmt und ohne Leben wie zwei hölzerne Bögen.",
+          "en": "His legs were crooked and lifeless like two wooden bows."
+        },
+        {
+          "de": "Seine dürren Ärmchen zappelten und zuckten.",
+          "en": "His skinny little arms twitched and jerked."
+        },
+        {
+          "de": "Lächerliche Laute stammelte sein Mund.",
+          "en": "His mouth stammered ridiculous sounds."
+        }
       ]
     },
     {
@@ -591,6 +1001,36 @@
         {
           "de": "der Bruder, die Brüder",
           "en": "brother"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Bekam er einen Anfall, so nahm man ihn aus der Wiege und schüttelte ihn ordentlich, bis sein Angesicht bläulich wurde und der Atem ihm beinah verging.",
+          "en": "Whenever he had a fit, they took him out of the cradle and shook him hard until his face turned bluish and he almost ran out of breath."
+        },
+        {
+          "de": "Dann erholte er sich langsam.",
+          "en": "Then he slowly recovered."
+        },
+        {
+          "de": "Man legte gebrühten Tee (in mehreren Säckchen) auf seine magere Brust und wickelte Huflattich um seinen dünnen Hals.",
+          "en": "They laid brewed tea (in several little bags) on his thin chest and wrapped coltsfoot around his thin neck."
+        },
+        {
+          "de": "„Macht nichts“, sagte sein Vater, „es kommt vom Wachsen!“",
+          "en": "'Never mind,' said his father, 'it comes from growing!'"
+        },
+        {
+          "de": "„Söhne geraten nach den Brüdern der Mutter.",
+          "en": "'Sons take after their mother's brothers."
+        },
+        {
+          "de": "Mein Bruder hat es fünf Jahre gehabt!“, sagte die Mutter.",
+          "en": "My brother had it for five years!' said the mother."
+        },
+        {
+          "de": "„Man wächst sich aus!“, sprachen die andern.",
+          "en": "'He'll grow out of it!' said the others."
         }
       ]
     },
@@ -624,6 +1064,32 @@
         {
           "de": "der Vormittag, die Vormittage",
           "en": "morning (before noon)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Bis eines Tages die Pocken in der Stadt ausbrachen, die Behörden Impfungen vorschrieben und die Ärzte in die Häuser der Juden drangen.",
+          "en": "Until one day smallpox broke out in the town, the authorities ordered vaccinations and the doctors forced their way into the Jews' houses."
+        },
+        {
+          "de": "Manche verbargen sich.",
+          "en": "Some people hid."
+        },
+        {
+          "de": "Mendel Singer aber, der Gerechte, floh vor keiner Strafe Gottes.",
+          "en": "But Mendel Singer, the righteous man, did not run from any punishment of God."
+        },
+        {
+          "de": "Auch der Impfung sah er getrost entgegen.",
+          "en": "He faced the vaccination calmly, too."
+        },
+        {
+          "de": "Es war an einem heißen, sonnigen Vormittag, an dem die Kommission durch Mendels Gasse kam.",
+          "en": "It was on a hot, sunny morning that the commission came through Mendel's lane."
+        },
+        {
+          "de": "Das letzte in der Reihe der jüdischen Häuser war Mendels Haus.",
+          "en": "The last house in the row of Jewish houses was Mendel's."
         }
       ]
     },
@@ -662,6 +1128,12 @@
           "en": "(here) man's jacket",
           "note": "old meaning; today: der Rock = skirt, jacket = die Jacke"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Mit einem Polizisten, der ein großes Buch im Arm trug, ging der Doktor Soltysiuk mit wehendem, blondem Schnurrbart im braunen Angesicht, einen goldgeränderten Kneifer auf der geröteten Nase, mit breiten Schritten, in knarrend gelben Ledergamaschen und den Rock, der Hitze wegen, über die blaue Rubaschka lässig gehängt, dass die Ärmel wie noch ein paar Arme aussahen, die ebenfalls bereit schienen, Impfungen vorzunehmen: also kam der Doktor Soltysiuk in die Gasse der Juden.",
+          "en": "Accompanied by a policeman carrying a big book under his arm, Doctor Soltysiuk walked along with long strides – a blond moustache blowing in his brown face, gold-rimmed pince-nez on his reddened nose, creaking yellow leather gaiters, and his jacket, because of the heat, slung casually over his blue Russian shirt, so that the sleeves looked like another pair of arms that also seemed ready to vaccinate people: that was how Doctor Soltysiuk came into the Jewish lane."
+        }
       ]
     },
     {
@@ -693,6 +1165,32 @@
         {
           "de": "das Häuschen, die Häuschen",
           "en": "little house"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Ihm entgegen scholl das Wehklagen der Frauen und das Heulen der Kinder, die sich nicht hatten verbergen können.",
+          "en": "The wailing of the women and the howling of the children who hadn't managed to hide rang out to meet him."
+        },
+        {
+          "de": "Der Polizist holte Frauen und Kinder aus tiefen Kellern und von hohen Dachböden, aus kleinen Kämmerchen und großen Strohkörben.",
+          "en": "The policeman fetched women and children out of deep cellars and down from high attics, out of little closets and big straw baskets."
+        },
+        {
+          "de": "Die Sonne brütete, der Doktor schwitzte.",
+          "en": "The sun was scorching, the doctor was sweating."
+        },
+        {
+          "de": "Nicht weniger als hundertsechsundsiebzig Juden hatte er zu impfen.",
+          "en": "He had no fewer than a hundred and seventy-six Jews to vaccinate."
+        },
+        {
+          "de": "Für jeden Geflohenen und Unerreichbaren dankte er Gott im Stillen.",
+          "en": "For everyone who had fled or couldn't be reached, he silently thanked God."
+        },
+        {
+          "de": "Als er zum vierten der kleinen, blaugetünchten Häuschen gelangt war, gab er dem Polizisten einen Wink, nicht mehr eifrig zu suchen.",
+          "en": "When he had reached the fourth of the little blue-washed houses, he signalled to the policeman not to search so hard any more."
         }
       ]
     },
@@ -732,6 +1230,32 @@
           "de": "ein Glas Wasser",
           "en": "a glass of water"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Immer stärker schwoll das Geschrei, je weiter der Doktor ging.",
+          "en": "The screaming swelled louder and louder the further the doctor went."
+        },
+        {
+          "de": "Es wehte vor seinen Schritten einher.",
+          "en": "It blew along ahead of his steps."
+        },
+        {
+          "de": "Das Geheul derjenigen, die sich noch fürchteten, verband sich mit dem Fluchen der bereits Geimpften.",
+          "en": "The howls of those who were still afraid mingled with the curses of those already vaccinated."
+        },
+        {
+          "de": "Müde und vollends verwirrt ließ er sich in Mendels Stube mit einem schweren Stöhnen auf die Bank nieder und verlangte ein Glas Wasser.",
+          "en": "Tired and completely confused, he sank down onto the bench in Mendel's room with a heavy groan and asked for a glass of water."
+        },
+        {
+          "de": "Sein Blick fiel auf den kleinen Menuchim, er hob den Krüppel hoch und sagte: „Er wird ein Epileptiker.“",
+          "en": "His eyes fell on little Menuchim; he lifted the cripple up and said: 'He's going to be an epileptic.'"
+        },
+        {
+          "de": "Angst goss er in des Vaters Herz.",
+          "en": "He poured fear into the father's heart."
+        }
       ]
     },
     {
@@ -763,6 +1287,36 @@
         {
           "de": "umsonst",
           "en": "for free; also: in vain"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Alle Kinder haben Fraisen“, wandte die Mutter ein.",
+          "en": "'All children have fits,' the mother objected."
+        },
+        {
+          "de": "„Das ist es nicht“, bestimmte der Doktor.",
+          "en": "'That's not it,' the doctor declared."
+        },
+        {
+          "de": "„Aber ich könnte ihn vielleicht gesund machen.",
+          "en": "'But I might be able to make him well."
+        },
+        {
+          "de": "Es ist Leben in seinen Augen.“",
+          "en": "There's life in his eyes.'"
+        },
+        {
+          "de": "Gleich wollte er den Kleinen ins Krankenhaus mitnehmen.",
+          "en": "He wanted to take the little one to the hospital straight away."
+        },
+        {
+          "de": "Schon war Deborah bereit.",
+          "en": "Deborah was ready at once."
+        },
+        {
+          "de": "„Man wird ihn umsonst gesund machen“, sagte sie.",
+          "en": "'They'll make him well for free,' she said."
         }
       ]
     },
@@ -802,6 +1356,44 @@
           "de": "der Held, die Helden",
           "en": "hero"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Mendel aber erwiderte: „Sei still, Deborah!",
+          "en": "But Mendel replied: 'Be quiet, Deborah!"
+        },
+        {
+          "de": "Gesund machen kann ihn kein Doktor, wenn Gott nicht will.",
+          "en": "No doctor can make him well if God doesn't want it."
+        },
+        {
+          "de": "Soll er unter russischen Kindern aufwachsen?",
+          "en": "Should he grow up among Russian children?"
+        },
+        {
+          "de": "Kein heiliges Wort hören?",
+          "en": "Never hear a holy word?"
+        },
+        {
+          "de": "Milch und Fleisch essen und Hühner auf Butter gebraten, wie man sie im Spital bekommt?",
+          "en": "Eat milk together with meat, and chickens fried in butter, the way they get them in the hospital?"
+        },
+        {
+          "de": "Wir sind arm, aber Menuchims Seele verkaufe ich nicht, nur weil seine Heilung umsonst sein kann.",
+          "en": "We are poor, but I'm not going to sell Menuchim's soul just because his cure might be free."
+        },
+        {
+          "de": "Man wird nicht geheilt in fremden Spitälern.“",
+          "en": "People don't get healed in strange hospitals.'"
+        },
+        {
+          "de": "Wie ein Held hielt Mendel seinen dürren, weißen Arm zum Impfen hin.",
+          "en": "Like a hero Mendel held out his skinny white arm to be vaccinated."
+        },
+        {
+          "de": "Menuchim aber gab er nicht fort.",
+          "en": "But he did not give Menuchim away."
+        }
       ]
     },
     {
@@ -839,6 +1431,28 @@
           "de": "der Wind, die Winde",
           "en": "wind"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Er beschloss, Gottes Hilfe für seinen Jüngsten zu erflehen und zweimal in der Woche zu fasten, Montag und Donnerstag.",
+          "en": "He decided to plead for God's help for his youngest and to fast twice a week, on Mondays and Thursdays."
+        },
+        {
+          "de": "Deborah nahm sich vor, auf den Friedhof zu pilgern und die Gebeine der Ahnen anzurufen um ihre Fürsprache beim Allmächtigen.",
+          "en": "Deborah resolved to make a pilgrimage to the cemetery and to call on the bones of their ancestors to put in a word with the Almighty."
+        },
+        {
+          "de": "Also würde Menuchim gesund werden und kein Epileptiker.",
+          "en": "And so Menuchim would get well and not be an epileptic."
+        },
+        {
+          "de": "Dennoch hing seit der Stunde der Impfung über dem Haus Mendel Singers die Furcht wie ein Ungetüm, und der Kummer durchzog die Herzen wie ein dauernder heißer und stechender Wind.",
+          "en": "Nevertheless, from the hour of the vaccination onwards, fear hung over Mendel Singer's house like a monster, and grief swept through their hearts like a constant hot, stinging wind."
+        },
+        {
+          "de": "Deborah durfte seufzen, und ihr Mann wies sie nicht zurecht.",
+          "en": "Deborah was allowed to sigh, and her husband didn't tell her off."
+        }
       ]
     },
     {
@@ -870,6 +1484,20 @@
         {
           "de": "aufhören",
           "en": "to stop"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Länger als sonst hielt sie ihr Angesicht in den Händen vergraben, wenn sie betete, als schüfe sie sich eigene Nächte, die Furcht in ihnen zu begraben, und eigene Finsternisse, um zugleich die Gnade in ihnen zu finden.",
+          "en": "When she prayed, she kept her face buried in her hands longer than usual, as if she were making her own nights in which to bury her fear, and her own darkness in which, at the same time, to find grace."
+        },
+        {
+          "de": "Denn sie glaubte, wie es geschrieben stand, dass Gottes Licht in den Dämmernissen aufleuchte und seine Güte das Schwarze erhelle.",
+          "en": "For she believed, as it was written, that God's light shines out in the twilight and that His goodness brightens the black."
+        },
+        {
+          "de": "Menuchims Anfälle aber hörten nicht auf.",
+          "en": "But Menuchim's fits did not stop."
         }
       ]
     },
@@ -908,6 +1536,32 @@
           "de": "der Heimweg",
           "en": "the way home"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die älteren Kinder wuchsen und wuchsen, ihre Gesundheit lärmte wie ein Feind Menuchims, des Kranken, böse in den Ohren der Mutter.",
+          "en": "The older children grew and grew; their health was as loud as an enemy of Menuchim, the sick one, and sounded evil in their mother's ears."
+        },
+        {
+          "de": "Es war, als bezögen die gesunden Kinder Kraft von dem Siechen, und Deborah hasste ihr Geschrei, ihre roten Wangen, ihre geraden Gliedmaßen.",
+          "en": "It was as if the healthy children drew their strength from the sickly one, and Deborah hated their shouting, their red cheeks, their straight limbs."
+        },
+        {
+          "de": "Sie pilgerte zum Friedhof durch Regen und Sonne.",
+          "en": "She made pilgrimages to the cemetery through rain and sun."
+        },
+        {
+          "de": "Sie schlug mit dem Kopf gegen die moosigen Sandsteine, die aus den Gebeinen ihrer Väter und Mütter wuchsen.",
+          "en": "She beat her head against the mossy sandstones that grew out of the bones of her fathers and mothers."
+        },
+        {
+          "de": "Sie beschwor die Toten, deren stumme, tröstende Antworten sie zu hören vermeinte.",
+          "en": "She pleaded with the dead, whose silent, comforting answers she believed she could hear."
+        },
+        {
+          "de": "Auf dem Heimweg zitterte sie vor Hoffnung, ihren Sohn gesund wiederzufinden.",
+          "en": "On the way home she trembled with hope of finding her son well again."
+        }
       ]
     },
     {
@@ -944,6 +1598,12 @@
           "de": "das Hemd, die Hemden",
           "en": "shirt"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sie versäumte den Dienst am Herd, die Suppe lief über, die tönernen Töpfe zerbrachen, die Kasserollen verrosteten, die grünlich schimmernden Gläser zersprangen mit hartem Knall, der Zylinder der Petroleumlampe verfinsterte sich rußig, der Docht verkohlte kümmerlich zu einem Zäpfchen, der Schmutz vieler Sohlen und vieler Wochen überlagerte die Dielen des Bodens, das Schmalz im Topfe zerrann, die Knöpfe fielen dürr von den Hemden der Kinder wie Laub vor dem Winter.",
+          "en": "She neglected her work at the stove: the soup boiled over, the clay pots broke, the saucepans rusted, the greenish glasses cracked with a sharp bang, the chimney of the oil lamp went black with soot, the wick charred miserably into a little stump, the dirt of many soles and many weeks covered the floorboards, the lard melted in the pot, the buttons fell off the children's shirts, dry as leaves before winter."
+        }
       ]
     },
     {
@@ -979,6 +1639,20 @@
         {
           "de": "das Gewicht, die Gewichte",
           "en": "weight"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Eines Tages, eine Woche vor den hohen Feiertagen (aus dem Sommer war Regen geworden, und aus dem Regen wollte Schnee werden), packte Deborah den Korb mit ihrem Sohn, legte wollene Decken über ihn, stellte ihn auf die Fuhre des Kutschers Sameschkin und reiste nach Kluczysk, wo der Rabbi wohnte.",
+          "en": "One day, a week before the High Holidays (summer had turned into rain, and the rain was about to turn into snow), Deborah packed up the basket with her son, laid woollen blankets over him, put him on the cart of the coachman Sameshkin and travelled to Kluczysk, where the Rabbi lived."
+        },
+        {
+          "de": "Das Sitzbrett lag locker auf dem Stroh und rutschte bei jeder Bewegung des Wagens.",
+          "en": "The seat board lay loose on the straw and slid with every movement of the cart."
+        },
+        {
+          "de": "Lediglich mit dem Gewicht ihres Körpers hielt Deborah es nieder, lebendig war es, hüpfen wollte es.",
+          "en": "Deborah held it down with nothing but the weight of her body; it was alive, it wanted to jump."
         }
       ]
     },
@@ -1020,6 +1694,16 @@
           "de": "das Kopftuch, die Kopftücher",
           "en": "headscarf"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die schmale, gewundene Straße bedeckte der silbergraue Schlamm, in dem die hohen Stiefel der Vorüberkommenden versanken und die halben Räder der Fuhre.",
+          "en": "The narrow, winding road was covered in silver-grey mud, into which the tall boots of passers-by sank, and the wheels of the cart up to half their height."
+        },
+        {
+          "de": "Der Regen verhüllte die Felder, zerstäubte den Rauch über den vereinzelten Hütten, zermahlte mit unendlicher, feiner Geduld alles Feste, auf das er traf, den Kalkstein, der hier und dort wie weißer Zahn aus der schwarzen Erde wuchs, die zersägten Stämme an den Rändern der Straße, die aufeinandergeschichteten, duftenden Bretter vor dem Eingang zur Sägemühle, auch das Kopftuch Deborahs und die wollenen Decken, unter denen Menuchim begraben lag.",
+          "en": "The rain veiled the fields, scattered the smoke above the lonely huts, and with endless, fine patience ground down everything solid it met: the limestone that grew here and there out of the black earth like a white tooth, the sawn tree trunks at the edges of the road, the stacked, fragrant planks in front of the entrance to the sawmill, and also Deborah's headscarf and the woollen blankets under which Menuchim lay buried."
+        }
       ]
     },
     {
@@ -1058,6 +1742,28 @@
           "de": "endgültig",
           "en": "final, for good"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Kein Tröpfchen sollte ihn benetzen.",
+          "en": "Not a single drop was to get him wet."
+        },
+        {
+          "de": "Deborah berechnete, dass sie noch vier Stunden zu fahren hatte; hörte der Regen nicht auf, musste sie vor der Herberge halten und die Decken trocknen, einen Tee trinken und die mitgenommenen, ebenfalls schon durchweichten Mohnbrezeln verzehren.",
+          "en": "Deborah worked out that she still had four hours to travel; if the rain didn't stop, she would have to stop at the inn and dry the blankets, drink a tea and eat the poppy-seed pretzels she had brought, which were already soaked too."
+        },
+        {
+          "de": "Das konnte fünf Kopeken kosten, fünf Kopeken, mit denen man nicht leichtsinnig umgehen darf.",
+          "en": "That could cost five kopecks, five kopecks, which you mustn't spend carelessly."
+        },
+        {
+          "de": "Gott hatte ein Einsehen, es hörte zu regnen auf.",
+          "en": "God took pity; the rain stopped."
+        },
+        {
+          "de": "Über hastigen Wolkenfetzen bleichte eine zerronnene Sonne, eine Stunde kaum; in einem neuen, tieferen Dämmer versank sie endgültig.",
+          "en": "Above hurrying scraps of cloud a watery sun shone pale, for barely an hour; then it sank for good into a new, deeper dusk."
+        }
       ]
     },
     {
@@ -1093,6 +1799,32 @@
         {
           "de": "das Geschirr",
           "en": "dishes; also: harness"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die schwarze Nacht lagerte in Kluczysk, als Deborah ankam.",
+          "en": "Black night lay over Kluczysk when Deborah arrived."
+        },
+        {
+          "de": "Viele ratlose Menschen waren bereits gekommen, den Rabbi zu sehn.",
+          "en": "Many helpless people had already come to see the Rabbi."
+        },
+        {
+          "de": "Kluczysk bestand aus ein paar tausend niedrigen, stroh- und schindelgedeckten Häusern, einem kilometerweiten Marktplatz, der wie ein trockener See war, umkränzt von Gebäuden.",
+          "en": "Kluczysk consisted of a few thousand low houses with straw or shingle roofs and a market square kilometres wide, like a dry lake, ringed by buildings."
+        },
+        {
+          "de": "Die Fuhrwerke, die in ihm herumstanden, erinnerten an steckengebliebene Wracks; übrigens verloren sie sich, winzig und sinnlos, in der kreisrunden Weite.",
+          "en": "The carts standing about in it looked like stranded wrecks; besides, they got lost, tiny and pointless, in the circular expanse."
+        },
+        {
+          "de": "Die ausgespannten Pferde wieherten neben den Fuhrwerken und traten mit müden, klatschenden Hufen den klebrigen Schlamm.",
+          "en": "The unharnessed horses neighed beside the carts and trod the sticky mud with tired, slapping hooves."
+        },
+        {
+          "de": "Einzelne Männer irrten mit schwankenden, gelben Laternen durch die runde Nacht, eine vergessene Decke zu holen und ein klirrendes Geschirr mit Mundvorrat.",
+          "en": "Here and there men wandered through the round night with swaying yellow lanterns, to fetch a forgotten blanket and a clinking set of dishes with food for the journey."
         }
       ]
     },
@@ -1131,6 +1863,16 @@
         {
           "de": "ehrlich",
           "en": "honest"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Ringsum, in den tausend kleinen Häuschen, waren Ankömmlinge untergebracht.",
+          "en": "All around, in the thousand little houses, new arrivals had been put up."
+        },
+        {
+          "de": "Sie schliefen auf Pritschen neben den Betten der Einheimischen, die Siechen, die Krummen, die Lahmen, die Wahnsinnigen, die Idiotischen, die Herzschwachen, die Zuckerkranken, die den Krebs im Leibe trugen, deren Augen mit Trachom verseucht waren, Frauen mit unfruchtbarem Schoß, Mütter mit missgestalteten Kindern, Männer, denen Gefängnis oder Militärdienst drohte, Deserteure, die um eine geglückte Flucht baten, von Ärzten Aufgegebene, von der Menschheit Verstoßene, von der irdischen Gerechtigkeit Misshandelte, Bekümmerte, Sehnsüchtige, Verhungernde und Satte, Betrüger und Ehrliche, alle, alle, alle…",
+          "en": "They slept on plank beds next to the beds of the locals: the sickly, the crooked, the lame, the insane, the feeble-minded, those with weak hearts, the diabetics, those who carried cancer in their bodies, those whose eyes were infected with trachoma, women with barren wombs, mothers with deformed children, men facing prison or military service, deserters praying for a successful escape, people given up by doctors, cast out by humanity, mistreated by earthly justice, the troubled, the longing, the starving and the well-fed, cheats and honest people, all, all, all …"
         }
       ]
     },
@@ -1175,6 +1917,36 @@
           "de": "die Träne, die Tränen",
           "en": "tear"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Jemand machte die Tür auf.",
+          "en": "Someone opened the door."
+        },
+        {
+          "de": "Der Rabbi stand am Fenster, er kehrte ihr den Rücken, ein schwarzer, schmaler Strich.",
+          "en": "The rabbi was standing at the window with his back to her, a thin black line."
+        },
+        {
+          "de": "Plötzlich wandte er sich um.",
+          "en": "Suddenly he turned round."
+        },
+        {
+          "de": "Sie blieb an der Schwelle, auf beiden Armen bot sie ihren Sohn dar, wie man ein Opfer bringt.",
+          "en": "She stayed on the threshold and held out her son on both arms, the way one makes an offering."
+        },
+        {
+          "de": "Sie erhaschte einen Schimmer von dem bleichen Angesicht des Mannes, das eins zu sein schien mit seinem weißen Bart.",
+          "en": "She caught a glimpse of the man's pale face, which seemed to be one with his white beard."
+        },
+        {
+          "de": "Sie hatte sich vorgenommen, in die Augen des Heiligen zu sehen, um sich zu überzeugen, dass wirklich in ihnen die mächtige Güte lebe.",
+          "en": "She had resolved to look into the holy man's eyes, to convince herself that the mighty goodness really lived in them."
+        },
+        {
+          "de": "Aber nun sie hier stand, lag ein See von Tränen vor ihrem Blick, und sie sah den Mann hinter einer weißen Welle aus Wasser und Salz.",
+          "en": "But now that she was standing here, a lake of tears lay before her eyes, and she saw the man behind a white wave of water and salt."
+        }
       ]
     },
     {
@@ -1212,6 +1984,40 @@
           "en": "fear",
           "note": "more common today: die Angst"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Er hob die Hand, zwei dürre Finger glaubte sie zu erkennen, Instrumente des Segens.",
+          "en": "He raised his hand; she thought she could make out two thin fingers, instruments of blessing."
+        },
+        {
+          "de": "Aber ganz nah hörte sie die Stimme des Rabbi, obwohl er nur flüsterte:",
+          "en": "But she heard the rabbi's voice very close, although he was only whispering:"
+        },
+        {
+          "de": "„Menuchim, Mendels Sohn, wird gesund werden.",
+          "en": "'Menuchim, son of Mendel, will get well."
+        },
+        {
+          "de": "Seinesgleichen wird es nicht viele geben in Israel.",
+          "en": "There will not be many like him in Israel."
+        },
+        {
+          "de": "Der Schmerz wird ihn weise machen, die Hässlichkeit gütig, die Bitternis milde und die Krankheit stark.",
+          "en": "Pain will make him wise, ugliness kind, bitterness gentle and sickness strong."
+        },
+        {
+          "de": "Seine Augen werden weit sein und tief, seine Ohren hell und voll Widerhall.",
+          "en": "His eyes will be wide and deep, his ears clear and full of echoes."
+        },
+        {
+          "de": "Sein Mund wird schweigen, aber wenn er die Lippen auftun wird, werden sie Gutes künden.",
+          "en": "His mouth will be silent, but when he opens his lips, they will proclaim good things."
+        },
+        {
+          "de": "Hab keine Furcht, und geh nach Haus!“",
+          "en": "Have no fear, and go home!'"
+        }
       ]
     },
     {
@@ -1247,6 +2053,36 @@
         {
           "de": "heimkehren",
           "en": "to return home"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Wann, wann, wann wird er gesund werden?“, flüsterte Deborah.",
+          "en": "'When, when, when will he get well?' whispered Deborah."
+        },
+        {
+          "de": "„Nach langen Jahren“, sagte der Rabbi, „aber frage mich nicht weiter, ich habe keine Zeit, und ich weiß nicht mehr.",
+          "en": "'After many years', said the rabbi, 'but don't ask me any more, I have no time, and I know no more."
+        },
+        {
+          "de": "Verlass deinen Sohn nicht, auch wenn er dir eine große Last ist, gib ihn nicht weg von dir, er kommt aus dir, wie ein gesundes Kind.",
+          "en": "Do not leave your son, even if he is a great burden to you; do not give him away from you; he comes from you, like a healthy child."
+        },
+        {
+          "de": "Und geh!“…",
+          "en": "And go!'…"
+        },
+        {
+          "de": "Draußen machte man ihr Platz.",
+          "en": "Outside they made room for her."
+        },
+        {
+          "de": "Ihre Wangen waren blass, ihre Augen trocken, ihre Lippen leicht geöffnet, als atmeten sie lauter Hoffnung.",
+          "en": "Her cheeks were pale, her eyes dry, her lips slightly open, as if they were breathing nothing but hope."
+        },
+        {
+          "de": "Gnade im Herzen, kehrte sie heim.",
+          "en": "With grace in her heart she went home."
         }
       ]
     },
@@ -1291,6 +2127,60 @@
         {
           "de": "vergeblich",
           "en": "in vain"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Sogar Menuchim wuchs.",
+          "en": "Even Menuchim grew."
+        },
+        {
+          "de": "Seine Beine blieben zwar gekrümmt, aber sie wurden ohne Zweifel länger.",
+          "en": "His legs stayed crooked, it's true, but they undoubtedly got longer."
+        },
+        {
+          "de": "Auch sein Oberkörper streckte sich.",
+          "en": "His upper body stretched too."
+        },
+        {
+          "de": "Plötzlich, eines Morgens, stieß er einen nie gehörten, schrillen Schrei aus.",
+          "en": "Suddenly, one morning, he let out a shrill cry that had never been heard before."
+        },
+        {
+          "de": "Dann blieb er still.",
+          "en": "Then he was quiet."
+        },
+        {
+          "de": "Eine Weile später sagte er, klar und vernehmlich: „Mama.“",
+          "en": "A while later he said, clearly and distinctly: 'Mama.'"
+        },
+        {
+          "de": "Deborah stürzte sich auf ihn, und aus ihren Augen, die lange schon trocken gewesen waren, flossen die Tränen, heiß, stark, groß, salzig, schmerzlich und süß.",
+          "en": "Deborah threw herself on him, and from her eyes, which had long been dry, the tears flowed, hot, strong, big, salty, painful and sweet."
+        },
+        {
+          "de": "„Sag Mama!“",
+          "en": "'Say Mama!'"
+        },
+        {
+          "de": "„Mama“, wiederholte der Kleine.",
+          "en": "'Mama', the little one repeated."
+        },
+        {
+          "de": "Ein Dutzend Mal wiederholte er das Wort.",
+          "en": "He repeated the word a dozen times."
+        },
+        {
+          "de": "Hundertmal wiederholte es Deborah.",
+          "en": "Deborah repeated it a hundred times."
+        },
+        {
+          "de": "Nicht vergeblich waren ihre Bitten geblieben.",
+          "en": "Her prayers had not been in vain."
+        },
+        {
+          "de": "Menuchim sprach.",
+          "en": "Menuchim could speak."
         }
       ]
     },
@@ -1342,6 +2232,28 @@
           "en": "sad",
           "note": "Roth: betrübt"
         }
+      ],
+      "sentences": [
+        {
+          "de": "„Das Leben“, erklärte Schemarjah, „ist in großen Städten zu sehen.",
+          "en": "'Life', explained Schemarjah, 'is to be seen in big cities."
+        },
+        {
+          "de": "Die Bahnen fahren mitten durch die Straßen, alle Läden sind so groß wie bei uns die Gendarmerie-Kaserne, und die Schaufenster sind noch größer.",
+          "en": "The trams run right through the middle of the streets, all the shops are as big as the police barracks here, and the shop windows are even bigger."
+        },
+        {
+          "de": "Ich habe Ansichtskarten gesehen.",
+          "en": "I've seen postcards."
+        },
+        {
+          "de": "Man braucht keine Tür, um in ein Geschäft zu treten, die Fenster reichen bis zu den Füßen.“",
+          "en": "You don't need a door to go into a shop, the windows go right down to your feet.'"
+        },
+        {
+          "de": "„He, warum seid ihr so betrübt?“, rief plötzlich ein Bauer aus der gegenüberliegenden Ecke.",
+          "en": "'Hey, why are you so gloomy?' a peasant suddenly called from the opposite corner."
+        }
       ]
     },
     {
@@ -1385,6 +2297,36 @@
           "en": "to create",
           "note": "past tense: schuf"
         }
+      ],
+      "sentences": [
+        {
+          "de": "„Hör mich, Menuchim, ich bin allein!",
+          "en": "'Listen to me, Menuchim, I am alone!"
+        },
+        {
+          "de": "Deine Brüder sind groß und fremd geworden, sie gehen zu den Soldaten.",
+          "en": "Your brothers have grown big and strange to me, they are going to the soldiers."
+        },
+        {
+          "de": "Deine Mutter ist ein Weib, was kann ich von ihr verlangen?",
+          "en": "Your mother is a woman, what can I ask of her?"
+        },
+        {
+          "de": "Du bist mein jüngster Sohn, meine letzte und jüngste Hoffnung habe ich in dich gepflanzt.",
+          "en": "You are my youngest son, I have planted my last and youngest hope in you."
+        },
+        {
+          "de": "Warum schweigst du, Menuchim?",
+          "en": "Why are you silent, Menuchim?"
+        },
+        {
+          "de": "Du bist mein wirklicher Sohn!",
+          "en": "You are my real son!"
+        },
+        {
+          "de": "Sieh her, Menuchim, und wiederhole die Worte: Am Anfang schuf Gott Himmel und Erde.“",
+          "en": "Look here, Menuchim, and repeat the words: In the beginning God created the heavens and the earth.'"
+        }
       ]
     },
     {
@@ -1416,6 +2358,36 @@
         {
           "de": "nachsprechen",
           "en": "to repeat (after someone)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Mendel wartete noch einen Augenblick.",
+          "en": "Mendel waited a moment longer."
+        },
+        {
+          "de": "Menuchim rührte sich nicht.",
+          "en": "Menuchim didn't move."
+        },
+        {
+          "de": "Da klingelte Mendel wieder mit dem Löffel an das Glas.",
+          "en": "Then Mendel rang the spoon against the glass again."
+        },
+        {
+          "de": "Menuchim drehte sich um, und Mendel ergriff wie mit beiden Händen den Moment der Wachheit und sang wieder: „Hör mich, Menuchim!",
+          "en": "Menuchim turned round, and Mendel seized the moment of alertness as if with both hands and sang again: 'Listen to me, Menuchim!"
+        },
+        {
+          "de": "Ich bin alt, du bleibst mir allein von allen Kindern, Menuchim!",
+          "en": "I am old, you are all I have left of all my children, Menuchim!"
+        },
+        {
+          "de": "Hör zu und sprich mir nach: Am Anfang schuf Gott Himmel und Erde.“",
+          "en": "Listen and say it after me: In the beginning God created the heavens and the earth.'"
+        },
+        {
+          "de": "Aber Menuchim rührte sich nicht.",
+          "en": "But Menuchim didn't move."
         }
       ]
     },
@@ -1459,6 +2431,40 @@
           "de": "unterbrechen",
           "en": "to interrupt"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sie handelten eine halbe Stunde.",
+          "en": "They haggled for half an hour."
+        },
+        {
+          "de": "Dann erklärte sich Kapturak mit dreiundzwanzig für einen zufrieden.",
+          "en": "Then Kapturak agreed to twenty-three for one."
+        },
+        {
+          "de": "Wenigstens einer! dachte Deborah.",
+          "en": "At least one! thought Deborah."
+        },
+        {
+          "de": "Aber unterwegs, während sie auf der Fuhre Sameschkins saß und die Räder durch ihre Eingeweide und ihren armen Kopf holperten, erschien ihr die Lage noch elender als zuvor.",
+          "en": "But on the way home, sitting on Sameschkin's cart as the wheels jolted through her insides and her poor head, the situation seemed even more miserable than before."
+        },
+        {
+          "de": "Wie konnte sie ihre Söhne voneinander unterscheiden?",
+          "en": "How could she choose between her sons?"
+        },
+        {
+          "de": "Jonas oder Schemarjah? fragte sie sich unermüdlich.",
+          "en": "Jonas or Schemarjah? she asked herself tirelessly."
+        },
+        {
+          "de": "Besser einer als beide, sagte ihr Verstand, wehklagte ihr Herz.",
+          "en": "Better one than both, said her reason; her heart wailed."
+        },
+        {
+          "de": "Als sie nach Hause kam und ihren Söhnen das Urteil Kapturaks zu berichten anfing, unterbrach sie Jonas, der ältere, mit den Worten: „Ich gehe gern zu den Soldaten!“",
+          "en": "When she came home and began to tell her sons Kapturak's verdict, Jonas, the elder, interrupted her with the words: 'I'm happy to go to the soldiers!'"
+        }
       ]
     },
     {
@@ -1495,6 +2501,52 @@
         {
           "de": "sich schlafen legen",
           "en": "to go to bed"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Deborah, die Tochter Mirjam, Schemarjah und Mendel Singer warteten wie Hölzer.",
+          "en": "Deborah, their daughter Mirjam, Schemarjah and Mendel Singer waited like blocks of wood."
+        },
+        {
+          "de": "Endlich, da Jonas nichts weiter sprach, sagte Schemarjah: „Du bist ein Bruder!",
+          "en": "At last, since Jonas said nothing more, Schemarjah said: 'You're a real brother!"
+        },
+        {
+          "de": "Ein guter Bruder bist du!“",
+          "en": "You're a good brother!'"
+        },
+        {
+          "de": "„Nein“, erwiderte Jonas, „ich will zu den Soldaten!“",
+          "en": "'No', replied Jonas, 'I want to go to the soldiers!'"
+        },
+        {
+          "de": "„Vielleicht kommst du ein halbes Jahr später frei!“, tröstete der Vater.",
+          "en": "'Perhaps you'll be released half a year later!' his father comforted him."
+        },
+        {
+          "de": "„Nein“, sagte Jonas, „ich will gar nicht freikommen!",
+          "en": "'No', said Jonas, 'I don't want to be released at all!"
+        },
+        {
+          "de": "Ich bleibe bei den Soldaten!“",
+          "en": "I'm staying with the soldiers!'"
+        },
+        {
+          "de": "Alle murmelten das Nachtgebet.",
+          "en": "They all murmured the night prayer."
+        },
+        {
+          "de": "Schweigsam entkleideten sie sich.",
+          "en": "Silently they undressed."
+        },
+        {
+          "de": "Dann ging Mirjam im Hemd und auf koketten Zehen zur Lampe und pustete sie aus.",
+          "en": "Then Mirjam, in her nightdress, went on flirtatious tiptoe to the lamp and blew it out."
+        },
+        {
+          "de": "Sie legten sich schlafen.",
+          "en": "They lay down to sleep."
         }
       ]
     },
@@ -1537,6 +2589,24 @@
         {
           "de": "schicken",
           "en": "to send"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Lieber Vater, liebe Mutter, teure Mirjam und guter Menuchim!",
+          "en": "'Dear Father, dear Mother, dearest Mirjam and good Menuchim!"
+        },
+        {
+          "de": "Den Jonas rede ich nicht an, weil er ja beim Militär ist.",
+          "en": "I'm not addressing Jonas, because he is in the army."
+        },
+        {
+          "de": "Auch bitte ich Euch, ihm diesen Brief nicht direkt zukommen zu lassen, denn er könnte widrige Umstände haben, wenn er mit einem Bruder korrespondiert, der ein Deserteur ist.",
+          "en": "I also ask you not to pass this letter on to him directly, because he could get into trouble if he corresponds with a brother who is a deserter."
+        },
+        {
+          "de": "Deshalb habe ich auch so lange gewartet und Euch nicht per Post geschrieben, bis ich endlich die Gelegenheit fand, Euch diesen Brief mit meinem guten Freund Mac zu schicken.",
+          "en": "That's also why I waited so long and didn't write to you by post, until I finally found the chance to send you this letter with my good friend Mac."
         }
       ]
     },
@@ -1581,6 +2651,40 @@
           "de": "kaufen",
           "en": "to buy"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Lange blieben sie draußen, auch nachdem Mac verschwunden war.",
+          "en": "They stayed outside for a long time, even after Mac had disappeared."
+        },
+        {
+          "de": "Sie hielten die Hände über den Augen und sahen in das staubige Strahlen der leeren Straße.",
+          "en": "They held their hands over their eyes and looked into the dusty glare of the empty street."
+        },
+        {
+          "de": "Endlich sagte Deborah: „Nun ist er weg!“",
+          "en": "At last Deborah said: 'Now he's gone!'"
+        },
+        {
+          "de": "Und als wäre der Fremde erst jetzt verschwunden, kehrten alle um und standen umschlungen, jeder einen Arm um die Schultern des anderen, vor den Fotografien auf dem Tisch.",
+          "en": "And as if the stranger had only now disappeared, they all turned back and stood with their arms around one another's shoulders in front of the photographs on the table."
+        },
+        {
+          "de": "„Wie viel sind zehn Dollar?“, fragte Mirjam und begann nachzurechnen.",
+          "en": "'How much is ten dollars?' asked Mirjam, and began to work it out."
+        },
+        {
+          "de": "„Es ist ganz gleich“, sagte Deborah, „wie viel zehn Dollar sind, wir werden uns doch nichts dafür kaufen.“",
+          "en": "'It doesn't matter', said Deborah, 'how much ten dollars is, we won't buy ourselves anything with it anyway.'"
+        },
+        {
+          "de": "„Warum nicht?“, erwiderte Mirjam, „in unsern Fetzen sollen wir fahren?“",
+          "en": "'Why not?' replied Mirjam. 'Are we supposed to travel in our rags?'"
+        },
+        {
+          "de": "„Wer fährt und wohin?“, schrie die Mutter.",
+          "en": "'Who's travelling, and where?' cried the mother."
+        }
       ]
     },
     {
@@ -1612,6 +2716,32 @@
         {
           "de": "schweigen",
           "en": "to be silent, to say nothing"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Nach Amerika“, sagte Mirjam und lächelte, „Sam selbst hat es geschrieben.“",
+          "en": "'To America', said Mirjam, smiling. 'Sam himself wrote it.'"
+        },
+        {
+          "de": "Zum ersten Mal hatte ein Angehöriger der Familie Schemarjah „Sam“ genannt, und es war, als hätte Mirjam den amerikanischen Namen des Bruders absichtlich ausgesprochen, um seiner Forderung, die Familie möge nach Amerika fahren, Nachdruck zu verleihen.",
+          "en": "It was the first time a member of the family had called Schemarjah 'Sam', and it was as if Mirjam had said her brother's American name on purpose, to give weight to his demand that the family should come to America."
+        },
+        {
+          "de": "„Sam!“, rief Mendel Singer, „wer ist Sam?“",
+          "en": "'Sam!' cried Mendel Singer. 'Who is Sam?'"
+        },
+        {
+          "de": "„Ja“, wiederholte Deborah, „wer ist Sam?“",
+          "en": "'Yes', repeated Deborah, 'who is Sam?'"
+        },
+        {
+          "de": "„Sam“, sagte, immer noch mit einem Lächeln, Mirjam, „ist mein Bruder in Amerika und euer Sohn!“",
+          "en": "'Sam', said Mirjam, still smiling, 'is my brother in America and your son!'"
+        },
+        {
+          "de": "Die Eltern schwiegen.",
+          "en": "The parents said nothing."
         }
       ]
     },
@@ -1656,6 +2786,56 @@
           "de": "der Himmel, die Himmel",
           "en": "sky; heaven"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Der Samowar summte, Deborah hauchte in ein Trinkglas und putzte es blank.",
+          "en": "The samovar hummed; Deborah breathed on a drinking glass and polished it until it shone."
+        },
+        {
+          "de": "Dann tranken Mendel und Deborah gleichmäßig mit gespitzten, schlürfenden Lippen.",
+          "en": "Then Mendel and Deborah drank evenly, with pursed, slurping lips."
+        },
+        {
+          "de": "Plötzlich setzte Mendel das Glas ab und sagte: „Wir werden nach Amerika fahren.",
+          "en": "Suddenly Mendel put down his glass and said: 'We will go to America."
+        },
+        {
+          "de": "Menuchim muss zurückbleiben.",
+          "en": "Menuchim must stay behind."
+        },
+        {
+          "de": "Wir müssen Mirjam mitnehmen.",
+          "en": "We must take Mirjam with us."
+        },
+        {
+          "de": "Ein Unglück schwebt über uns, wenn wir bleiben.“",
+          "en": "A misfortune is hanging over us if we stay.'"
+        },
+        {
+          "de": "Er blieb eine Weile still und sagte dann leise:",
+          "en": "He was silent for a while and then said quietly:"
+        },
+        {
+          "de": "„Sie geht mit einem Kosaken.“",
+          "en": "'She is going with a Cossack.'"
+        },
+        {
+          "de": "Das Glas fiel klirrend aus den Händen Deborahs.",
+          "en": "The glass fell clattering from Deborah's hands."
+        },
+        {
+          "de": "Mirjam erwachte in der Ecke, und Menuchim regte sich in seinem dumpfen Schlaf.",
+          "en": "Mirjam woke up in the corner, and Menuchim stirred in his dull sleep."
+        },
+        {
+          "de": "Dann blieb es still.",
+          "en": "Then everything was quiet."
+        },
+        {
+          "de": "Millionen Lerchen trillerten über dem Haus, unter dem Himmel.",
+          "en": "Millions of larks trilled above the house, under the sky."
+        }
       ]
     },
     {
@@ -1693,6 +2873,52 @@
         {
           "de": "die Nummer, die Nummern",
           "en": "number"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Mendel musste warten.",
+          "en": "Mendel had to wait."
+        },
+        {
+          "de": "Er trat, die Mütze in der Hand, durch das große Portal.",
+          "en": "With his cap in his hand, he went through the big main door."
+        },
+        {
+          "de": "Der Portier trug einen Säbel.",
+          "en": "The porter wore a sabre."
+        },
+        {
+          "de": "„Wohin willst du?“, fragte er.",
+          "en": "'Where do you want to go?' he asked."
+        },
+        {
+          "de": "„Ich will nach Amerika – wo muss ich hin?“",
+          "en": "'I want to go to America – where do I have to go?'"
+        },
+        {
+          "de": "„Wie heißt du?“",
+          "en": "'What's your name?'"
+        },
+        {
+          "de": "„Mendel Mechelovitsch Singer.“",
+          "en": "'Mendel Mechelovitsch Singer.'"
+        },
+        {
+          "de": "„Wozu willst du nach Amerika?“",
+          "en": "'Why do you want to go to America?'"
+        },
+        {
+          "de": "„Geld verdienen, es geht mir schlecht.“",
+          "en": "'To earn money, things are going badly for me.'"
+        },
+        {
+          "de": "„Du gehst auf Nummer 84“, sagte der Portier.",
+          "en": "'You go to Number 84', said the porter."
+        },
+        {
+          "de": "„Dort warten schon viele.“",
+          "en": "'There are already lots of people waiting there.'"
         }
       ]
     },
@@ -1735,6 +2961,52 @@
         {
           "de": "begreifen",
           "en": "to understand, to grasp"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Siehst du, wie schön das Land ist?“, fragte Sameschkin.",
+          "en": "'Do you see how beautiful the land is?' asked Sameschkin."
+        },
+        {
+          "de": "„Bald wird die Ernte kommen.",
+          "en": "'The harvest will come soon."
+        },
+        {
+          "de": "Es ist ein gutes Jahr.",
+          "en": "It's a good year."
+        },
+        {
+          "de": "Wenn es so gut ist, wie ich mir vorstelle, kaufe ich noch ein Pferd im Herbst.",
+          "en": "If it's as good as I think, I'll buy another horse in the autumn."
+        },
+        {
+          "de": "Hörst du was von deinem Sohn Jonas?",
+          "en": "Do you hear anything from your son Jonas?"
+        },
+        {
+          "de": "Er versteht was von Pferden.",
+          "en": "He knows about horses."
+        },
+        {
+          "de": "Er ist ganz anders als du.",
+          "en": "He's quite different from you."
+        },
+        {
+          "de": "Hat dich dein Weib vielleicht einmal betrogen?“",
+          "en": "Has your wife perhaps cheated on you some time?'"
+        },
+        {
+          "de": "„Alles ist möglich“, erwiderte Mendel.",
+          "en": "'Anything is possible', replied Mendel."
+        },
+        {
+          "de": "Es war ihm auf einmal sehr leicht, alles konnte er begreifen, die Nacht machte ihn frei von Vorurteilen.",
+          "en": "All at once he felt very light; he could understand everything; the night freed him from prejudices."
+        },
+        {
+          "de": "Er schmiegte sich sogar an Sameschkin wie an einen Bruder.",
+          "en": "He even nestled up to Sameschkin like a brother."
         }
       ]
     },
@@ -1784,6 +3056,48 @@
           "de": "das Wunder, die Wunder",
           "en": "miracle"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Noch einmal hält Deborah Menuchim auf dem Arm.",
+          "en": "Once more Deborah holds Menuchim in her arms."
+        },
+        {
+          "de": "Die Familie Billes ist schon da, umzingelt den Wagen und hört nicht auf zu reden.",
+          "en": "The Billes family is already there, crowding around the carriage and talking without stopping."
+        },
+        {
+          "de": "Mendel Singer sitzt auf dem Kutschbock, und Mirjam lehnt ihren Rücken gegen den des Vaters.",
+          "en": "Mendel Singer is sitting on the coach box, and Mirjam leans her back against her father's."
+        },
+        {
+          "de": "Nur Deborah steht noch vor der Tür, den Krüppel Menuchim in den Armen.",
+          "en": "Only Deborah is still standing in front of the door, the crippled Menuchim in her arms."
+        },
+        {
+          "de": "Plötzlich lässt sie von ihm.",
+          "en": "Suddenly she lets go of him."
+        },
+        {
+          "de": "Sie setzt ihn sachte auf die Schwelle, wie man eine Leiche in einen Sarg legt, steht auf, reckt sich, lässt ihre Tränen fließen, über das nackte Gesicht nackte Tränen.",
+          "en": "She sets him down gently on the doorstep, as one lays a corpse in a coffin, stands up, straightens herself, lets her tears flow – naked tears over her naked face."
+        },
+        {
+          "de": "Sie ist entschlossen.",
+          "en": "She has made up her mind."
+        },
+        {
+          "de": "Ihr Sohn bleibt.",
+          "en": "Her son stays."
+        },
+        {
+          "de": "Sie wird nach Amerika fahren.",
+          "en": "She will go to America."
+        },
+        {
+          "de": "Es ist kein Wunder geschehen.",
+          "en": "No miracle has happened."
+        }
       ]
     },
     {
@@ -1820,6 +3134,52 @@
           "de": "liegen bleiben",
           "en": "to stay lying down"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Weinend steigt sie in den Wagen.",
+          "en": "Weeping, she gets into the carriage."
+        },
+        {
+          "de": "Sie sieht nicht die Gesichter der Menschen, deren Hände sie drückt.",
+          "en": "She doesn't see the faces of the people whose hands she shakes."
+        },
+        {
+          "de": "Zwei große Meere voll Tränen sind ihre beiden Augen.",
+          "en": "Her two eyes are two great seas full of tears."
+        },
+        {
+          "de": "Die Pferdehufe hört sie klappern.",
+          "en": "She hears the horses' hooves clattering."
+        },
+        {
+          "de": "Sie fährt.",
+          "en": "She is moving."
+        },
+        {
+          "de": "Sie schreit auf, sie weiß nicht, dass sie schreit, es schreit aus ihr, das Herz hat einen Mund und schreit.",
+          "en": "She cries out; she doesn't know she is crying out; it cries out of her; the heart has a mouth and cries."
+        },
+        {
+          "de": "Der Wagen hält, sie springt aus ihm, leichtfüßig wie eine Junge.",
+          "en": "The carriage stops, she jumps out of it, light-footed as a young girl."
+        },
+        {
+          "de": "Menuchim sitzt noch auf der Schwelle.",
+          "en": "Menuchim is still sitting on the doorstep."
+        },
+        {
+          "de": "Sie fällt vor Menuchim nieder.",
+          "en": "She falls down in front of Menuchim."
+        },
+        {
+          "de": "„Mama, Mama!“, lallt Menuchim.",
+          "en": "'Mama, Mama!' babbles Menuchim."
+        },
+        {
+          "de": "Sie bleibt liegen.",
+          "en": "She stays lying there."
+        }
       ]
     },
     {
@@ -1855,6 +3215,56 @@
         {
           "de": "unaufhörlich",
           "en": "endlessly, incessantly"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die Familie Billes hebt Deborah hoch.",
+          "en": "The Billes family lifts Deborah up."
+        },
+        {
+          "de": "Sie schreit, sie wehrt sich, sie bleibt schließlich still.",
+          "en": "She screams, she struggles, at last she goes quiet."
+        },
+        {
+          "de": "Man trägt sie wieder zum Wagen und bettet sie auf das Heu.",
+          "en": "They carry her back to the carriage and lay her in the hay."
+        },
+        {
+          "de": "Der Wagen rollt sehr schnell nach Dubno.",
+          "en": "The carriage rolls very fast to Dubno."
+        },
+        {
+          "de": "Sechs Stunden später saßen sie in der Eisenbahn, im langsamen Personenzug, zusammen mit vielen unbekannten Menschen.",
+          "en": "Six hours later they were sitting on the train, the slow passenger train, together with many strangers."
+        },
+        {
+          "de": "Der Zug fuhr sachte durch das Land, die Wiesen und die Felder, auf denen man erntete, die Bauern und Bäuerinnen, die Hütten und Herden grüßten den Zug.",
+          "en": "The train travelled gently through the countryside; the meadows and fields where people were harvesting, the peasant men and women, the huts and herds greeted the train."
+        },
+        {
+          "de": "Das sanfte Lied der Räder schläferte die Passagiere ein.",
+          "en": "The gentle song of the wheels sent the passengers to sleep."
+        },
+        {
+          "de": "Deborah hatte noch kein Wort gesprochen.",
+          "en": "Deborah hadn't said a word yet."
+        },
+        {
+          "de": "Sie schlummerte.",
+          "en": "She dozed."
+        },
+        {
+          "de": "Die Räder der Eisenbahn wiederholten unaufhörlich, unaufhörlich: Verlass ihn nicht!",
+          "en": "The wheels of the train repeated endlessly, endlessly: Don't leave him!"
+        },
+        {
+          "de": "Verlass ihn nicht!",
+          "en": "Don't leave him!"
+        },
+        {
+          "de": "Verlass ihn nicht!",
+          "en": "Don't leave him!"
         }
       ]
     },
@@ -1899,6 +3309,36 @@
           "de": "trennen",
           "en": "to separate"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Nein, Mendel fühlte keine Angst.",
+          "en": "No, Mendel felt no fear."
+        },
+        {
+          "de": "Er beruhigte den Matrosen, er, ein kleiner, schwarzer Jude auf einem riesengroßen Schiff und vor dem ewigen Ozean, er drehte sich noch einmal im Halbkreis und murmelte den Segen, der zu sprechen ist beim Anblick des Meeres.",
+          "en": "He calmed the sailor – he, a small, black-clad Jew on an enormous ship and in front of the eternal ocean; he turned once more in a half-circle and murmured the blessing that is to be said at the sight of the sea."
+        },
+        {
+          "de": "Er drehte sich im Halbkreis und verstreute die einzelnen Worte des Segens über die grünen Wogen: „Gelobt seist Du, Ewiger, unser Herr, der Du die Meere geschaffen hast und durch sie trennest die Kontinente!“",
+          "en": "He turned in a half-circle and scattered the single words of the blessing over the green waves: 'Blessed are You, Eternal One, our Lord, who created the seas and through them separates the continents!'"
+        },
+        {
+          "de": "In diesem Augenblick erdröhnten die Sirenen.",
+          "en": "At that moment the sirens roared."
+        },
+        {
+          "de": "Die Maschinen begannen zu poltern.",
+          "en": "The engines began to rumble."
+        },
+        {
+          "de": "Und die Luft und das Schiff und die Menschen erzitterten.",
+          "en": "And the air and the ship and the people shook."
+        },
+        {
+          "de": "Nur der Himmel blieb still und blau, blau und still.",
+          "en": "Only the sky stayed still and blue, blue and still."
+        }
       ]
     },
     {
@@ -1937,6 +3377,36 @@
           "de": "die Wange, die Wangen",
           "en": "cheek"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Auf einmal stand Schemarjah vor ihnen.",
+          "en": "All at once Schemarjah was standing in front of them."
+        },
+        {
+          "de": "Alle drei erschraken auf die gleiche Weise.",
+          "en": "All three of them got a fright in the same way."
+        },
+        {
+          "de": "Sie sahen gleichzeitig ihr altes Häuschen wieder, den alten Schemarjah und den neuen Schemarjah, genannt Sam.",
+          "en": "At the same moment they saw their old house again, the old Schemarjah and the new Schemarjah, called Sam."
+        },
+        {
+          "de": "Sie sahen Schemarjah und Sam zugleich, als wenn Sam über einen Schemarjah gestülpt worden wäre, ein durchsichtiger Sam.",
+          "en": "They saw Schemarjah and Sam at the same time, as if Sam had been pulled over a Schemarjah, a see-through Sam."
+        },
+        {
+          "de": "Es war zwar Schemarjah, aber es war Sam.",
+          "en": "It was Schemarjah, true, but it was Sam."
+        },
+        {
+          "de": "Es waren zwei.",
+          "en": "There were two of them."
+        },
+        {
+          "de": "Der eine trug eine schwarze Mütze, ein schwarzes Gewand und hohe Stiefel, und die ersten flaumigen, schwarzen Härchen sprossen aus den Poren seiner Wangen.",
+          "en": "One wore a black cap, a black gown and high boots, and the first downy black hairs were sprouting from the pores of his cheeks."
+        }
       ]
     },
     {
@@ -1973,6 +3443,32 @@
         {
           "de": "verstehen",
           "en": "to understand"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Der zweite trug einen hellgrauen Rock, eine schneeweiße Mütze wie der Kapitän, breite, gelbe Hosen, ein leuchtendes Hemd aus grüner Seide, und sein Angesicht war glatt wie ein nobler Grabstein.",
+          "en": "The second wore a light grey jacket, a snow-white cap like the captain's, wide yellow trousers and a shiny green silk shirt, and his face was as smooth as a fine gravestone."
+        },
+        {
+          "de": "Der zweite war beinahe Mac.",
+          "en": "The second was almost Mac."
+        },
+        {
+          "de": "Der erste sprach mit seiner alten Stimme – sie hörten nur die Stimme, nicht die Worte.",
+          "en": "The first spoke with his old voice – they only heard the voice, not the words."
+        },
+        {
+          "de": "Der zweite schlug mit einer starken Hand seinem Vater auf die Schulter und sagte, und jetzt erst hörten sie die Worte: „Hallo, old chap!“, und verstanden nichts.",
+          "en": "The second slapped his father on the shoulder with a strong hand and said – and only now did they hear the words – 'Hallo, old chap!', and they understood nothing."
+        },
+        {
+          "de": "Der erste war Schemarjah.",
+          "en": "The first was Schemarjah."
+        },
+        {
+          "de": "Der zweite aber war Sam.",
+          "en": "But the second was Sam."
         }
       ]
     },
@@ -2015,6 +3511,52 @@
         {
           "de": "einsam",
           "en": "lonely"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Was gehen mich diese Leute an? dachte Mendel.",
+          "en": "What have these people to do with me? thought Mendel."
+        },
+        {
+          "de": "Was geht mich ganz Amerika an?",
+          "en": "What has the whole of America to do with me?"
+        },
+        {
+          "de": "Mein Sohn, meine Frau, meine Tochter, dieser Mac?",
+          "en": "My son, my wife, my daughter, this Mac?"
+        },
+        {
+          "de": "Bin ich noch Mendel Singer?",
+          "en": "Am I still Mendel Singer?"
+        },
+        {
+          "de": "Ist das noch meine Familie?",
+          "en": "Is this still my family?"
+        },
+        {
+          "de": "Bin ich noch Mendel Singer?",
+          "en": "Am I still Mendel Singer?"
+        },
+        {
+          "de": "Wo ist mein Sohn Menuchim?",
+          "en": "Where is my son Menuchim?"
+        },
+        {
+          "de": "Es war ihm, als wäre er aus sich selbst herausgestoßen worden, von sich selbst getrennt, würde er fortan leben müssen.",
+          "en": "He felt as if he had been pushed out of himself, as if from now on he would have to live separated from himself."
+        },
+        {
+          "de": "Es war ihm, als hätte er sich selbst in Zuchnow zurückgelassen, in der Nähe Menuchims.",
+          "en": "He felt as if he had left himself behind in Zuchnow, near Menuchim."
+        },
+        {
+          "de": "Und während es um seine Lippen lächelte und während es seinen Kopf schüttelte, begann sein Herz, langsam zu vereisen, es pochte wie ein metallener Schlegel gegen kaltes Glas.",
+          "en": "And while something smiled around his lips and something shook his head, his heart slowly began to freeze; it knocked like a metal hammer against cold glass."
+        },
+        {
+          "de": "Schon war er einsam, Mendel Singer: Schon war er in Amerika…",
+          "en": "Already he was lonely, Mendel Singer: already he was in America…"
         }
       ]
     },
@@ -2059,6 +3601,44 @@
           "de": "umkehren",
           "en": "to turn back, to go back"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Nein, sie wusste nicht genau, was ihr fehlte, Menuchim fehlte ihr.",
+          "en": "No, she didn't know exactly what she was missing – she was missing Menuchim."
+        },
+        {
+          "de": "Oft, im Schlaf, im Wachen, beim Einkaufen, im Kino, beim Aufräumen, beim Backen hörte sie ihn rufen.",
+          "en": "Often, asleep or awake, shopping, at the cinema, tidying up or baking, she heard him calling."
+        },
+        {
+          "de": "Mama!",
+          "en": "Mama!"
+        },
+        {
+          "de": "Mama! rief er.",
+          "en": "Mama! he called."
+        },
+        {
+          "de": "Das einzige Wort, das er sprechen gelernt hatte, musste er jetzt schon vergessen haben.",
+          "en": "The only word he had learned to speak – he must have forgotten it by now."
+        },
+        {
+          "de": "Fremde Kinder hörte sie Mama rufen, die Mütter meldeten sich, keine einzige Mutter ließ freiwillig von ihrem Kinde.",
+          "en": "She heard other children calling Mama; the mothers answered; not a single mother would leave her child of her own free will."
+        },
+        {
+          "de": "Man hätte nicht nach Amerika fahren dürfen.",
+          "en": "They should never have come to America."
+        },
+        {
+          "de": "Aber man konnte ja immer noch heimkehren!",
+          "en": "But they could still go home!"
+        },
+        {
+          "de": "„Mendel“, sagte sie manchmal, „sollen wir nicht umkehren, Menuchim sehen?“",
+          "en": "'Mendel', she sometimes said, 'shouldn't we go back and see Menuchim?'"
+        }
       ]
     },
     {
@@ -2100,6 +3680,32 @@
         {
           "de": "laufen",
           "en": "to run; to walk"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Der Doktor Soltysiuk hat ihn gesehen“, schrieb die Familie Billes.",
+          "en": "'Doctor Soltysiuk has seen him', wrote the Billes family."
+        },
+        {
+          "de": "„Er konnte es nicht glauben.",
+          "en": "'He couldn't believe it."
+        },
+        {
+          "de": "Man will Menuchim nach Petersburg schicken, die großen Doktoren wollen sich den Kopf über ihn zerbrechen.",
+          "en": "They want to send Menuchim to Petersburg, the great doctors want to rack their brains over him."
+        },
+        {
+          "de": "Eines Tages, es war Donnerstagnachmittag, er war allein zu Haus, und es brannte im Ofen wie jeden Donnerstag, fiel ein brennendes Scheit heraus, und jetzt ist der ganze Fußboden verbrannt, und die Wände muss man tünchen.",
+          "en": "One day – it was a Thursday afternoon, he was alone at home, and the stove was burning like every Thursday – a burning log fell out, and now the whole floor is burnt and the walls need whitewashing."
+        },
+        {
+          "de": "Es kostet ein schönes Stück Geld.",
+          "en": "It costs a pretty penny."
+        },
+        {
+          "de": "Menuchim lief auf die Straße, er kann auch schon ganz gut laufen, und schrie: ‚Es brennt!‘ Und seit damals spricht er ein paar Worte.",
+          "en": "Menuchim ran out into the street – he can walk quite well already, too – and shouted: \"Fire!\" And since then he speaks a few words.'"
         }
       ]
     },
@@ -2143,6 +3749,32 @@
           "de": "das Gleiche",
           "en": "the same (thing)"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Mendel Singer legte die Brille ab, sah, dass Deborah weinte, und ergriff nach langen Jahren zum ersten Mal wieder ihre beiden Hände.",
+          "en": "Mendel Singer took off his glasses, saw that Deborah was crying, and for the first time in many years took both her hands again."
+        },
+        {
+          "de": "Er zog ihre Hände vom verweinten Angesicht und sagte beinahe feierlich: „Nun, Deborah, der Herr hat uns geholfen.",
+          "en": "He pulled her hands away from her tear-stained face and said, almost solemnly: 'Well, Deborah, the Lord has helped us."
+        },
+        {
+          "de": "Nimm den Schal, geh hinunter, und bring eine Flasche Met.“",
+          "en": "Take your shawl, go downstairs and fetch a bottle of mead.'"
+        },
+        {
+          "de": "Sie saßen am Tisch und tranken den Met aus Teegläsern, sahen sich an und dachten das Gleiche.",
+          "en": "They sat at the table and drank the mead out of tea glasses, looked at each other and thought the same thing."
+        },
+        {
+          "de": "„Der Rabbi hat recht“, sagte Deborah.",
+          "en": "'The rabbi was right', said Deborah."
+        },
+        {
+          "de": "Deutlich diktierte ihr die Erinnerung die Worte, die lange in ihr geschlafen hatten: „Der Schmerz wird ihn weise machen, die Hässlichkeit gütig, die Bitternis milde und die Krankheit stark.“",
+          "en": "Memory clearly dictated to her the words that had long been asleep inside her: 'Pain will make him wise, ugliness kind, bitterness gentle and sickness strong.'"
+        }
       ]
     },
     {
@@ -2180,6 +3812,56 @@
         {
           "de": "die Sorge, die Sorgen",
           "en": "worry"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Ende Juli bestellt Mac eine Schiffskarte.",
+          "en": "At the end of July Mac books a ship ticket."
+        },
+        {
+          "de": "Man schreibt an die Familie Billes.",
+          "en": "They write to the Billes family."
+        },
+        {
+          "de": "Mendel geht in den Laden der Skowronneks, um den Freunden zu erzählen, dass sein jüngster Sohn ebenfalls nach Amerika kommt.",
+          "en": "Mendel goes to the Skowronneks' shop to tell his friends that his youngest son is coming to America too."
+        },
+        {
+          "de": "Im Laden der Familie Skowronnek sind viel mehr Leute versammelt als sonst, an andern Tagen.",
+          "en": "In the Skowronneks' shop many more people have gathered than on other days."
+        },
+        {
+          "de": "Jeder hat ein Zeitungspapier in der Hand.",
+          "en": "Everyone has a newspaper in his hand."
+        },
+        {
+          "de": "In Europa ist der Krieg ausgebrochen.",
+          "en": "In Europe war has broken out."
+        },
+        {
+          "de": "Mac wird nicht mehr nach Russland fahren.",
+          "en": "Mac won't go to Russia now."
+        },
+        {
+          "de": "Menuchim wird nicht nach Amerika kommen.",
+          "en": "Menuchim won't come to America."
+        },
+        {
+          "de": "Der Krieg ist ausgebrochen.",
+          "en": "War has broken out."
+        },
+        {
+          "de": "Hatten die Sorgen nicht soeben erst Mendel Singer verlassen?",
+          "en": "Hadn't his worries only just left Mendel Singer?"
+        },
+        {
+          "de": "Sie gingen, und der Krieg brach aus.",
+          "en": "They went, and the war broke out."
+        },
+        {
+          "de": "Jonas war im Krieg und Menuchim in Russland.",
+          "en": "Jonas was in the war and Menuchim in Russia."
         }
       ]
     },
@@ -2222,6 +3904,52 @@
         {
           "de": "zählen",
           "en": "to count"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Es ist ein paar Sekunden still.",
+          "en": "For a few seconds it is quiet."
+        },
+        {
+          "de": "Mirjam spricht nicht, als hoffte sie, der Vater oder die Mutter würden sie durch eine Frage von der Pflicht befreien, die Botschaft auszurichten.",
+          "en": "Mirjam doesn't speak, as if she were hoping that her father or mother would free her, by asking a question, from the duty of delivering the message."
+        },
+        {
+          "de": "Sie steht und schweigt.",
+          "en": "She stands and says nothing."
+        },
+        {
+          "de": "Keins von den dreien rührt sich.",
+          "en": "None of the three moves."
+        },
+        {
+          "de": "Mendel steht auf und sagt: „Ein Unglück ist geschehen!“",
+          "en": "Mendel stands up and says: 'Something terrible has happened!'"
+        },
+        {
+          "de": "Mirjam sagt: „Mac ist zurückgekommen.",
+          "en": "Mirjam says: 'Mac has come back."
+        },
+        {
+          "de": "Er hat Sams Uhr gebracht und die letzten Grüße.“",
+          "en": "He has brought Sam's watch and his last greetings.'"
+        },
+        {
+          "de": "Deborah sitzt, als ob nichts geschehen wäre, ruhig auf dem Sessel.",
+          "en": "Deborah sits quietly on the chair, as if nothing had happened."
+        },
+        {
+          "de": "Ihre Augen sind trocken und leer wie zwei dunkle Stückchen Glas.",
+          "en": "Her eyes are dry and empty like two dark little pieces of glass."
+        },
+        {
+          "de": "Sie sitzt dem Fenster gegenüber, und es sieht aus, als zählte sie die Schneeflocken.",
+          "en": "She is sitting opposite the window, and it looks as if she were counting the snowflakes."
+        },
+        {
+          "de": "Es ist still, man hört das harte Ticken der Uhr.",
+          "en": "It is quiet; you can hear the hard ticking of the clock."
         }
       ]
     },
@@ -2266,6 +3994,40 @@
           "de": "der/die Fremde, die Fremden",
           "en": "stranger"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Dann fällt Deborah vom Sessel.",
+          "en": "Then Deborah falls from the chair."
+        },
+        {
+          "de": "Sie liegt, eine gekrümmte, weiche Masse, auf dem Boden.",
+          "en": "She lies on the floor, a bent, soft mass."
+        },
+        {
+          "de": "Mac stößt die Tür auf, lässt sie offen, es wird kalt in der Stube.",
+          "en": "Mac pushes the door open and leaves it open; it gets cold in the room."
+        },
+        {
+          "de": "Er kommt zurück, ein Doktor begleitet ihn, ein kleiner, flinker, grauhaariger Mann.",
+          "en": "He comes back, a doctor with him, a small, quick, grey-haired man."
+        },
+        {
+          "de": "Mirjam steht dem Vater gegenüber.",
+          "en": "Mirjam stands facing her father."
+        },
+        {
+          "de": "Mac und der Doktor tragen Deborah auf das Bett.",
+          "en": "Mac and the doctor carry Deborah onto the bed."
+        },
+        {
+          "de": "Der Doktor sitzt am Bettrand und sagt: „Sie ist tot.“",
+          "en": "The doctor sits on the edge of the bed and says: 'She is dead.'"
+        },
+        {
+          "de": "Auch Menuchim ist gestorben, allein, unter Fremden, denkt Mendel Singer.",
+          "en": "Menuchim has died too, alone, among strangers, thinks Mendel Singer."
+        }
       ]
     },
     {
@@ -2308,6 +4070,40 @@
           "de": "die Sünde, die Sünden",
           "en": "sin"
         }
+      ],
+      "sentences": [
+        {
+          "de": "„Du hast es gut, Deborah!“, sagte er zu ihr.",
+          "en": "'You're well off, Deborah!' he said to her."
+        },
+        {
+          "de": "„Es ist nur schade, dass du keinen Sohn hinterlassen hast, ich selbst muss das Totengebet sagen, ich werde aber bald sterben, und niemand wird uns beweinen.",
+          "en": "'It's just a pity you haven't left a son behind; I have to say the prayer for the dead myself, but I will die soon, and nobody will mourn us."
+        },
+        {
+          "de": "Wie zwei kleine Stäubchen wurden wir verweht.",
+          "en": "We were blown away like two little specks of dust."
+        },
+        {
+          "de": "Wie zwei kleine Fünkchen sind wir erloschen.",
+          "en": "We went out like two little sparks."
+        },
+        {
+          "de": "Ich habe Kinder gezeugt, dein Schoß hat sie geboren, der Tod hat sie genommen.",
+          "en": "I fathered children, your womb bore them, death has taken them."
+        },
+        {
+          "de": "Voller Not und ohne Sinn war dein Leben.",
+          "en": "Your life was full of hardship and without meaning."
+        },
+        {
+          "de": "In jungen Jahren habe ich dein Fleisch genossen, in späten Jahren habe ich es verschmäht.",
+          "en": "In our young years I enjoyed your body, in later years I scorned it."
+        },
+        {
+          "de": "Vielleicht war das unsere Sünde.",
+          "en": "Perhaps that was our sin."
+        }
       ]
     },
     {
@@ -2343,6 +4139,40 @@
         {
           "de": "lebendig",
           "en": "alive, living"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Weil nicht die Wärme der Liebe in uns war, sondern zwischen uns der Frost der Gewohnheit, starb alles rings um uns, verkümmerte alles und wurde verdorben.",
+          "en": "Because there was no warmth of love in us, but between us the frost of habit, everything around us died, withered and was spoiled."
+        },
+        {
+          "de": "Du hast es gut, Deborah.",
+          "en": "You're well off, Deborah."
+        },
+        {
+          "de": "Der Herr hat Mitleid mit dir gehabt.",
+          "en": "The Lord has had pity on you."
+        },
+        {
+          "de": "Du bist eine Tote und begraben.",
+          "en": "You are dead and buried."
+        },
+        {
+          "de": "Mit mir hat Er kein Mitleid.",
+          "en": "On me He has no pity."
+        },
+        {
+          "de": "Denn ich bin ein Toter und lebe.",
+          "en": "For I am a dead man and I live."
+        },
+        {
+          "de": "Er ist der Herr, Er weiß, was Er tut.",
+          "en": "He is the Lord, He knows what He is doing."
+        },
+        {
+          "de": "Wenn du kannst, bete für mich, dass man mich auslösche aus dem Buch der Lebendigen.",
+          "en": "If you can, pray for me that I may be blotted out of the Book of the Living."
         }
       ]
     },
@@ -2382,6 +4212,40 @@
           "de": "heute",
           "en": "today"
         }
+      ],
+      "sentences": [
+        {
+          "de": "„Ich will mehr verbrennen als nur ein Haus und mehr als einen Menschen.",
+          "en": "'I want to burn more than just a house and more than a human being."
+        },
+        {
+          "de": "Ihr werdet staunen, wenn ich euch sage, was ich wirklich zu verbrennen im Sinn hatte.",
+          "en": "You will be amazed when I tell you what I really had in mind to burn."
+        },
+        {
+          "de": "Ihr werdet staunen und sagen: Auch Mendel ist verrückt, wie seine Tochter.",
+          "en": "You will be amazed and say: Mendel has gone mad too, like his daughter."
+        },
+        {
+          "de": "Aber ich versichere euch: Ich bin nicht verrückt.",
+          "en": "But I assure you: I am not mad."
+        },
+        {
+          "de": "Ich war verrückt.",
+          "en": "I was mad."
+        },
+        {
+          "de": "Mehr als sechzig Jahre war ich verrückt, heute bin ich es nicht.“",
+          "en": "For more than sixty years I was mad; today I am not.'"
+        },
+        {
+          "de": "„Also sag uns, was du verbrennen willst!“",
+          "en": "'So tell us what you want to burn!'"
+        },
+        {
+          "de": "„Gott will ich verbrennen.“",
+          "en": "'God is what I want to burn.'"
+        }
       ]
     },
     {
@@ -2418,6 +4282,32 @@
           "de": "lästern",
           "en": "to blaspheme; to gossip"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Allen vier Zuhörern entrang sich gleichzeitig ein Schrei.",
+          "en": "All four listeners cried out at the same time."
+        },
+        {
+          "de": "Sie waren nicht alle fromm und gottesfürchtig, wie Mendel immer gewesen war.",
+          "en": "They were not all as pious and God-fearing as Mendel had always been."
+        },
+        {
+          "de": "Alle vier lebten schon lange genug in Amerika, sie arbeiteten am Sabbat, ihr Sinn stand nach Geld, und der Staub der Welt lag schon dicht, hoch und grau auf ihrem alten Glauben.",
+          "en": "All four had lived in America long enough; they worked on the Sabbath, their minds were set on money, and the dust of the world already lay thick, high and grey on their old faith."
+        },
+        {
+          "de": "Viele Bräuche hatten sie vergessen, gegen manche Gesetze hatten sie verstoßen, mit ihren Köpfen und Gliedern hatten sie gesündigt.",
+          "en": "They had forgotten many customs, broken many laws, sinned with their heads and their limbs."
+        },
+        {
+          "de": "Aber Gott wohnte noch in ihren Herzen.",
+          "en": "But God still lived in their hearts."
+        },
+        {
+          "de": "Und als Mendel Gott lästerte, war es ihnen, als hätte er mit scharfen Fingern an ihre nackten Herzen gegriffen.",
+          "en": "And when Mendel blasphemed against God, they felt as if he had reached into their naked hearts with sharp fingers."
+        }
       ]
     },
     {
@@ -2453,6 +4343,36 @@
         {
           "de": "vernichten",
           "en": "to destroy"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Lästere nicht, Mendel“, sagte nach einem längeren Schweigen Skowronnek.",
+          "en": "'Don't blaspheme, Mendel', said Skowronnek after a long silence."
+        },
+        {
+          "de": "„Du weißt besser als ich, denn du hast viel mehr gelernt, dass Gottes Schläge einen verborgenen Sinn haben.",
+          "en": "'You know better than I do, because you have studied much more, that God's blows have a hidden meaning."
+        },
+        {
+          "de": "Wir wissen nicht, wofür wir gestraft werden.“",
+          "en": "We don't know what we are being punished for.'"
+        },
+        {
+          "de": "„Ich aber weiß es, Skowronnek“, erwiderte Mendel.",
+          "en": "'But I know, Skowronnek', replied Mendel."
+        },
+        {
+          "de": "„Gott ist grausam, und je mehr man ihm gehorcht, desto strenger geht er mit uns um.",
+          "en": "'God is cruel, and the more you obey him, the harder he is on us."
+        },
+        {
+          "de": "Er ist mächtiger als die Mächtigen, mit dem Nagel seines kleinen Fingers kann er ihnen den Garaus machen, aber er tut es nicht.",
+          "en": "He is mightier than the mighty; with the nail of his little finger he could finish them off, but he doesn't do it."
+        },
+        {
+          "de": "Nur die Schwachen vernichtet er gerne.",
+          "en": "It's only the weak he likes to destroy."
         }
       ]
     },
@@ -2491,6 +4411,36 @@
           "en": "honest",
           "note": "Roth: redlich"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die Schwäche eines Menschen reizt seine Stärke, und der Gehorsam weckt seinen Zorn.",
+          "en": "A person's weakness provokes his strength, and obedience arouses his anger."
+        },
+        {
+          "de": "Er ist ein großer, grausamer Isprawnik.",
+          "en": "He is a big, cruel Isprawnik."
+        },
+        {
+          "de": "Befolgst du die Gesetze, so sagt er, du habest sie nur zu deinem Vorteil befolgt.",
+          "en": "If you obey the laws, he says you only obeyed them for your own advantage."
+        },
+        {
+          "de": "Und verstößt du nur gegen ein einziges Gebot, so verfolgt er dich mit hundert Strafen.",
+          "en": "And if you break just one single commandment, he pursues you with a hundred punishments."
+        },
+        {
+          "de": "Willst du ihn bestechen, so macht er dir einen Prozess.",
+          "en": "If you try to bribe him, he takes you to court."
+        },
+        {
+          "de": "Und gehst du redlich mit ihm um, so lauert er auf die Bestechung.",
+          "en": "And if you deal honestly with him, he lies in wait for the bribe."
+        },
+        {
+          "de": "In ganz Russland gibt es keinen böseren Isprawnik!“",
+          "en": "In the whole of Russia there is no more wicked Isprawnik!'"
+        }
       ]
     },
     {
@@ -2526,6 +4476,40 @@
         {
           "de": "versuchen",
           "en": "to try"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Erinnere dich, Mendel“, begann Rottenberg, „erinnere dich an Hiob.",
+          "en": "'Remember, Mendel', began Rottenberg, 'remember Job."
+        },
+        {
+          "de": "Ihm ist Ähnliches geschehen wie dir.",
+          "en": "Something similar happened to him as to you."
+        },
+        {
+          "de": "Er saß auf der nackten Erde, Asche auf dem Haupt, und seine Wunden taten ihm so weh, dass er sich wie ein Tier auf dem Boden wälzte.",
+          "en": "He sat on the bare earth, ashes on his head, and his wounds hurt him so much that he rolled on the ground like an animal."
+        },
+        {
+          "de": "Auch er lästerte Gott.",
+          "en": "He too blasphemed against God."
+        },
+        {
+          "de": "Und doch war es nur eine Prüfung gewesen.",
+          "en": "And yet it had only been a test."
+        },
+        {
+          "de": "Was wissen wir, Mendel, was oben vorgeht?",
+          "en": "What do we know, Mendel, of what goes on up there?"
+        },
+        {
+          "de": "Vielleicht kam der Böse vor Gott und sagte wie damals: Man muss einen Gerechten verführen.",
+          "en": "Perhaps the Evil One came before God and said, like that time: One must lead a righteous man astray."
+        },
+        {
+          "de": "Und der Herr sagte: Versuch es nur mit Mendel, meinem Knecht.“",
+          "en": "And the Lord said: Just try it with Mendel, my servant.'"
         }
       ]
     },
@@ -2569,6 +4553,60 @@
           "de": "denken (an)",
           "en": "to think (of)"
         }
+      ],
+      "sentences": [
+        {
+          "de": "So traf ihn der heimkehrende Skowronnek.",
+          "en": "That's how Skowronnek found him when he came home."
+        },
+        {
+          "de": "Er stellte das Grammophon ab und sagte: „Mendel, zünde die Lampe an!",
+          "en": "He switched off the gramophone and said: 'Mendel, light the lamp!"
+        },
+        {
+          "de": "Was spielst du hier?“",
+          "en": "What are you playing here?'"
+        },
+        {
+          "de": "Mendel zündete die Lampe an.",
+          "en": "Mendel lit the lamp."
+        },
+        {
+          "de": "„Sieh nach, Skowronnek, wie das Liedchen heißt.“",
+          "en": "'Look and see, Skowronnek, what the little song is called.'"
+        },
+        {
+          "de": "„Das sind die neuen Platten“, sagte Skowronnek.",
+          "en": "'Those are the new records', said Skowronnek."
+        },
+        {
+          "de": "„Heute habe ich sie gekauft.",
+          "en": "'I bought them today."
+        },
+        {
+          "de": "Das Lied heißt“ – Skowronnek zog die Brille an, hielt die Platte unter die Lampe und las: „Das Lied heißt «Menuchims Lied».“",
+          "en": "The song is called' – Skowronnek put on his glasses, held the record under the lamp and read: 'The song is called \"Menuchim's Song\".'"
+        },
+        {
+          "de": "Mendel wurde plötzlich schwach.",
+          "en": "Mendel suddenly felt weak."
+        },
+        {
+          "de": "Er musste sich setzen.",
+          "en": "He had to sit down."
+        },
+        {
+          "de": "Er starrte auf die spiegelnde Platte in Skowronneks Händen.",
+          "en": "He stared at the shining record in Skowronnek's hands."
+        },
+        {
+          "de": "„Ich weiß, woran du denkst“, sagte Skowronnek.",
+          "en": "'I know what you're thinking of', said Skowronnek."
+        },
+        {
+          "de": "„Ja“, antwortete Mendel.",
+          "en": "'Yes', answered Mendel."
+        }
       ]
     },
     {
@@ -2605,6 +4643,48 @@
         {
           "de": "einschlafen",
           "en": "to fall asleep"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Skowronnek drehte noch einmal die Kurbel.",
+          "en": "Skowronnek turned the crank once more."
+        },
+        {
+          "de": "„Ein schönes Lied“, sagte Skowronnek, legte den Kopf auf die linke Schulter und horchte.",
+          "en": "'A beautiful song', said Skowronnek, tilted his head onto his left shoulder and listened."
+        },
+        {
+          "de": "Allmählich füllte sich der Laden mit den verspäteten Nachbarn.",
+          "en": "Gradually the shop filled with neighbours coming home late."
+        },
+        {
+          "de": "Keiner sprach.",
+          "en": "Nobody spoke."
+        },
+        {
+          "de": "Alle hörten das Lied und wiegten im Takt die Köpfe.",
+          "en": "Everyone listened to the song and rocked their heads to the beat."
+        },
+        {
+          "de": "Und sie hörten es sechzehn Mal, bis sie es auswendig konnten.",
+          "en": "And they listened to it sixteen times, until they knew it by heart."
+        },
+        {
+          "de": "Mendel blieb allein im Laden.",
+          "en": "Mendel stayed alone in the shop."
+        },
+        {
+          "de": "Er versperrte sorgfältig die Tür von innen, räumte das Schaufenster aus, begann sich auszuziehen.",
+          "en": "He carefully locked the door from inside, cleared the shop window and began to undress."
+        },
+        {
+          "de": "Jeden seiner Schritte begleitete das Lied.",
+          "en": "The song accompanied every step he took."
+        },
+        {
+          "de": "Während er einschlief, schien es ihm, dass sich die blaue und silberne Melodie mit dem kläglichen Wimmern verbinde, mit Menuchims, seines eigenen Menuchims, einzigem, längst nicht mehr gehörtem Lied.",
+          "en": "As he fell asleep, it seemed to him that the blue and silver melody joined with the pitiful whimpering – with Menuchim's, his own Menuchim's, only song, not heard for so long."
         }
       ]
     },
@@ -2648,6 +4728,56 @@
           "de": "ablegen",
           "en": "to take off (coat)"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Es ist ein feiner Mann, dachte Skowronnek.",
+          "en": "He's a fine gentleman, thought Skowronnek."
+        },
+        {
+          "de": "Und er knöpfte, ohne ein Wort zu sagen, dem Fremden den Mantel auf.",
+          "en": "And without saying a word he unbuttoned the stranger's coat."
+        },
+        {
+          "de": "Der Mann verneigte sich und sagte: „Ich heiße Alexej Kossak.",
+          "en": "The man bowed and said: 'My name is Alexej Kossak."
+        },
+        {
+          "de": "Ich bitte um Entschuldigung.",
+          "en": "Please forgive me."
+        },
+        {
+          "de": "Ich bitte sehr um Entschuldigung.",
+          "en": "I really do beg your pardon."
+        },
+        {
+          "de": "Man hat mir gesagt, dass sich ein gewisser Mendel Singer aus Zuchnow bei Ihnen aufhält.",
+          "en": "I was told that a certain Mendel Singer from Zuchnow is staying with you."
+        },
+        {
+          "de": "Ich möchte ihn sprechen.“",
+          "en": "I would like to speak to him.'"
+        },
+        {
+          "de": "„Das bin ich“, sagte Mendel, trat nahe an den Gast und hob den Kopf.",
+          "en": "'That's me', said Mendel, went up close to the guest and raised his head."
+        },
+        {
+          "de": "Seine Stirn reichte bis zur Schulter des Fremden.",
+          "en": "His forehead came up to the stranger's shoulder."
+        },
+        {
+          "de": "„Herr Kossak“, fuhr Mendel fort, „ich habe schon von Ihnen gehört.",
+          "en": "'Mr Kossak', Mendel went on, 'I have already heard about you."
+        },
+        {
+          "de": "Ein Verwandter sind Sie.“",
+          "en": "You are a relative.'"
+        },
+        {
+          "de": "„Legen Sie ab, und setzen Sie sich mit uns an den Tisch“, sagte Skowronnek.",
+          "en": "'Take off your things and sit down at the table with us', said Skowronnek."
+        }
       ]
     },
     {
@@ -2690,6 +4820,28 @@
           "de": "leben",
           "en": "to live, to be alive"
         }
+      ],
+      "sentences": [
+        {
+          "de": "„Mein Freund Mendel hatte noch einen armen, kranken Sohn namens Menuchim.",
+          "en": "'My friend Mendel had another son, a poor, sick boy called Menuchim."
+        },
+        {
+          "de": "Was ist mit ihm geschehen?“",
+          "en": "What has happened to him?'"
+        },
+        {
+          "de": "Wieder antwortete der Fremde nicht.",
+          "en": "Again the stranger didn't answer."
+        },
+        {
+          "de": "Er stocherte mit dem Löffel auf dem Grunde des Glases herum, zerrieb den Zucker, und als wollte er aus dem Tee die Antwort ablesen, sah er auf das hellbraune Glas, und den Löffel immer noch zwischen Daumen und Zeigefinger, die schmale, braune Hand sachte bewegend, sagte er endlich, unerwartet laut, wie mit einem plötzlichen Entschluss:",
+          "en": "He poked about with his spoon at the bottom of his glass, crushed the sugar, and as if he wanted to read the answer in the tea, he looked at the light brown glass; and still holding the spoon between thumb and forefinger, gently moving his slim brown hand, he said at last, unexpectedly loudly, as if he had made a sudden decision:"
+        },
+        {
+          "de": "„Menuchim lebt!“",
+          "en": "'Menuchim is alive!'"
+        }
       ]
     },
     {
@@ -2725,6 +4877,40 @@
         {
           "de": "abwechselnd",
           "en": "alternately, taking turns"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Es klingt nicht wie eine Antwort, es klingt wie ein Ruf.",
+          "en": "It doesn't sound like an answer, it sounds like a call."
+        },
+        {
+          "de": "Unmittelbar darauf bricht ein Lachen aus Mendel Singers Brust.",
+          "en": "Immediately afterwards a laugh bursts from Mendel Singer's chest."
+        },
+        {
+          "de": "Alle erschrecken und sehen starr auf den Alten.",
+          "en": "Everyone gets a fright and stares at the old man."
+        },
+        {
+          "de": "Mendel sitzt zurückgelehnt auf dem Sessel, schüttelt sich und lacht.",
+          "en": "Mendel sits leaning back in the armchair, shaking and laughing."
+        },
+        {
+          "de": "Sein Rücken ist so gebeugt, dass er die Lehne nicht ganz berühren kann.",
+          "en": "His back is so bent that he can't quite touch the back of the chair."
+        },
+        {
+          "de": "Zwischen der Lehne und Mendels altem Nacken (weiße Härchen kräuseln sich über dem schäbigen Kragen des Rocks) ist ein weiter Abstand.",
+          "en": "Between the back of the chair and Mendel's old neck (little white hairs curl above the shabby collar of his coat) there is a wide gap."
+        },
+        {
+          "de": "Mendels langer Bart bewegt sich heftig, flattert beinahe wie eine weiße Fahne und scheint ebenfalls zu lachen.",
+          "en": "Mendel's long beard moves wildly, flutters almost like a white flag and seems to be laughing too."
+        },
+        {
+          "de": "Aus Mendels Brust dröhnt und kichert es abwechselnd.",
+          "en": "From Mendel's chest comes booming and giggling by turns."
         }
       ]
     },
@@ -2762,6 +4948,28 @@
           "de": "Es geht ihm gut.",
           "en": "He's doing well."
         }
+      ],
+      "sentences": [
+        {
+          "de": "Alle erschrecken, Skowronnek erhebt sich etwas schwerfällig aus den schwellenden Kissen und behindert durch den langen, weißen Kittel, geht um den ganzen Tisch, tritt zu Mendel, beugt sich zu ihm und nimmt mit beiden Händen Mendels beide Hände.",
+          "en": "Everyone is frightened; Skowronnek rises rather heavily from the swelling cushions and, hampered by the long white robe, walks round the whole table, steps up to Mendel, bends over him and takes both of Mendel's hands in both of his."
+        },
+        {
+          "de": "Da verwandelt sich Mendels Lachen in Weinen, er schluchzt, und die Tränen fließen aus den alten, halb verhüllten Augen in den wild wuchernden Bart, verlieren sich im wüsten Gestrüpp, andere bleiben lange und rund und voll wie gläserne Tropfen in den Haaren hängen.",
+          "en": "Then Mendel's laughter turns into weeping; he sobs, and the tears flow from his old, half-hidden eyes into his wildly growing beard, lose themselves in the tangled undergrowth; others stay hanging in the hairs for a long time, round and full like glass drops."
+        },
+        {
+          "de": "Endlich ist Mendel ruhig.",
+          "en": "At last Mendel is calm."
+        },
+        {
+          "de": "Er sieht Kossak gerade an und wiederholt: „Menuchim lebt?“",
+          "en": "He looks straight at Kossak and repeats: 'Menuchim is alive?'"
+        },
+        {
+          "de": "Der Fremde sieht Mendel ruhig an und sagt: „Menuchim lebt, er ist gesund, es geht ihm sogar gut!“",
+          "en": "The stranger looks calmly at Mendel and says: 'Menuchim is alive, he is well, he is even doing well!'"
+        }
       ]
     },
     {
@@ -2798,6 +5006,40 @@
         {
           "de": "erwidern",
           "en": "to reply"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Mendel faltet die Hände, er hebt sie, so hoch er kann, dem Plafond entgegen.",
+          "en": "Mendel folds his hands and raises them as high as he can, towards the ceiling."
+        },
+        {
+          "de": "Er möchte aufstehen.",
+          "en": "He would like to stand up."
+        },
+        {
+          "de": "Er hat das Gefühl, dass er jetzt aufstehen müsste, gerade werden, wachsen, groß und größer werden, über das Haus hinauf und mit den Händen den Himmel berühren.",
+          "en": "He has the feeling that he ought to stand up now, become straight, grow, become big and bigger, up over the house, and touch the sky with his hands."
+        },
+        {
+          "de": "Er kann die gefalteten Hände nicht mehr lösen.",
+          "en": "He can no longer unclasp his folded hands."
+        },
+        {
+          "de": "Er blickt zu Skowronnek, und der alte Freund weiß, was er jetzt zu fragen hat, an Mendels Statt.",
+          "en": "He looks at Skowronnek, and his old friend knows what he now has to ask in Mendel's place."
+        },
+        {
+          "de": "„Wo ist Menuchim jetzt?“, fragt Skowronnek.",
+          "en": "'Where is Menuchim now?' asks Skowronnek."
+        },
+        {
+          "de": "Und langsam erwidert Alexej Kossak:",
+          "en": "And slowly Alexej Kossak replies:"
+        },
+        {
+          "de": "„Ich selbst bin Menuchim.“",
+          "en": "'I myself am Menuchim.'"
         }
       ]
     },
@@ -2841,6 +5083,40 @@
           "de": "die Wolke, die Wolken",
           "en": "cloud"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Und sie gelangten in eine Welt, wo der weiche Sand gelb war, das weite Meer blau und alle Häuser weiß.",
+          "en": "And they came into a world where the soft sand was yellow, the wide sea blue and all the houses white."
+        },
+        {
+          "de": "Auf der Terrasse vor einem dieser Häuser, an einem kleinen, weißen Tischchen, saß Mendel Singer.",
+          "en": "On the terrace in front of one of these houses, at a small white table, sat Mendel Singer."
+        },
+        {
+          "de": "Er schlürfte einen goldbraunen Tee.",
+          "en": "He was sipping a golden-brown tea."
+        },
+        {
+          "de": "Auf seinen gebeugten Rücken schien die erste warme Sonne dieses Jahres.",
+          "en": "The first warm sun of the year was shining on his bent back."
+        },
+        {
+          "de": "Die Amseln hüpften dicht an ihn heran.",
+          "en": "The blackbirds hopped close up to him."
+        },
+        {
+          "de": "Ihre Schwestern flöteten indessen vor der Terrasse.",
+          "en": "Their sisters were meanwhile whistling in front of the terrace."
+        },
+        {
+          "de": "Die Wellen des Meeres plätscherten mit sanftem, regelmäßigem Schlag an den Strand.",
+          "en": "The waves of the sea lapped against the shore with a soft, regular beat."
+        },
+        {
+          "de": "Am blassblauen Himmel standen ein paar weiße Wölkchen.",
+          "en": "A few little white clouds stood in the pale blue sky."
+        }
       ]
     },
     {
@@ -2877,6 +5153,24 @@
           "de": "zum ersten Mal",
           "en": "for the first time"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Unter diesem Himmel war es Mendel recht, zu glauben, dass Jonas sich einmal wieder einfinden würde und Mirjam heimkehren, „schöner als alle Frauen der Welt“, zitierte er im Stillen.",
+          "en": "Under this sky Mendel was glad to believe that Jonas would turn up again one day and Mirjam would come home, 'fairer than all the women in the world', he quoted to himself."
+        },
+        {
+          "de": "Er selbst, Mendel Singer, wird nach späten Jahren in den guten Tod eingehen, umringt von vielen Enkeln und „satt am Leben“, wie es im „Hiob“ geschrieben stand.",
+          "en": "He himself, Mendel Singer, would, after many more years, pass into a good death, surrounded by many grandchildren and 'full of days', as it was written in 'Job'."
+        },
+        {
+          "de": "Er fühlte ein merkwürdiges und auch verbotenes Verlangen, die Mütze aus altem Seidenrips abzulegen und die Sonne auf seinen alten Schädel scheinen zu lassen.",
+          "en": "He felt a strange and also forbidden longing to take off his old silk cap and let the sun shine on his old skull."
+        },
+        {
+          "de": "Und zum ersten Mal in seinem Leben entblößte Mendel Singer aus freiem Willen sein Haupt, so wie er es nur im Amt getan hatte und im Bad.",
+          "en": "And for the first time in his life Mendel Singer bared his head of his own free will, as he had only ever done before officials and in the bath."
+        }
       ]
     },
     {
@@ -2912,6 +5206,36 @@
         {
           "de": "die Rückkehr",
           "en": "return"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die spärlichen, gekräuselten Härchen auf seinem kahlen Kopf bewegte ein Frühlingswind wie seltsame, zarte Pflanzen.",
+          "en": "A spring wind moved the thin, curly little hairs on his bald head like strange, delicate plants."
+        },
+        {
+          "de": "So grüßte Mendel Singer die Welt.",
+          "en": "That was how Mendel Singer greeted the world."
+        },
+        {
+          "de": "Und eine Möwe stieß wie ein silbernes Geschoss des Himmels unter das Zeltdach der Terrasse.",
+          "en": "And a seagull shot like a silver arrow of the sky under the awning of the terrace."
+        },
+        {
+          "de": "Mendel beobachtete ihren jähen Flug und die schattenhafte, weiße Spur, die sie in der blauen Luft hinterließ.",
+          "en": "Mendel watched its sudden flight and the shadowy white trail it left behind in the blue air."
+        },
+        {
+          "de": "Da sagte der Sohn: „Nächste Woche fahre ich nach San Francisco.",
+          "en": "Then his son said: 'Next week I'm going to San Francisco."
+        },
+        {
+          "de": "Auf der Rückkehr spielen wir noch zehn Tage in Chicago.",
+          "en": "On the way back we'll play another ten days in Chicago."
+        },
+        {
+          "de": "Ich denke, Vater, dass wir in vier Wochen nach Europa fahren können!“",
+          "en": "I think, Father, that in four weeks we can go to Europe!'"
         }
       ]
     },
@@ -2956,6 +5280,32 @@
           "de": "segnen",
           "en": "to bless"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Mendel erblickte eine große Fotografie in rostbraunem Rahmen auf dem kleinen Spiegeltisch.",
+          "en": "Mendel caught sight of a large photograph in a rust-brown frame on the little dressing table."
+        },
+        {
+          "de": "„Gib mir das Bild!“, bat er.",
+          "en": "'Give me the picture!' he asked."
+        },
+        {
+          "de": "Er betrachtete es lange.",
+          "en": "He looked at it for a long time."
+        },
+        {
+          "de": "Er sah die junge, blonde Frau in einem hellen Kleid, hell wie der Tag, in einem Garten saß sie, durch den der Wind spazieren ging und die Sträucher am Rande der Beete bewegte.",
+          "en": "He saw the young blonde woman in a light dress, bright as day; she was sitting in a garden through which the wind was taking a walk, moving the bushes at the edges of the flowerbeds."
+        },
+        {
+          "de": "Zwei Kinder, ein Mädchen und ein Knabe, standen neben einem kleinen, eselbespannten Wagen, wie sie in manchen Gärten als spielerisches Vehikel gebraucht werden.",
+          "en": "Two children, a girl and a boy, were standing next to a small donkey cart, of the kind used in some gardens as a toy vehicle."
+        },
+        {
+          "de": "„Gott segne sie!“, sagte Mendel.",
+          "en": "'God bless them!' said Mendel."
+        }
       ]
     },
     {
@@ -2992,6 +5342,40 @@
           "de": "erleben",
           "en": "to experience"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Der Sohn ging.",
+          "en": "The son left."
+        },
+        {
+          "de": "Der Vater blieb auf dem Sofa, die Fotografie legte er sachte neben sich.",
+          "en": "The father stayed on the sofa; he laid the photograph gently beside him."
+        },
+        {
+          "de": "Sein müdes Auge schweifte durchs Zimmer zum Fenster.",
+          "en": "His tired eye wandered through the room to the window."
+        },
+        {
+          "de": "Von seinem tiefgelagerten Sofa aus konnte er einen vielgezackten, wolkenlosen Ausschnitt des Himmels sehen.",
+          "en": "From his low sofa he could see a jagged, cloudless patch of sky."
+        },
+        {
+          "de": "Er nahm noch einmal das Bild vor.",
+          "en": "He picked up the picture once more."
+        },
+        {
+          "de": "Da war seine Schwiegertochter, Menuchims Frau, da waren die Enkel, Menuchims Kinder.",
+          "en": "There was his daughter-in-law, Menuchim's wife; there were the grandchildren, Menuchim's children."
+        },
+        {
+          "de": "Betrachtete er das Mädchen genauer, glaubte er, ein Kinderbild Deborahs zu sehen.",
+          "en": "When he looked more closely at the girl, he thought he saw a childhood picture of Deborah."
+        },
+        {
+          "de": "Tot war Deborah, mit fremden, jenseitigen Augen erlebte sie vielleicht das Wunder.",
+          "en": "Deborah was dead; with strange eyes from the other world she was perhaps witnessing the miracle."
+        }
       ]
     },
     {
@@ -3027,6 +5411,36 @@
         {
           "de": "das Glück",
           "en": "happiness; luck"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Dankbar erinnerte sich Mendel an ihre junge Wärme, die er einst gekostet hatte, ihre roten Wangen, ihre halboffenen Augen, die im Dunkel der Liebesnächte geleuchtet hatten, schmale, lockende Lichter.",
+          "en": "Gratefully Mendel remembered her young warmth, which he had once tasted, her red cheeks, her half-open eyes that had shone in the dark of their nights of love, narrow, alluring lights."
+        },
+        {
+          "de": "Tote Deborah!",
+          "en": "Dead Deborah!"
+        },
+        {
+          "de": "Er stand auf, schob einen Sessel an das Sofa, stellte das Bild auf den Sessel und legte sich wieder hin.",
+          "en": "He got up, pushed an armchair up to the sofa, stood the picture on the armchair and lay down again."
+        },
+        {
+          "de": "Während sie sich langsam schlossen, nahmen seine Augen die ganze blaue Heiterkeit des Himmels in den Schlaf hinüber und die Gesichter der neuen Kinder.",
+          "en": "As they slowly closed, his eyes took all the blue brightness of the sky with them into sleep, and the faces of the new children."
+        },
+        {
+          "de": "Neben ihnen tauchten aus dem braunen Hintergrund des Porträts Jonas und Mirjam auf.",
+          "en": "Beside them, out of the brown background of the portrait, Jonas and Mirjam appeared."
+        },
+        {
+          "de": "Mendel schlief ein.",
+          "en": "Mendel fell asleep."
+        },
+        {
+          "de": "Und er ruhte aus von der Schwere des Glücks und der Größe der Wunder.",
+          "en": "And he rested from the weight of happiness and the greatness of the miracles."
         }
       ]
     }

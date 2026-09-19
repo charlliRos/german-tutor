@@ -17,7 +17,7 @@ class Profile:
         self.data = data
         self.is_new = False  # created in this run (shows the first-time welcome)
         for key, default in (("vocab", {}), ("books", {}), ("days", {}), ("current_book", None),
-                             ("paragraph_reviews", {}), ("reading_words", [])):
+                             ("paragraph_reviews", {}), ("reading_words", []), ("verbs", {})):
             data.setdefault(key, default)
 
     @property

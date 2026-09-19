@@ -147,6 +147,58 @@ def _translate(ctx, book: Book, unit: Unit, direction: str, heading: str, review
     return entry
 
 
+def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: str) -> bool | None:
+    """Translate a few sentences of the paragraph in a row, one at a time: quicker than the whole
+    paragraph, so more repetitions fit in. True if none needed work; None if the paragraph has no
+    sentence-by-sentence translation (then the whole paragraph is used)."""
+    pairs = [(de, en) for de, en in unit.sentence_pairs if len(de.split()) >= 3]
+    if not pairs:
+        return None
+    count = max(1, int(ctx.settings["look_back_sentences"]))
+    if len(pairs) > count:
+        start = ctx.rng.randrange(len(pairs) - count + 1)
+        pairs = pairs[start:start + count]
+    to_english = direction == "de2en"
+    ok = True
+    for i, (de, en) in enumerate(pairs, 1):
+        source, reference = (de, en) if to_english else (en, de)
+        entry = {"date": datetime.now().isoformat(timespec="minutes"), "book": book.id, "unit": unit.part,
+                 "task": direction, "review": True, "source": source, "reference": reference}
+        ui.clear()
+        ui.title(f"{ctx.step}{heading}: sentence {i} of {len(pairs)} into {'English' if to_english else 'German'}",
+                 book.short_title)
+        if to_english:
+            console.print(ui.german(de, "German"))
+            hear(ctx, de, slow=False)
+        else:
+            console.print(ui.english(en, "English"))
+            if unit.words:
+                console.print(ui.key_words(unit.words))
+            console.print(ui.umlaut_tip())
+        answer = ui.ask_answer("Your translation:")
+        if not answer:  # typed ?
+            entry.update(answer="", skipped=True)
+            ctx.profile.add_journal(entry)
+            console.print(Panel(Text(reference, style="en" if to_english else "de"), title="Here it is",
+                                border_style="green" if to_english else "cyan", padding=(1, 2)))
+            if not to_english:
+                hear(ctx, de, slow=False)
+            ui.keys({"": "next"})
+            ok = False
+            continue
+        entry.update(answer=answer, self_grade="not graded")
+        try:
+            ui.side_by_side("Your translation", answer,
+                            "Reference translation" if to_english else "Original German", reference)
+            if not to_english:
+                hear(ctx, de, slow=False)
+            entry["self_grade"] = _self_grade(ctx, None if to_english else de)
+        finally:
+            ctx.profile.add_journal(entry)
+        ok = ok and entry["self_grade"] != NEEDS_WORK
+    return ok
+
+
 def _read_aloud(ctx, book: Book, unit: Unit, heading: str) -> None:
     ui.clear()
     ui.title(f"{ctx.step}{heading}: read it out loud", book.short_title)
@@ -340,8 +392,10 @@ def review(ctx, book: Book, unit: Unit, item: dict, i: int, total: int) -> None:
     elif task == "dictation":
         ok = _dictation(ctx, book, unit, heading)
     else:
-        entry = _translate(ctx, book, unit, task, heading, review=True)
-        ok = not entry.get("skipped") and entry.get("self_grade") != NEEDS_WORK
+        ok = _sentence_look_back(ctx, book, unit, task, heading)
+        if ok is None:
+            entry = _translate(ctx, book, unit, task, heading, review=True)
+            ok = not entry.get("skipped") and entry.get("self_grade") != NEEDS_WORK
     item["last_task"] = task
     item["last_ok"] = ok
     learned = False

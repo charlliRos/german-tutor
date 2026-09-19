@@ -42,6 +42,44 @@
           "de": "der Atem",
           "en": "breath"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Plötzlich wachte sie auf.",
+          "en": "Suddenly she woke up."
+        },
+        {
+          "de": "Es war halb drei.",
+          "en": "It was half past two."
+        },
+        {
+          "de": "Sie überlegte, warum sie aufgewacht war.",
+          "en": "She wondered why she had woken up."
+        },
+        {
+          "de": "Ach so!",
+          "en": "Oh, that was it!"
+        },
+        {
+          "de": "In der Küche hatte jemand gegen einen Stuhl gestoßen.",
+          "en": "Someone in the kitchen had bumped into a chair."
+        },
+        {
+          "de": "Sie horchte nach der Küche.",
+          "en": "She listened towards the kitchen."
+        },
+        {
+          "de": "Es war still.",
+          "en": "It was quiet."
+        },
+        {
+          "de": "Es war zu still, und als sie mit der Hand über das Bett neben sich fuhr, fand sie es leer.",
+          "en": "It was too quiet, and when she ran her hand over the bed beside her, she found it empty."
+        },
+        {
+          "de": "Das war es, was es so besonders still gemacht hatte: sein Atem fehlte.",
+          "en": "That was what had made it so especially quiet: his breathing was missing."
+        }
       ]
     },
     {
@@ -76,6 +114,44 @@
           "de": "nachts",
           "en": "at night"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sie stand auf und tappte durch die dunkle Wohnung zur Küche.",
+          "en": "She got up and padded through the dark flat to the kitchen."
+        },
+        {
+          "de": "In der Küche trafen sie sich.",
+          "en": "In the kitchen they met."
+        },
+        {
+          "de": "Die Uhr war halb drei.",
+          "en": "The clock said half past two."
+        },
+        {
+          "de": "Sie sah etwas Weißes am Küchenschrank stehen.",
+          "en": "She saw something white standing by the kitchen cupboard."
+        },
+        {
+          "de": "Sie machte Licht.",
+          "en": "She switched on the light."
+        },
+        {
+          "de": "Sie standen sich im Hemd gegenüber.",
+          "en": "They stood facing each other in their nightshirts."
+        },
+        {
+          "de": "Nachts.",
+          "en": "At night."
+        },
+        {
+          "de": "Um halb drei.",
+          "en": "At half past two."
+        },
+        {
+          "de": "In der Küche.",
+          "en": "In the kitchen."
+        }
       ]
     },
     {
@@ -108,6 +184,48 @@
         {
           "de": "die Fliese, die Fliesen",
           "en": "tile"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Auf dem Küchentisch stand der Brotteller.",
+          "en": "The bread plate was on the kitchen table."
+        },
+        {
+          "de": "Sie sah, dass er sich Brot abgeschnitten hatte.",
+          "en": "She saw that he had cut himself some bread."
+        },
+        {
+          "de": "Das Messer lag noch neben dem Teller.",
+          "en": "The knife was still lying next to the plate."
+        },
+        {
+          "de": "Und auf der Decke lagen Brotkrümel.",
+          "en": "And there were breadcrumbs on the tablecloth."
+        },
+        {
+          "de": "Wenn sie abends zu Bett gingen, machte sie immer das Tischtuch sauber.",
+          "en": "When they went to bed at night, she always cleaned the tablecloth."
+        },
+        {
+          "de": "Jeden Abend.",
+          "en": "Every evening."
+        },
+        {
+          "de": "Aber nun lagen Krümel auf dem Tuch.",
+          "en": "But now there were crumbs on the cloth."
+        },
+        {
+          "de": "Und das Messer lag da.",
+          "en": "And the knife was lying there."
+        },
+        {
+          "de": "Sie fühlte, wie die Kälte der Fliesen langsam an ihr hoch kroch.",
+          "en": "She felt the cold of the tiles slowly creeping up her body."
+        },
+        {
+          "de": "Und sie sah von dem Teller weg.",
+          "en": "And she looked away from the plate."
         }
       ]
     },
@@ -143,6 +261,28 @@
           "de": "tagsüber",
           "en": "during the day"
         }
+      ],
+      "sentences": [
+        {
+          "de": "„Ich dachte, hier wäre was“, sagte er und sah in der Küche umher.",
+          "en": "“I thought there was something here,” he said, looking around the kitchen."
+        },
+        {
+          "de": "„Ich habe auch was gehört“, antwortete sie, und dabei fand sie, dass er nachts im Hemd doch schon recht alt aussah.",
+          "en": "“I heard something too,” she answered, and as she did she thought that at night, in his nightshirt, he really did look quite old."
+        },
+        {
+          "de": "So alt wie er war.",
+          "en": "As old as he was."
+        },
+        {
+          "de": "Dreiundsechzig.",
+          "en": "Sixty-three."
+        },
+        {
+          "de": "Tagsüber sah er manchmal jünger aus.",
+          "en": "During the day he sometimes looked younger."
+        }
       ]
     },
     {
@@ -176,6 +316,36 @@
           "de": "sich erkälten",
           "en": "to catch a cold"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sie sieht doch schon alt aus, dachte er, im Hemd sieht sie doch ziemlich alt aus.",
+          "en": "She really does look old now, he thought, in her nightshirt she looks pretty old."
+        },
+        {
+          "de": "Aber das liegt vielleicht an den Haaren.",
+          "en": "But maybe that's because of her hair."
+        },
+        {
+          "de": "Bei den Frauen liegt das nachts immer an den Haaren.",
+          "en": "With women it's always the hair at night."
+        },
+        {
+          "de": "Die machen dann auf einmal so alt.",
+          "en": "It suddenly makes them look so old."
+        },
+        {
+          "de": "„Du hättest Schuhe anziehen sollen.",
+          "en": "“You should have put shoes on."
+        },
+        {
+          "de": "So barfuß auf den kalten Fliesen.",
+          "en": "Barefoot like that on the cold tiles."
+        },
+        {
+          "de": "Du erkältest dich noch.“",
+          "en": "You'll catch a cold.”"
+        }
       ]
     },
     {
@@ -207,6 +377,24 @@
         {
           "de": "sinnlos",
           "en": "pointless"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Sie sah ihn nicht an, weil sie nicht ertragen konnte, dass er log.",
+          "en": "She didn't look at him because she couldn't bear the fact that he was lying."
+        },
+        {
+          "de": "Dass er log, nachdem sie neununddreißig Jahre verheiratet waren.",
+          "en": "That he was lying after they had been married for thirty-nine years."
+        },
+        {
+          "de": "„Ich dachte, hier wäre was“, sagte er noch einmal und sah wieder so sinnlos von einer Ecke in die andere, „ich hörte hier was.",
+          "en": "“I thought there was something here,” he said again, and again looked so aimlessly from one corner to the other, “I heard something here."
+        },
+        {
+          "de": "Da dachte ich, hier wäre was.“",
+          "en": "So I thought there was something here.”"
         }
       ]
     },
@@ -240,6 +428,56 @@
         {
           "de": "das Fenster, die Fenster",
           "en": "window"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Ich habe auch was gehört.",
+          "en": "“I heard something too."
+        },
+        {
+          "de": "Aber es war wohl nichts.“",
+          "en": "But it was probably nothing.”"
+        },
+        {
+          "de": "Sie stellte den Teller vom Tisch und schnippte die Krümel von der Decke.",
+          "en": "She took the plate off the table and flicked the crumbs off the tablecloth."
+        },
+        {
+          "de": "„Nein, es war wohl nichts“, echote er unsicher.",
+          "en": "“No, it was probably nothing,” he echoed uncertainly."
+        },
+        {
+          "de": "Sie kam ihm zu Hilfe: „Komm man.",
+          "en": "She came to his rescue: “Come on."
+        },
+        {
+          "de": "Das war wohl draußen.",
+          "en": "It must have been outside."
+        },
+        {
+          "de": "Komm man zu Bett.",
+          "en": "Come on to bed."
+        },
+        {
+          "de": "Du erkältest dich noch.",
+          "en": "You'll catch a cold."
+        },
+        {
+          "de": "Auf den kalten Fliesen.“",
+          "en": "On the cold tiles.”"
+        },
+        {
+          "de": "Er sah zum Fenster hin.",
+          "en": "He looked towards the window."
+        },
+        {
+          "de": "„Ja, das muss wohl draußen gewesen sein.",
+          "en": "“Yes, it must have been outside."
+        },
+        {
+          "de": "Ich dachte, es wäre hier.“",
+          "en": "I thought it was in here.”"
         }
       ]
     },
@@ -275,6 +513,36 @@
           "de": "klappern",
           "en": "to rattle"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sie hob die Hand zum Lichtschalter.",
+          "en": "She raised her hand to the light switch."
+        },
+        {
+          "de": "Ich muss das Licht jetzt ausmachen, sonst muss ich nach dem Teller sehen, dachte sie.",
+          "en": "I have to turn the light off now, or I'll have to look at the plate, she thought."
+        },
+        {
+          "de": "Ich darf doch nicht nach dem Teller sehen.",
+          "en": "I mustn't look at the plate."
+        },
+        {
+          "de": "„Komm man“, sagte sie und machte das Licht aus, „das war wohl draußen.",
+          "en": "“Come on,” she said, turning off the light, “it was outside."
+        },
+        {
+          "de": "Die Dachrinne schlägt immer bei Wind gegen die Wand.",
+          "en": "The gutter always bangs against the wall when it's windy."
+        },
+        {
+          "de": "Es war sicher die Dachrinne.",
+          "en": "It was definitely the gutter."
+        },
+        {
+          "de": "Bei Wind klappert sie immer.“",
+          "en": "It always rattles when it's windy.”"
+        }
       ]
     },
     {
@@ -307,6 +575,44 @@
         {
           "de": "als ob (+ Konjunktiv II)",
           "en": "as if"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Sie tappten sich beide über den dunklen Korridor zum Schlafzimmer.",
+          "en": "They both groped their way along the dark corridor to the bedroom."
+        },
+        {
+          "de": "Ihre nackten Füße platschten auf den Fußboden.",
+          "en": "Their bare feet slapped on the floor."
+        },
+        {
+          "de": "„Wind ist ja“, meinte er.",
+          "en": "“Well, it is windy,” he said."
+        },
+        {
+          "de": "„Wind war schon die ganze Nacht.“",
+          "en": "“It's been windy all night.”"
+        },
+        {
+          "de": "Als sie im Bett lagen, sagte sie: „Ja, Wind war schon die ganze Nacht.",
+          "en": "When they were lying in bed, she said: “Yes, it's been windy all night."
+        },
+        {
+          "de": "Es war wohl die Dachrinne.“",
+          "en": "It was probably the gutter.”"
+        },
+        {
+          "de": "„Ja, ich dachte, es wäre in der Küche.",
+          "en": "“Yes, I thought it was in the kitchen."
+        },
+        {
+          "de": "Es war wohl die Dachrinne.“",
+          "en": "It was probably the gutter.”"
+        },
+        {
+          "de": "Er sagte das, als ob er schon halb im Schlaf wäre.",
+          "en": "He said it as if he were already half asleep."
         }
       ]
     },
@@ -345,6 +651,40 @@
           "de": "einschlafen",
           "en": "to fall asleep"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Aber sie merkte, wie unecht seine Stimme klang, wenn er log.",
+          "en": "But she noticed how false his voice sounded when he lied."
+        },
+        {
+          "de": "„Es ist kalt“, sagte sie und gähnte leise, „ich krieche unter die Decke.",
+          "en": "“It's cold,” she said, yawning softly, “I'm getting under the covers."
+        },
+        {
+          "de": "Gute Nacht.“",
+          "en": "Good night.”"
+        },
+        {
+          "de": "„Nacht“, antwortete er und noch: „Ja, kalt ist es schon ganz schön.“",
+          "en": "“Night,” he answered, and added: “Yes, it's pretty cold.”"
+        },
+        {
+          "de": "Dann war es still.",
+          "en": "Then it was quiet."
+        },
+        {
+          "de": "Nach vielen Minuten hörte sie, dass er leise und vorsichtig kaute.",
+          "en": "After many minutes she heard him chewing quietly and carefully."
+        },
+        {
+          "de": "Sie atmete absichtlich tief und gleichmäßig, damit er nicht merken sollte, dass sie noch wach war.",
+          "en": "She breathed deeply and evenly on purpose so that he wouldn't notice she was still awake."
+        },
+        {
+          "de": "Aber sein Kauen war so regelmäßig, dass sie davon langsam einschlief.",
+          "en": "But his chewing was so regular that it slowly sent her to sleep."
+        }
       ]
     },
     {
@@ -377,6 +717,32 @@
         {
           "de": "sonst",
           "en": "usually, normally (here: before)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Als er am nächsten Abend nach Hause kam, schob sie ihm vier Scheiben Brot hin.",
+          "en": "When he came home the next evening, she pushed four slices of bread over to him."
+        },
+        {
+          "de": "Sonst hatte er immer nur drei essen können.",
+          "en": "Before, he had only ever been able to eat three."
+        },
+        {
+          "de": "„Du kannst ruhig vier essen“, sagte sie und ging von der Lampe weg.",
+          "en": "“You can go ahead and eat four,” she said, and moved away from the lamp."
+        },
+        {
+          "de": "„Ich kann dieses Brot nicht so recht vertragen.",
+          "en": "“This bread doesn't really agree with me."
+        },
+        {
+          "de": "Iss du man eine mehr.",
+          "en": "You have one more."
+        },
+        {
+          "de": "Ich vertrage es nicht so gut.“",
+          "en": "It doesn't agree with me very well.”"
         }
       ]
     },
@@ -413,6 +779,44 @@
           "de": "sich setzen",
           "en": "to sit down"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sie sah, wie er sich tief über den Teller beugte.",
+          "en": "She saw him bend low over his plate."
+        },
+        {
+          "de": "Er sah nicht auf.",
+          "en": "He didn't look up."
+        },
+        {
+          "de": "In diesem Augenblick tat er ihr leid.",
+          "en": "At that moment she felt sorry for him."
+        },
+        {
+          "de": "„Du kannst doch nicht nur zwei Scheiben essen“, sagte er auf seinen Teller.",
+          "en": "“You can't eat just two slices,” he said to his plate."
+        },
+        {
+          "de": "„Doch.",
+          "en": "“Yes, I can."
+        },
+        {
+          "de": "Abends vertrag ich das Brot nicht gut.",
+          "en": "Bread doesn't agree with me in the evening."
+        },
+        {
+          "de": "Iss man.",
+          "en": "You eat."
+        },
+        {
+          "de": "Iss man.“",
+          "en": "You eat.”"
+        },
+        {
+          "de": "Erst nach einer Weile setzte sie sich unter die Lampe an den Tisch.",
+          "en": "Only after a while did she sit down at the table under the lamp."
+        }
       ]
     },
     {
@@ -446,6 +850,36 @@
         {
           "de": "übrig bleiben",
           "en": "to be left over"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Sie sahen ihn schon von weitem auf sich zukommen, denn er fiel auf.",
+          "en": "They saw him coming towards them from far away, because he stood out."
+        },
+        {
+          "de": "Er hatte ein ganz altes Gesicht, aber wie er ging, daran sah man, dass er erst zwanzig war.",
+          "en": "He had a very old face, but from the way he walked you could tell that he was only twenty."
+        },
+        {
+          "de": "Er setzte sich mit seinem alten Gesicht zu ihnen auf die Bank.",
+          "en": "He sat down on the bench beside them with his old face."
+        },
+        {
+          "de": "Und dann zeigte er ihnen, was er in der Hand trug.",
+          "en": "And then he showed them what he was carrying in his hand."
+        },
+        {
+          "de": "Das war unsere Küchenuhr, sagte er und sah sie alle der Reihe nach an, die auf der Bank in der Sonne saßen.",
+          "en": "That was our kitchen clock, he said, looking at each of them in turn as they sat on the bench in the sun."
+        },
+        {
+          "de": "Ja, ich habe sie noch gefunden.",
+          "en": "Yes, I found it after all."
+        },
+        {
+          "de": "Sie ist übrig geblieben.",
+          "en": "It's the one thing left."
         }
       ]
     },
@@ -483,6 +917,52 @@
           "de": "kaputt",
           "en": "broken"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Er hielt eine runde tellerweiße Küchenuhr vor sich hin und tupfte mit dem Finger die blau gemalten Zahlen ab.",
+          "en": "He held a round, plate-white kitchen clock out in front of him and dabbed at the blue painted numbers with his finger."
+        },
+        {
+          "de": "Sie hat weiter keinen Wert, meinte er entschuldigend, das weiß ich auch.",
+          "en": "It's not worth anything, he said apologetically, I know that."
+        },
+        {
+          "de": "Und sie ist auch nicht so besonders schön.",
+          "en": "And it isn't all that pretty either."
+        },
+        {
+          "de": "Sie ist nur wie ein Teller, so mit weißem Lack.",
+          "en": "It's just like a plate, with white enamel."
+        },
+        {
+          "de": "Aber die blauen Zahlen sehen doch ganz hübsch aus, finde ich.",
+          "en": "But the blue numbers look quite nice, I think."
+        },
+        {
+          "de": "Die Zeiger sind natürlich nur aus Blech.",
+          "en": "The hands are only tin, of course."
+        },
+        {
+          "de": "Und nun gehen sie auch nicht mehr.",
+          "en": "And now they don't go any more."
+        },
+        {
+          "de": "Nein.",
+          "en": "No."
+        },
+        {
+          "de": "Innerlich ist sie kaputt, das steht fest.",
+          "en": "It's broken inside, that's for sure."
+        },
+        {
+          "de": "Aber sie sieht noch aus wie immer.",
+          "en": "But it still looks the same as always."
+        },
+        {
+          "de": "Auch wenn sie jetzt nicht mehr geht.",
+          "en": "Even if it doesn't work now."
+        }
       ]
     },
     {
@@ -514,6 +994,48 @@
         {
           "de": "als ob",
           "en": "as if"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Er machte mit der Fingerspitze einen vorsichtigen Kreis auf dem Rand der Telleruhr entlang.",
+          "en": "He traced a careful circle with his fingertip along the rim of the plate clock."
+        },
+        {
+          "de": "Und er sagte leise: Und sie ist übrig geblieben.",
+          "en": "And he said quietly: And it's the one thing left."
+        },
+        {
+          "de": "Die auf der Bank in der Sonne saßen, sahen ihn nicht an.",
+          "en": "The people sitting on the bench in the sun didn't look at him."
+        },
+        {
+          "de": "Einer sah auf seine Schuhe und die Frau sah in ihren Kinderwagen.",
+          "en": "One of them looked at his shoes and the woman looked into her pram."
+        },
+        {
+          "de": "Dann sagte jemand:",
+          "en": "Then someone said:"
+        },
+        {
+          "de": "Sie haben wohl alles verloren?",
+          "en": "I suppose you lost everything?"
+        },
+        {
+          "de": "Ja, ja, sagte er freudig, denken Sie, aber auch alles!",
+          "en": "Yes, yes, he said happily, just imagine, absolutely everything!"
+        },
+        {
+          "de": "Nur sie hier, sie ist übrig.",
+          "en": "Only this, this is left."
+        },
+        {
+          "de": "Und er hob die Uhr wieder hoch, als ob die anderen sie noch nicht kannten.",
+          "en": "And he held the clock up again as if the others didn't know it yet."
+        },
+        {
+          "de": "Aber sie geht doch nicht mehr, sagte die Frau.",
+          "en": "But it doesn't work any more, said the woman."
         }
       ]
     },
@@ -548,6 +1070,36 @@
           "de": "ausgerechnet",
           "en": "of all things/times"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Nein, nein, das nicht.",
+          "en": "No, no, not that."
+        },
+        {
+          "de": "Kaputt ist sie, das weiß ich wohl.",
+          "en": "It's broken, I know that all right."
+        },
+        {
+          "de": "Aber sonst ist sie doch noch ganz wie immer: weiß und blau.",
+          "en": "But otherwise it's still just the same as always: white and blue."
+        },
+        {
+          "de": "Und wieder zeigte er ihnen seine Uhr.",
+          "en": "And again he showed them his clock."
+        },
+        {
+          "de": "Und was das Schönste ist, fuhr er aufgeregt fort, das habe ich Ihnen ja noch überhaupt nicht erzählt.",
+          "en": "And the best thing of all, he went on excitedly, I haven't even told you yet."
+        },
+        {
+          "de": "Das Schönste kommt nämlich noch: Denken Sie mal, sie ist um halb drei stehen geblieben.",
+          "en": "The best is still to come: Just think, it stopped at half past two."
+        },
+        {
+          "de": "Ausgerechnet um halb drei, denken Sie mal.",
+          "en": "At half past two, of all times, just think."
+        }
       ]
     },
     {
@@ -579,6 +1131,44 @@
         {
           "de": "nichts mit etwas zu tun haben",
           "en": "to have nothing to do with sth"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Dann wurde Ihr Haus sicher um halb drei getroffen, sagte der Mann und schob wichtig die Unterlippe vor.",
+          "en": "Then your house was probably hit at half past two, said the man, pushing out his lower lip importantly."
+        },
+        {
+          "de": "Das habe ich schon oft gehört.",
+          "en": "I've heard that often."
+        },
+        {
+          "de": "Wenn die Bombe runtergeht, bleiben die Uhren stehen.",
+          "en": "When the bomb comes down, the clocks stop."
+        },
+        {
+          "de": "Das kommt von dem Druck.",
+          "en": "It's from the blast."
+        },
+        {
+          "de": "Er sah seine Uhr an und schüttelte überlegen den Kopf.",
+          "en": "He looked at his clock and shook his head in a superior way."
+        },
+        {
+          "de": "Nein, lieber Herr, nein, da irren Sie sich.",
+          "en": "No, my dear sir, no, you're wrong there."
+        },
+        {
+          "de": "Das hat mit den Bomben nichts zu tun.",
+          "en": "It's got nothing to do with the bombs."
+        },
+        {
+          "de": "Sie müssen nicht immer von den Bomben reden.",
+          "en": "You shouldn't always go on about the bombs."
+        },
+        {
+          "de": "Nein.",
+          "en": "No."
         }
       ]
     },
@@ -613,6 +1203,36 @@
           "de": "nach Hause kommen",
           "en": "to come home"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Um halb drei war ganz etwas anderes, das wissen Sie nur nicht.",
+          "en": "At half past two it was something quite different, you just don't know that."
+        },
+        {
+          "de": "Das ist nämlich der Witz, dass sie gerade um halb drei stehen geblieben ist.",
+          "en": "That's the thing, that it stopped at half past two exactly."
+        },
+        {
+          "de": "Und nicht um Viertel nach vier oder um sieben.",
+          "en": "And not at quarter past four or at seven."
+        },
+        {
+          "de": "Um halb drei kam ich nämlich immer nach Hause.",
+          "en": "Because at half past two I always used to come home."
+        },
+        {
+          "de": "Nachts, meine ich.",
+          "en": "At night, I mean."
+        },
+        {
+          "de": "Fast immer um halb drei.",
+          "en": "Almost always at half past two."
+        },
+        {
+          "de": "Das ist ja gerade der Witz.",
+          "en": "That's exactly the point."
+        }
       ]
     },
     {
@@ -645,6 +1265,36 @@
           "de": "nicht wahr?",
           "en": "isn't it? right?",
           "note": "casual today: oder? / ne?"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Er sah die anderen an, aber die hatten ihre Augen von ihm weggenommen.",
+          "en": "He looked at the others, but they had taken their eyes off him."
+        },
+        {
+          "de": "Er fand sie nicht.",
+          "en": "He couldn't find them."
+        },
+        {
+          "de": "Da nickte er seiner Uhr zu: Dann hatte ich natürlich Hunger, nicht wahr?",
+          "en": "So he nodded to his clock: Then of course I was hungry, wasn't I?"
+        },
+        {
+          "de": "Und ich ging immer gleich in die Küche.",
+          "en": "And I always went straight into the kitchen."
+        },
+        {
+          "de": "Da war es dann fast immer halb drei.",
+          "en": "By then it was almost always half past two."
+        },
+        {
+          "de": "Und dann, dann kam nämlich meine Mutter.",
+          "en": "And then, then my mother would come."
+        },
+        {
+          "de": "Ich konnte noch so leise die Tür aufmachen, sie hat mich immer gehört.",
+          "en": "However quietly I opened the door, she always heard me."
         }
       ]
     },
@@ -680,6 +1330,40 @@
           "de": "hell",
           "en": "bright"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Und wenn ich in der dunklen Küche etwas zu essen suchte, ging plötzlich das Licht an.",
+          "en": "And when I was looking for something to eat in the dark kitchen, suddenly the light came on."
+        },
+        {
+          "de": "Dann stand sie da in ihrer Wolljacke und mit einem roten Schal um.",
+          "en": "Then there she stood in her woolly cardigan with a red scarf round her neck."
+        },
+        {
+          "de": "Und barfuß.",
+          "en": "And barefoot."
+        },
+        {
+          "de": "Immer barfuß.",
+          "en": "Always barefoot."
+        },
+        {
+          "de": "Und dabei war unsere Küche gekachelt.",
+          "en": "And our kitchen had a tiled floor, too."
+        },
+        {
+          "de": "Und sie machte ihre Augen ganz klein, weil ihr das Licht so hell war.",
+          "en": "And she screwed her eyes up tight because the light was so bright for her."
+        },
+        {
+          "de": "Denn sie hatte ja schon geschlafen.",
+          "en": "Because she'd already been asleep."
+        },
+        {
+          "de": "Es war ja Nacht.",
+          "en": "It was night, after all."
+        }
       ]
     },
     {
@@ -714,6 +1398,36 @@
           "en": "full (after eating)",
           "note": "never say: Ich bin voll (= drunk)"
         }
+      ],
+      "sentences": [
+        {
+          "de": "So spät wieder, sagte sie dann.",
+          "en": "Late again, she would say then."
+        },
+        {
+          "de": "Mehr sagte sie nie.",
+          "en": "She never said more."
+        },
+        {
+          "de": "Nur: So spät wieder.",
+          "en": "Just: Late again."
+        },
+        {
+          "de": "Und dann machte sie mir das Abendbrot warm und sah zu, wie ich aß.",
+          "en": "And then she warmed up my supper and watched me eat."
+        },
+        {
+          "de": "Dabei scheuerte sie immer die Füße aneinander, weil die Kacheln so kalt waren.",
+          "en": "And while she did, she kept rubbing her feet together because the tiles were so cold."
+        },
+        {
+          "de": "Schuhe zog sie nachts nie an.",
+          "en": "She never put shoes on at night."
+        },
+        {
+          "de": "Und sie saß so lange bei mir, bis ich satt war.",
+          "en": "And she sat with me until I was full."
+        }
       ]
     },
     {
@@ -746,6 +1460,52 @@
         {
           "de": "aufhören",
           "en": "to stop"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und dann hörte ich sie noch die Teller wegsetzen, wenn ich in meinem Zimmer schon das Licht ausgemacht hatte.",
+          "en": "And then I'd hear her putting the plates away when I had already switched the light off in my room."
+        },
+        {
+          "de": "Jede Nacht war es so.",
+          "en": "It was like that every night."
+        },
+        {
+          "de": "Und meistens immer um halb drei.",
+          "en": "And mostly always at half past two."
+        },
+        {
+          "de": "Das war ganz selbstverständlich, fand ich, dass sie mir nachts um halb drei in der Küche das Essen machte.",
+          "en": "I thought it was completely natural that she made me food in the kitchen at half past two at night."
+        },
+        {
+          "de": "Ich fand das ganz selbstverständlich.",
+          "en": "I found it completely natural."
+        },
+        {
+          "de": "Sie tat das ja immer.",
+          "en": "After all, she always did it."
+        },
+        {
+          "de": "Und sie hat nie mehr gesagt als: So spät wieder.",
+          "en": "And she never said more than: Late again."
+        },
+        {
+          "de": "Aber das sagte sie jedes Mal.",
+          "en": "But she said that every single time."
+        },
+        {
+          "de": "Und ich dachte, das könnte nie aufhören.",
+          "en": "And I thought it could never stop."
+        },
+        {
+          "de": "Es war mir so selbstverständlich.",
+          "en": "It was so natural to me."
+        },
+        {
+          "de": "Das alles war doch immer so gewesen.",
+          "en": "It had all always been that way."
         }
       ]
     },
@@ -783,6 +1543,60 @@
           "de": "sich vorstellen",
           "en": "to imagine; to introduce oneself"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Einen Atemzug lang war es ganz still auf der Bank.",
+          "en": "For the length of one breath it was completely quiet on the bench."
+        },
+        {
+          "de": "Dann sagte er leise: Und jetzt?",
+          "en": "Then he said quietly: And now?"
+        },
+        {
+          "de": "Er sah die anderen an.",
+          "en": "He looked at the others."
+        },
+        {
+          "de": "Aber er fand sie nicht.",
+          "en": "But he couldn't find them."
+        },
+        {
+          "de": "Da sagte er der Uhr leise ins weißblaue runde Gesicht: Jetzt, jetzt weiß ich, dass es das Paradies war.",
+          "en": "So he said quietly into the clock's round white-and-blue face: Now, now I know that it was paradise."
+        },
+        {
+          "de": "Das richtige Paradies.",
+          "en": "Real paradise."
+        },
+        {
+          "de": "Auf der Bank war es ganz still.",
+          "en": "It was completely quiet on the bench."
+        },
+        {
+          "de": "Dann fragte die Frau: Und Ihre Familie?",
+          "en": "Then the woman asked: And your family?"
+        },
+        {
+          "de": "Er lächelte sie verlegen an: Ach, Sie meinen meine Eltern?",
+          "en": "He smiled at her awkwardly: Oh, you mean my parents?"
+        },
+        {
+          "de": "Ja, die sind auch mit weg.",
+          "en": "Yes, they're gone too."
+        },
+        {
+          "de": "Alles ist weg.",
+          "en": "Everything is gone."
+        },
+        {
+          "de": "Alles, stellen Sie sich vor.",
+          "en": "Everything, just imagine."
+        },
+        {
+          "de": "Alles weg.",
+          "en": "All gone."
+        }
       ]
     },
     {
@@ -815,6 +1629,56 @@
           "de": "immerzu",
           "en": "constantly",
           "note": "today: ständig, die ganze Zeit"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Er lächelte verlegen von einem zum anderen.",
+          "en": "He smiled awkwardly from one to the other."
+        },
+        {
+          "de": "Aber sie sahen ihn nicht an.",
+          "en": "But they didn't look at him."
+        },
+        {
+          "de": "Da hob er wieder die Uhr hoch und er lachte.",
+          "en": "Then he held the clock up again and laughed."
+        },
+        {
+          "de": "Er lachte: Nur sie hier.",
+          "en": "He laughed: Only this."
+        },
+        {
+          "de": "Sie ist übrig.",
+          "en": "It's left."
+        },
+        {
+          "de": "Und das Schönste ist ja, dass sie ausgerechnet um halb drei stehen geblieben ist.",
+          "en": "And the best thing is that it stopped at half past two, of all times."
+        },
+        {
+          "de": "Ausgerechnet um halb drei.",
+          "en": "At half past two, of all times."
+        },
+        {
+          "de": "Dann sagte er nichts mehr.",
+          "en": "Then he didn't say anything more."
+        },
+        {
+          "de": "Aber er hatte ein ganz altes Gesicht.",
+          "en": "But he had a very old face."
+        },
+        {
+          "de": "Und der Mann, der neben ihm saß, sah auf seine Schuhe.",
+          "en": "And the man sitting next to him looked at his shoes."
+        },
+        {
+          "de": "Aber er sah seine Schuhe nicht.",
+          "en": "But he didn't see his shoes."
+        },
+        {
+          "de": "Er dachte immerzu an das Wort Paradies.",
+          "en": "He kept thinking about the word paradise."
         }
       ]
     },
@@ -853,6 +1717,36 @@
           "de": "merken",
           "en": "to notice"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Das hohle Fenster in der vereinsamten Mauer gähnte blaurot voll früher Abendsonne.",
+          "en": "The hollow window in the lonely wall yawned blue-red, full of early evening sun."
+        },
+        {
+          "de": "Staubgewölke flimmerte zwischen den steil gereckten Schornsteinresten.",
+          "en": "Clouds of dust shimmered between the chimney stumps sticking steeply up."
+        },
+        {
+          "de": "Die Schuttwüste döste.",
+          "en": "The desert of rubble dozed."
+        },
+        {
+          "de": "Er hatte die Augen zu.",
+          "en": "His eyes were shut."
+        },
+        {
+          "de": "Mit einmal wurde es noch dunkler.",
+          "en": "All at once it got even darker."
+        },
+        {
+          "de": "Er merkte, dass jemand gekommen war und nun vor ihm stand, dunkel, leise.",
+          "en": "He noticed that someone had come and was now standing in front of him, dark, quiet."
+        },
+        {
+          "de": "Jetzt haben sie mich! dachte er.",
+          "en": "Now they've got me! he thought."
+        }
       ]
     },
     {
@@ -889,6 +1783,28 @@
           "de": "die Erde",
           "en": "earth, soil"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Aber als er ein bisschen blinzelte, sah er nur zwei etwas ärmlich behoste Beine.",
+          "en": "But when he squinted a little, all he saw were two rather shabbily trousered legs."
+        },
+        {
+          "de": "Die standen ziemlich krumm vor ihm, dass er zwischen ihnen hindurchsehen konnte.",
+          "en": "They stood in front of him so bowed that he could see between them."
+        },
+        {
+          "de": "Er riskierte ein kleines Geblinzel an den Hosenbeinen hoch und erkannte einen älteren Mann.",
+          "en": "He risked a little squint up the trouser legs and made out an elderly man."
+        },
+        {
+          "de": "Der hatte ein Messer und einen Korb in der Hand.",
+          "en": "He had a knife and a basket in his hand."
+        },
+        {
+          "de": "Und etwas Erde an den Fingerspitzen.",
+          "en": "And some earth on his fingertips."
+        }
       ]
     },
     {
@@ -922,6 +1838,40 @@
           "de": "festhalten",
           "en": "to hold tight"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Du schläfst hier wohl, was? fragte der Mann und sah von oben auf das Haargestrüpp herunter.",
+          "en": "Sleeping here, are you? asked the man, looking down at the mop of hair."
+        },
+        {
+          "de": "Jürgen blinzelte zwischen den Beinen des Mannes hindurch in die Sonne und sagte: Nein, ich schlafe nicht.",
+          "en": "Jürgen blinked through the man's legs into the sun and said: No, I'm not sleeping."
+        },
+        {
+          "de": "Ich muss hier aufpassen.",
+          "en": "I have to keep watch here."
+        },
+        {
+          "de": "Der Mann nickte: So, dafür hast du wohl den großen Stock da?",
+          "en": "The man nodded: I see, so that's what you've got that big stick for?"
+        },
+        {
+          "de": "Ja, antwortete Jürgen mutig und hielt den Stock fest.",
+          "en": "Yes, Jürgen answered bravely, gripping the stick."
+        },
+        {
+          "de": "Worauf passt du denn auf?",
+          "en": "What are you keeping watch over, then?"
+        },
+        {
+          "de": "Das kann ich nicht sagen.",
+          "en": "I can't say."
+        },
+        {
+          "de": "Er hielt die Hände fest um den Stock.",
+          "en": "He held his hands tight around the stick."
+        }
       ]
     },
     {
@@ -953,6 +1903,48 @@
         {
           "de": "zuklappen",
           "en": "to snap shut, close"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Wohl auf Geld, was?",
+          "en": "Money, I suppose?"
+        },
+        {
+          "de": "Der Mann setzte den Korb ab und wischte das Messer an seinen Hosenbeinen hin und her.",
+          "en": "The man put the basket down and wiped the knife back and forth on his trouser legs."
+        },
+        {
+          "de": "Nein, auf Geld überhaupt nicht, sagte Jürgen verächtlich.",
+          "en": "No, not money at all, said Jürgen scornfully."
+        },
+        {
+          "de": "Auf ganz etwas anderes.",
+          "en": "Something completely different."
+        },
+        {
+          "de": "Na, was denn?",
+          "en": "Well, what then?"
+        },
+        {
+          "de": "Ich kann es nicht sagen.",
+          "en": "I can't say."
+        },
+        {
+          "de": "Was anderes eben.",
+          "en": "Something else, that's all."
+        },
+        {
+          "de": "Na, denn nicht.",
+          "en": "Well, suit yourself."
+        },
+        {
+          "de": "Dann sage ich dir natürlich auch nicht, was ich hier im Korb habe.",
+          "en": "Then of course I won't tell you what I've got in my basket either."
+        },
+        {
+          "de": "Der Mann stieß mit dem Fuß an den Korb und klappte das Messer zu.",
+          "en": "The man nudged the basket with his foot and snapped the knife shut."
         }
       ]
     },
@@ -988,6 +1980,32 @@
           "de": "Wie alt bist du?",
           "en": "How old are you?"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Pah, kann mir denken, was in dem Korb ist, meinte Jürgen geringschätzig, Kaninchenfutter.",
+          "en": "Pah, I can guess what's in the basket, said Jürgen dismissively, rabbit food."
+        },
+        {
+          "de": "Donnerwetter, ja! sagte der Mann verwundert, bist ja ein fixer Kerl.",
+          "en": "Well, blow me, yes! said the man in surprise, you're a sharp one."
+        },
+        {
+          "de": "Wie alt bist du denn?",
+          "en": "How old are you, then?"
+        },
+        {
+          "de": "Neun.",
+          "en": "Nine."
+        },
+        {
+          "de": "Oha, denk mal an, neun also.",
+          "en": "Oho, fancy that, nine."
+        },
+        {
+          "de": "Dann weißt du ja auch, wie viel drei mal neun sind, wie?",
+          "en": "Then you'll know what three times nine is, won't you?"
+        }
       ]
     },
     {
@@ -1020,6 +2038,32 @@
         {
           "de": "genau",
           "en": "exactly"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Klar, sagte Jürgen, und um Zeit zu gewinnen, sagte er noch: Das ist ja ganz leicht.",
+          "en": "Sure, said Jürgen, and to gain time he added: That's really easy."
+        },
+        {
+          "de": "Und er sah durch die Beine des Mannes hindurch.",
+          "en": "And he looked through the man's legs."
+        },
+        {
+          "de": "Dreimal neun, nicht? fragte er noch einmal, siebenundzwanzig.",
+          "en": "Three times nine, right? he asked again, twenty-seven."
+        },
+        {
+          "de": "Das wusste ich gleich.",
+          "en": "I knew that straight away."
+        },
+        {
+          "de": "Stimmt, sagte der Mann, und genau so viel Kaninchen habe ich.",
+          "en": "Correct, said the man, and that's exactly how many rabbits I've got."
+        },
+        {
+          "de": "Jürgen machte einen runden Mund: Siebenundzwanzig?",
+          "en": "Jürgen's mouth made a round O: Twenty-seven?"
         }
       ]
     },
@@ -1054,6 +2098,60 @@
         {
           "de": "nach Hause gehen",
           "en": "to go home"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Du kannst sie sehen.",
+          "en": "You can see them."
+        },
+        {
+          "de": "Viele sind noch ganz jung.",
+          "en": "Lots of them are still very young."
+        },
+        {
+          "de": "Willst du?",
+          "en": "Do you want to?"
+        },
+        {
+          "de": "Ich kann doch nicht.",
+          "en": "I can't, can I."
+        },
+        {
+          "de": "Ich muss doch aufpassen, sagte Jürgen unsicher.",
+          "en": "I have to keep watch, said Jürgen uncertainly."
+        },
+        {
+          "de": "Immerzu? fragte der Mann, nachts auch?",
+          "en": "The whole time? asked the man, at night too?"
+        },
+        {
+          "de": "Nachts auch.",
+          "en": "At night too."
+        },
+        {
+          "de": "Immerzu.",
+          "en": "The whole time."
+        },
+        {
+          "de": "Immer.",
+          "en": "Always."
+        },
+        {
+          "de": "Jürgen sah an den krummen Beinen hoch.",
+          "en": "Jürgen looked up the bowed legs."
+        },
+        {
+          "de": "Seit Sonnabend schon, flüsterte er.",
+          "en": "Since Saturday, he whispered."
+        },
+        {
+          "de": "Aber gehst du denn gar nicht nach Hause?",
+          "en": "But don't you ever go home?"
+        },
+        {
+          "de": "Du musst doch essen.",
+          "en": "You have to eat."
         }
       ]
     },
@@ -1091,6 +2189,44 @@
           "de": "sich aussuchen",
           "en": "to pick out, choose"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Jürgen hob einen Stein hoch.",
+          "en": "Jürgen lifted up a stone."
+        },
+        {
+          "de": "Da lag ein halbes Brot und eine Blechschachtel.",
+          "en": "Under it lay half a loaf of bread and a tin box."
+        },
+        {
+          "de": "Du rauchst? fragte der Mann, hast du denn eine Pfeife?",
+          "en": "You smoke? asked the man, have you got a pipe, then?"
+        },
+        {
+          "de": "Jürgen fasste seinen Stock fest an und sagte zaghaft: Ich drehe.",
+          "en": "Jürgen gripped his stick tightly and said timidly: I roll my own."
+        },
+        {
+          "de": "Pfeife mag ich nicht.",
+          "en": "I don't like pipes."
+        },
+        {
+          "de": "Schade, der Mann bückte sich zu seinem Korb, die Kaninchen hättest du ruhig mal ansehen können.",
+          "en": "Pity, the man bent down to his basket, you could easily have had a look at the rabbits."
+        },
+        {
+          "de": "Vor allem die Jungen.",
+          "en": "Especially the young ones."
+        },
+        {
+          "de": "Vielleicht hättest du dir eines ausgesucht.",
+          "en": "Maybe you'd have picked one out."
+        },
+        {
+          "de": "Aber du kannst hier ja nicht weg.",
+          "en": "But you can't leave here, can you."
+        }
       ]
     },
     {
@@ -1123,6 +2259,52 @@
         {
           "de": "der Lehrer, die Lehrer",
           "en": "teacher"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Nein, sagte Jürgen traurig, nein, nein.",
+          "en": "No, said Jürgen sadly, no, no."
+        },
+        {
+          "de": "Der Mann nahm den Korb hoch und richtete sich auf.",
+          "en": "The man picked up the basket and straightened up."
+        },
+        {
+          "de": "Na ja, wenn du hierbleiben musst – schade.",
+          "en": "Oh well, if you have to stay here – pity."
+        },
+        {
+          "de": "Und er drehte sich um.",
+          "en": "And he turned round."
+        },
+        {
+          "de": "Wenn du mich nicht verrätst, sagte Jürgen da schnell, es ist wegen den Ratten.",
+          "en": "If you won't give me away, Jürgen said quickly then, it's because of the rats."
+        },
+        {
+          "de": "Die krummen Beine kamen einen Schritt zurück: Wegen den Ratten?",
+          "en": "The bowed legs came back one step: Because of the rats?"
+        },
+        {
+          "de": "Ja, die essen doch von Toten.",
+          "en": "Yes, they eat dead people, don't they."
+        },
+        {
+          "de": "Von Menschen.",
+          "en": "Humans."
+        },
+        {
+          "de": "Da leben sie doch von.",
+          "en": "That's what they live on."
+        },
+        {
+          "de": "Wer sagt das?",
+          "en": "Who says so?"
+        },
+        {
+          "de": "Unser Lehrer.",
+          "en": "Our teacher."
         }
       ]
     },
@@ -1157,6 +2339,60 @@
           "de": "kleiner als",
           "en": "smaller than"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Und du passt nun auf die Ratten auf? fragte der Mann.",
+          "en": "And you're watching out for the rats now? asked the man."
+        },
+        {
+          "de": "Auf die doch nicht!",
+          "en": "Not for them!"
+        },
+        {
+          "de": "Und dann sagte er ganz leise: Mein Bruder, der liegt nämlich da unten.",
+          "en": "And then he said very quietly: My brother, you see, he's lying down there."
+        },
+        {
+          "de": "Da.",
+          "en": "There."
+        },
+        {
+          "de": "Jürgen zeigte mit dem Stock auf die zusammengesackten Mauern.",
+          "en": "Jürgen pointed with the stick at the collapsed walls."
+        },
+        {
+          "de": "Unser Haus kriegte eine Bombe.",
+          "en": "Our house got hit by a bomb."
+        },
+        {
+          "de": "Mit einmal war das Licht weg im Keller.",
+          "en": "All at once the light went out in the cellar."
+        },
+        {
+          "de": "Und er auch.",
+          "en": "And so did he."
+        },
+        {
+          "de": "Wir haben noch gerufen.",
+          "en": "We kept calling."
+        },
+        {
+          "de": "Er war viel kleiner als ich.",
+          "en": "He was much smaller than me."
+        },
+        {
+          "de": "Erst vier.",
+          "en": "Only four."
+        },
+        {
+          "de": "Er muss hier ja noch sein.",
+          "en": "He must still be here."
+        },
+        {
+          "de": "Er ist doch viel kleiner als ich.",
+          "en": "He's so much smaller than me."
+        }
       ]
     },
     {
@@ -1189,6 +2425,40 @@
         {
           "de": "doch",
           "en": "of course, after all (particle)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Der Mann sah von oben auf das Haargestrüpp.",
+          "en": "The man looked down at the mop of hair."
+        },
+        {
+          "de": "Aber dann sagte er plötzlich: Ja, hat euer Lehrer euch denn nicht gesagt, dass die Ratten nachts schlafen?",
+          "en": "But then he suddenly said: Well, didn't your teacher tell you that rats sleep at night?"
+        },
+        {
+          "de": "Nein, flüsterte Jürgen und sah mit einmal ganz müde aus, das hat er nicht gesagt.",
+          "en": "No, whispered Jürgen, suddenly looking very tired, he didn't tell us that."
+        },
+        {
+          "de": "Na, sagte der Mann, das ist aber ein Lehrer, wenn er das nicht mal weiß.",
+          "en": "Well, said the man, that's some teacher, if he doesn't even know that."
+        },
+        {
+          "de": "Nachts schlafen die Ratten doch.",
+          "en": "Of course rats sleep at night."
+        },
+        {
+          "de": "Nachts kannst du ruhig nach Hause gehen.",
+          "en": "At night you can go home and not worry."
+        },
+        {
+          "de": "Nachts schlafen sie immer.",
+          "en": "They always sleep at night."
+        },
+        {
+          "de": "Wenn es dunkel wird, schon.",
+          "en": "As soon as it gets dark."
         }
       ]
     },
@@ -1224,6 +2494,32 @@
           "de": "mitbringen",
           "en": "to bring along"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Jürgen machte mit seinem Stock kleine Kuhlen in den Schutt.",
+          "en": "Jürgen made little hollows in the rubble with his stick."
+        },
+        {
+          "de": "Lauter kleine Betten sind das, dachte er, alles kleine Betten.",
+          "en": "They're all little beds, he thought, all little beds."
+        },
+        {
+          "de": "Da sagte der Mann (und seine krummen Beine waren ganz unruhig dabei): Weißt du was?",
+          "en": "Then the man said (and his bowed legs were very restless as he did): You know what?"
+        },
+        {
+          "de": "Jetzt füttere ich schnell meine Kaninchen und wenn es dunkel wird, hole ich dich ab.",
+          "en": "I'll just go and feed my rabbits quickly, and when it gets dark, I'll come and pick you up."
+        },
+        {
+          "de": "Vielleicht kann ich eins mitbringen.",
+          "en": "Maybe I can bring one along."
+        },
+        {
+          "de": "Ein kleines oder, was meinst du?",
+          "en": "A little one, or what do you think?"
+        }
       ]
     },
     {
@@ -1255,6 +2551,40 @@
         {
           "de": "vielleicht",
           "en": "maybe"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Jürgen machte kleine Kuhlen in den Schutt.",
+          "en": "Jürgen made little hollows in the rubble."
+        },
+        {
+          "de": "Lauter kleine Kaninchen.",
+          "en": "Nothing but little rabbits."
+        },
+        {
+          "de": "Weiße, graue, weißgraue.",
+          "en": "White ones, grey ones, white-and-grey ones."
+        },
+        {
+          "de": "Ich weiß nicht, sagte er leise und sah auf die krummen Beine, wenn sie wirklich nachts schlafen.",
+          "en": "I don't know, he said quietly, looking at the bowed legs, if they really sleep at night."
+        },
+        {
+          "de": "Der Mann stieg über die Mauerreste weg auf die Straße.",
+          "en": "The man climbed over the remains of the wall onto the street."
+        },
+        {
+          "de": "Natürlich, sagte er von da, euer Lehrer soll einpacken, wenn er das nicht mal weiß.",
+          "en": "Of course, he called from there, your teacher might as well pack it in if he doesn't even know that."
+        },
+        {
+          "de": "Da stand Jürgen auf und fragte: Wenn ich eins kriegen kann?",
+          "en": "Then Jürgen stood up and asked: If I can have one?"
+        },
+        {
+          "de": "Ein weißes vielleicht?",
+          "en": "A white one maybe?"
         }
       ]
     },
@@ -1288,6 +2618,44 @@
           "de": "das Brett, die Bretter",
           "en": "board, plank"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Ich will mal versuchen, rief der Mann schon im Weggehen, aber du musst hier so lange warten.",
+          "en": "I'll see what I can do, the man called out, already walking away, but you have to wait here till then."
+        },
+        {
+          "de": "Ich gehe dann mit dir nach Hause, weißt du?",
+          "en": "Then I'll walk home with you, all right?"
+        },
+        {
+          "de": "Ich muss deinem Vater doch sagen, wie so ein Kaninchenstall gebaut wird.",
+          "en": "I've got to tell your father how to build a rabbit hutch, haven't I."
+        },
+        {
+          "de": "Denn das müsst ihr ja wissen.",
+          "en": "Because you'll need to know that."
+        },
+        {
+          "de": "Ja, rief Jürgen, ich warte.",
+          "en": "Yes, Jürgen called, I'll wait."
+        },
+        {
+          "de": "Ich muss ja noch aufpassen, bis es dunkel wird.",
+          "en": "I've got to keep watch until it gets dark anyway."
+        },
+        {
+          "de": "Ich warte bestimmt.",
+          "en": "I'll definitely wait."
+        },
+        {
+          "de": "Und er rief: Wir haben auch noch Bretter zu Hause.",
+          "en": "And he called: We've got boards at home too."
+        },
+        {
+          "de": "Kistenbretter, rief er.",
+          "en": "Crate boards, he called."
+        }
       ]
     },
     {
@@ -1320,6 +2688,32 @@
         {
           "de": "grün",
           "en": "green"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Aber das hörte der Mann schon nicht mehr.",
+          "en": "But the man didn't hear that any more."
+        },
+        {
+          "de": "Er lief mit seinen krummen Beinen auf die Sonne zu.",
+          "en": "He was walking towards the sun on his bowed legs."
+        },
+        {
+          "de": "Die war schon rot vom Abend, und Jürgen konnte sehen, wie sie durch die Beine hindurchschien, so krumm waren sie.",
+          "en": "It was already red with evening, and Jürgen could see it shining through the legs, they were so bowed."
+        },
+        {
+          "de": "Und der Korb schwenkte aufgeregt hin und her.",
+          "en": "And the basket swung excitedly back and forth."
+        },
+        {
+          "de": "Kaninchenfutter war da drin.",
+          "en": "There was rabbit food in it."
+        },
+        {
+          "de": "Grünes Kaninchenfutter, das war etwas grau vom Schutt.",
+          "en": "Green rabbit food, which was a little grey from the rubble."
         }
       ]
     }

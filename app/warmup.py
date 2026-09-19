@@ -11,7 +11,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import sfx, srs, ui
+from . import sfx, srs, ui, verbs
 from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german, normalize
 from .content import BANK_LABELS, Word, words_sharing_english
 from .speaking import hear, speak_and_compare
@@ -32,6 +32,7 @@ class WarmupResult:
     almost: int = 0
     to_practise: list[Word] = field(default_factory=list)
     spoken: int = 0
+    verbs: verbs.VerbResult = field(default_factory=verbs.VerbResult)
 
     @property
     def graded(self) -> int:
@@ -228,6 +229,7 @@ def run_warmup(ctx) -> WarmupResult | None:
     ctx.profile.count(ctx.today, warmups=1)
     ctx.profile.save()
     repeat_until_right(ctx, not_yet)
+    result.verbs = verbs.run_verbs(ctx, first_today)
     return result
 
 

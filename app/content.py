@@ -7,7 +7,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from .answers import english_forms, normalize
-from .config import BOOKS_DIR, VOCAB_DIR
+from .config import BOOKS_DIR, VERBS_DIR, VOCAB_DIR
 
 
 @dataclass
@@ -40,6 +40,7 @@ class Unit:
     part: int = 0          # lesson number counting only text units
     covers: str = ""
     word_ids: list[str] = field(default_factory=list)  # its key words in the word practice (see reading_words)
+    sentence_pairs: list[tuple[str, str]] = field(default_factory=list)  # (German, English) sentence by sentence
 
 
 @dataclass
@@ -70,10 +71,47 @@ class Book:
 
 
 @dataclass
+class Verb:
+    """An irregular verb: `past` is the er/sie/es form, `perfect` is e.g. "ist gegangen"."""
+    inf: str
+    en: str
+    past: str
+    perfect: str
+
+    @property
+    def helper(self) -> str:
+        return self.perfect.split()[0]
+
+    @property
+    def participle(self) -> str:
+        return self.perfect.split()[-1]
+
+    @property
+    def past_forms(self) -> list[str]:
+        """er ging, du gingst, wir gingen, ihr gingt (er hielt, du hieltest, ihr hieltet)."""
+        p = self.past
+        if p.endswith("e"):
+            return [p, p + "st", p + "n", p + "t"]
+        return [p, p + ("est" if p[-1] in "sßztd" else "st"), p + "en", p + ("et" if p[-1] in "td" else "t")]
+
+
+@dataclass
+class VerbHit:
+    """A sentence in a book that uses a verb form: `kind` is "past" or "perfect"."""
+    book_id: str
+    unit_n: int
+    sentence: str
+    form: str
+    kind: str
+
+
+@dataclass
 class Content:
     words: dict[str, Word] = field(default_factory=dict)
     books: list[Book] = field(default_factory=list)
     problems: list[str] = field(default_factory=list)
+    verbs: dict[str, Verb] = field(default_factory=dict)
+    verb_hits: dict[str, list[VerbHit]] = field(default_factory=dict)  # by infinitive, in book order
 
 
 def _as_list(value) -> list[str]:
@@ -121,7 +159,7 @@ def is_duplicate(seen: dict[str, list[set[str]]], de: str, en: list[str]) -> boo
     return False
 
 
-def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Content:
+def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR, verbs_dir: Path = VERBS_DIR) -> Content:
     content = Content()
     seen_meanings: dict[str, list[set[str]]] = {}
     for path in vocab_files(vocab_dir):
@@ -168,8 +206,10 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Co
             part += 1
             if not raw.get("de") or not raw.get("en"):
                 continue  # not translated yet
+            pairs = [(s.get("de", "").strip(), s.get("en", "").strip()) for s in raw.get("sentences", [])]
             units.append(Unit(n=n, de=raw["de"].strip(), en=raw["en"].strip(), part=part,
-                              explain_en=raw.get("explain_en", ""), words=raw.get("words", [])))
+                              explain_en=raw.get("explain_en", ""), words=raw.get("words", []),
+                              sentence_pairs=[(d, e) for d, e in pairs if d and e]))
         if not any(u.kind == "text" for u in units):
             content.problems.append(f"{path.name}: no translated units")
             continue
@@ -179,8 +219,48 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR) -> Co
             intro_en=data.get("intro_en", ""), units=units, total_parts=part,
             short_title=data.get("short_title") or _shorten(data.get("title", path.stem)),
         ))
+    for path in sorted(verbs_dir.glob("*.json")):
+        data = _load_json(path, content.problems) or {}
+        for raw in data.get("verbs", []):
+            try:
+                verb = Verb(inf=raw["inf"], en=raw["en"], past=raw["past"], perfect=raw["perfect"])
+            except (KeyError, TypeError):
+                content.problems.append(f"{path.name}: bad verb entry {raw!r:.60}")
+                continue
+            content.verbs.setdefault(verb.inf, verb)
+    index_verbs(content)
     reading_words(content)
     return content
+
+
+def index_verbs(content: Content) -> None:
+    """Find every sentence in the books that uses a past or perfect form of a listed verb.
+    Past forms must match exactly (lowercase, so "Schloss" the castle isn't "schloss" the verb);
+    participles may have a separable prefix in front: "angekommen" is a form of kommen."""
+    past = {form: v.inf for v in content.verbs.values() for form in v.past_forms}
+    participles = {v.participle: v.inf for v in content.verbs.values()}
+    ge_participles = [(p, inf) for p, inf in participles.items() if p.startswith("ge")]
+    for book in content.books:
+        for unit in book.units:
+            if unit.kind != "text":
+                continue
+            for sentence in sentences(unit.de):
+                tokens = re.findall(r"\w+", sentence)
+                seen = set()
+                for i, token in enumerate(tokens):
+                    word = token.lower() if i == 0 else token
+                    hit = None
+                    if word in past:
+                        hit = (past[word], word, "past")
+                    elif word in participles:
+                        hit = (participles[word], word, "perfect")
+                    elif "ge" in word[1:] and word[0].islower():
+                        hit = next(((inf, word, "perfect") for part, inf in ge_participles
+                                    if word.endswith(part) and len(word) - len(part) <= 5), None)
+                    if hit and (hit[0], hit[2]) not in seen:
+                        seen.add((hit[0], hit[2]))
+                        content.verb_hits.setdefault(hit[0], []).append(
+                            VerbHit(book.id, unit.n, sentence, hit[1], hit[2]))
 
 
 ARTICLES = ("der ", "die ", "das ")
@@ -230,32 +310,66 @@ def reading_words(content: Content) -> None:
                 if wid not in unit.word_ids:
                     unit.word_ids.append(wid)
                 word = content.words[wid]
-                if not word.story_de and (sentence := story_sentence(de, unit.de)):
+                if not word.story_de and (sentence := story_sentence(de, unit.de) or _verb_sentence(content, de, book, unit)):
                     word.story_de, word.story_from = sentence, book.short_title
+
+
+def _verb_sentence(content: Content, de: str, book: Book, unit: Unit) -> str:
+    """For a key word that is an irregular verb (maybe with a prefix: aufbrechen -> brechen), the sentence
+    of this paragraph that uses one of its forms: "brach ... auf"."""
+    last = normalize(de).split()[-1] if de.strip() else ""
+    for inf in sorted(content.verb_hits, key=len, reverse=True):
+        if last.endswith(normalize(inf)):
+            hit = next((h for h in content.verb_hits[inf] if h.book_id == book.id and h.unit_n == unit.n), None)
+            return trim_around(hit.sentence, hit.form) if hit else ""
+    return ""
 
 
 _SENTENCE_END = re.compile(r"[.!?…]+[“”\"»«’]*\s+(?=[„\"»«‚(–A-ZÄÖÜ-])")
 _ABBREVIATIONS = {"dr", "nr", "st", "hr", "fr", "usw", "bzw", "ca", "vgl", "ggf"}
 
 
+_MONTHS = ("Januar", "Jänner", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September",
+           "Oktober", "November", "Dezember")
+
+
 def sentences(text: str) -> list[str]:
-    """Split German text into sentences ("z. B." and "Dr." don't end one; a line break always does)."""
-    out = []
+    """Split German text into sentences. "z. B.", "Dr." and dates like "am 17. März" don't end one;
+    a line break always does; a bit of punctuation on its own ("–", "«") joins the sentence before."""
+    out: list[str] = []
+
+    def add(piece: str) -> None:
+        if out and not re.search(r"[^\W\d_]", piece):
+            out[-1] += " " + piece
+        elif piece:
+            out.append(piece)
+
     for line in text.splitlines():
         start = 0
         for m in _SENTENCE_END.finditer(line):
             last = re.search(r"(\w+)$", line[start:m.start()])
             if line[m.start()] == "." and last and (len(last.group(1)) == 1
-                                                    or last.group(1).lower() in _ABBREVIATIONS):
+                                                    or last.group(1).lower() in _ABBREVIATIONS
+                                                    or last.group(1).isdigit() and line[m.end():].startswith(_MONTHS)):
                 continue
-            out.append(line[start:m.end()].strip())
+            add(line[start:m.end()].strip())
             start = m.end()
-        if line[start:].strip():
-            out.append(line[start:].strip())
+        add(line[start:].strip())
     return out
 
 
 STORY_WORDS = 24  # longer book sentences are cut down to the part around the word
+
+
+def trim_around(sentence: str, form: str) -> str:
+    """The sentence, or about STORY_WORDS words of it around the first word containing `form`."""
+    words = sentence.split()
+    if len(words) <= STORY_WORDS:
+        return sentence
+    hit = next((i for i, w in enumerate(words) if form in w), 0)
+    start = max(0, min(hit - STORY_WORDS // 2, len(words) - STORY_WORDS))
+    part = " ".join(words[start:start + STORY_WORDS])
+    return ("… " if start else "") + part + (" …" if start + STORY_WORDS < len(words) else "")
 
 
 _NOT_THE_WORD = {"der", "die", "das", "den", "dem", "des", "ein", "eine", "einen", "einem", "einer", "sich",

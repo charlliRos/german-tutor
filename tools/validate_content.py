@@ -99,6 +99,15 @@ def check_books() -> list[tuple[str, int]]:
             for kw in u.get("words", []):
                 if not kw.get("de") or not kw.get("en"):
                     errors.append(f"{where}: key word needs de and en: {kw}")
+            pairs = u.get("sentences")
+            if u.get("de") and u.get("en") and not pairs:
+                warnings.append(f"{where}: no sentence-by-sentence English yet (tools/sentence_pairs.py)")
+            elif pairs:
+                if " ".join(" ".join(p.get("de", "") for p in pairs).split()) != " ".join(u.get("de", "").split()):
+                    errors.append(f"{where}: 'sentences' don't match the German text any more "
+                                  "(it was edited): remove 'sentences' and redo them with tools/sentence_pairs.py")
+                if any(not p.get("en") for p in pairs):
+                    errors.append(f"{where}: a sentence has no English")
         summary.append((data.get("title", path.stem), len(units)))
     return summary
 

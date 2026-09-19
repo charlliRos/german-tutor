@@ -48,6 +48,20 @@
           "de": "hilflos",
           "en": "helpless"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.",
+          "en": "When Gregor Samsa woke one morning from troubled dreams, he found himself transformed in his bed into a monstrous vermin."
+        },
+        {
+          "de": "Er lag auf seinem panzerartig harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch, auf dessen Höhe sich die Bettdecke, zum gänzlichen Niedergleiten bereit, kaum noch erhalten konnte.",
+          "en": "He was lying on his hard, armour-like back, and when he lifted his head a little he could see his domed brown belly, divided into arch-shaped segments; the blanket, about to slide off completely, could barely stay on top of it."
+        },
+        {
+          "de": "Seine vielen, im Vergleich zu seinem sonstigen Umfang kläglich dünnen Beine flimmerten ihm hilflos vor den Augen.",
+          "en": "His many legs, pitifully thin compared with the rest of his bulk, flickered helplessly before his eyes."
+        }
       ]
     },
     {
@@ -85,6 +99,28 @@
           "de": "ausschneiden",
           "en": "to cut out"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Was ist mit mir geschehen?«, dachte er.",
+          "en": "'What's happened to me?' he thought."
+        },
+        {
+          "de": "Es war kein Traum.",
+          "en": "It wasn't a dream."
+        },
+        {
+          "de": "Sein Zimmer, ein richtiges, nur etwas zu kleines Menschenzimmer, lag ruhig zwischen den vier wohlbekannten Wänden.",
+          "en": "His room, a proper human room, only a bit too small, lay quietly between its four familiar walls."
+        },
+        {
+          "de": "Über dem Tisch, auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war – Samsa war Reisender –, hing das Bild, das er vor kurzem aus einer illustrierten Zeitschrift ausgeschnitten und in einem hübschen, vergoldeten Rahmen untergebracht hatte.",
+          "en": "Above the table, on which a collection of cloth samples was spread out and unpacked – Samsa was a travelling salesman – hung the picture he had recently cut out of an illustrated magazine and put in a pretty gilt frame."
+        },
+        {
+          "de": "Es stellte eine Dame dar, die, mit einem Pelzhut und einer Pelzboa versehen, aufrecht dasaß und einen schweren Pelzmuff, in dem ihr ganzer Unterarm verschwunden war, dem Beschauer entgegenhob.",
+          "en": "It showed a lady sitting upright, wearing a fur hat and a fur boa, holding out towards the viewer a heavy fur muff into which her whole forearm had disappeared."
+        }
       ]
     },
     {
@@ -121,6 +157,16 @@
           "de": "die Seite, die Seiten",
           "en": "side; page"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Gregors Blick richtete sich dann zum Fenster, und das trübe Wetter – man hörte Regentropfen auf das Fensterblech aufschlagen – machte ihn ganz melancholisch.",
+          "en": "Gregor's gaze then turned to the window, and the gloomy weather – you could hear raindrops hitting the metal windowsill – made him quite melancholy."
+        },
+        {
+          "de": "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße«, dachte er, aber das war gänzlich undurchführbar, denn er war gewöhnt, auf der rechten Seite zu schlafen, konnte sich aber in seinem gegenwärtigen Zustand nicht in diese Lage bringen.",
+          "en": "'What if I slept a little longer and forgot all this nonsense,' he thought, but that was completely impossible, because he was used to sleeping on his right side and in his present state he couldn't get into that position."
+        }
       ]
     },
     {
@@ -153,6 +199,16 @@
           "de": "aufhören",
           "en": "to stop",
           "note": "Kafka writes the older 'ablassen'"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Mit welcher Kraft er sich auch auf die rechte Seite warf, immer wieder schaukelte er in die Rückenlage zurück.",
+          "en": "However hard he threw himself onto his right side, he always rocked back onto his back again."
+        },
+        {
+          "de": "Er versuchte es wohl hundertmal, schloss die Augen, um die zappelnden Beine nicht sehen zu müssen, und ließ erst ab, als er in der Seite einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann.",
+          "en": "He must have tried it a hundred times, closing his eyes so he wouldn't have to see his wriggling legs, and only stopped when he began to feel a faint, dull pain in his side that he had never felt before."
         }
       ]
     },
@@ -194,6 +250,24 @@
           "de": "außerdem",
           "en": "besides, in addition"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Ach Gott«, dachte er, »was für einen anstrengenden Beruf habe ich gewählt!",
+          "en": "'Oh God,' he thought, 'what an exhausting job I've chosen!"
+        },
+        {
+          "de": "Tagaus, tagein auf der Reise.",
+          "en": "Travelling day in, day out."
+        },
+        {
+          "de": "Die geschäftlichen Aufregungen sind viel größer, als im eigentlichen Geschäft zu Hause, und außerdem ist mir noch diese Plage des Reisens auferlegt, die Sorgen um die Zuganschlüsse, das unregelmäßige, schlechte Essen, ein immer wechselnder, nie andauernder, nie herzlich werdender menschlicher Verkehr.",
+          "en": "The stress of doing business is much greater than in the actual office at home, and on top of that I'm stuck with this curse of travelling: worrying about train connections, bad and irregular meals, and always new people you never get to know properly or become friends with."
+        },
+        {
+          "de": "Der Teufel soll das alles holen!«",
+          "en": "To hell with it all!'"
+        }
       ]
     },
     {
@@ -225,6 +299,12 @@
         {
           "de": "zurückziehen",
           "en": "to pull back"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Er fühlte ein leichtes Jucken oben auf dem Bauch; schob sich auf dem Rücken langsam näher zum Bettpfosten, um den Kopf besser heben zu können; fand die juckende Stelle, die mit lauter kleinen weißen Pünktchen besetzt war, die er nicht zu beurteilen verstand; und wollte mit einem Bein die Stelle betasten, zog es aber gleich zurück, denn bei der Berührung umwehten ihn Kälteschauer.",
+          "en": "He felt a slight itch up on his belly; slowly pushed himself on his back closer to the bedpost so he could lift his head better; found the itchy spot, which was covered with lots of little white dots he couldn't make sense of; and tried to touch the spot with one leg, but pulled it back at once, because the touch sent cold shivers through him."
         }
       ]
     },
@@ -263,6 +343,32 @@
           "en": "to get fired, to be kicked out",
           "note": "colloquial; Kafka: hinausfliegen"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Er glitt wieder in seine frühere Lage zurück.",
+          "en": "He slid back into his earlier position."
+        },
+        {
+          "de": "»Dies frühzeitige Aufstehen«, dachte er, »macht einen ganz blödsinnig.",
+          "en": "'Getting up this early,' he thought, 'makes you completely stupid."
+        },
+        {
+          "de": "Der Mensch muss seinen Schlaf haben.",
+          "en": "People need their sleep."
+        },
+        {
+          "de": "Andere Reisende leben wie Haremsfrauen.",
+          "en": "Other salesmen live like women in a harem."
+        },
+        {
+          "de": "Wenn ich zum Beispiel im Laufe des Vormittags ins Gasthaus zurückgehe, um die erlangten Aufträge zu überschreiben, sitzen diese Herren erst beim Frühstück.",
+          "en": "When I go back to the inn in the middle of the morning, for example, to write up the orders I've got, those gentlemen are only just having breakfast."
+        },
+        {
+          "de": "Das sollte ich bei meinem Chef versuchen; ich würde auf der Stelle hinausfliegen.",
+          "en": "I should try that with my boss; I'd be fired on the spot."
+        }
       ]
     },
     {
@@ -296,6 +402,24 @@
         {
           "de": "schwerhörig",
           "en": "hard of hearing"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Wer weiß übrigens, ob das nicht sehr gut für mich wäre.",
+          "en": "Who knows, though, whether that wouldn't be very good for me."
+        },
+        {
+          "de": "Wenn ich mich nicht wegen meiner Eltern zurückhielte, ich hätte längst gekündigt, ich wäre vor den Chef hingetreten und hätte ihm meine Meinung von Grund des Herzens aus gesagt.",
+          "en": "If I weren't holding back because of my parents, I'd have quit long ago; I'd have gone up to the boss and told him exactly what I think of him from the bottom of my heart."
+        },
+        {
+          "de": "Vom Pult hätte er fallen müssen!",
+          "en": "He'd have fallen off his desk!"
+        },
+        {
+          "de": "Es ist auch eine sonderbare Art, sich auf das Pult zu setzen und von der Höhe herab mit dem Angestellten zu reden, der überdies wegen der Schwerhörigkeit des Chefs ganz nahe herantreten muss.",
+          "en": "It's a strange way to behave, too, sitting up on the desk and talking down to the employee, who on top of that has to come right up close because the boss is hard of hearing."
         }
       ]
     },
@@ -334,6 +458,20 @@
           "de": "vorläufig",
           "en": "for now"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Nun, die Hoffnung ist noch nicht gänzlich aufgegeben, habe ich einmal das Geld beisammen, um die Schuld der Eltern an ihn abzuzahlen – es dürfte noch fünf bis sechs Jahre dauern –, mache ich die Sache unbedingt.",
+          "en": "Well, I haven't given up hope completely; once I've got the money together to pay off my parents' debt to him – that should take another five or six years – I'll definitely do it."
+        },
+        {
+          "de": "Dann wird der große Schnitt gemacht.",
+          "en": "Then I'll make a clean break."
+        },
+        {
+          "de": "Vorläufig allerdings muss ich aufstehen, denn mein Zug fährt um fünf.«",
+          "en": "For now, though, I have to get up, because my train leaves at five.'"
+        }
       ]
     },
     {
@@ -367,6 +505,36 @@
           "de": "klingeln",
           "en": "to ring",
           "note": "Kafka uses the older 'läuten'"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und er sah zur Weckuhr hinüber, die auf dem Kasten tickte.",
+          "en": "And he looked over at the alarm clock ticking on the chest of drawers."
+        },
+        {
+          "de": "»Himmlischer Vater!«, dachte er.",
+          "en": "'Good heavens!' he thought."
+        },
+        {
+          "de": "Es war halb sieben Uhr, und die Zeiger gingen ruhig vorwärts, es war sogar halb vorüber, es näherte sich schon dreiviertel.",
+          "en": "It was half past six, and the hands were calmly moving on; it was even past half past, it was already getting on for quarter to seven."
+        },
+        {
+          "de": "Sollte der Wecker nicht geläutet haben?",
+          "en": "Could the alarm not have gone off?"
+        },
+        {
+          "de": "Man sah vom Bett aus, dass er auf vier Uhr richtig eingestellt war; gewiss hatte er auch geläutet.",
+          "en": "You could see from the bed that it was correctly set for four o'clock; it had surely rung."
+        },
+        {
+          "de": "Ja, aber war es möglich, dieses möbelerschütternde Läuten ruhig zu verschlafen?",
+          "en": "Yes, but was it possible to sleep peacefully through that furniture-shaking ringing?"
+        },
+        {
+          "de": "Nun, ruhig hatte er ja nicht geschlafen, aber wahrscheinlich desto fester.",
+          "en": "Well, he hadn't slept peacefully, but probably all the more deeply."
         }
       ]
     },
@@ -405,6 +573,24 @@
           "de": "das Donnerwetter",
           "en": "big telling-off (lit. thunderstorm)"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Was aber sollte er jetzt tun?",
+          "en": "But what was he supposed to do now?"
+        },
+        {
+          "de": "Der nächste Zug ging um sieben Uhr; um den einzuholen, hätte er sich unsinnig beeilen müssen, und die Kollektion war noch nicht eingepackt, und er selbst fühlte sich durchaus nicht besonders frisch und beweglich.",
+          "en": "The next train left at seven; to catch it he would have had to rush like mad, and the samples weren't packed yet, and he himself didn't feel especially fresh or lively at all."
+        },
+        {
+          "de": "Und selbst wenn er den Zug einholte, ein Donnerwetter des Chefs war nicht zu vermeiden, denn der Geschäftsdiener hatte beim Fünfuhrzug gewartet und die Meldung von seiner Versäumnis längst erstattet.",
+          "en": "And even if he caught the train, there was no avoiding a telling-off from the boss, because the office boy had been waiting at the five o'clock train and had long since reported that he'd missed it."
+        },
+        {
+          "de": "Es war eine Kreatur des Chefs, ohne Rückgrat und Verstand.",
+          "en": "He was the boss's creature, with no backbone and no brains."
+        }
       ]
     },
     {
@@ -440,6 +626,28 @@
         {
           "de": "Hunger haben",
           "en": "to be hungry"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Wie nun, wenn er sich krank meldete?",
+          "en": "What if he called in sick?"
+        },
+        {
+          "de": "Das wäre aber äußerst peinlich und verdächtig, denn Gregor war während seines fünfjährigen Dienstes noch nicht einmal krank gewesen.",
+          "en": "But that would be extremely awkward and suspicious, because in his five years at the firm Gregor hadn't been ill even once."
+        },
+        {
+          "de": "Gewiss würde der Chef mit dem Krankenkassenarzt kommen, würde den Eltern wegen des faulen Sohnes Vorwürfe machen und alle Einwände durch den Hinweis auf den Krankenkassenarzt abschneiden, für den es ja überhaupt nur ganz gesunde, aber arbeitsscheue Menschen gibt.",
+          "en": "The boss would certainly come with the health-insurance doctor, blame his parents for their lazy son, and cut off every objection by pointing to the insurance doctor, for whom there are only completely healthy people who are afraid of work."
+        },
+        {
+          "de": "Und hätte er übrigens in diesem Falle so ganz unrecht?",
+          "en": "And would he really be so wrong in this case?"
+        },
+        {
+          "de": "Gregor fühlte sich tatsächlich, abgesehen von einer nach dem langen Schlaf wirklich überflüssigen Schläfrigkeit, ganz wohl und hatte sogar einen besonders kräftigen Hunger.",
+          "en": "Apart from a sleepiness that was truly unnecessary after such a long sleep, Gregor actually felt quite well and was even especially hungry."
         }
       ]
     },
@@ -477,6 +685,28 @@
           "de": "vorsichtig",
           "en": "careful"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Als er dies alles in größter Eile überlegte, ohne sich entschließen zu können, das Bett zu verlassen – gerade schlug der Wecker dreiviertel sieben – klopfte es vorsichtig an die Tür am Kopfende seines Bettes.",
+          "en": "While he was thinking all this over in a great hurry, unable to make up his mind to get out of bed – the alarm clock was just striking a quarter to seven – there was a careful knock on the door at the head of his bed."
+        },
+        {
+          "de": "»Gregor«, rief es – es war die Mutter –, »es ist dreiviertel sieben.",
+          "en": "'Gregor,' someone called – it was his mother – 'it's quarter to seven."
+        },
+        {
+          "de": "Wolltest du nicht wegfahren?«",
+          "en": "Weren't you going to leave?'"
+        },
+        {
+          "de": "Die sanfte Stimme!",
+          "en": "That gentle voice!"
+        },
+        {
+          "de": "Gregor erschrak, als er seine antwortende Stimme hörte, die wohl unverkennbar seine frühere war, in die sich aber, wie von unten her, ein nicht zu unterdrückendes, schmerzliches Piepsen mischte, das die Worte förmlich nur im ersten Augenblick in ihrer Deutlichkeit beließ, um sie im Nachklang derart zu zerstören, dass man nicht wusste, ob man recht gehört hatte.",
+          "en": "Gregor got a shock when he heard his own voice answering: it was clearly his old voice, but mixed into it, as if from below, was an unstoppable, painful squeaking that left the words clear only for the first moment and then garbled them so badly as they faded that you didn't know if you'd heard right."
+        }
       ]
     },
     {
@@ -512,6 +742,32 @@
         {
           "de": "die Faust, die Fäuste",
           "en": "fist"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Gregor hatte ausführlich antworten und alles erklären wollen, beschränkte sich aber bei diesen Umständen darauf, zu sagen: »Ja, ja, danke, Mutter, ich stehe schon auf.«",
+          "en": "Gregor had wanted to give a full answer and explain everything, but under the circumstances he just said: 'Yes, yes, thanks, Mother, I'm getting up now.'"
+        },
+        {
+          "de": "Infolge der Holztür war die Veränderung in Gregors Stimme draußen wohl nicht zu merken, denn die Mutter beruhigte sich mit dieser Erklärung und schlürfte davon.",
+          "en": "Because of the wooden door the change in Gregor's voice probably couldn't be noticed outside, since his mother was satisfied with this answer and shuffled off."
+        },
+        {
+          "de": "Aber durch das kleine Gespräch waren die anderen Familienmitglieder darauf aufmerksam geworden, dass Gregor wider Erwarten noch zu Hause war, und schon klopfte an der einen Seitentür der Vater, schwach, aber mit der Faust.",
+          "en": "But the little conversation had made the rest of the family realise that, unexpectedly, Gregor was still at home, and already his father was knocking on one of the side doors, weakly, but with his fist."
+        },
+        {
+          "de": "»Gregor, Gregor«, rief er, »was ist denn?«",
+          "en": "'Gregor, Gregor,' he called, 'what's the matter?'"
+        },
+        {
+          "de": "Und nach einer kleinen Weile mahnte er nochmals mit tieferer Stimme: »Gregor!",
+          "en": "And after a little while he warned again in a deeper voice: 'Gregor!"
+        },
+        {
+          "de": "Gregor!«",
+          "en": "Gregor!'"
         }
       ]
     },
@@ -550,6 +806,32 @@
           "en": "to lock",
           "note": "Kafka: versperren (Austrian)"
         }
+      ],
+      "sentences": [
+        {
+          "de": "An der anderen Seitentür aber klagte leise die Schwester: »Gregor?",
+          "en": "But at the other side door his sister softly asked: 'Gregor?"
+        },
+        {
+          "de": "Ist dir nicht wohl?",
+          "en": "Aren't you feeling well?"
+        },
+        {
+          "de": "Brauchst du etwas?«",
+          "en": "Do you need anything?'"
+        },
+        {
+          "de": "Nach beiden Seiten hin antwortete Gregor: »Bin schon fertig«, und bemühte sich, durch die sorgfältigste Aussprache und durch Einschaltung von langen Pausen zwischen den einzelnen Worten seiner Stimme alles Auffallende zu nehmen.",
+          "en": "To both sides Gregor answered: 'Nearly ready,' and tried, by pronouncing very carefully and leaving long pauses between the individual words, to take everything odd out of his voice."
+        },
+        {
+          "de": "Der Vater kehrte auch zu seinem Frühstück zurück, die Schwester aber flüsterte: »Gregor, mach auf, ich beschwöre dich.«",
+          "en": "His father went back to his breakfast, but his sister whispered: 'Gregor, open the door, I'm begging you.'"
+        },
+        {
+          "de": "Gregor aber dachte gar nicht daran aufzumachen, sondern lobte die vom Reisen her übernommene Vorsicht, auch zu Hause alle Türen während der Nacht zu versperren.",
+          "en": "But Gregor had no intention of opening up; instead he congratulated himself on the habit he'd picked up from travelling of locking all the doors at night, even at home."
+        }
       ]
     },
     {
@@ -586,6 +868,20 @@
           "de": "die Erkältung",
           "en": "cold (illness)",
           "note": "Kafka: Verkühlung (Austrian)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Zunächst wollte er ruhig und ungestört aufstehen, sich anziehen und vor allem frühstücken, und dann erst das Weitere überlegen, denn, das merkte er wohl, im Bett würde er mit dem Nachdenken zu keinem vernünftigen Ende kommen.",
+          "en": "First he wanted to get up quietly and undisturbed, get dressed and above all have breakfast, and only then think about everything else, because he could tell that in bed his thinking would never reach any sensible conclusion."
+        },
+        {
+          "de": "Er erinnerte sich, schon öfters im Bett irgendeinen vielleicht durch ungeschicktes Liegen erzeugten, leichten Schmerz empfunden zu haben, der sich dann beim Aufstehen als reine Einbildung herausstellte, und er war gespannt, wie sich seine heutigen Vorstellungen allmählich auflösen würden.",
+          "en": "He remembered that he had often felt some slight pain in bed, perhaps caused by lying awkwardly, which then turned out to be pure imagination once he got up, and he was curious to see how today's fantasies would gradually fade away."
+        },
+        {
+          "de": "Dass die Veränderung der Stimme nichts anderes war als der Vorbote einer tüchtigen Verkühlung, einer Berufskrankheit der Reisenden, daran zweifelte er nicht im Geringsten.",
+          "en": "He didn't doubt for a moment that the change in his voice was nothing but the first sign of a heavy cold, an occupational illness of travelling salesmen."
         }
       ]
     },
@@ -624,6 +920,28 @@
           "de": "inzwischen",
           "en": "meanwhile"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die Decke abzuwerfen war ganz einfach; er brauchte sich nur ein wenig aufzublasen und sie fiel von selbst.",
+          "en": "Throwing off the blanket was quite easy; he only had to puff himself up a little and it fell off by itself."
+        },
+        {
+          "de": "Aber weiterhin wurde es schwierig, besonders weil er so ungemein breit war.",
+          "en": "But after that it got difficult, especially because he was so extremely wide."
+        },
+        {
+          "de": "Er hätte Arme und Hände gebraucht, um sich aufzurichten; stattdessen aber hatte er nur die vielen Beinchen, die ununterbrochen in der verschiedensten Bewegung waren und die er überdies nicht beherrschen konnte.",
+          "en": "He would have needed arms and hands to sit up; instead he had only the many little legs, which were constantly moving in all sorts of ways and which, on top of that, he couldn't control."
+        },
+        {
+          "de": "Wollte er eines einmal einknicken, so war es das erste, dass er sich streckte; und gelang es ihm endlich, mit diesem Bein das auszuführen, was er wollte, so arbeiteten inzwischen alle anderen, wie freigelassen, in höchster, schmerzlicher Aufregung.",
+          "en": "If he wanted to bend one of them, the first thing it did was stretch out; and when he finally managed to make that leg do what he wanted, all the others were meanwhile flailing about, as if set free, in the greatest, painful excitement."
+        },
+        {
+          "de": "»Nur sich nicht im Bett unnütz aufhalten«, sagte sich Gregor.",
+          "en": "'Just don't lie around uselessly in bed,' Gregor told himself."
+        }
       ]
     },
     {
@@ -657,6 +975,12 @@
           "de": "im Moment",
           "en": "at the moment",
           "note": "Kafka: augenblicklich"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Zuerst wollte er mit dem unteren Teil seines Körpers aus dem Bett hinauskommen, aber dieser untere Teil, den er übrigens noch nicht gesehen hatte und von dem er sich auch keine rechte Vorstellung machen konnte, erwies sich als zu schwer beweglich; es ging so langsam; und als er schließlich, fast wild geworden, mit gesammelter Kraft, ohne Rücksicht sich vorwärtsstieß, hatte er die Richtung falsch gewählt, schlug an den unteren Bettpfosten heftig an, und der brennende Schmerz, den er empfand, belehrte ihn, dass gerade der untere Teil seines Körpers augenblicklich vielleicht der empfindlichste war.",
+          "en": "First he wanted to get out of bed with the lower part of his body, but this lower part, which he still hadn't seen and couldn't really picture, turned out to be too hard to move; it went so slowly; and when in the end, almost frantic, he pushed himself forward with all his strength and without caution, he had chosen the wrong direction, banged hard against the bottom bedpost, and the burning pain he felt taught him that the lower part of his body was, right now, perhaps the most sensitive."
         }
       ]
     },
@@ -694,6 +1018,24 @@
         {
           "de": "trotz",
           "en": "despite"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Er versuchte es daher, zuerst den Oberkörper aus dem Bett zu bekommen, und drehte vorsichtig den Kopf dem Bettrand zu.",
+          "en": "So he tried to get the upper part of his body out of bed first, and carefully turned his head towards the edge of the bed."
+        },
+        {
+          "de": "Dies gelang auch leicht, und trotz ihrer Breite und Schwere folgte schließlich die Körpermasse langsam der Wendung des Kopfes.",
+          "en": "This worked easily too, and despite its width and weight the mass of his body finally followed the turn of his head."
+        },
+        {
+          "de": "Aber als er den Kopf endlich außerhalb des Bettes in der freien Luft hielt, bekam er Angst, weiter auf diese Weise vorzurücken, denn wenn er sich schließlich so fallen ließ, musste geradezu ein Wunder geschehen, wenn der Kopf nicht verletzt werden sollte.",
+          "en": "But when at last he was holding his head outside the bed in the open air, he was afraid to go any further this way, because if he let himself fall like that it would take a real miracle for his head not to get hurt."
+        },
+        {
+          "de": "Und die Besinnung durfte er gerade jetzt um keinen Preis verlieren; lieber wollte er im Bett bleiben.",
+          "en": "And he must not lose consciousness right now at any price; he would rather stay in bed."
         }
       ]
     },
@@ -734,6 +1076,16 @@
           "en": "decision",
           "note": "Kafka: der Entschluss"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Aber als er wieder nach gleicher Mühe aufseufzend so dalag wie früher, und wieder seine Beinchen womöglich noch ärger gegeneinander kämpfen sah und keine Möglichkeit fand, in diese Willkür Ruhe und Ordnung zu bringen, sagte er sich wieder, dass er unmöglich im Bett bleiben könne und dass es das Vernünftigste sei, alles zu opfern, wenn auch nur die kleinste Hoffnung bestünde, sich dadurch vom Bett zu befreien.",
+          "en": "But when, after the same effort, he lay there sighing just as before, and again saw his little legs fighting each other perhaps even worse, and found no way to bring calm and order to this chaos, he told himself again that he couldn't possibly stay in bed and that the most sensible thing was to sacrifice everything if there was even the slightest hope of freeing himself from the bed by doing so."
+        },
+        {
+          "de": "Gleichzeitig aber vergaß er nicht, sich zwischendurch daran zu erinnern, dass viel besser als verzweifelte Entschlüsse ruhige und ruhigste Überlegung sei.",
+          "en": "At the same time, though, he didn't forget to remind himself every so often that calm – the very calmest – reflection was far better than desperate decisions."
+        }
       ]
     },
     {
@@ -769,6 +1121,20 @@
         {
           "de": "die Stille",
           "en": "silence, quiet"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "In solchen Augenblicken richtete er die Augen möglichst scharf auf das Fenster, aber leider war aus dem Anblick des Morgennebels, der sogar die andere Seite der engen Straße verhüllte, wenig Zuversicht und Munterkeit zu holen.",
+          "en": "At such moments he fixed his eyes as sharply as he could on the window, but unfortunately there was little confidence or cheer to be had from the sight of the morning fog, which even hid the other side of the narrow street."
+        },
+        {
+          "de": "»Schon sieben Uhr«, sagte er sich beim neuerlichen Schlagen des Weckers, »schon sieben Uhr und noch immer ein solcher Nebel.«",
+          "en": "'Seven o'clock already,' he said to himself when the alarm clock struck again, 'seven o'clock already and still such fog.'"
+        },
+        {
+          "de": "Und ein Weilchen lang lag er ruhig mit schwachem Atem, als erwarte er vielleicht von der völligen Stille die Wiederkehr der wirklichen und selbstverständlichen Verhältnisse.",
+          "en": "And for a little while he lay quietly, breathing weakly, as if he perhaps expected the total silence to bring back the real, normal state of things."
         }
       ]
     },
@@ -808,6 +1174,20 @@
           "de": "öffnen",
           "en": "to open"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Dann aber sagte er sich: »Ehe es einviertel acht schlägt, muss ich unbedingt das Bett vollständig verlassen haben.",
+          "en": "But then he told himself: 'Before it strikes quarter past seven I absolutely must be completely out of bed."
+        },
+        {
+          "de": "Im Übrigen wird auch bis dahin jemand aus dem Geschäft kommen, um nach mir zu fragen, denn das Geschäft wird vor sieben Uhr geöffnet.«",
+          "en": "Anyway, by then someone from the firm will come to ask about me, because the office opens before seven.'"
+        },
+        {
+          "de": "Und er machte sich nun daran, den Körper in seiner ganzen Länge vollständig gleichmäßig aus dem Bett hinauszuschaukeln.",
+          "en": "And now he set about rocking his body out of the bed along its whole length, completely evenly."
+        }
       ]
     },
     {
@@ -841,6 +1221,24 @@
           "de": "wagen",
           "en": "to dare, to risk"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Wenn er sich auf diese Weise aus dem Bett fallen ließ, blieb der Kopf, den er beim Fall scharf heben wollte, voraussichtlich unverletzt.",
+          "en": "If he let himself fall out of bed this way, his head, which he meant to lift up sharply as he fell, would probably stay unhurt."
+        },
+        {
+          "de": "Der Rücken schien hart zu sein; dem würde wohl bei dem Fall auf den Teppich nichts geschehen.",
+          "en": "His back seemed to be hard; nothing would happen to it when it fell onto the carpet."
+        },
+        {
+          "de": "Das größte Bedenken machte ihm die Rücksicht auf den lauten Krach, den es geben müsste und der wahrscheinlich hinter allen Türen wenn nicht Schrecken, so doch Besorgnisse erregen würde.",
+          "en": "What worried him most was the thought of the loud crash it would have to make, which would probably cause, if not terror, then at least concern behind all the doors."
+        },
+        {
+          "de": "Das musste aber gewagt werden.",
+          "en": "But that had to be risked."
+        }
       ]
     },
     {
@@ -873,6 +1271,12 @@
         {
           "de": "die Hilfe",
           "en": "help"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Als Gregor schon zur Hälfte aus dem Bette ragte – die neue Methode war mehr ein Spiel als eine Anstrengung, er brauchte immer nur ruckweise zu schaukeln –, fiel ihm ein, wie einfach alles wäre, wenn man ihm zu Hilfe käme.",
+          "en": "When Gregor was already sticking halfway out of the bed – the new method was more a game than an effort; he only had to keep rocking in little jerks – it occurred to him how simple everything would be if someone came to help him."
         }
       ]
     },
@@ -912,6 +1316,20 @@
           "de": "unterdrücken",
           "en": "to suppress, to hold back"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Zwei starke Leute – er dachte an seinen Vater und das Dienstmädchen – hätten vollständig genügt; sie hätten ihre Arme nur unter seinen gewölbten Rücken schieben, ihn so aus dem Bett schälen, sich mit der Last niederbeugen und dann bloß vorsichtig dulden müssen, dass er den Überschwung auf dem Fußboden vollzog, wo dann die Beinchen hoffentlich einen Sinn bekommen würden.",
+          "en": "Two strong people – he was thinking of his father and the maid – would have been quite enough; they would only have had to slide their arms under his domed back, peel him out of bed like that, bend down with the load and then just carefully let him flip himself over onto the floor, where his little legs would hopefully start to make some sense."
+        },
+        {
+          "de": "Nun, ganz abgesehen davon, dass die Türen versperrt waren, hätte er wirklich um Hilfe rufen sollen?",
+          "en": "Well, quite apart from the fact that the doors were locked, should he really have called for help?"
+        },
+        {
+          "de": "Trotz aller Not konnte er bei diesem Gedanken ein Lächeln nicht unterdrücken.",
+          "en": "Despite all his trouble he couldn't hold back a smile at the thought."
+        }
       ]
     },
     {
@@ -949,6 +1367,28 @@
           "de": "natürlich",
           "en": "of course; natural"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Schon war er so weit, dass er bei stärkerem Schaukeln kaum das Gleichgewicht noch erhielt, und sehr bald musste er sich nun endgültig entscheiden, denn es war in fünf Minuten einviertel acht, – als es an der Wohnungstür läutete.",
+          "en": "He had already got so far that when he rocked harder he could hardly keep his balance, and very soon he would have to make a final decision, because in five minutes it would be quarter past seven – when the doorbell of the flat rang."
+        },
+        {
+          "de": "»Das ist jemand aus dem Geschäft«, sagte er sich und erstarrte fast, während seine Beinchen nur desto eiliger tanzten.",
+          "en": "'That's someone from the firm,' he told himself, and almost froze, while his little legs just danced all the faster."
+        },
+        {
+          "de": "Einen Augenblick blieb alles still.",
+          "en": "For a moment everything stayed quiet."
+        },
+        {
+          "de": "»Sie öffnen nicht«, sagte sich Gregor, befangen in irgendeiner unsinnigen Hoffnung.",
+          "en": "'They're not opening,' Gregor told himself, caught up in some senseless hope."
+        },
+        {
+          "de": "Aber dann ging natürlich wie immer das Dienstmädchen festen Schrittes zur Tür und öffnete.",
+          "en": "But then of course, as always, the maid went to the door with firm steps and opened it."
+        }
       ]
     },
     {
@@ -981,6 +1421,20 @@
         {
           "de": "imstande sein",
           "en": "to be able to"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Gregor brauchte nur das erste Grußwort des Besuchers zu hören und wusste schon, wer es war – der Prokurist selbst.",
+          "en": "Gregor only had to hear the visitor's first word of greeting and he already knew who it was – the chief clerk himself."
+        },
+        {
+          "de": "Warum war nur Gregor dazu verurteilt, bei einer Firma zu dienen, wo man bei der kleinsten Versäumnis gleich den größten Verdacht fasste?",
+          "en": "Why was Gregor of all people condemned to work for a firm where the smallest slip immediately aroused the greatest suspicion?"
+        },
+        {
+          "de": "Waren denn alle Angestellten samt und sonders Lumpen, gab es denn unter ihnen keinen treuen ergebenen Menschen, der, wenn er auch nur ein paar Morgenstunden für das Geschäft nicht ausgenützt hatte, vor Gewissensbissen närrisch wurde und geradezu nicht imstande war, das Bett zu verlassen?",
+          "en": "Were all the employees, every single one of them, good-for-nothings – was there not one loyal, devoted person among them who, if he failed to use even a couple of morning hours for the firm, would go mad with guilt and be literally unable to get out of bed?"
         }
       ]
     },
@@ -1016,6 +1470,12 @@
           "de": "anvertrauen",
           "en": "to entrust"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Genügte es wirklich nicht, einen Lehrjungen nachfragen zu lassen – wenn überhaupt diese Fragerei nötig war –, musste da der Prokurist selbst kommen, und musste dadurch der ganzen unschuldigen Familie gezeigt werden, dass die Untersuchung dieser verdächtigen Angelegenheit nur dem Verstand des Prokuristen anvertraut werden konnte?",
+          "en": "Was it really not enough to send an apprentice to ask – if all this questioning was even necessary – did the chief clerk himself have to come, and did the whole innocent family have to be shown that the investigation of this suspicious matter could only be trusted to the chief clerk's intelligence?"
+        }
       ]
     },
     {
@@ -1049,6 +1509,24 @@
         {
           "de": "der Ärger",
           "en": "anger, annoyance; trouble"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und mehr infolge der Erregung, in welche Gregor durch diese Überlegungen versetzt wurde, als infolge eines richtigen Entschlusses, schwang er sich mit aller Macht aus dem Bett.",
+          "en": "And more because of the agitation these thoughts put him into than because of a proper decision, he swung himself out of bed with all his might."
+        },
+        {
+          "de": "Es gab einen lauten Schlag, aber ein eigentlicher Krach war es nicht.",
+          "en": "There was a loud thump, but it wasn't really a crash."
+        },
+        {
+          "de": "Ein wenig wurde der Fall durch den Teppich abgeschwächt, auch war der Rücken elastischer, als Gregor gedacht hatte, daher kam der nicht gar so auffallende dumpfe Klang.",
+          "en": "The fall was softened a little by the carpet, and his back was also more elastic than Gregor had thought – that's why the sound was a dull one and not so very noticeable."
+        },
+        {
+          "de": "Nur den Kopf hatte er nicht vorsichtig genug gehalten und ihn angeschlagen; er drehte ihn und rieb ihn an dem Teppich vor Ärger und Schmerz.",
+          "en": "Only he hadn't held his head carefully enough and had banged it; he turned it and rubbed it on the carpet in anger and pain."
         }
       ]
     },
@@ -1087,6 +1565,28 @@
           "en": "to dare",
           "note": "Kafka: wagen (more formal)"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Da drin ist etwas gefallen«, sagte der Prokurist im Nebenzimmer links.",
+          "en": "'Something fell in there,' said the chief clerk in the room next door on the left."
+        },
+        {
+          "de": "Gregor suchte sich vorzustellen, ob nicht auch einmal dem Prokuristen etwas Ähnliches passieren könnte, wie heute ihm; die Möglichkeit dessen musste man doch eigentlich zugeben.",
+          "en": "Gregor tried to imagine whether something like what happened to him today might not happen to the chief clerk one day too; you really had to admit it was possible."
+        },
+        {
+          "de": "Aber wie zur rohen Antwort auf diese Frage machte jetzt der Prokurist im Nebenzimmer ein paar bestimmte Schritte und ließ seine Lackstiefel knarren.",
+          "en": "But as if in rude answer to this question, the chief clerk now took a few firm steps in the next room and made his patent-leather boots creak."
+        },
+        {
+          "de": "Aus dem Nebenzimmer rechts flüsterte die Schwester, um Gregor zu verständigen: »Gregor, der Prokurist ist da.«",
+          "en": "From the room on the right, his sister whispered to let Gregor know: 'Gregor, the chief clerk is here.'"
+        },
+        {
+          "de": "»Ich weiß«, sagte Gregor vor sich hin; aber so laut, dass es die Schwester hätte hören können, wagte er die Stimme nicht zu erheben.",
+          "en": "'I know,' Gregor said to himself; but he didn't dare raise his voice loud enough for his sister to hear."
+        }
       ]
     },
     {
@@ -1118,6 +1618,32 @@
         {
           "de": "freundlich",
           "en": "friendly"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "»Gregor«, sagte nun der Vater aus dem Nebenzimmer links, »der Herr Prokurist ist gekommen und erkundigt sich, warum du nicht mit dem Frühzug weggefahren bist.",
+          "en": "'Gregor,' his father now said from the room on the left, 'the chief clerk has come and is asking why you didn't leave on the early train."
+        },
+        {
+          "de": "Wir wissen nicht, was wir ihm sagen sollen.",
+          "en": "We don't know what to tell him."
+        },
+        {
+          "de": "Übrigens will er auch mit dir persönlich sprechen.",
+          "en": "Besides, he wants to speak to you in person."
+        },
+        {
+          "de": "Also bitte mach die Tür auf.",
+          "en": "So please open the door."
+        },
+        {
+          "de": "Er wird die Unordnung im Zimmer zu entschuldigen schon die Güte haben.«",
+          "en": "I'm sure he'll be kind enough to excuse the mess in your room.'"
+        },
+        {
+          "de": "»Guten Morgen, Herr Samsa«, rief der Prokurist freundlich dazwischen.",
+          "en": "'Good morning, Mr Samsa,' the chief clerk called out in a friendly voice, interrupting."
         }
       ]
     },
@@ -1151,6 +1677,28 @@
         {
           "de": "der Fahrplan, die Fahrpläne",
           "en": "timetable"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "»Ihm ist nicht wohl«, sagte die Mutter zum Prokuristen, während der Vater noch an der Tür redete, »ihm ist nicht wohl, glauben Sie mir, Herr Prokurist.",
+          "en": "'He isn't well,' his mother said to the chief clerk while his father was still talking at the door, 'he isn't well, believe me, sir."
+        },
+        {
+          "de": "Wie würde denn Gregor sonst einen Zug versäumen!",
+          "en": "Why else would Gregor miss a train!"
+        },
+        {
+          "de": "Der Junge hat ja nichts im Kopf als das Geschäft.",
+          "en": "The boy has nothing in his head but the business."
+        },
+        {
+          "de": "Ich ärgere mich schon fast, dass er abends niemals ausgeht; jetzt war er doch acht Tage in der Stadt, aber jeden Abend war er zu Hause.",
+          "en": "It almost annoys me that he never goes out in the evening; he's just been in town for eight days, but he was at home every single evening."
+        },
+        {
+          "de": "Da sitzt er bei uns am Tisch und liest still die Zeitung oder studiert Fahrpläne.",
+          "en": "He sits with us at the table and quietly reads the newspaper or studies train timetables."
         }
       ]
     },
@@ -1190,6 +1738,52 @@
           "de": "leise",
           "en": "quiet, quietly"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Haben Sie auch nur ein Wort verstanden?« fragte der Prokurist die Eltern, »er macht sich doch wohl nicht einen Narren aus uns?«",
+          "en": "'Did you understand a single word?' the chief clerk asked the parents. 'He isn't making fools of us, is he?'"
+        },
+        {
+          "de": "»Um Gottes willen«, rief die Mutter schon unter Weinen, »er ist vielleicht schwer krank, und wir quälen ihn.",
+          "en": "'For God's sake,' cried the mother, already in tears, 'perhaps he's seriously ill and we're tormenting him."
+        },
+        {
+          "de": "Grete!",
+          "en": "Grete!"
+        },
+        {
+          "de": "Grete!« schrie sie dann.",
+          "en": "Grete!' she then shouted."
+        },
+        {
+          "de": "»Mutter?« rief die Schwester von der anderen Seite.",
+          "en": "'Mother?' called the sister from the other side."
+        },
+        {
+          "de": "Sie verständigten sich durch Gregors Zimmer.",
+          "en": "They were talking to each other through Gregor's room."
+        },
+        {
+          "de": "»Du musst augenblicklich zum Arzt.",
+          "en": "'You must go to the doctor at once."
+        },
+        {
+          "de": "Gregor ist krank.",
+          "en": "Gregor is ill."
+        },
+        {
+          "de": "Rasch um den Arzt.",
+          "en": "Quick, fetch the doctor."
+        },
+        {
+          "de": "Hast du Gregor jetzt reden hören?«",
+          "en": "Did you hear Gregor speaking just now?'"
+        },
+        {
+          "de": "»Das war eine Tierstimme«, sagte der Prokurist, auffallend leise gegenüber dem Schreien der Mutter.",
+          "en": "'That was an animal's voice,' said the chief clerk, strikingly quietly compared with the mother's screaming."
+        }
       ]
     },
     {
@@ -1222,6 +1816,28 @@
         {
           "de": "das Unglück",
           "en": "misfortune, disaster"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "»Anna!",
+          "en": "'Anna!"
+        },
+        {
+          "de": "Anna!« rief der Vater durch das Vorzimmer in die Küche und klatschte in die Hände, »sofort einen Schlosser holen!«",
+          "en": "Anna!' the father called through the hall into the kitchen, clapping his hands. 'Fetch a locksmith at once!'"
+        },
+        {
+          "de": "Und schon liefen die zwei Mädchen mit rauschenden Röcken durch das Vorzimmer – wie hatte sich die Schwester denn so schnell angezogen?",
+          "en": "And already the two girls were running through the hall with rustling skirts – how had his sister got dressed so quickly?"
+        },
+        {
+          "de": "– und rissen die Wohnungstüre auf.",
+          "en": "– and flung open the front door of the flat."
+        },
+        {
+          "de": "Man hörte gar nicht die Türe zuschlagen; sie hatten sie wohl offen gelassen, wie es in Wohnungen zu sein pflegt, in denen ein großes Unglück geschehen ist.",
+          "en": "There was no sound of the door slamming; they had probably left it open, as tends to happen in homes where a great misfortune has occurred."
         }
       ]
     },
@@ -1261,6 +1877,20 @@
           "de": "die Spannung",
           "en": "suspense, excitement"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Hören Sie nur«, sagte der Prokurist im Nebenzimmer, »er dreht den Schlüssel um.«",
+          "en": "'Just listen,' said the chief clerk in the next room, 'he's turning the key.'"
+        },
+        {
+          "de": "Das war für Gregor eine große Aufmunterung; aber alle hätten ihm zurufen sollen, auch der Vater und die Mutter: »Frisch, Gregor«, hätten sie rufen sollen, »immer nur heran, fest an das Schloss heran!«",
+          "en": "That was a great encouragement for Gregor; but they all should have called out to him, his father and mother too: 'Go on, Gregor,' they should have shouted, 'keep going, get right at that lock!'"
+        },
+        {
+          "de": "Und in der Vorstellung, dass alle seine Bemühungen mit Spannung verfolgten, verbiss er sich mit allem, was er an Kraft aufbringen konnte, besinnungslos in den Schlüssel.",
+          "en": "And imagining that everyone was following his efforts with excitement, he bit blindly into the key with all the strength he could muster."
+        }
       ]
     },
     {
@@ -1294,6 +1924,20 @@
           "de": "die Klinke, die Klinken",
           "en": "door handle"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Je nach dem Fortschreiten der Drehung des Schlüssels umtanzte er das Schloss, hielt sich jetzt nur noch mit dem Munde aufrecht, und je nach Bedarf hing er sich an den Schlüssel oder drückte ihn dann wieder nieder mit der ganzen Last seines Körpers.",
+          "en": "As the key turned further, he danced around the lock; now he was holding himself upright with his mouth alone, and as needed he either hung on the key or pressed it down again with the whole weight of his body."
+        },
+        {
+          "de": "Der hellere Klang des endlich zurückschnappenden Schlosses erweckte Gregor förmlich.",
+          "en": "The brighter sound of the lock finally snapping back really brought Gregor to his senses."
+        },
+        {
+          "de": "Aufatmend sagte er sich: »Ich habe also den Schlosser nicht gebraucht«, und legte den Kopf auf die Klinke, um die Türe gänzlich zu öffnen.",
+          "en": "With a sigh of relief he said to himself: 'So I didn't need the locksmith after all,' and laid his head on the handle to open the door all the way."
+        }
       ]
     },
     {
@@ -1323,6 +1967,16 @@
           "de": "fallen",
           "en": "to fall"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Da er die Türe auf diese Weise öffnen musste, war sie eigentlich schon recht weit geöffnet, und er selbst noch nicht zu sehen.",
+          "en": "Because he had to open the door in this way, it was actually already wide open while he himself still couldn't be seen."
+        },
+        {
+          "de": "Er musste sich erst langsam um den einen Türflügel herumdrehen, und zwar sehr vorsichtig, wenn er nicht gerade vor dem Eintritt ins Zimmer plump auf den Rücken fallen wollte.",
+          "en": "He first had to turn himself slowly round one half of the door, and very carefully at that, if he didn't want to fall flat on his back right at the entrance to the room."
+        }
       ]
     },
     {
@@ -1350,6 +2004,12 @@
         {
           "de": "unsichtbar",
           "en": "invisible"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Er war noch mit jener schwierigen Bewegung beschäftigt und hatte nicht Zeit, auf anderes zu achten, da hörte er schon den Prokuristen ein lautes »Oh!« ausstoßen – es klang, wie wenn der Wind saust – und nun sah er ihn auch, wie er, der der Nächste an der Türe war, die Hand gegen den offenen Mund drückte und langsam zurückwich, als vertreibe ihn eine unsichtbare, gleichmäßig fortwirkende Kraft.",
+          "en": "He was still busy with that difficult movement and had no time to pay attention to anything else when he heard the chief clerk let out a loud 'Oh!' – it sounded like the wind rushing – and now he saw him too: he was the nearest to the door, and he pressed his hand against his open mouth and slowly backed away, as if driven off by an invisible force that kept pushing steadily."
         }
       ]
     },
@@ -1382,6 +2042,16 @@
         {
           "de": "die Brust",
           "en": "chest; breast"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die Mutter – sie stand hier trotz der Anwesenheit des Prokuristen mit von der Nacht her noch aufgelösten, hoch sich sträubenden Haaren – sah zuerst mit gefalteten Händen den Vater an, ging dann zwei Schritte zu Gregor hin und fiel inmitten ihrer rings um sie herum sich ausbreitenden Röcke nieder, das Gesicht ganz unauffindbar zu ihrer Brust gesenkt.",
+          "en": "His mother – despite the chief clerk being there, she was standing with her hair still loose from the night and sticking up – first looked at his father with her hands clasped, then took two steps towards Gregor and sank down in the middle of her skirts, which spread out all around her, her face hidden, sunk onto her chest."
+        },
+        {
+          "de": "Der Vater ballte mit feindseligem Ausdruck die Faust, als wolle er Gregor in sein Zimmer zurückstoßen, sah sich dann unsicher im Wohnzimmer um, beschattete dann mit den Händen die Augen und weinte, dass sich seine mächtige Brust schüttelte.",
+          "en": "His father clenched his fist with a hostile expression, as if he wanted to push Gregor back into his room, then looked uncertainly around the living room, covered his eyes with his hands and wept so hard that his powerful chest shook."
         }
       ]
     },
@@ -1421,6 +2091,20 @@
           "de": "der Arm, die Arme",
           "en": "arm"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Mutter, Mutter«, sagte Gregor leise und sah zu ihr hinauf.",
+          "en": "'Mother, Mother,' said Gregor softly, looking up at her."
+        },
+        {
+          "de": "Der Prokurist war ihm für einen Augenblick ganz aus dem Sinn gekommen; dagegen konnte er sich nicht versagen, im Anblick des fließenden Kaffees mehrmals mit den Kiefern ins Leere zu schnappen.",
+          "en": "For a moment he had completely forgotten the chief clerk; instead, at the sight of the flowing coffee, he couldn't stop himself from snapping his jaws at the empty air several times."
+        },
+        {
+          "de": "Darüber schrie die Mutter neuerdings auf, flüchtete vom Tisch und fiel dem ihr entgegeneilenden Vater in die Arme.",
+          "en": "At this his mother screamed again, fled from the table and fell into the arms of his father, who was hurrying towards her."
+        }
       ]
     },
     {
@@ -1452,6 +2136,16 @@
         {
           "de": "verschwinden",
           "en": "to disappear"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Aber Gregor hatte jetzt keine Zeit für seine Eltern; der Prokurist war schon auf der Treppe; das Kinn auf dem Geländer, sah er noch zum letzten Male zurück.",
+          "en": "But Gregor had no time for his parents now; the chief clerk was already on the stairs; with his chin on the banister he looked back one last time."
+        },
+        {
+          "de": "Gregor nahm einen Anlauf, um ihn möglichst sicher einzuholen; der Prokurist musste etwas ahnen, denn er machte einen Sprung über mehrere Stufen und verschwand; »Huh!« aber schrie er noch, es klang durchs ganze Treppenhaus.",
+          "en": "Gregor took a run-up so as to be sure of catching him; the chief clerk must have sensed something, because he leapt down several steps at once and disappeared; but he still shouted 'Huh!', and it echoed through the whole stairwell."
         }
       ]
     },
@@ -1485,6 +2179,12 @@
         {
           "de": "zurücktreiben",
           "en": "to drive back"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Leider schien nun auch diese Flucht des Prokuristen den Vater, der bisher verhältnismäßig gefasst gewesen war, völlig zu verwirren, denn statt selbst dem Prokuristen nachzulaufen oder wenigstens Gregor in der Verfolgung nicht zu hindern, packte er mit der Rechten den Stock des Prokuristen, den dieser mit Hut und Überzieher auf einem Sessel zurückgelassen hatte, holte mit der Linken eine große Zeitung vom Tisch und machte sich unter Füßestampfen daran, Gregor durch Schwenken des Stockes und der Zeitung in sein Zimmer zurückzutreiben.",
+          "en": "Unfortunately, the chief clerk's flight now seemed to throw the father, who until then had been relatively composed, into complete confusion; for instead of running after the chief clerk himself, or at least not stopping Gregor from chasing him, he seized with his right hand the chief clerk's walking stick, which he had left behind on a chair with his hat and overcoat, grabbed a large newspaper from the table with his left, and, stamping his feet, set about driving Gregor back into his room by waving the stick and the newspaper at him."
         }
       ]
     },
@@ -1525,6 +2225,20 @@
           "en": "dark",
           "note": "today usually: dunkel"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Erst in der Abenddämmerung erwachte Gregor aus seinem schweren ohnmachtähnlichen Schlaf.",
+          "en": "Not until dusk did Gregor wake from his heavy, almost unconscious sleep."
+        },
+        {
+          "de": "Er wäre gewiss nicht viel später auch ohne Störung erwacht, denn er fühlte sich genügend ausgeruht und ausgeschlafen, doch schien es ihm, als hätte ihn ein flüchtiger Schritt und ein vorsichtiges Schließen der zum Vorzimmer führenden Tür geweckt.",
+          "en": "He would certainly have woken not much later even without being disturbed, because he felt he had rested and slept enough, but it seemed to him that a hurried step and the careful closing of the door to the hall had woken him."
+        },
+        {
+          "de": "Der Schein der elektrischen Straßenbahn lag bleich hier und da auf der Zimmerdecke und auf den höheren Teilen der Möbel, aber unten bei Gregor war es finster.",
+          "en": "The glow of the electric trams lay pale here and there on the ceiling and on the higher parts of the furniture, but down where Gregor was it was dark."
+        }
       ]
     },
     {
@@ -1556,6 +2270,20 @@
         {
           "de": "das Bein, die Beine",
           "en": "leg"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Langsam schob er sich, noch ungeschickt mit seinen Fühlern tastend, die er jetzt erst schätzen lernte, zur Türe hin, um nachzusehen, was dort geschehen war.",
+          "en": "Slowly he pushed himself towards the door, still groping clumsily with his feelers, which he was only now learning to value, to see what had happened there."
+        },
+        {
+          "de": "Seine linke Seite schien eine einzige lange, unangenehm spannende Narbe, und er musste auf seinen zwei Beinreihen regelrecht hinken.",
+          "en": "His left side seemed to be one single long, unpleasantly tight scar, and he really had to limp on his two rows of legs."
+        },
+        {
+          "de": "Ein Beinchen war übrigens im Laufe der vormittägigen Vorfälle schwer verletzt worden – es war fast ein Wunder, dass nur eines verletzt worden war – und schleppte leblos nach.",
+          "en": "One little leg, by the way, had been badly hurt during the events of the morning – it was almost a miracle that only one had been hurt – and it dragged along lifelessly behind him."
         }
       ]
     },
@@ -1589,6 +2317,20 @@
           "de": "tauchen",
           "en": "to dip, to dive"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Erst bei der Tür merkte er, was ihn dorthin eigentlich gelockt hatte; es war der Geruch von etwas Essbarem gewesen.",
+          "en": "Only when he got to the door did he notice what had actually drawn him there; it had been the smell of something to eat."
+        },
+        {
+          "de": "Denn dort stand ein Napf mit süßer Milch gefüllt, in der kleine Schnitte von Weißbrot schwammen.",
+          "en": "For there stood a bowl filled with sweet milk, with little pieces of white bread floating in it."
+        },
+        {
+          "de": "Fast hätte er vor Freude gelacht, denn er hatte noch größeren Hunger als am Morgen, und gleich tauchte er seinen Kopf fast bis über die Augen in die Milch hinein.",
+          "en": "He could almost have laughed for joy, because he was even hungrier than in the morning, and he immediately dipped his head into the milk almost up over his eyes."
+        }
       ]
     },
     {
@@ -1620,6 +2362,12 @@
         {
           "de": "kriechen",
           "en": "to crawl"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Aber bald zog er ihn enttäuscht wieder zurück; nicht nur, dass ihm das Essen wegen seiner heiklen linken Seite Schwierigkeiten machte – und er konnte nur essen, wenn der ganze Körper schnaufend mitarbeitete –, so schmeckte ihm überdies die Milch, die sonst sein Lieblingsgetränk war und die ihm gewiss die Schwester deshalb hereingestellt hatte, gar nicht, ja er wandte sich fast mit Widerwillen von dem Napf ab und kroch in die Zimmermitte zurück.",
+          "en": "But soon he pulled it out again in disappointment; not only did eating cause him difficulties because of his sore left side – and he could only eat if his whole body joined in, panting – but on top of that the milk, which was normally his favourite drink and which his sister had surely put in for that very reason, didn't taste good to him at all; in fact he turned away from the bowl almost in disgust and crawled back to the middle of the room."
         }
       ]
     },
@@ -1660,6 +2408,16 @@
           "en": "dinner, supper",
           "note": "Kafka: das Nachtmahl (Austrian)"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sie brachte ihm, um seinen Geschmack zu prüfen, eine ganze Auswahl, alles auf einer alten Zeitung ausgebreitet.",
+          "en": "To test his taste, she brought him a whole selection, all spread out on an old newspaper."
+        },
+        {
+          "de": "Da war altes halbverfaultes Gemüse; Knochen vom Nachtmahl her, die von festgewordener weißer Sauce umgeben waren; ein paar Rosinen und Mandeln; ein Käse, den Gregor vor zwei Tagen für ungenießbar erklärt hatte; ein trockenes Brot, ein mit Butter beschmiertes Brot und ein mit Butter beschmiertes und gesalzenes Brot.",
+          "en": "There were old, half-rotten vegetables; bones left over from supper, covered in white sauce that had gone solid; a few raisins and almonds; a cheese that Gregor had declared inedible two days before; a dry piece of bread, a piece of bread and butter, and a piece of bread and butter with salt."
+        }
       ]
     },
     {
@@ -1693,6 +2451,16 @@
         {
           "de": "dürfen",
           "en": "to be allowed to"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Außerdem stellte sie zu dem allen noch den wahrscheinlich ein für alle Mal für Gregor bestimmten Napf, in den sie Wasser gegossen hatte.",
+          "en": "Besides all this she also put down the bowl, which was probably meant for Gregor once and for all, and poured water into it."
+        },
+        {
+          "de": "Und aus Zartgefühl, da sie wusste, dass Gregor vor ihr nicht essen würde, entfernte sie sich eiligst und drehte sogar den Schlüssel um, damit nur Gregor merken könne, dass er es sich so behaglich machen dürfe, wie er wolle.",
+          "en": "And out of tact, because she knew Gregor wouldn't eat in front of her, she left as fast as she could and even turned the key, just so Gregor could tell that he could make himself as comfortable as he liked."
         }
       ]
     },
@@ -1733,6 +2501,12 @@
           "de": "das Konservatorium",
           "en": "music college, conservatory"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Nur die Schwester war Gregor doch noch nahe geblieben, und es war sein geheimer Plan, sie, die zum Unterschied von Gregor Musik sehr liebte und rührend Violine zu spielen verstand, nächstes Jahr, ohne Rücksicht auf die großen Kosten, die das verursachen musste, und die man schon auf andere Weise hereinbringen würde, auf das Konservatorium zu schicken.",
+          "en": "Only his sister had stayed close to Gregor, and it was his secret plan to send her – who, unlike Gregor, loved music very much and could play the violin movingly – to the conservatory next year, regardless of the great expense that would involve, which could be made up for in some other way."
+        }
       ]
     },
     {
@@ -1771,6 +2545,16 @@
           "de": "vergessen",
           "en": "to forget"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Und ist es dann nicht so«, schloss die Mutter ganz leise, wie sie überhaupt fast flüsterte, als wolle sie vermeiden, dass Gregor, dessen genauen Aufenthalt sie ja nicht kannte, auch nur den Klang der Stimme höre, denn dass er die Worte nicht verstand, davon war sie überzeugt, »und ist es nicht so, als ob wir durch die Entfernung der Möbel zeigten, dass wir jede Hoffnung auf Besserung aufgeben und ihn rücksichtslos sich selbst überlassen?",
+          "en": "'And isn't it the case,' the mother ended very quietly – she was almost whispering the whole time, as if she wanted to avoid Gregor, whose exact whereabouts she didn't know, hearing even the sound of her voice, because she was convinced that he didn't understand the words – 'and isn't it as if, by taking out the furniture, we were showing that we're giving up all hope of him getting better and heartlessly leaving him to himself?"
+        },
+        {
+          "de": "Ich glaube, es wäre das Beste, wir suchen das Zimmer genau in dem Zustand zu erhalten, in dem es früher war, damit Gregor, wenn er wieder zu uns zurückkommt, alles unverändert findet und umso leichter die Zwischenzeit vergessen kann.«",
+          "en": "I think it would be best if we try to keep the room exactly the way it was before, so that when Gregor comes back to us he finds everything unchanged and can forget the time in between all the more easily.'"
+        }
       ]
     },
     {
@@ -1807,6 +2591,16 @@
           "de": "erben",
           "en": "to inherit"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Beim Anhören dieser Worte der Mutter erkannte Gregor, dass der Mangel jeder unmittelbaren menschlichen Ansprache, verbunden mit dem einförmigen Leben inmitten der Familie, im Laufe dieser zwei Monate seinen Verstand hatte verwirren müssen, denn anders konnte er es sich nicht erklären, dass er ernsthaft darnach hatte verlangen können, dass sein Zimmer ausgeleert würde.",
+          "en": "Hearing these words of his mother's, Gregor realised that the lack of any direct human conversation, together with the monotonous life in the middle of the family, must have confused his mind over these two months, because otherwise he couldn't explain how he could seriously have wanted his room to be emptied."
+        },
+        {
+          "de": "Hatte er wirklich Lust, das warme, mit ererbten Möbeln gemütlich ausgestattete Zimmer in eine Höhle verwandeln zu lassen, in der er dann freilich nach allen Richtungen ungestört würde kriechen können, jedoch auch unter gleichzeitigem, schnellen, gänzlichen Vergessen seiner menschlichen Vergangenheit?",
+          "en": "Did he really want the warm room, cosily furnished with inherited furniture, to be turned into a cave where he could of course crawl around undisturbed in every direction – but at the same time quickly and completely forget his human past?"
+        }
       ]
     },
     {
@@ -1839,6 +2633,16 @@
         {
           "de": "der Vorteil, die Vorteile",
           "en": "advantage"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "War er doch jetzt schon nahe daran, zu vergessen, und nur die seit langem nicht gehörte Stimme der Mutter hatte ihn aufgerüttelt.",
+          "en": "After all, he was already close to forgetting, and only his mother's voice, which he hadn't heard for so long, had shaken him awake."
+        },
+        {
+          "de": "Nichts sollte entfernt werden, alles musste bleiben, die guten Einwirkungen der Möbel auf seinen Zustand konnte er nicht entbehren; und wenn die Möbel ihn hinderten, das sinnlose Herumkriechen zu betreiben, so war es kein Schaden, sondern ein großer Vorteil.",
+          "en": "Nothing should be taken away; everything had to stay; he couldn't do without the good effect the furniture had on his condition; and if the furniture stopped him from crawling around pointlessly, that was no loss but a great advantage."
         }
       ]
     },
@@ -1878,6 +2682,20 @@
           "de": "der Pelz, die Pelze",
           "en": "fur"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Und so brach er denn hervor – die Frauen stützten sich gerade im Nebenzimmer an den Schreibtisch, um ein wenig zu verschnaufen –, wechselte viermal die Richtung des Laufes, er wusste wirklich nicht, was er zuerst retten sollte, da sah er an der im Übrigen schon leeren Wand auffallend das Bild der in lauter Pelzwerk gekleideten Dame hängen, kroch eilends hinauf und presste sich an das Glas, das ihn festhielt und seinem heißen Bauch wohltat.",
+          "en": "And so he broke out – the women were just leaning on the desk in the next room to get their breath back – changed direction four times, since he really didn't know what to save first, and then he saw, standing out on the otherwise already empty wall, the picture of the lady dressed all in fur; he quickly crawled up and pressed himself against the glass, which held him fast and felt good on his hot belly."
+        },
+        {
+          "de": "Dieses Bild wenigstens, das Gregor jetzt ganz verdeckte, würde nun gewiss niemand wegnehmen.",
+          "en": "This picture at least, which Gregor now covered completely, nobody would take away now."
+        },
+        {
+          "de": "Er verdrehte den Kopf nach der Tür des Wohnzimmers, um die Frauen bei ihrer Rückkehr zu beobachten.",
+          "en": "He twisted his head towards the living-room door to watch the women when they came back."
+        }
       ]
     },
     {
@@ -1910,6 +2728,24 @@
           "de": "zurückgehen",
           "en": "to go back"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sie hatten sich nicht viel Ruhe gegönnt und kamen schon wieder; Grete hatte den Arm um die Mutter gelegt und trug sie fast.",
+          "en": "They hadn't allowed themselves much of a rest and were already coming back; Grete had put her arm around her mother and was almost carrying her."
+        },
+        {
+          "de": "»Also was nehmen wir jetzt?« sagte Grete und sah sich um.",
+          "en": "'So what shall we take now?' said Grete, looking around."
+        },
+        {
+          "de": "Da kreuzten sich ihre Blicke mit denen Gregors an der Wand.",
+          "en": "Then her eyes met Gregor's on the wall."
+        },
+        {
+          "de": "Wohl nur infolge der Gegenwart der Mutter behielt sie ihre Fassung, beugte ihr Gesicht zur Mutter, um diese vom Herumschauen abzuhalten, und sagte, allerdings zitternd und unüberlegt: »Komm, wollen wir nicht lieber auf einen Augenblick noch ins Wohnzimmer zurückgehen?«",
+          "en": "Probably only because her mother was there, she kept her composure, bent her face towards her mother to stop her looking around, and said, though trembling and without thinking: 'Come on, shouldn't we go back into the living room for a moment?'"
+        }
       ]
     },
     {
@@ -1937,6 +2773,24 @@
         {
           "de": "lieber",
           "en": "rather"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die Absicht Gretes war für Gregor klar, sie wollte die Mutter in Sicherheit bringen und dann ihn von der Wand hinunterjagen.",
+          "en": "Grete's intention was clear to Gregor: she wanted to get their mother to safety and then chase him down off the wall."
+        },
+        {
+          "de": "Nun, sie konnte es ja immerhin versuchen!",
+          "en": "Well, let her try!"
+        },
+        {
+          "de": "Er saß auf seinem Bild und gab es nicht her.",
+          "en": "He was sitting on his picture and wouldn't give it up."
+        },
+        {
+          "de": "Lieber würde er Grete ins Gesicht springen.",
+          "en": "He would rather jump in Grete's face."
         }
       ]
     },
@@ -1975,6 +2829,12 @@
         {
           "de": "kämmen",
           "en": "to comb"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Nun aber war er doch gut aufgerichtet; in eine straffe blaue Uniform mit Goldknöpfen gekleidet, wie sie Diener der Bankinstitute tragen; über dem hohen steifen Kragen des Rockes entwickelte sich sein starkes Doppelkinn; unter den buschigen Augenbrauen drang der Blick der schwarzen Augen frisch und aufmerksam hervor; das sonst zerzauste weiße Haar war zu einer peinlich genauen, leuchtenden Scheitelfrisur niedergekämmt.",
+          "en": "But now he was standing up straight, dressed in a tight blue uniform with gold buttons, like the ones messengers at banks wear; above the high, stiff collar of the jacket his heavy double chin spread out; under his bushy eyebrows his black eyes looked out fresh and alert; his usually messy white hair was combed down flat into a painfully exact, shiny parting."
         }
       ]
     },
@@ -2019,6 +2879,12 @@
           "de": "dulden",
           "en": "to tolerate, to put up with"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die schwere Verwundung Gregors, an der er über einen Monat litt – der Apfel blieb, da ihn niemand zu entfernen wagte, als sichtbares Andenken im Fleische sitzen –, schien selbst den Vater daran erinnert zu haben, dass Gregor trotz seiner gegenwärtigen traurigen und ekelhaften Gestalt ein Familienglied war, das man nicht wie einen Feind behandeln durfte, sondern dem gegenüber es das Gebot der Familienpflicht war, den Widerwillen hinunterzuschlucken und zu dulden, nichts als dulden.",
+          "en": "Gregor's serious wound, from which he suffered for more than a month – the apple stayed stuck in his flesh as a visible reminder, since nobody dared to remove it – seemed to have reminded even his father that, despite his present sad and disgusting shape, Gregor was a member of the family who must not be treated like an enemy; on the contrary, family duty demanded that they swallow their disgust and put up with him – just put up with him."
+        }
       ]
     },
     {
@@ -2055,6 +2921,20 @@
           "de": "sich erheben",
           "en": "to get up, to rise"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Gerade an diesem Abend – Gregor erinnerte sich nicht, während der ganzen Zeit die Violine gehört zu haben – ertönte sie von der Küche her.",
+          "en": "That very evening – Gregor couldn't remember hearing the violin during the whole time – it rang out from the kitchen."
+        },
+        {
+          "de": "Die Zimmerherren hatten schon ihr Nachtmahl beendet, der mittlere hatte eine Zeitung hervorgezogen, den zwei anderen je ein Blatt gegeben, und nun lasen sie zurückgelehnt und rauchten.",
+          "en": "The lodgers had already finished their supper; the middle one had taken out a newspaper and given the other two a page each, and now they sat leaning back, reading and smoking."
+        },
+        {
+          "de": "Als die Violine zu spielen begann, wurden sie aufmerksam, erhoben sich und gingen auf den Fußspitzen zur Vorzimmertür, in der sie aneinandergedrängt stehen blieben.",
+          "en": "When the violin began to play, they took notice, got up and went on tiptoe to the door to the hall, where they stood huddled together."
+        }
       ]
     },
     {
@@ -2086,6 +2966,32 @@
         {
           "de": "die Noten",
           "en": "sheet music"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Man musste sie von der Küche aus gehört haben, denn der Vater rief: »Ist den Herren das Spiel vielleicht unangenehm?",
+          "en": "They must have been heard from the kitchen, because the father called: 'Do the gentlemen perhaps find the playing unpleasant?"
+        },
+        {
+          "de": "Es kann sofort eingestellt werden.«",
+          "en": "It can be stopped at once.'"
+        },
+        {
+          "de": "»Im Gegenteil«, sagte der mittlere der Herren, »möchte das Fräulein nicht zu uns hereinkommen und hier im Zimmer spielen, wo es doch viel bequemer und gemütlicher ist?«",
+          "en": "'On the contrary,' said the middle gentleman, 'wouldn't the young lady like to come in and play here in this room, where it's so much more comfortable and cosy?'"
+        },
+        {
+          "de": "»O bitte«, rief der Vater, als sei er der Violinspieler.",
+          "en": "'Oh, please!' called the father, as if he were the violinist."
+        },
+        {
+          "de": "Die Herren traten ins Zimmer zurück und warteten.",
+          "en": "The gentlemen went back into the room and waited."
+        },
+        {
+          "de": "Bald kam der Vater mit dem Notenpult, die Mutter mit den Noten und die Schwester mit der Violine.",
+          "en": "Soon the father came with the music stand, the mother with the sheet music and the sister with the violin."
         }
       ]
     },
@@ -2120,6 +3026,12 @@
           "en": "corner",
           "note": "Kafka: der Winkel"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die Schwester bereitete alles ruhig zum Spiele vor; die Eltern, die niemals früher Zimmer vermietet hatten und deshalb die Höflichkeit gegen die Zimmerherren übertrieben, wagten gar nicht, sich auf ihre eigenen Sessel zu setzen; der Vater lehnte an der Tür, die rechte Hand zwischen zwei Knöpfe des geschlossenen Livreerockes gesteckt; die Mutter aber erhielt von einem Herrn einen Sessel angeboten und saß, da sie den Sessel dort ließ, wohin ihn der Herr zufällig gestellt hatte, abseits in einem Winkel.",
+          "en": "The sister calmly got everything ready to play; the parents, who had never let rooms before and so overdid their politeness towards the lodgers, didn't even dare to sit on their own chairs; the father leaned against the door, his right hand pushed between two buttons of his buttoned-up uniform coat; the mother, though, was offered a chair by one of the gentlemen and, since she left the chair where the gentleman had happened to put it, sat off to one side in a corner."
+        }
       ]
     },
     {
@@ -2152,6 +3064,20 @@
           "de": "der Stolz",
           "en": "pride"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die Schwester begann zu spielen; Vater und Mutter verfolgten, jeder von seiner Seite, aufmerksam die Bewegungen ihrer Hände.",
+          "en": "The sister began to play; father and mother, each from their own side, closely followed the movements of her hands."
+        },
+        {
+          "de": "Gregor hatte, von dem Spiele angezogen, sich ein wenig weiter vorgewagt und war schon mit dem Kopf im Wohnzimmer.",
+          "en": "Drawn by the playing, Gregor had ventured a little further forward and already had his head in the living room."
+        },
+        {
+          "de": "Er wunderte sich kaum darüber, dass er in letzter Zeit so wenig Rücksicht auf die andern nahm; früher war diese Rücksichtnahme sein Stolz gewesen.",
+          "en": "He was hardly surprised that recently he had shown so little consideration for the others; in the past this consideration had been his pride."
+        }
       ]
     },
     {
@@ -2183,6 +3109,16 @@
         {
           "de": "makellos",
           "en": "spotless, flawless"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und dabei hätte er gerade jetzt mehr Grund gehabt, sich zu verstecken, denn infolge des Staubes, der in seinem Zimmer überall lag und bei der kleinsten Bewegung umherflog, war auch er ganz staubbedeckt; Fäden, Haare, Speiseüberreste schleppte er auf seinem Rücken und an den Seiten mit sich herum; seine Gleichgültigkeit gegen alles war viel zu groß, als dass er sich, wie früher mehrmals während des Tages, auf den Rücken gelegt und am Teppich gescheuert hätte.",
+          "en": "And yet right now he would have had more reason than ever to hide: because of the dust that lay everywhere in his room and flew up at the slightest movement, he too was completely covered in dust; he dragged threads, hairs and scraps of food around with him on his back and sides; his indifference to everything was far too great for him to lie on his back and rub himself clean on the carpet, as he used to do several times a day."
+        },
+        {
+          "de": "Und trotz dieses Zustandes hatte er keine Scheu, ein Stück auf dem makellosen Fußboden des Wohnzimmers vorzurücken.",
+          "en": "And despite this state he felt no shyness about moving a little way forward onto the spotless floor of the living room."
         }
       ]
     },
@@ -2226,6 +3162,32 @@
           "de": "zupfen",
           "en": "to tug, to pluck"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Und doch spielte die Schwester so schön.",
+          "en": "And yet his sister was playing so beautifully."
+        },
+        {
+          "de": "Ihr Gesicht war zur Seite geneigt, prüfend und traurig folgten ihre Blicke den Notenzeilen.",
+          "en": "Her face was tilted to one side, and her eyes followed the lines of music, searching and sad."
+        },
+        {
+          "de": "Gregor kroch noch ein Stück vorwärts und hielt den Kopf eng an den Boden, um möglicherweise ihren Blicken begegnen zu können.",
+          "en": "Gregor crawled forward a little more and kept his head close to the floor so that he might be able to meet her eyes."
+        },
+        {
+          "de": "War er ein Tier, da ihn Musik so ergriff?",
+          "en": "Was he an animal, if music moved him so?"
+        },
+        {
+          "de": "Ihm war, als zeige sich ihm der Weg zu der ersehnten unbekannten Nahrung.",
+          "en": "He felt as if the way to the unknown food he longed for was being shown to him."
+        },
+        {
+          "de": "Er war entschlossen, bis zur Schwester vorzudringen, sie am Rock zu zupfen und ihr dadurch anzudeuten, sie möge doch mit ihrer Violine in sein Zimmer kommen, denn niemand lohnte hier das Spiel so, wie er es lohnen wollte.",
+          "en": "He was determined to push forward to his sister, tug at her skirt and so let her know that she should come into his room with her violin, because nobody here appreciated her playing the way he would."
+        }
       ]
     },
     {
@@ -2264,6 +3226,24 @@
           "de": "der Vorwurf, die Vorwürfe",
           "en": "reproach, blame"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Liebe Eltern«, sagte die Schwester und schlug zur Einleitung mit der Hand auf den Tisch, »so geht es nicht weiter.",
+          "en": "'Dear parents,' said the sister, striking the table with her hand to begin, 'things can't go on like this."
+        },
+        {
+          "de": "Wenn ihr das vielleicht nicht einsehet, ich sehe es ein.",
+          "en": "Maybe you don't see it, but I do."
+        },
+        {
+          "de": "Ich will vor diesem Untier nicht den Namen meines Bruders aussprechen und sage daher bloß: wir müssen versuchen es loszuwerden.",
+          "en": "I won't say my brother's name in front of this monster, so all I'll say is: we must try to get rid of it."
+        },
+        {
+          "de": "Wir haben das Menschenmögliche versucht, es zu pflegen und zu dulden, ich glaube, es kann uns niemand den geringsten Vorwurf machen.«",
+          "en": "We've done everything humanly possible to look after it and put up with it; I don't think anyone can blame us in the slightest.'"
+        }
       ]
     },
     {
@@ -2297,6 +3277,24 @@
           "en": "sometimes",
           "note": "Kafka: bisweilen"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Sie hat tausendmal recht«, sagte der Vater für sich.",
+          "en": "'She's absolutely right,' the father said to himself."
+        },
+        {
+          "de": "Die Mutter, die noch immer nicht genug Atem finden konnte, fing mit einem irrsinnigen Ausdruck der Augen dumpf in die vorgehaltene Hand zu husten an.",
+          "en": "The mother, who still couldn't get enough breath, began to cough hollowly into her hand, which she held in front of her mouth, with a wild look in her eyes."
+        },
+        {
+          "de": "Die Schwester eilte zur Mutter und hielt ihr die Stirn.",
+          "en": "The sister hurried to her mother and held her forehead."
+        },
+        {
+          "de": "Der Vater schien durch die Worte der Schwester auf bestimmtere Gedanken gebracht zu sein, hatte sich aufrecht gesetzt, spielte mit seiner Dienermütze zwischen den Tellern, die noch vom Nachtmahl der Zimmerherren her auf dem Tische standen, und sah bisweilen auf den stillen Gregor hin.",
+          "en": "The sister's words seemed to have brought the father to more definite thoughts; he had sat up straight, was playing with his messenger's cap among the plates still on the table from the lodgers' supper, and every now and then looked over at the silent Gregor."
+        }
       ]
     },
     {
@@ -2328,6 +3326,24 @@
         {
           "de": "wischen",
           "en": "to wipe"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "»Wir müssen es loszuwerden suchen«, sagte die Schwester nun ausschließlich zum Vater, denn die Mutter hörte in ihrem Husten nichts, »es bringt euch noch beide um, ich sehe es kommen.",
+          "en": "'We must try to get rid of it,' the sister now said only to her father, since her mother couldn't hear anything because of her coughing. 'It will be the death of you both, I can see it coming."
+        },
+        {
+          "de": "Wenn man schon so schwer arbeiten muss, wie wir alle, kann man nicht noch zu Hause diese ewige Quälerei ertragen.",
+          "en": "When you have to work as hard as all of us do, you can't put up with this endless torment at home as well."
+        },
+        {
+          "de": "Ich kann es auch nicht mehr.«",
+          "en": "I can't take it any more either.'"
+        },
+        {
+          "de": "Und sie brach so heftig in Weinen aus, dass ihre Tränen auf das Gesicht der Mutter niederflossen, von dem sie sie mit mechanischen Handbewegungen wischte.",
+          "en": "And she burst into tears so violently that her tears ran down onto her mother's face, and she wiped them off with mechanical movements of her hand."
         }
       ]
     },
@@ -2362,6 +3378,28 @@
           "de": "möglich",
           "en": "possible"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Kind«, sagte der Vater mitleidig und mit auffallendem Verständnis, »was sollen wir aber tun?«",
+          "en": "'Child,' said the father with pity and remarkable understanding, 'but what are we to do?'"
+        },
+        {
+          "de": "Die Schwester zuckte nur die Achseln zum Zeichen der Ratlosigkeit, die sie nun während des Weinens im Gegensatz zu ihrer früheren Sicherheit ergriffen hatte.",
+          "en": "The sister only shrugged her shoulders to show the helplessness that had come over her while she was crying, so unlike her earlier confidence."
+        },
+        {
+          "de": "»Wenn er uns verstünde«, sagte der Vater halb fragend; die Schwester schüttelte aus dem Weinen heraus heftig die Hand zum Zeichen, dass daran nicht zu denken sei.",
+          "en": "'If he understood us,' said the father, half asking; the sister, still crying, shook her hand hard to show that this was out of the question."
+        },
+        {
+          "de": "»Wenn er uns verstünde«, wiederholte der Vater und nahm durch Schließen der Augen die Überzeugung der Schwester von der Unmöglichkeit dessen in sich auf, »dann wäre vielleicht ein Übereinkommen mit ihm möglich.",
+          "en": "'If he understood us,' the father repeated, closing his eyes to take in the sister's conviction that this was impossible, 'then perhaps we could come to some agreement with him."
+        },
+        {
+          "de": "Aber so –«",
+          "en": "But as it is –'"
+        }
       ]
     },
     {
@@ -2394,6 +3432,32 @@
           "de": "das Andenken",
           "en": "memory, keepsake"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Weg muss es«, rief die Schwester, »das ist das einzige Mittel, Vater.",
+          "en": "'It has to go,' cried the sister, 'that's the only way, Father."
+        },
+        {
+          "de": "Du musst bloß den Gedanken loszuwerden suchen, dass es Gregor ist.",
+          "en": "You just have to try to get rid of the idea that it's Gregor."
+        },
+        {
+          "de": "Dass wir es so lange geglaubt haben, das ist ja unser eigentliches Unglück.",
+          "en": "The fact that we believed it for so long – that's our real misfortune."
+        },
+        {
+          "de": "Aber wie kann es denn Gregor sein?",
+          "en": "But how can it be Gregor?"
+        },
+        {
+          "de": "Wenn es Gregor wäre, er hätte längst eingesehen, dass ein Zusammenleben von Menschen mit einem solchen Tier nicht möglich ist, und wäre freiwillig fortgegangen.",
+          "en": "If it were Gregor, he would have realised long ago that people can't live together with an animal like that, and he would have gone away of his own free will."
+        },
+        {
+          "de": "Wir hätten dann keinen Bruder, aber könnten weiterleben und sein Andenken in Ehren halten.",
+          "en": "Then we wouldn't have a brother, but we could go on living and honour his memory."
+        }
       ]
     },
     {
@@ -2425,6 +3489,20 @@
         {
           "de": "schützen",
           "en": "to protect"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "So aber verfolgt uns dieses Tier, vertreibt die Zimmerherren, will offenbar die ganze Wohnung einnehmen und uns auf der Gasse übernachten lassen.",
+          "en": "But as it is, this animal is persecuting us, driving away the lodgers, obviously wants to take over the whole flat and leave us to sleep in the street."
+        },
+        {
+          "de": "Sieh nur, Vater«, schrie sie plötzlich auf, »er fängt schon wieder an!«",
+          "en": "Just look, Father,' she suddenly screamed, 'he's starting again!'"
+        },
+        {
+          "de": "Und in einem für Gregor gänzlich unverständlichen Schrecken verließ die Schwester sogar die Mutter, stieß sich förmlich von ihrem Sessel ab, als wollte sie lieber die Mutter opfern, als in Gregors Nähe bleiben, und eilte hinter den Vater, der, lediglich durch ihr Benehmen erregt, auch aufstand und die Arme wie zum Schutze der Schwester vor ihr halb erhob.",
+          "en": "And in a terror that Gregor couldn't understand at all, the sister even abandoned her mother, practically pushed herself away from her chair, as if she would rather sacrifice her mother than stay near Gregor, and rushed behind her father, who, alarmed only by her behaviour, also stood up and half raised his arms in front of her as if to protect her."
         }
       ]
     },
@@ -2464,6 +3542,28 @@
           "de": "vergehen",
           "en": "to pass, to go away"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Und jetzt?« fragte sich Gregor und sah sich im Dunkeln um.",
+          "en": "'And now?' Gregor asked himself, looking around in the dark."
+        },
+        {
+          "de": "Er machte bald die Entdeckung, dass er sich nun überhaupt nicht mehr rühren konnte.",
+          "en": "He soon discovered that he couldn't move at all any more."
+        },
+        {
+          "de": "Er wunderte sich darüber nicht, eher kam es ihm unnatürlich vor, dass er sich bis jetzt tatsächlich mit diesen dünnen Beinchen hatte fortbewegen können.",
+          "en": "He wasn't surprised by this; if anything, it seemed unnatural to him that he had actually been able to get around on these thin little legs until now."
+        },
+        {
+          "de": "Im Übrigen fühlte er sich verhältnismäßig behaglich.",
+          "en": "Otherwise he felt fairly comfortable."
+        },
+        {
+          "de": "Er hatte zwar Schmerzen im ganzen Leib, aber ihm war, als würden sie allmählich schwächer und schwächer und würden schließlich ganz vergehen.",
+          "en": "He did have pains all over his body, but it seemed to him as if they were gradually getting weaker and weaker and would finally go away completely."
+        }
       ]
     },
     {
@@ -2495,6 +3595,32 @@
         {
           "de": "der Atem",
           "en": "breath"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Den verfaulten Apfel in seinem Rücken und die entzündete Umgebung, die ganz von weichem Staub bedeckt war, spürte er schon kaum.",
+          "en": "The rotten apple in his back and the inflamed area around it, all covered in soft dust, he could hardly feel any more."
+        },
+        {
+          "de": "An seine Familie dachte er mit Rührung und Liebe zurück.",
+          "en": "He thought back on his family with tenderness and love."
+        },
+        {
+          "de": "Seine Meinung darüber, dass er verschwinden müsse, war womöglich noch entschiedener, als die seiner Schwester.",
+          "en": "His own opinion that he had to disappear was, if anything, even firmer than his sister's."
+        },
+        {
+          "de": "In diesem Zustand leeren und friedlichen Nachdenkens blieb er, bis die Turmuhr die dritte Morgenstunde schlug.",
+          "en": "He stayed in this state of empty and peaceful reflection until the church clock struck three in the morning."
+        },
+        {
+          "de": "Den Anfang des allgemeinen Hellerwerdens draußen vor dem Fenster erlebte er noch.",
+          "en": "He still saw the first light beginning to grow outside the window."
+        },
+        {
+          "de": "Dann sank sein Kopf ohne seinen Willen gänzlich nieder, und aus seinen Nüstern strömte sein letzter Atem schwach hervor.",
+          "en": "Then, without his willing it, his head sank all the way down, and his last breath flowed weakly from his nostrils."
         }
       ]
     },
@@ -2535,6 +3661,36 @@
           "de": "beenden",
           "en": "to finish"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Abends wird sie entlassen«, sagte Herr Samsa, bekam aber weder von seiner Frau noch von seiner Tochter eine Antwort, denn die Bedienerin schien ihre kaum gewonnene Ruhe wieder gestört zu haben.",
+          "en": "'She'll be dismissed this evening,' said Mr Samsa, but he got no answer from either his wife or his daughter, because the cleaning woman seemed to have disturbed the calm they had only just found."
+        },
+        {
+          "de": "Sie erhoben sich, gingen zum Fenster und blieben dort, sich umschlungen haltend.",
+          "en": "They got up, went to the window and stayed there, holding each other."
+        },
+        {
+          "de": "Herr Samsa drehte sich in seinem Sessel nach ihnen um und beobachtete sie still ein Weilchen.",
+          "en": "Mr Samsa turned round in his chair towards them and watched them quietly for a little while."
+        },
+        {
+          "de": "Dann rief er: »Also kommt doch her.",
+          "en": "Then he called: 'Come over here, then."
+        },
+        {
+          "de": "Lasst schon endlich die alten Sachen.",
+          "en": "Let go of the old things at last."
+        },
+        {
+          "de": "Und nehmt auch ein wenig Rücksicht auf mich.«",
+          "en": "And show me a little consideration too.'"
+        },
+        {
+          "de": "Gleich folgten ihm die Frauen, eilten zu ihm, liebkosten ihn und beendeten rasch ihre Briefe.",
+          "en": "The women came to him at once, hurried over, caressed him and quickly finished their letters."
+        }
       ]
     },
     {
@@ -2567,6 +3723,20 @@
         {
           "de": "vielversprechend",
           "en": "promising"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Dann verließen alle drei gemeinschaftlich die Wohnung, was sie schon seit Monaten nicht getan hatten, und fuhren mit der Elektrischen ins Freie vor die Stadt.",
+          "en": "Then all three of them left the flat together, something they hadn't done for months, and took the tram out into the open country outside the town."
+        },
+        {
+          "de": "Der Wagen, in dem sie allein saßen, war ganz von warmer Sonne durchschienen.",
+          "en": "The carriage, in which they were the only passengers, was full of warm sunshine."
+        },
+        {
+          "de": "Sie besprachen, bequem auf ihren Sitzen zurückgelehnt, die Aussichten für die Zukunft, und es fand sich, dass diese bei näherer Betrachtung durchaus nicht schlecht waren, denn aller drei Anstellungen waren, worüber sie einander eigentlich noch gar nicht ausgefragt hatten, überaus günstig und besonders für später vielversprechend.",
+          "en": "Leaning back comfortably in their seats, they talked about their prospects for the future, and it turned out that on closer inspection these weren't bad at all, for all three of their jobs – which they had never really asked each other about – were very good and especially promising for later on."
         }
       ]
     },
@@ -2602,6 +3772,16 @@
           "en": "pale",
           "note": "Kafka: bleich"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die größte augenblickliche Besserung der Lage musste sich natürlich leicht durch einen Wohnungswechsel ergeben; sie wollten nun eine kleinere und billigere, aber besser gelegene und überhaupt praktischere Wohnung nehmen, als es die jetzige, noch von Gregor ausgesuchte war.",
+          "en": "The biggest immediate improvement in their situation would of course come easily from moving; they now wanted to take a smaller and cheaper flat, but one that was better located and more practical in every way than the present one, which Gregor had chosen."
+        },
+        {
+          "de": "Während sie sich so unterhielten, fiel es Herrn und Frau Samsa im Anblick ihrer immer lebhafter werdenden Tochter fast gleichzeitig ein, wie sie in der letzten Zeit trotz aller Pflege, die ihre Wangen bleich gemacht hatte, zu einem schönen und üppigen Mädchen aufgeblüht war.",
+          "en": "While they were talking like this, it occurred to Mr and Mrs Samsa, almost at the same moment, as they looked at their daughter, who was growing livelier and livelier, how she had recently blossomed into a pretty, full-figured girl, despite all the caring that had made her cheeks pale."
+        }
       ]
     },
     {
@@ -2634,6 +3814,16 @@
         {
           "de": "brav",
           "en": "good, well-behaved"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Stiller werdend und fast unbewusst durch Blicke sich verständigend, dachten sie daran, dass es nun Zeit sein werde, auch einen braven Mann für sie zu suchen.",
+          "en": "Growing quieter, and communicating almost unconsciously through glances, they thought that it would soon be time to find her a good husband too."
+        },
+        {
+          "de": "Und es war ihnen wie eine Bestätigung ihrer neuen Träume und guten Absichten, als am Ziele ihrer Fahrt die Tochter als Erste sich erhob und ihren jungen Körper dehnte.",
+          "en": "And it seemed to them like a confirmation of their new dreams and good intentions when, at the end of their journey, their daughter was the first to get up and stretched her young body."
         }
       ]
     }

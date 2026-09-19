@@ -12,6 +12,7 @@ from rich.text import Text
 
 from . import srs, ui
 from .content import Book, Content, load_content, words_in_reach
+from .verbs import verb_progress
 from .profile import Profile
 from .ui import console, icon
 
@@ -26,8 +27,9 @@ def print_translation(entry: dict, books: dict[str, Book], who: str = "You") -> 
     to_english = entry["task"] == "de2en"
     when = datetime.fromisoformat(entry["date"]).strftime("%a %d %b %H:%M")
     grade = "skipped" if entry.get("skipped") else entry.get("self_grade", "")
+    part = f"paragraph {entry['unit']}" + (", one sentence" if entry.get("reference") else "")
     console.print(f"\n[bold]{when}[/]  {ui.escape(book.short_title if book else entry['book'])} · "
-                  f"paragraph {entry['unit']} · {'German → English' if to_english else 'English → German'} · "
+                  f"{part} · {'German → English' if to_english else 'English → German'} · "
                   f"[note]{grade}[/]")
     # Labels in their own column, so long texts wrap under the text and not under the label.
     grid = Table.grid(padding=(0, 1))
@@ -35,7 +37,9 @@ def print_translation(entry: dict, books: dict[str, Book], who: str = "You") -> 
     grid.add_column()
     grid.add_row(f"  {ui.escape(who)}:", Text(entry.get("answer") or "(nothing written)", style="magenta"))
     unit = next((u for u in book.units if u.kind == "text" and u.part == entry["unit"]), None) if book else None
-    if unit:
+    if entry.get("reference"):
+        grid.add_row("  Reference:", Text(entry["reference"]))
+    elif unit:
         grid.add_row("  Reference:", Text(unit.en if to_english else unit.de))
     console.print(grid)
 
@@ -179,6 +183,9 @@ def _repetition(profile: Profile, content: Content, today: date) -> Table:
     due = sum(1 for i in items if i["sessions_left"] > 0 or (i["due_days"] and i["due_days"][0] <= today.isoformat()))
     learned = sum(c.get("paragraphs_learned", 0) for c in profile.data["days"].values())
     t.add_row("Paragraphs", f"{len(items)} being repeated ({due} due now) · [good]{learned} learned for good[/]")
+    right, done = (_days_total(profile, today, 30, k) for k in ("verbs_right", "verbs"))
+    t.add_row("Irregular verbs", verb_progress(profile.data["verbs"])
+              + (f" · {right * 100 // done}% right in the last 30 days" if done else ""))
     books = {b.id: b for b in content.books}
     struggling = [i for i in items if i.get("last_ok") is False and i["book"] in books]
     struggling.sort(key=lambda i: -i.get("misses", 0))

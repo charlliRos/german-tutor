@@ -93,3 +93,17 @@ Rules for units:
 - `en` is a faithful, natural modern English translation of exactly that unit.
 - `words`: 3–8 useful words from the unit, nouns with article (+ plural when useful).
 - `n` counts from 1 with no gaps.
+- `sentences` (optional, used for looking back): the unit sentence by sentence, `[{"de": "...", "en": "..."}]`.
+  Don't write it by hand: `python tools/sentence_pairs.py export <book> todo.json`, fill in the English,
+  then `python tools/sentence_pairs.py import todo.json <book>`. If you edit a unit's `de`, delete its
+  `sentences` and redo them (the validator tells you).
+
+## Irregular verbs — `content/verbs/*.json`
+
+```json
+{"verbs": [{"inf": "gehen", "en": "to go, to walk", "past": "ging", "perfect": "ist gegangen"}]}
+```
+
+`past` is the er/sie/es form (the app works out gingst, gingen, gingt); `perfect` includes the helper
+verb (`hat` or `ist`). Only verbs that appear in a paragraph the kid has read are practised, with the
+book sentence as the example.

@@ -39,6 +39,24 @@
           "de": "der Hof, die Höfe",
           "en": "yard, courtyard"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die Wintersonne stand nur als armer Schein, milchig und matt hinter Wolkenschichten über der engen Stadt.",
+          "en": "The winter sun was only a feeble glimmer, milky and dull behind layers of cloud above the narrow town."
+        },
+        {
+          "de": "Nass und zugig war's in den giebeligen Gassen, und manchmal fiel eine Art von weichem Hagel, nicht Eis, nicht Schnee.",
+          "en": "It was wet and draughty in the lanes between the gabled houses, and now and then a kind of soft hail fell, not ice, not snow."
+        },
+        {
+          "de": "Die Schule war aus.",
+          "en": "School was out."
+        },
+        {
+          "de": "Über den gepflasterten Hof und heraus aus der Gatterpforte strömten die Scharen der Befreiten, teilten sich und enteilten nach rechts und links.",
+          "en": "Across the paved yard and out through the gate streamed crowds of the liberated, splitting up and hurrying off to the right and left."
+        }
       ]
     },
     {
@@ -76,6 +94,16 @@
           "de": "ab und zu",
           "en": "now and then",
           "note": "Mann uses old 'hie und da'"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Große Schüler hielten mit Würde ihr Bücherpäckchen hoch gegen die linke Schulter gedrückt, indem sie mit dem rechten Arm wider den Wind dem Mittagessen entgegen ruderten; kleines Volk setzte sich lustig in Trab, dass der Eisbrei umherspritzte und die Siebensachen der Wissenschaft in den Seehundsränzeln klapperten.",
+          "en": "The older boys, with great dignity, held their bundles of books pressed high against their left shoulders while rowing with their right arms against the wind towards lunch; the little ones set off at a merry trot, so that the icy slush splashed about and the bits and pieces of learning rattled in their sealskin satchels."
+        },
+        {
+          "de": "Aber hie und da riss alles mit frommen Augen die Mützen herunter vor dem Wotanshut und dem Jupiterbart eines gemessen hinschreitenden Oberlehrers...",
+          "en": "But here and there everyone snatched off their caps with reverent eyes before the Wotan hat and Jupiter beard of a senior teacher striding past at a measured pace..."
         }
       ]
     },
@@ -115,6 +143,36 @@
           "en": "companion, classmate",
           "note": "old-fashioned; today: der Mitschüler, der Kumpel"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Kommst du endlich, Hans?« sagte Tonio Kröger, der lange auf dem Fahrdamm gewartet hatte; lächelnd trat er dem Freunde entgegen, der im Gespräch mit anderen Kameraden aus der Pforte kam und schon im Begriffe war, mit ihnen davonzugehen...",
+          "en": "“Are you finally coming, Hans?” said Tonio Kröger, who had been waiting on the street for a long time; smiling, he went up to his friend, who was coming out of the gate talking to some other boys and was just about to go off with them..."
+        },
+        {
+          "de": "»Wieso?« fragte er und sah Tonio an...",
+          "en": "“What do you mean?” he asked, looking at Tonio..."
+        },
+        {
+          "de": "»Ja, das ist wahr!",
+          "en": "“Oh yes, that's true!"
+        },
+        {
+          "de": "Nun gehen wir noch ein bisschen.«",
+          "en": "Let's go for a bit of a walk, then.”"
+        },
+        {
+          "de": "Tonio verstummte, und seine Augen trübten sich.",
+          "en": "Tonio fell silent, and his eyes clouded over."
+        },
+        {
+          "de": "Hatte Hans es vergessen, fiel es ihm erst jetzt wieder ein, dass sie heute Mittag ein wenig zusammen spazieren gehen wollten?",
+          "en": "Had Hans forgotten, was he only remembering now that they had planned to go for a little walk together this lunchtime?"
+        },
+        {
+          "de": "Und er selbst hatte sich seit der Verabredung beinahe unausgesetzt darauf gefreut!",
+          "en": "And he himself had been looking forward to it almost non-stop since they'd arranged it!"
+        }
       ]
     },
     {
@@ -148,6 +206,28 @@
         {
           "de": "das Amt, die Ämter",
           "en": "office, official post"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "»Ja, adieu, ihr!« sagte Hans Hansen zu den Kameraden.",
+          "en": "“Well, bye, you lot!” Hans Hansen said to the others."
+        },
+        {
+          "de": "»Dann gehe ich noch ein bisschen mit Kröger.«",
+          "en": "“I'll walk a bit with Kröger, then.”"
+        },
+        {
+          "de": "– Und die beiden wandten sich nach links, indes die anderen nach rechts schlenderten.",
+          "en": "And the two of them turned left, while the others strolled off to the right."
+        },
+        {
+          "de": "Hans und Tonio hatten Zeit, nach der Schule spazieren zu gehen, weil sie beide Häusern angehörten, in denen erst um vier Uhr zu Mittag gegessen wurde.",
+          "en": "Hans and Tonio had time to go for a walk after school because both belonged to households where lunch wasn't eaten until four o'clock."
+        },
+        {
+          "de": "Ihre Väter waren große Kaufleute, die öffentliche Ämter bekleideten und mächtig waren in der Stadt.",
+          "en": "Their fathers were important merchants who held public offices and were powerful in the town."
         }
       ]
     },
@@ -186,6 +266,20 @@
           "de": "wegen",
           "en": "because of"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Den Hansens gehörten schon seit manchem Menschenalter die weitläufigen Holzlagerplätze drunten am Fluss, wo gewaltige Sägemaschinen unter Fauchen und Zischen die Stämme zerlegten.",
+          "en": "For generations the Hansens had owned the sprawling timber yards down by the river, where huge sawing machines hissed and snorted as they cut up the tree trunks."
+        },
+        {
+          "de": "Aber Tonio war Konsul Krögers Sohn, dessen Getreidesäcke mit dem breiten schwarzen Firmendruck man Tag für Tag durch die Straßen kutschieren sah; und seiner Vorfahren großes altes Haus war das herrschaftlichste der ganzen Stadt...",
+          "en": "But Tonio was the son of Consul Kröger, whose grain sacks, printed with the firm's name in broad black letters, could be seen being driven through the streets day after day; and his ancestors' big old house was the grandest in the whole town..."
+        },
+        {
+          "de": "Beständig mussten die Freunde, der vielen Bekannten wegen, die Mützen herunternehmen, ja, von manchen Leuten wurden die Vierzehnjährigen zuerst gegrüßt...",
+          "en": "Because they knew so many people, the friends constantly had to take off their caps; in fact, some people even greeted the fourteen-year-olds first..."
+        }
       ]
     },
     {
@@ -222,6 +316,20 @@
         {
           "de": "der Mantel, die Mäntel",
           "en": "coat"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Beide hatten die Schulmappen über die Schultern gehängt, und beide waren sie gut und warm gekleidet; Hans in eine kurze Seemanns-Überjacke, über welcher auf Schultern und Rücken der breite, blaue Kragen seines Marineanzuges lag, und Tonio in einen grauen Gurtpaletot.",
+          "en": "Both had slung their school bags over their shoulders, and both were well and warmly dressed: Hans in a short sailor's jacket, with the wide blue collar of his sailor suit lying over its shoulders and back, and Tonio in a grey belted overcoat."
+        },
+        {
+          "de": "Hans trug eine dänische Matrosenmütze mit kurzen Bändern, unter der ein Schopf seines bastblonden Haares hervorquoll.",
+          "en": "Hans wore a Danish sailor's cap with short ribbons, and a tuft of his straw-blond hair spilled out from under it."
+        },
+        {
+          "de": "Er war außerordentlich hübsch und wohlgestaltet, breit in den Schultern und schmal in den Hüften, mit freiliegenden und scharf blickenden stahlblauen Augen.",
+          "en": "He was extraordinarily good-looking and well built, broad in the shoulders and narrow in the hips, with wide-open, sharp steel-blue eyes."
         }
       ]
     },
@@ -260,6 +368,36 @@
           "de": "der Kopf, die Köpfe",
           "en": "head"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Aber unter Tonios runder Pelzmütze blickten aus einem brünetten und ganz südlich scharf geschnittenen Gesicht dunkle und zart umschattete Augen mit zu schweren Lidern träumerisch und ein wenig zaghaft hervor...",
+          "en": "But under Tonio's round fur cap, out of a dark, sharply cut, thoroughly southern face, dark eyes with delicate shadows and lids that were too heavy looked out dreamily and a little timidly..."
+        },
+        {
+          "de": "Mund und Kinn waren ihm ungewöhnlich weich gebildet.",
+          "en": "His mouth and chin were unusually soft in shape."
+        },
+        {
+          "de": "Er ging nachlässig und ungleichmäßig, während Hansens schlanke Beine in den schwarzen Strümpfen so elastisch und taktfest einherschritten...",
+          "en": "He walked carelessly and unevenly, while Hans's slim legs in their black stockings strode along so springily and in such perfect rhythm..."
+        },
+        {
+          "de": "Tonio sprach nicht.",
+          "en": "Tonio didn't speak."
+        },
+        {
+          "de": "Er empfand Schmerz.",
+          "en": "He was hurting."
+        },
+        {
+          "de": "Indem er seine etwas schräg stehenden Brauen zusammenzog und die Lippen zum Pfeifen gerundet hielt, blickte er seitwärts geneigten Kopfes ins Weite.",
+          "en": "Drawing his slightly slanting eyebrows together and keeping his lips rounded as if to whistle, he gazed into the distance with his head tilted to one side."
+        },
+        {
+          "de": "Diese Haltung und Miene war ihm eigentümlich.",
+          "en": "This posture and expression were typical of him."
+        }
       ]
     },
     {
@@ -297,6 +435,28 @@
           "de": "Das macht mir nichts.",
           "en": "I don't mind."
         }
+      ],
+      "sentences": [
+        {
+          "de": "Plötzlich schob Hans seinen Arm unter den Tonios und sah ihn dabei von der Seite an, denn er begriff sehr wohl, um was es sich handelte.",
+          "en": "Suddenly Hans slipped his arm through Tonio's and looked at him sideways as he did so, because he understood perfectly well what this was about."
+        },
+        {
+          "de": "Und obgleich Tonio auch bei den nächsten Schritten noch schwieg, so ward er doch auf einmal sehr weich gestimmt.",
+          "en": "And although Tonio stayed silent for the next few steps too, he suddenly felt very soft-hearted."
+        },
+        {
+          "de": "»Ich hatte es nämlich nicht vergessen, Tonio«, sagte Hans und blickte vor sich nieder auf das Trottoir, »sondern ich dachte nur, dass heute doch wohl nichts daraus werden könnte, weil es ja so nass und windig ist.",
+          "en": "“I hadn't forgotten, you know, Tonio,” said Hans, looking down at the pavement in front of him, “I just thought it probably wouldn't happen today, because it's so wet and windy."
+        },
+        {
+          "de": "Aber mir macht das gar nichts, und ich finde es famos, dass du trotzdem auf mich gewartet hast.",
+          "en": "But I don't mind at all, and I think it's great that you waited for me anyway."
+        },
+        {
+          "de": "Ich glaubte schon, du seist nach Hause gegangen, und ärgerte mich...«",
+          "en": "I thought you'd already gone home, and I was annoyed...”"
+        }
       ]
     },
     {
@@ -329,6 +489,24 @@
           "de": "das nächste Mal",
           "en": "next time"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Alles in Tonio geriet in eine hüpfende und jubelnde Bewegung bei diesen Worten.",
+          "en": "At these words everything inside Tonio began to jump and cheer."
+        },
+        {
+          "de": "»Ja, wir gehen nun also über die Wälle!« sagte er mit bewegter Stimme.",
+          "en": "“Right, so we'll go along the ramparts!” he said, his voice full of emotion."
+        },
+        {
+          "de": "»Über den Mühlenwall und den Holstenwall, und so bringe ich dich nach Hause, Hans...",
+          "en": "“Along the Mühlenwall and the Holstenwall, and that way I'll take you home, Hans..."
+        },
+        {
+          "de": "Bewahre, das schadet gar nichts, dass ich dann meinen Heimweg allein mache; das nächste Mal begleitest du mich.«",
+          "en": "Oh no, it doesn't matter at all that I'll walk home on my own afterwards; next time you'll walk with me.”"
+        }
       ]
     },
     {
@@ -360,6 +538,20 @@
         {
           "de": "die Absicht, die Absichten",
           "en": "intention"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Im Grunde glaubte er nicht sehr fest an das, was Hans gesagt hatte, und fühlte genau, dass jener nur halb so viel Gewicht auf diesen Spaziergang zu zweien legte wie er.",
+          "en": "Deep down he didn't really believe what Hans had said, and he could feel very clearly that Hans cared only half as much about this walk together as he did."
+        },
+        {
+          "de": "Aber er sah doch, dass Hans seine Vergesslichkeit bereute und es sich angelegen sein ließ, ihn zu versöhnen.",
+          "en": "But he could see that Hans was sorry he had forgotten and was making an effort to make up with him."
+        },
+        {
+          "de": "Und er war weit von der Absicht entfernt, die Versöhnung hintanzuhalten...",
+          "en": "And Tonio had no intention at all of holding up the making-up..."
         }
       ]
     },
@@ -399,6 +591,16 @@
           "en": "so to speak",
           "note": "Mann uses old 'gleichsam'"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die Sache war die, dass Tonio Hans Hansen liebte und schon vieles um ihn gelitten hatte.",
+          "en": "The thing was that Tonio loved Hans Hansen and had already suffered a lot because of him."
+        },
+        {
+          "de": "Wer am meisten liebt, ist der Unterlegene und muss leiden, – diese schlichte und harte Lehre hatte seine vierzehnjährige Seele bereits vom Leben entgegengenommen; und er war so geartet, dass er solche Erfahrungen wohl vermerkte, sie gleichsam innerlich aufschrieb und gewissermaßen seine Freude daran hatte, ohne sich freilich für seine Person danach zu richten und praktischen Nutzen daraus zu ziehen.",
+          "en": "Whoever loves more is the weaker one and has to suffer – his fourteen-year-old soul had already learned this simple, hard lesson from life; and he was the kind of person who took careful note of such experiences, wrote them down inside himself, as it were, and in a way even enjoyed them, without, of course, living by them himself or getting any practical use out of them."
+        }
       ]
     },
     {
@@ -434,6 +636,16 @@
         {
           "de": "der Baum, die Bäume",
           "en": "tree"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Auch war es so mit ihm bestellt, dass er solche Lehren weit wichtiger und interessanter achtete als die Kenntnisse, die man ihm in der Schule aufnötigte, ja, dass er sich während der Unterrichtsstunden in den gotischen Klassengewölben meistens damit abgab, solche Einsichten bis auf den Grund zu empfinden und völlig auszudenken.",
+          "en": "It was also the case with him that he considered such lessons far more important and interesting than the knowledge that was forced on him at school; in fact, during lessons in the Gothic vaulted classrooms he mostly busied himself with feeling such insights right to the bottom and thinking them all the way through."
+        },
+        {
+          "de": "Und diese Beschäftigung bereitete ihm eine ganz ähnliche Genugtuung, wie wenn er mit seiner Geige (denn er spielte die Geige) in seinem Zimmer umherging und die Töne, so weich, wie er sie nur hervorzubringen vermochte, in das Plätschern des Springstrahles hinein erklingen ließ, der drunten im Garten unter den Zweigen des alten Walnussbaumes tänzelnd emporstieg...",
+          "en": "And this gave him a very similar satisfaction to when he walked around his room with his violin (for he played the violin) and let the notes, as soft as he could possibly make them, ring out into the splashing of the fountain that rose, dancing, down in the garden under the branches of the old walnut tree..."
         }
       ]
     },
@@ -474,6 +686,12 @@
           "en": "sometimes",
           "note": "Mann uses old 'zuweilen'"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Der Springbrunnen, der alte Walnussbaum, seine Geige und in der Ferne das Meer, die Ostsee, deren sommerliche Träume er in den Ferien belauschen durfte, diese Dinge waren es, die er liebte, mit denen er sich gleichsam umstellte und zwischen denen sich sein inneres Leben abspielte, Dinge, deren Namen mit guter Wirkung in Versen zu verwenden sind und auch wirklich in den Versen, die Tonio Kröger zuweilen verfertigte, immer wieder erklangen.",
+          "en": "The fountain, the old walnut tree, his violin and, in the distance, the sea, the Baltic, whose summer dreams he was allowed to listen in on during the holidays – these were the things he loved, the things he surrounded himself with, so to speak, and among which his inner life took place; things whose names work well in poems and which really did come up again and again in the poems that Tonio Kröger sometimes wrote."
+        }
       ]
     },
     {
@@ -509,6 +727,24 @@
         {
           "de": "die Schwäche, die Schwächen",
           "en": "weakness"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Dieses, dass er ein Heft mit selbstgeschriebenen Versen besaß, war durch sein eigenes Verschulden bekannt geworden und schadete ihm sehr, bei seinen Mitschülern sowohl wie bei den Lehrern.",
+          "en": "The fact that he owned a notebook of poems he had written himself had got around through his own fault, and it did him a lot of harm, with his classmates as well as with the teachers."
+        },
+        {
+          "de": "Dem Sohne Konsul Krögers schien es einerseits, als sei es dumm und gemein, daran Anstoß zu nehmen, und er verachtete dafür sowohl die Mitschüler wie die Lehrer, deren schlechte Manieren ihn obendrein abstießen, und deren persönliche Schwächen er seltsam eindringlich durchschaute.",
+          "en": "On the one hand, Consul Kröger's son felt it was stupid and mean to take offence at it, and he despised both classmates and teachers for it; their bad manners disgusted him anyway, and he saw through their personal weaknesses with strange sharpness."
+        },
+        {
+          "de": "Andererseits aber empfand er selbst es als ausschweifend und eigentlich ungehörig, Verse zu machen, und musste all denen gewissermaßen recht geben, die es für eine befremdende Beschäftigung hielten.",
+          "en": "On the other hand, he himself felt that writing poems was over the top and actually improper, and in a way he had to agree with everyone who thought it a strange thing to do."
+        },
+        {
+          "de": "Allein das vermochte ihn nicht, davon abzulassen...",
+          "en": "But that couldn't make him give it up..."
         }
       ]
     },
@@ -548,6 +784,16 @@
           "en": "doesn't matter",
           "note": "Das ist mir egal. = I don't care."
         }
+      ],
+      "sentences": [
+        {
+          "de": "Da er daheim seine Zeit vertat, beim Unterricht langsamen und abgewandten Geistes war und bei den Lehrern schlecht angeschrieben stand, so brachte er beständig die erbärmlichsten Zensuren nach Hause, worüber sein Vater, ein langer, sorgfältig gekleideter Herr mit sinnenden blauen Augen, der immer eine Feldblume im Knopfloch trug, sich sehr erzürnt und bekümmert zeigte.",
+          "en": "Since he wasted his time at home, was slow and absent-minded in lessons and was in the teachers' bad books, he always brought home the most miserable marks, which made his father – a tall, carefully dressed gentleman with thoughtful blue eyes who always wore a wild flower in his buttonhole – very angry and worried."
+        },
+        {
+          "de": "Der Mutter Tonios jedoch, seiner schönen, schwarzhaarigen Mutter, die Consuelo mit Vornamen hieß und überhaupt so anders war als die übrigen Damen der Stadt, weil der Vater sie sich einstmals von ganz unten auf der Landkarte heraufgeholt hatte, – seiner Mutter waren die Zeugnisse grundeinerlei...",
+          "en": "But Tonio's mother, his beautiful black-haired mother, whose first name was Consuelo and who was altogether so different from the other ladies in town, because his father had once fetched her from right at the bottom of the map – his mother couldn't have cared less about his school reports..."
+        }
       ]
     },
     {
@@ -581,6 +827,16 @@
         {
           "de": "im Grunde",
           "en": "basically, deep down"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Tonio liebte seine dunkle und feurige Mutter, die so wunderbar den Flügel und die Mandoline spielte, und er war froh, dass sie sich ob seiner zweifelhaften Stellung unter den Menschen nicht grämte.",
+          "en": "Tonio loved his dark, fiery mother, who played the grand piano and the mandolin so wonderfully, and he was glad that she didn't worry about his dubious position among people."
+        },
+        {
+          "de": "Andererseits aber empfand er, dass der Zorn des Vaters weit würdiger und respektabler sei, und war, obgleich er von ihm gescholten wurde, im Grunde ganz einverstanden mit ihm, während er die heitere Gleichgültigkeit der Mutter ein wenig liederlich fand.",
+          "en": "On the other hand, he felt that his father's anger was far more dignified and respectable, and although his father told him off, deep down he quite agreed with him, while he found his mother's cheerful indifference a little sloppy."
         }
       ]
     },
@@ -618,6 +874,20 @@
           "de": "die Familie, die Familien",
           "en": "family"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Manchmal dachte er ungefähr: Es ist gerade genug, dass ich bin, wie ich bin, und mich nicht ändern will und kann, fahrlässig, widerspenstig und auf Dinge bedacht, an die sonst niemand denkt.",
+          "en": "Sometimes he thought something like this: It's bad enough that I am the way I am and won't and can't change – careless, stubborn and occupied with things nobody else thinks about."
+        },
+        {
+          "de": "Wenigstens gehört es sich, dass man mich ernstlich schilt und straft dafür, und nicht mit Küssen und Musik darüber hinweggeht.",
+          "en": "At least it's only right that they should seriously scold and punish me for it, instead of glossing over it with kisses and music."
+        },
+        {
+          "de": "Wir sind doch keine Zigeuner im grünen Wagen, sondern anständige Leute, Konsul Krögers, die Familie der Kröger...",
+          "en": "After all, we're not gypsies in a green caravan, we're respectable people, Consul Kröger's family, the Krögers..."
+        }
       ]
     },
     {
@@ -649,6 +919,32 @@
         {
           "de": "ablaufen",
           "en": "to go, to turn out"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Nicht selten dachte er auch: Warum bin ich doch so sonderlich und in Widerstreit mit allem, zerfallen mit den Lehrern und fremd unter den anderen Jungen?",
+          "en": "Quite often he also thought: Why am I so odd and at odds with everything, on bad terms with the teachers and a stranger among the other boys?"
+        },
+        {
+          "de": "Siehe sie an, die guten Schüler und die von solider Mittelmäßigkeit.",
+          "en": "Look at them, the good pupils and the solidly average ones."
+        },
+        {
+          "de": "Sie finden die Lehrer nicht komisch, sie machen keine Verse und denken nur Dinge, die man eben denkt und die man laut aussprechen kann.",
+          "en": "They don't find the teachers funny, they don't write poems, and they only think the things people just do think and that can be said out loud."
+        },
+        {
+          "de": "Wie ordentlich und einverstanden mit allem und jedermann sie sich fühlen müssen!",
+          "en": "How orderly they must feel, and how at peace with everything and everybody!"
+        },
+        {
+          "de": "Das muss gut sein...",
+          "en": "That must be nice..."
+        },
+        {
+          "de": "Was aber ist mit mir, und wie wird dies alles ablaufen?",
+          "en": "But what about me, and how will all this turn out?"
         }
       ]
     },
@@ -688,6 +984,20 @@
           "de": "beliebt",
           "en": "popular"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Diese Art und Weise, sich selbst und sein Verhältnis zum Leben zu betrachten, spielte eine wichtige Rolle in Tonios Liebe zu Hans Hansen.",
+          "en": "This way of looking at himself and his relationship to life played an important part in Tonio's love for Hans Hansen."
+        },
+        {
+          "de": "Er liebte ihn zunächst, weil er schön war; dann aber, weil er in allen Stücken als sein eigenes Widerspiel und Gegenteil erschien.",
+          "en": "He loved him first of all because he was handsome; but then because in every respect he seemed to be his own opposite."
+        },
+        {
+          "de": "Hans Hansen war ein vortrefflicher Schüler und außerdem ein frischer Gesell, der ritt, turnte, schwamm wie ein Held und sich der allgemeinen Beliebtheit erfreute.",
+          "en": "Hans Hansen was an excellent pupil and also a lively lad who rode, did gymnastics, swam like a hero and was popular with everyone."
+        }
       ]
     },
     {
@@ -721,6 +1031,20 @@
           "de": "der/die Klassenbeste",
           "en": "top of the class",
           "note": "Mann uses old 'Primus'"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die Lehrer waren ihm beinahe mit Zärtlichkeit zugetan, nannten ihn mit Vornamen und förderten ihn auf alle Weise, die Kameraden waren auf seine Gunst bedacht, und auf der Straße hielten ihn Herren und Damen an, fassten ihn an dem Schopfe bastblonden Haares, der unter seiner dänischen Schiffermütze hervorquoll, und sagten: »Guten Tag, Hans Hansen, mit deinem netten Schopf!",
+          "en": "The teachers were fond of him almost to the point of tenderness, called him by his first name and supported him in every way; his classmates were eager to win his favour, and in the street ladies and gentlemen stopped him, took hold of the tuft of straw-blond hair that spilled out from under his Danish sailor's cap, and said: “Hello, Hans Hansen, with your lovely tuft of hair!"
+        },
+        {
+          "de": "Bist du noch Primus?",
+          "en": "Are you still top of the class?"
+        },
+        {
+          "de": "Grüß Papa und Mama, mein prächtiger Junge...«",
+          "en": "Say hello to your mum and dad, you splendid boy...”"
         }
       ]
     },
@@ -760,6 +1084,20 @@
           "en": "always",
           "note": "Mann uses formal 'stets'"
         }
+      ],
+      "sentences": [
+        {
+          "de": "So war Hans Hansen, und seit Tonio Kröger ihn kannte, empfand er Sehnsucht, sobald er ihn erblickte, eine neidische Sehnsucht, die oberhalb der Brust saß und brannte.",
+          "en": "That was Hans Hansen, and ever since Tonio Kröger had known him, he felt a longing whenever he caught sight of him, an envious longing that sat just above his chest and burned."
+        },
+        {
+          "de": "Wer so blaue Augen hätte, dachte er, und so in Ordnung und glücklicher Gemeinschaft mit aller Welt lebte wie du!",
+          "en": "If only I had such blue eyes, he thought, and lived in such good order and happy harmony with the whole world as you do!"
+        },
+        {
+          "de": "Stets bist du auf eine wohlanständige und allgemein respektierte Weise beschäftigt.",
+          "en": "You're always busy with something perfectly proper that everyone respects."
+        }
       ]
     },
     {
@@ -798,6 +1136,20 @@
           "de": "klar",
           "en": "clear"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Wenn du die Schulaufgaben erledigt hast, so nimmst du Reitstunden oder arbeitest mit der Laubsäge, und selbst in den Ferien, an der See, bist du vom Rudern, Segeln und Schwimmen in Anspruch genommen, indes ich müßiggängerisch und verloren im Sande liege und auf die geheimnisvoll wechselnden Mienenspiele starre, die über des Meeres Antlitz huschen.",
+          "en": "When you've done your homework, you have riding lessons or work with your fretsaw, and even in the holidays, at the seaside, you're kept busy rowing, sailing and swimming, while I lie idle and lost in the sand, staring at the mysterious, ever-changing expressions that flit across the face of the sea."
+        },
+        {
+          "de": "Aber darum sind deine Augen so klar.",
+          "en": "But that's why your eyes are so clear."
+        },
+        {
+          "de": "Zu sein wie du...",
+          "en": "To be like you..."
+        }
       ]
     },
     {
@@ -829,6 +1181,16 @@
         {
           "de": "erwarten",
           "en": "to expect"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Er machte nicht den Versuch, zu werden wie Hans Hansen, und vielleicht war es ihm nicht einmal sehr ernst mit diesem Wunsche.",
+          "en": "He didn't try to become like Hans Hansen, and perhaps he wasn't even very serious about this wish."
+        },
+        {
+          "de": "Aber er begehrte schmerzlich, so wie er war, von ihm geliebt zu werden, und er warb um seine Liebe auf seine Art, eine langsame und innige, hingebungsvolle, leidende und wehmütige Art, aber von einer Wehmut, die tiefer und zehrender brennen kann als alle jähe Leidenschaftlichkeit, die man von seinem fremden Äußeren hätte erwarten können.",
+          "en": "But he longed painfully to be loved by him just as he was, and he tried to win his love in his own way – a slow, heartfelt, devoted, suffering and wistful way, but with a wistfulness that can burn deeper and more consumingly than any sudden passion you might have expected from his foreign looks."
         }
       ]
     },
@@ -867,6 +1229,16 @@
           "en": "to succeed, to work out",
           "note": "Es ist mir gelungen. = I managed it."
         }
+      ],
+      "sentences": [
+        {
+          "de": "Und er warb nicht ganz vergebens, denn Hans, der übrigens eine gewisse Überlegenheit an ihm achtete, eine Gewandtheit des Mundes, die Tonio befähigte, schwierige Dinge auszusprechen, begriff ganz wohl, dass hier eine ungewöhnlich starke und zarte Empfindung für ihn lebendig sei, erwies sich dankbar und bereitete ihm manches Glück durch sein Entgegenkommen – aber auch manche Pein der Eifersucht, der Enttäuschung und der vergeblichen Mühe, eine geistige Gemeinschaft herzustellen.",
+          "en": "And he didn't try completely in vain, because Hans – who, by the way, respected a certain superiority in him, a way with words that let Tonio express difficult things – understood very well that here was an unusually strong and tender feeling for him; he showed he was grateful and gave Tonio many happy moments by being friendly – but also many pangs of jealousy, disappointment and the useless effort of creating a meeting of minds."
+        },
+        {
+          "de": "Denn es war das Merkwürdige, dass Tonio, der Hans Hansen doch um seine Daseinsart beneidete, beständig trachtete, ihn zu seiner eigenen herüberzuziehen, was höchstens auf Augenblicke und auch dann nur scheinbar gelingen konnte...",
+          "en": "For the strange thing was that Tonio, who envied Hans Hansen his way of being, kept trying to pull him over to his own, which could only work for moments at most, and even then only on the surface..."
+        }
       ]
     },
     {
@@ -902,6 +1274,24 @@
           "de": "wenn du willst",
           "en": "if you like"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Ich habe jetzt etwas Wundervolles gelesen, etwas Prachtvolles...«, sagte er.",
+          "en": "“I've just read something wonderful, something magnificent...” he said."
+        },
+        {
+          "de": "Sie gingen und aßen gemeinsam aus einer Tüte Fruchtbonbons, die sie beim Krämer Iwersen in der Mühlenstraße für zehn Pfennige erstanden hatten.",
+          "en": "They were walking along, sharing a bag of fruit sweets they had bought for ten pfennigs at Iwersen's little shop in Mühlenstraße."
+        },
+        {
+          "de": "»Du musst es lesen, Hans, es ist nämlich ›Don Carlos‹ von Schiller...",
+          "en": "“You have to read it, Hans, it's Schiller's ‘Don Carlos’..."
+        },
+        {
+          "de": "Ich leihe es dir, wenn du willst...«",
+          "en": "I'll lend it to you if you like...”"
+        }
       ]
     },
     {
@@ -934,6 +1324,28 @@
         {
           "de": "schnell",
           "en": "fast, quick"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "»Ach nein«, sagte Hans Hansen, »das lass nur, Tonio, das passt nicht für mich.",
+          "en": "“Oh no,” said Hans Hansen, “don't bother, Tonio, that's not for me."
+        },
+        {
+          "de": "Ich bleibe bei meinen Pferdebüchern, weißt du.",
+          "en": "I'll stick to my horse books, you know."
+        },
+        {
+          "de": "Famose Abbildungen sind darin, sage ich dir.",
+          "en": "They've got brilliant pictures in them, I'm telling you."
+        },
+        {
+          "de": "Wenn du mal bei mir bist, zeige ich sie dir.",
+          "en": "When you come round to mine, I'll show you."
+        },
+        {
+          "de": "Es sind Augenblicksfotografien, und man sieht die Gäule im Trab und im Galopp und im Sprunge, in allen Stellungen, die man in Wirklichkeit gar nicht zu sehen bekommt, weil es zu schnell geht...«",
+          "en": "They're snapshot photos, and you can see the horses trotting and galloping and jumping, in all the positions you never actually get to see in real life because it happens too fast...”"
         }
       ]
     },
@@ -972,6 +1384,40 @@
           "de": "jemandem zuliebe",
           "en": "for someone's sake"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»In allen Stellungen?« fragte Tonio höflich.",
+          "en": "“In all positions?” Tonio asked politely."
+        },
+        {
+          "de": "»Ja, das ist fein.",
+          "en": "“Yes, that's nice."
+        },
+        {
+          "de": "Was aber ›Don Carlos‹ betrifft, so geht das über alle Begriffe.",
+          "en": "But as for ‘Don Carlos’, it's beyond anything."
+        },
+        {
+          "de": "Es sind Stellen darin, du sollst sehen, die so schön sind, dass es einem einen Ruck gibt, dass es gleichsam knallt...«",
+          "en": "There are passages in it, you'll see, that are so beautiful they give you a jolt, it's like a bang...”"
+        },
+        {
+          "de": "»Knallt es?« fragte Hans Hansen...",
+          "en": "“A bang?” asked Hans Hansen..."
+        },
+        {
+          "de": "»Wieso?«",
+          "en": "“How come?”"
+        },
+        {
+          "de": "»Da ist zum Beispiel die Stelle, wo der König geweint hat, weil er von dem Marquis betrogen ist... aber der Marquis hat ihn nur dem Prinzen zuliebe betrogen, verstehst du, für den er sich opfert.",
+          "en": "“For example, there's the part where the king has cried because he's been betrayed by the Marquis... but the Marquis only betrayed him for the prince's sake, you see, because he's sacrificing himself for him."
+        },
+        {
+          "de": "Und nun kommt aus dem Kabinett in das Vorzimmer die Nachricht, dass der König geweint hat. ›Geweint?‹ ›Der König geweint?‹",
+          "en": "And now the news comes out of the king's private room into the antechamber that the king has cried. ‘Cried?’ ‘The king cried?’"
+        }
       ]
     },
     {
@@ -1006,6 +1452,24 @@
           "de": "Was ist denn los?",
           "en": "What's up? What's wrong?"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Alle Hofmänner sind fürchterlich betreten, und es geht einem durch und durch, denn es ist ein schrecklich starrer und strenger König.",
+          "en": "All the courtiers are terribly embarrassed, and it goes right through you, because he's an awfully rigid, strict king."
+        },
+        {
+          "de": "Aber man begreift es so gut, dass er geweint hat, und mir tut er eigentlich mehr leid als der Prinz und der Marquis zusammengenommen.",
+          "en": "But you understand so well why he cried, and actually I feel sorrier for him than for the prince and the Marquis put together."
+        },
+        {
+          "de": "Er ist immer so ganz allein und ohne Liebe, und nun glaubt er einen Menschen gefunden zu haben, und der verrät ihn...«",
+          "en": "He's always so completely alone and without love, and now he thinks he's found someone, and that person betrays him...”"
+        },
+        {
+          "de": "Hans Hansen sah von der Seite in Tonios Gesicht, und irgendetwas in diesem Gesicht musste ihn wohl dem Gegenstande gewinnen, denn er schob plötzlich wieder seinen Arm unter den Tonios und fragte: »Auf welche Weise verrät er ihn denn, Tonio?«",
+          "en": "Hans Hansen looked sideways into Tonio's face, and something in that face must have won him over to the subject, because he suddenly slipped his arm through Tonio's again and asked: “So how does he betray him, Tonio?”"
+        }
       ]
     },
     {
@@ -1039,6 +1503,48 @@
           "de": "die Bank, die Banken",
           "en": "bank"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Tonio geriet in Bewegung.",
+          "en": "Tonio got excited."
+        },
+        {
+          "de": "»Ja, die Sache ist«, fing er an, »dass alle Briefe nach Brabant und Flandern...«",
+          "en": "“Well, the thing is,” he began, “that all the letters to Brabant and Flanders...”"
+        },
+        {
+          "de": "»Da kommt Erwin Jimmerthal«, sagte Hans.",
+          "en": "“Here comes Erwin Jimmerthal,” said Hans."
+        },
+        {
+          "de": "Tonio verstummte.",
+          "en": "Tonio fell silent."
+        },
+        {
+          "de": "Möchte ihn doch, dachte er, die Erde verschlingen, diesen Jimmerthal!",
+          "en": "If only the earth would swallow him up, he thought, this Jimmerthal!"
+        },
+        {
+          "de": "Warum muss er kommen und uns stören!",
+          "en": "Why does he have to come and disturb us!"
+        },
+        {
+          "de": "Wenn er nur nicht mit uns geht und den ganzen Weg von der Reitstunde spricht...",
+          "en": "If only he doesn't walk with us and talk about riding lessons the whole way..."
+        },
+        {
+          "de": "Denn Erwin Jimmerthal hatte ebenfalls Reitstunde.",
+          "en": "Because Erwin Jimmerthal had riding lessons too."
+        },
+        {
+          "de": "Er war der Sohn des Bankdirektors und wohnte hier draußen vorm Tore.",
+          "en": "He was the bank director's son and lived out here beyond the town gate."
+        },
+        {
+          "de": "Mit seinen krummen Beinen und Schlitzaugen kam er ihnen, schon ohne Schulmappe, durch die Allee entgegen.",
+          "en": "With his bandy legs and slit eyes he came towards them along the avenue, already without his school bag."
+        }
       ]
     },
     {
@@ -1070,6 +1576,56 @@
         {
           "de": "antworten",
           "en": "to answer"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "»Tag, Jimmerthal«, sagte Hans.",
+          "en": "“Hi, Jimmerthal,” said Hans."
+        },
+        {
+          "de": "»Ich gehe ein bisschen mit Kröger...«",
+          "en": "“I'm walking a bit with Kröger...”"
+        },
+        {
+          "de": "»Ich muss zur Stadt«, sagte Jimmerthal, »und etwas besorgen.",
+          "en": "“I have to go into town,” said Jimmerthal, “and get something."
+        },
+        {
+          "de": "Aber ich gehe noch ein Stück mit euch...",
+          "en": "But I'll walk part of the way with you..."
+        },
+        {
+          "de": "Das sind wohl Fruchtbonbons, die ihr da habt?",
+          "en": "Those are fruit sweets you've got there, I suppose?"
+        },
+        {
+          "de": "Ja, danke, ein paar esse ich.",
+          "en": "Yes, thanks, I'll have a few."
+        },
+        {
+          "de": "Morgen haben wir wieder Stunde, Hans.«",
+          "en": "We've got our lesson again tomorrow, Hans.”"
+        },
+        {
+          "de": "– Es war die Reitstunde gemeint.",
+          "en": "He meant the riding lesson."
+        },
+        {
+          "de": "»Famos!« sagte Hans.",
+          "en": "“Great!” said Hans."
+        },
+        {
+          "de": "»Ich bekomme jetzt die ledernen Gamaschen, du, weil ich neulich die Eins im Exerzitium hatte...«",
+          "en": "“I'm getting the leather gaiters now, you know, because I got top marks in my written exercise the other day...”"
+        },
+        {
+          "de": "»Du hast wohl keine Reitstunde, Kröger?« fragte Jimmerthal, und seine Augen waren nur ein Paar blanker Ritzen...",
+          "en": "“I suppose you don't have riding lessons, Kröger?” asked Jimmerthal, and his eyes were just a pair of shiny slits..."
+        },
+        {
+          "de": "»Nein«, antwortete Tonio mit ganz ungewisser Betonung.",
+          "en": "“No,” Tonio answered, sounding very unsure."
         }
       ]
     },
@@ -1103,6 +1659,28 @@
         {
           "de": "Du kannst nichts dafür.",
           "en": "It's not your fault."
+        }
+      ],
+      "sentences": [
+        {
+          "de": "»Du solltest«, bemerkte Hans Hansen, »deinen Vater bitten, dass du auch Stunde bekommst, Kröger.«",
+          "en": "“You should ask your father,” Hans Hansen remarked, “if you can have lessons too, Kröger.”"
+        },
+        {
+          "de": "»Ja...«, sagte Tonio zugleich hastig und gleichgültig.",
+          "en": "“Yes...” said Tonio, both hastily and indifferently."
+        },
+        {
+          "de": "Einen Augenblick schnürte sich ihm die Kehle zusammen, weil Hans ihn mit Nachnamen angeredet hatte; und Hans schien dies zu fühlen, denn er sagte erläuternd: »Ich nenne dich Kröger, weil dein Vorname so verrückt ist, du, entschuldige, aber ich mag ihn nicht leiden, Tonio...",
+          "en": "For a moment his throat tightened, because Hans had called him by his surname; and Hans seemed to sense this, because he explained: “I call you Kröger because your first name is so crazy, you know – sorry, but I can't stand it, Tonio..."
+        },
+        {
+          "de": "Das ist doch überhaupt kein Name.",
+          "en": "It's not even a proper name."
+        },
+        {
+          "de": "Übrigens kannst du ja nichts dafür, bewahre!«",
+          "en": "Anyway, it's not your fault, of course not!”"
         }
       ]
     },
@@ -1141,6 +1719,24 @@
           "de": "sich zusammennehmen",
           "en": "to pull oneself together"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Nein, du heißt wohl hauptsächlich so, weil es so ausländisch klingt und etwas Besonderes ist...«, sagte Jimmerthal und tat, als ob er zum Guten reden wollte.",
+          "en": "“No, I suppose you're called that mainly because it sounds so foreign and is something special...” said Jimmerthal, pretending he wanted to smooth things over."
+        },
+        {
+          "de": "Tonios Mund zuckte.",
+          "en": "Tonio's mouth twitched."
+        },
+        {
+          "de": "Er nahm sich zusammen und sagte: »Ja, es ist ein alberner Name, ich möchte, weiß Gott, lieber Heinrich oder Wilhelm heißen, das könnt ihr mir glauben.",
+          "en": "He pulled himself together and said: “Yes, it's a silly name – God knows I'd rather be called Heinrich or Wilhelm, you can believe me."
+        },
+        {
+          "de": "Aber es kommt daher, dass ein Bruder meiner Mutter, nach dem ich getauft worden bin, Antonio heißt; denn meine Mutter ist doch von drüben...«",
+          "en": "But it's because one of my mother's brothers, who I was named after, is called Antonio; my mother's from over there, after all...”"
+        }
       ]
     },
     {
@@ -1173,6 +1769,20 @@
         {
           "de": "zittern",
           "en": "to tremble, to shake"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Dann schwieg er und ließ die beiden von Pferden und Lederzeug sprechen.",
+          "en": "Then he fell silent and let the other two talk about horses and leather gear."
+        },
+        {
+          "de": "Hans hatte Jimmerthal untergefasst und redete mit einer geläufigen Teilnahme, die für ›Don Carlos‹ niemals in ihm zu erwecken gewesen wäre...",
+          "en": "Hans had linked arms with Jimmerthal and was talking with an easy enthusiasm that could never have been awakened in him for ‘Don Carlos’..."
+        },
+        {
+          "de": "Von Zeit zu Zeit fühlte Tonio, wie der Drang zu weinen ihm prickelnd in die Nase stieg; auch hatte er Mühe, sein Kinn in der Gewalt zu behalten, das beständig ins Zittern geriet...",
+          "en": "Every now and then Tonio felt the urge to cry rising, tingling, into his nose; he also struggled to keep control of his chin, which kept starting to tremble..."
         }
       ]
     },
@@ -1208,6 +1818,24 @@
           "de": "gewöhnlich",
           "en": "ordinary, usual"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Hans mochte seinen Namen nicht leiden, – was war dabei zu tun?",
+          "en": "Hans couldn't stand his name – what could be done about it?"
+        },
+        {
+          "de": "Er selbst hieß Hans, und Jimmerthal hieß Erwin, gut, das waren allgemein anerkannte Namen, die niemand befremdeten.",
+          "en": "He himself was called Hans, and Jimmerthal was called Erwin; fine, those were names everyone accepted, names nobody found strange."
+        },
+        {
+          "de": "Aber ›Tonio‹ war etwas Ausländisches und Besonderes.",
+          "en": "But ‘Tonio’ was something foreign and special."
+        },
+        {
+          "de": "Ja, es war in allen Stücken etwas Besonderes mit ihm, ob er wollte oder nicht, und er war allein und ausgeschlossen von den Ordentlichen und Gewöhnlichen, obgleich er doch kein Zigeuner im grünen Wagen war, sondern ein Sohn Konsul Krögers, aus der Familie der Kröger...",
+          "en": "Yes, there was something special about him in every way, whether he liked it or not, and he was alone and shut out from the orderly, ordinary people, even though he was no gypsy in a green caravan but a son of Consul Kröger, from the Kröger family..."
+        }
       ]
     },
     {
@@ -1241,6 +1869,28 @@
           "de": "wehtun",
           "en": "to hurt",
           "note": "Es tut weh. = It hurts."
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Aber warum nannte Hans ihn Tonio, solange sie allein waren, wenn er, kam ein Dritter hinzu, anfing, sich seiner zu schämen?",
+          "en": "But why did Hans call him Tonio as long as they were alone, if he started to be ashamed of him whenever a third person came along?"
+        },
+        {
+          "de": "Zuweilen war er ihm nahe und gewonnen, ja.",
+          "en": "Sometimes he was close to him and won over, yes."
+        },
+        {
+          "de": "Auf welche Weise verrät er ihn denn, Tonio? hatte er gefragt und ihn untergefasst.",
+          "en": "So how does he betray him, Tonio? he had asked, and taken his arm."
+        },
+        {
+          "de": "Aber als dann Jimmerthal gekommen war, hatte er dennoch erleichtert aufgeatmet, hatte ihn verlassen und ihm ohne Not seinen fremden Rufnamen vorgeworfen.",
+          "en": "But then, when Jimmerthal had come, he had still breathed a sigh of relief, had dropped him and, for no reason, held his foreign first name against him."
+        },
+        {
+          "de": "Wie weh es tat, dies alles durchschauen zu müssen!...",
+          "en": "How much it hurt to have to see through all this!..."
         }
       ]
     },
@@ -1276,6 +1926,40 @@
           "de": "Danke für ...!",
           "en": "Thanks for ...!"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Hans Hansen hatte ihn im Grunde ein wenig gern, wenn sie unter sich waren, er wusste es.",
+          "en": "Deep down Hans Hansen liked him a little when they were on their own, he knew that."
+        },
+        {
+          "de": "Aber kam ein Dritter, so schämte er sich dessen und opferte ihn auf.",
+          "en": "But if a third person came, he was ashamed of it and sacrificed him."
+        },
+        {
+          "de": "Und er war wieder allein.",
+          "en": "And he was alone again."
+        },
+        {
+          "de": "Er dachte an König Philipp.",
+          "en": "He thought of King Philip."
+        },
+        {
+          "de": "Der König hat geweint...",
+          "en": "The king has cried..."
+        },
+        {
+          "de": "»Gott bewahre«, sagte Erwin Jimmerthal, »nun muss ich aber wirklich zur Stadt!",
+          "en": "“Oh my God,” said Erwin Jimmerthal, “now I really do have to go into town!"
+        },
+        {
+          "de": "Adieu, ihr, und Dank für die Fruchtbonbons!«",
+          "en": "Bye, you two, and thanks for the fruit sweets!”"
+        },
+        {
+          "de": "Darauf sprang er auf eine Bank, die am Wege stand, lief mit seinen krummen Beinen darauf entlang und trabte davon.",
+          "en": "With that he jumped onto a bench by the path, ran along it on his bandy legs and trotted off."
+        }
       ]
     },
     {
@@ -1309,6 +1993,24 @@
           "de": "der Weg, die Wege",
           "en": "way, path"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Jimmerthal mag ich leiden!« sagte Hans mit Nachdruck.",
+          "en": "“I like Jimmerthal!” Hans said firmly."
+        },
+        {
+          "de": "Er hatte eine verwöhnte und selbstbewusste Art, seine Sympathien und Abneigungen kundzugeben, sie gleichsam gnädigst zu verteilen...",
+          "en": "He had a spoilt, self-confident way of announcing his likes and dislikes, of handing them out, so to speak, like royal favours..."
+        },
+        {
+          "de": "Und dann fuhr er fort, von der Reitstunde zu sprechen, weil er einmal im Zuge war.",
+          "en": "And then he carried on talking about the riding lesson, since he'd got going."
+        },
+        {
+          "de": "Es war auch nicht mehr so weit bis zum Hansenschen Wohnhause; der Weg über die Wälle nahm nicht so viel Zeit in Anspruch.",
+          "en": "And it wasn't very far now to the Hansens' house; the way over the ramparts didn't take that long."
+        }
       ]
     },
     {
@@ -1341,6 +2043,16 @@
           "de": "die Bedeutung, die Bedeutungen",
           "en": "meaning"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sie hielten ihre Mützen fest und beugten die Köpfe vor dem starken, feuchten Wind, der in dem kahlen Geäst der Bäume knarrte und stöhnte.",
+          "en": "They held on to their caps and bowed their heads against the strong, damp wind that creaked and groaned in the bare branches of the trees."
+        },
+        {
+          "de": "Und Hans Hansen sprach, während Tonio nur dann und wann ein künstliches Ach und Jaja einfließen ließ, ohne Freude darüber, dass Hans ihn im Eifer der Rede wieder untergefasst hatte, denn das war nur eine scheinbare Annäherung, ohne Bedeutung.",
+          "en": "And Hans Hansen talked, while Tonio only now and then put in a forced “oh” or “yeah, yeah”, taking no pleasure in the fact that Hans, carried away by his talking, had taken his arm again, because that was only a closeness that seemed real, and it meant nothing."
+        }
       ]
     },
     {
@@ -1372,6 +2084,20 @@
         {
           "de": "sich verabschieden",
           "en": "to say goodbye"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Dann verließen sie die Wallanlagen unfern des Bahnhofes, sahen einen Zug mit plumper Eilfertigkeit vorüberpuffen, zählten zum Zeitvertreib die Wagen und winkten dem Manne zu, der in seinen Pelz vermummt zuhöchst auf dem allerletzten saß.",
+          "en": "Then they left the rampart gardens not far from the station, watched a train puff past in clumsy haste, counted the carriages to pass the time and waved to the man who sat, bundled up in his fur, right on top of the very last one."
+        },
+        {
+          "de": "Und am Lindenplatze, vor Großhändler Hansens Villa, blieben sie stehen, und Hans zeigte ausführlich, wie amüsant es sei, sich unten auf die Gartenpforte zu stellen und sich in den Angeln hin und her zu schlenkern, dass es nur so kreischte.",
+          "en": "And on Lindenplatz, in front of wholesale merchant Hansen's villa, they stopped, and Hans demonstrated in detail how much fun it was to stand on the bottom of the garden gate and swing back and forth on its hinges so that it really squealed."
+        },
+        {
+          "de": "Aber hierauf verabschiedete er sich.",
+          "en": "But after that he said goodbye."
         }
       ]
     },
@@ -1412,6 +2138,48 @@
           "de": "Versprochen!",
           "en": "Promise!"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Ja, nun muss ich hinein«, sagte er.",
+          "en": "“Right, I've got to go in now,” he said."
+        },
+        {
+          "de": "»Adieu, Tonio.",
+          "en": "“Bye, Tonio."
+        },
+        {
+          "de": "Das nächste Mal begleite ich dich nach Hause, sei sicher.«",
+          "en": "Next time I'll walk you home, I promise.”"
+        },
+        {
+          "de": "»Adieu, Hans«, sagte Tonio, »es war nett, spazieren zu gehen.«",
+          "en": "“Bye, Hans,” said Tonio, “it was nice going for a walk.”"
+        },
+        {
+          "de": "Ihre Hände, die sich drückten, waren ganz nass und rostig von der Gartenpforte.",
+          "en": "Their hands, as they shook, were all wet and rusty from the garden gate."
+        },
+        {
+          "de": "Als aber Hans in Tonios Augen sah, entstand etwas wie reuiges Besinnen in seinem hübschen Gesicht.",
+          "en": "But when Hans looked into Tonio's eyes, something like a guilty second thought appeared on his handsome face."
+        },
+        {
+          "de": "»Übrigens werde ich nächstens ›Don Carlos‹ lesen!« sagte er rasch.",
+          "en": "“By the way, I'm going to read ‘Don Carlos’ soon!” he said quickly."
+        },
+        {
+          "de": "»Das mit dem König im Kabinett muss famos sein!«",
+          "en": "“That bit with the king in his room must be brilliant!”"
+        },
+        {
+          "de": "Dann nahm er seine Mappe unter den Arm und lief durch den Vorgarten.",
+          "en": "Then he tucked his bag under his arm and ran through the front garden."
+        },
+        {
+          "de": "Bevor er im Hause verschwand, nickte er noch einmal zurück.",
+          "en": "Before he disappeared into the house, he nodded back once more."
+        }
       ]
     },
     {
@@ -1443,6 +2211,36 @@
         {
           "de": "stark",
           "en": "strong"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und Tonio Kröger ging ganz verklärt und beschwingt von dannen.",
+          "en": "And Tonio Kröger walked away completely radiant and light-hearted."
+        },
+        {
+          "de": "Der Wind trug ihn von hinten, aber es war nicht darum allein, dass er so leicht von der Stelle kam.",
+          "en": "The wind was pushing him from behind, but that wasn't the only reason he moved along so easily."
+        },
+        {
+          "de": "Hans würde ›Don Carlos‹ lesen, und dann würden sie etwas miteinander haben, worüber weder Jimmerthal noch irgendein anderer mitreden konnte!",
+          "en": "Hans would read ‘Don Carlos’, and then they would have something together that neither Jimmerthal nor anyone else could join in on!"
+        },
+        {
+          "de": "Wie gut sie einander verstanden!",
+          "en": "How well they understood each other!"
+        },
+        {
+          "de": "Wer wusste, – vielleicht brachte er ihn noch dazu, ebenfalls Verse zu schreiben?...",
+          "en": "Who knew – perhaps he might even get him to write poems too?..."
+        },
+        {
+          "de": "Nein, nein, das wollte er nicht!",
+          "en": "No, no, he didn't want that!"
+        },
+        {
+          "de": "Hans sollte nicht werden wie Tonio, sondern bleiben, wie er war, so hell und stark, wie alle ihn liebten und Tonio am meisten!",
+          "en": "Hans shouldn't become like Tonio, but stay as he was, so bright and strong, the way everyone loved him, and Tonio most of all!"
         }
       ]
     },
@@ -1481,6 +2279,20 @@
           "de": "der Neid",
           "en": "envy"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Aber dass er ›Don Carlos‹ las, würde trotzdem nicht schaden...",
+          "en": "But it still wouldn't hurt if he read ‘Don Carlos’..."
+        },
+        {
+          "de": "Und Tonio ging durch das alte, untersetzte Tor, ging am Hafen entlang und die steile, zugige und nasse Giebelgasse hinauf zum Haus seiner Eltern.",
+          "en": "And Tonio walked through the old, squat town gate, along the harbour and up the steep, draughty, wet lane of gabled houses to his parents' house."
+        },
+        {
+          "de": "Damals lebte sein Herz; Sehnsucht war darin und schwermütiger Neid und ein klein wenig Verachtung und eine ganze keusche Seligkeit.",
+          "en": "Back then his heart was alive; there was longing in it, and gloomy envy, and just a little contempt, and a whole, innocent bliss."
+        }
       ]
     },
     {
@@ -1513,6 +2325,16 @@
           "de": "geschehen",
           "en": "to happen",
           "note": "geschah, ist geschehen; everyday: passieren"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die blonde Inge, Ingeborg Holm, Doktor Holms Tochter, der am Markte wohnte, dort, wo hoch, spitzig und vielfach der gotische Brunnen stand, sie war's, die Tonio Kröger liebte, als er sechzehn Jahre alt war.",
+          "en": "Blonde Inge, Ingeborg Holm, the daughter of Doctor Holm, who lived on the market square, where the tall, pointed, many-spired Gothic fountain stood – she was the one Tonio Kröger loved when he was sixteen."
+        },
+        {
+          "de": "Wie geschah das?",
+          "en": "How did it happen?"
         }
       ]
     },
@@ -1553,6 +2375,52 @@
         {
           "de": "der Platz, die Plätze",
           "en": "place, seat"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Ringsum entstand ein Kichern und Lachen.",
+          "en": "All around there was giggling and laughter."
+        },
+        {
+          "de": "Herr Knaak fiel in eine Ballettpose, welche ein stilisiertes Entsetzen ausdrückte.",
+          "en": "Herr Knaak struck a ballet pose that expressed stylised horror."
+        },
+        {
+          "de": "»O weh!« rief er.",
+          "en": "“Oh dear!” he cried."
+        },
+        {
+          "de": "»Halt, halt!",
+          "en": "“Stop, stop!"
+        },
+        {
+          "de": "Kröger ist unter die Damen geraten!",
+          "en": "Kröger has got mixed up with the ladies!"
+        },
+        {
+          "de": "En arrière, Fräulein Kröger, zurück, fi donc!",
+          "en": "En arrière, Fräulein Kröger, back you go, fi donc!"
+        },
+        {
+          "de": "Alle haben es nun verstanden, nur Sie nicht.",
+          "en": "Everyone has understood it now except you."
+        },
+        {
+          "de": "Husch!",
+          "en": "Shoo!"
+        },
+        {
+          "de": "Fort!",
+          "en": "Off!"
+        },
+        {
+          "de": "Zurück mit Ihnen!«",
+          "en": "Back with you!”"
+        },
+        {
+          "de": "Und er zog ein gelbseidenes Taschentuch und scheuchte Tonio Kröger damit an seinen Platz zurück.",
+          "en": "And he pulled out a yellow silk handkerchief and shooed Tonio Kröger back to his place with it."
         }
       ]
     },
@@ -1597,6 +2465,28 @@
           "de": "gewöhnlich",
           "en": "ordinary, usual"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Tonio Krögers Herz zog sich schmerzlich zusammen bei diesem Gedanken.",
+          "en": "Tonio Kröger's heart contracted painfully at this thought."
+        },
+        {
+          "de": "Zu fühlen, wie wunderbare spielende und schwermütige Kräfte sich in dir regen, und dabei zu wissen, dass diejenigen, zu denen du dich hinübersehnst, ihnen in heiterer Unzugänglichkeit gegenüberstehen, das tut sehr weh.",
+          "en": "To feel wonderful powers, playful and melancholy, stirring inside you, and at the same time to know that the people you long for face them in cheerful unreachability – that hurts very much."
+        },
+        {
+          "de": "Aber obgleich er einsam, ausgeschlossen und ohne Hoffnung vor einer geschlossenen Jalousie stand und in seinem Kummer tat, als könne er hindurchblicken, so war er dennoch glücklich.",
+          "en": "But although he stood lonely, shut out and without hope in front of a closed blind, pretending in his misery that he could see through it, he was happy all the same."
+        },
+        {
+          "de": "Denn damals lebte sein Herz.",
+          "en": "For in those days his heart was alive."
+        },
+        {
+          "de": "Warm und traurig schlug es für dich, Ingeborg Holm, und seine Seele umfasste deine blonde, lichte und übermütig gewöhnliche kleine Persönlichkeit in seliger Selbstverleugnung.",
+          "en": "Warm and sad, it beat for you, Ingeborg Holm, and his soul embraced your blond, bright and cheerfully ordinary little personality in blissful self-denial."
+        }
       ]
     },
     {
@@ -1633,6 +2523,16 @@
           "de": "dennoch",
           "en": "nevertheless, all the same"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Mehr als einmal stand er mit erhitztem Angesicht an einsamen Stellen, wohin Musik, Blumenduft und Gläsergeklirr nur leise drangen, und suchte in dem fernen Festgeräusch deine klingende Stimme zu unterscheiden, stand in Schmerzen um dich und war dennoch glücklich.",
+          "en": "More than once he stood with a flushed face in lonely corners, where music, the scent of flowers and the clinking of glasses reached him only faintly, and tried to make out your ringing voice in the distant noise of the party; he stood there aching for you and was happy all the same."
+        },
+        {
+          "de": "Mehr als einmal kränkte es ihn, dass er mit Magdalena Vermehren, die immer hinfiel, sprechen konnte, dass sie ihn verstand und mit ihm lachte und ernst war, während die blonde Inge, saß er auch neben ihr, ihm fern und fremd und befremdet erschien, denn seine Sprache war nicht ihre Sprache; und dennoch war er glücklich.",
+          "en": "More than once it hurt him that he could talk to Magdalena Vermehren, who always fell over, that she understood him and laughed with him and was serious with him, while blonde Inge, even when he sat next to her, seemed distant and strange and puzzled by him, because his language was not her language; and yet he was happy."
+        }
       ]
     },
     {
@@ -1665,6 +2565,20 @@
           "de": "erwischen",
           "en": "to catch",
           "note": "Mann uses old 'erhaschen'"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Denn das Glück, sagte er sich, ist nicht, geliebt zu werden; das ist eine mit Ekel gemischte Genugtuung für die Eitelkeit.",
+          "en": "For happiness, he told himself, is not being loved; that is a satisfaction for your vanity, mixed with disgust."
+        },
+        {
+          "de": "Das Glück ist, zu lieben und vielleicht kleine, trügerische Annäherungen an den geliebten Gegenstand zu erhaschen.",
+          "en": "Happiness is loving, and perhaps catching little, deceptive moments of closeness to the one you love."
+        },
+        {
+          "de": "Und er schrieb diesen Gedanken innerlich auf, dachte ihn völlig aus und empfand ihn bis auf den Grund.",
+          "en": "And he wrote this thought down inside himself, thought it through completely and felt it to the very bottom."
         }
       ]
     },
@@ -1699,6 +2613,28 @@
           "de": "leisten",
           "en": "to achieve"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Treue! dachte Tonio Kröger.",
+          "en": "Faithfulness! thought Tonio Kröger."
+        },
+        {
+          "de": "Ich will treu sein und dich lieben, Ingeborg, solange ich lebe!",
+          "en": "I will be faithful and love you, Ingeborg, as long as I live!"
+        },
+        {
+          "de": "So wohlmeinend war er.",
+          "en": "That was how well-meaning he was."
+        },
+        {
+          "de": "Und dennoch flüsterte in ihm eine leise Furcht und Trauer, dass er ja auch Hans Hansen ganz und gar vergessen habe, obgleich er ihn täglich sah.",
+          "en": "And yet a quiet fear and sadness whispered in him that he had, after all, completely forgotten Hans Hansen too, although he saw him every day."
+        },
+        {
+          "de": "Und es war das Hässliche und Erbärmliche, dass diese leise und ein wenig hämische Stimme recht behielt, dass die Zeit verging und Tage kamen, da Tonio Kröger nicht mehr so unbedingt wie ehemals für die lustige Inge zu sterben bereit war, weil er Lust und Kräfte in sich fühlte, auf seine Art in der Welt eine Menge des Merkwürdigen zu leisten.",
+          "en": "And the ugly and pitiful thing was that this quiet and slightly spiteful voice turned out to be right: time passed, and days came when Tonio Kröger was no longer as unconditionally ready to die for cheerful Inge as before, because he felt the desire and the strength in himself to achieve a great many remarkable things in the world in his own way."
+        }
       ]
     },
     {
@@ -1732,6 +2668,24 @@
           "de": "mit den Schultern zucken",
           "en": "to shrug",
           "note": "Mann: die Achseln zucken"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und er umkreiste behutsam den Opferaltar, auf dem die lautere und keusche Flamme seiner Liebe loderte, kniete davor und schürte und nährte sie auf alle Weise, weil er treu sein wollte.",
+          "en": "And he carefully walked around the altar on which the pure and chaste flame of his love was blazing, knelt before it and stoked and fed it in every way, because he wanted to be faithful."
+        },
+        {
+          "de": "Und über eine Weile, unmerklich, ohne Aufsehen und Geräusch, war sie dennoch erloschen.",
+          "en": "And after a while, without anyone noticing, without fuss or noise, it had gone out all the same."
+        },
+        {
+          "de": "Aber Tonio Kröger stand noch eine Zeit lang vor dem erkalteten Altar, voll Staunen und Enttäuschung darüber, dass Treue auf Erden unmöglich war.",
+          "en": "But Tonio Kröger stood a while longer in front of the cold altar, full of amazement and disappointment that faithfulness was impossible on earth."
+        },
+        {
+          "de": "Dann zuckte er die Achseln und ging seiner Wege.",
+          "en": "Then he shrugged his shoulders and went his way."
         }
       ]
     },
@@ -1771,6 +2725,16 @@
           "de": "pflegen zu",
           "en": "to be in the habit of",
           "note": "formal: Er pflegte zu sagen ..."
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Er ging den Weg, den er gehen musste, ein wenig nachlässig und ungleichmäßig, vor sich hin pfeifend, mit seitwärts geneigtem Kopfe ins Weite blickend, und wenn er irreging, so geschah es, weil es für etliche einen richtigen Weg überhaupt nicht gibt.",
+          "en": "He went the way he had to go, a little carelessly and unevenly, whistling to himself, with his head tilted to one side, gazing into the distance; and if he went astray, it was because for some people there simply is no right way."
+        },
+        {
+          "de": "Fragte man ihn, was in aller Welt er zu werden gedachte, so erteilte er wechselnde Auskunft, denn er pflegte zu sagen (und hatte es auch bereits aufgeschrieben), dass er die Möglichkeiten zu tausend Daseinsformen in sich trage, zusammen mit dem heimlichen Bewusstsein, dass es im Grunde lauter Unmöglichkeiten seien...",
+          "en": "If anyone asked him what on earth he intended to become, he gave different answers, for he used to say (and had already written it down) that he carried within him the possibilities for a thousand ways of living, together with the secret awareness that at bottom they were nothing but impossibilities..."
         }
       ]
     },
@@ -1819,6 +2783,12 @@
           "en": "to come into being, to arise",
           "note": "entstand, ist entstanden"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Er arbeitete stumm, abgeschlossen, unsichtbar und voller Verachtung für jene Kleinen, denen das Talent ein geselliger Schmuck war, die, ob sie nun arm oder reich waren, wild und abgerissen einhergingen oder mit persönlichen Krawatten Luxus trieben, in erster Linie glücklich, liebenswürdig und künstlerisch zu leben bedacht waren, unwissend darüber, dass gute Werke nur unter dem Druck eines schlimmen Lebens entstehen, dass, wer lebt, nicht arbeitet, und dass man gestorben sein muss, um ganz ein Schaffender zu sein.",
+          "en": "He worked silently, shut away, invisibly, and full of contempt for those minor talents for whom talent was a social decoration, who – whether they were poor or rich, went around wild and shabby or showed off with fancy ties – cared above all about living happily, charmingly and artistically, unaware that good works only come into being under the pressure of a bad life, that whoever lives does not work, and that you have to have died to be wholly a creator."
+        }
       ]
     },
     {
@@ -1855,6 +2825,28 @@
           "de": "sich gehören",
           "en": "to be proper",
           "note": "Mann: sich schicken"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "»Störe ich?« fragte Tonio Kröger auf der Schwelle des Ateliers.",
+          "en": "“Am I disturbing you?” asked Tonio Kröger in the doorway of the studio."
+        },
+        {
+          "de": "Er hielt seinen Hut in der Hand und verbeugte sich sogar ein wenig, obgleich Lisaweta Iwanowna seine Freundin war, der er alles sagte.",
+          "en": "He held his hat in his hand and even bowed slightly, although Lisaweta Ivanovna was his friend, to whom he told everything."
+        },
+        {
+          "de": "»Erbarmen Sie sich, Tonio Kröger, und kommen Sie ohne Zeremonien hinein!« antwortete sie mit ihrer hüpfenden Betonung.",
+          "en": "“Have mercy, Tonio Kröger, and come in without any ceremony!” she answered in her bouncy way of speaking."
+        },
+        {
+          "de": "»Es ist bekannt, dass Sie eine gute Kinderstube genossen haben und wissen, was sich schickt.«",
+          "en": "“Everybody knows you were brought up well and know what's proper.”"
+        },
+        {
+          "de": "Dabei steckte sie ihren Pinsel zu der Palette in die linke Hand, reichte ihm die rechte und blickte ihm lachend und kopfschüttelnd ins Gesicht.",
+          "en": "As she said this, she put her brush into her left hand with the palette, held out her right hand to him and looked him in the face, laughing and shaking her head."
         }
       ]
     },
@@ -1899,6 +2891,36 @@
           "de": "falsch",
           "en": "wrong, false"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Ich bin am Ziel, Lisaweta.",
+          "en": "I've come to my point, Lisaweta."
+        },
+        {
+          "de": "Hören Sie mich an.",
+          "en": "Listen to me."
+        },
+        {
+          "de": "Ich liebe das Leben – dies ist ein Geständnis.",
+          "en": "I love life – this is a confession."
+        },
+        {
+          "de": "Nehmen Sie es und bewahren Sie es, – ich habe es noch keinem gemacht.",
+          "en": "Take it and keep it – I have never made it to anyone."
+        },
+        {
+          "de": "Man hat gesagt, man hat es sogar geschrieben und drucken lassen, dass ich das Leben hasse oder fürchte oder verachte oder verabscheue.",
+          "en": "People have said, they have even written it and had it printed, that I hate or fear or despise or loathe life."
+        },
+        {
+          "de": "Ich habe dies gern gehört, es hat mir geschmeichelt; aber darum ist es nicht weniger falsch.",
+          "en": "I liked hearing that, it flattered me; but that doesn't make it any less false."
+        },
+        {
+          "de": "Ich liebe das Leben...",
+          "en": "I love life..."
+        }
       ]
     },
     {
@@ -1932,6 +2954,24 @@
         {
           "de": "nie und nimmer",
           "en": "never ever"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Sie lächeln, Lisaweta, und ich weiß, worüber.",
+          "en": "You're smiling, Lisaweta, and I know why."
+        },
+        {
+          "de": "Aber ich beschwöre Sie, halten Sie es nicht für Literatur, was ich da sage!",
+          "en": "But I beg you, don't take what I'm saying for literature!"
+        },
+        {
+          "de": "Denken Sie nicht an Cesare Borgia oder an irgendeine trunkene Philosophie, die ihn auf den Schild erhebt!",
+          "en": "Don't think of Cesare Borgia or of some drunken philosophy that raises him up on its shield!"
+        },
+        {
+          "de": "Er ist mir nichts, dieser Cesare Borgia, ich halte nicht das Geringste auf ihn, und ich werde nie und nimmer begreifen, wie man das Außerordentliche und Dämonische als Ideal verehren mag.",
+          "en": "He means nothing to me, this Cesare Borgia, I don't think the slightest thing of him, and I shall never, ever understand how anyone can worship the extraordinary and demonic as an ideal."
         }
       ]
     },
@@ -1968,6 +3008,16 @@
         {
           "de": "noch lange nicht",
           "en": "far from, not by a long way"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Nein, das ›Leben‹, wie es als ewiger Gegensatz dem Geiste und der Kunst gegenübersteht, – nicht als eine Vision von blutiger Größe und wilder Schönheit, nicht als das Ungewöhnliche stellt es uns Ungewöhnlichen sich dar; sondern das Normale, Wohlanständige und Liebenswürdige ist das Reich unserer Sehnsucht, ist das Leben in seiner verführerischen Banalität!",
+          "en": "No, ‘life’, as the eternal opposite of the mind and of art – it doesn't appear to us unusual people as a vision of bloody greatness and wild beauty, not as the unusual; no, the normal, the respectable and the likeable is the kingdom of our longing: life in its seductive ordinariness!"
+        },
+        {
+          "de": "Der ist noch lange kein Künstler, meine Liebe, dessen letzte und tiefste Schwärmerei das Raffinierte, Exzentrische und Satanische ist, der die Sehnsucht nicht kennt nach dem Harmlosen, Einfachen und Lebendigen, nach ein wenig Freundschaft, Hingebung, Vertraulichkeit und menschlichem Glück, – die verstohlene und zehrende Sehnsucht, Lisaweta, nach den Wonnen der Gewöhnlichkeit!...",
+          "en": "Far from being an artist, my dear, is the man whose last and deepest passion is for the refined, the eccentric and the satanic, who doesn't know the longing for the harmless, the simple and the living, for a little friendship, devotion, trust and human happiness – the secret, gnawing longing, Lisaweta, for the joys of the ordinary!..."
         }
       ]
     },
@@ -2008,6 +3058,48 @@
           "de": "der Bürger, die Bürger",
           "en": "citizen; middle-class person"
         }
+      ],
+      "sentences": [
+        {
+          "de": "»Sind Sie nun fertig, Tonio Kröger?«",
+          "en": "“Have you finished now, Tonio Kröger?”"
+        },
+        {
+          "de": "»Nein.",
+          "en": "“No."
+        },
+        {
+          "de": "Aber ich sage nichts mehr.«",
+          "en": "But I won't say any more.”"
+        },
+        {
+          "de": "»Und es genügt auch.",
+          "en": "“And that's enough, too."
+        },
+        {
+          "de": "– Erwarten Sie eine Antwort?«",
+          "en": "– Are you expecting an answer?”"
+        },
+        {
+          "de": "»Haben Sie eine?«",
+          "en": "“Do you have one?”"
+        },
+        {
+          "de": "»Ich dächte doch.",
+          "en": "“I should think so."
+        },
+        {
+          "de": "– Ich habe Ihnen gut zugehört, Tonio, von Anfang bis zu Ende, und ich will Ihnen die Antwort geben, die auf alles passt, was Sie heute Nachmittag gesagt haben, und die die Lösung ist für das Problem, das Sie so sehr beunruhigt hat.",
+          "en": "– I've listened to you carefully, Tonio, from beginning to end, and I'll give you the answer that fits everything you've said this afternoon and that is the solution to the problem that has troubled you so much."
+        },
+        {
+          "de": "Nun also!",
+          "en": "Well then!"
+        },
+        {
+          "de": "Die Lösung ist die, dass Sie, wie Sie da sitzen, ganz einfach ein Bürger sind.«",
+          "en": "The solution is that you, sitting there as you are, are quite simply a bourgeois.”"
+        }
       ]
     },
     {
@@ -2041,6 +3133,40 @@
         {
           "de": "erledigt",
           "en": "done, finished; exhausted"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "»Bin ich?« fragte er und sank ein wenig in sich zusammen...",
+          "en": "“Am I?” he asked, and slumped a little..."
+        },
+        {
+          "de": "»Nicht wahr, das trifft Sie hart, und das muss es ja auch.",
+          "en": "“It hits you hard, doesn't it, and so it should."
+        },
+        {
+          "de": "Und darum will ich den Urteilsspruch um etwas mildern, denn das kann ich.",
+          "en": "And that's why I'll soften the verdict a little, because I can."
+        },
+        {
+          "de": "Sie sind ein Bürger auf Irrwegen, Tonio Kröger, – ein verirrter Bürger.«",
+          "en": "You are a bourgeois on the wrong path, Tonio Kröger – a bourgeois gone astray.”"
+        },
+        {
+          "de": "– Stillschweigen.",
+          "en": "– Silence."
+        },
+        {
+          "de": "Dann stand er entschlossen auf und griff nach Hut und Stock.",
+          "en": "Then he stood up resolutely and reached for his hat and walking stick."
+        },
+        {
+          "de": "»Ich danke Ihnen, Lisaweta Iwanowna; nun kann ich getrost nach Hause gehn.",
+          "en": "“Thank you, Lisaweta Ivanovna; now I can go home in peace."
+        },
+        {
+          "de": "Ich bin erledigt.«",
+          "en": "I am done for.”"
         }
       ]
     },
@@ -2081,6 +3207,24 @@
           "de": "der Geist, die Geister",
           "en": "ghost; mind"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Nehmen Sie auch nur die Namen, die Vornamen, mit denen die Leute dort oben geschmückt sind und von denen es ebenfalls schon viele bei mir zu Hause gibt, einen Laut wie ›Ingeborg‹, ein Harfenschlag makellosester Poesie.",
+          "en": "Just take the names, the first names the people up there are adorned with, many of which you also find back home – a sound like ‘Ingeborg’, a stroke of the harp of the most flawless poetry."
+        },
+        {
+          "de": "Und dann die See, – sie haben die Ostsee dort oben!...",
+          "en": "And then the sea – they have the Baltic up there!..."
+        },
+        {
+          "de": "Mit einem Worte, ich fahre hinauf, Lisaweta.",
+          "en": "In a word, I'm going up there, Lisaweta."
+        },
+        {
+          "de": "Ich will die Ostsee wiedersehen, will diese Vornamen wieder hören, diese Bücher an Ort und Stelle lesen; ich will auch auf der Terrasse von Kronborg stehen, wo der ›Geist‹ zu Hamlet kam und Not und Tod über den armen, edlen jungen Menschen brachte...«",
+          "en": "I want to see the Baltic again, hear those first names again, read those books right where they were written; and I want to stand on the terrace at Kronborg, where the ‘Ghost’ came to Hamlet and brought misery and death to the poor, noble young man...”"
+        }
       ]
     },
     {
@@ -2113,6 +3257,44 @@
         {
           "de": "die Reise, die Reisen",
           "en": "journey, trip"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "»Wie fahren Sie, Tonio, wenn ich fragen darf?",
+          "en": "“How are you travelling, Tonio, if I may ask?"
+        },
+        {
+          "de": "Welche Route nehmen Sie?«",
+          "en": "Which route are you taking?”"
+        },
+        {
+          "de": "»Die übliche«, sagte er achselzuckend und errötete deutlich.",
+          "en": "“The usual one,” he said with a shrug, and blushed visibly."
+        },
+        {
+          "de": "»Ja, ich berühre meine – meinen Ausgangspunkt, Lisaweta, nach dreizehn Jahren, und das kann ziemlich komisch werden.«",
+          "en": "“Yes, I'll pass through my – my starting point, Lisaweta, after thirteen years, and that could turn out rather funny.”"
+        },
+        {
+          "de": "Sie lächelte.",
+          "en": "She smiled."
+        },
+        {
+          "de": "»Das ist es, was ich hören wollte, Tonio Kröger.",
+          "en": "“That's what I wanted to hear, Tonio Kröger."
+        },
+        {
+          "de": "Und also fahren Sie mit Gott.",
+          "en": "Well then, go with God."
+        },
+        {
+          "de": "Versäumen Sie auch nicht, mir zu schreiben, hören Sie?",
+          "en": "And don't forget to write to me, do you hear?"
+        },
+        {
+          "de": "Ich verspreche mir einen erlebnisvollen Brief von Ihrer Reise nach – Dänemark...«",
+          "en": "I'm expecting a letter full of adventures from your journey to – Denmark...”"
         }
       ]
     },
@@ -2157,6 +3339,32 @@
           "en": "to turn",
           "note": "wandte sich, hat sich gewandt"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Wohin ging er?",
+          "en": "Where was he going?"
+        },
+        {
+          "de": "Ihm war, als stehe die Richtung, die er einschlug, in einem Zusammenhange mit seinen traurigen und seltsam reuevollen Träumen zur Nacht...",
+          "en": "He felt as if the direction he took had something to do with his sad and strangely remorseful dreams of the night..."
+        },
+        {
+          "de": "Auf den Markt ging er, unter den Bogengewölben des Rathauses hindurch, wo Fleischer mit blutigen Händen ihre Ware wogen, auf den Marktplatz, wo hoch, spitzig und vielfach der gotische Brunnen stand.",
+          "en": "He went to the market, under the arches of the town hall, where butchers with bloody hands were weighing their meat, onto the market square, where the tall, pointed, many-spired Gothic fountain stood."
+        },
+        {
+          "de": "Dort blieb er vor einem Hause stehen, einem schmalen und schlichten, gleich anderen mehr, mit einem geschwungenen, durchbrochenen Giebel, und versank in dessen Anblick.",
+          "en": "There he stopped in front of a house, a narrow and plain one like many others, with a curved, openwork gable, and became lost in looking at it."
+        },
+        {
+          "de": "Er las das Namensschild an der Tür und ließ seine Augen ein Weilchen auf jedem der Fenster ruhen.",
+          "en": "He read the name plate on the door and let his eyes rest for a little while on each of the windows."
+        },
+        {
+          "de": "Dann wandte er sich langsam zum Gehen.",
+          "en": "Then he slowly turned to go."
+        }
       ]
     },
     {
@@ -2199,6 +3407,32 @@
           "de": "rauschen",
           "en": "to rustle, to roar"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Aber dort hinten, das kleinere, dritte Zimmer, nun ebenfalls ganz mit Büchern angefüllt, die ein dürftiger Mensch bewachte, war lange Jahre hindurch sein eigenes gewesen.",
+          "en": "But back there, the smaller third room, now also completely filled with books guarded by a shabby-looking man, had been his own for many years."
+        },
+        {
+          "de": "Dorthin war er nach der Schule heimgekehrt, nachdem er einen Spaziergang, wie eben jetzt, gemacht, an jener Wand hatte sein Tisch gestanden, in dessen Schublade er seine ersten, innigen und hilflosen Verse verwahrt hatte...",
+          "en": "That was where he had come home to after school, after taking a walk just like now; against that wall his desk had stood, in whose drawer he had kept his first heartfelt and helpless poems..."
+        },
+        {
+          "de": "Der Walnussbaum...",
+          "en": "The walnut tree..."
+        },
+        {
+          "de": "Eine stechende Wehmut durchzuckte ihn.",
+          "en": "A piercing sadness shot through him."
+        },
+        {
+          "de": "Er blickte seitwärts durchs Fenster hinaus.",
+          "en": "He glanced sideways out of the window."
+        },
+        {
+          "de": "Der Garten lag wüst, aber der alte Walnussbaum stand an seinem Platze, schwerfällig knarrend und rauschend im Winde.",
+          "en": "The garden lay neglected, but the old walnut tree still stood in its place, creaking heavily and rustling in the wind."
+        }
       ]
     },
     {
@@ -2237,6 +3471,32 @@
         {
           "de": "stumm",
           "en": "silent, mute"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Alle schwiegen.",
+          "en": "Everyone was silent."
+        },
+        {
+          "de": "Sollte er der Sache ein Ende machen, indem er sich zu erkennen gab, indem er Herrn Seehaase eröffnete, dass er kein Hochstapler von unbestimmter Zuständigkeit sei, von Geburt kein Zigeuner im grünen Wagen, sondern der Sohn Konsul Krögers, aus der Familie der Kröger?",
+          "en": "Should he put an end to the matter by revealing who he was, by informing Herr Seehaase that he was not a con man of no fixed abode, not a gypsy in a green caravan by birth, but the son of Consul Kröger, of the Kröger family?"
+        },
+        {
+          "de": "Nein, er hatte keine Lust dazu.",
+          "en": "No, he didn't feel like it."
+        },
+        {
+          "de": "Und waren diese Männer der bürgerlichen Ordnung nicht im Grunde ein wenig im Recht?",
+          "en": "And weren't these men of middle-class order basically a little bit right?"
+        },
+        {
+          "de": "Gewissermaßen war er ganz einverstanden mit ihnen...",
+          "en": "In a way he quite agreed with them..."
+        },
+        {
+          "de": "Er zuckte die Achseln und blieb stumm.",
+          "en": "He shrugged his shoulders and said nothing."
         }
       ]
     },
@@ -2277,6 +3537,24 @@
           "de": "dunkel",
           "en": "dark"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die Ostsee!",
+          "en": "The Baltic!"
+        },
+        {
+          "de": "Er lehnte den Kopf gegen den starken Salzwind, der frei und ohne Hindernis daherkam, die Ohren umhüllte und einen gelinden Schwindel, eine gedämpfte Betäubung hervorrief, in der die Erinnerung an alles Böse, an Qual und Irrsal, an Wollen und Mühen träge und selig unterging.",
+          "en": "He leaned his head into the strong salt wind, which came freely and unhindered, wrapped itself around his ears and brought on a gentle dizziness, a muffled daze, in which the memory of everything bad, of torment and confusion, of wanting and struggling, sank away lazily and blissfully."
+        },
+        {
+          "de": "Und in dem Sausen, Klatschen, Schäumen und Ächzen rings um ihn her glaubte er das Rauschen und Knarren des alten Walnussbaumes, das Kreischen einer Gartenpforte zu hören...",
+          "en": "And in the rushing, slapping, foaming and groaning all around him he thought he could hear the rustling and creaking of the old walnut tree and the squeaking of a garden gate..."
+        },
+        {
+          "de": "Es dunkelte mehr und mehr.",
+          "en": "It grew darker and darker."
+        }
       ]
     },
     {
@@ -2314,6 +3592,36 @@
         {
           "de": "gelassen",
           "en": "calm, relaxed"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Tonio Kröger hielt sich an irgendeinem gestrafften Tau und blickte hinaus in all den unbändigen Übermut.",
+          "en": "Tonio Kröger held on to a taut rope and looked out into all that untamed wildness."
+        },
+        {
+          "de": "In ihm schwang sich ein Jauchzen auf, und ihm war, als sei es mächtig genug, um Sturm und Flut zu übertönen.",
+          "en": "A shout of joy rose up inside him, and it seemed to him mighty enough to drown out storm and sea."
+        },
+        {
+          "de": "Ein Sang an das Meer, begeistert von Liebe, tönte in ihm.",
+          "en": "A song to the sea, inspired by love, sounded within him."
+        },
+        {
+          "de": "Du meiner Jugend wilder Freund, so sind wir einmal noch vereint...",
+          "en": "You wild friend of my youth, so we are united once again..."
+        },
+        {
+          "de": "Aber dann war das Gedicht zu Ende.",
+          "en": "But then the poem was over."
+        },
+        {
+          "de": "Es ward nicht fertig, nicht rund geformt und nicht in Gelassenheit zu etwas Ganzem geschmiedet.",
+          "en": "It didn't get finished, didn't get rounded off, wasn't calmly forged into a whole."
+        },
+        {
+          "de": "Sein Herz lebte...",
+          "en": "His heart was alive..."
         }
       ]
     },
@@ -2358,6 +3666,20 @@
           "en": "hurry",
           "note": "Ich bin in Eile. = I'm in a hurry."
         }
+      ],
+      "sentences": [
+        {
+          "de": "Da geschah dies auf einmal: Hans Hansen und Ingeborg Holm gingen durch den Saal.",
+          "en": "Then, all of a sudden, this happened: Hans Hansen and Ingeborg Holm walked through the dining room."
+        },
+        {
+          "de": "– Tonio Kröger lehnte, in einer wohligen Ermüdung nach dem Bade und seinem hurtigen Gang, im Stuhl und aß geräucherten Lachs auf Röstbrot; – er saß der Veranda und dem Meere zugewandt.",
+          "en": "– Tonio Kröger was leaning back in his chair, pleasantly tired after his swim and his brisk walk, eating smoked salmon on toast; he was sitting facing the veranda and the sea."
+        },
+        {
+          "de": "Und plötzlich öffnete sich die Tür, und Hand in Hand kamen die beiden herein, – schlendernd und ohne Eile.",
+          "en": "And suddenly the door opened, and the two of them came in hand in hand – strolling and in no hurry."
+        }
       ]
     },
     {
@@ -2400,6 +3722,12 @@
           "de": "das Gesicht, die Gesichter",
           "en": "face"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Er sah sie an, sah, wie Hans Hansen so keck und wohlgestaltet wie nur jemals, breit in den Schultern und schmal in den Hüften, in seinem Matrosenanzug dastand, sah, wie Ingeborg auf eine gewisse übermütige Art lachend den Kopf zur Seite warf, auf eine gewisse Art ihre Hand, eine gar nicht besonders schmale, gar nicht besonders feine Kleinmädchenhand, zum Hinterkopfe führte, wobei der leichte Ärmel von ihrem Ellenbogen zurückglitt, – und plötzlich erschütterte das Heimweh seine Brust mit einem solchen Schmerz, dass er unwillkürlich weiter ins Dunkel zurückwich, damit niemand das Zucken seines Gesichtes sähe.",
+          "en": "He looked at them, saw how Hans Hansen stood there in his sailor suit, as bold and well-built as ever, broad in the shoulders and narrow in the hips; saw how Ingeborg tossed her head to one side, laughing in a certain high-spirited way, and in a certain way raised her hand – a not particularly slender, not particularly delicate little girl's hand – to the back of her head, so that the light sleeve slid back from her elbow – and suddenly homesickness shook his chest with such pain that he drew back further into the darkness without meaning to, so that no one would see his face twitch."
+        }
       ]
     },
     {
@@ -2439,6 +3767,44 @@
           "de": "einsam",
           "en": "lonely"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Hatte ich euch vergessen? fragte er.",
+          "en": "Had I forgotten you? he asked."
+        },
+        {
+          "de": "Nein, niemals!",
+          "en": "No, never!"
+        },
+        {
+          "de": "Nicht dich, Hans, noch dich, blonde Inge!",
+          "en": "Not you, Hans, nor you, blonde Inge!"
+        },
+        {
+          "de": "Ihr wart es ja, für die ich arbeitete, und wenn ich Applaus vernahm, blickte ich heimlich um mich, ob ihr daran teilhättet...",
+          "en": "It was you I was working for, and whenever I heard applause I secretly looked around to see if you were part of it..."
+        },
+        {
+          "de": "Hast du nun den ›Don Carlos‹ gelesen, Hans Hansen, wie du es mir an eurer Gartenpforte versprachst?",
+          "en": "Have you read ‘Don Carlos’ now, Hans Hansen, as you promised me at your garden gate?"
+        },
+        {
+          "de": "Tu's nicht!",
+          "en": "Don't!"
+        },
+        {
+          "de": "Ich verlange es nicht mehr von dir.",
+          "en": "I don't ask it of you any more."
+        },
+        {
+          "de": "Was geht dich der König an, der weint, weil er einsam ist?",
+          "en": "What's the king who weeps because he is lonely to you?"
+        },
+        {
+          "de": "Du sollst deine hellen Augen nicht trüb und traumblöde machen vom Starren in Verse und Melancholie...",
+          "en": "You shouldn't make your bright eyes dull and dreamy from staring at poems and melancholy..."
+        }
       ]
     },
     {
@@ -2476,6 +3842,32 @@
         {
           "de": "in die Irre gehen",
           "en": "to go astray"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Zu sein wie du!",
+          "en": "To be like you!"
+        },
+        {
+          "de": "Noch einmal anfangen, aufwachsen gleich dir, rechtschaffen, fröhlich und schlicht, regelrecht, ordnungsgemäß und im Einverständnis mit Gott und der Welt, geliebt werden von den Harmlosen und Glücklichen, dich zum Weibe nehmen, Ingeborg Holm, und einen Sohn haben wie du, Hans Hansen, – frei vom Fluch der Erkenntnis und der schöpferischen Qual leben, lieben und loben in seliger Gewöhnlichkeit!...",
+          "en": "To start again, to grow up like you, decent, cheerful and simple, normal, orderly and at peace with God and the world, loved by the harmless and happy, to take you as my wife, Ingeborg Holm, and to have a son like you, Hans Hansen – to live free from the curse of knowledge and the torment of creation, to live, love and praise in blissful ordinariness!..."
+        },
+        {
+          "de": "Noch einmal anfangen?",
+          "en": "Start again?"
+        },
+        {
+          "de": "Aber es hülfe nichts.",
+          "en": "But it would be no use."
+        },
+        {
+          "de": "Es würde wieder so werden, – alles würde wieder so kommen, wie es gekommen ist.",
+          "en": "It would all turn out the same – everything would happen again just the way it has happened."
+        },
+        {
+          "de": "Denn etliche gehen mit Notwendigkeit in die Irre, weil es einen rechten Weg für sie überhaupt nicht gibt.",
+          "en": "For some people go astray of necessity, because for them there simply is no right way."
         }
       ]
     },
@@ -2516,6 +3908,36 @@
           "de": "froh",
           "en": "glad, happy"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Er war berauscht von dem Feste, an dem er nicht teilgehabt, und müde von Eifersucht.",
+          "en": "He was intoxicated by the party he had not taken part in, and tired from jealousy."
+        },
+        {
+          "de": "Wie früher, ganz wie früher war es gewesen!",
+          "en": "It had been like before, exactly like before!"
+        },
+        {
+          "de": "Mit erhitztem Gesicht hatte er an dunkler Stelle gestanden, in Schmerzen um euch, ihr Blonden, Lebendigen, Glücklichen, und war dann einsam hinweggegangen.",
+          "en": "With a flushed face he had stood in a dark place, aching for you, you blond, living, happy ones, and had then gone away alone."
+        },
+        {
+          "de": "Jemand müsste nun kommen!",
+          "en": "Someone ought to come now!"
+        },
+        {
+          "de": "Ingeborg müsste nun kommen, müsste bemerken, dass er fort war, müsste ihm heimlich folgen, ihm die Hand auf die Schulter legen und sagen: Komm herein zu uns!",
+          "en": "Ingeborg ought to come now, ought to notice that he had gone, ought to follow him secretly, put her hand on his shoulder and say: Come in and join us!"
+        },
+        {
+          "de": "Sei froh!",
+          "en": "Be happy!"
+        },
+        {
+          "de": "Ich liebe dich!...",
+          "en": "I love you!..."
+        }
       ]
     },
     {
@@ -2552,6 +3974,48 @@
           "de": "zurückblicken",
           "en": "to look back"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Aber sie kam keines Weges.",
+          "en": "But she did not come at all."
+        },
+        {
+          "de": "Dergleichen geschah nicht.",
+          "en": "Things like that didn't happen."
+        },
+        {
+          "de": "Ja, wie damals war es, und er war glücklich wie damals.",
+          "en": "Yes, it was just like back then, and he was happy, as he had been back then."
+        },
+        {
+          "de": "Denn sein Herz lebte.",
+          "en": "For his heart was alive."
+        },
+        {
+          "de": "Was aber war gewesen während all der Zeit, in der er das geworden, was er nun war?",
+          "en": "But what had there been during all the time in which he had become what he now was?"
+        },
+        {
+          "de": "– Erstarrung; Öde; Eis; und Geist!",
+          "en": "– Numbness; emptiness; ice; and intellect!"
+        },
+        {
+          "de": "Und Kunst!...",
+          "en": "And art!..."
+        },
+        {
+          "de": "Er entkleidete sich, legte sich zur Ruhe, löschte das Licht.",
+          "en": "He undressed, lay down to rest and put out the light."
+        },
+        {
+          "de": "Er flüsterte zwei Namen in das Kissen hinein, diese paar keuschen, nordischen Silben, die ihm seine eigentliche und ursprüngliche Liebes-, Leides- und Glückesart, das Leben, das simple und innige Gefühl, die Heimat bezeichneten.",
+          "en": "He whispered two names into the pillow, those few chaste, northern syllables that stood for his true and original way of loving, suffering and being happy, for life, for simple and heartfelt feeling, for home."
+        },
+        {
+          "de": "Er blickte zurück auf die Jahre seit damals bis auf diesen Tag.",
+          "en": "He looked back over the years from then until this day."
+        }
       ]
     },
     {
@@ -2587,6 +4051,20 @@
         {
           "de": "der Takt, die Takte",
           "en": "beat, rhythm, bar"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Er gedachte der wüsten Abenteuer der Sinne, der Nerven und des Gedankens, die er durchlebt, sah sich zerfressen von Ironie und Geist, verödet und gelähmt von Erkenntnis, halb aufgerieben von den Fiebern und Frösten des Schaffens, haltlos und unter Gewissensnöten zwischen krassen Extremen, zwischen Heiligkeit und Brunst hin und her geworfen, raffiniert, verarmt, erschöpft von kalten und künstlich erlesenen Exaltationen, verirrt, verwüstet, zermartert, krank – und schluchzte vor Reue und Heimweh.",
+          "en": "He thought of the wild adventures of the senses, the nerves and the mind that he had lived through, saw himself eaten away by irony and intellect, laid waste and paralysed by knowledge, half worn out by the fevers and chills of creating, tossed back and forth, unsteady and tormented by his conscience, between crude extremes, between holiness and lust – over-refined, impoverished, exhausted by cold and artificial raptures, lost, ruined, tortured, sick – and he sobbed with remorse and homesickness."
+        },
+        {
+          "de": "Um ihn war es still und dunkel.",
+          "en": "Around him all was quiet and dark."
+        },
+        {
+          "de": "Aber von unten tönte gedämpft und wiegend des Lebens süßer, trivialer Dreitakt zu ihm herauf.",
+          "en": "But from below, muffled and swaying, the sweet, trivial three-four time of life drifted up to him."
         }
       ]
     },
@@ -2626,6 +4104,32 @@
           "en": "to prefer",
           "note": "zog vor, hat vorgezogen"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Tonio Kröger saß im Norden und schrieb an Lisaweta Iwanowna, seine Freundin, wie er es ihr versprochen hatte.",
+          "en": "Tonio Kröger sat in the North and wrote to Lisaweta Ivanovna, his friend, as he had promised her."
+        },
+        {
+          "de": "Liebe Lisaweta dort unten in Arkadien, wohin ich bald zurückkehren werde, schrieb er.",
+          "en": "Dear Lisaweta down there in Arcadia, where I shall soon return, he wrote."
+        },
+        {
+          "de": "Hier ist nun also so etwas wie ein Brief, aber er wird Sie wohl enttäuschen, denn ich denke, ihn ein wenig allgemein zu halten.",
+          "en": "So here is something like a letter, but it will probably disappoint you, because I intend to keep it rather general."
+        },
+        {
+          "de": "Nicht, dass ich so gar nichts zu erzählen, auf meine Weise nicht dies und das erlebt hätte.",
+          "en": "Not that I have nothing at all to tell, or haven't experienced this and that in my own way."
+        },
+        {
+          "de": "Zu Hause, in meiner Vaterstadt, wollte man mich sogar verhaften... aber davon sollen Sie mündlich hören.",
+          "en": "At home, in my native town, they even wanted to arrest me... but you shall hear about that in person."
+        },
+        {
+          "de": "Ich habe jetzt manchmal Tage, an denen ich es vorziehe, auf gute Art etwas Allgemeines zu sagen, anstatt Geschichten zu erzählen.",
+          "en": "These days I sometimes have days when I prefer to say something general in a good way rather than tell stories."
+        }
       ]
     },
     {
@@ -2659,6 +4163,20 @@
         {
           "de": "eins und dasselbe",
           "en": "one and the same"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Wissen Sie wohl noch, Lisaweta, dass Sie mich einmal einen Bürger, einen verirrten Bürger nannten?",
+          "en": "Do you still remember, Lisaweta, that you once called me a bourgeois, a bourgeois gone astray?"
+        },
+        {
+          "de": "Sie nannten mich so in einer Stunde, da ich Ihnen, verführt durch andere Geständnisse, die ich mir vorher hatte entschlüpfen lassen, meine Liebe zu dem gestand, was ich das ›Leben‹ nenne; und ich frage mich, ob Sie wohl wussten, wie sehr Sie damit die Wahrheit trafen, wie sehr mein Bürgertum und meine Liebe zum ›Leben‹ eins und dasselbe sind.",
+          "en": "You called me that at a moment when, carried away by other confessions I had let slip before, I confessed to you my love for what I call ‘life’; and I wonder whether you knew how very much you hit the truth, how very much my bourgeois nature and my love of ‘life’ are one and the same."
+        },
+        {
+          "de": "Diese Reise hat mir Veranlassung gegeben, darüber nachzudenken...",
+          "en": "This journey has given me cause to think about it..."
         }
       ]
     },
@@ -2695,6 +4213,16 @@
         {
           "de": "der Zweifel, die Zweifel",
           "en": "doubt"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Mein Vater, wissen Sie, war ein nordisches Temperament: betrachtsam, gründlich, korrekt aus Puritanismus und zur Wehmut geneigt; meine Mutter von unbestimmt exotischem Blut, schön, sinnlich, naiv, zugleich fahrlässig und leidenschaftlich und von einer impulsiven Liederlichkeit.",
+          "en": "My father, you know, had a northern temperament: thoughtful, thorough, correct out of Puritanism and inclined to melancholy; my mother was of vaguely exotic blood, beautiful, sensual, naive, both careless and passionate, and impulsively disorderly."
+        },
+        {
+          "de": "Ganz ohne Zweifel war dies eine Mischung, die außerordentliche Möglichkeiten – und außerordentliche Gefahren in sich schloss.",
+          "en": "Without any doubt this was a mixture that held extraordinary possibilities – and extraordinary dangers."
         }
       ]
     },
@@ -2733,6 +4261,16 @@
           "de": "anständig",
           "en": "decent, respectable"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Was herauskam, war dies: ein Bürger, der sich in die Kunst verirrte, ein Bohemien mit Heimweh nach der guten Kinderstube, ein Künstler mit schlechtem Gewissen.",
+          "en": "What came out of it was this: a bourgeois who strayed into art, a bohemian homesick for a good upbringing, an artist with a bad conscience."
+        },
+        {
+          "de": "Denn mein bürgerliches Gewissen ist es ja, was mich in allem Künstlertum, aller Außerordentlichkeit und allem Genie etwas tief Zweideutiges, tief Anrüchiges, tief Zweifelhaftes erblicken lässt, was mich mit dieser verliebten Schwäche für das Simple, Treuherzige und Angenehm-Normale, das Ungeniale und Anständige erfüllt.",
+          "en": "For it is my bourgeois conscience that makes me see something deeply ambiguous, deeply disreputable, deeply dubious in all artistry, all extraordinariness and all genius, and that fills me with this lovesick weakness for the simple, the true-hearted and the pleasantly normal, for what is decent and not a genius."
+        }
       ]
     },
     {
@@ -2770,6 +4308,20 @@
           "de": "süß",
           "en": "sweet"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Ich stehe zwischen zwei Welten, bin in keiner daheim und habe es infolgedessen ein wenig schwer.",
+          "en": "I stand between two worlds, I am at home in neither, and so I have rather a hard time of it."
+        },
+        {
+          "de": "Ihr Künstler nennt mich einen Bürger, und die Bürger sind versucht, mich zu verhaften... ich weiß nicht, was von beiden mich bitterer kränkt.",
+          "en": "You artists call me a bourgeois, and the bourgeois are tempted to arrest me... I don't know which of the two hurts me more bitterly."
+        },
+        {
+          "de": "Die Bürger sind dumm; ihr Anbeter der Schönheit aber, die ihr mich phlegmatisch und ohne Sehnsucht heißt, solltet bedenken, dass es ein Künstlertum gibt, so tief, so von Anbeginn und Schicksals wegen, dass keine Sehnsucht ihm süßer und empfindenswerter erscheint als die nach den Wonnen der Gewöhnlichkeit.",
+          "en": "The bourgeois are stupid; but you worshippers of beauty, who call me dull and without longing, should remember that there is a kind of artistry so deep, so much there from the very beginning and by fate, that no longing seems sweeter and more worth feeling to it than the longing for the joys of the ordinary."
+        }
       ]
     },
     {
@@ -2805,6 +4357,20 @@
         {
           "de": "der Engel, die Engel",
           "en": "angel"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Ich bewundere die Stolzen und Kalten, die auf den Pfaden der großen, der dämonischen Schönheit abenteuern und den ›Menschen‹ verachten, – aber ich beneide sie nicht.",
+          "en": "I admire the proud and cold who go adventuring on the paths of great, demonic beauty and despise ‘human beings’ – but I don't envy them."
+        },
+        {
+          "de": "Denn wenn irgendetwas imstande ist, aus einem Literaten einen Dichter zu machen, so ist es diese meine Bürgerliebe zum Menschlichen, Lebendigen und Gewöhnlichen.",
+          "en": "For if anything can make a poet out of a mere man of letters, it is this bourgeois love of mine for the human, the living and the ordinary."
+        },
+        {
+          "de": "Alle Wärme, alle Güte, aller Humor kommt aus ihr, und fast will mir scheinen, als sei sie jene Liebe selbst, von der geschrieben steht, dass einer mit Menschen- und Engelszungen reden könne und ohne sie doch nur ein tönendes Erz und eine klingende Schelle sei.",
+          "en": "All warmth, all kindness, all humour come from it, and it almost seems to me as if it were that very love of which it is written that a man may speak with the tongues of men and of angels, and without it still be only a sounding brass and a tinkling cymbal."
         }
       ]
     },
@@ -2842,6 +4408,24 @@
         {
           "de": "lächerlich",
           "en": "ridiculous"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Was ich getan habe, ist nichts, nicht viel, so gut wie nichts.",
+          "en": "What I have done is nothing, not much, as good as nothing."
+        },
+        {
+          "de": "Ich werde Besseres machen, Lisaweta, – dies ist ein Versprechen.",
+          "en": "I will do better things, Lisaweta – this is a promise."
+        },
+        {
+          "de": "Während ich schreibe, rauscht das Meer zu mir herauf, und ich schließe die Augen.",
+          "en": "As I write, the sea murmurs up to me, and I close my eyes."
+        },
+        {
+          "de": "Ich schaue in eine ungeborene und schemenhafte Welt hinein, die geordnet und gebildet sein will, ich sehe in ein Gewimmel von Schatten menschlicher Gestalten, die mir winken, dass ich sie banne und erlöse: tragische und lächerliche und solche, die beides zugleich sind, – und diesen bin ich sehr zugetan.",
+          "en": "I look into an unborn, shadowy world that wants to be ordered and shaped; I see a swarm of shadowy human figures who beckon to me to capture them and set them free: tragic ones and ridiculous ones and ones that are both at once – and I am very fond of those."
         }
       ]
     },
@@ -2881,6 +4465,20 @@
           "de": "die Seligkeit",
           "en": "bliss",
           "note": "poetic"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Aber meine tiefste und verstohlenste Liebe gehört den Blonden und Blauäugigen, den hellen Lebendigen, den Glücklichen, Liebenswürdigen und Gewöhnlichen.",
+          "en": "But my deepest and most secret love belongs to the blond and blue-eyed, the bright and living, the happy, the lovable and the ordinary."
+        },
+        {
+          "de": "Schelten Sie diese Liebe nicht, Lisaweta; sie ist gut und fruchtbar.",
+          "en": "Don't scold this love, Lisaweta; it is good and fruitful."
+        },
+        {
+          "de": "Sehnsucht ist darin und schwermütiger Neid und ein klein wenig Verachtung und eine ganze keusche Seligkeit.",
+          "en": "There is longing in it, and gloomy envy, and just a little contempt, and a whole, innocent bliss."
         }
       ]
     }

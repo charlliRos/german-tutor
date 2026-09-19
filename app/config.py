@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
 VOCAB_DIR = CONTENT_DIR / "vocab"
 BOOKS_DIR = CONTENT_DIR / "books"
+VERBS_DIR = CONTENT_DIR / "verbs"
 VOICES_DIR = ROOT / "voices"
 PROFILES_DIR = ROOT / "data" / "profiles"
 CONFIG_FILE = ROOT / "config.json"
@@ -23,7 +24,9 @@ DEFAULTS = {
     "speak_chance": 0.25,        # how often a word must be said into the microphone
     # Exercises for looking back (0 = never): read out loud, translate either way, listen and type a sentence.
     "reading_tasks": {"read_aloud": 1, "de2en": 1, "en2de": 1, "dictation": 1},
+    "look_back_sentences": 3,    # sentences in a row to translate when looking back at a paragraph
     "paragraph_reviews_per_session": 6,  # most earlier paragraphs to look back at in one session (oldest first)
+    "verbs_per_day": 2,          # new irregular verbs (past + perfect) from the books, in the first warm-up
     "reading_words_per_day": 16,  # key words of read paragraphs added to the day's first warm-up (new or known)
     "word_record_seconds": 3,
     "voice": "de_DE-thorsten-medium",

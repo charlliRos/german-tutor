@@ -40,6 +40,36 @@
           "de": "die Absicht, die Absichten",
           "en": "intention"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Paris, am 17.",
+          "en": "Paris, 17"
+        },
+        {
+          "de": "Februar 1903",
+          "en": "February 1903"
+        },
+        {
+          "de": "Sehr geehrter Herr,",
+          "en": "Dear Sir,"
+        },
+        {
+          "de": "Ihr Brief hat mich erst vor einigen Tagen erreicht.",
+          "en": "Your letter reached me only a few days ago."
+        },
+        {
+          "de": "Ich will Ihnen danken für sein großes und liebes Vertrauen.",
+          "en": "I want to thank you for its great and kind trust."
+        },
+        {
+          "de": "Ich kann kaum mehr.",
+          "en": "I can hardly do more."
+        },
+        {
+          "de": "Ich kann nicht auf die Art Ihrer Verse eingehen; denn mir liegt jede kritische Absicht zu fern.",
+          "en": "I cannot go into the nature of your poems, for any intention to criticise is too foreign to me."
+        }
       ]
     },
     {
@@ -72,6 +102,16 @@
         {
           "de": "dauern",
           "en": "to last, to take (time)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Mit nichts kann man ein Kunst-Werk so wenig berühren als mit kritischen Worten: es kommt dabei immer auf mehr oder minder glückliche Missverständnisse heraus.",
+          "en": "Nothing touches a work of art as little as critical words do: they always end up as more or less fortunate misunderstandings."
+        },
+        {
+          "de": "Die Dinge sind alle nicht so fassbar und sagbar, als man uns meistens glauben machen möchte; die meisten Ereignisse sind unsagbar, vollziehen sich in einem Raume, den nie ein Wort betreten hat, und unsagbarer als alle sind die Kunst-Werke, geheimnisvolle Existenzen, deren Leben neben dem unseren, das vergeht, dauert.",
+          "en": "Things are not all as graspable and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all of them are works of art, mysterious existences whose life lasts on beside ours, which passes away."
         }
       ]
     },
@@ -109,6 +149,24 @@
           "de": "einsam",
           "en": "lonely, solitary"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Wenn ich diese Notiz vorausschicke, darf ich Ihnen nur noch sagen, dass Ihre Verse keine eigene Art haben, wohl aber stille und verdeckte Ansätze zu Persönlichem.",
+          "en": "Having said this first, I may only tell you that your poems have no style of their own, though they do have quiet, hidden beginnings of something personal."
+        },
+        {
+          "de": "Am deutlichsten fühle ich das in dem letzten Gedicht „Meine Seele“.",
+          "en": "I feel this most clearly in the last poem, 'My Soul'."
+        },
+        {
+          "de": "Da will etwas Eigenes zu Wort und Weise kommen.",
+          "en": "There, something of your own wants to find its words and its tune."
+        },
+        {
+          "de": "Und in dem schönen Gedicht „An Leopardi“ wächst vielleicht eine Art Verwandtschaft mit diesem Großen, Einsamen auf.",
+          "en": "And in the lovely poem 'To Leopardi' a kind of kinship with that great, solitary man is perhaps growing."
+        }
       ]
     },
     {
@@ -142,6 +200,16 @@
         {
           "de": "erklären",
           "en": "to explain"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Trotzdem sind die Gedichte noch nichts für sich, nichts Selbständiges, auch das letzte und das an Leopardi nicht.",
+          "en": "Even so, the poems are not yet anything in their own right, nothing independent, not even the last one and the one to Leopardi."
+        },
+        {
+          "de": "Ihr gütiger Brief, der sie begleitet hat, verfehlt nicht, mir manchen Mangel zu erklären, den ich im Lesen Ihrer Verse fühlte, ohne ihn indessen namentlich nennen zu können.",
+          "en": "Your kind letter that came with them does not fail to explain to me several shortcomings that I sensed while reading your poems, though without being able to name them exactly."
         }
       ]
     },
@@ -180,6 +248,48 @@
           "de": "das Mittel, die Mittel",
           "en": "means, way; remedy"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sie fragen, ob Ihre Verse gut sind.",
+          "en": "You ask whether your poems are good."
+        },
+        {
+          "de": "Sie fragen mich.",
+          "en": "You ask me."
+        },
+        {
+          "de": "Sie haben vorher andere gefragt.",
+          "en": "You have asked others before."
+        },
+        {
+          "de": "Sie senden sie an Zeitschriften.",
+          "en": "You send them to magazines."
+        },
+        {
+          "de": "Sie vergleichen sie mit anderen Gedichten, und Sie beunruhigen sich, wenn gewisse Redaktionen Ihre Versuche ablehnen.",
+          "en": "You compare them with other poems, and you get worried when certain editors turn down your attempts."
+        },
+        {
+          "de": "Nun (da Sie mir gestattet haben, Ihnen zu raten) bitte ich Sie, das alles aufzugeben.",
+          "en": "Now (since you have allowed me to advise you) I beg you to give all that up."
+        },
+        {
+          "de": "Sie sehen nach außen, und das vor allem dürften Sie jetzt nicht tun.",
+          "en": "You are looking outwards, and that, above all, is what you should not do now."
+        },
+        {
+          "de": "Niemand kann Ihnen raten und helfen, niemand.",
+          "en": "Nobody can advise you or help you, nobody."
+        },
+        {
+          "de": "Es gibt nur ein einziges Mittel.",
+          "en": "There is only one single way."
+        },
+        {
+          "de": "Gehen Sie in sich.",
+          "en": "Go into yourself."
+        }
       ]
     },
     {
@@ -217,6 +327,20 @@
           "de": "die Antwort, die Antworten",
           "en": "answer"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Erforschen Sie den Grund, der Sie schreiben heißt; prüfen Sie, ob er in der tiefsten Stelle Ihres Herzens seine Wurzeln ausstreckt, gestehen Sie sich ein, ob Sie sterben müssten, wenn es Ihnen versagt würde zu schreiben.",
+          "en": "Explore the reason that bids you write; test whether it stretches its roots into the deepest place of your heart; admit to yourself whether you would have to die if you were forbidden to write."
+        },
+        {
+          "de": "Dieses vor allem: fragen Sie sich in der stillsten Stunde Ihrer Nacht: muss ich schreiben?",
+          "en": "This above all: ask yourself in the quietest hour of your night: must I write?"
+        },
+        {
+          "de": "Graben Sie in sich nach einer tiefen Antwort.",
+          "en": "Dig inside yourself for a deep answer."
+        }
       ]
     },
     {
@@ -253,6 +377,20 @@
         {
           "de": "versuchen",
           "en": "to try"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und wenn diese zustimmend lauten sollte, wenn Sie mit einem starken und einfachen „Ich muss“ dieser ernsten Frage begegnen dürfen, dann bauen Sie Ihr Leben nach dieser Notwendigkeit; Ihr Leben bis hinein in seine gleichgültigste und geringste Stunde muss ein Zeichen und Zeugnis werden diesem Drange.",
+          "en": "And if the answer should be yes, if you can meet this serious question with a strong and simple 'I must', then build your life according to this necessity; your life, right down to its most indifferent and unimportant hour, must become a sign and a witness of this urge."
+        },
+        {
+          "de": "Dann nähern Sie sich der Natur.",
+          "en": "Then come close to nature."
+        },
+        {
+          "de": "Dann versuchen Sie, wie ein erster Mensch, zu sagen, was Sie sehen und erleben und lieben und verlieren.",
+          "en": "Then try, like the very first human being, to say what you see and experience and love and lose."
         }
       ]
     },
@@ -295,6 +433,16 @@
           "de": "die Erinnerung, die Erinnerungen",
           "en": "memory"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Schreiben Sie nicht Liebesgedichte; weichen Sie zuerst denjenigen Formen aus, die zu geläufig und gewöhnlich sind: sie sind die schwersten, denn es gehört eine große, ausgereifte Kraft dazu, Eigenes zu geben, wo sich gute und zum Teil glänzende Überlieferungen in Menge einstellen.",
+          "en": "Don't write love poems; at first avoid those forms that are too familiar and ordinary: they are the hardest, because it takes a great, mature strength to give something of your own where good and in part brilliant traditions offer themselves in abundance."
+        },
+        {
+          "de": "Darum retten Sie sich vor den allgemeinen Motiven zu denen, die Ihnen Ihr eigener Alltag bietet; schildern Sie Ihre Traurigkeiten und Wünsche, die vorübergehenden Gedanken und den Glauben an irgendeine Schönheit – schildern Sie das alles mit inniger, stiller, demütiger Aufrichtigkeit und gebrauchen Sie, um sich auszudrücken, die Dinge Ihrer Umgebung, die Bilder Ihrer Träume und die Gegenstände Ihrer Erinnerung.",
+          "en": "So rescue yourself from the general themes and turn to those that your own everyday life offers you; describe your sadnesses and wishes, passing thoughts and your belief in some kind of beauty – describe all this with heartfelt, quiet, humble sincerity, and to express yourself, use the things around you, the images from your dreams and the objects of your memory."
+        }
       ]
     },
     {
@@ -330,6 +478,20 @@
         {
           "de": "die Aufmerksamkeit",
           "en": "attention"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Wenn Ihr Alltag Ihnen arm scheint, klagen Sie ihn nicht an; klagen Sie sich an, sagen Sie sich, dass Sie nicht Dichter genug sind, seine Reichtümer zu rufen; denn für den Schaffenden gibt es keine Armut und keinen armen, gleichgültigen Ort.",
+          "en": "If your everyday life seems poor to you, don't blame it; blame yourself, tell yourself that you are not poet enough to call up its riches; for to the creative person there is no poverty and no poor, indifferent place."
+        },
+        {
+          "de": "Und wenn Sie selbst in einem Gefängnis wären, dessen Wände keines von den Geräuschen der Welt zu Ihren Sinnen kommen ließen – hätten Sie dann nicht immer noch Ihre Kindheit, diesen köstlichen, königlichen Reichtum, dieses Schatzhaus der Erinnerungen?",
+          "en": "And even if you were in a prison whose walls let none of the sounds of the world reach your senses – wouldn't you still have your childhood, that precious, royal wealth, that treasure house of memories?"
+        },
+        {
+          "de": "Wenden Sie dorthin Ihre Aufmerksamkeit.",
+          "en": "Turn your attention there."
         }
       ]
     },
@@ -367,6 +529,20 @@
           "de": "die Stimme, die Stimmen",
           "en": "voice"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Versuchen Sie die versunkenen Sensationen dieser weiten Vergangenheit zu heben; Ihre Persönlichkeit wird sich festigen, Ihre Einsamkeit wird sich erweitern und wird eine dämmernde Wohnung werden, daran der Lärm der anderen fern vorüber geht.",
+          "en": "Try to raise the sunken sensations of that distant past; your personality will grow firmer, your solitude will widen and become a twilit dwelling that the noise of other people passes by far away."
+        },
+        {
+          "de": "– Und wenn aus dieser Wendung nach innen, aus dieser Versenkung in die eigene Welt Verse kommen, dann werden Sie nicht daran denken, jemanden zu fragen, ob es gute Verse sind.",
+          "en": "– And if poems come out of this turning inwards, this sinking into your own world, then you won't think of asking anyone whether they are good poems."
+        },
+        {
+          "de": "Sie werden auch nicht den Versuch machen, Zeitschriften für diese Arbeiten zu interessieren: denn Sie werden in ihnen Ihren lieben natürlichen Besitz, ein Stück und eine Stimme Ihres Lebens sehen.",
+          "en": "Nor will you try to interest magazines in this work: for you will see in it your dear, natural possession, a piece and a voice of your life."
+        }
       ]
     },
     {
@@ -400,6 +576,28 @@
           "de": "der Künstler, die Künstler",
           "en": "artist"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Ein Kunst-Werk ist gut, wenn es aus Notwendigkeit entstand.",
+          "en": "A work of art is good if it came into being out of necessity."
+        },
+        {
+          "de": "In dieser Art seines Ursprungs liegt sein Urteil: es gibt kein anderes.",
+          "en": "Its judgement lies in the way it came about: there is no other."
+        },
+        {
+          "de": "Darum, sehr geehrter Herr, wusste ich Ihnen keinen Rat als diesen: in sich zu gehen und die Tiefen zu prüfen, in denen Ihr Leben entspringt; an seiner Quelle werden Sie die Antwort auf die Frage finden, ob Sie schaffen müssen.",
+          "en": "That is why, dear Sir, I knew no advice for you but this: to go into yourself and examine the depths from which your life springs; at its source you will find the answer to the question whether you must create."
+        },
+        {
+          "de": "Nehmen Sie sie, wie sie klingt, an, ohne daran zu deuten.",
+          "en": "Accept it as it sounds, without reading anything into it."
+        },
+        {
+          "de": "Vielleicht erweist es sich, dass Sie berufen sind, Künstler zu sein.",
+          "en": "Perhaps it will turn out that you are called to be an artist."
+        }
       ]
     },
     {
@@ -431,6 +629,20 @@
         {
           "de": "wie gesagt",
           "en": "as I said"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Dann nehmen Sie das Los auf sich, und tragen Sie es, seine Last und seine Größe, ohne je nach dem Lohne zu fragen, der von außen kommen könnte.",
+          "en": "Then take that fate upon yourself and carry it, its burden and its greatness, without ever asking about the reward that might come from outside."
+        },
+        {
+          "de": "Denn der Schaffende muss eine Welt für sich sein und alles in sich finden und in der Natur, an die er sich angeschlossen hat.",
+          "en": "For the creative person must be a world of his own and find everything within himself and in nature, to which he has joined himself."
+        },
+        {
+          "de": "Vielleicht aber müssen Sie auch nach diesem Abstieg in sich und in Ihr Einsames darauf verzichten, ein Dichter zu werden (es genügt, wie gesagt, zu fühlen, dass man, ohne zu schreiben, leben könnte, um es überhaupt nicht zu dürfen).",
+          "en": "But perhaps, even after this descent into yourself and into your solitude, you will have to give up becoming a poet (as I said, it is enough to feel that you could live without writing for you not to be allowed to write at all)."
         }
       ]
     },
@@ -465,6 +677,16 @@
           "de": "weit",
           "en": "wide; far"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Aber auch dann ist diese Einkehr, um die ich Sie bitte, nicht vergebens gewesen.",
+          "en": "But even then this turning inwards that I am asking of you will not have been in vain."
+        },
+        {
+          "de": "Ihr Leben wird auf jeden Fall von da ab eigene Wege finden, und dass es gute, reiche und weite sein mögen, das wünsche ich Ihnen mehr, als ich sagen kann.",
+          "en": "Your life will in any case find its own paths from then on, and that they may be good, rich and wide ones is what I wish for you more than I can say."
+        }
       ]
     },
     {
@@ -497,6 +719,16 @@
           "de": "beantworten",
           "en": "to answer",
           "note": "+ accusative: eine Frage beantworten; but: auf eine Frage antworten"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Was soll ich Ihnen noch sagen?",
+          "en": "What else should I tell you?"
+        },
+        {
+          "de": "Mir scheint alles betont nach seinem Recht; und schließlich wollte ich Ihnen ja auch nur raten, still und ernst durch Ihre Entwicklung durchzuwachsen; Sie können sie gar nicht heftiger stören, als wenn Sie nach außen sehen und von außen Antwort erwarten auf Fragen, die nur Ihr innerstes Gefühl in Ihrer leisesten Stunde vielleicht beantworten kann.",
+          "en": "Everything seems to me to have been given the weight it deserves; and after all I only wanted to advise you to grow quietly and seriously through your development; you could not disturb it more violently than by looking outwards and expecting answers from outside to questions that perhaps only your innermost feeling can answer in your quietest hour."
         }
       ]
     },
@@ -531,6 +763,20 @@
           "de": "zurückgeben",
           "en": "to give back"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Es war mir eine Freude, in Ihrem Schreiben den Namen des Herrn Professor Horaček zu finden; ich bewahre diesem liebenswürdigen Gelehrten eine große Verehrung und eine durch die Jahre dauernde Dankbarkeit.",
+          "en": "It was a pleasure for me to find the name of Professor Horaček in your letter; I keep a great respect for that kind scholar and a gratitude that has lasted through the years."
+        },
+        {
+          "de": "Wollen Sie ihm, bitte, von dieser meiner Empfindung sagen; es ist sehr gütig, dass er meiner noch gedenkt, und ich weiß es zu schätzen.",
+          "en": "Would you please tell him of this feeling of mine; it is very kind of him to still remember me, and I appreciate it."
+        },
+        {
+          "de": "Die Verse, welche Sie mir freundlich vertrauen kamen, gebe ich Ihnen gleichzeitig wieder zurück.",
+          "en": "The poems that you kindly entrusted to me I am returning to you at the same time."
+        }
       ]
     },
     {
@@ -563,6 +809,20 @@
         {
           "de": "der/die Fremde, die Fremden",
           "en": "stranger"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und ich danke Ihnen nochmals für die Größe und Herzlichkeit Ihres Vertrauens, dessen ich mich durch diese aufrichtige, nach bestem Wissen gegebene Antwort ein wenig würdiger zu machen suchte, als ich es, als ein Fremder, wirklich bin.",
+          "en": "And I thank you once again for the greatness and warmth of your trust, of which I have tried to make myself a little more worthy, through this sincere answer given to the best of my knowledge, than I, as a stranger, really am."
+        },
+        {
+          "de": "Mit aller Ergebenheit und Teilnahme",
+          "en": "With all devotion and sympathy,"
+        },
+        {
+          "de": "Rainer Maria Rilke",
+          "en": "Rainer Maria Rilke"
         }
       ]
     },
@@ -600,6 +860,28 @@
         {
           "de": "die Zeile, die Zeilen",
           "en": "line (of text)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Viareggio bei Pisa (Italien), am 5. April 1903",
+          "en": "Viareggio near Pisa (Italy), 5 April 1903"
+        },
+        {
+          "de": "Sie müssen es mir verzeihen, lieber und geehrter Herr, dass ich Ihres Briefes vom 24.",
+          "en": "You must forgive me, dear and respected Sir, for only today gratefully remembering your letter of 24"
+        },
+        {
+          "de": "Februar erst heute dankbar gedenke: ich war die ganze Zeit leidend, nicht gerade krank, aber von einer influenzaartigen Mattigkeit bedrückt, die mich unfähig machte zu allem.",
+          "en": "February: I was unwell the whole time, not exactly ill, but weighed down by a flu-like exhaustion that made me incapable of anything."
+        },
+        {
+          "de": "Und schließlich, als es gar nicht anders werden wollte, fuhr ich an dieses südliche Meer, dessen Wohltun mir schon einmal geholfen hat.",
+          "en": "And in the end, when things just wouldn't get better, I went to this southern sea, whose healing effect has helped me once before."
+        },
+        {
+          "de": "Aber ich bin noch nicht gesund, das Schreiben fällt mir schwer, und so müssen Sie diese wenigen Zeilen nehmen für mehr.",
+          "en": "But I am not well yet, writing is hard for me, and so you must take these few lines for more."
         }
       ]
     },
@@ -639,6 +921,12 @@
           "en": "to succeed, to work out",
           "note": "Es ist mir gelungen. – everyday: klappen"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Natürlich müssen Sie wissen, dass Sie mich mit jedem Briefe immer erfreuen werden, und nur nachsichtig sein gegen die Antwort, die Sie vielleicht oft mit leeren Händen lassen wird; denn im Grunde, und gerade in den tiefsten und wichtigsten Dingen, sind wir namenlos allein, und damit einer dem andern raten oder gar helfen kann, muss viel geschehen, viel muss gelingen, eine ganze Konstellation von Dingen muss eintreffen, damit es einmal glückt.",
+          "en": "Of course you must know that you will always please me with every letter, and you must just be patient with the reply, which may often leave you empty-handed; for at bottom, and precisely in the deepest and most important things, we are unspeakably alone, and for one person to be able to advise or even help another, a lot must happen, a lot must go right, a whole constellation of things must come together for it to work out even once."
+        }
       ]
     },
     {
@@ -676,6 +964,20 @@
           "de": "hilflos",
           "en": "helpless"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Ich wollte Ihnen heute nur noch zwei Dinge sagen: Ironie: Lassen Sie sich nicht von ihr beherrschen, besonders nicht in unschöpferischen Momenten.",
+          "en": "I only wanted to tell you two more things today: Irony: don't let yourself be ruled by it, especially not in uncreative moments."
+        },
+        {
+          "de": "In schöpferischen versuchen Sie es, sich ihrer zu bedienen, als eines Mittels mehr, das Leben zu fassen.",
+          "en": "In creative ones, try to make use of it as one more means of grasping life."
+        },
+        {
+          "de": "Rein gebraucht, ist sie auch rein, und man muss sich ihrer nicht schämen; und fühlen Sie sich ihr zu vertraut, fürchten Sie die wachsende Vertraulichkeit mit ihr, dann wenden Sie sich an große und ernste Gegenstände, vor denen sie klein und hilflos wird.",
+          "en": "Used purely, it is pure too, and you needn't be ashamed of it; and if you feel too familiar with it, if you are afraid of your growing closeness to it, then turn to great and serious subjects, in front of which it becomes small and helpless."
+        }
       ]
     },
     {
@@ -711,6 +1013,16 @@
         {
           "de": "das Werkzeug, die Werkzeuge",
           "en": "tool"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Suchen Sie die Tiefe der Dinge: dort steigt Ironie nie hinab – und wenn Sie so an den Rand des Großen führen, erproben Sie gleichzeitig, ob diese Auffassungsart einer Notwendigkeit Ihres Wesens entspringt.",
+          "en": "Seek the depths of things: irony never goes down there – and when you lead it like this to the edge of greatness, test at the same time whether this way of seeing things springs from a necessity of your nature."
+        },
+        {
+          "de": "Denn unter dem Einfluss ernster Dinge wird sie entweder von Ihnen abfallen (wenn sie etwas Zufälliges ist), oder aber sie wird (so sie wirklich eingeboren Ihnen zugehört) erstarken zu einem ernsten Werkzeug und sich einordnen in die Reihe der Mittel, mit denen Sie Ihre Kunst werden bilden müssen.",
+          "en": "For under the influence of serious things it will either fall away from you (if it is something accidental), or else (if it truly belongs to you as something inborn) it will grow strong into a serious tool and take its place among the means with which you will have to shape your art."
         }
       ]
     },
@@ -750,6 +1062,24 @@
           "de": "erscheinen",
           "en": "to be published; to appear"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Und das zweite, was ich Ihnen heute erzählen wollte, ist dieses: Von allen meinen Büchern sind mir nur wenige unentbehrlich, und zwei sind sogar immer unter meinen Dingen, wo ich auch bin.",
+          "en": "And the second thing I wanted to tell you today is this: of all my books only a few are indispensable to me, and two are even always among my things, wherever I am."
+        },
+        {
+          "de": "Sie sind auch hier um mich: die Bibel, und die Bücher des großen dänischen Dichters Jens Peter Jacobsen.",
+          "en": "They are here with me too: the Bible, and the books of the great Danish writer Jens Peter Jacobsen."
+        },
+        {
+          "de": "Es fällt mir ein, ob Sie seine Werke kennen.",
+          "en": "I wonder whether you know his works."
+        },
+        {
+          "de": "Sie können sich dieselben leicht verschaffen, denn ein Teil derselben ist in Reclams Universal-Bibliothek in sehr guter Übertragung erschienen.",
+          "en": "You can easily get hold of them, because some of them have come out in Reclam's Universal Library in a very good translation."
+        }
       ]
     },
     {
@@ -788,6 +1118,20 @@
           "de": "vor allem",
           "en": "above all"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Verschaffen Sie sich das Bändchen „Sechs Novellen“ von J. P. Jacobsen und seinen Roman „Niels Lyhne“, und beginnen Sie des ersten Bändchens erste Novelle, welche „Mogens“ heißt.",
+          "en": "Get hold of the little volume 'Six Stories' by J. P. Jacobsen and his novel 'Niels Lyhne', and start with the first story in the first volume, which is called 'Mogens'."
+        },
+        {
+          "de": "Eine Welt wird über Sie kommen, das Glück, der Reichtum, die unbegreifliche Größe einer Welt.",
+          "en": "A whole world will come over you, the happiness, the richness, the incomprehensible greatness of a world."
+        },
+        {
+          "de": "Leben Sie eine Weile in diesen Büchern, lernen Sie davon, was Ihnen lernenswert scheint, aber vor allem lieben Sie sie.",
+          "en": "Live in these books for a while, learn from them whatever seems worth learning to you, but above all love them."
+        }
       ]
     },
     {
@@ -821,6 +1165,12 @@
           "de": "die Enttäuschung, die Enttäuschungen",
           "en": "disappointment"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Diese Liebe wird Ihnen tausend- und tausendmal vergolten werden, und wie Ihr Leben auch werden mag, – sie wird, ich bin dessen gewiss, durch das Gewebe Ihres Werdens gehen als einer von den wichtigsten Fäden unter allen Fäden Ihrer Erfahrungen, Enttäuschungen und Freuden.",
+          "en": "This love will be repaid to you a thousand and a thousand times, and whatever your life may become – it will, I am sure of it, run through the fabric of your growing up as one of the most important threads among all the threads of your experiences, disappointments and joys."
+        }
       ]
     },
     {
@@ -853,6 +1203,24 @@
           "de": "das Gelingen",
           "en": "success",
           "note": "today: der Erfolg – 'Viel Erfolg!'"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Wenn ich sagen soll, von wem ich etwas über das Wesen des Schaffens, über seine Tiefe und Ewigkeit erfuhr, so sind es nur zwei Namen, die ich nennen kann: den Jacobsens, des großen, großen Dichters, und den Auguste Rodins, des Bildhauers, der seinesgleichen nicht hat unter allen Künstlern, die heute leben.",
+          "en": "If I am to say from whom I have learned something about the nature of creating, about its depth and eternity, there are only two names I can give: Jacobsen's, the great, great poet's, and Auguste Rodin's, the sculptor who has no equal among all the artists living today."
+        },
+        {
+          "de": "–",
+          "en": "–"
+        },
+        {
+          "de": "Und alles Gelingen über Ihre Wege!",
+          "en": "And every success on your paths!"
+        },
+        {
+          "de": "Ihr Rainer Maria Rilke",
+          "en": "Yours, Rainer Maria Rilke"
         }
       ]
     },
@@ -891,6 +1259,24 @@
           "de": "die Frucht, die Früchte",
           "en": "fruit"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Viareggio bei Pisa (Italien), am 23.",
+          "en": "Viareggio near Pisa (Italy), 23"
+        },
+        {
+          "de": "April 1903",
+          "en": "April 1903"
+        },
+        {
+          "de": "Sie haben mir, lieber und geehrter Herr, mit Ihrem österlichen Briefe viel Freude gemacht; denn er sagte viel Gutes von Ihnen, und die Art, wie Sie über Jacobsens große und liebe Kunst sprachen, zeigte mir, dass ich nicht geirrt habe, als ich Ihr Leben und seine vielen Fragen an diese Fülle führte.",
+          "en": "You gave me a great deal of pleasure, dear and respected Sir, with your Easter letter; for it said many good things about you, and the way you spoke about Jacobsen's great and lovable art showed me that I was not wrong when I led your life and its many questions to this abundance."
+        },
+        {
+          "de": "Nun wird sich Ihnen „Niels Lyhne“ auftun, ein Buch der Herrlichkeiten und der Tiefen; je öfter man es liest: es scheint alles darin zu sein von des Lebens allerleisestem Dufte bis zu dem vollen, großen Geschmack seiner schwersten Früchte.",
+          "en": "Now 'Niels Lyhne' will open up to you, a book of splendours and of depths; the more often you read it: everything seems to be in it, from life's faintest fragrance to the full, rich taste of its heaviest fruits."
+        }
       ]
     },
     {
@@ -926,6 +1312,16 @@
         {
           "de": "der Traum, die Träume",
           "en": "dream"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Da ist nichts, was nicht verstanden, erfasst, erfahren und in des Erinnerns zitterndem Nachklingen erkannt worden wäre; kein Erleben ist zu gering gewesen, und das kleinste Geschehen entfaltet sich wie ein Schicksal, und das Schicksal selbst ist wie ein wunderbares, weites Gewebe, darin jeder Faden von einer unendlich zärtlichen Hand geführt und neben einen anderen gelegt und von hundert anderen gehalten und getragen wird.",
+          "en": "There is nothing in it that has not been understood, grasped, lived through and recognised in the trembling echo of memory; no experience has been too slight, and the smallest event unfolds like a destiny, and destiny itself is like a wonderful, wide fabric in which every thread is guided by an infinitely tender hand and laid beside another and held and carried by a hundred others."
+        },
+        {
+          "de": "Sie werden das große Glück erfahren, dieses Buch zum ersten Male zu lesen, und werden durch seine unzähligen Überraschungen gehen wie in einem neuen Traum.",
+          "en": "You will have the great happiness of reading this book for the first time, and you will go through its countless surprises as if in a new dream."
         }
       ]
     },
@@ -963,6 +1359,16 @@
           "de": "der Glaube",
           "en": "belief, faith"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Aber ich kann Ihnen sagen, dass man auch später immer wieder als derselbe Staunende durch diese Bücher geht und dass sie nichts von der wunderbaren Macht verlieren und nichts von der Märchenhaftigkeit aufgeben, mit der sie den Lesenden das erste Mal überschütten.",
+          "en": "But I can tell you that later, too, you go through these books again and again as the same astonished person, and that they lose nothing of their wonderful power and give up nothing of the fairy-tale magic with which they shower the reader the first time."
+        },
+        {
+          "de": "Man wird nur immer genießender an ihnen, immer dankbarer, und irgendwie besser und einfacher im Schauen, tiefer im Glauben an das Leben und im Leben seliger und größer.",
+          "en": "You just take more and more pleasure in them, become more and more grateful, and somehow better and simpler in the way you see, deeper in your faith in life, and happier and greater in life."
+        }
       ]
     },
     {
@@ -995,6 +1401,20 @@
         {
           "de": "enthalten",
           "en": "to contain"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und später müssen Sie das wunderbare Buch vom Schicksal und Sehnen der Marie Grubbe lesen und Jacobsens Briefe und Tagebuchblätter und Fragmente und endlich seine Verse, die (wenn sie auch nur mäßig übertragen sind) in unendlichem Klingen leben.",
+          "en": "And later you must read the wonderful book about the fate and longing of Marie Grubbe, and Jacobsen's letters and diary pages and fragments and finally his poems, which (even if they are only moderately well translated) live on in endless music."
+        },
+        {
+          "de": "(Dazu würde ich Ihnen raten, gelegentlich die schöne Gesamtausgabe von Jacobsens Werken – die alles das enthält – zu kaufen.",
+          "en": "(For this I would advise you to buy, at some point, the beautiful complete edition of Jacobsen's works – which contains all of this."
+        },
+        {
+          "de": "Sie erschien in drei Bänden und gut übertragen bei Eugen Diederichs in Leipzig und kostet, soviel ich glaube, nur fünf oder sechs Mark pro Band.)",
+          "en": "It came out in three volumes, well translated, from Eugen Diederichs in Leipzig and costs, I believe, only five or six marks a volume.)"
         }
       ]
     },
@@ -1032,6 +1452,20 @@
         {
           "de": "die Ansicht, die Ansichten",
           "en": "view, opinion"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Mit Ihrer Meinung über „Hier sollten Rosen stehen...“",
+          "en": "As for your opinion of 'There Should Have Been Roses...'"
+        },
+        {
+          "de": "(dieses Werk von so unvergleichlicher Feinheit und Form) haben Sie natürlich gegen den, der die Einleitung geschrieben hat, ganz, ganz unantastbar recht.",
+          "en": "(that work of such incomparable subtlety and form), you are of course completely, completely and unassailably right against the man who wrote the introduction."
+        },
+        {
+          "de": "Und es sei hier gleich die Bitte gesagt: Lesen Sie möglichst wenig ästhetisch-kritische Dinge, – es sind entweder Parteiansichten, versteinert und sinnlos geworden in ihrem leblosen Verhärtetsein, oder es sind geschickte Wortspiele, bei denen heute diese Ansicht gewinnt und morgen die entgegengesetzte.",
+          "en": "And let me make this request right away: read as few works of aesthetic criticism as possible – they are either partisan opinions that have turned to stone and lost their meaning in their lifeless hardness, or clever plays on words in which one view wins today and the opposite one tomorrow."
         }
       ]
     },
@@ -1073,6 +1507,24 @@
           "de": "beschleunigen",
           "en": "to speed up"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Kunst-Werke sind von einer unendlichen Einsamkeit und mit nichts so wenig erreichbar als mit Kritik.",
+          "en": "Works of art are infinitely solitary, and nothing can reach them less than criticism."
+        },
+        {
+          "de": "Nur Liebe kann sie erfassen und halten und kann gerecht sein gegen sie.",
+          "en": "Only love can grasp them and hold them and be fair to them."
+        },
+        {
+          "de": "Geben Sie jedes Mal sich und Ihrem Gefühl recht, jeder solchen Auseinandersetzung, Besprechung oder Einführung gegenüber; sollten Sie doch unrecht haben, so wird das natürliche Wachstum Ihres innern Lebens Sie langsam und mit der Zeit zu anderen Erkenntnissen führen.",
+          "en": "Each time, take your own side and the side of your feeling against any such discussion, review or introduction; if you should turn out to be wrong after all, the natural growth of your inner life will slowly, with time, lead you to other insights."
+        },
+        {
+          "de": "Lassen Sie Ihren Urteilen die eigene stille, ungestörte Entwicklung, die, wie jeder Fortschritt, tief aus innen kommen muss und durch nichts gedrängt oder beschleunigt werden kann.",
+          "en": "Allow your judgements their own quiet, undisturbed development, which, like all progress, must come from deep within and cannot be pushed or hurried by anything."
+        }
       ]
     },
     {
@@ -1112,6 +1564,16 @@
         {
           "de": "die Klarheit",
           "en": "clarity"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Alles ist austragen und dann gebären.",
+          "en": "Everything is carrying to term and then giving birth."
+        },
+        {
+          "de": "Jeden Eindruck und jeden Keim eines Gefühls ganz in sich, im Dunkel, im Unsagbaren, Unbewussten, dem eigenen Verstande Unerreichbaren sich vollenden lassen und mit tiefer Demut und Geduld die Stunde der Niederkunft einer neuen Klarheit abwarten: das allein heißt künstlerisch leben: im Verstehen wie im Schaffen.",
+          "en": "To let every impression and every seed of a feeling come to completion entirely within yourself, in the dark, in the unsayable, the unconscious, in what your own mind cannot reach, and to wait with deep humility and patience for the hour when a new clarity is born: that alone is what living as an artist means: in understanding as in creating."
         }
       ]
     },
@@ -1154,6 +1616,24 @@
         {
           "de": "täglich",
           "en": "daily, every day"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Da gibt es kein Messen mit der Zeit, da gilt kein Jahr, und zehn Jahre sind nichts, Künstler sein heißt: nicht rechnen und zählen; reifen wie der Baum, der seine Säfte nicht drängt und getrost in den Stürmen des Frühlings steht ohne die Angst, dass dahinter kein Sommer kommen könnte.",
+          "en": "There is no measuring with time there, a year doesn't count, and ten years are nothing; being an artist means: not calculating and counting; ripening like the tree that doesn't force its sap and stands confidently in the storms of spring without being afraid that no summer might come after them."
+        },
+        {
+          "de": "Er kommt doch.",
+          "en": "It does come."
+        },
+        {
+          "de": "Aber er kommt nur zu den Geduldigen, die da sind, als ob die Ewigkeit vor ihnen läge, so sorglos still und weit.",
+          "en": "But it comes only to the patient, who are there as if eternity lay before them, so carefree, quiet and wide."
+        },
+        {
+          "de": "Ich lerne es täglich, lerne es unter Schmerzen, denen ich dankbar bin: Geduld ist alles!",
+          "en": "I learn it every day, learn it through pains I am grateful for: patience is everything!"
         }
       ]
     },
@@ -1198,6 +1678,16 @@
           "de": "sich erholen",
           "en": "to recover, to rest"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Hier, wo ein gewaltiges Land um mich ist, über das von den Meeren her die Winde gehen, hier fühle ich, dass auf jene Fragen und Gefühle, die in ihren Tiefen ein eigenes Leben haben, nirgend ein Mensch Ihnen antworten kann; denn es irren auch die Besten in den Worten, wenn sie Leisestes bedeuten sollen und fast Unsägliches.",
+          "en": "Here, where a vast land lies around me, over which the winds blow in from the seas, here I feel that nobody anywhere can answer those questions and feelings of yours that have a life of their own in their depths; for even the best people go wrong with words when the words are meant to express the quietest and almost unsayable things."
+        },
+        {
+          "de": "Aber ich glaube trotzdem, dass Sie nicht ohne Lösung bleiben müssen, wenn Sie sich an Dinge halten, die denen ähnlich sind, an welchen jetzt meine Augen sich erholen.",
+          "en": "But I still believe that you need not remain without a solution if you hold on to things similar to those on which my eyes are now resting."
+        }
       ]
     },
     {
@@ -1233,6 +1723,12 @@
         {
           "de": "das Bewusstsein",
           "en": "consciousness, awareness"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Wenn Sie sich an die Natur halten, an das Einfache in ihr, an das Kleine, das kaum einer sieht, und das so unversehens zum Großen und Unermesslichen werden kann; wenn Sie diese Liebe haben zu dem Geringen und ganz schlicht als ein Dienender das Vertrauen dessen zu gewinnen suchen, was arm scheint: dann wird Ihnen alles leichter, einheitlicher und irgendwie versöhnender werden, nicht im Verstande vielleicht, der staunend zurückbleibt, aber in Ihrem innersten Bewusstsein, Wach-sein und Wissen.",
+          "en": "If you hold on to nature, to what is simple in it, to the small things that hardly anyone sees and that can so unexpectedly become great and immeasurable; if you have this love for what is humble and try, quite simply, as someone who serves, to win the trust of what seems poor: then everything will become easier for you, more unified and somehow more reconciling, not perhaps in your intellect, which stays behind in amazement, but in your innermost consciousness, wakefulness and knowing."
         }
       ]
     },
@@ -1275,6 +1771,12 @@
           "de": "die Sprache, die Sprachen",
           "en": "language"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Sie sind so jung, so vor allem Anfang, und ich möchte Sie, so gut ich es kann, bitten, lieber Herr, Geduld zu haben gegen alles Ungelöste in Ihrem Herzen und zu versuchen, die Fragen selbst liebzuhaben wie verschlossene Stuben und wie Bücher, die in einer sehr fremden Sprache geschrieben sind.",
+          "en": "You are so young, so much before all beginning, and I would like to ask you, as well as I can, dear sir, to be patient towards everything that is unresolved in your heart and to try to love the questions themselves, like locked rooms and like books written in a very foreign language."
+        }
       ]
     },
     {
@@ -1311,6 +1813,24 @@
           "de": "fern",
           "en": "distant, far"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Forschen Sie jetzt nicht nach den Antworten, die Ihnen nicht gegeben werden können, weil Sie sie nicht leben könnten.",
+          "en": "Don't search now for the answers, which cannot be given to you because you would not be able to live them."
+        },
+        {
+          "de": "Und es handelt sich darum, alles zu leben.",
+          "en": "And the point is to live everything."
+        },
+        {
+          "de": "Leben Sie jetzt die Fragen.",
+          "en": "Live the questions now."
+        },
+        {
+          "de": "Vielleicht leben Sie dann allmählich, ohne es zu merken, eines fernen Tages in die Antwort hinein.",
+          "en": "Perhaps then, gradually, without noticing it, you will live your way into the answer some distant day."
+        }
       ]
     },
     {
@@ -1346,6 +1866,12 @@
         {
           "de": "hassen",
           "en": "to hate"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Vielleicht tragen Sie ja in sich die Möglichkeit, zu bilden und zu formen, als eine besonders selige und reine Art des Lebens; erziehen Sie sich dazu, – aber nehmen Sie das, was kommt, in großem Vertrauen hin, und wenn es nur aus Ihrem Willen kommt, aus irgendeiner Not Ihres Innern, so nehmen Sie es auf sich und hassen Sie nichts.",
+          "en": "Perhaps you really do carry within you the possibility of shaping and forming, as an especially blissful and pure way of living; train yourself for it – but accept whatever comes with great trust, and if it comes only from your own will, from some need deep inside you, then take it upon yourself and hate nothing."
         }
       ]
     },
@@ -1389,6 +1915,20 @@
           "de": "fern",
           "en": "far away"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Aber alles, was vielleicht einmal vielen möglich sein wird, kann der Einsame jetzt schon vorbereiten und bauen mit seinen Händen, die weniger irren.",
+          "en": "But everything that may one day be possible for many, the solitary person can already prepare and build now, with his hands, which make fewer mistakes."
+        },
+        {
+          "de": "Darum, lieber Herr, lieben Sie Ihre Einsamkeit, und tragen Sie den Schmerz, den sie Ihnen verursacht, mit schön klingender Klage.",
+          "en": "Therefore, dear sir, love your solitude and bear the pain it causes you with a beautifully sounding lament."
+        },
+        {
+          "de": "Denn die Ihnen nahe sind, sind fern, sagen Sie, und das zeigt, dass es anfängt, weit um Sie zu werden.",
+          "en": "For those who are close to you are far away, you say, and that shows that a wide space is beginning to open up around you."
+        }
       ]
     },
     {
@@ -1428,6 +1968,12 @@
         {
           "de": "begreifen",
           "en": "to grasp, to understand"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und wenn Ihre Nähe fern ist, dann ist Ihre Weite schon unter den Sternen und sehr groß; freuen Sie sich Ihres Wachstums, in das Sie ja niemanden mitnehmen können, und seien Sie gut gegen die, welche zurückbleiben, und seien Sie sicher und ruhig vor ihnen und quälen Sie sie nicht mit Ihren Zweifeln und erschrecken Sie sie nicht mit Ihrer Zuversicht oder Freude, die sie nicht begreifen könnten.",
+          "en": "And if what is near to you is far away, then your wide space is already out among the stars and very large; be glad of your growth, into which, after all, you can take no one with you, and be kind to those who stay behind, and be sure and calm in front of them, and don't torment them with your doubts and don't frighten them with your confidence or joy, which they could not understand."
         }
       ]
     },
@@ -1470,6 +2016,16 @@
           "de": "wärmen",
           "en": "to warm"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Suchen Sie sich mit ihnen irgendeine schlichte und treue Gemeinsamkeit, die sich nicht notwendig verändern muss, wenn Sie selbst anders und anders werden; lieben Sie an ihnen das Leben in einer fremden Form und haben Sie Nachsicht gegen die alternden Menschen, die das Alleinsein fürchten, zu dem Sie Vertrauen haben.",
+          "en": "Look for some simple and faithful common ground with them, which doesn't necessarily have to change when you yourself become more and more different; love in them life in an unfamiliar form, and be patient with the ageing people who fear the being-alone that you trust."
+        },
+        {
+          "de": "Vermeiden Sie, jenem Drama, das zwischen Eltern und Kindern immer ausgespannt ist, Stoff zuzuführen; es verbraucht viel Kraft der Kinder und zehrt die Liebe der Alten auf, die wirkt und wärmt, auch wenn sie nicht begreift.",
+          "en": "Avoid adding fuel to that drama which is always stretched between parents and children; it uses up a lot of the children's strength and wears out the love of the old, which works and warms even when it doesn't understand."
+        }
       ]
     },
     {
@@ -1507,6 +2063,16 @@
           "de": "selbständig",
           "en": "independent",
           "note": "also: selbstständig"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Verlangen Sie keinen Rat von ihnen und rechnen Sie mit keinem Verstehen; aber glauben Sie an eine Liebe, die für Sie aufbewahrt wird wie eine Erbschaft, und vertrauen Sie, dass in dieser Liebe eine Kraft ist und ein Segen, aus dem Sie nicht herausgehen müssen, um ganz weit zu gehen!",
+          "en": "Don't ask them for advice and don't count on any understanding; but believe in a love that is being kept for you like an inheritance, and trust that in this love there is a strength and a blessing that you don't have to step out of in order to go very far!"
+        },
+        {
+          "de": "Es ist gut, dass Sie zunächst in einen Beruf münden, der Sie selbständig macht und Sie vollkommen auf sich selbst stellt in jedem Sinne.",
+          "en": "It is good that you are first entering a profession that makes you independent and puts you entirely on your own feet in every sense."
         }
       ]
     },
@@ -1547,6 +2113,28 @@
         {
           "de": "begleiten",
           "en": "to accompany"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Warten Sie geduldig ab, ob Ihr innerstes Leben sich beschränkt fühlt durch die Form dieses Berufes.",
+          "en": "Wait patiently to see whether your innermost life feels restricted by the form of this profession."
+        },
+        {
+          "de": "Ich halte ihn für sehr schwer und für sehr anspruchsvoll, da er von großen Konventionen belastet ist und einer persönlichen Auffassung seiner Aufgaben fast keinen Raum lässt.",
+          "en": "I consider it very hard and very demanding, since it is weighed down by great conventions and leaves almost no room for a personal view of its tasks."
+        },
+        {
+          "de": "Aber Ihre Einsamkeit wird Ihnen auch inmitten sehr fremder Verhältnisse Halt und Heimat sein, und aus ihr heraus werden Sie alle Ihre Wege finden.",
+          "en": "But your solitude will be a support and a home for you even in the midst of very strange circumstances, and from it you will find all your ways."
+        },
+        {
+          "de": "Alle meine Wünsche sind bereit, Sie zu begleiten, und mein Vertrauen ist mit Ihnen.",
+          "en": "All my wishes are ready to go with you, and my trust is with you."
+        },
+        {
+          "de": "Ihr Rainer Maria Rilke",
+          "en": "Yours, Rainer Maria Rilke"
         }
       ]
     },
@@ -1595,6 +2183,12 @@
           "de": "überall",
           "en": "everywhere"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Schließlich, nach Wochen täglicher Abwehr, findet man sich, obwohl noch ein wenig verwirrt, zu sich selber zurück, und man sagt sich: Nein, es ist hier nicht mehr Schönheit als anderswo, und alle diese von Generationen immer weiter bewunderten Gegenstände, an denen Handlangerhände gebessert und ergänzt haben, bedeuten nichts, sind nichts und haben kein Herz und keinen Wert; – aber es ist viel Schönheit hier, weil überall viel Schönheit ist.",
+          "en": "Finally, after weeks of daily resistance, you find your way back to yourself, although still a little confused, and you say to yourself: No, there is no more beauty here than anywhere else, and all these objects, admired by generation after generation, patched up and completed by the hands of labourers, mean nothing, are nothing and have no heart and no value; – but there is much beauty here, because there is much beauty everywhere."
+        }
       ]
     },
     {
@@ -1635,6 +2229,16 @@
           "de": "die Welle, die Wellen",
           "en": "wave"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Unendlich lebensvolle Wasser gehen über die alten Aquädukte in die große Stadt und tanzen auf den vielen Plätzen über steinernen weißen Schalen und breiten sich aus in weiten, geräumigen Becken und rauschen bei Tag und erheben ihr Rauschen zur Nacht, die hier groß und gestirnt ist und weich von Winden.",
+          "en": "Endlessly lively waters flow over the old aqueducts into the great city and dance in the many squares over white stone basins and spread out in wide, spacious pools and murmur by day and raise their murmuring into the night, which here is vast and starry and soft with winds."
+        },
+        {
+          "de": "Und Gärten sind hier, unvergessliche Alleen und Treppen, Treppen, von Michelangelo ersonnen, Treppen, die nach dem Vorbild abwärts gleitender Wasser erbaut sind, – breit im Gefäll Stufe aus Stufe gebärend wie Welle aus Welle.",
+          "en": "And there are gardens here, unforgettable avenues and staircases, staircases devised by Michelangelo, staircases built on the model of water gliding downwards – broad in their slope, giving birth to step after step like wave after wave."
+        }
       ]
     },
     {
@@ -1670,6 +2274,12 @@
         {
           "de": "teilnehmen an",
           "en": "to take part in"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Durch solche Eindrücke sammelt man sich, gewinnt sich zurück aus dem anspruchsvollen Vielen, das da spricht und schwätzt (und wie gesprächig ist es!), und lernt langsam die sehr wenigen Dinge erkennen, in denen Ewiges dauert, das man lieben, und Einsames, daran man leise teilnehmen kann.",
+          "en": "Through such impressions you collect yourself, win yourself back from the demanding many things that talk and chatter there (and how talkative they are!), and slowly learn to recognise the very few things in which something eternal lasts that you can love, and something solitary that you can quietly share in."
         }
       ]
     },
@@ -1718,6 +2328,28 @@
           "de": "der Nächstbeste",
           "en": "the first person who comes along"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Rom, am 23.",
+          "en": "Rome, 23"
+        },
+        {
+          "de": "Dezember 1903",
+          "en": "December 1903"
+        },
+        {
+          "de": "Mein lieber Herr Kappus,",
+          "en": "My dear Mr Kappus,"
+        },
+        {
+          "de": "Sie sollen nicht ohne einen Gruß von mir sein, wenn es Weihnachten wird und wenn Sie, inmitten des Festes, Ihre Einsamkeit schwerer tragen als sonst.",
+          "en": "You shall not be without a greeting from me when Christmas comes and when, in the middle of the holiday, you carry your solitude more heavily than usual."
+        },
+        {
+          "de": "Aber wenn Sie dann merken, dass sie groß ist, so freuen Sie sich dessen; denn was (so fragen Sie sich) wäre eine Einsamkeit, welche nicht Größe hätte; es gibt nur eine Einsamkeit, und die ist groß und ist nicht leicht zu tragen, und es kommen fast allen die Stunden, da sie sie gerne vertauschen möchten gegen irgendeine noch so banale und billige Gemeinsamkeit, gegen den Schein einer geringen Übereinstimmung mit dem Nächstbesten, mit dem Unwürdigsten.",
+          "en": "But if you then notice that it is great, be glad of it; for what (so ask yourself) would a solitude be that had no greatness; there is only one solitude, and it is great and not easy to bear, and to almost everyone come the hours when they would gladly exchange it for any togetherness, however banal and cheap, for the mere appearance of some small agreement with the first person who comes along, with the least worthy."
+        }
       ]
     },
     {
@@ -1759,6 +2391,28 @@
           "de": "geschäftig",
           "en": "busy, bustling"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Aber vielleicht sind das gerade die Stunden, wo die Einsamkeit wächst; denn ihr Wachsen ist schmerzhaft wie das Wachsen der Knaben und traurig wie der Anfang der Frühlinge.",
+          "en": "But perhaps those are exactly the hours when solitude grows; for its growing is painful like the growing of boys and sad like the beginning of springs."
+        },
+        {
+          "de": "Aber das darf Sie nicht irre machen.",
+          "en": "But that must not confuse you."
+        },
+        {
+          "de": "Was not tut, ist doch nur dieses: Einsamkeit, große innere Einsamkeit.",
+          "en": "What is needed, after all, is only this: solitude, great inner solitude."
+        },
+        {
+          "de": "In-sich-Gehen und stundenlang niemandem begegnen, – das muss man erreichen können.",
+          "en": "Going into yourself and meeting no one for hours – that is what you must be able to achieve."
+        },
+        {
+          "de": "Einsam sein, wie man als Kind einsam war, als die Erwachsenen umhergingen, mit Dingen verflochten, die wichtig und groß schienen, weil die Großen so geschäftig aussahen und weil man von ihrem Tun nichts begriff.",
+          "en": "Being alone the way you were alone as a child, when the grown-ups walked around, tangled up in things that seemed important and big because the grown-ups looked so busy and because you understood nothing of what they did."
+        }
       ]
     },
     {
@@ -1794,6 +2448,16 @@
         {
           "de": "das Mittel, die Mittel",
           "en": "means, method"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und wenn man eines Tages einsieht, dass ihre Beschäftigungen armselig, ihre Berufe erstarrt und mit dem Leben nicht mehr verbunden sind, warum dann nicht weiter wie ein Kind darauf hinsehen als auf ein Fremdes, aus der Tiefe der eigenen Welt heraus, aus der Weite der eigenen Einsamkeit, die selber Arbeit ist und Rang und Beruf?",
+          "en": "And when one day you realise that their occupations are paltry, their professions rigid and no longer connected with life, why not go on looking at them like a child, as at something foreign, from the depths of your own world, from the wide space of your own solitude, which is itself work and rank and profession?"
+        },
+        {
+          "de": "Warum eines Kindes weises Nicht-Verstehen vertauschen wollen gegen Abwehr und Verachtung, da doch Nicht-Verstehen Alleinsein ist, Abwehr und Verachtung aber Teilnahme an dem, wovon man sich mit diesen Mitteln scheiden will.",
+          "en": "Why want to exchange a child's wise not-understanding for defensiveness and contempt, since not-understanding is being alone, whereas defensiveness and contempt are a way of taking part in the very thing you want to separate yourself from by these means."
         }
       ]
     },
@@ -1834,6 +2498,20 @@
         {
           "de": "überhaupt",
           "en": "at all, even"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Denken Sie, lieber Herr, an die Welt, die Sie in sich tragen, und nennen Sie dieses Denken, wie Sie wollen; mag es Erinnerung an die eigene Kindheit sein oder Sehnsucht zur eigenen Zukunft hin, – nur seien Sie aufmerksam gegen das, was in Ihnen aufsteht, und stellen Sie es über alles, was Sie um sich bemerken.",
+          "en": "Think, dear sir, of the world that you carry within you, and call this thinking whatever you like; whether it is memory of your own childhood or longing towards your own future – only be attentive to what rises up in you, and place it above everything you notice around you."
+        },
+        {
+          "de": "Ihr innerstes Geschehen ist Ihrer ganzen Liebe wert, an ihm müssen Sie irgendwie arbeiten und nicht zu viel Zeit und zu viel Mut damit verlieren, Ihre Stellung zu den Menschen aufzuklären.",
+          "en": "What happens deep inside you is worth all your love; you must somehow work on it and not lose too much time and too much courage trying to clarify your position towards other people."
+        },
+        {
+          "de": "Wer sagt Ihnen denn, dass Sie überhaupt eine haben?",
+          "en": "Who says you even have one?"
         }
       ]
     },
@@ -1881,6 +2559,12 @@
           "de": "die Würde",
           "en": "dignity"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Es ist überall so; aber das ist kein Grund zu Angst oder Traurigkeit; wenn keine Gemeinsamkeit zwischen den Menschen ist und Ihnen, versuchen Sie es, den Dingen nahe zu sein, die Sie nicht verlassen werden; noch sind die Nächte da und die Winde, die durch die Bäume gehen und über viele Länder; noch ist unter den Dingen und bei den Tieren alles voll Geschehen, daran Sie teilnehmen dürfen; und die Kinder sind noch so, wie Sie gewesen sind als Kind, so traurig und glücklich, – und wenn Sie an Ihre Kindheit denken, dann leben Sie wieder unter ihnen, unter den einsamen Kindern, und die Erwachsenen sind nichts, und ihre Würde hat keinen Wert.",
+          "en": "It is like that everywhere; but that is no reason for fear or sadness; if there is no common ground between people and you, try to be close to things, which will not abandon you; the nights are still there and the winds that go through the trees and over many lands; among things and animals everything is still full of happenings in which you may take part; and children are still the way you were as a child, so sad and happy – and when you think of your childhood, then you live among them again, among the lonely children, and the grown-ups are nothing, and their dignity has no value."
+        }
       ]
     },
     {
@@ -1919,6 +2603,20 @@
           "de": "zuversichtlich",
           "en": "confident",
           "note": "Rilke uses old 'getrost'"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Seien Sie geduldig und ohne Unwillen und denken Sie, dass das wenigste, was wir tun können, ist, Ihm das Werden nicht schwerer zu machen, als die Erde es dem Frühling macht, wenn er kommen will.",
+          "en": "Be patient and without resentment, and remember that the least we can do is not to make his coming-into-being harder than the earth makes it for spring when spring wants to come."
+        },
+        {
+          "de": "Und seien Sie froh und getrost.",
+          "en": "And be glad and confident."
+        },
+        {
+          "de": "Ihr Rainer Maria Rilke",
+          "en": "Yours, Rainer Maria Rilke"
         }
       ]
     },
@@ -1963,6 +2661,16 @@
           "de": "weit",
           "en": "wide, far"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Und Sie dürfen sich nicht beirren lassen in Ihrer Einsamkeit, dadurch, dass etwas in Ihnen ist, das sich herauswünscht aus ihr.",
+          "en": "And you must not let yourself be put off in your solitude by the fact that there is something in you that wishes to get out of it."
+        },
+        {
+          "de": "Gerade dieser Wunsch wird Ihnen, wenn Sie ihn ruhig und überlegen und wie ein Werkzeug gebrauchen, Ihre Einsamkeit ausbreiten helfen über weites Land.",
+          "en": "This very wish, if you use it calmly and thoughtfully and like a tool, will help you to spread your solitude out over a wide land."
+        }
       ]
     },
     {
@@ -2004,6 +2712,16 @@
           "de": "die Sicherheit, die Sicherheiten",
           "en": "certainty; safety"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die Leute haben (mit Hilfe von Konventionen) alles nach dem Leichten hin gelöst und nach des Leichten leichtester Seite; es ist aber klar, dass wir uns an das Schwere halten müssen; alles Lebendige hält sich daran, alles in der Natur wächst und wehrt sich nach seiner Art und ist ein Eigenes aus sich heraus, versucht es um jeden Preis zu sein und gegen allen Widerstand.",
+          "en": "People have (with the help of conventions) solved everything in the direction of what is easy, and towards the easiest side of the easy; but it is clear that we must hold on to what is difficult; everything alive holds on to it, everything in nature grows and defends itself in its own way and is something of its own, out of itself, tries to be that at any price and against all resistance."
+        },
+        {
+          "de": "Wir wissen wenig, aber dass wir uns zu Schwerem halten müssen, ist eine Sicherheit, die uns nicht verlassen wird; es ist gut, einsam zu sein, denn Einsamkeit ist schwer; dass etwas schwer ist, muss uns ein Grund mehr sein, es zu tun.",
+          "en": "We know little, but that we must hold on to what is difficult is a certainty that will not leave us; it is good to be solitary, for solitude is difficult; the fact that something is difficult must be one more reason for us to do it."
+        }
       ]
     },
     {
@@ -2039,6 +2757,28 @@
         {
           "de": "das Alleinsein",
           "en": "being alone"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Auch zu lieben ist gut: denn Liebe ist schwer.",
+          "en": "To love is also good: for love is difficult."
+        },
+        {
+          "de": "Liebhaben von Mensch zu Mensch: das ist vielleicht das Schwerste, was uns aufgegeben ist, das Äußerste, die letzte Probe und Prüfung, die Arbeit, für die alle andere Arbeit nur Vorbereitung ist.",
+          "en": "For one human being to love another: that is perhaps the most difficult thing we have been given to do, the ultimate, the final test and trial, the work for which all other work is only preparation."
+        },
+        {
+          "de": "Darum können junge Menschen, die Anfänger in allem sind, die Liebe noch nicht: sie müssen sie lernen.",
+          "en": "That is why young people, who are beginners in everything, cannot yet love: they have to learn it."
+        },
+        {
+          "de": "Mit dem ganzen Wesen, mit allen Kräften, versammelt um ihr einsames, banges, aufwärts schlagendes Herz, müssen sie lieben lernen.",
+          "en": "With their whole being, with all their strength, gathered around their lonely, anxious, upward-beating heart, they must learn to love."
+        },
+        {
+          "de": "Lernzeit aber ist immer eine lange, abgeschlossene Zeit, und so ist Lieben für lange hinaus und weit ins Leben hinein –: Einsamkeit, gesteigertes und vertieftes Alleinsein für den, der liebt.",
+          "en": "But learning time is always a long, secluded time, and so loving, for a long time ahead and far into life, is –: solitude, heightened and deepened aloneness for the one who loves."
         }
       ]
     },
@@ -2076,6 +2816,12 @@
           "de": "der Anspruch, die Ansprüche",
           "en": "claim, demand"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Lieben ist zunächst nichts, was aufgehen, hingeben und sich mit einem Zweiten vereinen heißt (denn was wäre eine Vereinigung von Ungeklärtem und Unfertigem, noch Ungeordnetem –?), es ist ein erhabener Anlass für den einzelnen, zu reifen, in sich etwas zu werden, Welt zu werden, Welt zu werden für sich um eines anderen willen, es ist ein großer, unbescheidener Anspruch an ihn, etwas, was ihn auserwählt und zu Weitem beruft.",
+          "en": "Loving is at first nothing that means merging, giving yourself up and uniting with a second person (for what would a union of the unclarified and unfinished, of the still disordered be –?), it is a sublime occasion for the individual to mature, to become something in himself, to become world, to become world for himself for the sake of another; it is a great, immodest claim upon him, something that chooses him and calls him to wide horizons."
+        }
       ]
     },
     {
@@ -2111,6 +2857,16 @@
         {
           "de": "ausreichen",
           "en": "to be enough"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Nur in diesem Sinne, als Aufgabe, an sich zu arbeiten („zu horchen und zu hämmern Tag und Nacht“) dürften junge Menschen die Liebe, die ihnen gegeben wird, gebrauchen.",
+          "en": "Only in this sense, as a task to work on themselves ('to listen and to hammer day and night'), should young people use the love that is given to them."
+        },
+        {
+          "de": "Das Aufgehen und das Hingeben und alle Art der Gemeinsamkeit ist nicht für sie (die noch lange, lange sparen und sammeln müssen), ist das Endliche, ist vielleicht das, wofür Menschenleben jetzt noch kaum ausreichen.",
+          "en": "Merging and giving yourself up and every kind of togetherness is not for them (they still have to save and gather for a long, long time); it is the final thing, perhaps the thing for which human lives are still barely long enough."
         }
       ]
     },
@@ -2159,6 +2915,16 @@
           "de": "grüßen",
           "en": "to greet"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Dieser Fortschritt wird das Liebe-Erleben, das jetzt voll Irrung ist (sehr gegen den Willen der überholten Männer zunächst), verwandeln, von Grund aus verändern, zu einer Beziehung umbilden, die von Mensch zu Mensch gemeint ist, nicht mehr von Mann zu Weib.",
+          "en": "This progress will transform the experience of love, which is now full of mistakes (at first very much against the will of the men who have been overtaken), change it from the ground up, reshape it into a relationship that is meant from one human being to another, no longer from man to woman."
+        },
+        {
+          "de": "Und diese menschlichere Liebe (die unendlich rücksichtsvoll und leise, und gut und klar in Binden und Lösen sich vollziehen wird) wird jener ähneln, die wir ringend und mühsam vorbereiten, der Liebe, die darin besteht, dass zwei Einsamkeiten einander schützen, grenzen und grüßen.",
+          "en": "And this more human love (which will be carried out infinitely considerately and gently, and kindly and clearly in binding and releasing) will resemble the love we are preparing with struggle and effort: the love that consists in two solitudes protecting, bordering and greeting each other."
+        }
       ]
     },
     {
@@ -2195,6 +2961,28 @@
           "de": "der Junge, die Jungen",
           "en": "boy",
           "note": "Rilke uses old 'der Knabe'"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und das noch: Glauben Sie nicht, dass jene große Liebe, welche Ihnen, dem Knaben, einst auferlegt worden ist, verloren war; können Sie sagen, ob damals nicht große und gute Wünsche in Ihnen gereift sind und Vorsätze, von denen Sie heute noch leben?",
+          "en": "And one more thing: don't believe that the great love that was once laid upon you as a boy was lost; can you say whether great and good wishes did not ripen in you back then, and resolutions that you still live by today?"
+        },
+        {
+          "de": "Ich glaube, dass jene Liebe so stark und mächtig in Ihrer Erinnerung bleibt, weil sie Ihr erstes tiefes Alleinsein war und die erste innere Arbeit, die Sie an Ihrem Leben getan haben.",
+          "en": "I believe that that love remains so strong and powerful in your memory because it was your first deep being-alone and the first inner work you did on your life."
+        },
+        {
+          "de": "–",
+          "en": "–"
+        },
+        {
+          "de": "Alle guten Wünsche für Sie, lieber Herr Kappus!",
+          "en": "All good wishes to you, dear Mr Kappus!"
+        },
+        {
+          "de": "Ihr Rainer Maria Rilke",
+          "en": "Yours, Rainer Maria Rilke"
         }
       ]
     },
@@ -2242,6 +3030,36 @@
           "de": "sich verändern",
           "en": "to change"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Borgeby gård, Flädie, Schweden, am 12.",
+          "en": "Borgeby gård, Flädie, Sweden, 12"
+        },
+        {
+          "de": "August 1904",
+          "en": "August 1904"
+        },
+        {
+          "de": "Ich will wieder eine Weile zu Ihnen reden, lieber Herr Kappus, obwohl ich fast nichts sagen kann, was hilfreich ist, kaum etwas Nützliches.",
+          "en": "I want to talk to you again for a while, dear Mr Kappus, although I can say almost nothing that is helpful, hardly anything useful."
+        },
+        {
+          "de": "Sie haben viele und große Traurigkeiten gehabt, die vorübergingen.",
+          "en": "You have had many great sadnesses, which passed."
+        },
+        {
+          "de": "Und Sie sagen, dass auch dieses Vorübergehen schwer und verstimmend für Sie war.",
+          "en": "And you say that even this passing was hard and upsetting for you."
+        },
+        {
+          "de": "Aber, bitte, überlegen Sie, ob diese großen Traurigkeiten nicht vielmehr mitten durch Sie durchgegangen sind?",
+          "en": "But please consider whether these great sadnesses have not rather gone right through the middle of you?"
+        },
+        {
+          "de": "Ob nicht vieles in Ihnen sich verwandelt hat, ob Sie nicht irgendwo, an irgendeiner Stelle Ihres Wesens sich verändert haben, während Sie traurig waren?",
+          "en": "Whether much in you has not been transformed, whether somewhere, at some point in your being, you have not changed while you were sad?"
+        }
       ]
     },
     {
@@ -2277,6 +3095,12 @@
         {
           "de": "sterben an",
           "en": "to die of"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Gefährlich und schlecht sind nur jene Traurigkeiten, die man unter die Leute trägt, um sie zu übertönen; wie Krankheiten, die oberflächlich und töricht behandelt werden, treten sie nur zurück und brechen nach einer kleinen Pause um so furchtbarer aus; und sammeln sich an im Innern und sind Leben, sind ungelebtes, verschmähtes, verlorenes Leben, an dem man sterben kann.",
+          "en": "Dangerous and bad are only those sadnesses that you carry out among people in order to drown them out; like illnesses that are treated superficially and foolishly, they only withdraw and break out all the more terribly after a short pause; and they gather inside you and are life, unlived, rejected, lost life, of which you can die."
         }
       ]
     },
@@ -2318,6 +3142,16 @@
           "de": "schweigen",
           "en": "to be silent"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Wäre es uns möglich, weiter zu sehen, als unser Wissen reicht, und noch ein wenig über die Vorwerke unseres Ahnens hinaus, vielleicht würden wir dann unsere Traurigkeiten mit größerem Vertrauen ertragen als unsere Freuden.",
+          "en": "If it were possible for us to see further than our knowledge reaches, and a little beyond the outworks of our intuition, perhaps we would then bear our sadnesses with greater trust than our joys."
+        },
+        {
+          "de": "Denn sie sind die Augenblicke, da etwas Neues in uns eingetreten ist, etwas Unbekanntes; unsere Gefühle verstummen in scheuer Befangenheit, alles in uns tritt zurück, es entsteht eine Stille, und das Neue, das niemand kennt, steht mitten darin und schweigt.",
+          "en": "For they are the moments when something new has entered into us, something unknown; our feelings fall silent in shy embarrassment, everything in us steps back, a stillness arises, and the new thing, which no one knows, stands in the middle of it and is silent."
+        }
       ]
     },
     {
@@ -2353,6 +3187,20 @@
         {
           "de": "das Blut",
           "en": "blood"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Ich glaube, dass fast alle unsere Traurigkeiten Momente der Spannung sind, die wir als Lähmung empfinden, weil wir unsere befremdeten Gefühle nicht mehr leben hören.",
+          "en": "I believe that almost all our sadnesses are moments of tension that we feel as paralysis because we no longer hear our estranged feelings living."
+        },
+        {
+          "de": "Weil wir mit dem Fremden, das bei uns eingetreten ist, allein sind; weil uns alles Vertraute und Gewohnte für einen Augenblick fortgenommen ist; weil wir mitten in einem Übergang stehen, wo wir nicht stehen bleiben können.",
+          "en": "Because we are alone with the stranger that has entered us; because everything familiar and habitual is taken away from us for a moment; because we stand in the middle of a transition where we cannot stay standing."
+        },
+        {
+          "de": "Darum geht die Traurigkeit auch vorüber: das Neue in uns, das Hinzugekommene, ist in unser Herz eingetreten, ist in seine innerste Kammer gegangen und ist auch dort nicht mehr, – ist schon im Blut.",
+          "en": "That is why sadness passes, too: the new thing in us, the thing that has been added, has entered our heart, has gone into its innermost chamber and is no longer there either – it is already in the blood."
         }
       ]
     },
@@ -2390,6 +3238,20 @@
           "de": "bevor",
           "en": "before (conjunction)"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Und wir erfahren nicht, was es war.",
+          "en": "And we don't find out what it was."
+        },
+        {
+          "de": "Man könnte uns leicht glauben machen, es sei nichts geschehen, und doch haben wir uns verwandelt, wie ein Haus sich verwandelt, in welches ein Gast eingetreten ist.",
+          "en": "People could easily make us believe that nothing had happened, and yet we have been transformed, the way a house is transformed when a guest has entered it."
+        },
+        {
+          "de": "Wir können nicht sagen, wer gekommen ist, wir werden es vielleicht nie wissen, aber es sprechen viele Anzeichen dafür, dass die Zukunft in solcher Weise in uns eintritt, um sich in uns zu verwandeln, lange bevor sie geschieht.",
+          "en": "We cannot say who has come, perhaps we will never know, but there are many signs suggesting that the future enters into us in this way, in order to transform itself in us long before it happens."
+        }
       ]
     },
     {
@@ -2425,6 +3287,12 @@
         {
           "de": "von außen",
           "en": "from outside"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und darum ist es so wichtig, einsam und aufmerksam zu sein, wenn man traurig ist: weil der scheinbar ereignislose und starre Augenblick, da unsere Zukunft uns betritt, dem Leben so viel näher steht als jener andere laute und zufällige Zeitpunkt, da sie uns, wie von außen her, geschieht.",
+          "en": "And that is why it is so important to be solitary and attentive when you are sad: because the seemingly uneventful and frozen moment when our future steps into us is so much closer to life than that other loud and accidental point in time when it happens to us, as if from outside."
         }
       ]
     },
@@ -2472,6 +3340,20 @@
           "de": "versuchen",
           "en": "to try"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Wir sind ins Leben gesetzt, als in das Element, dem wir am meisten entsprechen, und wir sind überdies durch jahrtausendelange Anpassung diesem Leben so ähnlich geworden, dass wir, wenn wir stille halten, durch ein glückliches Mimikry von allem, was uns umgibt, kaum zu unterscheiden sind.",
+          "en": "We have been set into life as into the element we most correspond to, and moreover, through thousands of years of adaptation, we have become so similar to this life that, when we keep still, we can hardly be distinguished, by a happy mimicry, from everything that surrounds us."
+        },
+        {
+          "de": "Wir haben keinen Grund, gegen unsere Welt Misstrauen zu haben, denn sie ist nicht gegen uns.",
+          "en": "We have no reason to distrust our world, for it is not against us."
+        },
+        {
+          "de": "Hat sie Schrecken, so sind es unsere Schrecken, hat sie Abgründe, so gehören diese Abgründe uns, sind Gefahren da, so müssen wir versuchen, sie zu lieben.",
+          "en": "If it has terrors, they are our terrors; if it has abysses, these abysses belong to us; if there are dangers, we must try to love them."
+        }
       ]
     },
     {
@@ -2511,6 +3393,20 @@
         {
           "de": "hilflos",
           "en": "helpless"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und wenn wir nur unser Leben nach jenem Grundsatz einrichten, der uns rät, dass wir uns immer an das Schwere halten müssen, so wird das, welches uns jetzt noch als das Fremdeste erscheint, unser Vertrautestes und Treuestes werden.",
+          "en": "And if only we arrange our life according to the principle that advises us always to hold on to what is difficult, then what now still appears to us as the strangest will become the most familiar and faithful to us."
+        },
+        {
+          "de": "Wie sollten wir jener alten Mythen vergessen können, die am Anfange aller Völker stehen, der Mythen von den Drachen, die sich im äußersten Augenblick in Prinzessinnen verwandeln; vielleicht sind alle Drachen unseres Lebens Prinzessinnen, die nur darauf warten, uns einmal schön und mutig zu sehen.",
+          "en": "How could we forget those ancient myths that stand at the beginning of all peoples, the myths about dragons that at the very last moment turn into princesses; perhaps all the dragons of our lives are princesses who are only waiting to see us, just once, beautiful and brave."
+        },
+        {
+          "de": "Vielleicht ist alles Schreckliche im tiefsten Grunde das Hilflose, das von uns Hilfe will.",
+          "en": "Perhaps everything terrible is, in its deepest essence, something helpless that wants help from us."
         }
       ]
     },
@@ -2555,6 +3451,36 @@
           "de": "die Traurigkeit",
           "en": "sadness"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Erinnern Sie sich, wie sich dieses Leben aus der Kindheit heraus nach den „Großen“ gesehnt hat?",
+          "en": "Do you remember how this life of yours, coming out of childhood, longed for the 'grown-ups'?"
+        },
+        {
+          "de": "Ich sehe, wie es sich jetzt von den Großen fort nach den Größeren sehnt.",
+          "en": "I can see how it is now longing away from the grown-ups towards the greater ones."
+        },
+        {
+          "de": "Darum hört es nicht auf, schwer zu sein, aber darum wird es auch nicht aufhören zu wachsen.",
+          "en": "That is why it doesn't stop being difficult, but that is also why it won't stop growing."
+        },
+        {
+          "de": "Und wenn ich Ihnen noch eines sagen soll, so ist es dies: Glauben Sie nicht, dass der, welcher Sie zu trösten versucht, mühelos unter den einfachen und stillen Worten lebt, die Ihnen manchmal wohltun.",
+          "en": "And if I am to tell you one more thing, it is this: don't believe that the person who tries to comfort you lives effortlessly among the simple and quiet words that sometimes do you good."
+        },
+        {
+          "de": "Sein Leben hat viel Mühsal und Traurigkeit und bleibt weit hinter Ihnen zurück.",
+          "en": "His life has much hardship and sadness and remains far behind yours."
+        },
+        {
+          "de": "Wäre es aber anders, so hätte er jene Worte nie finden können.",
+          "en": "But if it were otherwise, he could never have found those words."
+        },
+        {
+          "de": "Ihr Rainer Maria Rilke",
+          "en": "Yours, Rainer Maria Rilke"
+        }
       ]
     },
     {
@@ -2594,6 +3520,24 @@
           "de": "abwarten",
           "en": "to wait and see"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Ich denke, lieber Herr Kappus, oft und mit so konzentrierten Wünschen an Sie, dass Ihnen das eigentlich irgendwie helfen müsste.",
+          "en": "I think of you often, dear Mr Kappus, and with such concentrated wishes that it really ought to help you somehow."
+        },
+        {
+          "de": "Ob meine Briefe wirklich eine Hilfe sein können, daran zweifle ich oft.",
+          "en": "Whether my letters can really be a help, I often doubt."
+        },
+        {
+          "de": "Sagen Sie nicht: Ja, sie sind es.",
+          "en": "Don't say: Yes, they are."
+        },
+        {
+          "de": "Nehmen Sie sie ruhig auf und ohne vielen Dank, und lassen Sie uns abwarten, was kommen will.",
+          "en": "Just accept them calmly and without much thanks, and let us wait and see what will come."
+        }
       ]
     },
     {
@@ -2630,6 +3574,12 @@
         {
           "de": "ertragen",
           "en": "to endure"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Es nützt vielleicht nichts, dass ich nun auf Ihre einzelnen Worte eingehe; denn was ich über Ihre Neigung zum Zweifel sagen könnte oder über Ihr Unvermögen, das äußere und innere Leben in Einklang zu bringen, oder über alles, was Sie sonst bedrängt –: es ist immer das, was ich schon gesagt habe: immer der Wunsch, Sie möchten Geduld genug in sich finden, zu ertragen, und Einfalt genug, zu glauben; Sie möchten mehr und mehr Vertrauen gewinnen zu dem, was schwer ist, und zu Ihrer Einsamkeit unter den anderen.",
+          "en": "Perhaps it's no use my going into your individual words now; for what I could say about your tendency to doubt, or about your inability to bring your outer and inner life into harmony, or about everything else that troubles you –: it is always what I have already said: always the wish that you may find enough patience in yourself to endure, and enough simplicity to believe; that you may gain more and more trust in what is difficult, and in your solitude among the others."
         }
       ]
     },
@@ -2670,6 +3620,36 @@
         {
           "de": "meinen",
           "en": "to mean; to think"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Und im Übrigen lassen Sie sich das Leben geschehen.",
+          "en": "And for the rest, let life happen to you."
+        },
+        {
+          "de": "Glauben Sie mir: das Leben hat recht, auf alle Fälle.",
+          "en": "Believe me: life is right, in every case."
+        },
+        {
+          "de": "Und von den Gefühlen: Rein sind alle Gefühle, die Sie zusammenfassen und aufheben; unrein ist das Gefühl, das nur eine Seite Ihres Wesens erfasst und Sie so verzerrt.",
+          "en": "And about feelings: all feelings are pure that gather you together and lift you up; impure is the feeling that grasps only one side of your being and so distorts you."
+        },
+        {
+          "de": "Alles, was Sie angesichts Ihrer Kindheit denken können, ist gut.",
+          "en": "Everything you can think in the face of your childhood is good."
+        },
+        {
+          "de": "Alles, was mehr aus Ihnen macht, als Sie bisher in Ihren besten Stunden waren, ist recht.",
+          "en": "Everything that makes more of you than you have been so far in your best hours is right."
+        },
+        {
+          "de": "Jede Steigerung ist gut, wenn sie in Ihrem ganzen Blute ist, wenn sie nicht Rausch ist, nicht Trübe, sondern Freude, der man auf den Grund sieht.",
+          "en": "Every intensification is good if it is in all your blood, if it is not intoxication, not murkiness, but joy that you can see to the bottom of."
+        },
+        {
+          "de": "Verstehen Sie, was ich meine?",
+          "en": "Do you understand what I mean?"
         }
       ]
     },
@@ -2712,6 +3692,24 @@
           "de": "klug",
           "en": "clever, wise"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Und Ihr Zweifel kann eine gute Eigenschaft werden, wenn Sie ihn erziehen.",
+          "en": "And your doubt can become a good quality if you train it."
+        },
+        {
+          "de": "Er muss wissend werden, er muss Kritik werden.",
+          "en": "It must become knowing, it must become criticism."
+        },
+        {
+          "de": "Fragen Sie ihn, sooft er Ihnen etwas verderben will, weshalb etwas hässlich ist, verlangen Sie Beweise von ihm, prüfen Sie ihn, und Sie werden ihn vielleicht ratlos und verlegen, vielleicht auch aufbegehrend finden.",
+          "en": "Ask it, whenever it wants to spoil something for you, why something is ugly; demand proof from it, test it, and you will perhaps find it helpless and embarrassed, perhaps also rebellious."
+        },
+        {
+          "de": "Aber geben Sie nicht nach, fordern Sie Argumente und handeln Sie so, aufmerksam und konsequent, jedes einzelne Mal, und der Tag wird kommen, da er aus einem Zerstörer einer Ihrer besten Arbeiter werden wird, – vielleicht der klügste von allen, die an Ihrem Leben bauen.",
+          "en": "But don't give in, insist on arguments and act like this, attentively and consistently, every single time, and the day will come when, from a destroyer, it will become one of your best workers – perhaps the cleverest of all those who are building your life."
+        }
       ]
     },
     {
@@ -2748,6 +3746,24 @@
         {
           "de": "herrlich",
           "en": "wonderful, glorious"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Das ist alles, lieber Herr Kappus, was ich Ihnen heute zu sagen vermag.",
+          "en": "That is all, dear Mr Kappus, that I am able to tell you today."
+        },
+        {
+          "de": "Aber ich sende Ihnen zugleich den Separatdruck einer kleinen Dichtung, die jetzt in der Prager „Deutschen Arbeit“ erschienen ist.",
+          "en": "But at the same time I am sending you an offprint of a small poem that has just appeared in the Prague magazine 'Deutsche Arbeit'."
+        },
+        {
+          "de": "Dort rede ich weiter zu Ihnen vom Leben und vom Tode und davon, dass beides groß und herrlich ist.",
+          "en": "There I go on speaking to you about life and about death, and about how both are great and glorious."
+        },
+        {
+          "de": "Ihr Rainer Maria Rilke",
+          "en": "Yours, Rainer Maria Rilke"
         }
       ]
     },
@@ -2786,6 +3802,24 @@
           "de": "die Besorgung, die Besorgungen",
           "en": "errand"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Paris, am zweiten Weihnachtstage 1908",
+          "en": "Paris, the second day of Christmas 1908"
+        },
+        {
+          "de": "Sie sollen wissen, lieber Herr Kappus, wie froh ich war, diesen schönen Brief von Ihnen zu haben.",
+          "en": "You should know, dear Mr Kappus, how glad I was to have this beautiful letter from you."
+        },
+        {
+          "de": "Die Nachrichten, die Sie mir geben, wirklich und aussprechbar, wie sie nun wieder sind, scheinen mir gut, und je länger ichs bedachte, desto mehr empfand ich sie als tatsächlich gute.",
+          "en": "The news you give me, real and speakable as it now is again, seems good to me, and the longer I thought about it, the more I felt it to be really good."
+        },
+        {
+          "de": "Dieses wollte ich Ihnen eigentlich zum Weihnachtsabend schreiben; aber über der Arbeit, in der ich diesen Winter vielfach und ununterbrochen lebe, ist das alte Fest so schnell herangekommen, dass ich kaum mehr Zeit hatte, die nötigsten Besorgungen zu machen, viel weniger zu schreiben.",
+          "en": "I actually wanted to write this to you for Christmas Eve; but with the work in which I live this winter in many ways and without a break, the old holiday came so quickly that I hardly had time to do the most necessary errands, let alone write."
+        }
       ]
     },
     {
@@ -2821,6 +3855,12 @@
         {
           "de": "verschlingen",
           "en": "to devour"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Aber gedacht hab ich an Sie in diesen Festtagen oft und mir vorgestellt, wie still Sie sein müssen in Ihrem einsamen Fort zwischen den leeren Bergen, über die sich jene großen südlichen Winde stürzen, als wollten sie sie in großen Stücken verschlingen.",
+          "en": "But I did think of you often during these holidays and imagined how quiet it must be for you in your lonely fort among the empty mountains, over which those great southern winds hurl themselves as if they wanted to devour them in huge pieces."
         }
       ]
     },
@@ -2862,6 +3902,12 @@
           "de": "einzig",
           "en": "unique, only"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Die Stille muss immens sein, in der solche Geräusche und Bewegungen Raum haben, und wenn man denkt, dass zu allem noch des entfernten Meeres Gegenwart hinzukommt und mittönt, vielleicht als der innerste Ton in dieser vorhistorischen Harmonie, so kann man Ihnen nur wünschen, dass Sie vertrauensvoll und geduldig die großartige Einsamkeit an sich arbeiten lassen, die nicht mehr aus Ihrem Leben wird zu streichen sein; die in allem, was Ihnen zu erleben und zu tun bevorsteht, als ein anonymer Einfluss fortgesetzt und leise entscheidend wirken wird, etwa wie in uns Blut von Vorfahren sich unablässig bewegt und sich mit unserm eigenen zu dem Einzigen, nicht Wiederholbaren zusammensetzt, das wir an jeder Wendung unseres Lebens sind.",
+          "en": "The silence must be immense in which such noises and movements have room, and when you think that on top of everything the presence of the distant sea joins in and sounds along, perhaps as the innermost note in this prehistoric harmony, then one can only wish that you will trustingly and patiently let the magnificent solitude work on you, which will no longer be erased from your life; which, in everything you are about to experience and do, will go on having an effect as an anonymous influence, quietly decisive, rather as in us the blood of our ancestors moves unceasingly and combines with our own to form the unique, unrepeatable being that we are at every turn of our life."
+        }
       ]
     },
     {
@@ -2902,6 +3948,16 @@
           "de": "von Zeit zu Zeit",
           "en": "from time to time"
         }
+      ],
+      "sentences": [
+        {
+          "de": "Ja: ich freue mich, dass Sie diese feste, sagbare Existenz mit sich haben, diesen Titel, diese Uniform, diesen Dienst, alles dieses Greifbare und Beschränkte, das in solchen Umgebungen mit einer gleich isolierten nicht zahlreichen Mannschaft Ernst und Notwendigkeit annimmt, über das Spielerische und Zeithinbringende des militärischen Berufs hinaus eine wachsame Verwendung bedeutet und eine selbständige Aufmerksamkeit nicht nur zulässt, sondern geradezu erzieht.",
+          "en": "Yes: I am glad that you have this firm, speakable existence with you, this title, this uniform, this duty, all these tangible and limited things, which in such surroundings, with an equally isolated, small troop of men, take on seriousness and necessity, and beyond the playful and time-wasting side of military life mean an alert use of yourself, and not only allow independent attentiveness but actively train it."
+        },
+        {
+          "de": "Und dass wir in Verhältnissen sind, die an uns arbeiten, die uns vor große natürliche Dinge stellen von Zeit zu Zeit, das ist alles, was not tut.",
+          "en": "And that we are in circumstances that work on us, that put us in front of great natural things from time to time – that is all that is needed."
+        }
       ]
     },
     {
@@ -2941,6 +3997,24 @@
         {
           "de": "bestärken",
           "en": "to strengthen, to encourage"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Auch die Kunst ist nur eine Art zu leben, und man kann sich, irgendwie lebend, ohne es zu wissen, auf sie vorbereiten; in jedem Wirklichen ist man ihr näher und benachbarter als in den unwirklichen halbartistischen Berufen, die, indem sie eine Kunstnähe vorspiegeln, das Dasein aller Kunst praktisch leugnen und angreifen, wie etwa der ganze Journalismus es tut und fast alle Kritik und drei Viertel dessen, was Literatur heißt und heißen will.",
+          "en": "Art, too, is only a way of living, and one can prepare for it, somehow living, without knowing it; in everything real you are nearer and closer to it than in the unreal, half-artistic professions which, by pretending to be close to art, in practice deny and attack the existence of all art, as for example the whole of journalism does, and almost all criticism, and three quarters of what calls itself and wants to be called literature."
+        },
+        {
+          "de": "Ich freue mich, mit einem Wort, dass Sie die Gefahr, dahinein zu geraten, überstanden haben und irgendwo in einer rauen Realität einsam und mutig sind.",
+          "en": "In a word, I am glad that you have escaped the danger of ending up in that, and that somewhere in a rough reality you are solitary and brave."
+        },
+        {
+          "de": "Möchte das Jahr, das bevorsteht, Sie darin erhalten und bestärken.",
+          "en": "May the year that lies ahead keep you and strengthen you in that."
+        },
+        {
+          "de": "Immer Ihr Rainer Maria Rilke",
+          "en": "Always yours, Rainer Maria Rilke"
         }
       ]
     }

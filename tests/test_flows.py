@@ -7,10 +7,10 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest import mock
 
-from app import profile as profile_module, reading, ui, warmup
+from app import profile as profile_module, reading, ui, verbs, warmup
 from app.answers import WRONG, check_english
 from app.config import load_settings
-from app.content import Book, Content, Unit, Word
+from app.content import Book, Content, Unit, Verb, Word
 from app.profile import Profile
 from app.ui import QuitSession, console
 
@@ -167,6 +167,37 @@ class ListenAndType(unittest.TestCase):
                     self.assertEqual(reading._dictation(ctx, book, unit, "Look back"), expected, typed)
 
 
+class SentenceLookBack(unittest.TestCase):
+    def run_look_back(self, grades, typed="My answer."):
+        with tempfile.TemporaryDirectory() as tmp:
+            ctx = make_ctx(tmp, look_back_sentences=2)
+            pairs = [("Der Hund bellt laut.", "The dog barks loudly."), ("–", "–"),
+                     ("Die Katze schläft jetzt.", "The cat is asleep now."), ("Wir gehen nach Hause.", "We go home.")]
+            unit = Unit(n=1, de=" ".join(d for d, _ in pairs), en="…", part=1, sentence_pairs=pairs)
+            grades = iter(grades)
+            with mock.patch("app.ui._read", lambda *a, **k: typed), mock.patch("app.ui.clear", lambda: None), \
+                    mock.patch("app.ui.keys", lambda options: ""), \
+                    mock.patch("app.reading._self_grade", lambda *a: next(grades)), console.capture():
+                ok = reading._sentence_look_back(ctx, ctx.content.books[0], unit, "de2en", "Look back")
+            return ok, ctx.profile.read_journal(None)
+
+    def test_two_sentences_in_a_row_skipping_bits_of_punctuation(self):
+        ok, journal = self.run_look_back(["mostly right", "nailed it"])
+        self.assertTrue(ok)
+        self.assertEqual(len(journal), 2)
+        self.assertTrue(all(e["reference"] != "–" and e["review"] for e in journal))
+
+    def test_one_needs_work_means_it_comes_back(self):
+        self.assertFalse(self.run_look_back(["nailed it", "needs work"])[0])
+        self.assertFalse(self.run_look_back([], typed="?")[0])
+
+    def test_no_sentence_pairs_falls_back_to_the_paragraph(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ctx = make_ctx(tmp)
+            unit = ctx.content.books[0].units[0]
+            self.assertIsNone(reading._sentence_look_back(ctx, ctx.content.books[0], unit, "en2de", "Look back"))
+
+
 class BookSentences(unittest.TestCase):
     def test_sentences(self):
         from app.content import sentences
@@ -187,6 +218,44 @@ class BookSentences(unittest.TestCase):
             console.print(warmup.word_details(word))
         self.assertIn("in the book", cap.get())
         self.assertIn("Der Hund bellt.", cap.get())
+
+
+class IrregularVerbs(unittest.TestCase):
+    gehen = Verb(inf="gehen", en="to go", past="ging", perfect="ist gegangen")
+
+    def test_past_forms(self):
+        self.assertEqual(self.gehen.past_forms, ["ging", "gingst", "gingen", "gingt"])
+        self.assertEqual(Verb("halten", "to hold", "hielt", "hat gehalten").past_forms,
+                         ["hielt", "hieltest", "hielten", "hieltet"])
+
+    def test_checking_forms(self):
+        from app.answers import ALMOST, CORRECT
+        check = lambda answer, kind, expected: verbs.check_form(answer, self.gehen, kind, expected).outcome  # noqa: E731
+        self.assertEqual(check("gingen", "past", "gingen"), CORRECT)
+        self.assertEqual(check("ging", "past", "gingen"), ALMOST)  # right verb, wrong person
+        self.assertEqual(check("gehte", "past", "ging"), WRONG)
+        self.assertEqual(check("er ist gegangen", "perfect", "ist gegangen"), CORRECT)
+        self.assertEqual(check("gegangen", "perfect", "ist gegangen"), ALMOST)
+        self.assertEqual(check("hat gegangen", "perfect", "ist gegangen"), ALMOST)
+
+    def test_verbs_join_once_read_and_misses_repeat(self):
+        from app.content import VerbHit
+        with tempfile.TemporaryDirectory() as tmp:
+            ctx = make_ctx(tmp)
+            ctx.content.verbs = {"gehen": self.gehen}
+            ctx.content.verb_hits = {"gehen": [VerbHit("b", 1, "Er ging nach Hause.", "ging", "past")]}
+            self.assertEqual(verbs.plan(ctx, True), [])  # paragraph 1 not read yet
+            ctx.profile.book_state("b")["next"] = 2
+            self.assertEqual(verbs.plan(ctx, True), ["gehen|past", "gehen|perfect"])
+            typed = iter(["gehte", "ist gegangen", "ging"])  # past wrong, perfect right, then past again
+            with mock.patch("app.ui._read", lambda *a, **k: next(typed)), mock.patch("app.ui.clear", lambda: None), \
+                    mock.patch("app.ui.keys", lambda options: ""), console.capture() as cap:
+                ctx.rng = random.Random(0)
+                result = verbs.run_verbs(ctx, True)
+            self.assertEqual((result.right, result.total), (1, 2))
+            self.assertIn("Er _____ nach Hause.", cap.get())
+            self.assertEqual(ctx.profile.data["verbs"]["gehen|perfect"]["box"], 1)
+            self.assertEqual(verbs.plan(ctx, False), [])  # nothing due today any more
 
 
 class RestartBook(unittest.TestCase):
