@@ -198,6 +198,33 @@ class SentenceLookBack(unittest.TestCase):
             self.assertIsNone(reading._sentence_look_back(ctx, ctx.content.books[0], unit, "en2de", "Look back"))
 
 
+class Shadowing(unittest.TestCase):
+    def test_hear_then_say_each_sentence_in_a_row(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ctx = make_ctx(tmp, shadow_sentences=2)
+            ctx.audio.can_speak = True
+            unit = Unit(n=1, de="x", en="x", part=1, sentence_pairs=[
+                ("Der Hund bellt laut.", "The dog barks."), ("„Ruhe!", "'Quiet!"), ("Die Katze schläft jetzt.", "The cat sleeps.")])
+            events = []
+            with mock.patch("app.reading.hear", lambda ctx, text, slow=True: events.append(("hear", text))), \
+                    mock.patch("app.reading.speak_and_compare", lambda ctx, text, **k: events.append(("say", text))), \
+                    mock.patch("app.ui.clear", lambda: None), console.capture():
+                ctx.rng = random.Random(0)
+                reading._shadow(ctx, ctx.content.books[0], unit, "Look back")
+            self.assertEqual(len(events), 4)  # 2 sentences (the 1-word one is left out), each heard then said
+            self.assertEqual([e[0] for e in events], ["hear", "say", "hear", "say"])
+            self.assertEqual(events[0][1], events[1][1])
+            self.assertEqual(ctx.profile.day(TODAY)["shadowed"], 2)
+
+    def test_only_with_a_voice(self):
+        from types import SimpleNamespace as NS
+        ctx = NS(settings={"reading_tasks": {"shadow": 1, "de2en": 0, "en2de": 0, "read_aloud": 0, "dictation": 0}},
+                 audio=NS(can_speak=False), rng=random.Random(1))
+        self.assertNotEqual(reading._review_task(ctx, ""), "shadow")
+        ctx.audio.can_speak = True
+        self.assertEqual(reading._review_task(ctx, ""), "shadow")
+
+
 class BookSentences(unittest.TestCase):
     def test_sentences(self):
         from app.content import sentences

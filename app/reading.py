@@ -200,6 +200,29 @@ def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: st
     return ok
 
 
+SHADOW_TIMED_UP_TO = 70  # characters: shorter sentences record for a fixed time, longer ones until Enter
+
+
+def _shadow(ctx, book: Book, unit: Unit, heading: str) -> None:
+    """Shadowing: hear a sentence, say it straight after, hear yourself next to the voice. A few
+    sentences in a row, so the paragraph's sound and rhythm get repeated too."""
+    pairs = unit.sentence_pairs or [(s, "") for s in sentences(unit.de)]
+    pairs = [(balance_quotes(de, "de"), balance_quotes(en, "en")) for de, en in pairs if len(de.split()) >= 3]
+    pairs = pairs or [(unit.de, "")]
+    count = max(1, int(ctx.settings["shadow_sentences"]))
+    if len(pairs) > count:
+        start = ctx.rng.randrange(len(pairs) - count + 1)
+        pairs = pairs[start:start + count]
+    for i, (de, en) in enumerate(pairs, 1):
+        ui.clear()
+        ui.title(f"{ctx.step}{heading}: say it after me · sentence {i} of {len(pairs)}", book.short_title)
+        console.print(ui.german(de, "Listen, then say it", subtitle=en or None))
+        console.print("[hint]Copy the voice: same speed, same melody. Then you hear yourself next to it.[/]")
+        hear(ctx, de, slow=False)
+        speak_and_compare(ctx, de, long_text=len(de) > SHADOW_TIMED_UP_TO, slow=False)
+        ctx.profile.count(ctx.today, shadowed=1)
+
+
 def _read_aloud(ctx, book: Book, unit: Unit, heading: str) -> None:
     ui.clear()
     ui.title(f"{ctx.step}{heading}: read it out loud", book.short_title)
@@ -375,10 +398,11 @@ def due_reviews(ctx) -> list[tuple[Book, Unit, dict]]:
 
 def _review_task(ctx, last: str) -> str:
     """A different exercise from last time, so each look back practises something else.
-    Listen-and-type needs the voice; an older config.json without it still gets it."""
+    Listen-and-type and shadowing need the voice; an older config.json without them still gets them."""
     weights = {**DEFAULTS["reading_tasks"], **ctx.settings["reading_tasks"]}
     if not ctx.audio.can_speak:
         weights.pop("dictation", None)
+        weights.pop("shadow", None)
     tasks = [t for t, w in weights.items() if w > 0]
     tasks = [t for t in tasks if t != last] or tasks or ["de2en"]
     return ctx.rng.choice(tasks)
@@ -392,6 +416,9 @@ def review(ctx, book: Book, unit: Unit, item: dict, i: int, total: int) -> None:
         ok = True
     elif task == "dictation":
         ok = _dictation(ctx, book, unit, heading)
+    elif task == "shadow":
+        _shadow(ctx, book, unit, heading)
+        ok = True
     else:
         ok = _sentence_look_back(ctx, book, unit, task, heading)
         if ok is None:

@@ -22,8 +22,10 @@ DEFAULTS = {
     "bank_shares": {"daily": 0.6, "stem": 0.25, "admin": 0.15},  # mix of new words per word list
     "units_per_day": 1,          # book paragraphs per day before asking "another one?"
     "speak_chance": 0.25,        # how often a word must be said into the microphone
-    # Exercises for looking back (0 = never): read out loud, translate either way, listen and type a sentence.
-    "reading_tasks": {"read_aloud": 1, "de2en": 1, "en2de": 1, "dictation": 1},
+    # Exercises for looking back (0 = never): read out loud, translate either way, listen and type a sentence,
+    # shadow (hear a sentence, say it straight after).
+    "reading_tasks": {"read_aloud": 1, "de2en": 1, "en2de": 1, "dictation": 1, "shadow": 1},
+    "shadow_sentences": 5,       # sentences in a row when shadowing
     "look_back_sentences": 3,    # sentences in a row to translate when looking back at a paragraph
     "paragraph_reviews_per_session": 6,  # most earlier paragraphs to look back at in one session (oldest first)
     "verbs_per_day": 2,          # new irregular verbs (past + perfect) from the books, in the first warm-up

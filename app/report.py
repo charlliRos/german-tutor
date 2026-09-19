@@ -175,6 +175,9 @@ def _repetition(profile: Profile, content: Content, today: date) -> Table:
         t.add_row(f"Look backs, last {length} days",
                   f"{done} · [good]{done - missed} counted[/]" + (f" · [warn]{missed} need work[/]" if missed else "")
                   if done else "[hint]none[/]")
+    shadowed = _days_total(profile, today, 30, "shadowed")
+    t.add_row("Shadowing, last 30 days", ui.plural(shadowed, "sentence") + " said after the voice"
+              if shadowed else "[hint]none yet[/]")
     typed = _days_total(profile, today, 30, "dictations")
     t.add_row("Listen and type, last 30 days",
               f"{ui.plural(typed, 'sentence')} · {_days_total(profile, today, 30, 'dictation_pct') // typed}% "

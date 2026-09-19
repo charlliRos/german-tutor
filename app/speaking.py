@@ -63,9 +63,10 @@ def _play_both(ctx, recording, text: str, slow: bool) -> None:
     hear(ctx, text, slow)
 
 
-def speak_and_compare(ctx, text: str, long_text: bool = False) -> None:
-    """The kid says `text`; then their recording and the reference pronunciation play back to back."""
-    slow = not long_text
+def speak_and_compare(ctx, text: str, long_text: bool = False, slow: bool | None = None) -> None:
+    """The kid says `text`; then their recording and the reference pronunciation play back to back.
+    Single words play slowly, texts at normal speed (unless `slow` says otherwise)."""
+    slow = not long_text if slow is None else slow
     while True:
         if ctx.audio.can_record:
             recording = _record(ctx, text, long_text)

@@ -180,7 +180,7 @@ class ReviewFixes(unittest.TestCase):
                               audio=SimpleNamespace(can_speak=True), rng=random.Random(1))
         self.assertTrue(all(_review_task(ctx, "en2de") != "en2de" for _ in range(20)))
         self.assertIn("dictation", {_review_task(ctx, "") for _ in range(40)})  # added even if config.json lacks it
-        ctx.settings["reading_tasks"] = {"read_aloud": 0, "de2en": 0, "en2de": 0, "dictation": 0}
+        ctx.settings["reading_tasks"] = {"read_aloud": 0, "de2en": 0, "en2de": 0, "dictation": 0, "shadow": 0}
         self.assertEqual(_review_task(ctx, "de2en"), "de2en")
         ctx.audio.can_speak = False
         ctx.settings["reading_tasks"] = {"dictation": 1}
