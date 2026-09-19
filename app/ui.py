@@ -545,6 +545,22 @@ def title(heading: str, sub: str = "") -> None:
     console.rule(f"[bold]{escape(heading)}[/]" + (f"  [hint]{escape(sub)}[/]" if sub else ""))
 
 
+# What to do on a screen, as coloured tags under the title, so it's never unclear whether to memorise,
+# type, say, listen or read. White on a colour stays readable on dark and light backgrounds.
+TODO = {"memorise": "magenta", "type": "blue", "say": "red", "listen": "dark_cyan", "read": "green"}
+
+
+def todo(*kinds: str, what: str) -> None:
+    """E.g. todo("listen", "type", what="Type what you hear.") shows  LISTEN → TYPE  Type what you hear."""
+    line = Text()
+    for i, kind in enumerate(kinds):
+        if i:
+            line.append(" → " if FANCY else " > ", style="bold")
+        line.append(f" {kind.upper()} ", style=f"bold white on {TODO[kind]}")
+    line.append("  " + what, style="bold")
+    console.print(line)
+
+
 def german(text: str, heading: str = "Deutsch", subtitle: str | None = None, word: bool = False) -> Panel:
     return Panel(Text(text, style="de.word" if word else "de"), title=heading, subtitle=subtitle,
                  border_style="cyan", padding=(1, 2))

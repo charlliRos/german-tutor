@@ -106,7 +106,9 @@ def welcome(ctx: Context) -> None:
         "[bold]1.[/] Every day, choose [key]1[/]: a vocabulary warm-up, then a new paragraph of a German book\n"
         "   and a look back at earlier ones. Repetition is how it sticks!\n"
         "   The warm-up starts with 10 words and grows a little every day you practise.\n"
-        "[bold]2.[/] Type your answers. No ä ö ü ß on your keyboard? Type ae oe ue ss.\n"
+        "[bold]2.[/] The coloured tag at the top of each screen tells you what to do:\n   "
+        + " ".join(f"[bold white on {colour}] {kind.upper()} [/]" for kind, colour in ui.TODO.items()) + "\n"
+        "   Type your answers. No ä ö ü ß on your keyboard? Type ae oe ue ss.\n"
         f"[bold]3.[/] Sometimes it's a {icon('mic')} speaking turn: you hear yourself next to the right pronunciation.\n"
         "[bold]4.[/] Press [key]q[/] any time to stop. Your progress is always saved."),
         title="How it works", border_style="magenta", padding=(1, 2)))

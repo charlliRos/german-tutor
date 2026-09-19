@@ -144,6 +144,7 @@ def _translate(ctx, book: Book, unit: Unit, direction: str, heading: str, review
              "task": direction, **({"review": True} if review else {})}
     ui.clear()
     ui.title(f"{ctx.step}{heading}: translate into {'English' if to_english else 'German'}", book.short_title)
+    ui.todo("type", what=f"Translate the whole text into {'English' if to_english else 'German'} and type it below.")
     if to_english:
         console.print(ui.german(unit.de, "German"))
     else:
@@ -199,6 +200,7 @@ def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: st
         ui.clear()
         ui.title(f"{ctx.step}{heading}: sentence {i} of {len(pairs)} into {'English' if to_english else 'German'}",
                  book.short_title)
+        ui.todo("type", what=f"Translate this sentence into {'English' if to_english else 'German'} and type it below.")
         if to_english:
             console.print(ui.german(de, "German"))
             hear(ctx, de, slow=False)
@@ -253,7 +255,8 @@ def _shadow(ctx, book: Book, unit: Unit, heading: str) -> None:
     for i, (de, en) in enumerate(pairs, 1):
         ui.clear()
         ui.title(f"{ctx.step}{heading}: say it after me · sentence {i} of {len(pairs)}", book.short_title)
-        console.print(ui.german(de, "Listen, then say it", subtitle=en or None))
+        ui.todo("listen", "say", what="Listen, then say it straight after. Nothing to type.")
+        console.print(ui.german(de, "German", subtitle=en or None))
         console.print("[hint]Copy the voice: same speed, same melody. Then you hear yourself next to it.[/]")
         hear(ctx, de, slow=False)
         speak_and_compare(ctx, de, long_text=len(de) > SHADOW_TIMED_UP_TO, slow=False)
@@ -263,6 +266,7 @@ def _shadow(ctx, book: Book, unit: Unit, heading: str) -> None:
 def _read_aloud(ctx, book: Book, unit: Unit, heading: str) -> None:
     ui.clear()
     ui.title(f"{ctx.step}{heading}: read it out loud", book.short_title)
+    ui.todo("say", what="Read the whole text out loud. Nothing to type.")
     console.print(ui.german(unit.de))
     if ctx.audio.can_speak:
         speak_and_compare(ctx, unit.de, long_text=True)
@@ -309,7 +313,7 @@ def _dictation(ctx, book: Book, unit: Unit, heading: str) -> tuple[bool, str]:
     sentence = balance_quotes(ctx.rng.choice(choices), "de")
     ui.clear()
     ui.title(f"{ctx.step}{heading}: listen and type", book.short_title)
-    console.print("Listen to a sentence from this paragraph and type exactly what you hear.")
+    ui.todo("listen", "type", what="Listen to a sentence from this paragraph and type exactly that.")
     console.print(ui.umlaut_tip())
     hear(ctx, sentence)
     pastes = ui.paste_count()
@@ -347,6 +351,7 @@ def _story_so_far(ctx, book: Book, state: dict) -> Unit | None:
             return unit
         ui.clear()
         ui.title(f"{ctx.step}{book.short_title}", "the story continues")
+        ui.todo("read", what="Read what happens next in the story. Nothing to type.")
         console.print(Panel(Text(unit.en), title="Meanwhile in the story…", subtitle=unit.covers or None,
                             border_style="magenta", padding=(1, 2)))
         state["next"] = unit.n + 1
@@ -370,9 +375,9 @@ def _three_rounds(ctx, book: Book, unit: Unit, header: str) -> tuple[dict, dict]
     """Listen, then translate it, read it out loud, translate it back. Returns both translations."""
     ui.clear()
     ui.title(header, book.author)
+    ui.todo("listen", "read", what="Listen and read along. Nothing to type yet.")
     console.print(ui.german(unit.de))
-    console.print("[hint]New paragraph: listen and read along. Then 3 rounds: translate it, "
-                  "read it out loud, translate it back.[/]")
+    console.print("[hint]Then 3 rounds: translate it, read it out loud, translate it back.[/]")
     hear(ctx, unit.de, slow=False)
     _replay_until_enter(ctx, unit.de, "round 1: translate it")
 
@@ -380,6 +385,7 @@ def _three_rounds(ctx, book: Book, unit: Unit, header: str) -> tuple[dict, dict]
     first = _translate(ctx, book, unit, "de2en", "Round 1 of 3")
     ui.clear()
     ui.title(header, "what it means")
+    ui.todo("read", what="Read what it means and the key words. Nothing to type.")
     console.print(ui.german(unit.de))
     _explain(unit)
     _replay_until_enter(ctx, unit.de, "round 2: read it out loud")
@@ -397,6 +403,7 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
     if state["next"] == 1 and book.intro_en:
         ui.clear()
         ui.title(f"{ctx.step}{book.short_title}", book.author)
+        ui.todo("read", what="Read what this book is about.")
         console.print(Panel(Text(book.intro_en), title="About this book", border_style="magenta", padding=(1, 2)))
         ui.keys({"": "start reading"})
     unit = _story_so_far(ctx, book, state)

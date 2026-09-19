@@ -133,11 +133,14 @@ def card(ctx, key: str, heading: str, repeat: bool = False) -> str:
     books = {b.id: b for b in ctx.content.books}
 
     ui.clear()
-    ui.title(f"{ctx.step}{heading}", "just for practice, no score" if repeat else "irregular verbs from your books")
-    console.print(Panel(Text.assemble((verb.inf, "de.word"), ("  ·  " + verb.en, "en")), title=KINDS[kind],
-                        border_style="cyan", padding=(1, 2)))
     expected = verb.past if kind == "past" else verb.perfect
     cloze = _cloze(hit) if kind == "past" and hit and hit.kind == "past" else None
+    ui.title(f"{ctx.step}{heading}", "just for practice, no score" if repeat else "irregular verbs from your books")
+    ui.todo("type", what="Type the past tense that fills the gap." if cloze else
+            "Type the past tense (er/sie/es form)." if kind == "past" else
+            "Type the perfect tense: hat or ist + past participle.")
+    console.print(Panel(Text.assemble((verb.inf, "de.word"), ("  ·  " + verb.en, "en")), title=KINDS[kind],
+                        border_style="cyan", padding=(1, 2)))
     if cloze:
         blanked, expected = cloze
         console.print(Panel(Text(blanked, style="italic cyan"), title=f"In the book · {books[hit.book_id].short_title}",

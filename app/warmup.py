@@ -86,10 +86,11 @@ def _listen_options(ctx, word: Word, options: dict[str, str]) -> str:
 def show_card(ctx, word: Word, i: int, total: int) -> None:
     ui.clear()
     ui.title(f"{ctx.step}New word {i} of {total}", f"{BANK_LABELS.get(word.bank, word.bank)} · {word.topic}")
+    ui.todo("memorise", what="Learn this word. No typing yet: that comes after the new words.")
     console.print(Panel(word_details(word), border_style="magenta", padding=(1, 2)))
     hear(ctx, word.de)
     if ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:
-        console.print(f"[rec]{icon('mic')} Speaking turn:[/] [bold]repeat the word after Fritz.[/]")
+        ui.todo("say", what=f"{icon('mic')} Now repeat the word after Fritz.")
         speak_and_compare(ctx, word.de)
     else:
         _listen_options(ctx, word, {"": "next"})
@@ -108,12 +109,14 @@ def _synonym_check(ctx, answer: str, word: Word, check: Check) -> Check:
 def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
     pastes = ui.paste_count()
     if direction == "en2de":
+        ui.todo("type", what="Type the German word." + (" Include der / die / das." if word.pos == "noun" else ""))
         console.print(Panel(Text(", ".join(word.en[:2]), style="bold green"), title="English → German",
                             subtitle=POS_HINTS.get(word.pos, "") or None, border_style="green", padding=(1, 2)))
         console.print(ui.umlaut_tip())
         answer = ui.ask_answer("German:")
         check = _synonym_check(ctx, answer, word, check_german(answer, word))
     else:
+        ui.todo("type", what="Type what it means in English.")
         console.print(ui.german(word.de, "German → English", word=True))
         hear(ctx, word.de)
         answer = ui.ask_answer("English:")
@@ -149,6 +152,7 @@ def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
 
 
 def read_aloud(ctx, word: Word) -> None:
+    ui.todo("say", what="Say this word out loud. Nothing to type.")
     console.print(ui.german(word.de, f"{icon('mic')} Speaking turn: read it out loud",
                             subtitle=", ".join(word.en), word=True))
     speak_and_compare(ctx, word.de)
@@ -196,6 +200,9 @@ def run_warmup(ctx) -> WarmupResult | None:
              f"{len(plan.reviews)} to review", f"{len(plan.practice)} to strengthen",
              f"{len(again)} again from your reading"]
     console.print(" · ".join(p for p in parts if not p.startswith("0 ")))
+    console.print(("First you [bold]memorise[/] the new words (no typing), then you [bold]type[/] every word."
+                   if plan.new else "You [bold]type[/] every word.")
+                  + " Each screen says what to do at the top.")
     if result.extra_practice:
         console.print("[hint]You've already done today's warm-up, so this round is extra practice: "
                       "words you miss come back sooner, words you know stay on schedule.[/]")
