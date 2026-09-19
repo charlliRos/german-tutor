@@ -15,7 +15,7 @@ def hear(ctx, text: str, slow: bool = True) -> None:
             ctx.audio.say(text, slow, stop_when=ui.key_pressed)
     except KeyboardInterrupt:
         console.print("[hint](stopped)[/]")
-    ui.flush_input()
+    ui.drop_enters()  # an answer typed while the word was playing is kept
 
 
 def record_seconds_for(ctx, text: str) -> float:

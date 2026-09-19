@@ -77,6 +77,7 @@ class Verb:
     en: str
     past: str
     perfect: str
+    alt: list[str] = field(default_factory=list)  # other standard forms: "sendete", "hat gesendet"
 
     @property
     def helper(self) -> str:
@@ -89,10 +90,13 @@ class Verb:
     @property
     def past_forms(self) -> list[str]:
         """er ging, du gingst, wir gingen, ihr gingt (er hielt, du hieltest, ihr hieltet)."""
-        p = self.past
-        if p.endswith("e"):
-            return [p, p + "st", p + "n", p + "t"]
-        return [p, p + ("est" if p[-1] in "sßztd" else "st"), p + "en", p + ("et" if p[-1] in "td" else "t")]
+        return person_forms(self.past)
+
+
+def person_forms(past: str) -> list[str]:
+    if past.endswith("e"):
+        return [past, past + "st", past + "n", past + "t"]
+    return [past, past + ("est" if past[-1] in "sßztd" else "st"), past + "en", past + ("et" if past[-1] in "td" else "t")]
 
 
 @dataclass
@@ -223,7 +227,8 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR, verbs
         data = _load_json(path, content.problems) or {}
         for raw in data.get("verbs", []):
             try:
-                verb = Verb(inf=raw["inf"], en=raw["en"], past=raw["past"], perfect=raw["perfect"])
+                verb = Verb(inf=raw["inf"], en=raw["en"], past=raw["past"], perfect=raw["perfect"],
+                            alt=_as_list(raw.get("alt")))
             except (KeyError, TypeError):
                 content.problems.append(f"{path.name}: bad verb entry {raw!r:.60}")
                 continue
@@ -238,7 +243,9 @@ def index_verbs(content: Content) -> None:
     Past forms must match exactly (lowercase, so "Schloss" the castle isn't "schloss" the verb);
     participles may have a separable prefix in front: "angekommen" is a form of kommen."""
     past = {form: v.inf for v in content.verbs.values() for form in v.past_forms}
-    participles = {v.participle: v.inf for v in content.verbs.values()}
+    # A participle that looks like its own infinitive (vergessen, bekommen, gefallen) can't tell "sie vergessen"
+    # from "hat vergessen", so those verbs are found by their past forms only.
+    participles = {v.participle: v.inf for v in content.verbs.values() if v.participle != v.inf}
     ge_participles = [(p, inf) for p, inf in participles.items() if p.startswith("ge")]
     for book in content.books:
         for unit in book.units:
@@ -399,12 +406,21 @@ def balance_quotes(text: str, lang: str = "de") -> str:
 STORY_WORDS = 24  # longer book sentences are cut down to the part around the word
 
 
+def bare_word(word: str) -> str:
+    """A word without punctuation around it or a spoken "'s" (war's -> war), lowercase."""
+    core = word.strip(".,;:!?»«„“”\"'‚‘’›‹()[]–—-…")
+    for ending in ("'s", "’s"):
+        if core.endswith(ending):
+            core = core[: -len(ending)]
+    return core.lower()
+
+
 def trim_around(sentence: str, form: str) -> str:
     """The sentence, or about STORY_WORDS words of it around the first word containing `form`."""
     words = sentence.split()
     if len(words) <= STORY_WORDS:
         return balance_quotes(sentence)
-    hit = next((i for i, w in enumerate(words) if form in w), 0)
+    hit = next((i for i, w in enumerate(words) if bare_word(w) == form.lower()), 0)
     start = max(0, min(hit - STORY_WORDS // 2, len(words) - STORY_WORDS))
     part = " ".join(words[start:start + STORY_WORDS])
     return balance_quotes(("… " if start else "") + part + (" …" if start + STORY_WORDS < len(words) else ""))

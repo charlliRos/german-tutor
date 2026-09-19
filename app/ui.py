@@ -129,7 +129,7 @@ def clock_seconds() -> int:
 # moment after the last one, so one press = one step.
 # Seconds. Windows sees a held key directly, so the mute only has to catch a quick double press;
 # elsewhere it must outlast the delay before a held key starts repeating (about half a second).
-MUTE_AFTER_KEY = 0.25 if os.name == "nt" else 0.55
+MUTE_AFTER_KEY = 0.25 if os.name == "nt" else 0.7
 REPEAT_GAP = 0.15  # keys closer together than this are a held or mashed key
 _last_key = [0.0]  # when the last key reached us (read or thrown away)
 
@@ -145,6 +145,38 @@ def _enter_held() -> bool:
         return False
 
 
+def typing_waiting() -> bool:
+    """Windows: True if the next waiting key is a letter (the kid has started typing an answer), not Enter.
+    It only looks, so the prompt still gets every key. Elsewhere keys only arrive with Enter: False."""
+    if os.name != "nt" or not sys.stdin or not sys.stdin.isatty():
+        return False
+    try:
+        import ctypes
+        from ctypes import wintypes
+
+        class KeyEvent(ctypes.Structure):
+            _fields_ = [("down", wintypes.BOOL), ("repeat", wintypes.WORD), ("vkey", wintypes.WORD),
+                        ("scan", wintypes.WORD), ("char", wintypes.WCHAR), ("state", wintypes.DWORD)]
+
+        class InputRecord(ctypes.Structure):
+            _fields_ = [("type", wintypes.WORD), ("key", KeyEvent)]
+
+        kernel32 = ctypes.windll.kernel32
+        records, count = (InputRecord * 64)(), wintypes.DWORD()
+        if not kernel32.PeekConsoleInputW(kernel32.GetStdHandle(-10), records, 64, ctypes.byref(count)):
+            return False
+        chars = [r.key.char for r in records[: count.value] if r.type == 1 and r.key.down and r.key.char != "\x00"]
+        return bool(chars) and chars[0] not in "\r\n"
+    except Exception:
+        return False
+
+
+def drop_enters() -> None:
+    """After audio: throw away Enter presses, but keep an answer the kid has already started typing."""
+    if not typing_waiting():
+        flush_input()
+
+
 BUZZ = [None]  # main.py sets this to the "not so fast" sound effect
 
 
@@ -156,11 +188,15 @@ class _Drain:
         self.buzzed = False
         self.held_since: float | None = None
         self.last_typed = 0.0
+        self.typing = False  # the kid started typing an answer: leave the keys for the prompt
 
     def keys_waiting(self) -> bool:
         """True if keys were waiting (now thrown away) or Enter is still held down."""
         now = time.monotonic()
         typed, held = key_pressed(), _enter_held()
+        if typed and typing_waiting():
+            self.typing = True
+            return False
         self.held_since = (self.held_since or now) if held else None
         held_long = held and now - self.held_since > 0.1  # a new press shows as "held" just before its key arrives
         if typed:
@@ -181,7 +217,10 @@ def settle() -> None:
         return
     drain = _Drain()
     try:
-        while drain.keys_waiting() or time.monotonic() - _last_key[0] < MUTE_AFTER_KEY:
+        while True:
+            waiting = drain.keys_waiting()
+            if drain.typing or (not waiting and time.monotonic() - _last_key[0] >= MUTE_AFTER_KEY):
+                return
             time.sleep(0.02)
     except KeyboardInterrupt:
         console.print()
@@ -196,10 +235,12 @@ def pause(seconds: float, skippable: bool = False) -> None:
     end = time.monotonic() + seconds
     drain = _Drain()
     try:
-        while time.monotonic() < end:
-            if skippable and key_pressed() and time.monotonic() - _last_key[0] >= MUTE_AFTER_KEY:
-                flush_input()
-                _last_key[0] = time.monotonic()
+        while (now := time.monotonic()) < end:
+            # A fresh press: quiet long enough before it, and not a key that's been held down all along.
+            held_all_along = drain.held_since is not None and now - drain.held_since > 0.1
+            if skippable and key_pressed() and now - _last_key[0] >= MUTE_AFTER_KEY and not held_all_along:
+                drop_enters()
+                _last_key[0] = now
                 return
             drain.keys_waiting()
             time.sleep(0.02)

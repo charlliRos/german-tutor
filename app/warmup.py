@@ -162,6 +162,13 @@ def run_warmup(ctx) -> WarmupResult | None:
     # Key words of paragraphs already read come on top, in the day's first warm-up: new ones as new words,
     # known ones once more (extra practice) even if they aren't due.
     reading_queue = ctx.profile.data["reading_words"]
+    if not ctx.profile.data.get("reading_words_filled"):  # profiles from before: their paragraphs' words too
+        books = ctx.profile.data["books"]
+        for book in ctx.content.books:
+            for unit in book.units:
+                if unit.kind == "text" and unit.n < books.get(book.id, {}).get("next", 1):
+                    reading_queue.extend(wid for wid in unit.word_ids if wid not in reading_queue)
+        ctx.profile.data["reading_words_filled"] = True
     reading_queue[:] = [wid for wid in reading_queue if wid in words]
     from_reading = srs.reading_words_due(words, reading_queue, int(ctx.settings["reading_words_per_day"])
                                          if first_today else 0)
@@ -179,9 +186,9 @@ def run_warmup(ctx) -> WarmupResult | None:
     ui.clear()
     ui.title(f"{ctx.step}{'Extra practice' if result.extra_practice else 'Warm-up'}",
              ui.plural(plan.total + len(again), "word"))
-    parts = [f"{len(plan.new)} new", f"{len(plan.reviews)} to review", f"{len(plan.practice)} to strengthen"]
-    if from_reading:
-        parts.append(f"{len(from_reading)} from your reading")
+    parts = [f"{len(plan.new)} new" + (f" ({len(fresh)} from your reading)" if fresh else ""),
+             f"{len(plan.reviews)} to review", f"{len(plan.practice)} to strengthen",
+             f"{len(again)} again from your reading"]
     console.print(" · ".join(p for p in parts if not p.startswith("0 ")))
     if result.extra_practice:
         console.print("[hint]You've already done today's warm-up, so this round is extra practice: "
@@ -228,8 +235,10 @@ def run_warmup(ctx) -> WarmupResult | None:
     # Every word is graded: the warm-up counts now, even if they stop during the repeats.
     ctx.profile.count(ctx.today, warmups=1)
     ctx.profile.save()
-    repeat_until_right(ctx, not_yet)
+    # Verbs are graded before the practice-only repeats, so stopping during the repeats loses nothing.
     result.verbs = verbs.run_verbs(ctx, first_today)
+    repeat_until_right(ctx, not_yet)
+    verbs.repeat_verbs(ctx, result.verbs.missed)
     return result
 
 

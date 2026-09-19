@@ -316,10 +316,40 @@ class IrregularVerbs(unittest.TestCase):
                     mock.patch("app.ui.keys", lambda options: ""), console.capture() as cap:
                 ctx.rng = random.Random(0)
                 result = verbs.run_verbs(ctx, True)
-            self.assertEqual((result.right, result.total), (1, 2))
+                verbs.repeat_verbs(ctx, result.missed)
+            self.assertEqual((result.right, result.total, result.missed), (1, 2, ["gehen|past"]))
+            self.assertEqual(next(typed, "all used"), "all used")  # the missed card came back once more
             self.assertIn("Er _____ nach Hause.", cap.get())
             self.assertEqual(ctx.profile.data["verbs"]["gehen|perfect"]["box"], 1)
             self.assertEqual(verbs.plan(ctx, False), [])  # nothing due today any more
+
+    def test_a_verb_left_halfway_gets_its_missing_card(self):
+        from app.content import VerbHit
+        with tempfile.TemporaryDirectory() as tmp:
+            ctx = make_ctx(tmp)
+            ctx.content.verbs = {"gehen": self.gehen}
+            ctx.content.verb_hits = {"gehen": [VerbHit("b", 1, "Er ging.", "ging", "past")]}
+            ctx.profile.book_state("b")["next"] = 2
+            ctx.profile.data["verbs"]["gehen|past"] = {"box": 1, "due": "2099-01-01"}
+            self.assertEqual(verbs.plan(ctx, True), ["gehen|perfect"])
+
+    def test_pronouns_other_standard_forms_and_other_verbs(self):
+        from app.answers import CORRECT
+        send = Verb("senden", "to send", "sandte", "hat gesandt", alt=["sendete", "hat gesendet"])
+        singen = Verb("singen", "to sing", "sang", "hat gesungen")
+        sinken = Verb("sinken", "to sink", "sank", "ist gesunken")
+        others = {"sank": "sinken", "sang": "singen"}
+        self.assertEqual(verbs.check_form("er ging", self.gehen, "past", "ging").outcome, CORRECT)
+        self.assertEqual(verbs.check_form("sendete", send, "past", "sandte").outcome, CORRECT)
+        self.assertEqual(verbs.check_form("hat gesendet", send, "perfect", "hat gesandt").outcome, CORRECT)
+        wrong = verbs.check_form("sank", singen, "past", "sang", others)
+        self.assertEqual((wrong.outcome, wrong.message), (WRONG, "That's a form of sinken. Here we need singen."))
+        self.assertEqual(verbs.check_form("sang", sinken, "past", "sank", others).outcome, WRONG)
+
+    def test_gap_with_a_spoken_s(self):
+        from app.content import VerbHit
+        self.assertEqual(verbs._cloze(VerbHit("b", 1, "Und dann war's still.", "war", "past")),
+                         ("Und dann _____'s still.", "war"))
 
 
 class RestartBook(unittest.TestCase):
@@ -345,6 +375,19 @@ class ReadingWordsInWarmup(unittest.TestCase):
                 warmup.run_warmup(ctx)
             self.assertEqual(seen[:2], ["w11", "w10"])
             self.assertEqual(ctx.profile.data["reading_words"], [])
+
+    def test_paragraphs_read_before_the_update_bring_their_key_words(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ctx = make_ctx(tmp)
+            ctx.content.books[0].units[0].word_ids = ["w9", "w8"]
+            ctx.profile.book_state("b")["next"] = 2  # paragraph 1 was read before key words joined the warm-up
+            seen = []
+            with mock.patch("app.ui.clear", lambda: None), mock.patch("app.ui.keys", lambda options: ""), \
+                    mock.patch("app.warmup.show_card", lambda ctx, word, i, total: seen.append(word.id)), \
+                    mock.patch("app.warmup.quiz", lambda *a, **k: warmup.AUTO_NEXT), console.capture():
+                warmup.run_warmup(ctx)
+            self.assertEqual(seen[:2], ["w9", "w8"])
+            self.assertTrue(ctx.profile.data["reading_words_filled"])
 
     def test_known_key_words_come_back_too(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -420,6 +463,16 @@ class HeldEnter(unittest.TestCase):
             for _ in keys_at:
                 drain.keys_waiting()
         return buzz.call_count
+
+    def test_an_answer_typed_early_is_kept_for_the_prompt(self):
+        flushed = mock.Mock()
+        with mock.patch.object(ui, "_last_key", [0.0]), mock.patch("app.ui.key_pressed", lambda: True), \
+                mock.patch("app.ui.typing_waiting", lambda: True), mock.patch("app.ui._enter_held", lambda: False), \
+                mock.patch("app.ui.flush_input", flushed), mock.patch.object(ui, "BUZZ", [mock.Mock()]):
+            drain = ui._Drain()
+            self.assertFalse(drain.keys_waiting())
+            self.assertTrue(drain.typing)
+        flushed.assert_not_called()
 
     def test_one_early_press_is_quiet(self):
         self.assertEqual(self.drain_with([(10.0, True), (10.5, False)]), 0)
