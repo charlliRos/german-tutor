@@ -147,6 +147,48 @@ class RepeatUntilRight(unittest.TestCase):
             self.assertEqual(sorted(asked), ["w1", "w1", "w1", "w2"])
 
 
+class ListenAndType(unittest.TestCase):
+    def test_marks_words_right_slipped_and_missing(self):
+        text, score = reading.mark_words("Der Hunt bellt", "Der Hund bellt laut.")
+        self.assertEqual(score, (1 + 0.5 + 1 + 0) / 4)
+        self.assertEqual(reading.mark_words("der hund bellt laut", "Der Hund bellt laut.")[1], 1.0)
+        self.assertEqual(reading.mark_words("Muede", "Müde!")[1], 1.0)  # ue for ü is fine
+
+    def test_look_back_counts_only_when_mostly_right(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ctx = make_ctx(tmp)
+            ctx.audio.can_speak = True
+            unit = Unit(n=1, de="Der Hund bellt heute sehr laut.", en="The dog barks loudly today.", part=1)
+            book = ctx.content.books[0]
+            for typed, expected in (("Der Hund bellt heute sehr laut", True), ("Der Hund", False), ("?", False)):
+                with mock.patch("app.ui._read", mock.Mock(side_effect=[typed])), \
+                        mock.patch("app.reading.hear", lambda *a, **k: None), mock.patch("app.ui.clear", lambda: None), \
+                        mock.patch("app.ui.keys", lambda options: ""), console.capture():
+                    self.assertEqual(reading._dictation(ctx, book, unit, "Look back"), expected, typed)
+
+
+class BookSentences(unittest.TestCase):
+    def test_sentences(self):
+        from app.content import sentences
+        self.assertEqual(sentences("Er kam z. B. spät. »Wo warst du?« fragte sie.\nAugust 1904"),
+                         ["Er kam z. B. spät.", "»Wo warst du?« fragte sie.", "August 1904"])
+
+    def test_the_word_in_its_book_sentence(self):
+        from app.content import story_sentence
+        text = "Er war traurig. Sie traute sich nicht. Die Staatsanwälte kamen."
+        self.assertEqual(story_sentence("sich trauen", text), "Sie traute sich nicht.")
+        self.assertEqual(story_sentence("der Staatsanwalt", text), "Die Staatsanwälte kamen.")
+        self.assertEqual(story_sentence("gehen", text), "")
+
+    def test_card_shows_the_book_sentence(self):
+        word = Word(id="x", bank="reading", de="der Hund", en=["dog"], pos="noun",
+                    story_de="Der Hund bellt.", story_from="Buch")
+        with console.capture() as cap:
+            console.print(warmup.word_details(word))
+        self.assertIn("in the book", cap.get())
+        self.assertIn("Der Hund bellt.", cap.get())
+
+
 class RestartBook(unittest.TestCase):
     def test_start_a_half_read_book_again(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -50,7 +50,11 @@ def word_details(word: Word) -> Table:
         grid.add_row("note", Text(word.note, style="note"))
     if word.example_de:
         grid.add_row("example", Text(word.example_de, style="italic cyan"))
-        grid.add_row("", Text(word.example_en, style="hint"))
+        if word.example_en:
+            grid.add_row("", Text(word.example_en, style="hint"))
+    if word.story_de and word.story_de != word.example_de:
+        grid.add_row("in the book", Text(word.story_de, style="italic cyan"))
+        grid.add_row("", Text(word.story_from, style="hint"))
     return grid
 
 
@@ -60,6 +64,8 @@ def _listen_options(ctx, word: Word, options: dict[str, str]) -> str:
         options = {**options, "r": "hear again", "s": "say it myself"}
         if word.example_de:
             options["e"] = "hear the example"
+        if word.story_de and word.story_de != word.example_de:
+            options["b"] = "hear the book sentence"
     while True:
         choice = ui.keys(options)
         if choice == "r":
@@ -68,6 +74,8 @@ def _listen_options(ctx, word: Word, options: dict[str, str]) -> str:
             speak_and_compare(ctx, word.de)
         elif choice == "e":
             hear(ctx, word.example_de, slow=False)
+        elif choice == "b":
+            hear(ctx, word.story_de.strip("… "), slow=False)
         else:
             return choice
 

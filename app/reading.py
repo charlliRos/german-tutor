@@ -7,14 +7,17 @@ A look back marked "needs work" (or skipped) doesn't count, so it comes back nex
 """
 from __future__ import annotations
 
+import difflib
 from datetime import datetime, timedelta
 
 from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import ui
-from .content import Book, Unit
+from . import sfx, ui
+from .answers import normalize
+from .config import DEFAULTS
+from .content import Book, Unit, sentences
 from .speaking import hear, speak_and_compare
 from .ui import console, icon
 
@@ -155,6 +158,66 @@ def _read_aloud(ctx, book: Book, unit: Unit, heading: str) -> None:
         ui.keys({"": "done"})
 
 
+DICTATION_PASS = 0.8  # share of words right for a listen-and-type look back to count
+
+
+def mark_words(answer: str, sentence: str) -> tuple[Text, float]:
+    """The sentence with each word green (typed right), orange (small slip) or red (missing / wrong),
+    and the share of words right (a slip counts half)."""
+    ref = sentence.split()
+    ref_norm = [normalize(w) for w in ref]
+    given = normalize(answer).split()
+    status = ["bad"] * len(ref)
+    matcher = difflib.SequenceMatcher(a=ref_norm, b=given, autojunk=False)
+    for op, a1, a2, b1, b2 in matcher.get_opcodes():
+        if op == "equal":
+            status[a1:a2] = ["good"] * (a2 - a1)
+        elif op == "replace":
+            for i, j in zip(range(a1, a2), range(b1, b2)):
+                if difflib.SequenceMatcher(a=ref_norm[i], b=given[j]).ratio() >= 0.75:
+                    status[i] = "almost"
+    text = Text()
+    counted = right = 0
+    for word, norm, st in zip(ref, ref_norm, status):
+        if not norm:  # a dash or quote on its own
+            text.append(word + " ")
+            continue
+        counted += 1
+        right += {"good": 1.0, "almost": 0.5, "bad": 0.0}[st]
+        text.append(word, style={"good": "good", "almost": "almost", "bad": "bad"}[st])
+        text.append(" ")
+    return text, (right / counted if counted else 1.0)
+
+
+def _dictation(ctx, book: Book, unit: Unit, heading: str) -> bool:
+    """Hear one sentence of the paragraph and type it. True if most words were right."""
+    choices = [s for s in sentences(unit.de) if 4 <= len(s.split()) <= 20] or sentences(unit.de) or [unit.de]
+    sentence = ctx.rng.choice(choices)
+    ui.clear()
+    ui.title(f"{ctx.step}{heading}: listen and type", book.short_title)
+    console.print("Listen to a sentence from this paragraph and type exactly what you hear.")
+    console.print(ui.umlaut_tip())
+    hear(ctx, sentence)
+    while (answer := ui.ask_answer("Type it (r = hear again, ? = show me):")).lower() == "r":
+        hear(ctx, sentence)
+    if not answer:
+        console.print(ui.german(sentence, "The sentence"))
+        ok = False
+    else:
+        marked, score = mark_words(answer, sentence)
+        ok = score >= DICTATION_PASS
+        sfx.play(ctx.audio, "right" if score == 1 else "almost" if ok else "wrong")
+        console.print(Panel(Text(answer, style="magenta"), title="You typed", border_style="magenta"))
+        console.print(Panel(marked, title=f"The sentence · {round(score * 100)}% right",
+                            border_style="green" if ok else "red", padding=(1, 2)))
+        if not ok:
+            console.print("[hint]It comes back next session.[/]")
+    hear(ctx, sentence, slow=False)
+    while ui.keys({"": "next", "r": "hear it again"}) == "r":
+        hear(ctx, sentence, slow=False)
+    return ok
+
+
 def _story_so_far(ctx, book: Book, state: dict) -> Unit | None:
     """Show English summaries of skipped parts; return the next German unit (None if the book ended)."""
     while True:
@@ -257,8 +320,12 @@ def due_reviews(ctx) -> list[tuple[Book, Unit, dict]]:
 
 
 def _review_task(ctx, last: str) -> str:
-    """A different exercise from last time, so each look back practises something else."""
-    tasks = [t for t in ("read_aloud", "de2en", "en2de") if ctx.settings["reading_tasks"].get(t, 0) > 0]
+    """A different exercise from last time, so each look back practises something else.
+    Listen-and-type needs the voice; an older config.json without it still gets it."""
+    weights = {**DEFAULTS["reading_tasks"], **ctx.settings["reading_tasks"]}
+    if not ctx.audio.can_speak:
+        weights.pop("dictation", None)
+    tasks = [t for t, w in weights.items() if w > 0]
     tasks = [t for t in tasks if t != last] or tasks or ["de2en"]
     return ctx.rng.choice(tasks)
 
@@ -269,6 +336,8 @@ def review(ctx, book: Book, unit: Unit, item: dict, i: int, total: int) -> None:
     if task == "read_aloud":
         _read_aloud(ctx, book, unit, heading)
         ok = True
+    elif task == "dictation":
+        ok = _dictation(ctx, book, unit, heading)
     else:
         entry = _translate(ctx, book, unit, task, heading, review=True)
         ok = not entry.get("skipped") and entry.get("self_grade") != NEEDS_WORK

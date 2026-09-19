@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -24,6 +25,8 @@ class Word:
     note: str = ""
     example_de: str = ""
     example_en: str = ""
+    story_de: str = ""     # a sentence from a book paragraph that uses the word
+    story_from: str = ""   # that book's short title
 
 
 @dataclass
@@ -213,6 +216,61 @@ def reading_words(content: Content) -> None:
                     by_german.setdefault(key, []).append((meanings, wid))
                 if wid not in unit.word_ids:
                     unit.word_ids.append(wid)
+                word = content.words[wid]
+                if not word.story_de and (sentence := story_sentence(de, unit.de)):
+                    word.story_de, word.story_from = sentence, book.short_title
+
+
+_SENTENCE_END = re.compile(r"[.!?…]+[“”\"»«’]*\s+(?=[„\"»«‚(–A-ZÄÖÜ-])")
+_ABBREVIATIONS = {"dr", "nr", "st", "hr", "fr", "usw", "bzw", "ca", "vgl", "ggf"}
+
+
+def sentences(text: str) -> list[str]:
+    """Split German text into sentences ("z. B." and "Dr." don't end one; a line break always does)."""
+    out = []
+    for line in text.splitlines():
+        start = 0
+        for m in _SENTENCE_END.finditer(line):
+            last = re.search(r"(\w+)$", line[start:m.start()])
+            if line[m.start()] == "." and last and (len(last.group(1)) == 1
+                                                    or last.group(1).lower() in _ABBREVIATIONS):
+                continue
+            out.append(line[start:m.end()].strip())
+            start = m.end()
+        if line[start:].strip():
+            out.append(line[start:].strip())
+    return out
+
+
+STORY_WORDS = 24  # longer book sentences are cut down to the part around the word
+
+
+_NOT_THE_WORD = {"der", "die", "das", "den", "dem", "des", "ein", "eine", "einen", "einem", "einer", "sich",
+                 "etwas", "jemand", "jemanden", "jemandem", "jdm", "jdn", "etw", "jmd", "auf", "mit", "von",
+                 "ueber", "fuer", "aus", "nach", "bei", "zum", "zur", "und", "oder"}
+
+
+def story_sentence(de: str, text: str) -> str:
+    """The first sentence of text that uses the word (any ending: Staatsanwalt ~ Staatsanwälte), or "".
+    A long sentence is cut to about STORY_WORDS words around the word."""
+    tokens = [t for t in normalize(de).split() if t not in _NOT_THE_WORD and len(t) >= 3]
+    if not tokens:
+        return ""
+    key = max(tokens, key=len)
+    stem = key[: max(4, len(key) - 2)]
+    ending = 2 if len(stem) <= 4 else 4  # an ending, not another word: trau-te but not trau-rig
+    for sentence in sentences(text):
+        words = sentence.split()
+        hits = [i for i, w in enumerate(words)
+                if (n := normalize(w)).startswith(stem) and len(n) - len(stem) <= ending]
+        if not hits:
+            continue
+        if len(words) <= STORY_WORDS:
+            return sentence
+        start = max(0, min(hits[0] - STORY_WORDS // 2, len(words) - STORY_WORDS))
+        part = " ".join(words[start:start + STORY_WORDS])
+        return ("… " if start else "") + part + (" …" if start + STORY_WORDS < len(words) else "")
+    return ""
 
 
 def words_sharing_english(content: Content, word: Word) -> list[Word]:
