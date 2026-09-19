@@ -1,0 +1,4420 @@
+{
+  "bank": "daily",
+  "title": "Everyday German — conversation",
+  "words": [
+    {
+      "id": "d-conv-0001",
+      "de": "Wie war dein Wochenende?",
+      "de_alt": [
+        "Wie war das Wochenende?"
+      ],
+      "en": [
+        "how was your weekend"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 900,
+      "example_de": "Hey Lena, wie war dein Wochenende?",
+      "example_en": "Hey Lena, how was your weekend?"
+    },
+    {
+      "id": "d-conv-0002",
+      "de": "Na klar!",
+      "de_alt": [
+        "Aber klar!"
+      ],
+      "en": [
+        "of course",
+        "sure"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 900,
+      "example_de": "Kann ich mitkommen? – Na klar!",
+      "example_en": "Can I come along? – Of course!"
+    },
+    {
+      "id": "d-conv-0003",
+      "de": "Wie läuft's in der Schule?",
+      "de_alt": [
+        "Wie läuft es in der Schule?"
+      ],
+      "en": [
+        "how's school going",
+        "how is school"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1000,
+      "example_de": "Wie läuft's in der Schule? Alles okay?",
+      "example_en": "How's school going? Everything okay?"
+    },
+    {
+      "id": "d-conv-0004",
+      "de": "Wie war dein Tag?",
+      "de_alt": [],
+      "en": [
+        "how was your day"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1000,
+      "example_de": "Hi Mama! Wie war dein Tag?",
+      "example_en": "Hi Mum! How was your day?"
+    },
+    {
+      "id": "d-conv-0005",
+      "de": "Wie war's in der Schule?",
+      "de_alt": [
+        "Wie war es in der Schule?",
+        "Wie war die Schule?"
+      ],
+      "en": [
+        "how was school"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1000,
+      "example_de": "Wie war's in der Schule heute?",
+      "example_en": "How was school today?"
+    },
+    {
+      "id": "d-conv-0006",
+      "de": "Auf jeden Fall!",
+      "de_alt": [],
+      "en": [
+        "definitely",
+        "for sure",
+        "absolutely"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1000,
+      "example_de": "Kommst du zum Konzert? – Auf jeden Fall!",
+      "example_en": "Are you coming to the concert? – Definitely!"
+    },
+    {
+      "id": "d-conv-0007",
+      "de": "Ich weiß!",
+      "de_alt": [
+        "Ich weiß.",
+        "Weiß ich doch!"
+      ],
+      "en": [
+        "I know"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1000,
+      "example_de": "Du bist zu spät! – Ich weiß, sorry!",
+      "example_en": "You're late! – I know, sorry!"
+    },
+    {
+      "id": "d-conv-0008",
+      "de": "Wo bist du?",
+      "de_alt": [
+        "Wo bist du grad?",
+        "Wo bist du gerade?"
+      ],
+      "en": [
+        "where are you"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A1",
+      "rank": 1000,
+      "example_de": "Wo bist du? Der Film fängt gleich an!",
+      "example_en": "Where are you? The film's about to start!"
+    },
+    {
+      "id": "d-conv-0009",
+      "de": "Wie läuft's?",
+      "de_alt": [
+        "Wie läuft es?"
+      ],
+      "en": [
+        "how's it going",
+        "how are things"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1100,
+      "note": "colloquial",
+      "example_de": "Na, wie läuft's bei dir?",
+      "example_en": "Hey, how's it going with you?"
+    },
+    {
+      "id": "d-conv-0010",
+      "de": "Alles gut bei dir?",
+      "de_alt": [
+        "Alles gut?"
+      ],
+      "en": [
+        "are you okay",
+        "everything okay",
+        "all good"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1100,
+      "note": "colloquial",
+      "example_de": "Du bist so still. Alles gut bei dir?",
+      "example_en": "You're so quiet. Are you okay?"
+    },
+    {
+      "id": "d-conv-0011",
+      "de": "Bis dann!",
+      "de_alt": [],
+      "en": [
+        "see you then",
+        "see you"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 1100,
+      "example_de": "Also um acht am Kino. Bis dann!",
+      "example_en": "So eight o'clock at the cinema. See you then!"
+    },
+    {
+      "id": "d-conv-0012",
+      "de": "Bis gleich!",
+      "de_alt": [],
+      "en": [
+        "see you in a bit",
+        "see you soon",
+        "see you in a minute"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 1100,
+      "example_de": "Ich hole nur schnell meine Jacke. Bis gleich!",
+      "example_en": "I'm just getting my jacket. See you in a bit!"
+    },
+    {
+      "id": "d-conv-0013",
+      "de": "Ich hab keine Zeit.",
+      "de_alt": [
+        "Ich habe keine Zeit."
+      ],
+      "en": [
+        "I don't have time",
+        "I have no time"
+      ],
+      "pos": "phrase",
+      "topic": "time",
+      "level": "A1",
+      "rank": 1100,
+      "example_de": "Ich hab keine Zeit, ich muss lernen.",
+      "example_en": "I don't have time, I have to study."
+    },
+    {
+      "id": "d-conv-0014",
+      "de": "Klingt gut!",
+      "de_alt": [
+        "Hört sich gut an!",
+        "Klingt gut."
+      ],
+      "en": [
+        "sounds good"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1100,
+      "example_de": "Pizza und dann Kino? Klingt gut!",
+      "example_en": "Pizza and then the cinema? Sounds good!"
+    },
+    {
+      "id": "d-conv-0015",
+      "de": "Mal sehen.",
+      "de_alt": [
+        "Mal schauen.",
+        "Schauen wir mal."
+      ],
+      "en": [
+        "we'll see",
+        "let's see"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1100,
+      "example_de": "Kommst du morgen mit? – Mal sehen.",
+      "example_en": "Are you coming tomorrow? – We'll see."
+    },
+    {
+      "id": "d-conv-0016",
+      "de": "Im Ernst?",
+      "de_alt": [
+        "Ernsthaft?"
+      ],
+      "en": [
+        "seriously",
+        "are you serious"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1100,
+      "example_de": "Im Ernst? Du ziehst nach Hamburg?",
+      "example_en": "Seriously? You're moving to Hamburg?"
+    },
+    {
+      "id": "d-conv-0017",
+      "de": "Warte mal.",
+      "de_alt": [
+        "Warte kurz.",
+        "Wart mal."
+      ],
+      "en": [
+        "wait a sec",
+        "hang on",
+        "wait"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1100,
+      "example_de": "Warte mal, ich muss meine Schuhe binden.",
+      "example_en": "Hang on, I have to tie my shoes."
+    },
+    {
+      "id": "d-conv-0018",
+      "de": "Können Sie mir helfen?",
+      "de_alt": [
+        "Kannst du mir helfen?",
+        "Könnten Sie mir helfen?"
+      ],
+      "en": [
+        "can you help me",
+        "could you help me"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 1100,
+      "example_de": "Entschuldigung, können Sie mir helfen? Ich suche die Post.",
+      "example_en": "Excuse me, can you help me? I'm looking for the post office."
+    },
+    {
+      "id": "d-conv-0019",
+      "de": "Was hast du am Wochenende gemacht?",
+      "de_alt": [],
+      "en": [
+        "what did you do at the weekend",
+        "what did you do over the weekend"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1200,
+      "example_de": "Und, was hast du am Wochenende gemacht?",
+      "example_en": "So, what did you do at the weekend?"
+    },
+    {
+      "id": "d-conv-0020",
+      "de": "Wo wohnst du?",
+      "de_alt": [],
+      "en": [
+        "where do you live"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1200,
+      "example_de": "Wo wohnst du eigentlich genau?",
+      "example_en": "Where exactly do you live?"
+    },
+    {
+      "id": "d-conv-0021",
+      "de": "Geht so.",
+      "de_alt": [],
+      "en": [
+        "so-so",
+        "could be better",
+        "not great"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1200,
+      "note": "answer to Wie geht's?",
+      "example_de": "Wie geht's? – Geht so, bin etwas müde.",
+      "example_en": "How are you? – So-so, I'm a bit tired."
+    },
+    {
+      "id": "d-conv-0022",
+      "de": "Ganz gut.",
+      "de_alt": [
+        "Ganz gut, danke."
+      ],
+      "en": [
+        "pretty good",
+        "quite good",
+        "fine"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1200,
+      "note": "answer to Wie geht's?",
+      "example_de": "Wie geht's dir? – Ganz gut, danke.",
+      "example_en": "How are you? – Pretty good, thanks."
+    },
+    {
+      "id": "d-conv-0023",
+      "de": "Wir sehen uns!",
+      "de_alt": [
+        "Man sieht sich!"
+      ],
+      "en": [
+        "see you",
+        "see you later",
+        "see you around"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A2",
+      "rank": 1200,
+      "example_de": "Okay, ich muss los. Wir sehen uns!",
+      "example_en": "Okay, I have to go. See you!"
+    },
+    {
+      "id": "d-conv-0024",
+      "de": "Ich nehme …",
+      "de_alt": [
+        "Ich nehm …"
+      ],
+      "en": [
+        "I'll have",
+        "I'll take"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A1",
+      "rank": 1200,
+      "note": "ordering",
+      "example_de": "Ich nehme einen Döner ohne Zwiebeln.",
+      "example_en": "I'll have a kebab without onions."
+    },
+    {
+      "id": "d-conv-0025",
+      "de": "Die Rechnung, bitte.",
+      "de_alt": [
+        "Zahlen, bitte.",
+        "Wir möchten zahlen.",
+        "Wir würden gern zahlen."
+      ],
+      "en": [
+        "the bill please",
+        "the check please",
+        "can we have the bill please"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A1",
+      "rank": 1200,
+      "example_de": "Entschuldigung, die Rechnung, bitte!",
+      "example_en": "Excuse me, the bill, please!"
+    },
+    {
+      "id": "d-conv-0026",
+      "de": "Wann treffen wir uns?",
+      "de_alt": [],
+      "en": [
+        "when are we meeting",
+        "when shall we meet"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1200,
+      "example_de": "Wann treffen wir uns morgen?",
+      "example_en": "When are we meeting tomorrow?"
+    },
+    {
+      "id": "d-conv-0027",
+      "de": "Um wie viel Uhr?",
+      "de_alt": [
+        "Wann genau?"
+      ],
+      "en": [
+        "at what time",
+        "what time"
+      ],
+      "pos": "phrase",
+      "topic": "time",
+      "level": "A1",
+      "rank": 1200,
+      "example_de": "Wir gehen ins Kino. – Cool, um wie viel Uhr?",
+      "example_en": "We're going to the cinema. – Cool, what time?"
+    },
+    {
+      "id": "d-conv-0028",
+      "de": "Sag Bescheid!",
+      "de_alt": [
+        "Sag mir Bescheid!",
+        "Gib Bescheid!"
+      ],
+      "en": [
+        "let me know"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1200,
+      "example_de": "Wenn du mitkommen willst, sag Bescheid!",
+      "example_en": "If you want to come along, let me know!"
+    },
+    {
+      "id": "d-conv-0029",
+      "de": "Auf keinen Fall!",
+      "de_alt": [],
+      "en": [
+        "no way",
+        "definitely not"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1200,
+      "example_de": "Ich soll mit ihm tanzen? Auf keinen Fall!",
+      "example_en": "I'm supposed to dance with him? No way!"
+    },
+    {
+      "id": "d-conv-0030",
+      "de": "Ich glaube schon.",
+      "de_alt": [
+        "Ich denke schon."
+      ],
+      "en": [
+        "I think so"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1200,
+      "example_de": "Haben wir morgen Sport? – Ich glaube schon.",
+      "example_en": "Do we have PE tomorrow? – I think so."
+    },
+    {
+      "id": "d-conv-0031",
+      "de": "Ich glaube nicht.",
+      "de_alt": [
+        "Ich denke nicht."
+      ],
+      "en": [
+        "I don't think so"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1200,
+      "example_de": "Kommt Lukas auch? – Ich glaube nicht.",
+      "example_en": "Is Lukas coming too? – I don't think so."
+    },
+    {
+      "id": "d-conv-0032",
+      "de": "Na gut.",
+      "de_alt": [
+        "Also gut.",
+        "Na gut, okay."
+      ],
+      "en": [
+        "okay then",
+        "fine",
+        "all right then"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1200,
+      "example_de": "Na gut, ich komme mit.",
+      "example_en": "Okay then, I'll come along."
+    },
+    {
+      "id": "d-conv-0033",
+      "de": "Oder?",
+      "de_alt": [
+        "Nicht wahr?",
+        "Ne?"
+      ],
+      "en": [
+        "right",
+        "isn't it",
+        "don't you think"
+      ],
+      "pos": "other",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1200,
+      "note": "tag question at the end of a sentence",
+      "example_de": "Der Film war gut, oder?",
+      "example_en": "The film was good, wasn't it?"
+    },
+    {
+      "id": "d-conv-0034",
+      "de": "Hab's vergessen.",
+      "de_alt": [
+        "Ich hab's vergessen.",
+        "Ich habe es vergessen."
+      ],
+      "en": [
+        "I forgot",
+        "I forgot it"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 1200,
+      "note": "colloquial",
+      "example_de": "Sorry, hab's total vergessen!",
+      "example_en": "Sorry, I totally forgot!"
+    },
+    {
+      "id": "d-conv-0035",
+      "de": "Was gibt's Neues?",
+      "de_alt": [
+        "Was gibt es Neues?"
+      ],
+      "en": [
+        "what's new",
+        "anything new"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1300,
+      "example_de": "Hi Tom! Was gibt's Neues?",
+      "example_en": "Hi Tom! What's new?"
+    },
+    {
+      "id": "d-conv-0036",
+      "de": "Was hast du heute vor?",
+      "de_alt": [
+        "Was machst du heute?"
+      ],
+      "en": [
+        "what are you doing today",
+        "what are your plans for today"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1300,
+      "note": "vorhaben: separable",
+      "example_de": "Was hast du heute noch vor?",
+      "example_en": "What else are you doing today?"
+    },
+    {
+      "id": "d-conv-0037",
+      "de": "Wie findest du …?",
+      "de_alt": [],
+      "en": [
+        "what do you think of",
+        "how do you like"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1300,
+      "example_de": "Wie findest du die neue Lehrerin?",
+      "example_en": "What do you think of the new teacher?"
+    },
+    {
+      "id": "d-conv-0038",
+      "de": "Nicht schlecht.",
+      "de_alt": [],
+      "en": [
+        "not bad"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1300,
+      "example_de": "Die Pizza hier ist echt nicht schlecht.",
+      "example_en": "The pizza here really isn't bad."
+    },
+    {
+      "id": "d-conv-0039",
+      "de": "Was gibt's zu essen?",
+      "de_alt": [
+        "Was gibt es zu essen?",
+        "Was gibt's heute zu essen?"
+      ],
+      "en": [
+        "what's for dinner",
+        "what's there to eat",
+        "what are we eating"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A1",
+      "rank": 1300,
+      "example_de": "Mama, ich hab Hunger! Was gibt's zu essen?",
+      "example_en": "Mum, I'm hungry! What's for dinner?"
+    },
+    {
+      "id": "d-conv-0040",
+      "de": "Mach's gut!",
+      "de_alt": [],
+      "en": [
+        "take care",
+        "see you",
+        "all the best"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A2",
+      "rank": 1300,
+      "note": "casual goodbye",
+      "example_de": "Tschüss, Tim, mach's gut!",
+      "example_en": "Bye, Tim, take care!"
+    },
+    {
+      "id": "d-conv-0041",
+      "de": "Schlaf gut!",
+      "de_alt": [
+        "Schlaf schön!"
+      ],
+      "en": [
+        "sleep well",
+        "sleep tight"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 1300,
+      "example_de": "Gute Nacht, schlaf gut!",
+      "example_en": "Good night, sleep well!"
+    },
+    {
+      "id": "d-conv-0042",
+      "de": "Das schmeckt super!",
+      "de_alt": [
+        "Das ist lecker!",
+        "Das schmeckt richtig gut!"
+      ],
+      "en": [
+        "this tastes great",
+        "it tastes great",
+        "this is delicious"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A1",
+      "rank": 1300,
+      "example_de": "Mama, die Lasagne schmeckt super!",
+      "example_en": "Mum, the lasagne tastes great!"
+    },
+    {
+      "id": "d-conv-0043",
+      "de": "Haben Sie …?",
+      "de_alt": [
+        "Gibt es …?"
+      ],
+      "en": [
+        "do you have",
+        "have you got"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 1300,
+      "example_de": "Haben Sie auch Ladekabel für Handys?",
+      "example_en": "Do you have phone chargers too?"
+    },
+    {
+      "id": "d-conv-0044",
+      "de": "Bin dabei!",
+      "de_alt": [
+        "Ich bin dabei!"
+      ],
+      "en": [
+        "I'm in",
+        "count me in"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1300,
+      "note": "colloquial",
+      "example_de": "Wir spielen morgen Fußball. – Bin dabei!",
+      "example_en": "We're playing football tomorrow. – I'm in!"
+    },
+    {
+      "id": "d-conv-0045",
+      "de": "Ich bin mir nicht sicher.",
+      "de_alt": [
+        "Ich bin nicht sicher."
+      ],
+      "en": [
+        "I'm not sure"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1300,
+      "example_de": "Ich bin mir nicht sicher, ob das stimmt.",
+      "example_en": "I'm not sure if that's right."
+    },
+    {
+      "id": "d-conv-0046",
+      "de": "Quatsch!",
+      "de_alt": [
+        "So ein Quatsch!",
+        "Blödsinn!"
+      ],
+      "en": [
+        "nonsense",
+        "rubbish",
+        "no way"
+      ],
+      "pos": "phrase",
+      "topic": "slang",
+      "level": "A2",
+      "rank": 1300,
+      "note": "colloquial",
+      "example_de": "Quatsch, du bist doch nicht dick!",
+      "example_en": "Nonsense, you're not fat!"
+    },
+    {
+      "id": "d-conv-0047",
+      "de": "Ich hab keinen Bock.",
+      "de_alt": [
+        "Ich habe keinen Bock.",
+        "Kein Bock."
+      ],
+      "en": [
+        "I can't be bothered",
+        "I don't feel like it"
+      ],
+      "pos": "phrase",
+      "topic": "slang",
+      "level": "B1",
+      "rank": 1300,
+      "note": "slang for keine Lust",
+      "example_de": "Ich hab keinen Bock auf Hausaufgaben.",
+      "example_en": "I can't be bothered with homework."
+    },
+    {
+      "id": "d-conv-0048",
+      "de": "Los geht's!",
+      "de_alt": [
+        "Los!",
+        "Auf geht's!"
+      ],
+      "en": [
+        "let's go",
+        "here we go"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1300,
+      "example_de": "Alle da? Los geht's!",
+      "example_en": "Everyone here? Let's go!"
+    },
+    {
+      "id": "d-conv-0049",
+      "de": "Bin unterwegs.",
+      "de_alt": [
+        "Ich bin unterwegs.",
+        "Bin auf dem Weg."
+      ],
+      "en": [
+        "I'm on my way",
+        "on my way"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 1300,
+      "example_de": "Bin unterwegs, in zehn Minuten da.",
+      "example_en": "On my way, there in ten minutes."
+    },
+    {
+      "id": "d-conv-0050",
+      "de": "Bin zu Hause.",
+      "de_alt": [
+        "Ich bin zu Hause.",
+        "Bin daheim."
+      ],
+      "en": [
+        "I'm home",
+        "I'm at home"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A1",
+      "rank": 1300,
+      "note": "zu Hause = at home; nach Hause = (going) home",
+      "example_de": "Bin zu Hause, alles gut.",
+      "example_en": "I'm home, all good."
+    },
+    {
+      "id": "d-conv-0051",
+      "de": "Ruf mich an!",
+      "de_alt": [
+        "Ruf mal an!",
+        "Ruf mich mal an!"
+      ],
+      "en": [
+        "call me"
+      ],
+      "pos": "phrase",
+      "topic": "communication",
+      "level": "A1",
+      "rank": 1300,
+      "note": "anrufen: separable",
+      "example_de": "Ruf mich an, wenn du da bist!",
+      "example_en": "Call me when you get there!"
+    },
+    {
+      "id": "d-conv-0052",
+      "de": "Wo ist die Toilette?",
+      "de_alt": [
+        "Wo sind die Toiletten?",
+        "Wo ist das Klo?"
+      ],
+      "en": [
+        "where is the toilet",
+        "where's the bathroom",
+        "where is the restroom"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A1",
+      "rank": 1300,
+      "note": "das Klo is colloquial",
+      "example_de": "Entschuldigung, wo ist hier die Toilette?",
+      "example_en": "Excuse me, where's the toilet here?"
+    },
+    {
+      "id": "d-conv-0053",
+      "de": "Was machst du so?",
+      "de_alt": [
+        "Was machst du denn so?"
+      ],
+      "en": [
+        "what have you been up to",
+        "what are you up to these days"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1400,
+      "note": "colloquial; asks about life in general",
+      "example_de": "Lange nicht gesehen! Was machst du so?",
+      "example_en": "Long time no see! What have you been up to?"
+    },
+    {
+      "id": "d-conv-0054",
+      "de": "Hast du Geschwister?",
+      "de_alt": [],
+      "en": [
+        "do you have any brothers or sisters",
+        "do you have siblings",
+        "do you have any siblings"
+      ],
+      "pos": "phrase",
+      "topic": "family",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Hast du Geschwister? Ich habe zwei Brüder.",
+      "example_en": "Do you have any siblings? I have two brothers."
+    },
+    {
+      "id": "d-conv-0055",
+      "de": "Wie waren die Ferien?",
+      "de_alt": [
+        "Wie waren deine Ferien?"
+      ],
+      "en": [
+        "how were the holidays",
+        "how was your holiday",
+        "how was your vacation"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1400,
+      "note": "die Ferien is always plural",
+      "example_de": "Na, wie waren die Ferien? Wart ihr weg?",
+      "example_en": "So, how were the holidays? Did you go away?"
+    },
+    {
+      "id": "d-conv-0056",
+      "de": "Was nimmst du?",
+      "de_alt": [
+        "Was nimmst du denn?"
+      ],
+      "en": [
+        "what are you having",
+        "what are you getting"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Was nimmst du? Ich nehme die Pizza.",
+      "example_en": "What are you having? I'm having the pizza."
+    },
+    {
+      "id": "d-conv-0057",
+      "de": "Zusammen oder getrennt?",
+      "de_alt": [],
+      "en": [
+        "together or separately",
+        "one bill or separate"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1400,
+      "note": "the waiter asks how you'll pay",
+      "example_de": "Zusammen oder getrennt? – Getrennt, bitte.",
+      "example_en": "Together or separately? – Separately, please."
+    },
+    {
+      "id": "d-conv-0058",
+      "de": "Das ist zu teuer.",
+      "de_alt": [
+        "Das ist mir zu teuer."
+      ],
+      "en": [
+        "that's too expensive",
+        "it's too expensive"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Hundert Euro für ein T-Shirt? Das ist zu teuer.",
+      "example_en": "A hundred euros for a T-shirt? That's too expensive."
+    },
+    {
+      "id": "d-conv-0059",
+      "de": "Einen Moment, bitte.",
+      "de_alt": [
+        "Moment, bitte.",
+        "Einen Augenblick, bitte."
+      ],
+      "en": [
+        "one moment please",
+        "just a moment please"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Einen Moment, bitte, ich suche noch mein Geld.",
+      "example_en": "One moment, please, I'm still looking for my money."
+    },
+    {
+      "id": "d-conv-0060",
+      "de": "Was machen wir heute?",
+      "de_alt": [
+        "Was wollen wir heute machen?"
+      ],
+      "en": [
+        "what are we doing today",
+        "what shall we do today"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Mir ist langweilig. Was machen wir heute?",
+      "example_en": "I'm bored. What shall we do today?"
+    },
+    {
+      "id": "d-conv-0061",
+      "de": "Ich sag dir Bescheid.",
+      "de_alt": [
+        "Ich sage dir Bescheid.",
+        "Ich gebe dir Bescheid."
+      ],
+      "en": [
+        "I'll let you know"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Ich weiß es noch nicht. Ich sag dir Bescheid.",
+      "example_en": "I don't know yet. I'll let you know."
+    },
+    {
+      "id": "d-conv-0062",
+      "de": "Warte auf mich!",
+      "de_alt": [
+        "Wartet auf mich!"
+      ],
+      "en": [
+        "wait for me"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Nicht so schnell! Warte auf mich!",
+      "example_en": "Not so fast! Wait for me!"
+    },
+    {
+      "id": "d-conv-0063",
+      "de": "Kann sein.",
+      "de_alt": [
+        "Kann schon sein."
+      ],
+      "en": [
+        "maybe",
+        "could be",
+        "possibly"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Ist er heute krank? – Kann sein.",
+      "example_en": "Is he ill today? – Could be."
+    },
+    {
+      "id": "d-conv-0064",
+      "de": "Das gibt's doch nicht!",
+      "de_alt": [
+        "Das gibt's nicht!",
+        "Das gibt es doch nicht!"
+      ],
+      "en": [
+        "no way",
+        "I don't believe it",
+        "that can't be true"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Das gibt's doch nicht! Schon wieder kein WLAN!",
+      "example_en": "I don't believe it! No wifi again!"
+    },
+    {
+      "id": "d-conv-0065",
+      "de": "Oh Mann!",
+      "de_alt": [
+        "Mann!",
+        "Mann, ey!"
+      ],
+      "en": [
+        "oh man",
+        "come on"
+      ],
+      "pos": "phrase",
+      "topic": "slang",
+      "level": "A2",
+      "rank": 1400,
+      "note": "colloquial",
+      "example_de": "Oh Mann, ich hab mein Handy vergessen!",
+      "example_en": "Oh man, I forgot my phone!"
+    },
+    {
+      "id": "d-conv-0066",
+      "de": "Moment mal!",
+      "de_alt": [
+        "Moment!"
+      ],
+      "en": [
+        "wait a minute",
+        "hang on"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Moment mal, das ist mein Platz!",
+      "example_en": "Wait a minute, that's my seat!"
+    },
+    {
+      "id": "d-conv-0067",
+      "de": "Nicht schlimm.",
+      "de_alt": [
+        "Ist nicht schlimm.",
+        "Halb so schlimm."
+      ],
+      "en": [
+        "no big deal",
+        "it's not so bad",
+        "don't worry"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Du hast das Glas kaputt gemacht? Nicht schlimm.",
+      "example_en": "You broke the glass? No big deal."
+    },
+    {
+      "id": "d-conv-0068",
+      "de": "Das ist unfair!",
+      "de_alt": [
+        "Das ist nicht fair!",
+        "Voll unfair!"
+      ],
+      "en": [
+        "that's not fair",
+        "that's unfair"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Er darf länger aufbleiben? Das ist unfair!",
+      "example_en": "He's allowed to stay up later? That's not fair!"
+    },
+    {
+      "id": "d-conv-0069",
+      "de": "Gut gemacht!",
+      "de_alt": [
+        "Super gemacht!",
+        "Gut gemacht."
+      ],
+      "en": [
+        "well done",
+        "good job"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1400,
+      "example_de": "Eine Zwei in Chemie? Gut gemacht!",
+      "example_en": "A B in chemistry? Well done!"
+    },
+    {
+      "id": "d-conv-0070",
+      "de": "Sag mal …",
+      "de_alt": [
+        "Sag mal"
+      ],
+      "en": [
+        "tell me",
+        "say",
+        "hey"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1400,
+      "note": "starts a question",
+      "example_de": "Sag mal, hast du meinen Pulli gesehen?",
+      "example_en": "Hey, have you seen my jumper?"
+    },
+    {
+      "id": "d-conv-0071",
+      "de": "Ehrlich gesagt …",
+      "de_alt": [
+        "Ehrlich gesagt"
+      ],
+      "en": [
+        "to be honest",
+        "honestly"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Ehrlich gesagt finde ich die Serie langweilig.",
+      "example_en": "To be honest, I find the series boring."
+    },
+    {
+      "id": "d-conv-0072",
+      "de": "Wie komme ich zum Bahnhof?",
+      "de_alt": [
+        "Wie komme ich zum Hauptbahnhof?"
+      ],
+      "en": [
+        "how do I get to the station",
+        "how do I get to the train station"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Entschuldigung, wie komme ich zum Bahnhof?",
+      "example_en": "Excuse me, how do I get to the station?"
+    },
+    {
+      "id": "d-conv-0073",
+      "de": "Schön, dich zu sehen!",
+      "de_alt": [
+        "Schön dich zu sehen!",
+        "Schön, dich mal wieder zu sehen!"
+      ],
+      "en": [
+        "nice to see you",
+        "good to see you"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Schön, dich zu sehen! Wie geht's dir?",
+      "example_en": "Nice to see you! How are you?"
+    },
+    {
+      "id": "d-conv-0074",
+      "de": "Was sind deine Hobbys?",
+      "de_alt": [
+        "Was ist dein Hobby?"
+      ],
+      "en": [
+        "what are your hobbies"
+      ],
+      "pos": "phrase",
+      "topic": "free-time",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Erzähl mal, was sind deine Hobbys?",
+      "example_en": "Tell me, what are your hobbies?"
+    },
+    {
+      "id": "d-conv-0075",
+      "de": "Kennst du …?",
+      "de_alt": [],
+      "en": [
+        "do you know"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Kennst du den neuen Jungen aus der 10b?",
+      "example_en": "Do you know the new boy from 10b?"
+    },
+    {
+      "id": "d-conv-0076",
+      "de": "Wie war der Test?",
+      "de_alt": [
+        "Wie lief der Test?"
+      ],
+      "en": [
+        "how was the test",
+        "how did the test go"
+      ],
+      "pos": "phrase",
+      "topic": "school",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Wie war der Test? Ich glaube, meiner war schlecht.",
+      "example_en": "How was the test? I think mine went badly."
+    },
+    {
+      "id": "d-conv-0077",
+      "de": "Hast du gut geschlafen?",
+      "de_alt": [],
+      "en": [
+        "did you sleep well"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Guten Morgen! Hast du gut geschlafen?",
+      "example_en": "Good morning! Did you sleep well?"
+    },
+    {
+      "id": "d-conv-0078",
+      "de": "Hast du das gesehen?",
+      "de_alt": [],
+      "en": [
+        "did you see that",
+        "have you seen that"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1500,
+      "example_de": "Hast du das gesehen? Der Ball war doch drin!",
+      "example_en": "Did you see that? The ball was in!"
+    },
+    {
+      "id": "d-conv-0079",
+      "de": "Für mich auch.",
+      "de_alt": [
+        "Für mich das Gleiche."
+      ],
+      "en": [
+        "same for me",
+        "me too",
+        "the same for me"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Eine Cola, bitte. – Für mich auch.",
+      "example_en": "A Coke, please. – Same for me."
+    },
+    {
+      "id": "d-conv-0080",
+      "de": "Ist hier noch frei?",
+      "de_alt": [
+        "Ist der Platz noch frei?",
+        "Ist hier frei?"
+      ],
+      "en": [
+        "is this seat free",
+        "is this seat taken",
+        "is anyone sitting here"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Entschuldigung, ist hier noch frei?",
+      "example_en": "Excuse me, is this seat free?"
+    },
+    {
+      "id": "d-conv-0081",
+      "de": "Zum Mitnehmen, bitte.",
+      "de_alt": [],
+      "en": [
+        "to take away please",
+        "to go please",
+        "takeaway please"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Einen Kakao zum Mitnehmen, bitte.",
+      "example_en": "A hot chocolate to go, please."
+    },
+    {
+      "id": "d-conv-0082",
+      "de": "Bar oder mit Karte?",
+      "de_alt": [],
+      "en": [
+        "cash or card"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 1500,
+      "note": "said at the till",
+      "example_de": "Das macht 12 Euro. Bar oder mit Karte?",
+      "example_en": "That's 12 euros. Cash or card?"
+    },
+    {
+      "id": "d-conv-0083",
+      "de": "Das war's.",
+      "de_alt": [
+        "Das wär's.",
+        "Das ist alles."
+      ],
+      "en": [
+        "that's all",
+        "that's it"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Sonst noch etwas? – Nein, danke, das war's.",
+      "example_en": "Anything else? – No thanks, that's all."
+    },
+    {
+      "id": "d-conv-0084",
+      "de": "Ich bin dran.",
+      "de_alt": [
+        "Ich bin an der Reihe."
+      ],
+      "en": [
+        "it's my turn",
+        "I'm next"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Gib mir den Controller, ich bin dran!",
+      "example_en": "Give me the controller, it's my turn!"
+    },
+    {
+      "id": "d-conv-0085",
+      "de": "Hast du am Samstag schon was vor?",
+      "de_alt": [
+        "Hast du am Samstag schon etwas vor?"
+      ],
+      "en": [
+        "are you doing anything on Saturday",
+        "do you have plans on Saturday"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1500,
+      "note": "etwas vorhaben = to have plans",
+      "example_de": "Hast du am Samstag schon was vor? Wir grillen.",
+      "example_en": "Are you doing anything on Saturday? We're having a barbecue."
+    },
+    {
+      "id": "d-conv-0086",
+      "de": "Hast du Lust auf Kino?",
+      "de_alt": [
+        "Hast du Lust, ins Kino zu gehen?"
+      ],
+      "en": [
+        "do you fancy the cinema",
+        "do you feel like going to the cinema"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1500,
+      "note": "Lust auf etwas haben",
+      "example_de": "Hast du heute Abend Lust auf Kino?",
+      "example_en": "Do you fancy the cinema tonight?"
+    },
+    {
+      "id": "d-conv-0087",
+      "de": "Sollen wir ins Kino gehen?",
+      "de_alt": [
+        "Wollen wir ins Kino gehen?",
+        "Gehen wir ins Kino?"
+      ],
+      "en": [
+        "shall we go to the cinema",
+        "should we go to the movies"
+      ],
+      "pos": "phrase",
+      "topic": "free-time",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Es regnet. Sollen wir ins Kino gehen?",
+      "example_en": "It's raining. Shall we go to the cinema?"
+    },
+    {
+      "id": "d-conv-0088",
+      "de": "Ich hab schon was vor.",
+      "de_alt": [
+        "Ich habe schon etwas vor."
+      ],
+      "en": [
+        "I already have plans",
+        "I've already got plans"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Sorry, am Freitag hab ich schon was vor.",
+      "example_en": "Sorry, I've already got plans on Friday."
+    },
+    {
+      "id": "d-conv-0089",
+      "de": "Ich komme etwas später.",
+      "de_alt": [
+        "Ich komme ein bisschen später."
+      ],
+      "en": [
+        "I'll be a bit late",
+        "I'm coming a bit later"
+      ],
+      "pos": "phrase",
+      "topic": "time",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Fangt schon mal an, ich komme etwas später.",
+      "example_en": "Start without me, I'll be a bit late."
+    },
+    {
+      "id": "d-conv-0090",
+      "de": "Oh mein Gott!",
+      "de_alt": [
+        "Oh Gott!"
+      ],
+      "en": [
+        "oh my God",
+        "OMG"
+      ],
+      "pos": "phrase",
+      "topic": "slang",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Oh mein Gott, hast du das Video gesehen?",
+      "example_en": "Oh my God, have you seen the video?"
+    },
+    {
+      "id": "d-conv-0091",
+      "de": "Ach komm!",
+      "de_alt": [
+        "Ach komm schon!",
+        "Komm schon!"
+      ],
+      "en": [
+        "come on",
+        "oh come on"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Ach komm, nur noch eine Runde!",
+      "example_en": "Oh come on, just one more round!"
+    },
+    {
+      "id": "d-conv-0092",
+      "de": "Du schaffst das!",
+      "de_alt": [
+        "Du packst das!"
+      ],
+      "en": [
+        "you can do it",
+        "you've got this"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Keine Angst vor der Prüfung, du schaffst das!",
+      "example_en": "Don't be scared of the exam, you've got this!"
+    },
+    {
+      "id": "d-conv-0093",
+      "de": "Verstanden.",
+      "de_alt": [
+        "Alles verstanden.",
+        "Hab's verstanden."
+      ],
+      "en": [
+        "got it",
+        "understood"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Um acht am Eingang, okay? – Verstanden.",
+      "example_en": "Eight at the entrance, okay? – Got it."
+    },
+    {
+      "id": "d-conv-0094",
+      "de": "Ich meine …",
+      "de_alt": [
+        "Ich mein …"
+      ],
+      "en": [
+        "I mean"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Ich meine, er ist nett, aber ein bisschen komisch.",
+      "example_en": "I mean, he's nice, but a bit weird."
+    },
+    {
+      "id": "d-conv-0095",
+      "de": "Bin schon da.",
+      "de_alt": [
+        "Ich bin schon da."
+      ],
+      "en": [
+        "I'm already here",
+        "I'm here"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Bin schon da, stehe vor dem Eingang.",
+      "example_en": "I'm already here, standing by the entrance."
+    },
+    {
+      "id": "d-conv-0096",
+      "de": "Hattest du ein schönes Wochenende?",
+      "de_alt": [
+        "Hattest du ein gutes Wochenende?"
+      ],
+      "en": [
+        "did you have a nice weekend",
+        "did you have a good weekend"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Morgen! Hattest du ein schönes Wochenende?",
+      "example_en": "Morning! Did you have a nice weekend?"
+    },
+    {
+      "id": "d-conv-0097",
+      "de": "In welche Klasse gehst du?",
+      "de_alt": [
+        "In welcher Klasse bist du?"
+      ],
+      "en": [
+        "what year are you in",
+        "what grade are you in"
+      ],
+      "pos": "phrase",
+      "topic": "school",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "In welche Klasse gehst du? Ich bin in der Zehnten.",
+      "example_en": "What year are you in? I'm in tenth grade."
+    },
+    {
+      "id": "d-conv-0098",
+      "de": "Was machst du in deiner Freizeit?",
+      "de_alt": [],
+      "en": [
+        "what do you do in your free time",
+        "what do you do in your spare time"
+      ],
+      "pos": "phrase",
+      "topic": "free-time",
+      "level": "A1",
+      "rank": 1600,
+      "example_de": "Was machst du in deiner Freizeit am liebsten?",
+      "example_en": "What do you like doing most in your free time?"
+    },
+    {
+      "id": "d-conv-0099",
+      "de": "Was ist dein Lieblingsfach?",
+      "de_alt": [],
+      "en": [
+        "what's your favourite subject",
+        "what's your favorite subject"
+      ],
+      "pos": "phrase",
+      "topic": "school",
+      "level": "A1",
+      "rank": 1600,
+      "example_de": "Was ist dein Lieblingsfach? Meins ist Sport.",
+      "example_en": "What's your favourite subject? Mine is PE."
+    },
+    {
+      "id": "d-conv-0100",
+      "de": "Mir geht's nicht so gut.",
+      "de_alt": [
+        "Mir geht es nicht so gut."
+      ],
+      "en": [
+        "I'm not feeling so good",
+        "I'm not doing so well"
+      ],
+      "pos": "phrase",
+      "topic": "health",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Ich bleibe heute zu Hause, mir geht's nicht so gut.",
+      "example_en": "I'm staying home today, I'm not feeling so good."
+    },
+    {
+      "id": "d-conv-0101",
+      "de": "Ich bin total kaputt.",
+      "de_alt": [
+        "Ich bin fix und fertig."
+      ],
+      "en": [
+        "I'm exhausted",
+        "I'm totally worn out",
+        "I'm knackered"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 1600,
+      "note": "colloquial",
+      "example_de": "Nach dem Training bin ich total kaputt.",
+      "example_en": "After training I'm totally exhausted."
+    },
+    {
+      "id": "d-conv-0102",
+      "de": "Getrennt, bitte.",
+      "de_alt": [],
+      "en": [
+        "separately please",
+        "separate bills please"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Wir zahlen getrennt, bitte.",
+      "example_en": "We're paying separately, please."
+    },
+    {
+      "id": "d-conv-0103",
+      "de": "Wir möchten bestellen.",
+      "de_alt": [
+        "Wir würden gern bestellen.",
+        "Können wir bestellen?"
+      ],
+      "en": [
+        "we'd like to order",
+        "can we order"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Hallo, wir möchten bestellen, bitte.",
+      "example_en": "Hello, we'd like to order, please."
+    },
+    {
+      "id": "d-conv-0104",
+      "de": "Kann ich Ihnen helfen?",
+      "de_alt": [
+        "Kann ich dir helfen?"
+      ],
+      "en": [
+        "can I help you"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Hallo! Kann ich Ihnen helfen?",
+      "example_en": "Hello! Can I help you?"
+    },
+    {
+      "id": "d-conv-0105",
+      "de": "Wo finde ich …?",
+      "de_alt": [],
+      "en": [
+        "where can I find",
+        "where do I find"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Entschuldigung, wo finde ich die Batterien?",
+      "example_en": "Excuse me, where can I find the batteries?"
+    },
+    {
+      "id": "d-conv-0106",
+      "de": "Ich hole dich ab.",
+      "de_alt": [
+        "Ich hol dich ab."
+      ],
+      "en": [
+        "I'll pick you up",
+        "I'll come and get you"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1600,
+      "note": "abholen: separable",
+      "example_de": "Ich hole dich um sieben ab, okay?",
+      "example_en": "I'll pick you up at seven, okay?"
+    },
+    {
+      "id": "d-conv-0107",
+      "de": "Kannst du mich abholen?",
+      "de_alt": [],
+      "en": [
+        "can you pick me up",
+        "could you pick me up"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1600,
+      "note": "abholen: separable",
+      "example_de": "Papa, kannst du mich nach dem Training abholen?",
+      "example_en": "Dad, can you pick me up after training?"
+    },
+    {
+      "id": "d-conv-0108",
+      "de": "Wahnsinn!",
+      "de_alt": [
+        "Irre!",
+        "Der Wahnsinn!"
+      ],
+      "en": [
+        "amazing",
+        "incredible",
+        "crazy"
+      ],
+      "pos": "phrase",
+      "topic": "slang",
+      "level": "B1",
+      "rank": 1600,
+      "note": "colloquial",
+      "example_de": "Wahnsinn, das Konzert war so gut!",
+      "example_en": "Amazing, the concert was so good!"
+    },
+    {
+      "id": "d-conv-0109",
+      "de": "Weißt du was?",
+      "de_alt": [
+        "Weißt du, was?"
+      ],
+      "en": [
+        "you know what",
+        "guess what"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Weißt du was? Ich habe die Rolle bekommen!",
+      "example_en": "Guess what? I got the part!"
+    },
+    {
+      "id": "d-conv-0110",
+      "de": "Na endlich!",
+      "de_alt": [],
+      "en": [
+        "finally",
+        "at last"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Na endlich! Wir warten seit zwanzig Minuten.",
+      "example_en": "Finally! We've been waiting for twenty minutes."
+    },
+    {
+      "id": "d-conv-0111",
+      "de": "Bin gleich wieder da.",
+      "de_alt": [
+        "Ich bin gleich wieder da.",
+        "Bin gleich zurück."
+      ],
+      "en": [
+        "be right back",
+        "brb",
+        "I'll be right back"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Bin gleich wieder da, muss kurz essen.",
+      "example_en": "Be right back, just need to eat."
+    },
+    {
+      "id": "d-conv-0112",
+      "de": "Ich habe mich verlaufen.",
+      "de_alt": [
+        "Ich hab mich verlaufen."
+      ],
+      "en": [
+        "I'm lost",
+        "I got lost"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "B1",
+      "rank": 1600,
+      "note": "on foot; in a car: sich verfahren",
+      "example_de": "Mama, ich habe mich verlaufen. Kannst du mich holen?",
+      "example_en": "Mum, I'm lost. Can you come and get me?"
+    },
+    {
+      "id": "d-conv-0113",
+      "de": "Gehen Sie geradeaus.",
+      "de_alt": [
+        "Immer geradeaus."
+      ],
+      "en": [
+        "go straight on",
+        "go straight ahead"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Gehen Sie geradeaus bis zur Kirche.",
+      "example_en": "Go straight on as far as the church."
+    },
+    {
+      "id": "d-conv-0114",
+      "de": "Auf welche Schule gehst du?",
+      "de_alt": [],
+      "en": [
+        "which school do you go to",
+        "what school do you go to"
+      ],
+      "pos": "phrase",
+      "topic": "school",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Auf welche Schule gehst du denn?",
+      "example_en": "Which school do you go to?"
+    },
+    {
+      "id": "d-conv-0115",
+      "de": "Wie war die Party?",
+      "de_alt": [],
+      "en": [
+        "how was the party"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1700,
+      "example_de": "Ich war krank. Wie war die Party?",
+      "example_en": "I was ill. How was the party?"
+    },
+    {
+      "id": "d-conv-0116",
+      "de": "Hast du die Hausaufgaben schon gemacht?",
+      "de_alt": [],
+      "en": [
+        "have you done the homework yet",
+        "have you already done the homework"
+      ],
+      "pos": "phrase",
+      "topic": "school",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Hast du die Hausaufgaben schon gemacht? Ich check Aufgabe 3 nicht.",
+      "example_en": "Have you done the homework yet? I don't get task 3."
+    },
+    {
+      "id": "d-conv-0117",
+      "de": "Was machst du denn hier?",
+      "de_alt": [],
+      "en": [
+        "what are you doing here"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1700,
+      "note": "surprised",
+      "example_de": "Hey, was machst du denn hier?",
+      "example_en": "Hey, what are you doing here?"
+    },
+    {
+      "id": "d-conv-0118",
+      "de": "Was darf's sein?",
+      "de_alt": [
+        "Was darf es sein?",
+        "Was möchten Sie?"
+      ],
+      "en": [
+        "what can I get you",
+        "what would you like"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1700,
+      "note": "said by staff",
+      "example_de": "Hallo! Was darf's sein?",
+      "example_en": "Hello! What can I get you?"
+    },
+    {
+      "id": "d-conv-0119",
+      "de": "Zum Hieressen oder zum Mitnehmen?",
+      "de_alt": [
+        "Hier essen oder mitnehmen?",
+        "Für hier oder zum Mitnehmen?"
+      ],
+      "en": [
+        "eat in or take away",
+        "for here or to go"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1700,
+      "note": "said by staff",
+      "example_de": "Zum Hieressen oder zum Mitnehmen? – Zum Mitnehmen.",
+      "example_en": "Eat in or take away? – Take away."
+    },
+    {
+      "id": "d-conv-0120",
+      "de": "Ich lade dich ein.",
+      "de_alt": [],
+      "en": [
+        "it's on me",
+        "my treat",
+        "I'm paying"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1700,
+      "note": "einladen here = to pay for someone",
+      "example_de": "Lass stecken, ich lade dich ein.",
+      "example_en": "Put your money away, it's on me."
+    },
+    {
+      "id": "d-conv-0121",
+      "de": "Kann ich das anprobieren?",
+      "de_alt": [],
+      "en": [
+        "can I try this on",
+        "can I try it on"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 1700,
+      "note": "anprobieren: separable",
+      "example_de": "Die Jacke gefällt mir. Kann ich die anprobieren?",
+      "example_en": "I like the jacket. Can I try it on?"
+    },
+    {
+      "id": "d-conv-0122",
+      "de": "Ich nehme es.",
+      "de_alt": [
+        "Ich nehme das.",
+        "Ich nehm's."
+      ],
+      "en": [
+        "I'll take it"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Okay, das Handy ist gut. Ich nehme es.",
+      "example_en": "Okay, the phone is good. I'll take it."
+    },
+    {
+      "id": "d-conv-0123",
+      "de": "Das passt mir gut.",
+      "de_alt": [
+        "Das passt.",
+        "Passt!"
+      ],
+      "en": [
+        "that works for me",
+        "that suits me",
+        "that's fine"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Samstag um vier? Das passt mir gut.",
+      "example_en": "Saturday at four? That works for me."
+    },
+    {
+      "id": "d-conv-0124",
+      "de": "Vielleicht ein andermal.",
+      "de_alt": [
+        "Ein andermal vielleicht.",
+        "Vielleicht nächstes Mal."
+      ],
+      "en": [
+        "maybe another time",
+        "some other time",
+        "maybe next time"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Heute kann ich nicht. Vielleicht ein andermal?",
+      "example_en": "I can't today. Maybe another time?"
+    },
+    {
+      "id": "d-conv-0125",
+      "de": "Ich darf nicht.",
+      "de_alt": [
+        "Ich darf das nicht."
+      ],
+      "en": [
+        "I'm not allowed",
+        "I'm not allowed to"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Ich darf nicht so lange bleiben.",
+      "example_en": "I'm not allowed to stay that long."
+    },
+    {
+      "id": "d-conv-0126",
+      "de": "Von mir aus.",
+      "de_alt": [
+        "Meinetwegen."
+      ],
+      "en": [
+        "fine by me",
+        "I don't mind",
+        "if you like"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "B1",
+      "rank": 1700,
+      "example_de": "Wollen wir Pizza bestellen? – Von mir aus.",
+      "example_en": "Shall we order pizza? – Fine by me."
+    },
+    {
+      "id": "d-conv-0127",
+      "de": "Wie peinlich!",
+      "de_alt": [
+        "Das ist so peinlich!"
+      ],
+      "en": [
+        "how embarrassing",
+        "that's so embarrassing"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Ich bin vor allen hingefallen. Wie peinlich!",
+      "example_en": "I fell over in front of everyone. How embarrassing!"
+    },
+    {
+      "id": "d-conv-0128",
+      "de": "Gute Frage!",
+      "de_alt": [
+        "Gute Frage."
+      ],
+      "en": [
+        "good question"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Wo ist eigentlich mein Schlüssel? – Gute Frage!",
+      "example_en": "Where is my key anyway? – Good question!"
+    },
+    {
+      "id": "d-conv-0129",
+      "de": "Kann gerade nicht.",
+      "de_alt": [
+        "Ich kann gerade nicht.",
+        "Kann grad nicht."
+      ],
+      "en": [
+        "can't right now",
+        "I can't talk right now"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Kann gerade nicht, bin beim Training.",
+      "example_en": "Can't right now, I'm at training."
+    },
+    {
+      "id": "d-conv-0130",
+      "de": "Kannst du mir das schicken?",
+      "de_alt": [
+        "Schick mir das mal."
+      ],
+      "en": [
+        "can you send me that",
+        "can you send it to me"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Coole Fotos! Kannst du mir die schicken?",
+      "example_en": "Cool photos! Can you send them to me?"
+    },
+    {
+      "id": "d-conv-0131",
+      "de": "Ist das weit von hier?",
+      "de_alt": [
+        "Ist es weit?",
+        "Ist das weit?"
+      ],
+      "en": [
+        "is it far from here",
+        "is it far"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Das Stadion? Ist das weit von hier?",
+      "example_en": "The stadium? Is it far from here?"
+    },
+    {
+      "id": "d-conv-0132",
+      "de": "Ich habe den Bus verpasst.",
+      "de_alt": [
+        "Ich hab den Bus verpasst."
+      ],
+      "en": [
+        "I missed the bus"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Ich habe den Bus verpasst, ich komme zu spät.",
+      "example_en": "I missed the bus, I'll be late."
+    },
+    {
+      "id": "d-conv-0133",
+      "de": "Lange nicht gesehen!",
+      "de_alt": [],
+      "en": [
+        "long time no see"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Hey Jonas, lange nicht gesehen!",
+      "example_en": "Hey Jonas, long time no see!"
+    },
+    {
+      "id": "d-conv-0134",
+      "de": "Wie ist er so?",
+      "de_alt": [
+        "Wie ist sie so?"
+      ],
+      "en": [
+        "what's he like",
+        "what is he like"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Du kennst doch Max. Wie ist er so?",
+      "example_en": "You know Max. What's he like?"
+    },
+    {
+      "id": "d-conv-0135",
+      "de": "Schönen Abend noch!",
+      "de_alt": [
+        "Schönen Abend!"
+      ],
+      "en": [
+        "have a nice evening",
+        "enjoy your evening"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Danke für alles, schönen Abend noch!",
+      "example_en": "Thanks for everything, have a nice evening!"
+    },
+    {
+      "id": "d-conv-0136",
+      "de": "Zusammen, bitte.",
+      "de_alt": [],
+      "en": [
+        "together please",
+        "one bill please"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Zusammen, bitte. Ich lade sie ein.",
+      "example_en": "Together, please. I'm treating her."
+    },
+    {
+      "id": "d-conv-0137",
+      "de": "Möchtest du noch etwas?",
+      "de_alt": [
+        "Willst du noch was?"
+      ],
+      "en": [
+        "would you like anything else",
+        "do you want anything else"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Ich hole mir noch ein Eis. Möchtest du noch etwas?",
+      "example_en": "I'm getting another ice cream. Do you want anything else?"
+    },
+    {
+      "id": "d-conv-0138",
+      "de": "Ich kann mich nicht entscheiden.",
+      "de_alt": [],
+      "en": [
+        "I can't decide",
+        "I can't make up my mind"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Alles sieht so lecker aus, ich kann mich nicht entscheiden!",
+      "example_en": "Everything looks so tasty, I can't decide!"
+    },
+    {
+      "id": "d-conv-0139",
+      "de": "Das passt nicht.",
+      "de_alt": [
+        "Das passt mir nicht."
+      ],
+      "en": [
+        "it doesn't fit",
+        "that doesn't fit"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 1800,
+      "note": "about size",
+      "example_de": "Die Hose ist zu eng, das passt nicht.",
+      "example_en": "The trousers are too tight, they don't fit."
+    },
+    {
+      "id": "d-conv-0140",
+      "de": "Ich schaue nur.",
+      "de_alt": [
+        "Ich schau nur.",
+        "Ich gucke nur.",
+        "Ich schaue mich nur um."
+      ],
+      "en": [
+        "I'm just looking"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Kann ich Ihnen helfen? – Danke, ich schaue nur.",
+      "example_en": "Can I help you? – Thanks, I'm just looking."
+    },
+    {
+      "id": "d-conv-0141",
+      "de": "Wir könnten …",
+      "de_alt": [],
+      "en": [
+        "we could"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Wir könnten schwimmen gehen oder Pizza essen.",
+      "example_en": "We could go swimming or have pizza."
+    },
+    {
+      "id": "d-conv-0142",
+      "de": "Ich muss erst meine Eltern fragen.",
+      "de_alt": [],
+      "en": [
+        "I have to ask my parents first",
+        "I need to ask my parents first"
+      ],
+      "pos": "phrase",
+      "topic": "family",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Klingt cool, aber ich muss erst meine Eltern fragen.",
+      "example_en": "Sounds cool, but I have to ask my parents first."
+    },
+    {
+      "id": "d-conv-0143",
+      "de": "Wer kommt noch mit?",
+      "de_alt": [
+        "Wer kommt alles mit?"
+      ],
+      "en": [
+        "who else is coming",
+        "who's coming"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Wir gehen an den See. Wer kommt noch mit?",
+      "example_en": "We're going to the lake. Who else is coming?"
+    },
+    {
+      "id": "d-conv-0144",
+      "de": "Kommst du zu meiner Party?",
+      "de_alt": [
+        "Kommst du zu meiner Geburtstagsparty?"
+      ],
+      "en": [
+        "are you coming to my party",
+        "will you come to my party"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A1",
+      "rank": 1800,
+      "example_de": "Kommst du am Samstag zu meiner Party?",
+      "example_en": "Are you coming to my party on Saturday?"
+    },
+    {
+      "id": "d-conv-0145",
+      "de": "Bis Samstag!",
+      "de_alt": [],
+      "en": [
+        "see you on Saturday",
+        "see you Saturday"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A1",
+      "rank": 1800,
+      "example_de": "Okay, dann bis Samstag!",
+      "example_en": "Okay, see you on Saturday then!"
+    },
+    {
+      "id": "d-conv-0146",
+      "de": "Kein Wunder.",
+      "de_alt": [
+        "Kein Wunder!"
+      ],
+      "en": [
+        "no wonder"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "B1",
+      "rank": 1800,
+      "example_de": "Du hast nicht geschlafen? Kein Wunder, dass du müde bist.",
+      "example_en": "You didn't sleep? No wonder you're tired."
+    },
+    {
+      "id": "d-conv-0147",
+      "de": "Mega!",
+      "de_alt": [
+        "Mega gut!"
+      ],
+      "en": [
+        "awesome",
+        "amazing"
+      ],
+      "pos": "phrase",
+      "topic": "slang",
+      "level": "A2",
+      "rank": 1800,
+      "note": "slang",
+      "example_de": "Wie war der Freizeitpark? – Mega!",
+      "example_en": "How was the theme park? – Awesome!"
+    },
+    {
+      "id": "d-conv-0148",
+      "de": "Chill mal!",
+      "de_alt": [
+        "Chill mal."
+      ],
+      "en": [
+        "chill out",
+        "calm down",
+        "relax"
+      ],
+      "pos": "phrase",
+      "topic": "slang",
+      "level": "B1",
+      "rank": 1800,
+      "note": "slang",
+      "example_de": "Chill mal, es ist doch nur ein Spiel!",
+      "example_en": "Chill out, it's only a game!"
+    },
+    {
+      "id": "d-conv-0149",
+      "de": "Keine Ursache.",
+      "de_alt": [
+        "Nichts zu danken.",
+        "Gerne."
+      ],
+      "en": [
+        "you're welcome",
+        "don't mention it",
+        "no problem"
+      ],
+      "pos": "phrase",
+      "topic": "politeness",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Danke für den Stift! – Keine Ursache.",
+      "example_en": "Thanks for the pen! – You're welcome."
+    },
+    {
+      "id": "d-conv-0150",
+      "de": "Wie gesagt …",
+      "de_alt": [
+        "Wie gesagt"
+      ],
+      "en": [
+        "as I said",
+        "like I said"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "B1",
+      "rank": 1800,
+      "example_de": "Wie gesagt, ich kann heute nicht.",
+      "example_en": "Like I said, I can't today."
+    },
+    {
+      "id": "d-conv-0151",
+      "de": "z.B.",
+      "de_alt": [
+        "zum Beispiel",
+        "zB"
+      ],
+      "en": [
+        "for example",
+        "eg"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 1800,
+      "note": "zum Beispiel",
+      "example_de": "Wir könnten z.B. schwimmen gehen.",
+      "example_en": "We could go swimming, for example."
+    },
+    {
+      "id": "d-conv-0152",
+      "de": "Ich ruf dich zurück.",
+      "de_alt": [
+        "Ich rufe dich zurück."
+      ],
+      "en": [
+        "I'll call you back"
+      ],
+      "pos": "phrase",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 1800,
+      "note": "zurückrufen: separable",
+      "example_de": "Bin im Bus, ich ruf dich zurück.",
+      "example_en": "I'm on the bus, I'll call you back."
+    },
+    {
+      "id": "d-conv-0153",
+      "de": "Kann ich dich später anrufen?",
+      "de_alt": [],
+      "en": [
+        "can I call you later"
+      ],
+      "pos": "phrase",
+      "topic": "communication",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Ich esse gerade. Kann ich dich später anrufen?",
+      "example_en": "I'm eating right now. Can I call you later?"
+    },
+    {
+      "id": "d-conv-0154",
+      "de": "Schreib mir, wenn du angekommen bist.",
+      "de_alt": [
+        "Schreib mir, wenn du da bist."
+      ],
+      "en": [
+        "text me when you get there",
+        "message me when you've arrived"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Gute Fahrt! Schreib mir, wenn du angekommen bist.",
+      "example_en": "Have a good trip! Text me when you get there."
+    },
+    {
+      "id": "d-conv-0155",
+      "de": "Das ist gleich um die Ecke.",
+      "de_alt": [
+        "Gleich um die Ecke."
+      ],
+      "en": [
+        "it's just around the corner",
+        "right around the corner"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Der Supermarkt ist gleich um die Ecke.",
+      "example_en": "The supermarket is just around the corner."
+    },
+    {
+      "id": "d-conv-0156",
+      "de": "Biegen Sie links ab.",
+      "de_alt": [
+        "Links abbiegen."
+      ],
+      "en": [
+        "turn left"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 1800,
+      "note": "abbiegen: separable",
+      "example_de": "Biegen Sie an der Kreuzung links ab.",
+      "example_en": "Turn left at the crossroads."
+    },
+    {
+      "id": "d-conv-0157",
+      "de": "Biegen Sie rechts ab.",
+      "de_alt": [
+        "Rechts abbiegen."
+      ],
+      "en": [
+        "turn right"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 1800,
+      "note": "abbiegen: separable",
+      "example_de": "Biegen Sie nach der Brücke rechts ab.",
+      "example_en": "Turn right after the bridge."
+    },
+    {
+      "id": "d-conv-0158",
+      "de": "Welche Musik hörst du gern?",
+      "de_alt": [
+        "Was für Musik hörst du?"
+      ],
+      "en": [
+        "what music do you like",
+        "what kind of music do you listen to"
+      ],
+      "pos": "phrase",
+      "topic": "music",
+      "level": "A1",
+      "rank": 1900,
+      "example_de": "Welche Musik hörst du gern? Rap oder Pop?",
+      "example_en": "What music do you like? Rap or pop?"
+    },
+    {
+      "id": "d-conv-0159",
+      "de": "Hat's geschmeckt?",
+      "de_alt": [
+        "Hat es geschmeckt?",
+        "Hat es Ihnen geschmeckt?"
+      ],
+      "en": [
+        "did you enjoy it",
+        "did you like the food",
+        "was everything okay"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Hat's geschmeckt? – Ja, sehr lecker, danke!",
+      "example_en": "Did you enjoy it? – Yes, very tasty, thanks!"
+    },
+    {
+      "id": "d-conv-0160",
+      "de": "Wann musst du zu Hause sein?",
+      "de_alt": [],
+      "en": [
+        "when do you have to be home",
+        "what time do you have to be home"
+      ],
+      "pos": "phrase",
+      "topic": "family",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Wann musst du heute zu Hause sein?",
+      "example_en": "What time do you have to be home today?"
+    },
+    {
+      "id": "d-conv-0161",
+      "de": "Reg dich ab!",
+      "de_alt": [
+        "Beruhig dich!",
+        "Reg dich nicht auf!"
+      ],
+      "en": [
+        "calm down",
+        "chill out"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "B1",
+      "rank": 1900,
+      "note": "sich aufregen = to get worked up",
+      "example_de": "Reg dich ab, ich hab's nicht so gemeint.",
+      "example_en": "Calm down, I didn't mean it like that."
+    },
+    {
+      "id": "d-conv-0162",
+      "de": "Wie du willst.",
+      "de_alt": [
+        "Wie du meinst."
+      ],
+      "en": [
+        "as you like",
+        "whatever you want",
+        "suit yourself"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Dann bleib halt zu Hause, wie du willst.",
+      "example_en": "Then stay at home, suit yourself."
+    },
+    {
+      "id": "d-conv-0163",
+      "de": "Igitt!",
+      "de_alt": [
+        "Iih!",
+        "Bäh!"
+      ],
+      "en": [
+        "yuck",
+        "gross",
+        "eww"
+      ],
+      "pos": "other",
+      "topic": "social",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Igitt, da ist ein Haar in meiner Suppe!",
+      "example_en": "Yuck, there's a hair in my soup!"
+    },
+    {
+      "id": "d-conv-0164",
+      "de": "Hast du meine Nachricht gelesen?",
+      "de_alt": [
+        "Hast du meine Nachricht bekommen?"
+      ],
+      "en": [
+        "did you read my message",
+        "did you get my message"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Hast du meine Nachricht gelesen? Du antwortest nicht.",
+      "example_en": "Did you read my message? You're not answering."
+    },
+    {
+      "id": "d-conv-0165",
+      "de": "Wie ist das WLAN-Passwort?",
+      "de_alt": [
+        "Was ist das WLAN-Passwort?"
+      ],
+      "en": [
+        "what's the wifi password"
+      ],
+      "pos": "phrase",
+      "topic": "technology",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Wie ist euer WLAN-Passwort?",
+      "example_en": "What's your wifi password?"
+    },
+    {
+      "id": "d-conv-0166",
+      "de": "Wo ist die nächste Haltestelle?",
+      "de_alt": [
+        "Wo ist die nächste Bushaltestelle?"
+      ],
+      "en": [
+        "where is the nearest stop",
+        "where's the nearest bus stop"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Entschuldigung, wo ist die nächste Haltestelle?",
+      "example_en": "Excuse me, where's the nearest stop?"
+    },
+    {
+      "id": "d-conv-0167",
+      "de": "Wann fährt der nächste Zug?",
+      "de_alt": [
+        "Wann kommt der nächste Zug?"
+      ],
+      "en": [
+        "when is the next train",
+        "when does the next train leave"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Wann fährt der nächste Zug nach Frankfurt?",
+      "example_en": "When is the next train to Frankfurt?"
+    },
+    {
+      "id": "d-conv-0168",
+      "de": "Was machst du in den Ferien?",
+      "de_alt": [
+        "Was hast du in den Ferien vor?"
+      ],
+      "en": [
+        "what are you doing in the holidays",
+        "what are your plans for the holidays"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Was machst du in den Ferien? Fährst du weg?",
+      "example_en": "What are you doing in the holidays? Are you going away?"
+    },
+    {
+      "id": "d-conv-0169",
+      "de": "Haben Sie schon gewählt?",
+      "de_alt": [],
+      "en": [
+        "are you ready to order",
+        "have you decided"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2000,
+      "note": "said by staff",
+      "example_de": "Haben Sie schon gewählt? – Noch nicht, einen Moment.",
+      "example_en": "Are you ready to order? – Not yet, one moment."
+    },
+    {
+      "id": "d-conv-0170",
+      "de": "Einen Tisch für zwei, bitte.",
+      "de_alt": [
+        "Einen Tisch für zwei Personen, bitte."
+      ],
+      "en": [
+        "a table for two please"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Guten Abend, einen Tisch für zwei, bitte.",
+      "example_en": "Good evening, a table for two, please."
+    },
+    {
+      "id": "d-conv-0171",
+      "de": "Kann ich die Karte haben?",
+      "de_alt": [
+        "Die Speisekarte, bitte.",
+        "Können wir die Karte haben?"
+      ],
+      "en": [
+        "can I have the menu",
+        "could I see the menu"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2000,
+      "note": "die Karte here = menu",
+      "example_de": "Entschuldigung, kann ich die Karte haben?",
+      "example_en": "Excuse me, can I have the menu?"
+    },
+    {
+      "id": "d-conv-0172",
+      "de": "Einmal Pommes, bitte.",
+      "de_alt": [],
+      "en": [
+        "one fries please",
+        "one portion of chips please",
+        "fries please"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2000,
+      "note": "einmal = one portion of",
+      "example_de": "Einmal Pommes mit Ketchup, bitte.",
+      "example_en": "One fries with ketchup, please."
+    },
+    {
+      "id": "d-conv-0173",
+      "de": "Es hat sehr gut geschmeckt.",
+      "de_alt": [
+        "Es war sehr lecker."
+      ],
+      "en": [
+        "it was delicious",
+        "it tasted very good"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Danke, es hat sehr gut geschmeckt.",
+      "example_en": "Thanks, it was delicious."
+    },
+    {
+      "id": "d-conv-0174",
+      "de": "Stimmt so.",
+      "de_alt": [],
+      "en": [
+        "keep the change"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2000,
+      "note": "said when paying to leave the rest as a tip",
+      "example_de": "Das macht 8,50. – Hier sind zehn, stimmt so.",
+      "example_en": "That's 8.50. – Here's ten, keep the change."
+    },
+    {
+      "id": "d-conv-0175",
+      "de": "Haben Sie das in M?",
+      "de_alt": [
+        "Haben Sie das auch in M?",
+        "Gibt es das in M?"
+      ],
+      "en": [
+        "do you have this in medium",
+        "do you have this in M",
+        "have you got this in M"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Das Shirt ist schön. Haben Sie das in M?",
+      "example_en": "The shirt is nice. Do you have it in medium?"
+    },
+    {
+      "id": "d-conv-0176",
+      "de": "Brauchen Sie eine Tüte?",
+      "de_alt": [
+        "Brauchst du eine Tüte?",
+        "Möchten Sie eine Tüte?"
+      ],
+      "en": [
+        "do you need a bag",
+        "would you like a bag"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Brauchen Sie eine Tüte? – Nein, danke, ich habe einen Rucksack.",
+      "example_en": "Do you need a bag? – No thanks, I've got a backpack."
+    },
+    {
+      "id": "d-conv-0177",
+      "de": "Wollen wir was unternehmen?",
+      "de_alt": [
+        "Wollen wir etwas unternehmen?",
+        "Sollen wir was machen?"
+      ],
+      "en": [
+        "shall we do something",
+        "do you want to do something"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 2000,
+      "note": "unternehmen = to do something fun",
+      "example_de": "Das Wetter ist super. Wollen wir was unternehmen?",
+      "example_en": "The weather's great. Shall we do something?"
+    },
+    {
+      "id": "d-conv-0178",
+      "de": "Passt dir drei Uhr?",
+      "de_alt": [
+        "Passt dir 15 Uhr?",
+        "Geht drei Uhr?"
+      ],
+      "en": [
+        "does three o'clock work for you",
+        "is three okay for you"
+      ],
+      "pos": "phrase",
+      "topic": "time",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Passt dir drei Uhr am Bahnhof?",
+      "example_en": "Does three o'clock at the station work for you?"
+    },
+    {
+      "id": "d-conv-0179",
+      "de": "Das passt mir nicht.",
+      "de_alt": [
+        "Das passt mir leider nicht."
+      ],
+      "en": [
+        "that doesn't work for me",
+        "that's not good for me"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Montag passt mir nicht, da habe ich Training.",
+      "example_en": "Monday doesn't work for me, I've got training."
+    },
+    {
+      "id": "d-conv-0180",
+      "de": "Ohne Witz!",
+      "de_alt": [
+        "Kein Witz!"
+      ],
+      "en": [
+        "no joke",
+        "seriously",
+        "I'm not kidding"
+      ],
+      "pos": "phrase",
+      "topic": "slang",
+      "level": "B1",
+      "rank": 2000,
+      "note": "colloquial",
+      "example_de": "Ohne Witz, der Test war richtig leicht.",
+      "example_en": "No joke, the test was really easy."
+    },
+    {
+      "id": "d-conv-0181",
+      "de": "Kein Plan.",
+      "de_alt": [
+        "Keinen Plan."
+      ],
+      "en": [
+        "no idea",
+        "no clue"
+      ],
+      "pos": "phrase",
+      "topic": "slang",
+      "level": "B1",
+      "rank": 2000,
+      "note": "slang for Keine Ahnung",
+      "example_de": "Wann ist die Party? – Kein Plan.",
+      "example_en": "When's the party? – No clue."
+    },
+    {
+      "id": "d-conv-0182",
+      "de": "Stell dir vor!",
+      "de_alt": [
+        "Stell dir mal vor!",
+        "Stell dir das mal vor!"
+      ],
+      "en": [
+        "guess what",
+        "imagine",
+        "can you believe it"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "B1",
+      "rank": 2000,
+      "example_de": "Stell dir vor, Lara hat einen Freund!",
+      "example_en": "Guess what, Lara has a boyfriend!"
+    },
+    {
+      "id": "d-conv-0183",
+      "de": "Das war knapp!",
+      "de_alt": [],
+      "en": [
+        "that was close",
+        "that was a close one"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "B1",
+      "rank": 2000,
+      "example_de": "Wir haben den Zug gerade noch erwischt. Das war knapp!",
+      "example_en": "We just caught the train. That was close!"
+    },
+    {
+      "id": "d-conv-0184",
+      "de": "Hoppla!",
+      "de_alt": [
+        "Ups!",
+        "Huch!"
+      ],
+      "en": [
+        "oops",
+        "whoops"
+      ],
+      "pos": "other",
+      "topic": "social",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Hoppla, fast wäre der Teller runtergefallen.",
+      "example_en": "Whoops, the plate nearly fell."
+    },
+    {
+      "id": "d-conv-0185",
+      "de": "vllt",
+      "de_alt": [
+        "vlt"
+      ],
+      "en": [
+        "maybe",
+        "perhaps"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 2000,
+      "note": "vielleicht",
+      "example_de": "Ich komme vllt später.",
+      "example_en": "I might come later."
+    },
+    {
+      "id": "d-conv-0186",
+      "de": "Ich brauche noch zehn Minuten.",
+      "de_alt": [
+        "Ich brauch noch zehn Minuten."
+      ],
+      "en": [
+        "I need ten more minutes",
+        "I'll be another ten minutes"
+      ],
+      "pos": "phrase",
+      "topic": "time",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Sorry, ich brauche noch zehn Minuten!",
+      "example_en": "Sorry, I need ten more minutes!"
+    },
+    {
+      "id": "d-conv-0187",
+      "de": "Bist du wach?",
+      "de_alt": [
+        "Bist du noch wach?"
+      ],
+      "en": [
+        "are you awake",
+        "are you up",
+        "are you still up"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Bist du noch wach? Ich kann nicht schlafen.",
+      "example_en": "Are you still up? I can't sleep."
+    },
+    {
+      "id": "d-conv-0188",
+      "de": "Ich bin nicht von hier.",
+      "de_alt": [
+        "Ich bin auch nicht von hier."
+      ],
+      "en": [
+        "I'm not from around here",
+        "I'm not from here"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Tut mir leid, ich bin nicht von hier.",
+      "example_en": "Sorry, I'm not from around here."
+    },
+    {
+      "id": "d-conv-0189",
+      "de": "Welcher Bus fährt zum Bahnhof?",
+      "de_alt": [],
+      "en": [
+        "which bus goes to the station"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Entschuldigung, welcher Bus fährt zum Bahnhof?",
+      "example_en": "Excuse me, which bus goes to the station?"
+    },
+    {
+      "id": "d-conv-0190",
+      "de": "Der Zug hat Verspätung.",
+      "de_alt": [
+        "Der Zug ist verspätet."
+      ],
+      "en": [
+        "the train is late",
+        "the train is delayed"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Sorry, der Zug hat zwanzig Minuten Verspätung.",
+      "example_en": "Sorry, the train is twenty minutes late."
+    },
+    {
+      "id": "d-conv-0191",
+      "de": "Sprechen Sie Englisch?",
+      "de_alt": [
+        "Sprichst du Englisch?"
+      ],
+      "en": [
+        "do you speak English"
+      ],
+      "pos": "phrase",
+      "topic": "communication",
+      "level": "A1",
+      "rank": 2000,
+      "example_de": "Entschuldigung, sprechen Sie Englisch?",
+      "example_en": "Excuse me, do you speak English?"
+    },
+    {
+      "id": "d-conv-0192",
+      "de": "Ich habe mein Handy verloren.",
+      "de_alt": [
+        "Ich hab mein Handy verloren."
+      ],
+      "en": [
+        "I've lost my phone",
+        "I lost my phone"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Hilfe, ich habe mein Handy im Bus verloren!",
+      "example_en": "Help, I lost my phone on the bus!"
+    },
+    {
+      "id": "d-conv-0193",
+      "de": "Woher kennt ihr euch?",
+      "de_alt": [],
+      "en": [
+        "how do you know each other"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "B1",
+      "rank": 2200,
+      "example_de": "Ihr seid gute Freunde, oder? Woher kennt ihr euch?",
+      "example_en": "You're good friends, right? How do you know each other?"
+    },
+    {
+      "id": "d-conv-0194",
+      "de": "Bei mir ist gerade viel los.",
+      "de_alt": [],
+      "en": [
+        "I've got a lot going on right now",
+        "I'm really busy right now"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "B1",
+      "rank": 2200,
+      "example_de": "Sorry, bei mir ist gerade viel los mit der Schule.",
+      "example_en": "Sorry, I've got a lot going on with school right now."
+    },
+    {
+      "id": "d-conv-0195",
+      "de": "Was willst du später mal machen?",
+      "de_alt": [
+        "Was willst du später mal werden?"
+      ],
+      "en": [
+        "what do you want to do later",
+        "what do you want to do after school"
+      ],
+      "pos": "phrase",
+      "topic": "work",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Was willst du später mal machen? Studieren?",
+      "example_en": "What do you want to do later? Go to uni?"
+    },
+    {
+      "id": "d-conv-0196",
+      "de": "Hier ist besetzt.",
+      "de_alt": [
+        "Der Platz ist besetzt."
+      ],
+      "en": [
+        "this seat is taken",
+        "this seat's taken"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Sorry, hier ist besetzt. Meine Freundin kommt gleich.",
+      "example_en": "Sorry, this seat's taken. My friend is coming in a minute."
+    },
+    {
+      "id": "d-conv-0197",
+      "de": "Was können Sie empfehlen?",
+      "de_alt": [
+        "Was empfehlen Sie?"
+      ],
+      "en": [
+        "what do you recommend",
+        "what can you recommend"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Wir sind zum ersten Mal hier. Was können Sie empfehlen?",
+      "example_en": "It's our first time here. What do you recommend?"
+    },
+    {
+      "id": "d-conv-0198",
+      "de": "Ich bin Vegetarier.",
+      "de_alt": [
+        "Ich bin Vegetarierin.",
+        "Ich esse kein Fleisch."
+      ],
+      "en": [
+        "I'm vegetarian",
+        "I'm a vegetarian"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2200,
+      "note": "girls say: Ich bin Vegetarierin.",
+      "example_de": "Hat das Fleisch drin? Ich bin Vegetarier.",
+      "example_en": "Has this got meat in it? I'm vegetarian."
+    },
+    {
+      "id": "d-conv-0199",
+      "de": "Ich habe kein Kleingeld.",
+      "de_alt": [
+        "Ich hab kein Kleingeld."
+      ],
+      "en": [
+        "I don't have any change",
+        "I have no change"
+      ],
+      "pos": "phrase",
+      "topic": "money",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Ich habe kein Kleingeld für den Automaten.",
+      "example_en": "I don't have any change for the machine."
+    },
+    {
+      "id": "d-conv-0200",
+      "de": "Das ist im Angebot.",
+      "de_alt": [
+        "Das ist reduziert."
+      ],
+      "en": [
+        "it's on sale",
+        "that's on offer",
+        "it's on special offer"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 2200,
+      "example_de": "Die Chips sind heute im Angebot.",
+      "example_en": "The crisps are on offer today."
+    },
+    {
+      "id": "d-conv-0201",
+      "de": "Wer ist dran?",
+      "de_alt": [
+        "Wer ist der Nächste?"
+      ],
+      "en": [
+        "who's next",
+        "whose turn is it"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "So, wer ist dran?",
+      "example_en": "Right, who's next?"
+    },
+    {
+      "id": "d-conv-0202",
+      "de": "Ich muss um zehn zu Hause sein.",
+      "de_alt": [
+        "Ich muss um zehn daheim sein."
+      ],
+      "en": [
+        "I have to be home by ten",
+        "I have to be home at ten"
+      ],
+      "pos": "phrase",
+      "topic": "family",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Ich muss leider um zehn zu Hause sein.",
+      "example_en": "Unfortunately I have to be home by ten."
+    },
+    {
+      "id": "d-conv-0203",
+      "de": "Treffen wir uns am Bahnhof?",
+      "de_alt": [],
+      "en": [
+        "shall we meet at the station",
+        "are we meeting at the station"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Treffen wir uns am Bahnhof oder vor dem Kino?",
+      "example_en": "Shall we meet at the station or outside the cinema?"
+    },
+    {
+      "id": "d-conv-0204",
+      "de": "Ich schwöre!",
+      "de_alt": [
+        "Ich schwör!"
+      ],
+      "en": [
+        "I swear"
+      ],
+      "pos": "phrase",
+      "topic": "slang",
+      "level": "B1",
+      "rank": 2200,
+      "note": "colloquial",
+      "example_de": "Ich schwöre, ich habe das nicht gesagt!",
+      "example_en": "I swear, I didn't say that!"
+    },
+    {
+      "id": "d-conv-0205",
+      "de": "Ich bin stolz auf dich.",
+      "de_alt": [],
+      "en": [
+        "I'm proud of you"
+      ],
+      "pos": "phrase",
+      "topic": "feelings",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Du hast so viel gelernt. Ich bin stolz auf dich.",
+      "example_en": "You studied so much. I'm proud of you."
+    },
+    {
+      "id": "d-conv-0206",
+      "de": "kA",
+      "de_alt": [
+        "k.A."
+      ],
+      "en": [
+        "no idea",
+        "dunno"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 2200,
+      "note": "keine Ahnung",
+      "example_de": "Wann kommt der Bus? – kA",
+      "example_en": "When's the bus coming? – No idea"
+    },
+    {
+      "id": "d-conv-0207",
+      "de": "Warum antwortest du nicht?",
+      "de_alt": [],
+      "en": [
+        "why aren't you answering",
+        "why aren't you replying"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Hallo?? Warum antwortest du nicht?",
+      "example_en": "Hello?? Why aren't you replying?"
+    },
+    {
+      "id": "d-conv-0208",
+      "de": "Sorry, hab's gerade erst gesehen.",
+      "de_alt": [
+        "Hab's gerade erst gesehen."
+      ],
+      "en": [
+        "sorry I only just saw this",
+        "sorry, just saw it"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "B1",
+      "rank": 2200,
+      "example_de": "Sorry, hab's gerade erst gesehen! Klar komme ich.",
+      "example_en": "Sorry, only just saw this! Of course I'm coming."
+    },
+    {
+      "id": "d-conv-0209",
+      "de": "Ich hab kein Netz.",
+      "de_alt": [
+        "Ich habe kein Netz.",
+        "Ich habe keinen Empfang."
+      ],
+      "en": [
+        "I've got no signal",
+        "I have no reception"
+      ],
+      "pos": "phrase",
+      "topic": "technology",
+      "level": "B1",
+      "rank": 2200,
+      "example_de": "Sorry, im Zug hab ich kein Netz.",
+      "example_en": "Sorry, I've got no signal on the train."
+    },
+    {
+      "id": "d-conv-0210",
+      "de": "An der Ampel links.",
+      "de_alt": [
+        "An der Ampel links abbiegen."
+      ],
+      "en": [
+        "left at the lights",
+        "turn left at the traffic lights"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Dann an der Ampel links und du bist da.",
+      "example_en": "Then left at the lights and you're there."
+    },
+    {
+      "id": "d-conv-0211",
+      "de": "Nehmen Sie die zweite Straße rechts.",
+      "de_alt": [
+        "Die zweite Straße rechts."
+      ],
+      "en": [
+        "take the second road on the right",
+        "take the second right"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Nehmen Sie die zweite Straße rechts, dann sehen Sie es.",
+      "example_en": "Take the second right, then you'll see it."
+    },
+    {
+      "id": "d-conv-0212",
+      "de": "Gibt es hier in der Nähe einen Supermarkt?",
+      "de_alt": [
+        "Gibt es hier einen Supermarkt?"
+      ],
+      "en": [
+        "is there a supermarket near here",
+        "is there a supermarket nearby"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Gibt es hier in der Nähe einen Supermarkt? Wir brauchen Wasser.",
+      "example_en": "Is there a supermarket near here? We need water."
+    },
+    {
+      "id": "d-conv-0213",
+      "de": "Ist das der richtige Weg?",
+      "de_alt": [
+        "Bin ich hier richtig?",
+        "Sind wir hier richtig?"
+      ],
+      "en": [
+        "is this the right way"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Ist das der richtige Weg zum Schwimmbad?",
+      "example_en": "Is this the right way to the pool?"
+    },
+    {
+      "id": "d-conv-0214",
+      "de": "Fährt dieser Bus zum Bahnhof?",
+      "de_alt": [
+        "Fährt der Bus zum Bahnhof?"
+      ],
+      "en": [
+        "does this bus go to the station"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Fährt dieser Bus zum Bahnhof oder muss ich umsteigen?",
+      "example_en": "Does this bus go to the station or do I have to change?"
+    },
+    {
+      "id": "d-conv-0215",
+      "de": "Wo muss ich aussteigen?",
+      "de_alt": [],
+      "en": [
+        "where do I get off",
+        "where do I have to get off"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 2200,
+      "note": "aussteigen: separable",
+      "example_de": "Ich will zum Zoo. Wo muss ich aussteigen?",
+      "example_en": "I want to go to the zoo. Where do I get off?"
+    },
+    {
+      "id": "d-conv-0216",
+      "de": "Wo sind die Umkleiden?",
+      "de_alt": [
+        "Wo ist die Umkleidekabine?",
+        "Wo sind die Umkleidekabinen?"
+      ],
+      "en": [
+        "where are the changing rooms",
+        "where is the fitting room"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 2300,
+      "example_de": "Entschuldigung, wo sind die Umkleiden?",
+      "example_en": "Excuse me, where are the changing rooms?"
+    },
+    {
+      "id": "d-conv-0217",
+      "de": "Wie lange wohnst du schon hier?",
+      "de_alt": [],
+      "en": [
+        "how long have you lived here",
+        "how long have you been living here"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "A2",
+      "rank": 2400,
+      "note": "German uses present tense with schon",
+      "example_de": "Wie lange wohnst du schon hier in Köln?",
+      "example_en": "How long have you lived here in Cologne?"
+    },
+    {
+      "id": "d-conv-0218",
+      "de": "Grüß deine Eltern!",
+      "de_alt": [
+        "Grüß deine Eltern von mir!",
+        "Schöne Grüße an deine Eltern!"
+      ],
+      "en": [
+        "say hi to your parents",
+        "say hello to your parents"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Tschüss, und grüß deine Eltern!",
+      "example_en": "Bye, and say hi to your parents!"
+    },
+    {
+      "id": "d-conv-0219",
+      "de": "Lass es dir schmecken!",
+      "de_alt": [
+        "Lasst es euch schmecken!"
+      ],
+      "en": [
+        "enjoy your meal",
+        "enjoy"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Hier ist dein Teller. Lass es dir schmecken!",
+      "example_en": "Here's your plate. Enjoy your meal!"
+    },
+    {
+      "id": "d-conv-0220",
+      "de": "Haben Sie das eine Nummer größer?",
+      "de_alt": [
+        "Gibt es das eine Nummer größer?"
+      ],
+      "en": [
+        "do you have this a size bigger",
+        "do you have it in a bigger size"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 2400,
+      "note": "eine Nummer kleiner = a size smaller",
+      "example_de": "Die Schuhe drücken. Haben Sie die eine Nummer größer?",
+      "example_en": "The shoes pinch. Do you have them a size bigger?"
+    },
+    {
+      "id": "d-conv-0221",
+      "de": "Der Nächste, bitte!",
+      "de_alt": [],
+      "en": [
+        "next please"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Der Nächste, bitte! – Ich hätte gern zwei Brezeln.",
+      "example_en": "Next, please! – I'd like two pretzels."
+    },
+    {
+      "id": "d-conv-0222",
+      "de": "Können wir das verschieben?",
+      "de_alt": [],
+      "en": [
+        "can we postpone it",
+        "can we move it",
+        "can we reschedule"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "B1",
+      "rank": 2400,
+      "example_de": "Ich bin krank. Können wir das auf nächste Woche verschieben?",
+      "example_en": "I'm ill. Can we move it to next week?"
+    },
+    {
+      "id": "d-conv-0223",
+      "de": "Ich fass es nicht!",
+      "de_alt": [
+        "Ich fasse es nicht!"
+      ],
+      "en": [
+        "I can't believe it"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "B1",
+      "rank": 2400,
+      "note": "colloquial",
+      "example_de": "Ich fass es nicht, wir haben gewonnen!",
+      "example_en": "I can't believe it, we won!"
+    },
+    {
+      "id": "d-conv-0224",
+      "de": "Schick mir eine Sprachnachricht.",
+      "de_alt": [
+        "Schick mir 'ne Sprachnachricht."
+      ],
+      "en": [
+        "send me a voice message",
+        "send me a voice note"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "B1",
+      "rank": 2400,
+      "example_de": "Keine Lust zu tippen? Schick mir eine Sprachnachricht.",
+      "example_en": "Can't be bothered to type? Send me a voice message."
+    },
+    {
+      "id": "d-conv-0225",
+      "de": "Wie lange braucht man zu Fuß?",
+      "de_alt": [
+        "Wie lange dauert es zu Fuß?"
+      ],
+      "en": [
+        "how long does it take on foot",
+        "how long is it to walk"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Wie lange braucht man zu Fuß zur Schule?",
+      "example_en": "How long does it take to walk to school?"
+    },
+    {
+      "id": "d-conv-0226",
+      "de": "Wo muss ich umsteigen?",
+      "de_alt": [],
+      "en": [
+        "where do I have to change",
+        "where do I change"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 2400,
+      "note": "umsteigen: separable",
+      "example_de": "Wo muss ich umsteigen, um nach Bonn zu kommen?",
+      "example_en": "Where do I have to change to get to Bonn?"
+    },
+    {
+      "id": "d-conv-0227",
+      "de": "Ohne Zwiebeln, bitte.",
+      "de_alt": [],
+      "en": [
+        "without onions please",
+        "no onions please"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2500,
+      "example_de": "Einen Burger, aber ohne Zwiebeln, bitte.",
+      "example_en": "A burger, but no onions, please."
+    },
+    {
+      "id": "d-conv-0228",
+      "de": "Läuft bei dir!",
+      "de_alt": [
+        "Läuft!"
+      ],
+      "en": [
+        "nice one",
+        "you're doing great",
+        "look at you"
+      ],
+      "pos": "phrase",
+      "topic": "slang",
+      "level": "B1",
+      "rank": 2500,
+      "note": "youth slang: things are going well for you",
+      "example_de": "Neues Handy und eine Eins in Mathe? Läuft bei dir!",
+      "example_en": "New phone and an A in maths? Nice one!"
+    },
+    {
+      "id": "d-conv-0229",
+      "de": "VG",
+      "de_alt": [
+        "Viele Grüße"
+      ],
+      "en": [
+        "best wishes",
+        "regards"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 2500,
+      "note": "Viele Grüße; a bit more formal than LG",
+      "example_de": "Bis Montag! VG Ben",
+      "example_en": "See you Monday! Best wishes, Ben"
+    },
+    {
+      "id": "d-conv-0230",
+      "de": "usw.",
+      "de_alt": [
+        "und so weiter"
+      ],
+      "en": [
+        "etc",
+        "and so on"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 2500,
+      "note": "und so weiter",
+      "example_de": "Bring Chips, Cola usw. mit.",
+      "example_en": "Bring crisps, cola, etc."
+    },
+    {
+      "id": "d-conv-0231",
+      "de": "Moin!",
+      "de_alt": [
+        "Moin moin!"
+      ],
+      "en": [
+        "hi",
+        "hello",
+        "morning"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A2",
+      "rank": 2600,
+      "note": "northern Germany; any time of day",
+      "example_de": "Moin! Alles klar bei dir?",
+      "example_en": "Hi! Everything okay with you?"
+    },
+    {
+      "id": "d-conv-0232",
+      "de": "Ist das scharf?",
+      "de_alt": [],
+      "en": [
+        "is it spicy",
+        "is that spicy"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Ist das Curry sehr scharf?",
+      "example_en": "Is the curry very spicy?"
+    },
+    {
+      "id": "d-conv-0233",
+      "de": "Das geht auf mich.",
+      "de_alt": [],
+      "en": [
+        "it's on me",
+        "this one's on me"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "B1",
+      "rank": 2600,
+      "note": "colloquial",
+      "example_de": "Die Getränke gehen auf mich.",
+      "example_en": "The drinks are on me."
+    },
+    {
+      "id": "d-conv-0234",
+      "de": "Nur Barzahlung.",
+      "de_alt": [
+        "Nur bar."
+      ],
+      "en": [
+        "cash only"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 2600,
+      "example_de": "Sorry, hier geht nur Barzahlung.",
+      "example_en": "Sorry, it's cash only here."
+    },
+    {
+      "id": "d-conv-0235",
+      "de": "Kann ich das umtauschen?",
+      "de_alt": [],
+      "en": [
+        "can I exchange this",
+        "can I swap this"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 2600,
+      "note": "umtauschen: separable",
+      "example_de": "Die Schuhe sind zu klein. Kann ich die umtauschen?",
+      "example_en": "The shoes are too small. Can I exchange them?"
+    },
+    {
+      "id": "d-conv-0236",
+      "de": "Kann ich das zurückgeben?",
+      "de_alt": [],
+      "en": [
+        "can I return this",
+        "can I give this back"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 2600,
+      "note": "zurückgeben: separable",
+      "example_de": "Das Spiel funktioniert nicht. Kann ich das zurückgeben?",
+      "example_en": "The game doesn't work. Can I return it?"
+    },
+    {
+      "id": "d-conv-0237",
+      "de": "Das fällt aus.",
+      "de_alt": [
+        "Es fällt aus."
+      ],
+      "en": [
+        "it's cancelled",
+        "it's been called off"
+      ],
+      "pos": "phrase",
+      "topic": "social",
+      "level": "B1",
+      "rank": 2600,
+      "note": "ausfallen: separable",
+      "example_de": "Das Training fällt heute aus.",
+      "example_en": "Training is cancelled today."
+    },
+    {
+      "id": "d-conv-0238",
+      "de": "Jein.",
+      "de_alt": [],
+      "en": [
+        "yes and no"
+      ],
+      "pos": "other",
+      "topic": "social",
+      "level": "B1",
+      "rank": 2600,
+      "note": "ja + nein",
+      "example_de": "Hat dir der Film gefallen? – Jein.",
+      "example_en": "Did you like the film? – Yes and no."
+    },
+    {
+      "id": "d-conv-0239",
+      "de": "Man kann zu Fuß gehen.",
+      "de_alt": [
+        "Das kann man zu Fuß gehen."
+      ],
+      "en": [
+        "you can walk",
+        "you can walk there"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Nimm nicht den Bus, man kann zu Fuß gehen.",
+      "example_en": "Don't take the bus, you can walk."
+    },
+    {
+      "id": "d-conv-0240",
+      "de": "Wie weit ist es bis zum Zentrum?",
+      "de_alt": [
+        "Wie weit ist es bis in die Stadt?"
+      ],
+      "en": [
+        "how far is it to the centre",
+        "how far is it to the city center"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "B1",
+      "rank": 2600,
+      "example_de": "Wie weit ist es von hier bis zum Zentrum?",
+      "example_en": "How far is it from here to the centre?"
+    },
+    {
+      "id": "d-conv-0241",
+      "de": "Servus!",
+      "de_alt": [],
+      "en": [
+        "hi",
+        "bye",
+        "hello"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A2",
+      "rank": 2800,
+      "note": "southern Germany and Austria; hello and goodbye",
+      "example_de": "Servus, Leute! Wie geht's?",
+      "example_en": "Hi, guys! How are you?"
+    },
+    {
+      "id": "d-conv-0242",
+      "de": "Ich bin allergisch gegen Nüsse.",
+      "de_alt": [
+        "Ich habe eine Nussallergie."
+      ],
+      "en": [
+        "I'm allergic to nuts",
+        "I have a nut allergy"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "B1",
+      "rank": 2800,
+      "example_de": "Ist da Nuss drin? Ich bin allergisch gegen Nüsse.",
+      "example_en": "Are there nuts in it? I'm allergic to nuts."
+    },
+    {
+      "id": "d-conv-0243",
+      "de": "Mit oder ohne Kohlensäure?",
+      "de_alt": [
+        "Still oder mit Kohlensäure?"
+      ],
+      "en": [
+        "sparkling or still",
+        "still or sparkling"
+      ],
+      "pos": "phrase",
+      "topic": "food",
+      "level": "B1",
+      "rank": 2800,
+      "note": "about water",
+      "example_de": "Ein Wasser, bitte. – Mit oder ohne Kohlensäure?",
+      "example_en": "A water, please. – Sparkling or still?"
+    },
+    {
+      "id": "d-conv-0244",
+      "de": "Kann ich mit dem Handy zahlen?",
+      "de_alt": [
+        "Kann ich mit dem Handy bezahlen?"
+      ],
+      "en": [
+        "can I pay with my phone"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Kann ich mit dem Handy zahlen, oder nur bar?",
+      "example_en": "Can I pay with my phone, or only cash?"
+    },
+    {
+      "id": "d-conv-0245",
+      "de": "Das ist ausverkauft.",
+      "de_alt": [],
+      "en": [
+        "it's sold out",
+        "that's sold out"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 2800,
+      "example_de": "Die Tickets für das Konzert sind schon ausverkauft.",
+      "example_en": "The tickets for the concert are already sold out."
+    },
+    {
+      "id": "d-conv-0246",
+      "de": "bzw.",
+      "de_alt": [
+        "beziehungsweise"
+      ],
+      "en": [
+        "or",
+        "or rather",
+        "respectively"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "B1",
+      "rank": 2800,
+      "note": "beziehungsweise",
+      "example_de": "Ich komme um sechs bzw. halb sieben.",
+      "example_en": "I'll come at six, or rather half past."
+    },
+    {
+      "id": "d-conv-0247",
+      "de": "Ich schreib's in die Gruppe.",
+      "de_alt": [
+        "Ich schreibe es in die Gruppe."
+      ],
+      "en": [
+        "I'll put it in the group chat",
+        "I'll post it in the group"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "B1",
+      "rank": 2800,
+      "note": "die Gruppe = group chat",
+      "example_de": "Ich schreib's in die Gruppe, dann wissen es alle.",
+      "example_en": "I'll put it in the group chat, then everyone knows."
+    },
+    {
+      "id": "d-conv-0248",
+      "de": "Es ist gegenüber vom Kino.",
+      "de_alt": [
+        "Das ist gegenüber vom Kino."
+      ],
+      "en": [
+        "it's opposite the cinema",
+        "it's across from the cinema"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "A2",
+      "rank": 2800,
+      "note": "gegenüber von + dative",
+      "example_de": "Die Eisdiele ist gegenüber vom Kino.",
+      "example_en": "The ice cream shop is opposite the cinema."
+    },
+    {
+      "id": "d-conv-0249",
+      "de": "Können Sie mir das auf der Karte zeigen?",
+      "de_alt": [
+        "Kannst du mir das auf der Karte zeigen?"
+      ],
+      "en": [
+        "can you show me on the map",
+        "could you show me on the map"
+      ],
+      "pos": "phrase",
+      "topic": "city",
+      "level": "B1",
+      "rank": 2800,
+      "example_de": "Können Sie mir das auf der Karte zeigen? Hier im Handy.",
+      "example_en": "Can you show me on the map? Here on my phone."
+    },
+    {
+      "id": "d-conv-0250",
+      "de": "Von welchem Gleis?",
+      "de_alt": [
+        "Welches Gleis?",
+        "Auf welchem Gleis?"
+      ],
+      "en": [
+        "which platform",
+        "from which platform"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 2800,
+      "example_de": "Der Zug nach Köln – von welchem Gleis?",
+      "example_en": "The train to Cologne – from which platform?"
+    },
+    {
+      "id": "d-conv-0251",
+      "de": "Einmal nach München, bitte.",
+      "de_alt": [
+        "Eine Fahrkarte nach München, bitte."
+      ],
+      "en": [
+        "one ticket to Munich please",
+        "a ticket to Munich please"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 2800,
+      "note": "einmal = one ticket",
+      "example_de": "Einmal nach München, bitte. Hin und zurück.",
+      "example_en": "One ticket to Munich, please. Return."
+    },
+    {
+      "id": "d-conv-0252",
+      "de": "Das ist ein Schnäppchen!",
+      "de_alt": [],
+      "en": [
+        "that's a bargain",
+        "what a bargain"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3000,
+      "example_de": "Nur zehn Euro? Das ist ein Schnäppchen!",
+      "example_en": "Only ten euros? That's a bargain!"
+    },
+    {
+      "id": "d-conv-0253",
+      "de": "Gibt es eine Schülerermäßigung?",
+      "de_alt": [
+        "Gibt es einen Schülerrabatt?"
+      ],
+      "en": [
+        "is there a student discount",
+        "do you have a student discount"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3000,
+      "example_de": "Gibt es eine Schülerermäßigung? Ich habe meinen Ausweis dabei.",
+      "example_en": "Is there a student discount? I've got my ID with me."
+    },
+    {
+      "id": "d-conv-0254",
+      "de": "mMn",
+      "de_alt": [
+        "meiner Meinung nach",
+        "m.M.n."
+      ],
+      "en": [
+        "in my opinion",
+        "imo"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "B1",
+      "rank": 3000,
+      "note": "meiner Meinung nach",
+      "example_de": "Der erste Teil war mMn besser.",
+      "example_en": "The first part was better imo."
+    },
+    {
+      "id": "d-conv-0255",
+      "de": "gn8",
+      "de_alt": [],
+      "en": [
+        "good night",
+        "night"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "A2",
+      "rank": 3000,
+      "note": "gute Nacht (8 = acht)",
+      "example_de": "Bin müde, gn8!",
+      "example_en": "I'm tired, good night!"
+    },
+    {
+      "id": "d-conv-0256",
+      "de": "Rufen Sie einen Krankenwagen!",
+      "de_alt": [
+        "Ruf einen Krankenwagen!"
+      ],
+      "en": [
+        "call an ambulance"
+      ],
+      "pos": "phrase",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3000,
+      "note": "emergency number 112",
+      "example_de": "Er ist gestürzt! Rufen Sie einen Krankenwagen!",
+      "example_en": "He's fallen! Call an ambulance!"
+    },
+    {
+      "id": "d-conv-0257",
+      "de": "Haben Sie den Kassenbon?",
+      "de_alt": [
+        "Haben Sie den Kassenzettel?",
+        "Hast du den Kassenbon?"
+      ],
+      "en": [
+        "do you have the receipt",
+        "have you got the receipt"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3200,
+      "example_de": "Umtauschen geht. Haben Sie den Kassenbon?",
+      "example_en": "You can exchange it. Do you have the receipt?"
+    },
+    {
+      "id": "d-conv-0258",
+      "de": "Grüß Gott!",
+      "de_alt": [],
+      "en": [
+        "hello",
+        "good day"
+      ],
+      "pos": "phrase",
+      "topic": "greetings",
+      "level": "A2",
+      "rank": 3500,
+      "note": "southern Germany and Austria",
+      "example_de": "Grüß Gott, Frau Huber!",
+      "example_en": "Hello, Mrs Huber!"
+    },
+    {
+      "id": "d-conv-0259",
+      "de": "hdgdl",
+      "de_alt": [
+        "Hab dich ganz doll lieb"
+      ],
+      "en": [
+        "love you lots",
+        "love you so much"
+      ],
+      "pos": "phrase",
+      "topic": "texting",
+      "level": "B1",
+      "rank": 3500,
+      "note": "hab dich ganz doll lieb",
+      "example_de": "Danke für das Geschenk, hdgdl!",
+      "example_en": "Thanks for the present, love you lots!"
+    }
+  ]
+}

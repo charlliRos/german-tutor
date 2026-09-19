@@ -93,7 +93,10 @@ Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`,
 
 - The format is described in [CONTENT_FORMAT.md](CONTENT_FORMAT.md). Vocabulary goes in `content/vocab/*.json`, books in `content/books/*.json`.
 - New book: `python tools/split_text.py text.txt content/books/11_author_title.json --title ... --author ...` creates the units. Then fill in `en`, `explain_en` and `words`.
+- More everyday words: `python tools/frequency_words.py` lists the most common German words (top 15,000 from film and TV subtitles) that the warm-up doesn't have yet, most common first. It needs `.venv\Scripts\pip install simplemma` (only for this tool).
 - Always run `python tools/validate_content.py` afterwards.
 - Tests: `python -m unittest discover -s tests -t .`
 
 Texts are public domain (the author died more than 70 years ago). Spelling is modernised, wording unchanged. Translations were written for this app.
+
+Word frequencies (which everyday words come first): [FrequencyWords](https://github.com/hermitdave/FrequencyWords) by Hermit Dave, from OpenSubtitles 2018, licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); the top 15,000 are in `tools/data/`. The word entries themselves (meanings, examples, notes) were written for this app. The everyday word list includes slang, rude and offensive words so the kids understand real-world German; each is marked with how strong it is.

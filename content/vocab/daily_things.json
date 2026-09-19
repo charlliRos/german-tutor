@@ -1,0 +1,5457 @@
+{
+  "bank": "daily",
+  "title": "Everyday German — everyday things",
+  "words": [
+    {
+      "id": "d-thing-0001",
+      "de": "zu Fuß",
+      "de_alt": [],
+      "en": [
+        "on foot"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "A1",
+      "rank": 1100,
+      "note": "zu Fuß gehen = to walk",
+      "example_de": "Die Schule ist nah, ich gehe zu Fuß.",
+      "example_en": "School is close, I walk."
+    },
+    {
+      "id": "d-thing-0002",
+      "de": "sich die Zähne putzen",
+      "de_alt": [
+        "Zähne putzen"
+      ],
+      "en": [
+        "to brush your teeth",
+        "to brush one's teeth"
+      ],
+      "pos": "phrase",
+      "topic": "home",
+      "level": "A1",
+      "rank": 1200,
+      "note": "ich putze mir die Zähne",
+      "example_de": "Ich putze mir noch schnell die Zähne.",
+      "example_en": "I'll just quickly brush my teeth."
+    },
+    {
+      "id": "d-thing-0003",
+      "de": "der Topf",
+      "de_alt": [],
+      "en": [
+        "pot",
+        "saucepan",
+        "pan"
+      ],
+      "pos": "noun",
+      "plural": "die Töpfe",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1300,
+      "example_de": "Stell mal einen Topf mit Wasser auf den Herd.",
+      "example_en": "Put a pot of water on the stove."
+    },
+    {
+      "id": "d-thing-0004",
+      "de": "backen",
+      "de_alt": [],
+      "en": [
+        "to bake"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1300,
+      "note": "Perfekt: hat gebacken",
+      "example_de": "Wir backen am Wochenende einen Kuchen für Oma.",
+      "example_en": "We're baking a cake for Grandma at the weekend."
+    },
+    {
+      "id": "d-thing-0005",
+      "de": "der Regenschirm",
+      "de_alt": [
+        "der Schirm"
+      ],
+      "en": [
+        "umbrella"
+      ],
+      "pos": "noun",
+      "plural": "die Regenschirme",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1300,
+      "example_de": "Nimm einen Regenschirm mit, es regnet gleich.",
+      "example_en": "Take an umbrella, it's about to rain."
+    },
+    {
+      "id": "d-thing-0006",
+      "de": "die Pfanne",
+      "de_alt": [],
+      "en": [
+        "frying pan",
+        "pan"
+      ],
+      "pos": "noun",
+      "plural": "die Pfannen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Vorsicht, die Pfanne ist noch heiß!",
+      "example_en": "Careful, the pan is still hot!"
+    },
+    {
+      "id": "d-thing-0007",
+      "de": "die Mikrowelle",
+      "de_alt": [],
+      "en": [
+        "microwave"
+      ],
+      "pos": "noun",
+      "plural": "die Mikrowellen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Ich mach mir die Reste in der Mikrowelle warm.",
+      "example_en": "I'm heating up the leftovers in the microwave."
+    },
+    {
+      "id": "d-thing-0008",
+      "de": "die Schüssel",
+      "de_alt": [],
+      "en": [
+        "bowl"
+      ],
+      "pos": "noun",
+      "plural": "die Schüsseln",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Gib mir mal eine Schüssel für mein Müsli.",
+      "example_en": "Pass me a bowl for my muesli."
+    },
+    {
+      "id": "d-thing-0009",
+      "de": "die Zahnbürste",
+      "de_alt": [],
+      "en": [
+        "toothbrush"
+      ],
+      "pos": "noun",
+      "plural": "die Zahnbürsten",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1400,
+      "example_de": "Ich hab meine Zahnbürste zu Hause vergessen.",
+      "example_en": "I forgot my toothbrush at home."
+    },
+    {
+      "id": "d-thing-0010",
+      "de": "die Spülmaschine",
+      "de_alt": [
+        "die Geschirrspülmaschine",
+        "der Geschirrspüler"
+      ],
+      "en": [
+        "dishwasher"
+      ],
+      "pos": "noun",
+      "plural": "die Spülmaschinen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Kannst du bitte die Spülmaschine ausräumen?",
+      "example_en": "Can you please empty the dishwasher?"
+    },
+    {
+      "id": "d-thing-0011",
+      "de": "der Wecker",
+      "de_alt": [],
+      "en": [
+        "alarm clock",
+        "alarm"
+      ],
+      "pos": "noun",
+      "plural": "die Wecker",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Mein Wecker hat heute nicht geklingelt.",
+      "example_en": "My alarm didn't go off today."
+    },
+    {
+      "id": "d-thing-0012",
+      "de": "das Ladekabel",
+      "de_alt": [
+        "das Kabel"
+      ],
+      "en": [
+        "charging cable",
+        "charger cable",
+        "charger"
+      ],
+      "pos": "noun",
+      "plural": "die Ladekabel",
+      "topic": "technology",
+      "level": "A2",
+      "rank": 1500,
+      "example_de": "Kann ich mir kurz dein Ladekabel leihen?",
+      "example_en": "Can I borrow your charging cable for a bit?"
+    },
+    {
+      "id": "d-thing-0013",
+      "de": "dabeihaben",
+      "de_alt": [],
+      "en": [
+        "to have on you",
+        "to have with you"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1500,
+      "note": "separable: Hast du Geld dabei?",
+      "example_de": "Hast du zufällig ein Ladekabel dabei?",
+      "example_en": "Do you happen to have a charging cable on you?"
+    },
+    {
+      "id": "d-thing-0014",
+      "de": "das Geschirr",
+      "de_alt": [],
+      "en": [
+        "dishes",
+        "crockery"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1600,
+      "note": "all the plates, cups and bowls together",
+      "example_de": "Heute bist du mit dem Geschirr dran.",
+      "example_en": "It's your turn to do the dishes today."
+    },
+    {
+      "id": "d-thing-0015",
+      "de": "die Schublade",
+      "de_alt": [],
+      "en": [
+        "drawer"
+      ],
+      "pos": "noun",
+      "plural": "die Schubladen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Die Batterien sind in der Schublade da.",
+      "example_en": "The batteries are in that drawer."
+    },
+    {
+      "id": "d-thing-0016",
+      "de": "die Schere",
+      "de_alt": [],
+      "en": [
+        "scissors",
+        "pair of scissors"
+      ],
+      "pos": "noun",
+      "plural": "die Scheren",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1600,
+      "note": "singular in German: eine Schere = a pair of scissors",
+      "example_de": "Wo ist die Schere? Ich will das Paket aufmachen.",
+      "example_en": "Where are the scissors? I want to open the parcel."
+    },
+    {
+      "id": "d-thing-0017",
+      "de": "Mein Akku ist leer.",
+      "de_alt": [
+        "Mein Handy ist leer.",
+        "Der Akku ist leer."
+      ],
+      "en": [
+        "My battery is dead",
+        "My phone is dead",
+        "My battery is flat"
+      ],
+      "pos": "phrase",
+      "topic": "technology",
+      "level": "A2",
+      "rank": 1600,
+      "example_de": "Ich kann nicht anrufen, mein Akku ist leer.",
+      "example_en": "I can't call, my battery is dead."
+    },
+    {
+      "id": "d-thing-0018",
+      "de": "Kann ich mit Karte zahlen?",
+      "de_alt": [
+        "Kann ich mit Karte bezahlen?"
+      ],
+      "en": [
+        "Can I pay by card"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 1600,
+      "example_de": "Entschuldigung, kann ich mit Karte zahlen?",
+      "example_en": "Excuse me, can I pay by card?"
+    },
+    {
+      "id": "d-thing-0019",
+      "de": "der Kuli",
+      "de_alt": [
+        "der Kugelschreiber"
+      ],
+      "en": [
+        "ballpoint pen",
+        "pen",
+        "biro"
+      ],
+      "pos": "noun",
+      "plural": "die Kulis",
+      "topic": "school",
+      "level": "A1",
+      "rank": 1600,
+      "note": "short for der Kugelschreiber",
+      "example_de": "Kannst du mir mal einen Kuli leihen?",
+      "example_en": "Can you lend me a pen?"
+    },
+    {
+      "id": "d-thing-0020",
+      "de": "schneien",
+      "de_alt": [],
+      "en": [
+        "to snow"
+      ],
+      "pos": "verb",
+      "topic": "weather",
+      "level": "A1",
+      "rank": 1600,
+      "note": "Es schneit. = It's snowing.",
+      "example_de": "Guck mal raus, es schneit!",
+      "example_en": "Look outside, it's snowing!"
+    },
+    {
+      "id": "d-thing-0021",
+      "de": "braten",
+      "de_alt": [],
+      "en": [
+        "to fry",
+        "to roast"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "B1",
+      "rank": 1700,
+      "note": "du brätst, er brät; Perfekt: hat gebraten",
+      "example_de": "Ich brate die Eier mit ein bisschen Butter.",
+      "example_en": "I fry the eggs with a bit of butter."
+    },
+    {
+      "id": "d-thing-0022",
+      "de": "die Zahnpasta",
+      "de_alt": [
+        "die Zahncreme"
+      ],
+      "en": [
+        "toothpaste"
+      ],
+      "pos": "noun",
+      "plural": "die Zahnpasten",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Kannst du mir deine Zahnpasta leihen?",
+      "example_en": "Can I borrow your toothpaste?"
+    },
+    {
+      "id": "d-thing-0023",
+      "de": "das Taschentuch",
+      "de_alt": [],
+      "en": [
+        "tissue",
+        "handkerchief",
+        "hanky"
+      ],
+      "pos": "noun",
+      "plural": "die Taschentücher",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1700,
+      "example_de": "Hast du ein Taschentuch für mich?",
+      "example_en": "Have you got a tissue for me?"
+    },
+    {
+      "id": "d-thing-0024",
+      "de": "der Joghurt",
+      "de_alt": [
+        "das Joghurt"
+      ],
+      "en": [
+        "yoghurt",
+        "yogurt"
+      ],
+      "pos": "noun",
+      "plural": "die Joghurts",
+      "topic": "food",
+      "level": "A1",
+      "rank": 1700,
+      "note": "der or das both correct",
+      "example_de": "Zum Frühstück esse ich einen Joghurt.",
+      "example_en": "I have a yoghurt for breakfast."
+    },
+    {
+      "id": "d-thing-0025",
+      "de": "die Chips",
+      "de_alt": [],
+      "en": [
+        "crisps",
+        "chips",
+        "potato chips"
+      ],
+      "pos": "noun",
+      "plural": "die Chips",
+      "topic": "food",
+      "level": "A1",
+      "rank": 1700,
+      "note": "plural in this meaning; chips (fries) = die Pommes",
+      "example_de": "Für den Filmabend kaufen wir Chips und Cola.",
+      "example_en": "We're buying crisps and cola for movie night."
+    },
+    {
+      "id": "d-thing-0026",
+      "de": "der Wasserkocher",
+      "de_alt": [],
+      "en": [
+        "kettle"
+      ],
+      "pos": "noun",
+      "plural": "die Wasserkocher",
+      "topic": "home",
+      "level": "B1",
+      "rank": 1800,
+      "example_de": "Mach mal den Wasserkocher an, ich will Tee.",
+      "example_en": "Switch the kettle on, I want some tea."
+    },
+    {
+      "id": "d-thing-0027",
+      "de": "die Dose",
+      "de_alt": [],
+      "en": [
+        "can",
+        "tin"
+      ],
+      "pos": "noun",
+      "plural": "die Dosen",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1800,
+      "note": "also a small box or container",
+      "example_de": "Auf die Dose gibt es auch Pfand.",
+      "example_en": "There's a deposit on the can too."
+    },
+    {
+      "id": "d-thing-0028",
+      "de": "den Tisch decken",
+      "de_alt": [
+        "Tisch decken"
+      ],
+      "en": [
+        "to set the table",
+        "to lay the table"
+      ],
+      "pos": "phrase",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Kannst du schon mal den Tisch decken?",
+      "example_en": "Can you set the table already?"
+    },
+    {
+      "id": "d-thing-0029",
+      "de": "die Scheibe",
+      "de_alt": [],
+      "en": [
+        "slice"
+      ],
+      "pos": "noun",
+      "plural": "die Scheiben",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1800,
+      "note": "also: pane of glass",
+      "example_de": "Willst du noch eine Scheibe Brot?",
+      "example_en": "Do you want another slice of bread?"
+    },
+    {
+      "id": "d-thing-0030",
+      "de": "die Steckdose",
+      "de_alt": [],
+      "en": [
+        "socket",
+        "plug socket",
+        "outlet"
+      ],
+      "pos": "noun",
+      "plural": "die Steckdosen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Gibt es hier eine Steckdose? Mein Handy ist fast leer.",
+      "example_en": "Is there a socket here? My phone is almost dead."
+    },
+    {
+      "id": "d-thing-0031",
+      "de": "der Mülleimer",
+      "de_alt": [
+        "der Abfalleimer"
+      ],
+      "en": [
+        "bin",
+        "rubbish bin",
+        "trash can"
+      ],
+      "pos": "noun",
+      "plural": "die Mülleimer",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Wirf das bitte in den Mülleimer.",
+      "example_en": "Please throw that in the bin."
+    },
+    {
+      "id": "d-thing-0032",
+      "de": "den Müll rausbringen",
+      "de_alt": [
+        "Müll rausbringen",
+        "den Müll hinausbringen"
+      ],
+      "en": [
+        "to take out the rubbish",
+        "to take out the trash",
+        "to take the bins out"
+      ],
+      "pos": "phrase",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1800,
+      "note": "ich bringe den Müll raus",
+      "example_de": "Du bist heute dran, den Müll rauszubringen.",
+      "example_en": "It's your turn to take out the rubbish today."
+    },
+    {
+      "id": "d-thing-0033",
+      "de": "grillen",
+      "de_alt": [],
+      "en": [
+        "to have a barbecue",
+        "to barbecue",
+        "to grill"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "A2",
+      "rank": 1800,
+      "note": "der Grill = the barbecue",
+      "example_de": "Wollen wir am Wochenende im Garten grillen?",
+      "example_en": "Shall we have a barbecue in the garden at the weekend?"
+    },
+    {
+      "id": "d-thing-0034",
+      "de": "die Trinkflasche",
+      "de_alt": [
+        "die Wasserflasche"
+      ],
+      "en": [
+        "water bottle",
+        "drinking bottle",
+        "bottle"
+      ],
+      "pos": "noun",
+      "plural": "die Trinkflaschen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Ich füll meine Trinkflasche noch schnell auf.",
+      "example_en": "I'll just quickly refill my water bottle."
+    },
+    {
+      "id": "d-thing-0035",
+      "de": "der Bäcker",
+      "de_alt": [],
+      "en": [
+        "baker",
+        "bakery",
+        "baker's"
+      ],
+      "pos": "noun",
+      "plural": "die Bäcker",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 1800,
+      "note": "zum Bäcker gehen = to go to the bakery",
+      "example_de": "Kannst du schnell zum Bäcker gehen?",
+      "example_en": "Can you pop to the bakery?"
+    },
+    {
+      "id": "d-thing-0036",
+      "de": "die Packung",
+      "de_alt": [],
+      "en": [
+        "packet",
+        "pack",
+        "package"
+      ],
+      "pos": "noun",
+      "plural": "die Packungen",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Bring bitte eine Packung Nudeln mit.",
+      "example_en": "Please bring a packet of pasta."
+    },
+    {
+      "id": "d-thing-0037",
+      "de": "bar bezahlen",
+      "de_alt": [
+        "bar zahlen"
+      ],
+      "en": [
+        "to pay cash",
+        "to pay in cash"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 1800,
+      "example_de": "Kann ich hier nur bar bezahlen?",
+      "example_en": "Can I only pay cash here?"
+    },
+    {
+      "id": "d-thing-0038",
+      "de": "Sonst noch etwas?",
+      "de_alt": [
+        "Sonst noch was?",
+        "Darf es noch etwas sein?"
+      ],
+      "en": [
+        "Anything else"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "A1",
+      "rank": 1800,
+      "note": "Nein, danke, das war's. = No thanks, that's all.",
+      "example_de": "Zwei Brezeln, bitte. – Sonst noch etwas?",
+      "example_en": "Two pretzels, please. – Anything else?"
+    },
+    {
+      "id": "d-thing-0039",
+      "de": "der Stundenplan",
+      "de_alt": [],
+      "en": [
+        "timetable",
+        "schedule",
+        "class schedule"
+      ],
+      "pos": "noun",
+      "plural": "die Stundenpläne",
+      "topic": "school",
+      "level": "A1",
+      "rank": 1800,
+      "example_de": "Laut Stundenplan haben wir jetzt Mathe.",
+      "example_en": "According to the timetable we've got maths now."
+    },
+    {
+      "id": "d-thing-0040",
+      "de": "das Gleis",
+      "de_alt": [],
+      "en": [
+        "platform",
+        "track"
+      ],
+      "pos": "noun",
+      "plural": "die Gleise",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 1800,
+      "note": "Der Zug fährt von Gleis 3 ab.",
+      "example_de": "Unser Zug fährt heute von Gleis 7.",
+      "example_en": "Our train leaves from platform 7 today."
+    },
+    {
+      "id": "d-thing-0041",
+      "de": "die Seife",
+      "de_alt": [],
+      "en": [
+        "soap"
+      ],
+      "pos": "noun",
+      "plural": "die Seifen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1900,
+      "example_de": "Wasch dir die Hände mit Seife!",
+      "example_en": "Wash your hands with soap!"
+    },
+    {
+      "id": "d-thing-0042",
+      "de": "die Sonnenbrille",
+      "de_alt": [],
+      "en": [
+        "sunglasses",
+        "shades"
+      ],
+      "pos": "noun",
+      "plural": "die Sonnenbrillen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 1900,
+      "note": "singular in German: eine Sonnenbrille = a pair of sunglasses",
+      "example_de": "Hast du meine Sonnenbrille gesehen?",
+      "example_en": "Have you seen my sunglasses?"
+    },
+    {
+      "id": "d-thing-0043",
+      "de": "die Zitrone",
+      "de_alt": [],
+      "en": [
+        "lemon"
+      ],
+      "pos": "noun",
+      "plural": "die Zitronen",
+      "topic": "food",
+      "level": "A1",
+      "rank": 1900,
+      "example_de": "Einen Tee mit Zitrone, bitte.",
+      "example_en": "A tea with lemon, please."
+    },
+    {
+      "id": "d-thing-0044",
+      "de": "die Marmelade",
+      "de_alt": [
+        "die Konfitüre"
+      ],
+      "en": [
+        "jam",
+        "jelly"
+      ],
+      "pos": "noun",
+      "plural": "die Marmeladen",
+      "topic": "food",
+      "level": "A1",
+      "rank": 1900,
+      "note": "false friend: marmalade = Orangenmarmelade",
+      "example_de": "Ich esse mein Brötchen mit Butter und Marmelade.",
+      "example_en": "I eat my roll with butter and jam."
+    },
+    {
+      "id": "d-thing-0045",
+      "de": "der Wasserhahn",
+      "de_alt": [
+        "der Hahn"
+      ],
+      "en": [
+        "tap",
+        "faucet"
+      ],
+      "pos": "noun",
+      "plural": "die Wasserhähne",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2000,
+      "example_de": "Der Wasserhahn im Bad tropft schon wieder.",
+      "example_en": "The tap in the bathroom is dripping again."
+    },
+    {
+      "id": "d-thing-0046",
+      "de": "der Pfeffer",
+      "de_alt": [],
+      "en": [
+        "pepper"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2000,
+      "note": "the spice; the vegetable = die Paprika",
+      "example_de": "Reichst du mir mal Salz und Pfeffer?",
+      "example_en": "Can you pass me the salt and pepper?"
+    },
+    {
+      "id": "d-thing-0047",
+      "de": "die Zutat",
+      "de_alt": [],
+      "en": [
+        "ingredient"
+      ],
+      "pos": "noun",
+      "plural": "die Zutaten",
+      "topic": "food",
+      "level": "B1",
+      "rank": 2000,
+      "example_de": "Haben wir alle Zutaten für das Rezept?",
+      "example_en": "Do we have all the ingredients for the recipe?"
+    },
+    {
+      "id": "d-thing-0048",
+      "de": "die Waschmaschine",
+      "de_alt": [],
+      "en": [
+        "washing machine"
+      ],
+      "pos": "noun",
+      "plural": "die Waschmaschinen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Mein Trikot ist noch in der Waschmaschine.",
+      "example_en": "My shirt is still in the washing machine."
+    },
+    {
+      "id": "d-thing-0049",
+      "de": "das Referat",
+      "de_alt": [
+        "die Präsentation",
+        "der Vortrag"
+      ],
+      "en": [
+        "presentation",
+        "talk",
+        "report"
+      ],
+      "pos": "noun",
+      "plural": "die Referate",
+      "topic": "school",
+      "level": "B1",
+      "rank": 2000,
+      "note": "ein Referat halten = to give a presentation",
+      "example_de": "Morgen muss ich ein Referat über Klimawandel halten.",
+      "example_en": "Tomorrow I have to give a presentation on climate change."
+    },
+    {
+      "id": "d-thing-0050",
+      "de": "der Hauptbahnhof",
+      "de_alt": [
+        "der Hbf"
+      ],
+      "en": [
+        "main station",
+        "central station"
+      ],
+      "pos": "noun",
+      "plural": "die Hauptbahnhöfe",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 2000,
+      "example_de": "Wir treffen uns um zehn am Hauptbahnhof.",
+      "example_en": "We'll meet at the main station at ten."
+    },
+    {
+      "id": "d-thing-0051",
+      "de": "das Pflaster",
+      "de_alt": [],
+      "en": [
+        "plaster",
+        "band-aid",
+        "bandage"
+      ],
+      "pos": "noun",
+      "plural": "die Pflaster",
+      "topic": "health",
+      "level": "A2",
+      "rank": 2000,
+      "note": "also: road surface, paving",
+      "example_de": "Hast du ein Pflaster? Ich hab mich geschnitten.",
+      "example_en": "Have you got a plaster? I've cut myself."
+    },
+    {
+      "id": "d-thing-0052",
+      "de": "sich verletzen",
+      "de_alt": [],
+      "en": [
+        "to hurt yourself",
+        "to get hurt",
+        "to injure yourself"
+      ],
+      "pos": "verb",
+      "topic": "health",
+      "level": "A2",
+      "rank": 2000,
+      "note": "Perfekt: hat sich verletzt",
+      "example_de": "Ich hab mich beim Fußball am Knie verletzt.",
+      "example_en": "I hurt my knee playing football."
+    },
+    {
+      "id": "d-thing-0053",
+      "de": "die Bauchschmerzen",
+      "de_alt": [
+        "das Bauchweh"
+      ],
+      "en": [
+        "stomach ache",
+        "tummy ache"
+      ],
+      "pos": "noun",
+      "plural": "die Bauchschmerzen",
+      "topic": "health",
+      "level": "A1",
+      "rank": 2000,
+      "note": "usually plural: Ich habe Bauchschmerzen.",
+      "example_de": "Von so viel Eis bekommt man Bauchschmerzen.",
+      "example_en": "You get a stomach ache from that much ice cream."
+    },
+    {
+      "id": "d-thing-0054",
+      "de": "der Deckel",
+      "de_alt": [],
+      "en": [
+        "lid"
+      ],
+      "pos": "noun",
+      "plural": "die Deckel",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2200,
+      "example_de": "Mach den Deckel drauf, dann kocht es schneller.",
+      "example_en": "Put the lid on, then it boils faster."
+    },
+    {
+      "id": "d-thing-0055",
+      "de": "das Besteck",
+      "de_alt": [],
+      "en": [
+        "cutlery",
+        "silverware"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2200,
+      "note": "knives, forks and spoons together",
+      "example_de": "Das Besteck liegt in der obersten Schublade.",
+      "example_en": "The cutlery is in the top drawer."
+    },
+    {
+      "id": "d-thing-0056",
+      "de": "die Kaffeemaschine",
+      "de_alt": [],
+      "en": [
+        "coffee machine",
+        "coffee maker"
+      ],
+      "pos": "noun",
+      "plural": "die Kaffeemaschinen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Die Kaffeemaschine macht so komische Geräusche.",
+      "example_en": "The coffee machine is making weird noises."
+    },
+    {
+      "id": "d-thing-0057",
+      "de": "der Staubsauger",
+      "de_alt": [],
+      "en": [
+        "vacuum cleaner",
+        "hoover",
+        "vacuum"
+      ],
+      "pos": "noun",
+      "plural": "die Staubsauger",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2200,
+      "example_de": "Der Staubsauger steht im Abstellraum.",
+      "example_en": "The vacuum cleaner is in the storage room."
+    },
+    {
+      "id": "d-thing-0058",
+      "de": "die Fernbedienung",
+      "de_alt": [],
+      "en": [
+        "remote",
+        "remote control"
+      ],
+      "pos": "noun",
+      "plural": "die Fernbedienungen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Wer hat schon wieder die Fernbedienung versteckt?",
+      "example_en": "Who's hidden the remote again?"
+    },
+    {
+      "id": "d-thing-0059",
+      "de": "der Kaugummi",
+      "de_alt": [
+        "das Kaugummi"
+      ],
+      "en": [
+        "chewing gum",
+        "gum"
+      ],
+      "pos": "noun",
+      "plural": "die Kaugummis",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2200,
+      "note": "der or das both correct",
+      "example_de": "Willst du einen Kaugummi?",
+      "example_en": "Do you want some gum?"
+    },
+    {
+      "id": "d-thing-0060",
+      "de": "einpacken",
+      "de_alt": [],
+      "en": [
+        "to pack",
+        "to wrap",
+        "to put in your bag"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2200,
+      "note": "separable: ich packe ein; also: to gift-wrap",
+      "example_de": "Pack deine Sportsachen ein, wir müssen los.",
+      "example_en": "Pack your sports stuff, we have to go."
+    },
+    {
+      "id": "d-thing-0061",
+      "de": "die Hosentasche",
+      "de_alt": [
+        "die Tasche"
+      ],
+      "en": [
+        "trouser pocket",
+        "pocket",
+        "pants pocket"
+      ],
+      "pos": "noun",
+      "plural": "die Hosentaschen",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Mein Handy ist in der Hosentasche.",
+      "example_en": "My phone is in my pocket."
+    },
+    {
+      "id": "d-thing-0062",
+      "de": "das Kleingeld",
+      "de_alt": [],
+      "en": [
+        "change",
+        "small change",
+        "coins"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "money",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Hast du Kleingeld für den Automaten?",
+      "example_en": "Have you got change for the machine?"
+    },
+    {
+      "id": "d-thing-0063",
+      "de": "die Birne",
+      "de_alt": [],
+      "en": [
+        "pear"
+      ],
+      "pos": "noun",
+      "plural": "die Birnen",
+      "topic": "food",
+      "level": "A1",
+      "rank": 2200,
+      "note": "also: light bulb",
+      "example_de": "Die Birnen aus Omas Garten sind super süß.",
+      "example_en": "The pears from Grandma's garden are really sweet."
+    },
+    {
+      "id": "d-thing-0064",
+      "de": "die Traube",
+      "de_alt": [
+        "die Weintraube"
+      ],
+      "en": [
+        "grape",
+        "grapes"
+      ],
+      "pos": "noun",
+      "plural": "die Trauben",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Ich nehme mir Trauben als Snack mit.",
+      "example_en": "I'm taking grapes as a snack."
+    },
+    {
+      "id": "d-thing-0065",
+      "de": "die Gurke",
+      "de_alt": [],
+      "en": [
+        "cucumber",
+        "gherkin"
+      ],
+      "pos": "noun",
+      "plural": "die Gurken",
+      "topic": "food",
+      "level": "A1",
+      "rank": 2200,
+      "note": "saure Gurke = gherkin, pickle",
+      "example_de": "Kannst du noch eine Gurke für den Salat kaufen?",
+      "example_en": "Can you buy another cucumber for the salad?"
+    },
+    {
+      "id": "d-thing-0066",
+      "de": "die Sahne",
+      "de_alt": [
+        "der Rahm"
+      ],
+      "en": [
+        "cream"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2200,
+      "note": "Schlagsahne = whipped cream",
+      "example_de": "Einmal Erdbeeren mit Sahne, bitte.",
+      "example_en": "Strawberries and cream, please."
+    },
+    {
+      "id": "d-thing-0067",
+      "de": "das Lineal",
+      "de_alt": [],
+      "en": [
+        "ruler"
+      ],
+      "pos": "noun",
+      "plural": "die Lineale",
+      "topic": "school",
+      "level": "A1",
+      "rank": 2200,
+      "example_de": "Zeichne die Linie mit dem Lineal.",
+      "example_en": "Draw the line with the ruler."
+    },
+    {
+      "id": "d-thing-0068",
+      "de": "der Taschenrechner",
+      "de_alt": [
+        "der Rechner"
+      ],
+      "en": [
+        "calculator"
+      ],
+      "pos": "noun",
+      "plural": "die Taschenrechner",
+      "topic": "school",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Dürfen wir in der Klausur den Taschenrechner benutzen?",
+      "example_en": "Are we allowed to use a calculator in the exam?"
+    },
+    {
+      "id": "d-thing-0069",
+      "de": "die Vokabel",
+      "de_alt": [],
+      "en": [
+        "vocabulary word",
+        "word",
+        "vocab"
+      ],
+      "pos": "noun",
+      "plural": "die Vokabeln",
+      "topic": "school",
+      "level": "A2",
+      "rank": 2200,
+      "note": "usually plural: Vokabeln lernen",
+      "example_de": "Ich muss heute noch Vokabeln lernen.",
+      "example_en": "I still have to learn vocab today."
+    },
+    {
+      "id": "d-thing-0070",
+      "de": "die Mensa",
+      "de_alt": [
+        "die Kantine"
+      ],
+      "en": [
+        "canteen",
+        "cafeteria",
+        "dining hall"
+      ],
+      "pos": "noun",
+      "plural": "die Mensen",
+      "topic": "school",
+      "level": "A2",
+      "rank": 2200,
+      "note": "at school or university",
+      "example_de": "Gehst du heute mit in die Mensa?",
+      "example_en": "Are you coming to the canteen today?"
+    },
+    {
+      "id": "d-thing-0071",
+      "de": "der Fahrplan",
+      "de_alt": [],
+      "en": [
+        "timetable",
+        "schedule"
+      ],
+      "pos": "noun",
+      "plural": "die Fahrpläne",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 2200,
+      "note": "for buses and trains",
+      "example_de": "Laut Fahrplan kommt der Bus in fünf Minuten.",
+      "example_en": "According to the timetable the bus comes in five minutes."
+    },
+    {
+      "id": "d-thing-0072",
+      "de": "ausfallen",
+      "de_alt": [],
+      "en": [
+        "to be cancelled",
+        "to be canceled"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 2200,
+      "note": "separable: Der Zug fällt aus. Perfekt: ist ausgefallen",
+      "example_de": "Heute fällt die letzte Stunde aus!",
+      "example_en": "The last lesson is cancelled today!"
+    },
+    {
+      "id": "d-thing-0073",
+      "de": "abbiegen",
+      "de_alt": [],
+      "en": [
+        "to turn",
+        "to turn off"
+      ],
+      "pos": "verb",
+      "topic": "city",
+      "level": "A2",
+      "rank": 2200,
+      "note": "separable: ich biege ab; Perfekt: ist abgebogen",
+      "example_de": "An der Ampel musst du links abbiegen.",
+      "example_en": "At the traffic lights you have to turn left."
+    },
+    {
+      "id": "d-thing-0074",
+      "de": "der Schnupfen",
+      "de_alt": [],
+      "en": [
+        "cold",
+        "runny nose",
+        "sniffles"
+      ],
+      "pos": "noun",
+      "plural": "die Schnupfen",
+      "topic": "health",
+      "level": "A2",
+      "rank": 2200,
+      "example_de": "Ich hab nur einen leichten Schnupfen.",
+      "example_en": "I've just got a bit of a cold."
+    },
+    {
+      "id": "d-thing-0075",
+      "de": "die Halsschmerzen",
+      "de_alt": [
+        "das Halsweh"
+      ],
+      "en": [
+        "sore throat"
+      ],
+      "pos": "noun",
+      "plural": "die Halsschmerzen",
+      "topic": "health",
+      "level": "A2",
+      "rank": 2200,
+      "note": "usually plural: Ich habe Halsschmerzen.",
+      "example_de": "Ich kann kaum sprechen, so schlimme Halsschmerzen hab ich.",
+      "example_en": "I can hardly talk, my throat is so sore."
+    },
+    {
+      "id": "d-thing-0076",
+      "de": "erkältet",
+      "de_alt": [],
+      "en": [
+        "having a cold",
+        "with a cold"
+      ],
+      "pos": "adj",
+      "topic": "health",
+      "level": "A2",
+      "rank": 2200,
+      "note": "Ich bin erkältet. = I've got a cold.",
+      "example_de": "Ich bin total erkältet und kann nicht mitkommen.",
+      "example_en": "I've got a really bad cold and can't come."
+    },
+    {
+      "id": "d-thing-0077",
+      "de": "der Kapuzenpullover",
+      "de_alt": [
+        "der Hoodie",
+        "der Kapuzenpulli"
+      ],
+      "en": [
+        "hoodie",
+        "hooded sweatshirt"
+      ],
+      "pos": "noun",
+      "plural": "die Kapuzenpullover",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 2200,
+      "note": "Hoodie is the everyday word",
+      "example_de": "Kann ich mir deinen grauen Kapuzenpullover ausleihen?",
+      "example_en": "Can I borrow your grey hoodie?"
+    },
+    {
+      "id": "d-thing-0078",
+      "de": "die kurze Hose",
+      "de_alt": [
+        "die Shorts"
+      ],
+      "en": [
+        "shorts"
+      ],
+      "pos": "noun",
+      "plural": "die kurzen Hosen",
+      "topic": "clothing",
+      "level": "A1",
+      "rank": 2200,
+      "example_de": "Bei dreißig Grad ziehe ich eine kurze Hose an.",
+      "example_en": "At thirty degrees I put on shorts."
+    },
+    {
+      "id": "d-thing-0079",
+      "de": "anprobieren",
+      "de_alt": [],
+      "en": [
+        "to try on"
+      ],
+      "pos": "verb",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 2200,
+      "note": "separable: ich probiere an; Perfekt: hat anprobiert",
+      "example_de": "Kann ich die Jeans mal anprobieren?",
+      "example_en": "Can I try these jeans on?"
+    },
+    {
+      "id": "d-thing-0080",
+      "de": "die Spüle",
+      "de_alt": [],
+      "en": [
+        "sink",
+        "kitchen sink"
+      ],
+      "pos": "noun",
+      "plural": "die Spülen",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2400,
+      "note": "in the kitchen; bathroom sink = das Waschbecken",
+      "example_de": "Stell die Teller einfach in die Spüle.",
+      "example_en": "Just put the plates in the sink."
+    },
+    {
+      "id": "d-thing-0081",
+      "de": "der Becher",
+      "de_alt": [],
+      "en": [
+        "mug",
+        "cup",
+        "tub"
+      ],
+      "pos": "noun",
+      "plural": "die Becher",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2400,
+      "note": "also a plastic cup or a yoghurt pot",
+      "example_de": "Ich trinke meinen Kakao immer aus dem großen Becher.",
+      "example_en": "I always drink my hot chocolate from the big mug."
+    },
+    {
+      "id": "d-thing-0082",
+      "de": "umrühren",
+      "de_alt": [
+        "rühren"
+      ],
+      "en": [
+        "to stir"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "B1",
+      "rank": 2400,
+      "note": "separable: ich rühre um",
+      "example_de": "Du musst die Soße ab und zu umrühren.",
+      "example_en": "You have to stir the sauce now and then."
+    },
+    {
+      "id": "d-thing-0083",
+      "de": "abwaschen",
+      "de_alt": [
+        "spülen"
+      ],
+      "en": [
+        "to wash up",
+        "to do the dishes"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2400,
+      "note": "separable: ich wasche ab; Perfekt: hat abgewaschen",
+      "example_de": "Ich hab gekocht, also wäschst du ab.",
+      "example_en": "I cooked, so you're washing up."
+    },
+    {
+      "id": "d-thing-0084",
+      "de": "das Mehl",
+      "de_alt": [],
+      "en": [
+        "flour"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Für die Pfannkuchen brauchen wir Mehl, Milch und Eier.",
+      "example_en": "For the pancakes we need flour, milk and eggs."
+    },
+    {
+      "id": "d-thing-0085",
+      "de": "vegetarisch",
+      "de_alt": [],
+      "en": [
+        "vegetarian"
+      ],
+      "pos": "adj",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2400,
+      "note": "a vegetarian (person) = der Vegetarier / die Vegetarierin",
+      "example_de": "Gibt es in der Mensa auch was Vegetarisches?",
+      "example_en": "Is there anything vegetarian in the canteen too?"
+    },
+    {
+      "id": "d-thing-0086",
+      "de": "der Sessel",
+      "de_alt": [],
+      "en": [
+        "armchair",
+        "chair"
+      ],
+      "pos": "noun",
+      "plural": "die Sessel",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Opa schläft schon wieder im Sessel.",
+      "example_en": "Grandpa is asleep in the armchair again."
+    },
+    {
+      "id": "d-thing-0087",
+      "de": "der Kleiderschrank",
+      "de_alt": [],
+      "en": [
+        "wardrobe",
+        "closet"
+      ],
+      "pos": "noun",
+      "plural": "die Kleiderschränke",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Mein Kleiderschrank ist viel zu voll.",
+      "example_en": "My wardrobe is way too full."
+    },
+    {
+      "id": "d-thing-0088",
+      "de": "die Badewanne",
+      "de_alt": [
+        "die Wanne"
+      ],
+      "en": [
+        "bath",
+        "bathtub",
+        "tub"
+      ],
+      "pos": "noun",
+      "plural": "die Badewannen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Wir haben leider keine Badewanne, nur eine Dusche.",
+      "example_en": "Sadly we don't have a bath, only a shower."
+    },
+    {
+      "id": "d-thing-0089",
+      "de": "das Klopapier",
+      "de_alt": [
+        "das Toilettenpapier"
+      ],
+      "en": [
+        "toilet paper",
+        "loo roll",
+        "toilet roll"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2400,
+      "note": "Klopapier is informal, Toilettenpapier neutral",
+      "example_de": "Wir haben kein Klopapier mehr!",
+      "example_en": "We're out of toilet paper!"
+    },
+    {
+      "id": "d-thing-0090",
+      "de": "staubsaugen",
+      "de_alt": [
+        "saugen"
+      ],
+      "en": [
+        "to vacuum",
+        "to hoover"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2400,
+      "note": "Perfekt: hat staubgesaugt",
+      "example_de": "Ich muss noch mein Zimmer staubsaugen.",
+      "example_en": "I still have to vacuum my room."
+    },
+    {
+      "id": "d-thing-0091",
+      "de": "aufhängen",
+      "de_alt": [],
+      "en": [
+        "to hang up",
+        "to hang"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2400,
+      "note": "separable: ich hänge auf; Perfekt: hat aufgehängt",
+      "example_de": "Kannst du die Wäsche aufhängen?",
+      "example_en": "Can you hang up the washing?"
+    },
+    {
+      "id": "d-thing-0092",
+      "de": "der Empfang",
+      "de_alt": [
+        "das Netz"
+      ],
+      "en": [
+        "signal",
+        "reception"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "technology",
+      "level": "B1",
+      "rank": 2400,
+      "note": "also: reception desk, welcome",
+      "example_de": "Im Keller hab ich gar keinen Empfang.",
+      "example_en": "I've got no signal at all in the basement."
+    },
+    {
+      "id": "d-thing-0093",
+      "de": "die Paprika",
+      "de_alt": [],
+      "en": [
+        "pepper",
+        "bell pepper",
+        "paprika"
+      ],
+      "pos": "noun",
+      "plural": "die Paprikas",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2400,
+      "note": "the vegetable and the spice; the black spice = der Pfeffer",
+      "example_de": "Ich mag rote Paprika lieber als grüne.",
+      "example_en": "I like red peppers better than green ones."
+    },
+    {
+      "id": "d-thing-0094",
+      "de": "der Schinken",
+      "de_alt": [],
+      "en": [
+        "ham"
+      ],
+      "pos": "noun",
+      "plural": "die Schinken",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Eine Pizza mit Schinken und Käse, bitte.",
+      "example_en": "A ham and cheese pizza, please."
+    },
+    {
+      "id": "d-thing-0095",
+      "de": "die Limonade",
+      "de_alt": [
+        "die Limo"
+      ],
+      "en": [
+        "lemonade",
+        "soft drink",
+        "fizzy drink"
+      ],
+      "pos": "noun",
+      "plural": "die Limonaden",
+      "topic": "food",
+      "level": "A1",
+      "rank": 2400,
+      "note": "Limo is the everyday word",
+      "example_de": "Ich nehme eine Limo, bitte.",
+      "example_en": "I'll have a lemonade, please."
+    },
+    {
+      "id": "d-thing-0096",
+      "de": "der Kakao",
+      "de_alt": [
+        "die heiße Schokolade"
+      ],
+      "en": [
+        "hot chocolate",
+        "cocoa"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "A1",
+      "rank": 2400,
+      "example_de": "Im Winter trinke ich jeden Morgen einen Kakao.",
+      "example_en": "In winter I drink a hot chocolate every morning."
+    },
+    {
+      "id": "d-thing-0097",
+      "de": "die Einkaufsliste",
+      "de_alt": [],
+      "en": [
+        "shopping list"
+      ],
+      "pos": "noun",
+      "plural": "die Einkaufslisten",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Schreib Milch mit auf die Einkaufsliste.",
+      "example_en": "Add milk to the shopping list."
+    },
+    {
+      "id": "d-thing-0098",
+      "de": "das Pfand",
+      "de_alt": [],
+      "en": [
+        "deposit",
+        "bottle deposit"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 2400,
+      "note": "money back when you return bottles and cans",
+      "example_de": "Die Flaschen bring ich zurück, da gibt es Pfand.",
+      "example_en": "I'll take the bottles back, there's a deposit on them."
+    },
+    {
+      "id": "d-thing-0099",
+      "de": "die Klausur",
+      "de_alt": [],
+      "en": [
+        "exam",
+        "test"
+      ],
+      "pos": "noun",
+      "plural": "die Klausuren",
+      "topic": "school",
+      "level": "B1",
+      "rank": 2400,
+      "note": "written test in upper school and university",
+      "example_de": "Nächste Woche schreiben wir eine Klausur in Bio.",
+      "example_en": "Next week we have a biology exam."
+    },
+    {
+      "id": "d-thing-0100",
+      "de": "ausdrucken",
+      "de_alt": [
+        "drucken"
+      ],
+      "en": [
+        "to print out",
+        "to print"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "A2",
+      "rank": 2400,
+      "note": "separable: ich drucke aus",
+      "example_de": "Kannst du mir die Hausaufgaben ausdrucken?",
+      "example_en": "Can you print out the homework for me?"
+    },
+    {
+      "id": "d-thing-0101",
+      "de": "die Autobahn",
+      "de_alt": [],
+      "en": [
+        "motorway",
+        "highway",
+        "freeway"
+      ],
+      "pos": "noun",
+      "plural": "die Autobahnen",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Auf der Autobahn war stundenlang Stau.",
+      "example_en": "There was a traffic jam on the motorway for hours."
+    },
+    {
+      "id": "d-thing-0102",
+      "de": "die Grippe",
+      "de_alt": [],
+      "en": [
+        "flu",
+        "influenza"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "health",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Die halbe Klasse hat gerade Grippe.",
+      "example_en": "Half the class has got the flu right now."
+    },
+    {
+      "id": "d-thing-0103",
+      "de": "der Pickel",
+      "de_alt": [],
+      "en": [
+        "spot",
+        "pimple",
+        "zit"
+      ],
+      "pos": "noun",
+      "plural": "die Pickel",
+      "topic": "body",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Ausgerechnet heute hab ich einen riesigen Pickel.",
+      "example_en": "Of all days, today I've got a huge spot."
+    },
+    {
+      "id": "d-thing-0104",
+      "de": "bewölkt",
+      "de_alt": [
+        "wolkig"
+      ],
+      "en": [
+        "cloudy",
+        "overcast"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Morgen ist es bewölkt, aber trocken.",
+      "example_en": "Tomorrow it'll be cloudy but dry."
+    },
+    {
+      "id": "d-thing-0105",
+      "de": "windig",
+      "de_alt": [],
+      "en": [
+        "windy"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Am Strand war es total windig.",
+      "example_en": "It was really windy on the beach."
+    },
+    {
+      "id": "d-thing-0106",
+      "de": "die Wettervorhersage",
+      "de_alt": [
+        "der Wetterbericht"
+      ],
+      "en": [
+        "weather forecast",
+        "forecast"
+      ],
+      "pos": "noun",
+      "plural": "die Wettervorhersagen",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Laut Wettervorhersage wird es morgen dreißig Grad.",
+      "example_en": "According to the forecast it'll be thirty degrees tomorrow."
+    },
+    {
+      "id": "d-thing-0107",
+      "de": "Das steht dir.",
+      "de_alt": [
+        "Das steht dir gut."
+      ],
+      "en": [
+        "That suits you",
+        "That looks good on you"
+      ],
+      "pos": "phrase",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 2400,
+      "example_de": "Die neue Jacke steht dir echt gut.",
+      "example_en": "The new jacket really suits you."
+    },
+    {
+      "id": "d-thing-0108",
+      "de": "das Gefrierfach",
+      "de_alt": [
+        "das Eisfach",
+        "der Gefrierschrank",
+        "die Tiefkühltruhe"
+      ],
+      "en": [
+        "freezer",
+        "freezer compartment"
+      ],
+      "pos": "noun",
+      "plural": "die Gefrierfächer",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2600,
+      "example_de": "Im Gefrierfach ist noch eine Pizza.",
+      "example_en": "There's still a pizza in the freezer."
+    },
+    {
+      "id": "d-thing-0109",
+      "de": "die Brotdose",
+      "de_alt": [],
+      "en": [
+        "lunchbox",
+        "lunch box"
+      ],
+      "pos": "noun",
+      "plural": "die Brotdosen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Hast du deine Brotdose schon eingepackt?",
+      "example_en": "Have you packed your lunchbox yet?"
+    },
+    {
+      "id": "d-thing-0110",
+      "de": "schälen",
+      "de_alt": [],
+      "en": [
+        "to peel"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "B1",
+      "rank": 2600,
+      "example_de": "Ich hasse es, Kartoffeln zu schälen.",
+      "example_en": "I hate peeling potatoes."
+    },
+    {
+      "id": "d-thing-0111",
+      "de": "gießen",
+      "de_alt": [],
+      "en": [
+        "to water",
+        "to pour"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2600,
+      "note": "past: goss; Perfekt: hat gegossen",
+      "example_de": "Kannst du die Blumen gießen, solange wir weg sind?",
+      "example_en": "Can you water the plants while we're away?"
+    },
+    {
+      "id": "d-thing-0112",
+      "de": "roh",
+      "de_alt": [],
+      "en": [
+        "raw"
+      ],
+      "pos": "adj",
+      "topic": "food",
+      "level": "B1",
+      "rank": 2600,
+      "example_de": "Das Hähnchen ist innen noch roh.",
+      "example_en": "The chicken is still raw inside."
+    },
+    {
+      "id": "d-thing-0113",
+      "de": "das Waschbecken",
+      "de_alt": [],
+      "en": [
+        "sink",
+        "washbasin",
+        "basin"
+      ],
+      "pos": "noun",
+      "plural": "die Waschbecken",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2600,
+      "note": "in the bathroom; kitchen sink = die Spüle",
+      "example_de": "Deine Zahnbürste liegt am Waschbecken.",
+      "example_en": "Your toothbrush is by the sink."
+    },
+    {
+      "id": "d-thing-0114",
+      "de": "das Deo",
+      "de_alt": [
+        "das Deodorant"
+      ],
+      "en": [
+        "deodorant",
+        "deo"
+      ],
+      "pos": "noun",
+      "plural": "die Deos",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Nach dem Sport brauche ich unbedingt Deo.",
+      "example_en": "After sport I really need deodorant."
+    },
+    {
+      "id": "d-thing-0115",
+      "de": "die Taschenlampe",
+      "de_alt": [],
+      "en": [
+        "torch",
+        "flashlight"
+      ],
+      "pos": "noun",
+      "plural": "die Taschenlampen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Mach mal die Taschenlampe am Handy an.",
+      "example_en": "Turn on the torch on your phone."
+    },
+    {
+      "id": "d-thing-0116",
+      "de": "die Sonnencreme",
+      "de_alt": [],
+      "en": [
+        "sun cream",
+        "sunscreen",
+        "suncream"
+      ],
+      "pos": "noun",
+      "plural": "die Sonnencremes",
+      "topic": "health",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Vergiss die Sonnencreme nicht, es wird heiß.",
+      "example_en": "Don't forget the sun cream, it's going to be hot."
+    },
+    {
+      "id": "d-thing-0117",
+      "de": "die Münze",
+      "de_alt": [
+        "das Geldstück"
+      ],
+      "en": [
+        "coin"
+      ],
+      "pos": "noun",
+      "plural": "die Münzen",
+      "topic": "money",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Für den Einkaufswagen brauchst du eine Münze.",
+      "example_en": "You need a coin for the shopping trolley."
+    },
+    {
+      "id": "d-thing-0118",
+      "de": "die Kirsche",
+      "de_alt": [],
+      "en": [
+        "cherry"
+      ],
+      "pos": "noun",
+      "plural": "die Kirschen",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Im Juni gibt es endlich wieder Kirschen.",
+      "example_en": "In June there are finally cherries again."
+    },
+    {
+      "id": "d-thing-0119",
+      "de": "die Brezel",
+      "de_alt": [
+        "die Breze"
+      ],
+      "en": [
+        "pretzel"
+      ],
+      "pos": "noun",
+      "plural": "die Brezeln",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Ich hol mir beim Bäcker noch eine Brezel.",
+      "example_en": "I'll get a pretzel at the bakery."
+    },
+    {
+      "id": "d-thing-0120",
+      "de": "die Nuss",
+      "de_alt": [],
+      "en": [
+        "nut"
+      ],
+      "pos": "noun",
+      "plural": "die Nüsse",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Ich bin allergisch gegen Nüsse.",
+      "example_en": "I'm allergic to nuts."
+    },
+    {
+      "id": "d-thing-0121",
+      "de": "der Einkaufswagen",
+      "de_alt": [],
+      "en": [
+        "shopping trolley",
+        "shopping cart",
+        "trolley"
+      ],
+      "pos": "noun",
+      "plural": "die Einkaufswagen",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Holst du einen Einkaufswagen? Ich hab eine Münze.",
+      "example_en": "Will you get a trolley? I've got a coin."
+    },
+    {
+      "id": "d-thing-0122",
+      "de": "das Mäppchen",
+      "de_alt": [
+        "das Federmäppchen",
+        "die Federmappe"
+      ],
+      "en": [
+        "pencil case"
+      ],
+      "pos": "noun",
+      "plural": "die Mäppchen",
+      "topic": "school",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "In meinem Mäppchen ist alles durcheinander.",
+      "example_en": "Everything in my pencil case is a mess."
+    },
+    {
+      "id": "d-thing-0123",
+      "de": "das Arbeitsblatt",
+      "de_alt": [
+        "das Blatt"
+      ],
+      "en": [
+        "worksheet",
+        "handout"
+      ],
+      "pos": "noun",
+      "plural": "die Arbeitsblätter",
+      "topic": "school",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Ich hab das Arbeitsblatt von gestern verloren.",
+      "example_en": "I lost yesterday's worksheet."
+    },
+    {
+      "id": "d-thing-0124",
+      "de": "die Schultasche",
+      "de_alt": [
+        "der Schulranzen"
+      ],
+      "en": [
+        "school bag",
+        "schoolbag"
+      ],
+      "pos": "noun",
+      "plural": "die Schultaschen",
+      "topic": "school",
+      "level": "A1",
+      "rank": 2600,
+      "example_de": "Meine Schultasche ist heute echt schwer.",
+      "example_en": "My school bag is really heavy today."
+    },
+    {
+      "id": "d-thing-0125",
+      "de": "bluten",
+      "de_alt": [],
+      "en": [
+        "to bleed"
+      ],
+      "pos": "verb",
+      "topic": "health",
+      "level": "B1",
+      "rank": 2600,
+      "example_de": "Du blutest ja am Finger!",
+      "example_en": "Your finger is bleeding!"
+    },
+    {
+      "id": "d-thing-0126",
+      "de": "frieren",
+      "de_alt": [],
+      "en": [
+        "to be cold",
+        "to freeze"
+      ],
+      "pos": "verb",
+      "topic": "weather",
+      "level": "B1",
+      "rank": 2600,
+      "note": "Ich friere. = I'm cold. past: fror; Perfekt: hat gefroren",
+      "example_de": "Mach das Fenster zu, ich friere.",
+      "example_en": "Close the window, I'm freezing."
+    },
+    {
+      "id": "d-thing-0127",
+      "de": "die Jogginghose",
+      "de_alt": [],
+      "en": [
+        "tracksuit bottoms",
+        "sweatpants",
+        "joggers"
+      ],
+      "pos": "noun",
+      "plural": "die Jogginghosen",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 2600,
+      "example_de": "Am Wochenende trage ich nur Jogginghose.",
+      "example_en": "At the weekend I only wear sweatpants."
+    },
+    {
+      "id": "d-thing-0128",
+      "de": "der Schlafanzug",
+      "de_alt": [
+        "der Pyjama"
+      ],
+      "en": [
+        "pyjamas",
+        "pajamas",
+        "PJs"
+      ],
+      "pos": "noun",
+      "plural": "die Schlafanzüge",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 2600,
+      "note": "singular in German: ein Schlafanzug = a pair of pyjamas",
+      "example_de": "Ich bin noch im Schlafanzug.",
+      "example_en": "I'm still in my pyjamas."
+    },
+    {
+      "id": "d-thing-0129",
+      "de": "die Serviette",
+      "de_alt": [],
+      "en": [
+        "napkin",
+        "serviette"
+      ],
+      "pos": "noun",
+      "plural": "die Servietten",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Kannst du mir eine Serviette geben? Ich hab Ketchup an den Fingern.",
+      "example_en": "Can you give me a napkin? I've got ketchup on my fingers."
+    },
+    {
+      "id": "d-thing-0130",
+      "de": "aufwärmen",
+      "de_alt": [
+        "warm machen"
+      ],
+      "en": [
+        "to heat up",
+        "to warm up",
+        "to reheat"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "B1",
+      "rank": 2800,
+      "note": "separable: ich wärme auf",
+      "example_de": "Ich wärme mir die Nudeln von gestern auf.",
+      "example_en": "I'm heating up yesterday's pasta."
+    },
+    {
+      "id": "d-thing-0131",
+      "de": "abtrocknen",
+      "de_alt": [],
+      "en": [
+        "to dry",
+        "to dry up"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2800,
+      "note": "separable: ich trockne ab; sich abtrocknen = to dry yourself",
+      "example_de": "Ich wasche ab und du trocknest ab, okay?",
+      "example_en": "I'll wash and you dry, okay?"
+    },
+    {
+      "id": "d-thing-0132",
+      "de": "die Portion",
+      "de_alt": [],
+      "en": [
+        "portion",
+        "serving",
+        "helping"
+      ],
+      "pos": "noun",
+      "plural": "die Portionen",
+      "topic": "food",
+      "level": "B1",
+      "rank": 2800,
+      "example_de": "Eine kleine Portion Pommes, bitte.",
+      "example_en": "A small portion of chips, please."
+    },
+    {
+      "id": "d-thing-0133",
+      "de": "der Stecker",
+      "de_alt": [],
+      "en": [
+        "plug"
+      ],
+      "pos": "noun",
+      "plural": "die Stecker",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2800,
+      "example_de": "Zieh mal den Stecker raus und steck ihn wieder rein.",
+      "example_en": "Pull the plug out and put it back in."
+    },
+    {
+      "id": "d-thing-0134",
+      "de": "der Vorhang",
+      "de_alt": [
+        "die Gardine"
+      ],
+      "en": [
+        "curtain"
+      ],
+      "pos": "noun",
+      "plural": "die Vorhänge",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2800,
+      "example_de": "Mach bitte den Vorhang zu, die Sonne blendet.",
+      "example_en": "Please close the curtain, the sun is dazzling."
+    },
+    {
+      "id": "d-thing-0135",
+      "de": "das Duschgel",
+      "de_alt": [],
+      "en": [
+        "shower gel",
+        "body wash"
+      ],
+      "pos": "noun",
+      "plural": "die Duschgels",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Wer hat mein ganzes Duschgel verbraucht?",
+      "example_en": "Who used up all my shower gel?"
+    },
+    {
+      "id": "d-thing-0136",
+      "de": "wischen",
+      "de_alt": [
+        "abwischen"
+      ],
+      "en": [
+        "to wipe",
+        "to mop"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2800,
+      "note": "den Boden wischen = to mop the floor",
+      "example_de": "Kannst du bitte den Tisch wischen?",
+      "example_en": "Can you wipe the table, please?"
+    },
+    {
+      "id": "d-thing-0137",
+      "de": "unordentlich",
+      "de_alt": [],
+      "en": [
+        "messy",
+        "untidy"
+      ],
+      "pos": "adj",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2800,
+      "example_de": "Mein Bruder ist so unordentlich.",
+      "example_en": "My brother is so messy."
+    },
+    {
+      "id": "d-thing-0138",
+      "de": "der Briefkasten",
+      "de_alt": [],
+      "en": [
+        "letterbox",
+        "mailbox",
+        "postbox"
+      ],
+      "pos": "noun",
+      "plural": "die Briefkästen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Guck mal, ob was im Briefkasten ist.",
+      "example_en": "Check if there's anything in the letterbox."
+    },
+    {
+      "id": "d-thing-0139",
+      "de": "einziehen",
+      "de_alt": [],
+      "en": [
+        "to move in"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2800,
+      "note": "separable; Perfekt: ist eingezogen",
+      "example_de": "Die neuen Nachbarn sind letzte Woche eingezogen.",
+      "example_en": "The new neighbours moved in last week."
+    },
+    {
+      "id": "d-thing-0140",
+      "de": "die Handyhülle",
+      "de_alt": [
+        "die Hülle"
+      ],
+      "en": [
+        "phone case",
+        "case"
+      ],
+      "pos": "noun",
+      "plural": "die Handyhüllen",
+      "topic": "technology",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Ohne Handyhülle wäre mein Display längst kaputt.",
+      "example_en": "Without a phone case my screen would've broken ages ago."
+    },
+    {
+      "id": "d-thing-0141",
+      "de": "einstecken",
+      "de_alt": [],
+      "en": [
+        "to put in your pocket",
+        "to take",
+        "to plug in"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 2800,
+      "note": "separable: ich stecke ein",
+      "example_de": "Hast du den Schlüssel eingesteckt?",
+      "example_en": "Have you taken the key?"
+    },
+    {
+      "id": "d-thing-0142",
+      "de": "der Schein",
+      "de_alt": [
+        "der Geldschein"
+      ],
+      "en": [
+        "note",
+        "banknote",
+        "bill"
+      ],
+      "pos": "noun",
+      "plural": "die Scheine",
+      "topic": "money",
+      "level": "B1",
+      "rank": 2800,
+      "note": "also: certificate, appearance",
+      "example_de": "Ich hab nur einen Zwanzig-Euro-Schein.",
+      "example_en": "I've only got a twenty-euro note."
+    },
+    {
+      "id": "d-thing-0143",
+      "de": "der Knoblauch",
+      "de_alt": [],
+      "en": [
+        "garlic"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "In der Soße ist echt viel Knoblauch.",
+      "example_en": "There's a lot of garlic in the sauce."
+    },
+    {
+      "id": "d-thing-0144",
+      "de": "das Sonderangebot",
+      "de_alt": [
+        "das Angebot"
+      ],
+      "en": [
+        "special offer",
+        "deal"
+      ],
+      "pos": "noun",
+      "plural": "die Sonderangebote",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 2800,
+      "note": "im Angebot = on offer",
+      "example_de": "Die Chips sind heute im Sonderangebot.",
+      "example_en": "The crisps are on special offer today."
+    },
+    {
+      "id": "d-thing-0145",
+      "de": "das Gramm",
+      "de_alt": [],
+      "en": [
+        "gram",
+        "gramme"
+      ],
+      "pos": "noun",
+      "plural": "die Gramm",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Für den Kuchen brauchst du 200 Gramm Zucker.",
+      "example_en": "You need 200 grams of sugar for the cake."
+    },
+    {
+      "id": "d-thing-0146",
+      "de": "der Schülerausweis",
+      "de_alt": [],
+      "en": [
+        "student ID",
+        "school ID card",
+        "student card"
+      ],
+      "pos": "noun",
+      "plural": "die Schülerausweise",
+      "topic": "school",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Mit Schülerausweis kostet das Kino weniger.",
+      "example_en": "The cinema is cheaper with a student ID."
+    },
+    {
+      "id": "d-thing-0147",
+      "de": "der Schulhof",
+      "de_alt": [
+        "der Pausenhof"
+      ],
+      "en": [
+        "schoolyard",
+        "playground",
+        "school grounds"
+      ],
+      "pos": "noun",
+      "plural": "die Schulhöfe",
+      "topic": "school",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Wir treffen uns in der Pause auf dem Schulhof.",
+      "example_en": "We'll meet in the schoolyard at break."
+    },
+    {
+      "id": "d-thing-0148",
+      "de": "die Turnhalle",
+      "de_alt": [
+        "die Sporthalle"
+      ],
+      "en": [
+        "gym",
+        "sports hall",
+        "gymnasium"
+      ],
+      "pos": "noun",
+      "plural": "die Turnhallen",
+      "topic": "school",
+      "level": "A2",
+      "rank": 2800,
+      "note": "not das Gymnasium (= grammar school)",
+      "example_de": "Sport ist heute in der Turnhalle, nicht draußen.",
+      "example_en": "PE is in the gym today, not outside."
+    },
+    {
+      "id": "d-thing-0149",
+      "de": "der Fahrradhelm",
+      "de_alt": [
+        "der Helm"
+      ],
+      "en": [
+        "bike helmet",
+        "cycle helmet",
+        "helmet"
+      ],
+      "pos": "noun",
+      "plural": "die Fahrradhelme",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Ohne Fahrradhelm darfst du nicht losfahren.",
+      "example_en": "You're not allowed to ride off without a helmet."
+    },
+    {
+      "id": "d-thing-0150",
+      "de": "die Schmerztablette",
+      "de_alt": [
+        "das Schmerzmittel"
+      ],
+      "en": [
+        "painkiller",
+        "pain pill"
+      ],
+      "pos": "noun",
+      "plural": "die Schmerztabletten",
+      "topic": "health",
+      "level": "B1",
+      "rank": 2800,
+      "example_de": "Hast du eine Schmerztablette für mich?",
+      "example_en": "Have you got a painkiller for me?"
+    },
+    {
+      "id": "d-thing-0151",
+      "de": "husten",
+      "de_alt": [],
+      "en": [
+        "to cough"
+      ],
+      "pos": "verb",
+      "topic": "health",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Ich musste die ganze Nacht husten.",
+      "example_en": "I was coughing all night."
+    },
+    {
+      "id": "d-thing-0152",
+      "de": "schwitzen",
+      "de_alt": [],
+      "en": [
+        "to sweat"
+      ],
+      "pos": "verb",
+      "topic": "weather",
+      "level": "B1",
+      "rank": 2800,
+      "example_de": "Bei der Hitze schwitze ich schon beim Rumsitzen.",
+      "example_en": "In this heat I sweat even just sitting around."
+    },
+    {
+      "id": "d-thing-0153",
+      "de": "das Oberteil",
+      "de_alt": [
+        "das Top"
+      ],
+      "en": [
+        "top"
+      ],
+      "pos": "noun",
+      "plural": "die Oberteile",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 2800,
+      "example_de": "Welches Oberteil soll ich zur Party anziehen?",
+      "example_en": "Which top should I wear to the party?"
+    },
+    {
+      "id": "d-thing-0154",
+      "de": "die Kanne",
+      "de_alt": [],
+      "en": [
+        "pot",
+        "jug",
+        "teapot"
+      ],
+      "pos": "noun",
+      "plural": "die Kannen",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3000,
+      "note": "eine Kanne Tee = a pot of tea",
+      "example_de": "Ich mache eine Kanne Tee für uns alle.",
+      "example_en": "I'll make a pot of tea for all of us."
+    },
+    {
+      "id": "d-thing-0155",
+      "de": "das Gewürz",
+      "de_alt": [],
+      "en": [
+        "spice",
+        "seasoning"
+      ],
+      "pos": "noun",
+      "plural": "die Gewürze",
+      "topic": "food",
+      "level": "B1",
+      "rank": 3000,
+      "example_de": "Welche Gewürze kommen in das Curry?",
+      "example_en": "Which spices go in the curry?"
+    },
+    {
+      "id": "d-thing-0156",
+      "de": "salzig",
+      "de_alt": [],
+      "en": [
+        "salty"
+      ],
+      "pos": "adj",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Die Pommes sind heute total salzig.",
+      "example_en": "The chips are really salty today."
+    },
+    {
+      "id": "d-thing-0157",
+      "de": "das Erdgeschoss",
+      "de_alt": [
+        "das Parterre"
+      ],
+      "en": [
+        "ground floor",
+        "first floor"
+      ],
+      "pos": "noun",
+      "plural": "die Erdgeschosse",
+      "topic": "home",
+      "level": "A2",
+      "rank": 3000,
+      "note": "im Erdgeschoss = on the ground floor (UK) / first floor (US)",
+      "example_de": "Die Toilette ist im Erdgeschoss.",
+      "example_en": "The toilet is on the ground floor."
+    },
+    {
+      "id": "d-thing-0158",
+      "de": "die Unordnung",
+      "de_alt": [
+        "das Chaos"
+      ],
+      "en": [
+        "mess",
+        "untidiness",
+        "disorder"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3000,
+      "example_de": "Was ist das denn für eine Unordnung hier?",
+      "example_en": "What's all this mess here?"
+    },
+    {
+      "id": "d-thing-0159",
+      "de": "die Terrasse",
+      "de_alt": [],
+      "en": [
+        "patio",
+        "terrace"
+      ],
+      "pos": "noun",
+      "plural": "die Terrassen",
+      "topic": "home",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Im Sommer frühstücken wir auf der Terrasse.",
+      "example_en": "In summer we have breakfast on the patio."
+    },
+    {
+      "id": "d-thing-0160",
+      "de": "die Handtasche",
+      "de_alt": [],
+      "en": [
+        "handbag",
+        "purse",
+        "bag"
+      ],
+      "pos": "noun",
+      "plural": "die Handtaschen",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Mama sucht schon wieder was in ihrer Handtasche.",
+      "example_en": "Mum is looking for something in her handbag again."
+    },
+    {
+      "id": "d-thing-0161",
+      "de": "der Pfirsich",
+      "de_alt": [],
+      "en": [
+        "peach"
+      ],
+      "pos": "noun",
+      "plural": "die Pfirsiche",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Der Pfirsich ist noch ganz hart.",
+      "example_en": "The peach is still really hard."
+    },
+    {
+      "id": "d-thing-0162",
+      "de": "die Wassermelone",
+      "de_alt": [
+        "die Melone"
+      ],
+      "en": [
+        "watermelon"
+      ],
+      "pos": "noun",
+      "plural": "die Wassermelonen",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Bei der Hitze ist Wassermelone perfekt.",
+      "example_en": "Watermelon is perfect in this heat."
+    },
+    {
+      "id": "d-thing-0163",
+      "de": "die Bohne",
+      "de_alt": [],
+      "en": [
+        "bean"
+      ],
+      "pos": "noun",
+      "plural": "die Bohnen",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Im Chili sind Bohnen und Mais.",
+      "example_en": "There are beans and corn in the chilli."
+    },
+    {
+      "id": "d-thing-0164",
+      "de": "der Karton",
+      "de_alt": [],
+      "en": [
+        "cardboard box",
+        "box",
+        "carton"
+      ],
+      "pos": "noun",
+      "plural": "die Kartons",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3000,
+      "note": "also: cardboard",
+      "example_de": "Die leeren Kartons kommen ins Altpapier.",
+      "example_en": "The empty boxes go in the paper recycling."
+    },
+    {
+      "id": "d-thing-0165",
+      "de": "Schlange stehen",
+      "de_alt": [
+        "anstehen"
+      ],
+      "en": [
+        "to queue",
+        "to stand in line",
+        "to wait in line"
+      ],
+      "pos": "phrase",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3000,
+      "example_de": "Für die Tickets mussten wir eine Stunde Schlange stehen.",
+      "example_en": "We had to queue for an hour for the tickets."
+    },
+    {
+      "id": "d-thing-0166",
+      "de": "ausverkauft",
+      "de_alt": [],
+      "en": [
+        "sold out"
+      ],
+      "pos": "adj",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3000,
+      "example_de": "Das Konzert ist leider schon ausverkauft.",
+      "example_en": "Sadly the concert is already sold out."
+    },
+    {
+      "id": "d-thing-0167",
+      "de": "bio",
+      "de_alt": [],
+      "en": [
+        "organic"
+      ],
+      "pos": "adj",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3000,
+      "note": "colloquial; often as prefix: Bio-Milch, Bio-Laden",
+      "example_de": "Meine Eltern kaufen fast alles bio.",
+      "example_en": "My parents buy almost everything organic."
+    },
+    {
+      "id": "d-thing-0168",
+      "de": "der Textmarker",
+      "de_alt": [
+        "der Marker"
+      ],
+      "en": [
+        "highlighter"
+      ],
+      "pos": "noun",
+      "plural": "die Textmarker",
+      "topic": "school",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Markier die wichtigen Stellen mit dem Textmarker.",
+      "example_en": "Mark the important bits with the highlighter."
+    },
+    {
+      "id": "d-thing-0169",
+      "de": "der Kleber",
+      "de_alt": [
+        "der Klebstoff",
+        "der Klebestift"
+      ],
+      "en": [
+        "glue",
+        "glue stick"
+      ],
+      "pos": "noun",
+      "plural": "die Kleber",
+      "topic": "school",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Ich brauche Schere und Kleber für das Plakat.",
+      "example_en": "I need scissors and glue for the poster."
+    },
+    {
+      "id": "d-thing-0170",
+      "de": "der Block",
+      "de_alt": [
+        "der Schreibblock",
+        "der Notizblock"
+      ],
+      "en": [
+        "notepad",
+        "pad",
+        "writing pad"
+      ],
+      "pos": "noun",
+      "plural": "die Blöcke",
+      "topic": "school",
+      "level": "A2",
+      "rank": 3000,
+      "note": "also: block (of flats)",
+      "example_de": "Schreib dir das auf deinen Block.",
+      "example_en": "Write that down on your notepad."
+    },
+    {
+      "id": "d-thing-0171",
+      "de": "das Pausenbrot",
+      "de_alt": [],
+      "en": [
+        "packed lunch",
+        "sandwich",
+        "snack"
+      ],
+      "pos": "noun",
+      "plural": "die Pausenbrote",
+      "topic": "school",
+      "level": "A2",
+      "rank": 3000,
+      "note": "sandwich eaten at break time",
+      "example_de": "Ich hab mein Pausenbrot im Bus vergessen.",
+      "example_en": "I left my sandwich on the bus."
+    },
+    {
+      "id": "d-thing-0172",
+      "de": "der Sitzplatz",
+      "de_alt": [
+        "der Platz"
+      ],
+      "en": [
+        "seat"
+      ],
+      "pos": "noun",
+      "plural": "die Sitzplätze",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Im Zug gab es keinen einzigen Sitzplatz mehr.",
+      "example_en": "There wasn't a single seat left on the train."
+    },
+    {
+      "id": "d-thing-0173",
+      "de": "der Radweg",
+      "de_alt": [
+        "der Fahrradweg"
+      ],
+      "en": [
+        "cycle path",
+        "bike lane",
+        "cycle lane"
+      ],
+      "pos": "noun",
+      "plural": "die Radwege",
+      "topic": "city",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Fahr bitte auf dem Radweg, nicht auf der Straße.",
+      "example_en": "Please ride on the cycle path, not on the road."
+    },
+    {
+      "id": "d-thing-0174",
+      "de": "die Baustelle",
+      "de_alt": [],
+      "en": [
+        "roadworks",
+        "building site",
+        "construction site"
+      ],
+      "pos": "noun",
+      "plural": "die Baustellen",
+      "topic": "city",
+      "level": "B1",
+      "rank": 3000,
+      "example_de": "Wegen der Baustelle fährt der Bus einen Umweg.",
+      "example_en": "Because of the roadworks the bus takes a detour."
+    },
+    {
+      "id": "d-thing-0175",
+      "de": "schwindlig",
+      "de_alt": [
+        "schwindelig"
+      ],
+      "en": [
+        "dizzy"
+      ],
+      "pos": "adj",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3000,
+      "note": "Mir ist schwindlig. = I feel dizzy.",
+      "example_de": "Mir ist nach dem Karussell ganz schwindlig.",
+      "example_en": "I feel really dizzy after the merry-go-round."
+    },
+    {
+      "id": "d-thing-0176",
+      "de": "gebrochen",
+      "de_alt": [],
+      "en": [
+        "broken"
+      ],
+      "pos": "adj",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3000,
+      "note": "of bones; broken objects = kaputt",
+      "example_de": "Der Arzt sagt, der Arm ist gebrochen.",
+      "example_en": "The doctor says the arm is broken."
+    },
+    {
+      "id": "d-thing-0177",
+      "de": "die Allergie",
+      "de_alt": [],
+      "en": [
+        "allergy"
+      ],
+      "pos": "noun",
+      "plural": "die Allergien",
+      "topic": "health",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Ich hab eine Allergie gegen Katzen.",
+      "example_en": "I've got an allergy to cats."
+    },
+    {
+      "id": "d-thing-0178",
+      "de": "allergisch",
+      "de_alt": [],
+      "en": [
+        "allergic"
+      ],
+      "pos": "adj",
+      "topic": "health",
+      "level": "A2",
+      "rank": 3000,
+      "note": "allergisch gegen = allergic to",
+      "example_de": "Bist du gegen irgendwas allergisch?",
+      "example_en": "Are you allergic to anything?"
+    },
+    {
+      "id": "d-thing-0179",
+      "de": "schwül",
+      "de_alt": [],
+      "en": [
+        "humid",
+        "muggy",
+        "close"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "B1",
+      "rank": 3000,
+      "example_de": "Heute ist es so schwül, gleich gibt es ein Gewitter.",
+      "example_en": "It's so muggy today, there'll be a thunderstorm soon."
+    },
+    {
+      "id": "d-thing-0180",
+      "de": "die Regenjacke",
+      "de_alt": [],
+      "en": [
+        "raincoat",
+        "rain jacket"
+      ],
+      "pos": "noun",
+      "plural": "die Regenjacken",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 3000,
+      "example_de": "Nimm lieber die Regenjacke mit.",
+      "example_en": "Better take your rain jacket."
+    },
+    {
+      "id": "d-thing-0181",
+      "de": "das Schneidebrett",
+      "de_alt": [
+        "das Brett"
+      ],
+      "en": [
+        "chopping board",
+        "cutting board"
+      ],
+      "pos": "noun",
+      "plural": "die Schneidebretter",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3200,
+      "example_de": "Schneid die Zwiebeln bitte auf dem Schneidebrett.",
+      "example_en": "Please cut the onions on the chopping board."
+    },
+    {
+      "id": "d-thing-0182",
+      "de": "abräumen",
+      "de_alt": [],
+      "en": [
+        "to clear",
+        "to clear the table"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3200,
+      "note": "separable: ich räume ab",
+      "example_de": "Nach dem Essen räumen wir zusammen ab.",
+      "example_en": "After dinner we clear the table together."
+    },
+    {
+      "id": "d-thing-0183",
+      "de": "ausräumen",
+      "de_alt": [],
+      "en": [
+        "to empty",
+        "to unload",
+        "to clear out"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3200,
+      "note": "separable: ich räume aus; opposite: einräumen",
+      "example_de": "Wer räumt heute die Spülmaschine aus?",
+      "example_en": "Who's emptying the dishwasher today?"
+    },
+    {
+      "id": "d-thing-0184",
+      "de": "der Eiswürfel",
+      "de_alt": [],
+      "en": [
+        "ice cube"
+      ],
+      "pos": "noun",
+      "plural": "die Eiswürfel",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Kannst du noch ein paar Eiswürfel in die Cola tun?",
+      "example_en": "Can you put a few more ice cubes in the cola?"
+    },
+    {
+      "id": "d-thing-0185",
+      "de": "das Esszimmer",
+      "de_alt": [],
+      "en": [
+        "dining room"
+      ],
+      "pos": "noun",
+      "plural": "die Esszimmer",
+      "topic": "home",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "An Weihnachten essen wir im Esszimmer.",
+      "example_en": "At Christmas we eat in the dining room."
+    },
+    {
+      "id": "d-thing-0186",
+      "de": "der Föhn",
+      "de_alt": [
+        "der Fön",
+        "der Haartrockner"
+      ],
+      "en": [
+        "hairdryer",
+        "hair dryer"
+      ],
+      "pos": "noun",
+      "plural": "die Föhne",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3200,
+      "note": "föhnen = to blow-dry",
+      "example_de": "Darf ich kurz deinen Föhn benutzen?",
+      "example_en": "Can I use your hairdryer for a sec?"
+    },
+    {
+      "id": "d-thing-0187",
+      "de": "die Bürste",
+      "de_alt": [
+        "die Haarbürste"
+      ],
+      "en": [
+        "brush",
+        "hairbrush"
+      ],
+      "pos": "noun",
+      "plural": "die Bürsten",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3200,
+      "example_de": "Meine Bürste ist voller Haare.",
+      "example_en": "My brush is full of hair."
+    },
+    {
+      "id": "d-thing-0188",
+      "de": "aufschließen",
+      "de_alt": [
+        "aufsperren"
+      ],
+      "en": [
+        "to unlock"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3200,
+      "note": "separable: ich schließe auf",
+      "example_de": "Ich komm nicht rein, kannst du aufschließen?",
+      "example_en": "I can't get in, can you unlock the door?"
+    },
+    {
+      "id": "d-thing-0189",
+      "de": "lüften",
+      "de_alt": [],
+      "en": [
+        "to air",
+        "to air out",
+        "to let some air in"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3200,
+      "example_de": "Mach mal das Fenster auf, wir müssen lüften.",
+      "example_en": "Open the window, we need to let some air in."
+    },
+    {
+      "id": "d-thing-0190",
+      "de": "die Sporttasche",
+      "de_alt": [],
+      "en": [
+        "sports bag",
+        "gym bag",
+        "kit bag"
+      ],
+      "pos": "noun",
+      "plural": "die Sporttaschen",
+      "topic": "sport",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Meine Schuhe sind noch in der Sporttasche.",
+      "example_en": "My shoes are still in my sports bag."
+    },
+    {
+      "id": "d-thing-0191",
+      "de": "die Himbeere",
+      "de_alt": [],
+      "en": [
+        "raspberry"
+      ],
+      "pos": "noun",
+      "plural": "die Himbeeren",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Ich hätte gern ein Himbeereis.",
+      "example_en": "I'd like a raspberry ice cream."
+    },
+    {
+      "id": "d-thing-0192",
+      "de": "die Heidelbeere",
+      "de_alt": [
+        "die Blaubeere"
+      ],
+      "en": [
+        "blueberry"
+      ],
+      "pos": "noun",
+      "plural": "die Heidelbeeren",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Morgens esse ich Joghurt mit Heidelbeeren.",
+      "example_en": "In the morning I eat yoghurt with blueberries."
+    },
+    {
+      "id": "d-thing-0193",
+      "de": "die Ananas",
+      "de_alt": [],
+      "en": [
+        "pineapple"
+      ],
+      "pos": "noun",
+      "plural": "die Ananas",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3200,
+      "note": "plural also: die Ananasse",
+      "example_de": "Ananas auf Pizza? Niemals!",
+      "example_en": "Pineapple on pizza? Never!"
+    },
+    {
+      "id": "d-thing-0194",
+      "de": "der Mais",
+      "de_alt": [],
+      "en": [
+        "corn",
+        "sweetcorn",
+        "maize"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Ich esse Mais am liebsten gegrillt.",
+      "example_en": "I like corn best grilled."
+    },
+    {
+      "id": "d-thing-0195",
+      "de": "das Toastbrot",
+      "de_alt": [
+        "der Toast"
+      ],
+      "en": [
+        "sliced bread",
+        "toast",
+        "white bread"
+      ],
+      "pos": "noun",
+      "plural": "die Toastbrote",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Wir brauchen Toastbrot für die Sandwiches.",
+      "example_en": "We need sliced bread for the sandwiches."
+    },
+    {
+      "id": "d-thing-0196",
+      "de": "der Senf",
+      "de_alt": [],
+      "en": [
+        "mustard"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3200,
+      "note": "seinen Senf dazugeben = to add your two cents",
+      "example_de": "Die Bratwurst bitte mit Senf.",
+      "example_en": "The sausage with mustard, please."
+    },
+    {
+      "id": "d-thing-0197",
+      "de": "das Gummibärchen",
+      "de_alt": [],
+      "en": [
+        "gummy bear",
+        "jelly baby"
+      ],
+      "pos": "noun",
+      "plural": "die Gummibärchen",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Die roten Gummibärchen sind die besten.",
+      "example_en": "The red gummy bears are the best."
+    },
+    {
+      "id": "d-thing-0198",
+      "de": "das Sprudelwasser",
+      "de_alt": [
+        "der Sprudel",
+        "das Mineralwasser"
+      ],
+      "en": [
+        "sparkling water",
+        "fizzy water"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3200,
+      "note": "Wasser mit Kohlensäure; still water = stilles Wasser",
+      "example_de": "Magst du lieber Sprudelwasser oder stilles Wasser?",
+      "example_en": "Do you prefer sparkling or still water?"
+    },
+    {
+      "id": "d-thing-0199",
+      "de": "wiegen",
+      "de_alt": [
+        "abwiegen"
+      ],
+      "en": [
+        "to weigh"
+      ],
+      "pos": "verb",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3200,
+      "note": "past: wog; Perfekt: hat gewogen",
+      "example_de": "Das Obst musst du hier selbst wiegen.",
+      "example_en": "You have to weigh the fruit yourself here."
+    },
+    {
+      "id": "d-thing-0200",
+      "de": "abgelaufen",
+      "de_alt": [],
+      "en": [
+        "out of date",
+        "expired",
+        "past its use-by date"
+      ],
+      "pos": "adj",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3200,
+      "note": "from ablaufen",
+      "example_de": "Iss den Joghurt nicht, der ist abgelaufen.",
+      "example_en": "Don't eat the yoghurt, it's out of date."
+    },
+    {
+      "id": "d-thing-0201",
+      "de": "der Füller",
+      "de_alt": [
+        "der Füllfederhalter"
+      ],
+      "en": [
+        "fountain pen",
+        "pen"
+      ],
+      "pos": "noun",
+      "plural": "die Füller",
+      "topic": "school",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "In der Grundschule haben wir mit Füller geschrieben.",
+      "example_en": "In primary school we wrote with a fountain pen."
+    },
+    {
+      "id": "d-thing-0202",
+      "de": "das Notizbuch",
+      "de_alt": [],
+      "en": [
+        "notebook"
+      ],
+      "pos": "noun",
+      "plural": "die Notizbücher",
+      "topic": "school",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "In mein Notizbuch schreibe ich alle Ideen.",
+      "example_en": "I write all my ideas in my notebook."
+    },
+    {
+      "id": "d-thing-0203",
+      "de": "die Mappe",
+      "de_alt": [
+        "die Schnellhefter"
+      ],
+      "en": [
+        "folder",
+        "file",
+        "portfolio"
+      ],
+      "pos": "noun",
+      "plural": "die Mappen",
+      "topic": "school",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Die Arbeitsblätter kommen in die blaue Mappe.",
+      "example_en": "The worksheets go in the blue folder."
+    },
+    {
+      "id": "d-thing-0204",
+      "de": "markieren",
+      "de_alt": [],
+      "en": [
+        "to highlight",
+        "to mark"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "B1",
+      "rank": 3200,
+      "example_de": "Markier dir die wichtigsten Wörter.",
+      "example_en": "Highlight the most important words."
+    },
+    {
+      "id": "d-thing-0205",
+      "de": "der Bahnsteig",
+      "de_alt": [],
+      "en": [
+        "platform"
+      ],
+      "pos": "noun",
+      "plural": "die Bahnsteige",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 3200,
+      "example_de": "Wir warten unten am Bahnsteig auf dich.",
+      "example_en": "We'll wait for you down on the platform."
+    },
+    {
+      "id": "d-thing-0206",
+      "de": "die Monatskarte",
+      "de_alt": [],
+      "en": [
+        "monthly ticket",
+        "monthly pass"
+      ],
+      "pos": "noun",
+      "plural": "die Monatskarten",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Mit der Monatskarte kann ich überall hinfahren.",
+      "example_en": "With my monthly pass I can go anywhere."
+    },
+    {
+      "id": "d-thing-0207",
+      "de": "der Anschluss",
+      "de_alt": [],
+      "en": [
+        "connection"
+      ],
+      "pos": "noun",
+      "plural": "die Anschlüsse",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 3200,
+      "note": "also: port, (internet) connection",
+      "example_de": "Wegen der Verspätung hab ich meinen Anschluss verpasst.",
+      "example_en": "Because of the delay I missed my connection."
+    },
+    {
+      "id": "d-thing-0208",
+      "de": "das Fahrradschloss",
+      "de_alt": [
+        "das Schloss"
+      ],
+      "en": [
+        "bike lock",
+        "bicycle lock",
+        "lock"
+      ],
+      "pos": "noun",
+      "plural": "die Fahrradschlösser",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 3200,
+      "example_de": "Ich hab den Schlüssel für mein Fahrradschloss verloren.",
+      "example_en": "I've lost the key to my bike lock."
+    },
+    {
+      "id": "d-thing-0209",
+      "de": "der Gehweg",
+      "de_alt": [
+        "der Bürgersteig",
+        "der Gehsteig"
+      ],
+      "en": [
+        "pavement",
+        "sidewalk"
+      ],
+      "pos": "noun",
+      "plural": "die Gehwege",
+      "topic": "city",
+      "level": "B1",
+      "rank": 3200,
+      "example_de": "Auf dem Gehweg darf man nicht Fahrrad fahren.",
+      "example_en": "You're not allowed to cycle on the pavement."
+    },
+    {
+      "id": "d-thing-0210",
+      "de": "der Zebrastreifen",
+      "de_alt": [],
+      "en": [
+        "zebra crossing",
+        "crosswalk",
+        "pedestrian crossing"
+      ],
+      "pos": "noun",
+      "plural": "die Zebrastreifen",
+      "topic": "city",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Geh lieber über den Zebrastreifen.",
+      "example_en": "Better cross at the zebra crossing."
+    },
+    {
+      "id": "d-thing-0211",
+      "de": "der Roller",
+      "de_alt": [
+        "der Tretroller"
+      ],
+      "en": [
+        "scooter",
+        "kick scooter"
+      ],
+      "pos": "noun",
+      "plural": "die Roller",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 3200,
+      "note": "also: moped, motor scooter",
+      "example_de": "Mein kleiner Bruder fährt mit dem Roller zur Schule.",
+      "example_en": "My little brother rides his scooter to school."
+    },
+    {
+      "id": "d-thing-0212",
+      "de": "die Zahnschmerzen",
+      "de_alt": [
+        "das Zahnweh"
+      ],
+      "en": [
+        "toothache"
+      ],
+      "pos": "noun",
+      "plural": "die Zahnschmerzen",
+      "topic": "health",
+      "level": "A2",
+      "rank": 3200,
+      "note": "usually plural: Ich habe Zahnschmerzen.",
+      "example_de": "Mit Zahnschmerzen musst du zum Zahnarzt.",
+      "example_en": "With toothache you need to see the dentist."
+    },
+    {
+      "id": "d-thing-0213",
+      "de": "der Sonnenbrand",
+      "de_alt": [],
+      "en": [
+        "sunburn"
+      ],
+      "pos": "noun",
+      "plural": "die Sonnenbrände",
+      "topic": "health",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Ohne Sonnencreme bekommst du einen Sonnenbrand.",
+      "example_en": "Without sun cream you'll get sunburnt."
+    },
+    {
+      "id": "d-thing-0214",
+      "de": "regnerisch",
+      "de_alt": [],
+      "en": [
+        "rainy",
+        "wet"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Das Wochenende soll leider regnerisch werden.",
+      "example_en": "Unfortunately the weekend is supposed to be rainy."
+    },
+    {
+      "id": "d-thing-0215",
+      "de": "der Donner",
+      "de_alt": [],
+      "en": [
+        "thunder"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 3200,
+      "note": "es donnert = it's thundering",
+      "example_de": "Mein Hund hat voll Angst vor Donner.",
+      "example_en": "My dog is really scared of thunder."
+    },
+    {
+      "id": "d-thing-0216",
+      "de": "der Sonnenschein",
+      "de_alt": [],
+      "en": [
+        "sunshine"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Am Wochenende gibt es endlich wieder Sonnenschein.",
+      "example_en": "Finally there's sunshine again at the weekend."
+    },
+    {
+      "id": "d-thing-0217",
+      "de": "der Reißverschluss",
+      "de_alt": [],
+      "en": [
+        "zip",
+        "zipper"
+      ],
+      "pos": "noun",
+      "plural": "die Reißverschlüsse",
+      "topic": "clothing",
+      "level": "B1",
+      "rank": 3200,
+      "example_de": "Der Reißverschluss von meiner Jacke klemmt.",
+      "example_en": "The zip on my jacket is stuck."
+    },
+    {
+      "id": "d-thing-0218",
+      "de": "die Kapuze",
+      "de_alt": [],
+      "en": [
+        "hood"
+      ],
+      "pos": "noun",
+      "plural": "die Kapuzen",
+      "topic": "clothing",
+      "level": "B1",
+      "rank": 3200,
+      "example_de": "Setz die Kapuze auf, es regnet.",
+      "example_en": "Put your hood up, it's raining."
+    },
+    {
+      "id": "d-thing-0219",
+      "de": "der Badeanzug",
+      "de_alt": [],
+      "en": [
+        "swimsuit",
+        "swimming costume"
+      ],
+      "pos": "noun",
+      "plural": "die Badeanzüge",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Pack deinen Badeanzug ein, wir gehen ins Freibad.",
+      "example_en": "Pack your swimsuit, we're going to the outdoor pool."
+    },
+    {
+      "id": "d-thing-0220",
+      "de": "die Badehose",
+      "de_alt": [],
+      "en": [
+        "swimming trunks",
+        "swim shorts",
+        "trunks"
+      ],
+      "pos": "noun",
+      "plural": "die Badehosen",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 3200,
+      "example_de": "Ich hab meine Badehose vergessen!",
+      "example_en": "I forgot my swimming trunks!"
+    },
+    {
+      "id": "d-thing-0221",
+      "de": "die Alufolie",
+      "de_alt": [],
+      "en": [
+        "tin foil",
+        "aluminium foil",
+        "foil"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Pack dein Brot doch in Alufolie ein.",
+      "example_en": "Wrap your sandwich in foil."
+    },
+    {
+      "id": "d-thing-0222",
+      "de": "das Tablett",
+      "de_alt": [],
+      "en": [
+        "tray"
+      ],
+      "pos": "noun",
+      "plural": "die Tabletts",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "note": "trap: not a tablet (das Tablet)",
+      "example_de": "In der Mensa nimmst du dir zuerst ein Tablett.",
+      "example_en": "In the canteen you take a tray first."
+    },
+    {
+      "id": "d-thing-0223",
+      "de": "einschenken",
+      "de_alt": [],
+      "en": [
+        "to pour"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "B1",
+      "rank": 3500,
+      "note": "separable: ich schenke ein; for pouring a drink",
+      "example_de": "Soll ich dir noch was einschenken?",
+      "example_en": "Shall I pour you some more?"
+    },
+    {
+      "id": "d-thing-0224",
+      "de": "der Essig",
+      "de_alt": [],
+      "en": [
+        "vinegar"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Für den Salat brauchen wir noch Öl und Essig.",
+      "example_en": "We still need oil and vinegar for the salad."
+    },
+    {
+      "id": "d-thing-0225",
+      "de": "der Teig",
+      "de_alt": [],
+      "en": [
+        "dough",
+        "batter",
+        "pastry"
+      ],
+      "pos": "noun",
+      "plural": "die Teige",
+      "topic": "food",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Der Teig muss noch eine Stunde ruhen.",
+      "example_en": "The dough needs to rest for another hour."
+    },
+    {
+      "id": "d-thing-0226",
+      "de": "die Glühbirne",
+      "de_alt": [
+        "die Birne"
+      ],
+      "en": [
+        "light bulb",
+        "bulb"
+      ],
+      "pos": "noun",
+      "plural": "die Glühbirnen",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Die Glühbirne im Flur ist kaputt.",
+      "example_en": "The light bulb in the hall has gone."
+    },
+    {
+      "id": "d-thing-0227",
+      "de": "der Kamm",
+      "de_alt": [],
+      "en": [
+        "comb"
+      ],
+      "pos": "noun",
+      "plural": "die Kämme",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Hast du einen Kamm dabei?",
+      "example_en": "Have you got a comb on you?"
+    },
+    {
+      "id": "d-thing-0228",
+      "de": "der Trockner",
+      "de_alt": [
+        "der Wäschetrockner"
+      ],
+      "en": [
+        "dryer",
+        "tumble dryer"
+      ],
+      "pos": "noun",
+      "plural": "die Trockner",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Der Pulli ist im Trockner eingelaufen.",
+      "example_en": "The jumper shrank in the dryer."
+    },
+    {
+      "id": "d-thing-0229",
+      "de": "bügeln",
+      "de_alt": [],
+      "en": [
+        "to iron"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "note": "das Bügeleisen = the iron",
+      "example_de": "Ich muss noch mein Hemd für morgen bügeln.",
+      "example_en": "I still have to iron my shirt for tomorrow."
+    },
+    {
+      "id": "d-thing-0230",
+      "de": "zusammenlegen",
+      "de_alt": [
+        "falten"
+      ],
+      "en": [
+        "to fold",
+        "to fold up"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "note": "separable: ich lege zusammen",
+      "example_de": "Leg deine T-Shirts bitte ordentlich zusammen.",
+      "example_en": "Please fold your T-shirts neatly."
+    },
+    {
+      "id": "d-thing-0231",
+      "de": "der Nagel",
+      "de_alt": [],
+      "en": [
+        "nail"
+      ],
+      "pos": "noun",
+      "plural": "die Nägel",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "note": "also: fingernail",
+      "example_de": "Für das Poster brauche ich einen Nagel.",
+      "example_en": "I need a nail for the poster."
+    },
+    {
+      "id": "d-thing-0232",
+      "de": "das Klebeband",
+      "de_alt": [
+        "der Tesafilm",
+        "das Tesa"
+      ],
+      "en": [
+        "tape",
+        "sticky tape",
+        "adhesive tape"
+      ],
+      "pos": "noun",
+      "plural": "die Klebebänder",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Mit Klebeband hält das bestimmt.",
+      "example_en": "It'll definitely hold with tape."
+    },
+    {
+      "id": "d-thing-0233",
+      "de": "die Klimaanlage",
+      "de_alt": [],
+      "en": [
+        "air conditioning",
+        "air conditioner",
+        "AC"
+      ],
+      "pos": "noun",
+      "plural": "die Klimaanlagen",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Im Bus ist die Klimaanlage schon wieder kaputt.",
+      "example_en": "The air conditioning on the bus is broken again."
+    },
+    {
+      "id": "d-thing-0234",
+      "de": "der Schlüsselbund",
+      "de_alt": [],
+      "en": [
+        "bunch of keys",
+        "keys",
+        "keyring"
+      ],
+      "pos": "noun",
+      "plural": "die Schlüsselbunde",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Mein Schlüsselbund ist bestimmt in der Jackentasche.",
+      "example_en": "My keys are probably in my jacket pocket."
+    },
+    {
+      "id": "d-thing-0235",
+      "de": "der Haargummi",
+      "de_alt": [
+        "das Haargummi",
+        "das Zopfgummi"
+      ],
+      "en": [
+        "hair tie",
+        "hair band",
+        "hair elastic"
+      ],
+      "pos": "noun",
+      "plural": "die Haargummis",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3500,
+      "note": "der or das both correct",
+      "example_de": "Hast du einen Haargummi für mich?",
+      "example_en": "Have you got a hair tie for me?"
+    },
+    {
+      "id": "d-thing-0236",
+      "de": "die Pflaume",
+      "de_alt": [
+        "die Zwetschge"
+      ],
+      "en": [
+        "plum"
+      ],
+      "pos": "noun",
+      "plural": "die Pflaumen",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3500,
+      "example_de": "Oma backt jeden September Pflaumenkuchen.",
+      "example_en": "Grandma bakes plum cake every September."
+    },
+    {
+      "id": "d-thing-0237",
+      "de": "die Erbse",
+      "de_alt": [],
+      "en": [
+        "pea"
+      ],
+      "pos": "noun",
+      "plural": "die Erbsen",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3500,
+      "example_de": "Mein kleiner Bruder isst keine Erbsen.",
+      "example_en": "My little brother won't eat peas."
+    },
+    {
+      "id": "d-thing-0238",
+      "de": "der Kürbis",
+      "de_alt": [],
+      "en": [
+        "pumpkin",
+        "squash"
+      ],
+      "pos": "noun",
+      "plural": "die Kürbisse",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3500,
+      "example_de": "Im Herbst machen wir immer Kürbissuppe.",
+      "example_en": "In autumn we always make pumpkin soup."
+    },
+    {
+      "id": "d-thing-0239",
+      "de": "der Quark",
+      "de_alt": [],
+      "en": [
+        "quark",
+        "curd cheese"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "B1",
+      "rank": 3500,
+      "note": "colloquial: nonsense (So ein Quark!)",
+      "example_de": "Nach dem Training esse ich gern Quark mit Obst.",
+      "example_en": "After training I like having quark with fruit."
+    },
+    {
+      "id": "d-thing-0240",
+      "de": "das Hackfleisch",
+      "de_alt": [
+        "das Gehackte"
+      ],
+      "en": [
+        "mince",
+        "minced meat",
+        "ground beef"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Für die Burger brauchen wir ein Kilo Hackfleisch.",
+      "example_en": "We need a kilo of mince for the burgers."
+    },
+    {
+      "id": "d-thing-0241",
+      "de": "der Spitzer",
+      "de_alt": [
+        "der Anspitzer"
+      ],
+      "en": [
+        "pencil sharpener",
+        "sharpener"
+      ],
+      "pos": "noun",
+      "plural": "die Spitzer",
+      "topic": "school",
+      "level": "A2",
+      "rank": 3500,
+      "example_de": "Hat jemand einen Spitzer? Mein Bleistift ist stumpf.",
+      "example_en": "Has anyone got a sharpener? My pencil is blunt."
+    },
+    {
+      "id": "d-thing-0242",
+      "de": "der Beamer",
+      "de_alt": [
+        "der Projektor"
+      ],
+      "en": [
+        "projector"
+      ],
+      "pos": "noun",
+      "plural": "die Beamer",
+      "topic": "school",
+      "level": "B1",
+      "rank": 3500,
+      "note": "false friend: not a BMW",
+      "example_de": "Der Beamer funktioniert schon wieder nicht.",
+      "example_en": "The projector isn't working again."
+    },
+    {
+      "id": "d-thing-0243",
+      "de": "die Rolltreppe",
+      "de_alt": [],
+      "en": [
+        "escalator"
+      ],
+      "pos": "noun",
+      "plural": "die Rolltreppen",
+      "topic": "city",
+      "level": "A2",
+      "rank": 3500,
+      "example_de": "Die Rolltreppe zur U-Bahn ist kaputt.",
+      "example_en": "The escalator to the underground is broken."
+    },
+    {
+      "id": "d-thing-0244",
+      "de": "sich anschnallen",
+      "de_alt": [],
+      "en": [
+        "to put your seatbelt on",
+        "to buckle up",
+        "to fasten your seatbelt"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 3500,
+      "note": "separable: ich schnalle mich an",
+      "example_de": "Schnall dich bitte an, wir fahren los.",
+      "example_en": "Put your seatbelt on, we're leaving."
+    },
+    {
+      "id": "d-thing-0245",
+      "de": "das Wartezimmer",
+      "de_alt": [],
+      "en": [
+        "waiting room"
+      ],
+      "pos": "noun",
+      "plural": "die Wartezimmer",
+      "topic": "health",
+      "level": "A2",
+      "rank": 3500,
+      "example_de": "Ich sitze seit einer Stunde im Wartezimmer.",
+      "example_en": "I've been sitting in the waiting room for an hour."
+    },
+    {
+      "id": "d-thing-0246",
+      "de": "niesen",
+      "de_alt": [],
+      "en": [
+        "to sneeze"
+      ],
+      "pos": "verb",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3500,
+      "note": "someone sneezes: Gesundheit!",
+      "example_de": "Im Frühling muss ich ständig niesen.",
+      "example_en": "In spring I'm constantly sneezing."
+    },
+    {
+      "id": "d-thing-0247",
+      "de": "einnehmen",
+      "de_alt": [
+        "nehmen"
+      ],
+      "en": [
+        "to take"
+      ],
+      "pos": "verb",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3500,
+      "note": "separable, for medicine: ich nehme die Tabletten ein",
+      "example_de": "Die Tabletten musst du nach dem Essen einnehmen.",
+      "example_en": "You have to take the tablets after eating."
+    },
+    {
+      "id": "d-thing-0248",
+      "de": "der blaue Fleck",
+      "de_alt": [
+        "der Bluterguss"
+      ],
+      "en": [
+        "bruise"
+      ],
+      "pos": "noun",
+      "plural": "die blauen Flecken",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Vom Handball hab ich einen blauen Fleck am Bein.",
+      "example_en": "I've got a bruise on my leg from handball."
+    },
+    {
+      "id": "d-thing-0249",
+      "de": "die Zahnspange",
+      "de_alt": [],
+      "en": [
+        "braces",
+        "brace"
+      ],
+      "pos": "noun",
+      "plural": "die Zahnspangen",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Nächsten Monat kommt endlich meine Zahnspange raus.",
+      "example_en": "My braces are finally coming off next month."
+    },
+    {
+      "id": "d-thing-0250",
+      "de": "neblig",
+      "de_alt": [],
+      "en": [
+        "foggy",
+        "misty"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 3500,
+      "example_de": "Heute Morgen war es so neblig, man sah fast nichts.",
+      "example_en": "This morning it was so foggy you could hardly see anything."
+    },
+    {
+      "id": "d-thing-0251",
+      "de": "das Unwetter",
+      "de_alt": [],
+      "en": [
+        "storm",
+        "severe weather",
+        "bad storm"
+      ],
+      "pos": "noun",
+      "plural": "die Unwetter",
+      "topic": "weather",
+      "level": "B1",
+      "rank": 3500,
+      "example_de": "Wegen des Unwetters fallen heute alle Züge aus.",
+      "example_en": "All trains are cancelled today because of the storm."
+    },
+    {
+      "id": "d-thing-0252",
+      "de": "der Regenbogen",
+      "de_alt": [],
+      "en": [
+        "rainbow"
+      ],
+      "pos": "noun",
+      "plural": "die Regenbögen",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 3500,
+      "example_de": "Schau mal, da ist ein Regenbogen!",
+      "example_en": "Look, there's a rainbow!"
+    },
+    {
+      "id": "d-thing-0253",
+      "de": "der Hausschuh",
+      "de_alt": [
+        "der Pantoffel",
+        "der Schlappen"
+      ],
+      "en": [
+        "slipper"
+      ],
+      "pos": "noun",
+      "plural": "die Hausschuhe",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 3500,
+      "example_de": "Bei uns zieht man zu Hause Hausschuhe an.",
+      "example_en": "At our place you wear slippers indoors."
+    },
+    {
+      "id": "d-thing-0254",
+      "de": "der Ohrring",
+      "de_alt": [],
+      "en": [
+        "earring"
+      ],
+      "pos": "noun",
+      "plural": "die Ohrringe",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 3500,
+      "example_de": "Ich hab einen Ohrring beim Sport verloren.",
+      "example_en": "I lost an earring during sport."
+    },
+    {
+      "id": "d-thing-0255",
+      "de": "die Umkleidekabine",
+      "de_alt": [
+        "die Kabine",
+        "die Umkleide"
+      ],
+      "en": [
+        "changing room",
+        "fitting room"
+      ],
+      "pos": "noun",
+      "plural": "die Umkleidekabinen",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 3500,
+      "example_de": "Wo sind hier die Umkleidekabinen?",
+      "example_en": "Where are the changing rooms here?"
+    },
+    {
+      "id": "d-thing-0256",
+      "de": "der Schwamm",
+      "de_alt": [],
+      "en": [
+        "sponge"
+      ],
+      "pos": "noun",
+      "plural": "die Schwämme",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3600,
+      "note": "Schwamm drüber! = forget it!",
+      "example_de": "Wisch den Tisch mit dem Schwamm ab.",
+      "example_en": "Wipe the table with the sponge."
+    },
+    {
+      "id": "d-thing-0257",
+      "de": "der Strohhalm",
+      "de_alt": [],
+      "en": [
+        "straw",
+        "drinking straw"
+      ],
+      "pos": "noun",
+      "plural": "die Strohhalme",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Die Strohhalme sind jetzt aus Papier.",
+      "example_en": "The straws are made of paper now."
+    },
+    {
+      "id": "d-thing-0258",
+      "de": "reiben",
+      "de_alt": [],
+      "en": [
+        "to grate",
+        "to rub"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "B1",
+      "rank": 3800,
+      "note": "past: rieb; Perfekt: hat gerieben",
+      "example_de": "Kannst du noch etwas Käse über die Nudeln reiben?",
+      "example_en": "Can you grate some more cheese over the pasta?"
+    },
+    {
+      "id": "d-thing-0259",
+      "de": "würzen",
+      "de_alt": [],
+      "en": [
+        "to season",
+        "to spice"
+      ],
+      "pos": "verb",
+      "topic": "food",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Die Suppe musst du noch mit Salz und Pfeffer würzen.",
+      "example_en": "You still need to season the soup with salt and pepper."
+    },
+    {
+      "id": "d-thing-0260",
+      "de": "angebrannt",
+      "de_alt": [
+        "verbrannt"
+      ],
+      "en": [
+        "burnt",
+        "burned"
+      ],
+      "pos": "adj",
+      "topic": "food",
+      "level": "B1",
+      "rank": 3800,
+      "note": "from anbrennen",
+      "example_de": "Oh nein, die Pizza ist angebrannt!",
+      "example_en": "Oh no, the pizza is burnt!"
+    },
+    {
+      "id": "d-thing-0261",
+      "de": "der Dachboden",
+      "de_alt": [],
+      "en": [
+        "attic",
+        "loft"
+      ],
+      "pos": "noun",
+      "plural": "die Dachböden",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Die alten Spielsachen sind alle auf dem Dachboden.",
+      "example_en": "The old toys are all in the attic."
+    },
+    {
+      "id": "d-thing-0262",
+      "de": "der Rollladen",
+      "de_alt": [
+        "das Rollo"
+      ],
+      "en": [
+        "shutter",
+        "blind",
+        "roller shutter"
+      ],
+      "pos": "noun",
+      "plural": "die Rollläden",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Lass den Rollladen runter, dann ist es dunkel.",
+      "example_en": "Let the shutter down, then it's dark."
+    },
+    {
+      "id": "d-thing-0263",
+      "de": "die Matratze",
+      "de_alt": [],
+      "en": [
+        "mattress"
+      ],
+      "pos": "noun",
+      "plural": "die Matratzen",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Du kannst bei mir auf der Matratze schlafen.",
+      "example_en": "You can sleep on the mattress at my place."
+    },
+    {
+      "id": "d-thing-0264",
+      "de": "die Bettwäsche",
+      "de_alt": [],
+      "en": [
+        "bedding",
+        "bed linen",
+        "sheets"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Am Samstag muss ich meine Bettwäsche wechseln.",
+      "example_en": "On Saturday I have to change my bedding."
+    },
+    {
+      "id": "d-thing-0265",
+      "de": "der Rasierer",
+      "de_alt": [],
+      "en": [
+        "razor",
+        "shaver"
+      ],
+      "pos": "noun",
+      "plural": "die Rasierer",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3800,
+      "note": "sich rasieren = to shave",
+      "example_de": "Mein Bruder hat sich einen Rasierer gekauft.",
+      "example_en": "My brother bought himself a razor."
+    },
+    {
+      "id": "d-thing-0266",
+      "de": "sich kämmen",
+      "de_alt": [],
+      "en": [
+        "to comb your hair",
+        "to comb"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Kämm dich mal, deine Haare sind total durcheinander.",
+      "example_en": "Comb your hair, it's a total mess."
+    },
+    {
+      "id": "d-thing-0267",
+      "de": "der Besen",
+      "de_alt": [],
+      "en": [
+        "broom"
+      ],
+      "pos": "noun",
+      "plural": "die Besen",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Hol mal den Besen, hier sind überall Krümel.",
+      "example_en": "Get the broom, there are crumbs everywhere."
+    },
+    {
+      "id": "d-thing-0268",
+      "de": "der Lappen",
+      "de_alt": [
+        "das Tuch"
+      ],
+      "en": [
+        "cloth",
+        "rag"
+      ],
+      "pos": "noun",
+      "plural": "die Lappen",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Nimm einen Lappen und wisch das auf.",
+      "example_en": "Take a cloth and wipe that up."
+    },
+    {
+      "id": "d-thing-0269",
+      "de": "die Schraube",
+      "de_alt": [],
+      "en": [
+        "screw"
+      ],
+      "pos": "noun",
+      "plural": "die Schrauben",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Beim Regal fehlt eine Schraube.",
+      "example_en": "There's a screw missing from the shelf."
+    },
+    {
+      "id": "d-thing-0270",
+      "de": "die Leiter",
+      "de_alt": [],
+      "en": [
+        "ladder"
+      ],
+      "pos": "noun",
+      "plural": "die Leitern",
+      "topic": "home",
+      "level": "B1",
+      "rank": 3800,
+      "note": "trap: der Leiter = leader, conductor",
+      "example_de": "Hältst du mal die Leiter fest?",
+      "example_en": "Can you hold the ladder steady?"
+    },
+    {
+      "id": "d-thing-0271",
+      "de": "die Kontaktlinse",
+      "de_alt": [
+        "die Linse"
+      ],
+      "en": [
+        "contact lens",
+        "contact"
+      ],
+      "pos": "noun",
+      "plural": "die Kontaktlinsen",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Beim Sport trage ich lieber Kontaktlinsen.",
+      "example_en": "For sport I prefer wearing contact lenses."
+    },
+    {
+      "id": "d-thing-0272",
+      "de": "der Jutebeutel",
+      "de_alt": [
+        "der Stoffbeutel",
+        "die Stofftasche"
+      ],
+      "en": [
+        "tote bag",
+        "cloth bag",
+        "canvas bag"
+      ],
+      "pos": "noun",
+      "plural": "die Jutebeutel",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Ich nehm zum Einkaufen immer einen Jutebeutel mit.",
+      "example_en": "I always take a tote bag when I go shopping."
+    },
+    {
+      "id": "d-thing-0273",
+      "de": "der Spinat",
+      "de_alt": [],
+      "en": [
+        "spinach"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3800,
+      "example_de": "Spinat mit Ei gab es früher jeden Donnerstag.",
+      "example_en": "We used to have spinach with egg every Thursday."
+    },
+    {
+      "id": "d-thing-0274",
+      "de": "der Lachs",
+      "de_alt": [],
+      "en": [
+        "salmon"
+      ],
+      "pos": "noun",
+      "plural": "die Lachse",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3800,
+      "example_de": "Heute gibt es Lachs mit Reis.",
+      "example_en": "Today we're having salmon with rice."
+    },
+    {
+      "id": "d-thing-0275",
+      "de": "der Thunfisch",
+      "de_alt": [],
+      "en": [
+        "tuna"
+      ],
+      "pos": "noun",
+      "plural": "die Thunfische",
+      "topic": "food",
+      "level": "A2",
+      "rank": 3800,
+      "example_de": "Ich nehme die Pizza mit Thunfisch.",
+      "example_en": "I'll have the tuna pizza."
+    },
+    {
+      "id": "d-thing-0276",
+      "de": "der Einkaufskorb",
+      "de_alt": [
+        "der Korb"
+      ],
+      "en": [
+        "shopping basket",
+        "basket"
+      ],
+      "pos": "noun",
+      "plural": "die Einkaufskörbe",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 3800,
+      "example_de": "Wir brauchen nur wenig, ein Einkaufskorb reicht.",
+      "example_en": "We only need a few things, a basket is enough."
+    },
+    {
+      "id": "d-thing-0277",
+      "de": "der Kassierer",
+      "de_alt": [
+        "die Kassiererin"
+      ],
+      "en": [
+        "cashier",
+        "checkout assistant"
+      ],
+      "pos": "noun",
+      "plural": "die Kassierer",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3800,
+      "note": "female: die Kassiererin",
+      "example_de": "Die Kassiererin hat mir zu wenig rausgegeben.",
+      "example_en": "The cashier gave me too little change."
+    },
+    {
+      "id": "d-thing-0278",
+      "de": "die Theke",
+      "de_alt": [
+        "der Tresen"
+      ],
+      "en": [
+        "counter",
+        "bar"
+      ],
+      "pos": "noun",
+      "plural": "die Theken",
+      "topic": "shopping",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Käse gibt es vorne an der Theke.",
+      "example_en": "Cheese is at the counter at the front."
+    },
+    {
+      "id": "d-thing-0279",
+      "de": "unterstreichen",
+      "de_alt": [],
+      "en": [
+        "to underline"
+      ],
+      "pos": "verb",
+      "topic": "school",
+      "level": "A2",
+      "rank": 3800,
+      "note": "inseparable; Perfekt: hat unterstrichen",
+      "example_de": "Unterstreicht alle Verben im Text.",
+      "example_en": "Underline all the verbs in the text."
+    },
+    {
+      "id": "d-thing-0280",
+      "de": "die Durchsage",
+      "de_alt": [],
+      "en": [
+        "announcement"
+      ],
+      "pos": "noun",
+      "plural": "die Durchsagen",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Ich hab die Durchsage nicht verstanden.",
+      "example_en": "I didn't understand the announcement."
+    },
+    {
+      "id": "d-thing-0281",
+      "de": "der Kontrolleur",
+      "de_alt": [],
+      "en": [
+        "ticket inspector",
+        "inspector"
+      ],
+      "pos": "noun",
+      "plural": "die Kontrolleure",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Im Bus waren heute Kontrolleure.",
+      "example_en": "There were ticket inspectors on the bus today."
+    },
+    {
+      "id": "d-thing-0282",
+      "de": "einen Platten haben",
+      "de_alt": [
+        "einen Plattfuß haben"
+      ],
+      "en": [
+        "to have a flat tyre",
+        "to have a flat",
+        "to have a puncture"
+      ],
+      "pos": "phrase",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 3800,
+      "note": "colloquial",
+      "example_de": "Ich komm später, ich hab einen Platten.",
+      "example_en": "I'll be late, I've got a flat tyre."
+    },
+    {
+      "id": "d-thing-0283",
+      "de": "die Fähre",
+      "de_alt": [],
+      "en": [
+        "ferry"
+      ],
+      "pos": "noun",
+      "plural": "die Fähren",
+      "topic": "travel",
+      "level": "A2",
+      "rank": 3800,
+      "example_de": "Wir fahren mit der Fähre auf die Insel.",
+      "example_en": "We're taking the ferry to the island."
+    },
+    {
+      "id": "d-thing-0284",
+      "de": "die Salbe",
+      "de_alt": [
+        "die Creme"
+      ],
+      "en": [
+        "ointment",
+        "cream"
+      ],
+      "pos": "noun",
+      "plural": "die Salben",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Schmier dir die Salbe zweimal am Tag drauf.",
+      "example_en": "Put the ointment on twice a day."
+    },
+    {
+      "id": "d-thing-0285",
+      "de": "der Verband",
+      "de_alt": [],
+      "en": [
+        "bandage",
+        "dressing"
+      ],
+      "pos": "noun",
+      "plural": "die Verbände",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3800,
+      "note": "also: association, club",
+      "example_de": "Der Verband muss jeden Tag gewechselt werden.",
+      "example_en": "The bandage needs changing every day."
+    },
+    {
+      "id": "d-thing-0286",
+      "de": "jucken",
+      "de_alt": [],
+      "en": [
+        "to itch"
+      ],
+      "pos": "verb",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3800,
+      "note": "Es juckt. = It itches. Das juckt mich nicht. = I don't care.",
+      "example_de": "Der Mückenstich juckt total.",
+      "example_en": "The mosquito bite itches like mad."
+    },
+    {
+      "id": "d-thing-0287",
+      "de": "der Heuschnupfen",
+      "de_alt": [],
+      "en": [
+        "hay fever"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "health",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Im Mai geht mein Heuschnupfen wieder los.",
+      "example_en": "My hay fever starts again in May."
+    },
+    {
+      "id": "d-thing-0288",
+      "de": "Es gießt in Strömen.",
+      "de_alt": [
+        "Es schüttet.",
+        "Es gießt."
+      ],
+      "en": [
+        "It's pouring",
+        "It's pouring with rain",
+        "It's raining cats and dogs"
+      ],
+      "pos": "phrase",
+      "topic": "weather",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Bleib lieber drin, es gießt in Strömen.",
+      "example_en": "Better stay in, it's pouring."
+    },
+    {
+      "id": "d-thing-0289",
+      "de": "der Schauer",
+      "de_alt": [
+        "der Regenschauer"
+      ],
+      "en": [
+        "shower",
+        "rain shower"
+      ],
+      "pos": "noun",
+      "plural": "die Schauer",
+      "topic": "weather",
+      "level": "B1",
+      "rank": 3800,
+      "note": "a short rain shower; the shower you wash in = die Dusche",
+      "example_de": "Am Nachmittag gibt es vereinzelt Schauer.",
+      "example_en": "There'll be scattered showers in the afternoon."
+    },
+    {
+      "id": "d-thing-0290",
+      "de": "klatschnass",
+      "de_alt": [
+        "pitschnass"
+      ],
+      "en": [
+        "soaking wet",
+        "soaked",
+        "drenched"
+      ],
+      "pos": "adj",
+      "topic": "weather",
+      "level": "B1",
+      "rank": 3800,
+      "note": "colloquial",
+      "example_de": "Ich bin auf dem Heimweg klatschnass geworden.",
+      "example_en": "I got soaking wet on the way home."
+    },
+    {
+      "id": "d-thing-0291",
+      "de": "die Sandale",
+      "de_alt": [],
+      "en": [
+        "sandal"
+      ],
+      "pos": "noun",
+      "plural": "die Sandalen",
+      "topic": "clothing",
+      "level": "A2",
+      "rank": 3800,
+      "example_de": "Im Sommer trage ich nur Sandalen.",
+      "example_en": "In summer I only wear sandals."
+    },
+    {
+      "id": "d-thing-0292",
+      "de": "der Schnürsenkel",
+      "de_alt": [
+        "der Schnürriemen"
+      ],
+      "en": [
+        "shoelace",
+        "lace"
+      ],
+      "pos": "noun",
+      "plural": "die Schnürsenkel",
+      "topic": "clothing",
+      "level": "B1",
+      "rank": 3800,
+      "example_de": "Dein Schnürsenkel ist offen.",
+      "example_en": "Your shoelace is undone."
+    },
+    {
+      "id": "d-thing-0293",
+      "de": "fegen",
+      "de_alt": [
+        "kehren"
+      ],
+      "en": [
+        "to sweep"
+      ],
+      "pos": "verb",
+      "topic": "home",
+      "level": "B1",
+      "rank": 4000,
+      "example_de": "Nach der Party müssen wir die Küche fegen.",
+      "example_en": "After the party we have to sweep the kitchen."
+    },
+    {
+      "id": "d-thing-0294",
+      "de": "das Vollkornbrot",
+      "de_alt": [],
+      "en": [
+        "wholemeal bread",
+        "whole wheat bread",
+        "wholegrain bread"
+      ],
+      "pos": "noun",
+      "plural": "die Vollkornbrote",
+      "topic": "food",
+      "level": "B1",
+      "rank": 4000,
+      "example_de": "Meine Mutter kauft nur noch Vollkornbrot.",
+      "example_en": "My mum only buys wholemeal bread now."
+    },
+    {
+      "id": "d-thing-0295",
+      "de": "der Frischkäse",
+      "de_alt": [],
+      "en": [
+        "cream cheese"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "B1",
+      "rank": 4000,
+      "example_de": "Ich hätte gern ein Bagel mit Frischkäse.",
+      "example_en": "I'd like a bagel with cream cheese."
+    },
+    {
+      "id": "d-thing-0296",
+      "de": "der Metzger",
+      "de_alt": [
+        "der Fleischer"
+      ],
+      "en": [
+        "butcher",
+        "butcher's"
+      ],
+      "pos": "noun",
+      "plural": "die Metzger",
+      "topic": "shopping",
+      "level": "A2",
+      "rank": 4000,
+      "note": "Fleischer is northern German",
+      "example_de": "Die Würstchen vom Metzger schmecken viel besser.",
+      "example_en": "The sausages from the butcher taste much better."
+    },
+    {
+      "id": "d-thing-0297",
+      "de": "schwarzfahren",
+      "de_alt": [],
+      "en": [
+        "to dodge the fare",
+        "to ride without a ticket",
+        "to fare-dodge"
+      ],
+      "pos": "verb",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 4000,
+      "note": "separable: ich fahre schwarz; Perfekt: ist schwarzgefahren",
+      "example_de": "Wer schwarzfährt, zahlt sechzig Euro Strafe.",
+      "example_en": "If you ride without a ticket, you pay a sixty-euro fine."
+    },
+    {
+      "id": "d-thing-0298",
+      "de": "der Hustensaft",
+      "de_alt": [],
+      "en": [
+        "cough syrup",
+        "cough medicine",
+        "cough mixture"
+      ],
+      "pos": "noun",
+      "plural": "die Hustensäfte",
+      "topic": "health",
+      "level": "B1",
+      "rank": 4000,
+      "example_de": "Der Hustensaft schmeckt total eklig.",
+      "example_en": "The cough syrup tastes really disgusting."
+    },
+    {
+      "id": "d-thing-0299",
+      "de": "der Gips",
+      "de_alt": [],
+      "en": [
+        "cast",
+        "plaster cast",
+        "plaster"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "health",
+      "level": "B1",
+      "rank": 4000,
+      "example_de": "Mein Arm ist sechs Wochen in Gips.",
+      "example_en": "My arm is in a cast for six weeks."
+    },
+    {
+      "id": "d-thing-0300",
+      "de": "die Hitzewelle",
+      "de_alt": [],
+      "en": [
+        "heatwave",
+        "heat wave"
+      ],
+      "pos": "noun",
+      "plural": "die Hitzewellen",
+      "topic": "weather",
+      "level": "B1",
+      "rank": 4000,
+      "example_de": "Wegen der Hitzewelle haben wir hitzefrei.",
+      "example_en": "Because of the heatwave we've got the afternoon off school."
+    },
+    {
+      "id": "d-thing-0301",
+      "de": "der Schneemann",
+      "de_alt": [],
+      "en": [
+        "snowman"
+      ],
+      "pos": "noun",
+      "plural": "die Schneemänner",
+      "topic": "weather",
+      "level": "A2",
+      "rank": 4000,
+      "example_de": "Wir haben mit den Kleinen einen Schneemann gebaut.",
+      "example_en": "We built a snowman with the little ones."
+    },
+    {
+      "id": "d-thing-0302",
+      "de": "die Strumpfhose",
+      "de_alt": [],
+      "en": [
+        "tights",
+        "pantyhose"
+      ],
+      "pos": "noun",
+      "plural": "die Strumpfhosen",
+      "topic": "clothing",
+      "level": "B1",
+      "rank": 4000,
+      "example_de": "Meine Strumpfhose hat schon wieder ein Loch.",
+      "example_en": "My tights have got a hole in them again."
+    },
+    {
+      "id": "d-thing-0303",
+      "de": "das Spülmittel",
+      "de_alt": [],
+      "en": [
+        "washing-up liquid",
+        "dish soap"
+      ],
+      "pos": "noun",
+      "plural": "die Spülmittel",
+      "topic": "home",
+      "level": "B1",
+      "rank": 4200,
+      "example_de": "Das Spülmittel ist fast leer.",
+      "example_en": "The washing-up liquid is almost empty."
+    },
+    {
+      "id": "d-thing-0304",
+      "de": "der Nachttisch",
+      "de_alt": [],
+      "en": [
+        "bedside table",
+        "nightstand"
+      ],
+      "pos": "noun",
+      "plural": "die Nachttische",
+      "topic": "home",
+      "level": "B1",
+      "rank": 4200,
+      "example_de": "Mein Handy liegt nachts auf dem Nachttisch.",
+      "example_en": "My phone lies on the bedside table at night."
+    },
+    {
+      "id": "d-thing-0305",
+      "de": "der Kleiderbügel",
+      "de_alt": [
+        "der Bügel"
+      ],
+      "en": [
+        "hanger",
+        "coat hanger",
+        "clothes hanger"
+      ],
+      "pos": "noun",
+      "plural": "die Kleiderbügel",
+      "topic": "home",
+      "level": "B1",
+      "rank": 4200,
+      "example_de": "Häng die Jacke auf einen Kleiderbügel.",
+      "example_en": "Hang the jacket on a hanger."
+    },
+    {
+      "id": "d-thing-0306",
+      "de": "der Blumenkohl",
+      "de_alt": [],
+      "en": [
+        "cauliflower"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "food",
+      "level": "A2",
+      "rank": 4200,
+      "example_de": "Blumenkohl mag ich nur mit Käse überbacken.",
+      "example_en": "I only like cauliflower baked with cheese on top."
+    },
+    {
+      "id": "d-thing-0307",
+      "de": "die Linse",
+      "de_alt": [],
+      "en": [
+        "lentil"
+      ],
+      "pos": "noun",
+      "plural": "die Linsen",
+      "topic": "food",
+      "level": "B1",
+      "rank": 4200,
+      "note": "also: lens",
+      "example_de": "Heute gibt es Linsensuppe in der Mensa.",
+      "example_en": "There's lentil soup in the canteen today."
+    },
+    {
+      "id": "d-thing-0308",
+      "de": "die Endstation",
+      "de_alt": [
+        "die Endhaltestelle"
+      ],
+      "en": [
+        "last stop",
+        "terminus",
+        "end of the line"
+      ],
+      "pos": "noun",
+      "plural": "die Endstationen",
+      "topic": "travel",
+      "level": "B1",
+      "rank": 4200,
+      "example_de": "Ich bin eingeschlafen und erst an der Endstation aufgewacht.",
+      "example_en": "I fell asleep and only woke up at the last stop."
+    },
+    {
+      "id": "d-thing-0309",
+      "de": "die Umleitung",
+      "de_alt": [
+        "der Umweg"
+      ],
+      "en": [
+        "diversion",
+        "detour"
+      ],
+      "pos": "noun",
+      "plural": "die Umleitungen",
+      "topic": "city",
+      "level": "B1",
+      "rank": 4200,
+      "example_de": "Wegen einer Umleitung hält der Bus hier nicht.",
+      "example_en": "Because of a diversion the bus doesn't stop here."
+    },
+    {
+      "id": "d-thing-0310",
+      "de": "geschwollen",
+      "de_alt": [],
+      "en": [
+        "swollen"
+      ],
+      "pos": "adj",
+      "topic": "health",
+      "level": "B1",
+      "rank": 4200,
+      "example_de": "Mein Knöchel ist ganz geschwollen.",
+      "example_en": "My ankle is really swollen."
+    },
+    {
+      "id": "d-thing-0311",
+      "de": "der Mückenstich",
+      "de_alt": [
+        "der Stich"
+      ],
+      "en": [
+        "mosquito bite",
+        "insect bite",
+        "bite"
+      ],
+      "pos": "noun",
+      "plural": "die Mückenstiche",
+      "topic": "health",
+      "level": "B1",
+      "rank": 4200,
+      "example_de": "Ich hab überall Mückenstiche vom Zelten.",
+      "example_en": "I've got mosquito bites everywhere from camping."
+    },
+    {
+      "id": "d-thing-0312",
+      "de": "nieseln",
+      "de_alt": [],
+      "en": [
+        "to drizzle"
+      ],
+      "pos": "verb",
+      "topic": "weather",
+      "level": "B1",
+      "rank": 4200,
+      "note": "Es nieselt. = It's drizzling.",
+      "example_de": "Es nieselt nur, wir können trotzdem los.",
+      "example_en": "It's only drizzling, we can still go."
+    },
+    {
+      "id": "d-thing-0313",
+      "de": "der Hagel",
+      "de_alt": [],
+      "en": [
+        "hail"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "weather",
+      "level": "B1",
+      "rank": 4200,
+      "note": "es hagelt = it's hailing",
+      "example_de": "Der Hagel hat Löcher in die Blätter gemacht.",
+      "example_en": "The hail made holes in the leaves."
+    },
+    {
+      "id": "d-thing-0314",
+      "de": "die Pfütze",
+      "de_alt": [],
+      "en": [
+        "puddle"
+      ],
+      "pos": "noun",
+      "plural": "die Pfützen",
+      "topic": "weather",
+      "level": "B1",
+      "rank": 4200,
+      "example_de": "Ein Auto ist durch die Pfütze gefahren und ich bin klatschnass.",
+      "example_en": "A car drove through the puddle and I'm soaked."
+    },
+    {
+      "id": "d-thing-0315",
+      "de": "gestreift",
+      "de_alt": [],
+      "en": [
+        "striped",
+        "stripy"
+      ],
+      "pos": "adj",
+      "topic": "clothing",
+      "level": "B1",
+      "rank": 4200,
+      "example_de": "Ich suche ein gestreiftes T-Shirt.",
+      "example_en": "I'm looking for a striped T-shirt."
+    },
+    {
+      "id": "d-thing-0316",
+      "de": "das Geschirrtuch",
+      "de_alt": [],
+      "en": [
+        "tea towel",
+        "dish towel"
+      ],
+      "pos": "noun",
+      "plural": "die Geschirrtücher",
+      "topic": "home",
+      "level": "B1",
+      "rank": 4500,
+      "example_de": "Nimm ein frisches Geschirrtuch zum Abtrocknen.",
+      "example_en": "Use a clean tea towel for drying."
+    },
+    {
+      "id": "d-thing-0317",
+      "de": "die Kommode",
+      "de_alt": [],
+      "en": [
+        "chest of drawers",
+        "dresser"
+      ],
+      "pos": "noun",
+      "plural": "die Kommoden",
+      "topic": "home",
+      "level": "B1",
+      "rank": 4500,
+      "example_de": "Die Socken sind in der Kommode ganz unten.",
+      "example_en": "The socks are at the very bottom of the chest of drawers."
+    },
+    {
+      "id": "d-thing-0318",
+      "de": "der Schraubenzieher",
+      "de_alt": [
+        "der Schraubendreher"
+      ],
+      "en": [
+        "screwdriver"
+      ],
+      "pos": "noun",
+      "plural": "die Schraubenzieher",
+      "topic": "home",
+      "level": "B1",
+      "rank": 4500,
+      "example_de": "Hast du einen kleinen Schraubenzieher für den Controller?",
+      "example_en": "Have you got a small screwdriver for the controller?"
+    },
+    {
+      "id": "d-thing-0319",
+      "de": "die Einbahnstraße",
+      "de_alt": [],
+      "en": [
+        "one-way street"
+      ],
+      "pos": "noun",
+      "plural": "die Einbahnstraßen",
+      "topic": "city",
+      "level": "B1",
+      "rank": 4500,
+      "example_de": "Da darfst du nicht rein, das ist eine Einbahnstraße.",
+      "example_en": "You can't go in there, it's a one-way street."
+    },
+    {
+      "id": "d-thing-0320",
+      "de": "kariert",
+      "de_alt": [],
+      "en": [
+        "checked",
+        "plaid",
+        "checkered"
+      ],
+      "pos": "adj",
+      "topic": "clothing",
+      "level": "B1",
+      "rank": 4500,
+      "note": "also: squared (paper)",
+      "example_de": "Mein Opa trägt immer karierte Hemden.",
+      "example_en": "My grandpa always wears checked shirts."
+    },
+    {
+      "id": "d-thing-0321",
+      "de": "die Baumwolle",
+      "de_alt": [],
+      "en": [
+        "cotton"
+      ],
+      "pos": "noun",
+      "plural": "—",
+      "topic": "clothing",
+      "level": "B1",
+      "rank": 4500,
+      "example_de": "Das T-Shirt ist aus hundert Prozent Baumwolle.",
+      "example_en": "The T-shirt is a hundred percent cotton."
+    },
+    {
+      "id": "d-thing-0322",
+      "de": "der Tacker",
+      "de_alt": [
+        "der Hefter"
+      ],
+      "en": [
+        "stapler"
+      ],
+      "pos": "noun",
+      "plural": "die Tacker",
+      "topic": "school",
+      "level": "B1",
+      "rank": 4800,
+      "example_de": "Gibt es hier irgendwo einen Tacker?",
+      "example_en": "Is there a stapler anywhere here?"
+    },
+    {
+      "id": "d-thing-0323",
+      "de": "die Büroklammer",
+      "de_alt": [],
+      "en": [
+        "paper clip",
+        "paperclip"
+      ],
+      "pos": "noun",
+      "plural": "die Büroklammern",
+      "topic": "school",
+      "level": "B1",
+      "rank": 4800,
+      "example_de": "Mach die Blätter mit einer Büroklammer zusammen.",
+      "example_en": "Put the sheets together with a paper clip."
+    },
+    {
+      "id": "d-thing-0324",
+      "de": "die Bohrmaschine",
+      "de_alt": [
+        "der Bohrer"
+      ],
+      "en": [
+        "drill",
+        "power drill"
+      ],
+      "pos": "noun",
+      "plural": "die Bohrmaschinen",
+      "topic": "home",
+      "level": "B2",
+      "rank": 5000,
+      "note": "bohren = to drill",
+      "example_de": "Mein Vater leiht sich die Bohrmaschine vom Nachbarn.",
+      "example_en": "My dad is borrowing the neighbour's drill."
+    }
+  ]
+}
