@@ -277,7 +277,9 @@
     {
       "id": "d-noun-0018",
       "de": "die Oma",
-      "de_alt": [],
+      "de_alt": [
+        "die Omi"
+      ],
       "en": [
         "grandma",
         "granny",
@@ -288,7 +290,7 @@
       "topic": "family",
       "level": "A1",
       "rank": 1700,
-      "note": "informal",
+      "note": "informal; affectionate: die Omi",
       "example_de": "Am Sonntag besuchen wir Oma.",
       "example_en": "On Sunday we're visiting Grandma."
     },
@@ -360,7 +362,10 @@
     {
       "id": "d-noun-0023",
       "de": "der Cousin",
-      "de_alt": [],
+      "de_alt": [
+        "die Cousine",
+        "die Kusine"
+      ],
       "en": [
         "cousin"
       ],
@@ -369,27 +374,9 @@
       "topic": "family",
       "level": "A1",
       "rank": 3500,
-      "note": "male cousin; pronounced as in French",
+      "note": "male cousin; pronounced as in French; female: die Cousine",
       "example_de": "Mein Cousin spielt Fußball.",
       "example_en": "My cousin plays football."
-    },
-    {
-      "id": "d-noun-0024",
-      "de": "die Cousine",
-      "de_alt": [
-        "die Kusine"
-      ],
-      "en": [
-        "cousin"
-      ],
-      "pos": "noun",
-      "plural": "die Cousinen",
-      "topic": "family",
-      "level": "A1",
-      "rank": 3600,
-      "note": "female cousin",
-      "example_de": "Meine Cousine kommt morgen zu Besuch.",
-      "example_en": "My cousin is visiting tomorrow."
     },
     {
       "id": "d-noun-0025",
@@ -461,7 +448,9 @@
     {
       "id": "d-noun-0029",
       "de": "der Freund",
-      "de_alt": [],
+      "de_alt": [
+        "die Freundin"
+      ],
       "en": [
         "friend",
         "boyfriend"
@@ -471,31 +460,16 @@
       "topic": "family",
       "level": "A1",
       "rank": 350,
-      "note": "\"mein Freund\" often means \"my boyfriend\"",
+      "note": "\"mein Freund\" often means \"my boyfriend\"; female: die Freundin",
       "example_de": "Ich treffe heute meinen besten Freund.",
       "example_en": "I'm meeting my best friend today."
     },
     {
-      "id": "d-noun-0030",
-      "de": "die Freundin",
-      "de_alt": [],
-      "en": [
-        "friend",
-        "girlfriend"
-      ],
-      "pos": "noun",
-      "plural": "die Freundinnen",
-      "topic": "family",
-      "level": "A1",
-      "rank": 900,
-      "note": "\"meine Freundin\" often means \"my girlfriend\"",
-      "example_de": "Sie geht mit ihrer Freundin ins Kino.",
-      "example_en": "She's going to the cinema with her friend."
-    },
-    {
       "id": "d-noun-0031",
       "de": "der Nachbar",
-      "de_alt": [],
+      "de_alt": [
+        "die Nachbarin"
+      ],
       "en": [
         "neighbour",
         "neighbor"
@@ -505,7 +479,7 @@
       "topic": "family",
       "level": "A2",
       "rank": 2100,
-      "note": "n-declension: den Nachbarn",
+      "note": "n-declension: den Nachbarn; female: die Nachbarin",
       "example_de": "Unser Nachbar hat einen lauten Hund.",
       "example_en": "Our neighbour has a loud dog."
     },
@@ -2399,6 +2373,7 @@
       "topic": "body",
       "level": "A2",
       "rank": 800,
+      "note": "in physics also: an object, a solid",
       "example_de": "Sport ist gut für den Körper.",
       "example_en": "Sport is good for your body."
     },
@@ -2808,7 +2783,8 @@
       "id": "d-noun-0175",
       "de": "der Arzt",
       "de_alt": [
-        "der Doktor"
+        "der Doktor",
+        "die Ärztin"
       ],
       "en": [
         "doctor",
@@ -3486,7 +3462,9 @@
     {
       "id": "d-noun-0216",
       "de": "der Schüler",
-      "de_alt": [],
+      "de_alt": [
+        "die Schülerin"
+      ],
       "en": [
         "pupil",
         "student",
@@ -3502,26 +3480,11 @@
       "example_en": "There are 28 pupils in my class."
     },
     {
-      "id": "d-noun-0217",
-      "de": "die Schülerin",
-      "de_alt": [],
-      "en": [
-        "pupil",
-        "student",
-        "schoolgirl"
-      ],
-      "pos": "noun",
-      "plural": "die Schülerinnen",
-      "topic": "school",
-      "level": "A1",
-      "rank": 2500,
-      "example_de": "Sie ist eine sehr gute Schülerin.",
-      "example_en": "She's a very good student."
-    },
-    {
       "id": "d-noun-0218",
       "de": "der Lehrer",
-      "de_alt": [],
+      "de_alt": [
+        "die Lehrerin"
+      ],
       "en": [
         "teacher"
       ],
@@ -3535,24 +3498,11 @@
       "example_en": "Our teacher is ill today."
     },
     {
-      "id": "d-noun-0219",
-      "de": "die Lehrerin",
-      "de_alt": [],
-      "en": [
-        "teacher"
-      ],
-      "pos": "noun",
-      "plural": "die Lehrerinnen",
-      "topic": "school",
-      "level": "A1",
-      "rank": 2300,
-      "example_de": "Die neue Lehrerin ist sehr nett.",
-      "example_en": "The new teacher is very nice."
-    },
-    {
       "id": "d-noun-0220",
       "de": "der Student",
-      "de_alt": [],
+      "de_alt": [
+        "die Studentin"
+      ],
       "en": [
         "student",
         "university student"
@@ -3562,7 +3512,7 @@
       "topic": "school",
       "level": "A1",
       "rank": 1400,
-      "note": "n-declension; only for university students",
+      "note": "n-declension; only for university students; female: die Studentin",
       "example_de": "Mein Bruder ist Student in Köln.",
       "example_en": "My brother is a student in Cologne."
     },
@@ -3954,6 +3904,7 @@
       "topic": "school",
       "level": "A1",
       "rank": 600,
+      "note": "die Ziffer = digit",
       "example_de": "Denk dir eine Zahl zwischen eins und zehn aus.",
       "example_en": "Think of a number between one and ten."
     },
@@ -4049,6 +4000,7 @@
       "topic": "school",
       "level": "A1",
       "rank": 1100,
+      "note": "in computing also: a bug (der Bug)",
       "example_de": "Ich habe drei Fehler im Test gemacht.",
       "example_en": "I made three mistakes in the test."
     },
@@ -4217,6 +4169,7 @@
       "topic": "work",
       "level": "A1",
       "rank": 250,
+      "note": "in physics: work = force × distance (Joule)",
       "example_de": "Mein Vater ist noch bei der Arbeit.",
       "example_en": "My dad is still at work."
     },
@@ -4341,7 +4294,9 @@
     {
       "id": "d-noun-0267",
       "de": "der Kollege",
-      "de_alt": [],
+      "de_alt": [
+        "die Kollegin"
+      ],
       "en": [
         "colleague",
         "coworker"
@@ -4462,7 +4417,9 @@
     {
       "id": "d-noun-0274",
       "de": "der Polizist",
-      "de_alt": [],
+      "de_alt": [
+        "die Polizistin"
+      ],
       "en": [
         "police officer",
         "policeman"
@@ -4507,7 +4464,7 @@
       "topic": "work",
       "level": "A2",
       "rank": 3200,
-      "note": "female: die Ingenieurin",
+      "note": "female: die Ingenieurin; pronounced „In-schen-jöhr“",
       "example_de": "Mein Vater ist Ingenieur bei einer Autofirma.",
       "example_en": "My dad is an engineer at a car company."
     },
@@ -4553,7 +4510,8 @@
       "id": "d-noun-0279",
       "de": "der Anwalt",
       "de_alt": [
-        "der Rechtsanwalt"
+        "der Rechtsanwalt",
+        "die Anwältin"
       ],
       "en": [
         "lawyer",
@@ -4572,7 +4530,9 @@
     {
       "id": "d-noun-0280",
       "de": "der Künstler",
-      "de_alt": [],
+      "de_alt": [
+        "die Künstlerin"
+      ],
       "en": [
         "artist"
       ],
@@ -4729,7 +4689,7 @@
       "topic": "work",
       "level": "A2",
       "rank": 2200,
-      "note": "female: die Schauspielerin",
+      "note": "female: die Schauspielerin = actress",
       "example_de": "Der Schauspieler ist in Hollywood berühmt.",
       "example_en": "The actor is famous in Hollywood."
     },
@@ -5655,7 +5615,9 @@
     {
       "id": "d-noun-0345",
       "de": "der Kunde",
-      "de_alt": [],
+      "de_alt": [
+        "die Kundin"
+      ],
       "en": [
         "customer",
         "client"
@@ -5820,6 +5782,7 @@
       "topic": "shopping",
       "level": "B1",
       "rank": 900,
+      "note": "in maths: the result of a multiplication",
       "example_de": "Dieses Produkt ist nachhaltig.",
       "example_en": "This product is sustainable."
     },
@@ -7016,7 +6979,7 @@
       "topic": "nature",
       "level": "A2",
       "rank": 1400,
-      "note": "after numbers: 20 Grad",
+      "note": "after numbers: 20 Grad (Celsius); also angles: 90 Grad",
       "example_de": "Heute sind es nur zwei Grad.",
       "example_en": "It's only two degrees today."
     },
@@ -7514,7 +7477,7 @@
       "topic": "animals",
       "level": "A1",
       "rank": 3000,
-      "note": "Schwein haben = to be lucky",
+      "note": "Schwein haben = to be lucky; calling someone \"Schwein\" is rude",
       "example_de": "Das Schwein liegt im Schlamm.",
       "example_en": "The pig is lying in the mud."
     },
@@ -8043,7 +8006,9 @@
     {
       "id": "d-noun-0494",
       "de": "die App",
-      "de_alt": [],
+      "de_alt": [
+        "die Anwendung"
+      ],
       "en": [
         "app",
         "application"
@@ -8078,7 +8043,9 @@
     {
       "id": "d-noun-0496",
       "de": "das Passwort",
-      "de_alt": [],
+      "de_alt": [
+        "das Kennwort"
+      ],
       "en": [
         "password"
       ],
@@ -8093,7 +8060,10 @@
     {
       "id": "d-noun-0497",
       "de": "der Bildschirm",
-      "de_alt": [],
+      "de_alt": [
+        "der Monitor",
+        "das Display"
+      ],
       "en": [
         "screen",
         "monitor",
@@ -8119,6 +8089,7 @@
       "topic": "technology",
       "level": "A2",
       "rank": 5000,
+      "note": "die Taste = key",
       "example_de": "Die Tastatur ist voller Krümel.",
       "example_en": "The keyboard is full of crumbs."
     },
@@ -8167,7 +8138,7 @@
       "topic": "technology",
       "level": "A2",
       "rank": 3500,
-      "note": "a computer file",
+      "note": "a computer file; false friend: not „data“ (= die Daten)",
       "example_de": "Kannst du mir die Datei schicken?",
       "example_en": "Can you send me the file?"
     },
@@ -8288,6 +8259,7 @@
       "topic": "technology",
       "level": "B1",
       "rank": 1200,
+      "note": "Technologie is used for high-tech fields",
       "example_de": "Mein Opa versteht die Technik nicht.",
       "example_en": "My grandpa doesn't understand technology."
     },
@@ -10449,6 +10421,7 @@
       "topic": "society",
       "level": "B1",
       "rank": 700,
+      "note": "das Naturgesetz = law of nature",
       "example_de": "Das ist gegen das Gesetz.",
       "example_en": "That's against the law."
     },

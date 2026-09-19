@@ -467,22 +467,6 @@
       "example_en": "A base neutralises an acid."
     },
     {
-      "id": "s-chem-0030",
-      "de": "sauer",
-      "de_alt": [],
-      "en": [
-        "acidic",
-        "sour"
-      ],
-      "pos": "adj",
-      "topic": "reactions",
-      "level": "A2",
-      "rank": 145,
-      "note": "colloquially also: annoyed",
-      "example_de": "Die Lösung ist leicht sauer.",
-      "example_en": "The solution is slightly acidic."
-    },
-    {
       "id": "s-chem-0031",
       "de": "basisch",
       "de_alt": [
@@ -498,20 +482,6 @@
       "rank": 150,
       "example_de": "Seifenlauge ist basisch.",
       "example_en": "Soapy water is alkaline."
-    },
-    {
-      "id": "s-chem-0032",
-      "de": "neutral",
-      "de_alt": [],
-      "en": [
-        "neutral"
-      ],
-      "pos": "adj",
-      "topic": "reactions",
-      "level": "B1",
-      "rank": 155,
-      "example_de": "Reines Wasser ist neutral.",
-      "example_en": "Pure water is neutral."
     },
     {
       "id": "s-chem-0033",
@@ -579,21 +549,6 @@
       "example_en": "Cables are mostly made of copper."
     },
     {
-      "id": "s-chem-0037",
-      "de": "das Salz",
-      "de_alt": [],
-      "en": [
-        "salt"
-      ],
-      "pos": "noun",
-      "plural": "die Salze",
-      "topic": "elements",
-      "level": "A2",
-      "rank": 180,
-      "example_de": "Salze entstehen, wenn Säuren und Basen reagieren.",
-      "example_en": "Salts form when acids and bases react."
-    },
-    {
       "id": "s-chem-0038",
       "de": "das Kohlendioxid",
       "de_alt": [
@@ -658,23 +613,6 @@
       "note": "reagieren mit = to react with",
       "example_de": "Natrium reagiert heftig mit Wasser.",
       "example_en": "Sodium reacts violently with water."
-    },
-    {
-      "id": "s-chem-0042",
-      "de": "entstehen",
-      "de_alt": [],
-      "en": [
-        "to form",
-        "to be produced",
-        "to arise"
-      ],
-      "pos": "verb",
-      "topic": "reactions",
-      "level": "B1",
-      "rank": 205,
-      "note": "Perfekt: ist entstanden",
-      "example_de": "Bei der Reaktion entstehen Blasen.",
-      "example_en": "Bubbles form during the reaction."
     },
     {
       "id": "s-chem-0043",

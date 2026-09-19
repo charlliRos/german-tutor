@@ -49,21 +49,6 @@
       "example_en": "We measure the temperature every minute."
     },
     {
-      "id": "s-phys-0004",
-      "de": "die Energie",
-      "de_alt": [],
-      "en": [
-        "energy"
-      ],
-      "pos": "noun",
-      "plural": "die Energien",
-      "topic": "energy",
-      "level": "A2",
-      "rank": 17,
-      "example_de": "Die Sonne liefert uns Energie.",
-      "example_en": "The sun supplies us with energy."
-    },
-    {
       "id": "s-phys-0005",
       "de": "die Kraft",
       "de_alt": [],
@@ -127,21 +112,6 @@
       "rank": 37,
       "example_de": "Die Geschwindigkeit wird in Metern pro Sekunde gemessen.",
       "example_en": "Speed is measured in metres per second."
-    },
-    {
-      "id": "s-phys-0009",
-      "de": "die Temperatur",
-      "de_alt": [],
-      "en": [
-        "temperature"
-      ],
-      "pos": "noun",
-      "plural": "die Temperaturen",
-      "topic": "energy",
-      "level": "A2",
-      "rank": 42,
-      "example_de": "Die Temperatur steigt auf 80 Grad.",
-      "example_en": "The temperature rises to 80 degrees."
     },
     {
       "id": "s-phys-0010",
@@ -210,21 +180,6 @@
       "rank": 62,
       "example_de": "Wir wiederholen die Messung dreimal.",
       "example_en": "We repeat the measurement three times."
-    },
-    {
-      "id": "s-phys-0014",
-      "de": "das Licht",
-      "de_alt": [],
-      "en": [
-        "light"
-      ],
-      "pos": "noun",
-      "plural": "die Lichter",
-      "topic": "waves",
-      "level": "A2",
-      "rank": 67,
-      "example_de": "Licht ist schneller als Schall.",
-      "example_en": "Light is faster than sound."
     },
     {
       "id": "s-phys-0015",
@@ -414,22 +369,6 @@
       "note": "in physics: power (Watt); also: achievement, grades",
       "example_de": "Der Föhn hat eine Leistung von 2000 Watt.",
       "example_en": "The hair dryer has a power of 2000 watts."
-    },
-    {
-      "id": "s-phys-0027",
-      "de": "die Arbeit",
-      "de_alt": [],
-      "en": [
-        "work"
-      ],
-      "pos": "noun",
-      "plural": "die Arbeiten",
-      "topic": "energy",
-      "level": "A2",
-      "rank": 129,
-      "note": "in physics: work = force × distance (Joule)",
-      "example_de": "Beim Heben wird Arbeit verrichtet.",
-      "example_en": "Work is done when lifting."
     },
     {
       "id": "s-phys-0028",
@@ -702,21 +641,6 @@
       "example_en": "The lens focuses the light."
     },
     {
-      "id": "s-phys-0045",
-      "de": "der Spiegel",
-      "de_alt": [],
-      "en": [
-        "mirror"
-      ],
-      "pos": "noun",
-      "plural": "die Spiegel",
-      "topic": "waves",
-      "level": "A2",
-      "rank": 219,
-      "example_de": "Der Spiegel reflektiert das Licht.",
-      "example_en": "The mirror reflects the light."
-    },
-    {
       "id": "s-phys-0046",
       "de": "reflektieren",
       "de_alt": [],
@@ -764,22 +688,6 @@
       "note": "short: das Kilo",
       "example_de": "Ein Liter Wasser wiegt etwa ein Kilogramm.",
       "example_en": "A litre of water weighs about one kilogram."
-    },
-    {
-      "id": "s-phys-0049",
-      "de": "der Grad",
-      "de_alt": [],
-      "en": [
-        "degree"
-      ],
-      "pos": "noun",
-      "plural": "die Grad",
-      "topic": "units",
-      "level": "A2",
-      "rank": 239,
-      "note": "20 Grad Celsius; also angles: 90 Grad",
-      "example_de": "Wasser siedet bei 100 Grad Celsius.",
-      "example_en": "Water boils at 100 degrees Celsius."
     },
     {
       "id": "s-phys-0050",
@@ -923,22 +831,6 @@
       "rank": 284,
       "example_de": "Die Temperatur bleibt konstant.",
       "example_en": "The temperature remains constant."
-    },
-    {
-      "id": "s-phys-0059",
-      "de": "das Gesetz",
-      "de_alt": [],
-      "en": [
-        "law"
-      ],
-      "pos": "noun",
-      "plural": "die Gesetze",
-      "topic": "science",
-      "level": "B1",
-      "rank": 289,
-      "note": "Naturgesetz = law of nature",
-      "example_de": "Das ohmsche Gesetz lautet U = R · I.",
-      "example_en": "Ohm's law is U = R · I."
     },
     {
       "id": "s-phys-0060",

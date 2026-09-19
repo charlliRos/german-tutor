@@ -422,7 +422,7 @@
       "topic": "time",
       "level": "A1",
       "rank": 170,
-      "note": "Ich komme gleich = I'll be there in a sec",
+      "note": "Ich komme gleich = I'll be there in a sec; maths: zwei plus zwei ist gleich vier = two plus two equals four",
       "example_de": "Wir haben die gleichen Schuhe!",
       "example_en": "We've got the same shoes!"
     },
@@ -582,8 +582,8 @@
       "level": "A1",
       "rank": 290,
       "note": "Ist hier noch frei? = Is this seat free?",
-      "example_de": "Morgen haben wir schulfrei.",
-      "example_en": "We have no school tomorrow."
+      "example_de": "Morgen habe ich frei.",
+      "example_en": "I've got the day off tomorrow."
     },
     {
       "id": "d-adj-0037",
@@ -725,37 +725,6 @@
       "rank": 550,
       "example_de": "Das ist eine tolle Idee!",
       "example_en": "That's a great idea!"
-    },
-    {
-      "id": "d-adj-0046",
-      "de": "super",
-      "de_alt": [],
-      "en": [
-        "great",
-        "super"
-      ],
-      "pos": "adj",
-      "topic": "opinion",
-      "level": "A1",
-      "rank": 520,
-      "note": "no endings: ein super Tag",
-      "example_de": "Das Konzert war super!",
-      "example_en": "The concert was great!"
-    },
-    {
-      "id": "d-adj-0047",
-      "de": "cool",
-      "de_alt": [],
-      "en": [
-        "cool"
-      ],
-      "pos": "adj",
-      "topic": "opinion",
-      "level": "A1",
-      "rank": 600,
-      "note": "colloquial",
-      "example_de": "Deine Jacke ist echt cool.",
-      "example_en": "Your jacket is really cool."
     },
     {
       "id": "d-adj-0048",
@@ -1125,7 +1094,7 @@
       "topic": "time",
       "level": "A1",
       "rank": 45,
-      "note": "also used for emphasis: Das ist schon cool.",
+      "note": "filler word: softens or reassures: Das ist schon cool (it IS pretty cool); Das klappt schon (it'll work out)",
       "example_de": "Bist du schon fertig?",
       "example_en": "Are you finished already?"
     },
@@ -1746,6 +1715,7 @@
       "topic": "time",
       "level": "A2",
       "rank": 580,
+      "note": "Na endlich! = Finally! / About time!",
       "example_de": "Endlich Wochenende!",
       "example_en": "Finally, it's the weekend!"
     },
@@ -2668,20 +2638,6 @@
       "example_en": "Typical Monday!"
     },
     {
-      "id": "d-adj-0172",
-      "de": "normal",
-      "de_alt": [],
-      "en": [
-        "normal"
-      ],
-      "pos": "adj",
-      "topic": "basics",
-      "level": "A2",
-      "rank": 800,
-      "example_de": "Ist das normal?",
-      "example_en": "Is that normal?"
-    },
-    {
       "id": "d-adj-0173",
       "de": "komisch",
       "de_alt": [],
@@ -2744,7 +2700,7 @@
       "level": "A2",
       "rank": 1800,
       "example_de": "Ich hatte furchtbare Kopfschmerzen.",
-      "example_en": "I had terrible headaches."
+      "example_en": "I had a terrible headache."
     },
     {
       "id": "d-adj-0177",
@@ -2774,21 +2730,6 @@
       "rank": 1600,
       "example_de": "Wir hatten einen wunderbaren Urlaub.",
       "example_en": "We had a wonderful holiday."
-    },
-    {
-      "id": "d-adj-0179",
-      "de": "fair",
-      "de_alt": [],
-      "en": [
-        "fair"
-      ],
-      "pos": "adj",
-      "topic": "opinion",
-      "level": "B1",
-      "rank": 2600,
-      "note": "unfair = unfair",
-      "example_de": "Das ist nicht fair!",
-      "example_en": "That's not fair!"
     },
     {
       "id": "d-adj-0180",

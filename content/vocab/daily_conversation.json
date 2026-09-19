@@ -770,26 +770,6 @@
       "example_en": "I'm not sure if that's right."
     },
     {
-      "id": "d-conv-0046",
-      "de": "Quatsch!",
-      "de_alt": [
-        "So ein Quatsch!",
-        "Blödsinn!"
-      ],
-      "en": [
-        "nonsense",
-        "rubbish",
-        "no way"
-      ],
-      "pos": "phrase",
-      "topic": "slang",
-      "level": "A2",
-      "rank": 1300,
-      "note": "colloquial",
-      "example_de": "Quatsch, du bist doch nicht dick!",
-      "example_en": "Nonsense, you're not fat!"
-    },
-    {
       "id": "d-conv-0047",
       "de": "Ich hab keinen Bock.",
       "de_alt": [
@@ -1875,21 +1855,6 @@
       "rank": 1600,
       "example_de": "Weißt du was? Ich habe die Rolle bekommen!",
       "example_en": "Guess what? I got the part!"
-    },
-    {
-      "id": "d-conv-0110",
-      "de": "Na endlich!",
-      "de_alt": [],
-      "en": [
-        "finally",
-        "at last"
-      ],
-      "pos": "phrase",
-      "topic": "social",
-      "level": "A2",
-      "rank": 1600,
-      "example_de": "Na endlich! Wir warten seit zwanzig Minuten.",
-      "example_en": "Finally! We've been waiting for twenty minutes."
     },
     {
       "id": "d-conv-0111",

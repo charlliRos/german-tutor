@@ -54,22 +54,6 @@
       "example_en": "Bacteria are tiny living things."
     },
     {
-      "id": "s-bio-0004",
-      "de": "der Körper",
-      "de_alt": [],
-      "en": [
-        "body"
-      ],
-      "pos": "noun",
-      "plural": "die Körper",
-      "topic": "body",
-      "level": "A2",
-      "rank": 19,
-      "note": "in physics also: object, solid",
-      "example_de": "Der menschliche Körper besteht zu 60 Prozent aus Wasser.",
-      "example_en": "The human body is 60 percent water."
-    },
-    {
       "id": "s-bio-0005",
       "de": "das Organ",
       "de_alt": [],
@@ -119,36 +103,6 @@
       "example_en": "DNA is found in the cell nucleus."
     },
     {
-      "id": "s-bio-0008",
-      "de": "die Pflanze",
-      "de_alt": [],
-      "en": [
-        "plant"
-      ],
-      "pos": "noun",
-      "plural": "die Pflanzen",
-      "topic": "ecology",
-      "level": "A2",
-      "rank": 39,
-      "example_de": "Pflanzen brauchen Licht zum Wachsen.",
-      "example_en": "Plants need light to grow."
-    },
-    {
-      "id": "s-bio-0009",
-      "de": "das Blut",
-      "de_alt": [],
-      "en": [
-        "blood"
-      ],
-      "pos": "noun",
-      "plural": "—",
-      "topic": "body",
-      "level": "A2",
-      "rank": 44,
-      "example_de": "Das Herz pumpt Blut durch den Körper.",
-      "example_en": "The heart pumps blood through the body."
-    },
-    {
       "id": "s-bio-0010",
       "de": "das Gehirn",
       "de_alt": [
@@ -173,7 +127,7 @@
         "evolution"
       ],
       "pos": "noun",
-      "plural": "die Evolutionen",
+      "plural": "—",
       "topic": "evolution",
       "level": "B1",
       "rank": 54,
@@ -197,21 +151,6 @@
       "note": "also: way, manner",
       "example_de": "Jedes Jahr sterben viele Arten aus.",
       "example_en": "Many species die out every year."
-    },
-    {
-      "id": "s-bio-0013",
-      "de": "die Umwelt",
-      "de_alt": [],
-      "en": [
-        "environment"
-      ],
-      "pos": "noun",
-      "plural": "—",
-      "topic": "ecology",
-      "level": "A2",
-      "rank": 64,
-      "example_de": "Plastikmüll schadet der Umwelt.",
-      "example_en": "Plastic waste harms the environment."
     },
     {
       "id": "s-bio-0014",
@@ -326,23 +265,6 @@
       "example_en": "The body grows through cell division."
     },
     {
-      "id": "s-bio-0021",
-      "de": "das Bakterium",
-      "de_alt": [],
-      "en": [
-        "bacterium",
-        "bacteria"
-      ],
-      "pos": "noun",
-      "plural": "die Bakterien",
-      "topic": "cells",
-      "level": "B1",
-      "rank": 121,
-      "note": "usually used in the plural: die Bakterien",
-      "example_de": "Nicht jedes Bakterium macht krank.",
-      "example_en": "Not every bacterium makes you ill."
-    },
-    {
       "id": "s-bio-0022",
       "de": "das Virus",
       "de_alt": [
@@ -430,7 +352,6 @@
       "de_alt": [],
       "en": [
         "to pass on",
-        "to inherit",
         "to bequeath"
       ],
       "pos": "verb",
@@ -522,22 +443,6 @@
       "rank": 176,
       "example_de": "Bakterien vermehren sich sehr schnell.",
       "example_en": "Bacteria reproduce very quickly."
-    },
-    {
-      "id": "s-bio-0033",
-      "de": "das Herz",
-      "de_alt": [],
-      "en": [
-        "heart"
-      ],
-      "pos": "noun",
-      "plural": "die Herzen",
-      "topic": "body",
-      "level": "A2",
-      "rank": 181,
-      "note": "irregular: des Herzens, dem Herzen",
-      "example_de": "Das Herz schlägt etwa 70-mal pro Minute.",
-      "example_en": "The heart beats about 70 times a minute."
     },
     {
       "id": "s-bio-0034",
@@ -781,21 +686,6 @@
       "example_en": "The coral reef is a habitat for thousands of species."
     },
     {
-      "id": "s-bio-0049",
-      "de": "der Klimawandel",
-      "de_alt": [],
-      "en": [
-        "climate change"
-      ],
-      "pos": "noun",
-      "plural": "—",
-      "topic": "ecology",
-      "level": "B1",
-      "rank": 261,
-      "example_de": "Der Klimawandel bedroht viele Tierarten.",
-      "example_en": "Climate change threatens many animal species."
-    },
-    {
       "id": "s-bio-0050",
       "de": "aussterben",
       "de_alt": [],
@@ -951,20 +841,6 @@
       "rank": 325,
       "example_de": "Hefe ist ein einzelliger Pilz.",
       "example_en": "Yeast is a single-celled fungus."
-    },
-    {
-      "id": "s-bio-0060",
-      "de": "dominant",
-      "de_alt": [],
-      "en": [
-        "dominant"
-      ],
-      "pos": "adj",
-      "topic": "genetics",
-      "level": "B1",
-      "rank": 330,
-      "example_de": "Das Allel für braune Augen ist dominant.",
-      "example_en": "The allele for brown eyes is dominant."
     },
     {
       "id": "s-bio-0061",
@@ -1253,22 +1129,6 @@
       "rank": 419,
       "example_de": "Die natürliche Selektion begünstigt nützliche Merkmale.",
       "example_en": "Natural selection favours useful traits."
-    },
-    {
-      "id": "s-bio-0079",
-      "de": "der Vorfahre",
-      "de_alt": [],
-      "en": [
-        "ancestor"
-      ],
-      "pos": "noun",
-      "plural": "die Vorfahren",
-      "topic": "evolution",
-      "level": "B1",
-      "rank": 423,
-      "note": "weak noun: den Vorfahren",
-      "example_de": "Mensch und Schimpanse haben einen gemeinsamen Vorfahren.",
-      "example_en": "Humans and chimpanzees share a common ancestor."
     },
     {
       "id": "s-bio-0080",

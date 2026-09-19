@@ -857,7 +857,7 @@
       "en": [
         "plaster",
         "band-aid",
-        "bandage"
+        "sticking plaster"
       ],
       "pos": "noun",
       "plural": "die Pflaster",
@@ -3430,7 +3430,7 @@
       "id": "d-thing-0203",
       "de": "die Mappe",
       "de_alt": [
-        "die Schnellhefter"
+        "der Schnellhefter"
       ],
       "en": [
         "folder",
@@ -4972,7 +4972,7 @@
       "topic": "food",
       "level": "B1",
       "rank": 4000,
-      "example_de": "Ich hätte gern ein Bagel mit Frischkäse.",
+      "example_de": "Ich hätte gern einen Bagel mit Frischkäse.",
       "example_en": "I'd like a bagel with cream cheese."
     },
     {

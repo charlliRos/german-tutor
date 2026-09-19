@@ -563,8 +563,8 @@
       "de": "der Pascha",
       "de_alt": [],
       "en": [
-        "macho",
-        "pasha"
+        "pasha",
+        "macho"
       ],
       "pos": "noun",
       "plural": "die Paschas",
@@ -956,8 +956,8 @@
       "level": "B2",
       "rank": 10293,
       "note": "Perfekt: ist gekippt (fall over) / hat gekippt (tip)",
-      "example_de": "Die Flasche ist umgekippt.",
-      "example_en": "The bottle tipped over."
+      "example_de": "Kipp das Wasser einfach in den Ausguss.",
+      "example_en": "Just tip the water down the sink."
     },
     {
       "id": "d-com3-0061",
@@ -965,8 +965,8 @@
       "de_alt": [],
       "en": [
         "cigarette butt",
-        "fag",
-        "smoke"
+        "smoke",
+        "cig"
       ],
       "pos": "noun",
       "plural": "die Kippen",
@@ -2320,7 +2320,7 @@
       "topic": "slang",
       "level": "B1",
       "rank": 10547,
-      "note": "colloquial for an American",
+      "note": "colloquial for an American; can sound a bit mocking",
       "example_de": "Die Amis feiern Thanksgiving.",
       "example_en": "The Americans celebrate Thanksgiving."
     },
@@ -2876,7 +2876,10 @@
     {
       "id": "d-com3-0180",
       "de": "jap",
-      "de_alt": [],
+      "de_alt": [
+        "japp",
+        "jup"
+      ],
       "en": [
         "yep",
         "yup"
@@ -2928,8 +2931,8 @@
       "de": "verfügen über",
       "de_alt": [],
       "en": [
-        "to have",
-        "to have at one's disposal"
+        "to have at one's disposal",
+        "to have"
       ],
       "pos": "phrase",
       "topic": "basics",
@@ -3065,23 +3068,6 @@
       "example_en": "Let's not rush into anything."
     },
     {
-      "id": "d-com3-0192",
-      "de": "die Gattin",
-      "de_alt": [],
-      "en": [
-        "wife",
-        "spouse"
-      ],
-      "pos": "noun",
-      "plural": "die Gattinnen",
-      "topic": "family",
-      "level": "C1",
-      "rank": 10686,
-      "note": "formal; everyday: die Frau",
-      "example_de": "Der Präsident kam mit seiner Gattin.",
-      "example_en": "The president came with his wife."
-    },
-    {
       "id": "d-com3-0193",
       "de": "östlich",
       "de_alt": [],
@@ -3111,22 +3097,6 @@
       "rank": 10692,
       "example_de": "Ich koche, und du deckst währenddessen den Tisch.",
       "example_en": "I'll cook and meanwhile you lay the table."
-    },
-    {
-      "id": "d-com3-0195",
-      "de": "töricht",
-      "de_alt": [],
-      "en": [
-        "foolish",
-        "silly"
-      ],
-      "pos": "adj",
-      "topic": "opinion",
-      "level": "C1",
-      "rank": 10693,
-      "note": "old-fashioned; everyday: dumm",
-      "example_de": "Das war eine törichte Entscheidung.",
-      "example_en": "That was a foolish decision."
     },
     {
       "id": "d-com3-0196",
@@ -3888,7 +3858,7 @@
       "topic": "slang",
       "level": "B2",
       "rank": 10849,
-      "note": "slang; also an insult: wimp",
+      "note": "slang for driving licence; first meaning: rag, cloth (der Putzlappen); also an insult: wimp",
       "example_de": "Endlich hab ich meinen Lappen!",
       "example_en": "I've finally got my driving licence!"
     },
@@ -4594,7 +4564,7 @@
       "topic": "description",
       "level": "B1",
       "rank": 10952,
-      "note": "pointed (a sharp blade = scharf); slang: spitz sein = to be horny",
+      "note": "pointed (a sharp blade = scharf); spitz sein = to be horny (sexual slang)",
       "example_de": "Der Bleistift ist jetzt richtig spitz.",
       "example_en": "The pencil is really sharp now."
     },
@@ -4818,9 +4788,9 @@
       "de": "abbekommen",
       "de_alt": [],
       "en": [
-        "to get",
         "to get a share of",
-        "to get hit"
+        "to get hit",
+        "to get"
       ],
       "pos": "verb",
       "topic": "basics",
@@ -5519,7 +5489,9 @@
     {
       "id": "d-com3-0342",
       "de": "die Bakterie",
-      "de_alt": [],
+      "de_alt": [
+        "das Bakterium"
+      ],
       "en": [
         "bacterium",
         "germ",
@@ -5530,7 +5502,7 @@
       "topic": "health",
       "level": "B1",
       "rank": 11124,
-      "note": "usually plural: Bakterien",
+      "note": "usually plural: die Bakterien; singular also: das Bakterium",
       "example_de": "Wasch dir die Hände, da sind überall Bakterien.",
       "example_en": "Wash your hands, there are germs everywhere."
     },
@@ -7670,24 +7642,6 @@
       "example_en": "My uncle works in Geneva."
     },
     {
-      "id": "d-com3-0474",
-      "de": "die Therapeutin",
-      "de_alt": [
-        "der Therapeut"
-      ],
-      "en": [
-        "therapist"
-      ],
-      "pos": "noun",
-      "plural": "die Therapeutinnen",
-      "topic": "health",
-      "level": "B1",
-      "rank": 11590,
-      "note": "male: der Therapeut",
-      "example_de": "Meine Therapeutin hilft mir, ruhiger zu werden.",
-      "example_en": "My therapist is helping me to become calmer."
-    },
-    {
       "id": "d-com3-0475",
       "de": "stillhalten",
       "de_alt": [],
@@ -8922,8 +8876,8 @@
       "de": "dermaßen",
       "de_alt": [],
       "en": [
-        "so",
-        "to such an extent"
+        "to such an extent",
+        "so"
       ],
       "pos": "adv",
       "topic": "description",
@@ -9181,25 +9135,6 @@
       "rank": 11895,
       "example_de": "Die Schule fördert Schüler mit besonderen Talenten.",
       "example_en": "The school supports students with special talents."
-    },
-    {
-      "id": "d-com3-0567",
-      "de": "die Kundin",
-      "de_alt": [
-        "der Kunde"
-      ],
-      "en": [
-        "customer",
-        "client"
-      ],
-      "pos": "noun",
-      "plural": "die Kundinnen",
-      "topic": "shopping",
-      "level": "A2",
-      "rank": 11896,
-      "note": "male: der Kunde",
-      "example_de": "Die Kundin möchte das Kleid umtauschen.",
-      "example_en": "The customer would like to exchange the dress."
     },
     {
       "id": "d-com3-0568",
@@ -9604,8 +9539,8 @@
       "de": "unentschieden",
       "de_alt": [],
       "en": [
+        "tied",
         "draw",
-        "tie",
         "undecided"
       ],
       "pos": "adj",
@@ -10445,9 +10380,9 @@
       "de": "festlegen",
       "de_alt": [],
       "en": [
+        "to decide on",
         "to set",
-        "to fix",
-        "to decide on"
+        "to fix"
       ],
       "pos": "verb",
       "topic": "work",
@@ -11027,7 +10962,8 @@
       "id": "d-com3-0681",
       "de": "der Gatte",
       "de_alt": [
-        "der Ehemann"
+        "der Ehemann",
+        "die Gattin"
       ],
       "en": [
         "husband",
@@ -11073,8 +11009,8 @@
       "level": "B1",
       "rank": 12224,
       "note": "also chicken leg: der Hähnchenschenkel",
-      "example_de": "Ich hätte gern zwei Hähnchenschenkel mit Pommes.",
-      "example_en": "I'd like two chicken legs with chips."
+      "example_de": "Ich habe einen blauen Fleck am Schenkel.",
+      "example_en": "I've got a bruise on my thigh."
     },
     {
       "id": "d-com3-0684",
@@ -12795,8 +12731,8 @@
       "level": "B1",
       "rank": 12595,
       "note": "separable; Perfekt: ist hingekommen; Das kommt hin. = That's about right.",
-      "example_de": "Wie kommen wir am schnellsten zum Stadion hin?",
-      "example_en": "What's the fastest way for us to get to the stadium?"
+      "example_de": "Wie kommen wir da am schnellsten hin?",
+      "example_en": "What's the quickest way to get there?"
     },
     {
       "id": "d-com3-0788",
@@ -12976,7 +12912,7 @@
       "de": "vorspielen",
       "de_alt": [],
       "en": [
-        "to play",
+        "to play for someone",
         "to audition",
         "to pretend"
       ],
@@ -15091,7 +15027,7 @@
       "topic": "description",
       "level": "B1",
       "rank": 13030,
-      "note": "colloquial; also old slang for gay",
+      "note": "colloquial; also old slang for gay: offensive, don't use it that way",
       "example_de": "Du hältst das Blatt andersrum!",
       "example_en": "You're holding the sheet the other way round!"
     },
@@ -15199,8 +15135,8 @@
       "level": "B2",
       "rank": 13050,
       "note": "formal; vollendet = completed, perfect",
-      "example_de": "Mit achtzehn hat man das achtzehnte Lebensjahr vollendet.",
-      "example_en": "At eighteen you have completed your eighteenth year."
+      "example_de": "Sie hat ihr Bild endlich vollendet.",
+      "example_en": "She has finally completed her painting."
     },
     {
       "id": "d-com3-0933",
@@ -15434,6 +15370,7 @@
       "de": "der Freiraum",
       "de_alt": [],
       "en": [
+        "personal space",
         "space",
         "freedom"
       ],
@@ -16158,25 +16095,6 @@
       "rank": 13222,
       "example_de": "Ich finde Leute, die Tiere quälen, abstoßend.",
       "example_en": "I find people who hurt animals repulsive."
-    },
-    {
-      "id": "d-com3-0991",
-      "de": "Japp.",
-      "de_alt": [
-        "jap",
-        "jup"
-      ],
-      "en": [
-        "yep",
-        "yup"
-      ],
-      "pos": "other",
-      "topic": "texting",
-      "level": "A2",
-      "rank": 13224,
-      "note": "colloquial yes",
-      "example_de": "Kommst du morgen mit? - Japp.",
-      "example_en": "Are you coming tomorrow? - Yep."
     },
     {
       "id": "d-com3-0992",
@@ -17749,24 +17667,6 @@
       "example_en": "The fans ran onto the pitch after the win."
     },
     {
-      "id": "d-com3-1087",
-      "de": "Heiliger Strohsack!",
-      "de_alt": [
-        "heiliger Strohsack"
-      ],
-      "en": [
-        "holy cow",
-        "good grief"
-      ],
-      "pos": "phrase",
-      "topic": "slang",
-      "level": "B2",
-      "rank": 13497,
-      "note": "old-fashioned, jokey",
-      "example_de": "Heiliger Strohsack, ist das dein neues Fahrrad?",
-      "example_en": "Holy cow, is that your new bike?"
-    },
-    {
       "id": "d-com3-1088",
       "de": "der Bademantel",
       "de_alt": [],
@@ -18750,21 +18650,6 @@
       "example_en": "Can you recover the deleted photos?"
     },
     {
-      "id": "d-com3-1149",
-      "de": "sich blamieren",
-      "de_alt": [],
-      "en": [
-        "to embarrass oneself",
-        "to make a fool of oneself"
-      ],
-      "pos": "verb",
-      "topic": "feelings",
-      "level": "B1",
-      "rank": 13688,
-      "example_de": "Ich habe mich vor der ganzen Klasse blamiert.",
-      "example_en": "I made a fool of myself in front of the whole class."
-    },
-    {
       "id": "d-com3-1150",
       "de": "der Spatz",
       "de_alt": [],
@@ -19569,26 +19454,6 @@
       "note": "die Einfahrt = entrance",
       "example_de": "Papa, du musst die nächste Ausfahrt nehmen!",
       "example_en": "Dad, you have to take the next exit!"
-    },
-    {
-      "id": "d-com3-1200",
-      "de": "die Omi",
-      "de_alt": [
-        "die Oma"
-      ],
-      "en": [
-        "granny",
-        "grandma",
-        "nan"
-      ],
-      "pos": "noun",
-      "plural": "die Omis",
-      "topic": "family",
-      "level": "A1",
-      "rank": 13886,
-      "note": "affectionate form of Oma",
-      "example_de": "Am Sonntag besuchen wir Omi.",
-      "example_en": "On Sunday we're visiting Granny."
     },
     {
       "id": "d-com3-1201",
@@ -20649,7 +20514,7 @@
       "de": "schwängern",
       "de_alt": [],
       "en": [
-        "to get pregnant",
+        "to get someone pregnant",
         "to impregnate"
       ],
       "pos": "verb",
@@ -21115,8 +20980,8 @@
       "level": "A2",
       "rank": 14202,
       "note": "comes on 6 December and fills children's boots",
-      "example_de": "Am Nikolaus stellen Kinder ihre Stiefel vor die Tür.",
-      "example_en": "On St Nicholas' Day children put their boots outside the door."
+      "example_de": "Am Abend vor Nikolaus stellen Kinder ihre Stiefel vor die Tür.",
+      "example_en": "On the evening before St Nicholas' Day children put their boots outside the door."
     },
     {
       "id": "d-com3-1293",
@@ -21205,8 +21070,8 @@
       "de": "der Zeitraum",
       "de_alt": [],
       "en": [
-        "period",
         "period of time",
+        "period",
         "timeframe"
       ],
       "pos": "noun",
@@ -22861,22 +22726,22 @@
     },
     {
       "id": "d-com3-1400",
-      "de": "die Leiterin",
+      "de": "der Leiter",
       "de_alt": [
-        "der Leiter"
+        "die Leiterin"
       ],
       "en": [
-        "head",
         "manager",
+        "head",
         "leader"
       ],
       "pos": "noun",
-      "plural": "die Leiterinnen",
+      "plural": "die Leiter",
       "topic": "work",
       "level": "B1",
       "rank": 14557,
-      "note": "male: der Leiter (don't mix up with die Leiter = ladder)",
-      "example_de": "Die Leiterin des Jugendzentrums ist super nett.",
+      "note": "female: die Leiterin; careful: die Leiter = ladder",
+      "example_de": "Der Leiter des Jugendzentrums ist super nett.",
       "example_en": "The head of the youth centre is really nice."
     },
     {
@@ -24444,8 +24309,8 @@
       "de": "die Bezeichnung",
       "de_alt": [],
       "en": [
-        "name",
         "term",
+        "name",
         "label"
       ],
       "pos": "noun",

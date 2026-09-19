@@ -49,7 +49,7 @@
       "topic": "religion",
       "level": "A2",
       "rank": 166,
-      "note": "Oh mein Gott! = oh my god",
+      "note": "Oh mein Gott! = oh my god; female: die Göttin = goddess",
       "example_de": "Oh mein Gott, ich habe mein Handy vergessen!",
       "example_en": "Oh my god, I forgot my phone!"
     },
@@ -112,7 +112,7 @@
       "de": "her",
       "de_alt": [],
       "en": [
-        "here",
+        "here (towards me)",
         "ago"
       ],
       "pos": "adv",
@@ -206,9 +206,7 @@
     {
       "id": "d-com-0013",
       "de": "in Ordnung",
-      "de_alt": [
-        "Ordnung"
-      ],
+      "de_alt": [],
       "en": [
         "okay",
         "all right",
@@ -277,7 +275,7 @@
       "de": "hin",
       "de_alt": [],
       "en": [
-        "there"
+        "there (away from me)"
       ],
       "pos": "adv",
       "topic": "movement",
@@ -400,7 +398,7 @@
       "topic": "basics",
       "level": "B1",
       "rank": 315,
-      "note": "colloquial particle; Halt! = stop!",
+      "note": "filler word (colloquial): 'that's just how it is, can't change it'; Halt! = stop!",
       "example_de": "Das ist halt so.",
       "example_en": "That's just the way it is."
     },
@@ -440,7 +438,9 @@
     {
       "id": "d-com-0027",
       "de": "darüber",
-      "de_alt": [],
+      "de_alt": [
+        "drüber"
+      ],
       "en": [
         "about it",
         "over it"
@@ -449,6 +449,7 @@
       "topic": "basics",
       "level": "B1",
       "rank": 330,
+      "note": "colloquial: drüber",
       "example_de": "Lass uns später darüber reden.",
       "example_en": "Let's talk about it later."
     },
@@ -565,7 +566,7 @@
       "topic": "movement",
       "level": "B1",
       "rank": 413,
-      "note": "colloquial for herunter/hinunter",
+      "note": "colloquial for herunter (towards the speaker) / hinunter (away from the speaker)",
       "example_de": "Komm runter, das Essen ist fertig!",
       "example_en": "Come down, dinner's ready!"
     },
@@ -583,8 +584,8 @@
       "level": "A2",
       "rank": 414,
       "note": "vorbeikommen = to drop by",
-      "example_de": "Endlich sind die Ferien vorbei. Oder leider?",
-      "example_en": "Finally the holidays are over. Or sadly?"
+      "example_de": "Der Film ist vorbei, wir können gehen.",
+      "example_en": "The film is over, we can go."
     },
     {
       "id": "d-com-0036",
@@ -867,7 +868,7 @@
       "topic": "basics",
       "level": "B1",
       "rank": 536,
-      "note": "particle like halt; also adj flat",
+      "note": "time: eben = just now; filler like halt: Das ist eben so = that's just how it is; also adj flat",
       "example_de": "Ich habe dich eben angerufen.",
       "example_en": "I just called you."
     },
@@ -1480,7 +1481,8 @@
       "de": "nochmal",
       "de_alt": [
         "noch mal",
-        "noch einmal"
+        "noch einmal",
+        "nochmals"
       ],
       "en": [
         "again",
@@ -1490,6 +1492,7 @@
       "topic": "time",
       "level": "A2",
       "rank": 804,
+      "note": "a bit more formal: nochmals",
       "example_de": "Kannst du das nochmal sagen?",
       "example_en": "Can you say that again?"
     },
@@ -3360,7 +3363,9 @@
     {
       "id": "d-com-0207",
       "de": "der Präsident",
-      "de_alt": [],
+      "de_alt": [
+        "die Präsidentin"
+      ],
       "en": [
         "president"
       ],
@@ -3369,7 +3374,7 @@
       "topic": "society",
       "level": "B1",
       "rank": 1281,
-      "note": "weak noun: den/dem Präsidenten",
+      "note": "weak noun: den/dem Präsidenten; female: die Präsidentin",
       "example_de": "Der Präsident hält heute eine Rede.",
       "example_en": "The president is giving a speech today."
     },
@@ -3841,7 +3846,7 @@
       "topic": "basics",
       "level": "B1",
       "rank": 1380,
-      "note": "statt + genitive; statt zu = instead of doing",
+      "note": "statt + genitive; statt zu = instead of doing; also: anstatt",
       "example_de": "Statt zu lernen, hat er gezockt.",
       "example_en": "Instead of studying, he played video games."
     },
@@ -4740,7 +4745,9 @@
     {
       "id": "d-com-0293",
       "de": "der Patient",
-      "de_alt": [],
+      "de_alt": [
+        "die Patientin"
+      ],
       "en": [
         "patient"
       ],
@@ -4938,7 +4945,7 @@
       "topic": "slang",
       "level": "A2",
       "rank": 1612,
-      "note": "colloquial; Quatsch! = Rubbish!",
+      "note": "colloquial; Quatsch! / So ein Quatsch! = Rubbish! What nonsense!",
       "example_de": "Das ist doch Quatsch, das glaube ich nicht.",
       "example_en": "That's nonsense, I don't believe it."
     },
@@ -5386,7 +5393,7 @@
       "rank": 1706,
       "note": "er befiehlt; past: befahl; Perfekt: hat befohlen",
       "example_de": "Du kannst mir nicht befehlen, was ich tun soll!",
-      "example_en": "You can't order me what to do!"
+      "example_en": "You can't order me around!"
     },
     {
       "id": "d-com-0334",
@@ -5628,7 +5635,7 @@
       "topic": "media",
       "level": "B1",
       "rank": 1756,
-      "note": "weak noun: den Helden",
+      "note": "weak noun: den Helden; female: die Heldin = heroine",
       "example_de": "Nach dem Tor war er der Held der Mannschaft.",
       "example_en": "After the goal he was the team's hero."
     },
@@ -5855,7 +5862,7 @@
       "de": "lauten",
       "de_alt": [],
       "en": [
-        "to be",
+        "to be (of an answer or a name)",
         "to read",
         "to go"
       ],
@@ -5883,24 +5890,6 @@
       "note": "längst nicht = not nearly",
       "example_de": "Das weiß ich doch längst!",
       "example_en": "I've known that for ages!"
-    },
-    {
-      "id": "d-com-0365",
-      "de": "drüber",
-      "de_alt": [
-        "darüber"
-      ],
-      "en": [
-        "over it",
-        "about it"
-      ],
-      "pos": "adv",
-      "topic": "basics",
-      "level": "B1",
-      "rank": 1824,
-      "note": "colloquial for darüber",
-      "example_de": "Lass uns morgen drüber reden.",
-      "example_en": "Let's talk about it tomorrow."
     },
     {
       "id": "d-com-0366",
@@ -8210,20 +8199,6 @@
       "example_en": "I'll answer you within an hour."
     },
     {
-      "id": "d-com-0508",
-      "de": "blind",
-      "de_alt": [],
-      "en": [
-        "blind"
-      ],
-      "pos": "adj",
-      "topic": "health",
-      "level": "A2",
-      "rank": 2235,
-      "example_de": "Ohne Brille bin ich fast blind.",
-      "example_en": "Without my glasses I'm almost blind."
-    },
-    {
       "id": "d-com-0509",
       "de": "die Absicht",
       "de_alt": [],
@@ -8801,7 +8776,9 @@
       "id": "d-com-0545",
       "de": "hä?",
       "de_alt": [
-        "hä"
+        "hä",
+        "häh",
+        "häh?"
       ],
       "en": [
         "huh",
@@ -8811,7 +8788,7 @@
       "topic": "slang",
       "level": "A2",
       "rank": 2348,
-      "note": "colloquial; not polite",
+      "note": "colloquial, a bit rude; polite: Wie bitte?",
       "example_de": "Hä? Was hast du gesagt?",
       "example_en": "Huh? What did you say?"
     },
@@ -9216,8 +9193,8 @@
       "topic": "body",
       "level": "B1",
       "rank": 2413,
-      "example_de": "Geh nicht barfuß, der Boden ist kalt – na gut, dann eben mit nackten Füßen!",
-      "example_en": "Don't go barefoot, the floor is cold – oh well, bare feet it is!"
+      "example_de": "Im Sommer laufe ich gern mit nackten Füßen durch den Garten.",
+      "example_en": "In summer I like walking round the garden in bare feet."
     },
     {
       "id": "d-com-0571",
@@ -9426,6 +9403,7 @@
       "topic": "body",
       "level": "B1",
       "rank": 2447,
+      "note": "also: breast; die Brüste = breasts",
       "example_de": "Nach dem Lauf tut mir die Brust weh.",
       "example_en": "My chest hurts after the run."
     },
@@ -9444,20 +9422,6 @@
       "note": "separable; Perfekt: ist hergekommen; Wo kommst du her? = Where are you from?",
       "example_de": "Kannst du mal kurz herkommen?",
       "example_en": "Can you come here for a moment?"
-    },
-    {
-      "id": "d-com-0585",
-      "de": "wild",
-      "de_alt": [],
-      "en": [
-        "wild"
-      ],
-      "pos": "adj",
-      "topic": "nature",
-      "level": "A2",
-      "rank": 2453,
-      "example_de": "Im Wald haben wir wilde Pferde gesehen.",
-      "example_en": "We saw wild horses in the forest."
     },
     {
       "id": "d-com-0586",
@@ -9722,8 +9686,8 @@
       "de": "sich befinden",
       "de_alt": [],
       "en": [
-        "to be",
-        "to be located"
+        "to be located",
+        "to be"
       ],
       "pos": "verb",
       "topic": "city",
@@ -9732,23 +9696,6 @@
       "note": "formal for sein; past: befand; Perfekt: hat sich befunden",
       "example_de": "Die Toiletten befinden sich im ersten Stock.",
       "example_en": "The toilets are on the first floor."
-    },
-    {
-      "id": "d-com-0603",
-      "de": "anstatt",
-      "de_alt": [
-        "statt"
-      ],
-      "en": [
-        "instead of"
-      ],
-      "pos": "prep",
-      "topic": "basics",
-      "level": "B1",
-      "rank": 2516,
-      "note": "+ genitive, or anstatt … zu + infinitive",
-      "example_de": "Anstatt zu lernen, hat er den ganzen Tag gezockt.",
-      "example_en": "Instead of studying, he gamed all day."
     },
     {
       "id": "d-com-0604",
@@ -10159,9 +10106,9 @@
       "de": "treiben",
       "de_alt": [],
       "en": [
+        "to do (sport)",
         "to drive",
-        "to push",
-        "to do"
+        "to push"
       ],
       "pos": "verb",
       "topic": "free-time",
@@ -11092,7 +11039,7 @@
       "de": "fressen",
       "de_alt": [],
       "en": [
-        "to eat"
+        "to eat (of animals)"
       ],
       "pos": "verb",
       "topic": "animals",
@@ -12200,7 +12147,7 @@
       "topic": "basics",
       "level": "B1",
       "rank": 2954,
-      "note": "+ accusative",
+      "note": "+ accusative; achten alone also = to respect",
       "example_de": "Achte auf deine Rechtschreibung!",
       "example_en": "Pay attention to your spelling!"
     },
@@ -13795,7 +13742,7 @@
       "topic": "religion",
       "level": "B1",
       "rank": 3252,
-      "note": "female: die Jüdin; Jewish = jüdisch",
+      "note": "neutral word, but it's sensitive; many say jüdische Menschen; never use it as an insult; female: die Jüdin; Jewish = jüdisch",
       "example_de": "Wir haben in Religion über Juden, Christen und Muslime gesprochen.",
       "example_en": "In RE we talked about Jews, Christians and Muslims."
     },
@@ -16093,7 +16040,9 @@
     {
       "id": "d-com-1001",
       "de": "darunter",
-      "de_alt": [],
+      "de_alt": [
+        "drunter"
+      ],
       "en": [
         "under it",
         "underneath",
@@ -16103,6 +16052,7 @@
       "topic": "basics",
       "level": "B1",
       "rank": 3633,
+      "note": "colloquial: drunter; drunter und drüber = topsy-turvy",
       "example_de": "Ich trage ein T-Shirt und darunter noch ein Top.",
       "example_en": "I'm wearing a T-shirt and a top underneath."
     },
@@ -17620,23 +17570,6 @@
       "example_en": "Are you scared of the roller coaster or what?"
     },
     {
-      "id": "d-com-1095",
-      "de": "die Ärztin",
-      "de_alt": [],
-      "en": [
-        "doctor",
-        "female doctor"
-      ],
-      "pos": "noun",
-      "plural": "die Ärztinnen",
-      "topic": "health",
-      "level": "A1",
-      "rank": 3895,
-      "note": "male: der Arzt",
-      "example_de": "Die Ärztin hat gesagt, ich soll im Bett bleiben.",
-      "example_en": "The doctor said I should stay in bed."
-    },
-    {
       "id": "d-com-1096",
       "de": "vergewaltigen",
       "de_alt": [],
@@ -17699,22 +17632,6 @@
       "rank": 3904,
       "example_de": "Mach ein bisschen Öl in die Pfanne.",
       "example_en": "Put a bit of oil in the pan."
-    },
-    {
-      "id": "d-com-1100",
-      "de": "die Sekretärin",
-      "de_alt": [],
-      "en": [
-        "secretary"
-      ],
-      "pos": "noun",
-      "plural": "die Sekretärinnen",
-      "topic": "work",
-      "level": "A2",
-      "rank": 3906,
-      "note": "male: der Sekretär",
-      "example_de": "Frag im Sekretariat bei der Sekretärin nach.",
-      "example_en": "Ask the secretary in the school office."
     },
     {
       "id": "d-com-1101",
@@ -18644,23 +18561,6 @@
       "note": "separable; Abwarten und Tee trinken. = Wait and see.",
       "example_de": "Lass uns erst mal abwarten, was sie sagt.",
       "example_en": "Let's wait and see what she says."
-    },
-    {
-      "id": "d-com-1158",
-      "de": "die Schauspielerin",
-      "de_alt": [],
-      "en": [
-        "actress",
-        "actor"
-      ],
-      "pos": "noun",
-      "plural": "die Schauspielerinnen",
-      "topic": "media",
-      "level": "A2",
-      "rank": 4099,
-      "note": "male: der Schauspieler",
-      "example_de": "Sie will später Schauspielerin werden.",
-      "example_en": "She wants to be an actress later."
     },
     {
       "id": "d-com-1159",
@@ -20265,7 +20165,7 @@
         "kindly",
         "damn well"
       ],
-      "pos": "other",
+      "pos": "adv",
       "topic": "communication",
       "level": "B2",
       "rank": 4343,
@@ -20737,22 +20637,6 @@
       "note": "Fortschritte machen = to make progress",
       "example_de": "Du machst echt gute Fortschritte in Deutsch!",
       "example_en": "You're making really good progress in German!"
-    },
-    {
-      "id": "d-com-1283",
-      "de": "die Patientin",
-      "de_alt": [],
-      "en": [
-        "patient"
-      ],
-      "pos": "noun",
-      "plural": "die Patientinnen",
-      "topic": "health",
-      "level": "B1",
-      "rank": 4426,
-      "note": "female; male: der Patient (n-noun)",
-      "example_de": "Die Ärztin hat heute viele Patientinnen und Patienten.",
-      "example_en": "The doctor has lots of patients today."
     },
     {
       "id": "d-com-1284",
@@ -22617,25 +22501,6 @@
       "example_en": "Your message worried me a bit."
     },
     {
-      "id": "d-com-1395",
-      "de": "achten",
-      "de_alt": [
-        "aufpassen"
-      ],
-      "en": [
-        "to pay attention",
-        "to watch",
-        "to respect"
-      ],
-      "pos": "verb",
-      "topic": "basics",
-      "level": "B1",
-      "rank": 4716,
-      "note": "auf etwas achten = to pay attention to something",
-      "example_de": "Achte auf die Rechtschreibung!",
-      "example_en": "Pay attention to your spelling!"
-    },
-    {
       "id": "d-com-1396",
       "de": "eklig",
       "de_alt": [
@@ -23420,25 +23285,6 @@
       "example_en": "Without a battery the phone is completely useless."
     },
     {
-      "id": "d-com-1442",
-      "de": "nochmals",
-      "de_alt": [
-        "noch einmal",
-        "nochmal"
-      ],
-      "en": [
-        "again",
-        "once more"
-      ],
-      "pos": "adv",
-      "topic": "basics",
-      "level": "B1",
-      "rank": 4813,
-      "note": "a bit formal; = noch einmal",
-      "example_de": "Nochmals vielen Dank für das Geschenk!",
-      "example_en": "Thanks again for the present!"
-    },
-    {
       "id": "d-com-1443",
       "de": "die Medien",
       "de_alt": [],
@@ -23705,22 +23551,6 @@
       "rank": 4864,
       "example_de": "Ich bewundere dich, dass du so gut Gitarre spielst.",
       "example_en": "I admire you for playing the guitar so well."
-    },
-    {
-      "id": "d-com-1459",
-      "de": "die Assistentin",
-      "de_alt": [],
-      "en": [
-        "assistant"
-      ],
-      "pos": "noun",
-      "plural": "die Assistentinnen",
-      "topic": "work",
-      "level": "B1",
-      "rank": 4866,
-      "note": "female; male: der Assistent (n-noun)",
-      "example_de": "Die Assistentin hat mir einen Termin gegeben.",
-      "example_en": "The assistant gave me an appointment."
     },
     {
       "id": "d-com-1460",
@@ -24358,23 +24188,6 @@
       "example_en": "There's a break after the first act."
     },
     {
-      "id": "d-com-1498",
-      "de": "die Anwältin",
-      "de_alt": [],
-      "en": [
-        "lawyer",
-        "attorney"
-      ],
-      "pos": "noun",
-      "plural": "die Anwältinnen",
-      "topic": "work",
-      "level": "A2",
-      "rank": 4957,
-      "note": "female form of der Anwalt",
-      "example_de": "Meine Mutter arbeitet als Anwältin.",
-      "example_en": "My mum works as a lawyer."
-    },
-    {
       "id": "d-com-1499",
       "de": "die Frisur",
       "de_alt": [],
@@ -24645,6 +24458,7 @@
       "topic": "history",
       "level": "B2",
       "rank": 4995,
+      "note": "female: die Herzogin = duchess",
       "example_de": "Das Schloss gehörte früher einem Herzog.",
       "example_en": "The castle used to belong to a duke."
     },
@@ -24960,23 +24774,6 @@
       "note": "separable: ich wähle aus",
       "example_de": "Du darfst den Film heute auswählen.",
       "example_en": "You get to pick the film today."
-    },
-    {
-      "id": "d-com-1535",
-      "de": "herunter",
-      "de_alt": [
-        "runter"
-      ],
-      "en": [
-        "down"
-      ],
-      "pos": "adv",
-      "topic": "movement",
-      "level": "B1",
-      "rank": 5047,
-      "note": "towards the speaker; in speech often runter",
-      "example_de": "Komm sofort da herunter!",
-      "example_en": "Come down from there right now!"
     },
     {
       "id": "d-com-1536",
@@ -25932,23 +25729,6 @@
       "example_en": "Have you got a needle and thread? My button came off."
     },
     {
-      "id": "d-com-1595",
-      "de": "Psst!",
-      "de_alt": [
-        "Pst!"
-      ],
-      "en": [
-        "shh",
-        "shush"
-      ],
-      "pos": "other",
-      "topic": "communication",
-      "level": "A1",
-      "rank": 5226,
-      "example_de": "Psst! Der Film fängt an.",
-      "example_en": "Shh! The film's starting."
-    },
-    {
       "id": "d-com-1596",
       "de": "behilflich",
       "de_alt": [],
@@ -26827,7 +26607,7 @@
       "topic": "food",
       "level": "A2",
       "rank": 5360,
-      "note": "female: die Kellnerin",
+      "note": "female: die Kellnerin = waitress",
       "example_de": "Der Kellner bringt gleich die Rechnung.",
       "example_en": "The waiter is bringing the bill in a moment."
     },
@@ -27435,8 +27215,8 @@
       "level": "A1",
       "rank": 5457,
       "note": "zu viert = the four of us",
-      "example_de": "Wir sind zu viert, haben Sie einen Tisch frei?",
-      "example_en": "There are four of us, do you have a free table?"
+      "example_de": "Wir wohnen im vierten Stock.",
+      "example_en": "We live on the fourth floor."
     },
     {
       "id": "d-com-1686",

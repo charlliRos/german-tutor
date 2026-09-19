@@ -964,7 +964,8 @@
       "en": [
         "to arise",
         "to develop",
-        "to be created"
+        "to be created",
+        "to form"
       ],
       "pos": "verb",
       "topic": "basics",
@@ -1193,7 +1194,7 @@
       "topic": "basics",
       "level": "B1",
       "rank": 220,
-      "note": "regular: hat entwickelt",
+      "note": "regular: hat entwickelt; die Entwicklung = development",
       "example_de": "Sie entwickelt eine eigene App.",
       "example_en": "She is developing her own app."
     },
@@ -1283,7 +1284,7 @@
       "de_alt": [],
       "en": [
         "to expect",
-        "to wait for"
+        "to await"
       ],
       "pos": "verb",
       "topic": "thinking",
@@ -2017,8 +2018,9 @@
       "de": "gefallen",
       "de_alt": [],
       "en": [
-        "to please",
-        "to like"
+        "to be pleasing to",
+        "to like",
+        "to please"
       ],
       "pos": "verb",
       "topic": "opinion",
@@ -3074,7 +3076,8 @@
       "id": "d-verb-0195",
       "de": "herunterladen",
       "de_alt": [
-        "runterladen"
+        "runterladen",
+        "downloaden"
       ],
       "en": [
         "to download"
@@ -3090,7 +3093,9 @@
     {
       "id": "d-verb-0196",
       "de": "speichern",
-      "de_alt": [],
+      "de_alt": [
+        "abspeichern"
+      ],
       "en": [
         "to save",
         "to store"
@@ -3115,7 +3120,7 @@
       "topic": "technology",
       "level": "B1",
       "rank": 530,
-      "note": "regular: hat gelöscht",
+      "note": "regular: hat gelöscht; also: to put out (a fire)",
       "example_de": "Lösch bitte das peinliche Foto!",
       "example_en": "Please delete that embarrassing photo!"
     },
@@ -3567,6 +3572,8 @@
       "de": "umsteigen",
       "de_alt": [],
       "en": [
+        "to change trains",
+        "to change buses",
         "to change",
         "to transfer"
       ],
@@ -3848,6 +3855,7 @@
       "de": "bewerben",
       "de_alt": [],
       "en": [
+        "to apply for",
         "to apply"
       ],
       "pos": "verb",

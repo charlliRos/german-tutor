@@ -3,23 +3,6 @@
   "title": "STEM German — computing & engineering",
   "words": [
     {
-      "id": "s-comp-0001",
-      "de": "der Computer",
-      "de_alt": [
-        "der Rechner"
-      ],
-      "en": [
-        "computer"
-      ],
-      "pos": "noun",
-      "plural": "die Computer",
-      "topic": "computers",
-      "level": "A2",
-      "rank": 5,
-      "example_de": "Der Computer rechnet schneller als jeder Mensch.",
-      "example_en": "The computer calculates faster than any human."
-    },
-    {
       "id": "s-comp-0002",
       "de": "die Informatik",
       "de_alt": [],
@@ -71,23 +54,6 @@
       "example_en": "I'm programming a small game right now."
     },
     {
-      "id": "s-comp-0005",
-      "de": "das Programm",
-      "de_alt": [],
-      "en": [
-        "program",
-        "programme"
-      ],
-      "pos": "noun",
-      "plural": "die Programme",
-      "topic": "programming",
-      "level": "A2",
-      "rank": 25,
-      "note": "also: TV channel, schedule",
-      "example_de": "Das Programm stürzt ständig ab.",
-      "example_en": "The program keeps crashing."
-    },
-    {
       "id": "s-comp-0006",
       "de": "der Code",
       "de_alt": [
@@ -108,21 +74,6 @@
       "example_en": "Comment your code properly."
     },
     {
-      "id": "s-comp-0007",
-      "de": "die Software",
-      "de_alt": [],
-      "en": [
-        "software"
-      ],
-      "pos": "noun",
-      "plural": "—",
-      "topic": "computers",
-      "level": "A2",
-      "rank": 35,
-      "example_de": "Die Software muss aktualisiert werden.",
-      "example_en": "The software needs to be updated."
-    },
-    {
       "id": "s-comp-0008",
       "de": "die Hardware",
       "de_alt": [],
@@ -136,23 +87,6 @@
       "rank": 40,
       "example_de": "Für das Spiel ist die Hardware zu alt.",
       "example_en": "The hardware is too old for the game."
-    },
-    {
-      "id": "s-comp-0009",
-      "de": "das Internet",
-      "de_alt": [
-        "das Netz"
-      ],
-      "en": [
-        "internet"
-      ],
-      "pos": "noun",
-      "plural": "—",
-      "topic": "networks",
-      "level": "A2",
-      "rank": 45,
-      "example_de": "Ohne Internet funktioniert die App nicht.",
-      "example_en": "The app doesn't work without internet."
     },
     {
       "id": "s-comp-0010",
@@ -170,39 +104,6 @@
       "example_en": "All the school's computers are connected in a network."
     },
     {
-      "id": "s-comp-0011",
-      "de": "die Datei",
-      "de_alt": [],
-      "en": [
-        "file"
-      ],
-      "pos": "noun",
-      "plural": "die Dateien",
-      "topic": "computers",
-      "level": "A2",
-      "rank": 55,
-      "note": "false friend: not „data“",
-      "example_de": "Speichere die Datei als PDF.",
-      "example_en": "Save the file as a PDF."
-    },
-    {
-      "id": "s-comp-0012",
-      "de": "speichern",
-      "de_alt": [
-        "abspeichern"
-      ],
-      "en": [
-        "to save",
-        "to store"
-      ],
-      "pos": "verb",
-      "topic": "computers",
-      "level": "A2",
-      "rank": 60,
-      "example_de": "Vergiss nicht, regelmäßig zu speichern.",
-      "example_en": "Don't forget to save regularly."
-    },
-    {
       "id": "s-comp-0013",
       "de": "der Algorithmus",
       "de_alt": [],
@@ -216,116 +117,6 @@
       "rank": 65,
       "example_de": "Der Algorithmus sortiert die Liste.",
       "example_en": "The algorithm sorts the list."
-    },
-    {
-      "id": "s-comp-0014",
-      "de": "die Technik",
-      "de_alt": [
-        "die Technologie"
-      ],
-      "en": [
-        "technology",
-        "engineering",
-        "technique"
-      ],
-      "pos": "noun",
-      "plural": "die Techniken",
-      "topic": "engineering",
-      "level": "A2",
-      "rank": 70,
-      "note": "Technologie is used for high-tech fields",
-      "example_de": "Moderne Technik macht vieles einfacher.",
-      "example_en": "Modern technology makes many things easier."
-    },
-    {
-      "id": "s-comp-0015",
-      "de": "der Ingenieur",
-      "de_alt": [],
-      "en": [
-        "engineer"
-      ],
-      "pos": "noun",
-      "plural": "die Ingenieure",
-      "topic": "engineering",
-      "level": "A2",
-      "rank": 75,
-      "note": "female: die Ingenieurin; pronounced „In-schen-jöhr“",
-      "example_de": "Meine Schwester möchte Ingenieurin werden.",
-      "example_en": "My sister wants to become an engineer."
-    },
-    {
-      "id": "s-comp-0016",
-      "de": "die künstliche Intelligenz",
-      "de_alt": [
-        "die KI"
-      ],
-      "en": [
-        "artificial intelligence",
-        "AI"
-      ],
-      "pos": "noun",
-      "plural": "—",
-      "topic": "ai",
-      "level": "B1",
-      "rank": 80,
-      "note": "abbreviation KI, not AI",
-      "example_de": "Künstliche Intelligenz kann Bilder erkennen.",
-      "example_en": "Artificial intelligence can recognise images."
-    },
-    {
-      "id": "s-comp-0017",
-      "de": "die App",
-      "de_alt": [
-        "die Anwendung"
-      ],
-      "en": [
-        "app",
-        "application"
-      ],
-      "pos": "noun",
-      "plural": "die Apps",
-      "topic": "computers",
-      "level": "A2",
-      "rank": 84,
-      "example_de": "Lade dir die App kostenlos herunter.",
-      "example_en": "Download the app for free."
-    },
-    {
-      "id": "s-comp-0018",
-      "de": "der Bildschirm",
-      "de_alt": [
-        "der Monitor",
-        "das Display"
-      ],
-      "en": [
-        "screen",
-        "monitor",
-        "display"
-      ],
-      "pos": "noun",
-      "plural": "die Bildschirme",
-      "topic": "computers",
-      "level": "A2",
-      "rank": 88,
-      "example_de": "Mein Bildschirm ist kaputt.",
-      "example_en": "My screen is broken."
-    },
-    {
-      "id": "s-comp-0019",
-      "de": "herunterladen",
-      "de_alt": [
-        "downloaden"
-      ],
-      "en": [
-        "to download"
-      ],
-      "pos": "verb",
-      "topic": "networks",
-      "level": "A2",
-      "rank": 102,
-      "note": "separable: ich lade herunter",
-      "example_de": "Lade die Datei herunter.",
-      "example_en": "Download the file."
     },
     {
       "id": "s-comp-0020",
@@ -345,22 +136,6 @@
       "example_en": "Upload your homework to the learning platform."
     },
     {
-      "id": "s-comp-0021",
-      "de": "löschen",
-      "de_alt": [],
-      "en": [
-        "to delete",
-        "to erase"
-      ],
-      "pos": "verb",
-      "topic": "computers",
-      "level": "A2",
-      "rank": 112,
-      "note": "also: to put out (a fire)",
-      "example_de": "Lösch die alte Version nicht.",
-      "example_en": "Don't delete the old version."
-    },
-    {
       "id": "s-comp-0022",
       "de": "der Ordner",
       "de_alt": [],
@@ -376,22 +151,6 @@
       "note": "also: ring binder",
       "example_de": "Leg einen neuen Ordner für das Projekt an.",
       "example_en": "Create a new folder for the project."
-    },
-    {
-      "id": "s-comp-0023",
-      "de": "die Tastatur",
-      "de_alt": [],
-      "en": [
-        "keyboard"
-      ],
-      "pos": "noun",
-      "plural": "die Tastaturen",
-      "topic": "computers",
-      "level": "A2",
-      "rank": 122,
-      "note": "die Taste = key",
-      "example_de": "Die deutsche Tastatur hat Y und Z vertauscht.",
-      "example_en": "The German keyboard has Y and Z swapped."
     },
     {
       "id": "s-comp-0024",
@@ -471,25 +230,6 @@
       "rank": 147,
       "example_de": "Wenn die Bedingung erfüllt ist, wird der Block ausgeführt.",
       "example_en": "If the condition is met, the block is executed."
-    },
-    {
-      "id": "s-comp-0029",
-      "de": "der Fehler",
-      "de_alt": [
-        "der Bug"
-      ],
-      "en": [
-        "error",
-        "bug",
-        "mistake"
-      ],
-      "pos": "noun",
-      "plural": "die Fehler",
-      "topic": "programming",
-      "level": "A2",
-      "rank": 152,
-      "example_de": "In Zeile 12 steckt ein Fehler.",
-      "example_en": "There's a bug in line 12."
     },
     {
       "id": "s-comp-0030",
@@ -604,74 +344,6 @@
       "example_en": "The server is currently unreachable."
     },
     {
-      "id": "s-comp-0037",
-      "de": "die Webseite",
-      "de_alt": [
-        "die Website",
-        "die Internetseite"
-      ],
-      "en": [
-        "website",
-        "web page"
-      ],
-      "pos": "noun",
-      "plural": "die Webseiten",
-      "topic": "networks",
-      "level": "A2",
-      "rank": 192,
-      "example_de": "Wir erstellen eine Webseite für unser Projekt.",
-      "example_en": "We're building a website for our project."
-    },
-    {
-      "id": "s-comp-0038",
-      "de": "das Passwort",
-      "de_alt": [
-        "das Kennwort"
-      ],
-      "en": [
-        "password"
-      ],
-      "pos": "noun",
-      "plural": "die Passwörter",
-      "topic": "networks",
-      "level": "A2",
-      "rank": 197,
-      "example_de": "Dein Passwort sollte mindestens zwölf Zeichen haben.",
-      "example_en": "Your password should have at least twelve characters."
-    },
-    {
-      "id": "s-comp-0039",
-      "de": "das WLAN",
-      "de_alt": [],
-      "en": [
-        "Wi-Fi",
-        "WiFi",
-        "wireless network"
-      ],
-      "pos": "noun",
-      "plural": "die WLANs",
-      "topic": "networks",
-      "level": "A2",
-      "rank": 202,
-      "note": "Germans say „WLAN“ (veh-lahn), rarely „Wi-Fi“",
-      "example_de": "Wie lautet das WLAN-Passwort?",
-      "example_en": "What's the Wi-Fi password?"
-    },
-    {
-      "id": "s-comp-0040",
-      "de": "digital",
-      "de_alt": [],
-      "en": [
-        "digital"
-      ],
-      "pos": "adj",
-      "topic": "data",
-      "level": "A2",
-      "rank": 207,
-      "example_de": "Die Schule arbeitet immer mehr digital.",
-      "example_en": "The school works more and more digitally."
-    },
-    {
       "id": "s-comp-0041",
       "de": "das Bit",
       "de_alt": [],
@@ -729,21 +401,6 @@
       "rank": 227,
       "example_de": "Der Sensor misst die Luftfeuchtigkeit.",
       "example_en": "The sensor measures the humidity."
-    },
-    {
-      "id": "s-comp-0045",
-      "de": "der Roboter",
-      "de_alt": [],
-      "en": [
-        "robot"
-      ],
-      "pos": "noun",
-      "plural": "die Roboter",
-      "topic": "engineering",
-      "level": "A2",
-      "rank": 232,
-      "example_de": "Der Roboter montiert die Autotüren.",
-      "example_en": "The robot assembles the car doors."
     },
     {
       "id": "s-comp-0046",
@@ -857,21 +514,6 @@
       "rank": 267,
       "example_de": "Der erste Entwurf war zu schwer.",
       "example_en": "The first design was too heavy."
-    },
-    {
-      "id": "s-comp-0053",
-      "de": "entwickeln",
-      "de_alt": [],
-      "en": [
-        "to develop"
-      ],
-      "pos": "verb",
-      "topic": "engineering",
-      "level": "B1",
-      "rank": 272,
-      "note": "die Entwicklung = development",
-      "example_de": "Das Team entwickelt eine neue App.",
-      "example_en": "The team is developing a new app."
     },
     {
       "id": "s-comp-0054",
@@ -1104,23 +746,6 @@
       "example_en": "More RAM makes the computer faster."
     },
     {
-      "id": "s-comp-0068",
-      "de": "der Akku",
-      "de_alt": [],
-      "en": [
-        "rechargeable battery",
-        "battery"
-      ],
-      "pos": "noun",
-      "plural": "die Akkus",
-      "topic": "computers",
-      "level": "A2",
-      "rank": 336,
-      "note": "short for Akkumulator; single-use battery = die Batterie",
-      "example_de": "Mein Akku ist fast leer.",
-      "example_en": "My battery is almost dead."
-    },
-    {
       "id": "s-comp-0069",
       "de": "das Kabel",
       "de_alt": [],
@@ -1251,21 +876,6 @@
       "rank": 376,
       "example_de": "Die Datenmenge wächst jedes Jahr.",
       "example_en": "The amount of data grows every year."
-    },
-    {
-      "id": "s-comp-0077",
-      "de": "analog",
-      "de_alt": [],
-      "en": [
-        "analogue",
-        "analog"
-      ],
-      "pos": "adj",
-      "topic": "data",
-      "level": "B1",
-      "rank": 381,
-      "example_de": "Die alte Uhr zeigt die Zeit analog an.",
-      "example_en": "The old clock displays the time in analogue."
     },
     {
       "id": "s-comp-0078",
@@ -1505,7 +1115,7 @@
       "topic": "engineering",
       "level": "B1",
       "rank": 445,
-      "note": "say „Dreh-De-Drucker“",
+      "note": "say „Drei-De-Drucker“",
       "example_de": "Wir drucken das Ersatzteil mit dem 3D-Drucker.",
       "example_en": "We print the spare part with the 3D printer."
     },

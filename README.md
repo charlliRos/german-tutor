@@ -94,6 +94,7 @@ Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`,
 - The format is described in [CONTENT_FORMAT.md](CONTENT_FORMAT.md). Vocabulary goes in `content/vocab/*.json`, books in `content/books/*.json`.
 - New book: `python tools/split_text.py text.txt content/books/11_author_title.json --title ... --author ...` creates the units. Then fill in `en`, `explain_en` and `words`.
 - More everyday words: `python tools/frequency_words.py` lists the most common German words (top 15,000 from film and TV subtitles) that the warm-up doesn't have yet, most common first. It needs `.venv\Scripts\pip install simplemma` (only for this tool).
+- Words taken out in the word-bank audit (duplicates, words spelled like English, old-fashioned or film-only words) are listed with the reason in [REMOVED_WORDS.md](REMOVED_WORDS.md).
 - Always run `python tools/validate_content.py` afterwards.
 - Tests: `python -m unittest discover -s tests -t .`
 

@@ -463,21 +463,6 @@
       "example_en": "I'm sorry I'm late."
     },
     {
-      "id": "d-phr-0029",
-      "de": "Sorry!",
-      "de_alt": [],
-      "en": [
-        "sorry"
-      ],
-      "pos": "phrase",
-      "topic": "politeness",
-      "level": "A2",
-      "rank": 1500,
-      "note": "very common among teenagers",
-      "example_de": "Sorry, hab deine Nachricht nicht gesehen.",
-      "example_en": "Sorry, didn't see your message."
-    },
-    {
       "id": "d-phr-0030",
       "de": "Macht nichts.",
       "de_alt": [

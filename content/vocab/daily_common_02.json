@@ -222,22 +222,6 @@
       "example_en": "Doctors take an oath."
     },
     {
-      "id": "d-com2-0015",
-      "de": "das Telegramm",
-      "de_alt": [],
-      "en": [
-        "telegram"
-      ],
-      "pos": "noun",
-      "plural": "die Telegramme",
-      "topic": "communication",
-      "level": "B1",
-      "rank": 5691,
-      "note": "old-fashioned",
-      "example_de": "Früher schickte man ein Telegramm statt einer Nachricht.",
-      "example_en": "In the old days people sent a telegram instead of a text."
-    },
-    {
       "id": "d-com2-0016",
       "de": "der Pfad",
       "de_alt": [],
@@ -299,7 +283,7 @@
       "plural": "die Assistenten",
       "topic": "work",
       "level": "B1",
-      "rank": 5705,
+      "rank": 4866,
       "note": "n-noun: den Assistenten; female: die Assistentin",
       "example_de": "Sie arbeitet als Assistentin in einer Arztpraxis.",
       "example_en": "She works as an assistant in a doctor's surgery."
@@ -2449,22 +2433,6 @@
       "example_en": "Which district do you live in?"
     },
     {
-      "id": "d-com2-0154",
-      "de": "Herrje!",
-      "de_alt": [],
-      "en": [
-        "oh dear",
-        "goodness me"
-      ],
-      "pos": "other",
-      "topic": "feelings",
-      "level": "B2",
-      "rank": 6182,
-      "note": "old-fashioned exclamation",
-      "example_de": "Herrje, ich hab meine Hausaufgaben vergessen!",
-      "example_en": "Oh dear, I've forgotten my homework!"
-    },
-    {
       "id": "d-com2-0155",
       "de": "beauftragen",
       "de_alt": [],
@@ -2941,7 +2909,8 @@
       ],
       "en": [
         "to beep",
-        "to tweet"
+        "to tweet",
+        "to squeak"
       ],
       "pos": "verb",
       "topic": "technology",
@@ -3668,21 +3637,6 @@
       "example_en": "You've got your jumper on inside out."
     },
     {
-      "id": "d-com2-0230",
-      "de": "die Göttin",
-      "de_alt": [],
-      "en": [
-        "goddess"
-      ],
-      "pos": "noun",
-      "plural": "die Göttinnen",
-      "topic": "religion",
-      "level": "B1",
-      "rank": 6435,
-      "example_de": "Athene war die griechische Göttin der Weisheit.",
-      "example_en": "Athena was the Greek goddess of wisdom."
-    },
-    {
       "id": "d-com2-0231",
       "de": "segeln",
       "de_alt": [],
@@ -4012,21 +3966,6 @@
       "example_en": "I love the smell of pizza."
     },
     {
-      "id": "d-com2-0251",
-      "de": "die Kellnerin",
-      "de_alt": [],
-      "en": [
-        "waitress"
-      ],
-      "pos": "noun",
-      "plural": "die Kellnerinnen",
-      "topic": "food",
-      "level": "A2",
-      "rank": 6501,
-      "example_de": "Die Kellnerin bringt gleich die Karte.",
-      "example_en": "The waitress will bring the menu in a moment."
-    },
-    {
       "id": "d-com2-0252",
       "de": "vertraulich",
       "de_alt": [],
@@ -4087,8 +4026,8 @@
       "level": "B2",
       "rank": 6512,
       "note": "Mangel an = lack of",
-      "example_de": "Er hat einfach Mangel an Schlaf.",
-      "example_en": "He's just suffering from lack of sleep."
+      "example_de": "An unserer Schule gibt es einen Mangel an Lehrern.",
+      "example_en": "There's a shortage of teachers at our school."
     },
     {
       "id": "d-com2-0256",
@@ -4124,22 +4063,6 @@
       "note": "zum Nachtisch = for dessert",
       "example_de": "Was gibt es zum Nachtisch?",
       "example_en": "What's for dessert?"
-    },
-    {
-      "id": "d-com2-0258",
-      "de": "die Kollegin",
-      "de_alt": [],
-      "en": [
-        "colleague"
-      ],
-      "pos": "noun",
-      "plural": "die Kolleginnen",
-      "topic": "work",
-      "level": "A2",
-      "rank": 6519,
-      "note": "female; male = der Kollege",
-      "example_de": "Meine Mutter trifft sich heute mit einer Kollegin.",
-      "example_en": "My mum is meeting a colleague today."
     },
     {
       "id": "d-com2-0259",
@@ -4355,23 +4278,6 @@
       "example_en": "You have to pull hard, then the door opens."
     },
     {
-      "id": "d-com2-0272",
-      "de": "die Nachbarin",
-      "de_alt": [],
-      "en": [
-        "neighbour",
-        "neighbor"
-      ],
-      "pos": "noun",
-      "plural": "die Nachbarinnen",
-      "topic": "home",
-      "level": "A2",
-      "rank": 6571,
-      "note": "female; male = der Nachbar",
-      "example_de": "Unsere Nachbarin gießt die Blumen, wenn wir weg sind.",
-      "example_en": "Our neighbour waters the plants when we're away."
-    },
-    {
       "id": "d-com2-0273",
       "de": "der Wohnwagen",
       "de_alt": [],
@@ -4549,7 +4455,7 @@
       "topic": "city",
       "level": "B1",
       "rank": 6594,
-      "note": "a block of houses; der Block also = notepad (plural: die Blocks)",
+      "note": "a block of houses (plural here often: die Blocks); der Block also = notepad (plural: die Blocks)",
       "example_de": "Er wohnt nur zwei Blocks weiter.",
       "example_en": "He lives just two blocks away."
     },
@@ -7192,25 +7098,6 @@
       "example_en": "The groom was really nervous."
     },
     {
-      "id": "d-com2-0444",
-      "de": "drunter",
-      "de_alt": [
-        "darunter"
-      ],
-      "en": [
-        "underneath",
-        "under it",
-        "below"
-      ],
-      "pos": "adv",
-      "topic": "basics",
-      "level": "B1",
-      "rank": 7020,
-      "note": "colloquial for darunter; drunter und drüber = topsy-turvy",
-      "example_de": "Leg das Heft auf den Tisch, nicht drunter.",
-      "example_en": "Put the exercise book on the table, not under it."
-    },
-    {
       "id": "d-com2-0445",
       "de": "Schottland",
       "de_alt": [],
@@ -8122,23 +8009,6 @@
       "example_en": "The crisps are on the top shelf."
     },
     {
-      "id": "d-com2-0501",
-      "de": "die Polizistin",
-      "de_alt": [],
-      "en": [
-        "police officer",
-        "policewoman"
-      ],
-      "pos": "noun",
-      "plural": "die Polizistinnen",
-      "topic": "work",
-      "level": "A2",
-      "rank": 7177,
-      "note": "man: der Polizist",
-      "example_de": "Die Polizistin hat uns den Weg erklärt.",
-      "example_en": "The police officer explained the way to us."
-    },
-    {
       "id": "d-com2-0502",
       "de": "die Windel",
       "de_alt": [],
@@ -8153,21 +8023,6 @@
       "rank": 7178,
       "example_de": "Kannst du dem Baby die Windel wechseln?",
       "example_en": "Can you change the baby's nappy?"
-    },
-    {
-      "id": "d-com2-0503",
-      "de": "elegant",
-      "de_alt": [],
-      "en": [
-        "elegant",
-        "stylish"
-      ],
-      "pos": "adj",
-      "topic": "clothing",
-      "level": "B1",
-      "rank": 7186,
-      "example_de": "Du siehst heute richtig elegant aus.",
-      "example_en": "You look really elegant today."
     },
     {
       "id": "d-com2-0504",
@@ -8217,20 +8072,6 @@
       "note": "eine Auszeit nehmen = to take a break",
       "example_de": "Ich brauche mal eine Auszeit vom Handy.",
       "example_en": "I need a break from my phone."
-    },
-    {
-      "id": "d-com2-0507",
-      "de": "international",
-      "de_alt": [],
-      "en": [
-        "international"
-      ],
-      "pos": "adj",
-      "topic": "society",
-      "level": "B1",
-      "rank": 7191,
-      "example_de": "Unsere Schule ist sehr international.",
-      "example_en": "Our school is very international."
     },
     {
       "id": "d-com2-0508",
@@ -8409,22 +8250,6 @@
       "rank": 7221,
       "example_de": "Ich muss den Anzug zur Reinigung bringen.",
       "example_en": "I have to take the suit to the dry cleaner's."
-    },
-    {
-      "id": "d-com2-0519",
-      "de": "ideal",
-      "de_alt": [],
-      "en": [
-        "ideal",
-        "perfect"
-      ],
-      "pos": "adj",
-      "topic": "opinion",
-      "level": "B1",
-      "rank": 7223,
-      "note": "das Ideal = the ideal",
-      "example_de": "Das Wetter ist ideal zum Schwimmen.",
-      "example_en": "The weather is ideal for swimming."
     },
     {
       "id": "d-com2-0520",
@@ -9335,7 +9160,9 @@
     {
       "id": "d-com2-0575",
       "de": "basieren auf",
-      "de_alt": [],
+      "de_alt": [
+        "basieren"
+      ],
       "en": [
         "to be based on"
       ],
@@ -9343,7 +9170,7 @@
       "topic": "basics",
       "level": "B2",
       "rank": 7415,
-      "note": "+ dative: basiert auf einer wahren Geschichte",
+      "note": "+ dative: basiert auf einer wahren Geschichte; basierend auf = based on",
       "example_de": "Der Film basiert auf einer wahren Geschichte.",
       "example_en": "The film is based on a true story."
     },
@@ -11442,22 +11269,6 @@
       "example_en": "My grandpa sometimes smokes a cigar."
     },
     {
-      "id": "d-com2-0703",
-      "de": "die Tänzerin",
-      "de_alt": [],
-      "en": [
-        "dancer"
-      ],
-      "pos": "noun",
-      "plural": "die Tänzerinnen",
-      "topic": "music",
-      "level": "A2",
-      "rank": 7758,
-      "note": "man: der Tänzer",
-      "example_de": "Meine Schwester will Tänzerin werden.",
-      "example_en": "My sister wants to be a dancer."
-    },
-    {
       "id": "d-com2-0704",
       "de": "der Vollmond",
       "de_alt": [],
@@ -12187,22 +11998,6 @@
       "example_en": "Which perfume do you use? It smells nice."
     },
     {
-      "id": "d-com2-0748",
-      "de": "die Präsidentin",
-      "de_alt": [],
-      "en": [
-        "president"
-      ],
-      "pos": "noun",
-      "plural": "die Präsidentinnen",
-      "topic": "society",
-      "level": "B1",
-      "rank": 7879,
-      "note": "man: der Präsident",
-      "example_de": "Die Präsidentin hat heute eine Rede gehalten.",
-      "example_en": "The president gave a speech today."
-    },
-    {
       "id": "d-com2-0749",
       "de": "die Entlassung",
       "de_alt": [],
@@ -12668,8 +12463,8 @@
       "topic": "basics",
       "level": "B2",
       "rank": 7953,
-      "example_de": "Der Test war geradezu lächerlich einfach.",
-      "example_en": "The test was practically ridiculously easy."
+      "example_de": "Das Wetter war geradezu perfekt.",
+      "example_en": "The weather was practically perfect."
     },
     {
       "id": "d-com2-0777",
@@ -14440,7 +14235,7 @@
       "plural": "die Tänzer",
       "topic": "free-time",
       "level": "A2",
-      "rank": 8238,
+      "rank": 7758,
       "note": "female: die Tänzerin",
       "example_de": "Sie ist die beste Tänzerin in unserer Gruppe.",
       "example_en": "She's the best dancer in our group."
@@ -14628,24 +14423,6 @@
       "rank": 8258,
       "example_de": "Mein Onkel hat sich einen Schnurrbart wachsen lassen.",
       "example_en": "My uncle has grown a moustache."
-    },
-    {
-      "id": "d-com2-0895",
-      "de": "rumlaufen",
-      "de_alt": [
-        "herumlaufen"
-      ],
-      "en": [
-        "to walk around",
-        "to run around"
-      ],
-      "pos": "verb",
-      "topic": "movement",
-      "level": "B1",
-      "rank": 8260,
-      "note": "colloquial, separable; Perfekt: ist rumgelaufen",
-      "example_de": "So kannst du doch nicht rumlaufen!",
-      "example_en": "You can't walk around looking like that!"
     },
     {
       "id": "d-com2-0896",
@@ -14891,7 +14668,6 @@
       ],
       "en": [
         "mess",
-        "mess up",
         "pickle"
       ],
       "pos": "noun",
@@ -16974,22 +16750,6 @@
       "example_en": "I was calm, but inwardly I was really nervous."
     },
     {
-      "id": "d-com2-1035",
-      "de": "die Künstlerin",
-      "de_alt": [],
-      "en": [
-        "artist"
-      ],
-      "pos": "noun",
-      "plural": "die Künstlerinnen",
-      "topic": "free-time",
-      "level": "A2",
-      "rank": 8673,
-      "note": "female; male: der Künstler",
-      "example_de": "Meine Tante ist Künstlerin und malt riesige Bilder.",
-      "example_en": "My aunt is an artist and paints huge pictures."
-    },
-    {
       "id": "d-com2-1036",
       "de": "der Schöpfer",
       "de_alt": [],
@@ -17280,22 +17040,6 @@
       "rank": 8728,
       "example_de": "Die Sonne verschwindet langsam hinter dem Horizont.",
       "example_en": "The sun is slowly disappearing below the horizon."
-    },
-    {
-      "id": "d-com2-1054",
-      "de": "die Sängerin",
-      "de_alt": [],
-      "en": [
-        "singer"
-      ],
-      "pos": "noun",
-      "plural": "die Sängerinnen",
-      "topic": "music",
-      "level": "A2",
-      "rank": 8736,
-      "note": "female; male: der Sänger",
-      "example_de": "Sie ist meine Lieblingssängerin.",
-      "example_en": "She's my favourite singer."
     },
     {
       "id": "d-com2-1055",
@@ -18781,22 +18525,6 @@
       "example_en": "Most of the class are going on the school trip."
     },
     {
-      "id": "d-com2-1145",
-      "de": "die Herzogin",
-      "de_alt": [],
-      "en": [
-        "duchess"
-      ],
-      "pos": "noun",
-      "plural": "die Herzoginnen",
-      "topic": "history",
-      "level": "B2",
-      "rank": 9002,
-      "note": "male: der Herzog",
-      "example_de": "Die Herzogin hat die neue Schule eröffnet.",
-      "example_en": "The duchess opened the new school."
-    },
-    {
       "id": "d-com2-1146",
       "de": "das Gegenmittel",
       "de_alt": [],
@@ -19007,22 +18735,6 @@
       "note": "old-fashioned; das Donnerwetter also = a telling-off",
       "example_de": "Donnerwetter, du hast ja richtig gut gekocht!",
       "example_en": "Wow, you've cooked really well!"
-    },
-    {
-      "id": "d-com2-1159",
-      "de": "die Studentin",
-      "de_alt": [],
-      "en": [
-        "student"
-      ],
-      "pos": "noun",
-      "plural": "die Studentinnen",
-      "topic": "school",
-      "level": "A1",
-      "rank": 9050,
-      "note": "female, at university; school pupil = die Schülerin",
-      "example_de": "Meine Cousine ist Studentin in Köln.",
-      "example_en": "My cousin is a student in Cologne."
     },
     {
       "id": "d-com2-1160",
@@ -19424,22 +19136,6 @@
       "example_en": "Can you light the candles on the cake?"
     },
     {
-      "id": "d-com2-1184",
-      "de": "basieren",
-      "de_alt": [],
-      "en": [
-        "to be based on",
-        "to base"
-      ],
-      "pos": "verb",
-      "topic": "media",
-      "level": "B2",
-      "rank": 9138,
-      "note": "basieren auf; basierend auf = based on",
-      "example_de": "Der Film basiert auf einer wahren Geschichte.",
-      "example_en": "The film is based on a true story."
-    },
-    {
       "id": "d-com2-1185",
       "de": "der Vizepräsident",
       "de_alt": [],
@@ -19664,26 +19360,6 @@
       "note": "separable; Kann ich Ihnen weiterhelfen? = Can I help you?",
       "example_de": "Tut mir leid, da kann ich dir leider nicht weiterhelfen.",
       "example_en": "Sorry, I'm afraid I can't help you with that."
-    },
-    {
-      "id": "d-com2-1199",
-      "de": "der Gerichtsmediziner",
-      "de_alt": [
-        "der Rechtsmediziner"
-      ],
-      "en": [
-        "forensic pathologist",
-        "coroner",
-        "medical examiner"
-      ],
-      "pos": "noun",
-      "plural": "die Gerichtsmediziner",
-      "topic": "crime",
-      "level": "C1",
-      "rank": 9187,
-      "note": "common in crime shows",
-      "example_de": "In jedem Krimi gibt es einen witzigen Gerichtsmediziner.",
-      "example_en": "Every crime show has a funny pathologist."
     },
     {
       "id": "d-com2-1200",
@@ -20096,8 +19772,7 @@
       "de": "der Notarzt",
       "de_alt": [],
       "en": [
-        "emergency doctor",
-        "paramedic"
+        "emergency doctor"
       ],
       "pos": "noun",
       "plural": "die Notärzte",
@@ -20803,24 +20478,6 @@
       "example_en": "I got a mysterious message."
     },
     {
-      "id": "d-com2-1267",
-      "de": "Häh?",
-      "de_alt": [
-        "Hä?"
-      ],
-      "en": [
-        "huh",
-        "what"
-      ],
-      "pos": "other",
-      "topic": "texting",
-      "level": "A1",
-      "rank": 9375,
-      "note": "colloquial, a bit rude; polite: Wie bitte?",
-      "example_de": "Häh? Was hast du gerade gesagt?",
-      "example_en": "Huh? What did you just say?"
-    },
-    {
       "id": "d-com2-1268",
       "de": "vorausgesetzt",
       "de_alt": [],
@@ -20906,23 +20563,6 @@
       "example_en": "When taking blood the doctor couldn't find a vein."
     },
     {
-      "id": "d-com2-1273",
-      "de": "die Mordkommission",
-      "de_alt": [],
-      "en": [
-        "homicide squad",
-        "murder squad"
-      ],
-      "pos": "noun",
-      "plural": "die Mordkommissionen",
-      "topic": "crime",
-      "level": "C1",
-      "rank": 9387,
-      "note": "common in crime shows like Tatort",
-      "example_de": "Im Tatort arbeitet sie bei der Mordkommission.",
-      "example_en": "In Tatort she works for the homicide squad."
-    },
-    {
       "id": "d-com2-1274",
       "de": "schnattern",
       "de_alt": [],
@@ -20938,24 +20578,6 @@
       "note": "geese and ducks; also people talking a lot",
       "example_de": "Hinten im Bus schnattern die Mädchen die ganze Fahrt.",
       "example_en": "At the back of the bus the girls chatter the whole trip."
-    },
-    {
-      "id": "d-com2-1275",
-      "de": "piepsen",
-      "de_alt": [
-        "piepen"
-      ],
-      "en": [
-        "to beep",
-        "to cheep",
-        "to squeak"
-      ],
-      "pos": "verb",
-      "topic": "technology",
-      "level": "B1",
-      "rank": 9390,
-      "example_de": "Der Rauchmelder piepst, die Batterie ist leer.",
-      "example_en": "The smoke alarm is beeping, the battery is dead."
     },
     {
       "id": "d-com2-1276",
@@ -21123,23 +20745,6 @@
       "rank": 9422,
       "example_de": "Das Spiel spielt nach einer Zombie-Apokalypse.",
       "example_en": "The game is set after a zombie apocalypse."
-    },
-    {
-      "id": "d-com2-1287",
-      "de": "der Knabe",
-      "de_alt": [],
-      "en": [
-        "boy",
-        "lad"
-      ],
-      "pos": "noun",
-      "plural": "die Knaben",
-      "topic": "family",
-      "level": "B2",
-      "rank": 9425,
-      "note": "old-fashioned; today: der Junge",
-      "example_de": "Mein Opa sagt noch „Knabe“ statt „Junge“.",
-      "example_en": "My grandpa still says 'Knabe' instead of 'Junge'."
     },
     {
       "id": "d-com2-1288",
@@ -21334,8 +20939,8 @@
       "pos": "verb",
       "topic": "movement",
       "level": "B1",
-      "rank": 9457,
-      "note": "separable; Perfekt: ist herumgelaufen",
+      "rank": 8260,
+      "note": "separable; Perfekt: ist herumgelaufen; in speech usually rumlaufen",
       "example_de": "Wir sind stundenlang in der Stadt herumgelaufen.",
       "example_en": "We walked around town for hours."
     },
@@ -21724,22 +21329,6 @@
       "example_en": "I totally fell for the April Fool's joke!"
     },
     {
-      "id": "d-com2-1324",
-      "de": "der Vetter",
-      "de_alt": [],
-      "en": [
-        "cousin"
-      ],
-      "pos": "noun",
-      "plural": "die Vettern",
-      "topic": "family",
-      "level": "B2",
-      "rank": 9534,
-      "note": "old-fashioned; today: der Cousin",
-      "example_de": "Meine Oma nennt meinen Cousin noch „Vetter“.",
-      "example_en": "My grandma still calls my cousin 'Vetter'."
-    },
-    {
       "id": "d-com2-1325",
       "de": "bestechen",
       "de_alt": [],
@@ -22006,20 +21595,6 @@
       "example_en": "Tomorrow we have a written exam in maths."
     },
     {
-      "id": "d-com2-1342",
-      "de": "irrelevant",
-      "de_alt": [],
-      "en": [
-        "irrelevant"
-      ],
-      "pos": "adj",
-      "topic": "opinion",
-      "level": "B2",
-      "rank": 9588,
-      "example_de": "Das ist doch völlig irrelevant!",
-      "example_en": "That's completely irrelevant!"
-    },
-    {
       "id": "d-com2-1343",
       "de": "ironisch",
       "de_alt": [],
@@ -22151,8 +21726,8 @@
       "de": "anhand",
       "de_alt": [],
       "en": [
-        "using",
         "based on",
+        "using",
         "by means of"
       ],
       "pos": "prep",
@@ -22350,8 +21925,8 @@
         "Stimmt es?"
       ],
       "en": [
-        "right",
-        "isn't that right"
+        "isn't that right",
+        "right"
       ],
       "pos": "phrase",
       "topic": "communication",
@@ -22568,23 +22143,6 @@
       "rank": 9673,
       "example_de": "Ich habe nur noch eine saubere Unterhose!",
       "example_en": "I've only got one pair of clean underpants left!"
-    },
-    {
-      "id": "d-com2-1377",
-      "de": "die Heldin",
-      "de_alt": [],
-      "en": [
-        "heroine",
-        "hero"
-      ],
-      "pos": "noun",
-      "plural": "die Heldinnen",
-      "topic": "media",
-      "level": "B1",
-      "rank": 9677,
-      "note": "female of der Held",
-      "example_de": "Die Heldin in dem Buch ist sechzehn.",
-      "example_en": "The heroine in the book is sixteen."
     },
     {
       "id": "d-com2-1378",
@@ -23434,7 +22992,9 @@
     {
       "id": "d-com2-1431",
       "de": "der Sekretär",
-      "de_alt": [],
+      "de_alt": [
+        "die Sekretärin"
+      ],
       "en": [
         "secretary",
         "writing desk"
@@ -23443,7 +23003,7 @@
       "plural": "die Sekretäre",
       "topic": "work",
       "level": "B2",
-      "rank": 9821,
+      "rank": 3906,
       "note": "also: a writing desk; female: die Sekretärin",
       "example_de": "Der Sekretär der Schule hat meine Krankmeldung.",
       "example_en": "The school secretary has my sick note."
@@ -23740,22 +23300,6 @@
       "note": "female: die Beschützerin",
       "example_de": "Mein großer Bruder spielt immer den Beschützer.",
       "example_en": "My big brother always plays the protector."
-    },
-    {
-      "id": "d-com2-1450",
-      "de": "wahrlich",
-      "de_alt": [],
-      "en": [
-        "truly",
-        "verily"
-      ],
-      "pos": "adv",
-      "topic": "opinion",
-      "level": "C1",
-      "rank": 9878,
-      "note": "old-fashioned, formal",
-      "example_de": "Das war wahrlich kein guter Tag.",
-      "example_en": "That was truly not a good day."
     },
     {
       "id": "d-com2-1451",
@@ -24300,9 +23844,9 @@
       "de": "die Ohnmacht",
       "de_alt": [],
       "en": [
-        "faint",
         "unconsciousness",
-        "powerlessness"
+        "powerlessness",
+        "faint"
       ],
       "pos": "noun",
       "plural": "—",

@@ -3,39 +3,6 @@
   "title": "STEM German — mathematics",
   "words": [
     {
-      "id": "s-math-0001",
-      "de": "die Zahl",
-      "de_alt": [],
-      "en": [
-        "number"
-      ],
-      "pos": "noun",
-      "plural": "die Zahlen",
-      "topic": "numbers",
-      "level": "A2",
-      "rank": 1,
-      "note": "die Ziffer = digit",
-      "example_de": "Die Zahl 7 ist eine Primzahl.",
-      "example_en": "The number 7 is a prime number."
-    },
-    {
-      "id": "s-math-0002",
-      "de": "rechnen",
-      "de_alt": [],
-      "en": [
-        "to calculate",
-        "to do maths",
-        "to compute"
-      ],
-      "pos": "verb",
-      "topic": "operations",
-      "level": "A2",
-      "rank": 6,
-      "note": "rechnen mit = to reckon with, to expect",
-      "example_de": "Kannst du das im Kopf rechnen?",
-      "example_en": "Can you calculate that in your head?"
-    },
-    {
       "id": "s-math-0003",
       "de": "das Ergebnis",
       "de_alt": [],
@@ -285,43 +252,6 @@
       "example_en": "Half of 50 is 25."
     },
     {
-      "id": "s-math-0018",
-      "de": "gleich",
-      "de_alt": [],
-      "en": [
-        "equal",
-        "equals",
-        "the same"
-      ],
-      "pos": "adj",
-      "topic": "operations",
-      "level": "A2",
-      "rank": 85,
-      "note": "2 + 2 = 4: „zwei plus zwei ist gleich vier“",
-      "example_de": "Beide Seiten der Gleichung sind gleich.",
-      "example_en": "Both sides of the equation are equal."
-    },
-    {
-      "id": "s-math-0019",
-      "de": "die Mathematik",
-      "de_alt": [
-        "die Mathe"
-      ],
-      "en": [
-        "mathematics",
-        "maths",
-        "math"
-      ],
-      "pos": "noun",
-      "plural": "—",
-      "topic": "numbers",
-      "level": "A2",
-      "rank": 89,
-      "note": "at school usually just „Mathe“",
-      "example_de": "Mathematik ist mein Lieblingsfach.",
-      "example_en": "Maths is my favourite subject."
-    },
-    {
       "id": "s-math-0020",
       "de": "der Kreis",
       "de_alt": [],
@@ -401,22 +331,6 @@
       "note": "result of a subtraction",
       "example_de": "Die Differenz von 10 und 4 ist 6.",
       "example_en": "The difference between 10 and 4 is 6."
-    },
-    {
-      "id": "s-math-0025",
-      "de": "das Produkt",
-      "de_alt": [],
-      "en": [
-        "product"
-      ],
-      "pos": "noun",
-      "plural": "die Produkte",
-      "topic": "operations",
-      "level": "B1",
-      "rank": 103,
-      "note": "result of a multiplication",
-      "example_de": "Das Produkt von 6 und 7 ist 42.",
-      "example_en": "The product of 6 and 7 is 42."
     },
     {
       "id": "s-math-0026",
@@ -935,20 +849,6 @@
       "example_en": "The diameter of the circle is 8 cm."
     },
     {
-      "id": "s-math-0058",
-      "de": "parallel",
-      "de_alt": [],
-      "en": [
-        "parallel"
-      ],
-      "pos": "adj",
-      "topic": "geometry",
-      "level": "B1",
-      "rank": 268,
-      "example_de": "Die beiden Geraden sind parallel.",
-      "example_en": "The two lines are parallel."
-    },
-    {
       "id": "s-math-0059",
       "de": "senkrecht",
       "de_alt": [
@@ -1160,20 +1060,6 @@
       "note": "separable: ich forme um",
       "example_de": "Forme die Formel nach r um.",
       "example_en": "Rearrange the formula for r."
-    },
-    {
-      "id": "s-math-0072",
-      "de": "linear",
-      "de_alt": [],
-      "en": [
-        "linear"
-      ],
-      "pos": "adj",
-      "topic": "algebra",
-      "level": "B1",
-      "rank": 312,
-      "example_de": "Das Wachstum ist hier linear.",
-      "example_en": "The growth here is linear."
     },
     {
       "id": "s-math-0073",
