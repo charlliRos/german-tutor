@@ -81,6 +81,18 @@ Two kids side by side race through the same 10 words: 100 points for a right ans
 
 The host picks the words (words both kids have already started, then common everyday words), starts the round, and works out the final scores; both screens show the same result and the winner. No internet, account or server: the computers talk directly (duels on TCP port 50505, finding each other with small UDP broadcasts on port 50506), and only computers on the local network are listened to. The first time a computer hosts, Windows asks whether Python may use the network: allow it on **private** networks. If one player leaves or the Wi-Fi drops, the other is told and goes back to the menu. Duels don't change the word schedule.
 
+#### Connecting two computers (check once)
+
+Connecting is automatic: with both apps open on the same Wi-Fi, they find each other within about 10 seconds. Nothing to type. For that to work, check once on **each** computer:
+
+1. **Allow Python through the firewall.** The first time the app starts, Windows asks whether Python may use the network: click **Allow**. If someone clicked Cancel: Windows Security → Firewall & network protection → *Allow an app through firewall* → tick **Python** (Private).
+2. **Set the Wi-Fi to Private.** Windows often marks a new Wi-Fi as *Public*, and then the firewall blocks the app even after Allow: Settings → Network & internet → Wi-Fi → click your network → **Network profile type: Private**.
+3. **Same Wi-Fi, not a guest network.** Guest networks and routers with "AP isolation" (or "client isolation") stop computers from seeing each other. Normal home Wi-Fi is fine.
+4. **Same app version.** Run `gtutor update` on both computers.
+5. **Meet once.** For a challenge to play later, both apps must have been open at the same time at least once, so each knows the other kid.
+
+**Still not found?** Use the backup: on one computer menu **8** → **h** (it shows an address like `192.168.1.23`), on the other menu **8** → **j** and type that address. If even that fails, it's the firewall (steps 1–2) or the router (step 3).
+
 ### No cheating
 
 - **Pasting doesn't work.** A terminal can't switch paste off, but pasted text arrives all at once and typing doesn't, so the app throws it away (with a buzz). In the classic Windows console, mouse select and right-click paste are also switched off while the app runs.
