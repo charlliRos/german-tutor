@@ -119,6 +119,32 @@ class Repetition(unittest.TestCase):
         self.assertEqual(looked_back, [1, 2, 3, 7, 16, 35])
         self.assertNotIn("b:1", self.ctx.profile.data["paragraph_reviews"])
 
+    def test_two_new_paragraphs_a_day_still_get_their_early_look_backs(self):
+        self.ctx.settings["units_per_day"] = 2
+        for day in range(25):
+            log = self.session(day)
+        # paragraphs 47 and 48 were learned on day 23: both are looked back at on day 24
+        self.assertIn((47, "look back"), log)
+        self.assertIn((48, "look back"), log)
+
+    def test_a_paragraph_learned_again_waits_for_the_next_session(self):
+        self.session(0)
+        for day in (1, 2, 3, 7, 16, 35):
+            self.session(day)
+        self.ctx.profile.book_state("b")["next"] = 1  # "start again from the beginning"
+        log = self.session(36)
+        self.assertEqual(log[:3], [(1, "Round 1 of 3"), (1, "Round 2 of 3"), (1, "Round 3 of 3")])
+        self.assertNotIn((1, "look back"), log)
+        self.assertEqual(self.ctx.profile.data["paragraph_reviews"]["b:1"]["sessions_left"], 2)
+        self.assertIn((1, "look back"), self.session(37))
+
+    def test_a_book_that_fails_to_load_keeps_its_look_backs(self):
+        self.session(0)
+        books, self.ctx.content.books = self.ctx.content.books, []
+        self.assertEqual(reading.due_reviews(self.ctx), [])
+        self.assertIn("b:1", self.ctx.profile.data["paragraph_reviews"])
+        self.ctx.content.books = books
+
     def test_needs_work_comes_back_next_session(self):
         self.ctx.settings["reading_tasks"] = {"read_aloud": 0, "de2en": 1, "en2de": 1}  # graded look backs only
         self.session(0)
@@ -153,6 +179,7 @@ class ListenAndType(unittest.TestCase):
         self.assertEqual(score, (1 + 0.5 + 1 + 0) / 4)
         self.assertEqual(reading.mark_words("der hund bellt laut", "Der Hund bellt laut.")[1], 1.0)
         self.assertEqual(reading.mark_words("Muede", "Müde!")[1], 1.0)  # ue for ü is fine
+        self.assertEqual(reading.mark_words("Nun (da Sie es sagen) bitte ich.", "Nun (da Sie es sagen) bitte ich.")[1], 1.0)
 
     def test_look_back_counts_only_when_mostly_right(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -242,7 +242,7 @@ def mark_words(answer: str, sentence: str) -> tuple[Text, float]:
     and the share of words right (a slip counts half)."""
     ref = sentence.split()
     ref_norm = [normalize(w) for w in ref]
-    given = normalize(answer).split()
+    given = [t for w in answer.split() for t in normalize(w).split()]  # word by word, like the sentence
     status = ["bad"] * len(ref)
     matcher = difflib.SequenceMatcher(a=ref_norm, b=given, autojunk=False)
     for op, a1, a2, b1, b2 in matcher.get_opcodes():
@@ -322,7 +322,7 @@ def _celebrate(ctx, book: Book) -> None:
     console.print(choose_book(ctx))
 
 
-def lesson(ctx, book: Book) -> bool:
+def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
     """One new paragraph in 3 rounds: translate it, read it out loud, translate it back.
     Returns True if it counts as read. Stopping halfway keeps the typed translations (journal),
     and the paragraph starts again next time."""
@@ -364,6 +364,8 @@ def lesson(ctx, book: Book) -> bool:
     if counted:
         ctx.profile.count(ctx.today, units=1)
     _schedule_reviews(ctx, book, unit)
+    if learned_now is not None:
+        learned_now.add(f"{book.id}:{unit.n}")
     ctx.profile.save()
     if book.finished(state["next"]):
         _story_so_far(ctx, book, state)  # a closing summary, if the book ends with one
@@ -380,20 +382,26 @@ def _schedule_reviews(ctx, book: Book, unit: Unit) -> None:
     queue.extend(wid for wid in unit.word_ids if wid not in queue)
 
 
-def due_reviews(ctx) -> list[tuple[Book, Unit, dict]]:
-    """Paragraphs to look back at, oldest first: from the last sessions, or with a review day that has come."""
+def due_reviews(ctx, skip: set[str] = frozenset(), new_paragraphs: int = 1) -> list[tuple[Book, Unit, dict]]:
+    """Paragraphs to look back at: first those from the last sessions (the early repeats matter most),
+    then those whose review day has come, most overdue first. `skip` = learned in this session.
+    Room for paragraph_reviews_per_session per new paragraph read, so reading 2 a day doesn't crowd them out."""
     books = {b.id: b for b in ctx.content.books}
+    today = ctx.today.isoformat()
     out = []
     for key, item in list(ctx.profile.data["paragraph_reviews"].items()):
         book = books.get(item["book"])
-        unit = next((u for u in book.units if u.n == item["n"] and u.kind == "text"), None) if book else None
-        if unit is None:  # the text was changed or removed
+        if book is None or key in skip:  # a book that didn't load (e.g. a typo in its file) keeps its reviews
+            continue
+        unit = next((u for u in book.units if u.n == item["n"] and u.kind == "text"), None)
+        if unit is None:  # the paragraph was removed from the book
             del ctx.profile.data["paragraph_reviews"][key]
             continue
-        if item["sessions_left"] > 0 or (item["due_days"] and item["due_days"][0] <= ctx.today.isoformat()):
+        if item["sessions_left"] > 0 or (item["due_days"] and item["due_days"][0] <= today):
             out.append((book, unit, item))
-    out.sort(key=lambda r: r[2]["learned"])  # stable: same day keeps reading order
-    return out[: max(0, int(ctx.settings["paragraph_reviews_per_session"]))]
+    out.sort(key=lambda r: (r[2]["sessions_left"] == 0,
+                            r[2]["learned"] if r[2]["sessions_left"] else r[2]["due_days"][0], r[2]["learned"]))
+    return out[: max(0, int(ctx.settings["paragraph_reviews_per_session"])) * max(1, new_paragraphs)]
 
 
 def _review_task(ctx, last: str) -> str:
@@ -453,21 +461,22 @@ def look_back(ctx, reviews: list[tuple[Book, Unit, dict]]) -> None:
 def run_reading(ctx) -> int:
     """New paragraphs until the daily amount is reached (and more if wanted), then a look back at the
     paragraphs of earlier sessions. Returns new paragraphs read."""
-    reviews = due_reviews(ctx)  # chosen now: today's new paragraph waits for the next sessions
+    learned_now: set[str] = set()  # paragraphs learned in this session wait for the next ones
     done = lessons = 0
     while True:
         book = current_book(ctx)
         if book is None:
             console.print("[good]You've read every paragraph we have! Ask for new texts.[/]")
             break
-        done += lesson(ctx, book)
+        done += lesson(ctx, book, learned_now)
         lessons += 1
         if lessons >= ctx.settings["units_per_day"]:
+            reviews = due_reviews(ctx, learned_now)
             ui.clear()
             ui.title(f"{ctx.step}Reading")
             console.print(f"{ui.plural(done, 'paragraph')} read."
                           + (" Then a look back at earlier ones." if reviews else "") + " Want another new one first?")
             if ui.keys({"": "go on" if reviews else "finish reading", "y": "one more paragraph"}) != "y":
                 break
-    look_back(ctx, reviews)
+    look_back(ctx, due_reviews(ctx, learned_now, len(learned_now)))
     return done
