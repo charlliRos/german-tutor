@@ -151,6 +151,22 @@ class ReadingWordsInWarmup(unittest.TestCase):
                     mock.patch("app.warmup.quiz", lambda *a, **k: warmup.AUTO_NEXT), console.capture():
                 warmup.run_warmup(ctx)
             self.assertEqual(seen[:2], ["w11", "w10"])
+            self.assertEqual(ctx.profile.data["reading_words"], [])
+
+    def test_known_key_words_come_back_too(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ctx = make_ctx(tmp)
+            ctx.profile.data["vocab"]["w3"] = {"box": 4, "due": "2099-01-01", "seen": 5, "right": 5, "wrong": 0,
+                                               "last": "2026-09-01"}
+            ctx.profile.data["reading_words"] = ["w3"]
+            asked = []
+            quiz = lambda ctx, word, *a, **k: asked.append(word.id) or warmup.AUTO_NEXT  # noqa: E731
+            with mock.patch("app.ui.clear", lambda: None), mock.patch("app.ui.keys", lambda options: ""), \
+                    mock.patch("app.warmup.show_card", lambda *a: None), mock.patch("app.warmup.quiz", quiz), \
+                    console.capture():
+                warmup.run_warmup(ctx)
+            self.assertEqual(asked.count("w3"), 1)
+            self.assertEqual(ctx.profile.data["vocab"]["w3"]["box"], 4)  # extra practice: stays on schedule
 
 
 class EnglishAnswers(unittest.TestCase):

@@ -80,9 +80,10 @@ class Plan:
         return len(self.reviews) + len(self.new) + len(self.practice)
 
 
-def reading_words_due(states: dict, words: dict, queue: list[str], count: int) -> list[str]:
-    """Key words from paragraphs already read that haven't been learned yet, oldest first."""
-    return [wid for wid in queue if wid in words and states.get(wid, {}).get("box", 0) == 0][: max(count, 0)]
+def reading_words_due(words: dict, queue: list[str], count: int) -> list[str]:
+    """Key words of paragraphs already read, oldest first: new ones AND ones already known, because
+    meeting a word again in a story is more repetition, and repetition is how words stick."""
+    return [wid for wid in queue if wid in words][: max(count, 0)]
 
 
 def plan_session(states: dict, words: dict, settings: dict, today: date, size: int, new_allowed: int) -> Plan:
