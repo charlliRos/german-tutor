@@ -28,6 +28,7 @@ DEFAULTS = {
     "text_speed": 1.0,
     "input_device": None,        # sounddevice device index/name, None = system default
     "output_device": None,
+    "sound_effects": True,       # retro sounds for right / wrong answers and for pressing Enter too fast
 }
 
 

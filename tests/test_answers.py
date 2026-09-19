@@ -139,7 +139,7 @@ class UxFixes(unittest.TestCase):
         from unittest import mock
         from app import ui
         typed = iter(["She woke up.", "", "It was late.", "", ""])
-        with mock.patch.object(ui, "_read", lambda prompt: next(typed)):
+        with mock.patch.object(ui, "_read", lambda prompt, *a: next(typed)):
             self.assertEqual(ui.ask_multiline("x"), "She woke up.\nIt was late.")
 
     def test_streak_counts_finished_work_only(self):

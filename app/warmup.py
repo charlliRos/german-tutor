@@ -11,13 +11,14 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import srs, ui
+from . import sfx, srs, ui
 from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german, normalize
 from .content import BANKS, Word, words_sharing_english
 from .speaking import hear, speak_and_compare
 from .ui import console, icon
 
 AUTO_NEXT = "auto_next"  # quiz(): correct, and no key press needed to continue
+AUTO_NEXT_SECONDS = 2.0
 
 POS_HINTS = {"noun": "noun: include der / die / das", "verb": "verb", "adj": "adjective", "adv": "adverb",
              "prep": "preposition", "conj": "conjunction", "pron": "pronoun", "num": "number",
@@ -98,33 +99,36 @@ def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
         console.print(Panel(Text(", ".join(word.en[:2]), style="bold green"), title="English → German",
                             subtitle=POS_HINTS.get(word.pos, "") or None, border_style="green", padding=(1, 2)))
         console.print(ui.umlaut_tip())
-        answer = ui.ask("German:")
+        answer = ui.ask_answer("German:")
         check = _synonym_check(ctx, answer, word, check_german(answer, word))
     else:
         console.print(ui.german(word.de, "German → English", word=True))
         hear(ctx, word.de)
-        answer = ui.ask("English:")
+        answer = ui.ask_answer("English:")
         check = check_english(answer, word)
 
     if not answer:
-        console.print("[hint]No answer. Here it is:[/]")
+        console.print("[hint]Here it is:[/]")
         style = "bad"
     else:
         style, label = {CORRECT: ("good", f"{icon('ok')} Correct!"), ALMOST: ("almost", f"{icon('almost')} Almost"),
                         WRONG: ("bad", f"{icon('bad')} Not quite")}[check.outcome]
         console.print(f"[{style}]{label}[/] {ui.escape(check.message)}")
+        sfx.play(ctx.audio, {CORRECT: "right", ALMOST: "almost", WRONG: "wrong"}[check.outcome])
     border = {"good": "green", "almost": "dark_orange", "bad": "red"}[style]
     console.print(Panel(word_details(word), border_style=border, padding=(0, 2)))
     if direction == "en2de":
         hear(ctx, word.de)
 
     if check.outcome == CORRECT and ctx.settings.get("auto_next_on_correct", True):
+        console.print("[hint]Next one in a moment… (Enter = go now)[/]")
         return AUTO_NEXT  # the caller saves the result first, then pauses a moment and goes straight on
     options = {"": "next"}
     if check.overridable and answer and not second_chance and check.outcome != CORRECT:
         options["o"] = "my answer was right too"
     if _listen_options(ctx, word, options) == "o":
         console.print("[good]OK, counted as correct.[/]")
+        sfx.play(ctx.audio, "right")
         return CORRECT
     return check.outcome
 
@@ -188,7 +192,7 @@ def run_warmup(ctx) -> WarmupResult | None:
                               new=int(kind == "new"))
         ctx.profile.save()
         if auto == AUTO_NEXT:
-            ui.pause(1.5)
+            ui.pause(AUTO_NEXT_SECONDS, skippable=True)
 
     # Every word is graded: the warm-up counts now, even if they stop during the second chances.
     ctx.profile.count(ctx.today, warmups=1)
@@ -197,5 +201,5 @@ def run_warmup(ctx) -> WarmupResult | None:
         ui.clear()
         ui.title(f"{ctx.step}Second chance {i} of {len(result.to_practise)}", "just for practice, no score")
         if quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance=True) == AUTO_NEXT:
-            ui.pause(1.5)
+            ui.pause(AUTO_NEXT_SECONDS, skippable=True)
     return result

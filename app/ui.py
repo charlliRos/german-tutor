@@ -124,41 +124,136 @@ def clock_seconds() -> int:
     return round(_clock["seconds"])
 
 
-def pause(seconds: float) -> None:
-    """A moment to read the screen. Ctrl+C here stops the activity like q (not the whole app)."""
-    if not console.is_terminal:
-        return
+# Held-down Enter: Windows repeats the key about 30 times a second, which used to answer and skip
+# several questions at once. Every prompt first waits until Enter is let go, then ignores keys for a
+# moment after the last one, so one press = one step.
+# Seconds. Windows sees a held key directly, so the mute only has to catch a quick double press;
+# elsewhere it must outlast the delay before a held key starts repeating (about half a second).
+MUTE_AFTER_KEY = 0.25 if os.name == "nt" else 0.55
+REPEAT_GAP = 0.15  # keys closer together than this are a held or mashed key
+_last_key = [0.0]  # when the last key reached us (read or thrown away)
+
+
+def _enter_held() -> bool:
+    """True while the Enter key is physically down (Windows only; elsewhere the timing does the job)."""
+    if os.name != "nt":
+        return False
     try:
-        time.sleep(seconds)
+        import ctypes
+        return bool(ctypes.windll.user32.GetAsyncKeyState(0x0D) & 0x8000)
+    except Exception:
+        return False
+
+
+BUZZ = [None]  # main.py sets this to the "not so fast" sound effect
+
+
+class _Drain:
+    """Throws away keys pressed too early. Buzzes once if Enter is held down or mashed;
+    one early press is ignored quietly."""
+
+    def __init__(self) -> None:
+        self.buzzed = False
+        self.held_since: float | None = None
+        self.last_typed = 0.0
+
+    def keys_waiting(self) -> bool:
+        """True if keys were waiting (now thrown away) or Enter is still held down."""
+        now = time.monotonic()
+        typed, held = key_pressed(), _enter_held()
+        self.held_since = (self.held_since or now) if held else None
+        held_long = held and now - self.held_since > 0.1  # a new press shows as "held" just before its key arrives
+        if typed:
+            flush_input()
+            repeating = now - max(self.last_typed, _last_key[0]) < REPEAT_GAP
+            self.last_typed = now
+            if (repeating or held_long) and not self.buzzed and BUZZ[0]:
+                self.buzzed = True
+                BUZZ[0]()
+        if typed or held_long:
+            _last_key[0] = now
+        return typed or held
+
+
+def settle() -> None:
+    """Before a prompt: drop keys pressed too early, and wait until a held-down Enter is let go."""
+    if not console.is_terminal or not sys.stdin or not sys.stdin.isatty():
+        return
+    drain = _Drain()
+    try:
+        while drain.keys_waiting() or time.monotonic() - _last_key[0] < MUTE_AFTER_KEY:
+            time.sleep(0.02)
     except KeyboardInterrupt:
         console.print()
         raise QuitSession from None
 
 
-def _read(prompt: str) -> str:
+def pause(seconds: float, skippable: bool = False) -> None:
+    """A moment to read the screen. With skippable, a fresh Enter press goes on straight away.
+    Ctrl+C here stops the activity like q (not the whole app)."""
+    if not console.is_terminal:
+        return
+    end = time.monotonic() + seconds
+    drain = _Drain()
+    try:
+        while time.monotonic() < end:
+            if skippable and key_pressed() and time.monotonic() - _last_key[0] >= MUTE_AFTER_KEY:
+                flush_input()
+                _last_key[0] = time.monotonic()
+                return
+            drain.keys_waiting()
+            time.sleep(0.02)
+    except KeyboardInterrupt:
+        console.print()
+        raise QuitSession from None
+
+
+def _read(prompt: str, wait_for_quiet: bool = True) -> str:
+    if wait_for_quiet:
+        settle()
     try:
         return console.input(f"[bold]{prompt}[/] " if prompt else "")
     except (EOFError, KeyboardInterrupt):
         console.print()
         raise QuitSession from None
     finally:
+        _last_key[0] = time.monotonic()
         _tick()
 
 
-def ask(prompt: str) -> str:
-    value = _read(prompt).strip()
+def ask(prompt: str, wait_for_quiet: bool = True) -> str:
+    value = _read(prompt, wait_for_quiet).strip()
     if value.lower() in QUIT_WORDS:
         raise QuitSession
     return value
 
 
+DONT_KNOW = "?"
+
+
+def ask_answer(prompt: str) -> str:
+    """An answer to a question. Enter on its own does nothing (so a held Enter can't skip the question);
+    '?' means "I don't know" and returns ''."""
+    while True:
+        value = ask(prompt)
+        if value == DONT_KNOW:
+            return ""
+        if value:
+            return value
+        console.print(f"[hint]Type your answer first, or {DONT_KNOW} if you don't know.[/]")
+
+
 def ask_multiline(prompt: str) -> str:
-    """Several lines of text. A single empty line is kept (pasted paragraphs); two in a row finish."""
-    console.print(f"[bold]{prompt}[/] [hint](press Enter twice when you're done)[/]")
-    lines: list[str] = []
+    """Several lines of text. A single empty line is kept (pasted paragraphs); two in a row finish.
+    Empty lines before any text are ignored; '?' as the first line means "I don't know" and returns ''."""
+    console.print(f"[bold]{prompt}[/] [hint](press Enter twice when you're done; {DONT_KNOW} if you don't know)[/]")
+    first = ask_answer(">")
+    if not first:
+        return ""
+    lines = [first]
     empty_in_a_row = 0
     while True:
-        line = ask("…" if lines else ">")
+        line = ask("…", wait_for_quiet=False)  # no pause between lines, so pasting works
         if line:
             lines.append(line)
             empty_in_a_row = 0
@@ -166,7 +261,6 @@ def ask_multiline(prompt: str) -> str:
         empty_in_a_row += 1
         if empty_in_a_row >= 2:
             break
-    flush_input()
     return "\n".join(lines).strip()
 
 

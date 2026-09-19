@@ -14,5 +14,6 @@
   "word_speed": 1.15,
   "text_speed": 1.0,
   "input_device": null,
-  "output_device": null
+  "output_device": null,
+  "sound_effects": true
 }

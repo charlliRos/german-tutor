@@ -104,29 +104,25 @@ def _translate(ctx, book: Book, unit: Unit, direction: str, entry: dict) -> None
     """Fills entry with the answer (straight away, so quitting at the self-grade keeps it) and the grade."""
     to_english = direction == "de2en"
     reference = unit.en if to_english else unit.de
-    while True:
-        ui.clear()
-        ui.title(f"{ctx.step}Your turn: translate into {'English' if to_english else 'German'}", book.short_title)
-        if to_english:
-            console.print(ui.german(unit.de, "German"))
-        else:
-            console.print(ui.english(unit.en, "English"))
-            if unit.words:
-                console.print(ui.key_words(unit.words))
-            console.print(ui.umlaut_tip())
-        answer = ui.ask_multiline(f"Your {'English' if to_english else 'German'} translation:")
-        if answer:
-            break
-        console.print("[warn]Nothing written.[/]")
-        if ui.keys({"t": "let me try", "": "just show me the answer (skip this task)"}) == "":
-            console.print(Panel(Text(reference, style="en" if to_english else "de"),
-                                title="Reference translation" if to_english else "Original German",
-                                border_style="green" if to_english else "cyan", padding=(1, 2)))
-            if not to_english:
-                hear(ctx, unit.de, slow=False)
-            entry.update(answer="", skipped=True)
-            ui.keys({"": "continue"})
-            return
+    ui.clear()
+    ui.title(f"{ctx.step}Your turn: translate into {'English' if to_english else 'German'}", book.short_title)
+    if to_english:
+        console.print(ui.german(unit.de, "German"))
+    else:
+        console.print(ui.english(unit.en, "English"))
+        if unit.words:
+            console.print(ui.key_words(unit.words))
+        console.print(ui.umlaut_tip())
+    answer = ui.ask_multiline(f"Your {'English' if to_english else 'German'} translation:")
+    if not answer:  # typed ? : show the answer, the task counts as skipped
+        console.print(Panel(Text(reference, style="en" if to_english else "de"),
+                            title="Reference translation" if to_english else "Original German",
+                            border_style="green" if to_english else "cyan", padding=(1, 2)))
+        if not to_english:
+            hear(ctx, unit.de, slow=False)
+        entry.update(answer="", skipped=True)
+        ui.keys({"": "continue"})
+        return
     entry.update(answer=answer, self_grade="not graded")
     ui.side_by_side("Your translation", answer,
                     "Reference translation" if to_english else "Original German", reference)

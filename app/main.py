@@ -10,7 +10,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import srs, ui
+from . import sfx, srs, ui
 from .audio import Audio
 from .config import load_settings
 from .content import Content, load_content
@@ -301,6 +301,7 @@ def main(argv: list[str] | None = None) -> int:
         profile = choose_profile(args.profile)
         with console.status("Waking up Fritz (loading the German voice)…"):
             audio = Audio(settings, enabled=not args.no_audio)
+        ui.BUZZ[0] = lambda: sfx.play(audio, "buzz", wait=False)
         menu(Context(settings, content, profile, audio, random.Random(), date.today()))
     except (KeyboardInterrupt, QuitSession):
         pass

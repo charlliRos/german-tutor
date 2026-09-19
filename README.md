@@ -81,7 +81,7 @@ If you installed from a ZIP (no git), download the new ZIP instead, unzip it ove
 
 ## Settings
 
-Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`, `new_word_share`), the mix of everyday / STEM / official words (`bank_shares`), paragraphs per day, how often to speak, speech speed, microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
+Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`, `new_word_share`), the mix of everyday / STEM / official words (`bank_shares`), paragraphs per day, how often to speak, speech speed, sound effects on/off (`sound_effects`), microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
 
 ## Adding content (for the parent)
 

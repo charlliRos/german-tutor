@@ -7,7 +7,7 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest import mock
 
-from app import profile as profile_module, reading, warmup
+from app import profile as profile_module, reading, ui, warmup
 from app.answers import WRONG, check_english
 from app.config import load_settings
 from app.content import Book, Content, Unit, Word
@@ -88,6 +88,48 @@ class DamagedFiles(unittest.TestCase):
             self.assertEqual([p.name for p in Profile.list_all(damaged)], ["Anna"])
             self.assertEqual([p.name for p in damaged], ["ben.json"])
             self.assertEqual(len(good.read_journal(None)), 1)
+
+
+class HeldEnter(unittest.TestCase):
+    """A held-down Enter sends many empty lines: they must not answer (and so skip) a question."""
+
+    def typed(self, *lines):
+        return mock.patch("app.ui._read", mock.Mock(side_effect=list(lines)))
+
+    def test_empty_lines_do_not_answer(self):
+        with self.typed("", "", "", "der Hund"), console.capture():
+            self.assertEqual(ui.ask_answer("German:"), "der Hund")
+
+    def test_question_mark_means_dont_know(self):
+        with self.typed("", "?"), console.capture():
+            self.assertEqual(ui.ask_answer("German:"), "")
+
+    def test_translation_ignores_leading_empty_lines(self):
+        with self.typed("", "", "Der Hund", "bellt.", "", ""), console.capture():
+            self.assertEqual(ui.ask_multiline("Translate:"), "Der Hund\nbellt.")
+
+    def test_translation_question_mark_skips(self):
+        with self.typed("", "?"), console.capture():
+            self.assertEqual(ui.ask_multiline("Translate:"), "")
+
+    def drain_with(self, keys_at):
+        """Run a _Drain over polls at the given times; True in keys_at means a key was waiting."""
+        buzz, clock = mock.Mock(), iter(t for t, _ in keys_at)
+        waiting = iter(k for _, k in keys_at)
+        with mock.patch.object(ui, "BUZZ", [buzz]), mock.patch.object(ui, "_last_key", [0.0]), \
+                mock.patch("app.ui.time.monotonic", lambda: next(clock)), \
+                mock.patch("app.ui.key_pressed", lambda: next(waiting)), \
+                mock.patch("app.ui._enter_held", lambda: False), mock.patch("app.ui.flush_input", lambda: None):
+            drain = ui._Drain()
+            for _ in keys_at:
+                drain.keys_waiting()
+        return buzz.call_count
+
+    def test_one_early_press_is_quiet(self):
+        self.assertEqual(self.drain_with([(10.0, True), (10.5, False)]), 0)
+
+    def test_held_enter_buzzes_once(self):
+        self.assertEqual(self.drain_with([(10.0, True), (10.03, True), (10.06, True), (10.09, True)]), 1)
 
 
 if __name__ == "__main__":
