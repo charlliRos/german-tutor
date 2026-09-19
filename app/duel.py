@@ -17,6 +17,8 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
+import uuid
+
 from . import lan, presence, sfx, ui
 from .answers import ALMOST, CORRECT, WRONG, check_english, check_german
 from .content import READING, Word
@@ -157,7 +159,8 @@ def show_results(result: dict, my_name: str) -> None:
 # ---------- a round, the same for host and guest ----------
 
 class Round:
-    def __init__(self, ctx, conn: lan.Connection, questions: list[dict], my_name: str, their_name: str):
+    def __init__(self, ctx, conn: lan.Connection | None, questions: list[dict], my_name: str, their_name: str):
+        """conn None: an asynchronous challenge, played alone (the board shows the other kid's final score)."""
         self.ctx, self.conn, self.questions = ctx, conn, questions
         self.my_name, self.their_name = my_name, their_name
         self.me = Standing(total=len(questions))
@@ -169,6 +172,8 @@ class Round:
     def poll(self, raise_if_gone: bool = True) -> bool:
         """Take in waiting messages. True if the opponent's standing changed. Raises OpponentLeft when
         the other player is gone (after the messages that came before their goodbye, e.g. the result)."""
+        if self.conn is None:
+            return False
         changed = False
         while not self.gone and (message := self.conn.receive(timeout=0)) is not None:
             kind = message["type"]
@@ -248,7 +253,8 @@ class Round:
             gained = points(outcome, seconds)
             self.answers.append({"answer": answer, "seconds": seconds})
             self.me.done, self.me.score = i, self.me.score + gained
-            self.conn.send(self.me.message())
+            if self.conn:
+                self.conn.send(self.me.message())
             self.feedback(question, outcome, gained)
         return self.answers
 
@@ -426,10 +432,17 @@ def menu(ctx) -> None:
     """From the main menu: accept a challenge, challenge someone online, or host / join by address."""
     others = [p for p in ctx.presence.online() if p["status"] != "in a duel"] if ctx.presence else []
     invites = ctx.presence.pending_invites() if ctx.presence else []
+    waiting = ctx.presence.to_play() if ctx.presence else []
     ui.clear()
     ui.title("Duel: play against someone on the same Wi-Fi")
     console.print("You both get the same words: right and fast wins.")
+    if ctx.presence:
+        show_challenges(ctx)
     options = {}
+    if waiting:
+        first = waiting[-1]  # the oldest first: it runs out first
+        sender = first["from"]
+        options["p"] = f"play {sender}'s challenge" + (f" ({len(waiting)} waiting)" if len(waiting) > 1 else "")
     if invites:
         invite = invites[-1]
         console.print(f"[bold magenta]{ui.escape(invite['name'])} challenges you![/]")
@@ -438,9 +451,15 @@ def menu(ctx) -> None:
         options[str(n)] = f"challenge {other['name']} ({other['status']})"
     if ctx.presence and not others:
         console.print("[hint]Nobody else is online on this Wi-Fi right now (they need the app open).[/]")
+    if ctx.presence and known_kids(ctx):
+        options["c"] = "challenge someone to play when they like (no need to be online together)"
     options.update({"h": "host by address", "j": "join by address", "": "back"})
     choice = ui.keys(options)
-    if choice in ("a", "d"):
+    if choice == "p":
+        play_challenge(ctx, first)
+    elif choice == "c":
+        create_challenge(ctx)
+    elif choice in ("a", "d"):
         accepted = ctx.presence.answer(invite["id"], choice == "a")
         if choice == "a":
             if accepted:
@@ -464,3 +483,92 @@ def menu(ctx) -> None:
             ctx.profile.data["duel_host"] = ip
             ctx.profile.save()
             run_join(ctx, ip)
+
+
+# ---------- asynchronous challenges: the same words, each kid plays when they like ----------
+# Carried by presence.py (the words and each kid's answers), kept in both profiles, delivered whenever both
+# apps are open at the same time. Each app scores both kids' answers with the same points(), so both agree.
+
+def known_kids(ctx) -> list[str]:
+    """Kids heard from on this Wi-Fi (now or before), not counting this one."""
+    names = {p["name"] for p in ctx.presence.online()} | set(ctx.presence.friends)
+    return sorted((n for n in names if n != ctx.profile.name), key=str.casefold)
+
+
+def _compact(questions: list[dict]) -> list[dict]:
+    """Only what's needed to ask and check a word: keeps the announcements small."""
+    keep = ("id", "de", "en", "pos", "de_alt")
+    return [{"direction": q["direction"], "word": {k: q["word"][k] for k in keep if k in q["word"]}} for q in questions]
+
+
+def _play_alone(ctx, challenge: dict, other: str) -> list[dict]:
+    """Play a challenge's words; the board shows the other kid's score if they've played."""
+    rnd = Round(ctx, None, challenge["questions"], ctx.profile.name, other)
+    theirs = presence.challenge_score(challenge, other)
+    if theirs is not None:
+        rnd.them = Standing(done=len(challenge["questions"]), total=len(challenge["questions"]), score=theirs)
+    return rnd.play()
+
+
+def create_challenge(ctx) -> None:
+    kids = known_kids(ctx)
+    ui.clear()
+    ui.title("Challenge someone")
+    console.print("You play 10 words now; they play the same 10 whenever they like (within "
+                  f"{presence.CHALLENGE_DAYS} days). It reaches them the next time both apps are open on this Wi-Fi.")
+    choice = ui.keys({str(n): name for n, name in enumerate(kids[:9], 1)} | {"": "back"})
+    if not choice:
+        return
+    other = kids[int(choice) - 1]
+    questions = _compact(pick_questions(ctx.content, set(), set(), ctx.rng))  # common words: fair for both
+    challenge = {"id": uuid.uuid4().hex[:10], "from": ctx.profile.name, "to": other,
+                 "created": ctx.today.isoformat(), "questions": questions, "answers": {}}
+    ctx.presence.add_challenge(challenge)
+    answers = _play_alone(ctx, challenge, f"{other} (later)")
+    ctx.presence.record_answers(challenge["id"], answers)
+    _save(ctx)
+    ui.clear()
+    ui.title("Challenge sent")
+    mine = presence.challenge_score({**challenge, "answers": {ctx.profile.name: answers}}, ctx.profile.name)
+    console.print(f"[good]{icon('party')} You scored {mine}.[/] {ui.escape(other)} gets the same words "
+                  "the next time both apps are open on this Wi-Fi, and you'll see the result here.")
+    ui.keys({"": "back"})
+
+
+def play_challenge(ctx, challenge: dict) -> None:
+    other = challenge["from"] if challenge["to"] == ctx.profile.name else challenge["to"]
+    answers = _play_alone(ctx, challenge, other)
+    ctx.presence.record_answers(challenge["id"], answers)
+    _save(ctx)
+    ui.clear()
+    ui.title("Challenge played")
+    challenge["answers"][ctx.profile.name] = answers
+    result = presence.challenge_result(challenge, ctx.profile.name)
+    console.print(f"[good]{icon('party')} {ui.escape(result or 'Done!')}[/]")
+    console.print(f"[hint]{ui.escape(other)} sees the result the next time both apps are open on this Wi-Fi.[/]")
+    ui.keys({"": "back"})
+
+
+def show_challenges(ctx, count: int = 5) -> None:
+    """The latest asynchronous challenges: waiting, or who won."""
+    me = ctx.profile.name
+    lines = []
+    for c in ctx.presence.my_challenges()[:count]:
+        other = c["to"] if c["from"] == me else c["from"]
+        result = presence.challenge_result(c, me)
+        if result:
+            lines.append(f"{presence.weekday(c['created'])} · {result}")
+        elif me in c["answers"]:
+            lines.append(f"{presence.weekday(c['created'])} · you {presence.challenge_score(c, me)} · "
+                         f"waiting for {other}")
+        else:
+            lines.append(f"{presence.weekday(c['created'])} · {other}'s challenge is waiting for you")
+    if lines:
+        console.print(Panel(Text("\n".join(lines)), title="Challenges", border_style="magenta", padding=(0, 1)))
+
+
+def _save(ctx) -> None:
+    """Keep the challenges in the profile right away (they only live in memory until then)."""
+    friends, addresses, challenges = ctx.presence.keep()
+    ctx.profile.data.update(friends=friends, friend_addresses=addresses, challenges=challenges)
+    ctx.profile.save()

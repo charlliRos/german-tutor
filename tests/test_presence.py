@@ -55,7 +55,7 @@ class News(unittest.TestCase):
         news = self.p.take_news()
         self.assertEqual(len(news), 1)
         self.assertIn("While you were away, Ben practised on Sat 19 Sep: 27 of 30 words right · 1 paragraph", news[0])
-        friends, addresses = self.p.keep()
+        friends, addresses, _ = self.p.keep()
         self.assertEqual(friends["Ben"][YESTERDAY]["right"], 27)  # kept for next time
         self.assertEqual(addresses, ["10.0.0.3"])
 
@@ -118,6 +118,70 @@ class Challenges(unittest.TestCase):
         ben = presence.Presence("Ben")
         ben.receive(packet(peer_id="anna1", name="Anna", invite={"id": "x", "to": "someone-else"}), "10.0.0.2")
         self.assertEqual(ben.pending_invites(), [])
+
+
+def challenge(**kw):
+    return {"id": "ch1", "from": "Anna", "to": "Ben", "created": TODAY, "answers": {},
+            "questions": [{"direction": "en2de", "word": {"id": "w1", "de": "der Hund", "en": ["dog"], "pos": "noun"}},
+                          {"direction": "de2en", "word": {"id": "w2", "de": "die Katze", "en": ["cat"], "pos": "noun"}}],
+            **kw}
+
+
+def app_for(name):
+    p = presence.Presence(name)
+    p.today = {"date": TODAY, **summary()}
+    p._announce = lambda: None  # no network in these tests
+    return p
+
+
+def announce(sender, receiver, ip="192.168.1.9"):
+    """What `receiver` hears when `sender` announces."""
+    receiver.receive(json.dumps(sender.message()).encode(), ip)
+
+
+class AsyncChallenges(unittest.TestCase):
+    RIGHT = [{"answer": "der Hund", "seconds": 1.0}, {"answer": "cat", "seconds": 1.0}]  # 300 points
+    HALF = [{"answer": "der Hund", "seconds": 1.0}, {"answer": "?", "seconds": 1.0}]    # 150 points
+
+    def test_anna_plays_closes_the_app_and_ben_still_gets_it_later(self):
+        anna = app_for("Anna")
+        anna.add_challenge(challenge())
+        anna.record_answers("ch1", self.RIGHT)
+        # Anna closes the app: the profile keeps the challenge. Next time she opens it, it's sent again.
+        friends, addresses, kept = anna.keep()
+        anna = app_for("Anna")
+        anna.remember(friends, addresses, kept)
+        ben = app_for("Ben")
+        announce(anna, ben)
+        self.assertIn("Anna challenges you: 2 words, Anna scored 300. Beat it!", ben.take_news()[0])
+        [waiting] = ben.to_play()
+        self.assertEqual(waiting["id"], "ch1")
+        announce(anna, ben)
+        self.assertEqual(ben.take_news(), [])  # heard again: no news again
+        ben.record_answers("ch1", self.HALF)
+        self.assertEqual(ben.to_play(), [])
+        self.assertEqual(presence.challenge_result(ben.my_challenges()[0], "Ben"), "Anna 300 · you 150: Anna wins!")
+        announce(ben, anna)
+        self.assertEqual(anna.take_news(), ["Ben played your challenge: Ben 150 · you 300: you win!"])
+
+    def test_answers_are_written_once(self):
+        ben = app_for("Ben")
+        announce_raw = lambda c: ben.receive(packet(peer_id="anna1", name="Anna", challenges=[c]), "10.0.0.2")  # noqa: E731
+        announce_raw(challenge(answers={"Anna": self.HALF}))
+        announce_raw(challenge(answers={"Anna": self.RIGHT}))  # a changed score later: ignored
+        self.assertEqual(presence.challenge_score(ben.my_challenges()[0], "Anna"), 150)
+
+    def test_other_kids_and_broken_challenges_are_ignored(self):
+        ben = app_for("Ben")
+        broken = [challenge(to="Carla"), challenge(questions="x"), challenge(questions=[{"word": 1}]),
+                  challenge(answers={"Anna": [{"answer": 5, "seconds": 1}]}), challenge(id=""), "nonsense"]
+        ben.receive(packet(peer_id="anna1", name="Anna", challenges=broken), "10.0.0.2")
+        self.assertEqual((ben.my_challenges(), ben.take_news()), ([], []))
+
+    def test_old_challenges_are_not_offered(self):
+        ben = app_for("Ben")
+        ben.receive(packet(peer_id="anna1", name="Anna", challenges=[challenge(created="2026-09-01")]), "10.0.0.2")
+        self.assertEqual((ben.to_play(), ben.take_news()), ([], []))
 
 
 class OverTheNetwork(unittest.TestCase):

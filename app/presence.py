@@ -28,7 +28,9 @@ INVITE_SECONDS = 300   # a challenge waits this long for an answer
 HISTORY_DAYS = 7       # days of results in every announcement (and kept by the others)
 KEEP_DAYS = 14         # days of the others' results kept in the profile
 MAX_ADDRESSES = 8      # other computers remembered, to send to directly
-MAX_PACKET = 16384
+MAX_PACKET = 65507     # the most UDP allows: a few challenges with their words fit easily
+CHALLENGE_DAYS = 7     # an asynchronous challenge can be played for this many days
+MAX_SENT_CHALLENGES = 4  # the newest ones go into each announcement
 FIELDS = ("warmups", "words", "right", "paragraphs", "minutes")
 
 
@@ -80,6 +82,65 @@ def _clean_day(raw) -> dict | None:
     return day
 
 
+def _clean_answers(raw, count: int) -> list[dict] | None:
+    if not isinstance(raw, list) or len(raw) > count:
+        return None
+    answers = []
+    for a in raw:
+        if not isinstance(a, dict) or not isinstance(a.get("answer", ""), str) \
+                or not isinstance(a.get("seconds"), (int, float)) or isinstance(a.get("seconds"), bool):
+            return None
+        answers.append({"answer": a.get("answer", "")[:100], "seconds": float(a["seconds"])})
+    return answers
+
+
+def _clean_challenge(raw) -> dict | None:
+    """An asynchronous challenge from another computer, checked; None if anything is off."""
+    if not isinstance(raw, dict):
+        return None
+    cid, sender, to, created = raw.get("id"), raw.get("from"), raw.get("to"), raw.get("created")
+    questions = raw.get("questions")
+    if not all(isinstance(x, str) and 0 < len(x) <= 30 for x in (cid, sender, to)) or not isinstance(created, str) \
+            or not isinstance(questions, list) or not 0 < len(questions) <= 20:
+        return None
+    clean = []
+    for q in questions:
+        word = q.get("word") if isinstance(q, dict) else None
+        if not isinstance(word, dict) or q.get("direction") not in ("en2de", "de2en") \
+                or not isinstance(word.get("de"), str) or not isinstance(word.get("en"), list) \
+                or not all(isinstance(e, str) for e in word["en"]) or not word["en"]:
+            return None
+        alt = word.get("de_alt") if isinstance(word.get("de_alt"), list) else []
+        clean.append({"direction": q["direction"], "word": {
+            "id": str(word.get("id", ""))[:40], "bank": "daily", "de": word["de"][:60], "en": word["en"][:4],
+            "pos": str(word.get("pos", "other"))[:10], "de_alt": [a for a in alt if isinstance(a, str)][:4]}})
+    answers = raw.get("answers") if isinstance(raw.get("answers"), dict) else {}
+    kept = {}
+    for name in (sender, to):
+        if name in answers:
+            if (clean_answers := _clean_answers(answers[name], len(clean))) is None:
+                return None
+            kept[name] = clean_answers
+    return {"id": cid, "from": sender, "to": to, "created": created[:10], "questions": clean, "answers": kept}
+
+
+def challenge_score(challenge: dict, name: str) -> int | None:
+    """Points for one kid's answers (the live duel's scoring), None if they haven't played yet."""
+    from .duel import score  # here, not at the top: duel imports this module
+    answers = challenge["answers"].get(name)
+    return None if answers is None else score(challenge["questions"], answers)
+
+
+def challenge_result(challenge: dict, me: str) -> str:
+    """"Ben 1180 · you 1240: you win!" (or "" while someone still has to play)."""
+    other = challenge["to"] if challenge["from"] == me else challenge["from"]
+    mine, theirs = challenge_score(challenge, me), challenge_score(challenge, other)
+    if mine is None or theirs is None:
+        return ""
+    verdict = "a draw!" if mine == theirs else "you win!" if mine > theirs else f"{other} wins!"
+    return f"{other} {theirs} · you {mine}: {verdict}"
+
+
 def describe(name: str, t: dict) -> str:
     """"38 of 40 words right · 2 paragraphs · 14 min · 6 days in a row"."""
     parts = []
@@ -110,6 +171,7 @@ class Presence:
         self.days: dict[str, dict] = {}         # this kid's last HISTORY_DAYS days of results
         self.friends: dict[str, dict] = {}      # name -> {date: results}, from the others; kept in the profile
         self.addresses: list[str] = []          # other computers met before (sent to directly too)
+        self.challenges: dict[str, dict] = {}   # asynchronous challenges with this kid, by id; kept in the profile
         self._answered: set[str] = set()   # challenges already answered (still announced for a while)
         self._lock = threading.Lock()
         self._stop = threading.Event()
@@ -154,18 +216,68 @@ class Presence:
             self.today, self.days = summary, days
             self._announce()
 
-    def remember(self, friends: dict, addresses: list[str]) -> None:
-        """What the profile kept from earlier: the others' results and their computers' addresses."""
+    def remember(self, friends: dict, addresses: list[str], challenges: dict | None = None) -> None:
+        """What the profile kept from earlier: the others' results, their computers' addresses, challenges."""
         with self._lock:
             self.friends = {name: dict(days) for name, days in friends.items() if isinstance(days, dict)}
             self.addresses = [a for a in addresses if isinstance(a, str) and lan.local_address(a)][:MAX_ADDRESSES]
+            self.challenges = {cid: c for cid, raw in (challenges or {}).items() if (c := _clean_challenge(raw))}
 
-    def keep(self) -> tuple[dict, list[str]]:
-        """What to keep in the profile: the others' results (last KEEP_DAYS days) and their addresses."""
+    def keep(self) -> tuple[dict, list[str], dict]:
+        """What to keep in the profile: the others' results (last KEEP_DAYS days), their addresses, challenges."""
         first = date_minus_str(self.today.get("date", ""), KEEP_DAYS)
         with self._lock:
             friends = {name: {d: r for d, r in days.items() if d >= first} for name, days in self.friends.items()}
-            return friends, list(self.addresses)
+            challenges = {cid: c for cid, c in self.challenges.items() if c["created"] >= first}
+            return friends, list(self.addresses), challenges
+
+    # ----- asynchronous challenges: each kid plays the same words when they like -----
+
+    def add_challenge(self, challenge: dict) -> None:
+        with self._lock:
+            self.challenges[challenge["id"]] = challenge
+        self._announce()
+
+    def record_answers(self, challenge_id: str, answers: list[dict]) -> None:
+        with self._lock:
+            challenge = self.challenges.get(challenge_id)
+            if challenge is not None and self.name not in challenge["answers"]:
+                challenge["answers"][self.name] = answers
+        self._announce()
+
+    def my_challenges(self) -> list[dict]:
+        """Challenges with this kid, newest first (copies)."""
+        with self._lock:
+            return sorted((json.loads(json.dumps(c)) for c in self.challenges.values()
+                           if self.name in (c["from"], c["to"])), key=lambda c: c["created"], reverse=True)
+
+    def to_play(self) -> list[dict]:
+        """Challenges waiting for this kid, still within CHALLENGE_DAYS."""
+        first = date_minus_str(self.today.get("date", ""), CHALLENGE_DAYS)
+        return [c for c in self.my_challenges() if self.name not in c["answers"] and c["created"] >= first]
+
+    def _merge_challenge(self, raw) -> None:
+        """Take in a challenge from another computer (called with the lock held)."""
+        incoming = _clean_challenge(raw)
+        if incoming is None or self.name not in (incoming["from"], incoming["to"]):
+            return
+        other = incoming["to"] if incoming["from"] == self.name else incoming["from"]
+        known = self.challenges.get(incoming["id"])
+        if known is None:
+            if incoming["from"] == self.name or incoming["created"] < date_minus_str(self.today.get("date", ""),
+                                                                                     CHALLENGE_DAYS):
+                return  # one of mine this profile has forgotten, or run out: nothing to do
+            self.challenges[incoming["id"]] = incoming
+            theirs = challenge_score(incoming, other)
+            self.news.append(f"{other} challenges you: {len(incoming['questions'])} words"
+                             + (f", {other} scored {theirs}. Beat it!" if theirs is not None else ".")
+                             + " Play it any time in menu 8.")
+            return
+        if other in incoming["answers"] and other not in known["answers"]:
+            known["answers"][other] = incoming["answers"][other]  # answers are written once, never changed
+            result = challenge_result(known, self.name)
+            self.news.append(f"{other} played your challenge: {result}" if result
+                             else f"{other} played the challenge: your turn! (menu 8)")
 
     def friend_day(self, name: str, iso: str) -> dict | None:
         with self._lock:
@@ -184,7 +296,13 @@ class Presence:
                     "today": self.today.get("date"), "streak": self.today.get("streak", 0), "days": self.days,
                     "duel_port": self.duel_port,
                     "invite": {"id": invite["id"], "to": invite["to"]} if invite else None,
-                    "reply": self.reply}
+                    "reply": self.reply, "challenges": self._challenges_to_send()}
+
+    def _challenges_to_send(self) -> list[dict]:
+        """The newest challenges with this kid from the last CHALLENGE_DAYS days (called with the lock held)."""
+        first = date_minus_str(self.today.get("date", ""), CHALLENGE_DAYS)
+        mine = [c for c in self.challenges.values() if c["created"] >= first and self.name in (c["from"], c["to"])]
+        return sorted(mine, key=lambda c: c["created"], reverse=True)[:MAX_SENT_CHALLENGES]
 
     def _announce(self) -> None:
         if not self.sock or (self._stop.is_set() and self.status != "offline"):
@@ -235,6 +353,8 @@ class Presence:
             if ip not in self.addresses and not ip.startswith("127."):
                 self.addresses = [ip, *self.addresses][:MAX_ADDRESSES]
             self._news_about(name, days, streak)
+            for raw in m.get("challenges", [])[:MAX_SENT_CHALLENGES] if isinstance(m.get("challenges"), list) else []:
+                self._merge_challenge(raw)
             if m.get("status") == "offline":
                 self.peers.pop(peer_id, None)
                 return

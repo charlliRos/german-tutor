@@ -45,7 +45,8 @@ def share(ctx: Context, status: str | None = None) -> None:
             summary["minutes"] = round((ctx.profile.day(ctx.today).get("seconds", 0) + ui.clock_seconds()) / 60)
         ctx.presence.set_today(summary, presence.history(ctx.profile, ctx.today))
         # What the others told us is kept, so news can catch up next time both apps are open.
-        ctx.profile.data["friends"], ctx.profile.data["friend_addresses"] = ctx.presence.keep()
+        friends, addresses, challenges = ctx.presence.keep()
+        ctx.profile.data.update(friends=friends, friend_addresses=addresses, challenges=challenges)
         if status:
             ctx.presence.set_status(status)
 
@@ -113,6 +114,10 @@ def facts(ctx: Context) -> list[str]:
     if ctx.presence:
         for invite in ctx.presence.pending_invites()[-1:]:
             lines.append(f"[bold magenta]{ui.escape(invite['name'])} challenges you to a duel! Choose 8.[/]")
+        waiting = ctx.presence.to_play()
+        if waiting:
+            lines.append(f"[bold magenta]{ui.escape(waiting[-1]['from'])}'s challenge is waiting for you "
+                         f"(menu 8)[/]")
         online = ctx.presence.online()
         if online:
             lines.append("[hint]Online: " + ", ".join(f"{ui.escape(p['name'])} ({ui.escape(p['status'])})"
@@ -361,7 +366,8 @@ def main(argv: list[str] | None = None) -> int:
         ctx = Context(settings, content, profile, audio, random.Random(), date.today())
         if settings.get("share_on_wifi", True):
             ctx.presence = presence.Presence(profile.name)
-            ctx.presence.remember(profile.data.get("friends", {}), profile.data.get("friend_addresses", []))
+            ctx.presence.remember(profile.data.get("friends", {}), profile.data.get("friend_addresses", []),
+                                  profile.data.get("challenges", {}))
             problem = ctx.presence.start()
             if problem:
                 audio.problems.append(problem)
@@ -380,6 +386,9 @@ def main(argv: list[str] | None = None) -> int:
     finally:
         unlock()
         if ctx is not None and ctx.presence:
+            # Keep what was heard (other kids, their results, challenges) even when quitting straight away.
+            friends, addresses, challenges = ctx.presence.keep()
+            ctx.profile.data.update(friends=friends, friend_addresses=addresses, challenges=challenges)
             ctx.presence.stop()
         if profile:
             profile.save()
