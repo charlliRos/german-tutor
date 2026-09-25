@@ -568,10 +568,21 @@ def key_within(seconds: float) -> bool:
 def timed_keys(options: dict[str, str], seconds: float) -> str:
     """Like keys(), but goes on by itself ('' = Enter) after `seconds`: no key press needed to continue.
     Enter goes on at once; any other key stops the clock and the options are asked as usual."""
-    others = " · ".join(f"{'Enter' if k == '' else k} = {label}" for k, label in options.items() if k)
-    console.print(f"[hint]Next in {seconds:g} s (Enter = now" + (f" · {escape(others)}" if others else "") + ")[/]")
-    if not key_within(seconds):
+    others = " · ".join(f"{k} = {label}" for k, label in options.items() if k)
+    console.print("[hint]Enter = go on now · any other key = stay on this screen"
+                  + (f" · {escape(others)}" if others else "") + "[/]")
+    if not console.is_terminal:
         return ""
+    with console.status(f"[hint]Next in {seconds:g} s…[/]") as status:
+        left = float(seconds)
+        while left > 0:
+            if key_within(min(1.0, left)):
+                break
+            left -= 1.0
+            status.update(f"[hint]Next in {max(0, round(left))} s…[/]")
+        else:
+            return ""
+    console.print("[hint]Stopped: take your time. Enter when you're ready.[/]")
     return keys(options)
 
 

@@ -28,7 +28,10 @@ class TimedKeys(unittest.TestCase):
                 mock.patch("app.ui.keys", return_value="o") as keys, console.capture() as out:
             self.assertEqual(ui.timed_keys({"": "next", "o": "my answer was right too"}, 5), "o")
         keys.assert_called_once()
-        self.assertIn("o = my answer was right too", out.get())
+        text = " ".join(out.get().split())
+        self.assertIn("o = my answer was right too", text)
+        self.assertIn("any other key = stay on this screen", text)
+        self.assertIn("take your time", text)
 
 
 class NoEnterNeeded(unittest.TestCase):
