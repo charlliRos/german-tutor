@@ -90,7 +90,8 @@ class Audio:
         try:
             import sounddevice as sd
         except Exception as exc:  # PortAudio missing on Linux raises OSError
-            self.problems.append(f"Sound library unavailable ({exc}). Linux: sudo apt install libportaudio2")
+            self.problems.append(f"Sound library unavailable ({exc}). Linux: install PortAudio "
+                                 "(sudo apt install libportaudio2 / dnf install portaudio / pacman -S portaudio)")
             return
         try:
             sd.query_devices(self.settings.get("output_device"), kind="output")

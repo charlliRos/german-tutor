@@ -81,6 +81,9 @@ def rights(raw: dict, today: date) -> dict:
            "source_edition": raw.get("source"), "orthography": raw.get("orthography", ""),
            "translations": "English translations, explanations, key words and summaries were written for "
                            "this app (their licence is not chosen yet)"}
+    out["computed_for"] = {"life_plus_70": LIFE_PLUS_70, "publication_plus_95": ["US"],
+                           "note": "Which rule applies depends on where the package is distributed, not where "
+                                   "the author lived. Other countries were not checked."}
     if isinstance(died, int):
         out.update(basis="author's life + 70 years", public_domain_from=f"{died + 71}-01-01",
                    life_plus_70_jurisdictions=LIFE_PLUS_70, public_domain_now=today.year >= died + 71)
@@ -115,22 +118,30 @@ def books(content, versions: dict, today: date) -> list[dict]:
     return out
 
 
-SCORE_NAMES = {"dichotomous": "Dichotomous", "polytomous": "Polytomous", "estimated": "Estimated",
-               "no_response": "NoResponse"}
+SCORE_NAMES = {"dichotomous": "Dichotomous", "polytomous": "Polytomous", "estimated": "Estimated"}
+UNMAPPED_NO_RESPONSE = ("OLR's score union has no 'did not answer' state for these items (Dichotomous has only "
+                        "correct: bool; our typed and self-graded items aren't option-based, so Polytomous's "
+                        "chosen: None doesn't fit either). Left unmapped rather than turned into 'wrong': "
+                        "see OLR's open question NQ-K2-UNANSWERED-VS-WRONG.")
 
 
 def export_attempt(e: dict) -> dict:
     """One answer-log line in OLR's attempt-event shape: an append-only event with a closed score union."""
     score = dict(e["score"])
-    kind = SCORE_NAMES[score.pop("kind")]
-    if kind == "Estimated":
-        score["grader"] = e["grader"]
+    kind = score.pop("kind")
+    if kind == "no_response":
+        mapped, unmapped = None, {"kind": "no_response", **score, "why": UNMAPPED_NO_RESPONSE}
+    else:
+        if kind == "estimated":
+            score["grader"] = e["grader"]
+        mapped, unmapped = {SCORE_NAMES[kind]: score}, None
     item = e["item"]
     if e.get("task") and "#" not in item and "|" not in item:
         item = f"{item}.{e['task']}"  # word answers: the question, not just the word
     return {"event_id": e["id"], "at": e["at"], "learner": e["learner"], "item": item,
             "item_version": e["item_version"], "competency": e["competency"], "subcompetency": e["subcompetency"],
-            "response": e.get("response", ""), "score": {kind: score}, "grader": e["grader"],
+            "response": e.get("response", ""), "score": mapped, "grader": e["grader"],
+            **({"unmapped": unmapped} if unmapped else {}),
             **({"machine_verdict": e["machine_verdict"]} if e.get("machine_verdict") else {}),
             **({"claimed_correct": True} if e.get("claimed_correct") else {})}
 
@@ -182,7 +193,8 @@ def main(argv: list[str] | None = None) -> int:
                 "scorer": attempts.GRADER, "language": "de", "instruction_language": "en",
                 "counts": {"items": len(items), "books": len(book_rows),
                            "paragraphs": sum(1 for b in book_rows for u in b["units"] if u["kind"] == "paragraph")},
-                "attempts": exported}
+                "attempts": exported,
+                "unmapped": {"no_response": UNMAPPED_NO_RESPONSE}}
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Wrote {len(items)} items, {len(book_rows)} books"
           + (f", answer logs of {', '.join(exported)}" if exported else "") + f" to {out}")

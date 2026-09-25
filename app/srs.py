@@ -66,7 +66,8 @@ def warmup_size(settings: dict, practice_days: int) -> int:
 
 
 def new_word_cap(settings: dict, size: int) -> int:
-    return max(int(settings["min_new_words"]), round(size * float(settings["new_word_share"])))
+    cap = max(int(settings["min_new_words"]), round(size * float(settings["new_word_share"])))
+    return min(cap, int(settings.get("new_word_max", 15)))
 
 
 @dataclass
@@ -87,16 +88,17 @@ def reading_words_due(words: dict, queue: list[str], count: int) -> list[str]:
 
 
 def plan_session(states: dict, words: dict, settings: dict, today: date, size: int, new_allowed: int) -> Plan:
-    """Fill a warm-up of `size` words: some new words (always a few, if allowed), then due reviews
-    (most overdue first), then extra practice on words already started (weakest, least recent first).
-    If there is still room (early on, few words have been started), it is topped up with new words,
-    so a warm-up is always full while the bank has words left."""
+    """Fill a warm-up of `size` words: due reviews come first (most overdue first); new words (up to
+    `new_allowed`) only take the room the reviews leave, so the words already started never pile up
+    unreviewed. Then extra practice on words already started (weakest, least recent first). If there is
+    still room (early on, few words have been started), it is topped up with new words, so a warm-up is
+    always full while the bank has words left."""
     t = today.isoformat()
     shares = settings["bank_shares"]
-    new = pick_new_words(states, words, min(max(new_allowed, 0), size), shares)
     due = [wid for wid, s in states.items()
            if wid in words and s.get("box", 0) >= 1 and s.get("due") and s["due"] <= t]
     due.sort(key=lambda wid: (states[wid]["due"], states[wid]["box"]))
+    new = pick_new_words(states, words, min(max(new_allowed, 0), max(0, size - len(due))), shares)
     reviews = due[: size - len(new)]
     taken = set(reviews)
     started = [wid for wid, s in states.items() if wid in words and s.get("box", 0) >= 1 and wid not in taken]

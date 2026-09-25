@@ -46,8 +46,12 @@ It writes `manifest.json` (`format_version: 0`), `items.jsonl`, `books.jsonl`, `
 - Per verb: `|past` and `|perfect` text questions.
 - Per paragraph: the text, reference translation, explanation, key words, and two translation tasks with
   score kind `estimated` / grader `self`.
-- Answers: OLR's closed score union (`Dichotomous`, `Polytomous`, `Estimated`, `NoResponse`), with
+- Answers: OLR's closed score union (`Dichotomous`, `Polytomous`, `Estimated`), with
   `machine_verdict` / `claimed_correct` when the learner overrode the machine.
+- **"Didn't answer" is left unmapped** (`score: null` plus an `unmapped` reason). OLR's `Dichotomous` has no
+  such state, and our items aren't option-based, so `Polytomous`'s `chosen: None` doesn't fit either. Turning it
+  into "wrong" would lose the difference between "didn't try" and "tried and was wrong". This is OLR's open
+  question NQ-K2-UNANSWERED-VS-WRONG; our log keeps `no_response` as its own kind.
 
 Throw it away when OLR's package format (their node CP1) exists. The ids, versions, log and spec it reads
 from are the permanent part.
@@ -84,7 +88,8 @@ These are open or unbuilt on OLR's side. Building one side of them now would be 
 
 ## Rights of the texts (checked by the exporter)
 
-All 10 books are public domain under "author's life + 70 years" (Germany, Austria, Switzerland, the EU and
+Which rule applies depends on **where a package is distributed**, not where the author lived; each book's
+`rights.computed_for` says which countries were checked. All 10 books are public domain under "author's life + 70 years" (Germany, Austria, Switzerland, the EU and
 Indonesia). Four are still protected in the **United States** (95 years after publication): Borchert (until
 2043), Horváth (2033), Tucholsky (2027) and Zweig (2038). That matters only if a package is distributed there.
 `validate_content.py` refuses a book whose author died less than 70 years ago.

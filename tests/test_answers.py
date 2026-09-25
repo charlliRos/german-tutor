@@ -92,11 +92,14 @@ class SpacedRepetition(unittest.TestCase):
         # Day 1: nothing started, so the whole warm-up is new words.
         plan = srs.plan_session({}, words, self.SETTINGS, self.today, size=10, new_allowed=3)
         self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (10, 0, 0))
-        # Later: 12 due, 5 started but not due -> 3 new reserved, 7 reviews (most overdue), no room left.
+        # Later: 12 due, 5 started but not due, room for 10 -> the reviews fill it: no new words today.
         states = {f"d{i}": {"box": 1, "due": f"2026-01-0{1 + i % 9}", "last": "2026-01-01"} for i in range(12)}
         states |= {f"s{i}": {"box": 2, "due": "2026-02-01", "last": "2026-01-05"} for i in range(5)}
         plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=10, new_allowed=3)
-        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (3, 7, 0))
+        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (0, 10, 0))
+        # Room for 14: 12 reviews, then new words take what is left (2 of the 3 allowed).
+        plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=14, new_allowed=3)
+        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (2, 12, 0))
         self.assertTrue(set(plan.new).isdisjoint(states))
         # Extra practice later the same day: due words, then weakest started words, then (only because
         # too few words have been started yet) topped up with new words to fill the warm-up.
@@ -104,6 +107,32 @@ class SpacedRepetition(unittest.TestCase):
         self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (3, 12, 5))
         plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=15, new_allowed=0)
         self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (0, 12, 3))
+
+    def test_new_words_per_day_are_capped(self):
+        self.assertEqual(srs.new_word_cap(self.SETTINGS, 10), 3)
+        self.assertEqual(srs.new_word_cap(self.SETTINGS, 40), 10)
+        self.assertEqual(srs.new_word_cap(self.SETTINGS, 200), 15)  # not 50
+
+    def test_a_year_of_practice_keeps_the_backlog_small(self):
+        """Simulated daily warm-ups (right 85% of the time): due words don't pile up unreviewed."""
+        import random
+        from datetime import timedelta
+        from app.config import DEFAULTS
+        rng = random.Random(7)
+        # A bank as big as the real one (the old scheduler left ~7,000 words overdue after a year here).
+        words = {f"d{i}": Word(f"d{i}", "daily", f"w{i}", ["x"], "verb", rank=i) for i in range(9000)}
+        settings = {**DEFAULTS, "bank_shares": {"daily": 1.0}}
+        states: dict = {}
+        day = self.today
+        for n in range(365):
+            size = srs.warmup_size(settings, n)
+            plan = srs.plan_session(states, words, settings, day, size, srs.new_word_cap(settings, size))
+            for wid in plan.new + plan.reviews:
+                srs.apply_result(states.setdefault(wid, srs.new_state()), CORRECT if rng.random() < 0.85 else WRONG, day)
+            day += timedelta(days=1)
+        overdue = sum(1 for s in states.values() if s["due"] and s["due"] < day.isoformat())
+        self.assertLess(overdue, 50)
+        self.assertGreater(len(states), 1500)  # positive control: it still learns plenty of words
 
     def test_practice_does_not_promote_but_a_miss_demotes(self):
         s = {"box": 3, "due": "2026-02-01"}

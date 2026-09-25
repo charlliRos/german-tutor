@@ -1,10 +1,10 @@
 # Deutsch mit Fritz & Pip
 
-An offline German tutor for the terminal (Windows + Linux), made for teenagers.
+An offline German tutor for the terminal (Windows, Linux and macOS), made for teenagers.
 Fritz the Dackel and Pip the robin say hello when it starts.
 
 **Every day:**
-1. **Warm-up (scored).** About 8,400 words and phrases: the most common German of everyday conversation (including slang, with rude words marked as such), everyday things, STEM and "official German" (offices, forms, taxes, permits): English→German or German→English, with the German read out loud. For words you've met before, some questions use the word's example sentence instead: **fill the gap** with the right form, or **listen and type** the sentence. Sometimes you say the word into the microphone and hear your recording next to the correct pronunciation; an offline **speech check** shows what it heard, and a word it didn't hear is typed instead. The warm-up **starts with 10 words and grows about half a word per practice day, to 200 words after a year**. It mixes new words, words that are due (spaced repetition) and extra practice on weaker words. Missed words come back at the end, again and again, until you get them right. Then come **irregular verbs from the books** (ging, ist gegangen): once a verb turns up in a paragraph you've read, it's practised with the gap in its book sentence, on the same repetition schedule as the words. Then **der, die or das?** for the nouns you've started (with the ending rule when there is one: -ung is always die), and a few **grammar** questions made from real sentences: the missing article (mit d___ Bus → dem, with the case rule), the missing adjective ending (einen neu___ Laptop → en), and putting the words in order. Misses come back until they're right. Run it again any time for extra practice.
+1. **Warm-up (scored).** About 8,400 words and phrases: the most common German of everyday conversation (including slang, with rude words marked as such), everyday things, STEM and "official German" (offices, forms, taxes, permits): English→German or German→English, with the German read out loud. For words you've met before, some questions use the word's example sentence instead: **fill the gap** with the right form, or **listen and type** the sentence. Sometimes you say the word into the microphone and hear your recording next to the correct pronunciation; an offline **speech check** shows what it heard, and a word it didn't hear is typed instead. The warm-up **starts with 10 words and grows about half a word per practice day, to 200 words after a year**. It mixes new words, words that are due (spaced repetition) and extra practice on weaker words. Words that are due always come first; new words (at most 15 a day) only fill the room left, so old words never pile up unreviewed. Missed words come back at the end, again and again, until you get them right. Then come **irregular verbs from the books** (ging, ist gegangen): once a verb turns up in a paragraph you've read, it's practised with the gap in its book sentence, on the same repetition schedule as the words. Then **der, die or das?** for the nouns you've started (with the ending rule when there is one: -ung is always die), and a few **grammar** questions made from real sentences: the missing article (mit d___ Bus → dem, with the case rule), the missing adjective ending (einen neu___ Laptop → en), and putting the words in order. Misses come back until they're right. Run it again any time for extra practice.
 2. **Reading (not scored), built on repetition.** The next paragraph of a German classic, read aloud, in 3 rounds: translate it to English, see what it means (explained in English, with key words), read it into the mic, then translate it back to German. Your answer is shown next to the reference so you can grade yourself. After the new paragraph comes a **look back**: every paragraph returns in each of the next 2 sessions (session 3 repeats sessions 1 and 2) and again 1, 3, 7, 16 and 35 days after you learned it, each time with a different exercise: read it out loud, translate 3 of its sentences in a row either way, listen to one of its sentences and type what you hear, or shadow it (hear a sentence, say it straight after, and hear yourself next to the voice, a few sentences in a row) (each word is marked right, small slip or wrong). "Needs work" means it comes back next session. The paragraph's key words also come back in the next warm-up, new ones and ones you already know, and their word cards show the sentence from the book they came from. Long books go from key scene to key scene, with short English "Meanwhile in the story…" recaps, all the way to the ending. To start a book again, use "Choose a book".
 
 No AI at runtime. After setup it needs no internet. Speech is generated offline with [Piper](https://github.com/OHF-Voice/piper1-gpl); the speech check uses the offline [Vosk](https://alphacephei.com/vosk/) small German model (~45 MB, downloaded by setup and `gtutor update`). A look back that is read aloud or shadowed only counts when the speech check heard it; the parent report shows how many speaking turns were heard.
@@ -42,6 +42,22 @@ cd german-tutor
 ./setup.sh
 gtutor            # in a new terminal; or ./run.sh
 ```
+
+### macOS
+
+Not tested on a Mac yet. Every library it needs has a Mac version (Apple Silicon and Intel).
+
+```
+xcode-select --install          # installs git (skip if you have it)
+git clone https://github.com/charlliRos/german-tutor.git
+cd german-tutor
+./setup.sh
+gtutor            # in a new Terminal window; or ./run.sh
+```
+
+It needs Python 3.9 or newer (`python3 --version`; if it's missing, get it from [python.org](https://www.python.org/downloads/)). The first time the microphone is used, macOS asks whether Terminal may use it: click OK.
+
+**Any computer:** needs 64-bit Python 3.9 or newer. On Windows on ARM, install the x64 Python. On a Raspberry Pi, use the 64-bit Raspberry Pi OS.
 
 ### Options
 

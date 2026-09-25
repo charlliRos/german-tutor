@@ -82,7 +82,11 @@ class ExportAnswers(unittest.TestCase):
             attempts.record(profile, day, item="d-1|grammar.article", score=attempts.right_or_wrong(False),
                             grader=attempts.GRADER, **common)
             exported = [export_olr.export_attempt(e) for e in attempts.read(profile) if e["type"] == "attempt"]
-        self.assertEqual([next(iter(e["score"])) for e in exported], ["Polytomous", "Estimated", "NoResponse", "Dichotomous"])
+        self.assertEqual([next(iter(e["score"] or {"unmapped": 0})) for e in exported],
+                         ["Polytomous", "Estimated", "unmapped", "Dichotomous"])
+        # "Didn't answer" is left unmapped with the reason, never turned into a wrong answer.
+        self.assertIsNone(exported[2]["score"])
+        self.assertEqual(exported[2]["unmapped"]["reason"], "skipped")
         self.assertEqual(exported[0]["item"], "d-1.en2de")
         self.assertEqual(exported[1]["item"], "b#1")
         self.assertEqual(exported[1]["score"]["Estimated"]["grader"], attempts.SELF)
