@@ -74,5 +74,19 @@ class Gate(unittest.TestCase):
         self.assertEqual(self.ctx.profile.data["reading_words"], ["fahren", "hund", "garten"])
 
 
+class ShippedReaders(unittest.TestCase):
+    def test_three_graded_readers_come_first_for_a_new_kid(self):
+        from app.content import load_content
+        content = load_content()
+        readers = [b for b in content.books if b.original]
+        self.assertEqual([(b.id, b.level, b.parts) for b in readers],
+                         [("reader-a1", "A1", 30), ("reader-a2", "A2", 30), ("reader-b1", "B1", 30)])
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        ctx = make_ctx(tmp.name)
+        ctx.content = content
+        self.assertEqual(reading.current_book(ctx).id, "reader-a1")
+
+
 if __name__ == "__main__":
     unittest.main()

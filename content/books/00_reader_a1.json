@@ -170,7 +170,7 @@
       "n": 3,
       "de": "Unsere Wohnung ist im dritten Stock. Es gibt keinen Aufzug. Die Wohnung hat vier Zimmer, eine Küche und ein Bad. Unser Haus in England hat einen Garten. Hier gibt es keinen Garten, aber einen kleinen Balkon. Mein Zimmer ist klein, aber schön. Ich habe ein Bett, einen Tisch und einen Stuhl. Mein Fenster ist groß. Ich sehe viele Dächer und eine Kirche. Am Abend sitze ich am Fenster und höre Musik. Mimi sitzt neben mir.",
       "en": "Our flat is on the third floor. There's no lift. The flat has four rooms, a kitchen and a bathroom. Our house in England has a garden. Here there's no garden, but there is a small balcony. My room is small but nice. I have a bed, a table and a chair. My window is big. I can see lots of roofs and a church. In the evening I sit at the window and listen to music. Mimi sits next to me.",
-      "explain_en": "“Es gibt” means “there is / there are” and is followed by the accusative, so der Aufzug becomes “keinen Aufzug”. That is also why it's “einen Tisch” and “einen Stuhl” after “ich habe”: only masculine words change (der → den, ein → einen). “Im dritten Stock” is what English calls the third floor – Germans count the ground floor as zero, like the British.",
+      "explain_en": "“Es gibt” means “there is / there are” and is followed by the accusative, so der Aufzug becomes “keinen Aufzug”. After “ich habe”, the object is also accusative: “einen Tisch”, “einen Stuhl”; masculine singular articles change from der/ein to den/einen, while feminine and neuter articles keep their nominative forms. “Im dritten Stock” is what English calls the third floor – Germans count the ground floor as zero, like the British.",
       "words": [
         {
           "de": "die Wohnung, die Wohnungen",
@@ -404,7 +404,7 @@
       "n": 6,
       "de": "Im Klassenzimmer sitzen fünfundzwanzig Schüler. Alle sehen mich an. „Das ist Emma“, sagt Frau Becker. „Sie kommt aus England.“ Ich sage: „Hallo, ich heiße Emma, und ich bin vierzehn.“ Mein Gesicht ist rot. Ein Mädchen mit langen, braunen Haaren lächelt. Neben ihr ist ein Platz frei. „Komm, setz dich hier hin!“, sagt sie. Sie heißt Lena. Lena spricht langsam, und ich verstehe sie.",
       "en": "Twenty-five students are sitting in the classroom. Everyone looks at me. “This is Emma,” says Ms Becker. “She comes from England.” I say, “Hi, my name is Emma, and I'm fourteen.” My face is red. A girl with long brown hair smiles. There's a free seat next to her. “Come on, sit down here!” she says. Her name is Lena. Lena speaks slowly, and I understand her.",
-      "explain_en": "“ansehen” (to look at) is a separable verb: the “an” jumps to the end, so “Alle sehen mich an”. Hair is plural in German: “die Haare”. “Setz dich hin!” is an order to one friend: “sit (yourself) down!” – German says you sit “yourself” down.",
+      "explain_en": "“ansehen” (to look at) is a separable verb: the “an” jumps to the end, so “Alle sehen mich an”. German commonly uses the plural “die Haare” when describing someone's hair, as in “braune Haare”; the singular “das Haar” also exists. “Setz dich hin!” is an order to one friend: “sit (yourself) down!” – German says you sit “yourself” down.",
       "words": [
         {
           "de": "das Mädchen, die Mädchen",
@@ -566,8 +566,8 @@
     },
     {
       "n": 8,
-      "de": "Am Nachmittag bekomme ich meinen Stundenplan. Am Montag haben wir Mathe, Deutsch, Englisch, Biologie und Sport. Am Dienstag haben wir Geschichte, Kunst und Musik. Die Schule beginnt um acht Uhr. Sie ist um eins oder um halb zwei zu Ende. Englisch ist natürlich leicht für mich. Deutsch ist schwer. Mathe ist okay, denn Zahlen sind überall gleich. Mein Lieblingsfach ist Sport. „Und dein Lieblingsfach?“, frage ich Lena. „Kunst“, sagt sie. „Ich male gern.“",
-      "en": "In the afternoon I get my timetable. On Monday we have maths, German, English, biology and PE. On Tuesday we have history, art and music. School starts at eight o'clock. It finishes at one or half past one. English is easy for me, of course. German is hard. Maths is OK, because numbers are the same everywhere. My favourite subject is PE. “And your favourite subject?” I ask Lena. “Art,” she says. “I like painting.”",
+      "de": "Am Nachmittag bekomme ich meinen Stundenplan. Am Montag haben wir Mathe, Deutsch, Englisch, Biologie und Sport. Am Dienstag haben wir Geschichte, Kunst und Musik. Die Schule beginnt um acht Uhr. Sie ist meistens um eins oder um halb zwei zu Ende. Englisch ist natürlich leicht für mich. Deutsch ist schwer. Mathe ist okay, denn Zahlen sind überall gleich. Mein Lieblingsfach ist Sport. „Und dein Lieblingsfach?“, frage ich Lena. „Kunst“, sagt sie. „Ich male gern.“",
+      "en": "In the afternoon I get my timetable. On Monday we have maths, German, English, biology and PE. On Tuesday we have history, art and music. School starts at eight o'clock. It usually finishes at one or half past one. English is easy for me, of course. German is hard. Maths is OK, because numbers are the same everywhere. My favourite subject is PE. “And your favourite subject?” I ask Lena. “Art,” she says. “I like painting.”",
       "explain_en": "Big trap: “bekommen” means to get or receive, not “to become”. “Halb zwei” is half past ONE – halfway to two. Put “Lieblings-” in front of any noun to say favourite: Lieblingsfach, Lieblingsessen. Many German schools finish around lunchtime.",
       "words": [
         {
@@ -593,6 +593,10 @@
         {
           "de": "Lieblings-",
           "en": "favourite (+ noun)"
+        },
+        {
+          "de": "meistens",
+          "en": "usually, mostly"
         }
       ],
       "sentences": [
@@ -613,8 +617,8 @@
           "en": "School starts at eight o'clock."
         },
         {
-          "de": "Sie ist um eins oder um halb zwei zu Ende.",
-          "en": "It finishes at one or half past one."
+          "de": "Sie ist meistens um eins oder um halb zwei zu Ende.",
+          "en": "It usually finishes at one or half past one."
         },
         {
           "de": "Englisch ist natürlich leicht für mich.",
@@ -880,7 +884,7 @@
       "n": 12,
       "de": "Am Sonntag scheint die Sonne. Wir fahren mit der U-Bahn zum Hafen: Mama, Papa, Tom, Lena und ich. Am Hafen sind viele Schiffe. Manche Schiffe sind so groß wie ein Haus. Wir machen eine Hafenrundfahrt mit einem kleinen Boot. Dann essen wir Fischbrötchen. Lena sagt: „Das ist typisch Hamburg!“ Papa findet das Fischbrötchen super. Tom findet es eklig und isst lieber ein Eis. Ich finde Hamburg heute sehr schön.",
       "en": "On Sunday the sun is shining. We go to the harbour by underground: Mum, Dad, Tom, Lena and me. There are lots of ships at the harbour. Some ships are as big as a house. We take a harbour tour on a small boat. Then we eat fish rolls. Lena says, “That's typical Hamburg!” Dad thinks the fish roll is great. Tom thinks it's gross and would rather have an ice cream. I think Hamburg is really lovely today.",
-      "explain_en": "“Mit der U-Bahn fahren” = to go by underground: “fahren” is for any travel by vehicle, “mit” tells you which one. A Fischbrötchen (a bread roll with herring or other fish) really is the classic Hamburg snack. “lieber” means “rather”: Er isst lieber ein Eis = he'd rather eat an ice cream.",
+      "explain_en": "“Mit der U-Bahn fahren” means to travel by underground; use “fahren” for travel by car, bus, train or boat, but “fliegen” for travel by plane. A Fischbrötchen (a bread roll with herring or other fish) really is the classic Hamburg snack. “lieber” means “rather”: Er isst lieber ein Eis = he'd rather eat an ice cream.",
       "words": [
         {
           "de": "fahren",
@@ -905,6 +909,10 @@
         {
           "de": "eklig",
           "en": "gross, disgusting"
+        },
+        {
+          "de": "die Hafenrundfahrt, die Hafenrundfahrten",
+          "en": "harbour boat tour"
         }
       ],
       "sentences": [
@@ -1053,6 +1061,10 @@
         {
           "de": "das Spiel, die Spiele",
           "en": "game, match"
+        },
+        {
+          "de": "anstrengend",
+          "en": "tiring, strenuous"
         }
       ],
       "sentences": [
@@ -1404,8 +1416,8 @@
     },
     {
       "n": 19,
-      "de": "Diese Woche sind Lena und Jonas komisch. In der Pause sprechen sie leise. Dann komme ich, und sie sagen nichts mehr. „Was ist los?“, frage ich. „Nichts!“, sagt Lena schnell. Nach der Schule hat Lena keine Zeit. „Ich muss nach Hause“, sagt sie. Ich gehe allein nach Hause. Bin ich nicht mehr ihre Freundin? Mein Geburtstag ist am Freitag, aber niemand in Hamburg weiß das.",
-      "en": "This week Lena and Jonas are acting strange. At break they talk quietly. Then I come over, and they stop talking. “What's going on?” I ask. “Nothing!” says Lena quickly. After school Lena doesn't have time. “I have to go home,” she says. I walk home alone. Am I not her friend any more? My birthday is on Friday, but nobody in Hamburg knows.",
+      "de": "Diese Woche sind Lena und Jonas komisch. In der Pause sprechen sie leise. Dann komme ich, und sie sagen nichts mehr. „Was ist los?“, frage ich. „Nichts!“, sagt Lena schnell. Nach der Schule hat Lena keine Zeit. „Ich muss nach Hause“, sagt sie. Ich gehe allein nach Hause. Bin ich nicht mehr ihre Freundin? Mein Geburtstag ist am Freitag, aber meine Freunde wissen das bestimmt nicht.",
+      "en": "This week Lena and Jonas are acting strange. At break they talk quietly. Then I come over, and they stop talking. “What's going on?” I ask. “Nothing!” says Lena quickly. After school Lena doesn't have time. “I have to go home,” she says. I walk home alone. Am I not her friend any more? My birthday is on Friday, but I'm sure my friends don't know.",
       "explain_en": "“Was ist los?” = What's wrong? / What's going on? “nicht mehr” means “no longer, not any more”. “nach Hause” is for going home; “zu Hause” means being at home. After “muss” the verb “gehen” is often left out: Ich muss nach Hause.",
       "words": [
         {
@@ -1429,8 +1441,8 @@
           "en": "alone"
         },
         {
-          "de": "niemand",
-          "en": "nobody"
+          "de": "bestimmt",
+          "en": "surely, definitely"
         }
       ],
       "sentences": [
@@ -1471,8 +1483,8 @@
           "en": "Am I not her friend any more?"
         },
         {
-          "de": "Mein Geburtstag ist am Freitag, aber niemand in Hamburg weiß das.",
-          "en": "My birthday is on Friday, but nobody in Hamburg knows."
+          "de": "Mein Geburtstag ist am Freitag, aber meine Freunde wissen das bestimmt nicht.",
+          "en": "My birthday is on Friday, but I'm sure my friends don't know."
         }
       ]
     },
@@ -1556,8 +1568,8 @@
     },
     {
       "n": 21,
-      "de": "Am Nachmittag gehe ich zum Training. Ich bin traurig und habe keine Lust. Aber auf dem Platz ist heute kein Training. Da stehen alle: das Team, Sandra, Jonas und Lena! „Überraschung!“, rufen sie. Lena hat einen großen Kuchen. Auf dem Kuchen steht: „Alles Gute, Emma!“ „Deine Mama weiß alles“, sagt Lena. „Das ist unser Geheimnis.“ Jetzt verstehe ich alles. Ich weine ein bisschen, aber ich bin sehr glücklich.",
-      "en": "In the afternoon I go to training. I'm sad and don't feel like it. But there's no training on the pitch today. Everyone is standing there: the team, Sandra, Jonas and Lena! “Surprise!” they shout. Lena has a big cake. On the cake it says, “All the best, Emma!” “Your mum knows all about it,” says Lena. “It's our secret.” Now I understand everything. I cry a little, but I'm very happy.",
+      "de": "Am Nachmittag gehe ich zum Training, denn diese Woche trainieren wir auch am Freitag. Ich bin traurig und habe keine Lust. Aber auf dem Platz ist heute kein Training. Da stehen alle: das Team, Sandra, Jonas und Lena! „Überraschung!“, rufen sie. Lena hat einen großen Kuchen. Auf dem Kuchen steht: „Alles Gute, Emma!“ „Deine Mama weiß alles“, sagt Lena. „Das ist unser Geheimnis.“ Jetzt verstehe ich alles. Ich weine ein bisschen, aber ich bin sehr glücklich.",
+      "en": "In the afternoon I go to training, because this week we're training on Friday too. I'm sad and don't feel like it. But there's no training on the pitch today. Everyone is standing there: the team, Sandra, Jonas and Lena! “Surprise!” they shout. Lena has a big cake. On the cake it says, “All the best, Emma!” “Your mum knows all about it,” says Lena. “It's our secret.” Now I understand everything. I cry a little, but I'm very happy.",
       "explain_en": "“Ich habe keine Lust” = I don't feel like it – very common with teenagers! “rufen” means to shout or call out. Words on a cake, sign or list “stehen” there: Auf dem Kuchen steht …",
       "words": [
         {
@@ -1587,8 +1599,8 @@
       ],
       "sentences": [
         {
-          "de": "Am Nachmittag gehe ich zum Training.",
-          "en": "In the afternoon I go to training."
+          "de": "Am Nachmittag gehe ich zum Training, denn diese Woche trainieren wir auch am Freitag.",
+          "en": "In the afternoon I go to training, because this week we're training on Friday too."
         },
         {
           "de": "Ich bin traurig und habe keine Lust.",
@@ -1634,9 +1646,9 @@
     },
     {
       "n": 22,
-      "de": "Im Oktober fährt die Klasse 8b auf Klassenfahrt. Wir fahren für drei Tage an die Ostsee. Frau Becker gibt uns eine Liste. Wir brauchen warme Kleidung, eine Regenjacke und gute Schuhe. Handys dürfen wir mitnehmen, aber nur am Abend. Am Abend packe ich meinen Koffer. Mimi sitzt im Koffer. „Nein, Mimi, du kommst nicht mit!“, sage ich. Ich bin ein bisschen nervös. Aber Lena und Jonas sind ja auch da.",
-      "en": "In October class 8b is going on a class trip. We're going to the Baltic Sea for three days. Ms Becker gives us a list. We need warm clothes, a rain jacket and good shoes. We're allowed to bring phones, but only in the evening. In the evening I pack my suitcase. Mimi sits in the suitcase. “No, Mimi, you're not coming!” I say. I'm a bit nervous. But Lena and Jonas will be there too, after all.",
-      "explain_en": "A Klassenfahrt is a school trip of several days that almost every German class does, usually staying in a youth hostel. The Ostsee (Baltic Sea) is Germany's northern coast, not far from Hamburg. “das Handy” is German for mobile phone – it looks English, but English speakers don't use it. “ja” in the middle of a sentence means “after all, as you know”.",
+      "de": "Im Oktober fährt die Klasse 8b auf Klassenfahrt. Wir fahren für drei Tage an die Ostsee. Frau Becker gibt uns eine Liste. Wir brauchen warme Kleidung, eine Regenjacke und gute Schuhe. Handys dürfen wir mitnehmen und für Fotos benutzen. Am Abend packe ich meinen Koffer. Mimi sitzt im Koffer. „Nein, Mimi, du kommst nicht mit!“, sage ich. Ich bin ein bisschen nervös. Aber Lena und Jonas sind ja auch da.",
+      "en": "In October class 8b is going on a class trip. We're going to the Baltic Sea for three days. Ms Becker gives us a list. We need warm clothes, a rain jacket and good shoes. We're allowed to bring phones and use them to take photos. In the evening I pack my suitcase. Mimi sits in the suitcase. “No, Mimi, you're not coming!” I say. I'm a bit nervous. But Lena and Jonas will be there too, after all.",
+      "explain_en": "A Klassenfahrt is a school trip of several days that almost every German class does, usually staying in a youth hostel. The Ostsee (Baltic Sea) borders Germany's northeast coast; Germany also has a North Sea coast. “das Handy” is German for mobile phone – it looks English, but English speakers don't use it. “ja” in the middle of a sentence means “after all, as you know”.",
       "words": [
         {
           "de": "die Klassenfahrt, die Klassenfahrten",
@@ -1661,6 +1673,10 @@
         {
           "de": "packen",
           "en": "to pack"
+        },
+        {
+          "de": "benutzen",
+          "en": "to use"
         }
       ],
       "sentences": [
@@ -1681,8 +1697,8 @@
           "en": "We need warm clothes, a rain jacket and good shoes."
         },
         {
-          "de": "Handys dürfen wir mitnehmen, aber nur am Abend.",
-          "en": "We're allowed to bring phones, but only in the evening."
+          "de": "Handys dürfen wir mitnehmen und für Fotos benutzen.",
+          "en": "We're allowed to bring phones and use them to take photos."
         },
         {
           "de": "Am Abend packe ich meinen Koffer.",
@@ -1778,9 +1794,9 @@
     },
     {
       "n": 24,
-      "de": "Am nächsten Tag gehen wir an den Strand. Es ist sonnig, aber sehr windig und kalt. Das Wasser hat nur zwölf Grad. Aber Jonas geht ins Wasser. „Kalt, kalt, kalt!“, ruft er und läuft schnell zurück. Alle lachen. Dann spielen wir Volleyball im Sand. Ich mache viele Fotos mit meinem Handy: das Meer, den Strand und meine Freunde. Die Fotos sind für Oma.",
-      "en": "The next day we go to the beach. It's sunny, but very windy and cold. The water is only twelve degrees. But Jonas goes into the water. “Cold, cold, cold!” he shouts and runs back quickly. Everyone laughs. Then we play volleyball in the sand. I take lots of photos with my phone: the sea, the beach and my friends. The photos are for Grandma.",
-      "explain_en": "Many weather words end in -ig: sonnig, windig, neblig (foggy). Germans use Celsius, so twelve degrees is really cold for swimming. You “make” photos in German: Fotos machen. “ins” is short for “in das”.",
+      "de": "Am nächsten Tag gehen wir an den Strand. Es ist sonnig, aber sehr windig und kalt. Das Wasser hat nur zwölf Grad. Aber Jonas geht ins Wasser. „Kalt, kalt, kalt!“, ruft er und läuft schnell zurück. Alle lachen. Dann spielen wir Volleyball im Sand. Ich mache mit meinem Handy viele Fotos vom Meer, vom Strand und von meinen Freunden. Die Fotos sind für Oma.",
+      "en": "The next day we go to the beach. It's sunny, but very windy and cold. The water is only twelve degrees. But Jonas goes into the water. “Cold, cold, cold!” he shouts and runs back quickly. Everyone laughs. Then we play volleyball in the sand. I take lots of photos of the sea, the beach and my friends with my phone. The photos are for Grandma.",
+      "explain_en": "Many weather words end in -ig: sonnig, windig, neblig (foggy). Germans use Celsius, so twelve degrees is really cold for swimming. You “make” photos in German: Fotos machen. “ins” is short for “in das”, and “vom” is short for “von dem”.",
       "words": [
         {
           "de": "am nächsten Tag",
@@ -1837,8 +1853,8 @@
           "en": "Then we play volleyball in the sand."
         },
         {
-          "de": "Ich mache viele Fotos mit meinem Handy: das Meer, den Strand und meine Freunde.",
-          "en": "I take lots of photos with my phone: the sea, the beach and my friends."
+          "de": "Ich mache mit meinem Handy viele Fotos vom Meer, vom Strand und von meinen Freunden.",
+          "en": "I take lots of photos of the sea, the beach and my friends with my phone."
         },
         {
           "de": "Die Fotos sind für Oma.",
@@ -1875,6 +1891,10 @@
         {
           "de": "dunkel",
           "en": "dark"
+        },
+        {
+          "de": "der Speisesaal, die Speisesäle",
+          "en": "dining hall"
         }
       ],
       "sentences": [
@@ -1949,6 +1969,10 @@
         {
           "de": "rot werden",
           "en": "to blush, go red"
+        },
+        {
+          "de": "das Volleyballnetz, die Volleyballnetze",
+          "en": "volleyball net"
         }
       ],
       "sentences": [

@@ -61,7 +61,7 @@ class Report(unittest.TestCase):
                                               "last_ok": False, "misses": 2}
         with ui.console.capture() as out:
             ui.console.print(report._repetition(kid, content, today))
-        text = out.get()
+        text = " ".join(out.get().split())  # a long book title may wrap the line
         self.assertIn("5 · 4 counted · 1 need work", text)
         self.assertIn("2 sentences · 75% of words right", text)
         self.assertIn("1 being repeated (0 due now) · 3 learned", text)

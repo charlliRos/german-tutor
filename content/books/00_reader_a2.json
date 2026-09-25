@@ -1,0 +1,2360 @@
+{
+  "id": "reader-a2",
+  "title": "Das Geheimnis von Burgstein (A2 reader)",
+  "short_title": "Das Geheimnis von Burgstein",
+  "author": "Written for this app",
+  "original": true,
+  "year": 2026,
+  "level": "A2",
+  "source": "Written for this app (Deutsch mit Fritz & Pip), 2026",
+  "orthography": "current spelling",
+  "intro_en": "Sam, fifteen, from Leeds, spends three weeks with a host family in the small German town of Burgstein. On his first night he sees a strange light in the old, closed castle, and soon the family dog disappears and a mysterious note arrives. A story about school, friends, homesickness and a secret, written in easy A2 German.",
+  "units": [
+    {
+      "n": 1,
+      "de": "Sam Carter ist fünfzehn Jahre alt und kommt aus Leeds in England. Heute sitzt er im Zug nach Burgstein. Das ist eine kleine Stadt in Deutschland. Sam bleibt drei Wochen dort, bei einer Gastfamilie. Er ist nervös. Sein Deutsch ist nicht schlecht, aber auch nicht sehr gut. Was ist, wenn niemand ihn versteht? Der Zug hält. Auf dem Bahnsteig warten eine Frau, ein Junge und ein großer brauner Hund. Der Junge hält ein Schild: „Willkommen, Sam!“",
+      "en": "Sam Carter is fifteen years old and comes from Leeds in England. Today he is sitting on the train to Burgstein. It is a small town in Germany. Sam is staying there for three weeks, with a host family. He is nervous. His German isn't bad, but it isn't very good either. What if nobody understands him? The train stops. On the platform a woman, a boy and a big brown dog are waiting. The boy is holding a sign: “Welcome, Sam!”",
+      "explain_en": "German often uses the present tense for the near future and for stories: “Sam bleibt drei Wochen” means he is staying (or will stay) for three weeks. “bei einer Gastfamilie” uses bei + dative to mean “at someone's home”. “Was ist, wenn …?” is the everyday way to say “What if …?”, and after “wenn” the verb goes to the end.",
+      "words": [
+        {
+          "de": "der Zug, die Züge",
+          "en": "train"
+        },
+        {
+          "de": "die Gastfamilie, die Gastfamilien",
+          "en": "host family"
+        },
+        {
+          "de": "nervös",
+          "en": "nervous"
+        },
+        {
+          "de": "der Bahnsteig, die Bahnsteige",
+          "en": "platform"
+        },
+        {
+          "de": "warten",
+          "en": "to wait"
+        },
+        {
+          "de": "das Schild, die Schilder",
+          "en": "sign"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Sam Carter ist fünfzehn Jahre alt und kommt aus Leeds in England.",
+          "en": "Sam Carter is fifteen years old and comes from Leeds in England."
+        },
+        {
+          "de": "Heute sitzt er im Zug nach Burgstein.",
+          "en": "Today he is sitting on the train to Burgstein."
+        },
+        {
+          "de": "Das ist eine kleine Stadt in Deutschland.",
+          "en": "It is a small town in Germany."
+        },
+        {
+          "de": "Sam bleibt drei Wochen dort, bei einer Gastfamilie.",
+          "en": "Sam is staying there for three weeks, with a host family."
+        },
+        {
+          "de": "Er ist nervös.",
+          "en": "He is nervous."
+        },
+        {
+          "de": "Sein Deutsch ist nicht schlecht, aber auch nicht sehr gut.",
+          "en": "His German isn't bad, but it isn't very good either."
+        },
+        {
+          "de": "Was ist, wenn niemand ihn versteht?",
+          "en": "What if nobody understands him?"
+        },
+        {
+          "de": "Der Zug hält.",
+          "en": "The train stops."
+        },
+        {
+          "de": "Auf dem Bahnsteig warten eine Frau, ein Junge und ein großer brauner Hund.",
+          "en": "On the platform a woman, a boy and a big brown dog are waiting."
+        },
+        {
+          "de": "Der Junge hält ein Schild: „Willkommen, Sam!“",
+          "en": "The boy is holding a sign: “Welcome, Sam!”"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "de": "„Hallo Sam, ich bin Anke Becker, und das ist mein Sohn Jonas“, sagt die Frau und lächelt. Jonas ist so alt wie Sam, aber einen Kopf größer. „Und das ist Bruno“, sagt Jonas. Der Hund springt an Sam hoch und leckt seine Hand. Sam lacht. Jetzt ist er nicht mehr so nervös. Sie fahren mit dem Auto durch die Stadt. Die Straßen sind eng und die Häuser sind alt. Auf einem Hügel über der Stadt steht eine alte Burg. „Die Burg ist seit Jahren geschlossen“, sagt Jonas.",
+      "en": "“Hi Sam, I'm Anke Becker, and this is my son Jonas,” says the woman, smiling. Jonas is the same age as Sam, but a head taller. “And this is Bruno,” says Jonas. The dog jumps up at Sam and licks his hand. Sam laughs. Now he isn't so nervous any more. They drive through the town by car. The streets are narrow and the houses are old. On a hill above the town stands an old castle. “The castle has been closed for years,” says Jonas.",
+      "explain_en": "“so alt wie” means “as old as”, and “einen Kopf größer” means “a head taller”. Germans say “mit dem Auto fahren” (to go by car): mit always takes the dative. Look at “seit Jahren geschlossen”: German uses the present tense with seit where English says “has been … for years”.",
+      "words": [
+        {
+          "de": "lächeln",
+          "en": "to smile"
+        },
+        {
+          "de": "hochspringen",
+          "en": "to jump up"
+        },
+        {
+          "de": "die Straße, die Straßen",
+          "en": "street"
+        },
+        {
+          "de": "der Hügel, die Hügel",
+          "en": "hill"
+        },
+        {
+          "de": "die Burg, die Burgen",
+          "en": "castle"
+        },
+        {
+          "de": "geschlossen",
+          "en": "closed"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Hallo Sam, ich bin Anke Becker, und das ist mein Sohn Jonas“, sagt die Frau und lächelt.",
+          "en": "“Hi Sam, I'm Anke Becker, and this is my son Jonas,” says the woman, smiling."
+        },
+        {
+          "de": "Jonas ist so alt wie Sam, aber einen Kopf größer.",
+          "en": "Jonas is the same age as Sam, but a head taller."
+        },
+        {
+          "de": "„Und das ist Bruno“, sagt Jonas.",
+          "en": "“And this is Bruno,” says Jonas."
+        },
+        {
+          "de": "Der Hund springt an Sam hoch und leckt seine Hand.",
+          "en": "The dog jumps up at Sam and licks his hand."
+        },
+        {
+          "de": "Sam lacht.",
+          "en": "Sam laughs."
+        },
+        {
+          "de": "Jetzt ist er nicht mehr so nervös.",
+          "en": "Now he isn't so nervous any more."
+        },
+        {
+          "de": "Sie fahren mit dem Auto durch die Stadt.",
+          "en": "They drive through the town by car."
+        },
+        {
+          "de": "Die Straßen sind eng und die Häuser sind alt.",
+          "en": "The streets are narrow and the houses are old."
+        },
+        {
+          "de": "Auf einem Hügel über der Stadt steht eine alte Burg.",
+          "en": "On a hill above the town stands an old castle."
+        },
+        {
+          "de": "„Die Burg ist seit Jahren geschlossen“, sagt Jonas.",
+          "en": "“The castle has been closed for years,” says Jonas."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "de": "Sams Zimmer ist unter dem Dach. Vom Fenster aus kann er die Burg sehen. Um sieben Uhr gibt es Abendbrot: Brot, Käse, Wurst und Tomaten. Jonas' Schwester Mia ist acht und stellt viele Fragen. Dann holt Sam ein Paket aus seiner Tasche. „Das ist ein Gift für Sie“, sagt er stolz zu Frau Becker. Alle sind still. Dann lacht Mia laut. Herr Becker erklärt: „Gift ist auf Deutsch etwas, das dich tötet. Du meinst ein Geschenk.“ Sam wird rot, aber dann lacht er auch.",
+      "en": "Sam's room is under the roof. From the window he can see the castle. At seven o'clock there's Abendbrot: bread, cheese, cold meat and tomatoes. Jonas's sister Mia is eight and asks lots of questions. Then Sam takes a parcel out of his bag. “This is a Gift for you,” he says proudly to Mrs Becker. Everyone goes quiet. Then Mia laughs out loud. Mr Becker explains: “In German, Gift is something that kills you. You mean a present (Geschenk).” Sam goes red, but then he laughs too.",
+      "explain_en": "“Abendbrot” (evening bread) is a typical German supper: bread with cheese and cold meat, because many families eat their hot meal at lunchtime. “Gift” is a famous false friend: in German it means poison! A present is “das Geschenk”. “Er wird rot” means he goes red: werden means “to become”.",
+      "words": [
+        {
+          "de": "das Abendbrot",
+          "en": "(cold) supper"
+        },
+        {
+          "de": "eine Frage stellen",
+          "en": "to ask a question"
+        },
+        {
+          "de": "das Geschenk, die Geschenke",
+          "en": "present, gift"
+        },
+        {
+          "de": "das Gift",
+          "en": "poison",
+          "note": "false friend!"
+        },
+        {
+          "de": "stolz",
+          "en": "proud"
+        },
+        {
+          "de": "rot werden",
+          "en": "to go red, to blush"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Sams Zimmer ist unter dem Dach.",
+          "en": "Sam's room is under the roof."
+        },
+        {
+          "de": "Vom Fenster aus kann er die Burg sehen.",
+          "en": "From the window he can see the castle."
+        },
+        {
+          "de": "Um sieben Uhr gibt es Abendbrot: Brot, Käse, Wurst und Tomaten.",
+          "en": "At seven o'clock there's Abendbrot: bread, cheese, cold meat and tomatoes."
+        },
+        {
+          "de": "Jonas' Schwester Mia ist acht und stellt viele Fragen.",
+          "en": "Jonas's sister Mia is eight and asks lots of questions."
+        },
+        {
+          "de": "Dann holt Sam ein Paket aus seiner Tasche.",
+          "en": "Then Sam takes a parcel out of his bag."
+        },
+        {
+          "de": "„Das ist ein Gift für Sie“, sagt er stolz zu Frau Becker.",
+          "en": "“This is a Gift for you,” he says proudly to Mrs Becker."
+        },
+        {
+          "de": "Alle sind still.",
+          "en": "Everyone goes quiet."
+        },
+        {
+          "de": "Dann lacht Mia laut.",
+          "en": "Then Mia laughs out loud."
+        },
+        {
+          "de": "Herr Becker erklärt: „Gift ist auf Deutsch etwas, das dich tötet.",
+          "en": "Mr Becker explains: “In German, Gift is something that kills you."
+        },
+        {
+          "de": "Du meinst ein Geschenk.“",
+          "en": "You mean a present (Geschenk).”"
+        },
+        {
+          "de": "Sam wird rot, aber dann lacht er auch.",
+          "en": "Sam goes red, but then he laughs too."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "de": "Am Montag geht Sam mit Jonas in die Schule. Sie fahren mit dem Fahrrad. Die Schule ist groß und modern, und niemand trägt eine Schuluniform. In der Klasse sind sechsundzwanzig Schüler. Die Lehrerin, Frau König, stellt Sam vor, und alle sehen ihn an. Sam muss etwas über sich sagen. Sein Gesicht wird heiß, aber er schafft es. Neben ihm sitzt ein Mädchen mit roten Haaren. „Ich bin Lea“, sagt sie. „Ich wohne neben den Beckers. Ich kann Englisch, aber mit dir spreche ich nur Deutsch. Das ist besser für dich.“",
+      "en": "On Monday Sam goes to school with Jonas. They go by bike. The school is big and modern, and nobody wears a school uniform. There are twenty-six students in the class. The teacher, Frau König, introduces Sam, and everyone looks at him. Sam has to say something about himself. His face goes hot, but he manages it. Next to him sits a girl with red hair. “I'm Lea,” she says. “I live next door to the Beckers. I can speak English, but with you I'll only speak German. That's better for you.”",
+      "explain_en": "Most German schools have no uniform. “vorstellen” is a separable verb: “Sie stellt Sam vor” (she introduces Sam). “Ich kann Englisch” is short for “Ich kann Englisch sprechen”: with languages Germans often leave out the verb. “etwas schaffen” means to manage or succeed at something.",
+      "words": [
+        {
+          "de": "das Fahrrad, die Fahrräder",
+          "en": "bike"
+        },
+        {
+          "de": "vorstellen",
+          "en": "to introduce"
+        },
+        {
+          "de": "schaffen",
+          "en": "to manage (to do)"
+        },
+        {
+          "de": "neben",
+          "en": "next to",
+          "note": "+ dative for where something is"
+        },
+        {
+          "de": "das Mädchen, die Mädchen",
+          "en": "girl"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Montag geht Sam mit Jonas in die Schule.",
+          "en": "On Monday Sam goes to school with Jonas."
+        },
+        {
+          "de": "Sie fahren mit dem Fahrrad.",
+          "en": "They go by bike."
+        },
+        {
+          "de": "Die Schule ist groß und modern, und niemand trägt eine Schuluniform.",
+          "en": "The school is big and modern, and nobody wears a school uniform."
+        },
+        {
+          "de": "In der Klasse sind sechsundzwanzig Schüler.",
+          "en": "There are twenty-six students in the class."
+        },
+        {
+          "de": "Die Lehrerin, Frau König, stellt Sam vor, und alle sehen ihn an.",
+          "en": "The teacher, Frau König, introduces Sam, and everyone looks at him."
+        },
+        {
+          "de": "Sam muss etwas über sich sagen.",
+          "en": "Sam has to say something about himself."
+        },
+        {
+          "de": "Sein Gesicht wird heiß, aber er schafft es.",
+          "en": "His face goes hot, but he manages it."
+        },
+        {
+          "de": "Neben ihm sitzt ein Mädchen mit roten Haaren.",
+          "en": "Next to him sits a girl with red hair."
+        },
+        {
+          "de": "„Ich bin Lea“, sagt sie.",
+          "en": "“I'm Lea,” she says."
+        },
+        {
+          "de": "„Ich wohne neben den Beckers.",
+          "en": "“I live next door to the Beckers."
+        },
+        {
+          "de": "Ich kann Englisch, aber mit dir spreche ich nur Deutsch.",
+          "en": "I can speak English, but with you I'll only speak German."
+        },
+        {
+          "de": "Das ist besser für dich.“",
+          "en": "That's better for you.”"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "de": "Um Viertel nach eins ist die Schule schon aus. Sam kann es kaum glauben. In England geht die Schule bis halb vier. Auf dem Heimweg zeigt Lea auf den Hügel. „Warst du schon an der Burg?“, fragt sie. „Niemand darf hinein. Aber manche Leute sagen, dass man nachts dort ein Licht sieht.“ Jonas lacht. „Das sind nur Geschichten, Lea.“ Lea sieht Sam an. „Vielleicht. Vielleicht auch nicht.“",
+      "en": "At a quarter past one school is already over. Sam can hardly believe it. In England school goes on until half past three. On the way home Lea points at the hill. “Have you been up to the castle yet?” she asks. “Nobody is allowed in. But some people say that you can see a light up there at night.” Jonas laughs. “Those are just stories, Lea.” Lea looks at Sam. “Maybe. Maybe not.”",
+      "explain_en": "Many German schools finish around lunchtime, and students go home to eat. “halb vier” means half past three: Germans count towards the next hour (half to four). “Warst du schon …?” uses the Präteritum of sein, which is normal in speech. In the “dass” clause the verb “sieht” goes to the end.",
+      "words": [
+        {
+          "de": "aus sein",
+          "en": "to be over, finished"
+        },
+        {
+          "de": "halb vier",
+          "en": "half past three"
+        },
+        {
+          "de": "der Heimweg",
+          "en": "the way home"
+        },
+        {
+          "de": "dürfen",
+          "en": "to be allowed to"
+        },
+        {
+          "de": "nachts",
+          "en": "at night"
+        },
+        {
+          "de": "die Geschichte, die Geschichten",
+          "en": "story"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Um Viertel nach eins ist die Schule schon aus.",
+          "en": "At a quarter past one school is already over."
+        },
+        {
+          "de": "Sam kann es kaum glauben.",
+          "en": "Sam can hardly believe it."
+        },
+        {
+          "de": "In England geht die Schule bis halb vier.",
+          "en": "In England school goes on until half past three."
+        },
+        {
+          "de": "Auf dem Heimweg zeigt Lea auf den Hügel.",
+          "en": "On the way home Lea points at the hill."
+        },
+        {
+          "de": "„Warst du schon an der Burg?“, fragt sie.",
+          "en": "“Have you been up to the castle yet?” she asks."
+        },
+        {
+          "de": "„Niemand darf hinein.",
+          "en": "“Nobody is allowed in."
+        },
+        {
+          "de": "Aber manche Leute sagen, dass man nachts dort ein Licht sieht.“",
+          "en": "But some people say that you can see a light up there at night.”"
+        },
+        {
+          "de": "Jonas lacht.",
+          "en": "Jonas laughs."
+        },
+        {
+          "de": "„Das sind nur Geschichten, Lea.“",
+          "en": "“Those are just stories, Lea.”"
+        },
+        {
+          "de": "Lea sieht Sam an.",
+          "en": "Lea looks at Sam."
+        },
+        {
+          "de": "„Vielleicht.",
+          "en": "“Maybe."
+        },
+        {
+          "de": "Vielleicht auch nicht.“",
+          "en": "Maybe not.”"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Am Abend sitzt Sam in seinem Zimmer und schreibt seiner Mutter eine Nachricht: „Alles gut hier. Die Familie ist sehr nett. Der Hund heißt Bruno und ist super.“ Er schreibt auf Deutsch, weil er üben will. Seine Mutter versteht kein Wort, aber sie schickt ein Herz. Dann macht Sam das Licht aus und sieht aus dem Fenster. Die Stadt schläft. Aber oben auf dem Hügel, in der alten Burg, bewegt sich ein kleines Licht. Es geht an und aus, an und aus. Dann ist es weg.",
+      "en": "In the evening Sam sits in his room and writes his mother a message: “All good here. The family is really nice. The dog is called Bruno and he's great.” He writes in German because he wants to practise. His mother doesn't understand a word, but she sends a heart. Then Sam switches off the light and looks out of the window. The town is asleep. But up on the hill, in the old castle, a small light is moving. It goes on and off, on and off. Then it's gone.",
+      "explain_en": "“schreiben” can take two objects: the person in the dative (seiner Mutter) and the thing in the accusative (eine Nachricht). After “weil” the verb goes to the end: “weil er üben will”. “das Licht ausmachen” is the everyday way to say “switch off the light”; “Es geht an und aus” means it goes on and off.",
+      "words": [
+        {
+          "de": "die Nachricht, die Nachrichten",
+          "en": "message"
+        },
+        {
+          "de": "üben",
+          "en": "to practise"
+        },
+        {
+          "de": "schicken",
+          "en": "to send"
+        },
+        {
+          "de": "das Licht ausmachen",
+          "en": "to switch off the light"
+        },
+        {
+          "de": "sich bewegen",
+          "en": "to move"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Abend sitzt Sam in seinem Zimmer und schreibt seiner Mutter eine Nachricht: „Alles gut hier.",
+          "en": "In the evening Sam sits in his room and writes his mother a message: “All good here."
+        },
+        {
+          "de": "Die Familie ist sehr nett.",
+          "en": "The family is really nice."
+        },
+        {
+          "de": "Der Hund heißt Bruno und ist super.“",
+          "en": "The dog is called Bruno and he's great.”"
+        },
+        {
+          "de": "Er schreibt auf Deutsch, weil er üben will.",
+          "en": "He writes in German because he wants to practise."
+        },
+        {
+          "de": "Seine Mutter versteht kein Wort, aber sie schickt ein Herz.",
+          "en": "His mother doesn't understand a word, but she sends a heart."
+        },
+        {
+          "de": "Dann macht Sam das Licht aus und sieht aus dem Fenster.",
+          "en": "Then Sam switches off the light and looks out of the window."
+        },
+        {
+          "de": "Die Stadt schläft.",
+          "en": "The town is asleep."
+        },
+        {
+          "de": "Aber oben auf dem Hügel, in der alten Burg, bewegt sich ein kleines Licht.",
+          "en": "But up on the hill, in the old castle, a small light is moving."
+        },
+        {
+          "de": "Es geht an und aus, an und aus.",
+          "en": "It goes on and off, on and off."
+        },
+        {
+          "de": "Dann ist es weg.",
+          "en": "Then it's gone."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "de": "Am Samstag geht Sam mit Frau Becker auf den Markt. Es gibt Obst, Gemüse, Blumen und frisches Brot. An einem kleinen Stand verkauft ein alter Mann Honig. „Das ist Herr Wagner“, sagt Frau Becker. „Früher hat er in der Burg gearbeitet und den Touristen alles gezeigt.“ Herr Wagner sieht traurig aus. „Jetzt will die Stadt die Burg verkaufen, an eine Firma aus Frankfurt“, sagt er. „Sie wollen ein Hotel daraus machen.“ Sam fragt: „Ist nachts jemand in der Burg?“ Herr Wagner sieht ihn lange an. „Nein“, sagt er schnell. „Niemand.“",
+      "en": "On Saturday Sam goes to the market with Mrs Becker. There's fruit, vegetables, flowers and fresh bread. At a small stall an old man is selling honey. “That's Mr Wagner,” says Mrs Becker. “He used to work at the castle and show the tourists everything.” Mr Wagner looks sad. “Now the town wants to sell the castle, to a company from Frankfurt,” he says. “They want to turn it into a hotel.” Sam asks: “Is anyone in the castle at night?” Mr Wagner looks at him for a long time. “No,” he says quickly. “Nobody.”",
+      "explain_en": "“auf den Markt gehen” uses the accusative because it is a movement towards somewhere; “auf dem Markt” (dative) would mean at the market. “Früher hat er … gearbeitet” is Perfekt; “früher” means “in the past” and is the easy way to say “used to”. “aussehen” (to look) is separable: “Er sieht traurig aus.”",
+      "words": [
+        {
+          "de": "der Markt, die Märkte",
+          "en": "market"
+        },
+        {
+          "de": "das Gemüse",
+          "en": "vegetables"
+        },
+        {
+          "de": "verkaufen",
+          "en": "to sell"
+        },
+        {
+          "de": "früher",
+          "en": "in the past, used to"
+        },
+        {
+          "de": "traurig aussehen",
+          "en": "to look sad"
+        },
+        {
+          "de": "die Firma, die Firmen",
+          "en": "company"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Samstag geht Sam mit Frau Becker auf den Markt.",
+          "en": "On Saturday Sam goes to the market with Mrs Becker."
+        },
+        {
+          "de": "Es gibt Obst, Gemüse, Blumen und frisches Brot.",
+          "en": "There's fruit, vegetables, flowers and fresh bread."
+        },
+        {
+          "de": "An einem kleinen Stand verkauft ein alter Mann Honig.",
+          "en": "At a small stall an old man is selling honey."
+        },
+        {
+          "de": "„Das ist Herr Wagner“, sagt Frau Becker.",
+          "en": "“That's Mr Wagner,” says Mrs Becker."
+        },
+        {
+          "de": "„Früher hat er in der Burg gearbeitet und den Touristen alles gezeigt.“",
+          "en": "“He used to work at the castle and show the tourists everything.”"
+        },
+        {
+          "de": "Herr Wagner sieht traurig aus.",
+          "en": "Mr Wagner looks sad."
+        },
+        {
+          "de": "„Jetzt will die Stadt die Burg verkaufen, an eine Firma aus Frankfurt“, sagt er.",
+          "en": "“Now the town wants to sell the castle, to a company from Frankfurt,” he says."
+        },
+        {
+          "de": "„Sie wollen ein Hotel daraus machen.“",
+          "en": "“They want to turn it into a hotel.”"
+        },
+        {
+          "de": "Sam fragt: „Ist nachts jemand in der Burg?“",
+          "en": "Sam asks: “Is anyone in the castle at night?”"
+        },
+        {
+          "de": "Herr Wagner sieht ihn lange an.",
+          "en": "Mr Wagner looks at him for a long time."
+        },
+        {
+          "de": "„Nein“, sagt er schnell.",
+          "en": "“No,” he says quickly."
+        },
+        {
+          "de": "„Niemand.“",
+          "en": "“Nobody.”"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "de": "Am Sonntag machen Jonas, Mia und Sam einen Spaziergang mit Bruno. Sie gehen durch den Wald, nicht weit von der Burg. Es ist warm und die Sonne scheint. Bruno läuft frei herum und spielt mit einem Stock. Plötzlich hebt er den Kopf. Er bellt einmal und rennt los, direkt zwischen die Bäume. „Bruno, komm zurück!“, ruft Jonas. Aber Bruno kommt nicht. Sie rufen und suchen eine Stunde lang, aber sie finden ihn nicht. Mia fängt an zu weinen. Bruno ist weg.",
+      "en": "On Sunday Jonas, Mia and Sam go for a walk with Bruno. They go through the woods, not far from the castle. It's warm and the sun is shining. Bruno runs around off the lead and plays with a stick. Suddenly he lifts his head. He barks once and runs off, straight in among the trees. “Bruno, come back!” shouts Jonas. But Bruno doesn't come. They call and search for an hour, but they don't find him. Mia starts to cry. Bruno is gone.",
+      "explain_en": "“einen Spaziergang machen” means to go for a walk. “durch” always takes the accusative: “durch den Wald”. “losrennen” and “zurückkommen” are separable verbs, so the small part goes to the end: “er rennt los”, “komm zurück”. “anfangen zu …” means to start doing something.",
+      "words": [
+        {
+          "de": "der Spaziergang, die Spaziergänge",
+          "en": "walk"
+        },
+        {
+          "de": "der Wald, die Wälder",
+          "en": "wood, forest"
+        },
+        {
+          "de": "plötzlich",
+          "en": "suddenly"
+        },
+        {
+          "de": "bellen",
+          "en": "to bark"
+        },
+        {
+          "de": "zurückkommen",
+          "en": "to come back"
+        },
+        {
+          "de": "weinen",
+          "en": "to cry"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Sonntag machen Jonas, Mia und Sam einen Spaziergang mit Bruno.",
+          "en": "On Sunday Jonas, Mia and Sam go for a walk with Bruno."
+        },
+        {
+          "de": "Sie gehen durch den Wald, nicht weit von der Burg.",
+          "en": "They go through the woods, not far from the castle."
+        },
+        {
+          "de": "Es ist warm und die Sonne scheint.",
+          "en": "It's warm and the sun is shining."
+        },
+        {
+          "de": "Bruno läuft frei herum und spielt mit einem Stock.",
+          "en": "Bruno runs around off the lead and plays with a stick."
+        },
+        {
+          "de": "Plötzlich hebt er den Kopf.",
+          "en": "Suddenly he lifts his head."
+        },
+        {
+          "de": "Er bellt einmal und rennt los, direkt zwischen die Bäume.",
+          "en": "He barks once and runs off, straight in among the trees."
+        },
+        {
+          "de": "„Bruno, komm zurück!“, ruft Jonas.",
+          "en": "“Bruno, come back!” shouts Jonas."
+        },
+        {
+          "de": "Aber Bruno kommt nicht.",
+          "en": "But Bruno doesn't come."
+        },
+        {
+          "de": "Sie rufen und suchen eine Stunde lang, aber sie finden ihn nicht.",
+          "en": "They call and search for an hour, but they don't find him."
+        },
+        {
+          "de": "Mia fängt an zu weinen.",
+          "en": "Mia starts to cry."
+        },
+        {
+          "de": "Bruno ist weg.",
+          "en": "Bruno is gone."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Am Abend sind alle traurig. Herr Becker ruft bei der Polizei und beim Tierheim an, aber niemand hat einen braunen Hund gesehen. Jonas und Sam machen Plakate mit einem Foto von Bruno und der Telefonnummer. Lea hilft ihnen. Zusammen hängen sie die Plakate in der ganzen Stadt auf. Mia will nicht essen und nicht schlafen. Sam sitzt lange mit ihr auf dem Sofa. Er fühlt sich schlecht, weil er dabei war. Warum hat er nicht besser aufgepasst?",
+      "en": "In the evening everyone is sad. Mr Becker phones the police and the animal shelter, but nobody has seen a brown dog. Jonas and Sam make posters with a photo of Bruno and the phone number. Lea helps them. Together they put the posters up all over town. Mia doesn't want to eat or sleep. Sam sits with her on the sofa for a long time. He feels bad because he was there. Why didn't he pay more attention?",
+      "explain_en": "“bei … anrufen” means to phone a place or person: “bei der Polizei anrufen”. “helfen” takes the dative, so it is “Lea hilft ihnen”, not “sie”. “aufhängen” (to hang up) and “aufpassen” (to pay attention, to watch out) are separable; in the Perfekt the “ge” goes in the middle: “aufgepasst”.",
+      "words": [
+        {
+          "de": "anrufen",
+          "en": "to phone",
+          "note": "Perfekt: hat angerufen"
+        },
+        {
+          "de": "das Tierheim, die Tierheime",
+          "en": "animal shelter"
+        },
+        {
+          "de": "das Plakat, die Plakate",
+          "en": "poster"
+        },
+        {
+          "de": "helfen",
+          "en": "to help",
+          "note": "+ dative"
+        },
+        {
+          "de": "aufpassen",
+          "en": "to pay attention, to watch out"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Abend sind alle traurig.",
+          "en": "In the evening everyone is sad."
+        },
+        {
+          "de": "Herr Becker ruft bei der Polizei und beim Tierheim an, aber niemand hat einen braunen Hund gesehen.",
+          "en": "Mr Becker phones the police and the animal shelter, but nobody has seen a brown dog."
+        },
+        {
+          "de": "Jonas und Sam machen Plakate mit einem Foto von Bruno und der Telefonnummer.",
+          "en": "Jonas and Sam make posters with a photo of Bruno and the phone number."
+        },
+        {
+          "de": "Lea hilft ihnen.",
+          "en": "Lea helps them."
+        },
+        {
+          "de": "Zusammen hängen sie die Plakate in der ganzen Stadt auf.",
+          "en": "Together they put the posters up all over town."
+        },
+        {
+          "de": "Mia will nicht essen und nicht schlafen.",
+          "en": "Mia doesn't want to eat or sleep."
+        },
+        {
+          "de": "Sam sitzt lange mit ihr auf dem Sofa.",
+          "en": "Sam sits with her on the sofa for a long time."
+        },
+        {
+          "de": "Er fühlt sich schlecht, weil er dabei war.",
+          "en": "He feels bad because he was there."
+        },
+        {
+          "de": "Warum hat er nicht besser aufgepasst?",
+          "en": "Why didn't he pay more attention?"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "de": "Am Montagmorgen holt Sam die Zeitung aus dem Briefkasten. Neben der Zeitung liegt ein kleiner Zettel. Die Schrift ist klein und schief. Sam liest langsam: „Keine Angst! Eurem Hund geht es gut. Er hilft mir. Bitte wartet noch ein paar Tage.“ Unter dem Text steht nur ein K als Name. Sam rennt in die Küche, und die ganze Familie liest den Zettel. „Wer ist K?“, fragt Mia. Niemand weiß es. Herr Becker ist wütend: „Das ist nicht lustig!“ Aber Mia lächelt zum ersten Mal seit gestern.",
+      "en": "On Monday morning Sam gets the newspaper out of the letterbox. Next to the newspaper there's a small note. The handwriting is small and crooked. Sam reads slowly: “Don't worry! Your dog is fine. He is helping me. Please wait a few more days.” Under the text there's only a K as a name. Sam runs into the kitchen, and the whole family reads the note. “Who is K?” asks Mia. Nobody knows. Mr Becker is angry: “This isn't funny!” But Mia smiles for the first time since yesterday.",
+      "explain_en": "“Es geht ihm gut” means “he is fine”; the person is in the dative, so here it is “Eurem Hund geht es gut”. “euer” is “your” when you talk to several people you know well (the whole family). “noch ein paar Tage” means “a few more days”. “zum ersten Mal” means “for the first time”.",
+      "words": [
+        {
+          "de": "der Briefkasten, die Briefkästen",
+          "en": "letterbox, mailbox"
+        },
+        {
+          "de": "der Zettel, die Zettel",
+          "en": "note, slip of paper"
+        },
+        {
+          "de": "Keine Angst!",
+          "en": "Don't worry! Don't be afraid!"
+        },
+        {
+          "de": "wütend",
+          "en": "angry"
+        },
+        {
+          "de": "zum ersten Mal",
+          "en": "for the first time"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Montagmorgen holt Sam die Zeitung aus dem Briefkasten.",
+          "en": "On Monday morning Sam gets the newspaper out of the letterbox."
+        },
+        {
+          "de": "Neben der Zeitung liegt ein kleiner Zettel.",
+          "en": "Next to the newspaper there's a small note."
+        },
+        {
+          "de": "Die Schrift ist klein und schief.",
+          "en": "The handwriting is small and crooked."
+        },
+        {
+          "de": "Sam liest langsam: „Keine Angst!",
+          "en": "Sam reads slowly: “Don't worry!"
+        },
+        {
+          "de": "Eurem Hund geht es gut.",
+          "en": "Your dog is fine."
+        },
+        {
+          "de": "Er hilft mir.",
+          "en": "He is helping me."
+        },
+        {
+          "de": "Bitte wartet noch ein paar Tage.“",
+          "en": "Please wait a few more days.”"
+        },
+        {
+          "de": "Unter dem Text steht nur ein K als Name.",
+          "en": "Under the text there's only a K as a name."
+        },
+        {
+          "de": "Sam rennt in die Küche, und die ganze Familie liest den Zettel.",
+          "en": "Sam runs into the kitchen, and the whole family reads the note."
+        },
+        {
+          "de": "„Wer ist K?“, fragt Mia.",
+          "en": "“Who is K?” asks Mia."
+        },
+        {
+          "de": "Niemand weiß es.",
+          "en": "Nobody knows."
+        },
+        {
+          "de": "Herr Becker ist wütend: „Das ist nicht lustig!“",
+          "en": "Mr Becker is angry: “This isn't funny!”"
+        },
+        {
+          "de": "Aber Mia lächelt zum ersten Mal seit gestern.",
+          "en": "But Mia smiles for the first time since yesterday."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "de": "In der Schule erzählt Sam Lea alles. Jonas ist heute nicht da, weil er mit der Schulmannschaft bei einem Fußballturnier ist. Lea liest den Zettel und denkt nach. „Er hilft mir“, sagt sie leise. „Wie kann ein Hund jemandem helfen?“ „Vielleicht sucht er etwas“, sagt Sam. „Hunde haben gute Nasen.“ Dann erzählt er von dem Licht in der Burg. Leas Augen werden groß. „Bruno ist doch im Wald bei der Burg weggelaufen, oder?“, fragt sie. Sam nickt. „Nach der Schule gehen wir hin“, sagt Lea. „Zusammen.“",
+      "en": "At school Sam tells Lea everything. Jonas isn't there today because he's at a football tournament with the school team. Lea reads the note and thinks. “He is helping me,” she says quietly. “How can a dog help someone?” “Maybe he's looking for something,” says Sam. “Dogs have good noses.” Then he tells her about the light in the castle. Lea's eyes go wide. “Bruno ran off in the woods by the castle, didn't he?” she asks. Sam nods. “After school we'll go up there,” says Lea. “Together.”",
+      "explain_en": "“erzählen” can take a person in the dative and a thing in the accusative: “Sam erzählt Lea alles”. “nachdenken” (to think about something) is separable. “doch” in “Bruno ist doch … weggelaufen” means “as we know”, and “oder?” at the end works like “didn't he?” or “right?”. “hingehen” means to go there.",
+      "words": [
+        {
+          "de": "erzählen",
+          "en": "to tell"
+        },
+        {
+          "de": "das Turnier, die Turniere",
+          "en": "tournament"
+        },
+        {
+          "de": "nachdenken",
+          "en": "to think (about something)"
+        },
+        {
+          "de": "weglaufen",
+          "en": "to run away",
+          "note": "Perfekt: ist weggelaufen"
+        },
+        {
+          "de": "nicken",
+          "en": "to nod"
+        },
+        {
+          "de": "zusammen",
+          "en": "together"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "In der Schule erzählt Sam Lea alles.",
+          "en": "At school Sam tells Lea everything."
+        },
+        {
+          "de": "Jonas ist heute nicht da, weil er mit der Schulmannschaft bei einem Fußballturnier ist.",
+          "en": "Jonas isn't there today because he's at a football tournament with the school team."
+        },
+        {
+          "de": "Lea liest den Zettel und denkt nach.",
+          "en": "Lea reads the note and thinks."
+        },
+        {
+          "de": "„Er hilft mir“, sagt sie leise.",
+          "en": "“He is helping me,” she says quietly."
+        },
+        {
+          "de": "„Wie kann ein Hund jemandem helfen?“",
+          "en": "“How can a dog help someone?”"
+        },
+        {
+          "de": "„Vielleicht sucht er etwas“, sagt Sam.",
+          "en": "“Maybe he's looking for something,” says Sam."
+        },
+        {
+          "de": "„Hunde haben gute Nasen.“",
+          "en": "“Dogs have good noses.”"
+        },
+        {
+          "de": "Dann erzählt er von dem Licht in der Burg.",
+          "en": "Then he tells her about the light in the castle."
+        },
+        {
+          "de": "Leas Augen werden groß.",
+          "en": "Lea's eyes go wide."
+        },
+        {
+          "de": "„Bruno ist doch im Wald bei der Burg weggelaufen, oder?“, fragt sie.",
+          "en": "“Bruno ran off in the woods by the castle, didn't he?” she asks."
+        },
+        {
+          "de": "Sam nickt.",
+          "en": "Sam nods."
+        },
+        {
+          "de": "„Nach der Schule gehen wir hin“, sagt Lea.",
+          "en": "“After school we'll go up there,” says Lea."
+        },
+        {
+          "de": "„Zusammen.“",
+          "en": "“Together.”"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Der Weg zur Burg ist steil. Nach zwanzig Minuten stehen Sam und Lea vor einem großen Tor aus Holz. Es ist geschlossen, und auf einem Schild steht: „Betreten verboten!“ Sie gehen um die Mauer herum. Hinten finden sie ein Loch in der Mauer, gerade groß genug für einen Hund. Oder für einen Jugendlichen. Im Gras stehen eine Schüssel mit Wasser und eine Packung Hundekekse. „Die sind neu“, sagt Lea. An der Mauer findet Sam ein paar braune Haare. „Bruno war hier“, flüstert er.",
+      "en": "The path up to the castle is steep. After twenty minutes Sam and Lea are standing in front of a big wooden gate. It's shut, and a sign says: “No entry!” They walk around the wall. At the back they find a hole in the wall, just big enough for a dog. Or for a teenager. In the grass there's a bowl of water and a packet of dog biscuits. “They're new,” says Lea. On the wall Sam finds a few brown hairs. “Bruno was here,” he whispers.",
+      "explain_en": "“vor einem großen Tor” uses the dative because it says where they are standing. “aus Holz” means “made of wood”. On a sign “steht” something: “auf dem Schild steht …” = the sign says …. “Betreten verboten!” (entering forbidden) is a very common German sign; you will see it everywhere.",
+      "words": [
+        {
+          "de": "steil",
+          "en": "steep"
+        },
+        {
+          "de": "das Tor, die Tore",
+          "en": "gate"
+        },
+        {
+          "de": "die Mauer, die Mauern",
+          "en": "(outside) wall"
+        },
+        {
+          "de": "das Loch, die Löcher",
+          "en": "hole"
+        },
+        {
+          "de": "die Schüssel, die Schüsseln",
+          "en": "bowl"
+        },
+        {
+          "de": "flüstern",
+          "en": "to whisper"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Der Weg zur Burg ist steil.",
+          "en": "The path up to the castle is steep."
+        },
+        {
+          "de": "Nach zwanzig Minuten stehen Sam und Lea vor einem großen Tor aus Holz.",
+          "en": "After twenty minutes Sam and Lea are standing in front of a big wooden gate."
+        },
+        {
+          "de": "Es ist geschlossen, und auf einem Schild steht: „Betreten verboten!“",
+          "en": "It's shut, and a sign says: “No entry!”"
+        },
+        {
+          "de": "Sie gehen um die Mauer herum.",
+          "en": "They walk around the wall."
+        },
+        {
+          "de": "Hinten finden sie ein Loch in der Mauer, gerade groß genug für einen Hund.",
+          "en": "At the back they find a hole in the wall, just big enough for a dog."
+        },
+        {
+          "de": "Oder für einen Jugendlichen.",
+          "en": "Or for a teenager."
+        },
+        {
+          "de": "Im Gras stehen eine Schüssel mit Wasser und eine Packung Hundekekse.",
+          "en": "In the grass there's a bowl of water and a packet of dog biscuits."
+        },
+        {
+          "de": "„Die sind neu“, sagt Lea.",
+          "en": "“They're new,” says Lea."
+        },
+        {
+          "de": "An der Mauer findet Sam ein paar braune Haare.",
+          "en": "On the wall Sam finds a few brown hairs."
+        },
+        {
+          "de": "„Bruno war hier“, flüstert er.",
+          "en": "“Bruno was here,” he whispers."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "de": "Plötzlich hören sie Schritte. Ein Mann kommt um die Ecke. Es ist Herr Wagner! Er trägt eine Tasche und sieht nicht froh aus. „Was macht ihr hier?“, fragt er. „Die Burg ist gefährlich. Die Mauern sind alt.“ „Wir suchen unseren Hund“, sagt Sam. „Ich habe keinen Hund gesehen“, antwortet Herr Wagner. Aber er sieht dabei auf den Boden, nicht in Sams Augen. „Geht nach Hause, sofort!“, sagt er. Auf dem Weg nach unten sagt Lea: „Er lügt. Da bin ich ganz sicher.“",
+      "en": "Suddenly they hear footsteps. A man comes round the corner. It's Mr Wagner! He's carrying a bag and doesn't look happy. “What are you doing here?” he asks. “The castle is dangerous. The walls are old.” “We're looking for our dog,” says Sam. “I haven't seen a dog,” Mr Wagner answers. But as he says it he looks at the ground, not into Sam's eyes. “Go home, now!” he says. On the way down Lea says: “He's lying. I'm absolutely sure of it.”",
+      "explain_en": "“ihr” is “you” for several people you know well, and the command form for ihr is just the verb: “Geht nach Hause!”. “nach Hause” means (going) home; “zu Hause” means (being) at home. “dabei” here means “while doing that”. “lügen” means to lie (not tell the truth).",
+      "words": [
+        {
+          "de": "der Schritt, die Schritte",
+          "en": "step, footstep"
+        },
+        {
+          "de": "die Ecke, die Ecken",
+          "en": "corner"
+        },
+        {
+          "de": "gefährlich",
+          "en": "dangerous"
+        },
+        {
+          "de": "nach Hause gehen",
+          "en": "to go home"
+        },
+        {
+          "de": "der Boden",
+          "en": "ground, floor"
+        },
+        {
+          "de": "lügen",
+          "en": "to lie (tell lies)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Plötzlich hören sie Schritte.",
+          "en": "Suddenly they hear footsteps."
+        },
+        {
+          "de": "Ein Mann kommt um die Ecke.",
+          "en": "A man comes round the corner."
+        },
+        {
+          "de": "Es ist Herr Wagner!",
+          "en": "It's Mr Wagner!"
+        },
+        {
+          "de": "Er trägt eine Tasche und sieht nicht froh aus.",
+          "en": "He's carrying a bag and doesn't look happy."
+        },
+        {
+          "de": "„Was macht ihr hier?“, fragt er.",
+          "en": "“What are you doing here?” he asks."
+        },
+        {
+          "de": "„Die Burg ist gefährlich.",
+          "en": "“The castle is dangerous."
+        },
+        {
+          "de": "Die Mauern sind alt.“",
+          "en": "The walls are old.”"
+        },
+        {
+          "de": "„Wir suchen unseren Hund“, sagt Sam.",
+          "en": "“We're looking for our dog,” says Sam."
+        },
+        {
+          "de": "„Ich habe keinen Hund gesehen“, antwortet Herr Wagner.",
+          "en": "“I haven't seen a dog,” Mr Wagner answers."
+        },
+        {
+          "de": "Aber er sieht dabei auf den Boden, nicht in Sams Augen.",
+          "en": "But as he says it he looks at the ground, not into Sam's eyes."
+        },
+        {
+          "de": "„Geht nach Hause, sofort!“, sagt er.",
+          "en": "“Go home, now!” he says."
+        },
+        {
+          "de": "Auf dem Weg nach unten sagt Lea: „Er lügt.",
+          "en": "On the way down Lea says: “He's lying."
+        },
+        {
+          "de": "Da bin ich ganz sicher.“",
+          "en": "I'm absolutely sure of it.”"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "de": "An diesem Abend ruft Sam seine Familie in England an. Er sieht seine Mutter, seinen Vater und seine kleine Schwester auf dem Handy. Seine Schwester zeigt ihm ihre Katze. Plötzlich vermisst Sam alles: sein Zimmer, das Essen, seine Freunde, sogar den Regen. Nach dem Gespräch ist er sehr still. Frau Becker klopft an seine Tür und bringt ihm eine heiße Schokolade. „Heimweh?“, fragt sie. Sam nickt. „Das ist ganz normal“, sagt sie. „Aber weißt du was? Mia sagt, du bist jetzt ihr zweiter großer Bruder.“ Da muss Sam lächeln.",
+      "en": "That evening Sam phones his family in England. He sees his mother, his father and his little sister on his phone. His sister shows him her cat. Suddenly Sam misses everything: his room, the food, his friends, even the rain. After the call he is very quiet. Mrs Becker knocks on his door and brings him a hot chocolate. “Homesick?” she asks. Sam nods. “That's completely normal,” she says. “But you know what? Mia says you're her second big brother now.” That makes Sam smile.",
+      "explain_en": "“das Heimweh” means homesickness; almost every exchange student feels it for a while. “vermissen” means to miss a person or thing: “Ich vermisse dich” = I miss you. “Weißt du was?” is a friendly way to say “You know what?”. “Da muss Sam lächeln” literally means “then Sam has to smile”: he can't help smiling.",
+      "words": [
+        {
+          "de": "das Handy, die Handys",
+          "en": "mobile phone"
+        },
+        {
+          "de": "vermissen",
+          "en": "to miss"
+        },
+        {
+          "de": "das Gespräch, die Gespräche",
+          "en": "conversation, call"
+        },
+        {
+          "de": "klopfen",
+          "en": "to knock"
+        },
+        {
+          "de": "das Heimweh",
+          "en": "homesickness"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "An diesem Abend ruft Sam seine Familie in England an.",
+          "en": "That evening Sam phones his family in England."
+        },
+        {
+          "de": "Er sieht seine Mutter, seinen Vater und seine kleine Schwester auf dem Handy.",
+          "en": "He sees his mother, his father and his little sister on his phone."
+        },
+        {
+          "de": "Seine Schwester zeigt ihm ihre Katze.",
+          "en": "His sister shows him her cat."
+        },
+        {
+          "de": "Plötzlich vermisst Sam alles: sein Zimmer, das Essen, seine Freunde, sogar den Regen.",
+          "en": "Suddenly Sam misses everything: his room, the food, his friends, even the rain."
+        },
+        {
+          "de": "Nach dem Gespräch ist er sehr still.",
+          "en": "After the call he is very quiet."
+        },
+        {
+          "de": "Frau Becker klopft an seine Tür und bringt ihm eine heiße Schokolade.",
+          "en": "Mrs Becker knocks on his door and brings him a hot chocolate."
+        },
+        {
+          "de": "„Heimweh?“, fragt sie.",
+          "en": "“Homesick?” she asks."
+        },
+        {
+          "de": "Sam nickt.",
+          "en": "Sam nods."
+        },
+        {
+          "de": "„Das ist ganz normal“, sagt sie.",
+          "en": "“That's completely normal,” she says."
+        },
+        {
+          "de": "„Aber weißt du was?",
+          "en": "“But you know what?"
+        },
+        {
+          "de": "Mia sagt, du bist jetzt ihr zweiter großer Bruder.“",
+          "en": "Mia says you're her second big brother now.”"
+        },
+        {
+          "de": "Da muss Sam lächeln.",
+          "en": "That makes Sam smile."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "de": "Am Dienstag macht die Klasse einen Ausflug nach Würzburg. Um halb acht treffen sich alle am Bahnhof. Aber der Zug kommt nicht. Dann hört man eine Durchsage: „Der Zug hat heute circa zwanzig Minuten Verspätung.“ Die Schüler stöhnen. „Typisch Deutsche Bahn“, sagt Jonas. Sam ist überrascht. Er hat immer gedacht, dass in Deutschland alle Züge pünktlich sind. „Das denken alle Ausländer“, sagt Lea und lacht. Im Zug sitzt Jonas bei seinen Freunden aus der Fußballmannschaft. Sam und Lea sitzen zusammen und reden leise über die Burg.",
+      "en": "On Tuesday the class goes on a trip to Würzburg. At half past seven everyone meets at the station. But the train doesn't come. Then there's an announcement: “The train is about twenty minutes late today.” The students groan. “Typical Deutsche Bahn,” says Jonas. Sam is surprised. He always thought that all trains in Germany are on time. “All foreigners think that,” says Lea, laughing. On the train Jonas sits with his friends from the football team. Sam and Lea sit together and talk quietly about the castle.",
+      "explain_en": "Deutsche Bahn is the German national railway, and Germans love to complain about its delays. “Verspätung haben” means to be late (for trains and buses). “sich treffen” means to meet (each other). After “dass” the verb goes to the end: “dass … alle Züge pünktlich sind”.",
+      "words": [
+        {
+          "de": "der Ausflug, die Ausflüge",
+          "en": "trip, outing"
+        },
+        {
+          "de": "der Bahnhof, die Bahnhöfe",
+          "en": "station"
+        },
+        {
+          "de": "die Verspätung, die Verspätungen",
+          "en": "delay"
+        },
+        {
+          "de": "pünktlich",
+          "en": "on time"
+        },
+        {
+          "de": "überrascht",
+          "en": "surprised"
+        },
+        {
+          "de": "sich treffen",
+          "en": "to meet"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Dienstag macht die Klasse einen Ausflug nach Würzburg.",
+          "en": "On Tuesday the class goes on a trip to Würzburg."
+        },
+        {
+          "de": "Um halb acht treffen sich alle am Bahnhof.",
+          "en": "At half past seven everyone meets at the station."
+        },
+        {
+          "de": "Aber der Zug kommt nicht.",
+          "en": "But the train doesn't come."
+        },
+        {
+          "de": "Dann hört man eine Durchsage: „Der Zug hat heute circa zwanzig Minuten Verspätung.“",
+          "en": "Then there's an announcement: “The train is about twenty minutes late today.”"
+        },
+        {
+          "de": "Die Schüler stöhnen.",
+          "en": "The students groan."
+        },
+        {
+          "de": "„Typisch Deutsche Bahn“, sagt Jonas.",
+          "en": "“Typical Deutsche Bahn,” says Jonas."
+        },
+        {
+          "de": "Sam ist überrascht.",
+          "en": "Sam is surprised."
+        },
+        {
+          "de": "Er hat immer gedacht, dass in Deutschland alle Züge pünktlich sind.",
+          "en": "He always thought that all trains in Germany are on time."
+        },
+        {
+          "de": "„Das denken alle Ausländer“, sagt Lea und lacht.",
+          "en": "“All foreigners think that,” says Lea, laughing."
+        },
+        {
+          "de": "Im Zug sitzt Jonas bei seinen Freunden aus der Fußballmannschaft.",
+          "en": "On the train Jonas sits with his friends from the football team."
+        },
+        {
+          "de": "Sam und Lea sitzen zusammen und reden leise über die Burg.",
+          "en": "Sam and Lea sit together and talk quietly about the castle."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "de": "In Würzburg besucht die Klasse ein Museum. Die meisten Schüler finden es langweilig. Aber in einem Raum bleibt Lea plötzlich stehen. An der Wand hängt ein altes Foto von der Burg Burgstein. Neben dem Foto steht ein kurzer Text: „Eine alte Geschichte erzählt von einem geheimen Raum im Turm. Bis heute hat ihn niemand gefunden.“ Sam und Lea sehen sich an. „Ein geheimer Raum“, sagt Sam leise. „Vielleicht sucht K diesen Raum, mit Bruno!“ Schnell macht Lea ein Foto mit ihrem Handy.",
+      "en": "In Würzburg the class visits a museum. Most of the students find it boring. But in one room Lea suddenly stops. On the wall there's an old photo of Burgstein Castle. Next to the photo there's a short text: “An old story tells of a secret room in the tower. To this day nobody has found it.” Sam and Lea look at each other. “A secret room,” says Sam quietly. “Maybe K is looking for this room, with Bruno!” Lea quickly takes a photo with her phone.",
+      "explain_en": "“stehen bleiben” means to stop (walking). “Das Foto hängt an der Wand” uses the dative because it says where. Notice the adjective endings: “einem geheimen Raum” (dative) but “ein geheimer Raum” (nominative). “sich ansehen” here means to look at each other.",
+      "words": [
+        {
+          "de": "das Museum, die Museen",
+          "en": "museum"
+        },
+        {
+          "de": "langweilig",
+          "en": "boring"
+        },
+        {
+          "de": "stehen bleiben",
+          "en": "to stop (walking)"
+        },
+        {
+          "de": "geheim",
+          "en": "secret"
+        },
+        {
+          "de": "der Turm, die Türme",
+          "en": "tower"
+        },
+        {
+          "de": "finden",
+          "en": "to find",
+          "note": "Perfekt: hat gefunden"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "In Würzburg besucht die Klasse ein Museum.",
+          "en": "In Würzburg the class visits a museum."
+        },
+        {
+          "de": "Die meisten Schüler finden es langweilig.",
+          "en": "Most of the students find it boring."
+        },
+        {
+          "de": "Aber in einem Raum bleibt Lea plötzlich stehen.",
+          "en": "But in one room Lea suddenly stops."
+        },
+        {
+          "de": "An der Wand hängt ein altes Foto von der Burg Burgstein.",
+          "en": "On the wall there's an old photo of Burgstein Castle."
+        },
+        {
+          "de": "Neben dem Foto steht ein kurzer Text: „Eine alte Geschichte erzählt von einem geheimen Raum im Turm.",
+          "en": "Next to the photo there's a short text: “An old story tells of a secret room in the tower."
+        },
+        {
+          "de": "Bis heute hat ihn niemand gefunden.“",
+          "en": "To this day nobody has found it.”"
+        },
+        {
+          "de": "Sam und Lea sehen sich an.",
+          "en": "Sam and Lea look at each other."
+        },
+        {
+          "de": "„Ein geheimer Raum“, sagt Sam leise.",
+          "en": "“A secret room,” says Sam quietly."
+        },
+        {
+          "de": "„Vielleicht sucht K diesen Raum, mit Bruno!“",
+          "en": "“Maybe K is looking for this room, with Bruno!”"
+        },
+        {
+          "de": "Schnell macht Lea ein Foto mit ihrem Handy.",
+          "en": "Lea quickly takes a photo with her phone."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "de": "Auf der Rückfahrt ist der Zug voll. Sam und Lea stehen an der Tür und denken nach. „Das Licht in der Nacht, der Zettel, die Hundekekse …“, sagt Lea. „Jemand sucht den geheimen Raum.“ „Und Herr Wagner weiß etwas“, sagt Sam. „Aber er heißt Werner mit Vornamen. Das fängt nicht mit K an.“ Lea nimmt ein Heft aus ihrer Tasche. „Wir schreiben K einen Brief“, sagt sie. „Wir legen ihn an das Loch in der Mauer.“ Sam findet die Idee gut. Aber ein bisschen Angst hat er auch.",
+      "en": "On the way back the train is full. Sam and Lea stand by the door and think. “The light at night, the note, the dog biscuits …” says Lea. “Someone is looking for the secret room.” “And Mr Wagner knows something,” says Sam. “But his first name is Werner. That doesn't start with a K.” Lea takes an exercise book out of her bag. “We'll write K a letter,” she says. “We'll put it by the hole in the wall.” Sam thinks it's a good idea. But he's a bit scared too.",
+      "explain_en": "“die Rückfahrt” is the journey back. “Er heißt Werner mit Vornamen” means his first name is Werner; “der Vorname” is first name, “der Nachname” is surname. “legen” means to lay or put something down flat. “Angst haben” means to be scared; the word order “Aber ein bisschen Angst hat er auch” puts the important part first.",
+      "words": [
+        {
+          "de": "die Rückfahrt",
+          "en": "journey back"
+        },
+        {
+          "de": "der Vorname, die Vornamen",
+          "en": "first name"
+        },
+        {
+          "de": "das Heft, die Hefte",
+          "en": "exercise book"
+        },
+        {
+          "de": "der Brief, die Briefe",
+          "en": "letter"
+        },
+        {
+          "de": "legen",
+          "en": "to put, to lay (down)"
+        },
+        {
+          "de": "Angst haben",
+          "en": "to be scared"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Auf der Rückfahrt ist der Zug voll.",
+          "en": "On the way back the train is full."
+        },
+        {
+          "de": "Sam und Lea stehen an der Tür und denken nach.",
+          "en": "Sam and Lea stand by the door and think."
+        },
+        {
+          "de": "„Das Licht in der Nacht, der Zettel, die Hundekekse …“, sagt Lea.",
+          "en": "“The light at night, the note, the dog biscuits …” says Lea."
+        },
+        {
+          "de": "„Jemand sucht den geheimen Raum.“",
+          "en": "“Someone is looking for the secret room.”"
+        },
+        {
+          "de": "„Und Herr Wagner weiß etwas“, sagt Sam.",
+          "en": "“And Mr Wagner knows something,” says Sam."
+        },
+        {
+          "de": "„Aber er heißt Werner mit Vornamen.",
+          "en": "“But his first name is Werner."
+        },
+        {
+          "de": "Das fängt nicht mit K an.“",
+          "en": "That doesn't start with a K.”"
+        },
+        {
+          "de": "Lea nimmt ein Heft aus ihrer Tasche.",
+          "en": "Lea takes an exercise book out of her bag."
+        },
+        {
+          "de": "„Wir schreiben K einen Brief“, sagt sie.",
+          "en": "“We'll write K a letter,” she says."
+        },
+        {
+          "de": "„Wir legen ihn an das Loch in der Mauer.“",
+          "en": "“We'll put it by the hole in the wall.”"
+        },
+        {
+          "de": "Sam findet die Idee gut.",
+          "en": "Sam thinks it's a good idea."
+        },
+        {
+          "de": "Aber ein bisschen Angst hat er auch.",
+          "en": "But he's a bit scared too."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "de": "Sam und Lea schreiben den Brief zusammen. Das dauert lange, weil jeder Satz perfekt sein soll. Am Ende steht da: „Hallo K, wir haben deinen Zettel gelesen. Bruno ist der Hund von Sams Gastfamilie, und wir vermissen ihn sehr. Wir wollen dir helfen. Bitte schreib uns! Sam und Lea.“ Am Abend legen sie den Brief in eine Plastiktüte und bringen ihn zur Burg. Sie legen ihn unter einen Stein neben dem Loch. Oben im Turm ist alles dunkel. „Glaubst du, K findet ihn?“, fragt Sam. „Bestimmt“, sagt Lea.",
+      "en": "Sam and Lea write the letter together. It takes a long time because every sentence has to be perfect. In the end it says: “Hi K, we have read your note. Bruno is the dog of Sam's host family, and we miss him a lot. We want to help you. Please write to us! Sam and Lea.” In the evening they put the letter in a plastic bag and take it to the castle. They put it under a stone next to the hole. Up in the tower everything is dark. “Do you think K will find it?” asks Sam. “Definitely,” says Lea.",
+      "explain_en": "“sollen” means that something is supposed to happen: “jeder Satz soll perfekt sein”. “unter einen Stein legen” uses the accusative because it is a movement (putting it somewhere), but “neben dem Loch” is dative because it says where. “Bestimmt!” is a common way to say “Definitely!” or “I'm sure”.",
+      "words": [
+        {
+          "de": "dauern",
+          "en": "to take (time), to last"
+        },
+        {
+          "de": "der Satz, die Sätze",
+          "en": "sentence"
+        },
+        {
+          "de": "die Plastiktüte, die Plastiktüten",
+          "en": "plastic bag"
+        },
+        {
+          "de": "der Stein, die Steine",
+          "en": "stone"
+        },
+        {
+          "de": "dunkel",
+          "en": "dark"
+        },
+        {
+          "de": "bestimmt",
+          "en": "definitely, surely"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Sam und Lea schreiben den Brief zusammen.",
+          "en": "Sam and Lea write the letter together."
+        },
+        {
+          "de": "Das dauert lange, weil jeder Satz perfekt sein soll.",
+          "en": "It takes a long time because every sentence has to be perfect."
+        },
+        {
+          "de": "Am Ende steht da: „Hallo K, wir haben deinen Zettel gelesen.",
+          "en": "In the end it says: “Hi K, we have read your note."
+        },
+        {
+          "de": "Bruno ist der Hund von Sams Gastfamilie, und wir vermissen ihn sehr.",
+          "en": "Bruno is the dog of Sam's host family, and we miss him a lot."
+        },
+        {
+          "de": "Wir wollen dir helfen.",
+          "en": "We want to help you."
+        },
+        {
+          "de": "Bitte schreib uns!",
+          "en": "Please write to us!"
+        },
+        {
+          "de": "Sam und Lea.“",
+          "en": "Sam and Lea.”"
+        },
+        {
+          "de": "Am Abend legen sie den Brief in eine Plastiktüte und bringen ihn zur Burg.",
+          "en": "In the evening they put the letter in a plastic bag and take it to the castle."
+        },
+        {
+          "de": "Sie legen ihn unter einen Stein neben dem Loch.",
+          "en": "They put it under a stone next to the hole."
+        },
+        {
+          "de": "Oben im Turm ist alles dunkel.",
+          "en": "Up in the tower everything is dark."
+        },
+        {
+          "de": "„Glaubst du, K findet ihn?“, fragt Sam.",
+          "en": "“Do you think K will find it?” asks Sam."
+        },
+        {
+          "de": "„Bestimmt“, sagt Lea.",
+          "en": "“Definitely,” says Lea."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "de": "Am nächsten Morgen gehen Sam und Lea vor der Schule schnell zur Burg. Ihr Brief ist weg. Unter dem Stein liegt ein neuer Zettel, und wieder steht ein K darunter. Lea liest laut vor: „Danke für euren Brief. Bruno hat eine verletzte Pfote, aber es geht ihm schon besser. Kommt heute um sechs Uhr zum Tor. Bitte kommt allein, ohne Eltern.“ Lea ist aufgeregt, aber Sam ist unsicher. Ohne Eltern? Ist das eine gute Idee? Dann denkt er an Mia und an ihre traurigen Augen. „Okay“, sagt er. „Um sechs.“",
+      "en": "The next morning, before school, Sam and Lea hurry up to the castle. Their letter is gone. Under the stone there's a new note, and again there's a K at the bottom. Lea reads it out loud: “Thanks for your letter. Bruno has an injured paw, but he's already better. Come to the gate today at six o'clock. Please come on your own, without parents.” Lea is excited, but Sam isn't sure. Without parents? Is that a good idea? Then he thinks of Mia and her sad eyes. “Okay,” he says. “At six.”",
+      "explain_en": "“vorlesen” (to read out loud) is separable: “Lea liest laut vor”. “Kommt …!” is the command form for ihr (you, several people). “ohne” always takes the accusative: “ohne Eltern”, “ohne mich”. “denken an” + accusative means to think of or about someone.",
+      "words": [
+        {
+          "de": "vorlesen",
+          "en": "to read out loud"
+        },
+        {
+          "de": "verletzt",
+          "en": "injured, hurt"
+        },
+        {
+          "de": "die Pfote, die Pfoten",
+          "en": "paw"
+        },
+        {
+          "de": "allein",
+          "en": "alone, on your own"
+        },
+        {
+          "de": "aufgeregt",
+          "en": "excited"
+        },
+        {
+          "de": "denken an",
+          "en": "to think of",
+          "note": "+ accusative"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am nächsten Morgen gehen Sam und Lea vor der Schule schnell zur Burg.",
+          "en": "The next morning, before school, Sam and Lea hurry up to the castle."
+        },
+        {
+          "de": "Ihr Brief ist weg.",
+          "en": "Their letter is gone."
+        },
+        {
+          "de": "Unter dem Stein liegt ein neuer Zettel, und wieder steht ein K darunter.",
+          "en": "Under the stone there's a new note, and again there's a K at the bottom."
+        },
+        {
+          "de": "Lea liest laut vor: „Danke für euren Brief.",
+          "en": "Lea reads it out loud: “Thanks for your letter."
+        },
+        {
+          "de": "Bruno hat eine verletzte Pfote, aber es geht ihm schon besser.",
+          "en": "Bruno has an injured paw, but he's already better."
+        },
+        {
+          "de": "Kommt heute um sechs Uhr zum Tor.",
+          "en": "Come to the gate today at six o'clock."
+        },
+        {
+          "de": "Bitte kommt allein, ohne Eltern.“",
+          "en": "Please come on your own, without parents.”"
+        },
+        {
+          "de": "Lea ist aufgeregt, aber Sam ist unsicher.",
+          "en": "Lea is excited, but Sam isn't sure."
+        },
+        {
+          "de": "Ohne Eltern?",
+          "en": "Without parents?"
+        },
+        {
+          "de": "Ist das eine gute Idee?",
+          "en": "Is that a good idea?"
+        },
+        {
+          "de": "Dann denkt er an Mia und an ihre traurigen Augen.",
+          "en": "Then he thinks of Mia and her sad eyes."
+        },
+        {
+          "de": "„Okay“, sagt er.",
+          "en": "“Okay,” he says."
+        },
+        {
+          "de": "„Um sechs.“",
+          "en": "“At six.”"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Nach der Schule erzählt Sam Jonas alles: die Burg, die Briefe, das Treffen um sechs. Jonas wird rot im Gesicht. „Bruno ist mein Hund!“, ruft er. „Und das erzählst du mir erst jetzt?“ „Du warst doch beim Turnier“, sagt Sam leise. „Du wolltest lieber mit Lea Detektiv spielen!“ Jonas geht in sein Zimmer und knallt die Tür zu. Sam steht allein im Flur und fühlt sich schrecklich. Nach zehn Minuten klopft er an die Tür. „Es tut mir leid“, sagt er. „Kommst du mit?“ Die Tür geht auf. „Natürlich“, sagt Jonas.",
+      "en": "After school Sam tells Jonas everything: the castle, the letters, the meeting at six. Jonas goes red in the face. “Bruno is my dog!” he shouts. “And you're only telling me now?” “You were at the tournament,” says Sam quietly. “You wanted to play detective with Lea instead!” Jonas goes into his room and slams the door. Sam stands alone in the hall and feels terrible. After ten minutes he knocks on the door. “I'm sorry,” he says. “Are you coming?” The door opens. “Of course,” says Jonas.",
+      "explain_en": "“erst jetzt” means “only now” (and not earlier). “Du wolltest” is the Präteritum of wollen: “Du wolltest lieber mit Lea Detektiv spielen” means “You preferred to play detective with Lea”. “Es tut mir leid” is the normal way to say “I'm sorry”. “mitkommen” (to come along) and “zuknallen” (to slam shut) are separable verbs.",
+      "words": [
+        {
+          "de": "das Treffen, die Treffen",
+          "en": "meeting"
+        },
+        {
+          "de": "erst jetzt",
+          "en": "only now"
+        },
+        {
+          "de": "der Flur, die Flure",
+          "en": "hall, corridor"
+        },
+        {
+          "de": "schrecklich",
+          "en": "terrible"
+        },
+        {
+          "de": "Es tut mir leid.",
+          "en": "I'm sorry."
+        },
+        {
+          "de": "mitkommen",
+          "en": "to come along"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Nach der Schule erzählt Sam Jonas alles: die Burg, die Briefe, das Treffen um sechs.",
+          "en": "After school Sam tells Jonas everything: the castle, the letters, the meeting at six."
+        },
+        {
+          "de": "Jonas wird rot im Gesicht.",
+          "en": "Jonas goes red in the face."
+        },
+        {
+          "de": "„Bruno ist mein Hund!“, ruft er.",
+          "en": "“Bruno is my dog!” he shouts."
+        },
+        {
+          "de": "„Und das erzählst du mir erst jetzt?“",
+          "en": "“And you're only telling me now?”"
+        },
+        {
+          "de": "„Du warst doch beim Turnier“, sagt Sam leise.",
+          "en": "“You were at the tournament,” says Sam quietly."
+        },
+        {
+          "de": "„Du wolltest lieber mit Lea Detektiv spielen!“",
+          "en": "“You wanted to play detective with Lea instead!”"
+        },
+        {
+          "de": "Jonas geht in sein Zimmer und knallt die Tür zu.",
+          "en": "Jonas goes into his room and slams the door."
+        },
+        {
+          "de": "Sam steht allein im Flur und fühlt sich schrecklich.",
+          "en": "Sam stands alone in the hall and feels terrible."
+        },
+        {
+          "de": "Nach zehn Minuten klopft er an die Tür.",
+          "en": "After ten minutes he knocks on the door."
+        },
+        {
+          "de": "„Es tut mir leid“, sagt er.",
+          "en": "“I'm sorry,” he says."
+        },
+        {
+          "de": "„Kommst du mit?“",
+          "en": "“Are you coming?”"
+        },
+        {
+          "de": "Die Tür geht auf.",
+          "en": "The door opens."
+        },
+        {
+          "de": "„Natürlich“, sagt Jonas.",
+          "en": "“Of course,” says Jonas."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "de": "Um sechs Uhr stehen Sam, Lea und Jonas vor dem großen Tor. Es ist still, nur ein paar Vögel singen. Dann hören sie ein Geräusch hinter dem Tor, und es geht langsam auf. Ein Junge steht da, vielleicht vierzehn Jahre alt, mit einer Taschenlampe in der Hand. Und neben ihm ist … „Bruno!“, ruft Jonas. Der Hund hat einen weißen Verband an der Pfote, aber er läuft trotzdem sofort zu Jonas. Er bellt und springt und leckt ihm das Gesicht. Jonas hat Tränen in den Augen.",
+      "en": "At six o'clock Sam, Lea and Jonas are standing in front of the big gate. It's quiet, only a few birds are singing. Then they hear a noise behind the gate, and it slowly opens. A boy is standing there, maybe fourteen years old, with a torch in his hand. And next to him is … “Bruno!” shouts Jonas. The dog has a white bandage on his paw, but he still runs straight to Jonas. He barks and jumps and licks his face. Jonas has tears in his eyes.",
+      "explain_en": "“hinter dem Tor” and “neben ihm” use the dative because they say where something is. “trotzdem” means “nevertheless” or “still”; when it starts a main clause, the finite verb follows it: “Trotzdem läuft er zu Jonas”. “Er leckt ihm das Gesicht” is typical German: for body parts you use the dative (ihm) plus “das”, not “his face”.",
+      "words": [
+        {
+          "de": "das Geräusch, die Geräusche",
+          "en": "noise, sound"
+        },
+        {
+          "de": "aufgehen",
+          "en": "to open (by itself)"
+        },
+        {
+          "de": "die Taschenlampe, die Taschenlampen",
+          "en": "torch, flashlight"
+        },
+        {
+          "de": "der Verband, die Verbände",
+          "en": "bandage"
+        },
+        {
+          "de": "trotzdem",
+          "en": "anyway, still"
+        },
+        {
+          "de": "die Träne, die Tränen",
+          "en": "tear"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Um sechs Uhr stehen Sam, Lea und Jonas vor dem großen Tor.",
+          "en": "At six o'clock Sam, Lea and Jonas are standing in front of the big gate."
+        },
+        {
+          "de": "Es ist still, nur ein paar Vögel singen.",
+          "en": "It's quiet, only a few birds are singing."
+        },
+        {
+          "de": "Dann hören sie ein Geräusch hinter dem Tor, und es geht langsam auf.",
+          "en": "Then they hear a noise behind the gate, and it slowly opens."
+        },
+        {
+          "de": "Ein Junge steht da, vielleicht vierzehn Jahre alt, mit einer Taschenlampe in der Hand.",
+          "en": "A boy is standing there, maybe fourteen years old, with a torch in his hand."
+        },
+        {
+          "de": "Und neben ihm ist …",
+          "en": "And next to him is …"
+        },
+        {
+          "de": "„Bruno!“, ruft Jonas.",
+          "en": "“Bruno!” shouts Jonas."
+        },
+        {
+          "de": "Der Hund hat einen weißen Verband an der Pfote, aber er läuft trotzdem sofort zu Jonas.",
+          "en": "The dog has a white bandage on his paw, but he still runs straight to Jonas."
+        },
+        {
+          "de": "Er bellt und springt und leckt ihm das Gesicht.",
+          "en": "He barks and jumps and licks his face."
+        },
+        {
+          "de": "Jonas hat Tränen in den Augen.",
+          "en": "Jonas has tears in his eyes."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "de": "„Ich heiße Kai“, sagt der Junge. „Herr Wagner ist mein Opa.“ Kai kommt aus Hamburg, und dort sind schon Sommerferien. Am Sonntag hat er Bruno in der Burg gefunden. Der Hund hatte eine verletzte Pfote und konnte nicht laufen. Kais Opa hat eine Tierärztin geholt, und sie hat gesagt: „Drei Tage Ruhe.“ „Warum hast du nicht angerufen?“, fragt Jonas. Kai sieht auf den Boden. „Auf Brunos Marke steht nur eure Adresse“, sagt er. „Und ich darf eigentlich nicht in die Burg. Nachts suche ich dort den geheimen Raum.“",
+      "en": "“My name is Kai,” says the boy. “Mr Wagner is my grandad.” Kai is from Hamburg, and the summer holidays have already started there. On Sunday he found Bruno in the castle. The dog had an injured paw and couldn't walk. Kai's grandad fetched a vet, and she said: “Three days' rest.” “Why didn't you phone?” asks Jonas. Kai looks at the ground. “Bruno's tag only has your address on it,” he says. “And actually I'm not allowed in the castle. At night I search for the secret room there.”",
+      "explain_en": "Each German state (Bundesland) has its own school holidays, so Hamburg can already be on holiday while Burgstein still has school. “hatte” and “konnte” are the Präteritum of haben and können; these past forms are especially common in conversation, although Perfekt forms are also possible. “eigentlich” means “actually” or “really”, often before admitting something. “die Marke” here is the little metal tag on a dog's collar.",
+      "words": [
+        {
+          "de": "der Opa, die Opas",
+          "en": "grandad"
+        },
+        {
+          "de": "die Sommerferien (pl.)",
+          "en": "summer holidays"
+        },
+        {
+          "de": "die Tierärztin, die Tierärztinnen",
+          "en": "(female) vet"
+        },
+        {
+          "de": "die Ruhe",
+          "en": "rest, quiet"
+        },
+        {
+          "de": "die Adresse, die Adressen",
+          "en": "address"
+        },
+        {
+          "de": "eigentlich",
+          "en": "actually, really"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Ich heiße Kai“, sagt der Junge.",
+          "en": "“My name is Kai,” says the boy."
+        },
+        {
+          "de": "„Herr Wagner ist mein Opa.“",
+          "en": "“Mr Wagner is my grandad.”"
+        },
+        {
+          "de": "Kai kommt aus Hamburg, und dort sind schon Sommerferien.",
+          "en": "Kai is from Hamburg, and the summer holidays have already started there."
+        },
+        {
+          "de": "Am Sonntag hat er Bruno in der Burg gefunden.",
+          "en": "On Sunday he found Bruno in the castle."
+        },
+        {
+          "de": "Der Hund hatte eine verletzte Pfote und konnte nicht laufen.",
+          "en": "The dog had an injured paw and couldn't walk."
+        },
+        {
+          "de": "Kais Opa hat eine Tierärztin geholt, und sie hat gesagt: „Drei Tage Ruhe.“",
+          "en": "Kai's grandad fetched a vet, and she said: “Three days' rest.”"
+        },
+        {
+          "de": "„Warum hast du nicht angerufen?“, fragt Jonas.",
+          "en": "“Why didn't you phone?” asks Jonas."
+        },
+        {
+          "de": "Kai sieht auf den Boden.",
+          "en": "Kai looks at the ground."
+        },
+        {
+          "de": "„Auf Brunos Marke steht nur eure Adresse“, sagt er.",
+          "en": "“Bruno's tag only has your address on it,” he says."
+        },
+        {
+          "de": "„Und ich darf eigentlich nicht in die Burg.",
+          "en": "“And actually I'm not allowed in the castle."
+        },
+        {
+          "de": "Nachts suche ich dort den geheimen Raum.“",
+          "en": "At night I search for the secret room there.”"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "de": "„Mein Opa glaubt, dass der Raum die Burg retten kann“, sagt Kai. „Wenn wir dort etwas Altes und Wichtiges finden, will die Stadt die Burg vielleicht behalten.“ Jonas, Lea und Sam sehen sich an. „Wir helfen dir“, sagt Lea. Zusammen gehen sie in den Turm. Es ist kalt und dunkel. Kai leuchtet mit der Taschenlampe an die Wände, und Bruno schnüffelt überall. Plötzlich bleibt er an einer Wand stehen und kratzt mit der gesunden Pfote an einem Stein. „Das hat er gestern auch gemacht“, sagt Kai.",
+      "en": "“My grandad believes that the room can save the castle,” says Kai. “If we find something old and important there, perhaps the town will want to keep the castle.” Jonas, Lea and Sam look at each other. “We'll help you,” says Lea. Together they go into the tower. It's cold and dark. Kai shines the torch on the walls, and Bruno sniffs everywhere. Suddenly he stops at a wall and scratches at a stone with his good paw. “He did that yesterday too,” says Kai.",
+      "explain_en": "In “dass” and “wenn” clauses the verb goes to the end: “dass der Raum die Burg retten kann”. After “etwas”, adjectives become nouns with a capital letter and -es: “etwas Altes und Wichtiges” (something old and important). “in den Turm” is accusative because they go into it; “an einer Wand” is dative because Bruno stops there.",
+      "words": [
+        {
+          "de": "retten",
+          "en": "to save, to rescue"
+        },
+        {
+          "de": "wichtig",
+          "en": "important"
+        },
+        {
+          "de": "leuchten",
+          "en": "to shine (a light)"
+        },
+        {
+          "de": "schnüffeln",
+          "en": "to sniff"
+        },
+        {
+          "de": "kratzen",
+          "en": "to scratch"
+        },
+        {
+          "de": "gesund",
+          "en": "healthy, good (not hurt)"
+        },
+        {
+          "de": "behalten",
+          "en": "to keep"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Mein Opa glaubt, dass der Raum die Burg retten kann“, sagt Kai.",
+          "en": "“My grandad believes that the room can save the castle,” says Kai."
+        },
+        {
+          "de": "„Wenn wir dort etwas Altes und Wichtiges finden, will die Stadt die Burg vielleicht behalten.“",
+          "en": "“If we find something old and important there, perhaps the town will want to keep the castle.”"
+        },
+        {
+          "de": "Jonas, Lea und Sam sehen sich an.",
+          "en": "Jonas, Lea and Sam look at each other."
+        },
+        {
+          "de": "„Wir helfen dir“, sagt Lea.",
+          "en": "“We'll help you,” says Lea."
+        },
+        {
+          "de": "Zusammen gehen sie in den Turm.",
+          "en": "Together they go into the tower."
+        },
+        {
+          "de": "Es ist kalt und dunkel.",
+          "en": "It's cold and dark."
+        },
+        {
+          "de": "Kai leuchtet mit der Taschenlampe an die Wände, und Bruno schnüffelt überall.",
+          "en": "Kai shines the torch on the walls, and Bruno sniffs everywhere."
+        },
+        {
+          "de": "Plötzlich bleibt er an einer Wand stehen und kratzt mit der gesunden Pfote an einem Stein.",
+          "en": "Suddenly he stops at a wall and scratches at a stone with his good paw."
+        },
+        {
+          "de": "„Das hat er gestern auch gemacht“, sagt Kai.",
+          "en": "“He did that yesterday too,” says Kai."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "de": "Die drei Jungen drücken zusammen gegen den Stein. Zuerst passiert nichts. Dann bewegt er sich ein bisschen, und noch ein bisschen. Hinter dem Stein ist ein Loch, und dahinter führt eine schmale Treppe nach unten. Lea geht als Erste. Unten ist ein kleiner Raum. Kai leuchtet an die Wand, und alle halten die Luft an. Die Wände sind voller Bilder: Ritter, Pferde, Bäume und Blumen, in Rot, Blau und Gold. „Die sind sehr alt“, flüstert Kai. „Vielleicht fünfhundert Jahre.“ Niemand sagt etwas. Nur Bruno wedelt mit dem Schwanz.",
+      "en": "The three boys push against the stone together. At first nothing happens. Then it moves a little, and a little more. Behind the stone there's a hole, and behind that a narrow staircase leads down. Lea goes first. Down below there's a small room. Kai shines the torch on the wall, and everyone holds their breath. The walls are full of pictures: knights, horses, trees and flowers, in red, blue and gold. “They're very old,” whispers Kai. “Maybe five hundred years.” Nobody says anything. Only Bruno wags his tail.",
+      "explain_en": "“gegen” always takes the accusative: “gegen den Stein”. “als Erste” means “as the first one” (for a girl; for a boy “als Erster”). “die Luft anhalten” means to hold your breath. “voller” means “full of” and needs no article: “voller Bilder”.",
+      "words": [
+        {
+          "de": "drücken",
+          "en": "to push, to press"
+        },
+        {
+          "de": "passieren",
+          "en": "to happen",
+          "note": "Perfekt: ist passiert"
+        },
+        {
+          "de": "die Treppe, die Treppen",
+          "en": "stairs, staircase"
+        },
+        {
+          "de": "der Ritter, die Ritter",
+          "en": "knight"
+        },
+        {
+          "de": "das Pferd, die Pferde",
+          "en": "horse"
+        },
+        {
+          "de": "mit dem Schwanz wedeln",
+          "en": "to wag its tail"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die drei Jungen drücken zusammen gegen den Stein.",
+          "en": "The three boys push against the stone together."
+        },
+        {
+          "de": "Zuerst passiert nichts.",
+          "en": "At first nothing happens."
+        },
+        {
+          "de": "Dann bewegt er sich ein bisschen, und noch ein bisschen.",
+          "en": "Then it moves a little, and a little more."
+        },
+        {
+          "de": "Hinter dem Stein ist ein Loch, und dahinter führt eine schmale Treppe nach unten.",
+          "en": "Behind the stone there's a hole, and behind that a narrow staircase leads down."
+        },
+        {
+          "de": "Lea geht als Erste.",
+          "en": "Lea goes first."
+        },
+        {
+          "de": "Unten ist ein kleiner Raum.",
+          "en": "Down below there's a small room."
+        },
+        {
+          "de": "Kai leuchtet an die Wand, und alle halten die Luft an.",
+          "en": "Kai shines the torch on the wall, and everyone holds their breath."
+        },
+        {
+          "de": "Die Wände sind voller Bilder: Ritter, Pferde, Bäume und Blumen, in Rot, Blau und Gold.",
+          "en": "The walls are full of pictures: knights, horses, trees and flowers, in red, blue and gold."
+        },
+        {
+          "de": "„Die sind sehr alt“, flüstert Kai.",
+          "en": "“They're very old,” whispers Kai."
+        },
+        {
+          "de": "„Vielleicht fünfhundert Jahre.“",
+          "en": "“Maybe five hundred years.”"
+        },
+        {
+          "de": "Niemand sagt etwas.",
+          "en": "Nobody says anything."
+        },
+        {
+          "de": "Nur Bruno wedelt mit dem Schwanz.",
+          "en": "Only Bruno wags his tail."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "de": "Noch am selben Abend bringen Sam, Lea und Jonas Kai zu seinem Opa. Zuerst ist Herr Wagner böse, weil Kai nachts in der Burg war. Aber dann sieht er die Fotos auf Leas Handy, und er setzt sich langsam hin. „Mein Vater hat immer von diesem Raum erzählt“, sagt er leise. „Ich habe ihn fünfzig Jahre lang gesucht.“ Danach gehen alle zu den Beckers. Mia sieht Bruno und schreit vor Freude. Frau Becker umarmt zuerst den Hund und dann die Kinder. „Ihr seid verrückt“, sagt sie. „Ich bin stolz auf euch, aber geht nie wieder ohne Erwachsene in die Burg.“",
+      "en": "That same evening Sam, Lea and Jonas take Kai to his grandad. At first Mr Wagner is cross because Kai was in the castle at night. But then he sees the photos on Lea's phone, and he slowly sits down. “My father always talked about this room,” he says quietly. “I searched for it for fifty years.” After that they all go to the Beckers'. Mia sees Bruno and screams with joy. Mrs Becker hugs the dog first and then the children. “You're crazy,” she says. “I'm proud of you, but never go into the castle without adults again.”",
+      "explain_en": "“böse” can mean “angry” or “cross” when you talk about a person's mood. “zu den Beckers” means to the Beckers' house: zu takes the dative. “vor Freude” means “with joy”; vor is used for the reason for a feeling. “stolz auf” + accusative means proud of: “stolz auf euch”.",
+      "words": [
+        {
+          "de": "sich hinsetzen",
+          "en": "to sit down"
+        },
+        {
+          "de": "suchen",
+          "en": "to look for, to search"
+        },
+        {
+          "de": "die Freude",
+          "en": "joy"
+        },
+        {
+          "de": "umarmen",
+          "en": "to hug"
+        },
+        {
+          "de": "verrückt",
+          "en": "crazy"
+        },
+        {
+          "de": "stolz auf",
+          "en": "proud of",
+          "note": "+ accusative"
+        },
+        {
+          "de": "der/die Erwachsene, die Erwachsenen",
+          "en": "adult"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Noch am selben Abend bringen Sam, Lea und Jonas Kai zu seinem Opa.",
+          "en": "That same evening Sam, Lea and Jonas take Kai to his grandad."
+        },
+        {
+          "de": "Zuerst ist Herr Wagner böse, weil Kai nachts in der Burg war.",
+          "en": "At first Mr Wagner is cross because Kai was in the castle at night."
+        },
+        {
+          "de": "Aber dann sieht er die Fotos auf Leas Handy, und er setzt sich langsam hin.",
+          "en": "But then he sees the photos on Lea's phone, and he slowly sits down."
+        },
+        {
+          "de": "„Mein Vater hat immer von diesem Raum erzählt“, sagt er leise.",
+          "en": "“My father always talked about this room,” he says quietly."
+        },
+        {
+          "de": "„Ich habe ihn fünfzig Jahre lang gesucht.“",
+          "en": "“I searched for it for fifty years.”"
+        },
+        {
+          "de": "Danach gehen alle zu den Beckers.",
+          "en": "After that they all go to the Beckers'."
+        },
+        {
+          "de": "Mia sieht Bruno und schreit vor Freude.",
+          "en": "Mia sees Bruno and screams with joy."
+        },
+        {
+          "de": "Frau Becker umarmt zuerst den Hund und dann die Kinder.",
+          "en": "Mrs Becker hugs the dog first and then the children."
+        },
+        {
+          "de": "„Ihr seid verrückt“, sagt sie.",
+          "en": "“You're crazy,” she says."
+        },
+        {
+          "de": "„Ich bin stolz auf euch, aber geht nie wieder ohne Erwachsene in die Burg.“",
+          "en": "“I'm proud of you, but never go into the castle without adults again.”"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "de": "Zwei Tage später kommen Experten aus München in die Burg. Sie sehen sich die Bilder ganz genau an. Das Ergebnis: Die Bilder sind aus dem Jahr 1480 und sehr wertvoll. Die Burg steht unter Denkmalschutz, und die Stadt entscheidet sich gegen den Verkauf. Es gibt also kein Hotel. In der Zeitung ist ein großes Foto: vier Jugendliche, ein alter Mann und ein Hund mit einem Verband. Sams Mutter findet den Artikel im Internet. Sie schreibt ihm: „Was machst du da eigentlich??“ Sam lacht und schickt ihr ein Foto von Bruno.",
+      "en": "Two days later experts from Munich come to the castle. They look at the pictures very carefully. The result: the pictures are from the year 1480 and very valuable. The castle is protected as a historic monument, and the town decides against selling it. So there won't be a hotel. In the newspaper there's a big photo: four teenagers, an old man and a dog with a bandage. Sam's mother finds the article online. She writes to him: “What on earth are you doing over there??” Sam laughs and sends her a photo of Bruno.",
+      "explain_en": "“unter Denkmalschutz stehen” means to be legally protected as a historic building; such buildings can still be sold, but alterations generally need permission. “sich etwas ansehen” means to take a good look at something. Years like 1480 are read as “vierzehnhundertachtzig”. “eigentlich” in a question adds surprise, like “on earth”.",
+      "words": [
+        {
+          "de": "der Experte, die Experten",
+          "en": "expert"
+        },
+        {
+          "de": "genau",
+          "en": "exact(ly), careful(ly)"
+        },
+        {
+          "de": "das Ergebnis, die Ergebnisse",
+          "en": "result"
+        },
+        {
+          "de": "wertvoll",
+          "en": "valuable"
+        },
+        {
+          "de": "der Denkmalschutz",
+          "en": "protection of historic buildings",
+          "note": "unter Denkmalschutz stehen = to be a protected historic building"
+        },
+        {
+          "de": "die Zeitung, die Zeitungen",
+          "en": "newspaper"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Zwei Tage später kommen Experten aus München in die Burg.",
+          "en": "Two days later experts from Munich come to the castle."
+        },
+        {
+          "de": "Sie sehen sich die Bilder ganz genau an.",
+          "en": "They look at the pictures very carefully."
+        },
+        {
+          "de": "Das Ergebnis: Die Bilder sind aus dem Jahr 1480 und sehr wertvoll.",
+          "en": "The result: the pictures are from the year 1480 and very valuable."
+        },
+        {
+          "de": "Die Burg steht unter Denkmalschutz, und die Stadt entscheidet sich gegen den Verkauf.",
+          "en": "The castle is protected as a historic monument, and the town decides against selling it."
+        },
+        {
+          "de": "Es gibt also kein Hotel.",
+          "en": "So there won't be a hotel."
+        },
+        {
+          "de": "In der Zeitung ist ein großes Foto: vier Jugendliche, ein alter Mann und ein Hund mit einem Verband.",
+          "en": "In the newspaper there's a big photo: four teenagers, an old man and a dog with a bandage."
+        },
+        {
+          "de": "Sams Mutter findet den Artikel im Internet.",
+          "en": "Sam's mother finds the article online."
+        },
+        {
+          "de": "Sie schreibt ihm: „Was machst du da eigentlich??“",
+          "en": "She writes to him: “What on earth are you doing over there??”"
+        },
+        {
+          "de": "Sam lacht und schickt ihr ein Foto von Bruno.",
+          "en": "Sam laughs and sends her a photo of Bruno."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "de": "Eine Woche vor Sams letztem Wochenende feiert Burgstein am Samstag sein Burgfest. Das Fest findet auf dem Marktplatz statt, denn die Burg ist noch für Besucher geschlossen. Überall gibt es Musik, Lichter, Bratwurst und Kuchen. Herr Wagner erzählt den Touristen von der Burg, und Kai hilft ihm. Ein Mann mit einer Gitarre singt alte Lieder, und die Leute tanzen. Lea zieht Sam auf die Tanzfläche. Sam tanzt furchtbar, und er weiß es. Aber das ist ihm egal. Jonas lacht laut und verliert dabei fast seine Bratwurst. Und Bruno bekommt an diesem Abend drei Würstchen.",
+      "en": "On the Saturday a week before Sam's final weekend, Burgstein celebrates its castle festival. The festival takes place in the market square, because the castle is still closed to visitors. Everywhere there's music, lights, bratwurst and cake. Mr Wagner tells the tourists about the castle, and Kai helps him. A man with a guitar sings old songs, and people dance. Lea pulls Sam onto the dance floor. Sam dances terribly, and he knows it. But he doesn't care. Jonas laughs loudly and almost drops his bratwurst. And Bruno gets three sausages that evening.",
+      "explain_en": "Many small German towns have a yearly festival (Fest) with music, food stalls and dancing. “Das ist mir egal” means “I don't care”; the person is in the dative, so here “das ist ihm egal”. “dabei” here means “while doing that”: Jonas almost drops his sausage while laughing. Careful: “bekommen” means “to get”, not “to become”!",
+      "words": [
+        {
+          "de": "feiern",
+          "en": "to celebrate"
+        },
+        {
+          "de": "das Fest, die Feste",
+          "en": "festival, party"
+        },
+        {
+          "de": "stattfinden",
+          "en": "to take place",
+          "note": "das Fest findet statt"
+        },
+        {
+          "de": "das Lied, die Lieder",
+          "en": "song"
+        },
+        {
+          "de": "egal sein",
+          "en": "not to matter",
+          "note": "Das ist mir egal. = I don't care."
+        },
+        {
+          "de": "bekommen",
+          "en": "to get",
+          "note": "false friend: not 'become'"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Eine Woche vor Sams letztem Wochenende feiert Burgstein am Samstag sein Burgfest.",
+          "en": "On the Saturday a week before Sam's final weekend, Burgstein celebrates its castle festival."
+        },
+        {
+          "de": "Das Fest findet auf dem Marktplatz statt, denn die Burg ist noch für Besucher geschlossen.",
+          "en": "The festival takes place in the market square, because the castle is still closed to visitors."
+        },
+        {
+          "de": "Überall gibt es Musik, Lichter, Bratwurst und Kuchen.",
+          "en": "Everywhere there's music, lights, bratwurst and cake."
+        },
+        {
+          "de": "Herr Wagner erzählt den Touristen von der Burg, und Kai hilft ihm.",
+          "en": "Mr Wagner tells the tourists about the castle, and Kai helps him."
+        },
+        {
+          "de": "Ein Mann mit einer Gitarre singt alte Lieder, und die Leute tanzen.",
+          "en": "A man with a guitar sings old songs, and people dance."
+        },
+        {
+          "de": "Lea zieht Sam auf die Tanzfläche.",
+          "en": "Lea pulls Sam onto the dance floor."
+        },
+        {
+          "de": "Sam tanzt furchtbar, und er weiß es.",
+          "en": "Sam dances terribly, and he knows it."
+        },
+        {
+          "de": "Aber das ist ihm egal.",
+          "en": "But he doesn't care."
+        },
+        {
+          "de": "Jonas lacht laut und verliert dabei fast seine Bratwurst.",
+          "en": "Jonas laughs loudly and almost drops his bratwurst."
+        },
+        {
+          "de": "Und Bruno bekommt an diesem Abend drei Würstchen.",
+          "en": "And Bruno gets three sausages that evening."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Die letzten Tage gehen viel zu schnell vorbei. Sam kauft Geschenke für seine Familie: Honig von Herrn Wagner, Schokolade und ein T-Shirt mit der Burg. Beim Packen findet er in seinem Koffer einen Umschlag. Darin ist ein Bild von Mia. Es zeigt Sam, Jonas, Mia und Bruno vor der Burg. Darunter steht in großen Buchstaben: „Für meinen englischen Bruder. Komm bald wieder!“ Sam sitzt lange auf dem Bett und sieht das Bild an. Vor drei Wochen hat er diese Familie noch nicht gekannt. Jetzt will er gar nicht nach Hause.",
+      "en": "The last few days go by far too quickly. Sam buys presents for his family: honey from Mr Wagner, chocolate and a T-shirt with the castle on it. While packing he finds an envelope in his suitcase. Inside there's a picture by Mia. It shows Sam, Jonas, Mia and Bruno in front of the castle. Underneath it says in big letters: “For my English brother. Come back soon!” Sam sits on the bed for a long time and looks at the picture. Three weeks ago he didn't know this family yet. Now he doesn't want to go home at all.",
+      "explain_en": "“vorbeigehen” means to pass or go by (time, too). “beim Packen” means “while packing”: beim + a verb used as a noun. “vor drei Wochen” means “three weeks ago”: vor + dative for time. “gar nicht” means “not at all”.",
+      "words": [
+        {
+          "de": "vorbeigehen",
+          "en": "to go by, to pass"
+        },
+        {
+          "de": "der Koffer, die Koffer",
+          "en": "suitcase"
+        },
+        {
+          "de": "der Umschlag, die Umschläge",
+          "en": "envelope"
+        },
+        {
+          "de": "der Buchstabe, die Buchstaben",
+          "en": "letter (of the alphabet)"
+        },
+        {
+          "de": "vor drei Wochen",
+          "en": "three weeks ago"
+        },
+        {
+          "de": "gar nicht",
+          "en": "not at all"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die letzten Tage gehen viel zu schnell vorbei.",
+          "en": "The last few days go by far too quickly."
+        },
+        {
+          "de": "Sam kauft Geschenke für seine Familie: Honig von Herrn Wagner, Schokolade und ein T-Shirt mit der Burg.",
+          "en": "Sam buys presents for his family: honey from Mr Wagner, chocolate and a T-shirt with the castle on it."
+        },
+        {
+          "de": "Beim Packen findet er in seinem Koffer einen Umschlag.",
+          "en": "While packing he finds an envelope in his suitcase."
+        },
+        {
+          "de": "Darin ist ein Bild von Mia.",
+          "en": "Inside there's a picture by Mia."
+        },
+        {
+          "de": "Es zeigt Sam, Jonas, Mia und Bruno vor der Burg.",
+          "en": "It shows Sam, Jonas, Mia and Bruno in front of the castle."
+        },
+        {
+          "de": "Darunter steht in großen Buchstaben: „Für meinen englischen Bruder.",
+          "en": "Underneath it says in big letters: “For my English brother."
+        },
+        {
+          "de": "Komm bald wieder!“",
+          "en": "Come back soon!”"
+        },
+        {
+          "de": "Sam sitzt lange auf dem Bett und sieht das Bild an.",
+          "en": "Sam sits on the bed for a long time and looks at the picture."
+        },
+        {
+          "de": "Vor drei Wochen hat er diese Familie noch nicht gekannt.",
+          "en": "Three weeks ago he didn't know this family yet."
+        },
+        {
+          "de": "Jetzt will er gar nicht nach Hause.",
+          "en": "Now he doesn't want to go home at all."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "de": "Am Sonntag stehen alle auf dem Bahnsteig: die Beckers, Lea, Kai und natürlich Bruno. Es ist wie am ersten Tag, nur ganz anders. Frau Becker umarmt Sam. „Du bist hier immer willkommen“, sagt sie. Jonas gibt ihm die Hand, und dann umarmt er ihn doch. Lea gibt ihm einen kleinen Stein. „Aus der Burg“, sagt sie. „Als Erinnerung.“ Sam gibt ihr ein Armband. „Das ist ein Gift für dich“, sagt er, und alle lachen. Dann kommt der Zug, und er ist pünktlich.",
+      "en": "On Sunday everyone is standing on the platform: the Beckers, Lea, Kai and of course Bruno. It's like the first day, only completely different. Mrs Becker hugs Sam. “You're always welcome here,” she says. Jonas shakes his hand, and then he hugs him after all. Lea gives him a small stone. “From the castle,” she says. “To remember us by.” Sam gives her a bracelet. “This is a Gift for you,” he says, and everyone laughs. Then the train comes, and it's on time.",
+      "explain_en": "“jemandem die Hand geben” means to shake someone's hand, which is common in Germany. “doch” here means “after all”: first a handshake, but then a hug after all. Sam's joke goes back to unit 3: “Gift” means poison, a present is “ein Geschenk”. “die Erinnerung” means memory or souvenir.",
+      "words": [
+        {
+          "de": "willkommen",
+          "en": "welcome"
+        },
+        {
+          "de": "jemandem die Hand geben",
+          "en": "to shake someone's hand"
+        },
+        {
+          "de": "doch",
+          "en": "after all (here)"
+        },
+        {
+          "de": "die Erinnerung, die Erinnerungen",
+          "en": "memory, souvenir"
+        },
+        {
+          "de": "das Armband, die Armbänder",
+          "en": "bracelet"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Sonntag stehen alle auf dem Bahnsteig: die Beckers, Lea, Kai und natürlich Bruno.",
+          "en": "On Sunday everyone is standing on the platform: the Beckers, Lea, Kai and of course Bruno."
+        },
+        {
+          "de": "Es ist wie am ersten Tag, nur ganz anders.",
+          "en": "It's like the first day, only completely different."
+        },
+        {
+          "de": "Frau Becker umarmt Sam.",
+          "en": "Mrs Becker hugs Sam."
+        },
+        {
+          "de": "„Du bist hier immer willkommen“, sagt sie.",
+          "en": "“You're always welcome here,” she says."
+        },
+        {
+          "de": "Jonas gibt ihm die Hand, und dann umarmt er ihn doch.",
+          "en": "Jonas shakes his hand, and then he hugs him after all."
+        },
+        {
+          "de": "Lea gibt ihm einen kleinen Stein.",
+          "en": "Lea gives him a small stone."
+        },
+        {
+          "de": "„Aus der Burg“, sagt sie.",
+          "en": "“From the castle,” she says."
+        },
+        {
+          "de": "„Als Erinnerung.“",
+          "en": "“To remember us by.”"
+        },
+        {
+          "de": "Sam gibt ihr ein Armband.",
+          "en": "Sam gives her a bracelet."
+        },
+        {
+          "de": "„Das ist ein Gift für dich“, sagt er, und alle lachen.",
+          "en": "“This is a Gift for you,” he says, and everyone laughs."
+        },
+        {
+          "de": "Dann kommt der Zug, und er ist pünktlich.",
+          "en": "Then the train comes, and it's on time."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "de": "Am Flughafen in Frankfurt wartet Sam auf sein Flugzeug. Sein Handy vibriert. Eine Nachricht von Jonas: „Bruno liegt vor deiner Tür und wartet. Er vermisst dich. Ich auch (ein bisschen).“ Dann schreibt Lea: „Kai hat im Turm noch eine Tür gefunden. Wir warten auf dich!“ Sam lächelt und schreibt zurück, natürlich auf Deutsch: „Ich komme wieder. Versprochen!“ Dann nimmt er den kleinen Stein aus der Tasche und hält ihn fest. Drei Wochen in Burgstein. Es waren die besten drei Wochen seines Lebens.",
+      "en": "At the airport in Frankfurt Sam is waiting for his plane. His phone buzzes. A message from Jonas: “Bruno is lying outside your door, waiting. He misses you. So do I (a bit).” Then Lea writes: “Kai has found another door in the tower. We're waiting for you!” Sam smiles and writes back, in German of course: “I'll come back. Promise!” Then he takes the small stone out of his pocket and holds it tight. Three weeks in Burgstein. They were the best three weeks of his life.",
+      "explain_en": "“warten auf” + accusative means to wait for: “Wir warten auf dich”. “Ich auch” means “me too” or “so do I”. “noch eine Tür” means “another door”, one more. “seines Lebens” (of his life) is a genitive, which you mostly meet in fixed phrases like this one.",
+      "words": [
+        {
+          "de": "der Flughafen, die Flughäfen",
+          "en": "airport"
+        },
+        {
+          "de": "das Flugzeug, die Flugzeuge",
+          "en": "plane"
+        },
+        {
+          "de": "warten auf",
+          "en": "to wait for",
+          "note": "+ accusative"
+        },
+        {
+          "de": "Versprochen!",
+          "en": "Promise!"
+        },
+        {
+          "de": "festhalten",
+          "en": "to hold tight"
+        },
+        {
+          "de": "das Leben",
+          "en": "life"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Flughafen in Frankfurt wartet Sam auf sein Flugzeug.",
+          "en": "At the airport in Frankfurt Sam is waiting for his plane."
+        },
+        {
+          "de": "Sein Handy vibriert.",
+          "en": "His phone buzzes."
+        },
+        {
+          "de": "Eine Nachricht von Jonas: „Bruno liegt vor deiner Tür und wartet.",
+          "en": "A message from Jonas: “Bruno is lying outside your door, waiting."
+        },
+        {
+          "de": "Er vermisst dich.",
+          "en": "He misses you."
+        },
+        {
+          "de": "Ich auch (ein bisschen).“",
+          "en": "So do I (a bit).”"
+        },
+        {
+          "de": "Dann schreibt Lea: „Kai hat im Turm noch eine Tür gefunden.",
+          "en": "Then Lea writes: “Kai has found another door in the tower."
+        },
+        {
+          "de": "Wir warten auf dich!“",
+          "en": "We're waiting for you!”"
+        },
+        {
+          "de": "Sam lächelt und schreibt zurück, natürlich auf Deutsch: „Ich komme wieder.",
+          "en": "Sam smiles and writes back, in German of course: “I'll come back."
+        },
+        {
+          "de": "Versprochen!“",
+          "en": "Promise!”"
+        },
+        {
+          "de": "Dann nimmt er den kleinen Stein aus der Tasche und hält ihn fest.",
+          "en": "Then he takes the small stone out of his pocket and holds it tight."
+        },
+        {
+          "de": "Drei Wochen in Burgstein.",
+          "en": "Three weeks in Burgstein."
+        },
+        {
+          "de": "Es waren die besten drei Wochen seines Lebens.",
+          "en": "They were the best three weeks of his life."
+        }
+      ]
+    }
+  ]
+}

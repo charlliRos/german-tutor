@@ -1,0 +1,2058 @@
+{
+  "id": "reader-b1",
+  "title": "Neustart in Leipzig (B1 reader)",
+  "short_title": "Neustart in Leipzig",
+  "author": "Written for this app",
+  "original": true,
+  "year": 2026,
+  "level": "B1",
+  "source": "Written for this app (Deutsch mit Fritz & Pip), 2026",
+  "orthography": "current spelling",
+  "intro_en": "An original story written for this app. Maya, 18, comes from Toronto to Leipzig to start an apprenticeship in a bike workshop – and has to find a flat, get through German offices and survive her first job. Then a customer gets hurt, her signature is on the paperwork, and she has to decide who she is going to protect.",
+  "units": [
+    {
+      "n": 1,
+      "de": "Als der Zug am Leipziger Hauptbahnhof hielt, war es schon dunkel. Maya Clarke nahm ihren schweren Koffer und stieg aus. Sie war achtzehn Jahre alt und kam aus Toronto, aber ihre Großmutter war Deutsche, und deshalb sprach Maya ganz gut Deutsch. Trotzdem war sie nervös. In drei Tagen hatte sie ein Vorstellungsgespräch bei einer Fahrradwerkstatt, die Radwerk hieß. Wenn alles gut ginge, würde sie dort eine Ausbildung machen. Wenn nicht, müsste sie nach Kanada zurückfliegen. Sie hatte kein Zimmer, keine Freunde und nur wenig Geld. „Das schaffst du“, sagte sie leise zu sich selbst.",
+      "en": "When the train stopped at Leipzig main station, it was already dark. Maya Clarke picked up her heavy suitcase and got off. She was eighteen and came from Toronto, but her grandmother was German, and that's why Maya spoke quite good German. Still, she was nervous. In three days she had a job interview at a bike workshop called Radwerk. If everything went well, she would do an apprenticeship there. If not, she would have to fly back to Canada. She had no room, no friends and very little money. “You can do this,” she said quietly to herself.",
+      "explain_en": "Our story starts. „Wenn alles gut ginge, würde sie …“ is Konjunktiv II: it talks about something that might or might not happen (if everything went well, she would …); „müsste“ is the Konjunktiv II of „müssen“. An „Ausbildung“ is a German apprenticeship: you work in a company and go to a vocational school at the same time, usually for three years. „Das schaffst du!“ (you can do it!) is what Germans say to encourage someone.",
+      "words": [
+        {
+          "de": "das Vorstellungsgespräch, die Vorstellungsgespräche",
+          "en": "job interview"
+        },
+        {
+          "de": "die Ausbildung, die Ausbildungen",
+          "en": "apprenticeship, vocational training"
+        },
+        {
+          "de": "die Werkstatt, die Werkstätten",
+          "en": "workshop, repair shop"
+        },
+        {
+          "de": "nervös",
+          "en": "nervous"
+        },
+        {
+          "de": "schaffen",
+          "en": "to manage, to make it",
+          "note": "Das schaffst du! = You can do it!"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Als der Zug am Leipziger Hauptbahnhof hielt, war es schon dunkel.",
+          "en": "When the train stopped at Leipzig main station, it was already dark."
+        },
+        {
+          "de": "Maya Clarke nahm ihren schweren Koffer und stieg aus.",
+          "en": "Maya Clarke picked up her heavy suitcase and got off."
+        },
+        {
+          "de": "Sie war achtzehn Jahre alt und kam aus Toronto, aber ihre Großmutter war Deutsche, und deshalb sprach Maya ganz gut Deutsch.",
+          "en": "She was eighteen and came from Toronto, but her grandmother was German, and that's why Maya spoke quite good German."
+        },
+        {
+          "de": "Trotzdem war sie nervös.",
+          "en": "Still, she was nervous."
+        },
+        {
+          "de": "In drei Tagen hatte sie ein Vorstellungsgespräch bei einer Fahrradwerkstatt, die Radwerk hieß.",
+          "en": "In three days she had a job interview at a bike workshop called Radwerk."
+        },
+        {
+          "de": "Wenn alles gut ginge, würde sie dort eine Ausbildung machen.",
+          "en": "If everything went well, she would do an apprenticeship there."
+        },
+        {
+          "de": "Wenn nicht, müsste sie nach Kanada zurückfliegen.",
+          "en": "If not, she would have to fly back to Canada."
+        },
+        {
+          "de": "Sie hatte kein Zimmer, keine Freunde und nur wenig Geld.",
+          "en": "She had no room, no friends and very little money."
+        },
+        {
+          "de": "„Das schaffst du“, sagte sie leise zu sich selbst.",
+          "en": "“You can do this,” she said quietly to herself."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "de": "Maya übernachtete in einem billigen Hostel in der Nähe des Bahnhofs. Am nächsten Morgen setzte sie sich mit ihrem Laptop in die Küche und suchte eine Wohnung. Eine eigene Wohnung war zu teuer, deshalb suchte sie ein Zimmer in einer WG. Die Anzeigen waren voller Abkürzungen, die sie nicht kannte. Was bedeutete „NK“ oder „Kaution: 2 MM“? Ein Mann am Nebentisch erklärte es ihr: Nebenkosten sind zusätzliche Wohnkosten, zum Beispiel für Heizung und Wasser, und die Kaution ist Geld, das man am Anfang bezahlt und später normalerweise zurückbekommt. Maya schrieb an diesem Tag zwölf Nachrichten. Nur eine Person antwortete.",
+      "en": "Maya spent the night in a cheap hostel near the station. The next morning she sat down in the kitchen with her laptop and looked for a flat. A flat of her own was too expensive, so she looked for a room in a shared flat. The ads were full of abbreviations she didn't know. What did “NK” or “deposit: 2 MM” mean? A man at the next table explained it to her: Nebenkosten are additional housing costs, for example for heating and water, and the deposit is money you pay at the start and normally get back later. Maya wrote twelve messages that day. Only one person replied.",
+      "explain_en": "A „WG“ (Wohngemeinschaft) is a shared flat: very common for young people in Germany. In flat ads, „NK“ means Nebenkosten (extra costs like heating and water) and „2 MM“ means zwei Monatsmieten (two months' rent). „Warmmiete“ is rent including these costs, „Kaltmiete“ is rent without them. „voller Abkürzungen“ = full of abbreviations („voller“ never changes its ending). The landlord may deduct justified outstanding claims from the deposit, for example unpaid rent or damage beyond normal wear.",
+      "words": [
+        {
+          "de": "die WG, die WGs",
+          "en": "shared flat",
+          "note": "short for die Wohngemeinschaft"
+        },
+        {
+          "de": "die Anzeige, die Anzeigen",
+          "en": "advert, ad"
+        },
+        {
+          "de": "die Nebenkosten (plural)",
+          "en": "extra costs (heating, water, etc.)"
+        },
+        {
+          "de": "die Kaution, die Kautionen",
+          "en": "deposit"
+        },
+        {
+          "de": "die Abkürzung, die Abkürzungen",
+          "en": "abbreviation"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Maya übernachtete in einem billigen Hostel in der Nähe des Bahnhofs.",
+          "en": "Maya spent the night in a cheap hostel near the station."
+        },
+        {
+          "de": "Am nächsten Morgen setzte sie sich mit ihrem Laptop in die Küche und suchte eine Wohnung.",
+          "en": "The next morning she sat down in the kitchen with her laptop and looked for a flat."
+        },
+        {
+          "de": "Eine eigene Wohnung war zu teuer, deshalb suchte sie ein Zimmer in einer WG.",
+          "en": "A flat of her own was too expensive, so she looked for a room in a shared flat."
+        },
+        {
+          "de": "Die Anzeigen waren voller Abkürzungen, die sie nicht kannte.",
+          "en": "The ads were full of abbreviations she didn't know."
+        },
+        {
+          "de": "Was bedeutete „NK“ oder „Kaution: 2 MM“?",
+          "en": "What did “NK” or “deposit: 2 MM” mean?"
+        },
+        {
+          "de": "Ein Mann am Nebentisch erklärte es ihr: Nebenkosten sind zusätzliche Wohnkosten, zum Beispiel für Heizung und Wasser, und die Kaution ist Geld, das man am Anfang bezahlt und später normalerweise zurückbekommt.",
+          "en": "A man at the next table explained it to her: Nebenkosten are additional housing costs, for example for heating and water, and the deposit is money you pay at the start and normally get back later."
+        },
+        {
+          "de": "Maya schrieb an diesem Tag zwölf Nachrichten.",
+          "en": "Maya wrote twelve messages that day."
+        },
+        {
+          "de": "Nur eine Person antwortete.",
+          "en": "Only one person replied."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "de": "Die Antwort kam von Lena, die mit ihrem Mitbewohner Tarek in einer Altbauwohnung in Plagwitz wohnte. Am Abend stand Maya vor der Tür und klingelte. Lena war Studentin, etwa zwanzig, mit kurzen roten Haaren; Tarek war Koch in einem Restaurant und sprach wenig. Sie tranken Tee und stellten Maya viele Fragen. „Kochst du gern?“ „Wie oft putzt du?“ „Hast du schon einen Job?“ Bei der letzten Frage zögerte Maya. „Noch nicht“, sagte sie ehrlich, „aber ich habe am Donnerstag ein Vorstellungsgespräch.“ Lena und Tarek sahen sich an. „Wir melden uns“, sagte Lena freundlich.",
+      "en": "The reply came from Lena, who lived with her flatmate Tarek in a flat in an old building in Plagwitz. In the evening Maya stood at the door and rang the bell. Lena was a student, about twenty, with short red hair; Tarek was a cook in a restaurant and said little. They drank tea and asked Maya lots of questions. “Do you like cooking?” “How often do you clean?” “Do you have a job yet?” At the last question Maya hesitated. “Not yet,” she said honestly, “but I have a job interview on Thursday.” Lena and Tarek looked at each other. “We'll be in touch,” Lena said kindly.",
+      "explain_en": "This is a „WG-Casting“: the people in a shared flat meet several applicants and choose the one they like best. „die mit ihrem Mitbewohner … wohnte“ is a relative clause – the verb goes to the end. „Wir melden uns“ (we'll get in touch) is polite, but it often means „don't call us, we'll call you“. „sahen sich an“ = looked at each other.",
+      "words": [
+        {
+          "de": "der Mitbewohner, die Mitbewohner / die Mitbewohnerin",
+          "en": "flatmate"
+        },
+        {
+          "de": "klingeln",
+          "en": "to ring (a bell)"
+        },
+        {
+          "de": "zögern",
+          "en": "to hesitate"
+        },
+        {
+          "de": "ehrlich",
+          "en": "honest(ly)"
+        },
+        {
+          "de": "sich melden",
+          "en": "to get in touch"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die Antwort kam von Lena, die mit ihrem Mitbewohner Tarek in einer Altbauwohnung in Plagwitz wohnte.",
+          "en": "The reply came from Lena, who lived with her flatmate Tarek in a flat in an old building in Plagwitz."
+        },
+        {
+          "de": "Am Abend stand Maya vor der Tür und klingelte.",
+          "en": "In the evening Maya stood at the door and rang the bell."
+        },
+        {
+          "de": "Lena war Studentin, etwa zwanzig, mit kurzen roten Haaren; Tarek war Koch in einem Restaurant und sprach wenig.",
+          "en": "Lena was a student, about twenty, with short red hair; Tarek was a cook in a restaurant and said little."
+        },
+        {
+          "de": "Sie tranken Tee und stellten Maya viele Fragen.",
+          "en": "They drank tea and asked Maya lots of questions."
+        },
+        {
+          "de": "„Kochst du gern?“",
+          "en": "“Do you like cooking?”"
+        },
+        {
+          "de": "„Wie oft putzt du?“",
+          "en": "“How often do you clean?”"
+        },
+        {
+          "de": "„Hast du schon einen Job?“",
+          "en": "“Do you have a job yet?”"
+        },
+        {
+          "de": "Bei der letzten Frage zögerte Maya.",
+          "en": "At the last question Maya hesitated."
+        },
+        {
+          "de": "„Noch nicht“, sagte sie ehrlich, „aber ich habe am Donnerstag ein Vorstellungsgespräch.“",
+          "en": "“Not yet,” she said honestly, “but I have a job interview on Thursday.”"
+        },
+        {
+          "de": "Lena und Tarek sahen sich an.",
+          "en": "Lena and Tarek looked at each other."
+        },
+        {
+          "de": "„Wir melden uns“, sagte Lena freundlich.",
+          "en": "“We'll be in touch,” Lena said kindly."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "de": "Am Donnerstag stand Maya pünktlich um neun Uhr vor dem Radwerk. Die Werkstatt lag in einer alten Fabrik am Kanal, und überall hingen Fahrräder an der Decke. Herr Brandt, der Chef, war ein großer Mann um die fünfzig mit ölschwarzen Händen. Er gab ihr trotzdem die Hand und bot ihr einen Kaffee an. „Warum wollen Sie ausgerechnet Zweiradmechatronikerin werden?“, fragte er. Maya erzählte von ihrem Großvater, mit dem sie jeden Sommer alte Fahrräder repariert hatte. „Er hat immer gesagt, dass ein Fahrrad ehrlich ist“, erklärte sie. „Wenn etwas kaputt ist, sieht man es.“ Herr Brandt lächelte zum ersten Mal.",
+      "en": "On Thursday Maya was standing outside Radwerk at nine o'clock sharp. The workshop was in an old factory by the canal, and there were bikes hanging from the ceiling everywhere. Herr Brandt, the boss, was a tall man of about fifty with hands black with oil. He shook her hand anyway and offered her a coffee. “So why do you want to become a bicycle mechanic, of all things?” he asked. Maya told him about her grandfather, with whom she had repaired old bikes every summer. “He always said that a bike is honest,” she explained. “If something is broken, you can see it.” Herr Brandt smiled for the first time.",
+      "explain_en": "In a job interview, use “Sie” unless the interviewer offers “du”; a handshake is common but not compulsory. “Zweiradmechatroniker/in – Fachrichtung Fahrradtechnik” is the bicycle specialisation, normally a three-and-a-half-year apprenticeship; there is also a motorcycle specialisation. „ausgerechnet“ means „of all things“ and shows surprise. „mit dem sie … repariert hatte“ is a relative clause with a preposition: with whom she had repaired.",
+      "words": [
+        {
+          "de": "der Chef, die Chefs / die Chefin",
+          "en": "boss"
+        },
+        {
+          "de": "pünktlich",
+          "en": "on time, punctual"
+        },
+        {
+          "de": "die Zweiradmechatronikerin / der Zweiradmechatroniker",
+          "en": "bike mechanic (official job title)"
+        },
+        {
+          "de": "anbieten",
+          "en": "to offer",
+          "note": "er bot an, er hat angeboten"
+        },
+        {
+          "de": "reparieren",
+          "en": "to repair"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Donnerstag stand Maya pünktlich um neun Uhr vor dem Radwerk.",
+          "en": "On Thursday Maya was standing outside Radwerk at nine o'clock sharp."
+        },
+        {
+          "de": "Die Werkstatt lag in einer alten Fabrik am Kanal, und überall hingen Fahrräder an der Decke.",
+          "en": "The workshop was in an old factory by the canal, and there were bikes hanging from the ceiling everywhere."
+        },
+        {
+          "de": "Herr Brandt, der Chef, war ein großer Mann um die fünfzig mit ölschwarzen Händen.",
+          "en": "Herr Brandt, the boss, was a tall man of about fifty with hands black with oil."
+        },
+        {
+          "de": "Er gab ihr trotzdem die Hand und bot ihr einen Kaffee an.",
+          "en": "He shook her hand anyway and offered her a coffee."
+        },
+        {
+          "de": "„Warum wollen Sie ausgerechnet Zweiradmechatronikerin werden?“, fragte er.",
+          "en": "“So why do you want to become a bicycle mechanic, of all things?” he asked."
+        },
+        {
+          "de": "Maya erzählte von ihrem Großvater, mit dem sie jeden Sommer alte Fahrräder repariert hatte.",
+          "en": "Maya told him about her grandfather, with whom she had repaired old bikes every summer."
+        },
+        {
+          "de": "„Er hat immer gesagt, dass ein Fahrrad ehrlich ist“, erklärte sie.",
+          "en": "“He always said that a bike is honest,” she explained."
+        },
+        {
+          "de": "„Wenn etwas kaputt ist, sieht man es.“",
+          "en": "“If something is broken, you can see it.”"
+        },
+        {
+          "de": "Herr Brandt lächelte zum ersten Mal.",
+          "en": "Herr Brandt smiled for the first time."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "de": "Dann führte er sie in die Werkstatt. „Jetzt zeigen Sie mir mal, was Sie können“, sagte er und zeigte auf ein Kinderfahrrad mit einem platten Reifen. Maya nahm den Schlauch heraus, fand das Loch und flickte es in wenigen Minuten. Aber als sie das Rad wieder einbaute, bemerkte sie noch etwas: Die Bremse hatte fast keinen Belag mehr. „Wir müssen auch die Bremsbeläge wechseln“, sagte sie. „Sonst wäre das für das Kind gefährlich.“ Herr Brandt schrieb etwas in sein Notizbuch. „Gut beobachtet“, sagte er nur. „Wir melden uns bis nächste Woche.“",
+      "en": "Then he led her into the workshop. “Now show me what you can do,” he said, pointing to a child's bike with a flat tyre. Maya took out the inner tube, found the hole and patched it in a few minutes. But when she put the wheel back in, she noticed something else: the brake had almost no pad left. “We need to replace the brake pads too,” she said. “Otherwise it would be dangerous for the child.” Herr Brandt wrote something in his notebook. “Well spotted,” was all he said. “We'll get back to you by next week.”",
+      "explain_en": "Many German interviews for practical jobs include a short test. “müssen” expresses necessity: “Wir müssen die Bremsbeläge wechseln” means “We need to replace the brake pads”. „wäre“ = would be. „Wir melden uns“ again – remember what it can mean!",
+      "words": [
+        {
+          "de": "der Reifen, die Reifen",
+          "en": "tyre",
+          "note": "ein platter Reifen = a flat tyre"
+        },
+        {
+          "de": "der Schlauch, die Schläuche",
+          "en": "inner tube; hose"
+        },
+        {
+          "de": "die Bremse, die Bremsen",
+          "en": "brake"
+        },
+        {
+          "de": "wechseln",
+          "en": "to change, to replace"
+        },
+        {
+          "de": "gefährlich",
+          "en": "dangerous"
+        },
+        {
+          "de": "bemerken",
+          "en": "to notice"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Dann führte er sie in die Werkstatt.",
+          "en": "Then he led her into the workshop."
+        },
+        {
+          "de": "„Jetzt zeigen Sie mir mal, was Sie können“, sagte er und zeigte auf ein Kinderfahrrad mit einem platten Reifen.",
+          "en": "“Now show me what you can do,” he said, pointing to a child's bike with a flat tyre."
+        },
+        {
+          "de": "Maya nahm den Schlauch heraus, fand das Loch und flickte es in wenigen Minuten.",
+          "en": "Maya took out the inner tube, found the hole and patched it in a few minutes."
+        },
+        {
+          "de": "Aber als sie das Rad wieder einbaute, bemerkte sie noch etwas: Die Bremse hatte fast keinen Belag mehr.",
+          "en": "But when she put the wheel back in, she noticed something else: the brake had almost no pad left."
+        },
+        {
+          "de": "„Wir müssen auch die Bremsbeläge wechseln“, sagte sie.",
+          "en": "“We need to replace the brake pads too,” she said."
+        },
+        {
+          "de": "„Sonst wäre das für das Kind gefährlich.“",
+          "en": "“Otherwise it would be dangerous for the child.”"
+        },
+        {
+          "de": "Herr Brandt schrieb etwas in sein Notizbuch.",
+          "en": "Herr Brandt wrote something in his notebook."
+        },
+        {
+          "de": "„Gut beobachtet“, sagte er nur.",
+          "en": "“Well spotted,” was all he said."
+        },
+        {
+          "de": "„Wir melden uns bis nächste Woche.“",
+          "en": "“We'll get back to you by next week.”"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Die nächsten Tage waren die längsten in Mayas Leben. Zwei WGs sagten ihr ab, weil sie noch keinen Arbeitsvertrag hatte. Am Samstag rief endlich Lena an. „Tarek und ich haben lange diskutiert“, sagte sie. „Das Zimmer gehört dir, wenn du es noch willst.“ Maya wollte am liebsten laut vor Freude schreien. Aber von Herrn Brandt hörte sie nichts. Montag verging, Dienstag verging. Maya sah alle fünf Minuten auf ihr Handy. Am Mittwoch, als sie gerade ihre Sachen packte, klingelte ihr Handy. Auf dem Display stand: Radwerk.",
+      "en": "The next few days were the longest of Maya's life. Two shared flats turned her down because she didn't have an employment contract yet. On Saturday Lena finally called. “Tarek and I talked about it for a long time,” she said. “The room is yours if you still want it.” Maya wanted to shout out loud with joy. But she heard nothing from Herr Brandt. Monday passed, Tuesday passed. Maya checked her phone every five minutes. On Wednesday, just as she was packing her things, her phone rang. The screen said: Radwerk.",
+      "explain_en": "„absagen“ means to turn someone down or cancel (the opposite is „zusagen“, to accept). Many landlords and WGs want to see an employment contract, because they want to be sure you can pay the rent. “am liebsten” expresses what someone would most like to do: Maya wanted to shout with joy. A mobile phone is „das Handy“ in German.",
+      "words": [
+        {
+          "de": "absagen",
+          "en": "to turn down, to cancel"
+        },
+        {
+          "de": "der Arbeitsvertrag, die Arbeitsverträge",
+          "en": "employment contract"
+        },
+        {
+          "de": "gehören",
+          "en": "to belong (to)",
+          "note": "Das gehört dir. = That's yours."
+        },
+        {
+          "de": "vergehen",
+          "en": "to pass (of time)"
+        },
+        {
+          "de": "das Handy, die Handys",
+          "en": "mobile phone"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die nächsten Tage waren die längsten in Mayas Leben.",
+          "en": "The next few days were the longest of Maya's life."
+        },
+        {
+          "de": "Zwei WGs sagten ihr ab, weil sie noch keinen Arbeitsvertrag hatte.",
+          "en": "Two shared flats turned her down because she didn't have an employment contract yet."
+        },
+        {
+          "de": "Am Samstag rief endlich Lena an.",
+          "en": "On Saturday Lena finally called."
+        },
+        {
+          "de": "„Tarek und ich haben lange diskutiert“, sagte sie.",
+          "en": "“Tarek and I talked about it for a long time,” she said."
+        },
+        {
+          "de": "„Das Zimmer gehört dir, wenn du es noch willst.“",
+          "en": "“The room is yours if you still want it.”"
+        },
+        {
+          "de": "Maya wollte am liebsten laut vor Freude schreien.",
+          "en": "Maya wanted to shout out loud with joy."
+        },
+        {
+          "de": "Aber von Herrn Brandt hörte sie nichts.",
+          "en": "But she heard nothing from Herr Brandt."
+        },
+        {
+          "de": "Montag verging, Dienstag verging.",
+          "en": "Monday passed, Tuesday passed."
+        },
+        {
+          "de": "Maya sah alle fünf Minuten auf ihr Handy.",
+          "en": "Maya checked her phone every five minutes."
+        },
+        {
+          "de": "Am Mittwoch, als sie gerade ihre Sachen packte, klingelte ihr Handy.",
+          "en": "On Wednesday, just as she was packing her things, her phone rang."
+        },
+        {
+          "de": "Auf dem Display stand: Radwerk.",
+          "en": "The screen said: Radwerk."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "de": "„Frau Clarke, wir würden Ihnen gern einen Ausbildungsplatz anbieten“, sagte Herr Brandt. „Die Ausbildung beginnt am 1. Oktober.“ Maya konnte kaum sprechen. Sie sagte dreimal „Danke“ und legte dann einfach auf. Am nächsten Tag erklärte ihr Frau Yilmaz, die sich im Büro um alles Schriftliche kümmerte, was jetzt zu tun war. „Zuerst müssen Sie sich beim Bürgeramt anmelden“, sagte sie. „Dafür brauchen Sie eine Wohnungsgeberbestätigung von Ihrem Vermieter.“ „Danach gehen Sie mit dem Vertrag zur Ausländerbehörde und beantragen eine Aufenthaltserlaubnis.“ „Ohne die dürfen Sie hier nicht arbeiten.“",
+      "en": "“Ms Clarke, we would like to offer you an apprenticeship,” said Herr Brandt. “The apprenticeship starts on 1 October.” Maya could hardly speak. She said “thank you” three times and then simply hung up. The next day Frau Yilmaz, who took care of all the paperwork in the office, explained to her what had to be done now. “First you have to register at the Bürgeramt,” she said. “For that you need a confirmation form from your landlord.” “After that you take the contract to the immigration office and apply for a residence permit.” “Without it you're not allowed to work here.”",
+      "explain_en": "People moving into a home in Germany generally register their address within two weeks. The “Wohnungsgeberbestätigung” confirms the move-in and comes from the accommodation provider, who may be a landlord or a main tenant subletting a room. Canadian citizens such as Maya can apply for the required residence permit in Germany after visa-free entry, normally within 90 days; this route is not available to every non-EU nationality. „sich um etwas kümmern“ = to take care of something.",
+      "words": [
+        {
+          "de": "sich anmelden",
+          "en": "to register"
+        },
+        {
+          "de": "das Bürgeramt, die Bürgerämter",
+          "en": "citizens' office (for registration, ID etc.)"
+        },
+        {
+          "de": "der Vermieter, die Vermieter / die Vermieterin",
+          "en": "landlord / landlady"
+        },
+        {
+          "de": "die Ausländerbehörde, die Ausländerbehörden",
+          "en": "immigration office"
+        },
+        {
+          "de": "beantragen",
+          "en": "to apply for (officially)"
+        },
+        {
+          "de": "die Aufenthaltserlaubnis",
+          "en": "residence permit"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Frau Clarke, wir würden Ihnen gern einen Ausbildungsplatz anbieten“, sagte Herr Brandt.",
+          "en": "“Ms Clarke, we would like to offer you an apprenticeship,” said Herr Brandt."
+        },
+        {
+          "de": "„Die Ausbildung beginnt am 1. Oktober.“",
+          "en": "“The apprenticeship starts on 1 October.”"
+        },
+        {
+          "de": "Maya konnte kaum sprechen.",
+          "en": "Maya could hardly speak."
+        },
+        {
+          "de": "Sie sagte dreimal „Danke“ und legte dann einfach auf.",
+          "en": "She said “thank you” three times and then simply hung up."
+        },
+        {
+          "de": "Am nächsten Tag erklärte ihr Frau Yilmaz, die sich im Büro um alles Schriftliche kümmerte, was jetzt zu tun war.",
+          "en": "The next day Frau Yilmaz, who took care of all the paperwork in the office, explained to her what had to be done now."
+        },
+        {
+          "de": "„Zuerst müssen Sie sich beim Bürgeramt anmelden“, sagte sie.",
+          "en": "“First you have to register at the Bürgeramt,” she said."
+        },
+        {
+          "de": "„Dafür brauchen Sie eine Wohnungsgeberbestätigung von Ihrem Vermieter.“",
+          "en": "“For that you need a confirmation form from your landlord.”"
+        },
+        {
+          "de": "„Danach gehen Sie mit dem Vertrag zur Ausländerbehörde und beantragen eine Aufenthaltserlaubnis.“",
+          "en": "“After that you take the contract to the immigration office and apply for a residence permit.”"
+        },
+        {
+          "de": "„Ohne die dürfen Sie hier nicht arbeiten.“",
+          "en": "“Without it you're not allowed to work here.”"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "de": "Am Wochenende zog Maya in die WG ein. Ihr Zimmer war klein, aber hell, und aus dem Fenster konnte sie den Kanal sehen. Tarek kochte zur Begrüßung eine riesige Portion Linsensuppe. Nur ein Problem gab es: Der Vermieter, Herr Kühn, war im Urlaub auf Mallorca und antwortete nicht auf ihre E-Mails. Maya meldete dem Bürgeramt, dass die Bestätigung noch fehlte, und fragte die Ausländerbehörde nach dem weiteren Vorgehen. „Typisch deutsche Bürokratie“, lachte Lena. Maya fand das überhaupt nicht lustig. Bis zum 1. Oktober waren es nur noch zwei Wochen.",
+      "en": "At the weekend Maya moved into the shared flat. Her room was small but bright, and she could see the canal from the window. Tarek cooked a huge pot of lentil soup to welcome her. There was just one problem: the landlord, Herr Kühn, was on holiday in Majorca and didn't answer her emails. Maya told the registration office that the confirmation was still missing and asked the immigration office how to proceed. “Typical German bureaucracy,” Lena laughed. Maya didn't find that funny at all. There were only two weeks left until 1 October.",
+      "explain_en": "„einziehen“ (to move in) is a separable verb: „sie zog ein“. The opposite is „ausziehen“ (to move out), and moving house is „umziehen“. If the landlord's confirmation is late, you tell the Bürgeramt instead of just waiting. „das weitere Vorgehen“ = the next steps, how to proceed. „überhaupt nicht“ = not at all.",
+      "words": [
+        {
+          "de": "einziehen",
+          "en": "to move in",
+          "note": "sie zog ein, sie ist eingezogen"
+        },
+        {
+          "de": "melden",
+          "en": "to report, to notify",
+          "note": "jemandem etwas melden"
+        },
+        {
+          "de": "fehlen",
+          "en": "to be missing"
+        },
+        {
+          "de": "das Vorgehen",
+          "en": "procedure, course of action"
+        },
+        {
+          "de": "die Bürokratie",
+          "en": "bureaucracy, red tape"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Wochenende zog Maya in die WG ein.",
+          "en": "At the weekend Maya moved into the shared flat."
+        },
+        {
+          "de": "Ihr Zimmer war klein, aber hell, und aus dem Fenster konnte sie den Kanal sehen.",
+          "en": "Her room was small but bright, and she could see the canal from the window."
+        },
+        {
+          "de": "Tarek kochte zur Begrüßung eine riesige Portion Linsensuppe.",
+          "en": "Tarek cooked a huge pot of lentil soup to welcome her."
+        },
+        {
+          "de": "Nur ein Problem gab es: Der Vermieter, Herr Kühn, war im Urlaub auf Mallorca und antwortete nicht auf ihre E-Mails.",
+          "en": "There was just one problem: the landlord, Herr Kühn, was on holiday in Majorca and didn't answer her emails."
+        },
+        {
+          "de": "Maya meldete dem Bürgeramt, dass die Bestätigung noch fehlte, und fragte die Ausländerbehörde nach dem weiteren Vorgehen.",
+          "en": "Maya told the registration office that the confirmation was still missing and asked the immigration office how to proceed."
+        },
+        {
+          "de": "„Typisch deutsche Bürokratie“, lachte Lena.",
+          "en": "“Typical German bureaucracy,” Lena laughed."
+        },
+        {
+          "de": "Maya fand das überhaupt nicht lustig.",
+          "en": "Maya didn't find that funny at all."
+        },
+        {
+          "de": "Bis zum 1. Oktober waren es nur noch zwei Wochen.",
+          "en": "There were only two weeks left until 1 October."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Endlich, nach fünf Tagen, schickte Herr Kühn das Formular mit seiner Unterschrift. Doch der nächste freie Termin beim Bürgeramt war erst in sechs Wochen. Tarek gab ihr einen Tipp: „Schau jeden Morgen um sieben auf die Webseite, weil dann oft Termine frei werden, die andere Leute abgesagt haben.“ Am dritten Morgen hatte sie Glück. Im Bürgeramt musste sie trotzdem eine Stunde warten, bis ihre Nummer auf dem Bildschirm erschien. Die Beamtin prüfte ihren Pass und das Formular, tippte etwas und druckte ein Papier aus. „Ihre Meldebescheinigung“, sagte sie. „Die sollten Sie gut aufheben.“",
+      "en": "Finally, after five days, Herr Kühn sent the form with his signature. But the next free appointment at the Bürgeramt wasn't for six weeks. Tarek gave her a tip: “Check the website every morning at seven, because that's often when appointments that other people have cancelled become free.” On the third morning she was lucky. At the Bürgeramt she still had to wait an hour until her number appeared on the screen. The official checked her passport and the form, typed something and printed out a sheet of paper. “Your registration certificate,” she said. “You should keep it somewhere safe.”",
+      "explain_en": "„erst in sechs Wochen“: „erst“ means not until / only – it shows that something is later than you want. The “Meldebescheinigung” proves your registered address; after your first registration in Germany, your tax identification number is normally assigned automatically. „Die sollten Sie gut aufheben“ – „sollten“ (Konjunktiv II of „sollen“) is the normal way to give advice. „aufheben“ here means to keep, not to pick up.",
+      "words": [
+        {
+          "de": "das Formular, die Formulare",
+          "en": "form"
+        },
+        {
+          "de": "die Meldebescheinigung",
+          "en": "certificate of registration"
+        },
+        {
+          "de": "der Beamte / die Beamtin",
+          "en": "civil servant, official"
+        },
+        {
+          "de": "prüfen",
+          "en": "to check"
+        },
+        {
+          "de": "aufheben",
+          "en": "to keep (safe); to pick up"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Endlich, nach fünf Tagen, schickte Herr Kühn das Formular mit seiner Unterschrift.",
+          "en": "Finally, after five days, Herr Kühn sent the form with his signature."
+        },
+        {
+          "de": "Doch der nächste freie Termin beim Bürgeramt war erst in sechs Wochen.",
+          "en": "But the next free appointment at the Bürgeramt wasn't for six weeks."
+        },
+        {
+          "de": "Tarek gab ihr einen Tipp: „Schau jeden Morgen um sieben auf die Webseite, weil dann oft Termine frei werden, die andere Leute abgesagt haben.“",
+          "en": "Tarek gave her a tip: “Check the website every morning at seven, because that's often when appointments that other people have cancelled become free.”"
+        },
+        {
+          "de": "Am dritten Morgen hatte sie Glück.",
+          "en": "On the third morning she was lucky."
+        },
+        {
+          "de": "Im Bürgeramt musste sie trotzdem eine Stunde warten, bis ihre Nummer auf dem Bildschirm erschien.",
+          "en": "At the Bürgeramt she still had to wait an hour until her number appeared on the screen."
+        },
+        {
+          "de": "Die Beamtin prüfte ihren Pass und das Formular, tippte etwas und druckte ein Papier aus.",
+          "en": "The official checked her passport and the form, typed something and printed out a sheet of paper."
+        },
+        {
+          "de": "„Ihre Meldebescheinigung“, sagte sie.",
+          "en": "“Your registration certificate,” she said."
+        },
+        {
+          "de": "„Die sollten Sie gut aufheben.“",
+          "en": "“You should keep it somewhere safe.”"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "de": "Bei der Ausländerbehörde war es noch voller. Maya hatte fast alles dabei: Pass, Meldebescheinigung, Ausbildungsvertrag und den Code für ihr digitales Passfoto. Die Sachbearbeiterin, Frau Albrecht, blätterte langsam durch die Papiere. „Und Ihr Nachweis über die Krankenversicherung?“ Maya wurde blass. Das Papier lag zu Hause auf ihrem Schreibtisch. Zum Glück durfte sie es am Nachmittag per E-Mail schicken. Eine Woche später bekam sie eine vorläufige Bescheinigung, in der die Arbeit im Radwerk ausdrücklich erlaubt war. „Denken Sie daran“, sagte Frau Albrecht, „Ihre Erlaubnis hängt an dieser Ausbildung.“ „Wenn die Ausbildung endet, müssen Sie uns sofort informieren.“",
+      "en": "At the immigration office it was even more crowded. Maya had almost everything with her: passport, registration certificate, apprenticeship contract and the code for her digital passport photo. The caseworker, Frau Albrecht, slowly leafed through the papers. “And your proof of health insurance?” Maya went pale. That paper was lying at home on her desk. Luckily she was allowed to send it by email that afternoon. A week later she received a temporary certificate expressly authorising her to work at Radwerk. “Remember,” said Frau Albrecht, “your permit depends on this apprenticeship.” “If the apprenticeship ends, you must inform us immediately.”",
+      "explain_en": "A „Sachbearbeiter/in“ is the person in an office who deals with your case. In Germany everyone must have health insurance, and you need proof („der Nachweis“) of it for a residence permit. A “Fiktionsbescheinigung” documents the legal effect of a residence application; it does not automatically allow work. Here the authority has initiated production of Maya's residence card and expressly recorded permission to work at Radwerk. „hängt an dieser Ausbildung“ = depends on this apprenticeship – remember this, it will matter later.",
+      "words": [
+        {
+          "de": "der Sachbearbeiter / die Sachbearbeiterin",
+          "en": "caseworker, clerk"
+        },
+        {
+          "de": "der Nachweis, die Nachweise",
+          "en": "proof"
+        },
+        {
+          "de": "die Krankenversicherung",
+          "en": "health insurance"
+        },
+        {
+          "de": "vorläufig",
+          "en": "temporary, provisional"
+        },
+        {
+          "de": "die Bescheinigung, die Bescheinigungen",
+          "en": "certificate, official paper"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Bei der Ausländerbehörde war es noch voller.",
+          "en": "At the immigration office it was even more crowded."
+        },
+        {
+          "de": "Maya hatte fast alles dabei: Pass, Meldebescheinigung, Ausbildungsvertrag und den Code für ihr digitales Passfoto.",
+          "en": "Maya had almost everything with her: passport, registration certificate, apprenticeship contract and the code for her digital passport photo."
+        },
+        {
+          "de": "Die Sachbearbeiterin, Frau Albrecht, blätterte langsam durch die Papiere.",
+          "en": "The caseworker, Frau Albrecht, slowly leafed through the papers."
+        },
+        {
+          "de": "„Und Ihr Nachweis über die Krankenversicherung?“",
+          "en": "“And your proof of health insurance?”"
+        },
+        {
+          "de": "Maya wurde blass.",
+          "en": "Maya went pale."
+        },
+        {
+          "de": "Das Papier lag zu Hause auf ihrem Schreibtisch.",
+          "en": "That paper was lying at home on her desk."
+        },
+        {
+          "de": "Zum Glück durfte sie es am Nachmittag per E-Mail schicken.",
+          "en": "Luckily she was allowed to send it by email that afternoon."
+        },
+        {
+          "de": "Eine Woche später bekam sie eine vorläufige Bescheinigung, in der die Arbeit im Radwerk ausdrücklich erlaubt war.",
+          "en": "A week later she received a temporary certificate expressly authorising her to work at Radwerk."
+        },
+        {
+          "de": "„Denken Sie daran“, sagte Frau Albrecht, „Ihre Erlaubnis hängt an dieser Ausbildung.“",
+          "en": "“Remember,” said Frau Albrecht, “your permit depends on this apprenticeship.”"
+        },
+        {
+          "de": "„Wenn die Ausbildung endet, müssen Sie uns sofort informieren.“",
+          "en": "“If the apprenticeship ends, you must inform us immediately.”"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "de": "Am 1. Oktober um halb acht stand Maya in der Werkstatt, in einer blauen Arbeitshose, die ihr viel zu groß war. Herr Brandt stellte ihr Jonas vor, der schon im letzten Lehrjahr war. Jonas war neunzehn, hatte lange Haare unter einer Mütze und grinste die ganze Zeit. „Hier gibt es nur drei Regeln“, sagte Herr Brandt. „Erstens: Seien Sie pünktlich.“ „Zweitens: Räumen Sie Ihr Werkzeug auf.“ „Drittens: Wir kontrollieren jedes Fahrrad, bevor es diese Werkstatt verlässt.“ Als er weg war, flüsterte Jonas: „Keine Sorge, er beißt nicht. Meistens.“",
+      "en": "On 1 October at half past seven, Maya stood in the workshop in blue work trousers that were far too big for her. Herr Brandt introduced her to Jonas, who was already in his final year of training. Jonas was nineteen, had long hair under a beanie and grinned the whole time. “There are only three rules here,” said Herr Brandt. “First: be on time.” “Second: put your tools away.” “Third: we check every bike before it leaves this workshop.” When he'd gone, Jonas whispered: “Don't worry, he doesn't bite. Usually.”",
+      "explain_en": "„halb acht“ is 7:30 (half way to eight). An apprenticeship is counted in „Lehrjahre“ (years of training). „Seien Sie pünktlich!“ and „Räumen Sie auf!“ are polite Sie-imperatives. “bevor” means “before” and sends the finite verb to the end of its clause. Remember rule number three!",
+      "words": [
+        {
+          "de": "das Lehrjahr, die Lehrjahre",
+          "en": "year of an apprenticeship"
+        },
+        {
+          "de": "vorstellen",
+          "en": "to introduce",
+          "note": "Er stellt ihr Jonas vor."
+        },
+        {
+          "de": "die Regel, die Regeln",
+          "en": "rule"
+        },
+        {
+          "de": "das Werkzeug, die Werkzeuge",
+          "en": "tool(s)"
+        },
+        {
+          "de": "aufräumen",
+          "en": "to tidy up, to put away"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am 1. Oktober um halb acht stand Maya in der Werkstatt, in einer blauen Arbeitshose, die ihr viel zu groß war.",
+          "en": "On 1 October at half past seven, Maya stood in the workshop in blue work trousers that were far too big for her."
+        },
+        {
+          "de": "Herr Brandt stellte ihr Jonas vor, der schon im letzten Lehrjahr war.",
+          "en": "Herr Brandt introduced her to Jonas, who was already in his final year of training."
+        },
+        {
+          "de": "Jonas war neunzehn, hatte lange Haare unter einer Mütze und grinste die ganze Zeit.",
+          "en": "Jonas was nineteen, had long hair under a beanie and grinned the whole time."
+        },
+        {
+          "de": "„Hier gibt es nur drei Regeln“, sagte Herr Brandt.",
+          "en": "“There are only three rules here,” said Herr Brandt."
+        },
+        {
+          "de": "„Erstens: Seien Sie pünktlich.“",
+          "en": "“First: be on time.”"
+        },
+        {
+          "de": "„Zweitens: Räumen Sie Ihr Werkzeug auf.“",
+          "en": "“Second: put your tools away.”"
+        },
+        {
+          "de": "„Drittens: Wir kontrollieren jedes Fahrrad, bevor es diese Werkstatt verlässt.“",
+          "en": "“Third: we check every bike before it leaves this workshop.”"
+        },
+        {
+          "de": "Als er weg war, flüsterte Jonas: „Keine Sorge, er beißt nicht.",
+          "en": "When he'd gone, Jonas whispered: “Don't worry, he doesn't bite."
+        },
+        {
+          "de": "Meistens.“",
+          "en": "Usually.”"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Zweimal pro Woche ging Maya in die Berufsschule, an den anderen Tagen arbeitete sie im Radwerk. So funktioniert die duale Ausbildung in Deutschland. Das Praktische fiel ihr leicht, aber die Fachsprache war schwer. Tretlager, Schaltwerk, Speichenspannung – sie hatte diese Wörter nie auf Deutsch gelernt. Jonas half ihr, obwohl er selbst viel zu tun hatte. In der Mittagspause schrieb er Wörter auf kleine Zettel und klebte sie an die Werkzeuge. „Damit du sie jeden Tag siehst“, erklärte er. Nach drei Wochen konnte Maya die meisten Teile benennen. Sie merkte, dass sie in Jonas einen echten Freund gefunden hatte.",
+      "en": "Twice a week Maya went to vocational school; on the other days she worked at Radwerk. That's how dual vocational training works in Germany. The practical side came easily to her, but the technical language was hard. Bottom bracket, rear derailleur, spoke tension – she had never learned these words in German. Jonas helped her, although he had a lot to do himself. In the lunch break he wrote words on little notes and stuck them on the tools. “So that you see them every day,” he explained. After three weeks Maya could name most of the parts. She realised that she had found a real friend in Jonas.",
+      "explain_en": "„Duale Ausbildung“ means two places: the company (practice) and the „Berufsschule“ (theory). „fiel ihr leicht“ comes from „leichtfallen“: something is easy for someone (the person is in the dative). „obwohl“ (although) and „damit“ (so that) send the verb to the end. „einen Freund“ here just means a friend – for a boyfriend Germans also say „Freund“, so context matters.",
+      "words": [
+        {
+          "de": "die Berufsschule, die Berufsschulen",
+          "en": "vocational school"
+        },
+        {
+          "de": "die Fachsprache",
+          "en": "technical language, jargon"
+        },
+        {
+          "de": "leichtfallen",
+          "en": "to be easy (for someone)",
+          "note": "Das fällt mir leicht."
+        },
+        {
+          "de": "der Zettel, die Zettel",
+          "en": "note, slip of paper"
+        },
+        {
+          "de": "benennen",
+          "en": "to name"
+        },
+        {
+          "de": "das Tretlager, die Tretlager",
+          "en": "bottom bracket"
+        },
+        {
+          "de": "das Schaltwerk, die Schaltwerke",
+          "en": "rear derailleur"
+        },
+        {
+          "de": "die Speichenspannung",
+          "en": "spoke tension"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Zweimal pro Woche ging Maya in die Berufsschule, an den anderen Tagen arbeitete sie im Radwerk.",
+          "en": "Twice a week Maya went to vocational school; on the other days she worked at Radwerk."
+        },
+        {
+          "de": "So funktioniert die duale Ausbildung in Deutschland.",
+          "en": "That's how dual vocational training works in Germany."
+        },
+        {
+          "de": "Das Praktische fiel ihr leicht, aber die Fachsprache war schwer.",
+          "en": "The practical side came easily to her, but the technical language was hard."
+        },
+        {
+          "de": "Tretlager, Schaltwerk, Speichenspannung – sie hatte diese Wörter nie auf Deutsch gelernt.",
+          "en": "Bottom bracket, rear derailleur, spoke tension – she had never learned these words in German."
+        },
+        {
+          "de": "Jonas half ihr, obwohl er selbst viel zu tun hatte.",
+          "en": "Jonas helped her, although he had a lot to do himself."
+        },
+        {
+          "de": "In der Mittagspause schrieb er Wörter auf kleine Zettel und klebte sie an die Werkzeuge.",
+          "en": "In the lunch break he wrote words on little notes and stuck them on the tools."
+        },
+        {
+          "de": "„Damit du sie jeden Tag siehst“, erklärte er.",
+          "en": "“So that you see them every day,” he explained."
+        },
+        {
+          "de": "Nach drei Wochen konnte Maya die meisten Teile benennen.",
+          "en": "After three weeks Maya could name most of the parts."
+        },
+        {
+          "de": "Sie merkte, dass sie in Jonas einen echten Freund gefunden hatte.",
+          "en": "She realised that she had found a real friend in Jonas."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "de": "An einem Samstag kam eine Kundin in die Werkstatt, die sehr wütend war. Frau Winter hatte ihr Fahrrad vor einer Woche zur Reparatur gebracht, und es war immer noch nicht fertig. Herr Brandt war nicht da, und Jonas versteckte sich hinter einem Regal. Maya atmete tief durch. „Es tut mir sehr leid, dass Sie warten mussten“, sagte sie ruhig. „Das Ersatzteil ist leider erst gestern gekommen.“ „Wenn Sie um drei Uhr wiederkommen könnten, wäre es bestimmt fertig.“ Frau Winter war überrascht, dass jemand so höflich mit ihr sprach, und nickte. Am Montag erzählte Herr Brandt, dass Frau Winter angerufen und Maya gelobt hatte.",
+      "en": "One Saturday a customer came into the workshop who was very angry. Frau Winter had brought her bike in for repair a week earlier, and it still wasn't ready. Herr Brandt wasn't there, and Jonas hid behind a shelf. Maya took a deep breath. “I'm very sorry you had to wait,” she said calmly. “Unfortunately the spare part only arrived yesterday.” “If you could come back at three o'clock, it would definitely be ready.” Frau Winter was surprised that someone was speaking to her so politely, and nodded. On Monday Herr Brandt said that Frau Winter had called and praised Maya.",
+      "explain_en": "Useful phrases for work: „Es tut mir sehr leid, dass …“ (I'm very sorry that …) and „Wenn Sie … könnten, wäre …“ – Konjunktiv II makes a request much softer and more polite. „leider“ (unfortunately) is a word you'll hear in every German shop. „tief durchatmen“ = to take a deep breath.",
+      "words": [
+        {
+          "de": "der Kunde / die Kundin",
+          "en": "customer"
+        },
+        {
+          "de": "wütend",
+          "en": "angry, furious"
+        },
+        {
+          "de": "das Ersatzteil, die Ersatzteile",
+          "en": "spare part"
+        },
+        {
+          "de": "höflich",
+          "en": "polite"
+        },
+        {
+          "de": "loben",
+          "en": "to praise"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "An einem Samstag kam eine Kundin in die Werkstatt, die sehr wütend war.",
+          "en": "One Saturday a customer came into the workshop who was very angry."
+        },
+        {
+          "de": "Frau Winter hatte ihr Fahrrad vor einer Woche zur Reparatur gebracht, und es war immer noch nicht fertig.",
+          "en": "Frau Winter had brought her bike in for repair a week earlier, and it still wasn't ready."
+        },
+        {
+          "de": "Herr Brandt war nicht da, und Jonas versteckte sich hinter einem Regal.",
+          "en": "Herr Brandt wasn't there, and Jonas hid behind a shelf."
+        },
+        {
+          "de": "Maya atmete tief durch.",
+          "en": "Maya took a deep breath."
+        },
+        {
+          "de": "„Es tut mir sehr leid, dass Sie warten mussten“, sagte sie ruhig.",
+          "en": "“I'm very sorry you had to wait,” she said calmly."
+        },
+        {
+          "de": "„Das Ersatzteil ist leider erst gestern gekommen.“",
+          "en": "“Unfortunately the spare part only arrived yesterday.”"
+        },
+        {
+          "de": "„Wenn Sie um drei Uhr wiederkommen könnten, wäre es bestimmt fertig.“",
+          "en": "“If you could come back at three o'clock, it would definitely be ready.”"
+        },
+        {
+          "de": "Frau Winter war überrascht, dass jemand so höflich mit ihr sprach, und nickte.",
+          "en": "Frau Winter was surprised that someone was speaking to her so politely, and nodded."
+        },
+        {
+          "de": "Am Montag erzählte Herr Brandt, dass Frau Winter angerufen und Maya gelobt hatte.",
+          "en": "On Monday Herr Brandt said that Frau Winter had called and praised Maya."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "de": "Nach der Arbeit gingen Maya und Jonas oft am Kanal spazieren. An einem kalten Abend im November war Jonas stiller als sonst. „Mein Vater ist krank“, sagte er plötzlich. „Er kann seit Monaten nicht arbeiten, und meine Mutter verdient nicht genug für uns vier.“ Deshalb jobbte Jonas nachts in einem Lager, obwohl er morgens um halb acht in der Werkstatt sein musste. „Weiß Herr Brandt das?“, fragte Maya. Jonas schüttelte den Kopf. „Und das soll auch so bleiben.“ „Versprich mir, dass du nichts sagst.“ Maya versprach es.",
+      "en": "After work Maya and Jonas often went for walks along the canal. One cold evening in November Jonas was quieter than usual. “My father is ill,” he said suddenly. “He hasn't been able to work for months, and my mum doesn't earn enough for the four of us.” That's why Jonas had a night job in a warehouse, even though he had to be at the workshop at half past seven in the morning. “Does Herr Brandt know?” Maya asked. Jonas shook his head. “And it's going to stay that way.” “Promise me you won't say anything.” Maya promised.",
+      "explain_en": "„Er kann seit Monaten nicht arbeiten“: with „seit“ German uses the present tense where English uses „has been / hasn't been able to“. „jobben“ is informal for doing a (side) job. „Das soll so bleiben“ = that's how it's supposed to stay. Watch the promise – it will cause trouble. Jonas is nineteen, so adult working-time rules apply: work across both jobs must normally leave eleven uninterrupted hours of rest before his next shift; the overnight schedule described here does not provide that rest.",
+      "words": [
+        {
+          "de": "verdienen",
+          "en": "to earn"
+        },
+        {
+          "de": "das Lager, die Lager",
+          "en": "warehouse, store room"
+        },
+        {
+          "de": "versprechen",
+          "en": "to promise",
+          "note": "er versprach, er hat versprochen"
+        },
+        {
+          "de": "den Kopf schütteln",
+          "en": "to shake your head"
+        },
+        {
+          "de": "sonst",
+          "en": "usually; otherwise",
+          "note": "stiller als sonst = quieter than usual"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Nach der Arbeit gingen Maya und Jonas oft am Kanal spazieren.",
+          "en": "After work Maya and Jonas often went for walks along the canal."
+        },
+        {
+          "de": "An einem kalten Abend im November war Jonas stiller als sonst.",
+          "en": "One cold evening in November Jonas was quieter than usual."
+        },
+        {
+          "de": "„Mein Vater ist krank“, sagte er plötzlich.",
+          "en": "“My father is ill,” he said suddenly."
+        },
+        {
+          "de": "„Er kann seit Monaten nicht arbeiten, und meine Mutter verdient nicht genug für uns vier.“",
+          "en": "“He hasn't been able to work for months, and my mum doesn't earn enough for the four of us.”"
+        },
+        {
+          "de": "Deshalb jobbte Jonas nachts in einem Lager, obwohl er morgens um halb acht in der Werkstatt sein musste.",
+          "en": "That's why Jonas had a night job in a warehouse, even though he had to be at the workshop at half past seven in the morning."
+        },
+        {
+          "de": "„Weiß Herr Brandt das?“, fragte Maya.",
+          "en": "“Does Herr Brandt know?” Maya asked."
+        },
+        {
+          "de": "Jonas schüttelte den Kopf.",
+          "en": "Jonas shook his head."
+        },
+        {
+          "de": "„Und das soll auch so bleiben.“",
+          "en": "“And it's going to stay that way.”"
+        },
+        {
+          "de": "„Versprich mir, dass du nichts sagst.“",
+          "en": "“Promise me you won't say anything.”"
+        },
+        {
+          "de": "Maya versprach es.",
+          "en": "Maya promised."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "de": "Ende November gab es plötzlich sehr viel Arbeit, weil eine große Firma zwanzig Dienst-E-Bikes zur Inspektion gebracht hatte. Alle arbeiteten länger, auch Jonas, der immer müder aussah. Einmal schlief er in der Pause auf einem Stapel Reifen ein. Ein anderes Mal vergaß er, eine Kette zu ölen, und Maya machte es heimlich für ihn. „Du bist die Beste“, flüsterte er. Maya lächelte, aber ein komisches Gefühl blieb. Sie wusste, dass Herr Brandt keine Fehler mochte, besonders nicht während der Probezeit, die bei ihr erst Ende Januar endete.",
+      "en": "At the end of November there was suddenly a lot of work, because a big company had brought in twenty company e-bikes for a service. Everyone worked longer hours, including Jonas, who looked more and more tired. Once he fell asleep on a pile of tyres during the break. Another time he forgot to oil a chain, and Maya secretly did it for him. “You're the best,” he whispered. Maya smiled, but a strange feeling stayed with her. She knew that Herr Brandt didn't like mistakes, especially not during the probation period, which in her case didn't end until the end of January.",
+      "explain_en": "„immer müder“ = more and more tired („immer“ + comparative). Every apprenticeship starts with a „Probezeit“ (probation period) of one to four months; during this time either side can end the contract without giving a reason. „während“ (during) takes the genitive: „während der Probezeit“.",
+      "words": [
+        {
+          "de": "die Inspektion, die Inspektionen",
+          "en": "service, inspection"
+        },
+        {
+          "de": "die Kette, die Ketten",
+          "en": "chain"
+        },
+        {
+          "de": "heimlich",
+          "en": "secretly"
+        },
+        {
+          "de": "die Probezeit",
+          "en": "probation period"
+        },
+        {
+          "de": "einschlafen",
+          "en": "to fall asleep"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Ende November gab es plötzlich sehr viel Arbeit, weil eine große Firma zwanzig Dienst-E-Bikes zur Inspektion gebracht hatte.",
+          "en": "At the end of November there was suddenly a lot of work, because a big company had brought in twenty company e-bikes for a service."
+        },
+        {
+          "de": "Alle arbeiteten länger, auch Jonas, der immer müder aussah.",
+          "en": "Everyone worked longer hours, including Jonas, who looked more and more tired."
+        },
+        {
+          "de": "Einmal schlief er in der Pause auf einem Stapel Reifen ein.",
+          "en": "Once he fell asleep on a pile of tyres during the break."
+        },
+        {
+          "de": "Ein anderes Mal vergaß er, eine Kette zu ölen, und Maya machte es heimlich für ihn.",
+          "en": "Another time he forgot to oil a chain, and Maya secretly did it for him."
+        },
+        {
+          "de": "„Du bist die Beste“, flüsterte er.",
+          "en": "“You're the best,” he whispered."
+        },
+        {
+          "de": "Maya lächelte, aber ein komisches Gefühl blieb.",
+          "en": "Maya smiled, but a strange feeling stayed with her."
+        },
+        {
+          "de": "Sie wusste, dass Herr Brandt keine Fehler mochte, besonders nicht während der Probezeit, die bei ihr erst Ende Januar endete.",
+          "en": "She knew that Herr Brandt didn't like mistakes, especially not during the probation period, which in her case didn't end until the end of January."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "de": "Am Freitagabend war nur noch ein E-Bike übrig. Es gehörte Herrn Seidel, einem älteren Herrn, der es am Samstagmorgen abholen wollte. Maya hatte die neuen Bremsscheiben eingebaut, und Jonas sollte zum Schluss alle Schrauben kontrollieren. „Geh ruhig nach Hause“, sagte er. „Ich mache das schon.“ Maya zögerte. Eigentlich wollte sie bleiben, bis alles fertig war. Auf dem Auftragszettel fehlte noch eine Unterschrift. „Unterschreib du einfach“, sagte Jonas, „meine Hände sind voller Öl.“ Maya unterschrieb, nahm ihre Jacke und ging. Sie dachte nicht mehr daran – bis Montag.",
+      "en": "On Friday evening there was only one e-bike left. It belonged to Herr Seidel, an elderly gentleman who wanted to pick it up on Saturday morning. Maya had fitted the new brake discs, and Jonas was supposed to check all the screws at the end. “Go on home,” he said. “I'll take care of it.” Maya hesitated. She had actually wanted to stay until everything was finished. A signature was still missing on the work order. “You just sign,” said Jonas, “my hands are covered in oil.” Maya signed, took her jacket and left. She didn't think about it again – until Monday.",
+      "explain_en": "„Jonas sollte … kontrollieren“ = Jonas was supposed to check („sollen“ in the past). „Geh ruhig nach Hause“ – „ruhig“ here doesn't mean quiet; it means „go ahead, it's fine“. „Ich mache das schon“ = don't worry, I'll do it. An „Auftragszettel“ is the work order that goes with each repair.",
+      "words": [
+        {
+          "de": "abholen",
+          "en": "to pick up, to collect"
+        },
+        {
+          "de": "die Schraube, die Schrauben",
+          "en": "screw, bolt"
+        },
+        {
+          "de": "die Bremsscheibe, die Bremsscheiben",
+          "en": "brake disc"
+        },
+        {
+          "de": "der Auftrag, die Aufträge",
+          "en": "order, job",
+          "note": "der Auftragszettel = work order"
+        },
+        {
+          "de": "unterschreiben",
+          "en": "to sign"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Freitagabend war nur noch ein E-Bike übrig.",
+          "en": "On Friday evening there was only one e-bike left."
+        },
+        {
+          "de": "Es gehörte Herrn Seidel, einem älteren Herrn, der es am Samstagmorgen abholen wollte.",
+          "en": "It belonged to Herr Seidel, an elderly gentleman who wanted to pick it up on Saturday morning."
+        },
+        {
+          "de": "Maya hatte die neuen Bremsscheiben eingebaut, und Jonas sollte zum Schluss alle Schrauben kontrollieren.",
+          "en": "Maya had fitted the new brake discs, and Jonas was supposed to check all the screws at the end."
+        },
+        {
+          "de": "„Geh ruhig nach Hause“, sagte er.",
+          "en": "“Go on home,” he said."
+        },
+        {
+          "de": "„Ich mache das schon.“",
+          "en": "“I'll take care of it.”"
+        },
+        {
+          "de": "Maya zögerte.",
+          "en": "Maya hesitated."
+        },
+        {
+          "de": "Eigentlich wollte sie bleiben, bis alles fertig war.",
+          "en": "She had actually wanted to stay until everything was finished."
+        },
+        {
+          "de": "Auf dem Auftragszettel fehlte noch eine Unterschrift.",
+          "en": "A signature was still missing on the work order."
+        },
+        {
+          "de": "„Unterschreib du einfach“, sagte Jonas, „meine Hände sind voller Öl.“",
+          "en": "“You just sign,” said Jonas, “my hands are covered in oil.”"
+        },
+        {
+          "de": "Maya unterschrieb, nahm ihre Jacke und ging.",
+          "en": "Maya signed, took her jacket and left."
+        },
+        {
+          "de": "Sie dachte nicht mehr daran – bis Montag.",
+          "en": "She didn't think about it again – until Monday."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "de": "Als Maya am Montag in die Werkstatt kam, war die Stimmung eisig. Frau Yilmaz sah sie nicht an, und Jonas war noch nicht da. „Frau Clarke, in mein Büro, bitte“, sagte Herr Brandt. Auf seinem Schreibtisch lag der Auftragszettel mit ihrer Unterschrift. „Herr Seidel ist am Samstag gestürzt“, sagte er. „Die vordere Bremse hat sich gelöst, weil eine Schraube nicht festgezogen war.“ „Er hat sich das Handgelenk gebrochen.“ Maya spürte, wie ihr Herz raste. „Er war in Lebensgefahr“, sagte Herr Brandt leise.",
+      "en": "When Maya came into the workshop on Monday, the atmosphere was icy. Frau Yilmaz didn't look at her, and Jonas wasn't there yet. “Ms Clarke, my office, please,” said Herr Brandt. On his desk lay the work order with her signature. “Herr Seidel had a fall on Saturday,” he said. “The front brake came loose because a screw hadn't been tightened.” “He broke his wrist.” Maya felt her heart racing. “His life was in danger,” Herr Brandt said quietly.",
+      "explain_en": "„stürzen“ means to fall (off a bike, down stairs) and takes „sein“ in the perfect: „er ist gestürzt“. „war nicht festgezogen“ describes a state: the screw was not tight. „Er hat sich das Handgelenk gebrochen“ – for body parts German uses „sich“ + „das“, not „his“. “in Lebensgefahr sein” means that someone's life is in danger.",
+      "words": [
+        {
+          "de": "die Stimmung",
+          "en": "mood, atmosphere"
+        },
+        {
+          "de": "stürzen",
+          "en": "to fall, to have a fall"
+        },
+        {
+          "de": "sich lösen",
+          "en": "to come loose"
+        },
+        {
+          "de": "festziehen",
+          "en": "to tighten"
+        },
+        {
+          "de": "das Handgelenk, die Handgelenke",
+          "en": "wrist"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Als Maya am Montag in die Werkstatt kam, war die Stimmung eisig.",
+          "en": "When Maya came into the workshop on Monday, the atmosphere was icy."
+        },
+        {
+          "de": "Frau Yilmaz sah sie nicht an, und Jonas war noch nicht da.",
+          "en": "Frau Yilmaz didn't look at her, and Jonas wasn't there yet."
+        },
+        {
+          "de": "„Frau Clarke, in mein Büro, bitte“, sagte Herr Brandt.",
+          "en": "“Ms Clarke, my office, please,” said Herr Brandt."
+        },
+        {
+          "de": "Auf seinem Schreibtisch lag der Auftragszettel mit ihrer Unterschrift.",
+          "en": "On his desk lay the work order with her signature."
+        },
+        {
+          "de": "„Herr Seidel ist am Samstag gestürzt“, sagte er.",
+          "en": "“Herr Seidel had a fall on Saturday,” he said."
+        },
+        {
+          "de": "„Die vordere Bremse hat sich gelöst, weil eine Schraube nicht festgezogen war.“",
+          "en": "“The front brake came loose because a screw hadn't been tightened.”"
+        },
+        {
+          "de": "„Er hat sich das Handgelenk gebrochen.“",
+          "en": "“He broke his wrist.”"
+        },
+        {
+          "de": "Maya spürte, wie ihr Herz raste.",
+          "en": "Maya felt her heart racing."
+        },
+        {
+          "de": "„Er war in Lebensgefahr“, sagte Herr Brandt leise.",
+          "en": "“His life was in danger,” Herr Brandt said quietly."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "de": "„Das war nicht ich“, wollte Maya sagen, aber dann dachte sie an Jonas und an ihr Versprechen. „Ich habe die Bremsscheiben eingebaut“, begann sie vorsichtig. „Und Sie haben unterschrieben, dass alles kontrolliert ist“, unterbrach er sie. „Wissen Sie, was diese Unterschrift bedeutet?“ „Sie bedeutet: Ich übernehme die Verantwortung.“ Er stand auf und sah aus dem Fenster. „Sie sind noch in der Probezeit, Frau Clarke.“ „Ich muss mir überlegen, ob Sie hier richtig sind.“ „Am Freitag sage ich Ihnen, wie ich mich entschieden habe.“",
+      "en": "“It wasn't me,” Maya wanted to say, but then she thought of Jonas and of her promise. “I fitted the brake discs,” she began carefully. “And you signed to say that everything had been checked,” he interrupted her. “Do you know what that signature means?” “It means: I take responsibility.” He stood up and looked out of the window. “You're still on probation, Ms Clarke.” “I have to think about whether you're right for this place.” “On Friday I'll tell you what I've decided.”",
+      "explain_en": "„die Verantwortung übernehmen“ (to take responsibility) is an important phrase in working life. Brandt mentions the „Probezeit“ on purpose: during probation he could end her apprenticeship without a reason – and then her residence permit would be in danger too. „sich überlegen, ob …“ = to think about whether …",
+      "words": [
+        {
+          "de": "die Verantwortung",
+          "en": "responsibility"
+        },
+        {
+          "de": "übernehmen",
+          "en": "to take on, to take over"
+        },
+        {
+          "de": "unterbrechen",
+          "en": "to interrupt"
+        },
+        {
+          "de": "sich entscheiden",
+          "en": "to decide"
+        },
+        {
+          "de": "vorsichtig",
+          "en": "careful(ly)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "„Das war nicht ich“, wollte Maya sagen, aber dann dachte sie an Jonas und an ihr Versprechen.",
+          "en": "“It wasn't me,” Maya wanted to say, but then she thought of Jonas and of her promise."
+        },
+        {
+          "de": "„Ich habe die Bremsscheiben eingebaut“, begann sie vorsichtig.",
+          "en": "“I fitted the brake discs,” she began carefully."
+        },
+        {
+          "de": "„Und Sie haben unterschrieben, dass alles kontrolliert ist“, unterbrach er sie.",
+          "en": "“And you signed to say that everything had been checked,” he interrupted her."
+        },
+        {
+          "de": "„Wissen Sie, was diese Unterschrift bedeutet?“",
+          "en": "“Do you know what that signature means?”"
+        },
+        {
+          "de": "„Sie bedeutet: Ich übernehme die Verantwortung.“",
+          "en": "“It means: I take responsibility.”"
+        },
+        {
+          "de": "Er stand auf und sah aus dem Fenster.",
+          "en": "He stood up and looked out of the window."
+        },
+        {
+          "de": "„Sie sind noch in der Probezeit, Frau Clarke.“",
+          "en": "“You're still on probation, Ms Clarke.”"
+        },
+        {
+          "de": "„Ich muss mir überlegen, ob Sie hier richtig sind.“",
+          "en": "“I have to think about whether you're right for this place.”"
+        },
+        {
+          "de": "„Am Freitag sage ich Ihnen, wie ich mich entschieden habe.“",
+          "en": "“On Friday I'll tell you what I've decided.”"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "de": "Zu Hause saß Maya lange in der Küche, ohne etwas zu essen. Wenn Herr Brandt sie entließ, verlor sie nicht nur ihren Ausbildungsplatz, sondern vielleicht auch ihre Aufenthaltserlaubnis. Dann müsste sie Deutschland verlassen. Lena setzte sich zu ihr. „An deiner Stelle würde ich die Wahrheit sagen“, meinte sie. „Du hast Jonas geholfen, und jetzt bezahlst du dafür.“ Tarek, der an der Tür stand, schüttelte den Kopf. „Sprich zuerst mit Jonas“, sagte er. „Er sollte die Chance haben, es selbst zu erklären.“",
+      "en": "At home Maya sat in the kitchen for a long time without eating anything. If Herr Brandt let her go, she would lose not only her apprenticeship but maybe her residence permit too. Then she would have to leave Germany. Lena sat down next to her. “If I were you, I'd tell the truth,” she said. “You helped Jonas, and now you're paying for it.” Tarek, who was standing at the door, shook his head. “Talk to Jonas first,” he said. “He should get the chance to explain it himself.”",
+      "explain_en": "„An deiner Stelle würde ich …“ (in your place I would …) is the classic way to give advice with Konjunktiv II. „nicht nur …, sondern auch …“ = not only … but also. „entlassen“ is the official word for firing someone; in everyday German people say „rauswerfen“ or „kündigen“. „ohne etwas zu essen“ = without eating anything.",
+      "words": [
+        {
+          "de": "entlassen",
+          "en": "to dismiss, to fire"
+        },
+        {
+          "de": "verlassen",
+          "en": "to leave (a place)"
+        },
+        {
+          "de": "die Wahrheit",
+          "en": "truth"
+        },
+        {
+          "de": "an deiner Stelle",
+          "en": "if I were you, in your place"
+        },
+        {
+          "de": "meinen",
+          "en": "to say, to think (give an opinion)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Zu Hause saß Maya lange in der Küche, ohne etwas zu essen.",
+          "en": "At home Maya sat in the kitchen for a long time without eating anything."
+        },
+        {
+          "de": "Wenn Herr Brandt sie entließ, verlor sie nicht nur ihren Ausbildungsplatz, sondern vielleicht auch ihre Aufenthaltserlaubnis.",
+          "en": "If Herr Brandt let her go, she would lose not only her apprenticeship but maybe her residence permit too."
+        },
+        {
+          "de": "Dann müsste sie Deutschland verlassen.",
+          "en": "Then she would have to leave Germany."
+        },
+        {
+          "de": "Lena setzte sich zu ihr.",
+          "en": "Lena sat down next to her."
+        },
+        {
+          "de": "„An deiner Stelle würde ich die Wahrheit sagen“, meinte sie.",
+          "en": "“If I were you, I'd tell the truth,” she said."
+        },
+        {
+          "de": "„Du hast Jonas geholfen, und jetzt bezahlst du dafür.“",
+          "en": "“You helped Jonas, and now you're paying for it.”"
+        },
+        {
+          "de": "Tarek, der an der Tür stand, schüttelte den Kopf.",
+          "en": "Tarek, who was standing at the door, shook his head."
+        },
+        {
+          "de": "„Sprich zuerst mit Jonas“, sagte er.",
+          "en": "“Talk to Jonas first,” he said."
+        },
+        {
+          "de": "„Er sollte die Chance haben, es selbst zu erklären.“",
+          "en": "“He should get the chance to explain it himself.”"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Am nächsten Abend wartete Maya vor dem Lager, in dem Jonas nachts arbeitete. Er sah furchtbar aus, als er sie bemerkte. „Ich weiß“, sagte er sofort. „Ich habe die Schraube vergessen, weil ich so müde war.“ „Dann sag es Herrn Brandt“, bat Maya. „Das kann ich nicht!“, rief Jonas. „Ich habe schon eine Abmahnung, weil ich zu oft zu spät gekommen bin.“ „Wenn er mich rauswirft, kann meine Familie die Miete nicht mehr bezahlen.“ Er sah sie an. „Bitte, Maya.“ „Du hast es mir versprochen.“",
+      "en": "The next evening Maya waited outside the warehouse where Jonas worked at night. He looked terrible when he noticed her. “I know,” he said straight away. “I forgot the screw because I was so tired.” “Then tell Herr Brandt,” Maya begged. “I can't!” Jonas shouted. “I've already got a formal warning because I was late too often.” “If he throws me out, my family won't be able to pay the rent any more.” He looked at her. “Please, Maya.” “You promised me.”",
+      "explain_en": "An “Abmahnung” is a formal warning, usually given in writing, that identifies misconduct and warns of possible dismissal if it happens again. A warning for lateness does not automatically make a different mistake grounds for dismissal; the seriousness and circumstances matter. „rauswerfen“ (to throw out) is informal for firing. „in dem Jonas nachts arbeitete“ is a relative clause: in which / where Jonas worked at night.",
+      "words": [
+        {
+          "de": "die Abmahnung, die Abmahnungen",
+          "en": "formal warning (at work), usually in writing"
+        },
+        {
+          "de": "rauswerfen",
+          "en": "to throw out, to fire (informal)"
+        },
+        {
+          "de": "bitten",
+          "en": "to ask, to beg",
+          "note": "sie bat, sie hat gebeten"
+        },
+        {
+          "de": "furchtbar",
+          "en": "terrible, awful"
+        },
+        {
+          "de": "die Miete, die Mieten",
+          "en": "rent"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am nächsten Abend wartete Maya vor dem Lager, in dem Jonas nachts arbeitete.",
+          "en": "The next evening Maya waited outside the warehouse where Jonas worked at night."
+        },
+        {
+          "de": "Er sah furchtbar aus, als er sie bemerkte.",
+          "en": "He looked terrible when he noticed her."
+        },
+        {
+          "de": "„Ich weiß“, sagte er sofort.",
+          "en": "“I know,” he said straight away."
+        },
+        {
+          "de": "„Ich habe die Schraube vergessen, weil ich so müde war.“",
+          "en": "“I forgot the screw because I was so tired.”"
+        },
+        {
+          "de": "„Dann sag es Herrn Brandt“, bat Maya.",
+          "en": "“Then tell Herr Brandt,” Maya begged."
+        },
+        {
+          "de": "„Das kann ich nicht!“, rief Jonas.",
+          "en": "“I can't!” Jonas shouted."
+        },
+        {
+          "de": "„Ich habe schon eine Abmahnung, weil ich zu oft zu spät gekommen bin.“",
+          "en": "“I've already got a formal warning because I was late too often.”"
+        },
+        {
+          "de": "„Wenn er mich rauswirft, kann meine Familie die Miete nicht mehr bezahlen.“",
+          "en": "“If he throws me out, my family won't be able to pay the rent any more.”"
+        },
+        {
+          "de": "Er sah sie an.",
+          "en": "He looked at her."
+        },
+        {
+          "de": "„Bitte, Maya.“",
+          "en": "“Please, Maya.”"
+        },
+        {
+          "de": "„Du hast es mir versprochen.“",
+          "en": "“You promised me.”"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "de": "Am Mittwoch sprach sie in der Berufsschule ein junger Mann an. Er hieß Felix, war Mitte zwanzig und hatte ein Start-up gegründet, das Pakete mit Lastenrädern lieferte. „Ich habe gehört, dass du richtig gut bist“, sagte er. „Wir suchen dringend jemanden, der unsere Räder repariert.“ „Du würdest doppelt so viel verdienen wie in deiner Ausbildung.“ Das klang wie die Lösung aller Probleme. „Und meine Aufenthaltserlaubnis?“, fragte Maya. „Ach, das kriegen wir schon irgendwie hin“, sagte Felix und lachte. Genau dieses „irgendwie“ machte Maya Angst.",
+      "en": "On Wednesday a young man came up to her at vocational school. His name was Felix, he was in his mid-twenties and he had founded a start-up that delivered parcels by cargo bike. “I've heard you're really good,” he said. “We urgently need someone to repair our bikes.” “You'd earn twice as much as in your apprenticeship.” It sounded like the solution to all her problems. “And my residence permit?” Maya asked. “Oh, we'll sort that out somehow,” said Felix, laughing. It was exactly that “somehow” that scared Maya.",
+      "explain_en": "Word order trick: „Am Mittwoch sprach sie … ein junger Mann an“ – the subject is „ein junger Mann“ (nominative), „sie“ is the object: a young man spoke to her. „jemanden ansprechen“ = to go up and talk to someone. „etwas hinkriegen“ is informal for „to manage, to sort out“. Apprentices in Germany earn a small training wage, so the offer sounds tempting.",
+      "words": [
+        {
+          "de": "ansprechen",
+          "en": "to speak to, to approach (someone)"
+        },
+        {
+          "de": "gründen",
+          "en": "to found, to start (a company)"
+        },
+        {
+          "de": "das Lastenrad, die Lastenräder",
+          "en": "cargo bike"
+        },
+        {
+          "de": "liefern",
+          "en": "to deliver"
+        },
+        {
+          "de": "dringend",
+          "en": "urgent(ly)"
+        },
+        {
+          "de": "die Lösung, die Lösungen",
+          "en": "solution"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Mittwoch sprach sie in der Berufsschule ein junger Mann an.",
+          "en": "On Wednesday a young man came up to her at vocational school."
+        },
+        {
+          "de": "Er hieß Felix, war Mitte zwanzig und hatte ein Start-up gegründet, das Pakete mit Lastenrädern lieferte.",
+          "en": "His name was Felix, he was in his mid-twenties and he had founded a start-up that delivered parcels by cargo bike."
+        },
+        {
+          "de": "„Ich habe gehört, dass du richtig gut bist“, sagte er.",
+          "en": "“I've heard you're really good,” he said."
+        },
+        {
+          "de": "„Wir suchen dringend jemanden, der unsere Räder repariert.“",
+          "en": "“We urgently need someone to repair our bikes.”"
+        },
+        {
+          "de": "„Du würdest doppelt so viel verdienen wie in deiner Ausbildung.“",
+          "en": "“You'd earn twice as much as in your apprenticeship.”"
+        },
+        {
+          "de": "Das klang wie die Lösung aller Probleme.",
+          "en": "It sounded like the solution to all her problems."
+        },
+        {
+          "de": "„Und meine Aufenthaltserlaubnis?“, fragte Maya.",
+          "en": "“And my residence permit?” Maya asked."
+        },
+        {
+          "de": "„Ach, das kriegen wir schon irgendwie hin“, sagte Felix und lachte.",
+          "en": "“Oh, we'll sort that out somehow,” said Felix, laughing."
+        },
+        {
+          "de": "Genau dieses „irgendwie“ machte Maya Angst.",
+          "en": "It was exactly that “somehow” that scared Maya."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "de": "Am Mittwochnachmittag fragte Maya Frau Yilmaz vorsichtig, was passieren würde, wenn eine Ausbildung abgebrochen wird. „Dann müsste die Ausländerbehörde informiert werden“, erklärte Frau Yilmaz. „Wenn Sie Ihren Ausbildungsplatz ohne eigenes Verschulden verlieren, bekommen Sie bis zu sechs Monate Zeit, um einen neuen zu suchen.“ „Auch als Kanadierin dürfen Sie einen anderen Job erst mit der passenden Erlaubnis anfangen.“ Auf Felix allein konnte sie sich also nicht verlassen, dachte Maya. Frau Yilmaz sah sie lange an. „Ich arbeite seit zwölf Jahren hier“, sagte sie dann. „Ich merke, wenn jemand etwas verschweigt.“ „Überlegen Sie gut, wen Sie schützen wollen.“",
+      "en": "On Wednesday afternoon Maya carefully asked Frau Yilmaz what would happen if an apprenticeship was ended early. “Then the immigration office would have to be informed,” Frau Yilmaz explained. “If you lose your apprenticeship through no fault of your own, you are given up to six months to look for another one.” “Even as a Canadian, you may only start another job once you have the appropriate permission.” So she couldn't rely on Felix alone, Maya thought. Frau Yilmaz looked at her for a long time. “I've been working here for twelve years,” she then said. “I can tell when someone is keeping something back.” “Think carefully about who you want to protect.”",
+      "explain_en": "„abgebrochen wird“ and „informiert werden“ are passive: the action matters, not who does it. „abbrechen“ means to break off – „eine Ausbildung abbrechen“ is to drop out of an apprenticeship. „um einen neuen zu suchen“ = in order to look for a new one. „verschweigen“ = to keep quiet about something on purpose. Canadian citizens can sometimes obtain permission for employment without a completed vocational qualification, but a job offer alone does not authorise them to start work.",
+      "words": [
+        {
+          "de": "abbrechen",
+          "en": "to break off, to drop out of"
+        },
+        {
+          "de": "sich verlassen auf",
+          "en": "to rely on",
+          "note": "+ accusative"
+        },
+        {
+          "de": "das Verschulden",
+          "en": "fault, blame",
+          "note": "ohne eigenes Verschulden = through no fault of your own"
+        },
+        {
+          "de": "verschweigen",
+          "en": "to keep quiet about, to hide"
+        },
+        {
+          "de": "schützen",
+          "en": "to protect"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Mittwochnachmittag fragte Maya Frau Yilmaz vorsichtig, was passieren würde, wenn eine Ausbildung abgebrochen wird.",
+          "en": "On Wednesday afternoon Maya carefully asked Frau Yilmaz what would happen if an apprenticeship was ended early."
+        },
+        {
+          "de": "„Dann müsste die Ausländerbehörde informiert werden“, erklärte Frau Yilmaz.",
+          "en": "“Then the immigration office would have to be informed,” Frau Yilmaz explained."
+        },
+        {
+          "de": "„Wenn Sie Ihren Ausbildungsplatz ohne eigenes Verschulden verlieren, bekommen Sie bis zu sechs Monate Zeit, um einen neuen zu suchen.“",
+          "en": "“If you lose your apprenticeship through no fault of your own, you are given up to six months to look for another one.”"
+        },
+        {
+          "de": "„Auch als Kanadierin dürfen Sie einen anderen Job erst mit der passenden Erlaubnis anfangen.“",
+          "en": "“Even as a Canadian, you may only start another job once you have the appropriate permission.”"
+        },
+        {
+          "de": "Auf Felix allein konnte sie sich also nicht verlassen, dachte Maya.",
+          "en": "So she couldn't rely on Felix alone, Maya thought."
+        },
+        {
+          "de": "Frau Yilmaz sah sie lange an.",
+          "en": "Frau Yilmaz looked at her for a long time."
+        },
+        {
+          "de": "„Ich arbeite seit zwölf Jahren hier“, sagte sie dann.",
+          "en": "“I've been working here for twelve years,” she then said."
+        },
+        {
+          "de": "„Ich merke, wenn jemand etwas verschweigt.“",
+          "en": "“I can tell when someone is keeping something back.”"
+        },
+        {
+          "de": "„Überlegen Sie gut, wen Sie schützen wollen.“",
+          "en": "“Think carefully about who you want to protect.”"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "de": "In dieser Nacht konnte Maya nicht schlafen. Sie dachte an ihren Großvater und an seinen Satz: Ein Fahrrad ist ehrlich. Und sie? War sie ehrlich, wenn sie schwieg, damit Jonas keine Probleme bekam? Herr Seidel hatte sich verletzt, und beim nächsten Mal könnte es noch schlimmer sein. Wenn niemand die Wahrheit sagte, würde sich nichts ändern. Gegen drei Uhr morgens stand sie auf und schrieb Jonas eine Nachricht. „Wir müssen reden, heute um sieben vor der Werkstatt.“ Dann schlief sie endlich ein.",
+      "en": "That night Maya couldn't sleep. She thought of her grandfather and his saying: a bike is honest. And what about her? Was she being honest if she kept quiet so that Jonas didn't get into trouble? Herr Seidel had been hurt, and next time it could be even worse. If nobody told the truth, nothing would change. At around three in the morning she got up and wrote Jonas a message. “We need to talk, today at seven outside the workshop.” Then at last she fell asleep.",
+      "explain_en": "The idea from unit 4 comes back: „Ein Fahrrad ist ehrlich.“ „damit“ (so that) introduces a purpose clause – verb at the end. „könnte“ (could) and „würde … ändern“ (would change) are Konjunktiv II for possible situations. „sich verletzen“ = to get hurt, to injure yourself.",
+      "words": [
+        {
+          "de": "schweigen",
+          "en": "to be silent, to say nothing",
+          "note": "sie schwieg, sie hat geschwiegen"
+        },
+        {
+          "de": "sich verletzen",
+          "en": "to hurt yourself, to get injured"
+        },
+        {
+          "de": "schlimm",
+          "en": "bad"
+        },
+        {
+          "de": "ändern",
+          "en": "to change",
+          "note": "sich ändern = to change (by itself)"
+        },
+        {
+          "de": "die Nachricht, die Nachrichten",
+          "en": "message; (plural) the news"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "In dieser Nacht konnte Maya nicht schlafen.",
+          "en": "That night Maya couldn't sleep."
+        },
+        {
+          "de": "Sie dachte an ihren Großvater und an seinen Satz: Ein Fahrrad ist ehrlich.",
+          "en": "She thought of her grandfather and his saying: a bike is honest."
+        },
+        {
+          "de": "Und sie?",
+          "en": "And what about her?"
+        },
+        {
+          "de": "War sie ehrlich, wenn sie schwieg, damit Jonas keine Probleme bekam?",
+          "en": "Was she being honest if she kept quiet so that Jonas didn't get into trouble?"
+        },
+        {
+          "de": "Herr Seidel hatte sich verletzt, und beim nächsten Mal könnte es noch schlimmer sein.",
+          "en": "Herr Seidel had been hurt, and next time it could be even worse."
+        },
+        {
+          "de": "Wenn niemand die Wahrheit sagte, würde sich nichts ändern.",
+          "en": "If nobody told the truth, nothing would change."
+        },
+        {
+          "de": "Gegen drei Uhr morgens stand sie auf und schrieb Jonas eine Nachricht.",
+          "en": "At around three in the morning she got up and wrote Jonas a message."
+        },
+        {
+          "de": "„Wir müssen reden, heute um sieben vor der Werkstatt.“",
+          "en": "“We need to talk, today at seven outside the workshop.”"
+        },
+        {
+          "de": "Dann schlief sie endlich ein.",
+          "en": "Then at last she fell asleep."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "de": "Jonas wartete schon, als sie kam. Er hielt einen Kaffee in einem Pappbecher und sah sehr müde aus. „Morgen früh um neun entscheidet Herr Brandt über meine Ausbildung“, sagte Maya. „Ich weiß, dass ich dir etwas versprochen habe.“ „Aber ich werde nicht für einen Fehler bezahlen, den ich nicht gemacht habe.“ „Entweder du sagst es ihm bis morgen selbst, oder ich tue es.“ Jonas starrte sie an. „Ich dachte, du wärst meine Freundin“, sagte er bitter. Dann warf er den Becher in den Müll und ging weg.",
+      "en": "Jonas was already waiting when she arrived. He was holding a coffee in a paper cup and looked very tired. “Tomorrow morning at nine Herr Brandt decides about my apprenticeship,” said Maya. “I know that I promised you something.” “But I'm not going to pay for a mistake I didn't make.” “Either you tell him yourself by tomorrow, or I will.” Jonas stared at her. “I thought you were my friend,” he said bitterly. Then he threw the cup in the bin and walked away.",
+      "explain_en": "“müde aussehen” means “to look tired”: er sieht müde aus, er sah müde aus. „entweder … oder …“ = either … or. „den ich nicht gemacht habe“ is a relative clause in the accusative. „meine Freundin“ can mean „my friend“ or „my girlfriend“ – here it's friend.",
+      "words": [
+        {
+          "de": "aussehen",
+          "en": "to look (appear)",
+          "note": "er sieht müde aus"
+        },
+        {
+          "de": "der Fehler, die Fehler",
+          "en": "mistake"
+        },
+        {
+          "de": "entweder … oder",
+          "en": "either … or"
+        },
+        {
+          "de": "anstarren",
+          "en": "to stare at"
+        },
+        {
+          "de": "der Müll",
+          "en": "rubbish, waste; in den Müll werfen = to throw in the bin"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Jonas wartete schon, als sie kam.",
+          "en": "Jonas was already waiting when she arrived."
+        },
+        {
+          "de": "Er hielt einen Kaffee in einem Pappbecher und sah sehr müde aus.",
+          "en": "He was holding a coffee in a paper cup and looked very tired."
+        },
+        {
+          "de": "„Morgen früh um neun entscheidet Herr Brandt über meine Ausbildung“, sagte Maya.",
+          "en": "“Tomorrow morning at nine Herr Brandt decides about my apprenticeship,” said Maya."
+        },
+        {
+          "de": "„Ich weiß, dass ich dir etwas versprochen habe.“",
+          "en": "“I know that I promised you something.”"
+        },
+        {
+          "de": "„Aber ich werde nicht für einen Fehler bezahlen, den ich nicht gemacht habe.“",
+          "en": "“But I'm not going to pay for a mistake I didn't make.”"
+        },
+        {
+          "de": "„Entweder du sagst es ihm bis morgen selbst, oder ich tue es.“",
+          "en": "“Either you tell him yourself by tomorrow, or I will.”"
+        },
+        {
+          "de": "Jonas starrte sie an.",
+          "en": "Jonas stared at her."
+        },
+        {
+          "de": "„Ich dachte, du wärst meine Freundin“, sagte er bitter.",
+          "en": "“I thought you were my friend,” he said bitterly."
+        },
+        {
+          "de": "Dann warf er den Becher in den Müll und ging weg.",
+          "en": "Then he threw the cup in the bin and walked away."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "de": "An diesem Donnerstag kam Jonas nicht zur Arbeit. Er hatte sich krankgemeldet, sagte Frau Yilmaz. Am Nachmittag ging die Tür auf, und Herr Seidel kam herein, den rechten Arm in Gips. Herr Brandt war gerade bei einem Kunden, deshalb war Maya allein. Sie wollte sich am liebsten verstecken. Stattdessen ging sie zu ihm. „Herr Seidel, es tut mir unendlich leid, was passiert ist“, sagte sie. „Wir finden heraus, wie das passieren konnte, das verspreche ich Ihnen.“ Der alte Mann sah sie überrascht an. „Wenigstens entschuldigt sich hier jemand“, brummte er.",
+      "en": "That Thursday Jonas didn't come to work. He had called in sick, Frau Yilmaz said. In the afternoon the door opened and Herr Seidel came in, his right arm in a cast. Herr Brandt was out at a customer's, so Maya was on her own. She wanted to hide. Instead she went over to him. “Herr Seidel, I'm so terribly sorry about what happened,” she said. “We'll find out how it could happen, I promise you.” The old man looked at her in surprise. “At least somebody here apologises,” he grumbled.",
+      "explain_en": "„sich krankmelden“ = to call in sick. Employees must inform their employer immediately when they cannot work because of illness; medical certification is generally required if this lasts more than three calendar days, but employers can require it earlier, and certification is usually transmitted electronically for employees with statutory health insurance. “sich verstecken” means “to hide”; “am liebsten” expresses what Maya most wanted to do. „sich entschuldigen“ = to apologise.",
+      "words": [
+        {
+          "de": "sich krankmelden",
+          "en": "to call in sick"
+        },
+        {
+          "de": "der Gips",
+          "en": "plaster cast; plaster"
+        },
+        {
+          "de": "stattdessen",
+          "en": "instead"
+        },
+        {
+          "de": "herausfinden",
+          "en": "to find out"
+        },
+        {
+          "de": "sich entschuldigen",
+          "en": "to apologise"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "An diesem Donnerstag kam Jonas nicht zur Arbeit.",
+          "en": "That Thursday Jonas didn't come to work."
+        },
+        {
+          "de": "Er hatte sich krankgemeldet, sagte Frau Yilmaz.",
+          "en": "He had called in sick, Frau Yilmaz said."
+        },
+        {
+          "de": "Am Nachmittag ging die Tür auf, und Herr Seidel kam herein, den rechten Arm in Gips.",
+          "en": "In the afternoon the door opened and Herr Seidel came in, his right arm in a cast."
+        },
+        {
+          "de": "Herr Brandt war gerade bei einem Kunden, deshalb war Maya allein.",
+          "en": "Herr Brandt was out at a customer's, so Maya was on her own."
+        },
+        {
+          "de": "Sie wollte sich am liebsten verstecken.",
+          "en": "She wanted to hide."
+        },
+        {
+          "de": "Stattdessen ging sie zu ihm.",
+          "en": "Instead she went over to him."
+        },
+        {
+          "de": "„Herr Seidel, es tut mir unendlich leid, was passiert ist“, sagte sie.",
+          "en": "“Herr Seidel, I'm so terribly sorry about what happened,” she said."
+        },
+        {
+          "de": "„Wir finden heraus, wie das passieren konnte, das verspreche ich Ihnen.“",
+          "en": "“We'll find out how it could happen, I promise you.”"
+        },
+        {
+          "de": "Der alte Mann sah sie überrascht an.",
+          "en": "The old man looked at her in surprise."
+        },
+        {
+          "de": "„Wenigstens entschuldigt sich hier jemand“, brummte er.",
+          "en": "“At least somebody here apologises,” he grumbled."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "de": "Am Freitag um neun saß Maya in Herrn Brandts Büro. Frau Yilmaz war auch da und machte Notizen. Von Jonas gab es keine Nachricht. „Also, Frau Clarke“, begann Herr Brandt, „ich habe lange nachgedacht.“ Maya holte tief Luft. Jetzt musste sie es sagen, auch wenn Jonas sie dafür hassen würde. „Herr Brandt, bevor Sie sich entscheiden, muss ich Ihnen etwas erklären.“ In diesem Moment klopfte es. Die Tür ging auf, und Jonas stand da, blass und außer Atem. „Nein“, sagte er. „Das erkläre ich selbst.“",
+      "en": "On Friday at nine Maya sat in Herr Brandt's office. Frau Yilmaz was there too, taking notes. There was no word from Jonas. “Well, Ms Clarke,” Herr Brandt began, “I've thought about this for a long time.” Maya took a deep breath. Now she had to say it, even if Jonas would hate her for it. “Herr Brandt, before you decide, I have to explain something to you.” At that moment there was a knock. The door opened, and there stood Jonas, pale and out of breath. “No,” he said. “I'll explain that myself.”",
+      "explain_en": "„Herrn Brandts Büro“ – the name gets an -s for possession (no apostrophe), and „Herr“ becomes „Herrn“. „auch wenn“ = even if. „Es klopfte“ (literally: it knocked) is how German says „there was a knock“. „außer Atem“ = out of breath.",
+      "words": [
+        {
+          "de": "nachdenken",
+          "en": "to think (about something), to reflect"
+        },
+        {
+          "de": "tief Luft holen",
+          "en": "to take a deep breath"
+        },
+        {
+          "de": "auch wenn",
+          "en": "even if"
+        },
+        {
+          "de": "klopfen",
+          "en": "to knock"
+        },
+        {
+          "de": "außer Atem",
+          "en": "out of breath"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Freitag um neun saß Maya in Herrn Brandts Büro.",
+          "en": "On Friday at nine Maya sat in Herr Brandt's office."
+        },
+        {
+          "de": "Frau Yilmaz war auch da und machte Notizen.",
+          "en": "Frau Yilmaz was there too, taking notes."
+        },
+        {
+          "de": "Von Jonas gab es keine Nachricht.",
+          "en": "There was no word from Jonas."
+        },
+        {
+          "de": "„Also, Frau Clarke“, begann Herr Brandt, „ich habe lange nachgedacht.“",
+          "en": "“Well, Ms Clarke,” Herr Brandt began, “I've thought about this for a long time.”"
+        },
+        {
+          "de": "Maya holte tief Luft.",
+          "en": "Maya took a deep breath."
+        },
+        {
+          "de": "Jetzt musste sie es sagen, auch wenn Jonas sie dafür hassen würde.",
+          "en": "Now she had to say it, even if Jonas would hate her for it."
+        },
+        {
+          "de": "„Herr Brandt, bevor Sie sich entscheiden, muss ich Ihnen etwas erklären.“",
+          "en": "“Herr Brandt, before you decide, I have to explain something to you.”"
+        },
+        {
+          "de": "In diesem Moment klopfte es.",
+          "en": "At that moment there was a knock."
+        },
+        {
+          "de": "Die Tür ging auf, und Jonas stand da, blass und außer Atem.",
+          "en": "The door opened, and there stood Jonas, pale and out of breath."
+        },
+        {
+          "de": "„Nein“, sagte er.",
+          "en": "“No,” he said."
+        },
+        {
+          "de": "„Das erkläre ich selbst.“",
+          "en": "“I'll explain that myself.”"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "de": "Jonas erzählte alles: von seinem kranken Vater, von den Nächten im Lager und von der Schraube, die er vergessen hatte. „Maya hat nur unterschrieben, weil ich sie darum gebeten habe“, sagte er. Herr Brandt schwieg lange. Frau Yilmaz hörte auf zu schreiben. Dann sagte Herr Brandt: „Sie haben beide einen Fehler gemacht. Sie, Jonas, weil Sie nicht kontrolliert haben, und Sie, Frau Clarke, weil Sie etwas unterschrieben haben, was Sie nicht gesehen haben. Aber den größten Fehler habe ich gemacht. Ich habe zu spät gemerkt, dass einer meiner Leute nicht mehr kann.“",
+      "en": "Jonas told them everything: about his sick father, about the nights in the warehouse and about the screw he had forgotten. “Maya only signed because I asked her to,” he said. Herr Brandt was silent for a long time. Frau Yilmaz stopped writing. Then Herr Brandt said: “You've both made a mistake. You, Jonas, because you didn't check, and you, Ms Clarke, because you signed something you hadn't seen. But I made the biggest mistake. I noticed too late that one of my people couldn't go on any more.”",
+      "explain_en": "„jemanden um etwas bitten“ = to ask someone for something; „darum“ refers back to it (asked her to do that). “zu spät” means “too late”: “Ich habe es zu spät gemerkt” means “I noticed it too late”. „nicht mehr können“ is everyday German for being completely exhausted. Note that Brandt calls Jonas „Sie“ too – many German bosses do this with adult apprentices.",
+      "words": [
+        {
+          "de": "bitten um",
+          "en": "to ask for",
+          "note": "Ich habe sie darum gebeten. = I asked her to."
+        },
+        {
+          "de": "aufhören",
+          "en": "to stop",
+          "note": "aufhören zu schreiben = to stop writing"
+        },
+        {
+          "de": "beide",
+          "en": "both"
+        },
+        {
+          "de": "merken",
+          "en": "to notice, to realise"
+        },
+        {
+          "de": "nicht mehr können",
+          "en": "to be at the end of your strength (informal)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Jonas erzählte alles: von seinem kranken Vater, von den Nächten im Lager und von der Schraube, die er vergessen hatte.",
+          "en": "Jonas told them everything: about his sick father, about the nights in the warehouse and about the screw he had forgotten."
+        },
+        {
+          "de": "„Maya hat nur unterschrieben, weil ich sie darum gebeten habe“, sagte er.",
+          "en": "“Maya only signed because I asked her to,” he said."
+        },
+        {
+          "de": "Herr Brandt schwieg lange.",
+          "en": "Herr Brandt was silent for a long time."
+        },
+        {
+          "de": "Frau Yilmaz hörte auf zu schreiben.",
+          "en": "Frau Yilmaz stopped writing."
+        },
+        {
+          "de": "Dann sagte Herr Brandt: „Sie haben beide einen Fehler gemacht.",
+          "en": "Then Herr Brandt said: “You've both made a mistake."
+        },
+        {
+          "de": "Sie, Jonas, weil Sie nicht kontrolliert haben, und Sie, Frau Clarke, weil Sie etwas unterschrieben haben, was Sie nicht gesehen haben.",
+          "en": "You, Jonas, because you didn't check, and you, Ms Clarke, because you signed something you hadn't seen."
+        },
+        {
+          "de": "Aber den größten Fehler habe ich gemacht.",
+          "en": "But I made the biggest mistake."
+        },
+        {
+          "de": "Ich habe zu spät gemerkt, dass einer meiner Leute nicht mehr kann.“",
+          "en": "I noticed too late that one of my people couldn't go on any more.”"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Herr Brandt traf drei Entscheidungen. Erstens bekamen beide eine Abmahnung, aber niemand musste gehen. Zweitens sollte Jonas mit Frau Yilmaz bei der Arbeitsagentur klären, welche finanzielle Hilfe für ihn möglich war. Drittens galt ab Montag eine neue Regel: Jedes Fahrrad wird von zwei Personen kontrolliert, und jeder unterschreibt nur, was er selbst geprüft hat. Am Ende sah Herr Brandt Maya an. „Und es tut mir leid, dass ich Sie am Montag so unter Druck gesetzt habe.“ Maya konnte nur nicken.",
+      "en": "Herr Brandt made three decisions. First, they both got a formal warning, but nobody had to leave. Second, Jonas and Frau Yilmaz were to ask the employment agency what financial support he might qualify for. Third, from Monday a new rule applied: every bike is checked by two people, and everyone signs only what they have checked themselves. At the end Herr Brandt looked at Maya. “And I'm sorry that I put you under so much pressure on Monday.” Maya could only nod.",
+      "explain_en": "„eine Entscheidung treffen“ = to make a decision (not „machen“). “Berufsausbildungsbeihilfe” (BAB) supports eligible apprentices, normally living outside their parents' household; a low apprenticeship wage alone does not establish eligibility. „wird von zwei Personen kontrolliert“ is the passive with „von“ for who does it. Checking everything twice is often called the „Vier-Augen-Prinzip“ (four-eyes principle).",
+      "words": [
+        {
+          "de": "die Entscheidung, die Entscheidungen",
+          "en": "decision",
+          "note": "eine Entscheidung treffen = to make a decision"
+        },
+        {
+          "de": "die Arbeitsagentur",
+          "en": "employment agency (Agentur für Arbeit)"
+        },
+        {
+          "de": "gelten",
+          "en": "to apply, to be valid",
+          "note": "es gilt, es galt"
+        },
+        {
+          "de": "unter Druck setzen",
+          "en": "to put pressure on"
+        },
+        {
+          "de": "nicken",
+          "en": "to nod"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Herr Brandt traf drei Entscheidungen.",
+          "en": "Herr Brandt made three decisions."
+        },
+        {
+          "de": "Erstens bekamen beide eine Abmahnung, aber niemand musste gehen.",
+          "en": "First, they both got a formal warning, but nobody had to leave."
+        },
+        {
+          "de": "Zweitens sollte Jonas mit Frau Yilmaz bei der Arbeitsagentur klären, welche finanzielle Hilfe für ihn möglich war.",
+          "en": "Second, Jonas and Frau Yilmaz were to ask the employment agency what financial support he might qualify for."
+        },
+        {
+          "de": "Drittens galt ab Montag eine neue Regel: Jedes Fahrrad wird von zwei Personen kontrolliert, und jeder unterschreibt nur, was er selbst geprüft hat.",
+          "en": "Third, from Monday a new rule applied: every bike is checked by two people, and everyone signs only what they have checked themselves."
+        },
+        {
+          "de": "Am Ende sah Herr Brandt Maya an.",
+          "en": "At the end Herr Brandt looked at Maya."
+        },
+        {
+          "de": "„Und es tut mir leid, dass ich Sie am Montag so unter Druck gesetzt habe.“",
+          "en": "“And I'm sorry that I put you under so much pressure on Monday.”"
+        },
+        {
+          "de": "Maya konnte nur nicken.",
+          "en": "Maya could only nod."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "de": "Am Wochenende schrieb Maya eine E-Mail an Felix: „Vielen Dank für dein Angebot, aber ich möchte zuerst meine Ausbildung abschließen.“ Ende Januar war ihre Probezeit vorbei. Im Februar holte sie bei der Ausländerbehörde ihre Aufenthaltserlaubnis ab, eine kleine Plastikkarte mit ihrem Foto. Frau Albrecht wünschte ihr sogar viel Erfolg. Und im März geschah etwas, womit niemand gerechnet hatte: Herr Seidel kam mit einem neuen Fahrrad in die Werkstatt. „Die Inspektion soll die junge Frau machen“, sagte er zu Herrn Brandt. „Sie ist ehrlich.“",
+      "en": "At the weekend Maya wrote an email to Felix: “Thanks very much for your offer, but I'd like to finish my apprenticeship first.” At the end of January her probation was over. In February she collected her residence permit from the immigration office, a small plastic card with her photo on it. Frau Albrecht even wished her every success. And in March something happened that nobody had expected: Herr Seidel came into the workshop with a new bike. “I want the young woman to do the service,” he said to Herr Brandt. “She's honest.”",
+      "explain_en": "„abschließen“ means to complete (a course, training) – careful: „beenden“ can also mean to quit early. „womit niemand gerechnet hatte“ comes from „mit etwas rechnen“ (to expect something). „Die Inspektion soll die junge Frau machen“ – the object comes first for emphasis; „soll“ shows what Herr Seidel wants.",
+      "words": [
+        {
+          "de": "das Angebot, die Angebote",
+          "en": "offer"
+        },
+        {
+          "de": "abschließen",
+          "en": "to complete, to finish (training); to lock"
+        },
+        {
+          "de": "vorbei",
+          "en": "over, finished"
+        },
+        {
+          "de": "der Erfolg, die Erfolge",
+          "en": "success",
+          "note": "Viel Erfolg! = Good luck!"
+        },
+        {
+          "de": "rechnen mit",
+          "en": "to expect, to count on"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Wochenende schrieb Maya eine E-Mail an Felix: „Vielen Dank für dein Angebot, aber ich möchte zuerst meine Ausbildung abschließen.“",
+          "en": "At the weekend Maya wrote an email to Felix: “Thanks very much for your offer, but I'd like to finish my apprenticeship first.”"
+        },
+        {
+          "de": "Ende Januar war ihre Probezeit vorbei.",
+          "en": "At the end of January her probation was over."
+        },
+        {
+          "de": "Im Februar holte sie bei der Ausländerbehörde ihre Aufenthaltserlaubnis ab, eine kleine Plastikkarte mit ihrem Foto.",
+          "en": "In February she collected her residence permit from the immigration office, a small plastic card with her photo on it."
+        },
+        {
+          "de": "Frau Albrecht wünschte ihr sogar viel Erfolg.",
+          "en": "Frau Albrecht even wished her every success."
+        },
+        {
+          "de": "Und im März geschah etwas, womit niemand gerechnet hatte: Herr Seidel kam mit einem neuen Fahrrad in die Werkstatt.",
+          "en": "And in March something happened that nobody had expected: Herr Seidel came into the workshop with a new bike."
+        },
+        {
+          "de": "„Die Inspektion soll die junge Frau machen“, sagte er zu Herrn Brandt.",
+          "en": "“I want the young woman to do the service,” he said to Herr Brandt."
+        },
+        {
+          "de": "„Sie ist ehrlich.“",
+          "en": "“She's honest.”"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "de": "Genau ein Jahr nach Mayas erstem Arbeitstag, am 1. Oktober, stand ein nervöses Mädchen in einer viel zu großen Arbeitshose in der Werkstatt. Sie hieß Valentina, kam aus Kolumbien und sprach noch etwas unsicher Deutsch. Herr Brandt hatte Maya gebeten, ihr alles zu zeigen. Jonas, der im Sommer seine Gesellenprüfung bestanden hatte, winkte von der Werkbank. „Hier gibt es nur drei Regeln“, sagte Maya und lächelte. „Erstens: Sei pünktlich.“ „Zweitens: Räum dein Werkzeug auf.“ „Und drittens: Unterschreib nie etwas, was du nicht selbst geprüft hast.“ Valentina nickte ernst. „Keine Sorge“, flüsterte Jonas ihr zu, „sie beißt nicht.“",
+      "en": "Exactly one year after Maya's first day at work, on 1 October, a nervous girl stood in the workshop in work trousers that were far too big. Her name was Valentina; she came from Colombia and her German was still a little unsure. Herr Brandt had asked Maya to show her everything. Jonas, who had passed his final journeyman's exam in the summer, waved from the workbench. “There are only three rules here,” said Maya with a smile. “First: be on time.” “Second: put your tools away.” “And third: never sign anything you haven't checked yourself.” Valentina nodded seriously. “Don't worry,” Jonas whispered to her, “she doesn't bite.”",
+      "explain_en": "The story ends where it began, but now Maya is the one explaining the rules. She uses the du-imperative („Sei pünktlich!“, „Räum auf!“), because young colleagues say „du“ to each other, while Herr Brandt used „Sie“. The „Gesellenprüfung“ is the final exam of a craft apprenticeship – after it you are a qualified „Geselle“ or „Gesellin“. Notice the third rule has changed: Maya learned it the hard way.",
+      "words": [
+        {
+          "de": "die Gesellenprüfung, die Gesellenprüfungen",
+          "en": "final apprenticeship exam (in a craft)"
+        },
+        {
+          "de": "bestehen",
+          "en": "to pass (an exam)",
+          "note": "er bestand, er hat bestanden"
+        },
+        {
+          "de": "die Werkbank, die Werkbänke",
+          "en": "workbench"
+        },
+        {
+          "de": "winken",
+          "en": "to wave"
+        },
+        {
+          "de": "ernst",
+          "en": "serious(ly)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Genau ein Jahr nach Mayas erstem Arbeitstag, am 1. Oktober, stand ein nervöses Mädchen in einer viel zu großen Arbeitshose in der Werkstatt.",
+          "en": "Exactly one year after Maya's first day at work, on 1 October, a nervous girl stood in the workshop in work trousers that were far too big."
+        },
+        {
+          "de": "Sie hieß Valentina, kam aus Kolumbien und sprach noch etwas unsicher Deutsch.",
+          "en": "Her name was Valentina; she came from Colombia and her German was still a little unsure."
+        },
+        {
+          "de": "Herr Brandt hatte Maya gebeten, ihr alles zu zeigen.",
+          "en": "Herr Brandt had asked Maya to show her everything."
+        },
+        {
+          "de": "Jonas, der im Sommer seine Gesellenprüfung bestanden hatte, winkte von der Werkbank.",
+          "en": "Jonas, who had passed his final journeyman's exam in the summer, waved from the workbench."
+        },
+        {
+          "de": "„Hier gibt es nur drei Regeln“, sagte Maya und lächelte.",
+          "en": "“There are only three rules here,” said Maya with a smile."
+        },
+        {
+          "de": "„Erstens: Sei pünktlich.“",
+          "en": "“First: be on time.”"
+        },
+        {
+          "de": "„Zweitens: Räum dein Werkzeug auf.“",
+          "en": "“Second: put your tools away.”"
+        },
+        {
+          "de": "„Und drittens: Unterschreib nie etwas, was du nicht selbst geprüft hast.“",
+          "en": "“And third: never sign anything you haven't checked yourself.”"
+        },
+        {
+          "de": "Valentina nickte ernst.",
+          "en": "Valentina nodded seriously."
+        },
+        {
+          "de": "„Keine Sorge“, flüsterte Jonas ihr zu, „sie beißt nicht.“",
+          "en": "“Don't worry,” Jonas whispered to her, “she doesn't bite.”"
+        }
+      ]
+    }
+  ]
+}
