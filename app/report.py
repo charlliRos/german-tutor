@@ -253,9 +253,12 @@ def _hard_words(profile: Profile, content: Content) -> Table | None:
     t = Table(title=f"{ui.escape(profile.name)}'s trickiest words (still learning)", title_justify="left")
     for col in ("German", "English", "Missed", "Right"):
         t.add_column(col)
+    t.add_column("")
     for word, s in missed[:HARD_WORDS]:
+        note = (f"parked until {s['due']}" if srs.parked(s, date.today()) else
+                "hook: " + profile.data["hooks"][word.id] if word.id in profile.data.get("hooks", {}) else "")
         t.add_row(Text(word.de, style="de"), Text(", ".join(word.en[:2]), style="en"),
-                  str(s["wrong"]), str(s.get("right", 0)))
+                  str(s["wrong"]), str(s.get("right", 0)), Text(note, style="hint"))
     return t
 
 

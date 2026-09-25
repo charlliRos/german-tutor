@@ -6,7 +6,8 @@ dependencies. **The test vectors in [`tests/vectors/text_scorer.json`](../tests/
 contract.** An implementation is correct when it passes all of them. `tests/test_text_scorer_vectors.py` runs
 them against this app.
 
-Scorer version: `gtutor.answers/1` (the `grader` field in the answer log). Bump it when a verdict changes.
+Scorer version: `gtutor.answers/2` (the `grader` field in the answer log). Bump it when a verdict changes.
+Version 2 (2026-09-25): a German noun typed in lower case is `almost`, no longer `correct`.
 
 ## Verdicts
 
@@ -60,7 +61,10 @@ nouns: without its article) is in `real`, the verdict is `wrong` with the messag
 ## Step 3a: German answers (`check_german`)
 
 1. Empty after normalising → `wrong`, not overridable.
-2. Equal to any normalised `de` / `de_alt` → `correct`.
+2. Equal to any normalised `de` / `de_alt` → `correct`, **unless a word that the matching candidate writes
+   with a capital letter was typed in lower case** (not counting the first word, which may only be capital
+   because it starts the phrase) → `almost`, "Nouns start with a capital letter in German". Compare the raw
+   answer's words with the candidate's words by their normalised form.
 3. For each candidate (`de`, then each `de_alt`), in order; the first rule that fires decides:
    - **Nouns with an article** (`pos = noun` and the candidate starts with der/die/das). Split the article
      off both the answer and the candidate.
@@ -90,7 +94,8 @@ nouns: without its article) is in `real`, the verdict is `wrong` with the messag
 
 These are stated limits, not bugs:
 
-- **Capitalisation is ignored.** `die brücke` is correct. Capitalising German nouns is not tested.
+- **Capitals are judged only on otherwise-correct German answers**, and never on the first word. A
+  misspelled answer is judged by its spelling first.
 - **Meanings the item doesn't list are wrong.** In the app, a German synonym from the word bank is caught by a
   separate step (`warmup._synonym_check`), and the learner can claim "my answer was right too". Both are
   recorded next to the machine verdict, never instead of it.
@@ -101,7 +106,7 @@ These are stated limits, not bugs:
 
 ## Test vectors
 
-`tests/vectors/text_scorer.json`: 31 cases covering `ue` for `ü`, `ss` for `ß`, a missing capital, a
+`tests/vectors/text_scorer.json`: 33 cases covering `ue` for `ü`, `ss` for `ß`, a missing capital, a
 missing article, a wrong article, typos, swapped letters (short and long words), a wrong-but-real word in
 both languages (with a positive control each), an English word typed for German, listed guesses and
 empty answers.
@@ -109,4 +114,6 @@ empty answers.
 **Honest history:** the vectors were written in the same pass as this spec. 28 of them describe behaviour
 the scorer already had, so they have never been seen failing. 3 describe the real-word rule added at the same
 time (`de-real-other-word`, `en-real-other-word`, `en-sleep-for-sheep`); they were run against the
-previously committed scorer and failed there, as they should.
+previously committed scorer and failed there, as they should. In version 2, `de-lowercase-noun` changed
+from `correct` to `almost` and two capital-letter cases were added (`de-lowercase-phrase-start`,
+`de-lowercase-noun-in-phrase`); the changed one and `de-lowercase-noun-in-phrase` fail against version 1.

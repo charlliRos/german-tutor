@@ -131,12 +131,26 @@ def _umlaut_message(cand: str) -> str:
             f"(no key for it? type {' and '.join(_TYPE_AS[c] for c in marks)})")
 
 
+def _lowercase_noun(answer: str, expected: str) -> bool:
+    """A word the expected answer writes with a capital (a noun, formal Sie) typed in lower case. The first
+    word doesn't count: it may only be capital because it starts the phrase ("Wie geht's?")."""
+    typed = {normalize(t): t for t in re.findall(r"[\w'’-]+", answer)}
+    for token in re.findall(r"[\w'’-]+", expected)[1:]:
+        mine = typed.get(normalize(token))
+        if token[:1].isupper() and mine and mine[:1].islower():
+            return True
+    return False
+
+
 def check_german(answer: str, word, real: frozenset[str] = frozenset()) -> Check:
     given = normalize(answer)
     if not given:
         return Check(WRONG, overridable=False)
     candidates = [word.de, *word.de_alt]
     if given in {normalize(c) for c in candidates}:
+        cand = next(c for c in candidates if normalize(c) == given)
+        if _lowercase_noun(answer, cand):
+            return Check(ALMOST, f"Nouns start with a capital letter in German: {cand}.")
         return Check(CORRECT)
 
     given_article, given_rest = _split_article(given)

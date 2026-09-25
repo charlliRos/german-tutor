@@ -80,11 +80,12 @@ def _check_speech(ctx, recording, text: str) -> bool:
 
 
 def speak_and_compare(ctx, text: str, long_text: bool = False, slow: bool | None = None,
-                      must_say: bool = False) -> bool:
+                      must_say: bool = False, reveal: bool = False) -> bool:
     """The kid says `text`; then their recording and the reference pronunciation play back to back.
     Single words play slowly, texts at normal speed (unless `slow` says otherwise).
     Returns True if the speech checker heard it (or can't check: no mic or no checker).
-    must_say: it counts (a look back, a speaking turn): say so if it wasn't heard, and count it for the report."""
+    must_say: it counts (a look back, a speaking turn): say so if it wasn't heard, and count it for the report.
+    reveal: the text wasn't on screen (said from memory): show it when the right pronunciation plays."""
     slow = not long_text if slow is None else slow
     checking = ctx.audio.can_record and ctx.audio.can_check_speech
     said = not checking
@@ -96,6 +97,9 @@ def speak_and_compare(ctx, text: str, long_text: bool = False, slow: bool | None
             recording = None
         if checking:
             said = (recording is not None and _check_speech(ctx, recording, text)) or said
+        if reveal:
+            console.print(ui.german(text, "It's", word=not long_text))
+            reveal = False
         _play_both(ctx, recording, text, slow)
 
         options = {"": "next", "r": "play again" if recording is not None else "hear it again"}

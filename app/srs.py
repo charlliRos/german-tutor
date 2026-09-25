@@ -13,6 +13,9 @@ MAX_BOX = 7
 # ten times a year for ever: at a few thousand learned words, that is what makes a 25-minute day possible.
 INTERVALS = {1: 1, 2: 3, 3: 7, 4: 16, 5: 35, 6: 75, 7: 150}
 LEARNED_BOX = 3
+LEECH_WRONGS = 4    # missed this often in all: a leech (it needs a different cue, not more of the same)
+PARK_AFTER = 8      # missed this often: parked for PARK_DAYS (then 4 more misses park it again)
+PARK_DAYS = 30
 
 
 def new_state() -> dict:
@@ -35,7 +38,19 @@ def apply_result(state: dict, outcome: str, today: date) -> None:
         state["box"] = 1
         state["wrong"] += 1
         days = 1
+        if state["wrong"] >= PARK_AFTER + 4 * state.get("parks", 0):
+            state["parks"] = state.get("parks", 0) + 1  # a break helps more than an eighth miss in a row
+            days = PARK_DAYS
     state["due"] = (today + timedelta(days=days)).isoformat()
+
+
+def is_leech(state: dict) -> bool:
+    return state.get("wrong", 0) >= LEECH_WRONGS and state.get("box", 0) < LEARNED_BOX
+
+
+def parked(state: dict, today: date) -> bool:
+    """Parked after too many misses, and not back yet."""
+    return bool(state.get("parks")) and state.get("box", 0) == 1 and (state.get("due") or "") > today.isoformat()
 
 
 def mark_practised(state: dict, today: date) -> None:

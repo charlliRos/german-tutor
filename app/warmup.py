@@ -46,7 +46,7 @@ class WarmupResult:
         return self.correct + self.almost + len(self.to_practise)
 
 
-def word_details(word: Word) -> Table:
+def word_details(word: Word, hook: str = "") -> Table:
     grid = Table.grid(padding=(0, 2))
     grid.add_column(style="hint", justify="right")
     grid.add_column()
@@ -63,7 +63,25 @@ def word_details(word: Word) -> Table:
     if word.story_de and word.story_de != word.example_de:
         grid.add_row("in the book", Text(word.story_de, style="italic cyan"))
         grid.add_row("", Text(word.story_from, style="hint"))
+    if hook:
+        grid.add_row("your hook", Text(hook, style="bold magenta"))
     return grid
+
+
+def hook_for(ctx, word: Word) -> str:
+    return ctx.profile.data.get("hooks", {}).get(word.id, "")
+
+
+def ask_hook(ctx, word: Word) -> None:
+    """A word that keeps slipping away: the kid makes up their own memory hook (shown on every later miss)."""
+    hooks = ctx.profile.data.setdefault("hooks", {})
+    if word.id in hooks:
+        return
+    console.print(f"[note]{icon('almost')} {ui.escape(word.de)} keeps slipping away. Make up a memory hook: a "
+                  "picture, a rhyme, a silly sentence. It shows up every time you miss this word.[/]")
+    hook = ui.ask("Your hook (Enter = skip):", wait_for_quiet=False)
+    if hook:
+        hooks[word.id] = hook[:120]
 
 
 def _listen_options(ctx, word: Word, options: dict[str, str]) -> str:
@@ -92,7 +110,7 @@ def show_card(ctx, word: Word, i: int, total: int) -> None:
     ui.clear()
     ui.title(f"{ctx.step}New word {i} of {total}", f"{BANK_LABELS.get(word.bank, word.bank)} · {word.topic}")
     ui.todo("memorise", what="Learn this word. No typing yet: that comes after the new words.")
-    console.print(Panel(word_details(word), border_style="magenta", padding=(1, 2)))
+    console.print(Panel(word_details(word, hook_for(ctx, word)), border_style="magenta", padding=(1, 2)))
     hear(ctx, word.de)
     if ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:
         ui.todo("say", what=f"{icon('mic')} Now repeat the word after Fritz.")
@@ -194,7 +212,8 @@ def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say
         console.print(f"[{style}]{label}[/] {ui.escape(check.message)}")
         sfx.play(ctx.audio, {CORRECT: "right", ALMOST: "almost", WRONG: "wrong"}[check.outcome])
     border = {"good": "green", "almost": "dark_orange", "bad": "red"}[style]
-    console.print(Panel(word_details(word), border_style=border, padding=(0, 2)))
+    console.print(Panel(word_details(word, hook_for(ctx, word) if check.outcome != CORRECT else ""),
+                        border_style=border, padding=(0, 2)))
     if say:
         hear(ctx, say, slow=say == word.de)
 
@@ -212,16 +231,21 @@ def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say
 
 
 def read_aloud(ctx, word: Word) -> bool:
-    """A speaking turn. True if the speech check heard the word (or can't check)."""
-    ui.todo("say", what="Say this word out loud. Nothing to type.")
-    console.print(ui.german(word.de, f"{icon('mic')} Speaking turn: read it out loud",
-                            subtitle=", ".join(word.en), word=True))
-    return speak_and_compare(ctx, word.de, must_say=True)
+    """A speaking turn from memory: the English is the cue, the German is shown only after it was said.
+    True if the speech check heard the word (or can't check)."""
+    ui.todo("say", what="Say the German word out loud, from memory. Nothing to type.")
+    console.print(Panel(Text(", ".join(word.en[:2]), style="bold green"), title=f"{icon('mic')} Say it in German",
+                        subtitle=POS_HINTS.get(word.pos, "") or None, border_style="red", padding=(1, 2)))
+    return speak_and_compare(ctx, word.de, must_say=True, reveal=True)
 
 
 def ask_word(ctx, word: Word, kind: str, second_chance: bool = False) -> str:
     """A question about a word: usually a quiz either way; for words already met, sometimes the gap in its
-    example sentence or listening to that sentence (settings: sentence_tasks)."""
+    example sentence or listening to that sentence (settings: sentence_tasks). A leech (missed again and
+    again) gets the sentence cue: a different way in works better than the same bare word."""
+    state = ctx.profile.data["vocab"].get(word.id, {})
+    if kind != "new" and srs.is_leech(state) and (gap := sentences.find_gap(word)):
+        return gap_quiz(ctx, word, gap, second_chance)
     if kind != "new" and word.example_de:
         shares = {**DEFAULTS["sentence_tasks"], **ctx.settings.get("sentence_tasks", {})}
         roll = ctx.rng.random()
@@ -355,6 +379,11 @@ def run_warmup(ctx) -> WarmupResult | None:
             result.almost += outcome == ALMOST
             if outcome == WRONG:
                 result.to_practise.append(word)
+                if srs.is_leech(state):
+                    ask_hook(ctx, word)
+                if srs.parked(state, ctx.today):
+                    console.print(f"[note]Parked {ui.escape(word.de)} for {srs.PARK_DAYS} days: a break helps. "
+                                  f"It comes back on {state['due']}.[/]")
             if outcome != CORRECT:
                 not_yet.append(word)
             ctx.profile.count(ctx.today, words=1, right=int(outcome == CORRECT), almost=int(outcome == ALMOST),
