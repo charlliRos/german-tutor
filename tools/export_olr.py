@@ -106,6 +106,9 @@ def exam_items(versions: dict) -> list[dict]:
 
 def rights(raw: dict, today: date) -> dict:
     """Why a book's German text is public domain, worked out from the author's death and first publication."""
+    if raw.get("original"):
+        return {"author": raw.get("author"), "basis": "written for this app", "public_domain_now": False,
+                "licence": "not chosen yet (the app's own texts)", "source_edition": raw.get("source")}
     died, year = raw.get("author_died"), raw.get("year")
     out = {"author": raw.get("author"), "author_died": died, "first_published": year,
            "source_edition": raw.get("source"), "orthography": raw.get("orthography", ""),

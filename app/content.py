@@ -55,6 +55,7 @@ class Book:
     units: list[Unit]
     total_parts: int = 0   # German units in the file, including ones not translated yet
     short_title: str = ""  # for headers; long titles are cut down automatically
+    original: bool = False  # written for this app (a graded reader), not a public-domain classic
 
     @property
     def parts(self) -> int:
@@ -232,6 +233,7 @@ def load_content(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR, verbs
             author=data.get("author", ""), year=data.get("year", ""), level=data.get("level", ""),
             intro_en=data.get("intro_en", ""), units=units, total_parts=part,
             short_title=data.get("short_title") or _shorten(data.get("title", path.stem)),
+            original=bool(data.get("original")),
         ))
     for path in sorted(verbs_dir.glob("*.json")):
         data = _load_json(path, content.problems) or {}

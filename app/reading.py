@@ -14,7 +14,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import attempts, sfx, ui
+from . import attempts, coverage, sfx, ui
 from .answers import normalize, real_try
 from .config import DEFAULTS
 from .content import Book, Unit, balance_quotes, sentences
@@ -28,15 +28,26 @@ REVIEW_DAYS = (1, 3, 7, 16, 35)  # the same ladder as the words
 CAUGHT_EXTRA_SESSIONS = 2  # pasted or random answers: the paragraph comes back in this many more sessions
 
 
+def book_coverage(ctx, book: Book) -> coverage.Coverage | None:
+    return coverage.book_coverage(ctx.content, ctx.profile.data["vocab"], book, ctx.profile.book_state(book.id)["next"])
+
+
+def started(ctx, book: Book) -> bool:
+    return ctx.profile.book_state(book.id)["next"] > 1
+
+
 def current_book(ctx) -> Book | None:
-    """The chosen book, or the next one that still has unread paragraphs."""
+    """The chosen book, or the next one that still has unread paragraphs. Without a chosen book, the first one
+    whose words the kid mostly knows (the graded readers come first)."""
     books = ctx.content.books
     ids = [b.id for b in books]
-    start = ids.index(ctx.profile.data["current_book"]) if ctx.profile.data["current_book"] in ids else 0
-    for book in books[start:] + books[:start]:
-        if book.next_unit(ctx.profile.book_state(book.id)["next"]) is not None:
-            return book
-    return None
+    chosen = ctx.profile.data["current_book"] in ids
+    start = ids.index(ctx.profile.data["current_book"]) if chosen else 0
+    unread = [b for b in books[start:] + books[:start] if b.next_unit(ctx.profile.book_state(b.id)["next"]) is not None]
+    if chosen or not unread:
+        return unread[0] if unread else None
+    return next((b for b in unread if started(ctx, b) or (c := book_coverage(ctx, b)) is None or c.state != "locked"),
+                unread[0])
 
 
 def choose_book(ctx) -> str:
@@ -45,14 +56,21 @@ def choose_book(ctx) -> str:
     narrow = console.width < 70
     ui.title("Choose a book")
     table = Table(caption=f"{icon('current')} = reading now", caption_justify="left")
-    for col in ("#", "Title") + (() if narrow else ("Author", "Level")) + ("Paragraphs read",):
+    for col in ("#", "Title") + (() if narrow else ("Author", "Level")) + ("Paragraphs read", "Words you know"):
         table.add_column(col)
     for i, b in enumerate(books, 1):
         nxt = ctx.profile.book_state(b.id)["next"]
         read = f"{icon('done')} finished" if b.finished(nxt) else f"{b.parts_read(nxt)} of {b.parts}"
         mark = f" {icon('current')}" if b.id == ctx.profile.data["current_book"] else ""
-        table.add_row(str(i), b.short_title + mark, *(() if narrow else (b.author, b.level)), read)
+        cov = book_coverage(ctx, b)
+        known = "" if cov is None else f"{round(100 * cov.share)}%" + (
+            "" if cov.state == "open" or started(ctx, b) else " [hint](new words first)[/]" if cov.state == "teach"
+            else " [hint](hard for now)[/]")
+        table.add_row(str(i), ui.escape(b.short_title) + mark, *(() if narrow else (ui.escape(b.author), b.level)),
+                      read, known)
     console.print(table)
+    console.print(f"[hint]Reading works best when you know about {round(100 * coverage.OPEN)}% of the words. "
+                  "Every word you learn raises the numbers.[/]")
     while True:
         answer = ui.ask("Book number (Enter to keep the current one):")
         if not answer:
@@ -63,6 +81,12 @@ def choose_book(ctx) -> str:
             continue
         book = books[int(answer) - 1]
         state = ctx.profile.book_state(book.id)
+        cov = book_coverage(ctx, book)
+        if cov and cov.state == "locked" and not started(ctx, book):
+            console.print(f"[warn]You know {round(100 * cov.share)}% of the words in {ui.escape(book.short_title)} so far: "
+                          f"it will be hard work. The graded readers are a better start.[/]")
+            if ui.keys({"": "pick another book", "y": "read it anyway"}) != "y":
+                continue
         if book.finished(state["next"]):
             console.print(f"You've already finished {book.short_title}.")
             if ui.keys({"y": "read it again from the start", "": "pick another book"}) != "y":
@@ -450,6 +474,7 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
         _celebrate(ctx, book)
         return False
 
+    _words_you_need(ctx, book)
     header = f"{ctx.step}Paragraph {unit.part} of {book.total_parts} · {book.short_title}"
     while True:
         first, last = _three_rounds(ctx, book, unit, header)
@@ -474,6 +499,32 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
         _story_so_far(ctx, book, state)  # a closing summary, if the book ends with one
         _celebrate(ctx, book)
     return counted
+
+
+NEED_WORDS = 8  # words taught before a paragraph that has too many new ones
+
+
+def _words_you_need(ctx, book: Book) -> None:
+    """A paragraph with more than a few words the kid doesn't know yet: show the most useful ones first, and
+    put them at the front of the next warm-up's new words (so the text becomes readable, then stays so)."""
+    cov = book_coverage(ctx, book)
+    if cov is None or cov.state == "open" or not cov.unknown:
+        return
+    need = [ctx.content.words[wid] for wid in cov.unknown[:NEED_WORDS]]
+    ui.clear()
+    ui.title(f"{ctx.step}Words you'll need", book.short_title)
+    ui.todo("memorise", what="Some words in the next paragraph are new. Look at them first.")
+    grid = Table.grid(padding=(0, 3))
+    grid.add_column(style="de.word")
+    grid.add_column(style="en")
+    for word in need:
+        grid.add_row(word.de, ", ".join(word.en[:2]))
+    console.print(Panel(grid, border_style="magenta", padding=(1, 2)))
+    console.print(f"[hint]You know {round(100 * cov.share)}% of this paragraph's words. These come back in your next warm-up.[/]")
+    queue = ctx.profile.data["reading_words"]
+    queue[:0] = [w.id for w in need if w.id not in queue]
+    ctx.profile.save()
+    ui.keys({"": "read the paragraph"})
 
 
 def _schedule_reviews(ctx, book: Book, unit: Unit, extra_sessions: int = 0) -> None:

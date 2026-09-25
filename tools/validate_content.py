@@ -77,7 +77,8 @@ def check_books() -> list[tuple[str, int]]:
         data = load(path)
         if data is None:
             continue
-        for field in ("id", "title", "author", "year", "author_died", "level", "source", "intro_en", "units"):
+        required = ("id", "title", "author", "year", "level", "source", "intro_en", "units")
+        for field in required + (() if data.get("original") else ("author_died",)):
             if not data.get(field):
                 errors.append(f"{path.name}: missing {field}")
         died = data.get("author_died")

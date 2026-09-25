@@ -53,8 +53,9 @@ class ExportContent(unittest.TestCase):
             self.assertIn(item["key"]["option"], [o["id"] for o in item["options"]])
 
     def test_every_book_says_why_it_is_public_domain(self):
-        self.assertEqual(len(self.books), 10)
-        for book in self.books:
+        classics = [b for b in self.books if b["rights"].get("basis") != "written for this app"]
+        self.assertEqual(len(classics), 10)
+        for book in classics:
             rights = book["rights"]
             self.assertTrue(rights["source_edition"], book["id"])
             self.assertIsInstance(rights["author_died"], int, book["id"])
