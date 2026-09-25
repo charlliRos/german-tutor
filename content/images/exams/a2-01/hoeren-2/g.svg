@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120">
+  <rect width="160" height="120" fill="#fdfbf5"/>
+  <g stroke="#2b2b2b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="20" y="9" width="120" height="53" rx="4" fill="#559dca"/>
+    <path d="M21 10H41L34 61H21ZM139 10H119L126 61H139Z" fill="#ef786c"/>
+    <path d="M54 52L74 26L89 44L101 31L120 52Z" fill="#f2c75c"/>
+    <circle cx="106" cy="22" r="6" fill="#fdfbf5"/>
+    <path d="M54 84Q76 73 97 84V110H54Z" fill="#559dca"/>
+    <circle cx="76" cy="69" r="14" fill="#efbd95"/>
+    <path d="M62 67Q58 49 76 50Q93 49 91 69L80 61L69 68Z" fill="#2b2b2b"/>
+    <rect x="14" y="86" width="31" height="29" rx="8" fill="#ef786c"/>
+    <rect x="57" y="96" width="41" height="19" rx="7" fill="#ef786c"/>
+    <rect x="115" y="86" width="31" height="29" rx="8" fill="#ef786c"/>
+    <path d="M91 90L108 87" fill="none" stroke="#efbd95" stroke-width="7"/>
+    <path d="M100 82H119L116 104H103Z" fill="#f2c75c"/>
+    <path d="M100 82Q95 73 102 73Q103 64 110 72Q117 66 119 75Q126 76 119 83Z" fill="#fdfbf5"/>
+  </g>
+</svg>
