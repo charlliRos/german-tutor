@@ -25,6 +25,16 @@ FUNCTION_RANK = 100      # the 100 most common everyday words always count as kn
 FUNCTION_FORMS = 150     # and the 150 most common word forms of spoken German (ich, einen, mit, ist …)
 NAME_UNITS = 3
 FREQUENCY_FILE = Path(__file__).resolve().parent.parent / "tools" / "data" / "de_frequency_top15k.txt"
+CONTRACTIONS = {"ins", "im", "am", "vom", "zum", "zur", "beim", "ans", "aufs", "ums", "durchs", "fuers"}
+# Present-tense forms the ending rules can't make (modal verbs, sein, haben, werden, wissen, nehmen …)
+IRREGULAR_PRESENT = {
+    "sein": "bin bist ist sind seid", "haben": "habe hast hat habt", "werden": "werde wirst wird werdet",
+    "koennen": "kann kannst koennt", "muessen": "muss musst muesst", "duerfen": "darf darfst duerft",
+    "wollen": "will willst wollt", "sollen": "soll sollst sollt", "moegen": "mag magst moegt",
+    "wissen": "weiss weisst wisst", "nehmen": "nimmst nimmt", "geben": "gibst gibt", "treten": "trittst tritt",
+    "essen": "isst", "lesen": "liest", "sehen": "siehst sieht", "helfen": "hilfst hilft", "sprechen": "sprichst spricht",
+    "treffen": "triffst trifft", "werfen": "wirfst wirft", "vergessen": "vergisst", "laufen": "laeufst laeuft",
+}
 PREFIXES = ("zurück", "zusammen", "weiter", "vorbei", "heraus", "herein", "hinaus", "fest", "fort", "frei", "los",
             "weg", "auf", "aus", "ein", "mit", "nach", "vor", "zu", "an", "ab", "bei", "her", "hin", "um", "dar")
 
@@ -79,7 +89,20 @@ def _function_forms() -> frozenset[str]:
     return frozenset(forms[:FUNCTION_FORMS])
 
 
-FUNCTION_WORDS = _function_forms()
+FUNCTION_WORDS = _function_forms() | CONTRACTIONS
+
+
+def _lookup(index: dict, token: str) -> frozenset[str] | None:
+    """The word ids for a token; a compound (Klassenlehrerin, Fischbrötchen) falls back to its last part,
+    which carries the meaning and the gender in German."""
+    ids = index.get(token)
+    if ids or len(token) < 8:
+        return ids
+    for i in range(3, len(token) - 3):
+        head = token[i:]
+        if head in index:
+            return index[head]
+    return None
 
 
 _CACHE: dict[int, tuple] = {}  # id(content) -> (content, form index, {book id: names})
@@ -103,6 +126,10 @@ def _build_index(content) -> dict[str, frozenset[str]]:
         for form in _forms(w):
             index.setdefault(form, set()).add(w.id)
     by_de = {normalize(w.de): w.id for w in content.words.values() if w.pos == "verb"}
+    for inf, forms in IRREGULAR_PRESENT.items():
+        if (wid := by_de.get(inf)):
+            for form in forms.split():
+                index.setdefault(form, set()).add(wid)
     for verb in content.verbs.values():  # irregular forms: ging, gegangen, gingst …
         wid = by_de.get(normalize(verb.inf))
         if wid:
@@ -131,7 +158,7 @@ def _names(book: Book, index: dict) -> frozenset[str]:
             continue
         capital = {normalize(w) for w in re.findall(r"\b[A-ZÄÖÜ][\wäöüß]+", unit.de)}
         for token in capital:
-            if token not in index:
+            if token not in index and token not in FUNCTION_WORDS:
                 seen[token] = seen.get(token, 0) + 1
     return frozenset(t for t, n in seen.items() if n >= NAME_UNITS)
 
@@ -147,7 +174,7 @@ def text_coverage(content, vocab: dict, text: str, skip: frozenset[str] = frozen
         if token in FUNCTION_WORDS:
             known += 1
             continue
-        ids = index.get(token)
+        ids = _lookup(index, token)
         if not ids:
             unmatched.append(token)
             continue
