@@ -160,6 +160,10 @@ Item types (`answer` is always one of the listed values):
 - `yesno`: answer `ja` / `nein`.
 - `match`: answer is one of the part's text ids (or `x` when `none_allowed`).
 - `text` (optional on every item): the id of the text the item is about.
+- Pictures (optional), like the real exam's picture choices: an `mc` item can have `"pictures": {"a": "exams/a2-01/hoeren-3/11-a.svg", …}`
+  and a matching choice text can have `"picture": "…"`. Paths are under `content/images/`; SVG only, viewBox
+  about 160×120, flat colours, bold outlines, no words (they'd give the answer away). The written option stays:
+  it's shown when a terminal can't draw pictures.
 
 Writing parts have no `items`; instead:
 `"task_de"`, `"task_en"`, `"points": ["…", "…", "…"]` (what the answer must cover), `"words": [min, target]`,

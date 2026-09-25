@@ -13,7 +13,7 @@ from rich.text import Text
 
 from datetime import timedelta
 
-from . import attempts, sfx, srs, ui
+from . import attempts, pictures, sfx, srs, ui
 from .answers import normalize
 from .exams import SKILLS, Exam, ExamItem, Part, choices, is_right, item_id, load_exams, passed
 from .speaking import hear
@@ -147,9 +147,31 @@ def _blocks(part: Part) -> list[tuple[list[str], list[ExamItem]]]:
     return blocks
 
 
-def _question_panel(item: ExamItem, part: Part, n: int) -> Panel:
-    body = Text(f"{n}. {item.question}", style="bold")
+def show_pictures(ctx, item: ExamItem, part: Part) -> bool:
+    """The answer choices as pictures, like the real exam (a row of up to 5; more go on further rows).
+    False if there are none or they can't be shown here (then the written choices are shown)."""
     if item.type == "mc":
+        row = [(key, pictures.IMAGES_DIR / path) for key, path in item.pictures.items()]
+    elif item.type == "match":
+        row = [(t.id, pictures.IMAGES_DIR / t.picture) for t in part.texts if t.id in choices(item, part) and t.picture]
+    else:
+        return False
+    if not row:
+        return False
+    settings = {**ctx.settings, **({"pictures": ctx.profile.data["pictures"]} if ctx.profile.data.get("pictures") else {})}
+    shown = True
+    for start in range(0, len(row), 5):
+        shown = pictures.show_row(console, settings, row[start:start + 5]) and shown
+    return shown
+
+
+def _question_panel(item: ExamItem, part: Part, n: int, pictured: bool = False) -> Panel:
+    body = Text(f"{n}. {item.question}", style="bold")
+    if pictured:
+        body.append("\n\n   Look at the pictures: " + "  ".join(choices(item, part)), style="hint")
+        if item.type == "match" and part.none_allowed:
+            body.append("   (x = none fits)", style="hint")
+    elif item.type == "mc":
         for key, label in item.options.items():
             body.append(f"\n   {key}  {label}", style="de")
     elif item.type == "match":
@@ -168,7 +190,8 @@ def _ask(ctx, item: ExamItem, part: Part, n: int, header: str, shown: list, repl
         ui.title(f"{ctx.step}{header}")
         for panel in shown:
             console.print(panel)
-        console.print(_question_panel(item, part, n))
+        pictured = show_pictures(ctx, item, part)
+        console.print(_question_panel(item, part, n, pictured))
         options = {k: "" for k in choices(item, part)} | {ui.DONT_KNOW: "don't know"}
         if replay and replay["left"] > 0:
             options[REPLAY] = f"hear it again ({replay['left']} left)"

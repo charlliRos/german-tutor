@@ -295,9 +295,27 @@ def show_journal(ctx: Context) -> None:
     ui.keys({"": "back"})
 
 
+def picture_check(ctx: Context) -> None:
+    """Show a test picture; if the kid can't see it, use a simpler way to draw pictures on this computer."""
+    from . import pictures
+    test = pictures.IMAGES_DIR / "test.svg"
+    settings = {**ctx.settings, **({"pictures": ctx.profile.data["pictures"]} if ctx.profile.data.get("pictures") else {})}
+    console.print("\n[bold]Pictures[/] [hint](exam questions use them)[/]")
+    if not pictures.show_row(console, settings, [("", test)]):
+        console.print("[hint]Pictures are off here, so the exam shows written descriptions instead.[/]")
+        return
+    if ui.keys({"y": "I can see a picture (an apple)", "n": "I see strange letters or nothing"}) == "n":
+        now = pictures.mode(settings)
+        ctx.profile.data["pictures"] = "blocks" if now == "sixel" else "off"
+        ctx.profile.save()
+        console.print(f"[good]OK: pictures are now drawn {'with blocks' if now == 'sixel' else 'as words'} here.[/] "
+                      "[hint](Try the check again to see.)[/]")
+
+
 def audio_check(ctx: Context) -> None:
     ui.clear()
-    ui.title("Speaker & microphone check")
+    ui.title("Speaker & microphone & picture check")
+    picture_check(ctx)
     for problem in ctx.audio.problems:
         console.print(f"[warn]• {problem}[/]")
     if not ctx.audio.can_speak:
@@ -314,7 +332,7 @@ MENU = {
     "4": "Choose a book",
     "5": "My progress",
     "6": "My translations",
-    "7": "Test speakers & microphone",
+    "7": "Test speakers, microphone & pictures",
     "8": "Duel: play against someone on the same Wi-Fi",
     "9": "Exam practice (A2, B1)",
     "q": "Quit",

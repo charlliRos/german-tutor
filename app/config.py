@@ -52,6 +52,9 @@ DEFAULTS = {
     "input_device": None,        # sounddevice device index/name, None = system default
     "output_device": None,
     "sound_effects": True,
+    # Pictures in the terminal: "auto" (real pixels where the terminal can, else coloured blocks),
+    # "sixel", "blocks" or "off" (written descriptions instead). Menu 7 can switch one computer to blocks.
+    "pictures": "auto",
     # Seconds before the next question starts by itself after a right / a wrong or almost answer
     # (Enter goes on at once; any other key stops the clock).
     "auto_next": {"right": 1.5, "wrong": 4},       # retro sounds for right / wrong answers and for pressing Enter too fast

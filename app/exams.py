@@ -24,6 +24,7 @@ class ExamText:
     title: str = ""
     de: str = ""
     lines: list[dict] = field(default_factory=list)  # a conversation: [{"who", "de"}]
+    picture: str = ""  # a matching choice shown as a picture (path under content/images/)
 
     @property
     def spoken(self) -> str:
@@ -49,6 +50,7 @@ class ExamItem:
     options: dict[str, str] = field(default_factory=dict)
     text: str = ""
     explain_en: str = ""
+    pictures: dict[str, str] = field(default_factory=dict)  # mc: option -> picture (path under content/images/)
 
 
 @dataclass
@@ -131,6 +133,20 @@ def passed(score: int, total: int) -> bool:
 
 # ----- loading and checking -----
 
+def check_picture(path: str) -> list[str]:
+    """A picture must exist under content/images/ and be an SVG."""
+    from xml.etree import ElementTree
+    from .pictures import IMAGES_DIR
+    file = IMAGES_DIR / path
+    if not file.is_file():
+        return [f"picture {path!r} not found in content/images/"]
+    try:
+        root = ElementTree.parse(file).getroot()
+    except ElementTree.ParseError as exc:
+        return [f"picture {path!r} is not valid SVG ({exc})"]
+    return [] if root.tag.endswith("svg") else [f"picture {path!r} is not an SVG"]
+
+
 def check_exam(raw: dict, name: str) -> list[str]:
     """What's wrong with an exam file ([] if nothing): used by the loader and tools/validate_content.py."""
     problems = []
@@ -181,6 +197,13 @@ def check_exam(raw: dict, name: str) -> list[str]:
                 problems.append(f"{iw}: text {it['text']!r} doesn't exist")
             if not it.get("question") or not it.get("explain_en"):
                 problems.append(f"{iw}: needs question and explain_en")
+            for option, picture in (it.get("pictures") or {}).items():
+                if option not in (it.get("options") or {}):
+                    problems.append(f"{iw}: picture for unknown option {option!r}")
+                problems.extend(f"{iw}: {p}" for p in check_picture(picture))
+        for t in p.get("texts", []):
+            if t.get("picture"):
+                problems.extend(f"{where} text {t.get('id')}: {p}" for p in check_picture(t["picture"]))
     return problems
 
 
@@ -190,10 +213,11 @@ def _exam(raw: dict) -> Exam:
         parts.append(Part(
             id=p["id"], skill=p["skill"], title_de=p.get("title_de", p["id"]),
             instructions_en=p.get("instructions_en", ""), minutes=int(p.get("minutes", 0) or 0),
-            texts=[ExamText(id=t["id"], title=t.get("title", ""), de=t.get("de", ""), lines=t.get("lines") or [])
-                   for t in p.get("texts", [])],
+            texts=[ExamText(id=t["id"], title=t.get("title", ""), de=t.get("de", ""), lines=t.get("lines") or [],
+                            picture=t.get("picture", "")) for t in p.get("texts", [])],
             items=[ExamItem(id=str(i["id"]), type=i["type"], question=i["question"], answer=i["answer"],
-                            options=i.get("options") or {}, text=i.get("text", ""), explain_en=i.get("explain_en", ""))
+                            options=i.get("options") or {}, text=i.get("text", ""), explain_en=i.get("explain_en", ""),
+                            pictures=i.get("pictures") or {})
                    for i in p.get("items", [])],
             plays=int(p.get("plays", 2) or 2), none_allowed=bool(p.get("none_allowed")),
             task_de=p.get("task_de", ""), task_en=p.get("task_en", ""), points=list(p.get("points", [])),
