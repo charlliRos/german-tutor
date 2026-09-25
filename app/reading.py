@@ -14,7 +14,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import sfx, ui
+from . import attempts, sfx, ui
 from .answers import normalize, real_try
 from .config import DEFAULTS
 from .content import Book, Unit, balance_quotes, sentences
@@ -158,6 +158,7 @@ def _translate(ctx, book: Book, unit: Unit, direction: str, heading: str, review
     if not answer or caught:  # typed ? (or not a real try): show the answer, the round counts as skipped
         entry.update(answer=answer, skipped=True, **({"caught": caught} if caught else {}))
         ctx.profile.add_journal(entry)
+        _log_translation(ctx, book, unit, entry, unit.de if to_english else unit.en, reference)
         if caught:
             _caught(ctx, caught)
         console.print(Panel(Text(reference, style="en" if to_english else "de"),
@@ -176,7 +177,33 @@ def _translate(ctx, book: Book, unit: Unit, direction: str, heading: str, review
         entry["self_grade"] = _self_grade(ctx, None if to_english else unit.de)
     finally:
         ctx.profile.add_journal(entry)
+        _log_translation(ctx, book, unit, entry, unit.de if to_english else unit.en, reference)
     return entry
+
+
+def paragraph_id(book: Book, unit: Unit) -> str:
+    """A paragraph's permanent id: the book's id and the paragraph's number (Unit.n, never renumbered)."""
+    return f"{book.id}#{unit.n}"
+
+
+def _log_translation(ctx, book: Book, unit: Unit, entry: dict, source: str, reference: str) -> None:
+    """Keep a translation in the answer log as a self-graded (estimated) score, or as no response."""
+    graded = entry.get("self_grade") in attempts.SELF_POINTS and not entry.get("skipped")
+    reason = entry.get("caught") or ("skipped" if entry.get("skipped") else "stopped before grading")
+    attempts.note(entry.get("answer", ""), task=entry["task"], pasted=entry.get("caught", "").startswith("you pasted"))
+    attempts.record(ctx.profile, ctx.today, item=paragraph_id(book, unit), item_version=attempts.version(source, reference),
+                    competency=attempts.TRANSLATION[entry["task"]], subcompetency=book.id,
+                    context="reading.look_back" if entry.get("review") else "reading.new",
+                    score=attempts.self_graded(entry["self_grade"]) if graded else attempts.no_response(reason),
+                    grader=attempts.SELF if graded else attempts.GRADER,
+                    source=source if source != (unit.de if entry["task"] == "de2en" else unit.en) else None)
+
+
+def _log_heard(ctx, book: Book, unit: Unit, task: str, heard: bool) -> None:
+    attempts.note(task=task)
+    attempts.record(ctx.profile, ctx.today, item=paragraph_id(book, unit), item_version=attempts.version(unit.de),
+                    competency="speaking.pronunciation", subcompetency=book.id, context="reading.look_back",
+                    score=attempts.right_or_wrong(heard), grader=attempts.speech_grader(ctx))
 
 
 def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: str) -> tuple[bool, str] | None:
@@ -215,6 +242,7 @@ def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: st
         if not answer or caught:  # typed ? (or not a real try)
             entry.update(answer=answer, skipped=True, **({"caught": caught} if caught else {}))
             ctx.profile.add_journal(entry)
+            _log_translation(ctx, book, unit, entry, source, reference)
             if caught:
                 _caught(ctx, caught)
             console.print(Panel(Text(reference, style="en" if to_english else "de"), title="Here it is",
@@ -235,6 +263,7 @@ def _sentence_look_back(ctx, book: Book, unit: Unit, direction: str, heading: st
             entry["self_grade"] = _self_grade(ctx, None if to_english else de)
         finally:
             ctx.profile.add_journal(entry)
+            _log_translation(ctx, book, unit, entry, source, reference)
         ok = ok and entry["self_grade"] != NEEDS_WORK
     return ok, ""
 
@@ -341,6 +370,12 @@ def _dictation(ctx, book: Book, unit: Unit, heading: str) -> tuple[bool, str]:
         if not ok:
             console.print("[hint]It comes back next session.[/]")
     ctx.profile.count(ctx.today, dictations=1, dictation_pct=round(score * 100))
+    attempts.note(answer, task="dictation", pasted=caught.startswith("you pasted"))
+    attempts.record(ctx.profile, ctx.today, item=paragraph_id(book, unit), item_version=attempts.version(sentence),
+                    competency="listening.dictation", subcompetency=book.id, context="reading.look_back",
+                    score={"kind": "polytomous", "points": round(score * 100), "max": 100, "label": "words right"}
+                    if answer and not caught else attempts.no_response(caught or "skipped"),
+                    grader=attempts.DICTATION_GRADER, source=sentence)
     hear(ctx, sentence, slow=False)
     while ui.keys({"": "next", "r": "hear it again"}) == "r":
         hear(ctx, sentence, slow=False)
@@ -488,11 +523,15 @@ def _review_task(ctx, last: str) -> str:
 def _look_back_task(ctx, book: Book, unit: Unit, task: str, heading: str) -> tuple[bool, str]:
     """One look back exercise. Returns (it counts, why it wasn't a real try or '')."""
     if task == "read_aloud":  # not heard: it doesn't count, so it comes back next session
-        return _read_aloud(ctx, book, unit, heading), ""
+        heard = _read_aloud(ctx, book, unit, heading)
+        _log_heard(ctx, book, unit, task, heard)
+        return heard, ""
     if task == "dictation":
         return _dictation(ctx, book, unit, heading)
     if task == "shadow":
-        return _shadow(ctx, book, unit, heading), ""
+        heard = _shadow(ctx, book, unit, heading)
+        _log_heard(ctx, book, unit, task, heard)
+        return heard, ""
     result = _sentence_look_back(ctx, book, unit, task, heading)
     if result is not None:
         return result

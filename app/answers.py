@@ -1,7 +1,8 @@
-"""Checking typed vocabulary answers.
+"""Checking typed vocabulary answers. The rules, with test vectors, are in docs/TEXT_SCORER_SPEC.md.
 
 Forgiving about case, punctuation, "to"/"the" prefixes and umlaut spelling
 (ae/oe/ue/ss are accepted for ä/ö/ü/ß), strict about German noun genders.
+A spelling slip that is really another word (die Butter for die Mutter) is wrong, not almost.
 """
 from __future__ import annotations
 
@@ -83,7 +84,27 @@ def _without_prefix(text: str) -> str:
     return text
 
 
-def check_english(answer: str, word) -> Check:
+OTHER_WORD = "That's a different word, not a spelling mistake."
+
+
+def real_german(words) -> frozenset[str]:
+    """Every German entry of the bank, normalised, with and without its article: a 'typo' that lands on
+    one of these is a different word."""
+    forms = set()
+    for w in words:
+        for de in (w.de, *w.de_alt):
+            norm = normalize(de)
+            forms.add(norm)
+            forms.add(_split_article(norm)[1])
+    return frozenset(forms)
+
+
+def real_english(words) -> frozenset[str]:
+    """Every English meaning in the bank, normalised, without "to"/"the"."""
+    return frozenset(_without_prefix(f) for w in words for e in w.en for f in english_forms(e))
+
+
+def check_english(answer: str, word, real: frozenset[str] = frozenset()) -> Check:
     # The answer itself isn't split on / or ;, so "to be / to go" can't hit by listing guesses.
     given = normalize(answer)
     if not given:
@@ -93,6 +114,8 @@ def check_english(answer: str, word) -> Check:
         return Check(CORRECT)
     # Typos are judged without "to"/"the", so "to do" isn't a misspelling of "to go".
     if any(_is_typo(_without_prefix(given), _without_prefix(e)) for e in expected):
+        if _without_prefix(given) in real:
+            return Check(WRONG, OTHER_WORD)
         return Check(ALMOST, "Small spelling mistake.")
     return Check(WRONG)
 
@@ -108,7 +131,7 @@ def _umlaut_message(cand: str) -> str:
             f"(no key for it? type {' and '.join(_TYPE_AS[c] for c in marks)})")
 
 
-def check_german(answer: str, word) -> Check:
+def check_german(answer: str, word, real: frozenset[str] = frozenset()) -> Check:
     given = normalize(answer)
     if not given:
         return Check(WRONG, overridable=False)
@@ -127,6 +150,8 @@ def check_german(answer: str, word) -> Check:
             same_word = given_rest == rest
             umlaut = not same_word and has_umlaut and bare_given_rest == bare_rest
             typo = _is_typo(given_rest, rest)
+            if typo and given_rest in real:
+                return Check(WRONG, OTHER_WORD)
             if (same_word or umlaut or typo) and given_article is None:
                 extra = f" Also, {_umlaut_message(cand)}." if umlaut else ""
                 return Check(ALMOST, f"Don't forget the article: {cand}.{extra}")
@@ -142,6 +167,8 @@ def check_german(answer: str, word) -> Check:
             if norm.startswith("sich ") and given == norm[5:]:
                 return Check(ALMOST, f"It's reflexive: {cand}.")
             if _is_typo(given, norm):
+                if given in real:
+                    return Check(WRONG, OTHER_WORD)
                 return Check(ALMOST, "Small spelling mistake.")
     return Check(WRONG)
 

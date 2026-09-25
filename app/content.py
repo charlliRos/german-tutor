@@ -3,11 +3,11 @@ from __future__ import annotations
 
 import json
 import re
-from functools import lru_cache
+from functools import cached_property, lru_cache
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from .answers import english_forms, normalize
+from .answers import english_forms, normalize, real_english, real_german
 from .config import BOOKS_DIR, VERBS_DIR, VOCAB_DIR
 
 
@@ -117,6 +117,15 @@ class Content:
     problems: list[str] = field(default_factory=list)
     verbs: dict[str, Verb] = field(default_factory=dict)
     verb_hits: dict[str, list[VerbHit]] = field(default_factory=dict)  # by infinitive, in book order
+
+    @cached_property
+    def real_de(self) -> frozenset[str]:
+        """Every German word of the bank, for telling a typo from a different word (answers.py)."""
+        return real_german(self.words.values())
+
+    @cached_property
+    def real_en(self) -> frozenset[str]:
+        return real_english(self.words.values())
 
 
 def _as_list(value) -> list[str]:

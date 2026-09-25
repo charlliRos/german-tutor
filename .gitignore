@@ -7,3 +7,4 @@ voices/vosk-model-*/
 voices/*.zip
 /data/
 *.tmp
+/export/

@@ -11,7 +11,7 @@ from dataclasses import dataclass, field
 from rich.panel import Panel
 from rich.text import Text
 
-from . import sfx, srs, ui
+from . import attempts, sfx, srs, ui
 from .answers import ALMOST, CORRECT, WRONG, Check, _distance, normalize
 from .content import Verb, VerbHit, bare_word, person_forms, trim_around
 from .speaking import hear
@@ -159,6 +159,9 @@ def card(ctx, key: str, heading: str, repeat: bool = False) -> str:
     if ui.paste_count() > pastes:
         check = Check(WRONG, "No pasting! This one comes back until you type it yourself.", overridable=False)
         ctx.profile.count(ctx.today, caught=1)
+        attempts.note(answer, WRONG, check.message, kind, pasted=True)
+    else:
+        attempts.note(answer, check.outcome, check.message, kind)
     if not answer:
         console.print(f"[hint]Here it is: {ui.escape(expected)}[/]")
     else:
@@ -190,9 +193,23 @@ def card(ctx, key: str, heading: str, repeat: bool = False) -> str:
     return check.outcome
 
 
+def log(ctx, key: str, context: str, outcome: str, scheduled: bool = False, claimed: bool = False) -> str:
+    """Keep the answer in the answer log (attempts.py); returns the outcome."""
+    inf, kind = key.split("|")
+    verb = ctx.content.verbs[inf]
+    attempts.record(ctx.profile, ctx.today, item=key, item_version=attempts.version(verb.inf, kind, verb.past,
+                                                                                   verb.perfect, sorted(verb.alt)),
+                    competency="grammar.irregular_verbs", subcompetency=kind, context=context,
+                    score=attempts.graded(outcome if outcome != ONCE_MORE else CORRECT), grader=attempts.GRADER,
+                    schedule="result" if scheduled else None, store="verbs" if scheduled else None,
+                    counted=outcome if scheduled else None, claimed_correct=claimed or None)
+    return outcome
+
+
 def run_verbs(ctx, first_today: bool) -> VerbResult:
     """Today's verb cards, graded and on the ladder. Misses go into result.missed for repeat_verbs()."""
     result = VerbResult()
+    attempts.start(ctx.profile)
     keys = plan(ctx, first_today)
     states = ctx.profile.data["verbs"]
     ctx.rng.shuffle(keys)
@@ -202,6 +219,7 @@ def run_verbs(ctx, first_today: bool) -> VerbResult:
             result.missed.append(key)  # an answer the app didn't know: one more go, so it can't skip a card
             outcome = CORRECT
         srs.apply_result(states.setdefault(key, srs.new_state()), outcome, ctx.today)
+        log(ctx, key, "verbs.due", outcome, scheduled=True, claimed=key in result.missed)
         result.total += 1
         result.right += outcome == CORRECT
         if outcome != CORRECT:
@@ -219,5 +237,6 @@ def repeat_verbs(ctx, not_yet: list[str]) -> None:
         round_no += 1
         ctx.rng.shuffle(not_yet)
         not_yet = [key for i, key in enumerate(not_yet, 1)
-                   if card(ctx, key, f"Verbs again until they stick · round {round_no} · {i} of {len(not_yet)}",
-                           repeat=True) != CORRECT]
+                   if log(ctx, key, "verbs.repeat",
+                          card(ctx, key, f"Verbs again until they stick · round {round_no} · {i} of {len(not_yet)}",
+                               repeat=True)) != CORRECT]

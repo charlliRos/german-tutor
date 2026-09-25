@@ -75,6 +75,11 @@ File names start with the bank (`daily_…`, `stem_…`, `admin_…`). How many 
 }
 ```
 
+`author_died`, `year` and `source` are required. They are the proof that the text is public domain: the
+validator refuses a book whose author died less than 70 years ago. `n` is the paragraph's permanent number
+(its id is `<book id>#<n>`): never renumber, only add at the end. After any edit, run
+`python tools/item_versions.py --update`.
+
 ### Story summaries (skipping parts of a long book)
 
 To tell the whole story without translating every paragraph, put a summary unit between German units:

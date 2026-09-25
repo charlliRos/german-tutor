@@ -59,6 +59,7 @@ gtutor join 192.168.1.23 # duel: join the host at that address
 Each kid has a profile. Progress is saved automatically after every word and every paragraph, so quitting is safe: type `q` (or press Ctrl+C) to leave an activity, and `q` on the menu to close the app:
 - `data/profiles/<name>.json`: word boxes, reading position, daily history
 - `data/profiles/<name>_journal.jsonl`: every translation they typed, with their self-grade
+- `data/profiles/<name>_attempts.jsonl`: every answer (typed, said or self-graded), only ever added to. If the progress file is ever damaged, the word boxes can be rebuilt from it.
 
 ### Checking progress (for the parent)
 
@@ -121,7 +122,9 @@ Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`,
 - New book: `python tools/split_text.py text.txt content/books/11_author_title.json --title ... --author ...` creates the units. Then fill in `en`, `explain_en` and `words`.
 - More everyday words: `python tools/frequency_words.py` lists the most common German words (top 15,000 from film and TV subtitles) that the warm-up doesn't have yet, most common first. It needs `.venv\Scripts\pip install simplemma` (only for this tool).
 - Words taken out in the word-bank audit (duplicates, words spelled like English, old-fashioned or film-only words) are listed with the reason in [REMOVED_WORDS.md](REMOVED_WORDS.md).
+- Then record what changed: `python tools/item_versions.py --update` (it notes whether the answer, the wording or only an example changed, so old results stay honest). Never change or reuse an id, and never renumber a book's paragraphs: add new ones at the end.
 - Always run `python tools/validate_content.py` afterwards.
+- For the family learning platform: `python tools/export_olr.py` writes everything in its format ([docs/OLR_INTEGRATION.md](docs/OLR_INTEGRATION.md)). The typed-answer checker is specified in [docs/TEXT_SCORER_SPEC.md](docs/TEXT_SCORER_SPEC.md).
 - Tests: `python -m unittest discover -s tests -t .`
 
 Texts are public domain (the author died more than 70 years ago). Spelling is modernised, wording unchanged. Translations were written for this app.

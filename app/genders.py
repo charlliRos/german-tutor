@@ -8,7 +8,7 @@ from __future__ import annotations
 from rich.panel import Panel
 from rich.text import Text
 
-from . import sfx, srs, ui
+from . import attempts, sfx, srs, ui
 from .answers import CORRECT, WRONG, normalize
 from .speaking import hear
 from .ui import console, icon
@@ -54,6 +54,14 @@ def eligible(word) -> bool:
     return not any(alt.split()[-1] == noun and alt.split()[0] != article for alt in word.de_alt if split(alt))
 
 
+def _ending_rule(noun: str) -> str:
+    """The ending rule a noun falls under, e.g. "-ung", or "" (the subcompetency in the answer log)."""
+    for endings, _, _ in RULES:
+        if ending := next((e for e in endings if noun.lower().endswith(e)), None):
+            return f"-{ending}"
+    return ""
+
+
 def rule_tip(noun: str, article: str) -> str:
     for endings, rule_article, sure in RULES:
         ending = next((e for e in endings if noun.lower().endswith(e)), None)
@@ -92,6 +100,7 @@ def card(ctx, word, heading: str, repeat: bool = False) -> str:
             break
         console.print("[warn]Type 1, 2 or 3 (or der, die, das).[/]")
     right = chosen == article
+    attempts.note(chosen if chosen != "?" else "", CORRECT if right else WRONG, task="gender")
     plural = f", {word.plural}" if word.plural and word.plural != "—" else ""
     if right:
         console.print(f"[good]{icon('ok')} Correct![/]")
@@ -112,15 +121,28 @@ def card(ctx, word, heading: str, repeat: bool = False) -> str:
     return CORRECT if right else WRONG
 
 
+def log(ctx, word, context: str, outcome: str, scheduled: bool = False) -> str:
+    """Keep the answer in the answer log (attempts.py); returns the outcome."""
+    _, noun = split(word.de)
+    attempts.record(ctx.profile, ctx.today, item=word.id, item_version=attempts.version(word.de, word.pos),
+                    competency="grammar.noun_gender", subcompetency=_ending_rule(noun) or "no-rule",
+                    context=context, score=attempts.right_or_wrong(outcome == CORRECT), grader=attempts.GRADER,
+                    schedule="result" if scheduled else None, store="genders" if scheduled else None,
+                    counted=outcome if scheduled else None)
+    return outcome
+
+
 def run_genders(ctx, first_today: bool) -> VerbResult:
     """Today's noun genders, graded and on the ladder. Misses go into result.missed for repeat_genders()."""
     result = VerbResult()
+    attempts.start(ctx.profile)
     ids = [wid for wid in plan(ctx, first_today) if eligible(ctx.content.words[wid])]
     states = ctx.profile.data["genders"]
     ctx.rng.shuffle(ids)
     for i, wid in enumerate(ids, 1):
         outcome = card(ctx, ctx.content.words[wid], f"der, die, das {i} of {len(ids)}")
         srs.apply_result(states.setdefault(wid, srs.new_state()), outcome, ctx.today)
+        log(ctx, ctx.content.words[wid], "genders.due", outcome, scheduled=True)
         result.total += 1
         result.right += outcome == CORRECT
         if outcome != CORRECT:
@@ -138,6 +160,7 @@ def repeat_genders(ctx, not_yet: list[str]) -> None:
         round_no += 1
         ctx.rng.shuffle(not_yet)
         not_yet = [wid for i, wid in enumerate(not_yet, 1)
-                   if card(ctx, ctx.content.words[wid],
-                           f"der, die, das again until they stick · round {round_no} · {i} of {len(not_yet)}",
-                           repeat=True) != CORRECT]
+                   if log(ctx, ctx.content.words[wid], "genders.repeat",
+                          card(ctx, ctx.content.words[wid],
+                               f"der, die, das again until they stick · round {round_no} · {i} of {len(not_yet)}",
+                               repeat=True)) != CORRECT]

@@ -11,7 +11,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import genders, grammar, sentences, sfx, srs, ui, verbs
+from . import attempts, genders, grammar, sentences, sfx, srs, ui, verbs
 from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german, normalize
 from .config import DEFAULTS
 from .content import BANK_LABELS, Word, words_sharing_english
@@ -119,17 +119,17 @@ def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
                             subtitle=POS_HINTS.get(word.pos, "") or None, border_style="green", padding=(1, 2)))
         console.print(ui.umlaut_tip())
         answer = ui.ask_answer("German:")
-        check = _synonym_check(ctx, answer, word, check_german(answer, word))
+        check = _synonym_check(ctx, answer, word, check_german(answer, word, ctx.content.real_de))
     else:
         ui.todo("type", what="Type what it means in English.")
         console.print(ui.german(word.de, "German → English", word=True))
         hear(ctx, word.de)
         answer = ui.ask_answer("English:")
-        check = check_english(answer, word)
+        check = check_english(answer, word, ctx.content.real_en)
     if ui.paste_count() > pastes:
         check = PASTED
         ctx.profile.count(ctx.today, caught=1)
-    return _result(ctx, word, answer, check, second_chance, word.de if direction == "en2de" else "")
+    return _result(ctx, word, answer, check, second_chance, word.de if direction == "en2de" else "", direction)
 
 
 def gap_quiz(ctx, word: Word, gap: Gap, second_chance: bool = False) -> str:
@@ -145,7 +145,7 @@ def gap_quiz(ctx, word: Word, gap: Gap, second_chance: bool = False) -> str:
     if ui.paste_count() > pastes:
         check = PASTED
         ctx.profile.count(ctx.today, caught=1)
-    return _result(ctx, word, answer, check, second_chance, gap.sentence)
+    return _result(ctx, word, answer, check, second_chance, gap.sentence, "gap")
 
 
 DICTATION_RIGHT, DICTATION_ALMOST = 0.6, 0.4  # share of the sentence's words right, with the word itself right
@@ -179,11 +179,12 @@ def dictation_quiz(ctx, word: Word, second_chance: bool = False) -> str:
             check = Check(ALMOST, "The word is right; some of the sentence isn't yet.", overridable=False)
         else:
             check = Check(WRONG, f"Listen for {gap.form if gap else word.de}.", overridable=False)
-    return _result(ctx, word, answer, check, second_chance, sentence)
+    return _result(ctx, word, answer, check, second_chance, sentence, "dictation")
 
 
-def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say: str) -> str:
+def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say: str, task: str) -> str:
     """Show how it went and the word card, say `say` (if any), and ask to go on. Returns the outcome."""
+    attempts.note(answer, check.outcome, check.message, task, pasted=check is PASTED)
     if not answer:
         console.print("[hint]Here it is:[/]")
         style = "bad"
@@ -231,8 +232,28 @@ def ask_word(ctx, word: Word, kind: str, second_chance: bool = False) -> str:
     return quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance)
 
 
+def log_word(ctx, word: Word, context: str, outcome: str, schedule: str | None = None, claimed: bool = False) -> None:
+    """Keep a typed answer about a word in the answer log (attempts.py). schedule: what it did to the word's box."""
+    task = attempts.pending_task()
+    attempts.record(ctx.profile, ctx.today, item=word.id, item_version=attempts.word_version(word),
+                    competency=attempts.WORD_TASKS.get(task, "vocabulary.production"),
+                    subcompetency=attempts.word_subcompetency(word), context=context,
+                    score=attempts.graded(outcome), grader=attempts.GRADER, schedule=schedule,
+                    store="vocab" if schedule else None, counted=outcome if schedule else None,
+                    claimed_correct=claimed or None)
+
+
+def log_speaking(ctx, word: Word, context: str, heard: bool, schedule: str | None = None) -> None:
+    attempts.note(task="say")
+    attempts.record(ctx.profile, ctx.today, item=word.id, item_version=attempts.word_version(word),
+                    competency="speaking.pronunciation", subcompetency=attempts.word_subcompetency(word),
+                    context=context, score=attempts.right_or_wrong(heard), grader=attempts.speech_grader(ctx),
+                    schedule=schedule, store="vocab" if schedule else None)
+
+
 def run_warmup(ctx) -> WarmupResult | None:
     words = ctx.content.words
+    attempts.start(ctx.profile)
     if not words:
         console.print("[warn]The vocabulary bank is empty. Add words to content/vocab/.[/]")
         return None
@@ -297,9 +318,11 @@ def run_warmup(ctx) -> WarmupResult | None:
         spoken = False
         if kind != "new" and ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:
             spoken = read_aloud(ctx, word)
+            practised = spoken and kind == "review"
+            if practised:
+                srs.mark_practised(state, ctx.today)
+            log_speaking(ctx, word, f"warmup.{kind}", spoken, "practised" if practised else None)
             if spoken:
-                if kind == "review":
-                    srs.mark_practised(state, ctx.today)
                 result.spoken += 1
             else:  # not heard: it's practised by typing instead
                 console.print("[hint]I didn't hear it, so let's type it instead.[/]")
@@ -308,11 +331,14 @@ def run_warmup(ctx) -> WarmupResult | None:
                 ui.title(f"{ctx.step}Word {pos} of {len(queue)}", sub)
         if not spoken:
             outcome = auto = ask_word(ctx, word, kind)
-            if outcome == ONCE_MORE:
+            claimed = outcome == ONCE_MORE
+            if claimed:
                 not_yet.append(word)  # an answer the app didn't know: one more go, so it can't skip a word
             if outcome in (AUTO_NEXT, ONCE_MORE):
                 outcome = CORRECT
-            (srs.apply_practice if kind in ("practice", "reading") else srs.apply_result)(state, outcome, ctx.today)
+            schedule = "practice" if kind in ("practice", "reading") else "result"
+            (srs.apply_practice if schedule == "practice" else srs.apply_result)(state, outcome, ctx.today)
+            log_word(ctx, word, f"warmup.{kind}", outcome, schedule, claimed)
             result.correct += outcome == CORRECT
             result.almost += outcome == ALMOST
             if outcome == WRONG:
@@ -354,6 +380,7 @@ def repeat_until_right(ctx, words: list[Word]) -> None:
             ui.title(f"{ctx.step}Again until it sticks · round {round_no} · {i} of {len(words)}",
                      "just for practice, no score")
             outcome = quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance=True)
+            log_word(ctx, word, "warmup.repeat", CORRECT if outcome == AUTO_NEXT else outcome)
             if outcome == AUTO_NEXT:
                 ui.pause(AUTO_NEXT_SECONDS, skippable=True)
             elif outcome != CORRECT:

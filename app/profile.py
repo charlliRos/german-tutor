@@ -1,4 +1,4 @@
-"""One progress file per kid: data/profiles/<name>.json (+ a translation journal)."""
+"""One progress file per kid: data/profiles/<name>.json (+ a translation journal and a log of every answer)."""
 from __future__ import annotations
 
 import json
@@ -27,6 +27,11 @@ class Profile:
     @property
     def journal_path(self) -> Path:
         return self.path.with_name(self.path.stem + "_journal.jsonl")
+
+    @property
+    def attempts_path(self) -> Path:
+        """Every answer, only ever appended (see attempts.py)."""
+        return self.path.with_name(self.path.stem + "_attempts.jsonl")
 
     @classmethod
     def list_all(cls, unreadable: list[Path] | None = None) -> list["Profile"]:

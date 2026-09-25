@@ -5,11 +5,13 @@ import json
 import re
 import sys
 from collections import Counter
+from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from app.config import BOOKS_DIR, VOCAB_DIR  # noqa: E402
 from app.content import BANKS, is_duplicate, sentences, vocab_files  # noqa: E402
+from app.versions import compare, current_items, load_versions  # noqa: E402
 
 POS = {"noun", "verb", "adj", "adv", "prep", "conj", "pron", "num", "phrase", "other"}
 LEVELS = {"A1", "A2", "B1", "B2", "C1"}
@@ -74,9 +76,13 @@ def check_books() -> list[tuple[str, int]]:
         data = load(path)
         if data is None:
             continue
-        for field in ("id", "title", "author", "year", "level", "source", "intro_en", "units"):
+        for field in ("id", "title", "author", "year", "author_died", "level", "source", "intro_en", "units"):
             if not data.get(field):
                 errors.append(f"{path.name}: missing {field}")
+        died = data.get("author_died")
+        if isinstance(died, int) and died + 70 >= date.today().year:
+            errors.append(f"{path.name}: {data.get('author')} died in {died}: not public domain until "
+                          f"1 January {died + 71} (life + 70 years)")
         units = data.get("units", [])
         for i, u in enumerate(units, 1):
             where = f"{path.name} unit {u.get('n', '?')}"
@@ -113,9 +119,20 @@ def check_books() -> list[tuple[str, int]]:
     return summary
 
 
+def check_versions() -> None:
+    """Every edit is recorded in content/item_versions.json (tools/item_versions.py), and paragraphs are
+    never renumbered."""
+    changes, refusals = compare(load_versions(), current_items())
+    errors.extend(refusals)
+    if changes:
+        errors.append(f"{len(changes)} item(s) changed since content/item_versions.json was updated: "
+                      "run python tools/item_versions.py --update")
+
+
 def main() -> int:
     banks = check_vocab()
     books = check_books()
+    check_versions()
     print("Vocabulary: " + ", ".join(f"{banks.get(b, 0)} {label}" for b, label in BANKS.items()) + " words")
     for title, n in books:
         print(f"Book: {title} ({n} units)")

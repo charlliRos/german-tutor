@@ -13,7 +13,7 @@ from dataclasses import dataclass
 from rich.panel import Panel
 from rich.text import Text
 
-from . import sfx, ui
+from . import attempts, sfx, ui
 from .answers import CORRECT, WRONG, normalize
 from .content import bare_word
 from .speaking import hear
@@ -45,6 +45,7 @@ class Item:
     tip: str = ""   # shown after a wrong answer
     english: str = ""
     full: str = ""  # ending questions: the whole word (neuen), also accepted
+    source: str = ""  # id of the word whose example sentence this came from
 
 
 def _is_noun(token: str) -> bool:
@@ -153,6 +154,7 @@ def make_items(ctx, count: int) -> list[Item]:
         if found:
             item = ctx.rng.choice(found)
             item.english = word.example_en
+            item.source = word.id
             items.append(item)
             used.add(word.example_de)
     return items
@@ -188,6 +190,7 @@ def question(ctx, item: Item, heading: str, repeat: bool = False) -> str:
     console.print(ui.umlaut_tip())
     answer = ui.ask_answer(prompt)
     outcome, message = check(item, answer) if answer else (WRONG, "")
+    attempts.note(answer, outcome, message, item.kind)
     if outcome == CORRECT:
         console.print(f"[good]{icon('ok')} Correct![/]")
         sfx.play(ctx.audio, "right")
@@ -207,6 +210,16 @@ def question(ctx, item: Item, heading: str, repeat: bool = False) -> str:
     return outcome
 
 
+def log(ctx, item: Item, context: str, outcome: str) -> str:
+    """Keep the answer in the answer log (attempts.py); returns the outcome. Questions are made fresh from
+    example sentences, so the id is the word the sentence belongs to plus the kind of question."""
+    attempts.record(ctx.profile, ctx.today, item=f"{item.source}|grammar.{item.kind}",
+                    item_version=attempts.version(item.shown, item.answer, item.full),
+                    competency=attempts.GRAMMAR_KINDS[item.kind], subcompetency=item.kind, context=context,
+                    score=attempts.right_or_wrong(outcome == CORRECT), grader=attempts.GRADER)
+    return outcome
+
+
 def run_grammar(ctx, first_today: bool) -> VerbResult:
     """A few grammar questions in the day's first warm-up. Misses go into result.missed."""
     result = VerbResult()
@@ -214,7 +227,7 @@ def run_grammar(ctx, first_today: bool) -> VerbResult:
         return result
     items = make_items(ctx, int(ctx.settings["grammar_per_day"]))
     for i, item in enumerate(items, 1):
-        outcome = question(ctx, item, f"Grammar {i} of {len(items)}")
+        outcome = log(ctx, item, "grammar.daily", question(ctx, item, f"Grammar {i} of {len(items)}"))
         result.total += 1
         result.right += outcome == CORRECT
         if outcome != CORRECT:
@@ -231,5 +244,6 @@ def repeat_grammar(ctx, not_yet: list[Item]) -> None:
         round_no += 1
         ctx.rng.shuffle(not_yet)
         not_yet = [item for i, item in enumerate(not_yet, 1)
-                   if question(ctx, item, f"Grammar again until it sticks · round {round_no} · {i} of {len(not_yet)}",
-                               repeat=True) != CORRECT]
+                   if log(ctx, item, "grammar.repeat",
+                          question(ctx, item, f"Grammar again until it sticks · round {round_no} · {i} of {len(not_yet)}",
+                                   repeat=True)) != CORRECT]
