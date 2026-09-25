@@ -10,7 +10,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import duel, exam_practice, goals, lan, presence, sfx, srs, ui
+from . import duel, exam_practice, goals, lan, placement, presence, sfx, srs, ui
 from .audio import Audio
 from .config import load_settings
 from .content import Content, load_content, words_in_reach
@@ -254,8 +254,14 @@ def show_progress(ctx: Context) -> None:
     target = ctx.profile.data.get("target")
     console.print(f"Goal: [bold]{target or 'not set'}[/]" + (f" · topics: {', '.join(goals.topics(ctx.profile.data))}"
                                                            if goals.topics(ctx.profile.data) else ""))
-    if ui.keys({"": "back", "g": "change my goal and topics"}) == "g":
+    level = ctx.profile.data.get("placement", {}).get("band")
+    if level:
+        console.print(f"[hint]Placement ({ctx.profile.data['placement']['date']}): about {level}[/]")
+    choice = ui.keys({"": "back", "g": "change my goal and topics", "p": "find my level (placement)"})
+    if choice == "g":
         goals.choose(ctx)
+    elif choice == "p":
+        placement.run(ctx)
 
 
 def show_journal(ctx: Context) -> None:
@@ -303,6 +309,10 @@ def menu(ctx: Context) -> None:
     if ctx.profile.is_new:
         try:
             welcome(ctx)
+            ui.clear()
+            console.print("Do you already know some German?")
+            if ui.keys({"": "no, start from the beginning", "p": "yes: find my level (about 10 minutes)"}) == "p":
+                placement.run(ctx)
         except QuitSession:
             pass
     if "target" not in ctx.profile.data:

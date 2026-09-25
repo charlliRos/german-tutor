@@ -101,6 +101,16 @@ def start(profile) -> None:
             f.write(json.dumps(_baseline(profile), ensure_ascii=False) + "\n")
 
 
+def record_seed(profile, today: date, store: str, states: dict[str, dict]) -> None:
+    """Boxes set without an answer each (the placement's "you most likely know these"): one event with the
+    states, so rebuild() reproduces them. Only for items that had no box yet."""
+    start(profile)
+    event = {"v": SCHEMA, "type": "seed", "id": uuid.uuid4().hex, "at": _now(), "date": today.isoformat(),
+             "learner": profile.name, "store": store, "states": states}
+    with profile.attempts_path.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(event, ensure_ascii=False) + "\n")
+
+
 def record(profile, today: date, *, item: str, item_version: str, competency: str, subcompetency: str,
            context: str, score: dict, grader: str, schedule: str | None = None, store: str | None = None,
            counted: str | None = None, **extra) -> dict:
@@ -185,6 +195,10 @@ def rebuild(events: list[dict]) -> dict[str, dict]:
         if e.get("type") == "baseline":
             for store in STORES:
                 states[store] = json.loads(json.dumps(e.get(store, {})))
+            continue
+        if e.get("type") == "seed" and e.get("store") in STORES:
+            for item, state in e.get("states", {}).items():
+                states[e["store"]][item] = dict(state)
             continue
         if e.get("type") != "attempt" or not e.get("schedule") or e.get("store") not in STORES:
             continue
