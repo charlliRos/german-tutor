@@ -23,7 +23,6 @@ from .ui import console, icon
 AUTO_NEXT = "auto_next"  # quiz(): correct, and no key press needed to continue
 ONCE_MORE = "once_more"  # quiz(): "my answer was right too": counts as correct, but comes back once more today
 PASTED = Check(WRONG, "No pasting! This one comes back until you type it yourself.", overridable=False)
-AUTO_NEXT_SECONDS = 2.0
 
 POS_HINTS = {"noun": "noun: include der / die / das", "verb": "verb", "adj": "adjective", "adv": "adverb",
              "prep": "preposition", "conj": "conjunction", "pron": "pronoun", "num": "number",
@@ -84,8 +83,13 @@ def ask_hook(ctx, word: Word) -> None:
         hooks[word.id] = hook[:120]
 
 
-def _listen_options(ctx, word: Word, options: dict[str, str]) -> str:
-    """Show options (plus replay ones when audio works); handle replays; return the other choice."""
+def auto_seconds(ctx, kind: str) -> float:
+    return float({**DEFAULTS["auto_next"], **ctx.settings.get("auto_next", {})}[kind])
+
+
+def _listen_options(ctx, word: Word, options: dict[str, str], auto: float = 0) -> str:
+    """Show options (plus replay ones when audio works); handle replays; return the other choice.
+    auto: go on by itself after this many seconds, unless a key is pressed first."""
     if ctx.audio.can_speak:
         options = {**options, "r": "hear again", "s": "say it myself"}
         if word.example_de:
@@ -93,7 +97,8 @@ def _listen_options(ctx, word: Word, options: dict[str, str]) -> str:
         if word.story_de and word.story_de != word.example_de:
             options["b"] = "hear the book sentence"
     while True:
-        choice = ui.keys(options)
+        choice = ui.timed_keys(options, auto) if auto else ui.keys(options)
+        auto = 0  # after a replay, wait for the kid
         if choice == "r":
             hear(ctx, word.de)
         elif choice == "s":
@@ -223,7 +228,7 @@ def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say
     options = {"": "next"}
     if check.overridable and answer and not second_chance and check.outcome != CORRECT:
         options["o"] = "my answer was right too"
-    if _listen_options(ctx, word, options) == "o":
+    if _listen_options(ctx, word, options, auto=auto_seconds(ctx, "wrong")) == "o":
         console.print("[good]OK, counted as correct.[/] [hint]It comes back once more at the end.[/]")
         sfx.play(ctx.audio, "right")
         return ONCE_MORE
@@ -366,7 +371,7 @@ def run_warmup(ctx) -> WarmupResult | None:
                 result.spoken += 1
             else:  # not heard: it's practised by typing instead
                 console.print("[hint]I didn't hear it, so let's type it instead.[/]")
-                ui.keys({"": "type it"})
+                ui.timed_keys({"": "type it"}, 2)
                 ui.clear()
                 ui.title(f"{ctx.step}Word {pos} of {len(queue)}", sub)
         if not spoken:
@@ -396,7 +401,7 @@ def run_warmup(ctx) -> WarmupResult | None:
             reading_queue.remove(wid)  # met again: done (it stays in the normal repetition schedule)
         ctx.profile.save()
         if auto == AUTO_NEXT:
-            ui.pause(AUTO_NEXT_SECONDS, skippable=True)
+            ui.pause(auto_seconds(ctx, "right"), skippable=True)
 
     # Every word is graded: the warm-up counts now, even if they stop during the repeats.
     ctx.profile.count(ctx.today, warmups=1)
@@ -427,7 +432,7 @@ def repeat_until_right(ctx, words: list[Word]) -> None:
             outcome = quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance=True)
             log_word(ctx, word, "warmup.repeat", CORRECT if outcome == AUTO_NEXT else outcome)
             if outcome == AUTO_NEXT:
-                ui.pause(AUTO_NEXT_SECONDS, skippable=True)
+                ui.pause(auto_seconds(ctx, "right"), skippable=True)
             elif outcome != CORRECT:
                 missed.append(word)
         words = missed

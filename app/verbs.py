@@ -18,7 +18,8 @@ from .speaking import hear
 from .ui import console, icon
 
 KINDS = {"past": "Past tense", "perfect": "Perfect tense"}
-NEXT_SECONDS = 2.0
+NEXT_SECONDS = 1.5   # after a right answer, then the next question starts by itself
+WRONG_SECONDS = 4    # after a wrong one: time to read the right answer, then on by itself (a key stops it)
 ONCE_MORE = "once_more"  # card(): "my answer was right too": counts as correct, but comes back once more today
 
 
@@ -184,8 +185,10 @@ def card(ctx, key: str, heading: str, repeat: bool = False) -> str:
             options["o"] = "my answer was right too"
         if ctx.audio.can_speak:
             options["r"] = "hear the forms again"
-        while (choice := ui.keys(options)) == "r":
+        choice = ui.timed_keys(options, WRONG_SECONDS)  # goes on by itself; a key stops the clock
+        while choice == "r":
             hear(ctx, f"{verb.inf}. {verb.past}. {verb.perfect}.")
+            choice = ui.keys(options)
         if choice == "o":
             console.print("[good]OK, counted as correct.[/] [hint]It comes back once more at the end.[/]")
             sfx.play(ctx.audio, "right")

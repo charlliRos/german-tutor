@@ -143,7 +143,7 @@ If you installed from a ZIP (no git), download the new ZIP instead, unzip it ove
 
 ## Settings
 
-Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`, `new_word_share`), the mix of everyday / STEM / official words (`bank_shares`), paragraphs per day, look backs per session (`paragraph_reviews_per_session`), key words from reading per day (`reading_words_per_day`), der/die/das cards per day (`genders_per_day`), grammar questions per day (`grammar_per_day`), how often a question uses the example sentence (`sentence_tasks`), the speech check on/off (`speech_check`), finding the other kids on the Wi-Fi (`share_on_wifi`: `"ask"`, `true` or `false`), how often to speak, speech speed, sound effects on/off (`sound_effects`), microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
+Edit `config.json`: warm-up size (`warmup_start`, `warmup_max`, `warmup_growth`, `new_word_share`), the mix of everyday / STEM / official words (`bank_shares`), paragraphs per day, look backs per session (`paragraph_reviews_per_session`), key words from reading per day (`reading_words_per_day`), der/die/das cards per day (`genders_per_day`), grammar questions per day (`grammar_per_day`), how often a question uses the example sentence (`sentence_tasks`), the speech check on/off (`speech_check`), finding the other kids on the Wi-Fi (`share_on_wifi`: `"ask"`, `true` or `false`), how often to speak, speech speed, sound effects on/off (`sound_effects`), how many seconds before the next question starts by itself after a right / wrong answer (`auto_next`), microphone/speaker device. To list audio devices: `.venv\Scripts\python -m sounddevice`.
 
 ## Adding content (for the parent)
 

@@ -15,8 +15,9 @@ TUNES = {
     "almost": [(880.00, 0.07, 0.5), (880.00, 0.16, 0.5)],      # A5 twice: "nearly"
     "wrong": [(196.00, 0.11, 0.5), (138.59, 0.30, 0.5)],       # G3 -> C#3, a falling tritone "bonk-bonk"
     "buzz": [(110.00, 0.09, 0.5)],                             # A2 blip: "not so fast"
+    "go": [(1046.50, 0.14, 0.25)],                             # C6 beep: "recording now, speak!"
 }
-VOLUME = {"right": 0.30, "almost": 0.22, "wrong": 0.28, "buzz": 0.22}
+VOLUME = {"right": 0.30, "almost": 0.22, "wrong": 0.28, "buzz": 0.22, "go": 0.25}
 HARMONICS_UP_TO = 12000.0  # Hz
 _clips: dict[tuple[str, int], np.ndarray] = {}
 

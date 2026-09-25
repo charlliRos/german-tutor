@@ -18,7 +18,7 @@ from .answers import CORRECT, WRONG, normalize
 from .content import bare_word
 from .speaking import hear
 from .ui import console, icon
-from .verbs import NEXT_SECONDS, VerbResult
+from .verbs import NEXT_SECONDS, WRONG_SECONDS, VerbResult
 
 DEFINITE = {"der", "die", "das", "den", "dem", "des"}
 EIN_WORDS = ("ein", "kein", "mein", "dein", "sein")
@@ -228,7 +228,7 @@ def question(ctx, item: Item, heading: str, repeat: bool = False) -> str:
         console.print("[hint]Next one in a moment… (Enter = go now)[/]")
         ui.pause(NEXT_SECONDS, skippable=True)
     else:
-        ui.keys({"": "next"})
+        ui.timed_keys({"": "next"}, WRONG_SECONDS)
     return outcome
 
 

@@ -1,6 +1,8 @@
 """Listening and speaking practice: hear the German, record yourself, compare."""
 from __future__ import annotations
 
+import time
+
 from . import ui
 from .audio import QUIET_PEAK
 from .listen import said_it
@@ -24,15 +26,31 @@ def record_seconds_for(ctx, text: str) -> float:
     return round(min(10.0, max(float(ctx.settings["word_record_seconds"]), 1.5 + 0.12 * len(text))), 1)
 
 
+AUTO_NEXT_HEARD = 3    # seconds after a speaking turn the speech check heard, then on to the next
+COUNTDOWN = 3          # "3 · 2 · 1 · speak!" before recording starts by itself (no Enter needed)
+COUNTDOWN_STEP = 0.45  # seconds per number
+
+
+def _countdown(ctx) -> None:
+    """Get ready, then a beep: recording starts by itself, so nobody misses that it began."""
+    with console.status("") as status:
+        for n in range(COUNTDOWN, 0, -1):
+            status.update(f"[rec]{icon('mic')} Get ready to speak… {n}[/]")
+            time.sleep(COUNTDOWN_STEP)
+    from . import sfx
+    sfx.play(ctx.audio, "go")
+    ui.flush_input()
+
+
 def _record(ctx, text: str, long_text: bool):
     try:
         if long_text:
-            ui.ask(f"{icon('mic')} Press Enter, then read the text out loud.")
-            console.print(f"[rec]{icon('rec')} Recording…[/] press Enter when you're finished.")
+            _countdown(ctx)
+            console.print(f"[rec]{icon('rec')} Recording, read it out loud now![/] Press Enter when you're finished.")
             recording = ctx.audio.record_until(lambda: ui.ask(""))
         else:
             seconds = record_seconds_for(ctx, text)
-            ui.ask(f"{icon('mic')} Press Enter, then say it.")
+            _countdown(ctx)
             with console.status("") as status:
                 def tick(left: float) -> bool:
                     status.update(f"[rec]{icon('rec')} Recording, speak now! {left:0.1f} s left[/]")
@@ -105,8 +123,10 @@ def speak_and_compare(ctx, text: str, long_text: bool = False, slow: bool | None
         options = {"": "next", "r": "play again" if recording is not None else "hear it again"}
         if ctx.audio.can_record:
             options["a"] = "try again"
+        auto = checking and said  # heard: go on by itself (a key stops the clock to replay or try again)
         while True:
-            choice = ui.keys(options)
+            choice = ui.timed_keys(options, AUTO_NEXT_HEARD) if auto else ui.keys(options)
+            auto = False
             if choice == "":
                 if must_say and checking:
                     ctx.profile.count(ctx.today, speaking=1, speaking_heard=int(said))

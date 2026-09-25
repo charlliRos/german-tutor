@@ -545,6 +545,36 @@ def ask_multiline(prompt: str) -> str:
     return "\n".join(lines).strip()
 
 
+def key_within(seconds: float) -> bool:
+    """Wait up to `seconds`; True as soon as a fresh key is pressed (it stays waiting, to be read).
+    Like pause(): an Enter still held from the answer, or mashed, is thrown away and doesn't count."""
+    if not console.is_terminal:
+        return False
+    end = time.monotonic() + seconds
+    drain = _Drain()
+    try:
+        while (now := time.monotonic()) < end:
+            held_all_along = drain.held_since is not None and now - drain.held_since > 0.1
+            if key_pressed() and now - _last_key[0] >= MUTE_AFTER_KEY and not held_all_along:
+                return True
+            drain.keys_waiting()
+            time.sleep(0.02)
+    except KeyboardInterrupt:
+        console.print()
+        raise QuitSession from None
+    return False
+
+
+def timed_keys(options: dict[str, str], seconds: float) -> str:
+    """Like keys(), but goes on by itself ('' = Enter) after `seconds`: no key press needed to continue.
+    Enter goes on at once; any other key stops the clock and the options are asked as usual."""
+    others = " · ".join(f"{'Enter' if k == '' else k} = {label}" for k, label in options.items() if k)
+    console.print(f"[hint]Next in {seconds:g} s (Enter = now" + (f" · {escape(others)}" if others else "") + ")[/]")
+    if not key_within(seconds):
+        return ""
+    return keys(options)
+
+
 def keys(options: dict[str, str]) -> str:
     """Show e.g. '[Enter] next  [r] hear again' and return the chosen key ('' is Enter)."""
     hint = "   ".join(f"[key]{escape('[' + ('Enter' if k == '' else k) + ']')}[/] {escape(label)}"
