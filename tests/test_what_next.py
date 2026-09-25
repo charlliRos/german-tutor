@@ -73,5 +73,37 @@ class GrammarFocus(unittest.TestCase):
         self.assertEqual(grammar.make_items(ctx, 3, focus=None)[0].kind, "article")  # no focus: the usual mix
 
 
+class TodaysExamPart(unittest.TestCase):
+    def setUp(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        self.ctx = make_ctx(tmp.name)
+        self.exam = exams._exam(RAW)
+
+    def test_order_untried_first_writing_last_then_due_then_weakest(self):
+        pick = lambda: exam_practice.todays_part(self.ctx, [self.exam])[1].id  # noqa: E731
+        self.assertEqual(pick(), "lesen-1")
+        done = exam_practice.progress(self.ctx).setdefault("t-01", {})
+        result = lambda best, total, due="2026-12-01": {"score": best, "max": total, "best": best, "last": "", "tries": 1, "due": due}  # noqa: E731
+        done.update({"lesen-1": result(2, 2), "lesen-2": result(1, 2), "hoeren-1": result(1, 1)})
+        self.assertEqual(pick(), "schreiben-1")                 # the only one not tried yet
+        done["schreiben-1"] = result(3, 3)
+        self.assertEqual(pick(), "lesen-2")                     # all tried: the weakest (1 of 2)
+        done["hoeren-1"]["due"] = "2026-09-01"
+        self.assertEqual(pick(), "hoeren-1")                    # due again comes first
+
+    def test_the_goal_picks_the_exam(self):
+        b1 = exams._exam({**RAW, "id": "t-b1", "level": "B1"})
+        self.ctx.profile.data["target"] = "C1"
+        self.assertEqual(exam_practice.exam_for_goal(self.ctx, [self.exam, b1]).id, "t-b1")
+        self.ctx.profile.data["target"] = "A2"
+        self.assertEqual(exam_practice.exam_for_goal(self.ctx, [self.exam, b1]).id, "t-01")
+
+    def test_the_daily_part_reports_its_score(self):
+        with mock.patch("app.exam_practice.load_exams", return_value=([self.exam], [])),                 mock.patch("app.ui.keys", lambda o: {"b": "b", "r": "f"}.get(next((k for k in o if k in "br"), ""), "")),                 mock.patch("app.ui.clear"), mock.patch("app.exam_practice.sfx.play"), console.capture():
+            line = exam_practice.run_daily(self.ctx)
+        self.assertEqual(line, "Exam practice: A2 Lesen, Teil 1: 2 of 2")
+
+
 if __name__ == "__main__":
     unittest.main()

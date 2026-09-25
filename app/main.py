@@ -154,7 +154,7 @@ def welcome(ctx: Context) -> None:
     console.print(banner(ctx.profile.name, width=console.width,
                          heading=(f"Willkommen, {ctx.profile.name}!", f"Welcome, {ctx.profile.name}!")))
     console.print(Panel(Text.from_markup(
-        "[bold]1.[/] Every day, choose [key]1[/]: a vocabulary warm-up, then a new paragraph of a German book\n"
+        "[bold]1.[/] Every day, choose [key]1[/]: a vocabulary warm-up, a new paragraph of a story, then one exam practice part\n"
         "   and a look back at earlier ones. Repetition is how it sticks!\n"
         "   The warm-up starts with 10 words and grows a little every day you practise.\n"
         "[bold]2.[/] The coloured tag at the top of each screen tells you what to do:\n   "
@@ -169,7 +169,7 @@ def welcome(ctx: Context) -> None:
         ui.keys({"": "let's go"})
 
 
-def finish_screen(ctx: Context, warm: WarmupResult | None, paragraphs: int | None) -> None:
+def finish_screen(ctx: Context, warm: WarmupResult | None, paragraphs: int | None, exam: str | None = None) -> None:
     ui.clear()
     lines = []
     if warm is not None:
@@ -189,6 +189,8 @@ def finish_screen(ctx: Context, warm: WarmupResult | None, paragraphs: int | Non
         looked_back = ctx.profile.day(ctx.today).get("reviews", 0)
         if looked_back:
             lines.append(f"{icon('book')} {ui.plural(looked_back, 'paragraph')} looked back at today")
+    if exam:
+        lines.append(f"{icon('done')} {ui.escape(exam)}")
     if ctx.presence:
         share(ctx)  # the others see it now ("… just finished a warm-up")
         for name, t in ctx.presence.friends_today().items():
@@ -306,7 +308,7 @@ def audio_check(ctx: Context) -> None:
 
 
 MENU = {
-    "1": "Today's lesson (warm-up + reading)",
+    "1": "Today's lesson (warm-up + story + exam practice)",
     "2": "Vocabulary warm-up only",
     "3": "Reading only",
     "4": "Choose a book",
@@ -357,12 +359,15 @@ def menu(ctx: Context) -> None:
             ctx.presence.set_status(ACTIVITIES[choice])
         try:
             if choice == "1":
-                ctx.step = "Today 1/2 · "
+                ctx.step = "Today 1/3 · "
                 warm = run_warmup(ctx)
                 share(ctx)  # the warm-up is done: the others hear it before the reading starts
-                ctx.step = "Today 2/2 · "
+                ctx.step = "Today 2/3 · "
                 paragraphs = run_reading(ctx)
-                finish_screen(ctx, warm, paragraphs)
+                share(ctx)
+                ctx.step = "Today 3/3 · "
+                exam = exam_practice.run_daily(ctx)
+                finish_screen(ctx, warm, paragraphs, exam)
             elif choice == "2":
                 warm = run_warmup(ctx)
                 if warm:

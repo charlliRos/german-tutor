@@ -121,7 +121,7 @@ def exam_screen(ctx, exam: Exam) -> None:
 
 def _intro(ctx, exam: Exam, part: Part) -> None:
     ui.clear()
-    ui.title(f"{exam.level} · {part.title_de}", f"{len(part.items)} questions"
+    ui.title(f"{ctx.step}{exam.level} · {part.title_de}", f"{len(part.items)} questions"
              + (f" · about {part.minutes} min" if part.minutes else ""))
     ui.todo("listen" if part.skill == "listening" else "read", what=part.instructions_en or "Answer every question.")
     if part.skill == "listening":
@@ -165,7 +165,7 @@ def _ask(ctx, item: ExamItem, part: Part, n: int, header: str, shown: list, repl
     """One question; returns the key typed ('' = don't know). shown: panels to show above the question."""
     while True:
         ui.clear()
-        ui.title(header)
+        ui.title(f"{ctx.step}{header}")
         for panel in shown:
             console.print(panel)
         console.print(_question_panel(item, part, n))
@@ -204,7 +204,7 @@ def run_part(ctx, exam: Exam, part: Part) -> None:
             texts = [part.text(t) for t in text_ids]
             spoken = " … ".join(t.spoken for t in texts)
             ui.clear()
-            ui.title(f"{header} · questions {n + 1}–{n + len(items)}")
+            ui.title(f"{ctx.step}{header} · questions {n + 1}–{n + len(items)}")
             ui.todo("read", "listen", what="Read the questions, then listen.")
             for k, item in enumerate(items, n + 1):
                 console.print(_question_panel(item, part, k))
@@ -298,6 +298,45 @@ def advice(ctx, level: str) -> str:
             f"helps more until {round(100 * PART_READY)}%.")
 
 
+def exam_for_goal(ctx, exams: list[Exam]) -> Exam | None:
+    """The practice exam for the kid's goal: A2 for A2, B1 for B1 and C1 (the highest there is so far)."""
+    goal = ctx.profile.data.get("target") or ctx.profile.data.get("placement", {}).get("band") or "A2"
+    order = ["A1", "A2", "B1", "B2", "C1"]
+    fitting = [e for e in exams if order.index(e.level) <= order.index(goal)] if goal in order else exams
+    return (fitting or exams or [None])[-1]
+
+
+def todays_part(ctx, exams: list[Exam]) -> tuple[Exam, Part] | None:
+    """The exam part for today's lesson: one that's due again, else one not tried yet (reading and listening
+    before writing), else the one with the weakest best score."""
+    exam = exam_for_goal(ctx, exams)
+    if exam is None:
+        return None
+    due = [(e, p) for e, p in due_parts(ctx, [exam])]
+    if due:
+        return due[0]
+    done = progress(ctx).get(exam.id, {})
+    fresh = [p for p in exam.parts if p.id not in done]
+    fresh.sort(key=lambda p: p.skill == "writing")
+    if fresh:
+        return exam, fresh[0]
+    return exam, min(exam.parts, key=lambda p: done[p.id]["best"] / max(done[p.id]["max"], 1))
+
+
+def run_daily(ctx) -> str | None:
+    """Today's lesson, part 3: one exam part. Returns a line for the finish screen (None: no exams)."""
+    picked = todays_part(ctx, load_exams()[0])
+    if picked is None:
+        return None
+    exam, part = picked
+    (writing if part.skill == "writing" else run_part)(ctx, exam, part)
+    done = progress(ctx).get(exam.id, {}).get(part.id)
+    if not done or done.get("last") != ctx.today.isoformat():
+        return None  # stopped before the end
+    return f"Exam practice: {exam.level} {part.title_de}: {done['score']} of {done['max']}" + (
+        " · points covered" if part.skill == "writing" else "")
+
+
 def due_parts(ctx, exams: list[Exam]) -> list[tuple[Exam, Part]]:
     """Parts tried before whose come-back day has arrived."""
     out = []
@@ -327,7 +366,7 @@ def _shown_answer(item: ExamItem, part: Part, key: str) -> str:
 
 def _results(ctx, exam: Exam, part: Part, answers: dict[str, str], score: int, minutes: int) -> None:
     ui.clear()
-    ui.title(f"{exam.level} · {part.title_de} · results")
+    ui.title(f"{ctx.step}{exam.level} · {part.title_de} · results")
     total = part.max_points
     verdict = (f"[good]{icon('party')} {score} of {total}: that would pass![/]" if passed(score, total)
                else f"[almost]{score} of {total}. The pass mark is {round(0.6 * total + 0.49)}: keep going![/]")
@@ -366,7 +405,7 @@ def _results(ctx, exam: Exam, part: Part, answers: dict[str, str], score: int, m
 
 def writing(ctx, exam: Exam, part: Part) -> None:
     ui.clear()
-    ui.title(f"{exam.level} · {part.title_de}", f"about {part.minutes} min" if part.minutes else "")
+    ui.title(f"{ctx.step}{exam.level} · {part.title_de}", f"about {part.minutes} min" if part.minutes else "")
     ui.todo("type", what=f"Write about {part.words[1]} words. Cover every point.")
     points = "\n".join(f"  • {p}" for p in part.points)
     console.print(Panel(Text(f"{part.task_de}\n\n{points}", style="de"), title="Aufgabe", border_style="cyan",
@@ -379,7 +418,7 @@ def writing(ctx, exam: Exam, part: Part) -> None:
     pasted = ui.paste_count() > pastes
     words = len(text.split())
     ui.clear()
-    ui.title(f"{exam.level} · {part.title_de} · check it yourself")
+    ui.title(f"{ctx.step}{exam.level} · {part.title_de} · check it yourself")
     if pasted:
         console.print(f"[bad]{icon('bad')} Pasted text doesn't count. Write it yourself next time.[/]")
     elif words < part.words[0]:
