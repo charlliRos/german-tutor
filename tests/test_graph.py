@@ -76,5 +76,26 @@ class Graph(unittest.TestCase):
         self.assertIn("Accusative", graph.suggestion(blocks[0]))
 
 
+class ShippedGraph(unittest.TestCase):
+    def test_the_grammar_graph_is_valid_and_gives_a_beginner_somewhere_to_start(self):
+        import json
+        from app.content import load_content
+        raw = json.loads(graph.GRAMMAR_FILE.read_text(encoding="utf-8"))
+        self.assertEqual(graph.check_grammar(raw), [])
+        self.assertGreater(len(raw["nodes"]), 30)
+        nodes = graph.build(load_content())
+        states = graph.mastery(nodes, {}, [], TODAY)
+        start = graph.frontier(nodes, states, "A2")
+        self.assertTrue(start)
+        self.assertTrue(all(nodes[n].level == "A1" and not nodes[n].requires for n in start[:3]))
+
+    def test_cycles_and_unknown_prerequisites_are_found(self):
+        raw = {"nodes": [{"id": "a", "level": "A1", "requires": ["b"]}, {"id": "b", "level": "A1", "requires": ["a"]},
+                         {"id": "c", "level": "A1", "requires": ["zzz"], "scored_from": [{"competency": "made.up"}]}]}
+        problems = " | ".join(graph.check_grammar(raw))
+        for expected in ("cycle", "unknown zzz", "unknown made.up"):
+            self.assertIn(expected, problems)
+
+
 if __name__ == "__main__":
     unittest.main()

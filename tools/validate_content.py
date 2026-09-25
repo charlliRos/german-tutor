@@ -131,6 +131,14 @@ def check_exams() -> list[str]:
     return names
 
 
+def check_graph() -> None:
+    from app.graph import GRAMMAR_FILE, check_grammar
+    if GRAMMAR_FILE.exists():
+        data = load(GRAMMAR_FILE)
+        if data is not None:
+            errors.extend(check_grammar(data))
+
+
 def check_versions() -> None:
     """Every edit is recorded in content/item_versions.json (tools/item_versions.py), and paragraphs are
     never renumbered."""
@@ -145,6 +153,7 @@ def main() -> int:
     banks = check_vocab()
     books = check_books()
     exams = check_exams()
+    check_graph()
     check_versions()
     print("Vocabulary: " + ", ".join(f"{banks.get(b, 0)} {label}" for b, label in BANKS.items()) + " words")
     for title, n in books:

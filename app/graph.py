@@ -64,6 +64,39 @@ def load_grammar(path: Path = GRAMMAR_FILE) -> list[Node]:
                  explain_en=n.get("explain_en", "")) for n in raw.get("nodes", [])]
 
 
+SCORED_FROM = {"grammar.noun_gender", "grammar.case_articles", "grammar.adjective_endings", "grammar.word_order",
+               "grammar.irregular_verbs", "vocabulary.in_context"}
+
+
+def check_grammar(raw: dict) -> list[str]:
+    """Problems in content/graph/grammar.json: duplicate ids, unknown prerequisites, cycles, unknown competencies."""
+    nodes = raw.get("nodes", [])
+    ids = [n.get("id") for n in nodes]
+    problems = [f"grammar graph: duplicate id {i}" for i in sorted({i for i in ids if ids.count(i) > 1})]
+    known = set(ids)
+    requires = {n.get("id"): n.get("requires", []) for n in nodes}
+    for n in nodes:
+        problems += [f"grammar graph: {n.get('id')} requires unknown {r}" for r in n.get("requires", []) if r not in known]
+        problems += [f"grammar graph: {n.get('id')} is scored from unknown {s.get('competency')}"
+                     for s in n.get("scored_from", []) if s.get("competency") not in SCORED_FROM]
+        if n.get("level") not in LEVELS:
+            problems.append(f"grammar graph: {n.get('id')} has level {n.get('level')!r}")
+    state: dict[str, int] = {}  # 1 = on the path, 2 = done
+
+    def visit(i: str) -> bool:
+        if state.get(i) == 1:
+            return True
+        if state.get(i) == 2 or i not in requires:
+            return False
+        state[i] = 1
+        loop = any(visit(r) for r in requires[i])
+        state[i] = 2
+        return loop
+
+    problems += [f"grammar graph: a cycle through {i}" for i in ids if i in requires and state.get(i) != 2 and visit(i)]
+    return problems
+
+
 def build(content, exams: list = (), grammar: list[Node] | None = None) -> dict[str, Node]:
     nodes: dict[str, Node] = {}
     for w in content.words.values():
