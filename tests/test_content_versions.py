@@ -32,7 +32,7 @@ class ContentFolder(unittest.TestCase):
         (self.root / "books" / "01_b.json").write_text(json.dumps({"id": "b", "units": units}), encoding="utf-8")
 
     def current(self) -> dict:
-        return current_items(self.root / "vocab", self.root / "books", self.root / "verbs")
+        return current_items(self.root / "vocab", self.root / "books", self.root / "verbs", self.root / "exams")
 
     def record(self, today: date) -> list:
         recorded = load_versions(self.versions)

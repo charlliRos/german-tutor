@@ -39,6 +39,12 @@ class ExportContent(unittest.TestCase):
         self.assertEqual(len(ids), len(set(ids)))
         self.assertEqual({i["competency"] for i in self.items} - set(attempts.COMPETENCIES), set())
 
+    def test_exam_questions_are_choice_items_with_a_valid_key(self):
+        exam = [i for i in self.items if i["competency"] in ("exam.reading", "exam.listening")]
+        for item in exam:
+            self.assertEqual(item["key"]["scoring"], "exact_option")
+            self.assertIn(item["key"]["option"], [o["id"] for o in item["options"]], item["id"])
+
     def test_gender_questions_use_olrs_built_in_choice_scorer(self):
         genders = [i for i in self.items if i["competency"] == "grammar.noun_gender"]
         self.assertTrue(genders)

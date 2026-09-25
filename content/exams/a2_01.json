@@ -1,0 +1,348 @@
+{
+  "id": "a2-01",
+  "level": "A2",
+  "style": "Goethe-Zertifikat A2",
+  "title": "Practice exam A2 · 1",
+  "about_en": "A full practice run of the written Goethe-Zertifikat A2: reading (30 min), listening (30 min) and writing (30 min), The parts and scored item counts follow the real exam; picture-based listening choices are adapted as written descriptions. Speaking is not included. All texts were written for this app.",
+  "official_practice": [
+    {"title": "Goethe-Zertifikat A2: official model exam (Modellsatz, adults)", "url": "https://www.goethe.de/pro/relaunch/prf/materialien/A2/A2_Modellsatz_Erwachsene.pdf"},
+    {"title": "Goethe-Zertifikat A2: official practice exam (Übungssatz 01, adults)", "url": "https://www.goethe.de/pro/relaunch/prf/materialien/A2/A2_Uebungssatz_Erwachsene.pdf"},
+    {"title": "Goethe-Zertifikat A2 Fit in Deutsch: official model exam for teenagers", "url": "https://www.goethe.de/pro/relaunch/prf/materialien/A2_fit/A2_Modellsatz_Jugendliche.pdf"}
+  ],
+  "parts": [
+    {
+      "id": "lesen-1",
+      "skill": "reading",
+      "title_de": "Lesen, Teil 1",
+      "instructions_en": "Read the newspaper article. Choose a, b or c for questions 1 to 5. (The whole reading module has 30 minutes.)",
+      "minutes": 8,
+      "texts": [
+        {
+          "id": "t1",
+          "title": "Jugendzentrum Nord: Schüler helfen Schülern",
+          "de": "Seit einem Jahr gibt es im Jugendzentrum Nord in Bremen jeden Dienstag und Donnerstag eine Hausaufgabenhilfe. Die Idee hatte Mia Kowalski. Sie ist 16 Jahre alt und geht in die zehnte Klasse. „Mein kleiner Bruder hatte Probleme in Mathe, und meine Eltern hatten nicht genug Geld für einen Nachhilfelehrer“, erzählt sie. „Da habe ich gedacht: Andere Familien haben bestimmt das gleiche Problem.“\n\nMia hat mit dem Leiter des Jugendzentrums, Herrn Demir, gesprochen. Er fand die Idee sofort gut und hat ihr einen Raum mit Tischen und einem Computer gegeben. Dann hat Mia Freunde aus ihrer Schule gefragt. Am Anfang haben nur drei Schülerinnen und Schüler mitgemacht, heute sind es schon zwölf. Sie helfen jüngeren Kindern von der fünften bis zur achten Klasse, vor allem in Mathe, Englisch und Deutsch.\n\nDie Hilfe kostet nichts. Die Helfer bekommen kein Geld, aber das Jugendzentrum bezahlt für sie jeden Monat einen Ausflug, zum Beispiel ins Kino oder zum Klettern. „Das macht allen Spaß“, sagt Mia. „Und ich lerne auch viel. Wenn ich etwas erkläre, verstehe ich es selbst besser.“\n\nIm Sommer möchte Mia die Schule beenden und eine Ausbildung als Erzieherin anfangen. Die Hausaufgabenhilfe soll aber weitergehen: Ihr Freund Jonas übernimmt dann die Organisation."
+        }
+      ],
+      "items": [
+        {"id": "1", "type": "mc", "text": "t1", "question": "Mia hatte die Idee für die Hausaufgabenhilfe, weil …",
+         "options": {"a": "sie selbst schlechte Noten in Mathe hatte.", "b": "ihr kleiner Bruder Hilfe in Mathe gebraucht hat.", "c": "ihre Eltern Nachhilfelehrer sind."},
+         "answer": "b", "explain_en": "Mia says her little brother had problems in maths and her parents could not pay for a tutor."},
+        {"id": "2", "type": "mc", "text": "t1", "question": "Herr Demir …",
+         "options": {"a": "hat Mia einen Raum gegeben.", "b": "hat zuerst Nein gesagt.", "c": "hilft selbst bei den Hausaufgaben."},
+         "answer": "a", "explain_en": "The text says he liked the idea at once and gave her a room with tables and a computer."},
+        {"id": "3", "type": "mc", "text": "t1", "question": "Heute helfen bei der Hausaufgabenhilfe …",
+         "options": {"a": "drei Schülerinnen und Schüler.", "b": "Kinder aus der fünften bis achten Klasse.", "c": "zwölf Schülerinnen und Schüler."},
+         "answer": "c", "explain_en": "At first only three took part, but \"heute sind es schon zwölf\"; the younger children are the ones who get help."},
+        {"id": "4", "type": "mc", "text": "t1", "question": "Die Helfer …",
+         "options": {"a": "bekommen jeden Monat Geld.", "b": "machen einmal im Monat einen Ausflug.", "c": "müssen das Kino selbst bezahlen."},
+         "answer": "b", "explain_en": "The helpers get no money, but the youth centre pays for a trip for them every month."},
+        {"id": "5", "type": "mc", "text": "t1", "question": "Nach dem Sommer …",
+         "options": {"a": "organisiert Jonas die Hausaufgabenhilfe.", "b": "gibt es keine Hausaufgabenhilfe mehr.", "c": "arbeitet Mia als Erzieherin im Jugendzentrum."},
+         "answer": "a", "explain_en": "The homework help will go on, and her friend Jonas will take over the organisation."}
+      ]
+    },
+    {
+      "id": "lesen-2",
+      "skill": "reading",
+      "title_de": "Lesen, Teil 2",
+      "instructions_en": "You are at a city festival and read the programme board. Where do you go? Choose a, b or c for questions 6 to 10. \"anderer Ort\" means: somewhere else on the board.",
+      "minutes": 7,
+      "texts": [
+        {
+          "id": "t1",
+          "title": "Stadtfest Lindenau – Samstag, 14. Juni – Programm",
+          "de": "MARKTPLATZ (Große Bühne)\n14:00 Kinderchor der Grundschule\n16:00 Tanzgruppe „Move“: Hip-Hop zum Mitmachen\n20:00 Konzert: The Rainy Days (Rock)\n\nSCHULHOF GOETHE-GYMNASIUM\n11:00–18:00 Flohmarkt: Bücher, Brettspiele, Computerspiele, Kleidung\nFahrradwerkstatt: Wir reparieren dein Fahrrad kostenlos!\n\nSTADTPARK\n10:00–17:00 Kletterwand und Fußballturnier für Jugendliche (Anmeldung bis 12 Uhr am Zelt)\n15:00 Zaubershow für Kinder\n\nRATHAUS (Erdgeschoss)\n10:00–16:00 Information, Fundbüro, Erste Hilfe\n\nKIRCHSTRASSE\nEssen und Trinken aus vielen Ländern: Pizza, Falafel, Crêpes, Eis\n\nBAHNHOFSTRASSE\n12:00–18:00 Stände der Sportvereine: Tennis, Schwimmen, Judo – probier es aus!"
+        }
+      ],
+      "items": [
+        {"id": "6", "type": "mc", "text": "t1", "question": "Sie haben Ihre Jacke verloren.",
+         "options": {"a": "Marktplatz", "b": "Rathaus", "c": "anderer Ort"},
+         "answer": "b", "explain_en": "The lost-property office (Fundbüro) is in the town hall (Rathaus)."},
+        {"id": "7", "type": "mc", "text": "t1", "question": "Sie möchten günstig ein altes Computerspiel kaufen.",
+         "options": {"a": "Schulhof Goethe-Gymnasium", "b": "Bahnhofstraße", "c": "anderer Ort"},
+         "answer": "a", "explain_en": "The flea market with books, board games, computer games and clothes is in the school yard of the Goethe-Gymnasium."},
+        {"id": "8", "type": "mc", "text": "t1", "question": "Sie möchten Judo einmal ausprobieren.",
+         "options": {"a": "Stadtpark", "b": "Schulhof Goethe-Gymnasium", "c": "anderer Ort"},
+         "answer": "c", "explain_en": "The sports clubs (tennis, swimming, judo) are in the Bahnhofstraße, which is not one of the options a or b."},
+        {"id": "9", "type": "mc", "text": "t1", "question": "Das Licht an Ihrem Fahrrad ist kaputt.",
+         "options": {"a": "Rathaus", "b": "Stadtpark", "c": "anderer Ort"},
+         "answer": "c", "explain_en": "The free bike repair workshop (Fahrradwerkstatt) is in the school yard of the Goethe-Gymnasium, which is neither a nor b."},
+        {"id": "10", "type": "mc", "text": "t1", "question": "Sie möchten mit Ihren Freunden Fußball spielen.",
+         "options": {"a": "Marktplatz", "b": "Stadtpark", "c": "anderer Ort"},
+         "answer": "b", "explain_en": "The football tournament for young people is in the Stadtpark."}
+      ]
+    },
+    {
+      "id": "lesen-3",
+      "skill": "reading",
+      "title_de": "Lesen, Teil 3",
+      "instructions_en": "Read the email. Choose a, b or c for questions 11 to 15.",
+      "minutes": 8,
+      "texts": [
+        {
+          "id": "t1",
+          "title": "E-Mail von Lena",
+          "de": "Liebe Sophie,\n\nwie geht es dir? Ich habe lange nicht geschrieben, weil ich so viel für die Schule lernen musste. Aber jetzt sind endlich Ferien!\n\nLetztes Wochenende war ich mit meiner Familie in Hamburg. Wir sind mit dem Zug gefahren. Das hat fast vier Stunden gedauert, weil wir in Hannover eine Stunde warten mussten. Mein Bruder Paul war total genervt, aber ich habe die ganze Zeit Musik gehört und gelesen. In Hamburg haben wir bei meiner Tante gewohnt. Wir haben eine Hafenrundfahrt gemacht, und am Sonntag waren wir im Miniatur Wunderland. Das hat mir am besten gefallen!\n\nUnd jetzt die große Neuigkeit: Ich werde am 3. August 16 und mache eine Party! Meine Eltern haben gesagt, dass ich zwölf Freunde einladen darf. Wir wollen im Garten grillen, und später gehen wir zum See schwimmen, wenn das Wetter gut ist. Kannst du kommen? Du kannst bei uns schlafen, meine Mutter hat schon Ja gesagt.\n\nAch ja, ich habe auch einen Ferienjob! Ich arbeite zwei Wochen lang jeden Vormittag in der Bäckerei von Herrn Bauer. Ich muss um sechs Uhr aufstehen – das ist hart! Aber ich verdiene 12 Euro pro Stunde, und ich spare für ein neues Fahrrad.\n\nSchreib mir bald!\n\nLiebe Grüße\nLena"
+        }
+      ],
+      "items": [
+        {"id": "11", "type": "mc", "text": "t1", "question": "Lena hat lange nicht geschrieben, weil …",
+         "options": {"a": "sie viel für die Schule lernen musste.", "b": "sie in Hamburg war.", "c": "sie krank war."},
+         "answer": "a", "explain_en": "Lena writes that she did not write because she had to study so much for school."},
+        {"id": "12", "type": "mc", "text": "t1", "question": "Die Zugfahrt nach Hamburg …",
+         "options": {"a": "hat nur eine Stunde gedauert.", "b": "war für Lena sehr langweilig.", "c": "hat lange gedauert, weil sie in Hannover warten mussten."},
+         "answer": "c", "explain_en": "The trip took almost four hours because they had to wait an hour in Hannover; it was Paul, not Lena, who was annoyed."},
+        {"id": "13", "type": "mc", "text": "t1", "question": "In Hamburg hat Lena am besten gefallen:",
+         "options": {"a": "die Hafenrundfahrt.", "b": "das Miniatur Wunderland.", "c": "die Wohnung von ihrer Tante."},
+         "answer": "b", "explain_en": "After the Miniatur Wunderland she writes \"Das hat mir am besten gefallen!\""},
+        {"id": "14", "type": "mc", "text": "t1", "question": "Auf Lenas Party …",
+         "options": {"a": "wollen sie im Garten grillen.", "b": "schlafen zwölf Freunde bei Lena.", "c": "gehen alle ins Schwimmbad."},
+         "answer": "a", "explain_en": "Lena says they plan to barbecue in the garden. She invites Sophie to stay overnight, but does not say that all twelve friends will stay. Swimming would be in a lake, not a swimming pool."},
+        {"id": "15", "type": "mc", "text": "t1", "question": "In den Ferien …",
+         "options": {"a": "kauft Lena ein neues Fahrrad.", "b": "arbeitet Lena nachmittags in einer Bäckerei.", "c": "muss Lena sehr früh aufstehen."},
+         "answer": "c", "explain_en": "For her job Lena has to get up at six o'clock; she works in the mornings and is only saving for a bike."}
+      ]
+    },
+    {
+      "id": "lesen-4",
+      "skill": "reading",
+      "title_de": "Lesen, Teil 4",
+      "instructions_en": "Five teenagers are looking online for something to do in the summer holidays. Read questions 16 to 20 and the ads a to f. Which ad fits which person? You can use each ad only once. For one person no ad fits: choose x.",
+      "minutes": 7,
+      "none_allowed": true,
+      "texts": [
+        {"id": "a", "title": "Sommercamp am Bodensee", "de": "Segeln und Surfen für 14- bis 17-Jährige! Eine Woche mit Zelt, Essen und Kurs: 390 €. Anfänger sind willkommen."},
+        {"id": "b", "title": "Stadtbibliothek: Schreibwerkstatt", "de": "Schreib deine eigene Geschichte! Für Jugendliche, jeden Mittwoch in den Ferien, 15–17 Uhr. Kostenlos, bitte anmelden."},
+        {"id": "c", "title": "Freibad Sonnenhof sucht Hilfe", "de": "Ferienjob am Kiosk für Schülerinnen und Schüler ab 16. Samstags und sonntags, 10–16 Uhr, 11 € pro Stunde."},
+        {"id": "d", "title": "Tanzschule Rhythmus", "de": "Hip-Hop-Crashkurs in den Ferien: fünf Tage, jeden Vormittag. Für alle ab 12 Jahren, 60 €."},
+        {"id": "e", "title": "Tierheim Pfötchen", "de": "Hast du Zeit und magst du Hunde? Komm vorbei und geh mit unseren Hunden spazieren! Ab 14 Jahren, montags bis freitags am Nachmittag."},
+        {"id": "f", "title": "Sommeratelier", "de": "Malen für Jugendliche ab 12 Jahren. Dienstags von 14 bis 16 Uhr. Material inklusive, 20 Euro."}
+      ],
+      "items": [
+        {"id": "16", "type": "match", "question": "Jonas (16) möchte am Wochenende Geld verdienen.", "answer": "c",
+         "explain_en": "The job at the pool kiosk is on Saturdays and Sundays, pays 11 euros an hour and is for students aged 16 and over."},
+        {"id": "17", "type": "match", "question": "Emily (15) liebt Tiere, aber zu Hause darf sie kein Haustier haben.", "answer": "e",
+         "explain_en": "At the animal shelter she can take the dogs for walks."},
+        {"id": "18", "type": "match", "question": "Can möchte in den Ferien schwimmen lernen.", "answer": "x",
+         "explain_en": "No ad offers swimming lessons: the camp teaches sailing and surfing, and the pool only has a kiosk job."},
+        {"id": "19", "type": "match", "question": "Sara schreibt gern Geschichten und möchte nichts bezahlen.", "answer": "b",
+         "explain_en": "The library's writing workshop is for young people and is free (kostenlos)."},
+        {"id": "20", "type": "match", "question": "Leon (16) möchte eine Woche mit anderen Jugendlichen am Wasser verbringen.", "answer": "a",
+         "explain_en": "The summer camp at Lake Constance is one week of sailing and surfing for 14- to 17-year-olds."}
+      ]
+    },
+    {
+      "id": "hoeren-1",
+      "skill": "listening",
+      "title_de": "Hören, Teil 1",
+      "instructions_en": "You hear five short texts (announcements, radio, voicemail). You hear each text twice. Read the question first, then choose a, b or c for questions 1 to 5. (The whole listening module has about 30 minutes.)",
+      "minutes": 8,
+      "plays": 2,
+      "texts": [
+        {"id": "t1", "title": "Durchsage am Bahnhof", "de": "Achtung an Gleis 4! Der Regionalexpress nach Leipzig, planmäßige Abfahrt 14 Uhr 12, fährt heute nicht von Gleis 4, sondern von Gleis 7 ab. Der Zug hat etwa zehn Minuten Verspätung. Wir bitten um Entschuldigung."},
+        {"id": "t2", "title": "Nachricht auf dem Handy", "de": "Hallo Tom, hier ist Oma. Danke für deine Nachricht! Natürlich kannst du am Samstag zum Essen kommen. Aber nicht um zwölf, da bin ich noch beim Arzt. Komm lieber um eins. Ich mache Kartoffelsalat, den magst du doch so gern. Bis Samstag, mein Schatz!"},
+        {"id": "t3", "title": "Radio: das Wetter", "de": "Und jetzt das Wetter für das Wochenende: Am Samstag scheint im ganzen Land die Sonne, bei Temperaturen bis 28 Grad. Am Sonntag kommen aus dem Westen Wolken, und am Nachmittag gibt es Gewitter. Wer einen Ausflug machen möchte, sollte das also am Samstag tun."},
+        {"id": "t4", "title": "Durchsage im Sportgeschäft", "de": "Liebe Kundinnen und Kunden, heute ist bei Sport Maier Familientag! Alle Sportschuhe kosten bis 18 Uhr zwanzig Prozent weniger. Und in unserer Fahrradabteilung im ersten Stock bekommen Kinder und Jugendliche einen Fahrradhelm gratis, wenn sie ein Fahrrad kaufen."},
+        {"id": "t5", "title": "Nachricht vom Jugendclub", "de": "Hallo, hier ist Katrin vom Jugendclub Treffpunkt. Die Nachricht ist für alle aus der Theatergruppe: Die Probe am Freitag fällt aus, weil unser Raum renoviert wird. Wir treffen uns stattdessen am Montag um 17 Uhr in der Turnhalle der Schillerschule. Bitte bringt eure Texte mit!"}
+      ],
+      "items": [
+        {"id": "1", "type": "mc", "text": "t1", "question": "Von welchem Gleis fährt der Zug nach Leipzig heute ab?",
+         "options": {"a": "Von Gleis 4.", "b": "Von Gleis 7.", "c": "Von Gleis 10."},
+         "answer": "b", "explain_en": "The announcement says the train leaves today \"nicht von Gleis 4, sondern von Gleis 7\"."},
+        {"id": "2", "type": "mc", "text": "t2", "question": "Wann soll Tom am Samstag zu Oma kommen?",
+         "options": {"a": "Um 13 Uhr.", "b": "Um 12 Uhr.", "c": "Um 11 Uhr."},
+         "answer": "a", "explain_en": "Grandma is at the doctor's at twelve, so she says \"Komm lieber um eins\" (one o'clock = 13 Uhr)."},
+        {"id": "3", "type": "mc", "text": "t3", "question": "Wie wird das Wetter am Sonntag?",
+         "options": {"a": "Sonnig und warm.", "b": "Es schneit.", "c": "Am Nachmittag gibt es Gewitter."},
+         "answer": "c", "explain_en": "The sun is on Saturday; on Sunday clouds come and there are thunderstorms in the afternoon."},
+        {"id": "4", "type": "mc", "text": "t4", "question": "Was kostet heute weniger?",
+         "options": {"a": "Sportschuhe.", "b": "Fahrräder.", "c": "Sportjacken."},
+         "answer": "a", "explain_en": "All sports shoes cost twenty percent less until 6 pm; bikes are not cheaper, you only get a free helmet with one."},
+        {"id": "5", "type": "mc", "text": "t5", "question": "Wo ist die nächste Probe der Theatergruppe?",
+         "options": {"a": "Im Jugendclub.", "b": "Im Theater.", "c": "In einer Turnhalle."},
+         "answer": "c", "explain_en": "Because the club room is being renovated, they meet on Monday in the gym (Turnhalle) of the Schillerschule."}
+      ]
+    },
+    {
+      "id": "hoeren-2",
+      "skill": "listening",
+      "title_de": "Hören, Teil 2",
+      "instructions_en": "You hear a conversation. You hear it only once. What does Tom do next week? For questions 6 to 10 (Tuesday to Saturday) choose one of the activities a to i. Use each letter only once; four letters are not needed. (In the real exam the activities are pictures; here they are short descriptions.)",
+      "minutes": 7,
+      "plays": 1,
+      "texts": [
+        {
+          "id": "gespraech",
+          "title": "Tom und Lena am Telefon",
+          "lines": [
+            {"who": "Lena", "de": "Hallo Tom! Du, hast du nächste Woche mal Zeit? Ich möchte so gern mal wieder was mit dir machen."},
+            {"who": "Tom", "de": "Hi Lena! Hm, nächste Woche ist echt viel los. Am Montag spiele ich Fußball, wie immer."},
+            {"who": "Lena", "de": "Und am Dienstag? Letzte Woche hattest du am Dienstag doch Zeit."},
+            {"who": "Tom", "de": "Ja, letzte Woche war ich am Dienstag nur beim Zahnarzt, das ging schnell. Aber jetzt arbeite ich jeden Dienstag nach der Schule im Supermarkt. Das ist mein neuer Nebenjob, von drei bis sieben."},
+            {"who": "Lena", "de": "Oh, cool! Und am Mittwoch? Im Kino läuft ein neuer Film. Wollen wir den zusammen sehen?"},
+            {"who": "Tom", "de": "Den möchte ich auch sehen! Aber am Donnerstag schreiben wir einen Englischtest. Am Mittwoch muss ich unbedingt lernen, sonst bekomme ich wieder eine schlechte Note."},
+            {"who": "Lena", "de": "Schade. Und nach dem Test, am Donnerstag?"},
+            {"who": "Tom", "de": "Am Donnerstag fahre ich mit meiner Mutter zu meiner Oma. Sie hat sich das Bein gebrochen, und wir helfen ihr ein bisschen im Haus."},
+            {"who": "Lena", "de": "Oje, die Arme! Und am Freitag?"},
+            {"who": "Tom", "de": "Am Freitag hat Jana Geburtstag. Sie macht eine Party, und ich habe schon zugesagt."},
+            {"who": "Lena", "de": "Ach so. Okay, und am Samstag?"},
+            {"who": "Tom", "de": "Am Samstag passe ich auf meine kleine Schwester auf. Meine Eltern gehen auf eine Hochzeit und kommen erst spät nach Hause."},
+            {"who": "Lena", "de": "Mensch, Tom, du hast ja nie Zeit!"},
+            {"who": "Tom", "de": "Doch, am Sonntag! Wollen wir am Sonntag ins Schwimmbad gehen? Ins Kino können wir ja später mal gehen."},
+            {"who": "Lena", "de": "Okay, super! Sonntag um zwei am Schwimmbad?"},
+            {"who": "Tom", "de": "Perfekt. Bis Sonntag!"}
+          ]
+        },
+        {"id": "a", "de": "die Oma besuchen"},
+        {"id": "b", "de": "zum Zahnarzt gehen"},
+        {"id": "c", "de": "auf die kleine Schwester aufpassen"},
+        {"id": "d", "de": "ins Schwimmbad gehen"},
+        {"id": "e", "de": "für einen Test lernen"},
+        {"id": "f", "de": "im Supermarkt arbeiten"},
+        {"id": "g", "de": "ins Kino gehen"},
+        {"id": "h", "de": "auf eine Geburtstagsparty gehen"},
+        {"id": "i", "de": "Fußball spielen"}
+      ],
+      "items": [
+        {"id": "6", "type": "match", "text": "gespraech", "question": "Dienstag", "answer": "f",
+         "explain_en": "Tom works in the supermarket every Tuesday after school; the dentist was last week."},
+        {"id": "7", "type": "match", "text": "gespraech", "question": "Mittwoch", "answer": "e",
+         "explain_en": "Lena suggests the cinema, but Tom must study on Wednesday for his English test on Thursday."},
+        {"id": "8", "type": "match", "text": "gespraech", "question": "Donnerstag", "answer": "a",
+         "explain_en": "On Thursday Tom goes with his mother to his grandma, who has broken her leg."},
+        {"id": "9", "type": "match", "text": "gespraech", "question": "Freitag", "answer": "h",
+         "explain_en": "On Friday it is Jana's birthday and Tom is going to her party."},
+        {"id": "10", "type": "match", "text": "gespraech", "question": "Samstag", "answer": "c",
+         "explain_en": "On Saturday Tom looks after his little sister because his parents are at a wedding; swimming is on Sunday."}
+      ]
+    },
+    {
+      "id": "hoeren-3",
+      "skill": "listening",
+      "title_de": "Hören, Teil 3",
+      "instructions_en": "You hear five short conversations. You hear each one only once. Choose a, b or c for questions 11 to 15. (In the real exam the answers are pictures; here they are short descriptions.)",
+      "minutes": 6,
+      "plays": 1,
+      "texts": [
+        {"id": "t1", "title": "Gespräch 1", "lines": [
+          {"who": "Lena", "de": "Na, Tom, wie war dein Wochenende? Warst du wieder beim Fußball?"},
+          {"who": "Tom", "de": "Nein, das Spiel ist ausgefallen, weil es so stark geregnet hat. Ich war mit meinem Cousin im Technikmuseum. Das war echt spannend."},
+          {"who": "Lena", "de": "Echt? Ich dachte, du findest Museen langweilig!"},
+          {"who": "Tom", "de": "Normalerweise schon. Aber da konnte man ganz viel selbst ausprobieren."}
+        ]},
+        {"id": "t2", "title": "Gespräch 2", "lines": [
+          {"who": "Frau", "de": "Hallo, kann ich dir helfen?"},
+          {"who": "Mädchen", "de": "Ja, ich suche eine Regenjacke. Haben Sie die hier auch in Rot?"},
+          {"who": "Frau", "de": "In Rot leider nicht mehr. Die gibt es nur noch in Blau und in Grün."},
+          {"who": "Mädchen", "de": "Hm, Grün gefällt mir nicht so. Dann nehme ich die blaue."}
+        ]},
+        {"id": "t3", "title": "Gespräch 3", "lines": [
+          {"who": "Tom", "de": "Entschuldigung, fährt hier der Bus zum Stadion ab?"},
+          {"who": "Frau", "de": "Die Linie 5? Normalerweise ja, aber heute nicht. Wegen dem Stadtfest ist die Straße gesperrt. Du musst zur Haltestelle am Rathaus gehen. Das sind nur fünf Minuten zu Fuß."},
+          {"who": "Tom", "de": "Und wie komme ich zum Rathaus?"},
+          {"who": "Frau", "de": "Einfach hier geradeaus und dann die zweite Straße links."}
+        ]},
+        {"id": "t4", "title": "Gespräch 4", "lines": [
+          {"who": "Lena", "de": "Papa, Mama hat am Sonntag Geburtstag. Was schenken wir ihr? Vielleicht ein Buch?"},
+          {"who": "Mann", "de": "Ach, Bücher hat sie so viele. Und Blumen bekommt sie jedes Jahr. Sie hat letzte Woche gesagt, dass sie gern mal wieder ins Theater gehen möchte."},
+          {"who": "Lena", "de": "Oh ja, gute Idee! Dann kaufen wir zwei Karten, für dich und für Mama."},
+          {"who": "Mann", "de": "Super, das machen wir."}
+        ]},
+        {"id": "t5", "title": "Gespräch 5", "lines": [
+          {"who": "Frau", "de": "Also, Tom, du kannst ab nächster Woche bei uns im Café arbeiten. Immer samstags von neun bis eins."},
+          {"who": "Tom", "de": "Super, danke! Muss ich früher kommen?"},
+          {"who": "Frau", "de": "Normalerweise nicht. Aber am ersten Tag komm bitte schon um halb neun, dann zeige ich dir alles."},
+          {"who": "Tom", "de": "Kein Problem, mache ich."}
+        ]}
+      ],
+      "items": [
+        {"id": "11", "type": "mc", "text": "t1", "question": "Was hat Tom am Wochenende gemacht?",
+         "options": {"a": "Er hat Fußball gespielt.", "b": "Er hat ein Museum besucht.", "c": "Er ist zu Hause geblieben."},
+         "answer": "b", "explain_en": "The football match was cancelled because of the rain, so Tom went to the technology museum with his cousin."},
+        {"id": "12", "type": "mc", "text": "t2", "question": "Welche Jacke kauft das Mädchen?",
+         "options": {"a": "Eine rote Jacke.", "b": "Eine grüne Jacke.", "c": "Eine blaue Jacke."},
+         "answer": "c", "explain_en": "Red is sold out and she doesn't like green, so she says \"Dann nehme ich die blaue.\""},
+        {"id": "13", "type": "mc", "text": "t3", "question": "Wo kann Tom heute den Bus zum Stadion nehmen?",
+         "options": {"a": "Am Rathaus.", "b": "An dieser Haltestelle.", "c": "Am Stadion."},
+         "answer": "a", "explain_en": "The street is closed for the festival, so he has to go to the bus stop at the town hall (Rathaus)."},
+        {"id": "14", "type": "mc", "text": "t4", "question": "Was schenken Lena und ihr Vater der Mutter?",
+         "options": {"a": "Blumen.", "b": "Theaterkarten.", "c": "Ein Buch."},
+         "answer": "b", "explain_en": "The father says the mother wants to go to the theatre, and Lena says they will buy two tickets."},
+        {"id": "15", "type": "mc", "text": "t5", "question": "Wann soll Tom am ersten Tag im Café sein?",
+         "options": {"a": "Um 9 Uhr.", "b": "Um 13 Uhr.", "c": "Um 8:30 Uhr."},
+         "answer": "c", "explain_en": "Work normally starts at nine, but on the first day he should come at half past eight (halb neun)."}
+      ]
+    },
+    {
+      "id": "hoeren-4",
+      "skill": "listening",
+      "title_de": "Hören, Teil 4",
+      "instructions_en": "You hear a radio interview. You hear it twice. For statements 16 to 20 choose ja (yes, that is what was said) or nein (no).",
+      "minutes": 9,
+      "plays": 2,
+      "texts": [
+        {"id": "t1", "title": "Radiointerview: „Jung und aktiv“", "lines": [
+          {"who": "Moderator", "de": "Hallo und herzlich willkommen bei „Jung und aktiv“! Heute ist Sophie Brandt bei uns im Studio. Sophie ist 16 und hat einen besonderen Nebenjob. Hallo Sophie!"},
+          {"who": "Sophie", "de": "Hallo!"},
+          {"who": "Moderator", "de": "Sophie, du arbeitest in einer Fahrradwerkstatt. Wie bist du dazu gekommen?"},
+          {"who": "Sophie", "de": "Ich fahre schon immer gern Fahrrad. Ich fahre jeden Tag mit dem Rad zur Schule, das sind acht Kilometer. Und mein Fahrrad war oft kaputt. Am Anfang hat mein Vater es repariert, aber dann wollte ich das selbst lernen. Ich habe Videos im Internet angesehen und viel ausprobiert."},
+          {"who": "Moderator", "de": "Und dann?"},
+          {"who": "Sophie", "de": "Letztes Jahr habe ich im Fahrradladen „Speiche“ bei uns in der Straße gefragt, ob sie Hilfe brauchen. Der Chef, Herr Ahmadi, hat gesagt: Komm am Samstag vorbei, dann sehen wir mal. Jetzt arbeite ich jeden Samstag vier Stunden dort."},
+          {"who": "Moderator", "de": "Was machst du genau?"},
+          {"who": "Sophie", "de": "Ich repariere vor allem Reifen und Bremsen. An der Kasse arbeite ich nicht, das macht Herr Ahmadi selbst."},
+          {"who": "Moderator", "de": "Sind die Kunden manchmal überrascht, dass ein Mädchen ihr Fahrrad repariert?"},
+          {"who": "Sophie", "de": "Ja, manchmal schon. Ein Mann hat mal gefragt, ob der Mechaniker heute krank ist. Aber die meisten finden es toll."},
+          {"who": "Moderator", "de": "Und was machst du mit dem Geld?"},
+          {"who": "Sophie", "de": "Ich spare für eine Radtour. Im nächsten Sommer möchte ich mit meiner Freundin von Passau nach Wien fahren, immer an der Donau entlang. Meine Eltern haben gesagt, dass wir das machen dürfen, wenn wir in Jugendherbergen schlafen."},
+          {"who": "Moderator", "de": "Und später? Möchtest du auch beruflich mit Fahrrädern arbeiten?"},
+          {"who": "Sophie", "de": "Vielleicht. Aber eigentlich möchte ich Ingenieurin werden und neue Fahrräder entwickeln, nicht nur reparieren."},
+          {"who": "Moderator", "de": "Das klingt toll. Vielen Dank, Sophie, und viel Glück!"}
+        ]}
+      ],
+      "items": [
+        {"id": "16", "type": "yesno", "text": "t1", "question": "Sophie fährt mit dem Fahrrad zur Schule.", "answer": "ja",
+         "explain_en": "Sophie says she rides her bike to school every day, eight kilometres."},
+        {"id": "17", "type": "yesno", "text": "t1", "question": "Sophie hat in einem Kurs gelernt, wie man Fahrräder repariert.", "answer": "nein",
+         "explain_en": "She learned it herself by watching videos online and trying things out; no course is mentioned."},
+        {"id": "18", "type": "yesno", "text": "t1", "question": "Sophie arbeitet jeden Samstag im Fahrradladen.", "answer": "ja",
+         "explain_en": "She says \"Jetzt arbeite ich jeden Samstag vier Stunden dort.\""},
+        {"id": "19", "type": "yesno", "text": "t1", "question": "Sophie möchte im Sommer mit ihren Eltern eine Radtour machen.", "answer": "nein",
+         "explain_en": "She wants to do the bike tour with her friend; her parents only gave permission."},
+        {"id": "20", "type": "yesno", "text": "t1", "question": "Sophie möchte später neue Fahrräder entwickeln.", "answer": "ja",
+         "explain_en": "She wants to become an engineer and develop new bikes, not only repair them."}
+      ]
+    },
+    {
+      "id": "schreiben-1",
+      "skill": "writing",
+      "title_de": "Schreiben, Teil 1",
+      "instructions_en": "Write a short text message (SMS) to a friend: 20–30 words. Write about all three points. (The whole writing module has 30 minutes.)",
+      "minutes": 12,
+      "task_de": "Sie sitzen im Zug. Sie fahren am Wochenende zu Ihrer Freundin Emma nach Köln. Schreiben Sie Emma eine SMS.",
+      "task_en": "You are on the train. You are visiting your friend Emma in Cologne for the weekend. Write Emma a text message.",
+      "points": [
+        "Schreiben Sie, wann Sie ankommen.",
+        "Fragen Sie, ob Emma Sie am Bahnhof abholt.",
+        "Fragen Sie, was Sie am Abend zusammen machen."
+      ],
+      "words": [20, 30],
+      "model_de": "Hallo Emma, ich sitze im Zug und komme um 17:40 Uhr in Köln an. Kannst du mich am Bahnhof abholen? Was machen wir heute Abend? Bis gleich, Mia"
+    },
+    {
+      "id": "schreiben-2",
+      "skill": "writing",
+      "title_de": "Schreiben, Teil 2",
+      "instructions_en": "Write a polite email to an adult you know (use \"Sie\"): 30–40 words. Write about all three points.",
+      "minutes": 18,
+      "task_de": "Sie haben sich im Jugendclub für einen Kletterkurs am Samstag angemeldet. Sie können aber nicht kommen. Schreiben Sie der Kursleiterin, Frau Wagner, eine E-Mail.",
+      "task_en": "You signed up for a climbing course at the youth club on Saturday, but you can't go. Write an email to the course leader, Ms Wagner.",
+      "points": [
+        "Entschuldigen Sie sich, dass Sie nicht kommen können.",
+        "Schreiben Sie, warum.",
+        "Fragen Sie, ob Sie an einem anderen Termin mitmachen können."
+      ],
+      "words": [30, 40],
+      "model_de": "Liebe Frau Wagner,\n\nleider kann ich am Samstag nicht zum Kletterkurs kommen. Es tut mir leid. Mein Opa feiert seinen 80. Geburtstag, und die ganze Familie fährt nach München. Kann ich vielleicht am nächsten Samstag mitmachen?\n\nViele Grüße\nJonas Keller"
+    }
+  ]
+}

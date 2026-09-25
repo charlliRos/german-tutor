@@ -21,6 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from app import attempts  # noqa: E402
 from app.config import BOOKS_DIR, PROFILES_DIR, ROOT  # noqa: E402
 from app.content import READING, load_content  # noqa: E402
+from app.exams import canonical, choices, item_id, load_exams  # noqa: E402
 from app.genders import eligible, split  # noqa: E402
 from app.profile import Profile  # noqa: E402
 from app.versions import load_versions  # noqa: E402
@@ -71,6 +72,35 @@ def verb_items(content, versions: dict) -> list[dict]:
                           "prompt": [_text(verb.inf, "de"), _text(verb.en, "en")],
                           "key": {"scoring": "gtutor.verbs/1", "accept": [verb.past if kind == "past" else verb.perfect],
                                   "also_standard": [a for a in verb.alt if (" " in a) == (kind == "perfect")]}})
+    return items
+
+
+def exam_items(versions: dict) -> list[dict]:
+    """Practice exams: every reading/listening question is a choice_single item for OLR's built exact_option
+    scorer; listening recordings are exported as scripts (speaking them needs OLR's open audio.tts)."""
+    items = []
+    for exam in load_exams()[0]:
+        for part in exam.parts:
+            common = {"competency": f"exam.{part.skill}", "subcompetency": f"{exam.level}/{part.id}",
+                      "level": exam.level, "exam_style": exam.style}
+            if part.skill == "writing":
+                iid = item_id(exam, part)
+                items.append({"id": iid, "version": versions.get(iid, {}).get("v", 1), **common, "input": "text",
+                              "prompt": [_text(part.task_de, "de"), _text(part.task_en, "en")],
+                              "points": part.points, "words": part.words, "model_answer": part.model_de,
+                              "score_kind": "estimated", "grader": attempts.SELF})
+                continue
+            block = "audio_script" if part.skill == "listening" else "text"
+            for item in part.items:
+                iid = item_id(exam, part, item)
+                texts = [part.text(item.text)] if item.text else part.texts
+                prompt = [{"block": block, "lang": "de", "value": t.transcript} for t in texts if t]
+                prompt.append(_text(item.question, "de"))
+                options = [{"id": canonical(item, k), "label": v} for k, v in choices(item, part).items()]
+                items.append({"id": iid, "version": versions.get(iid, {}).get("v", 1), **common,
+                              "input": "choice_single", "prompt": prompt, "options": options,
+                              "key": {"scoring": "exact_option", "option": item.answer},
+                              "explanation": [_text(item.explain_en, "en")]})
     return items
 
 
@@ -168,7 +198,7 @@ def main(argv: list[str] | None = None) -> int:
     out.mkdir(parents=True, exist_ok=True)
     today = date.today()
     content, versions = load_content(), load_versions()
-    items = word_items(content, versions) + verb_items(content, versions)
+    items = word_items(content, versions) + verb_items(content, versions) + exam_items(versions)
     book_rows = books(content, versions, today)
     write_jsonl(out / "items.jsonl", items)
     write_jsonl(out / "books.jsonl", book_rows)

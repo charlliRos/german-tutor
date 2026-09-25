@@ -8,8 +8,10 @@ from .answers import ALMOST, CORRECT, WRONG
 
 READING = "reading"  # same as content.READING (no import: content imports answers)
 
-MAX_BOX = 5
-INTERVALS = {1: 1, 2: 3, 3: 7, 4: 16, 5: 35}  # days until the next review, per box
+MAX_BOX = 7
+# Days until the next review, per box. Boxes 6 and 7 keep words that are really known from coming back
+# ten times a year for ever: at a few thousand learned words, that is what makes a 25-minute day possible.
+INTERVALS = {1: 1, 2: 3, 3: 7, 4: 16, 5: 35, 6: 75, 7: 150}
 LEARNED_BOX = 3
 
 
@@ -59,10 +61,26 @@ def apply_practice(state: dict, outcome: str, today: date) -> None:
     state["right"] += outcome == CORRECT
 
 
-def warmup_size(settings: dict, practice_days: int) -> int:
-    """Starts small and grows with every day of practice, up to the maximum."""
-    start, top = int(settings["warmup_start"]), int(settings["warmup_max"])
-    return min(top, start + int(float(settings["warmup_growth"]) * practice_days))
+WARMUP_SHARE = 0.6       # of the day's minutes, the warm-up gets this much; the rest is reading
+DEFAULT_SECONDS = 20.0   # per warm-up question, until the answer log knows this kid's pace
+
+
+def session_minutes(settings: dict, data: dict, today: date) -> int:
+    """Today's time budget: the kid's own setting, else config (school days / weekends)."""
+    own = data.get("session_minutes")
+    if isinstance(own, (int, float)) and not isinstance(own, bool) and own > 0:
+        return int(own)
+    budget = settings.get("session_minutes", {"weekday": 25, "weekend": 40})
+    if isinstance(budget, (int, float)):
+        return int(budget)
+    return int(budget.get("weekend" if today.weekday() >= 5 else "weekday", 25))
+
+
+def warmup_size(settings: dict, minutes: int, seconds_per_item: float = DEFAULT_SECONDS) -> int:
+    """As many questions as fit in the warm-up's share of the day's minutes, at this kid's pace. Due words
+    that don't fit wait for tomorrow (they keep first place); they are never doubled up."""
+    fits = int(minutes * 60 * WARMUP_SHARE / max(float(seconds_per_item), 5.0))
+    return max(int(settings["warmup_start"]), min(int(settings["warmup_max"]), fits))
 
 
 def new_word_cap(settings: dict, size: int) -> int:
@@ -75,6 +93,7 @@ class Plan:
     reviews: list[str]
     new: list[str]
     practice: list[str]
+    waiting: int = 0  # due words that didn't fit today: first in line tomorrow
 
     @property
     def total(self) -> int:
@@ -87,7 +106,8 @@ def reading_words_due(words: dict, queue: list[str], count: int) -> list[str]:
     return [wid for wid in queue if wid in words][: max(count, 0)]
 
 
-def plan_session(states: dict, words: dict, settings: dict, today: date, size: int, new_allowed: int) -> Plan:
+def plan_session(states: dict, words: dict, settings: dict, today: date, size: int, new_allowed: int,
+                 allowed: set[str] | None = None, topics: tuple[str, ...] = ()) -> Plan:
     """Fill a warm-up of `size` words: due reviews come first (most overdue first); new words (up to
     `new_allowed`) only take the room the reviews leave, so the words already started never pile up
     unreviewed. Then extra practice on words already started (weakest, least recent first). If there is
@@ -98,7 +118,7 @@ def plan_session(states: dict, words: dict, settings: dict, today: date, size: i
     due = [wid for wid, s in states.items()
            if wid in words and s.get("box", 0) >= 1 and s.get("due") and s["due"] <= t]
     due.sort(key=lambda wid: (states[wid]["due"], states[wid]["box"]))
-    new = pick_new_words(states, words, min(max(new_allowed, 0), max(0, size - len(due))), shares)
+    new = pick_new_words(states, words, min(max(new_allowed, 0), max(0, size - len(due))), shares, allowed, topics)
     reviews = due[: size - len(new)]
     taken = set(reviews)
     started = [wid for wid, s in states.items() if wid in words and s.get("box", 0) >= 1 and wid not in taken]
@@ -106,15 +126,25 @@ def plan_session(states: dict, words: dict, settings: dict, today: date, size: i
     practice = started[: size - len(new) - len(reviews)]
     room = size - len(new) - len(reviews) - len(practice)
     if room > 0:
-        new = pick_new_words(states, words, len(new) + room, shares)
-    return Plan(reviews, new, practice)
+        new = pick_new_words(states, words, len(new) + room, shares, allowed, topics)
+    return Plan(reviews, new, practice, waiting=len(due) - len(reviews))
 
 
-def pick_new_words(states: dict, words: dict, count: int, shares: dict[str, float]) -> list[str]:
+TOPIC_WINDOW = 500  # a favourite topic's word goes first among words within this many frequency ranks
+
+
+def pick_new_words(states: dict, words: dict, count: int, shares: dict[str, float],
+                   allowed: set[str] | None = None, topics: tuple[str, ...] = ()) -> list[str]:
     """Pick the most common unseen words, mixing the banks (daily, stem, admin) by their share.
-    Words from the books never come this way: they join once their paragraph is read."""
+    Words from the books never come this way: they join once their paragraph is read.
+    allowed: only these ids (the kid's goal level, goals.py); topics: these go first among words about
+    as common (within TOPIC_WINDOW ranks), so a favourite topic never pushes out much more common words."""
     pools: dict[str, list[str]] = {}
-    for w in sorted(words.values(), key=lambda w: (w.rank, w.id)):
+    order = (lambda w: (w.rank // TOPIC_WINDOW, w.topic not in topics, w.rank, w.id)) if topics \
+        else (lambda w: (w.rank, w.id))
+    for w in sorted(words.values(), key=order):
+        if allowed is not None and w.id not in allowed:
+            continue
         if w.bank != READING and states.get(w.id, {}).get("box", 0) == 0:
             pools.setdefault(w.bank, []).append(w.id)
     taken = {bank: 0 for bank in pools}

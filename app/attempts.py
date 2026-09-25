@@ -142,6 +142,42 @@ def read(profile) -> list[dict]:
     return events
 
 
+def tail(profile, max_bytes: int = 300_000) -> list[dict]:
+    """The last lines of the log (the whole log can be tens of MB after a year)."""
+    path = profile.attempts_path
+    if not path.exists():
+        return []
+    with path.open("rb") as f:
+        size = f.seek(0, 2)
+        f.seek(max(0, size - max_bytes))
+        data = f.read().decode("utf-8", errors="replace")
+    lines = data.splitlines()[1:] if size > max_bytes else data.splitlines()  # the first may be cut
+    events = []
+    for line in lines:
+        try:
+            events.append(json.loads(line))
+        except ValueError:
+            pass
+    return events
+
+
+def seconds_per_item(profile, recent: int = 200) -> float:
+    """This kid's usual seconds per warm-up question: the median gap between answers in a warm-up
+    (pauses over 2 minutes don't count), from the last `recent` answers. None known yet: the default."""
+    from statistics import median
+    events = [e for e in tail(profile) if e.get("type") == "attempt" and str(e.get("context", "")).startswith("warmup.")]
+    gaps = []
+    for before, after in zip(events, events[1:]):
+        try:
+            gap = (datetime.fromisoformat(after["at"]) - datetime.fromisoformat(before["at"])).total_seconds()
+        except (KeyError, ValueError):
+            continue
+        if 2 <= gap <= 120:
+            gaps.append(gap)
+    gaps = gaps[-recent:]
+    return float(median(gaps)) if len(gaps) >= 20 else srs.DEFAULT_SECONDS
+
+
 def rebuild(events: list[dict]) -> dict[str, dict]:
     """The boxes (vocab, verbs, genders) recomputed from the log alone."""
     states: dict[str, dict] = {store: {} for store in STORES}
@@ -178,6 +214,9 @@ COMPETENCIES = {
     "grammar.irregular_verbs": "Past tense and perfect of irregular verbs",
     "reading.translation_de_en": "Translate German text into English",
     "writing.translation_en_de": "Translate English text into German",
+    "exam.reading": "Exam-style reading tasks (Goethe-Zertifikat format)",
+    "exam.listening": "Exam-style listening tasks (Goethe-Zertifikat format)",
+    "exam.writing": "Exam-style writing tasks, checked against the task's points",
 }
 
 WORD_TASKS = {"en2de": "vocabulary.production", "de2en": "vocabulary.recognition", "gap": "vocabulary.in_context",

@@ -11,7 +11,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import attempts, genders, grammar, sentences, sfx, srs, ui, verbs
+from . import attempts, genders, goals, grammar, sentences, sfx, srs, ui, verbs
 from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german, normalize
 from .config import DEFAULTS
 from .content import BANK_LABELS, Word, words_sharing_english
@@ -232,6 +232,12 @@ def ask_word(ctx, word: Word, kind: str, second_chance: bool = False) -> str:
     return quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance)
 
 
+def todays_size(ctx) -> int:
+    """Questions in today's warm-up: what fits in the day's minutes at this kid's pace."""
+    minutes = srs.session_minutes(ctx.settings, ctx.profile.data, ctx.today)
+    return srs.warmup_size(ctx.settings, minutes, attempts.seconds_per_item(ctx.profile))
+
+
 def log_word(ctx, word: Word, context: str, outcome: str, schedule: str | None = None, claimed: bool = False) -> None:
     """Keep a typed answer about a word in the answer log (attempts.py). schedule: what it did to the word's box."""
     task = attempts.pending_task()
@@ -259,10 +265,11 @@ def run_warmup(ctx) -> WarmupResult | None:
         return None
     today = ctx.profile.day(ctx.today)
     first_today = not today.get("warmups")
-    size = srs.warmup_size(ctx.settings, ctx.profile.practice_days(ctx.today))
+    size = todays_size(ctx)
     new_allowed = max(0, srs.new_word_cap(ctx.settings, size) - today.get("new", 0)) if first_today else 0
     states = ctx.profile.data["vocab"]
-    plan = srs.plan_session(states, words, ctx.settings, ctx.today, size, new_allowed)
+    plan = srs.plan_session(states, words, goals.settings_for(ctx.settings, ctx.profile.data), ctx.today, size,
+                            new_allowed, goals.allowed_words(words, ctx.profile.data), goals.topics(ctx.profile.data))
     # Key words of paragraphs already read come on top, in the day's first warm-up: new ones as new words,
     # known ones once more (extra practice) even if they aren't due.
     reading_queue = ctx.profile.data["reading_words"]
@@ -293,6 +300,8 @@ def run_warmup(ctx) -> WarmupResult | None:
     parts = [f"{len(plan.new)} new" + (f" ({len(fresh)} from your reading)" if fresh else ""),
              f"{len(plan.reviews)} to review", f"{len(plan.practice)} to strengthen",
              f"{len(again)} again from your reading"]
+    if plan.waiting and first_today:
+        parts.append(f"{plan.waiting} more wait for tomorrow")
     console.print(" · ".join(p for p in parts if not p.startswith("0 ")))
     console.print(("First you [bold]memorise[/] the new words (no typing), then you [bold]type[/] every word."
                    if plan.new else "You [bold]type[/] every word.")
@@ -308,6 +317,9 @@ def run_warmup(ctx) -> WarmupResult | None:
     queue = ([(wid, "new") for wid in plan.new] + [(wid, "review") for wid in plan.reviews]
              + [(wid, "practice") for wid in plan.practice] + [(wid, "reading") for wid in again])
     ctx.rng.shuffle(queue)
+    known = [i for i, (wid, kind) in enumerate(queue) if kind != "new" and states.get(wid, {}).get("box", 0) >= srs.LEARNED_BOX]
+    if known:
+        queue.append(queue.pop(known[0]))  # end on a word they know: a good last moment
     for pos, (wid, kind) in enumerate(queue, 1):
         word, state = words[wid], ctx.profile.word_state(wid)
         auto = None

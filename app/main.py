@@ -10,7 +10,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import duel, lan, presence, sfx, srs, ui
+from . import duel, exam_practice, goals, lan, presence, sfx, srs, ui
 from .audio import Audio
 from .config import load_settings
 from .content import Content, load_content, words_in_reach
@@ -22,7 +22,7 @@ from .speaking import speak_and_compare
 from .ui import QuitSession, console, icon
 from .genders import gender_progress
 from .verbs import verb_progress
-from .warmup import WarmupResult, run_warmup
+from .warmup import WarmupResult, run_warmup, todays_size
 
 
 @dataclass
@@ -116,7 +116,7 @@ def choose_profile(name: str | None) -> Profile:
 
 
 def warmup_size(ctx: Context) -> int:
-    return srs.warmup_size(ctx.settings, ctx.profile.practice_days(ctx.today))
+    return todays_size(ctx)
 
 
 def facts(ctx: Context) -> list[str]:
@@ -194,7 +194,10 @@ def finish_screen(ctx: Context, warm: WarmupResult | None, paragraphs: int | Non
     streak = ctx.profile.streak(ctx.today)
     streak_text = f"{icon('fire')} {ui.plural(streak, 'day')} in a row" if streak else "Finish a warm-up or a paragraph to start a streak"
     lines.append(f"{streak_text} · {ui.plural(minutes, 'minute')} practised today")
-    lines.append(f"[hint]Tomorrow's warm-up: {srs.warmup_size(ctx.settings, ctx.profile.practice_days(date.fromordinal(ctx.today.toordinal() + 1)))} words[/]")
+    tomorrow = date.fromordinal(ctx.today.toordinal() + 1).isoformat()
+    due = sum(1 for s in ctx.profile.data["vocab"].values() if s.get("box", 0) >= 1 and s.get("due") and s["due"] <= tomorrow)
+    lines.append(f"[hint]Tomorrow: {ui.plural(due, 'word')} to review · about "
+                 f"{srs.session_minutes(ctx.settings, ctx.profile.data, date.fromisoformat(tomorrow))} minutes in all[/]")
     console.print(banner(ctx.profile.name, lines, width=console.width,
                          heading=(f"Gut gemacht, {ctx.profile.name}!", f"Well done, {ctx.profile.name}!")))
     ui.keys({"": "back to the menu"})
@@ -205,7 +208,7 @@ def show_progress(ctx: Context) -> None:
     states = ctx.profile.data["vocab"]
     words = ctx.content.words
     ui.title(f"Progress: {ctx.profile.name}")
-    boxes = [sum(1 for wid, s in states.items() if wid in words and s.get("box", 0) == b) for b in range(6)]
+    boxes = [sum(1 for wid, s in states.items() if wid in words and s.get("box", 0) == b) for b in range(srs.MAX_BOX + 1)]
     right = sum(s.get("right", 0) for s in states.values())
     wrong = sum(s.get("wrong", 0) for s in states.values())
     t = Table(show_header=False, box=None, padding=(0, 2))
@@ -248,7 +251,11 @@ def show_progress(ctx: Context) -> None:
                      str(v.get("right", 0)), str(v.get("almost", 0)), str(v.get("new", 0)), str(v.get("units", 0)),
                      "–" if seconds is None else ("<1" if 0 < seconds < 30 else str(round(seconds / 60))))
     console.print(days)
-    ui.keys({"": "back"})
+    target = ctx.profile.data.get("target")
+    console.print(f"Goal: [bold]{target or 'not set'}[/]" + (f" · topics: {', '.join(goals.topics(ctx.profile.data))}"
+                                                           if goals.topics(ctx.profile.data) else ""))
+    if ui.keys({"": "back", "g": "change my goal and topics"}) == "g":
+        goals.choose(ctx)
 
 
 def show_journal(ctx: Context) -> None:
@@ -285,15 +292,22 @@ MENU = {
     "6": "My translations",
     "7": "Test speakers & microphone",
     "8": "Duel: play against someone on the same Wi-Fi",
+    "9": "Exam practice (A2, B1)",
     "q": "Quit",
 }
-ACTIVITIES = {"1": "doing today's lesson", "2": "doing a warm-up", "3": "reading", "8": "in a duel"}
+ACTIVITIES = {"1": "doing today's lesson", "2": "doing a warm-up", "3": "reading", "8": "in a duel",
+              "9": "practising for an exam"}
 
 
 def menu(ctx: Context) -> None:
     if ctx.profile.is_new:
         try:
             welcome(ctx)
+        except QuitSession:
+            pass
+    if "target" not in ctx.profile.data:
+        try:
+            goals.choose(ctx)  # asked once (also for kids from before goals existed)
         except QuitSession:
             pass
     message = ""
@@ -342,6 +356,8 @@ def menu(ctx: Context) -> None:
                 audio_check(ctx)
             elif choice == "8":
                 duel.menu(ctx)
+            elif choice == "9":
+                exam_practice.menu(ctx)
             elif choice:
                 message = f"[warn]'{ui.escape(choice)}' isn't an option. Pick 1–8, or q to quit.[/]"
         except QuitSession:

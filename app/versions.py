@@ -49,7 +49,8 @@ def _load(path: Path):
         return json.load(f)
 
 
-def current_items(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR, verbs_dir: Path = VERBS_DIR) -> dict:
+def current_items(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR, verbs_dir: Path = VERBS_DIR,
+                  exams_dir: Path = CONTENT_DIR / "exams") -> dict:
     """{item id: {"kind", tier hashes…, "text"?}} for everything in content/ right now (from the raw files)."""
     items = {}
     for path in vocab_files(vocab_dir):
@@ -68,6 +69,20 @@ def current_items(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR, verb
                 continue
             items[f"{book['id']}#{u['n']}"] = {"kind": "paragraph", **_fingerprint(u, UNIT_FIELDS),
                                               "opening": u.get("de", "")[:OPENING]}
+    for path in sorted(exams_dir.glob("*.json")):
+        exam = _load(path)
+        for part in exam.get("parts", []):
+            texts = {t.get("id"): t for t in part.get("texts", [])}
+            if part.get("skill") == "writing":
+                items[f"{exam['id']}.{part['id']}"] = {
+                    "kind": "exam", "answer": _hash(part.get("points")), "wording": _hash(part.get("task_de")),
+                    "presentation": _hash([part.get("task_en"), part.get("model_de")])}
+                continue
+            for it in part.get("items", []):
+                items[f"{exam['id']}.{part['id']}.{it.get('id')}"] = {
+                    "kind": "exam", "answer": _hash([it.get("answer"), it.get("options")]),
+                    "wording": _hash([it.get("question"), texts.get(it.get("text")) or list(texts.values())]),
+                    "presentation": _hash(it.get("explain_en"))}
     return items
 
 

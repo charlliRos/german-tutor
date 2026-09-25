@@ -80,11 +80,21 @@ class SpacedRepetition(unittest.TestCase):
     SETTINGS = {"bank_shares": {"daily": 0.5, "stem": 0.5}, "warmup_start": 10, "warmup_max": 200,
                 "warmup_growth": 0.52, "new_word_share": 0.25, "min_new_words": 3}
 
-    def test_warmup_grows_from_10_to_200(self):
-        self.assertEqual(srs.warmup_size(self.SETTINGS, 0), 10)
-        self.assertEqual(srs.warmup_size(self.SETTINGS, 183), 105)
-        self.assertEqual(srs.warmup_size(self.SETTINGS, 365), 199)
-        self.assertEqual(srs.warmup_size(self.SETTINGS, 1000), 200)
+    def test_warmup_fits_the_time_budget(self):
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 25), 45)          # 15 min at 20 s a question
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 25, 10.0), 90)    # a fast kid gets more
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 5), 10)           # never under warmup_start
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 300, 5.0), 200)   # never over warmup_max
+        saturday, monday = date(2026, 9, 26), date(2026, 9, 28)
+        budget = {"session_minutes": {"weekday": 25, "weekend": 40}}
+        self.assertEqual((srs.session_minutes(budget, {}, monday), srs.session_minutes(budget, {}, saturday)), (25, 40))
+        self.assertEqual(srs.session_minutes(budget, {"session_minutes": 15}, saturday), 15)
+
+    def test_due_words_that_dont_fit_wait_and_are_counted(self):
+        words = {f"d{i}": Word(f"d{i}", "daily", f"w{i}", ["x"], "verb", rank=i) for i in range(100)}
+        states = {f"d{i}": {"box": 2, "due": "2026-01-01", "last": "2025-12-29"} for i in range(80)}
+        plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=45, new_allowed=10)
+        self.assertEqual((len(plan.reviews), len(plan.new), plan.waiting), (45, 0, 35))
 
     def test_plan_mixes_new_reviews_and_practice(self):
         words = {f"d{i}": Word(f"d{i}", "daily", f"w{i}", ["x"], "verb", rank=i) for i in range(30)}
@@ -108,6 +118,22 @@ class SpacedRepetition(unittest.TestCase):
         plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=15, new_allowed=0)
         self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (0, 12, 3))
 
+    def test_the_goal_caps_the_level_and_topics_go_first(self):
+        from app import goals
+        words = {f"w{i}": Word(f"w{i}", "daily", f"w{i}", ["x"], "verb", rank=i,
+                               level="A1" if i < 50 else "B2", topic="sport" if i % 10 == 9 else "basics")
+                 for i in range(1000)}
+        allowed = goals.allowed_words(words, {"target": "A2"})
+        self.assertEqual(len(allowed), 50 + 200)  # its levels, plus the next 200 most common words
+        plan = srs.plan_session({}, words, self.SETTINGS, self.today, size=10, new_allowed=10,
+                                allowed=allowed, topics=("sport",))
+        self.assertEqual(plan.new[:5], ["w9", "w19", "w29", "w39", "w49"])  # sport first, among common words
+        far = {"w999": Word("w999", "daily", "x", ["x"], "verb", rank=999, topic="sport")}
+        plan = srs.plan_session({}, words | far, self.SETTINGS, self.today, size=3, new_allowed=3, topics=("sport",))
+        self.assertNotIn("w999", plan.new)  # a rare favourite-topic word doesn't jump the queue
+        self.assertIsNone(goals.allowed_words(words, {"target": "C1"}))
+        self.assertEqual(goals.settings_for({"bank_shares": {"daily": 1}}, {"target": "A2"})["bank_shares"]["daily"], 0.9)
+
     def test_new_words_per_day_are_capped(self):
         self.assertEqual(srs.new_word_cap(self.SETTINGS, 10), 3)
         self.assertEqual(srs.new_word_cap(self.SETTINGS, 40), 10)
@@ -125,14 +151,14 @@ class SpacedRepetition(unittest.TestCase):
         states: dict = {}
         day = self.today
         for n in range(365):
-            size = srs.warmup_size(settings, n)
+            size = srs.warmup_size(settings, 25)
             plan = srs.plan_session(states, words, settings, day, size, srs.new_word_cap(settings, size))
             for wid in plan.new + plan.reviews:
                 srs.apply_result(states.setdefault(wid, srs.new_state()), CORRECT if rng.random() < 0.85 else WRONG, day)
             day += timedelta(days=1)
         overdue = sum(1 for s in states.values() if s["due"] and s["due"] < day.isoformat())
-        self.assertLess(overdue, 50)
-        self.assertGreater(len(states), 1500)  # positive control: it still learns plenty of words
+        self.assertLess(overdue, 2 * srs.warmup_size(settings, 25))  # at most ~a day's reviews wait, never a pile
+        self.assertGreater(len(states), 1300)  # positive control: ~1,500 words in a year at 25 min a day
 
     def test_practice_does_not_promote_but_a_miss_demotes(self):
         s = {"box": 3, "due": "2026-02-01"}

@@ -161,7 +161,33 @@ def _summary(profile: Profile, content: Content, today: date) -> Table:
     else:
         reading = "not started"
     t.add_row("Reading", reading + (f" · {ui.plural(len(finished), 'book')} finished" if finished else ""))
+    for n, line in enumerate(_exam_lines(profile)):
+        t.add_row("Exam practice" if n == 0 else "", line)
     return t
+
+
+def _exam_lines(profile: Profile) -> list[str]:
+    """One line per practice exam tried: best score per skill against the pass mark (60%)."""
+    from .exams import SKILLS, load_exams, passed
+    done = profile.data.get("exams", {})
+    lines = []
+    for exam in load_exams()[0]:
+        if exam.id not in done:
+            continue
+        parts = []
+        for skill, name in SKILLS.items():
+            results = [done[exam.id][p.id] for p in exam.skill_parts(skill) if p.id in done[exam.id]]
+            if not results:
+                continue
+            best, total = sum(r["best"] for r in results), sum(r["max"] for r in results)
+            if skill == "writing":
+                parts.append(f"{name}: {len(results)} task(s) done")
+                continue
+            complete = len(results) == len(exam.skill_parts(skill))
+            mark = "[good]pass[/]" if complete and passed(best, total) else "" if not complete else "[almost]not yet[/]"
+            parts.append(f"{name} {best}/{total}" + (f" {mark}" if mark else " (some parts)"))
+        lines.append(f"{exam.level} {ui.escape(exam.title)}: " + " · ".join(parts))
+    return lines
 
 
 def _days_total(profile: Profile, today: date, length: int, key: str) -> int:

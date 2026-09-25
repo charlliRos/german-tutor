@@ -112,3 +112,60 @@ Rules for units:
 `past` is the er/sie/es form (the app works out gingst, gingen, gingt); `perfect` includes the helper
 verb (`hat` or `ist`). Only verbs that appear in a paragraph the kid has read are practised, with the
 book sentence as the example.
+
+## Exam practice — `content/exams/<level>_<nn>.json`
+
+Practice exams in the format of the Goethe-Zertifikat (A2, B1). **Every text is written for this app**:
+official practice papers are copyrighted and are only linked (`official_practice`), never copied. The task
+*formats* (how many parts, what kind of question) follow the official exam descriptions.
+
+```json
+{
+  "id": "a2-01",
+  "level": "A2",
+  "style": "Goethe-Zertifikat A2",
+  "title": "Practice exam A2 · 1",
+  "about_en": "One or two sentences: what this exam is and who needs it.",
+  "official_practice": [{"title": "Goethe-Zertifikat A2: free practice papers", "url": "https://..."}],
+  "parts": [
+    {
+      "id": "lesen-1",
+      "skill": "reading",
+      "title_de": "Lesen, Teil 1",
+      "instructions_en": "Read the article. Choose a, b or c for each question.",
+      "minutes": 10,
+      "texts": [{"id": "t1", "title": "Neues Jugendzentrum", "de": "…"}],
+      "items": [
+        {"id": "1", "type": "mc", "text": "t1", "question": "Das Jugendzentrum …",
+         "options": {"a": "…", "b": "…", "c": "…"}, "answer": "b", "explain_en": "Why b is right."}
+      ]
+    }
+  ]
+}
+```
+
+Parts:
+- `id`: permanent (`lesen-1`, `hoeren-2`, `schreiben-1`). An item's permanent id is `<exam id>.<part id>.<item id>`.
+- `skill`: `reading`, `listening` or `writing`.
+- `texts`: for reading, shown on screen. For listening, read aloud by the voice and shown only after answering
+  (a transcript). A listening text is either `"de": "…"` (one speaker) or `"lines": [{"who": "Frau", "de": "…"}]`
+  (a conversation). `"plays": 1` or `2` on the part says how often it may be heard (default 2).
+- For matching parts the texts are the choices: give them ids `a`, `b`, `c`, … and set `"none_allowed": true` if
+  "no text fits" (answer `x`) is possible. A matching item that names a `text` (e.g. the conversation in a
+  listening part) chooses among the *other* texts, and only the named text is read aloud.
+
+Item types (`answer` is always one of the listed values):
+- `mc`: `options` `{"a","b","c"}`; answer `a` / `b` / `c`.
+- `tf`: a statement; answer `richtig` / `falsch`.
+- `yesno`: answer `ja` / `nein`.
+- `match`: answer is one of the part's text ids (or `x` when `none_allowed`).
+- `text` (optional on every item): the id of the text the item is about.
+
+Writing parts have no `items`; instead:
+`"task_de"`, `"task_en"`, `"points": ["…", "…", "…"]` (what the answer must cover), `"words": [min, target]`,
+`"model_de"` (a model answer at the right level). The kid's text is self-graded against the points.
+
+Rules: answers must follow clearly from the text (no trick questions, one right answer); distractors are
+plausible but clearly wrong; `explain_en` for every item; topics and texts suitable for 13–17-year-olds;
+current spelling; the level's vocabulary and grammar. After editing, run `python tools/item_versions.py --update`
+and `python tools/validate_content.py`.

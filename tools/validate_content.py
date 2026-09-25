@@ -11,6 +11,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from app.config import BOOKS_DIR, VOCAB_DIR  # noqa: E402
 from app.content import BANKS, is_duplicate, sentences, vocab_files  # noqa: E402
+from app.exams import EXAMS_DIR, check_exam  # noqa: E402
 from app.versions import compare, current_items, load_versions  # noqa: E402
 
 POS = {"noun", "verb", "adj", "adv", "prep", "conj", "pron", "num", "phrase", "other"}
@@ -119,6 +120,17 @@ def check_books() -> list[tuple[str, int]]:
     return summary
 
 
+def check_exams() -> list[str]:
+    names = []
+    for path in sorted(EXAMS_DIR.glob("*.json")):
+        data = load(path)
+        if data is None:
+            continue
+        errors.extend(check_exam(data, path.name))
+        names.append(f"{data.get('level', '?')} {data.get('title', path.stem)}")
+    return names
+
+
 def check_versions() -> None:
     """Every edit is recorded in content/item_versions.json (tools/item_versions.py), and paragraphs are
     never renumbered."""
@@ -132,10 +144,13 @@ def check_versions() -> None:
 def main() -> int:
     banks = check_vocab()
     books = check_books()
+    exams = check_exams()
     check_versions()
     print("Vocabulary: " + ", ".join(f"{banks.get(b, 0)} {label}" for b, label in BANKS.items()) + " words")
     for title, n in books:
         print(f"Book: {title} ({n} units)")
+    for name in exams:
+        print(f"Exam: {name}")
     for w in warnings:
         print(f"  warning: {w}")
     for e in errors:
