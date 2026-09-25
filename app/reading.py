@@ -210,17 +210,64 @@ def paragraph_id(book: Book, unit: Unit) -> str:
     return f"{book.id}#{unit.n}"
 
 
+PROVE_CHANCE = 1 / 3   # after a confident self-grade, this often one sentence is checked by the app
+PROVE_PASS = 0.7       # share of its words right
+
+
 def _log_translation(ctx, book: Book, unit: Unit, entry: dict, source: str, reference: str) -> None:
-    """Keep a translation in the answer log as a self-graded (estimated) score, or as no response."""
+    """Keep a translation in the answer log as a self-graded (estimated) score, or as no response. After a
+    confident self-grade, sometimes a "prove it" sentence follows (docs/LEARNING_DESIGN.md 2.4)."""
     graded = entry.get("self_grade") in attempts.SELF_POINTS and not entry.get("skipped")
     reason = entry.get("caught") or ("skipped" if entry.get("skipped") else "stopped before grading")
     attempts.note(entry.get("answer", ""), task=entry["task"], pasted=entry.get("caught", "").startswith("you pasted"))
-    attempts.record(ctx.profile, ctx.today, item=paragraph_id(book, unit), item_version=attempts.version(source, reference),
-                    competency=attempts.TRANSLATION[entry["task"]], subcompetency=book.id,
-                    context="reading.look_back" if entry.get("review") else "reading.new",
-                    score=attempts.self_graded(entry["self_grade"]) if graded else attempts.no_response(reason),
-                    grader=attempts.SELF if graded else attempts.GRADER,
-                    source=source if source != (unit.de if entry["task"] == "de2en" else unit.en) else None)
+    event = attempts.record(ctx.profile, ctx.today, item=paragraph_id(book, unit),
+                            item_version=attempts.version(source, reference),
+                            competency=attempts.TRANSLATION[entry["task"]], subcompetency=book.id,
+                            context="reading.look_back" if entry.get("review") else "reading.new",
+                            score=attempts.self_graded(entry["self_grade"]) if graded else attempts.no_response(reason),
+                            grader=attempts.SELF if graded else attempts.GRADER,
+                            source=source if source != (unit.de if entry["task"] == "de2en" else unit.en) else None)
+    if graded and entry["self_grade"] != NEEDS_WORK and ctx.rng.random() < PROVE_CHANCE:
+        prove_it(ctx, book, unit, event["id"])
+
+
+def prove_it(ctx, book: Book, unit: Unit, about: str) -> bool:
+    """One sentence of the same text, English into German, checked word by word by the app. A self-grade can
+    be wrong; this can say so. A miss brings the paragraph back next session. True if it passed."""
+    pairs = [(de, en) for de, en in unit.sentence_pairs if len(de.split()) >= 4]
+    if not pairs:
+        return True
+    de, en = ctx.rng.choice(pairs)
+    ui.clear()
+    ui.title(f"{ctx.step}Prove it", book.short_title)
+    ui.todo("type", what="One sentence from this text, back into German. This one the app checks.")
+    console.print(ui.english(balance_quotes(en, "en"), "English"))
+    console.print(ui.umlaut_tip())
+    pastes = ui.paste_count()
+    answer = ui.ask_answer("German:")
+    pasted = ui.paste_count() > pastes
+    marked, score = mark_words(answer, de) if answer and not pasted else (Text(de, style="de"), 0.0)
+    passed = score >= PROVE_PASS
+    console.print(Panel(marked, title=f"The sentence · {round(score * 100)}% right",
+                        border_style="green" if passed else "red", padding=(1, 2)))
+    if passed:
+        console.print(f"[good]{icon('ok')} Proved![/]")
+    else:
+        review = ctx.profile.data["paragraph_reviews"].get(f"{book.id}:{unit.n}")
+        if review is not None:
+            review["sessions_left"] += 1
+        else:  # a new paragraph: its look backs aren't scheduled yet
+            ctx.profile.book_state(book.id)["prove_missed"] = True
+        console.print("[hint]Not quite yet, so this paragraph comes back next session.[/]")
+    attempts.note(answer, task="en2de", pasted=pasted)
+    attempts.record(ctx.profile, ctx.today, item=paragraph_id(book, unit), item_version=attempts.version(de, en),
+                    competency="writing.translation_en_de", subcompetency=book.id, context="prove",
+                    score={"kind": "polytomous", "points": round(score * 100), "max": 100, "label": "words right"}
+                    if answer and not pasted else attempts.no_response("pasted" if pasted else "don't know"),
+                    grader=attempts.DICTATION_GRADER, about=about, source=en)
+    ctx.profile.save()
+    ui.keys({"": "continue"})
+    return passed
 
 
 def _log_heard(ctx, book: Book, unit: Unit, task: str, heard: bool) -> None:
@@ -491,7 +538,8 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
     ctx.profile.data["current_book"] = book.id
     if counted:
         ctx.profile.count(ctx.today, units=1)
-    _schedule_reviews(ctx, book, unit, CAUGHT_EXTRA_SESSIONS if state.pop("caught", False) else 0)
+    _schedule_reviews(ctx, book, unit, (CAUGHT_EXTRA_SESSIONS if state.pop("caught", False) else 0)
+                      + (1 if state.pop("prove_missed", False) else 0))
     if learned_now is not None:
         learned_now.add(f"{book.id}:{unit.n}")
     ctx.profile.save()

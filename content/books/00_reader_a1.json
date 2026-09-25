@@ -1,0 +1,2290 @@
+{
+  "id": "reader-a1",
+  "title": "Neu in Hamburg (A1 reader)",
+  "short_title": "Neu in Hamburg",
+  "author": "Written for this app",
+  "original": true,
+  "year": 2026,
+  "level": "A1",
+  "source": "Written for this app (Deutsch mit Fritz & Pip), 2026",
+  "orthography": "current spelling",
+  "intro_en": "Emma is fourteen, English, and has just moved with her family to Hamburg – where she hardly understands a word. Follow her first weeks at a German school: new friends, a football team, a birthday, a class trip to the Baltic Sea and one big match. Written in simple present-tense German, with the same everyday words coming back again and again.",
+  "units": [
+    {
+      "n": 1,
+      "de": "Hallo! Ich heiße Emma Clarke. Ich bin vierzehn Jahre alt. Ich komme aus England, aus Manchester. Aber jetzt wohne ich in Deutschland, in Hamburg. Hamburg ist groß und alt, und es hat viel Wasser. Ich spreche Englisch, und ich lerne Deutsch. Deutsch ist nicht leicht, aber ich lerne jeden Tag. Heute ist Sonntag. Morgen ist mein erster Tag in der neuen Schule. Ich habe ein bisschen Angst.",
+      "en": "Hello! My name is Emma Clarke. I'm fourteen years old. I come from England, from Manchester. But now I live in Germany, in Hamburg. Hamburg is big and old, and it has a lot of water. I speak English, and I'm learning German. German isn't easy, but I learn every day. Today is Sunday. Tomorrow is my first day at the new school. I'm a bit scared.",
+      "explain_en": "German says “Ich heiße …” (literally “I am called …”) for “my name is”. Look at “Aber jetzt wohne ich”: when a sentence starts with something other than the subject, the verb still comes second, so the subject moves after it. “Ich habe Angst” means “I'm scared” – in German you “have” fear.",
+      "words": [
+        {
+          "de": "heißen",
+          "en": "to be called"
+        },
+        {
+          "de": "wohnen",
+          "en": "to live (somewhere)"
+        },
+        {
+          "de": "lernen",
+          "en": "to learn"
+        },
+        {
+          "de": "die Schule, die Schulen",
+          "en": "school"
+        },
+        {
+          "de": "die Angst",
+          "en": "fear; Angst haben = to be scared"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Hallo!",
+          "en": "Hello!"
+        },
+        {
+          "de": "Ich heiße Emma Clarke.",
+          "en": "My name is Emma Clarke."
+        },
+        {
+          "de": "Ich bin vierzehn Jahre alt.",
+          "en": "I'm fourteen years old."
+        },
+        {
+          "de": "Ich komme aus England, aus Manchester.",
+          "en": "I come from England, from Manchester."
+        },
+        {
+          "de": "Aber jetzt wohne ich in Deutschland, in Hamburg.",
+          "en": "But now I live in Germany, in Hamburg."
+        },
+        {
+          "de": "Hamburg ist groß und alt, und es hat viel Wasser.",
+          "en": "Hamburg is big and old, and it has a lot of water."
+        },
+        {
+          "de": "Ich spreche Englisch, und ich lerne Deutsch.",
+          "en": "I speak English, and I'm learning German."
+        },
+        {
+          "de": "Deutsch ist nicht leicht, aber ich lerne jeden Tag.",
+          "en": "German isn't easy, but I learn every day."
+        },
+        {
+          "de": "Heute ist Sonntag.",
+          "en": "Today is Sunday."
+        },
+        {
+          "de": "Morgen ist mein erster Tag in der neuen Schule.",
+          "en": "Tomorrow is my first day at the new school."
+        },
+        {
+          "de": "Ich habe ein bisschen Angst.",
+          "en": "I'm a bit scared."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "de": "Das ist meine Familie. Mein Vater heißt David. Er ist Ingenieur und arbeitet jetzt in Hamburg. Meine Mutter heißt Sarah. Sie ist Lehrerin, aber hier hat sie noch keine Arbeit. Mein Bruder Tom ist zehn. Er ist laut und lustig. Und wir haben eine Katze, Mimi. Mimi ist schwarz und weiß. Sie schläft gern auf meinem Bett. Findet Mimi Hamburg gut? Ich weiß es nicht.",
+      "en": "This is my family. My father is called David. He's an engineer and now works in Hamburg. My mother is called Sarah. She's a teacher, but here she doesn't have a job yet. My brother Tom is ten. He's loud and funny. And we have a cat, Mimi. Mimi is black and white. She likes sleeping on my bed. Does Mimi like Hamburg? I don't know.",
+      "explain_en": "German drops “a” with jobs: “Er ist Ingenieur” = “He is an engineer”. Many jobs have a female form ending in -in: der Lehrer, die Lehrerin. “gern” after a verb means you like doing it: “Sie schläft gern” = “She likes sleeping”. “Ich finde Hamburg gut” is a very common way to say you like something.",
+      "words": [
+        {
+          "de": "die Familie, die Familien",
+          "en": "family"
+        },
+        {
+          "de": "der Vater / die Mutter",
+          "en": "father / mother"
+        },
+        {
+          "de": "der Bruder, die Brüder",
+          "en": "brother"
+        },
+        {
+          "de": "arbeiten",
+          "en": "to work"
+        },
+        {
+          "de": "die Katze, die Katzen",
+          "en": "cat"
+        },
+        {
+          "de": "gern",
+          "en": "gladly; verb + gern = to like doing"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Das ist meine Familie.",
+          "en": "This is my family."
+        },
+        {
+          "de": "Mein Vater heißt David.",
+          "en": "My father is called David."
+        },
+        {
+          "de": "Er ist Ingenieur und arbeitet jetzt in Hamburg.",
+          "en": "He's an engineer and now works in Hamburg."
+        },
+        {
+          "de": "Meine Mutter heißt Sarah.",
+          "en": "My mother is called Sarah."
+        },
+        {
+          "de": "Sie ist Lehrerin, aber hier hat sie noch keine Arbeit.",
+          "en": "She's a teacher, but here she doesn't have a job yet."
+        },
+        {
+          "de": "Mein Bruder Tom ist zehn.",
+          "en": "My brother Tom is ten."
+        },
+        {
+          "de": "Er ist laut und lustig.",
+          "en": "He's loud and funny."
+        },
+        {
+          "de": "Und wir haben eine Katze, Mimi.",
+          "en": "And we have a cat, Mimi."
+        },
+        {
+          "de": "Mimi ist schwarz und weiß.",
+          "en": "Mimi is black and white."
+        },
+        {
+          "de": "Sie schläft gern auf meinem Bett.",
+          "en": "She likes sleeping on my bed."
+        },
+        {
+          "de": "Findet Mimi Hamburg gut?",
+          "en": "Does Mimi like Hamburg?"
+        },
+        {
+          "de": "Ich weiß es nicht.",
+          "en": "I don't know."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "de": "Unsere Wohnung ist im dritten Stock. Es gibt keinen Aufzug. Die Wohnung hat vier Zimmer, eine Küche und ein Bad. Unser Haus in England hat einen Garten. Hier gibt es keinen Garten, aber einen kleinen Balkon. Mein Zimmer ist klein, aber schön. Ich habe ein Bett, einen Tisch und einen Stuhl. Mein Fenster ist groß. Ich sehe viele Dächer und eine Kirche. Am Abend sitze ich am Fenster und höre Musik. Mimi sitzt neben mir.",
+      "en": "Our flat is on the third floor. There's no lift. The flat has four rooms, a kitchen and a bathroom. Our house in England has a garden. Here there's no garden, but there is a small balcony. My room is small but nice. I have a bed, a table and a chair. My window is big. I can see lots of roofs and a church. In the evening I sit at the window and listen to music. Mimi sits next to me.",
+      "explain_en": "“Es gibt” means “there is / there are” and is followed by the accusative, so der Aufzug becomes “keinen Aufzug”. That is also why it's “einen Tisch” and “einen Stuhl” after “ich habe”: only masculine words change (der → den, ein → einen). “Im dritten Stock” is what English calls the third floor – Germans count the ground floor as zero, like the British.",
+      "words": [
+        {
+          "de": "die Wohnung, die Wohnungen",
+          "en": "flat, apartment"
+        },
+        {
+          "de": "das Zimmer, die Zimmer",
+          "en": "room"
+        },
+        {
+          "de": "die Küche, die Küchen",
+          "en": "kitchen"
+        },
+        {
+          "de": "es gibt",
+          "en": "there is, there are"
+        },
+        {
+          "de": "das Fenster, die Fenster",
+          "en": "window"
+        },
+        {
+          "de": "der Tisch, die Tische",
+          "en": "table"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Unsere Wohnung ist im dritten Stock.",
+          "en": "Our flat is on the third floor."
+        },
+        {
+          "de": "Es gibt keinen Aufzug.",
+          "en": "There's no lift."
+        },
+        {
+          "de": "Die Wohnung hat vier Zimmer, eine Küche und ein Bad.",
+          "en": "The flat has four rooms, a kitchen and a bathroom."
+        },
+        {
+          "de": "Unser Haus in England hat einen Garten.",
+          "en": "Our house in England has a garden."
+        },
+        {
+          "de": "Hier gibt es keinen Garten, aber einen kleinen Balkon.",
+          "en": "Here there's no garden, but there is a small balcony."
+        },
+        {
+          "de": "Mein Zimmer ist klein, aber schön.",
+          "en": "My room is small but nice."
+        },
+        {
+          "de": "Ich habe ein Bett, einen Tisch und einen Stuhl.",
+          "en": "I have a bed, a table and a chair."
+        },
+        {
+          "de": "Mein Fenster ist groß.",
+          "en": "My window is big."
+        },
+        {
+          "de": "Ich sehe viele Dächer und eine Kirche.",
+          "en": "I can see lots of roofs and a church."
+        },
+        {
+          "de": "Am Abend sitze ich am Fenster und höre Musik.",
+          "en": "In the evening I sit at the window and listen to music."
+        },
+        {
+          "de": "Mimi sitzt neben mir.",
+          "en": "Mimi sits next to me."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "de": "Es ist Montag, sieben Uhr. Ich bin müde. In der Küche macht Mama Frühstück. Es gibt Brötchen, Butter, Käse und Marmelade. Papa trinkt Kaffee, und Tom trinkt Kakao. Ich trinke Tee mit Milch, wie in England. Aber ich esse nicht viel. „Hast du Hunger, Emma?“, fragt Mama. „Nein, ich habe keinen Hunger“, sage ich. „Alles wird gut“, sagt Papa. Ich nehme meine Tasche und gehe los.",
+      "en": "It's Monday, seven o'clock. I'm tired. Mum is making breakfast in the kitchen. There are bread rolls, butter, cheese and jam. Dad drinks coffee, and Tom drinks hot chocolate. I drink tea with milk, like in England. But I don't eat much. “Are you hungry, Emma?” asks Mum. “No, I'm not hungry,” I say. “Everything will be fine,” says Dad. I take my bag and set off.",
+      "explain_en": "Brötchen (bread rolls) are the classic German breakfast. Like Angst, hunger is something you “have”: “Ich habe Hunger” = “I'm hungry”. German has no “-ing” form, so “Mama macht Frühstück” can mean “Mum makes” or “Mum is making”. “Alles wird gut” is a set phrase people say to comfort someone.",
+      "words": [
+        {
+          "de": "das Frühstück",
+          "en": "breakfast"
+        },
+        {
+          "de": "das Brötchen, die Brötchen",
+          "en": "bread roll"
+        },
+        {
+          "de": "trinken",
+          "en": "to drink"
+        },
+        {
+          "de": "essen",
+          "en": "to eat"
+        },
+        {
+          "de": "Hunger haben",
+          "en": "to be hungry"
+        },
+        {
+          "de": "müde",
+          "en": "tired"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Es ist Montag, sieben Uhr.",
+          "en": "It's Monday, seven o'clock."
+        },
+        {
+          "de": "Ich bin müde.",
+          "en": "I'm tired."
+        },
+        {
+          "de": "In der Küche macht Mama Frühstück.",
+          "en": "Mum is making breakfast in the kitchen."
+        },
+        {
+          "de": "Es gibt Brötchen, Butter, Käse und Marmelade.",
+          "en": "There are bread rolls, butter, cheese and jam."
+        },
+        {
+          "de": "Papa trinkt Kaffee, und Tom trinkt Kakao.",
+          "en": "Dad drinks coffee, and Tom drinks hot chocolate."
+        },
+        {
+          "de": "Ich trinke Tee mit Milch, wie in England.",
+          "en": "I drink tea with milk, like in England."
+        },
+        {
+          "de": "Aber ich esse nicht viel.",
+          "en": "But I don't eat much."
+        },
+        {
+          "de": "„Hast du Hunger, Emma?“, fragt Mama.",
+          "en": "“Are you hungry, Emma?” asks Mum."
+        },
+        {
+          "de": "„Nein, ich habe keinen Hunger“, sage ich.",
+          "en": "“No, I'm not hungry,” I say."
+        },
+        {
+          "de": "„Alles wird gut“, sagt Papa.",
+          "en": "“Everything will be fine,” says Dad."
+        },
+        {
+          "de": "Ich nehme meine Tasche und gehe los.",
+          "en": "I take my bag and set off."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "de": "Die Schule ist nicht weit. Ich gehe zehn Minuten zu Fuß. Die Schule ist groß und grau. Viele Schüler stehen vor der Tür. Sie sprechen schnell, und ich verstehe nichts. Dann kommt eine Frau zu mir. „Bist du Emma?“, fragt sie. „Ich bin Frau Becker, deine Klassenlehrerin.“ Frau Becker ist nett, und sie lacht viel. Meine Klasse ist die 8b. Wir gehen zusammen in das Klassenzimmer.",
+      "en": "The school isn't far. I walk for ten minutes. The school is big and grey. Lots of students are standing in front of the door. They speak fast, and I don't understand anything. Then a woman comes up to me. “Are you Emma?” she asks. “I'm Ms Becker, your class teacher.” Ms Becker is nice, and she laughs a lot. My class is 8b. We go into the classroom together.",
+      "explain_en": "“Zu Fuß gehen” means to walk (on foot); “gehen” alone often just means to go. A Klassenlehrerin is the teacher in charge of your class, a bit like a form tutor. German classes are numbered by school year, so “die 8b” is year 8, group b.",
+      "words": [
+        {
+          "de": "zu Fuß gehen",
+          "en": "to walk, go on foot"
+        },
+        {
+          "de": "der Schüler, die Schüler",
+          "en": "school student, pupil"
+        },
+        {
+          "de": "verstehen",
+          "en": "to understand"
+        },
+        {
+          "de": "die Klasse, die Klassen",
+          "en": "class; school year"
+        },
+        {
+          "de": "nett",
+          "en": "nice, kind"
+        },
+        {
+          "de": "zusammen",
+          "en": "together"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Die Schule ist nicht weit.",
+          "en": "The school isn't far."
+        },
+        {
+          "de": "Ich gehe zehn Minuten zu Fuß.",
+          "en": "I walk for ten minutes."
+        },
+        {
+          "de": "Die Schule ist groß und grau.",
+          "en": "The school is big and grey."
+        },
+        {
+          "de": "Viele Schüler stehen vor der Tür.",
+          "en": "Lots of students are standing in front of the door."
+        },
+        {
+          "de": "Sie sprechen schnell, und ich verstehe nichts.",
+          "en": "They speak fast, and I don't understand anything."
+        },
+        {
+          "de": "Dann kommt eine Frau zu mir.",
+          "en": "Then a woman comes up to me."
+        },
+        {
+          "de": "„Bist du Emma?“, fragt sie.",
+          "en": "“Are you Emma?” she asks."
+        },
+        {
+          "de": "„Ich bin Frau Becker, deine Klassenlehrerin.“",
+          "en": "“I'm Ms Becker, your class teacher.”"
+        },
+        {
+          "de": "Frau Becker ist nett, und sie lacht viel.",
+          "en": "Ms Becker is nice, and she laughs a lot."
+        },
+        {
+          "de": "Meine Klasse ist die 8b.",
+          "en": "My class is 8b."
+        },
+        {
+          "de": "Wir gehen zusammen in das Klassenzimmer.",
+          "en": "We go into the classroom together."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "de": "Im Klassenzimmer sitzen fünfundzwanzig Schüler. Alle sehen mich an. „Das ist Emma“, sagt Frau Becker. „Sie kommt aus England.“ Ich sage: „Hallo, ich heiße Emma, und ich bin vierzehn.“ Mein Gesicht ist rot. Ein Mädchen mit langen, braunen Haaren lächelt. Neben ihr ist ein Platz frei. „Komm, setz dich hier hin!“, sagt sie. Sie heißt Lena. Lena spricht langsam, und ich verstehe sie.",
+      "en": "Twenty-five students are sitting in the classroom. Everyone looks at me. “This is Emma,” says Ms Becker. “She comes from England.” I say, “Hi, my name is Emma, and I'm fourteen.” My face is red. A girl with long brown hair smiles. There's a free seat next to her. “Come on, sit down here!” she says. Her name is Lena. Lena speaks slowly, and I understand her.",
+      "explain_en": "“ansehen” (to look at) is a separable verb: the “an” jumps to the end, so “Alle sehen mich an”. Hair is plural in German: “die Haare”. “Setz dich hin!” is an order to one friend: “sit (yourself) down!” – German says you sit “yourself” down.",
+      "words": [
+        {
+          "de": "das Mädchen, die Mädchen",
+          "en": "girl"
+        },
+        {
+          "de": "ansehen",
+          "en": "to look at"
+        },
+        {
+          "de": "das Gesicht, die Gesichter",
+          "en": "face"
+        },
+        {
+          "de": "die Haare (plural)",
+          "en": "hair"
+        },
+        {
+          "de": "sich hinsetzen",
+          "en": "to sit down"
+        },
+        {
+          "de": "langsam",
+          "en": "slow, slowly"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Im Klassenzimmer sitzen fünfundzwanzig Schüler.",
+          "en": "Twenty-five students are sitting in the classroom."
+        },
+        {
+          "de": "Alle sehen mich an.",
+          "en": "Everyone looks at me."
+        },
+        {
+          "de": "„Das ist Emma“, sagt Frau Becker.",
+          "en": "“This is Emma,” says Ms Becker."
+        },
+        {
+          "de": "„Sie kommt aus England.“",
+          "en": "“She comes from England.”"
+        },
+        {
+          "de": "Ich sage: „Hallo, ich heiße Emma, und ich bin vierzehn.“",
+          "en": "I say, “Hi, my name is Emma, and I'm fourteen.”"
+        },
+        {
+          "de": "Mein Gesicht ist rot.",
+          "en": "My face is red."
+        },
+        {
+          "de": "Ein Mädchen mit langen, braunen Haaren lächelt.",
+          "en": "A girl with long brown hair smiles."
+        },
+        {
+          "de": "Neben ihr ist ein Platz frei.",
+          "en": "There's a free seat next to her."
+        },
+        {
+          "de": "„Komm, setz dich hier hin!“, sagt sie.",
+          "en": "“Come on, sit down here!” she says."
+        },
+        {
+          "de": "Sie heißt Lena.",
+          "en": "Her name is Lena."
+        },
+        {
+          "de": "Lena spricht langsam, und ich verstehe sie.",
+          "en": "Lena speaks slowly, and I understand her."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "de": "Um zehn Uhr ist Pause. Alle gehen auf den Schulhof. Lena gibt mir einen Apfel. „Ich habe zwei“, sagt sie. Dann kommt ein Junge zu uns. Er ist groß und hat blonde Haare. „Das ist Jonas“, sagt Lena. „Er wohnt in meiner Straße.“ Jonas spricht ein bisschen Englisch. „Hello, how are you?“, fragt er. Wir lachen. Jonas spielt jeden Tag Fußball. Die Pause ist kurz, aber schön.",
+      "en": "At ten o'clock it's break time. Everyone goes out into the schoolyard. Lena gives me an apple. “I've got two,” she says. Then a boy comes over to us. He's tall and has blond hair. “This is Jonas,” says Lena. “He lives on my street.” Jonas speaks a little English. “Hello, how are you?” he asks. We laugh. Jonas plays football every day. The break is short but nice.",
+      "explain_en": "“Um zehn Uhr” = at ten o'clock: use “um” for clock times. “Groß” means both big and tall. “Lena gibt mir einen Apfel”: “mir” is “(to) me”, the person who gets something.",
+      "words": [
+        {
+          "de": "die Pause, die Pausen",
+          "en": "break"
+        },
+        {
+          "de": "der Schulhof, die Schulhöfe",
+          "en": "schoolyard"
+        },
+        {
+          "de": "der Apfel, die Äpfel",
+          "en": "apple"
+        },
+        {
+          "de": "der Junge, die Jungen",
+          "en": "boy"
+        },
+        {
+          "de": "die Straße, die Straßen",
+          "en": "street, road"
+        },
+        {
+          "de": "spielen",
+          "en": "to play"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Um zehn Uhr ist Pause.",
+          "en": "At ten o'clock it's break time."
+        },
+        {
+          "de": "Alle gehen auf den Schulhof.",
+          "en": "Everyone goes out into the schoolyard."
+        },
+        {
+          "de": "Lena gibt mir einen Apfel.",
+          "en": "Lena gives me an apple."
+        },
+        {
+          "de": "„Ich habe zwei“, sagt sie.",
+          "en": "“I've got two,” she says."
+        },
+        {
+          "de": "Dann kommt ein Junge zu uns.",
+          "en": "Then a boy comes over to us."
+        },
+        {
+          "de": "Er ist groß und hat blonde Haare.",
+          "en": "He's tall and has blond hair."
+        },
+        {
+          "de": "„Das ist Jonas“, sagt Lena.",
+          "en": "“This is Jonas,” says Lena."
+        },
+        {
+          "de": "„Er wohnt in meiner Straße.“",
+          "en": "“He lives on my street.”"
+        },
+        {
+          "de": "Jonas spricht ein bisschen Englisch.",
+          "en": "Jonas speaks a little English."
+        },
+        {
+          "de": "„Hello, how are you?“, fragt er.",
+          "en": "“Hello, how are you?” he asks."
+        },
+        {
+          "de": "Wir lachen.",
+          "en": "We laugh."
+        },
+        {
+          "de": "Jonas spielt jeden Tag Fußball.",
+          "en": "Jonas plays football every day."
+        },
+        {
+          "de": "Die Pause ist kurz, aber schön.",
+          "en": "The break is short but nice."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "de": "Am Nachmittag bekomme ich meinen Stundenplan. Am Montag haben wir Mathe, Deutsch, Englisch, Biologie und Sport. Am Dienstag haben wir Geschichte, Kunst und Musik. Die Schule beginnt um acht Uhr. Sie ist um eins oder um halb zwei zu Ende. Englisch ist natürlich leicht für mich. Deutsch ist schwer. Mathe ist okay, denn Zahlen sind überall gleich. Mein Lieblingsfach ist Sport. „Und dein Lieblingsfach?“, frage ich Lena. „Kunst“, sagt sie. „Ich male gern.“",
+      "en": "In the afternoon I get my timetable. On Monday we have maths, German, English, biology and PE. On Tuesday we have history, art and music. School starts at eight o'clock. It finishes at one or half past one. English is easy for me, of course. German is hard. Maths is OK, because numbers are the same everywhere. My favourite subject is PE. “And your favourite subject?” I ask Lena. “Art,” she says. “I like painting.”",
+      "explain_en": "Big trap: “bekommen” means to get or receive, not “to become”. “Halb zwei” is half past ONE – halfway to two. Put “Lieblings-” in front of any noun to say favourite: Lieblingsfach, Lieblingsessen. Many German schools finish around lunchtime.",
+      "words": [
+        {
+          "de": "der Stundenplan, die Stundenpläne",
+          "en": "timetable"
+        },
+        {
+          "de": "bekommen",
+          "en": "to get, receive"
+        },
+        {
+          "de": "das Fach, die Fächer",
+          "en": "school subject"
+        },
+        {
+          "de": "halb zwei",
+          "en": "half past one (1:30)"
+        },
+        {
+          "de": "leicht / schwer",
+          "en": "easy / hard"
+        },
+        {
+          "de": "Lieblings-",
+          "en": "favourite (+ noun)"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Nachmittag bekomme ich meinen Stundenplan.",
+          "en": "In the afternoon I get my timetable."
+        },
+        {
+          "de": "Am Montag haben wir Mathe, Deutsch, Englisch, Biologie und Sport.",
+          "en": "On Monday we have maths, German, English, biology and PE."
+        },
+        {
+          "de": "Am Dienstag haben wir Geschichte, Kunst und Musik.",
+          "en": "On Tuesday we have history, art and music."
+        },
+        {
+          "de": "Die Schule beginnt um acht Uhr.",
+          "en": "School starts at eight o'clock."
+        },
+        {
+          "de": "Sie ist um eins oder um halb zwei zu Ende.",
+          "en": "It finishes at one or half past one."
+        },
+        {
+          "de": "Englisch ist natürlich leicht für mich.",
+          "en": "English is easy for me, of course."
+        },
+        {
+          "de": "Deutsch ist schwer.",
+          "en": "German is hard."
+        },
+        {
+          "de": "Mathe ist okay, denn Zahlen sind überall gleich.",
+          "en": "Maths is OK, because numbers are the same everywhere."
+        },
+        {
+          "de": "Mein Lieblingsfach ist Sport.",
+          "en": "My favourite subject is PE."
+        },
+        {
+          "de": "„Und dein Lieblingsfach?“, frage ich Lena.",
+          "en": "“And your favourite subject?” I ask Lena."
+        },
+        {
+          "de": "„Kunst“, sagt sie.",
+          "en": "“Art,” she says."
+        },
+        {
+          "de": "„Ich male gern.“",
+          "en": "“I like painting.”"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "de": "Am Mittwoch haben wir bis vier Uhr Schule. Wir essen in der Mensa. Es gibt Nudeln mit Tomatensoße oder Fisch mit Kartoffeln. Ich nehme Nudeln, und Lena nimmt Fisch. Jonas nimmt beides. „Ich habe immer Hunger“, sagt er. Das Essen ist gut, aber nicht so gut wie Mamas Essen. Zum Nachtisch gibt es Pudding. Der Pudding ist hier anders als in England. Aber er schmeckt gut.",
+      "en": "On Wednesday we have school until four o'clock. We eat in the canteen. There's pasta with tomato sauce or fish with potatoes. I have pasta, and Lena has fish. Jonas has both. “I'm always hungry,” he says. The food is good, but not as good as Mum's cooking. For dessert there's pudding. Pudding here is different from in England. But it tastes good.",
+      "explain_en": "The Mensa is the school (or university) canteen. German Pudding is a sweet, creamy dessert like custard or Angel Delight, not a cake. “nehmen” changes its vowel: ich nehme, but er/sie nimmt. “So gut wie” = as good as.",
+      "words": [
+        {
+          "de": "die Mensa, die Mensen",
+          "en": "school canteen"
+        },
+        {
+          "de": "die Nudeln (plural)",
+          "en": "pasta, noodles"
+        },
+        {
+          "de": "die Kartoffel, die Kartoffeln",
+          "en": "potato"
+        },
+        {
+          "de": "nehmen",
+          "en": "to take; to have (food)"
+        },
+        {
+          "de": "der Nachtisch",
+          "en": "dessert"
+        },
+        {
+          "de": "schmecken",
+          "en": "to taste"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Mittwoch haben wir bis vier Uhr Schule.",
+          "en": "On Wednesday we have school until four o'clock."
+        },
+        {
+          "de": "Wir essen in der Mensa.",
+          "en": "We eat in the canteen."
+        },
+        {
+          "de": "Es gibt Nudeln mit Tomatensoße oder Fisch mit Kartoffeln.",
+          "en": "There's pasta with tomato sauce or fish with potatoes."
+        },
+        {
+          "de": "Ich nehme Nudeln, und Lena nimmt Fisch.",
+          "en": "I have pasta, and Lena has fish."
+        },
+        {
+          "de": "Jonas nimmt beides.",
+          "en": "Jonas has both."
+        },
+        {
+          "de": "„Ich habe immer Hunger“, sagt er.",
+          "en": "“I'm always hungry,” he says."
+        },
+        {
+          "de": "Das Essen ist gut, aber nicht so gut wie Mamas Essen.",
+          "en": "The food is good, but not as good as Mum's cooking."
+        },
+        {
+          "de": "Zum Nachtisch gibt es Pudding.",
+          "en": "For dessert there's pudding."
+        },
+        {
+          "de": "Der Pudding ist hier anders als in England.",
+          "en": "Pudding here is different from in England."
+        },
+        {
+          "de": "Aber er schmeckt gut.",
+          "en": "But it tastes good."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "de": "Am Abend mache ich Hausaufgaben. Ich schreibe neue Wörter in mein Heft: der Tisch, die Tür, das Fenster. Warum gibt es drei Wörter für „the“? Dann kommt Tom in mein Zimmer. „Kannst du mir helfen?“, fragt er. „Ich verstehe Mathe nicht.“ „Später“, sage ich. Dann kommt Mama mit Tee. Sie hilft mir mit Deutsch, und ich helfe Tom mit Mathe. Um zehn Uhr bin ich sehr müde. Aber ich bin auch froh, denn Lena ist schon eine Freundin.",
+      "en": "In the evening I do homework. I write new words in my exercise book: der Tisch, die Tür, das Fenster. Why are there three words for “the”? Then Tom comes into my room. “Can you help me?” he asks. “I don't understand maths.” “Later,” I say. Then Mum comes in with tea. She helps me with German, and I help Tom with maths. At ten o'clock I'm very tired. But I'm happy too, because Lena is already a friend.",
+      "explain_en": "Every German noun is der, die or das, and there is often no logic – so always learn the article with the word. “Machen” is used for homework: Hausaufgaben machen. “Helfen” takes “mir”, not “mich”: Kannst du mir helfen?",
+      "words": [
+        {
+          "de": "die Hausaufgaben (plural)",
+          "en": "homework"
+        },
+        {
+          "de": "das Wort, die Wörter",
+          "en": "word"
+        },
+        {
+          "de": "das Heft, die Hefte",
+          "en": "exercise book"
+        },
+        {
+          "de": "helfen",
+          "en": "to help"
+        },
+        {
+          "de": "später",
+          "en": "later"
+        },
+        {
+          "de": "die Freundin, die Freundinnen",
+          "en": "(girl)friend"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Abend mache ich Hausaufgaben.",
+          "en": "In the evening I do homework."
+        },
+        {
+          "de": "Ich schreibe neue Wörter in mein Heft: der Tisch, die Tür, das Fenster.",
+          "en": "I write new words in my exercise book: der Tisch, die Tür, das Fenster."
+        },
+        {
+          "de": "Warum gibt es drei Wörter für „the“?",
+          "en": "Why are there three words for “the”?"
+        },
+        {
+          "de": "Dann kommt Tom in mein Zimmer.",
+          "en": "Then Tom comes into my room."
+        },
+        {
+          "de": "„Kannst du mir helfen?“, fragt er.",
+          "en": "“Can you help me?” he asks."
+        },
+        {
+          "de": "„Ich verstehe Mathe nicht.“",
+          "en": "“I don't understand maths.”"
+        },
+        {
+          "de": "„Später“, sage ich.",
+          "en": "“Later,” I say."
+        },
+        {
+          "de": "Dann kommt Mama mit Tee.",
+          "en": "Then Mum comes in with tea."
+        },
+        {
+          "de": "Sie hilft mir mit Deutsch, und ich helfe Tom mit Mathe.",
+          "en": "She helps me with German, and I help Tom with maths."
+        },
+        {
+          "de": "Um zehn Uhr bin ich sehr müde.",
+          "en": "At ten o'clock I'm very tired."
+        },
+        {
+          "de": "Aber ich bin auch froh, denn Lena ist schon eine Freundin.",
+          "en": "But I'm happy too, because Lena is already a friend."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "de": "Am Freitag gehe ich zu Lena. Lena wohnt in einem Haus mit einem kleinen Garten. Sie hat einen Hund, Bruno. Bruno ist sehr groß, aber sehr lieb. Lenas Mutter macht Pizza für uns. Wir essen in Lenas Zimmer und hören Musik. Dann zeigt Lena mir ihre Bilder. Sie malt sehr gut. „Kommst du am Sonntag mit zum Hafen?“, frage ich. „Meine Familie fährt dahin.“ „Ja, gern!“, sagt Lena.",
+      "en": "On Friday I go to Lena's. Lena lives in a house with a small garden. She has a dog, Bruno. Bruno is very big, but very sweet. Lena's mother makes pizza for us. We eat in Lena's room and listen to music. Then Lena shows me her pictures. She paints really well. “Do you want to come to the harbour with us on Sunday?” I ask. “My family is going there.” “Yes, I'd love to!” says Lena.",
+      "explain_en": "“Zu Lena gehen” means going to Lena's house. “Lenas Mutter” shows German's possessive -s, but with no apostrophe. “mitkommen” (to come along) is separable, so the “mit” moves: “Kommst du mit?” “Ja, gern!” is the easiest way to say yes to an invitation.",
+      "words": [
+        {
+          "de": "der Hund, die Hunde",
+          "en": "dog"
+        },
+        {
+          "de": "lieb",
+          "en": "sweet, kind"
+        },
+        {
+          "de": "zeigen",
+          "en": "to show"
+        },
+        {
+          "de": "das Bild, die Bilder",
+          "en": "picture"
+        },
+        {
+          "de": "mitkommen",
+          "en": "to come along"
+        },
+        {
+          "de": "der Hafen, die Häfen",
+          "en": "harbour, port"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Freitag gehe ich zu Lena.",
+          "en": "On Friday I go to Lena's."
+        },
+        {
+          "de": "Lena wohnt in einem Haus mit einem kleinen Garten.",
+          "en": "Lena lives in a house with a small garden."
+        },
+        {
+          "de": "Sie hat einen Hund, Bruno.",
+          "en": "She has a dog, Bruno."
+        },
+        {
+          "de": "Bruno ist sehr groß, aber sehr lieb.",
+          "en": "Bruno is very big, but very sweet."
+        },
+        {
+          "de": "Lenas Mutter macht Pizza für uns.",
+          "en": "Lena's mother makes pizza for us."
+        },
+        {
+          "de": "Wir essen in Lenas Zimmer und hören Musik.",
+          "en": "We eat in Lena's room and listen to music."
+        },
+        {
+          "de": "Dann zeigt Lena mir ihre Bilder.",
+          "en": "Then Lena shows me her pictures."
+        },
+        {
+          "de": "Sie malt sehr gut.",
+          "en": "She paints really well."
+        },
+        {
+          "de": "„Kommst du am Sonntag mit zum Hafen?“, frage ich.",
+          "en": "“Do you want to come to the harbour with us on Sunday?” I ask."
+        },
+        {
+          "de": "„Meine Familie fährt dahin.“",
+          "en": "“My family is going there.”"
+        },
+        {
+          "de": "„Ja, gern!“, sagt Lena.",
+          "en": "“Yes, I'd love to!” says Lena."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "de": "Am Sonntag scheint die Sonne. Wir fahren mit der U-Bahn zum Hafen: Mama, Papa, Tom, Lena und ich. Am Hafen sind viele Schiffe. Manche Schiffe sind so groß wie ein Haus. Wir machen eine Hafenrundfahrt mit einem kleinen Boot. Dann essen wir Fischbrötchen. Lena sagt: „Das ist typisch Hamburg!“ Papa findet das Fischbrötchen super. Tom findet es eklig und isst lieber ein Eis. Ich finde Hamburg heute sehr schön.",
+      "en": "On Sunday the sun is shining. We go to the harbour by underground: Mum, Dad, Tom, Lena and me. There are lots of ships at the harbour. Some ships are as big as a house. We take a harbour tour on a small boat. Then we eat fish rolls. Lena says, “That's typical Hamburg!” Dad thinks the fish roll is great. Tom thinks it's gross and would rather have an ice cream. I think Hamburg is really lovely today.",
+      "explain_en": "“Mit der U-Bahn fahren” = to go by underground: “fahren” is for any travel by vehicle, “mit” tells you which one. A Fischbrötchen (a bread roll with herring or other fish) really is the classic Hamburg snack. “lieber” means “rather”: Er isst lieber ein Eis = he'd rather eat an ice cream.",
+      "words": [
+        {
+          "de": "fahren",
+          "en": "to go (by vehicle), drive"
+        },
+        {
+          "de": "die U-Bahn",
+          "en": "underground, subway"
+        },
+        {
+          "de": "das Schiff, die Schiffe",
+          "en": "ship"
+        },
+        {
+          "de": "das Eis",
+          "en": "ice cream; ice"
+        },
+        {
+          "de": "lieber",
+          "en": "rather (preferring)"
+        },
+        {
+          "de": "eklig",
+          "en": "gross, disgusting"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Sonntag scheint die Sonne.",
+          "en": "On Sunday the sun is shining."
+        },
+        {
+          "de": "Wir fahren mit der U-Bahn zum Hafen: Mama, Papa, Tom, Lena und ich.",
+          "en": "We go to the harbour by underground: Mum, Dad, Tom, Lena and me."
+        },
+        {
+          "de": "Am Hafen sind viele Schiffe.",
+          "en": "There are lots of ships at the harbour."
+        },
+        {
+          "de": "Manche Schiffe sind so groß wie ein Haus.",
+          "en": "Some ships are as big as a house."
+        },
+        {
+          "de": "Wir machen eine Hafenrundfahrt mit einem kleinen Boot.",
+          "en": "We take a harbour tour on a small boat."
+        },
+        {
+          "de": "Dann essen wir Fischbrötchen.",
+          "en": "Then we eat fish rolls."
+        },
+        {
+          "de": "Lena sagt: „Das ist typisch Hamburg!“",
+          "en": "Lena says, “That's typical Hamburg!”"
+        },
+        {
+          "de": "Papa findet das Fischbrötchen super.",
+          "en": "Dad thinks the fish roll is great."
+        },
+        {
+          "de": "Tom findet es eklig und isst lieber ein Eis.",
+          "en": "Tom thinks it's gross and would rather have an ice cream."
+        },
+        {
+          "de": "Ich finde Hamburg heute sehr schön.",
+          "en": "I think Hamburg is really lovely today."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "de": "Am Montag in der Pause spielt Jonas mit anderen Jungen Fußball. Ich sehe zu. Plötzlich kommt der Ball zu mir. Ich schieße, und der Ball ist im Tor! Die Jungen sehen mich an. „Wow, du spielst gut!“, sagt Jonas. „Ich spiele seit sechs Jahren Fußball“, sage ich. „Mein Verein hat auch ein Mädchenteam“, sagt Jonas. „Das Training ist am Donnerstag.“ „Komm doch mit!“",
+      "en": "On Monday at break Jonas plays football with some other boys. I watch. Suddenly the ball comes to me. I shoot, and the ball is in the goal! The boys look at me. “Wow, you're good!” says Jonas. “I've been playing football for six years,” I say. “My club has a girls' team too,” says Jonas. “Training is on Thursday.” “Why don't you come along!”",
+      "explain_en": "“seit” + present tense is how German says “have been doing”: Ich spiele seit sechs Jahren = I have been playing for six years. “Das Tor” is the goal (and also a big gate). A Verein is a club – most German teenagers who play sport do it in a local club, not at school. “doch” in “Komm doch mit!” makes it a friendly push.",
+      "words": [
+        {
+          "de": "der Ball, die Bälle",
+          "en": "ball"
+        },
+        {
+          "de": "schießen",
+          "en": "to shoot"
+        },
+        {
+          "de": "das Tor, die Tore",
+          "en": "goal"
+        },
+        {
+          "de": "der Verein, die Vereine",
+          "en": "club"
+        },
+        {
+          "de": "seit",
+          "en": "since, for (time)"
+        },
+        {
+          "de": "plötzlich",
+          "en": "suddenly"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Montag in der Pause spielt Jonas mit anderen Jungen Fußball.",
+          "en": "On Monday at break Jonas plays football with some other boys."
+        },
+        {
+          "de": "Ich sehe zu.",
+          "en": "I watch."
+        },
+        {
+          "de": "Plötzlich kommt der Ball zu mir.",
+          "en": "Suddenly the ball comes to me."
+        },
+        {
+          "de": "Ich schieße, und der Ball ist im Tor!",
+          "en": "I shoot, and the ball is in the goal!"
+        },
+        {
+          "de": "Die Jungen sehen mich an.",
+          "en": "The boys look at me."
+        },
+        {
+          "de": "„Wow, du spielst gut!“, sagt Jonas.",
+          "en": "“Wow, you're good!” says Jonas."
+        },
+        {
+          "de": "„Ich spiele seit sechs Jahren Fußball“, sage ich.",
+          "en": "“I've been playing football for six years,” I say."
+        },
+        {
+          "de": "„Mein Verein hat auch ein Mädchenteam“, sagt Jonas.",
+          "en": "“My club has a girls' team too,” says Jonas."
+        },
+        {
+          "de": "„Das Training ist am Donnerstag.“",
+          "en": "“Training is on Thursday.”"
+        },
+        {
+          "de": "„Komm doch mit!“",
+          "en": "“Why don't you come along!”"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "de": "Am Donnerstag gehe ich zum Training. Der Platz ist groß und grün. Die Trainerin heißt Sandra. Im Team sind vierzehn Mädchen. Sie sind vierzehn, fünfzehn oder sechzehn Jahre alt. Wir laufen, wir spielen, und dann laufen wir noch mehr. Das ist anstrengend, aber es macht Spaß. Nach dem Training sagt Sandra: „Du bist schnell, Emma!“ In vier Wochen hat das Team ein wichtiges Spiel. Und ich darf mitspielen!",
+      "en": "On Thursday I go to training. The pitch is big and green. The coach is called Sandra. There are fourteen girls in the team. They are fourteen, fifteen or sixteen years old. We run, we play, and then we run some more. It's tiring, but it's fun. After training Sandra says, “You're fast, Emma!” In four weeks the team has an important match. And I'm allowed to play!",
+      "explain_en": "“Es macht Spaß” (it's fun) is one of the most useful phrases in German. “Der Platz” is a pitch, a square or a seat, depending on context. “dürfen” means to be allowed to: ich darf = I may, I'm allowed.",
+      "words": [
+        {
+          "de": "das Training",
+          "en": "training, practice"
+        },
+        {
+          "de": "die Trainerin, die Trainerinnen",
+          "en": "(female) coach"
+        },
+        {
+          "de": "laufen",
+          "en": "to run; to walk"
+        },
+        {
+          "de": "Spaß machen",
+          "en": "to be fun"
+        },
+        {
+          "de": "wichtig",
+          "en": "important"
+        },
+        {
+          "de": "das Spiel, die Spiele",
+          "en": "game, match"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Donnerstag gehe ich zum Training.",
+          "en": "On Thursday I go to training."
+        },
+        {
+          "de": "Der Platz ist groß und grün.",
+          "en": "The pitch is big and green."
+        },
+        {
+          "de": "Die Trainerin heißt Sandra.",
+          "en": "The coach is called Sandra."
+        },
+        {
+          "de": "Im Team sind vierzehn Mädchen.",
+          "en": "There are fourteen girls in the team."
+        },
+        {
+          "de": "Sie sind vierzehn, fünfzehn oder sechzehn Jahre alt.",
+          "en": "They are fourteen, fifteen or sixteen years old."
+        },
+        {
+          "de": "Wir laufen, wir spielen, und dann laufen wir noch mehr.",
+          "en": "We run, we play, and then we run some more."
+        },
+        {
+          "de": "Das ist anstrengend, aber es macht Spaß.",
+          "en": "It's tiring, but it's fun."
+        },
+        {
+          "de": "Nach dem Training sagt Sandra: „Du bist schnell, Emma!“",
+          "en": "After training Sandra says, “You're fast, Emma!”"
+        },
+        {
+          "de": "In vier Wochen hat das Team ein wichtiges Spiel.",
+          "en": "In four weeks the team has an important match."
+        },
+        {
+          "de": "Und ich darf mitspielen!",
+          "en": "And I'm allowed to play!"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "de": "In Hamburg regnet es oft. Es regnet am Montag, am Dienstag und am Mittwoch. Der Himmel ist grau, und der Wind ist kalt. „Ist das Wetter in England besser?“, fragt Lena. Ich lache. „Nein, in Manchester regnet es auch viel.“ Aber meine Jacke ist zu dünn, und ich habe keinen Regenschirm. Ich brauche eine warme Jacke. „Am Samstag gehen wir einkaufen“, sagt Lena. „Ich kenne ein gutes Geschäft.“",
+      "en": "It rains a lot in Hamburg. It rains on Monday, on Tuesday and on Wednesday. The sky is grey, and the wind is cold. “Is the weather better in England?” asks Lena. I laugh. “No, it rains a lot in Manchester too.” But my jacket is too thin, and I don't have an umbrella. I need a warm jacket. “On Saturday we'll go shopping,” says Lena. “I know a good shop.”",
+      "explain_en": "Weather verbs use “es”: es regnet (it's raining), es schneit (it's snowing). German often uses the present tense for the future when a time is given: “Am Samstag gehen wir einkaufen” = we'll go shopping on Saturday. “kennen” is to know a person or place; “wissen” is to know a fact.",
+      "words": [
+        {
+          "de": "regnen",
+          "en": "to rain"
+        },
+        {
+          "de": "das Wetter",
+          "en": "weather"
+        },
+        {
+          "de": "die Jacke, die Jacken",
+          "en": "jacket"
+        },
+        {
+          "de": "brauchen",
+          "en": "to need"
+        },
+        {
+          "de": "einkaufen gehen",
+          "en": "to go shopping"
+        },
+        {
+          "de": "das Geschäft, die Geschäfte",
+          "en": "shop"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "In Hamburg regnet es oft.",
+          "en": "It rains a lot in Hamburg."
+        },
+        {
+          "de": "Es regnet am Montag, am Dienstag und am Mittwoch.",
+          "en": "It rains on Monday, on Tuesday and on Wednesday."
+        },
+        {
+          "de": "Der Himmel ist grau, und der Wind ist kalt.",
+          "en": "The sky is grey, and the wind is cold."
+        },
+        {
+          "de": "„Ist das Wetter in England besser?“, fragt Lena.",
+          "en": "“Is the weather better in England?” asks Lena."
+        },
+        {
+          "de": "Ich lache.",
+          "en": "I laugh."
+        },
+        {
+          "de": "„Nein, in Manchester regnet es auch viel.“",
+          "en": "“No, it rains a lot in Manchester too.”"
+        },
+        {
+          "de": "Aber meine Jacke ist zu dünn, und ich habe keinen Regenschirm.",
+          "en": "But my jacket is too thin, and I don't have an umbrella."
+        },
+        {
+          "de": "Ich brauche eine warme Jacke.",
+          "en": "I need a warm jacket."
+        },
+        {
+          "de": "„Am Samstag gehen wir einkaufen“, sagt Lena.",
+          "en": "“On Saturday we'll go shopping,” says Lena."
+        },
+        {
+          "de": "„Ich kenne ein gutes Geschäft.“",
+          "en": "“I know a good shop.”"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "de": "Am Samstag fahren Lena und ich in die Stadt. Wir gehen in ein großes Geschäft für Kleidung. Ich probiere eine blaue Jacke an, aber sie ist zu groß. Dann probiere ich eine grüne Jacke an. Sie passt! „Wie viel kostet die Jacke?“, frage ich die Verkäuferin. „Neunundvierzig Euro“, sagt sie. Das ist teuer, aber die Jacke ist warm und schön. Ich kaufe sie. Lena kauft nur Socken mit Katzen. Dann trinken wir zusammen eine heiße Schokolade.",
+      "en": "On Saturday Lena and I go into town. We go into a big clothes shop. I try on a blue jacket, but it's too big. Then I try on a green jacket. It fits! “How much is the jacket?” I ask the shop assistant. “Forty-nine euros,” she says. That's expensive, but the jacket is warm and nice. I buy it. Lena only buys socks with cats on them. Then we have a hot chocolate together.",
+      "explain_en": "“anprobieren” (to try on) is separable: Ich probiere die Jacke an. “Die Jacke” is feminine, so it's “sie” – German says “she fits” where English says “it fits”. Numbers like 49 are said backwards: neun-und-vierzig, “nine and forty”.",
+      "words": [
+        {
+          "de": "die Stadt, die Städte",
+          "en": "town, city"
+        },
+        {
+          "de": "die Kleidung",
+          "en": "clothes"
+        },
+        {
+          "de": "anprobieren",
+          "en": "to try on"
+        },
+        {
+          "de": "passen",
+          "en": "to fit"
+        },
+        {
+          "de": "kosten",
+          "en": "to cost"
+        },
+        {
+          "de": "teuer",
+          "en": "expensive"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Samstag fahren Lena und ich in die Stadt.",
+          "en": "On Saturday Lena and I go into town."
+        },
+        {
+          "de": "Wir gehen in ein großes Geschäft für Kleidung.",
+          "en": "We go into a big clothes shop."
+        },
+        {
+          "de": "Ich probiere eine blaue Jacke an, aber sie ist zu groß.",
+          "en": "I try on a blue jacket, but it's too big."
+        },
+        {
+          "de": "Dann probiere ich eine grüne Jacke an.",
+          "en": "Then I try on a green jacket."
+        },
+        {
+          "de": "Sie passt!",
+          "en": "It fits!"
+        },
+        {
+          "de": "„Wie viel kostet die Jacke?“, frage ich die Verkäuferin.",
+          "en": "“How much is the jacket?” I ask the shop assistant."
+        },
+        {
+          "de": "„Neunundvierzig Euro“, sagt sie.",
+          "en": "“Forty-nine euros,” she says."
+        },
+        {
+          "de": "Das ist teuer, aber die Jacke ist warm und schön.",
+          "en": "That's expensive, but the jacket is warm and nice."
+        },
+        {
+          "de": "Ich kaufe sie.",
+          "en": "I buy it."
+        },
+        {
+          "de": "Lena kauft nur Socken mit Katzen.",
+          "en": "Lena only buys socks with cats on them."
+        },
+        {
+          "de": "Dann trinken wir zusammen eine heiße Schokolade.",
+          "en": "Then we have a hot chocolate together."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "de": "Mama gibt mir eine Liste und zwanzig Euro. „Kannst du mit Tom einkaufen gehen?“, fragt sie. Auf der Liste stehen Brot, Milch, Eier, Käse, Äpfel und Nudeln. Im Supermarkt findet Tom alles schnell. Er legt auch Schokolade in den Wagen. „Die steht nicht auf der Liste!“, sage ich. „Doch, jetzt schon“, sagt Tom und lacht. An der Kasse fragt die Frau: „Brauchen Sie eine Tüte?“ Ich verstehe alles und antworte auf Deutsch. Ich bin stolz.",
+      "en": "Mum gives me a list and twenty euros. “Can you go shopping with Tom?” she asks. On the list are bread, milk, eggs, cheese, apples and pasta. In the supermarket Tom finds everything quickly. He also puts chocolate in the trolley. “That's not on the list!” I say. “Yes it is, now,” says Tom, laughing. At the checkout the woman asks, “Do you need a bag?” I understand everything and answer in German. I'm proud.",
+      "explain_en": "Things written on a list or sign “stehen” (stand) there: Auf der Liste steht … “Doch” is a special yes that contradicts a negative: someone says it's NOT on the list, Tom answers “doch!” – oh yes it is. The cashier says “Sie”, the polite “you”, which strangers use even with teenagers.",
+      "words": [
+        {
+          "de": "die Liste, die Listen",
+          "en": "list"
+        },
+        {
+          "de": "das Ei, die Eier",
+          "en": "egg"
+        },
+        {
+          "de": "der Käse",
+          "en": "cheese"
+        },
+        {
+          "de": "die Kasse, die Kassen",
+          "en": "checkout, till"
+        },
+        {
+          "de": "doch",
+          "en": "yes (after a negative)"
+        },
+        {
+          "de": "stolz",
+          "en": "proud"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Mama gibt mir eine Liste und zwanzig Euro.",
+          "en": "Mum gives me a list and twenty euros."
+        },
+        {
+          "de": "„Kannst du mit Tom einkaufen gehen?“, fragt sie.",
+          "en": "“Can you go shopping with Tom?” she asks."
+        },
+        {
+          "de": "Auf der Liste stehen Brot, Milch, Eier, Käse, Äpfel und Nudeln.",
+          "en": "On the list are bread, milk, eggs, cheese, apples and pasta."
+        },
+        {
+          "de": "Im Supermarkt findet Tom alles schnell.",
+          "en": "In the supermarket Tom finds everything quickly."
+        },
+        {
+          "de": "Er legt auch Schokolade in den Wagen.",
+          "en": "He also puts chocolate in the trolley."
+        },
+        {
+          "de": "„Die steht nicht auf der Liste!“, sage ich.",
+          "en": "“That's not on the list!” I say."
+        },
+        {
+          "de": "„Doch, jetzt schon“, sagt Tom und lacht.",
+          "en": "“Yes it is, now,” says Tom, laughing."
+        },
+        {
+          "de": "An der Kasse fragt die Frau: „Brauchen Sie eine Tüte?“",
+          "en": "At the checkout the woman asks, “Do you need a bag?”"
+        },
+        {
+          "de": "Ich verstehe alles und antworte auf Deutsch.",
+          "en": "I understand everything and answer in German."
+        },
+        {
+          "de": "Ich bin stolz.",
+          "en": "I'm proud."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "de": "Am Sonntagabend telefoniere ich mit Oma. Oma wohnt in Manchester. „Wie geht es dir, mein Schatz?“, fragt sie. „Gut“, sage ich. Aber das ist nicht ganz richtig. Ich vermisse Oma, und ich vermisse mein altes Zimmer. Oma sieht das. „Du bist stark, Emma“, sagt sie. „Und bald ist dein Geburtstag!“ Das stimmt. Am Freitag werde ich fünfzehn.",
+      "en": "On Sunday evening I talk to Grandma on the phone. Grandma lives in Manchester. “How are you, darling?” she asks. “Fine,” I say. But that isn't quite true. I miss Grandma, and I miss my old room. Grandma can see that. “You're strong, Emma,” she says. “And it's your birthday soon!” That's right. On Friday I'm turning fifteen.",
+      "explain_en": "“Wie geht es dir?” is how you ask a friend or family member “how are you?”. “Schatz” (treasure) is a loving name like “darling”. “vermissen” = to miss someone. “werden” means to become: “Ich werde fünfzehn” = I'm turning fifteen.",
+      "words": [
+        {
+          "de": "die Oma, die Omas",
+          "en": "grandma"
+        },
+        {
+          "de": "Wie geht es dir?",
+          "en": "How are you?"
+        },
+        {
+          "de": "vermissen",
+          "en": "to miss (someone)"
+        },
+        {
+          "de": "der Geburtstag, die Geburtstage",
+          "en": "birthday"
+        },
+        {
+          "de": "bald",
+          "en": "soon"
+        },
+        {
+          "de": "werden",
+          "en": "to become, turn"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Sonntagabend telefoniere ich mit Oma.",
+          "en": "On Sunday evening I talk to Grandma on the phone."
+        },
+        {
+          "de": "Oma wohnt in Manchester.",
+          "en": "Grandma lives in Manchester."
+        },
+        {
+          "de": "„Wie geht es dir, mein Schatz?“, fragt sie.",
+          "en": "“How are you, darling?” she asks."
+        },
+        {
+          "de": "„Gut“, sage ich.",
+          "en": "“Fine,” I say."
+        },
+        {
+          "de": "Aber das ist nicht ganz richtig.",
+          "en": "But that isn't quite true."
+        },
+        {
+          "de": "Ich vermisse Oma, und ich vermisse mein altes Zimmer.",
+          "en": "I miss Grandma, and I miss my old room."
+        },
+        {
+          "de": "Oma sieht das.",
+          "en": "Grandma can see that."
+        },
+        {
+          "de": "„Du bist stark, Emma“, sagt sie.",
+          "en": "“You're strong, Emma,” she says."
+        },
+        {
+          "de": "„Und bald ist dein Geburtstag!“",
+          "en": "“And it's your birthday soon!”"
+        },
+        {
+          "de": "Das stimmt.",
+          "en": "That's right."
+        },
+        {
+          "de": "Am Freitag werde ich fünfzehn.",
+          "en": "On Friday I'm turning fifteen."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "de": "Diese Woche sind Lena und Jonas komisch. In der Pause sprechen sie leise. Dann komme ich, und sie sagen nichts mehr. „Was ist los?“, frage ich. „Nichts!“, sagt Lena schnell. Nach der Schule hat Lena keine Zeit. „Ich muss nach Hause“, sagt sie. Ich gehe allein nach Hause. Bin ich nicht mehr ihre Freundin? Mein Geburtstag ist am Freitag, aber niemand in Hamburg weiß das.",
+      "en": "This week Lena and Jonas are acting strange. At break they talk quietly. Then I come over, and they stop talking. “What's going on?” I ask. “Nothing!” says Lena quickly. After school Lena doesn't have time. “I have to go home,” she says. I walk home alone. Am I not her friend any more? My birthday is on Friday, but nobody in Hamburg knows.",
+      "explain_en": "“Was ist los?” = What's wrong? / What's going on? “nicht mehr” means “no longer, not any more”. “nach Hause” is for going home; “zu Hause” means being at home. After “muss” the verb “gehen” is often left out: Ich muss nach Hause.",
+      "words": [
+        {
+          "de": "komisch",
+          "en": "strange, funny"
+        },
+        {
+          "de": "leise",
+          "en": "quiet, quietly"
+        },
+        {
+          "de": "Was ist los?",
+          "en": "What's going on?"
+        },
+        {
+          "de": "nach Hause",
+          "en": "(to) home"
+        },
+        {
+          "de": "allein",
+          "en": "alone"
+        },
+        {
+          "de": "niemand",
+          "en": "nobody"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Diese Woche sind Lena und Jonas komisch.",
+          "en": "This week Lena and Jonas are acting strange."
+        },
+        {
+          "de": "In der Pause sprechen sie leise.",
+          "en": "At break they talk quietly."
+        },
+        {
+          "de": "Dann komme ich, und sie sagen nichts mehr.",
+          "en": "Then I come over, and they stop talking."
+        },
+        {
+          "de": "„Was ist los?“, frage ich.",
+          "en": "“What's going on?” I ask."
+        },
+        {
+          "de": "„Nichts!“, sagt Lena schnell.",
+          "en": "“Nothing!” says Lena quickly."
+        },
+        {
+          "de": "Nach der Schule hat Lena keine Zeit.",
+          "en": "After school Lena doesn't have time."
+        },
+        {
+          "de": "„Ich muss nach Hause“, sagt sie.",
+          "en": "“I have to go home,” she says."
+        },
+        {
+          "de": "Ich gehe allein nach Hause.",
+          "en": "I walk home alone."
+        },
+        {
+          "de": "Bin ich nicht mehr ihre Freundin?",
+          "en": "Am I not her friend any more?"
+        },
+        {
+          "de": "Mein Geburtstag ist am Freitag, aber niemand in Hamburg weiß das.",
+          "en": "My birthday is on Friday, but nobody in Hamburg knows."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "de": "Heute ist Freitag, und ich bin fünfzehn! Am Morgen singt meine Familie „Happy Birthday“. Auf dem Tisch steht ein Kuchen mit Kerzen. Von Mama und Papa bekomme ich neue Fußballschuhe. Tom schenkt mir ein Bild von Mimi. Er malt nicht gut, aber ich finde es süß. Dann gehe ich in die Schule. Lena sagt: „Guten Morgen.“ Nur das. Kein „Alles Gute zum Geburtstag“. Der Tag ist lang und grau.",
+      "en": "Today is Friday, and I'm fifteen! In the morning my family sings “Happy Birthday”. There's a cake with candles on the table. From Mum and Dad I get new football boots. Tom gives me a picture of Mimi. He can't draw well, but I think it's sweet. Then I go to school. Lena says, “Good morning.” Just that. No “Happy birthday”. The day is long and grey.",
+      "explain_en": "“schenken” means to give as a present (das Geschenk = the present). “Alles Gute zum Geburtstag!” (all the best for your birthday) is how Germans say happy birthday. Watch out: in Germany it's considered bad luck to wish someone happy birthday before the day.",
+      "words": [
+        {
+          "de": "der Kuchen, die Kuchen",
+          "en": "cake"
+        },
+        {
+          "de": "die Kerze, die Kerzen",
+          "en": "candle"
+        },
+        {
+          "de": "schenken",
+          "en": "to give (as a present)"
+        },
+        {
+          "de": "der Schuh, die Schuhe",
+          "en": "shoe"
+        },
+        {
+          "de": "Alles Gute zum Geburtstag!",
+          "en": "Happy birthday!"
+        },
+        {
+          "de": "süß",
+          "en": "sweet, cute"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Heute ist Freitag, und ich bin fünfzehn!",
+          "en": "Today is Friday, and I'm fifteen!"
+        },
+        {
+          "de": "Am Morgen singt meine Familie „Happy Birthday“.",
+          "en": "In the morning my family sings “Happy Birthday”."
+        },
+        {
+          "de": "Auf dem Tisch steht ein Kuchen mit Kerzen.",
+          "en": "There's a cake with candles on the table."
+        },
+        {
+          "de": "Von Mama und Papa bekomme ich neue Fußballschuhe.",
+          "en": "From Mum and Dad I get new football boots."
+        },
+        {
+          "de": "Tom schenkt mir ein Bild von Mimi.",
+          "en": "Tom gives me a picture of Mimi."
+        },
+        {
+          "de": "Er malt nicht gut, aber ich finde es süß.",
+          "en": "He can't draw well, but I think it's sweet."
+        },
+        {
+          "de": "Dann gehe ich in die Schule.",
+          "en": "Then I go to school."
+        },
+        {
+          "de": "Lena sagt: „Guten Morgen.“",
+          "en": "Lena says, “Good morning.”"
+        },
+        {
+          "de": "Nur das.",
+          "en": "Just that."
+        },
+        {
+          "de": "Kein „Alles Gute zum Geburtstag“.",
+          "en": "No “Happy birthday”."
+        },
+        {
+          "de": "Der Tag ist lang und grau.",
+          "en": "The day is long and grey."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "de": "Am Nachmittag gehe ich zum Training. Ich bin traurig und habe keine Lust. Aber auf dem Platz ist heute kein Training. Da stehen alle: das Team, Sandra, Jonas und Lena! „Überraschung!“, rufen sie. Lena hat einen großen Kuchen. Auf dem Kuchen steht: „Alles Gute, Emma!“ „Deine Mama weiß alles“, sagt Lena. „Das ist unser Geheimnis.“ Jetzt verstehe ich alles. Ich weine ein bisschen, aber ich bin sehr glücklich.",
+      "en": "In the afternoon I go to training. I'm sad and don't feel like it. But there's no training on the pitch today. Everyone is standing there: the team, Sandra, Jonas and Lena! “Surprise!” they shout. Lena has a big cake. On the cake it says, “All the best, Emma!” “Your mum knows all about it,” says Lena. “It's our secret.” Now I understand everything. I cry a little, but I'm very happy.",
+      "explain_en": "“Ich habe keine Lust” = I don't feel like it – very common with teenagers! “rufen” means to shout or call out. Words on a cake, sign or list “stehen” there: Auf dem Kuchen steht …",
+      "words": [
+        {
+          "de": "traurig",
+          "en": "sad"
+        },
+        {
+          "de": "Lust haben",
+          "en": "to feel like (doing something)"
+        },
+        {
+          "de": "die Überraschung, die Überraschungen",
+          "en": "surprise"
+        },
+        {
+          "de": "rufen",
+          "en": "to shout, call"
+        },
+        {
+          "de": "das Geheimnis, die Geheimnisse",
+          "en": "secret"
+        },
+        {
+          "de": "glücklich",
+          "en": "happy"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Nachmittag gehe ich zum Training.",
+          "en": "In the afternoon I go to training."
+        },
+        {
+          "de": "Ich bin traurig und habe keine Lust.",
+          "en": "I'm sad and don't feel like it."
+        },
+        {
+          "de": "Aber auf dem Platz ist heute kein Training.",
+          "en": "But there's no training on the pitch today."
+        },
+        {
+          "de": "Da stehen alle: das Team, Sandra, Jonas und Lena!",
+          "en": "Everyone is standing there: the team, Sandra, Jonas and Lena!"
+        },
+        {
+          "de": "„Überraschung!“, rufen sie.",
+          "en": "“Surprise!” they shout."
+        },
+        {
+          "de": "Lena hat einen großen Kuchen.",
+          "en": "Lena has a big cake."
+        },
+        {
+          "de": "Auf dem Kuchen steht: „Alles Gute, Emma!“",
+          "en": "On the cake it says, “All the best, Emma!”"
+        },
+        {
+          "de": "„Deine Mama weiß alles“, sagt Lena.",
+          "en": "“Your mum knows all about it,” says Lena."
+        },
+        {
+          "de": "„Das ist unser Geheimnis.“",
+          "en": "“It's our secret.”"
+        },
+        {
+          "de": "Jetzt verstehe ich alles.",
+          "en": "Now I understand everything."
+        },
+        {
+          "de": "Ich weine ein bisschen, aber ich bin sehr glücklich.",
+          "en": "I cry a little, but I'm very happy."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "de": "Im Oktober fährt die Klasse 8b auf Klassenfahrt. Wir fahren für drei Tage an die Ostsee. Frau Becker gibt uns eine Liste. Wir brauchen warme Kleidung, eine Regenjacke und gute Schuhe. Handys dürfen wir mitnehmen, aber nur am Abend. Am Abend packe ich meinen Koffer. Mimi sitzt im Koffer. „Nein, Mimi, du kommst nicht mit!“, sage ich. Ich bin ein bisschen nervös. Aber Lena und Jonas sind ja auch da.",
+      "en": "In October class 8b is going on a class trip. We're going to the Baltic Sea for three days. Ms Becker gives us a list. We need warm clothes, a rain jacket and good shoes. We're allowed to bring phones, but only in the evening. In the evening I pack my suitcase. Mimi sits in the suitcase. “No, Mimi, you're not coming!” I say. I'm a bit nervous. But Lena and Jonas will be there too, after all.",
+      "explain_en": "A Klassenfahrt is a school trip of several days that almost every German class does, usually staying in a youth hostel. The Ostsee (Baltic Sea) is Germany's northern coast, not far from Hamburg. “das Handy” is German for mobile phone – it looks English, but English speakers don't use it. “ja” in the middle of a sentence means “after all, as you know”.",
+      "words": [
+        {
+          "de": "die Klassenfahrt, die Klassenfahrten",
+          "en": "class trip"
+        },
+        {
+          "de": "die Ostsee",
+          "en": "Baltic Sea"
+        },
+        {
+          "de": "das Handy, die Handys",
+          "en": "mobile phone"
+        },
+        {
+          "de": "mitnehmen",
+          "en": "to take along"
+        },
+        {
+          "de": "der Koffer, die Koffer",
+          "en": "suitcase"
+        },
+        {
+          "de": "packen",
+          "en": "to pack"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Im Oktober fährt die Klasse 8b auf Klassenfahrt.",
+          "en": "In October class 8b is going on a class trip."
+        },
+        {
+          "de": "Wir fahren für drei Tage an die Ostsee.",
+          "en": "We're going to the Baltic Sea for three days."
+        },
+        {
+          "de": "Frau Becker gibt uns eine Liste.",
+          "en": "Ms Becker gives us a list."
+        },
+        {
+          "de": "Wir brauchen warme Kleidung, eine Regenjacke und gute Schuhe.",
+          "en": "We need warm clothes, a rain jacket and good shoes."
+        },
+        {
+          "de": "Handys dürfen wir mitnehmen, aber nur am Abend.",
+          "en": "We're allowed to bring phones, but only in the evening."
+        },
+        {
+          "de": "Am Abend packe ich meinen Koffer.",
+          "en": "In the evening I pack my suitcase."
+        },
+        {
+          "de": "Mimi sitzt im Koffer.",
+          "en": "Mimi sits in the suitcase."
+        },
+        {
+          "de": "„Nein, Mimi, du kommst nicht mit!“, sage ich.",
+          "en": "“No, Mimi, you're not coming!” I say."
+        },
+        {
+          "de": "Ich bin ein bisschen nervös.",
+          "en": "I'm a bit nervous."
+        },
+        {
+          "de": "Aber Lena und Jonas sind ja auch da.",
+          "en": "But Lena and Jonas will be there too, after all."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "de": "Um acht Uhr sind alle am Bahnhof. Der Zug fährt zwei Stunden. Im Zug spielen wir Karten und essen Chips. Jonas schläft. Die Jugendherberge ist direkt am Strand. Ich schlafe in einem Zimmer mit Lena, Aylin und Sophie. Das Zimmer ist klein, und die Betten sind hart. Aber wir haben ein Fenster und sehen das Meer! Am Abend reden wir bis Mitternacht.",
+      "en": "At eight o'clock everyone is at the station. The train journey takes two hours. On the train we play cards and eat crisps. Jonas sleeps. The youth hostel is right on the beach. I'm sleeping in a room with Lena, Aylin and Sophie. The room is small, and the beds are hard. But we have a window and can see the sea! In the evening we talk until midnight.",
+      "explain_en": "A Jugendherberge (youth hostel) is where school trips usually stay. “Chips” in German are crisps; chips (fries) are “Pommes”. “das Meer” is the sea; “der See” is a lake. “reden” and “sprechen” both mean to talk.",
+      "words": [
+        {
+          "de": "der Bahnhof, die Bahnhöfe",
+          "en": "station"
+        },
+        {
+          "de": "der Zug, die Züge",
+          "en": "train"
+        },
+        {
+          "de": "die Stunde, die Stunden",
+          "en": "hour; lesson"
+        },
+        {
+          "de": "die Jugendherberge, die Jugendherbergen",
+          "en": "youth hostel"
+        },
+        {
+          "de": "der Strand, die Strände",
+          "en": "beach"
+        },
+        {
+          "de": "das Meer, die Meere",
+          "en": "sea"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Um acht Uhr sind alle am Bahnhof.",
+          "en": "At eight o'clock everyone is at the station."
+        },
+        {
+          "de": "Der Zug fährt zwei Stunden.",
+          "en": "The train journey takes two hours."
+        },
+        {
+          "de": "Im Zug spielen wir Karten und essen Chips.",
+          "en": "On the train we play cards and eat crisps."
+        },
+        {
+          "de": "Jonas schläft.",
+          "en": "Jonas sleeps."
+        },
+        {
+          "de": "Die Jugendherberge ist direkt am Strand.",
+          "en": "The youth hostel is right on the beach."
+        },
+        {
+          "de": "Ich schlafe in einem Zimmer mit Lena, Aylin und Sophie.",
+          "en": "I'm sleeping in a room with Lena, Aylin and Sophie."
+        },
+        {
+          "de": "Das Zimmer ist klein, und die Betten sind hart.",
+          "en": "The room is small, and the beds are hard."
+        },
+        {
+          "de": "Aber wir haben ein Fenster und sehen das Meer!",
+          "en": "But we have a window and can see the sea!"
+        },
+        {
+          "de": "Am Abend reden wir bis Mitternacht.",
+          "en": "In the evening we talk until midnight."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "de": "Am nächsten Tag gehen wir an den Strand. Es ist sonnig, aber sehr windig und kalt. Das Wasser hat nur zwölf Grad. Aber Jonas geht ins Wasser. „Kalt, kalt, kalt!“, ruft er und läuft schnell zurück. Alle lachen. Dann spielen wir Volleyball im Sand. Ich mache viele Fotos mit meinem Handy: das Meer, den Strand und meine Freunde. Die Fotos sind für Oma.",
+      "en": "The next day we go to the beach. It's sunny, but very windy and cold. The water is only twelve degrees. But Jonas goes into the water. “Cold, cold, cold!” he shouts and runs back quickly. Everyone laughs. Then we play volleyball in the sand. I take lots of photos with my phone: the sea, the beach and my friends. The photos are for Grandma.",
+      "explain_en": "Many weather words end in -ig: sonnig, windig, neblig (foggy). Germans use Celsius, so twelve degrees is really cold for swimming. You “make” photos in German: Fotos machen. “ins” is short for “in das”.",
+      "words": [
+        {
+          "de": "am nächsten Tag",
+          "en": "the next day"
+        },
+        {
+          "de": "sonnig / windig",
+          "en": "sunny / windy"
+        },
+        {
+          "de": "das Wasser",
+          "en": "water"
+        },
+        {
+          "de": "zurück",
+          "en": "back"
+        },
+        {
+          "de": "das Foto, die Fotos",
+          "en": "photo"
+        },
+        {
+          "de": "der Freund, die Freunde",
+          "en": "friend"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am nächsten Tag gehen wir an den Strand.",
+          "en": "The next day we go to the beach."
+        },
+        {
+          "de": "Es ist sonnig, aber sehr windig und kalt.",
+          "en": "It's sunny, but very windy and cold."
+        },
+        {
+          "de": "Das Wasser hat nur zwölf Grad.",
+          "en": "The water is only twelve degrees."
+        },
+        {
+          "de": "Aber Jonas geht ins Wasser.",
+          "en": "But Jonas goes into the water."
+        },
+        {
+          "de": "„Kalt, kalt, kalt!“, ruft er und läuft schnell zurück.",
+          "en": "“Cold, cold, cold!” he shouts and runs back quickly."
+        },
+        {
+          "de": "Alle lachen.",
+          "en": "Everyone laughs."
+        },
+        {
+          "de": "Dann spielen wir Volleyball im Sand.",
+          "en": "Then we play volleyball in the sand."
+        },
+        {
+          "de": "Ich mache viele Fotos mit meinem Handy: das Meer, den Strand und meine Freunde.",
+          "en": "I take lots of photos with my phone: the sea, the beach and my friends."
+        },
+        {
+          "de": "Die Fotos sind für Oma.",
+          "en": "The photos are for Grandma."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "de": "Am Abend will ich Oma die Fotos schicken. Aber wo ist mein Handy? Es ist nicht in meiner Tasche. Es ist nicht im Zimmer. Ich suche überall, aber mein Handy ist weg! Und alle Fotos sind auch weg. Lena, Aylin und Sophie helfen mir. Wir suchen unter den Betten und im Speisesaal. Nichts. „Vielleicht liegt es am Strand“, sagt Sophie. Aber draußen ist es schon dunkel.",
+      "en": "In the evening I want to send Grandma the photos. But where is my phone? It's not in my bag. It's not in the room. I look everywhere, but my phone is gone! And all the photos are gone too. Lena, Aylin and Sophie help me. We look under the beds and in the dining hall. Nothing. “Maybe it's on the beach,” says Sophie. But outside it's already dark.",
+      "explain_en": "“wollen” = to want: ich will (careful – NOT “I will”). “weg” means gone or away. Things that lie flat “liegen” somewhere: Das Handy liegt am Strand. “suchen” means to look for; you don't need “for”.",
+      "words": [
+        {
+          "de": "wollen",
+          "en": "to want"
+        },
+        {
+          "de": "schicken",
+          "en": "to send"
+        },
+        {
+          "de": "suchen",
+          "en": "to look for, search"
+        },
+        {
+          "de": "weg",
+          "en": "gone, away"
+        },
+        {
+          "de": "vielleicht",
+          "en": "maybe, perhaps"
+        },
+        {
+          "de": "dunkel",
+          "en": "dark"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Abend will ich Oma die Fotos schicken.",
+          "en": "In the evening I want to send Grandma the photos."
+        },
+        {
+          "de": "Aber wo ist mein Handy?",
+          "en": "But where is my phone?"
+        },
+        {
+          "de": "Es ist nicht in meiner Tasche.",
+          "en": "It's not in my bag."
+        },
+        {
+          "de": "Es ist nicht im Zimmer.",
+          "en": "It's not in the room."
+        },
+        {
+          "de": "Ich suche überall, aber mein Handy ist weg!",
+          "en": "I look everywhere, but my phone is gone!"
+        },
+        {
+          "de": "Und alle Fotos sind auch weg.",
+          "en": "And all the photos are gone too."
+        },
+        {
+          "de": "Lena, Aylin und Sophie helfen mir.",
+          "en": "Lena, Aylin and Sophie help me."
+        },
+        {
+          "de": "Wir suchen unter den Betten und im Speisesaal.",
+          "en": "We look under the beds and in the dining hall."
+        },
+        {
+          "de": "Nichts.",
+          "en": "Nothing."
+        },
+        {
+          "de": "„Vielleicht liegt es am Strand“, sagt Sophie.",
+          "en": "“Maybe it's on the beach,” says Sophie."
+        },
+        {
+          "de": "Aber draußen ist es schon dunkel.",
+          "en": "But outside it's already dark."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "de": "Wir gehen zu Frau Becker. Sie nimmt eine Taschenlampe und kommt mit. Jonas kommt auch. Am Strand ist es dunkel und kalt. Wir suchen beim Volleyballnetz. Plötzlich ruft Jonas: „Hier, ich habe es!“ Das Handy liegt im Sand. Es ist ein bisschen nass, aber es geht noch. Ich umarme Jonas. Er wird rot. „Kein Problem“, sagt er.",
+      "en": "We go to Ms Becker. She takes a torch and comes with us. Jonas comes too. On the beach it's dark and cold. We search by the volleyball net. Suddenly Jonas shouts, “Here, I've got it!” The phone is lying in the sand. It's a bit wet, but it still works. I hug Jonas. He goes red. “No problem,” he says.",
+      "explain_en": "A Taschenlampe is a torch (a “pocket lamp”). “Es geht noch” = it still works; “gehen” is used for machines that work. “rot werden” = to go red, to blush. Why does Jonas blush? You decide!",
+      "words": [
+        {
+          "de": "die Taschenlampe, die Taschenlampen",
+          "en": "torch, flashlight"
+        },
+        {
+          "de": "nass",
+          "en": "wet"
+        },
+        {
+          "de": "es geht",
+          "en": "it works; it's OK"
+        },
+        {
+          "de": "umarmen",
+          "en": "to hug"
+        },
+        {
+          "de": "rot werden",
+          "en": "to blush, go red"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Wir gehen zu Frau Becker.",
+          "en": "We go to Ms Becker."
+        },
+        {
+          "de": "Sie nimmt eine Taschenlampe und kommt mit.",
+          "en": "She takes a torch and comes with us."
+        },
+        {
+          "de": "Jonas kommt auch.",
+          "en": "Jonas comes too."
+        },
+        {
+          "de": "Am Strand ist es dunkel und kalt.",
+          "en": "On the beach it's dark and cold."
+        },
+        {
+          "de": "Wir suchen beim Volleyballnetz.",
+          "en": "We search by the volleyball net."
+        },
+        {
+          "de": "Plötzlich ruft Jonas: „Hier, ich habe es!“",
+          "en": "Suddenly Jonas shouts, “Here, I've got it!”"
+        },
+        {
+          "de": "Das Handy liegt im Sand.",
+          "en": "The phone is lying in the sand."
+        },
+        {
+          "de": "Es ist ein bisschen nass, aber es geht noch.",
+          "en": "It's a bit wet, but it still works."
+        },
+        {
+          "de": "Ich umarme Jonas.",
+          "en": "I hug Jonas."
+        },
+        {
+          "de": "Er wird rot.",
+          "en": "He goes red."
+        },
+        {
+          "de": "„Kein Problem“, sagt er.",
+          "en": "“No problem,” he says."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "de": "Am Freitag sind wir wieder in Hamburg. Mama und Papa warten am Bahnhof. „Wie war die Klassenfahrt?“, fragt Papa. „Super!“, sage ich, und ich erzähle alles. Wir haben am Strand Volleyball gespielt. Ich habe viele Fotos gemacht. Jonas ist ins Meer gegangen. Und ich habe mein Handy verloren, aber Jonas hat es gefunden! Tom fragt: „Und mein Geschenk?“ Ich gebe ihm eine Muschel vom Strand.",
+      "en": "On Friday we're back in Hamburg. Mum and Dad are waiting at the station. “How was the class trip?” asks Dad. “Great!” I say, and I tell them everything. We played volleyball on the beach. I took lots of photos. Jonas went into the sea. And I lost my phone, but Jonas found it! Tom asks, “And my present?” I give him a shell from the beach.",
+      "explain_en": "This is the Perfekt, the tense Germans use to talk about the past: haben + a past participle at the end (gespielt, gemacht, verloren, gefunden). Verbs of movement like gehen use “sein” instead: Jonas ist gegangen. “war” (was) is the past of “sein”.",
+      "words": [
+        {
+          "de": "warten",
+          "en": "to wait"
+        },
+        {
+          "de": "erzählen",
+          "en": "to tell (a story)"
+        },
+        {
+          "de": "verlieren",
+          "en": "to lose"
+        },
+        {
+          "de": "finden",
+          "en": "to find"
+        },
+        {
+          "de": "das Geschenk, die Geschenke",
+          "en": "present, gift"
+        },
+        {
+          "de": "die Muschel, die Muscheln",
+          "en": "shell"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Freitag sind wir wieder in Hamburg.",
+          "en": "On Friday we're back in Hamburg."
+        },
+        {
+          "de": "Mama und Papa warten am Bahnhof.",
+          "en": "Mum and Dad are waiting at the station."
+        },
+        {
+          "de": "„Wie war die Klassenfahrt?“, fragt Papa.",
+          "en": "“How was the class trip?” asks Dad."
+        },
+        {
+          "de": "„Super!“, sage ich, und ich erzähle alles.",
+          "en": "“Great!” I say, and I tell them everything."
+        },
+        {
+          "de": "Wir haben am Strand Volleyball gespielt.",
+          "en": "We played volleyball on the beach."
+        },
+        {
+          "de": "Ich habe viele Fotos gemacht.",
+          "en": "I took lots of photos."
+        },
+        {
+          "de": "Jonas ist ins Meer gegangen.",
+          "en": "Jonas went into the sea."
+        },
+        {
+          "de": "Und ich habe mein Handy verloren, aber Jonas hat es gefunden!",
+          "en": "And I lost my phone, but Jonas found it!"
+        },
+        {
+          "de": "Tom fragt: „Und mein Geschenk?“",
+          "en": "Tom asks, “And my present?”"
+        },
+        {
+          "de": "Ich gebe ihm eine Muschel vom Strand.",
+          "en": "I give him a shell from the beach."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "de": "Heute ist Samstag, und heute ist das große Spiel. Wir spielen gegen ein starkes Team aus Kiel. Natürlich regnet es. Meine Familie steht am Platz, und Lena und Jonas sind auch da. Lena hat ein Schild: „Go, Emma!“ Das Spiel ist schwer. Die Mädchen aus Kiel sind groß und schnell. Nach der ersten Halbzeit steht es null zu eins. Sandra sagt: „Ihr könnt das!“",
+      "en": "Today is Saturday, and today is the big match. We're playing against a strong team from Kiel. Of course it's raining. My family is standing by the pitch, and Lena and Jonas are there too. Lena has a sign: “Go, Emma!” The match is hard. The girls from Kiel are tall and fast. After the first half it's nil–one. Sandra says, “You can do it!”",
+      "explain_en": "Kiel is a city on the Baltic coast, north of Hamburg. Scores are said with “zu”: null zu eins = 0–1, and “es steht …” means “the score is …”. “ihr” is “you” for a group of friends: Ihr könnt das!",
+      "words": [
+        {
+          "de": "gegen",
+          "en": "against"
+        },
+        {
+          "de": "stark",
+          "en": "strong"
+        },
+        {
+          "de": "das Schild, die Schilder",
+          "en": "sign"
+        },
+        {
+          "de": "die Halbzeit, die Halbzeiten",
+          "en": "half (of a match)"
+        },
+        {
+          "de": "können",
+          "en": "can, to be able to"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Heute ist Samstag, und heute ist das große Spiel.",
+          "en": "Today is Saturday, and today is the big match."
+        },
+        {
+          "de": "Wir spielen gegen ein starkes Team aus Kiel.",
+          "en": "We're playing against a strong team from Kiel."
+        },
+        {
+          "de": "Natürlich regnet es.",
+          "en": "Of course it's raining."
+        },
+        {
+          "de": "Meine Familie steht am Platz, und Lena und Jonas sind auch da.",
+          "en": "My family is standing by the pitch, and Lena and Jonas are there too."
+        },
+        {
+          "de": "Lena hat ein Schild: „Go, Emma!“",
+          "en": "Lena has a sign: “Go, Emma!”"
+        },
+        {
+          "de": "Das Spiel ist schwer.",
+          "en": "The match is hard."
+        },
+        {
+          "de": "Die Mädchen aus Kiel sind groß und schnell.",
+          "en": "The girls from Kiel are tall and fast."
+        },
+        {
+          "de": "Nach der ersten Halbzeit steht es null zu eins.",
+          "en": "After the first half it's nil–one."
+        },
+        {
+          "de": "Sandra sagt: „Ihr könnt das!“",
+          "en": "Sandra says, “You can do it!”"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "de": "In der zweiten Halbzeit spielen wir besser. Mia schießt ein Tor: eins zu eins! Dann ist es die letzte Minute. Mia spielt den Ball zu mir. Ich laufe und schieße. Tor! Zwei zu eins! Wir gewinnen! Alle springen und schreien. Tom ruft: „Meine Schwester ist die Beste!“ Nach dem Spiel sagt Sandra: „Das hast du toll gemacht, Emma.“",
+      "en": "In the second half we play better. Mia scores a goal: one–one! Then it's the last minute. Mia passes the ball to me. I run and shoot. Goal! Two–one! We win! Everyone jumps and screams. Tom shouts, “My sister is the best!” After the match Sandra says, “You did that brilliantly, Emma.”",
+      "explain_en": "“Ein Tor schießen” (to shoot a goal) is how you say to score. “die Beste” = the best (for a girl); for a boy it's “der Beste”. “Das hast du toll gemacht” is Perfekt again: hast … gemacht = did. It's the classic way to praise someone.",
+      "words": [
+        {
+          "de": "besser",
+          "en": "better"
+        },
+        {
+          "de": "letzte",
+          "en": "last"
+        },
+        {
+          "de": "gewinnen",
+          "en": "to win"
+        },
+        {
+          "de": "springen",
+          "en": "to jump"
+        },
+        {
+          "de": "die Schwester, die Schwestern",
+          "en": "sister"
+        },
+        {
+          "de": "toll",
+          "en": "great, brilliant"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "In der zweiten Halbzeit spielen wir besser.",
+          "en": "In the second half we play better."
+        },
+        {
+          "de": "Mia schießt ein Tor: eins zu eins!",
+          "en": "Mia scores a goal: one–one!"
+        },
+        {
+          "de": "Dann ist es die letzte Minute.",
+          "en": "Then it's the last minute."
+        },
+        {
+          "de": "Mia spielt den Ball zu mir.",
+          "en": "Mia passes the ball to me."
+        },
+        {
+          "de": "Ich laufe und schieße.",
+          "en": "I run and shoot."
+        },
+        {
+          "de": "Tor!",
+          "en": "Goal!"
+        },
+        {
+          "de": "Zwei zu eins!",
+          "en": "Two–one!"
+        },
+        {
+          "de": "Wir gewinnen!",
+          "en": "We win!"
+        },
+        {
+          "de": "Alle springen und schreien.",
+          "en": "Everyone jumps and screams."
+        },
+        {
+          "de": "Tom ruft: „Meine Schwester ist die Beste!“",
+          "en": "Tom shouts, “My sister is the best!”"
+        },
+        {
+          "de": "Nach dem Spiel sagt Sandra: „Das hast du toll gemacht, Emma.“",
+          "en": "After the match Sandra says, “You did that brilliantly, Emma.”"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "de": "Am Abend schreibe ich Oma eine Nachricht. „Liebe Oma, ich habe heute ein Tor geschossen, und wir haben gewonnen!“ Ich schicke ihr auch die Fotos von der Ostsee. Dann denke ich an meinen ersten Tag in Hamburg. Ich habe Angst gehabt, und ich habe nichts verstanden. Jetzt habe ich hier Freunde und ein Team. Ich spreche jeden Tag besser Deutsch. Mimi liegt auf meinem Bett und schläft. Ich glaube, Mimi findet Hamburg auch gut. Hamburg ist jetzt mein Zuhause.",
+      "en": "In the evening I write Grandma a message. “Dear Grandma, I scored a goal today, and we won!” I also send her the photos from the Baltic. Then I think about my first day in Hamburg. I was scared, and I didn't understand anything. Now I have friends here, and a team. My German gets better every day. Mimi is lying on my bed, asleep. I think Mimi likes Hamburg too. Hamburg is my home now.",
+      "explain_en": "Messages and letters start with “Liebe” (to a woman) or “Lieber” (to a man): Liebe Oma, Lieber Opa. “denken an” = to think about. “das Zuhause” is home as a feeling or place; “nach Hause” and “zu Hause” are about going and being home. The end – well done for reading the whole book!",
+      "words": [
+        {
+          "de": "die Nachricht, die Nachrichten",
+          "en": "message; (plural) the news"
+        },
+        {
+          "de": "denken an",
+          "en": "to think about"
+        },
+        {
+          "de": "glauben",
+          "en": "to believe, think"
+        },
+        {
+          "de": "jetzt",
+          "en": "now"
+        },
+        {
+          "de": "das Zuhause",
+          "en": "home"
+        }
+      ],
+      "sentences": [
+        {
+          "de": "Am Abend schreibe ich Oma eine Nachricht.",
+          "en": "In the evening I write Grandma a message."
+        },
+        {
+          "de": "„Liebe Oma, ich habe heute ein Tor geschossen, und wir haben gewonnen!“",
+          "en": "“Dear Grandma, I scored a goal today, and we won!”"
+        },
+        {
+          "de": "Ich schicke ihr auch die Fotos von der Ostsee.",
+          "en": "I also send her the photos from the Baltic."
+        },
+        {
+          "de": "Dann denke ich an meinen ersten Tag in Hamburg.",
+          "en": "Then I think about my first day in Hamburg."
+        },
+        {
+          "de": "Ich habe Angst gehabt, und ich habe nichts verstanden.",
+          "en": "I was scared, and I didn't understand anything."
+        },
+        {
+          "de": "Jetzt habe ich hier Freunde und ein Team.",
+          "en": "Now I have friends here, and a team."
+        },
+        {
+          "de": "Ich spreche jeden Tag besser Deutsch.",
+          "en": "My German gets better every day."
+        },
+        {
+          "de": "Mimi liegt auf meinem Bett und schläft.",
+          "en": "Mimi is lying on my bed, asleep."
+        },
+        {
+          "de": "Ich glaube, Mimi findet Hamburg auch gut.",
+          "en": "I think Mimi likes Hamburg too."
+        },
+        {
+          "de": "Hamburg ist jetzt mein Zuhause.",
+          "en": "Hamburg is my home now."
+        }
+      ]
+    }
+  ]
+}

@@ -45,6 +45,14 @@ class ExportContent(unittest.TestCase):
             self.assertEqual(item["key"]["scoring"], "exact_option")
             self.assertIn(item["key"]["option"], [o["id"] for o in item["options"]], item["id"])
 
+    def test_the_skill_graph_is_exported_with_its_edges(self):
+        rows = read_jsonl(self.out / "graph.jsonl")
+        ids = {r["id"] for r in rows}
+        grammar = [r for r in rows if r["kind"] == "grammar"]
+        self.assertGreater(len(grammar), 30)
+        self.assertTrue(all(req in ids for r in rows for req in r["requires"]))
+        self.assertTrue(any(r["kind"] == "vocab" and r.get("practised_by_items") for r in rows))
+
     def test_gender_questions_use_olrs_built_in_choice_scorer(self):
         genders = [i for i in self.items if i["competency"] == "grammar.noun_gender"]
         self.assertTrue(genders)

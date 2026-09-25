@@ -104,6 +104,17 @@ def exam_items(versions: dict) -> list[dict]:
     return items
 
 
+def graph_nodes(content) -> list[dict]:
+    """The skill graph as content (the platform schedules on its own; the graph says what builds on what):
+    nodes with requires edges, and what practises each node (item ids or competency rules)."""
+    from app import graph
+    nodes = graph.build(content, load_exams()[0])
+    return [{"id": n.id, "kind": n.kind, "level": n.level, "title": n.title, "requires": n.requires,
+             **({"practised_by_items": n.items} if n.items else {}),
+             **({"practised_by": n.scored_from} if n.scored_from else {}),
+             **({"explain_en": n.explain_en} if n.explain_en else {})} for n in nodes.values()]
+
+
 def rights(raw: dict, today: date) -> dict:
     """Why a book's German text is public domain, worked out from the author's death and first publication."""
     if raw.get("original"):
@@ -205,6 +216,8 @@ def main(argv: list[str] | None = None) -> int:
     book_rows = books(content, versions, today)
     write_jsonl(out / "items.jsonl", items)
     write_jsonl(out / "books.jsonl", book_rows)
+    graph_rows = graph_nodes(content)
+    write_jsonl(out / "graph.jsonl", graph_rows)
     (out / "competencies.json").write_text(json.dumps(
         [{"id": cid, "description": text} for cid, text in attempts.COMPETENCIES.items()],
         ensure_ascii=False, indent=1), encoding="utf-8")
@@ -224,7 +237,7 @@ def main(argv: list[str] | None = None) -> int:
                 "status": "throwaway: OLR's content package format is designed, not built",
                 "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "app_commit": _commit(),
                 "scorer": attempts.GRADER, "language": "de", "instruction_language": "en",
-                "counts": {"items": len(items), "books": len(book_rows),
+                "counts": {"items": len(items), "books": len(book_rows), "graph_nodes": len(graph_rows),
                            "paragraphs": sum(1 for b in book_rows for u in b["units"] if u["kind"] == "paragraph")},
                 "attempts": exported,
                 "unmapped": {"no_response": UNMAPPED_NO_RESPONSE}}

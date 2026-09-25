@@ -89,3 +89,35 @@ class SayBeforeSee(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ProveIt(unittest.TestCase):
+    def setUp(self):
+        from app.content import Book, Unit
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        self.ctx = make_ctx(tmp.name)
+        unit = Unit(n=1, de="Der Hund schläft im Garten.", en="The dog sleeps in the garden.", part=1,
+                    sentence_pairs=[("Der Hund schläft im Garten.", "The dog sleeps in the garden.")])
+        self.book = Book(id="b", title="B", author="", year=2026, level="A1", intro_en="", units=[unit], total_parts=1)
+        self.unit = unit
+
+    def prove(self, typed):
+        from app import reading
+        with mock.patch("app.ui.ask_answer", return_value=typed), mock.patch("app.ui.keys", return_value=""), \
+                mock.patch("app.ui.clear"), console.capture():
+            return reading.prove_it(self.ctx, self.book, self.unit, about="e123")
+
+    def test_a_right_sentence_passes_and_is_linked_to_the_self_grade(self):
+        self.assertTrue(self.prove("Der Hund schläft im Garten."))
+        (event,) = [e for e in attempts.read(self.ctx.profile) if e.get("context") == "prove"]
+        self.assertEqual((event["about"], event["score"]["points"], event["grader"]), ("e123", 100, attempts.DICTATION_GRADER))
+
+    def test_a_miss_brings_the_paragraph_back(self):
+        self.ctx.profile.data["paragraph_reviews"]["b:1"] = {"sessions_left": 0, "due_days": []}
+        self.assertFalse(self.prove("Die Katze isst."))
+        self.assertEqual(self.ctx.profile.data["paragraph_reviews"]["b:1"]["sessions_left"], 1)
+
+    def test_a_miss_on_a_new_paragraph_adds_a_session_later(self):
+        self.assertFalse(self.prove("Die Katze isst."))
+        self.assertTrue(self.ctx.profile.book_state("b")["prove_missed"])
