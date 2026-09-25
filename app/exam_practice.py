@@ -11,12 +11,18 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import attempts, sfx, ui
+from datetime import timedelta
+
+from . import attempts, sfx, srs, ui
+from .answers import normalize
 from .exams import SKILLS, Exam, ExamItem, Part, choices, is_right, item_id, load_exams, passed
 from .speaking import hear
 from .ui import console, icon
 
 GRADER = "gtutor.exams/1"
+PART_AGAIN = {True: 16, False: 3}   # days until a part comes back: passed / not yet
+FEEDBACK_WORDS = 15                  # most words an exam part sends back to the daily practice
+MOCK_READY, PART_READY = 0.8, 0.6    # readiness for a full mock exam / for single parts
 REPLAY = "0"  # the key for "hear it again" (letters are answers: r = richtig, j = ja, a–h = texts)
 SELF_CHECK = {"y": "yes", "n": "no"}
 
@@ -30,6 +36,8 @@ def part_status(ctx, exam: Exam, part: Part) -> str:
     done = progress(ctx).get(exam.id, {}).get(part.id)
     if not done:
         return "[hint]not done yet[/]"
+    if done.get("due") and done["due"] <= ctx.today.isoformat():
+        return f"[key]due again[/] · best {done['best']}/{done['max']}"
     mark = f"[good]{icon('ok')}[/]" if passed(done["best"], done["max"]) else f"[almost]{icon('almost')}[/]"
     return f"{mark} best {done['best']}/{done['max']}" + (f" · last {done['score']}/{done['max']}"
                                                             if done["score"] != done["best"] else "")
@@ -84,6 +92,7 @@ def exam_screen(ctx, exam: Exam) -> None:
         ui.title(f"{exam.level} · {exam.title}", exam.style)
         if exam.about_en:
             console.print(ui.escape(exam.about_en))
+        console.print(f"[bold]{ui.escape(advice(ctx, exam.level))}[/]")
         table = Table(show_header=True, header_style="bold", box=None, padding=(0, 2))
         table.add_column("")
         table.add_column("Part")
@@ -230,13 +239,82 @@ def _record(ctx, exam: Exam, part: Part, answers: dict[str, str]) -> int:
                         context=f"exam.{exam.id}", grader=GRADER,
                         score=attempts.right_or_wrong(right) if key else attempts.no_response("don't know"))
     _save(ctx, exam, part, score, part.max_points)
+    _feedback(ctx, part, [i for i in part.items if not (answers.get(i.id) and is_right(i, answers[i.id]))])
     return score
+
+
+def feedback_words(ctx, part: Part, missed: list[ExamItem]) -> tuple[list[str], list[str]]:
+    """Everyday words in the texts behind the missed questions: (started ones, new ones), most common first."""
+    index = {}
+    for w in ctx.content.words.values():
+        if w.bank == "daily":
+            bare = normalize(w.de).split()
+            if len(bare) == 2 and bare[0] in ("der", "die", "das") or len(bare) == 1:
+                index.setdefault(bare[-1], w)
+    found = {}
+    for item in missed:
+        texts = [part.text(item.text)] if item.text else part.texts
+        blob = " ".join([item.question, *item.options.values(), *(t.transcript for t in texts if t)])
+        for token in normalize(blob).split():
+            if (w := index.get(token)) and len(token) > 3:
+                found[w.id] = w
+    ranked = sorted(found.values(), key=lambda w: w.rank)[:FEEDBACK_WORDS]
+    vocab = ctx.profile.data["vocab"]
+    started = [w.id for w in ranked if vocab.get(w.id, {}).get("box", 0) >= 1]
+    fresh = [w.id for w in ranked if vocab.get(w.id, {}).get("box", 0) == 0]
+    return started, fresh
+
+
+def _feedback(ctx, part: Part, missed: list[ExamItem]) -> None:
+    """Missed questions send their texts' words back: known ones to tomorrow's reviews, new ones to the front
+    of the new words (docs/LEARNING_DESIGN.md 4.2)."""
+    if not missed:
+        return
+    started, fresh = feedback_words(ctx, part, missed)
+    for wid in started:
+        srs.apply_practice(ctx.profile.word_state(wid), "wrong", ctx.today)
+    if started:
+        attempts.record_nudge(ctx.profile, ctx.today, "vocab", started, f"exam miss: {part.id}")
+    queue = ctx.profile.data["reading_words"]
+    queue[:0] = [wid for wid in fresh if wid not in queue]
+    ctx.profile.data.setdefault("exam_feedback", {})["last"] = len(started) + len(fresh)
+    ctx.profile.save()
+
+
+def readiness(ctx, level: str) -> float:
+    from . import graph
+    nodes = graph.build(ctx.content, load_exams()[0])
+    states = graph.mastery(nodes, ctx.profile.data["vocab"], attempts.tail(ctx.profile, 2_000_000), ctx.today)
+    return graph.readiness(nodes, states, level)["total"]
+
+
+def advice(ctx, level: str) -> str:
+    ready = readiness(ctx, level)
+    if ready >= MOCK_READY:
+        return f"Ready for {level}: {round(100 * ready)}%. Time for a full practice exam: all parts, real timing."
+    if ready >= PART_READY:
+        return f"Ready for {level}: {round(100 * ready)}%. Do single parts now; a full exam from {round(100 * MOCK_READY)}%."
+    return (f"Ready for {level}: {round(100 * ready)}%. Try a part to see what it's like, but daily practice "
+            f"helps more until {round(100 * PART_READY)}%.")
+
+
+def due_parts(ctx, exams: list[Exam]) -> list[tuple[Exam, Part]]:
+    """Parts tried before whose come-back day has arrived."""
+    out = []
+    for exam in exams:
+        for part in exam.parts:
+            done = progress(ctx).get(exam.id, {}).get(part.id)
+            if done and done.get("due") and done["due"] <= ctx.today.isoformat():
+                out.append((exam, part))
+    return out
 
 
 def _save(ctx, exam: Exam, part: Part, score: int, total: int) -> None:
     done = progress(ctx).setdefault(exam.id, {}).get(part.id, {})
+    again = ctx.today + timedelta(days=PART_AGAIN[passed(score, total)])
     progress(ctx)[exam.id][part.id] = {"score": score, "max": total, "best": max(score, done.get("best", 0)),
-                                        "last": ctx.today.isoformat(), "tries": done.get("tries", 0) + 1}
+                                        "last": ctx.today.isoformat(), "tries": done.get("tries", 0) + 1,
+                                        "due": again.isoformat()}
     ctx.profile.count(ctx.today, exam_items=total, exam_right=score)
     ctx.profile.save()
 
@@ -257,6 +335,9 @@ def _results(ctx, exam: Exam, part: Part, answers: dict[str, str], score: int, m
     sfx.play(ctx.audio, "right" if passed(score, total) else "almost")
     wrong = []
     table = Table(show_header=True, header_style="bold", box=None, padding=(0, 2))
+    back = ctx.profile.data.get("exam_feedback", {}).pop("last", 0)
+    if back:
+        console.print(f"[hint]{ui.plural(back, 'word')} from the texts you missed come back in your next warm-up.[/]")
     for column in ("", "Your answer", "Right answer"):
         table.add_column(column)
     for n, item in enumerate(part.items, 1):

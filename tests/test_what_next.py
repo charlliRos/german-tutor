@@ -1,0 +1,77 @@
+"""What next: exam misses feed the daily practice, exam parts come back, grammar leans to the frontier."""
+import tempfile
+import unittest
+from datetime import date
+from unittest import mock
+
+from app import attempts, exam_practice, exams, grammar, srs
+from app.content import Content, Word
+from app.ui import console
+from tests.test_exams import RAW
+from tests.test_flows import TODAY, make_ctx
+
+
+class ExamFeedback(unittest.TestCase):
+    def setUp(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        self.ctx = make_ctx(tmp.name)
+        words = {"fest": Word("fest", "daily", "das Stadtfest", ["city festival"], "noun", rank=900),
+                 "tag": Word("tag", "daily", "der Samstag", ["Saturday"], "noun", rank=300),
+                 "frei": Word("frei", "daily", "frei", ["free"], "adj", rank=400)}
+        self.ctx.content = Content(words, [])
+        self.ctx.profile.data["vocab"]["tag"] = {**srs.new_state(), "box": 4, "due": "2026-10-20"}
+        self.exam = exams._exam(RAW)
+        for target in ("app.ui.clear", "app.exam_practice.sfx.play"):
+            patcher = mock.patch(target)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+    def run_part(self, answers):
+        queue = list(answers)
+        with mock.patch("app.ui.keys", lambda o: queue.pop(0) if "?" in o and queue else ""), console.capture() as out:
+            exam_practice.run_part(self.ctx, self.exam, self.exam.parts[0])
+        return out.get()
+
+    def test_a_miss_brings_the_texts_words_back(self):
+        out = self.run_part(["a", "r"])  # both wrong
+        self.assertIn("come back in your next warm-up", out)
+        tag = self.ctx.profile.data["vocab"]["tag"]
+        self.assertEqual((tag["box"], tag["due"]), (1, "2026-09-18"))       # known word: tomorrow, box 1
+        self.assertEqual(self.ctx.profile.data["reading_words"][:2], ["frei", "fest"])  # new words first in line
+        self.assertEqual(attempts.rebuild(attempts.read(self.ctx.profile))["vocab"], self.ctx.profile.data["vocab"])
+
+    def test_all_right_changes_nothing(self):
+        self.run_part(["b", "f"])
+        self.assertEqual(self.ctx.profile.data["vocab"]["tag"]["box"], 4)
+        self.assertEqual(self.ctx.profile.data["reading_words"], [])
+
+    def test_a_failed_part_is_due_in_3_days_a_passed_one_in_16(self):
+        self.run_part(["a", "r"])
+        self.assertEqual(self.ctx.profile.data["exams"]["t-01"]["lesen-1"]["due"], "2026-09-20")
+        self.run_part(["b", "f"])
+        self.assertEqual(self.ctx.profile.data["exams"]["t-01"]["lesen-1"]["due"], "2026-10-03")
+        self.ctx.today = date(2026, 10, 3)
+        self.assertEqual([p.id for _, p in exam_practice.due_parts(self.ctx, [self.exam])], ["lesen-1"])
+
+
+class GrammarFocus(unittest.TestCase):
+    def test_focus_kinds_get_about_70_percent(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        ctx = make_ctx(tmp.name)
+        sentences = ["Ich fahre mit dem Bus.", "Das ist ein neues Auto.", "Wir gehen heute ins Kino.",
+                     "Sie hat einen roten Hut.", "Er kommt aus der Schule.", "Das ist eine kleine Stadt."]
+        words = {f"w{i}": Word(f"w{i}", "daily", f"das Wort{i}", ["x"], "noun", example_de=s, example_en="x")
+                 for i, s in enumerate(sentences * 5)}
+        words |= {"neu": Word("neu", "daily", "neu", ["new"], "adj"), "rot": Word("rot", "daily", "rot", ["red"], "adj"),
+                  "klein": Word("klein", "daily", "klein", ["small"], "adj")}
+        ctx.content = Content(words, [])
+        ctx.profile.data["vocab"] = {wid: {"box": 2} for wid in words if wid.startswith("w")}
+        items = grammar.make_items(ctx, 6, focus=["ending"])
+        self.assertGreaterEqual(sum(i.kind == "ending" for i in items), 3)
+        self.assertEqual(grammar.make_items(ctx, 3, focus=None)[0].kind, "article")  # no focus: the usual mix
+
+
+if __name__ == "__main__":
+    unittest.main()

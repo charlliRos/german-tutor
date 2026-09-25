@@ -262,6 +262,41 @@ def _hard_words(profile: Profile, content: Content) -> Table | None:
     return t
 
 
+def goal_level(profile: Profile) -> str:
+    return profile.data.get("target") or profile.data.get("placement", {}).get("band") or "A2"
+
+
+def readiness_bar(value: float, width: int = 20) -> str:
+    filled = round(value * width)
+    full, empty = ("█", "░") if ui.FANCY else ("#", "-")
+    return full * filled + empty * (width - filled)
+
+
+def skill_lines(profile: Profile, content: Content, today: date) -> list[str]:
+    """Readiness for the kid's goal level, and "why stuck" for every skill that doesn't move (skill graph)."""
+    from . import attempts, graph
+    from .exams import load_exams
+    nodes = graph.build(content, load_exams()[0])
+    states = graph.mastery(nodes, profile.data["vocab"], attempts.read(profile), today)
+    level = goal_level(profile)
+    ready = graph.readiness(nodes, states, level)
+    parts = " · ".join(f"{label} {round(100 * ready[key])}%" if ready[key] is not None else f"{label} not enough data yet"
+                       for key, label in (("vocab", "words"), ("grammar", "grammar"), ("exam", "exam tasks")))
+    lines = [f"[bold]Ready for {level}:[/] {readiness_bar(ready['total'])} {round(100 * ready['total'])}%  [hint]{parts}[/]"]
+    for block in graph.stuck(nodes, states, profile.data, today):
+        node, st = block["node"], block["state"]
+        lines.append(f"[warn]Stuck: {ui.escape(node.title)} ({node.level})[/]  {round(100 * st.mastery)}% after "
+                     f"{st.answers} answers" + (" · fading" if st.state == "rusty" else ""))
+        if block["because"]:
+            pre, pst = block["because"]
+            lines.append(f"  because: {ui.escape(pre.title)} is at {round(100 * pst.mastery)}% (not solid yet)")
+        for vnode, vst in block["leeches"]:
+            lines.append(f"  and: {len(vst.leeches)} words keep slipping in {ui.escape(vnode.title)}")
+        lines.append(f"  time: {block['days_a_week']} practice days last week, about {block['minutes']} min each")
+        lines.append(f"  try: {ui.escape(graph.suggestion(block))}")
+    return lines + [""]
+
+
 def _report(profile: Profile, content: Content, today: date) -> None:
     name = ui.escape(profile.name)
     console.print(Panel(Text(profile.name, style="bold", justify="center"), border_style="magenta"))
@@ -269,6 +304,8 @@ def _report(profile: Profile, content: Content, today: date) -> None:
     console.print()
     console.print(_repetition(profile, content, today))
     console.print()
+    for line in skill_lines(profile, content, today):
+        console.print(line)
     hard = _hard_words(profile, content)
     if hard:
         console.print(hard)

@@ -129,13 +129,35 @@ def pool(ctx) -> list:
     return [words[wid] for wid, s in vocab.items() if s.get("box", 0) >= 1 and wid in words and words[wid].example_de]
 
 
-def make_items(ctx, count: int) -> list[Item]:
-    """A mix of the three kinds, each from a different sentence."""
+def focus_kinds(ctx) -> list[str]:
+    """The kinds of question that practise the grammar points to work on next (skill graph frontier)."""
+    from . import attempts, graph
+    try:
+        nodes = graph.build(ctx.content)
+        states = graph.mastery(nodes, ctx.profile.data["vocab"], attempts.tail(ctx.profile, 2_000_000), ctx.today)
+        level = ctx.profile.data.get("target") or ctx.profile.data.get("placement", {}).get("band") or "A2"
+        frontier = graph.frontier(nodes, states, level)
+    except (OSError, ValueError, KeyError):
+        return []
+    kinds = []
+    for nid in frontier[:5]:
+        for rule in nodes[nid].scored_from:
+            kind = str(rule.get("subcompetency", "")).rstrip("*")
+            if kind in ("article", "ending", "order") and kind not in kinds:
+                kinds.append(kind)
+    return kinds
+
+
+def make_items(ctx, count: int, focus: list[str] | None = None) -> list[Item]:
+    """A mix of the three kinds, each from a different sentence. focus: kinds to ask more of (about 70%:
+    the grammar being learned now), the rest keeps the others fresh."""
     words = pool(ctx)
     ctx.rng.shuffle(words)
     adjectives = {normalize(w.de) for w in ctx.content.words.values()
                   if w.pos == "adj" and len(normalize(w.de)) >= 3 and " " not in normalize(w.de)}
     kinds = ["article", "ending", "order"]
+    if focus:
+        kinds = [k for k in focus for _ in range(max(1, round(7 / len(focus))))] + kinds
     items: list[Item] = []
     used = set()
     for n in range(count * 20):
@@ -225,7 +247,7 @@ def run_grammar(ctx, first_today: bool) -> VerbResult:
     result = VerbResult()
     if not first_today:
         return result
-    items = make_items(ctx, int(ctx.settings["grammar_per_day"]))
+    items = make_items(ctx, int(ctx.settings["grammar_per_day"]), focus_kinds(ctx))
     for i, item in enumerate(items, 1):
         outcome = log(ctx, item, "grammar.daily", question(ctx, item, f"Grammar {i} of {len(items)}"))
         result.total += 1

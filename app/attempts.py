@@ -111,6 +111,16 @@ def record_seed(profile, today: date, store: str, states: dict[str, dict]) -> No
         f.write(json.dumps(event, ensure_ascii=False) + "\n")
 
 
+def record_nudge(profile, today: date, store: str, items: list[str], reason: str) -> None:
+    """Items brought back without being asked (e.g. words from an exam text that was answered wrong): each gets
+    srs.apply_practice(WRONG). One event, so rebuild() reproduces it."""
+    start(profile)
+    event = {"v": SCHEMA, "type": "nudge", "id": uuid.uuid4().hex, "at": _now(), "date": today.isoformat(),
+             "learner": profile.name, "store": store, "items": items, "reason": reason}
+    with profile.attempts_path.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(event, ensure_ascii=False) + "\n")
+
+
 def record(profile, today: date, *, item: str, item_version: str, competency: str, subcompetency: str,
            context: str, score: dict, grader: str, schedule: str | None = None, store: str | None = None,
            counted: str | None = None, **extra) -> dict:
@@ -195,6 +205,11 @@ def rebuild(events: list[dict]) -> dict[str, dict]:
         if e.get("type") == "baseline":
             for store in STORES:
                 states[store] = json.loads(json.dumps(e.get(store, {})))
+            continue
+        if e.get("type") == "nudge" and e.get("store") in STORES:
+            for item in e.get("items", []):
+                srs.apply_practice(states[e["store"]].setdefault(item, srs.new_state()), WRONG,
+                                   date.fromisoformat(e["date"]))
             continue
         if e.get("type") == "seed" and e.get("store") in STORES:
             for item, state in e.get("states", {}).items():

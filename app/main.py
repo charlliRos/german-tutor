@@ -16,7 +16,7 @@ from .config import load_settings
 from .content import Content, load_content, words_in_reach
 from .mascot import banner
 from .profile import Profile
-from .report import print_translation, run_report
+from .report import goal_level, print_translation, run_report, skill_lines
 from .reading import choose_book, run_reading
 from .speaking import speak_and_compare
 from .ui import QuitSession, console, icon
@@ -131,6 +131,10 @@ def facts(ctx: Context) -> list[str]:
         lines.append(f"[good]{icon('done')} Warm-up done today[/] (extra practice any time)")
     else:
         lines.append(f"Today's warm-up: {warmup_size(ctx)} words")
+    due = exam_practice.due_parts(ctx, exam_practice.load_exams()[0])
+    if due:
+        exam, part = due[0]
+        lines.append(f"{icon('book')} Exam practice: {exam.level} {ui.escape(part.title_de)} is due again (menu 9)")
     if ctx.presence:
         for invite in ctx.presence.pending_invites()[-1:]:
             lines.append(f"[bold magenta]{ui.escape(invite['name'])} challenges you to a duel! Choose 8.[/]")
@@ -203,6 +207,13 @@ def finish_screen(ctx: Context, warm: WarmupResult | None, paragraphs: int | Non
     ui.keys({"": "back to the menu"})
 
 
+def _next_grammar(ctx: Context, count: int = 3) -> list[str]:
+    from . import attempts, graph
+    nodes = graph.build(ctx.content)
+    states = graph.mastery(nodes, ctx.profile.data["vocab"], attempts.read(ctx.profile), ctx.today)
+    return [nodes[n].title for n in graph.frontier(nodes, states, goal_level(ctx.profile))[:count]]
+
+
 def show_progress(ctx: Context) -> None:
     ui.clear()
     states = ctx.profile.data["vocab"]
@@ -251,6 +262,11 @@ def show_progress(ctx: Context) -> None:
                      str(v.get("right", 0)), str(v.get("almost", 0)), str(v.get("new", 0)), str(v.get("units", 0)),
                      "–" if seconds is None else ("<1" if 0 < seconds < 30 else str(round(seconds / 60))))
     console.print(days)
+    for line in skill_lines(ctx.profile, ctx.content, ctx.today)[:1]:
+        console.print(line)
+    next_up = _next_grammar(ctx)
+    if next_up:
+        console.print(f"[hint]Grammar to work on next: {ui.escape(', '.join(next_up))}[/]")
     target = ctx.profile.data.get("target")
     console.print(f"Goal: [bold]{target or 'not set'}[/]" + (f" · topics: {', '.join(goals.topics(ctx.profile.data))}"
                                                            if goals.topics(ctx.profile.data) else ""))
