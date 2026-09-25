@@ -38,8 +38,10 @@ DEFAULTS = {
     "sentence_tasks": {"gap": 0.2, "dictation": 0.1},
     "speech_check": True,        # check with offline speech recognition that words were really said
     # Find the other kids on the same Wi-Fi: see who's online, get "… just finished a warm-up" news,
-    # challenge each other to a duel. Off: nothing is sent or received (typing the host's address still works).
-    "share_on_wifi": True,
+    # challenge each other to a duel. It sends the kid's name and results to every computer on the Wi-Fi, so:
+    # "ask" = each kid is asked once (and can change it in menu 8); true = always on; false = always off
+    # (nothing is sent or received; typing the host's address for a duel still works).
+    "share_on_wifi": "ask",
     "word_record_seconds": 3,
     "voice": "de_DE-thorsten-medium",
     "word_speed": 1.15,          # >1 is slower; words are read slowly for learners

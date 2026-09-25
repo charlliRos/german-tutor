@@ -11,6 +11,7 @@ import queue
 import socket
 import threading
 import time
+import unicodedata
 
 PORT = 50505
 PROTOCOL = 1
@@ -21,6 +22,24 @@ CLOSED = "_closed"          # the message the reader puts in the queue when the 
 
 class LanError(Exception):
     """Something the player should be told in plain words (can't connect, not on the local network…)."""
+
+
+def clean_text(value, limit: int) -> str:
+    """Text from another computer, safe to show: no control or formatting characters (they could move the
+    cursor, clear the screen or reverse text), spaces tidied, cut to `limit`. Not a string: ''."""
+    if not isinstance(value, str):
+        return ""
+    text = "".join(c if unicodedata.category(c)[0] != "C" else " " for c in value[: limit * 4])
+    return " ".join(text.split())[:limit]
+
+
+def parse(data: bytes):
+    """JSON from another computer, or None. Deeply nested junk raises RecursionError, not ValueError:
+    anything that isn't valid JSON is simply ignored."""
+    try:
+        return json.loads(data.decode("utf-8"))
+    except (UnicodeDecodeError, ValueError, RecursionError):
+        return None
 
 
 def local_address(ip: str) -> bool:
@@ -102,17 +121,15 @@ class Connection:
                     break
         except OSError:
             reason = "the connection was lost"
+        except Exception:  # never let a strange message end the reader silently: the game must hear about it
+            reason = "the other computer sent something this app doesn't understand"
         self.close()
         self.inbox.put({"type": CLOSED, "reason": reason})
 
     def _handle_line(self, line: bytes) -> None:
         if not line.strip():
             return
-        try:
-            message = json.loads(line.decode("utf-8"))
-        except (UnicodeDecodeError, ValueError):
-            self.bad_messages += 1
-            return
+        message = parse(line)
         if not isinstance(message, dict) or not isinstance(message.get("type"), str):
             self.bad_messages += 1
             return

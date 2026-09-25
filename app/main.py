@@ -51,6 +51,26 @@ def share(ctx: Context, status: str | None = None) -> None:
             ctx.presence.set_status(status)
 
 
+def sharing_allowed(ctx: Context) -> bool:
+    """Wi-Fi sharing: the parent's setting if it's true/false, else this kid's own answer (asked once)."""
+    setting = ctx.settings.get("share_on_wifi", "ask")
+    if isinstance(setting, bool):
+        return setting
+    if "share_on_wifi" not in ctx.profile.data:
+        ui.clear()
+        ui.title("Find the others on this Wi-Fi?")
+        console.print(Panel(Text.from_markup(
+            "With this on, the app finds your brothers, sisters or friends on the same Wi-Fi: you see who's "
+            "online, get news like \"Ben just finished a warm-up\", and can challenge each other to duels.\n\n"
+            "[bold]It sends your name and your results to every computer on the Wi-Fi.[/] At home that's fine. "
+            "On school or public Wi-Fi, strangers could see them.\n\n"
+            "[hint]You can change this any time in menu 8.[/]"), border_style="magenta", padding=(1, 2)))
+        choice = ui.keys({"y": "yes, I'm on my home Wi-Fi", "n": "no"})
+        ctx.profile.data["share_on_wifi"] = choice == "y"
+        ctx.profile.save()
+    return bool(ctx.profile.data["share_on_wifi"])
+
+
 def open_profile(name: str) -> Profile | None:
     try:
         return Profile.open_or_create(name)
@@ -364,7 +384,7 @@ def main(argv: list[str] | None = None) -> int:
             audio = Audio(settings, enabled=not args.no_audio)
         ui.BUZZ[0] = lambda: sfx.play(audio, "buzz", wait=False)
         ctx = Context(settings, content, profile, audio, random.Random(), date.today())
-        if settings.get("share_on_wifi", True):
+        if sharing_allowed(ctx):
             ctx.presence = presence.Presence(profile.name)
             ctx.presence.remember(profile.data.get("friends", {}), profile.data.get("friend_addresses", []),
                                   profile.data.get("challenges", {}))

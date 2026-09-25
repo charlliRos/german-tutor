@@ -7,7 +7,8 @@ challenge or the answer to one. The same state is sent again and again, so a los
 and the results each app has received are kept in the kid's profile: when the two apps are next open at
 the same time, the news catches up ("While you were away: Ben did a warm-up on Tue 16 Sep…").
 Only local-network senders are listened to. News is shown at the top of the next screen (ui.NEWS),
-never in the middle of a question. Switch it all off with "share_on_wifi": false in config.json.
+never in the middle of a question. Each kid is asked once whether to share (menu 8 changes it); a parent can
+decide for everyone with "share_on_wifi": true / false in config.json.
 """
 from __future__ import annotations
 
@@ -31,6 +32,12 @@ MAX_ADDRESSES = 8      # other computers remembered, to send to directly
 MAX_PACKET = 65507     # the most UDP allows: a few challenges with their words fit easily
 CHALLENGE_DAYS = 7     # an asynchronous challenge can be played for this many days
 MAX_SENT_CHALLENGES = 4  # the newest ones go into each announcement
+# Limits on what other computers can make this app keep (anyone on the Wi-Fi can send announcements):
+MAX_PEERS = 16          # players online at once
+MAX_INVITES = 4         # duel challenges waiting
+MAX_FRIENDS = 12        # kids whose results are kept (the one heard from longest ago makes room)
+MAX_CHALLENGES = 40     # asynchronous challenges kept
+MAX_CHALLENGES_PER_KID = 8
 FIELDS = ("warmups", "words", "right", "paragraphs", "minutes")
 
 
@@ -98,22 +105,13 @@ def _clean_challenge(raw) -> dict | None:
     """An asynchronous challenge from another computer, checked; None if anything is off."""
     if not isinstance(raw, dict):
         return None
-    cid, sender, to, created = raw.get("id"), raw.get("from"), raw.get("to"), raw.get("created")
-    questions = raw.get("questions")
-    if not all(isinstance(x, str) and 0 < len(x) <= 30 for x in (cid, sender, to)) or not isinstance(created, str) \
-            or not isinstance(questions, list) or not 0 < len(questions) <= 20:
+    cid, created = raw.get("id"), raw.get("created")
+    if not all(isinstance(x, str) and 0 < len(x) <= 30 for x in (cid, raw.get("from"), raw.get("to"))):
         return None
-    clean = []
-    for q in questions:
-        word = q.get("word") if isinstance(q, dict) else None
-        if not isinstance(word, dict) or q.get("direction") not in ("en2de", "de2en") \
-                or not isinstance(word.get("de"), str) or not isinstance(word.get("en"), list) \
-                or not all(isinstance(e, str) for e in word["en"]) or not word["en"]:
-            return None
-        alt = word.get("de_alt") if isinstance(word.get("de_alt"), list) else []
-        clean.append({"direction": q["direction"], "word": {
-            "id": str(word.get("id", ""))[:40], "bank": "daily", "de": word["de"][:60], "en": word["en"][:4],
-            "pos": str(word.get("pos", "other"))[:10], "de_alt": [a for a in alt if isinstance(a, str)][:4]}})
+    sender, to = lan.clean_text(raw["from"], 30), lan.clean_text(raw["to"], 30)
+    clean = clean_questions(raw.get("questions"), full=False)
+    if not sender or not to or not isinstance(created, str) or clean is None:
+        return None
     answers = raw.get("answers") if isinstance(raw.get("answers"), dict) else {}
     kept = {}
     for name in (sender, to):
@@ -122,6 +120,31 @@ def _clean_challenge(raw) -> dict | None:
                 return None
             kept[name] = clean_answers
     return {"id": cid, "from": sender, "to": to, "created": created[:10], "questions": clean, "answers": kept}
+
+
+def clean_questions(raw, full: bool = True) -> list[dict] | None:
+    """Duel words from another computer, checked and cleaned (None if anything is off). full: keep what a
+    live duel shows too (plural, examples); asynchronous challenges only carry what's needed to check."""
+    if not isinstance(raw, list) or not 0 < len(raw) <= 20:
+        return None
+    clean = []
+    for q in raw:
+        word = q.get("word") if isinstance(q, dict) else None
+        if not isinstance(word, dict) or q.get("direction") not in ("en2de", "de2en") \
+                or not isinstance(word.get("de"), str) or not isinstance(word.get("en"), list):
+            return None
+        de = lan.clean_text(word["de"], 60)
+        en = [e for e in (lan.clean_text(x, 60) for x in word["en"][:4]) if e]
+        if not de or not en:
+            return None
+        alt = word.get("de_alt") if isinstance(word.get("de_alt"), list) else []
+        checked = {"id": lan.clean_text(word.get("id", ""), 40), "bank": "daily", "de": de, "en": en,
+                   "pos": lan.clean_text(word.get("pos", "other"), 10) or "other",
+                   "de_alt": [a for a in (lan.clean_text(x, 60) for x in alt[:4]) if a]}
+        if full:
+            checked.update({k: lan.clean_text(word.get(k, ""), 200) for k in ("plural", "example_de", "example_en")})
+        clean.append({"direction": q["direction"], "word": checked})
+    return clean
 
 
 def challenge_score(challenge: dict, name: str) -> int | None:
@@ -219,7 +242,8 @@ class Presence:
     def remember(self, friends: dict, addresses: list[str], challenges: dict | None = None) -> None:
         """What the profile kept from earlier: the others' results, their computers' addresses, challenges."""
         with self._lock:
-            self.friends = {name: dict(days) for name, days in friends.items() if isinstance(days, dict)}
+            self.friends = {name: dict(days) for name, days in list(friends.items())[:MAX_FRIENDS]
+                            if isinstance(days, dict)}
             self.addresses = [a for a in addresses if isinstance(a, str) and lan.local_address(a)][:MAX_ADDRESSES]
             self.challenges = {cid: c for cid, raw in (challenges or {}).items() if (c := _clean_challenge(raw))}
 
@@ -267,6 +291,9 @@ class Presence:
             if incoming["from"] == self.name or incoming["created"] < date_minus_str(self.today.get("date", ""),
                                                                                      CHALLENGE_DAYS):
                 return  # one of mine this profile has forgotten, or run out: nothing to do
+            with_them = sum(1 for c in self.challenges.values() if other in (c["from"], c["to"]))
+            if len(self.challenges) >= MAX_CHALLENGES or with_them >= MAX_CHALLENGES_PER_KID:
+                return  # a flood of challenges: keep what we have
             self.challenges[incoming["id"]] = incoming
             theirs = challenge_score(incoming, other)
             self.news.append(f"{other} challenges you: {len(incoming['questions'])} words"
@@ -331,20 +358,19 @@ class Presence:
             except OSError:
                 return
             if lan.local_address(ip):
-                self.receive(data, ip)
+                try:
+                    self.receive(data, ip)
+                except Exception:  # one strange announcement must never stop the listening
+                    continue
 
     def receive(self, data: bytes, ip: str) -> None:
         """Take in one announcement (anything malformed is ignored)."""
-        try:
-            m = json.loads(data.decode("utf-8"))
-        except (UnicodeDecodeError, ValueError):
-            return
+        m = lan.parse(data)
         if not isinstance(m, dict) or m.get("app") != APP or m.get("v") != VERSION:
             return
-        peer_id, name = m.get("id"), m.get("name")
-        if not isinstance(peer_id, str) or peer_id == self.id or not isinstance(name, str) or not name.strip():
+        peer_id, name = m.get("id"), lan.clean_text(m.get("name"), 30)
+        if not isinstance(peer_id, str) or not 0 < len(peer_id) <= 40 or peer_id == self.id or not name:
             return
-        name = name.strip()[:30]
         days = m.get("days") if isinstance(m.get("days"), dict) else {}
         days = {d: day for d, raw in list(days.items())[:HISTORY_DAYS + 1]
                 if isinstance(d, str) and len(d) == 10 and (day := _clean_day(raw))}
@@ -358,12 +384,15 @@ class Presence:
             if m.get("status") == "offline":
                 self.peers.pop(peer_id, None)
                 return
-            self.peers[peer_id] = {"name": name, "status": str(m.get("status", ""))[:40],
+            if peer_id not in self.peers and len(self.peers) >= MAX_PEERS:
+                del self.peers[min(self.peers, key=lambda p: self.peers[p]["seen"])]  # the quietest makes room
+            self.peers[peer_id] = {"name": name, "status": lan.clean_text(m.get("status", ""), 40),
                                    "today": days.get(self.today.get("date"), {}),
                                    "ip": ip, "duel_port": m.get("duel_port", lan.PORT), "seen": time.monotonic(),
                                    "reply": m.get("reply") if isinstance(m.get("reply"), dict) else None}
             invite = m.get("invite") if isinstance(m.get("invite"), dict) else None
             if invite and invite.get("to") == self.id and isinstance(invite.get("id"), str) \
+                    and len(invite["id"]) <= 40 and len(self.invites) < MAX_INVITES \
                     and invite["id"] not in self.invites and invite["id"] not in self._answered:
                 port = m.get("duel_port")
                 self.invites[invite["id"]] = {"from": peer_id, "name": name, "ip": ip,
@@ -374,6 +403,9 @@ class Presence:
     def _news_about(self, name: str, days: dict, streak: int) -> None:
         """Compare their days with what we knew (kept in the profile): news only for what's new."""
         today = self.today.get("date", "")
+        if name not in self.friends and len(self.friends) >= MAX_FRIENDS:
+            quietest = min(self.friends, key=lambda n: max(self.friends[n], default=""))
+            del self.friends[quietest]  # the kid heard from longest ago makes room
         known = self.friends.setdefault(name, {})
         first_meeting = not known
         missed = []

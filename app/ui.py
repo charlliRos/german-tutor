@@ -547,7 +547,7 @@ def ask_multiline(prompt: str) -> str:
 
 def keys(options: dict[str, str]) -> str:
     """Show e.g. '[Enter] next  [r] hear again' and return the chosen key ('' is Enter)."""
-    hint = "   ".join(f"[key]{escape('[' + ('Enter' if k == '' else k) + ']')}[/] {label}"
+    hint = "   ".join(f"[key]{escape('[' + ('Enter' if k == '' else k) + ']')}[/] {escape(label)}"
                       for k, label in options.items())
     if "q" not in options:
         hint += "   " + QUIT_HINT

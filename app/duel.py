@@ -279,6 +279,19 @@ class Round:
 
 # ---------- host and guest ----------
 
+def clean_result(raw: dict) -> dict | None:
+    """The host's result, checked and cleaned (None if it's broken): two names, two scores, a winner."""
+    names, scores, winner = raw.get("names"), raw.get("scores"), raw.get("winner")
+    if not isinstance(names, list) or not isinstance(scores, list) or len(names) != 2 or len(scores) != 2 \
+            or not all(isinstance(s, int) and not isinstance(s, bool) and 0 <= s < 100000 for s in scores):
+        return None
+    names = [lan.clean_text(n, 30) or f"Player {i}" for i, n in enumerate(names, 1)]
+    winner = lan.clean_text(winner, 30) if winner is not None else None
+    if winner is not None and winner not in names:
+        return None
+    return {"type": "result", "names": names, "scores": scores, "winner": winner}
+
+
 def _started(ctx) -> set[str]:
     return {wid for wid, s in ctx.profile.data["vocab"].items() if s.get("box", 0) >= 1}
 
@@ -349,8 +362,9 @@ def run_host(ctx, port: int = lan.PORT, invite: dict | None = None) -> None:
         if hello.get("version") != lan.PROTOCOL:
             conn.send({"type": "error", "message": "The two computers have different app versions: run gtutor update on both."})
             raise OpponentLeft("the other computer has a different app version (run gtutor update on both)")
-        guest = str(hello.get("name") or "Player 2")[:30]
-        guest_started = {str(x) for x in hello.get("started", [])} if isinstance(hello.get("started"), list) else set()
+        guest = lan.clean_text(hello.get("name"), 30) or "Player 2"
+        started = hello.get("started") if isinstance(hello.get("started"), list) else []
+        guest_started = {x for x in started[:20000] if isinstance(x, str) and len(x) <= 40}
         me = ctx.profile.name
         conn.send({"type": "welcome", "name": me, "version": lan.PROTOCOL})
         while True:
@@ -393,23 +407,23 @@ def run_join(ctx, ip: str, port: int = lan.PORT) -> None:
         if reply is None or reply["type"] not in ("welcome", "error"):
             raise OpponentLeft("the other computer didn't answer like this app")
         if reply["type"] == "error":
-            raise OpponentLeft(str(reply.get("message", "the host said no")))
-        host_name = str(reply.get("name") or "Player 1")[:30]
+            raise OpponentLeft(lan.clean_text(reply.get("message"), 200) or "the host said no")
+        host_name = lan.clean_text(reply.get("name"), 30) or "Player 1"
         ui.clear()
         ui.title("Duel · joined")
         console.print(f"Connected to [bold]{ui.escape(host_name)}[/].")
         while True:
             console.print(f"[hint]Waiting for {ui.escape(host_name)} to start a round… (press any key to leave)[/]")
             challenge = _wait_message(conn, "challenge", 3600, leave_on_key=True)
-            questions = challenge.get("questions")
-            if not isinstance(questions, list) or not questions:
+            questions = presence.clean_questions(challenge.get("questions"))
+            if questions is None:
                 raise OpponentLeft("the challenge from the host was broken")
             conn.send({"type": "ready"})
             _wait_message(conn, "start", 30)
             rnd = Round(ctx, conn, questions, ctx.profile.name, host_name)
             conn.send({"type": "finished", "answers": rnd.play()})
-            result = rnd.wait_for("result", f"You're done! Waiting for {host_name} to finish…")
-            if not isinstance(result.get("scores"), list) or not isinstance(result.get("names"), list):
+            result = clean_result(rnd.wait_for("result", f"You're done! Waiting for {host_name} to finish…"))
+            if result is None:
                 raise OpponentLeft("the result from the host was broken")
             show_results(result, ctx.profile.name)
             if rnd.gone:  # the host stopped right after the round
@@ -453,8 +467,16 @@ def menu(ctx) -> None:
         console.print("[hint]Nobody else is online on this Wi-Fi right now (they need the app open).[/]")
     if ctx.presence and known_kids(ctx):
         options["c"] = "challenge someone to play when they like (no need to be online together)"
-    options.update({"h": "host by address", "j": "join by address", "": "back"})
+    options.update({"h": "host by address", "j": "join by address"})
+    fixed = isinstance(ctx.settings.get("share_on_wifi", "ask"), bool)  # the parent decided in config.json
+    if not fixed:
+        options["w"] = ("stop finding each other on this Wi-Fi" if ctx.presence
+                        else "find each other on this Wi-Fi (home Wi-Fi only)")
+    options[""] = "back"
     choice = ui.keys(options)
+    if choice == "w":
+        switch_sharing(ctx)
+        return
     if choice == "p":
         play_challenge(ctx, first)
     elif choice == "c":
@@ -483,6 +505,23 @@ def menu(ctx) -> None:
             ctx.profile.data["duel_host"] = ip
             ctx.profile.save()
             run_join(ctx, ip)
+
+
+def switch_sharing(ctx) -> None:
+    """Wi-Fi sharing on or off for this kid. Off works at once; on from the next start."""
+    on = not ctx.presence
+    ctx.profile.data["share_on_wifi"] = on
+    if ctx.presence:
+        _save(ctx)  # keep what was heard so far
+        ctx.presence.stop()
+        ctx.presence = None
+        ui.NEWS[0] = None
+    else:
+        ctx.profile.save()
+    console.print("[good]On: the app looks for the others the next time it starts.[/]" if on
+                  else "[good]Off: nothing is sent or received on the Wi-Fi now.[/] "
+                       "[hint]Duels by address (h / j) still work.[/]")
+    ui.keys({"": "back"})
 
 
 # ---------- asynchronous challenges: the same words, each kid plays when they like ----------
