@@ -290,8 +290,10 @@ def run_warmup(ctx) -> WarmupResult | None:
     today = ctx.profile.day(ctx.today)
     first_today = not today.get("warmups")
     size = todays_size(ctx)
-    new_allowed = max(0, srs.new_word_cap(ctx.settings, size) - today.get("new", 0)) if first_today else 0
     states = ctx.profile.data["vocab"]
+    due_now = sum(1 for s in states.values() if s.get("box", 0) >= 1 and s.get("due") and s["due"] <= ctx.today.isoformat())
+    new_cap, why = srs.new_words_today(ctx.settings, size, ctx.profile.data["days"], states, ctx.today, due_now)
+    new_allowed = max(0, new_cap - today.get("new", 0)) if first_today else 0
     plan = srs.plan_session(states, words, goals.settings_for(ctx.settings, ctx.profile.data), ctx.today, size,
                             new_allowed, goals.allowed_words(words, ctx.profile.data), goals.topics(ctx.profile.data))
     # Key words of paragraphs already read come on top, in the day's first warm-up: new ones as new words,
@@ -326,6 +328,8 @@ def run_warmup(ctx) -> WarmupResult | None:
              f"{len(again)} again from your reading"]
     if plan.waiting and first_today:
         parts.append(f"{plan.waiting} more wait for tomorrow")
+    if why and first_today:
+        parts.append(why)
     console.print(" · ".join(p for p in parts if not p.startswith("0 ")))
     console.print(("First you [bold]memorise[/] the new words (no typing), then you [bold]type[/] every word."
                    if plan.new else "You [bold]type[/] every word.")

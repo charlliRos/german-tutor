@@ -103,6 +103,30 @@ def new_word_cap(settings: dict, size: int) -> int:
     return min(cap, int(settings.get("new_word_max", 15)))
 
 
+def new_words_today(settings: dict, size: int, days: dict, states: dict, today: date, due: int) -> tuple[int, str]:
+    """How many new words today, and why if it isn't the usual number (docs/LEARNING_DESIGN.md 3.2):
+    fewer while reviews go badly or many words keep slipping, a couple more while it goes very well, and
+    none while a kid who skipped days catches up on a full session of due words."""
+    top, bottom = int(settings.get("new_word_max", 15)), int(settings["min_new_words"])
+    cap, reason = new_word_cap(settings, size), ""
+    week_start = (today - timedelta(days=7)).isoformat()
+    practised = [d for d, c in days.items() if week_start <= d < today.isoformat() and (c.get("warmups") or c.get("units"))]
+    if len(practised) < 3 and due >= size:
+        return 0, "catching up: reviews first today, new words once they're done"
+    recent = [c for d, c in sorted(days.items()) if d < today.isoformat() and c.get("words")][-7:]
+    answered = sum(c["words"] for c in recent)
+    if answered >= 20:
+        share = (sum(c.get("right", 0) for c in recent) + 0.5 * sum(c.get("almost", 0) for c in recent)) / answered
+        if share < 0.7:
+            cap, reason = cap - 2, "consolidating: fewer new words until the reviews go better"
+        elif share > 0.9:
+            cap, reason = cap + 2, "going well: a couple of extra new words"
+    slipping = sum(1 for s in states.values() if is_leech(s) and not parked(s, today))
+    if slipping > 10:
+        cap, reason = cap - 3, f"{slipping} words keep slipping: fewer new ones until they stick"
+    return max(bottom, min(cap, top)), reason
+
+
 @dataclass
 class Plan:
     reviews: list[str]

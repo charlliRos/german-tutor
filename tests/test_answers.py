@@ -134,6 +134,24 @@ class SpacedRepetition(unittest.TestCase):
         self.assertIsNone(goals.allowed_words(words, {"target": "C1"}))
         self.assertEqual(goals.settings_for({"bank_shares": {"daily": 1}}, {"target": "A2"})["bank_shares"]["daily"], 0.9)
 
+    def test_new_words_adapt_to_how_reviews_go(self):
+        settings = {**self.SETTINGS, "new_word_max": 15}
+        today = date(2026, 1, 20)
+        def days(right, almost=0, words=40, practised=5):
+            return {f"2026-01-{19 - n:02d}": {"words": words, "right": right, "almost": almost, "warmups": 1}
+                    for n in range(practised)}
+        size = 40  # usual cap: 10
+        self.assertEqual(srs.new_words_today(settings, size, days(30), {}, today, 0), (10, ""))
+        self.assertEqual(srs.new_words_today(settings, size, days(20), {}, today, 0)[0], 8)       # 50%: fewer
+        self.assertEqual(srs.new_words_today(settings, size, days(39), {}, today, 0)[0], 12)      # 97%: more
+        self.assertEqual(srs.new_words_today(settings, 200, days(39), {}, today, 0)[0], 15)       # never over the max
+        leeches = {f"w{i}": {"box": 1, "wrong": 5, "due": "2026-01-20"} for i in range(11)}
+        self.assertEqual(srs.new_words_today(settings, size, days(30), leeches, today, 0)[0], 7)  # 11 slipping: -3
+        count, why = srs.new_words_today(settings, size, days(30, practised=2), {}, today, due=50)
+        self.assertEqual(count, 0)  # skipped days and a full session due: reviews first
+        self.assertIn("catching up", why)
+        self.assertEqual(srs.new_words_today(settings, size, days(30, practised=2), {}, today, due=5)[0], 10)
+
     def test_new_words_per_day_are_capped(self):
         self.assertEqual(srs.new_word_cap(self.SETTINGS, 10), 3)
         self.assertEqual(srs.new_word_cap(self.SETTINGS, 40), 10)
