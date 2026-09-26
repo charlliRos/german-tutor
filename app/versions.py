@@ -73,6 +73,13 @@ def current_items(vocab_dir: Path = VOCAB_DIR, books_dir: Path = BOOKS_DIR, verb
         exam = _load(path)
         for part in exam.get("parts", []):
             texts = {t.get("id"): t for t in part.get("texts", [])}
+            if part.get("skill") == "speaking":
+                for t in part.get("tasks", []):
+                    items[f"{exam['id']}.{part['id']}.{t.get('id')}"] = {
+                        "kind": "exam", "answer": _hash(t.get("keywords")),
+                        "wording": _hash([t.get("prompt_de"), t.get("partner_de"), t.get("card")]),
+                        "presentation": _hash([t.get("prompt_en"), t.get("model_de")])}
+                continue
             if part.get("skill") == "writing":
                 items[f"{exam['id']}.{part['id']}"] = {
                     "kind": "exam", "answer": _hash(part.get("points")), "wording": _hash(part.get("task_de")),

@@ -123,7 +123,7 @@ class Doing(unittest.TestCase):
         self.assertEqual(list(exams.choices(part.items[0], part)), ["a", "b"])
         self.ctx.audio.can_speak = True
         heard = []
-        with mock.patch("app.exam_practice.hear", lambda ctx, text, slow=True: heard.append(text)):
+        with mock.patch("app.exam_practice.hear", lambda ctx, text, slow=True: heard.append(text)),                 mock.patch("app.exam_practice.hear_lines", lambda ctx, lines: heard.append(" ".join(l["de"] for l in lines))):
             self.run_with(part, ["a"])
         self.assertEqual(heard, ["Am Montag spiele ich Fußball."])
         self.assertEqual(self.ctx.profile.data["exams"]["t-01"]["hoeren-2"]["score"], 1)
@@ -131,7 +131,7 @@ class Doing(unittest.TestCase):
     def test_listening_with_sound_allows_one_replay(self):
         self.ctx.audio.can_speak = True
         heard = []
-        with mock.patch("app.exam_practice.hear", lambda ctx, text, slow=True: heard.append(text)):
+        with mock.patch("app.exam_practice.hear", lambda ctx, text, slow=True: heard.append(text)),                 mock.patch("app.exam_practice.hear_lines", lambda ctx, lines: heard.append(" ".join(l["de"] for l in lines))):
             self.run_with(self.exam.parts[2], [exam_practice.REPLAY, "n"])
         self.assertEqual(len(heard), 2)  # played once, heard again once (plays = 2)
         self.assertIn("Ja, gern.", heard[0])
@@ -178,6 +178,29 @@ class ParentReport(unittest.TestCase):
         self.assertEqual(lines, ["A2 Test exam: Lesen 3/4 [good]pass[/] · Schreiben: 1 task(s) done"])
         self.assertEqual(partial, ["A2 Test exam: Lesen 0/2 (some parts)"])  # no pass/fail on half a module
 
+
+class Voices(unittest.TestCase):
+    def test_speakers_get_voices_they_can_be_told_apart_by(self):
+        from app.speaking import voices_for
+        self.assertEqual(voices_for(["Frau", "Mann"]), {"Frau": "high", "Mann": ""})
+        self.assertEqual(voices_for(["Tom", "Lena", "Jonas", "Sophie"]),
+                         {"Tom": "", "Lena": "high", "Jonas": "low", "Sophie": "higher"})
+        self.assertEqual(voices_for(["Moderatorin", "Herr Brandt"]), {"Moderatorin": "high", "Herr Brandt": ""})
+
+    def test_a_voice_keeps_normal_speed_and_changes_pitch(self):
+        from types import SimpleNamespace
+        import numpy as np
+        from app import audio
+        a = audio.Audio.__new__(audio.Audio)
+        a._cache = {}
+        a._synthesis_config = lambda length_scale: SimpleNamespace(length_scale=length_scale)
+        # A fake voice: 1 second of sound per unit of length_scale at 22050 Hz.
+        a.voice = SimpleNamespace(synthesize=lambda text, config: [SimpleNamespace(
+            sample_rate=22050, audio_float_array=np.zeros(int(22050 * config.length_scale), np.float32))])
+        plain, plain_rate = a.synthesize("Hallo", 1.0)
+        high, high_rate = a.synthesize("Hallo", 1.0, "high")
+        self.assertAlmostEqual(len(high) / high_rate, len(plain) / plain_rate, delta=0.08)  # same length
+        self.assertGreater(high_rate, plain_rate)  # played faster than it was made: higher pitch
 
 if __name__ == "__main__":
     unittest.main()

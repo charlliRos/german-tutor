@@ -3,11 +3,20 @@
   "level": "B1",
   "style": "Goethe-Zertifikat B1",
   "title": "Practice exam B1 · 1",
-  "about_en": "A full practice exam in the format of the Goethe-Zertifikat B1: reading (65 min), listening (40 min) and writing (60 min); the speaking module is not included. B1 is the level often asked for by exchange programmes, apprenticeships and German schools.",
+  "about_en": "A full practice exam in the format of the Goethe-Zertifikat B1: reading (65 min), listening (40 min), writing (60 min) and speaking (the computer plays your partner, and the speech check listens). B1 is the level often asked for by exchange programmes, apprenticeships and German schools.",
   "official_practice": [
-    {"title": "Goethe-Zertifikat B1: official model exam (Modellsatz, PDF)", "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_erwachsene.pdf"},
-    {"title": "Goethe-Zertifikat B1: official practice set (Übungssatz, PDF)", "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Erwachsene.pdf"},
-    {"title": "Goethe-Zertifikat B1: model exam to practise online", "url": "https://bfu.goethe.de/b1_mod/"}
+    {
+      "title": "Goethe-Zertifikat B1: official model exam (Modellsatz, PDF)",
+      "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_erwachsene.pdf"
+    },
+    {
+      "title": "Goethe-Zertifikat B1: official practice set (Übungssatz, PDF)",
+      "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Erwachsene.pdf"
+    },
+    {
+      "title": "Goethe-Zertifikat B1: model exam to practise online",
+      "url": "https://bfu.goethe.de/b1_mod/"
+    }
   ],
   "parts": [
     {
@@ -17,15 +26,68 @@
       "instructions_en": "Read the blog post. Are the statements 1 to 6 true (richtig) or false (falsch)?",
       "minutes": 10,
       "texts": [
-        {"id": "t1", "title": "Vier Monate Kanada – Lenas Blog", "de": "Hallo zusammen! Seit drei Wochen bin ich wieder zu Hause in Freiburg, und endlich habe ich Zeit, von meinem Schüleraustausch zu erzählen. Im letzten Herbst verbrachte ich vier Monate in Halifax, einer Stadt an der Ostküste Kanadas. Eigentlich wollte ich nach England, aber dort waren alle Plätze schon vergeben. Heute bin ich froh darüber, denn Kanada war genau das Richtige für mich.\n\nMeine Gastfamilie, die Morrisons, wohnte in einem Holzhaus direkt am Meer. Am Anfang war ich ziemlich nervös, weil ich vorher nur eine kurze E-Mail von ihnen bekommen hatte. Doch schon am ersten Abend kochte meine Gastmutter extra für mich Spätzle – sie hatte das Rezept im Internet gefunden! Die Spätzle waren zwar etwas zu weich, aber ich fühlte mich sofort willkommen. Meine Gastschwester Emma ist genauso alt wie ich, und wir verstanden uns von Anfang an super.\n\nIn der Schule war vieles anders als bei uns. Der Unterricht dauerte jeden Tag bis halb drei, danach gab es Clubs und Sport. Ich meldete mich für den Theaterclub an, obwohl ich vorher noch nie auf einer Bühne gestanden hatte. Im Dezember spielten wir ein Stück vor über 200 Zuschauern, und ich hatte sogar eine kleine Sprechrolle. Das hätte ich mir vorher nie zugetraut!\n\nNatürlich war nicht alles leicht. In den ersten Wochen verstand ich die Lehrer kaum, weil sie so schnell sprachen. Außerdem vermisste ich meine Freunde, besonders an meinem Geburtstag im Oktober. Meine Eltern hatten mir gesagt, dass ich jeden Tag anrufen darf, aber das habe ich bewusst nicht gemacht. Ich wollte mich lieber richtig auf das neue Leben einlassen.\n\nWenn ihr auch über einen Austausch nachdenkt, kann ich euch nur einen Tipp geben: Macht es! Ihr solltet aber nicht erwarten, dass alles sofort perfekt ist. Emma besucht mich übrigens im Sommer – ich freue mich schon riesig!"}
+        {
+          "id": "t1",
+          "title": "Vier Monate Kanada – Lenas Blog",
+          "de": "Hallo zusammen! Seit drei Wochen bin ich wieder zu Hause in Freiburg, und endlich habe ich Zeit, von meinem Schüleraustausch zu erzählen. Im letzten Herbst verbrachte ich vier Monate in Halifax, einer Stadt an der Ostküste Kanadas. Eigentlich wollte ich nach England, aber dort waren alle Plätze schon vergeben. Heute bin ich froh darüber, denn Kanada war genau das Richtige für mich.\n\nMeine Gastfamilie, die Morrisons, wohnte in einem Holzhaus direkt am Meer. Am Anfang war ich ziemlich nervös, weil ich vorher nur eine kurze E-Mail von ihnen bekommen hatte. Doch schon am ersten Abend kochte meine Gastmutter extra für mich Spätzle – sie hatte das Rezept im Internet gefunden! Die Spätzle waren zwar etwas zu weich, aber ich fühlte mich sofort willkommen. Meine Gastschwester Emma ist genauso alt wie ich, und wir verstanden uns von Anfang an super.\n\nIn der Schule war vieles anders als bei uns. Der Unterricht dauerte jeden Tag bis halb drei, danach gab es Clubs und Sport. Ich meldete mich für den Theaterclub an, obwohl ich vorher noch nie auf einer Bühne gestanden hatte. Im Dezember spielten wir ein Stück vor über 200 Zuschauern, und ich hatte sogar eine kleine Sprechrolle. Das hätte ich mir vorher nie zugetraut!\n\nNatürlich war nicht alles leicht. In den ersten Wochen verstand ich die Lehrer kaum, weil sie so schnell sprachen. Außerdem vermisste ich meine Freunde, besonders an meinem Geburtstag im Oktober. Meine Eltern hatten mir gesagt, dass ich jeden Tag anrufen darf, aber das habe ich bewusst nicht gemacht. Ich wollte mich lieber richtig auf das neue Leben einlassen.\n\nWenn ihr auch über einen Austausch nachdenkt, kann ich euch nur einen Tipp geben: Macht es! Ihr solltet aber nicht erwarten, dass alles sofort perfekt ist. Emma besucht mich übrigens im Sommer – ich freue mich schon riesig!"
+        }
       ],
+      "example": {
+        "type": "tf",
+        "text": "t1",
+        "question": "Lena ist seit drei Wochen wieder in Freiburg.",
+        "answer": "richtig",
+        "explain_en": "The blog begins „Seit drei Wochen bin ich wieder zu Hause in Freiburg“."
+      },
       "items": [
-        {"id": "1", "type": "tf", "text": "t1", "question": "Lena wollte zuerst an einem Austausch in England teilnehmen.", "answer": "richtig", "explain_en": "Lena writes „Eigentlich wollte ich nach England, aber dort waren alle Plätze schon vergeben“."},
-        {"id": "2", "type": "tf", "text": "t1", "question": "Vor der Reise hatte Lena viel Kontakt mit ihrer Gastfamilie.", "answer": "falsch", "explain_en": "She was nervous because she had only received „nur eine kurze E-Mail“ from the family."},
-        {"id": "3", "type": "tf", "text": "t1", "question": "Das erste Essen bei der Gastfamilie war perfekt gekocht.", "answer": "falsch", "explain_en": "The Spätzle were „etwas zu weich“ (a bit too soft), even though Lena felt welcome."},
-        {"id": "4", "type": "tf", "text": "t1", "question": "Lena hatte vor dem Austausch noch nie auf einer Bühne gestanden.", "answer": "richtig", "explain_en": "She joined the theatre club „obwohl ich vorher noch nie auf einer Bühne gestanden hatte“."},
-        {"id": "5", "type": "tf", "text": "t1", "question": "Lena telefonierte jeden Tag mit ihren Eltern.", "answer": "falsch", "explain_en": "She was allowed to call every day, „aber das habe ich bewusst nicht gemacht“."},
-        {"id": "6", "type": "tf", "text": "t1", "question": "Lena rät anderen Jugendlichen zu einem Austausch.", "answer": "richtig", "explain_en": "Her tip for anyone thinking about an exchange is „Macht es!“ (Do it!)."}
+        {
+          "id": "1",
+          "type": "tf",
+          "text": "t1",
+          "question": "Lena wollte zuerst an einem Austausch in England teilnehmen.",
+          "answer": "richtig",
+          "explain_en": "Lena writes „Eigentlich wollte ich nach England, aber dort waren alle Plätze schon vergeben“."
+        },
+        {
+          "id": "2",
+          "type": "tf",
+          "text": "t1",
+          "question": "Vor der Reise hatte Lena viel Kontakt mit ihrer Gastfamilie.",
+          "answer": "falsch",
+          "explain_en": "She was nervous because she had only received „nur eine kurze E-Mail“ from the family."
+        },
+        {
+          "id": "3",
+          "type": "tf",
+          "text": "t1",
+          "question": "Das erste Essen bei der Gastfamilie war perfekt gekocht.",
+          "answer": "falsch",
+          "explain_en": "The Spätzle were „etwas zu weich“ (a bit too soft), even though Lena felt welcome."
+        },
+        {
+          "id": "4",
+          "type": "tf",
+          "text": "t1",
+          "question": "Lena hatte vor dem Austausch noch nie auf einer Bühne gestanden.",
+          "answer": "richtig",
+          "explain_en": "She joined the theatre club „obwohl ich vorher noch nie auf einer Bühne gestanden hatte“."
+        },
+        {
+          "id": "5",
+          "type": "tf",
+          "text": "t1",
+          "question": "Lena telefonierte jeden Tag mit ihren Eltern.",
+          "answer": "falsch",
+          "explain_en": "She was allowed to call every day, „aber das habe ich bewusst nicht gemacht“."
+        },
+        {
+          "id": "6",
+          "type": "tf",
+          "text": "t1",
+          "question": "Lena rät anderen Jugendlichen zu einem Austausch.",
+          "answer": "richtig",
+          "explain_en": "Her tip for anyone thinking about an exchange is „Macht es!“ (Do it!)."
+        }
       ]
     },
     {
@@ -35,16 +97,108 @@
       "instructions_en": "Read the two newspaper articles. Choose a, b or c for each question 7 to 12.",
       "minutes": 20,
       "texts": [
-        {"id": "t1", "title": "Eine Woche ohne Handy – Schüler machen den Test", "de": "Wie lange hältst du es ohne Smartphone aus? Diese Frage stellten sich im Frühjahr 24 Schülerinnen und Schüler einer neunten Klasse aus Kassel. Eine Woche lang durften sie ihre Handys nur für Anrufe mit den Eltern benutzen; soziale Netzwerke, Videos und Spiele waren tabu. Die Idee dazu hatte nicht die Lehrerin, sondern die Klassensprecherin Mia Schulz. „Ich habe gemerkt, dass ich abends oft zwei, drei Stunden auf Instagram und TikTok verbringe, ohne es zu wollen“, erzählt die 15-Jährige. „Ich wollte wissen, ob es den anderen auch so geht.“\n\nDie ersten Tage waren für viele schwierig. Einige Jugendliche berichteten, dass sie immer wieder automatisch zur Hosentasche griffen. Andere hatten Angst, etwas Wichtiges zu verpassen, zum Beispiel Nachrichten in der Klassengruppe. Doch nach drei Tagen änderte sich die Stimmung. In den Pausen wurde plötzlich mehr gesprochen und Fußball gespielt, und mehrere Schüler erzählten, dass sie abends früher eingeschlafen seien.\n\nAm Ende der Woche wurden alle Teilnehmenden befragt. Nur zwei wollten sofort wieder genauso viel Zeit am Handy verbringen wie vorher. Die meisten nahmen sich vor, ihr Handy wenigstens beim Lernen und beim Essen wegzulegen. Ganz verzichten möchte aber niemand: „Soziale Medien sind nicht schlecht“, meint Mia. „Man muss nur selbst entscheiden, wann man sie benutzt – und nicht umgekehrt.“ Inzwischen haben zwei weitere Klassen der Schule angekündigt, das Experiment im Herbst zu wiederholen."},
-        {"id": "t2", "title": "Vom Gymnasium in die Werkstatt", "de": "Als Jana Keller vor zwei Jahren ihr Abitur machte, erwarteten alle, dass sie studieren würde. Ihre Noten waren sehr gut, und ihre Eltern hatten schon Informationen über ein Medizinstudium gesammelt. Doch Jana entschied sich anders: Heute ist sie im zweiten Lehrjahr ihrer Ausbildung zur Zweiradmechatronikerin – so heißt der Beruf, in dem man Fahrräder und Motorräder repariert und baut.\n\n„Ich habe schon als Kind lieber an meinem Fahrrad geschraubt, als mit Puppen zu spielen“, sagt die 20-Jährige und lacht. Auf die Idee brachte sie ein Praktikum, das sie in der elften Klasse in einem Fahrradladen machte. „Nach zwei Wochen wusste ich: Das ist mein Ding. Abends sieht man, was man mit den eigenen Händen geschafft hat.“\n\nIn ihrem Betrieb in Münster ist Jana die einzige Frau in der Werkstatt. Probleme hatte sie deswegen kaum, erzählt sie. Nur manche Kunden seien am Anfang überrascht gewesen und hätten lieber mit einem ihrer Kollegen gesprochen. „Wenn ich ihnen dann erkläre, was an ihrem Rad kaputt ist, ist das schnell vergessen.“\n\nDie Ausbildung dauert dreieinhalb Jahre. Zwei Tage pro Woche geht Jana in die Berufsschule, an den anderen Tagen arbeitet sie im Betrieb. Reich wird sie dabei nicht: Im zweiten Lehrjahr verdient sie rund 900 Euro im Monat. Trotzdem bereut sie ihre Entscheidung nicht. Nach der Ausbildung möchte sie die Meisterprüfung machen und irgendwann eine eigene Werkstatt eröffnen – am liebsten mit einem kleinen Café, in dem die Kunden warten können, während ihr Rad repariert wird."}
+        {
+          "id": "t1",
+          "title": "Eine Woche ohne Handy – Schüler machen den Test",
+          "de": "Wie lange hältst du es ohne Smartphone aus? Diese Frage stellten sich im Frühjahr 24 Schülerinnen und Schüler einer neunten Klasse aus Kassel. Eine Woche lang durften sie ihre Handys nur für Anrufe mit den Eltern benutzen; soziale Netzwerke, Videos und Spiele waren tabu. Die Idee dazu hatte nicht die Lehrerin, sondern die Klassensprecherin Mia Schulz. „Ich habe gemerkt, dass ich abends oft zwei, drei Stunden auf Instagram und TikTok verbringe, ohne es zu wollen“, erzählt die 15-Jährige. „Ich wollte wissen, ob es den anderen auch so geht.“\n\nDie ersten Tage waren für viele schwierig. Einige Jugendliche berichteten, dass sie immer wieder automatisch zur Hosentasche griffen. Andere hatten Angst, etwas Wichtiges zu verpassen, zum Beispiel Nachrichten in der Klassengruppe. Doch nach drei Tagen änderte sich die Stimmung. In den Pausen wurde plötzlich mehr gesprochen und Fußball gespielt, und mehrere Schüler erzählten, dass sie abends früher eingeschlafen seien.\n\nAm Ende der Woche wurden alle Teilnehmenden befragt. Nur zwei wollten sofort wieder genauso viel Zeit am Handy verbringen wie vorher. Die meisten nahmen sich vor, ihr Handy wenigstens beim Lernen und beim Essen wegzulegen. Ganz verzichten möchte aber niemand: „Soziale Medien sind nicht schlecht“, meint Mia. „Man muss nur selbst entscheiden, wann man sie benutzt – und nicht umgekehrt.“ Inzwischen haben zwei weitere Klassen der Schule angekündigt, das Experiment im Herbst zu wiederholen."
+        },
+        {
+          "id": "t2",
+          "title": "Vom Gymnasium in die Werkstatt",
+          "de": "Als Jana Keller vor zwei Jahren ihr Abitur machte, erwarteten alle, dass sie studieren würde. Ihre Noten waren sehr gut, und ihre Eltern hatten schon Informationen über ein Medizinstudium gesammelt. Doch Jana entschied sich anders: Heute ist sie im zweiten Lehrjahr ihrer Ausbildung zur Zweiradmechatronikerin – so heißt der Beruf, in dem man Fahrräder und Motorräder repariert und baut.\n\n„Ich habe schon als Kind lieber an meinem Fahrrad geschraubt, als mit Puppen zu spielen“, sagt die 20-Jährige und lacht. Auf die Idee brachte sie ein Praktikum, das sie in der elften Klasse in einem Fahrradladen machte. „Nach zwei Wochen wusste ich: Das ist mein Ding. Abends sieht man, was man mit den eigenen Händen geschafft hat.“\n\nIn ihrem Betrieb in Münster ist Jana die einzige Frau in der Werkstatt. Probleme hatte sie deswegen kaum, erzählt sie. Nur manche Kunden seien am Anfang überrascht gewesen und hätten lieber mit einem ihrer Kollegen gesprochen. „Wenn ich ihnen dann erkläre, was an ihrem Rad kaputt ist, ist das schnell vergessen.“\n\nDie Ausbildung dauert dreieinhalb Jahre. Zwei Tage pro Woche geht Jana in die Berufsschule, an den anderen Tagen arbeitet sie im Betrieb. Reich wird sie dabei nicht: Im zweiten Lehrjahr verdient sie rund 900 Euro im Monat. Trotzdem bereut sie ihre Entscheidung nicht. Nach der Ausbildung möchte sie die Meisterprüfung machen und irgendwann eine eigene Werkstatt eröffnen – am liebsten mit einem kleinen Café, in dem die Kunden warten können, während ihr Rad repariert wird."
+        }
       ],
+      "example": {
+        "type": "mc",
+        "text": "t1",
+        "question": "Die Idee für das Experiment hatte …",
+        "options": {
+          "a": "die Lehrerin.",
+          "b": "die Klassensprecherin.",
+          "c": "die Schulleitung."
+        },
+        "answer": "b",
+        "explain_en": "„Die Idee dazu hatte nicht die Lehrerin, sondern die Klassensprecherin Mia Schulz.“"
+      },
       "items": [
-        {"id": "7", "type": "mc", "text": "t1", "question": "In diesem Text geht es um …", "options": {"a": "ein neues Schulfach über soziale Medien.", "b": "die Erfahrungen einer Klasse mit weniger Handynutzung.", "c": "ein dauerhaftes Handyverbot an allen Schulen in Kassel."}, "answer": "b", "explain_en": "The article describes a class’s week of restricted phone use and what the students learned from it."},
-        {"id": "8", "type": "mc", "text": "t1", "question": "In den ersten Tagen …", "options": {"a": "konnten die Schüler abends besser schlafen.", "b": "spielten viele Schüler in den Pausen Fußball.", "c": "fiel es vielen schwer, auf das Handy zu verzichten."}, "answer": "c", "explain_en": "„Die ersten Tage waren für viele schwierig“; football and better sleep only came „nach drei Tagen“."},
-        {"id": "9", "type": "mc", "text": "t1", "question": "Nach dem Experiment …", "options": {"a": "wollen die meisten ihr Handy in bestimmten Situationen weglegen.", "b": "möchten viele ganz ohne soziale Medien leben.", "c": "wird das Handy an der ganzen Schule verboten."}, "answer": "a", "explain_en": "Most planned to put the phone away „beim Lernen und beim Essen“, and „Ganz verzichten möchte aber niemand“."},
-        {"id": "10", "type": "mc", "text": "t2", "question": "In diesem Text geht es um …", "options": {"a": "die Eröffnung eines neuen Fahrradgeschäfts.", "b": "die Vorteile eines Medizinstudiums.", "c": "eine junge Frau, die nach dem Abitur einen handwerklichen Beruf lernt."}, "answer": "c", "explain_en": "The article describes Jana’s choice of vocational training, her work and her future plans."},
-        {"id": "11", "type": "mc", "text": "t2", "question": "Auf die Idee für ihren Beruf kam Jana durch …", "options": {"a": "ein Praktikum in der Schulzeit.", "b": "einen Kurs an der Berufsschule.", "c": "einen Tipp von ihren Eltern."}, "answer": "a", "explain_en": "„Auf die Idee brachte sie ein Praktikum, das sie in der elften Klasse in einem Fahrradladen machte.“"},
-        {"id": "12", "type": "mc", "text": "t2", "question": "Manche Kunden …", "options": {"a": "haben sich beim Chef über Jana beschwert.", "b": "wollten am Anfang lieber mit einem Kollegen sprechen.", "c": "bringen ihr Fahrrad nur noch zu Jana."}, "answer": "b", "explain_en": "Some customers „hätten lieber mit einem ihrer Kollegen gesprochen“ at first."}
+        {
+          "id": "7",
+          "type": "mc",
+          "text": "t1",
+          "question": "In diesem Text geht es um …",
+          "options": {
+            "a": "ein neues Schulfach über soziale Medien.",
+            "b": "die Erfahrungen einer Klasse mit weniger Handynutzung.",
+            "c": "ein dauerhaftes Handyverbot an allen Schulen in Kassel."
+          },
+          "answer": "b",
+          "explain_en": "The article describes a class’s week of restricted phone use and what the students learned from it."
+        },
+        {
+          "id": "8",
+          "type": "mc",
+          "text": "t1",
+          "question": "In den ersten Tagen …",
+          "options": {
+            "a": "konnten die Schüler abends besser schlafen.",
+            "b": "spielten viele Schüler in den Pausen Fußball.",
+            "c": "fiel es vielen schwer, auf das Handy zu verzichten."
+          },
+          "answer": "c",
+          "explain_en": "„Die ersten Tage waren für viele schwierig“; football and better sleep only came „nach drei Tagen“."
+        },
+        {
+          "id": "9",
+          "type": "mc",
+          "text": "t1",
+          "question": "Nach dem Experiment …",
+          "options": {
+            "a": "wollen die meisten ihr Handy in bestimmten Situationen weglegen.",
+            "b": "möchten viele ganz ohne soziale Medien leben.",
+            "c": "wird das Handy an der ganzen Schule verboten."
+          },
+          "answer": "a",
+          "explain_en": "Most planned to put the phone away „beim Lernen und beim Essen“, and „Ganz verzichten möchte aber niemand“."
+        },
+        {
+          "id": "10",
+          "type": "mc",
+          "text": "t2",
+          "question": "In diesem Text geht es um …",
+          "options": {
+            "a": "die Eröffnung eines neuen Fahrradgeschäfts.",
+            "b": "die Vorteile eines Medizinstudiums.",
+            "c": "eine junge Frau, die nach dem Abitur einen handwerklichen Beruf lernt."
+          },
+          "answer": "c",
+          "explain_en": "The article describes Jana’s choice of vocational training, her work and her future plans."
+        },
+        {
+          "id": "11",
+          "type": "mc",
+          "text": "t2",
+          "question": "Auf die Idee für ihren Beruf kam Jana durch …",
+          "options": {
+            "a": "ein Praktikum in der Schulzeit.",
+            "b": "einen Kurs an der Berufsschule.",
+            "c": "einen Tipp von ihren Eltern."
+          },
+          "answer": "a",
+          "explain_en": "„Auf die Idee brachte sie ein Praktikum, das sie in der elften Klasse in einem Fahrradladen machte.“"
+        },
+        {
+          "id": "12",
+          "type": "mc",
+          "text": "t2",
+          "question": "Manche Kunden …",
+          "options": {
+            "a": "haben sich beim Chef über Jana beschwert.",
+            "b": "wollten am Anfang lieber mit einem Kollegen sprechen.",
+            "c": "bringen ihr Fahrrad nur noch zu Jana."
+          },
+          "answer": "b",
+          "explain_en": "Some customers „hätten lieber mit einem ihrer Kollegen gesprochen“ at first."
+        }
       ]
     },
     {
@@ -55,25 +209,113 @@
       "minutes": 10,
       "none_allowed": true,
       "texts": [
-        {"id": "a", "title": "SpeakUp Online", "de": "Fit für den Austausch! Englisch online lernen – bequem von zu Hause. Kleine Gruppen (max. 6 Teilnehmende), Live-Unterricht per Video für Jugendliche von 14 bis 18 Jahren. Schwerpunkt: Alltagsgespräche und Schule im Ausland. Kostenlose Probestunde! www.speakup-online.de"},
-        {"id": "b", "title": "Gitarrenschule Saitensprung", "de": "Einzel- und Gruppenunterricht für Anfänger und Fortgeschrittene. Unterricht montags bis donnerstags von 14 bis 19 Uhr. Leihgitarren sind vorhanden. Anmeldung im Büro, Lindenstraße 8."},
-        {"id": "c", "title": "Jugendherberge am Dom", "de": "Städtetrip für Gruppen! Zwei Nächte mit Frühstück, Stadtführung und Eintritt ins Schokoladenmuseum – nur 79 Euro pro Person. Für Gruppen ab 4 Personen, auch in den Ferien buchbar."},
-        {"id": "d", "title": "Sommercamp Waldsee", "de": "Wir suchen Betreuerinnen und Betreuer! Du bist mindestens 16, hast Spaß an Spiel und Sport mit Kindern von 7 bis 12 Jahren und hast im Juli oder August Zeit? Wir bieten Bezahlung, Unterkunft und Verpflegung. Bewerbung an: team@camp-waldsee.de"},
-        {"id": "e", "title": "Volkshochschule", "de": "English Conversation – frischen Sie Ihr Englisch auf! Jeden Mittwoch von 19 bis 20.30 Uhr in Raum 104. Für Erwachsene mit Vorkenntnissen. 10 Termine, 85 Euro."},
-        {"id": "f", "title": "Deine erste App!", "de": "Workshop für Jugendliche von 12 bis 16 Jahren in den Herbstferien (Mo–Fr, 10–15 Uhr). Du lernst Schritt für Schritt, wie man eine eigene App programmiert. Laptops werden gestellt, Vorkenntnisse sind nicht nötig. Stadtbibliothek, Anmeldung online."},
-        {"id": "g", "title": "Kino Lichtspiele", "de": "Wir suchen Aushilfen für Kasse und Popcornverkauf, samstags und sonntags ab 16 Uhr. Mindestalter 16 Jahre. Gute Laune ist Pflicht! Einfach vorbeikommen und nach Herrn Brandt fragen."},
-        {"id": "h", "title": "Gärtnerei Grünwald", "de": "Wir suchen für die Saison eine Aushilfe (ab 16 Jahren) für den Samstag. Du hilfst beim Gießen, Pflanzen und beim Verkauf auf unserem Freigelände. Bezahlung: 13 Euro pro Stunde. Tel. 0221 / 45 67 89"},
-        {"id": "i", "title": "Bildungszentrum Nord", "de": "Programmieren für Einsteiger: In unserem Python-Kurs in den Herbstferien lernen Sie die Grundlagen der Programmierung. Teilnahme ab 18 Jahren. Eigenen Laptop bitte mitbringen."},
-        {"id": "j", "title": "Tierheim Pfotenglück", "de": "Wir suchen Freiwillige! Du gehst gern mit Hunden spazieren oder möchtest beim Füttern der Katzen helfen? Dann melde dich! Schon ab zwei Stunden pro Woche, ohne Bezahlung, aber mit viel Dank. Ab 14 Jahren (mit Einverständnis der Eltern)."}
+        {
+          "id": "a",
+          "title": "SpeakUp Online",
+          "de": "Fit für den Austausch! Englisch online lernen – bequem von zu Hause. Kleine Gruppen (max. 6 Teilnehmende), Live-Unterricht per Video für Jugendliche von 14 bis 18 Jahren. Schwerpunkt: Alltagsgespräche und Schule im Ausland. Kostenlose Probestunde! www.speakup-online.de"
+        },
+        {
+          "id": "b",
+          "title": "Gitarrenschule Saitensprung",
+          "de": "Einzel- und Gruppenunterricht für Anfänger und Fortgeschrittene. Unterricht montags bis donnerstags von 14 bis 19 Uhr. Leihgitarren sind vorhanden. Anmeldung im Büro, Lindenstraße 8."
+        },
+        {
+          "id": "c",
+          "title": "Jugendherberge am Dom",
+          "de": "Städtetrip für Gruppen! Zwei Nächte mit Frühstück, Stadtführung und Eintritt ins Schokoladenmuseum – nur 79 Euro pro Person. Für Gruppen ab 4 Personen, auch in den Ferien buchbar."
+        },
+        {
+          "id": "d",
+          "title": "Sommercamp Waldsee",
+          "de": "Wir suchen Betreuerinnen und Betreuer! Du bist mindestens 16, hast Spaß an Spiel und Sport mit Kindern von 7 bis 12 Jahren und hast im Juli oder August Zeit? Wir bieten Bezahlung, Unterkunft und Verpflegung. Bewerbung an: team@camp-waldsee.de"
+        },
+        {
+          "id": "e",
+          "title": "Volkshochschule",
+          "de": "English Conversation – frischen Sie Ihr Englisch auf! Jeden Mittwoch von 19 bis 20.30 Uhr in Raum 104. Für Erwachsene mit Vorkenntnissen. 10 Termine, 85 Euro."
+        },
+        {
+          "id": "f",
+          "title": "Deine erste App!",
+          "de": "Workshop für Jugendliche von 12 bis 16 Jahren in den Herbstferien (Mo–Fr, 10–15 Uhr). Du lernst Schritt für Schritt, wie man eine eigene App programmiert. Laptops werden gestellt, Vorkenntnisse sind nicht nötig. Stadtbibliothek, Anmeldung online."
+        },
+        {
+          "id": "g",
+          "title": "Kino Lichtspiele",
+          "de": "Wir suchen Aushilfen für Kasse und Popcornverkauf, samstags und sonntags ab 16 Uhr. Mindestalter 16 Jahre. Gute Laune ist Pflicht! Einfach vorbeikommen und nach Herrn Brandt fragen."
+        },
+        {
+          "id": "h",
+          "title": "Gärtnerei Grünwald",
+          "de": "Wir suchen für die Saison eine Aushilfe (ab 16 Jahren) für den Samstag. Du hilfst beim Gießen, Pflanzen und beim Verkauf auf unserem Freigelände. Bezahlung: 13 Euro pro Stunde. Tel. 0221 / 45 67 89"
+        },
+        {
+          "id": "i",
+          "title": "Bildungszentrum Nord",
+          "de": "Programmieren für Einsteiger: In unserem Python-Kurs in den Herbstferien lernen Sie die Grundlagen der Programmierung. Teilnahme ab 18 Jahren. Eigenen Laptop bitte mitbringen."
+        },
+        {
+          "id": "j",
+          "title": "Tierheim Pfotenglück",
+          "de": "Wir suchen Freiwillige! Du gehst gern mit Hunden spazieren oder möchtest beim Füttern der Katzen helfen? Dann melde dich! Schon ab zwei Stunden pro Woche, ohne Bezahlung, aber mit viel Dank. Ab 14 Jahren (mit Einverständnis der Eltern)."
+        }
       ],
+      "example": {
+        "type": "match",
+        "question": "Emre (17) möchte am Wochenende jobben, am liebsten in einem Kino.",
+        "answer": "g",
+        "explain_en": "The cinema (g) needs helpers aged 16+ on Saturdays and Sundays."
+      },
       "items": [
-        {"id": "13", "type": "match", "question": "Paul (16) möchte in den Sommerferien Geld verdienen und arbeitet gern mit Kindern.", "answer": "d", "explain_en": "The summer camp (d) pays helpers aged 16+ in July or August to play and do sport with children."},
-        {"id": "14", "type": "match", "question": "Selin möchte Gitarre spielen lernen, hat aber nur am Wochenende Zeit.", "answer": "x", "explain_en": "The only guitar school (b) teaches „montags bis donnerstags“, so no ad fits a weekend learner."},
-        {"id": "15", "type": "match", "question": "Tim (15) will vor seinem Austausch sein Englisch verbessern, und zwar von zu Hause aus.", "answer": "a", "explain_en": "Ad a is an online English course from home for 14- to 18-year-olds; the VHS course (e) is in a room and for adults."},
-        {"id": "16", "type": "match", "question": "Hanna (17) sucht einen Job für den Samstag, bei dem sie draußen arbeiten kann.", "answer": "h", "explain_en": "The garden centre (h) needs Saturday help „auf unserem Freigelände“ (outdoors); the cinema job (g) is indoors."},
-        {"id": "17", "type": "match", "question": "Jonas und drei Freunde möchten in den Ferien günstig eine Stadt besichtigen und in einer Jugendherberge übernachten.", "answer": "c", "explain_en": "Ad c is a cheap city trip at a youth hostel for groups of 4 or more, also in the holidays."},
-        {"id": "18", "type": "match", "question": "Lea (14) möchte sich ehrenamtlich engagieren. Sie liebt Tiere.", "answer": "j", "explain_en": "The animal shelter (j) is looking for unpaid volunteers aged 14+ to walk dogs and feed cats."},
-        {"id": "19", "type": "match", "question": "Max (15) interessiert sich für Computer und möchte in den Herbstferien lernen, eine eigene App zu programmieren.", "answer": "f", "explain_en": "Ad f is an app workshop in the autumn holidays for ages 12–16; the Python course (i) is only for people aged 18+."}
+        {
+          "id": "13",
+          "type": "match",
+          "question": "Paul (16) möchte in den Sommerferien Geld verdienen und arbeitet gern mit Kindern.",
+          "answer": "d",
+          "explain_en": "The summer camp (d) pays helpers aged 16+ in July or August to play and do sport with children."
+        },
+        {
+          "id": "14",
+          "type": "match",
+          "question": "Selin möchte Gitarre spielen lernen, hat aber nur am Wochenende Zeit.",
+          "answer": "x",
+          "explain_en": "The only guitar school (b) teaches „montags bis donnerstags“, so no ad fits a weekend learner."
+        },
+        {
+          "id": "15",
+          "type": "match",
+          "question": "Tim (15) will vor seinem Austausch sein Englisch verbessern, und zwar von zu Hause aus.",
+          "answer": "a",
+          "explain_en": "Ad a is an online English course from home for 14- to 18-year-olds; the VHS course (e) is in a room and for adults."
+        },
+        {
+          "id": "16",
+          "type": "match",
+          "question": "Hanna (17) sucht einen Job für den Samstag, bei dem sie draußen arbeiten kann.",
+          "answer": "h",
+          "explain_en": "The garden centre (h) needs Saturday help „auf unserem Freigelände“ (outdoors); the cinema job (g) is indoors."
+        },
+        {
+          "id": "17",
+          "type": "match",
+          "question": "Jonas und drei Freunde möchten in den Ferien günstig eine Stadt besichtigen und in einer Jugendherberge übernachten.",
+          "answer": "c",
+          "explain_en": "Ad c is a cheap city trip at a youth hostel for groups of 4 or more, also in the holidays."
+        },
+        {
+          "id": "18",
+          "type": "match",
+          "question": "Lea (14) möchte sich ehrenamtlich engagieren. Sie liebt Tiere.",
+          "answer": "j",
+          "explain_en": "The animal shelter (j) is looking for unpaid volunteers aged 14+ to walk dogs and feed cats."
+        },
+        {
+          "id": "19",
+          "type": "match",
+          "question": "Max (15) interessiert sich für Computer und möchte in den Herbstferien lernen, eine eigene App zu programmieren.",
+          "answer": "f",
+          "explain_en": "Ad f is an app workshop in the autumn holidays for ages 12–16; the Python course (i) is only for people aged 18+."
+        }
       ]
     },
     {
@@ -83,22 +325,106 @@
       "instructions_en": "In a youth magazine you read comments on an article about banning mobile phones at school. Read texts 20 to 26. Is the person in favour of a ban? Choose ja (yes) or nein (no).",
       "minutes": 15,
       "texts": [
-        {"id": "t1", "title": "Nils, 17", "de": "Seit unsere Schule die Handys morgens einsammelt, ist in den Pausen endlich wieder etwas los. Früher saßen alle nur still da und starrten auf ihre Bildschirme. Jetzt reden wir miteinander oder spielen Tischtennis. Ich finde die Regel richtig gut."},
-        {"id": "t2", "title": "Amira, 15", "de": "Mein Handy ist für mich auch ein Lernwerkzeug. Ich schlage damit Vokabeln nach und mache Fotos von der Tafel. Wenn man es komplett verbietet, nimmt man uns eine wichtige Hilfe weg. Besser wären klare Regeln, wann man es im Unterricht benutzen darf."},
-        {"id": "t3", "title": "Thomas Scholz, Vater", "de": "Meine Tochter fährt jeden Tag eine Stunde mit dem Bus zur Schule. Ich möchte, dass sie mich jederzeit erreichen kann, auch in der Pause, wenn etwas passiert. Ein Verbot geht für mich deshalb zu weit."},
-        {"id": "t4", "title": "Lukas, 16", "de": "Viele behaupten, dass Handys im Unterricht nicht stören. Das stimmt einfach nicht. Ständig vibriert irgendwo etwas, und die Hälfte der Klasse schreibt heimlich Nachrichten. Die Geräte sollten während der Schulzeit im Schrank bleiben – ohne Ausnahme."},
-        {"id": "t5", "title": "Aylin Demir, Lehrerin", "de": "An unserer Schule wurden die Handys letztes Jahr verboten, und ich habe das anfangs skeptisch gesehen. Heute muss ich sagen: Es gibt weniger Streit in den Klassenchats, weil in der Schule einfach nicht gechattet wird, und die Jugendlichen konzentrieren sich besser. Ich würde die Regel nie wieder abschaffen."},
-        {"id": "t6", "title": "Sophie, 14", "de": "Ich verstehe, dass manche Erwachsene sich Sorgen machen. Aber wir sind keine kleinen Kinder mehr. Wie sollen wir lernen, vernünftig mit dem Handy umzugehen, wenn man es uns einfach wegnimmt? Verbote bringen gar nichts."},
-        {"id": "t7", "title": "Ben, 18", "de": "Klar ist das Handy praktisch. Trotzdem glaube ich, dass viele von uns ohne Verbot gar nicht davon loskommen. Ich selbst habe früher sogar in Klassenarbeiten heimlich draufgeschaut. Deshalb finde ich es gut, wenn die Schule es verbietet – wenigstens ein paar Stunden am Tag."}
+        {
+          "id": "t1",
+          "title": "Nils, 17",
+          "de": "Seit unsere Schule die Handys morgens einsammelt, ist in den Pausen endlich wieder etwas los. Früher saßen alle nur still da und starrten auf ihre Bildschirme. Jetzt reden wir miteinander oder spielen Tischtennis. Ich finde die Regel richtig gut."
+        },
+        {
+          "id": "t2",
+          "title": "Amira, 15",
+          "de": "Mein Handy ist für mich auch ein Lernwerkzeug. Ich schlage damit Vokabeln nach und mache Fotos von der Tafel. Wenn man es komplett verbietet, nimmt man uns eine wichtige Hilfe weg. Besser wären klare Regeln, wann man es im Unterricht benutzen darf."
+        },
+        {
+          "id": "t3",
+          "title": "Thomas Scholz, Vater",
+          "de": "Meine Tochter fährt jeden Tag eine Stunde mit dem Bus zur Schule. Ich möchte, dass sie mich jederzeit erreichen kann, auch in der Pause, wenn etwas passiert. Ein Verbot geht für mich deshalb zu weit."
+        },
+        {
+          "id": "t4",
+          "title": "Lukas, 16",
+          "de": "Viele behaupten, dass Handys im Unterricht nicht stören. Das stimmt einfach nicht. Ständig vibriert irgendwo etwas, und die Hälfte der Klasse schreibt heimlich Nachrichten. Die Geräte sollten während der Schulzeit im Schrank bleiben – ohne Ausnahme."
+        },
+        {
+          "id": "t5",
+          "title": "Aylin Demir, Lehrerin",
+          "de": "An unserer Schule wurden die Handys letztes Jahr verboten, und ich habe das anfangs skeptisch gesehen. Heute muss ich sagen: Es gibt weniger Streit in den Klassenchats, weil in der Schule einfach nicht gechattet wird, und die Jugendlichen konzentrieren sich besser. Ich würde die Regel nie wieder abschaffen."
+        },
+        {
+          "id": "t6",
+          "title": "Sophie, 14",
+          "de": "Ich verstehe, dass manche Erwachsene sich Sorgen machen. Aber wir sind keine kleinen Kinder mehr. Wie sollen wir lernen, vernünftig mit dem Handy umzugehen, wenn man es uns einfach wegnimmt? Verbote bringen gar nichts."
+        },
+        {
+          "id": "t7",
+          "title": "Ben, 18",
+          "de": "Klar ist das Handy praktisch. Trotzdem glaube ich, dass viele von uns ohne Verbot gar nicht davon loskommen. Ich selbst habe früher sogar in Klassenarbeiten heimlich draufgeschaut. Deshalb finde ich es gut, wenn die Schule es verbietet – wenigstens ein paar Stunden am Tag."
+        }
       ],
+      "example": {
+        "type": "yesno",
+        "text": "t3",
+        "question": "Fährt die Tochter von Herrn Scholz mit dem Bus zur Schule?",
+        "answer": "ja",
+        "explain_en": "Herr Scholz writes „Meine Tochter fährt jeden Tag eine Stunde mit dem Bus zur Schule“."
+      },
       "items": [
-        {"id": "20", "type": "yesno", "text": "t1", "question": "Ist Nils für ein Handyverbot an der Schule?", "answer": "ja", "explain_en": "Since phones are collected, breaks are livelier, and Nils says „Ich finde die Regel richtig gut“."},
-        {"id": "21", "type": "yesno", "text": "t2", "question": "Ist Amira für ein Handyverbot an der Schule?", "answer": "nein", "explain_en": "A ban would take away „eine wichtige Hilfe“; she prefers clear rules for using it."},
-        {"id": "22", "type": "yesno", "text": "t3", "question": "Ist Herr Scholz für ein Handyverbot an der Schule?", "answer": "nein", "explain_en": "He wants his daughter to be able to contact him at any time, including during breaks, so he considers a ban excessive."},
-        {"id": "23", "type": "yesno", "text": "t4", "question": "Ist Lukas für ein Handyverbot an der Schule?", "answer": "ja", "explain_en": "Phones should stay in the locker during school time „ohne Ausnahme“."},
-        {"id": "24", "type": "yesno", "text": "t5", "question": "Ist Frau Demir für ein Handyverbot an der Schule?", "answer": "ja", "explain_en": "She was sceptical at first, but now says „Ich würde die Regel nie wieder abschaffen“."},
-        {"id": "25", "type": "yesno", "text": "t6", "question": "Ist Sophie für ein Handyverbot an der Schule?", "answer": "nein", "explain_en": "Teenagers should learn to use phones sensibly: „Verbote bringen gar nichts“."},
-        {"id": "26", "type": "yesno", "text": "t7", "question": "Ist Ben für ein Handyverbot an der Schule?", "answer": "ja", "explain_en": "Many can't stop without a ban, so „finde ich es gut, wenn die Schule es verbietet“."}
+        {
+          "id": "20",
+          "type": "yesno",
+          "text": "t1",
+          "question": "Ist Nils für ein Handyverbot an der Schule?",
+          "answer": "ja",
+          "explain_en": "Since phones are collected, breaks are livelier, and Nils says „Ich finde die Regel richtig gut“."
+        },
+        {
+          "id": "21",
+          "type": "yesno",
+          "text": "t2",
+          "question": "Ist Amira für ein Handyverbot an der Schule?",
+          "answer": "nein",
+          "explain_en": "A ban would take away „eine wichtige Hilfe“; she prefers clear rules for using it."
+        },
+        {
+          "id": "22",
+          "type": "yesno",
+          "text": "t3",
+          "question": "Ist Herr Scholz für ein Handyverbot an der Schule?",
+          "answer": "nein",
+          "explain_en": "He wants his daughter to be able to contact him at any time, including during breaks, so he considers a ban excessive."
+        },
+        {
+          "id": "23",
+          "type": "yesno",
+          "text": "t4",
+          "question": "Ist Lukas für ein Handyverbot an der Schule?",
+          "answer": "ja",
+          "explain_en": "Phones should stay in the locker during school time „ohne Ausnahme“."
+        },
+        {
+          "id": "24",
+          "type": "yesno",
+          "text": "t5",
+          "question": "Ist Frau Demir für ein Handyverbot an der Schule?",
+          "answer": "ja",
+          "explain_en": "She was sceptical at first, but now says „Ich würde die Regel nie wieder abschaffen“."
+        },
+        {
+          "id": "25",
+          "type": "yesno",
+          "text": "t6",
+          "question": "Ist Sophie für ein Handyverbot an der Schule?",
+          "answer": "nein",
+          "explain_en": "Teenagers should learn to use phones sensibly: „Verbote bringen gar nichts“."
+        },
+        {
+          "id": "26",
+          "type": "yesno",
+          "text": "t7",
+          "question": "Ist Ben für ein Handyverbot an der Schule?",
+          "answer": "ja",
+          "explain_en": "Many can't stop without a ban, so „finde ich es gut, wenn die Schule es verbietet“."
+        }
       ]
     },
     {
@@ -108,13 +434,77 @@
       "instructions_en": "You are going on a class trip and read the house rules of the youth hostel. Choose a, b or c for each question 27 to 30.",
       "minutes": 10,
       "texts": [
-        {"id": "t1", "title": "Hausordnung der Jugendherberge Seeblick", "de": "Herzlich willkommen! Damit sich alle Gäste bei uns wohlfühlen, bitten wir Sie, die folgenden Regeln zu beachten.\n\nAnreise und Abreise: Die Zimmer können am Anreisetag ab 15 Uhr bezogen werden. Wer früher ankommt, kann sein Gepäck im Gepäckraum neben der Rezeption abstellen. Am Abreisetag müssen die Zimmer bis 10 Uhr geräumt sein. Bettwäsche wird gestellt; bitte ziehen Sie die Betten vor der Abreise selbst ab und bringen Sie die Wäsche zur Rezeption.\n\nMahlzeiten: Das Frühstück gibt es von 7.30 bis 9 Uhr, das Abendessen von 18 bis 19.30 Uhr im Speisesaal. Lunchpakete für Ausflüge müssen bis 19 Uhr am Vortag an der Rezeption bestellt werden. Eigene Speisen dürfen nicht im Speisesaal gegessen werden; dafür steht die Gästeküche im Erdgeschoss zur Verfügung.\n\nNachtruhe: Von 22 bis 7 Uhr gilt Nachtruhe. Schulklassen können mit ihrer Lehrkraft eine spätere Uhrzeit vereinbaren, müssen dies aber vorher an der Rezeption melden. Die Haustür wird um 23 Uhr abgeschlossen; alle Gäste erhalten bei der Anreise einen Code für den Seiteneingang.\n\nSonstiges: Rauchen ist im gesamten Gebäude verboten. Fahrräder werden im Fahrradkeller abgestellt, der Schlüssel ist an der Rezeption erhältlich. Das WLAN ist kostenlos; das Passwort hängt in jedem Zimmer aus. Für Wertsachen stehen Schließfächer zur Verfügung (Pfand: 5 Euro). Für einen verlorenen Zimmerschlüssel berechnen wir 20 Euro."}
+        {
+          "id": "t1",
+          "title": "Hausordnung der Jugendherberge Seeblick",
+          "de": "Herzlich willkommen! Damit sich alle Gäste bei uns wohlfühlen, bitten wir Sie, die folgenden Regeln zu beachten.\n\nAnreise und Abreise: Die Zimmer können am Anreisetag ab 15 Uhr bezogen werden. Wer früher ankommt, kann sein Gepäck im Gepäckraum neben der Rezeption abstellen. Am Abreisetag müssen die Zimmer bis 10 Uhr geräumt sein. Bettwäsche wird gestellt; bitte ziehen Sie die Betten vor der Abreise selbst ab und bringen Sie die Wäsche zur Rezeption.\n\nMahlzeiten: Das Frühstück gibt es von 7.30 bis 9 Uhr, das Abendessen von 18 bis 19.30 Uhr im Speisesaal. Lunchpakete für Ausflüge müssen bis 19 Uhr am Vortag an der Rezeption bestellt werden. Eigene Speisen dürfen nicht im Speisesaal gegessen werden; dafür steht die Gästeküche im Erdgeschoss zur Verfügung.\n\nNachtruhe: Von 22 bis 7 Uhr gilt Nachtruhe. Schulklassen können mit ihrer Lehrkraft eine spätere Uhrzeit vereinbaren, müssen dies aber vorher an der Rezeption melden. Die Haustür wird um 23 Uhr abgeschlossen; alle Gäste erhalten bei der Anreise einen Code für den Seiteneingang.\n\nSonstiges: Rauchen ist im gesamten Gebäude verboten. Fahrräder werden im Fahrradkeller abgestellt, der Schlüssel ist an der Rezeption erhältlich. Das WLAN ist kostenlos; das Passwort hängt in jedem Zimmer aus. Für Wertsachen stehen Schließfächer zur Verfügung (Pfand: 5 Euro). Für einen verlorenen Zimmerschlüssel berechnen wir 20 Euro."
+        }
       ],
+      "example": {
+        "type": "mc",
+        "text": "t1",
+        "question": "Frühstück gibt es …",
+        "options": {
+          "a": "von 7 bis 9 Uhr.",
+          "b": "von 7.30 bis 9 Uhr.",
+          "c": "von 18 bis 19.30 Uhr."
+        },
+        "answer": "b",
+        "explain_en": "„Das Frühstück gibt es von 7.30 bis 9 Uhr“; 18 to 19.30 is dinner."
+      },
       "items": [
-        {"id": "27", "type": "mc", "text": "t1", "question": "Wenn man vor 15 Uhr ankommt, …", "options": {"a": "kann man sofort ins Zimmer gehen.", "b": "muss man vor der Rezeption warten.", "c": "kann man sein Gepäck im Gepäckraum lassen."}, "answer": "c", "explain_en": "„Wer früher ankommt, kann sein Gepäck im Gepäckraum neben der Rezeption abstellen.“"},
-        {"id": "28", "type": "mc", "text": "t1", "question": "Wer ein Lunchpaket möchte, …", "options": {"a": "muss es spätestens bis 19 Uhr am Vortag bestellen.", "b": "bekommt es automatisch beim Frühstück.", "c": "muss es bis 9 Uhr am selben Tag bestellen."}, "answer": "a", "explain_en": "Packed lunches „müssen bis 19 Uhr am Vortag an der Rezeption bestellt werden“."},
-        {"id": "29", "type": "mc", "text": "t1", "question": "Schulklassen …", "options": {"a": "müssen ohne Ausnahme um 22 Uhr ruhig sein.", "b": "können eine spätere Nachtruhe vereinbaren, wenn sie das vorher melden.", "c": "bekommen einen eigenen Schlüssel für die Haustür."}, "answer": "b", "explain_en": "Classes „können mit ihrer Lehrkraft eine spätere Uhrzeit vereinbaren, müssen dies aber vorher an der Rezeption melden“."},
-        {"id": "30", "type": "mc", "text": "t1", "question": "In der Jugendherberge …", "options": {"a": "muss man für das WLAN bezahlen.", "b": "muss man seine Bettwäsche selbst mitbringen.", "c": "muss man vor der Abreise die Betten abziehen."}, "answer": "c", "explain_en": "„Bitte ziehen Sie die Betten vor der Abreise selbst ab“; Wi-Fi is free and bed linen is provided."}
+        {
+          "id": "27",
+          "type": "mc",
+          "text": "t1",
+          "question": "Wenn man vor 15 Uhr ankommt, …",
+          "options": {
+            "a": "kann man sofort ins Zimmer gehen.",
+            "b": "muss man vor der Rezeption warten.",
+            "c": "kann man sein Gepäck im Gepäckraum lassen."
+          },
+          "answer": "c",
+          "explain_en": "„Wer früher ankommt, kann sein Gepäck im Gepäckraum neben der Rezeption abstellen.“"
+        },
+        {
+          "id": "28",
+          "type": "mc",
+          "text": "t1",
+          "question": "Wer ein Lunchpaket möchte, …",
+          "options": {
+            "a": "muss es spätestens bis 19 Uhr am Vortag bestellen.",
+            "b": "bekommt es automatisch beim Frühstück.",
+            "c": "muss es bis 9 Uhr am selben Tag bestellen."
+          },
+          "answer": "a",
+          "explain_en": "Packed lunches „müssen bis 19 Uhr am Vortag an der Rezeption bestellt werden“."
+        },
+        {
+          "id": "29",
+          "type": "mc",
+          "text": "t1",
+          "question": "Schulklassen …",
+          "options": {
+            "a": "müssen ohne Ausnahme um 22 Uhr ruhig sein.",
+            "b": "können eine spätere Nachtruhe vereinbaren, wenn sie das vorher melden.",
+            "c": "bekommen einen eigenen Schlüssel für die Haustür."
+          },
+          "answer": "b",
+          "explain_en": "Classes „können mit ihrer Lehrkraft eine spätere Uhrzeit vereinbaren, müssen dies aber vorher an der Rezeption melden“."
+        },
+        {
+          "id": "30",
+          "type": "mc",
+          "text": "t1",
+          "question": "In der Jugendherberge …",
+          "options": {
+            "a": "muss man für das WLAN bezahlen.",
+            "b": "muss man seine Bettwäsche selbst mitbringen.",
+            "c": "muss man vor der Abreise die Betten abziehen."
+          },
+          "answer": "c",
+          "explain_en": "„Bitte ziehen Sie die Betten vor der Abreise selbst ab“; Wi-Fi is free and bed linen is provided."
+        }
       ]
     },
     {
@@ -125,23 +515,150 @@
       "minutes": 10,
       "plays": 2,
       "texts": [
-        {"id": "t1", "title": "Text 1: Nachricht auf der Mailbox", "de": "Hallo Sara, hier ist Marie. Du, wegen heute Abend: Der Film, den wir sehen wollten, läuft leider nicht mehr um acht, sondern erst um halb zehn. Das ist mir ehrlich gesagt zu spät, weil ich morgen früh Training habe. Wollen wir stattdessen am Samstagnachmittag gehen? Dann könnten wir vorher noch zusammen Pizza essen. Und bring bitte das Buch mit, das ich dir geliehen habe. Ich brauche es für mein Referat. Ruf mich einfach zurück, ja? Tschüss!"},
-        {"id": "t2", "title": "Text 2: Radio", "de": "Und jetzt noch ein Tipp für das Wochenende: Am Samstag und Sonntag findet im Stadtpark wieder das Jugendfestival „Sound im Park“ statt. Auf zwei Bühnen spielen junge Bands aus der Region, außerdem gibt es Workshops zum Graffiti-Sprayen und Skaten. Der Eintritt ist für alle unter 18 frei, Erwachsene zahlen fünf Euro. Wegen Bauarbeiten fahren die Straßenbahnen am Wochenende nur bis zur Haltestelle Rathaus, nicht bis zum Stadtpark. Die Veranstalter empfehlen deshalb, mit dem Fahrrad zu kommen – am Eingang gibt es einen großen, bewachten Fahrradparkplatz."},
-        {"id": "t3", "title": "Text 3: Durchsage im Museum", "de": "Liebe Besucherinnen und Besucher, das Technikmuseum schließt heute ausnahmsweise schon um 16 Uhr, weil am Abend eine Veranstaltung stattfindet. Die Ausstellung „Roboter im Alltag“ im zweiten Stock ist heute leider geschlossen. Die Führung für Jugendliche um 14 Uhr findet trotzdem statt, allerdings im Erdgeschoss und nicht wie geplant im zweiten Stock. Treffpunkt ist die Kasse. Wir wünschen Ihnen einen schönen Aufenthalt."},
-        {"id": "t4", "title": "Text 4: Nachricht auf dem Anrufbeantworter", "de": "Guten Tag, hier spricht Frau Wolf von der Zahnarztpraxis Dr. Hartmann. Diese Nachricht ist für Felix Braun. Sie haben morgen um zehn Uhr einen Termin bei uns. Leider ist Dr. Hartmann krank, deshalb müssen wir den Termin verschieben. Wir können Ihnen Donnerstag um 15 Uhr oder Freitag um 8 Uhr anbieten. Bitte rufen Sie uns bis morgen Mittag zurück und sagen Sie uns, welcher Termin Ihnen besser passt. Und denken Sie bitte daran, Ihre Versichertenkarte mitzubringen – die hat beim letzten Mal gefehlt. Vielen Dank und auf Wiederhören."},
-        {"id": "t5", "title": "Text 5: Durchsage am Bahnhof", "de": "Achtung an Gleis 4: Der Regionalexpress nach Hannover, planmäßige Abfahrt 17.12 Uhr, hat heute etwa 25 Minuten Verspätung. Grund dafür ist eine technische Störung. Fahrgäste nach Hannover können auch den Intercity um 17.20 Uhr von Gleis 7 benutzen. Ihre Fahrkarte für den Regionalexpress gilt heute ausnahmsweise auch im Intercity. Wir bitten um Entschuldigung."}
+        {
+          "id": "t0",
+          "title": "Beispiel: Nachricht auf der Mailbox",
+          "de": "Hallo Jan, hier ist Tim. Nur kurz: Das Fußballtraining heute um fünf fällt aus, weil der Trainer krank ist. Dafür trainieren wir am Donnerstag eine halbe Stunde länger, also von fünf bis halb sieben. Sag bitte auch Ali Bescheid, der hat sein Handy heute nicht dabei. Bis dann!"
+        },
+        {
+          "id": "t1",
+          "title": "Text 1: Nachricht auf der Mailbox",
+          "de": "Hallo Sara, hier ist Marie. Du, wegen heute Abend: Der Film, den wir sehen wollten, läuft leider nicht mehr um acht, sondern erst um halb zehn. Das ist mir ehrlich gesagt zu spät, weil ich morgen früh Training habe. Wollen wir stattdessen am Samstagnachmittag gehen? Dann könnten wir vorher noch zusammen Pizza essen. Und bring bitte das Buch mit, das ich dir geliehen habe. Ich brauche es für mein Referat. Ruf mich einfach zurück, ja? Tschüss!"
+        },
+        {
+          "id": "t2",
+          "title": "Text 2: Radio",
+          "de": "Und jetzt noch ein Tipp für das Wochenende: Am Samstag und Sonntag findet im Stadtpark wieder das Jugendfestival „Sound im Park“ statt. Auf zwei Bühnen spielen junge Bands aus der Region, außerdem gibt es Workshops zum Graffiti-Sprayen und Skaten. Der Eintritt ist für alle unter 18 frei, Erwachsene zahlen fünf Euro. Wegen Bauarbeiten fahren die Straßenbahnen am Wochenende nur bis zur Haltestelle Rathaus, nicht bis zum Stadtpark. Die Veranstalter empfehlen deshalb, mit dem Fahrrad zu kommen – am Eingang gibt es einen großen, bewachten Fahrradparkplatz."
+        },
+        {
+          "id": "t3",
+          "title": "Text 3: Durchsage im Museum",
+          "de": "Liebe Besucherinnen und Besucher, das Technikmuseum schließt heute ausnahmsweise schon um 16 Uhr, weil am Abend eine Veranstaltung stattfindet. Die Ausstellung „Roboter im Alltag“ im zweiten Stock ist heute leider geschlossen. Die Führung für Jugendliche um 14 Uhr findet trotzdem statt, allerdings im Erdgeschoss und nicht wie geplant im zweiten Stock. Treffpunkt ist die Kasse. Wir wünschen Ihnen einen schönen Aufenthalt."
+        },
+        {
+          "id": "t4",
+          "title": "Text 4: Nachricht auf dem Anrufbeantworter",
+          "de": "Guten Tag, hier spricht Frau Wolf von der Zahnarztpraxis Dr. Hartmann. Diese Nachricht ist für Felix Braun. Sie haben morgen um zehn Uhr einen Termin bei uns. Leider ist Dr. Hartmann krank, deshalb müssen wir den Termin verschieben. Wir können Ihnen Donnerstag um 15 Uhr oder Freitag um 8 Uhr anbieten. Bitte rufen Sie uns bis morgen Mittag zurück und sagen Sie uns, welcher Termin Ihnen besser passt. Und denken Sie bitte daran, Ihre Versichertenkarte mitzubringen – die hat beim letzten Mal gefehlt. Vielen Dank und auf Wiederhören."
+        },
+        {
+          "id": "t5",
+          "title": "Text 5: Durchsage am Bahnhof",
+          "de": "Achtung an Gleis 4: Der Regionalexpress nach Hannover, planmäßige Abfahrt 17.12 Uhr, hat heute etwa 25 Minuten Verspätung. Grund dafür ist eine technische Störung. Fahrgäste nach Hannover können auch den Intercity um 17.20 Uhr von Gleis 7 benutzen. Ihre Fahrkarte für den Regionalexpress gilt heute ausnahmsweise auch im Intercity. Wir bitten um Entschuldigung."
+        }
       ],
+      "example": {
+        "type": "tf",
+        "text": "t0",
+        "question": "Das Fußballtraining heute findet nicht statt.",
+        "answer": "richtig",
+        "explain_en": "Tim says the training today „fällt aus, weil der Trainer krank ist“."
+      },
       "items": [
-        {"id": "1", "type": "tf", "text": "t1", "question": "Marie möchte den Film heute Abend um halb zehn sehen.", "answer": "falsch", "explain_en": "Half past nine is „zu spät“ for Marie, so she suggests Saturday afternoon instead."},
-        {"id": "2", "type": "mc", "text": "t1", "question": "Was soll Sara mitbringen?", "options": {"a": "eine Pizza", "b": "Kinokarten", "c": "ein Buch"}, "answer": "c", "explain_en": "Marie says „bring bitte das Buch mit, das ich dir geliehen habe“."},
-        {"id": "3", "type": "tf", "text": "t2", "question": "Jugendliche unter 18 müssen für den Eintritt zum Festival nichts bezahlen.", "answer": "richtig", "explain_en": "„Der Eintritt ist für alle unter 18 frei.“"},
-        {"id": "4", "type": "mc", "text": "t2", "question": "Wie soll man zum Festival kommen?", "options": {"a": "mit dem Fahrrad", "b": "mit der Straßenbahn bis zum Stadtpark", "c": "mit dem Auto"}, "answer": "a", "explain_en": "The trams don't go to the park, so the organisers „empfehlen, mit dem Fahrrad zu kommen“."},
-        {"id": "5", "type": "tf", "text": "t3", "question": "Das Museum ist heute länger geöffnet als sonst.", "answer": "falsch", "explain_en": "The museum closes „schon um 16 Uhr“ today, earlier than usual."},
-        {"id": "6", "type": "mc", "text": "t3", "question": "Die Führung für Jugendliche …", "options": {"a": "fällt heute aus.", "b": "findet an einem anderen Ort statt.", "c": "beginnt eine Stunde später."}, "answer": "b", "explain_en": "The tour still takes place at 14:00, but „im Erdgeschoss und nicht wie geplant im zweiten Stock“."},
-        {"id": "7", "type": "tf", "text": "t4", "question": "Felix soll sich einen neuen Termin aussuchen.", "answer": "richtig", "explain_en": "He is offered Thursday or Friday and should say „welcher Termin Ihnen besser passt“."},
-        {"id": "8", "type": "mc", "text": "t4", "question": "Was soll Felix mitbringen?", "options": {"a": "einen Brief vom Arzt", "b": "ein Formular", "c": "seine Versichertenkarte"}, "answer": "c", "explain_en": "„Denken Sie bitte daran, Ihre Versichertenkarte mitzubringen.“"},
-        {"id": "9", "type": "tf", "text": "t5", "question": "Der Regionalexpress nach Hannover fällt heute aus.", "answer": "falsch", "explain_en": "The train is not cancelled; it is about 25 minutes late („Verspätung“)."},
-        {"id": "10", "type": "mc", "text": "t5", "question": "Fahrgäste nach Hannover können …", "options": {"a": "mit ihrer Fahrkarte den Intercity nehmen.", "b": "an Gleis 4 in einen Bus umsteigen.", "c": "ihre Fahrkarte zurückgeben."}, "answer": "a", "explain_en": "„Ihre Fahrkarte für den Regionalexpress gilt heute ausnahmsweise auch im Intercity.“"}
+        {
+          "id": "1",
+          "type": "tf",
+          "text": "t1",
+          "question": "Marie möchte den Film heute Abend um halb zehn sehen.",
+          "answer": "falsch",
+          "explain_en": "Half past nine is „zu spät“ for Marie, so she suggests Saturday afternoon instead."
+        },
+        {
+          "id": "2",
+          "type": "mc",
+          "text": "t1",
+          "question": "Was soll Sara mitbringen?",
+          "options": {
+            "a": "eine Pizza",
+            "b": "Kinokarten",
+            "c": "ein Buch"
+          },
+          "answer": "c",
+          "explain_en": "Marie says „bring bitte das Buch mit, das ich dir geliehen habe“."
+        },
+        {
+          "id": "3",
+          "type": "tf",
+          "text": "t2",
+          "question": "Jugendliche unter 18 müssen für den Eintritt zum Festival nichts bezahlen.",
+          "answer": "richtig",
+          "explain_en": "„Der Eintritt ist für alle unter 18 frei.“"
+        },
+        {
+          "id": "4",
+          "type": "mc",
+          "text": "t2",
+          "question": "Wie soll man zum Festival kommen?",
+          "options": {
+            "a": "mit dem Fahrrad",
+            "b": "mit der Straßenbahn bis zum Stadtpark",
+            "c": "mit dem Auto"
+          },
+          "answer": "a",
+          "explain_en": "The trams don't go to the park, so the organisers „empfehlen, mit dem Fahrrad zu kommen“."
+        },
+        {
+          "id": "5",
+          "type": "tf",
+          "text": "t3",
+          "question": "Das Museum ist heute länger geöffnet als sonst.",
+          "answer": "falsch",
+          "explain_en": "The museum closes „schon um 16 Uhr“ today, earlier than usual."
+        },
+        {
+          "id": "6",
+          "type": "mc",
+          "text": "t3",
+          "question": "Die Führung für Jugendliche …",
+          "options": {
+            "a": "fällt heute aus.",
+            "b": "findet an einem anderen Ort statt.",
+            "c": "beginnt eine Stunde später."
+          },
+          "answer": "b",
+          "explain_en": "The tour still takes place at 14:00, but „im Erdgeschoss und nicht wie geplant im zweiten Stock“."
+        },
+        {
+          "id": "7",
+          "type": "tf",
+          "text": "t4",
+          "question": "Felix soll sich einen neuen Termin aussuchen.",
+          "answer": "richtig",
+          "explain_en": "He is offered Thursday or Friday and should say „welcher Termin Ihnen besser passt“."
+        },
+        {
+          "id": "8",
+          "type": "mc",
+          "text": "t4",
+          "question": "Was soll Felix mitbringen?",
+          "options": {
+            "a": "einen Brief vom Arzt",
+            "b": "ein Formular",
+            "c": "seine Versichertenkarte"
+          },
+          "answer": "c",
+          "explain_en": "„Denken Sie bitte daran, Ihre Versichertenkarte mitzubringen.“"
+        },
+        {
+          "id": "9",
+          "type": "tf",
+          "text": "t5",
+          "question": "Der Regionalexpress nach Hannover fällt heute aus.",
+          "answer": "falsch",
+          "explain_en": "The train is not cancelled; it is about 25 minutes late („Verspätung“)."
+        },
+        {
+          "id": "10",
+          "type": "mc",
+          "text": "t5",
+          "question": "Fahrgäste nach Hannover können …",
+          "options": {
+            "a": "mit ihrer Fahrkarte den Intercity nehmen.",
+            "b": "an Gleis 4 in einen Bus umsteigen.",
+            "c": "ihre Fahrkarte zurückgeben."
+          },
+          "answer": "a",
+          "explain_en": "„Ihre Fahrkarte für den Regionalexpress gilt heute ausnahmsweise auch im Intercity.“"
+        }
       ]
     },
     {
@@ -152,14 +669,95 @@
       "minutes": 10,
       "plays": 1,
       "texts": [
-        {"id": "t1", "title": "Stadtführung in Lübeck", "de": "Herzlich willkommen in Lübeck! Mein Name ist Tobias, und ich begleite euch heute zwei Stunden lang durch die Altstadt. Bevor wir losgehen, noch ein paar Informationen. Wir haben heute Glück mit dem Wetter, trotzdem solltet ihr eure Jacken mitnehmen, denn am Wasser ist es oft windig.\n\nUnsere Tour beginnt hier am Holstentor. Das Tor ist fast 550 Jahre alt und war früher ein Teil der Stadtmauer. Vielleicht seht ihr, dass es ein bisschen schief steht. Viele denken, das liegt an seinem Alter, aber das ist nicht der Grund: Der Boden hier ist sehr weich, und deshalb ist das Tor im Laufe der Zeit etwas eingesunken.\n\nDanach gehen wir über die Brücke in die Altstadt. Die Altstadt liegt übrigens auf einer Insel und gehört seit 1987 zum UNESCO-Welterbe. Unser nächster Halt ist ein Geschäft, das ihr bestimmt mögt: Hier wird seit über 200 Jahren Marzipan hergestellt. Ihr dürft dort eine kleine Probe essen, aber bitte kauft erst am Ende der Tour etwas, sonst müsst ihr die Tüten die ganze Zeit tragen.\n\nGegen elf Uhr besuchen wir die Marienkirche. Die Orgel dort ist berühmt, und um diese Zeit wird oft darauf geübt. Deshalb bitte ich euch, in der Kirche leise zu sein.\n\nZum Schluss machen wir eine kurze Bootsfahrt um die Altstadt. Die Tickets dafür habe ich schon, ihr müsst also nichts bezahlen. Die Fahrt dauert ungefähr 30 Minuten. Nach der Tour habt ihr bis 15 Uhr Freizeit. Treffpunkt für die Rückfahrt ist dann wieder hier am Holstentor. So, habt ihr noch Fragen? Nein? Dann los!"}
+        {
+          "id": "t0",
+          "title": "Beispiel: Im Hafenmuseum",
+          "de": "Guten Morgen und herzlich willkommen im Hafenmuseum! Bevor wir mit der Führung beginnen, eine Bitte: Rucksäcke und große Taschen dürft ihr leider nicht mit in die Ausstellung nehmen. Bitte schließt sie unten in die Schließfächer ein. Die Führung dauert etwa eine Stunde, danach könnt ihr noch allein durch das Museum gehen."
+        },
+        {
+          "id": "t1",
+          "title": "Stadtführung in Lübeck",
+          "de": "Herzlich willkommen in Lübeck! Mein Name ist Tobias, und ich begleite euch heute zwei Stunden lang durch die Altstadt. Bevor wir losgehen, noch ein paar Informationen. Wir haben heute Glück mit dem Wetter, trotzdem solltet ihr eure Jacken mitnehmen, denn am Wasser ist es oft windig.\n\nUnsere Tour beginnt hier am Holstentor. Das Tor ist fast 550 Jahre alt und war früher ein Teil der Stadtmauer. Vielleicht seht ihr, dass es ein bisschen schief steht. Viele denken, das liegt an seinem Alter, aber das ist nicht der Grund: Der Boden hier ist sehr weich, und deshalb ist das Tor im Laufe der Zeit etwas eingesunken.\n\nDanach gehen wir über die Brücke in die Altstadt. Die Altstadt liegt übrigens auf einer Insel und gehört seit 1987 zum UNESCO-Welterbe. Unser nächster Halt ist ein Geschäft, das ihr bestimmt mögt: Hier wird seit über 200 Jahren Marzipan hergestellt. Ihr dürft dort eine kleine Probe essen, aber bitte kauft erst am Ende der Tour etwas, sonst müsst ihr die Tüten die ganze Zeit tragen.\n\nGegen elf Uhr besuchen wir die Marienkirche. Die Orgel dort ist berühmt, und um diese Zeit wird oft darauf geübt. Deshalb bitte ich euch, in der Kirche leise zu sein.\n\nZum Schluss machen wir eine kurze Bootsfahrt um die Altstadt. Die Tickets dafür habe ich schon, ihr müsst also nichts bezahlen. Die Fahrt dauert ungefähr 30 Minuten. Nach der Tour habt ihr bis 15 Uhr Freizeit. Treffpunkt für die Rückfahrt ist dann wieder hier am Holstentor. So, habt ihr noch Fragen? Nein? Dann los!"
+        }
       ],
+      "example": {
+        "type": "mc",
+        "text": "t0",
+        "question": "Was sollen die Schüler mit ihren Rucksäcken machen?",
+        "options": {
+          "a": "Sie sollen sie in die Ausstellung mitnehmen.",
+          "b": "Sie sollen sie in ein Schließfach legen.",
+          "c": "Sie sollen sie im Bus lassen."
+        },
+        "answer": "b",
+        "explain_en": "Bags may not go into the exhibition: „Bitte schließt sie unten in die Schließfächer ein.“"
+      },
       "items": [
-        {"id": "11", "type": "mc", "text": "t1", "question": "Die Stadtführung dauert …", "options": {"a": "eine Stunde.", "b": "zwei Stunden.", "c": "den ganzen Tag."}, "answer": "b", "explain_en": "Tobias says „ich begleite euch heute zwei Stunden lang durch die Altstadt“."},
-        {"id": "12", "type": "mc", "text": "t1", "question": "Das Holstentor steht schief, weil …", "options": {"a": "der Boden sehr weich ist.", "b": "es so alt ist.", "c": "es früher Teil der Stadtmauer war."}, "answer": "a", "explain_en": "Its age „ist nicht der Grund“; the reason is „Der Boden hier ist sehr weich“."},
-        {"id": "13", "type": "mc", "text": "t1", "question": "Im Marzipangeschäft …", "options": {"a": "bekommt die Gruppe eine Überraschung.", "b": "sollen die Schüler gleich etwas kaufen.", "c": "darf man etwas probieren."}, "answer": "c", "explain_en": "„Ihr dürft dort eine kleine Probe essen“, but should buy only at the end of the tour."},
-        {"id": "14", "type": "mc", "text": "t1", "question": "In der Marienkirche sollen die Schüler …", "options": {"a": "Fotos von der Orgel machen.", "b": "leise sein.", "c": "ein Konzert hören."}, "answer": "b", "explain_en": "People often practise on the organ, „Deshalb bitte ich euch, in der Kirche leise zu sein“."},
-        {"id": "15", "type": "mc", "text": "t1", "question": "Die Bootsfahrt …", "options": {"a": "kostet die Schülerinnen und Schüler nichts extra.", "b": "dauert eine Stunde.", "c": "ist am Anfang der Tour."}, "answer": "a", "explain_en": "The guide already has the tickets and says the students do not have to pay anything."}
+        {
+          "id": "11",
+          "type": "mc",
+          "text": "t1",
+          "question": "Die Stadtführung dauert …",
+          "options": {
+            "a": "eine Stunde.",
+            "b": "zwei Stunden.",
+            "c": "den ganzen Tag."
+          },
+          "answer": "b",
+          "explain_en": "Tobias says „ich begleite euch heute zwei Stunden lang durch die Altstadt“."
+        },
+        {
+          "id": "12",
+          "type": "mc",
+          "text": "t1",
+          "question": "Das Holstentor steht schief, weil …",
+          "options": {
+            "a": "der Boden sehr weich ist.",
+            "b": "es so alt ist.",
+            "c": "es früher Teil der Stadtmauer war."
+          },
+          "answer": "a",
+          "explain_en": "Its age „ist nicht der Grund“; the reason is „Der Boden hier ist sehr weich“."
+        },
+        {
+          "id": "13",
+          "type": "mc",
+          "text": "t1",
+          "question": "Im Marzipangeschäft …",
+          "options": {
+            "a": "bekommt die Gruppe eine Überraschung.",
+            "b": "sollen die Schüler gleich etwas kaufen.",
+            "c": "darf man etwas probieren."
+          },
+          "answer": "c",
+          "explain_en": "„Ihr dürft dort eine kleine Probe essen“, but should buy only at the end of the tour."
+        },
+        {
+          "id": "14",
+          "type": "mc",
+          "text": "t1",
+          "question": "In der Marienkirche sollen die Schüler …",
+          "options": {
+            "a": "Fotos von der Orgel machen.",
+            "b": "leise sein.",
+            "c": "ein Konzert hören."
+          },
+          "answer": "b",
+          "explain_en": "People often practise on the organ, „Deshalb bitte ich euch, in der Kirche leise zu sein“."
+        },
+        {
+          "id": "15",
+          "type": "mc",
+          "text": "t1",
+          "question": "Die Bootsfahrt …",
+          "options": {
+            "a": "kostet die Schülerinnen und Schüler nichts extra.",
+            "b": "dauert eine Stunde.",
+            "c": "ist am Anfang der Tour."
+          },
+          "answer": "a",
+          "explain_en": "The guide already has the tickets and says the students do not have to pay anything."
+        }
       ]
     },
     {
@@ -170,33 +768,159 @@
       "minutes": 10,
       "plays": 1,
       "texts": [
-        {"id": "t1", "title": "An der Bushaltestelle", "lines": [
-          {"who": "Can", "de": "Hey Leonie! Lange nicht gesehen. Wie waren deine Ferien?"},
-          {"who": "Leonie", "de": "Hi Can! Ziemlich anstrengend, ehrlich gesagt, aber richtig gut. Ich habe drei Wochen in einem Seniorenheim gearbeitet, als Freiwillige."},
-          {"who": "Can", "de": "Echt? Freiwillig, also ohne Geld?"},
-          {"who": "Leonie", "de": "Genau. Eigentlich wollte ich einen Ferienjob im Supermarkt machen, um Geld für ein neues Handy zu verdienen. Aber da waren schon alle Stellen weg. Und meine Tante arbeitet in dem Heim. Sie hat mich gefragt, ob ich helfen möchte."},
-          {"who": "Can", "de": "Und was musstest du da machen? Pflegen und so?"},
-          {"who": "Leonie", "de": "Nein, dafür gibt es ja ausgebildete Leute. Ich habe mit den Bewohnern Karten gespielt, bin mit ihnen spazieren gegangen oder habe ihnen aus der Zeitung vorgelesen. Einmal haben wir zusammen einen Kuchen gebacken."},
-          {"who": "Can", "de": "Klingt eigentlich ganz nett. War das nicht manchmal langweilig?"},
-          {"who": "Leonie", "de": "Überhaupt nicht! Die älteren Leute haben so viel erzählt. Ein Mann war früher Seemann und ist um die ganze Welt gefahren. Ich hätte ihm stundenlang zuhören können."},
-          {"who": "Can", "de": "Cool. Ich habe in den Ferien im Café von meinem Onkel gejobbt. Das war ganz okay, aber ich musste jeden Tag um sechs Uhr aufstehen."},
-          {"who": "Leonie", "de": "Oje. Hast du wenigstens gut verdient?"},
-          {"who": "Can", "de": "Der Lohn war nicht so toll. Aber das Trinkgeld war super, vor allem am Wochenende. Davon kaufe ich mir jetzt ein Fahrrad."},
-          {"who": "Leonie", "de": "Nicht schlecht. Weißt du, ich überlege, ob ich nach dem Abi ein Freiwilliges Soziales Jahr machen soll. Vielleicht sogar im Ausland."},
-          {"who": "Can", "de": "Wegen deinem Lebenslauf? Ich meine, für spätere Bewerbungen?"},
-          {"who": "Leonie", "de": "Das auch, klar. Aber hauptsächlich, weil es mir einfach Spaß gemacht hat. Meine Eltern finden die Idee allerdings nicht so toll. Sie wollen, dass ich direkt nach dem Abi studiere."},
-          {"who": "Can", "de": "Na ja, du hast ja noch zwei Jahre Zeit bis zum Abi. Oh, da kommt mein Bus! Bis Montag in der Schule!"},
-          {"who": "Leonie", "de": "Stimmt, zum Glück. Tschüss, Can!"}
-        ]}
+        {
+          "id": "t0",
+          "title": "Beispiel",
+          "lines": [
+            {
+              "who": "Mia",
+              "de": "Hi Paul! Fährst du auch in die Stadt?"
+            },
+            {
+              "who": "Paul",
+              "de": "Ja, ich muss mir neue Sportschuhe kaufen. Meine alten sind total kaputt."
+            },
+            {
+              "who": "Mia",
+              "de": "Dann komme ich mit. Ich brauche sowieso noch ein Geschenk für meine Schwester."
+            }
+          ]
+        },
+        {
+          "id": "t1",
+          "title": "An der Bushaltestelle",
+          "lines": [
+            {
+              "who": "Can",
+              "de": "Hey Leonie! Lange nicht gesehen. Wie waren deine Ferien?"
+            },
+            {
+              "who": "Leonie",
+              "de": "Hi Can! Ziemlich anstrengend, ehrlich gesagt, aber richtig gut. Ich habe drei Wochen in einem Seniorenheim gearbeitet, als Freiwillige."
+            },
+            {
+              "who": "Can",
+              "de": "Echt? Freiwillig, also ohne Geld?"
+            },
+            {
+              "who": "Leonie",
+              "de": "Genau. Eigentlich wollte ich einen Ferienjob im Supermarkt machen, um Geld für ein neues Handy zu verdienen. Aber da waren schon alle Stellen weg. Und meine Tante arbeitet in dem Heim. Sie hat mich gefragt, ob ich helfen möchte."
+            },
+            {
+              "who": "Can",
+              "de": "Und was musstest du da machen? Pflegen und so?"
+            },
+            {
+              "who": "Leonie",
+              "de": "Nein, dafür gibt es ja ausgebildete Leute. Ich habe mit den Bewohnern Karten gespielt, bin mit ihnen spazieren gegangen oder habe ihnen aus der Zeitung vorgelesen. Einmal haben wir zusammen einen Kuchen gebacken."
+            },
+            {
+              "who": "Can",
+              "de": "Klingt eigentlich ganz nett. War das nicht manchmal langweilig?"
+            },
+            {
+              "who": "Leonie",
+              "de": "Überhaupt nicht! Die älteren Leute haben so viel erzählt. Ein Mann war früher Seemann und ist um die ganze Welt gefahren. Ich hätte ihm stundenlang zuhören können."
+            },
+            {
+              "who": "Can",
+              "de": "Cool. Ich habe in den Ferien im Café von meinem Onkel gejobbt. Das war ganz okay, aber ich musste jeden Tag um sechs Uhr aufstehen."
+            },
+            {
+              "who": "Leonie",
+              "de": "Oje. Hast du wenigstens gut verdient?"
+            },
+            {
+              "who": "Can",
+              "de": "Der Lohn war nicht so toll. Aber das Trinkgeld war super, vor allem am Wochenende. Davon kaufe ich mir jetzt ein Fahrrad."
+            },
+            {
+              "who": "Leonie",
+              "de": "Nicht schlecht. Weißt du, ich überlege, ob ich nach dem Abi ein Freiwilliges Soziales Jahr machen soll. Vielleicht sogar im Ausland."
+            },
+            {
+              "who": "Can",
+              "de": "Wegen deinem Lebenslauf? Ich meine, für spätere Bewerbungen?"
+            },
+            {
+              "who": "Leonie",
+              "de": "Das auch, klar. Aber hauptsächlich, weil es mir einfach Spaß gemacht hat. Meine Eltern finden die Idee allerdings nicht so toll. Sie wollen, dass ich direkt nach dem Abi studiere."
+            },
+            {
+              "who": "Can",
+              "de": "Na ja, du hast ja noch zwei Jahre Zeit bis zum Abi. Oh, da kommt mein Bus! Bis Montag in der Schule!"
+            },
+            {
+              "who": "Leonie",
+              "de": "Stimmt, zum Glück. Tschüss, Can!"
+            }
+          ]
+        }
       ],
+      "example": {
+        "type": "tf",
+        "text": "t0",
+        "question": "Paul möchte in der Stadt Sportschuhe kaufen.",
+        "answer": "richtig",
+        "explain_en": "Paul says „ich muss mir neue Sportschuhe kaufen“ because his old ones are broken."
+      },
       "items": [
-        {"id": "16", "type": "tf", "text": "t1", "question": "Leonie hat in den Ferien ohne Bezahlung gearbeitet.", "answer": "richtig", "explain_en": "She worked „als Freiwillige“ and confirms „Genau“ when Can asks „also ohne Geld?“."},
-        {"id": "17", "type": "tf", "text": "t1", "question": "Leonie hat die Stelle im Seniorenheim im Internet gefunden.", "answer": "falsch", "explain_en": "Her aunt works at the home and „hat mich gefragt, ob ich helfen möchte“."},
-        {"id": "18", "type": "tf", "text": "t1", "question": "Leonie hat den Bewohnern unter anderem aus der Zeitung vorgelesen.", "answer": "richtig", "explain_en": "She played cards, went for walks and „habe ihnen aus der Zeitung vorgelesen“."},
-        {"id": "19", "type": "tf", "text": "t1", "question": "Leonie fand die Arbeit manchmal langweilig.", "answer": "falsch", "explain_en": "Asked if it was boring, she says „Überhaupt nicht!“."},
-        {"id": "20", "type": "tf", "text": "t1", "question": "Can hat im Café wenig Trinkgeld bekommen.", "answer": "falsch", "explain_en": "The wage was low, but „das Trinkgeld war super“."},
-        {"id": "21", "type": "tf", "text": "t1", "question": "Leonies Eltern möchten, dass sie nach dem Abitur studiert.", "answer": "richtig", "explain_en": "„Sie wollen, dass ich direkt nach dem Abi studiere.“"},
-        {"id": "22", "type": "tf", "text": "t1", "question": "Leonie macht ihr Abitur in zwei Jahren.", "answer": "richtig", "explain_en": "Can says „du hast ja noch zwei Jahre Zeit bis zum Abi“ and Leonie answers „Stimmt“."}
+        {
+          "id": "16",
+          "type": "tf",
+          "text": "t1",
+          "question": "Leonie hat in den Ferien ohne Bezahlung gearbeitet.",
+          "answer": "richtig",
+          "explain_en": "She worked „als Freiwillige“ and confirms „Genau“ when Can asks „also ohne Geld?“."
+        },
+        {
+          "id": "17",
+          "type": "tf",
+          "text": "t1",
+          "question": "Leonie hat die Stelle im Seniorenheim im Internet gefunden.",
+          "answer": "falsch",
+          "explain_en": "Her aunt works at the home and „hat mich gefragt, ob ich helfen möchte“."
+        },
+        {
+          "id": "18",
+          "type": "tf",
+          "text": "t1",
+          "question": "Leonie hat den Bewohnern unter anderem aus der Zeitung vorgelesen.",
+          "answer": "richtig",
+          "explain_en": "She played cards, went for walks and „habe ihnen aus der Zeitung vorgelesen“."
+        },
+        {
+          "id": "19",
+          "type": "tf",
+          "text": "t1",
+          "question": "Leonie fand die Arbeit manchmal langweilig.",
+          "answer": "falsch",
+          "explain_en": "Asked if it was boring, she says „Überhaupt nicht!“."
+        },
+        {
+          "id": "20",
+          "type": "tf",
+          "text": "t1",
+          "question": "Can hat im Café wenig Trinkgeld bekommen.",
+          "answer": "falsch",
+          "explain_en": "The wage was low, but „das Trinkgeld war super“."
+        },
+        {
+          "id": "21",
+          "type": "tf",
+          "text": "t1",
+          "question": "Leonies Eltern möchten, dass sie nach dem Abitur studiert.",
+          "answer": "richtig",
+          "explain_en": "„Sie wollen, dass ich direkt nach dem Abi studiere.“"
+        },
+        {
+          "id": "22",
+          "type": "tf",
+          "text": "t1",
+          "question": "Leonie macht ihr Abitur in zwei Jahren.",
+          "answer": "richtig",
+          "explain_en": "Can says „du hast ja noch zwei Jahre Zeit bis zum Abi“ and Leonie answers „Stimmt“."
+        }
       ]
     },
     {
@@ -207,31 +931,200 @@
       "minutes": 10,
       "plays": 2,
       "texts": [
-        {"id": "t1", "title": "Radiodiskussion: Vier Tage Schule pro Woche?", "lines": [
-          {"who": "Moderatorin", "de": "Guten Abend und herzlich willkommen zu „Jugend fragt“. Unser Thema heute: Sollten Schulen nur noch an vier Tagen pro Woche Unterricht haben? Bei mir im Studio sind Jonas Weber, Schülersprecher an einem Gymnasium in Bremen, und Dr. Petra Lang, Lehrerin für Mathematik und Physik. Jonas, Sie sind für die Vier-Tage-Woche. Warum?"},
-          {"who": "Jonas Weber", "de": "Ganz einfach: Weil wir alle total erschöpft sind. Ich sehe das jede Woche in meiner Klasse. Am Freitag ist die Luft raus. Da sitzen viele nur noch im Unterricht und warten auf das Wochenende. Richtig konzentriert ist dann kaum noch jemand."},
-          {"who": "Moderatorin", "de": "Frau Lang, kennen Sie das auch?"},
-          {"who": "Petra Lang", "de": "Natürlich gibt es am Freitag müde Schüler. Aber die Lösung kann doch nicht sein, einen ganzen Tag zu streichen. Der Stoff bleibt ja derselbe. Das heißt, wir müssten ihn auf vier Tage verteilen, und dann hätten die Jugendlichen jeden Tag bis fünf oder sechs Uhr Schule. Das ist viel zu lang, da wären sie noch müder."},
-          {"who": "Jonas Weber", "de": "Das muss nicht so sein. Man könnte den Lehrplan auch ein bisschen kürzen."},
-          {"who": "Moderatorin", "de": "Die Idee ist übrigens nicht so verrückt, wie sie vielleicht klingt: In einigen Ländern, zum Beispiel in Teilen der USA, wird das an manchen Schulen schon gemacht. Frau Lang, wäre das auch bei uns möglich?"},
-          {"who": "Petra Lang", "de": "Möglich wäre es schon. Aber denken Sie auch an die Familien. Wenn beide Eltern arbeiten, wer passt dann auf die jüngeren Kinder auf? Die Eltern können sich ja nicht jede Woche einen Tag freinehmen."},
-          {"who": "Jonas Weber", "de": "Für die Kleinen könnte es an dem Tag eine Betreuung an der Schule geben, freiwillig. Und für uns Ältere wäre der freie Tag ja nicht zum Faulenzen da. Man könnte ein Praktikum in einem Betrieb machen, im Sportverein helfen oder sich im Tierheim engagieren. Da lernt man auch sehr viel – nur eben nicht im Klassenzimmer."},
-          {"who": "Moderatorin", "de": "Das klingt erst mal attraktiv. Frau Lang?"},
-          {"who": "Petra Lang", "de": "Für manche Jugendliche vielleicht. Aber wer soll die Betreuung bezahlen? Außerdem mache ich mir Sorgen um die Schüler, die jetzt schon Schwierigkeiten haben. Wer in Mathe nicht mitkommt, braucht mehr Zeit mit einer Lehrkraft, nicht weniger. Bei einer Vier-Tage-Woche würden gerade diese Schüler noch weiter zurückfallen."},
-          {"who": "Jonas Weber", "de": "Da sehe ich eher eine Chance. Ehrlich gesagt haben viele Lehrer im Moment kaum Zeit, weil sie so viele Stunden geben. Wenn sie einen Tag ohne Unterricht hätten, könnten sie ihre Stunden in Ruhe vorbereiten, und der Unterricht würde besser. Davon hätten alle etwas."},
-          {"who": "Petra Lang", "de": "Ob wir Lehrkräfte dann wirklich mehr Zeit hätten, bezweifle ich. Wahrscheinlich müssten wir an dem Tag Konferenzen und Elterngespräche machen."},
-          {"who": "Moderatorin", "de": "Ich höre schon, dass Sie sich heute nicht einigen werden. Vielleicht wäre es ja eine Idee, das Modell zuerst an ein paar Schulen für ein oder zwei Jahre auszuprobieren. Dann wüsste man genauer, ob es funktioniert. Vielen Dank Ihnen beiden für die spannende Diskussion!"}
-        ]}
+        {
+          "id": "t0",
+          "title": "Beispiel",
+          "lines": [
+            {
+              "who": "Moderatorin",
+              "de": "Jonas, wie viele Stunden haben Sie im Moment eigentlich Unterricht?"
+            },
+            {
+              "who": "Jonas Weber",
+              "de": "An meiner Schule haben wir 34 Stunden Unterricht pro Woche. Dazu kommen noch die Hausaufgaben."
+            },
+            {
+              "who": "Petra Lang",
+              "de": "Bei uns ist es ähnlich. Viele Schüler haben am Nachmittag außerdem noch Nachhilfe oder Sport."
+            }
+          ]
+        },
+        {
+          "id": "t1",
+          "title": "Radiodiskussion: Vier Tage Schule pro Woche?",
+          "lines": [
+            {
+              "who": "Moderatorin",
+              "de": "Guten Abend und herzlich willkommen zu „Jugend fragt“. Unser Thema heute: Sollten Schulen nur noch an vier Tagen pro Woche Unterricht haben? Bei mir im Studio sind Jonas Weber, Schülersprecher an einem Gymnasium in Bremen, und Dr. Petra Lang, Lehrerin für Mathematik und Physik. Jonas, Sie sind für die Vier-Tage-Woche. Warum?"
+            },
+            {
+              "who": "Jonas Weber",
+              "de": "Ganz einfach: Weil wir alle total erschöpft sind. Ich sehe das jede Woche in meiner Klasse. Am Freitag ist die Luft raus. Da sitzen viele nur noch im Unterricht und warten auf das Wochenende. Richtig konzentriert ist dann kaum noch jemand."
+            },
+            {
+              "who": "Moderatorin",
+              "de": "Frau Lang, kennen Sie das auch?"
+            },
+            {
+              "who": "Petra Lang",
+              "de": "Natürlich gibt es am Freitag müde Schüler. Aber die Lösung kann doch nicht sein, einen ganzen Tag zu streichen. Der Stoff bleibt ja derselbe. Das heißt, wir müssten ihn auf vier Tage verteilen, und dann hätten die Jugendlichen jeden Tag bis fünf oder sechs Uhr Schule. Das ist viel zu lang, da wären sie noch müder."
+            },
+            {
+              "who": "Jonas Weber",
+              "de": "Das muss nicht so sein. Man könnte den Lehrplan auch ein bisschen kürzen."
+            },
+            {
+              "who": "Moderatorin",
+              "de": "Die Idee ist übrigens nicht so verrückt, wie sie vielleicht klingt: In einigen Ländern, zum Beispiel in Teilen der USA, wird das an manchen Schulen schon gemacht. Frau Lang, wäre das auch bei uns möglich?"
+            },
+            {
+              "who": "Petra Lang",
+              "de": "Möglich wäre es schon. Aber denken Sie auch an die Familien. Wenn beide Eltern arbeiten, wer passt dann auf die jüngeren Kinder auf? Die Eltern können sich ja nicht jede Woche einen Tag freinehmen."
+            },
+            {
+              "who": "Jonas Weber",
+              "de": "Für die Kleinen könnte es an dem Tag eine Betreuung an der Schule geben, freiwillig. Und für uns Ältere wäre der freie Tag ja nicht zum Faulenzen da. Man könnte ein Praktikum in einem Betrieb machen, im Sportverein helfen oder sich im Tierheim engagieren. Da lernt man auch sehr viel – nur eben nicht im Klassenzimmer."
+            },
+            {
+              "who": "Moderatorin",
+              "de": "Das klingt erst mal attraktiv. Frau Lang?"
+            },
+            {
+              "who": "Petra Lang",
+              "de": "Für manche Jugendliche vielleicht. Aber wer soll die Betreuung bezahlen? Außerdem mache ich mir Sorgen um die Schüler, die jetzt schon Schwierigkeiten haben. Wer in Mathe nicht mitkommt, braucht mehr Zeit mit einer Lehrkraft, nicht weniger. Bei einer Vier-Tage-Woche würden gerade diese Schüler noch weiter zurückfallen."
+            },
+            {
+              "who": "Jonas Weber",
+              "de": "Da sehe ich eher eine Chance. Ehrlich gesagt haben viele Lehrer im Moment kaum Zeit, weil sie so viele Stunden geben. Wenn sie einen Tag ohne Unterricht hätten, könnten sie ihre Stunden in Ruhe vorbereiten, und der Unterricht würde besser. Davon hätten alle etwas."
+            },
+            {
+              "who": "Petra Lang",
+              "de": "Ob wir Lehrkräfte dann wirklich mehr Zeit hätten, bezweifle ich. Wahrscheinlich müssten wir an dem Tag Konferenzen und Elterngespräche machen."
+            },
+            {
+              "who": "Moderatorin",
+              "de": "Ich höre schon, dass Sie sich heute nicht einigen werden. Vielleicht wäre es ja eine Idee, das Modell zuerst an ein paar Schulen für ein oder zwei Jahre auszuprobieren. Dann wüsste man genauer, ob es funktioniert. Vielen Dank Ihnen beiden für die spannende Diskussion!"
+            }
+          ]
+        }
       ],
+      "example": {
+        "type": "mc",
+        "text": "t0",
+        "question": "An seiner Schule gibt es pro Woche 34 Stunden Unterricht.",
+        "options": {
+          "a": "Moderatorin",
+          "b": "Jonas Weber",
+          "c": "Petra Lang"
+        },
+        "answer": "b",
+        "explain_en": "Jonas says „An meiner Schule haben wir 34 Stunden Unterricht pro Woche“."
+      },
       "items": [
-        {"id": "23", "type": "mc", "text": "t1", "question": "Viele Schülerinnen und Schüler können sich am Freitag nicht mehr gut konzentrieren.", "options": {"a": "Moderatorin", "b": "Jonas Weber", "c": "Petra Lang"}, "answer": "b", "explain_en": "Jonas says that on Friday „Richtig konzentriert ist dann kaum noch jemand“."},
-        {"id": "24", "type": "mc", "text": "t1", "question": "Wenn ein Schultag wegfällt, werden die anderen Schultage zu lang.", "options": {"a": "Moderatorin", "b": "Jonas Weber", "c": "Petra Lang"}, "answer": "c", "explain_en": "Petra Lang says school would last until five or six every day: „Das ist viel zu lang“."},
-        {"id": "25", "type": "mc", "text": "t1", "question": "In anderen Ländern gibt es an einigen Schulen schon eine Vier-Tage-Woche.", "options": {"a": "Moderatorin", "b": "Jonas Weber", "c": "Petra Lang"}, "answer": "a", "explain_en": "The presenter says „in einigen Ländern … wird das an manchen Schulen schon gemacht“."},
-        {"id": "26", "type": "mc", "text": "t1", "question": "Wenn beide Eltern arbeiten, gibt es am freien Tag ein Problem mit den jüngeren Kindern.", "options": {"a": "Moderatorin", "b": "Jonas Weber", "c": "Petra Lang"}, "answer": "c", "explain_en": "Petra Lang asks „wer passt dann auf die jüngeren Kinder auf?“ when both parents work."},
-        {"id": "27", "type": "mc", "text": "t1", "question": "Am freien Tag könnte man ein Praktikum machen oder sich ehrenamtlich engagieren.", "options": {"a": "Moderatorin", "b": "Jonas Weber", "c": "Petra Lang"}, "answer": "b", "explain_en": "Jonas suggests „ein Praktikum in einem Betrieb“, helping at a sports club or the animal shelter."},
-        {"id": "28", "type": "mc", "text": "t1", "question": "Schüler mit Schwierigkeiten brauchen mehr Unterricht, nicht weniger.", "options": {"a": "Moderatorin", "b": "Jonas Weber", "c": "Petra Lang"}, "answer": "c", "explain_en": "Petra Lang: „Wer in Mathe nicht mitkommt, braucht mehr Zeit mit einer Lehrkraft, nicht weniger.“"},
-        {"id": "29", "type": "mc", "text": "t1", "question": "Lehrer könnten den freien Tag nutzen, um ihren Unterricht besser vorzubereiten.", "options": {"a": "Moderatorin", "b": "Jonas Weber", "c": "Petra Lang"}, "answer": "b", "explain_en": "Jonas says teachers „könnten ihre Stunden in Ruhe vorbereiten“; Petra Lang doubts it."},
-        {"id": "30", "type": "mc", "text": "t1", "question": "Man könnte die Idee zuerst an einigen Schulen testen.", "options": {"a": "Moderatorin", "b": "Jonas Weber", "c": "Petra Lang"}, "answer": "a", "explain_en": "At the end the presenter suggests trying the model „zuerst an ein paar Schulen für ein oder zwei Jahre“."}
+        {
+          "id": "23",
+          "type": "mc",
+          "text": "t1",
+          "question": "Viele Schülerinnen und Schüler können sich am Freitag nicht mehr gut konzentrieren.",
+          "options": {
+            "a": "Moderatorin",
+            "b": "Jonas Weber",
+            "c": "Petra Lang"
+          },
+          "answer": "b",
+          "explain_en": "Jonas says that on Friday „Richtig konzentriert ist dann kaum noch jemand“."
+        },
+        {
+          "id": "24",
+          "type": "mc",
+          "text": "t1",
+          "question": "Wenn ein Schultag wegfällt, werden die anderen Schultage zu lang.",
+          "options": {
+            "a": "Moderatorin",
+            "b": "Jonas Weber",
+            "c": "Petra Lang"
+          },
+          "answer": "c",
+          "explain_en": "Petra Lang says school would last until five or six every day: „Das ist viel zu lang“."
+        },
+        {
+          "id": "25",
+          "type": "mc",
+          "text": "t1",
+          "question": "In anderen Ländern gibt es an einigen Schulen schon eine Vier-Tage-Woche.",
+          "options": {
+            "a": "Moderatorin",
+            "b": "Jonas Weber",
+            "c": "Petra Lang"
+          },
+          "answer": "a",
+          "explain_en": "The presenter says „in einigen Ländern … wird das an manchen Schulen schon gemacht“."
+        },
+        {
+          "id": "26",
+          "type": "mc",
+          "text": "t1",
+          "question": "Wenn beide Eltern arbeiten, gibt es am freien Tag ein Problem mit den jüngeren Kindern.",
+          "options": {
+            "a": "Moderatorin",
+            "b": "Jonas Weber",
+            "c": "Petra Lang"
+          },
+          "answer": "c",
+          "explain_en": "Petra Lang asks „wer passt dann auf die jüngeren Kinder auf?“ when both parents work."
+        },
+        {
+          "id": "27",
+          "type": "mc",
+          "text": "t1",
+          "question": "Am freien Tag könnte man ein Praktikum machen oder sich ehrenamtlich engagieren.",
+          "options": {
+            "a": "Moderatorin",
+            "b": "Jonas Weber",
+            "c": "Petra Lang"
+          },
+          "answer": "b",
+          "explain_en": "Jonas suggests „ein Praktikum in einem Betrieb“, helping at a sports club or the animal shelter."
+        },
+        {
+          "id": "28",
+          "type": "mc",
+          "text": "t1",
+          "question": "Schüler mit Schwierigkeiten brauchen mehr Unterricht, nicht weniger.",
+          "options": {
+            "a": "Moderatorin",
+            "b": "Jonas Weber",
+            "c": "Petra Lang"
+          },
+          "answer": "c",
+          "explain_en": "Petra Lang: „Wer in Mathe nicht mitkommt, braucht mehr Zeit mit einer Lehrkraft, nicht weniger.“"
+        },
+        {
+          "id": "29",
+          "type": "mc",
+          "text": "t1",
+          "question": "Lehrer könnten den freien Tag nutzen, um ihren Unterricht besser vorzubereiten.",
+          "options": {
+            "a": "Moderatorin",
+            "b": "Jonas Weber",
+            "c": "Petra Lang"
+          },
+          "answer": "b",
+          "explain_en": "Jonas says teachers „könnten ihre Stunden in Ruhe vorbereiten“; Petra Lang doubts it."
+        },
+        {
+          "id": "30",
+          "type": "mc",
+          "text": "t1",
+          "question": "Man könnte die Idee zuerst an einigen Schulen testen.",
+          "options": {
+            "a": "Moderatorin",
+            "b": "Jonas Weber",
+            "c": "Petra Lang"
+          },
+          "answer": "a",
+          "explain_en": "At the end the presenter suggests trying the model „zuerst an ein paar Schulen für ein oder zwei Jahre“."
+        }
       ]
     },
     {
@@ -240,6 +1133,7 @@
       "title_de": "Schreiben, Teil 1",
       "instructions_en": "Write an informal email to a friend (about 80 words). Cover all three points and use a clear structure: greeting, introduction, the points in order, ending.",
       "minutes": 20,
+      "kind": "informal",
       "task_de": "Sie haben vor zwei Wochen einen Ferienjob in einem Freibad angefangen. Ein Freund / Eine Freundin hat Sie gefragt, wie es Ihnen dort gefällt. Schreiben Sie eine E-Mail (circa 80 Wörter). Schreiben Sie etwas zu allen drei Punkten. Achten Sie auf den Textaufbau (Anrede, Einleitung, Reihenfolge der Inhaltspunkte, Schluss).",
       "task_en": "Two weeks ago you started a holiday job at an outdoor swimming pool. A friend asked you how you like it. Write an email (about 80 words) that covers all three points, with a greeting, an introduction, the points in order and an ending.",
       "points": [
@@ -247,7 +1141,44 @@
         "Begründen Sie: Was gefällt Ihnen besonders gut und warum?",
         "Machen Sie einen Vorschlag für ein Treffen."
       ],
-      "words": [70, 80],
+      "point_keywords": [
+        [
+          "kasse",
+          "verkaufe",
+          "helfe",
+          "aufgabe",
+          "muss ich",
+          "arbeite",
+          "kiosk",
+          "putze",
+          "aufpass"
+        ],
+        [
+          "gefällt",
+          "am besten",
+          "besonders",
+          "weil",
+          "denn",
+          "spaß",
+          "toll",
+          "super",
+          "finde ich"
+        ],
+        [
+          "treffen",
+          "lust",
+          "besuch",
+          "wollen wir",
+          "könnten wir",
+          "hast du zeit",
+          "wie wäre",
+          "vorschlag"
+        ]
+      ],
+      "words": [
+        70,
+        80
+      ],
       "model_de": "Liebe Clara,\n\nvielen Dank für deine Nachricht! Seit zwei Wochen arbeite ich jetzt im Freibad, und es gefällt mir richtig gut. Meistens sitze ich an der Kasse und verkaufe Eintrittskarten. Manchmal helfe ich auch am Kiosk und verkaufe Eis und Pommes. Am besten finde ich meine Kollegen, weil sie alle sehr nett sind und wir nach der Arbeit oft zusammen schwimmen gehen. Hättest du Lust, mich am Samstag zu besuchen? Ich habe um 16 Uhr frei. Dann könnten wir zusammen ins Wasser springen und danach ein Eis essen.\n\nLiebe Grüße\nBen"
     },
     {
@@ -256,6 +1187,7 @@
       "title_de": "Schreiben, Teil 2",
       "instructions_en": "Write your opinion on the topic for an online guestbook (about 80 words).",
       "minutes": 25,
+      "kind": "forum",
       "task_de": "Sie haben im Radio eine Sendung zum Thema „Soziales Engagement – Pflicht für alle Schüler?“ gehört. Im Online-Gästebuch der Sendung finden Sie folgende Meinung:\n\nMax, 16: „Ich finde, jeder Schüler sollte pro Schuljahr 20 Stunden ehrenamtlich arbeiten, zum Beispiel im Altenheim oder im Sportverein. So lernt man, Verantwortung zu übernehmen. Wer nur an sich selbst denkt, verpasst etwas!“\n\nSchreiben Sie nun Ihre Meinung zum Thema (circa 80 Wörter).",
       "task_en": "You heard a radio programme on „Social volunteering – compulsory for all students?“. In the programme's online guestbook, Max (16) writes that every student should do 20 hours of volunteering per school year, because it teaches responsibility. Write your own opinion on the topic (about 80 words).",
       "points": [
@@ -263,7 +1195,41 @@
         "Begründen Sie Ihre Meinung, zum Beispiel mit einer eigenen Erfahrung.",
         "Reagieren Sie auf den Beitrag von Max."
       ],
-      "words": [70, 80],
+      "point_keywords": [
+        [
+          "meinung",
+          "ich finde",
+          "bin gegen",
+          "bin für",
+          "dafür",
+          "dagegen",
+          "ich denke",
+          "ich glaube"
+        ],
+        [
+          "weil",
+          "denn",
+          "zum beispiel",
+          "erfahrung",
+          "ich helfe",
+          "selbst",
+          "außerdem",
+          "deshalb"
+        ],
+        [
+          "max",
+          "beitrag",
+          "verstehe",
+          "recht",
+          "stimme",
+          "einverstanden",
+          "anders als"
+        ]
+      ],
+      "words": [
+        70,
+        80
+      ],
       "model_de": "Ich verstehe Max, denn ehrenamtliche Arbeit ist wirklich wichtig. Trotzdem bin ich gegen Pflichtstunden. Meiner Meinung nach sollte man sich freiwillig engagieren, weil man sonst keine Lust hat und die Arbeit nicht gut macht. Ich helfe zum Beispiel seit einem Jahr im Fußballverein beim Training der Kinder. Das mache ich gern, weil ich es selbst ausgesucht habe. Außerdem haben viele Schüler schon wenig Freizeit, weil sie für Prüfungen lernen oder einen Nebenjob haben. Besser wäre es, wenn die Schulen mehr über Ehrenämter informieren würden."
     },
     {
@@ -272,6 +1238,7 @@
       "title_de": "Schreiben, Teil 3",
       "instructions_en": "Write a short formal email (about 40 words). Don't forget the greeting and the closing.",
       "minutes": 15,
+      "kind": "formal",
       "task_de": "Sie haben sich bei Herrn Neumann von der Stadtverwaltung angemeldet, weil Sie am Samstag beim Umwelttag im Stadtpark helfen wollten. Sie können aber nicht kommen. Schreiben Sie an Herrn Neumann. Entschuldigen Sie sich höflich und berichten Sie, warum Sie nicht kommen können. Schreiben Sie eine E-Mail (circa 40 Wörter). Vergessen Sie nicht die Anrede und den Gruß am Schluss.",
       "task_en": "You signed up with Mr Neumann from the town council to help at the environment day in the park on Saturday, but you can't come. Write to Mr Neumann: apologise politely and explain why you can't come. Write an email of about 40 words with a formal greeting and closing.",
       "points": [
@@ -279,8 +1246,567 @@
         "Berichten Sie, warum Sie nicht kommen können.",
         "Formelle Anrede und Gruß am Schluss."
       ],
-      "words": [35, 40],
+      "point_keywords": [
+        [
+          "entschuldig",
+          "tut mir leid",
+          "leid",
+          "leider",
+          "verzeih",
+          "bedauer"
+        ],
+        [
+          "weil",
+          "denn",
+          "krank",
+          "geburtstag",
+          "familie",
+          "termin",
+          "arzt",
+          "muss",
+          "deshalb"
+        ],
+        [
+          "sehr geehrte",
+          "mit freundlichen grüßen",
+          "freundliche grüße",
+          "freundlichen grüßen",
+          "guten tag",
+          "viele grüße"
+        ]
+      ],
+      "words": [
+        35,
+        40
+      ],
       "model_de": "Sehr geehrter Herr Neumann,\n\nleider kann ich am Samstag nicht beim Umwelttag helfen. Das tut mir sehr leid. Meine Großmutter feiert an diesem Tag ihren 80. Geburtstag, und die ganze Familie fährt zu ihr nach Köln. Beim nächsten Mal wäre ich sehr gern dabei.\n\nMit freundlichen Grüßen\nLisa Wagner"
+    },
+    {
+      "id": "sprechen-1",
+      "skill": "speaking",
+      "title_de": "Sprechen, Teil 1",
+      "instructions_en": "Plan something together. Your exchange student Lucía goes back to Spain soon, and your class wants to give her a surprise goodbye party. The card shows the points to talk about. The computer plays your classmate: react to the suggestions, give reasons, make your own suggestions, and agree on a plan.",
+      "minutes": 3,
+      "tasks": [
+        {
+          "id": "1",
+          "card_title": "Abschiedsparty für Lucía planen",
+          "card": [
+            "Wann?",
+            "Wo?",
+            "Essen und Getränke?",
+            "Programm?",
+            "Geschenk?"
+          ],
+          "prompt_de": "Deine Mitschülerin macht einen Vorschlag für den Termin. Reagiere und begründe deine Meinung.",
+          "prompt_en": "Your classmate suggests a date. React and give a reason.",
+          "partner_de": "Hey, Lucía fliegt ja nächsten Montag zurück nach Spanien. Wollen wir die Party am Sonntagabend machen?",
+          "seconds": 30,
+          "min_words": 15,
+          "keywords": [
+            [
+              "sonntag",
+              "freitag",
+              "samstag"
+            ],
+            [
+              "besser",
+              "lieber",
+              "schlecht",
+              "keine gute idee"
+            ],
+            [
+              "weil",
+              "denn",
+              "deshalb"
+            ]
+          ],
+          "model_de": "Sonntagabend finde ich nicht so gut, weil Lucía am Montag früh fliegt und bestimmt noch packen muss. Wie wäre es lieber mit Freitag nach der Schule?"
+        },
+        {
+          "id": "2",
+          "card_title": "Abschiedsparty für Lucía planen",
+          "card": [
+            "Wann?",
+            "Wo?",
+            "Essen und Getränke?",
+            "Programm?",
+            "Geschenk?"
+          ],
+          "prompt_de": "Jetzt geht es um den Ort. Reagiere auf den Vorschlag und mach einen eigenen.",
+          "prompt_en": "Now it's about the place. React to the suggestion and make your own.",
+          "partner_de": "Freitag ist gut, da haben alle Zeit. Aber wo? Bei mir zu Hause ist es leider zu klein für die ganze Klasse.",
+          "seconds": 30,
+          "min_words": 15,
+          "keywords": [
+            [
+              "klassenzimmer",
+              "schule",
+              "park",
+              "jugendzentrum",
+              "garten"
+            ],
+            [
+              "fragen",
+              "frag",
+              "erlaub",
+              "darf"
+            ],
+            [
+              "vorschlag",
+              "wie wäre",
+              "vielleicht",
+              "könnten"
+            ]
+          ],
+          "model_de": "Wir könnten vielleicht im Klassenzimmer feiern. Das ist groß genug, und Lucía kennt den Raum. Ich kann morgen unsere Klassenlehrerin fragen, ob wir das dürfen."
+        },
+        {
+          "id": "3",
+          "card_title": "Abschiedsparty für Lucía planen",
+          "card": [
+            "Wann?",
+            "Wo?",
+            "Essen und Getränke?",
+            "Programm?",
+            "Geschenk?"
+          ],
+          "prompt_de": "Deine Mitschülerin möchte Pizza bestellen. Du findest das nicht so gut. Sag, warum, und mach einen anderen Vorschlag.",
+          "prompt_en": "Your classmate wants to order pizza. You don't like the idea. Say why and suggest something else.",
+          "partner_de": "Gute Idee! Und zum Essen bestellen wir einfach Pizza für alle, oder?",
+          "seconds": 35,
+          "min_words": 18,
+          "keywords": [
+            [
+              "teuer",
+              "kostet",
+              "geld"
+            ],
+            [
+              "mitbringen",
+              "bringt",
+              "bringen",
+              "selbst machen",
+              "kochen"
+            ],
+            [
+              "spanisch",
+              "tortilla",
+              "kuchen",
+              "salat",
+              "snacks"
+            ]
+          ],
+          "model_de": "Pizza für die ganze Klasse ist ziemlich teuer. Ich finde es schöner, wenn jeder etwas mitbringt, zum Beispiel Kuchen oder Salat. Wir könnten auch eine spanische Tortilla machen, das freut Lucía bestimmt."
+        },
+        {
+          "id": "4",
+          "card_title": "Abschiedsparty für Lucía planen",
+          "card": [
+            "Wann?",
+            "Wo?",
+            "Essen und Getränke?",
+            "Programm?",
+            "Geschenk?"
+          ],
+          "prompt_de": "Jetzt sprecht ihr über das Programm. Antworte auf die Frage und mach einen Vorschlag.",
+          "prompt_en": "Now you talk about the programme. Answer the question and make a suggestion.",
+          "partner_de": "Okay, jeder bringt etwas mit, das ist fair. Aber was machen wir auf der Party? Nur essen ist ein bisschen langweilig.",
+          "seconds": 35,
+          "min_words": 18,
+          "keywords": [
+            [
+              "musik",
+              "playlist",
+              "tanzen",
+              "spiel",
+              "quiz",
+              "fotos",
+              "video"
+            ],
+            [
+              "könnten",
+              "wie wäre",
+              "schlage",
+              "vielleicht",
+              "lass uns"
+            ]
+          ],
+          "model_de": "Da hast du recht. Wir könnten ein Quiz über Lucías Jahr in Deutschland machen. Und am Ende zeigen wir ein kurzes Video mit Fotos von unseren Ausflügen. Danach machen wir Musik und tanzen."
+        },
+        {
+          "id": "5",
+          "card_title": "Abschiedsparty für Lucía planen",
+          "card": [
+            "Wann?",
+            "Wo?",
+            "Essen und Getränke?",
+            "Programm?",
+            "Geschenk?"
+          ],
+          "prompt_de": "Zum Schluss: das Geschenk. Reagiere auf die Idee, ergänze sie und fass den Plan kurz zusammen.",
+          "prompt_en": "Finally: the present. React to the idea, add to it and sum up the plan briefly.",
+          "partner_de": "Super! Und ein Geschenk brauchen wir auch. Ich dachte an ein T-Shirt mit dem Namen unserer Schule. Was meinst du?",
+          "seconds": 40,
+          "min_words": 20,
+          "keywords": [
+            [
+              "t-shirt",
+              "geschenk"
+            ],
+            [
+              "unterschreiben",
+              "unterschrift",
+              "namen",
+              "karte",
+              "fotobuch"
+            ],
+            [
+              "also",
+              "dann",
+              "zusammen"
+            ],
+            [
+              "freitag",
+              "klassenzimmer"
+            ]
+          ],
+          "model_de": "Das T-Shirt finde ich eine schöne Idee. Alle aus der Klasse könnten ihre Namen darauf schreiben, dann hat sie eine Erinnerung. Also: Wir feiern am Freitag im Klassenzimmer, jeder bringt etwas zu essen mit, und wir machen ein Quiz und ein Video. Ich frage morgen die Lehrerin."
+        }
+      ]
+    },
+    {
+      "id": "sprechen-2",
+      "skill": "speaking",
+      "title_de": "Sprechen, Teil 2",
+      "instructions_en": "Give a short presentation (about 3 minutes in total) on the topic \"Part-time jobs for teenagers\". Your notes are on five slides. Talk about one slide at a time, in full sentences, and speak freely. The computer is your audience and records each slide separately.",
+      "minutes": 5,
+      "tasks": [
+        {
+          "id": "1",
+          "card_title": "Folie 1: Nebenjobs für Jugendliche",
+          "card": [
+            "Nebenjobs für Jugendliche – sinnvoll oder nicht?",
+            "Thema vorstellen",
+            "Inhalt und Aufbau der Präsentation"
+          ],
+          "prompt_de": "Stell dein Thema vor und sag, worüber du sprechen wirst.",
+          "prompt_en": "Introduce your topic and say what you will talk about.",
+          "seconds": 30,
+          "min_words": 25,
+          "keywords": [
+            [
+              "thema",
+              "präsentation",
+              "vortrag"
+            ],
+            [
+              "nebenjob",
+              "job"
+            ],
+            [
+              "zuerst",
+              "dann",
+              "danach",
+              "zum schluss",
+              "am ende"
+            ]
+          ],
+          "model_de": "Hallo zusammen! Das Thema meiner Präsentation ist: Sollen Jugendliche einen Nebenjob haben? Zuerst erzähle ich von meinen eigenen Erfahrungen. Dann spreche ich über die Situation in meinem Land. Danach nenne ich Vor- und Nachteile, und am Ende sage ich meine Meinung."
+        },
+        {
+          "id": "2",
+          "card_title": "Folie 2: Meine Erfahrungen",
+          "card": [
+            "Meine persönlichen Erfahrungen",
+            "Hast du schon gejobbt?",
+            "Was hast du gemacht?"
+          ],
+          "prompt_de": "Erzähl von deinen eigenen Erfahrungen mit Nebenjobs.",
+          "prompt_en": "Talk about your own experience with part-time jobs.",
+          "seconds": 60,
+          "min_words": 40,
+          "keywords": [
+            [
+              "letzten sommer",
+              "letztes jahr",
+              "seit",
+              "früher",
+              "in den ferien"
+            ],
+            [
+              "habe",
+              "hab",
+              "bin"
+            ],
+            [
+              "gearbeitet",
+              "gejobbt",
+              "ausgetragen",
+              "verdient",
+              "geholfen",
+              "aufgepasst"
+            ],
+            [
+              "euro",
+              "geld"
+            ]
+          ],
+          "model_de": "Ich habe selbst schon einen Nebenjob gehabt. Letzten Sommer habe ich drei Monate lang jeden Samstag Zeitungen ausgetragen. Ich musste um sechs Uhr aufstehen, das war am Anfang echt hart. Aber ich habe ungefähr achtzig Euro im Monat verdient und mir davon neue Kopfhörer gekauft. Außerdem habe ich gelernt, pünktlich und zuverlässig zu sein."
+        },
+        {
+          "id": "3",
+          "card_title": "Folie 3: In meinem Land",
+          "card": [
+            "Nebenjobs in meinem Heimatland",
+            "Welche Jobs sind typisch?",
+            "Beispiele"
+          ],
+          "prompt_de": "Erzähl, wie es mit Nebenjobs für Jugendliche in deinem Land ist. Nenne Beispiele.",
+          "prompt_en": "Say what part-time jobs for teenagers are like in your country. Give examples.",
+          "seconds": 60,
+          "min_words": 40,
+          "keywords": [
+            [
+              "in meinem land",
+              "bei uns",
+              "in meiner heimat"
+            ],
+            [
+              "viele",
+              "die meisten",
+              "manche",
+              "einige"
+            ],
+            [
+              "zum beispiel",
+              "z. b.",
+              "etwa",
+              "wie"
+            ],
+            [
+              "supermarkt",
+              "café",
+              "restaurant",
+              "babysit",
+              "nachhilfe",
+              "rasen"
+            ]
+          ],
+          "model_de": "In meinem Land haben viele Jugendliche ab fünfzehn oder sechzehn einen Nebenjob. Typisch sind zum Beispiel Jobs im Supermarkt, in einem Café oder im Fast-Food-Restaurant. Manche geben auch Nachhilfe für jüngere Schüler oder machen Babysitting bei Nachbarn. Die meisten arbeiten am Wochenende oder in den Ferien, weil sie in der Woche viel für die Schule tun müssen."
+        },
+        {
+          "id": "4",
+          "card_title": "Folie 4: Vor- und Nachteile",
+          "card": [
+            "Vorteile und Nachteile",
+            "Meine Meinung"
+          ],
+          "prompt_de": "Nenne Vorteile und Nachteile von Nebenjobs und sag deine Meinung.",
+          "prompt_en": "Give advantages and disadvantages of part-time jobs and say what you think.",
+          "seconds": 90,
+          "min_words": 55,
+          "keywords": [
+            [
+              "vorteil",
+              "positiv",
+              "gut ist"
+            ],
+            [
+              "nachteil",
+              "negativ",
+              "problem"
+            ],
+            [
+              "meiner meinung",
+              "ich finde",
+              "ich denke",
+              "ich meine"
+            ],
+            [
+              "schule",
+              "noten",
+              "hausaufgaben",
+              "zeit"
+            ]
+          ],
+          "model_de": "Ein großer Vorteil ist, dass man sein eigenes Geld verdient und lernt, damit umzugehen. Außerdem sammelt man Erfahrungen für das Berufsleben und wird selbstständiger. Ein Nachteil ist aber, dass man weniger Zeit hat, für die Schule, für Hausaufgaben und für Freunde. Wenn man zu viel arbeitet, werden vielleicht die Noten schlechter, und man ist oft müde. Meiner Meinung nach ist ein Nebenjob eine gute Sache, aber nur ein paar Stunden pro Woche. Die Schule muss immer wichtiger sein."
+        },
+        {
+          "id": "5",
+          "card_title": "Folie 5: Abschluss",
+          "card": [
+            "Abschluss",
+            "Zusammenfassung",
+            "Dank an die Zuhörer"
+          ],
+          "prompt_de": "Beende deine Präsentation: Fass kurz zusammen und bedank dich bei den Zuhörern.",
+          "prompt_en": "End your presentation: sum up briefly and thank the audience.",
+          "seconds": 30,
+          "min_words": 20,
+          "keywords": [
+            [
+              "zum schluss",
+              "zusammenfassend",
+              "am ende",
+              "also"
+            ],
+            [
+              "nebenjob",
+              "job"
+            ],
+            [
+              "danke",
+              "vielen dank",
+              "aufmerksamkeit",
+              "zuhören"
+            ]
+          ],
+          "model_de": "Zum Schluss möchte ich sagen: Ein Nebenjob kann Jugendlichen viel bringen, wenn genug Zeit für die Schule bleibt. Vielen Dank für eure Aufmerksamkeit! Habt ihr noch Fragen?"
+        }
+      ]
+    },
+    {
+      "id": "sprechen-3",
+      "skill": "speaking",
+      "title_de": "Sprechen, Teil 3",
+      "instructions_en": "Talk about the presentations. The computer plays your partner and the examiner. First react to feedback and questions about your presentation on part-time jobs. Then your partner briefly sums up their own presentation: give them feedback and ask them a question.",
+      "minutes": 3,
+      "tasks": [
+        {
+          "id": "1",
+          "card_title": "Fragen zu deiner Präsentation",
+          "card": [
+            "Auf Fragen antworten"
+          ],
+          "prompt_de": "Deine Partnerin lobt deine Präsentation und stellt eine Frage. Bedank dich und antworte.",
+          "prompt_en": "Your partner praises your presentation and asks a question. Say thank you and answer.",
+          "partner_de": "Danke, deine Präsentation war sehr interessant, besonders deine eigene Erfahrung mit den Zeitungen. Würdest du den Job noch einmal machen?",
+          "seconds": 30,
+          "min_words": 18,
+          "keywords": [
+            [
+              "danke"
+            ],
+            [
+              "würde",
+              "noch einmal",
+              "wieder"
+            ],
+            [
+              "weil",
+              "denn",
+              "aber"
+            ]
+          ],
+          "model_de": "Danke schön! Ja, ich würde den Job wieder machen, weil ich dabei viel gelernt habe. Aber ich würde lieber am Nachmittag arbeiten, denn so früh aufzustehen war wirklich anstrengend."
+        },
+        {
+          "id": "2",
+          "card_title": "Fragen zu deiner Präsentation",
+          "card": [
+            "Auf Kritik reagieren"
+          ],
+          "prompt_de": "Deine Partnerin ist nicht ganz deiner Meinung. Reagiere höflich und begründe deine Position.",
+          "prompt_en": "Your partner doesn't fully agree with you. React politely and explain your position.",
+          "partner_de": "Ich sehe das ein bisschen anders. Mit sechzehn sollte man doch nur für die Schule lernen und seine Freizeit genießen, oder?",
+          "seconds": 40,
+          "min_words": 25,
+          "keywords": [
+            [
+              "verstehe",
+              "recht",
+              "stimmt",
+              "punkt"
+            ],
+            [
+              "aber",
+              "trotzdem",
+              "jedoch"
+            ],
+            [
+              "stunden",
+              "wenig",
+              "nicht zu viel"
+            ],
+            [
+              "lernt",
+              "erfahrung",
+              "selbstständig",
+              "verantwortung"
+            ]
+          ],
+          "model_de": "Ich verstehe deinen Punkt, und die Schule ist natürlich am wichtigsten. Aber ich glaube trotzdem, dass ein Job mit wenigen Stunden pro Woche nicht schadet. Man lernt Verantwortung und sammelt Erfahrung, die man später braucht."
+        },
+        {
+          "id": "3",
+          "card_title": "Fragen zu deiner Präsentation",
+          "card": [
+            "Frage des Prüfers"
+          ],
+          "prompt_de": "Der Prüfer stellt dir eine Frage zu deinem Thema. Antworte ausführlich.",
+          "prompt_en": "The examiner asks you a question about your topic. Give a full answer.",
+          "partner_de": "Was sollten Eltern tun, wenn ihr Kind wegen des Nebenjobs schlechtere Noten bekommt?",
+          "seconds": 40,
+          "min_words": 25,
+          "keywords": [
+            [
+              "eltern"
+            ],
+            [
+              "sprechen",
+              "reden",
+              "gespräch"
+            ],
+            [
+              "weniger",
+              "reduzieren",
+              "pause",
+              "aufhören"
+            ],
+            [
+              "noten",
+              "schule"
+            ]
+          ],
+          "model_de": "Ich finde, die Eltern sollten zuerst in Ruhe mit ihrem Kind sprechen. Vielleicht kann es weniger Stunden arbeiten oder in der Prüfungszeit eine Pause machen. Wenn die Noten dann immer noch schlecht sind, sollte es mit dem Job aufhören."
+        },
+        {
+          "id": "4",
+          "card_title": "Die Präsentation deiner Partnerin",
+          "card": [
+            "Rückmeldung geben",
+            "Eine Frage stellen"
+          ],
+          "prompt_de": "Deine Partnerin fasst ihre Präsentation kurz zusammen. Gib ihr eine Rückmeldung und stell ihr eine Frage.",
+          "prompt_en": "Your partner briefly sums up her presentation. Give her feedback and ask her a question.",
+          "partner_de": "In meiner Präsentation ging es um Schuluniformen. Ich finde sie gut, weil dann niemand wegen seiner Kleidung ausgelacht wird.",
+          "seconds": 35,
+          "min_words": 20,
+          "keywords": [
+            [
+              "präsentation",
+              "vortrag"
+            ],
+            [
+              "interessant",
+              "gut gefallen",
+              "gefallen",
+              "super",
+              "spannend"
+            ],
+            [
+              "uniform"
+            ],
+            [
+              "würdest",
+              "frage",
+              "möchte wissen"
+            ]
+          ],
+          "model_de": "Deine Präsentation hat mir gut gefallen, vor allem dein Beispiel mit der Kleidung war interessant. Ich habe eine Frage: Würdest du selbst gern jeden Tag eine Uniform tragen?"
+        }
+      ]
     }
   ]
 }

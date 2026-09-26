@@ -173,3 +173,38 @@ Rules: answers must follow clearly from the text (no trick questions, one right 
 plausible but clearly wrong; `explain_en` for every item; topics and texts suitable for 13–17-year-olds;
 current spelling; the level's vocabulary and grammar. After editing, run `python tools/item_versions.py --update`
 and `python tools/validate_content.py`.
+
+### Worked examples, writing checks and speaking (exam files)
+
+**Worked example** (reading and listening parts, optional but recommended): one solved item shown before the
+part starts, like the real exam's "Beispiel". It isn't scored.
+```json
+"example": {"type": "mc", "text": "t0", "question": "…", "options": {"a": "…", "b": "…", "c": "…"}, "answer": "b",
+            "explain_en": "Why b."}
+```
+It uses the same item shape. A listening example needs its own short recording: add a text (e.g. `"t0"`) to
+the part's `texts` that no scored item uses. A matching example must choose a text that is the answer of
+no scored item (the real exam uses the example's choice up).
+
+**Writing checks**: a writing part can have `"kind"`: `"sms"`, `"informal"` (email to a friend), `"formal"`
+or `"forum"`, and `"point_keywords"`: one list per point of words that show the point was covered, e.g.
+`[["leider", "kann nicht", "krank"], ["vorschlag", "wie wäre", "vielleicht"], …]`. Any one word of a point's
+list counts (lower case; a word also matches longer forms, so "entschuldig" matches "Entschuldigung").
+
+**Speaking parts** (`"skill": "speaking"`): tasks instead of items.
+```json
+{"id": "sprechen-1", "skill": "speaking", "title_de": "Sprechen, Teil 1", "instructions_en": "…", "minutes": 4,
+ "tasks": [
+   {"id": "1", "card_title": "Freizeit", "card": ["Sport?"],
+    "prompt_de": "Stell eine Frage mit dem Wort auf der Karte.", "prompt_en": "Ask a question using the card.",
+    "partner_de": "Was machst du am Wochenende?",
+    "seconds": 20, "min_words": 5,
+    "keywords": [["sport"], ["machst", "spielst", "treibst"]],
+    "model_de": "Welchen Sport machst du gern?"}
+ ]}
+```
+- `card_title`, `card`: what's on the task card (short words, like the real exam's cards).
+- `partner_de` (optional): the app says this first (the examiner's or partner's line), and the kid answers it.
+- `seconds`: recording time; `min_words`: how many words a good answer has at least.
+- `keywords`: groups of words the answer should contain; each group is met by any one of its words.
+- `model_de`: a model answer at the level (played and shown after the kid's try).

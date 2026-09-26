@@ -3,7 +3,7 @@
   "level": "A2",
   "style": "Goethe-Zertifikat A2",
   "title": "Practice exam A2 · 1",
-  "about_en": "A full practice run of the written Goethe-Zertifikat A2: reading (30 min), listening (30 min) and writing (30 min). The parts and scored item counts follow the real exam; the listening parts use picture choices like the real exam. Speaking is not included. All texts were written for this app.",
+  "about_en": "A full practice run of the written Goethe-Zertifikat A2: reading (30 min), listening (30 min) and writing (30 min). The parts and scored item counts follow the real exam; the listening parts use picture choices like the real exam. Speaking is included: the computer plays your partner, and the speech check listens. All texts were written for this app.",
   "official_practice": [
     {
       "title": "Goethe-Zertifikat A2: official model exam (Modellsatz, adults)",
@@ -32,6 +32,18 @@
           "de": "Seit einem Jahr gibt es im Jugendzentrum Nord in Bremen jeden Dienstag und Donnerstag eine Hausaufgabenhilfe. Die Idee hatte Mia Kowalski. Sie ist 16 Jahre alt und geht in die zehnte Klasse. „Mein kleiner Bruder hatte Probleme in Mathe, und meine Eltern hatten nicht genug Geld für einen Nachhilfelehrer“, erzählt sie. „Da habe ich gedacht: Andere Familien haben bestimmt das gleiche Problem.“\n\nMia hat mit dem Leiter des Jugendzentrums, Herrn Demir, gesprochen. Er fand die Idee sofort gut und hat ihr einen Raum mit Tischen und einem Computer gegeben. Dann hat Mia Freunde aus ihrer Schule gefragt. Am Anfang haben nur drei Schülerinnen und Schüler mitgemacht, heute sind es schon zwölf. Sie helfen jüngeren Kindern von der fünften bis zur achten Klasse, vor allem in Mathe, Englisch und Deutsch.\n\nDie Hilfe kostet nichts. Die Helfer bekommen kein Geld, aber das Jugendzentrum bezahlt für sie jeden Monat einen Ausflug, zum Beispiel ins Kino oder zum Klettern. „Das macht allen Spaß“, sagt Mia. „Und ich lerne auch viel. Wenn ich etwas erkläre, verstehe ich es selbst besser.“\n\nIm Sommer möchte Mia die Schule beenden und eine Ausbildung als Erzieherin anfangen. Die Hausaufgabenhilfe soll aber weitergehen: Ihr Freund Jonas übernimmt dann die Organisation."
         }
       ],
+      "example": {
+        "type": "mc",
+        "text": "t1",
+        "question": "Die Hausaufgabenhilfe gibt es …",
+        "options": {
+          "a": "jeden Tag.",
+          "b": "am Dienstag und am Donnerstag.",
+          "c": "nur am Wochenende."
+        },
+        "answer": "b",
+        "explain_en": "The article begins: there is homework help \"jeden Dienstag und Donnerstag\"."
+      },
       "items": [
         {
           "id": "1",
@@ -113,6 +125,18 @@
           "de": "MARKTPLATZ (Große Bühne)\n14:00 Kinderchor der Grundschule\n16:00 Tanzgruppe „Move“: Hip-Hop zum Mitmachen\n20:00 Konzert: The Rainy Days (Rock)\n\nSCHULHOF GOETHE-GYMNASIUM\n11:00–18:00 Flohmarkt: Bücher, Brettspiele, Computerspiele, Kleidung\nFahrradwerkstatt: Wir reparieren dein Fahrrad kostenlos!\n\nSTADTPARK\n10:00–17:00 Kletterwand und Fußballturnier für Jugendliche (Anmeldung bis 12 Uhr am Zelt)\n15:00 Zaubershow für Kinder\n\nRATHAUS (Erdgeschoss)\n10:00–16:00 Information, Fundbüro, Erste Hilfe\n\nKIRCHSTRASSE\nEssen und Trinken aus vielen Ländern: Pizza, Falafel, Crêpes, Eis\n\nBAHNHOFSTRASSE\n12:00–18:00 Stände der Sportvereine: Tennis, Schwimmen, Judo – probier es aus!"
         }
       ],
+      "example": {
+        "type": "mc",
+        "text": "t1",
+        "question": "Sie haben Hunger und möchten Falafel essen.",
+        "options": {
+          "a": "Kirchstraße",
+          "b": "Stadtpark",
+          "c": "anderer Ort"
+        },
+        "answer": "a",
+        "explain_en": "Food from many countries, including falafel, is in the Kirchstraße."
+      },
       "items": [
         {
           "id": "6",
@@ -194,6 +218,18 @@
           "de": "Liebe Sophie,\n\nwie geht es dir? Ich habe lange nicht geschrieben, weil ich so viel für die Schule lernen musste. Aber jetzt sind endlich Ferien!\n\nLetztes Wochenende war ich mit meiner Familie in Hamburg. Wir sind mit dem Zug gefahren. Das hat fast vier Stunden gedauert, weil wir in Hannover eine Stunde warten mussten. Mein Bruder Paul war total genervt, aber ich habe die ganze Zeit Musik gehört und gelesen. In Hamburg haben wir bei meiner Tante gewohnt. Wir haben eine Hafenrundfahrt gemacht, und am Sonntag waren wir im Miniatur Wunderland. Das hat mir am besten gefallen!\n\nUnd jetzt die große Neuigkeit: Ich werde am 3. August 16 und mache eine Party! Meine Eltern haben gesagt, dass ich zwölf Freunde einladen darf. Wir wollen im Garten grillen, und später gehen wir zum See schwimmen, wenn das Wetter gut ist. Kannst du kommen? Du kannst bei uns schlafen, meine Mutter hat schon Ja gesagt.\n\nAch ja, ich habe auch einen Ferienjob! Ich arbeite zwei Wochen lang jeden Vormittag in der Bäckerei von Herrn Bauer. Ich muss um sechs Uhr aufstehen – das ist hart! Aber ich verdiene 12 Euro pro Stunde, und ich spare für ein neues Fahrrad.\n\nSchreib mir bald!\n\nLiebe Grüße\nLena"
         }
       ],
+      "example": {
+        "type": "mc",
+        "text": "t1",
+        "question": "Lena hat …",
+        "options": {
+          "a": "am 3. August Geburtstag.",
+          "b": "im Juni Geburtstag.",
+          "c": "am 16. August Geburtstag."
+        },
+        "answer": "a",
+        "explain_en": "Lena writes \"Ich werde am 3. August 16\": 16 is her age, not the date."
+      },
       "items": [
         {
           "id": "11",
@@ -301,6 +337,12 @@
           "de": "Malen für Jugendliche ab 12 Jahren. Dienstags von 14 bis 16 Uhr. Material inklusive, 20 Euro."
         }
       ],
+      "example": {
+        "type": "match",
+        "question": "Mia (13) möchte in den Ferien Hip-Hop tanzen lernen.",
+        "answer": "d",
+        "explain_en": "The dance school offers a hip-hop crash course in the holidays for everyone aged 12 and over."
+      },
       "items": [
         {
           "id": "16",
@@ -348,6 +390,11 @@
       "plays": 2,
       "texts": [
         {
+          "id": "t0",
+          "title": "Beispiel: Nachricht auf dem Handy",
+          "de": "Hallo Lukas, hier ist Papa. Ich stehe noch im Stau und komme erst um halb sieben nach Hause. Kannst du bitte schon die Pizza in den Ofen schieben? Sie ist im Kühlschrank. Danke, bis später!"
+        },
+        {
           "id": "t1",
           "title": "Durchsage am Bahnhof",
           "de": "Achtung an Gleis 4! Der Regionalexpress nach Leipzig, planmäßige Abfahrt 14 Uhr 12, fährt heute nicht von Gleis 4, sondern von Gleis 7 ab. Der Zug hat etwa zehn Minuten Verspätung. Wir bitten um Entschuldigung."
@@ -373,6 +420,18 @@
           "de": "Hallo, hier ist Katrin vom Jugendclub Treffpunkt. Die Nachricht ist für alle aus der Theatergruppe: Die Probe am Freitag fällt aus, weil unser Raum renoviert wird. Wir treffen uns stattdessen am Montag um 17 Uhr in der Turnhalle der Schillerschule. Bitte bringt eure Texte mit!"
         }
       ],
+      "example": {
+        "type": "mc",
+        "text": "t0",
+        "question": "Wann kommt Papa nach Hause?",
+        "options": {
+          "a": "Um 18 Uhr.",
+          "b": "Um 18:30 Uhr.",
+          "c": "Um 19:30 Uhr."
+        },
+        "answer": "b",
+        "explain_en": "Dad says he will be home \"um halb sieben\", which is 18:30."
+      },
       "items": [
         {
           "id": "1",
@@ -565,6 +624,13 @@
           "picture": "exams/a2-01/hoeren-2/i.svg"
         }
       ],
+      "example": {
+        "type": "match",
+        "text": "gespraech",
+        "question": "Montag",
+        "answer": "i",
+        "explain_en": "Tom says \"Am Montag spiele ich Fußball, wie immer.\""
+      },
       "items": [
         {
           "id": "6",
@@ -616,6 +682,28 @@
       "minutes": 6,
       "plays": 1,
       "texts": [
+        {
+          "id": "t0",
+          "title": "Beispiel",
+          "lines": [
+            {
+              "who": "Mutter",
+              "de": "Mia, ich gehe gleich einkaufen. Brauchst du etwas?"
+            },
+            {
+              "who": "Mia",
+              "de": "Ja, ich brauche ein neues Heft für Mathe."
+            },
+            {
+              "who": "Mutter",
+              "de": "Nur ein Heft? Vielleicht auch einen Bleistift?"
+            },
+            {
+              "who": "Mia",
+              "de": "Nein, Bleistifte habe ich noch genug. Nur das Heft, bitte."
+            }
+          ]
+        },
         {
           "id": "t1",
           "title": "Gespräch 1",
@@ -727,6 +815,18 @@
           ]
         }
       ],
+      "example": {
+        "type": "mc",
+        "text": "t0",
+        "question": "Was braucht Mia?",
+        "options": {
+          "a": "Ein Heft.",
+          "b": "Einen Bleistift.",
+          "c": "Ein Buch."
+        },
+        "answer": "a",
+        "explain_en": "Mia needs a new exercise book for maths; she thinks of a pencil, but then says she has enough pencils."
+      },
       "items": [
         {
           "id": "11",
@@ -829,6 +929,20 @@
       "plays": 2,
       "texts": [
         {
+          "id": "t0",
+          "title": "Beispiel",
+          "lines": [
+            {
+              "who": "Moderator",
+              "de": "Sophie, hast du selbst ein besonderes Fahrrad?"
+            },
+            {
+              "who": "Sophie",
+              "de": "Ja, ein altes rotes Rennrad. Das war früher von meinem Opa. Ich habe es selbst repariert, und jetzt fahre ich jeden Sonntag damit."
+            }
+          ]
+        },
+        {
           "id": "t1",
           "title": "Radiointerview: „Jung und aktiv“",
           "lines": [
@@ -895,6 +1009,13 @@
           ]
         }
       ],
+      "example": {
+        "type": "yesno",
+        "text": "t0",
+        "question": "Sophies Rennrad war früher von ihrem Opa.",
+        "answer": "ja",
+        "explain_en": "Sophie says her racing bike is an old one from her grandpa (\"von meinem Opa\")."
+      },
       "items": [
         {
           "id": "16",
@@ -944,12 +1065,42 @@
       "title_de": "Schreiben, Teil 1",
       "instructions_en": "Write a short text message (SMS) to a friend: 20–30 words. Write about all three points. (The whole writing module has 30 minutes.)",
       "minutes": 12,
+      "kind": "sms",
       "task_de": "Sie sitzen im Zug. Sie fahren am Wochenende zu Ihrer Freundin Emma nach Köln. Schreiben Sie Emma eine SMS.",
       "task_en": "You are on the train. You are visiting your friend Emma in Cologne for the weekend. Write Emma a text message.",
       "points": [
         "Schreiben Sie, wann Sie ankommen.",
         "Fragen Sie, ob Emma Sie am Bahnhof abholt.",
         "Fragen Sie, was Sie am Abend zusammen machen."
+      ],
+      "point_keywords": [
+        [
+          "ankomm",
+          "komme um",
+          "komme ich",
+          "bin um",
+          "bin ich um",
+          "uhr",
+          "ankunft",
+          "bin da"
+        ],
+        [
+          "abhol",
+          "holst du",
+          "hol mich",
+          "am bahnhof",
+          "bahnhof",
+          "abgeholt"
+        ],
+        [
+          "abend",
+          "was machen wir",
+          "was wollen wir",
+          "zusammen machen",
+          "unternehmen",
+          "vorhaben",
+          "plan"
+        ]
       ],
       "words": [
         20,
@@ -963,6 +1114,7 @@
       "title_de": "Schreiben, Teil 2",
       "instructions_en": "Write a polite email to an adult you know (use \"Sie\"): 30–40 words. Write about all three points.",
       "minutes": 18,
+      "kind": "formal",
       "task_de": "Sie haben sich im Jugendclub für einen Kletterkurs am Samstag angemeldet. Sie können aber nicht kommen. Schreiben Sie der Kursleiterin, Frau Wagner, eine E-Mail.",
       "task_en": "You signed up for a climbing course at the youth club on Saturday, but you can't go. Write an email to the course leader, Ms Wagner.",
       "points": [
@@ -970,11 +1122,452 @@
         "Schreiben Sie, warum.",
         "Fragen Sie, ob Sie an einem anderen Termin mitmachen können."
       ],
+      "point_keywords": [
+        [
+          "entschuldig",
+          "tut mir leid",
+          "leid",
+          "leider",
+          "verzeih",
+          "sorry"
+        ],
+        [
+          "weil",
+          "denn",
+          "krank",
+          "geburtstag",
+          "familie",
+          "termin",
+          "arzt",
+          "muss"
+        ],
+        [
+          "anderen termin",
+          "anderen tag",
+          "nächste",
+          "später",
+          "mitmachen",
+          "nachholen",
+          "kann ich",
+          "vielleicht"
+        ]
+      ],
       "words": [
         30,
         40
       ],
       "model_de": "Liebe Frau Wagner,\n\nleider kann ich am Samstag nicht zum Kletterkurs kommen. Es tut mir leid. Mein Opa feiert seinen 80. Geburtstag, und die ganze Familie fährt nach München. Kann ich vielleicht am nächsten Samstag mitmachen?\n\nViele Grüße\nJonas Keller"
+    },
+    {
+      "id": "sprechen-1",
+      "skill": "speaking",
+      "title_de": "Sprechen, Teil 1",
+      "instructions_en": "Questions about yourself. You get four cards, each with one word. Ask your partner one question with the word on each card. The computer plays your partner. At the end your partner asks you a question, and you answer it. (In the real exam you sit with a partner and swap roles.)",
+      "minutes": 3,
+      "tasks": [
+        {
+          "id": "1",
+          "card_title": "Fragen zur Person",
+          "card": [
+            "Haustier?"
+          ],
+          "prompt_de": "Stell deinem Partner eine Frage mit dem Wort auf der Karte.",
+          "prompt_en": "Ask your partner a question using the word on the card.",
+          "seconds": 15,
+          "min_words": 3,
+          "keywords": [
+            [
+              "haustier",
+              "tier",
+              "hund",
+              "katze"
+            ],
+            [
+              "hast",
+              "habt",
+              "gibt"
+            ]
+          ],
+          "model_de": "Hast du ein Haustier?"
+        },
+        {
+          "id": "2",
+          "card_title": "Fragen zur Person",
+          "card": [
+            "Schulweg?"
+          ],
+          "prompt_de": "Stell deinem Partner eine Frage mit dem Wort auf der Karte.",
+          "prompt_en": "Ask your partner a question using the word on the card.",
+          "seconds": 15,
+          "min_words": 4,
+          "keywords": [
+            [
+              "schule"
+            ],
+            [
+              "wie",
+              "womit",
+              "wann",
+              "wie lange"
+            ],
+            [
+              "kommst",
+              "fährst",
+              "gehst",
+              "brauchst"
+            ]
+          ],
+          "model_de": "Wie kommst du zur Schule?"
+        },
+        {
+          "id": "3",
+          "card_title": "Fragen zur Person",
+          "card": [
+            "Lieblingsessen?"
+          ],
+          "prompt_de": "Stell deinem Partner eine Frage mit dem Wort auf der Karte.",
+          "prompt_en": "Ask your partner a question using the word on the card.",
+          "seconds": 15,
+          "min_words": 4,
+          "keywords": [
+            [
+              "essen",
+              "isst",
+              "lieblingsessen"
+            ],
+            [
+              "gern",
+              "am liebsten",
+              "lieblings"
+            ]
+          ],
+          "model_de": "Was isst du am liebsten?"
+        },
+        {
+          "id": "4",
+          "card_title": "Fragen zur Person",
+          "card": [
+            "Sprachen?"
+          ],
+          "prompt_de": "Stell deinem Partner eine Frage mit dem Wort auf der Karte.",
+          "prompt_en": "Ask your partner a question using the word on the card.",
+          "seconds": 15,
+          "min_words": 4,
+          "keywords": [
+            [
+              "sprache"
+            ],
+            [
+              "sprichst",
+              "lernst",
+              "kannst"
+            ]
+          ],
+          "model_de": "Welche Sprachen sprichst du?"
+        },
+        {
+          "id": "5",
+          "card_title": "Fragen zur Person",
+          "card": [
+            "Geschwister?"
+          ],
+          "prompt_de": "Dein Partner fragt dich etwas. Antworte in ein oder zwei Sätzen.",
+          "prompt_en": "Your partner asks you a question. Answer in one or two sentences.",
+          "partner_de": "Hast du Geschwister?",
+          "seconds": 20,
+          "min_words": 6,
+          "keywords": [
+            [
+              "bruder",
+              "schwester",
+              "geschwister",
+              "einzelkind"
+            ],
+            [
+              "habe",
+              "hab",
+              "bin"
+            ]
+          ],
+          "model_de": "Ja, ich habe einen Bruder. Er heißt Leon und ist zehn Jahre alt."
+        }
+      ]
+    },
+    {
+      "id": "sprechen-2",
+      "skill": "speaking",
+      "title_de": "Sprechen, Teil 2",
+      "instructions_en": "Talk about your life. Your card has a question and four ideas. Say something about each idea, in simple sentences. Then the examiner (the computer) asks you one more question, and you answer it.",
+      "minutes": 4,
+      "tasks": [
+        {
+          "id": "1",
+          "card_title": "Was machst du in den Sommerferien?",
+          "card": [
+            "Wohin?",
+            "Mit wem?"
+          ],
+          "prompt_de": "Erzähl: Wohin fährst du in den Ferien, und mit wem?",
+          "prompt_en": "Tell: where do you go in the holidays, and who with?",
+          "seconds": 35,
+          "min_words": 20,
+          "keywords": [
+            [
+              "ferien",
+              "sommer"
+            ],
+            [
+              "fahre",
+              "fahren",
+              "fliege",
+              "fliegen",
+              "bleibe",
+              "bleiben"
+            ],
+            [
+              "mit meine",
+              "mit meinem",
+              "mit meiner",
+              "mit freund",
+              "familie",
+              "eltern"
+            ]
+          ],
+          "model_de": "In den Sommerferien fahre ich meistens mit meiner Familie ans Meer. Wir fahren mit dem Auto nach Italien. Manchmal kommt auch mein bester Freund mit. Das ist super."
+        },
+        {
+          "id": "2",
+          "card_title": "Was machst du in den Sommerferien?",
+          "card": [
+            "Was machst du dort?",
+            "Zu Hause?"
+          ],
+          "prompt_de": "Erzähl: Was machst du dort? Und was machst du, wenn du zu Hause bist?",
+          "prompt_en": "Tell: what do you do there? And what do you do when you are at home?",
+          "seconds": 40,
+          "min_words": 20,
+          "keywords": [
+            [
+              "schwimm",
+              "spiel",
+              "lese",
+              "treffe",
+              "fahrrad",
+              "strand"
+            ],
+            [
+              "zu hause",
+              "daheim",
+              "zuhause"
+            ],
+            [
+              "schlafe",
+              "lange",
+              "freunde",
+              "freundin"
+            ]
+          ],
+          "model_de": "Am Meer schwimme ich viel und spiele Volleyball am Strand. Zu Hause schlafe ich in den Ferien lange. Nachmittags treffe ich meine Freunde, und wir fahren Fahrrad oder gehen ins Schwimmbad."
+        },
+        {
+          "id": "3",
+          "card_title": "Was machst du in den Sommerferien?",
+          "card": [
+            "Frage vom Prüfer"
+          ],
+          "prompt_de": "Der Prüfer fragt dich noch etwas. Antworte kurz.",
+          "prompt_en": "The examiner asks you one more question. Answer briefly.",
+          "partner_de": "Und was hast du in den letzten Sommerferien gemacht?",
+          "seconds": 25,
+          "min_words": 10,
+          "keywords": [
+            [
+              "letzte",
+              "letzten",
+              "letztes"
+            ],
+            [
+              "war",
+              "bin",
+              "habe",
+              "hab"
+            ],
+            [
+              "gefahren",
+              "gemacht",
+              "besucht",
+              "geblieben",
+              "gespielt",
+              "gewesen"
+            ]
+          ],
+          "model_de": "In den letzten Ferien war ich zwei Wochen bei meiner Oma in Hamburg. Wir haben eine Hafenrundfahrt gemacht. Das war toll."
+        }
+      ]
+    },
+    {
+      "id": "sprechen-3",
+      "skill": "speaking",
+      "title_de": "Sprechen, Teil 3",
+      "instructions_en": "Plan something together. You and your partner want to make a poster for the school party. Find a time on Saturday when you both are free. Your card shows your plan for Saturday. The computer plays your partner: listen, say no or yes, give a reason, and make your own suggestions.",
+      "minutes": 4,
+      "tasks": [
+        {
+          "id": "1",
+          "card_title": "Samstag, 14. Juni",
+          "card": [
+            "8:00–9:00 frühstücken",
+            "10:00–12:00 Fußballtraining",
+            "12:30 Mittagessen",
+            "15:00–16:00 Gitarrenstunde",
+            "ab 19:00 Film mit Papa"
+          ],
+          "prompt_de": "Dein Partner macht einen Vorschlag. Schau auf deinen Plan und antworte.",
+          "prompt_en": "Your partner makes a suggestion. Look at your plan and answer.",
+          "partner_de": "Hallo! Wir müssen doch das Plakat für das Schulfest machen. Hast du am Samstag um zehn Uhr Zeit?",
+          "seconds": 20,
+          "min_words": 8,
+          "keywords": [
+            [
+              "leider",
+              "nein",
+              "tut mir leid",
+              "geht nicht",
+              "kann nicht"
+            ],
+            [
+              "fußball",
+              "training"
+            ]
+          ],
+          "model_de": "Nein, um zehn geht es leider nicht. Da habe ich Fußballtraining bis zwölf."
+        },
+        {
+          "id": "2",
+          "card_title": "Samstag, 14. Juni",
+          "card": [
+            "8:00–9:00 frühstücken",
+            "10:00–12:00 Fußballtraining",
+            "12:30 Mittagessen",
+            "15:00–16:00 Gitarrenstunde",
+            "ab 19:00 Film mit Papa"
+          ],
+          "prompt_de": "Dein Partner hat am Nachmittag keine Zeit. Mach einen neuen Vorschlag.",
+          "prompt_en": "Your partner is busy in the afternoon. Make a new suggestion.",
+          "partner_de": "Schade. Und am Nachmittag, so um drei? Ach nein, da bin ich bis halb fünf bei meiner Oma.",
+          "seconds": 25,
+          "min_words": 8,
+          "keywords": [
+            [
+              "um fünf",
+              "um 17",
+              "um sechs",
+              "um 18",
+              "nach",
+              "später",
+              "abend"
+            ],
+            [
+              "kannst du",
+              "geht das",
+              "hast du",
+              "wie wäre",
+              "passt"
+            ]
+          ],
+          "model_de": "Um drei habe ich auch keine Zeit, da habe ich Gitarrenstunde. Aber wie wäre es um fünf Uhr? Kannst du da?"
+        },
+        {
+          "id": "3",
+          "card_title": "Samstag, 14. Juni",
+          "card": [
+            "Wo?"
+          ],
+          "prompt_de": "Ihr habt eine Zeit. Jetzt fragt dein Partner, wo ihr euch trefft. Mach einen Vorschlag.",
+          "prompt_en": "You have a time. Now your partner asks where you meet. Make a suggestion.",
+          "partner_de": "Um fünf ist super, das passt mir. Treffen wir uns bei dir oder bei mir?",
+          "seconds": 20,
+          "min_words": 8,
+          "keywords": [
+            [
+              "bei mir",
+              "bei dir",
+              "zu mir",
+              "zu dir",
+              "bibliothek",
+              "schule"
+            ],
+            [
+              "komm",
+              "treffen",
+              "platz",
+              "tisch",
+              "zimmer"
+            ]
+          ],
+          "model_de": "Komm doch zu mir. Wir haben einen großen Tisch im Wohnzimmer, da haben wir viel Platz."
+        },
+        {
+          "id": "4",
+          "card_title": "Samstag, 14. Juni",
+          "card": [
+            "Was mitbringen?"
+          ],
+          "prompt_de": "Dein Partner fragt, was er mitbringen soll. Antworte.",
+          "prompt_en": "Your partner asks what to bring. Answer.",
+          "partner_de": "Okay, ich komme um fünf zu dir. Was soll ich mitbringen?",
+          "seconds": 20,
+          "min_words": 8,
+          "keywords": [
+            [
+              "bring",
+              "mitbringen",
+              "hast du"
+            ],
+            [
+              "stift",
+              "farbe",
+              "papier",
+              "foto",
+              "kleber",
+              "schere"
+            ]
+          ],
+          "model_de": "Bring bitte deine Farben und ein paar Fotos vom letzten Schulfest mit. Das Papier habe ich schon."
+        },
+        {
+          "id": "5",
+          "card_title": "Samstag, 14. Juni",
+          "card": [
+            "Wie lange?"
+          ],
+          "prompt_de": "Dein Partner fragt, wie lange ihr arbeitet. Antworte und sag tschüss.",
+          "prompt_en": "Your partner asks how long you will work. Answer and say goodbye.",
+          "partner_de": "Alles klar. Wie lange haben wir Zeit? Ich muss um acht zu Hause sein.",
+          "seconds": 20,
+          "min_words": 8,
+          "keywords": [
+            [
+              "sieben",
+              "19",
+              "zwei stunden",
+              "halb"
+            ],
+            [
+              "film",
+              "papa",
+              "vater"
+            ],
+            [
+              "tschüss",
+              "bis samstag",
+              "bis dann",
+              "ciao"
+            ]
+          ],
+          "model_de": "Bis sieben Uhr, dann schaue ich einen Film mit meinem Papa. Zwei Stunden sind genug. Bis Samstag, tschüss!"
+        }
+      ]
     }
   ]
 }

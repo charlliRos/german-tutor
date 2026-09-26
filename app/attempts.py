@@ -246,6 +246,7 @@ COMPETENCIES = {
     "exam.reading": "Exam-style reading tasks (Goethe-Zertifikat format)",
     "exam.listening": "Exam-style listening tasks (Goethe-Zertifikat format)",
     "exam.writing": "Exam-style writing tasks, checked against the task's points",
+    "exam.speaking": "Exam-style speaking tasks, checked for length and key words by the speech check",
 }
 
 WORD_TASKS = {"en2de": "vocabulary.production", "de2en": "vocabulary.recognition", "gap": "vocabulary.in_context",

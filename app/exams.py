@@ -13,7 +13,8 @@ from pathlib import Path
 from .config import CONTENT_DIR
 
 EXAMS_DIR = CONTENT_DIR / "exams"
-SKILLS = {"reading": "Lesen", "listening": "Hören", "writing": "Schreiben"}
+SKILLS = {"reading": "Lesen", "listening": "Hören", "writing": "Schreiben", "speaking": "Sprechen"}
+SPEAKING_POINTS = 2  # per task: said enough, and said the key things
 ITEM_TYPES = ("mc", "tf", "yesno", "match")
 PASS_SHARE = 0.6  # the Goethe exams are passed with 60% of the points in each module
 
@@ -54,6 +55,20 @@ class ExamItem:
 
 
 @dataclass
+class SpeakingTask:
+    id: str
+    prompt_de: str
+    model_de: str
+    card_title: str = ""
+    card: list[str] = field(default_factory=list)
+    prompt_en: str = ""
+    partner_de: str = ""
+    seconds: int = 20
+    min_words: int = 4
+    keywords: list[list[str]] = field(default_factory=list)
+
+
+@dataclass
 class Part:
     id: str
     skill: str
@@ -69,12 +84,18 @@ class Part:
     points: list[str] = field(default_factory=list)
     words: list[int] = field(default_factory=lambda: [0, 0])
     model_de: str = ""
+    example: ExamItem | None = None                              # a solved item shown first (not scored)
+    tasks: list[SpeakingTask] = field(default_factory=list)      # speaking
+    kind: str = ""                                               # writing: sms, informal, formal, forum
+    point_keywords: list[list[str]] = field(default_factory=list)  # writing: words that show each point
 
     def text(self, text_id: str) -> ExamText | None:
         return next((t for t in self.texts if t.id == text_id), None)
 
     @property
     def max_points(self) -> int:
+        if self.skill == "speaking":
+            return SPEAKING_POINTS * len(self.tasks)
         return len(self.points) if self.skill == "writing" else len(self.items)
 
 
@@ -162,6 +183,19 @@ def check_exam(raw: dict, name: str) -> list[str]:
         if p.get("skill") not in SKILLS:
             problems.append(f"{where}: skill must be one of {', '.join(SKILLS)}")
             continue
+        if p["skill"] == "speaking":
+            if not p.get("tasks"):
+                problems.append(f"{where}: a speaking part needs tasks")
+            for t in p.get("tasks", []):
+                tw = f"{where} task {t.get('id', '?')}"
+                for key in ("id", "prompt_de", "model_de"):
+                    if not t.get(key):
+                        problems.append(f"{tw}: needs {key}")
+                if not isinstance(t.get("seconds", 20), int) or not 3 <= t.get("seconds", 20) <= 180:
+                    problems.append(f"{tw}: seconds must be 3–180")
+                if not all(isinstance(g, list) and g for g in t.get("keywords", [])):
+                    problems.append(f"{tw}: keywords must be lists of words")
+            continue
         if p["skill"] == "writing":
             for key in ("task_de", "task_en", "points", "model_de"):
                 if not p.get(key):
@@ -169,8 +203,22 @@ def check_exam(raw: dict, name: str) -> list[str]:
             words = p.get("words")
             if not (isinstance(words, list) and len(words) == 2 and all(isinstance(w, int) for w in words)):
                 problems.append(f"{where}: words must be [min, target]")
+            if p.get("point_keywords") and len(p["point_keywords"]) != len(p.get("points", [])):
+                problems.append(f"{where}: point_keywords needs one list per point")
+            if p.get("kind") not in (None, "", "sms", "informal", "formal", "forum"):
+                problems.append(f"{where}: kind must be sms, informal, formal or forum")
             continue
         texts = {t.get("id") for t in p.get("texts", [])}
+        if p.get("example"):
+            ex = p["example"]
+            allowed = {"mc": set((ex.get("options") or {}).keys()), "tf": {"richtig", "falsch"}, "yesno": {"ja", "nein"},
+                       "match": texts - {ex.get("text")}}.get(ex.get("type"), set())
+            if ex.get("answer") not in allowed:
+                problems.append(f"{where} example: answer {ex.get('answer')!r} is not one of {sorted(allowed)}")
+            if ex.get("text") and ex["text"] not in texts:
+                problems.append(f"{where} example: text {ex['text']!r} doesn't exist")
+            if ex.get("type") == "match" and ex.get("answer") in {i.get("answer") for i in p.get("items", [])}:
+                problems.append(f"{where} example: its choice is also the answer of a scored item")
         for t in p.get("texts", []):
             if not t.get("de") and not all(isinstance(l, dict) and l.get("de") for l in t.get("lines") or [None]):
                 problems.append(f"{where} text {t.get('id')}: needs de or lines")
@@ -207,6 +255,12 @@ def check_exam(raw: dict, name: str) -> list[str]:
     return problems
 
 
+def _item(i: dict) -> ExamItem:
+    return ExamItem(id=str(i.get("id", "0")), type=i["type"], question=i["question"], answer=i["answer"],
+                    options=i.get("options") or {}, text=i.get("text", ""), explain_en=i.get("explain_en", ""),
+                    pictures=i.get("pictures") or {})
+
+
 def _exam(raw: dict) -> Exam:
     parts = []
     for p in raw["parts"]:
@@ -215,13 +269,17 @@ def _exam(raw: dict) -> Exam:
             instructions_en=p.get("instructions_en", ""), minutes=int(p.get("minutes", 0) or 0),
             texts=[ExamText(id=t["id"], title=t.get("title", ""), de=t.get("de", ""), lines=t.get("lines") or [],
                             picture=t.get("picture", "")) for t in p.get("texts", [])],
-            items=[ExamItem(id=str(i["id"]), type=i["type"], question=i["question"], answer=i["answer"],
-                            options=i.get("options") or {}, text=i.get("text", ""), explain_en=i.get("explain_en", ""),
-                            pictures=i.get("pictures") or {})
-                   for i in p.get("items", [])],
+            items=[_item(i) for i in p.get("items", [])],
+            example=_item(p["example"]) if p.get("example") else None,
+            tasks=[SpeakingTask(id=str(t["id"]), prompt_de=t["prompt_de"], model_de=t["model_de"],
+                                card_title=t.get("card_title", ""), card=list(t.get("card", [])),
+                                prompt_en=t.get("prompt_en", ""), partner_de=t.get("partner_de", ""),
+                                seconds=int(t.get("seconds", 20)), min_words=int(t.get("min_words", 4)),
+                                keywords=[list(k) for k in t.get("keywords", [])]) for t in p.get("tasks", [])],
             plays=int(p.get("plays", 2) or 2), none_allowed=bool(p.get("none_allowed")),
             task_de=p.get("task_de", ""), task_en=p.get("task_en", ""), points=list(p.get("points", [])),
-            words=list(p.get("words", [0, 0])), model_de=p.get("model_de", "")))
+            words=list(p.get("words", [0, 0])), model_de=p.get("model_de", ""), kind=p.get("kind", ""),
+            point_keywords=[list(k) for k in p.get("point_keywords", [])]))
     return Exam(id=raw["id"], level=raw["level"], style=raw["style"], title=raw["title"], parts=parts,
                 about_en=raw.get("about_en", ""), official_practice=list(raw.get("official_practice", [])))
 

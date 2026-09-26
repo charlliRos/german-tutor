@@ -13,10 +13,10 @@ from rich.text import Text
 
 from datetime import timedelta
 
-from . import attempts, pictures, sfx, srs, ui
+from . import attempts, pictures, sfx, srs, ui, writing_check
 from .answers import normalize
 from .exams import SKILLS, Exam, ExamItem, Part, choices, is_right, item_id, load_exams, passed
-from .speaking import hear
+from .speaking import hear, hear_lines
 from .ui import console, icon
 
 GRADER = "gtutor.exams/1"
@@ -111,10 +111,7 @@ def exam_screen(ctx, exam: Exam) -> None:
         if not choice:
             return
         part = exam.parts[int(choice) - 1]
-        if part.skill == "writing":
-            writing(ctx, exam, part)
-        else:
-            run_part(ctx, exam, part)
+        do_part(ctx, exam, part)
 
 
 # ----- reading and listening -----
@@ -131,7 +128,42 @@ def _intro(ctx, exam: Exam, part: Part) -> None:
         else:
             console.print("[warn]No sound here, so you read the recordings instead (that's easier than the exam).[/]")
     console.print(f"[hint]Answer with the letter. {ui.DONT_KNOW} = don't know. q = stop (nothing is saved).[/]")
-    ui.keys({"": "start"})
+    if part.example:
+        ui.keys({"": "see the example"})
+        _example(ctx, exam, part)
+    else:
+        ui.keys({"": "start"})
+
+
+def _example(ctx, exam: Exam, part: Part) -> None:
+    """The solved example (Beispiel) before the real questions, like the real exam. Not scored."""
+    ex = part.example
+    ui.clear()
+    ui.title(f"{ctx.step}{exam.level} · {part.title_de} · Beispiel", "an example with its answer: not scored")
+    text = part.text(ex.text) if ex.text else None
+    if part.skill == "listening" and text is not None:
+        if ctx.audio.can_speak:
+            console.print("[hint]Listen to the example.[/]")
+            play_recording(ctx, [text])
+        else:
+            console.print(ui.german(text.transcript, "Recording (read)"))
+    elif text is not None:
+        console.print(ui.german(text.transcript, text.title or "Text"))
+    pictured = show_pictures(ctx, ex, part)
+    console.print(_question_panel(ex, part, 0, pictured))
+    label = choices(ex, part).get(ex.answer) if ex.type == "match" else ex.options.get(ex.answer, "")
+    console.print(f"[good]{icon('ok')} Lösung: {ui.escape(ex.answer)}[/]" + (f"  [de]{ui.escape(label)}[/]" if label else ""))
+    console.print(f"[note]{ui.escape(ex.explain_en)}[/]")
+    ui.keys({"": "start the questions"})
+
+
+def play_recording(ctx, texts: list) -> None:
+    """Listening texts one after the other: a conversation with a voice per speaker, an announcement in one."""
+    for text in texts:
+        if text.lines:
+            hear_lines(ctx, text.lines)
+        else:
+            hear(ctx, text.de, slow=False)
 
 
 def _blocks(part: Part) -> list[tuple[list[str], list[ExamItem]]]:
@@ -200,7 +232,7 @@ def _ask(ctx, item: ExamItem, part: Part, n: int, header: str, shown: list, repl
         choice = ui.keys(options)
         if choice == REPLAY:
             replay["left"] -= 1
-            hear(ctx, replay["text"], slow=False)
+            play_recording(ctx, replay["texts"])
         elif choice == "t":
             ui.clear()
             for text in part.texts:
@@ -225,7 +257,7 @@ def run_part(ctx, exam: Exam, part: Part) -> None:
         n = 0
         for text_ids, items in _blocks(part):
             texts = [part.text(t) for t in text_ids]
-            spoken = " … ".join(t.spoken for t in texts)
+
             ui.clear()
             ui.title(f"{ctx.step}{header} · questions {n + 1}–{n + len(items)}")
             ui.todo("read", "listen", what="Read the questions, then listen.")
@@ -234,8 +266,8 @@ def run_part(ctx, exam: Exam, part: Part) -> None:
             ui.keys({"": "listen now" if ctx.audio.can_speak else "read the recording"})
             replay, shown = None, []
             if ctx.audio.can_speak:
-                hear(ctx, spoken, slow=False)
-                replay = {"left": part.plays - 1, "text": spoken}
+                play_recording(ctx, texts)
+                replay = {"left": part.plays - 1, "texts": texts}
             else:
                 shown = [ui.german(t.transcript, "Recording (read)") for t in texts]
             for item in items:
@@ -321,6 +353,10 @@ def advice(ctx, level: str) -> str:
             f"helps more until {round(100 * PART_READY)}%.")
 
 
+def do_part(ctx, exam: Exam, part: Part) -> None:
+    {"writing": writing, "speaking": speaking}.get(part.skill, run_part)(ctx, exam, part)
+
+
 def exam_for_goal(ctx, exams: list[Exam]) -> Exam | None:
     """The practice exam for the kid's goal: A2 for A2, B1 for B1 and C1 (the highest there is so far)."""
     goal = ctx.profile.data.get("target") or ctx.profile.data.get("placement", {}).get("band") or "A2"
@@ -340,7 +376,7 @@ def todays_part(ctx, exams: list[Exam]) -> tuple[Exam, Part] | None:
         return due[0]
     done = progress(ctx).get(exam.id, {})
     fresh = [p for p in exam.parts if p.id not in done]
-    fresh.sort(key=lambda p: p.skill == "writing")
+    fresh.sort(key=lambda p: p.skill in ("writing", "speaking"))
     if fresh:
         return exam, fresh[0]
     return exam, min(exam.parts, key=lambda p: done[p.id]["best"] / max(done[p.id]["max"], 1))
@@ -352,12 +388,12 @@ def run_daily(ctx) -> str | None:
     if picked is None:
         return None
     exam, part = picked
-    (writing if part.skill == "writing" else run_part)(ctx, exam, part)
+    do_part(ctx, exam, part)
     done = progress(ctx).get(exam.id, {}).get(part.id)
     if not done or done.get("last") != ctx.today.isoformat():
         return None  # stopped before the end
     return f"Exam practice: {exam.level} {part.title_de}: {done['score']} of {done['max']}" + (
-        " · points covered" if part.skill == "writing" else "")
+        " · points covered" if part.skill == "writing" else " · speaking points" if part.skill == "speaking" else "")
 
 
 def due_parts(ctx, exams: list[Exam]) -> list[tuple[Exam, Part]]:
@@ -424,6 +460,87 @@ def _results(ctx, exam: Exam, part: Part, answers: dict[str, str], score: int, m
         options = {"": "done"}
 
 
+# ----- speaking -----
+
+def said(transcript: str, group: list[str]) -> bool:
+    heard = " " + normalize(transcript) + " "
+    return any(" " + normalize(word) in heard for word in group)
+
+
+def speaking(ctx, exam: Exam, part: Part) -> None:
+    """Task cards like the real exam; the computer plays the partner in its own voice. Each answer is recorded,
+    the speech check writes down what it heard, and the app checks it said enough and the key things; then the
+    model answer. Without a microphone the kid speaks and checks against the model answer."""
+    from .exams import SPEAKING_POINTS
+    from .speaking import record_for
+    ui.clear()
+    ui.title(f"{ctx.step}{exam.level} · {part.title_de}", f"{len(part.tasks)} tasks" + (f" · about {part.minutes} min" if part.minutes else ""))
+    ui.todo("say", what=part.instructions_en or "Answer out loud.")
+    checking = getattr(ctx.audio, "can_record", False) and getattr(ctx.audio, "can_check_speech", False)
+    console.print("The computer plays your partner or the examiner, in a different voice. After a short countdown and "
+                  "a beep, you speak." if checking else
+                  "[warn]No microphone or speech check here: say your answers out loud, then compare with the model.[/]")
+    ui.keys({"": "start"})
+    total = 0
+    for n, task in enumerate(part.tasks, 1):
+        ui.clear()
+        ui.title(f"{ctx.step}{exam.level} · {part.title_de} · task {n} of {len(part.tasks)}")
+        card = Text(task.card_title, style="bold")
+        for line in task.card:
+            card.append("\n" + line, style="de")
+        console.print(Panel(card, border_style="magenta", padding=(1, 3), width=min(console.width, 44)))
+        console.print(Text(task.prompt_de, style="de"))
+        if task.prompt_en:
+            console.print(f"[hint]{ui.escape(task.prompt_en)}[/]")
+        if task.partner_de:
+            console.print(f"[magenta]Your partner:[/] [de]{ui.escape(task.partner_de)}[/]")
+            hear(ctx, task.partner_de, slow=False, voice="high")
+        transcript = ""
+        if checking:
+            recording = record_for(ctx, task.seconds)
+            if recording is not None:
+                with console.status("[hint]Listening to your answer…[/]"):
+                    transcript = ctx.audio.heard(*recording)
+            console.print(f"[hint]I heard:[/] [de]{ui.escape(transcript) or '(nothing)'}[/]")
+        else:
+            ui.ask("Say your answer out loud, then press Enter.", wait_for_quiet=False)
+        console.print(ui.german(task.model_de, "A good answer"))
+        hear(ctx, task.model_de, slow=False)
+        if checking:
+            enough = len(transcript.split()) >= task.min_words
+            met = [said(transcript, g) for g in task.keywords]
+            key_ok = not task.keywords or sum(met) * 2 >= len(met)
+            points = int(enough) + int(key_ok)
+            console.print((f"[good]{icon('ok')}[/]" if enough else f"[almost]{icon('almost')}[/]")
+                          + f" {len(transcript.split())} words heard (aim for {task.min_words}+)")
+            if task.keywords:
+                console.print(" ".join(f"[good]{icon('ok')} {ui.escape(g[0])}[/]" if ok else f"[hint]{icon('almost')} {ui.escape(g[0])}[/]"
+                                       for g, ok in zip(task.keywords, met)))
+            score = {"kind": "polytomous", "points": points, "max": SPEAKING_POINTS, "label": "speaking check"}
+            grader = "gtutor.speaking/1"
+        else:
+            points = SPEAKING_POINTS if ui.keys({"y": "I said something like that", "n": "not yet"}) == "y" else 0
+            score = {"kind": "estimated", "raw": points, "max": SPEAKING_POINTS, "confidence": attempts.SELF_CONFIDENCE,
+                     "needs_review": True, "label": "self-check"}
+            grader = attempts.SELF
+        total += points
+        attempts.note(transcript, task="speaking")
+        attempts.record(ctx.profile, ctx.today, item=f"{exam.id}.{part.id}.{task.id}",
+                        item_version=attempts.version(task.prompt_de, task.partner_de, task.keywords),
+                        competency="exam.speaking", subcompetency=f"{exam.level}/{part.id}", context=f"exam.{exam.id}",
+                        score=score, grader=grader)
+        if ui.timed_keys({"": "next task", "r": "hear the good answer again"}, 5) == "r":
+            hear(ctx, task.model_de, slow=False)
+    _save(ctx, exam, part, total, part.max_points)
+    ui.clear()
+    ui.title(f"{ctx.step}{exam.level} · {part.title_de} · results")
+    console.print(f"[good]{icon('party')} {total} of {part.max_points} speaking points.[/]" if passed(total, part.max_points)
+                  else f"[almost]{total} of {part.max_points} speaking points. Say a bit more, and use the words on the card.[/]")
+    console.print("[hint]The app checks that you said enough and the key things; a real examiner also listens for "
+                  "pronunciation and grammar. Compare with the good answers.[/]")
+    ui.keys({"": "done"})
+
+
 # ----- writing -----
 
 def writing(ctx, exam: Exam, part: Part) -> None:
@@ -449,12 +566,24 @@ def writing(ctx, exam: Exam, part: Part) -> None:
     else:
         console.print(f"[good]{words} words.[/] [hint](target: about {part.words[1]})[/]")
     ui.side_by_side("Your text", text, "A model answer", part.model_de)
-    covered = 0
+    covered, found = 0, []
     if text and not pasted:
-        console.print("Did your text do this? Be honest: it's for you.")
-        for point in part.points:
-            console.print(f"  [de]{ui.escape(point)}[/]")
-            covered += ui.keys(SELF_CHECK) == "y"
+        report = writing_check.check(text, part, exam.level, ctx.content)
+        found = report.points_found
+        table = Table(title="What an examiner looks at (the app's estimate)", title_justify="left", box=None,
+                      padding=(0, 2), show_header=False)
+        for c in report.checks:
+            table.add_row(f"[good]{icon('ok')}[/]" if c.ok else f"[almost]{icon('almost')}[/]", c.label,
+                          f"[hint]{ui.escape(c.detail)}[/]")
+        console.print(table)
+        console.print("Did your text do this? Points the app found are ticked already.")
+        for n, point in enumerate(part.points):
+            if n < len(found) and found[n]:
+                console.print(f"  [good]{icon('ok')}[/] [de]{ui.escape(point)}[/]")
+                covered += 1
+            else:
+                console.print(f"  [de]{ui.escape(point)}[/]")
+                covered += ui.keys(SELF_CHECK) == "y"
     attempts.note(text, task="writing", pasted=pasted)
     attempts.record(ctx.profile, ctx.today, item=item_id(exam, part), item_version=attempts.version(
                         part.task_de, part.points), competency="exam.writing",
@@ -463,7 +592,8 @@ def writing(ctx, exam: Exam, part: Part) -> None:
                             "confidence": attempts.SELF_CONFIDENCE, "needs_review": True, "label": "points covered"}
                            if text and not pasted else attempts.no_response("pasted" if pasted else "skipped")),
                     grader=attempts.SELF if text and not pasted else GRADER,
-                    words=words, minutes=round((time.monotonic() - started) / 60))
+                    words=words, minutes=round((time.monotonic() - started) / 60),
+                    points_found_by_app=sum(found) if found else None)
     _save(ctx, exam, part, covered, len(part.points))
     console.print(f"[good]{covered} of {len(part.points)} points covered.[/]" if text and not pasted else "")
     ui.keys({"": "done"})

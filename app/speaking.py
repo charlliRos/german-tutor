@@ -9,16 +9,68 @@ from .listen import said_it
 from .ui import console, icon
 
 
-def hear(ctx, text: str, slow: bool = True) -> None:
+FEMALE = {"frau", "mutter", "mama", "oma", "tante", "schwester", "tochter", "mädchen", "lehrerin", "verkäuferin",
+          "moderatorin", "ärztin", "chefin", "kellnerin", "kundin", "sprecherin", "reporterin", "freundin", "gastmutter"}
+MALE = {"mann", "herr", "vater", "papa", "opa", "onkel", "bruder", "sohn", "junge", "lehrer", "verkäufer",
+        "moderator", "arzt", "chef", "kellner", "kunde", "sprecher", "reporter", "freund", "gastvater"}
+FEMALE_NAMES = {"lena", "anna", "sophie", "emma", "maya", "lea", "mia", "julia", "sarah", "petra", "aylin", "sandra",
+                "laura", "lisa", "marie", "hannah", "nina", "clara", "frieda", "greta", "katrin", "jana", "ayşe"}
+
+
+def voices_for(speakers: list[str]) -> dict[str, str]:
+    """A voice per speaker of a conversation: women and girls higher, a second man lower, so the speakers can be
+    told apart (all from the one German voice)."""
+    out, men, women = {}, 0, 0
+    for who in dict.fromkeys(speakers):
+        words = who.lower().replace("-", " ").split()
+        female = any(w in FEMALE or w in FEMALE_NAMES for w in words) or (
+            words and not any(w in MALE for w in words) and words[-1].endswith(("a", "ie", "ine")))
+        if female:
+            out[who], women = ("high", "higher")[women % 2], women + 1
+        else:
+            out[who], men = ("", "low")[men % 2], men + 1
+    return out
+
+
+def hear_lines(ctx, lines: list[dict]) -> None:
+    """Play a conversation ([{"who", "de"}]), each speaker in their own voice. Enter skips it."""
+    if not ctx.audio.can_speak:
+        return
+    voices = voices_for([line.get("who", "") for line in lines])
+    try:
+        with console.status(f"[hint]{icon('play')} playing… (Enter to skip)[/]"):
+            ctx.audio.say_lines([(voices[line.get("who", "")], line["de"]) for line in lines], stop_when=ui.key_pressed)
+    except KeyboardInterrupt:
+        console.print("[hint](stopped)[/]")
+    ui.drop_enters()
+
+
+def hear(ctx, text: str, slow: bool = True, voice: str = "") -> None:
     """Play the German. Enter skips it, Ctrl+C stops it; neither leaks into the next prompt."""
     if not ctx.audio.can_speak:
         return
     try:
         with console.status(f"[hint]{icon('play')} speaking… (Enter to skip)[/]"):
-            ctx.audio.say(text, slow, stop_when=ui.key_pressed)
+            ctx.audio.say(text, slow, stop_when=ui.key_pressed, **({"voice": voice} if voice else {}))
     except KeyboardInterrupt:
         console.print("[hint](stopped)[/]")
     ui.drop_enters()  # an answer typed while the word was playing is kept
+
+
+def record_for(ctx, seconds: float):
+    """Countdown, then record for `seconds` (a speaking task). The recording, or None."""
+    try:
+        _countdown(ctx)
+        with console.status("") as status:
+            def tick(left: float) -> bool:
+                status.update(f"[rec]{icon('rec')} Recording, speak now! {left:0.0f} s left[/] [hint](Enter = done)[/]")
+                return ui.key_pressed()
+            recording = ctx.audio.record_seconds(seconds, on_tick=tick)
+        ui.flush_input()
+    except KeyboardInterrupt:
+        ctx.audio.sd.stop()
+        return None
+    return recording if recording[0].size else None
 
 
 def record_seconds_for(ctx, text: str) -> float:

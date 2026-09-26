@@ -13,6 +13,10 @@ import numpy as np
 from .config import VOICES_DIR
 
 SENTENCE_PAUSE = 0.25  # seconds of silence between synthesized sentences
+TURN_PAUSE = 0.45      # between two speakers in a conversation
+# More speakers from the one German voice, at normal speed: the speech is made this much slower, then played
+# this much faster, which raises (or lowers) the pitch. No extra voice to download.
+VOICES = {"": 1.0, "high": 1.24, "higher": 1.38, "low": 0.86}
 SILENCE_PEAK = 0.02    # recordings quieter than this count as "nothing heard"
 QUIET_PEAK = 0.08      # below this the mic works but is set very low
 
@@ -132,23 +136,38 @@ class Audio:
     def can_record(self) -> bool:
         return self.sd is not None and self.has_mic
 
-    def synthesize(self, text: str, length_scale: float) -> tuple[np.ndarray, int]:
-        key = (text, length_scale)
+    def synthesize(self, text: str, length_scale: float, voice: str = "") -> tuple[np.ndarray, int]:
+        factor = VOICES.get(voice, 1.0)
+        key = (text, length_scale, voice)
         if key not in self._cache:
             parts, rate = [], 22050
-            config = self._synthesis_config(length_scale=length_scale)
+            config = self._synthesis_config(length_scale=length_scale * factor)
             for chunk in self.voice.synthesize(clean_for_speech(text), config):
                 rate = chunk.sample_rate
                 parts.append(np.asarray(chunk.audio_float_array, dtype=np.float32).reshape(-1))
                 parts.append(np.zeros(int(rate * SENTENCE_PAUSE), dtype=np.float32))
-            self._cache[key] = (np.concatenate(parts) if parts else np.zeros(1, np.float32), rate)
+            self._cache[key] = (np.concatenate(parts) if parts else np.zeros(1, np.float32), int(rate * factor))
         return self._cache[key]
 
-    def say(self, text: str, slow: bool = True, stop_when=None) -> bool:
+    def say(self, text: str, slow: bool = True, stop_when=None, voice: str = "") -> bool:
         if not self.can_speak or not text.strip():
             return False
         speed = float(self.settings["word_speed"] if slow else self.settings["text_speed"])
-        self.play(*self.synthesize(text, speed), stop_when=stop_when)
+        self.play(*self.synthesize(text, speed, voice), stop_when=stop_when)
+        return True
+
+    def say_lines(self, lines: list[tuple[str, str]], stop_when=None) -> bool:
+        """A conversation: (voice, text) turns, each speaker in their own voice, played as one recording."""
+        if not self.can_speak or not lines:
+            return False
+        speed, base = float(self.settings["text_speed"]), 22050
+        parts = []
+        for voice, text in lines:
+            if text.strip():
+                audio, rate = self.synthesize(text, speed, voice)
+                parts += [_resample(audio, rate, base), np.zeros(int(base * TURN_PAUSE), dtype=np.float32)]
+        if parts:
+            self.play(np.concatenate(parts), base, stop_when=stop_when)
         return True
 
     def _wait(self, stop_when=None) -> bool:
