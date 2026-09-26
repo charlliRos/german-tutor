@@ -45,7 +45,11 @@ def load() -> tuple[Listener | None, str]:
         return None, "The speech checker isn't downloaded yet. Run: gtutor update"
     try:
         return Listener(), ""
-    except Exception as exc:  # vosk not installed, or a damaged model
+    except Exception as exc:  # vosk not installed, a damaged model, or blocked by Windows
+        text = str(exc).lower()
+        if "application control" in text or "blocked" in text:
+            return None, ("Windows blocked the speech checker (Smart App Control or a school's app policy), so "
+                          "speaking turns aren't checked here. Everything else works.")
         return None, f"The speech checker couldn't start ({exc}). Run: gtutor update"
 
 

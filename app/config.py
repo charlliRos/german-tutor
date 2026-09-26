@@ -47,6 +47,9 @@ DEFAULTS = {
     "share_on_wifi": "ask",
     "word_record_seconds": 3,
     "voice": "de_DE-thorsten-medium",
+    # "auto": the offline Piper voice, or the computer's own German voice if Piper can't run here (e.g. Windows
+    # Smart App Control blocks it); "piper" or "system" to choose one.
+    "voice_engine": "auto",
     "word_speed": 1.15,          # >1 is slower; words are read slowly for learners
     "text_speed": 1.0,
     "input_device": None,        # sounddevice device index/name, None = system default

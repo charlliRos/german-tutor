@@ -51,6 +51,26 @@ def share(ctx: Context, status: str | None = None) -> None:
             ctx.presence.set_status(status)
 
 
+def crash_note() -> None:
+    """Something unexpected went wrong: write the details to data/crash.log for the parent, show a calm message.
+    Progress is saved by the caller (every answer was saved already anyway)."""
+    import traceback
+    from datetime import datetime
+    from .config import ROOT
+    log = ROOT / "data" / "crash.log"
+    try:
+        log.parent.mkdir(parents=True, exist_ok=True)
+        with log.open("a", encoding="utf-8") as f:
+            f.write(f"\n--- {datetime.now().isoformat(timespec='seconds')} ---\n{traceback.format_exc()}")
+        where = str(log)
+    except OSError:
+        where = "(couldn't write the log)"
+        traceback.print_exc()
+    console.print(f"\n[warn]Oops, something went wrong and the app has to stop. Your progress is saved.[/]\n"
+                  f"[hint]Start it again with gtutor. If it happens again, show a parent this file: "
+                  f"{ui.escape(where)}[/]")
+
+
 def sharing_allowed(ctx: Context) -> bool:
     """Wi-Fi sharing: the parent's setting if it's true/false, else this kid's own answer (asked once)."""
     setting = ctx.settings.get("share_on_wifi", "ask")
@@ -468,6 +488,8 @@ def main(argv: list[str] | None = None) -> int:
             menu(ctx)
     except (KeyboardInterrupt, QuitSession):
         pass
+    except Exception:  # a bug or a broken computer part: keep the progress, tell the kid calmly, log the details
+        crash_note()
     finally:
         unlock()
         if ctx is not None and ctx.presence:

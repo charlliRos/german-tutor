@@ -21,6 +21,16 @@ SILENCE_PEAK = 0.02    # recordings quieter than this count as "nothing heard"
 QUIET_PEAK = 0.08      # below this the mic works but is set very low
 
 
+BLOCKED_VOICE = ("Windows blocked the offline German voice (Smart App Control or a school's app policy: one of its "
+                 "files isn't signed).")
+
+
+def blocked(exc: Exception) -> bool:
+    """Windows refused to load a file (Smart App Control, Application Control, WDAC)."""
+    text = str(exc).lower()
+    return "application control" in text or "blocked" in text or "4551" in text
+
+
 def clean_for_speech(text: str) -> str:
     text = re.sub(r"\([^)]*\)", " ", text)
     for short, full in (("etw.", "etwas"), ("jdm.", "jemandem"), ("jdn.", "jemanden"), ("jmd.", "jemand")):
@@ -62,6 +72,7 @@ class Audio:
         self.settings = settings
         self.sd = None
         self.voice = None
+        self.sysvoice = None  # the computer's own voice, when the Piper voice can't run (app/sysvoice.py)
         self.has_mic = False
         self.last_peak = 0.0  # loudness of the last raw recording, before volume boost
         self.listener = None  # speech check (app/listen.py): only loaded when there's a mic
@@ -112,25 +123,47 @@ class Audio:
             self.problems.append("No microphone found. You'll say things out loud without recording.")
 
     def _init_voice(self) -> None:
+        """The offline Piper voice; if it can't run here, the computer's own German voice ("voice_engine" in
+        config.json: auto, piper or system)."""
+        engine = self.settings.get("voice_engine", "auto")
+        problem = "" if engine == "system" else self._init_piper()
+        if problem and engine == "piper":
+            self.problems.append(problem)
+        elif problem or engine == "system":
+            self._init_system_voice(problem)
+
+    def _init_piper(self) -> str:
+        """Load the Piper voice and say a word silently to be sure it runs. '' if it works, else why not."""
         model = VOICES_DIR / f"{self.settings['voice']}.onnx"
         if not model.exists():
-            self.problems.append("The German voice isn't downloaded yet. Run setup again (setup.bat or ./setup.sh).")
-            return
+            return "The German voice isn't downloaded yet (run: gtutor update)."
         try:
             from piper import PiperVoice
             from piper.config import SynthesisConfig
-        except Exception as exc:
-            self.problems.append(f"Piper TTS is not installed ({exc}). Run the setup script again.")
-            return
-        try:
             self.voice = PiperVoice.load(model)
             self._synthesis_config = SynthesisConfig
+            self.synthesize("Hallo", 1.0)  # the speech part only loads now: a blocked file fails here, not mid-lesson
         except Exception as exc:
-            self.problems.append(f"Could not load the German voice ({exc}).")
+            self.voice = None
+            self._cache.clear()
+            return BLOCKED_VOICE if blocked(exc) else f"The offline German voice can't run here ({exc})."
+        return ""
+
+    def _init_system_voice(self, piper_problem: str) -> None:
+        from . import sysvoice
+        try:
+            self.sysvoice = sysvoice.open_voice("de")
+        except Exception as exc:
+            self.problems.append(f"{piper_problem or 'The system voice was chosen in config.json.'} No German system "
+                                 f"voice either ({exc}). To get sound, {sysvoice.install_hint()}, then restart the "
+                                 "app. Everything else works without sound.")
+            return
+        if piper_problem:
+            self.problems.append(f"{piper_problem} Using the computer's German voice ({self.sysvoice.name}) instead.")
 
     @property
     def can_speak(self) -> bool:
-        return self.sd is not None and self.voice is not None
+        return self.sd is not None and (self.voice is not None or self.sysvoice is not None)
 
     @property
     def can_record(self) -> bool:
@@ -139,6 +172,9 @@ class Audio:
     def synthesize(self, text: str, length_scale: float, voice: str = "") -> tuple[np.ndarray, int]:
         factor = VOICES.get(voice, 1.0)
         key = (text, length_scale, voice)
+        if key not in self._cache and self.voice is None and self.sysvoice is not None:
+            audio, rate = self.sysvoice.speak(clean_for_speech(text), 1.0 / (length_scale * factor))
+            self._cache[key] = (audio, int(rate * factor))
         if key not in self._cache:
             parts, rate = [], 22050
             config = self._synthesis_config(length_scale=length_scale * factor)
@@ -153,8 +189,18 @@ class Audio:
         if not self.can_speak or not text.strip():
             return False
         speed = float(self.settings["word_speed"] if slow else self.settings["text_speed"])
-        self.play(*self.synthesize(text, speed, voice), stop_when=stop_when)
+        try:
+            audio = self.synthesize(text, speed, voice)
+        except Exception as exc:  # never stop a lesson because speech failed: carry on without it
+            self._speech_failed(exc)
+            return False
+        self.play(*audio, stop_when=stop_when)
         return True
+
+    def _speech_failed(self, exc: Exception) -> None:
+        self.voice = self.sysvoice = None
+        self.problems.append(BLOCKED_VOICE if blocked(exc) else
+                             f"The voice stopped working ({exc}), so the app carries on without sound.")
 
     def say_lines(self, lines: list[tuple[str, str]], stop_when=None) -> bool:
         """A conversation: (voice, text) turns, each speaker in their own voice, played as one recording."""
@@ -162,10 +208,14 @@ class Audio:
             return False
         speed, base = float(self.settings["text_speed"]), 22050
         parts = []
-        for voice, text in lines:
-            if text.strip():
-                audio, rate = self.synthesize(text, speed, voice)
-                parts += [_resample(audio, rate, base), np.zeros(int(base * TURN_PAUSE), dtype=np.float32)]
+        try:
+            for voice, text in lines:
+                if text.strip():
+                    audio, rate = self.synthesize(text, speed, voice)
+                    parts += [_resample(audio, rate, base), np.zeros(int(base * TURN_PAUSE), dtype=np.float32)]
+        except Exception as exc:
+            self._speech_failed(exc)
+            return False
         if parts:
             self.play(np.concatenate(parts), base, stop_when=stop_when)
         return True
@@ -187,24 +237,46 @@ class Audio:
 
     def play(self, audio: np.ndarray, rate: int, stop_when=None) -> bool:
         sd, device = self.sd, self.settings.get("output_device")
+        if sd is None:
+            return False
         try:
-            sd.play(audio, rate, device=device)
-        except sd.PortAudioError:
-            # Some devices only accept their native sample rate.
-            native = int(sd.query_devices(device, kind="output")["default_samplerate"])
-            sd.play(_resample(audio, rate, native), native, device=device)
-        return self._wait(stop_when)
+            try:
+                sd.play(audio, rate, device=device)
+            except sd.PortAudioError:
+                # Some devices only accept their native sample rate.
+                native = int(sd.query_devices(device, kind="output")["default_samplerate"])
+                sd.play(_resample(audio, rate, native), native, device=device)
+            return self._wait(stop_when)
+        except KeyboardInterrupt:
+            raise
+        except Exception as exc:  # headphones unplugged, device gone, driver error: carry on without sound
+            self.sd = None
+            self.problems.append(f"The speakers stopped working ({exc}), so the app carries on without sound. "
+                                 "Restart the app to try again.")
+            return False
 
     def _input_rate(self) -> int:
         return int(self.sd.query_devices(self.settings.get("input_device"), kind="input")["default_samplerate"])
 
+    def _mic_failed(self, exc: Exception) -> tuple[np.ndarray, int]:
+        self.has_mic = False
+        self.problems.append(f"The microphone stopped working ({exc}), so you'll say things out loud without "
+                             "recording. Restart the app to try again.")
+        return np.zeros(0, dtype=np.float32), 16000
+
     def record_seconds(self, seconds: float, on_tick=None) -> tuple[np.ndarray, int]:
-        """Record for a fixed time; on_tick(seconds_left) is called about 10 times a second."""
-        rate = self._input_rate()
-        rec = self.sd.rec(int(seconds * rate), samplerate=rate, channels=1, dtype="float32",
-                          device=self.settings.get("input_device"))
-        start = time.monotonic()
-        self._wait(lambda: bool(on_tick and on_tick(max(0.0, seconds - (time.monotonic() - start)))))
+        """Record for a fixed time; on_tick(seconds_left) is called about 10 times a second. A microphone that
+        fails gives an empty recording (and is switched off), never an error."""
+        try:
+            rate = self._input_rate()
+            rec = self.sd.rec(int(seconds * rate), samplerate=rate, channels=1, dtype="float32",
+                              device=self.settings.get("input_device"))
+            start = time.monotonic()
+            self._wait(lambda: bool(on_tick and on_tick(max(0.0, seconds - (time.monotonic() - start)))))
+        except KeyboardInterrupt:
+            raise
+        except Exception as exc:
+            return self._mic_failed(exc)
         self.last_peak = float(np.max(np.abs(rec))) if rec.size else 0.0
         return _tidy(rec[:, 0], rate), rate
 
@@ -216,9 +288,16 @@ class Audio:
         def callback(indata, frame_count, time_info, status):
             frames.append(indata[:, 0].copy())
 
-        with self.sd.InputStream(samplerate=rate, channels=1, dtype="float32",
-                                 device=self.settings.get("input_device"), callback=callback):
-            wait_for_stop()
+        try:
+            with self.sd.InputStream(samplerate=rate, channels=1, dtype="float32",
+                                     device=self.settings.get("input_device"), callback=callback):
+                wait_for_stop()
+        except (KeyboardInterrupt, SystemExit):
+            raise
+        except Exception as exc:
+            if type(exc).__name__ == "QuitSession":
+                raise
+            return self._mic_failed(exc)
         audio = np.concatenate(frames)[: max_seconds * rate] if frames else np.zeros(0, dtype=np.float32)
         self.last_peak = float(np.max(np.abs(audio))) if audio.size else 0.0
         return _tidy(audio, rate), rate

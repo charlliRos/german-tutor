@@ -131,6 +131,15 @@ Connecting is automatic: with both apps open on the same Wi-Fi, they find each o
 
 `data/` is not uploaded to GitHub. To move a kid to another computer, copy `data/profiles/` across.
 
+## If something doesn't work
+
+The app never stops because a part is missing: it says what's wrong at the top of the menu and carries on without it.
+
+- **"Windows blocked the offline German voice"** (Smart App Control, or a school's app policy): one of the voice's files isn't digitally signed, so Windows won't load it. The app then uses the computer's own German voice instead. If there's none yet: *Settings → Time & language → Speech → Add voices → Deutsch*, then restart the app. (On a Mac: *System Settings → Accessibility → Spoken Content*; on Linux: `sudo apt install espeak-ng`.) The same policy may block the speech checker; speaking turns then just aren't checked. To get everything back on your own computer, Smart App Control can be switched off in *Windows Security → App & browser control* (note: Windows can't switch it on again without a reset); on a school computer, ask IT to allow the app's folder.
+- **No sound or microphone:** menu 7 tests speakers, microphone and pictures; `config.json` has `output_device` / `input_device`.
+- **Pictures look like strange letters:** menu 7 switches that computer to simpler pictures.
+- **"Oops, something went wrong":** progress is saved. The details are in `data/crash.log`; send that file to whoever set up the app.
+
 ## Updating
 
 To get the latest app, words and books, type:
