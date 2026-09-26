@@ -88,15 +88,49 @@ def _decode_png(data: bytes) -> np.ndarray:
     return pixels
 
 
+PREPARED_WIDTH = 480  # ready-made PNGs next to the SVGs (tools/render_pictures.py), shrunk to size when shown
+
+
+def encode_png(rgb: np.ndarray) -> bytes:
+    """An RGB PNG (no image library): rows with filter 0, zlib-compressed."""
+    import struct
+    raw = b"".join(b"\x00" + row.tobytes() for row in rgb.astype(np.uint8))
+
+    def chunk(kind: bytes, data: bytes) -> bytes:
+        return struct.pack(">I", len(data)) + kind + data + struct.pack(">I", zlib.crc32(kind + data) & 0xFFFFFFFF)
+    header = struct.pack(">IIBBBBB", rgb.shape[1], rgb.shape[0], 8, 2, 0, 0, 0)
+    return b"\x89PNG\r\n\x1a\n" + chunk(b"IHDR", header) + chunk(b"IDAT", zlib.compress(raw, 9)) + chunk(b"IEND", b"")
+
+
+def shrink(pixels: np.ndarray, width: int) -> np.ndarray:
+    """Resize to `width` (keeping the shape) by averaging the source pixels under each new one."""
+    h, w, _ = pixels.shape
+    height = max(1, round(h * width / w))
+    ys = np.linspace(0, h, height + 1).astype(int)
+    xs = np.linspace(0, w, width + 1).astype(int)
+    out = np.zeros((height, width, 3), dtype=np.uint8)
+    for i in range(height):
+        band = pixels[ys[i]:max(ys[i + 1], ys[i] + 1)].astype(np.float32)
+        cols = np.add.reduceat(band.sum(axis=0), np.minimum(xs[:-1], w - 1), axis=0)
+        counts = np.diff(np.append(np.minimum(xs[:-1], w - 1), w)).clip(min=1)[:, None] * band.shape[0]
+        out[i] = (cols / counts).clip(0, 255)
+    return out
+
+
 @lru_cache(maxsize=64)
 def render(path: str, width: int) -> np.ndarray | None:
-    """The SVG at `path` as RGB pixels (height, width, 3) on the picture background; None if it can't be drawn."""
+    """The SVG at `path` as RGB pixels (height, width, 3) on the picture background; None if it can't be drawn.
+    If the SVG renderer can't run here (e.g. Windows blocks its unsigned file), the ready-made PNG is used."""
     try:
         import resvg_py
         png = resvg_py.svg_to_bytes(svg_path=str(path), width=int(width), background="#fdfbf5")
         rgba = _decode_png(bytes(png))
     except Exception:
-        return None
+        prepared = Path(path).with_suffix(".png")
+        try:
+            return shrink(_decode_png(prepared.read_bytes())[..., :3], int(width))
+        except Exception:
+            return None
     alpha = rgba[..., 3:4].astype(np.float32) / 255
     return (rgba[..., :3] * alpha + np.array(BACKGROUND) * (1 - alpha)).astype(np.uint8)
 

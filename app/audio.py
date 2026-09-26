@@ -142,12 +142,28 @@ class Audio:
             from piper.config import SynthesisConfig
             self.voice = PiperVoice.load(model)
             self._synthesis_config = SynthesisConfig
-            self.synthesize("Hallo", 1.0)  # the speech part only loads now: a blocked file fails here, not mid-lesson
         except Exception as exc:
             self.voice = None
-            self._cache.clear()
             return BLOCKED_VOICE if blocked(exc) else f"The offline German voice can't run here ({exc})."
-        return ""
+        try:
+            self.synthesize("Hallo", 1.0)  # the pronunciation helper only loads now: a blocked file fails here
+            return ""
+        except Exception as exc:
+            self._cache.clear()
+            problem = BLOCKED_VOICE if blocked(exc) else f"The offline German voice can't run here ({exc})."
+        # The pronunciation helper is blocked, but the voice itself (Microsoft-signed onnxruntime) runs: use the
+        # prepared pronunciations (app/phonemes.py) instead of the helper.
+        from .phonemes import PhonemeCache
+        cache = PhonemeCache.load()
+        if cache is not None:
+            self.voice.phonemize = cache.phonemize
+            try:
+                self.synthesize("Hallo", 1.0)
+                return ""
+            except Exception:
+                self._cache.clear()
+        self.voice = None
+        return problem
 
     def _init_system_voice(self, piper_problem: str) -> None:
         from . import sysvoice

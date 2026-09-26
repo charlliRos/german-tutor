@@ -88,5 +88,62 @@ class Blocked(unittest.TestCase):
         self.assertFalse(audio.blocked(ValueError("bad model")))
 
 
+class PreparedPronunciations(unittest.TestCase):
+    """With Piper's pronunciation helper blocked, the real voice still speaks, from the prepared file."""
+
+    def setUp(self):
+        from app.config import VOICES_DIR
+        if not (VOICES_DIR / "de_DE-thorsten-medium.onnx").exists():
+            self.skipTest("the Piper voice isn't downloaded here")
+
+    def test_the_real_voice_speaks_with_its_helper_blocked(self):
+        import piper.voice
+        a = bare_audio(voice="de_DE-thorsten-medium")
+        with mock.patch.object(piper.voice.PiperVoice, "phonemize", side_effect=BLOCKED):
+            problem = a._init_piper()
+            self.assertEqual(problem, "")        # no problem to report: the voice works
+            samples, rate = a.synthesize("Ich bin heute zu spät aufgewacht.", 1.0)
+        self.assertGreater(len(samples) / rate, 1.0)  # real speech, over a second long
+
+    def test_the_prepared_file_covers_the_content(self):
+        """New content without `python tools/phoneme_cache.py` fails here (words still work, sentences sound better)."""
+        from app.content import load_content
+        from app.exams import load_exams
+        from app.phonemes import PhonemeCache, speech_texts
+        cache = PhonemeCache.load()
+        self.assertIsNotNone(cache)
+        self.assertGreaterEqual(cache.coverage(speech_texts(load_content(), load_exams()[0])), 0.99,
+                                "run python tools/phoneme_cache.py")
+
+class SpeechCheckFallback(unittest.TestCase):
+    def test_a_blocked_speech_checker_falls_back_to_windows_recognition(self):
+        from app import listen
+        fake = object()
+        with mock.patch("app.listen.MODEL_DIR", Path(".")),                 mock.patch("app.listen.Listener", side_effect=ImportError("An Application Control policy has blocked this file.")),                 mock.patch("app.listen.os.name", "nt"), mock.patch("app.sysrecognize.WindowsRecognizer", return_value=fake):
+            self.assertEqual(listen.load(), (fake, ""))
+
+    def test_without_windows_recognition_it_says_what_to_add(self):
+        from app import listen
+        with mock.patch("app.listen.MODEL_DIR", Path(".")),                 mock.patch("app.listen.Listener", side_effect=ImportError("An Application Control policy has blocked this file.")),                 mock.patch("app.listen.os.name", "nt"),                 mock.patch("app.sysrecognize.WindowsRecognizer", side_effect=RuntimeError("no German recognizer")):
+            listener, problem = listen.load()
+        self.assertIsNone(listener)
+        self.assertIn("Windows blocked the speech checker", problem)
+        self.assertIn("German speech pack", problem)
+
+
+class PreparedPictures(unittest.TestCase):
+    def test_every_picture_has_a_ready_made_png_and_it_is_used_when_the_renderer_is_blocked(self):
+        from app import pictures
+        svgs = sorted(pictures.IMAGES_DIR.rglob("*.svg"))
+        self.assertTrue(svgs)
+        missing = [str(s) for s in svgs if not s.with_suffix(".png").exists()]
+        self.assertEqual(missing, [], "run python tools/render_pictures.py")
+        pictures.render.cache_clear()
+        with mock.patch.dict(sys.modules, {"resvg_py": None}):
+            pixels = pictures.render(str(svgs[0]), 40)
+        pictures.render.cache_clear()
+        self.assertEqual(pixels.shape[1], 40)
+
+
 if __name__ == "__main__":
     unittest.main()

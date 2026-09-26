@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import difflib
 import json
+import os
 
 import numpy as np
 
@@ -40,17 +41,27 @@ class Listener:
 
 
 def load() -> tuple[Listener | None, str]:
-    """(listener, problem). The problem is '' when it works, or says why there's no speech check."""
+    """(listener, problem). The problem is '' when it works, or says why there's no speech check. If the offline
+    checker can't run (not downloaded, or Windows blocks its unsigned file), Windows' own German speech
+    recognition is used when it's installed (app/sysrecognize.py)."""
     if not MODEL_DIR.exists():
-        return None, "The speech checker isn't downloaded yet. Run: gtutor update"
-    try:
-        return Listener(), ""
-    except Exception as exc:  # vosk not installed, a damaged model, or blocked by Windows
-        text = str(exc).lower()
-        if "application control" in text or "blocked" in text:
-            return None, ("Windows blocked the speech checker (Smart App Control or a school's app policy), so "
-                          "speaking turns aren't checked here. Everything else works.")
-        return None, f"The speech checker couldn't start ({exc}). Run: gtutor update"
+        problem = "The speech checker isn't downloaded yet. Run: gtutor update"
+    else:
+        try:
+            return Listener(), ""
+        except Exception as exc:  # vosk not installed, a damaged model, or blocked by Windows
+            text = str(exc).lower()
+            problem = ("Windows blocked the speech checker (Smart App Control or a school's app policy)."
+                       if "application control" in text or "blocked" in text else
+                       f"The speech checker couldn't start ({exc}). Run: gtutor update")
+    if os.name == "nt":
+        try:
+            from .sysrecognize import WindowsRecognizer
+            return WindowsRecognizer("de"), ""
+        except Exception:
+            problem += (" Speaking turns aren't checked here; for Windows' own German speech check, add the German "
+                        "speech pack (Settings → Time & language → Language → Deutsch → Speech). Everything else works.")
+    return None, problem
 
 
 def _close(word: str, heard: list[str]) -> bool:
