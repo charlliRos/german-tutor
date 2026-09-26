@@ -227,8 +227,15 @@ def question(ctx, item: Item, heading: str, repeat: bool = False) -> str:
     if outcome == CORRECT:
         console.print("[hint]Next one in a moment… (Enter = go now)[/]")
         ui.pause(NEXT_SECONDS, skippable=True)
-    else:
-        ui.timed_keys({"": "next"}, WRONG_SECONDS)
+        return outcome
+    options = {"": "next"}
+    if answer:  # e.g. another correct word order: the kid may claim it (logged next to the check's verdict)
+        options[ui.CLAIM_KEY] = ui.CLAIM_LABEL
+        ui.claim_line()
+    if ui.timed_keys(options, WRONG_SECONDS) == ui.CLAIM_KEY:
+        console.print("[good]OK, counted as correct.[/]")
+        sfx.play(ctx.audio, "right")
+        return CORRECT
     return outcome
 
 

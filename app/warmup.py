@@ -226,10 +226,12 @@ def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say
         console.print("[hint]Next one in a moment… (Enter = go now)[/]")
         return AUTO_NEXT  # the caller saves the result first, then pauses a moment and goes straight on
     options = {"": "next"}
-    if check.overridable and answer and not second_chance and check.outcome != CORRECT:
-        options["o"] = "my answer was right too"
-    if _listen_options(ctx, word, options, auto=auto_seconds(ctx, "wrong")) == "o":
-        console.print("[good]OK, counted as correct.[/] [hint]It comes back once more at the end.[/]")
+    if check.overridable and answer and check.outcome != CORRECT:
+        options[ui.CLAIM_KEY] = ui.CLAIM_LABEL
+        ui.claim_line()
+    if _listen_options(ctx, word, options, auto=auto_seconds(ctx, "wrong")) == ui.CLAIM_KEY:
+        console.print("[good]OK, counted as correct.[/]" + ("" if second_chance else
+                      " [hint]It comes back once more at the end.[/]"))
         sfx.play(ctx.audio, "right")
         return ONCE_MORE
     return check.outcome
@@ -430,9 +432,10 @@ def repeat_until_right(ctx, words: list[Word]) -> None:
             ui.title(f"{ctx.step}Again until it sticks · round {round_no} · {i} of {len(words)}",
                      "just for practice, no score")
             outcome = quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance=True)
-            log_word(ctx, word, "warmup.repeat", CORRECT if outcome == AUTO_NEXT else outcome)
+            log_word(ctx, word, "warmup.repeat", CORRECT if outcome in (AUTO_NEXT, ONCE_MORE) else outcome,
+                     claimed=outcome == ONCE_MORE)
             if outcome == AUTO_NEXT:
                 ui.pause(auto_seconds(ctx, "right"), skippable=True)
-            elif outcome != CORRECT:
+            elif outcome not in (CORRECT, ONCE_MORE):  # a claim counts here too (it's logged for review)
                 missed.append(word)
         words = missed

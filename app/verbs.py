@@ -181,8 +181,9 @@ def card(ctx, key: str, heading: str, repeat: bool = False) -> str:
         ui.pause(NEXT_SECONDS, skippable=True)
     else:
         options = {"": "next"}
-        if answer and not repeat and check.overridable:
-            options["o"] = "my answer was right too"
+        if answer and check.overridable:
+            options[ui.CLAIM_KEY] = ui.CLAIM_LABEL
+            ui.claim_line()
         if ctx.audio.can_speak:
             options["r"] = "hear the forms again"
         choice = ui.timed_keys(options, WRONG_SECONDS)  # goes on by itself; a key stops the clock
@@ -242,4 +243,4 @@ def repeat_verbs(ctx, not_yet: list[str]) -> None:
         not_yet = [key for i, key in enumerate(not_yet, 1)
                    if log(ctx, key, "verbs.repeat",
                           card(ctx, key, f"Verbs again until they stick · round {round_no} · {i} of {len(not_yet)}",
-                               repeat=True)) != CORRECT]
+                               repeat=True)) not in (CORRECT, ONCE_MORE)]  # a claim counts here too

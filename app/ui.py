@@ -602,6 +602,17 @@ def keys(options: dict[str, str]) -> str:
         console.print(f"[warn]'{escape(raw)}' isn't an option here.[/]" if raw else "[warn]Pick one of the options above.[/]")
 
 
+CLAIM_KEY = "o"
+CLAIM_LABEL = "my answer was right too"
+
+
+def claim_line() -> None:
+    """The "my answer was right too" option on its own bright line, so nobody misses it (the timed hint line
+    below it is long and grey)."""
+    console.print(f"[key]{escape('[' + CLAIM_KEY + ']')}[/] [bold]My answer was right too[/] "
+                  "[hint](then it counts; the word comes back once more to be sure)[/]")
+
+
 def title(heading: str, sub: str = "") -> None:
     """A rule line; the subtitle is dropped rather than letting the heading get cut off."""
     room = console.width - 8
