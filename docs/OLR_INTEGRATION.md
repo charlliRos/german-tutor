@@ -73,6 +73,13 @@ from are the permanent part.
 | `reading.translation_de_en` | German text → English | book |
 | `writing.translation_en_de` | English text → German | book |
 
+## Planned for the server: item analysis
+
+Finding questions that are the problem (not the kids) needs every kid's answers together, so it belongs on the
+platform's server once gtutor is online. The exported attempts already carry what it needs (item, item_version,
+learner, context, task, response, score, grader, machine_verdict, claimed_correct, at). The design, thresholds and
+fixes are in [RECOMMENDATIONS.md](RECOMMENDATIONS.md), section 2.
+
 ## Not done, on purpose
 
 These are open or unbuilt on OLR's side. Building one side of them now would be guessing:

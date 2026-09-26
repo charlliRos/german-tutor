@@ -184,6 +184,7 @@ def export_attempt(e: dict) -> dict:
         item = f"{item}.{e['task']}"  # word answers: the question, not just the word
     return {"event_id": e["id"], "at": e["at"], "learner": e["learner"], "item": item,
             "item_version": e["item_version"], "competency": e["competency"], "subcompetency": e["subcompetency"],
+            "context": e.get("context", ""), "task": e.get("task", ""),  # first try vs repeat, exam, placement …
             "response": e.get("response", ""), "score": mapped, "grader": e["grader"],
             **({"unmapped": unmapped} if unmapped else {}),
             **({"machine_verdict": e["machine_verdict"]} if e.get("machine_verdict") else {}),
