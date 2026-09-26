@@ -116,3 +116,24 @@ answer brings up to 15 words from its texts back: started words get a `practice`
 - Exposing item state (box, due, leech, parked) to the app, so it can choose the question type.
 - Session-scoped repeats (until right) that don't touch the ladder.
 - Separate schedules per item kind (words, verb forms, genders, paragraphs, exam parts).
+
+## 10. Rulings for the OLR rewrite (owner, 2026-09-26, binding for the ADR-037 SDK)
+
+Almost everything above becomes **integer / permille settings in the app manifest**, run by the core scheduler:
+the ladder and intervals, the right / almost / wrong rules, non-due practice, the time budget (the core works out
+the pace from answer timestamps; the app never sees it), adaptive new items and caught-up mode, eligibility via
+content tags, per-kind schedules (a new "steps" family for paragraphs, "pass_fail" for exam parts), session
+repeats, and speaking turns (the attempt gets a host-set `input_path`: typed or speech).
+
+Four things change shape:
+
+| | Today (Python app) | On OLR |
+|---|---|---|
+| A. Book words, exam misses, placement | The app pushes **seed** and **nudge** events | The **core** derives them from **content links** and **tagged placement items**, by rules gtutor declares. The app can't push seeds or nudges. |
+| B. Leeches | The app knows "is leech / is parked" and switches to the sentence cue | The leech stays due and the **core swaps in a content variant tagged `cue:leech`**; parking and return are the core's. The app is never told. **Leech-cue variants (e.g. the example-sentence gap) must be authored as content.** |
+| C. Goal, topics, minutes | Asked and stored by the app | A **platform settings screen** stores them; the app can't read them back. |
+| D. "My answer was right too" | The app's `o` key, the claims review | A **platform appeal button**: it counts as right pending parent review. |
+
+What this means for the rewrite's content work: every word needs its leech-cue variant as content, book key words
+and exam texts need content links to the words they contain, placement needs tagged placement items, and the
+goal/level/topic rules become content tags plus declared rules.
