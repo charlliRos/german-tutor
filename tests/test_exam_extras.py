@@ -123,3 +123,18 @@ class ShippedExtras(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RecordingsAreNotChoices(unittest.TestCase):
+    def test_the_example_recording_is_not_an_answer_choice(self):
+        raw = {**RAW, "parts": [{"id": "hoeren-2", "skill": "listening", "title_de": "Hören, Teil 2",
+                                 "texts": [{"id": "talk", "de": "Am Dienstag gehe ich schwimmen."},
+                                           {"id": "t0", "de": "Am Montag spiele ich Fußball."},
+                                           {"id": "a", "de": "schwimmen"}, {"id": "b", "de": "Fußball"}],
+                                 "example": {"type": "match", "text": "t0", "question": "Montag", "answer": "b",
+                                             "explain_en": "."},
+                                 "items": [{"id": "1", "type": "match", "text": "talk", "question": "Dienstag",
+                                            "answer": "a", "explain_en": "."}]}]}
+        self.assertEqual(exams.check_exam(raw, "t"), [])
+        part = exams._exam(raw).parts[0]
+        self.assertEqual(list(exams.choices(part.items[0], part)), ["a", "b"])

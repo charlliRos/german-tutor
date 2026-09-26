@@ -128,11 +128,18 @@ def choices(item: ExamItem, part: Part) -> dict[str, str]:
         return {"r": "richtig", "f": "falsch"}
     if item.type == "yesno":
         return {"j": "ja", "n": "nein"}
-    # A matching question that names a text (e.g. the conversation it's about) chooses among the others.
-    out = {t.id: t.label() for t in part.texts if t.id != item.text}
+    # The texts that are recordings (named by a question or by the example) are never answer choices.
+    out = {t.id: t.label() for t in part.texts if t.id not in recordings(part) | {item.text}}
     if part.none_allowed:
         out["x"] = "keine Anzeige / kein Text passt"
     return out
+
+
+def recordings(part: "Part") -> set[str]:
+    """Texts a matching part plays or shows as the thing to match (not the choices): those named by an item or
+    by the example."""
+    named = {i.text for i in part.items if i.text} | ({part.example.text} if part.example and part.example.text else set())
+    return named if any(i.type == "match" for i in part.items) else set()
 
 
 def canonical(item: ExamItem, key: str) -> str:
@@ -209,10 +216,12 @@ def check_exam(raw: dict, name: str) -> list[str]:
                 problems.append(f"{where}: kind must be sms, informal, formal or forum")
             continue
         texts = {t.get("id") for t in p.get("texts", [])}
+        named = ({i.get("text") for i in p.get("items", []) if i.get("text")} | {(p.get("example") or {}).get("text")}) - {None} \
+            if any(i.get("type") == "match" for i in p.get("items", [])) else set()
         if p.get("example"):
             ex = p["example"]
             allowed = {"mc": set((ex.get("options") or {}).keys()), "tf": {"richtig", "falsch"}, "yesno": {"ja", "nein"},
-                       "match": texts - {ex.get("text")}}.get(ex.get("type"), set())
+                       "match": texts - named - {ex.get("text")}}.get(ex.get("type"), set())
             if ex.get("answer") not in allowed:
                 problems.append(f"{where} example: answer {ex.get('answer')!r} is not one of {sorted(allowed)}")
             if ex.get("text") and ex["text"] not in texts:
@@ -236,7 +245,7 @@ def check_exam(raw: dict, name: str) -> list[str]:
                 continue
             allowed = {"mc": set((it.get("options") or {}).keys()), "tf": {"richtig", "falsch"},
                        "yesno": {"ja", "nein"},
-                       "match": (texts - {it.get("text")}) | ({"x"} if p.get("none_allowed") else set())}[kind]
+                       "match": (texts - named - {it.get("text")}) | ({"x"} if p.get("none_allowed") else set())}[kind]
             if kind == "mc" and set((it.get("options") or {}).keys()) != {"a", "b", "c"}:
                 problems.append(f"{iw}: mc needs options a, b, c")
             if answer not in allowed:

@@ -326,6 +326,11 @@
       "minutes": 15,
       "texts": [
         {
+          "id": "t0",
+          "title": "Jonas, 16",
+          "de": "Bei uns dürfen wir das Handy in der Pause benutzen, im Unterricht muss es aus sein. So kann jeder kurz seine Nachrichten lesen, und trotzdem stört niemand. Ein komplettes Verbot fände ich deshalb übertrieben."
+        },
+        {
           "id": "t1",
           "title": "Nils, 17",
           "de": "Seit unsere Schule die Handys morgens einsammelt, ist in den Pausen endlich wieder etwas los. Früher saßen alle nur still da und starrten auf ihre Bildschirme. Jetzt reden wir miteinander oder spielen Tischtennis. Ich finde die Regel richtig gut."
@@ -363,10 +368,10 @@
       ],
       "example": {
         "type": "yesno",
-        "text": "t3",
-        "question": "Fährt die Tochter von Herrn Scholz mit dem Bus zur Schule?",
-        "answer": "ja",
-        "explain_en": "Herr Scholz writes „Meine Tochter fährt jeden Tag eine Stunde mit dem Bus zur Schule“."
+        "text": "t0",
+        "question": "Ist Jonas für ein Handyverbot an der Schule?",
+        "answer": "nein",
+        "explain_en": "Jonas finds a complete ban exaggerated (übertrieben): phones off in class is enough for him."
       },
       "items": [
         {
@@ -1144,17 +1149,30 @@
       "point_keywords": [
         [
           "kasse",
-          "verkaufe",
-          "helfe",
+          "verkauf",
+          "helf",
           "aufgabe",
           "muss ich",
           "arbeite",
           "kiosk",
-          "putze",
-          "aufpass"
+          "putz",
+          "aufpass",
+          "reinige",
+          "reinig",
+          "säuber",
+          "kontrollier",
+          "räum",
+          "servier",
+          "bedien",
+          "verteil",
+          "kümmere",
+          "zuständig",
+          "verantwortlich",
+          "sorge für"
         ],
         [
           "gefällt",
+          "gefallen",
           "am besten",
           "besonders",
           "weil",
@@ -1162,17 +1180,33 @@
           "spaß",
           "toll",
           "super",
-          "finde ich"
+          "finde ich",
+          "ich mag",
+          "ich liebe",
+          "freue",
+          "angenehm",
+          "nett",
+          "freundlich",
+          "gut",
+          "gern"
         ],
         [
-          "treffen",
+          "treff",
           "lust",
           "besuch",
           "wollen wir",
           "könnten wir",
+          "können wir",
           "hast du zeit",
+          "hättest du zeit",
           "wie wäre",
-          "vorschlag"
+          "vorschlag",
+          "komm doch",
+          "komm vorbei",
+          "kommst du",
+          "lade dich",
+          "lass uns",
+          "sollen wir"
         ]
       ],
       "words": [
@@ -1204,17 +1238,33 @@
           "dafür",
           "dagegen",
           "ich denke",
-          "ich glaube"
+          "ich glaube",
+          "ich meine",
+          "ich halte",
+          "meiner ansicht",
+          "aus meiner sicht",
+          "pflicht",
+          "freiwillig",
+          "sollte",
+          "müsste"
         ],
         [
           "weil",
           "denn",
           "zum beispiel",
+          "beispielsweise",
           "erfahrung",
           "ich helfe",
-          "selbst",
+          "ich habe",
+          "ich arbeite",
+          "ich engagiere",
           "außerdem",
-          "deshalb"
+          "deshalb",
+          "deswegen",
+          "darum",
+          "nämlich",
+          "sonst",
+          "wegen"
         ],
         [
           "max",
@@ -1223,7 +1273,16 @@
           "recht",
           "stimme",
           "einverstanden",
-          "anders als"
+          "anders als",
+          "sehe ich auch",
+          "sehe ich anders",
+          "das stimmt",
+          "stimmt nicht",
+          "diese aussage",
+          "dieser aussage",
+          "seine meinung",
+          "seiner meinung",
+          "seinen vorschlag"
         ]
       ],
       "words": [
@@ -1264,15 +1323,30 @@
           "termin",
           "arzt",
           "muss",
-          "deshalb"
+          "deshalb",
+          "deswegen",
+          "wegen",
+          "fieber",
+          "erkält",
+          "grippe",
+          "schmerz",
+          "verletzt",
+          "verletzung",
+          "hochzeit",
+          "prüfung",
+          "klassenarbeit",
+          "ausflug",
+          "reise",
+          "urlaub",
+          "besuch",
+          "training",
+          "turnier",
+          "wettkampf",
+          "zugausfall",
+          "streik"
         ],
         [
-          "sehr geehrte",
-          "mit freundlichen grüßen",
-          "freundliche grüße",
-          "freundlichen grüßen",
-          "guten tag",
-          "viele grüße"
+          "#greeting_closing"
         ]
       ],
       "words": [
@@ -1307,21 +1381,45 @@
             [
               "sonntag",
               "freitag",
-              "samstag"
+              "samstag",
+              "donnerstag",
+              "mittwoch",
+              "dienstag",
+              "wochenende",
+              "nach der schule",
+              "vor dem abflug"
             ],
             [
               "besser",
               "lieber",
               "schlecht",
-              "keine gute idee"
+              "keine gute idee",
+              "nicht so gut",
+              "gut",
+              "passt",
+              "einverstanden",
+              "dafür",
+              "dagegen",
+              "finde",
+              "denke",
+              "meine"
             ],
             [
               "weil",
               "denn",
-              "deshalb"
+              "deshalb",
+              "deswegen",
+              "darum",
+              "nämlich",
+              "sonst",
+              "packen",
+              "flug",
+              "fliegt",
+              "abflug",
+              "zeit"
             ]
           ],
-          "model_de": "Sonntagabend finde ich nicht so gut, weil Lucía am Montag früh fliegt und bestimmt noch packen muss. Wie wäre es lieber mit Freitag nach der Schule?"
+          "model_de": "Sonntagabend finde ich nicht so gut, weil Lucía am Montag früh fliegt und bestimmt noch packen muss. Wie wäre es stattdessen mit Freitag nach der Schule?"
         },
         {
           "id": "2",
@@ -1335,7 +1433,7 @@
           ],
           "prompt_de": "Jetzt geht es um den Ort. Reagiere auf den Vorschlag und mach einen eigenen.",
           "prompt_en": "Now it's about the place. React to the suggestion and make your own.",
-          "partner_de": "Freitag ist gut, da haben alle Zeit. Aber wo? Bei mir zu Hause ist es leider zu klein für die ganze Klasse.",
+          "partner_de": "Und wo könnten wir feiern? Bei mir zu Hause ist es leider zu klein für die ganze Klasse.",
           "seconds": 30,
           "min_words": 15,
           "keywords": [
@@ -1344,19 +1442,36 @@
               "schule",
               "park",
               "jugendzentrum",
-              "garten"
-            ],
-            [
-              "fragen",
-              "frag",
-              "erlaub",
-              "darf"
+              "jugendclub",
+              "garten",
+              "bei mir",
+              "bei uns",
+              "zu mir",
+              "zu uns",
+              "zu hause",
+              "zuhause",
+              "wohnung",
+              "haus",
+              "raum",
+              "café",
+              "cafe",
+              "restaurant",
+              "vereinsheim"
             ],
             [
               "vorschlag",
               "wie wäre",
               "vielleicht",
-              "könnten"
+              "könnten",
+              "können",
+              "schlage",
+              "lass uns",
+              "lasst uns",
+              "wollen wir",
+              "kommt",
+              "platz",
+              "groß",
+              "feiern"
             ]
           ],
           "model_de": "Wir könnten vielleicht im Klassenzimmer feiern. Das ist groß genug, und Lucía kennt den Raum. Ich kann morgen unsere Klassenlehrerin fragen, ob wir das dürfen."
@@ -1380,21 +1495,53 @@
             [
               "teuer",
               "kostet",
-              "geld"
+              "kosten",
+              "geld",
+              "mag",
+              "schmeckt",
+              "gesund",
+              "fett",
+              "allerg",
+              "vegetar",
+              "vegan",
+              "langweilig",
+              "lieber",
+              "besser",
+              "nicht alle"
             ],
             [
-              "mitbringen",
-              "bringt",
-              "bringen",
+              "mitbring",
+              "bring",
               "selbst machen",
-              "kochen"
+              "selber machen",
+              "koch",
+              "back",
+              "grill",
+              "bestell",
+              "kauf",
+              "buffet"
             ],
             [
               "spanisch",
               "tortilla",
               "kuchen",
               "salat",
-              "snacks"
+              "snack",
+              "nudel",
+              "pasta",
+              "sandwich",
+              "brot",
+              "brötchen",
+              "obst",
+              "gemüse",
+              "suppe",
+              "wrap",
+              "burger",
+              "reis",
+              "sushi",
+              "getränk",
+              "saft",
+              "wasser"
             ]
           ],
           "model_de": "Pizza für die ganze Klasse ist ziemlich teuer. Ich finde es schöner, wenn jeder etwas mitbringt, zum Beispiel Kuchen oder Salat. Wir könnten auch eine spanische Tortilla machen, das freut Lucía bestimmt."
@@ -1411,25 +1558,42 @@
           ],
           "prompt_de": "Jetzt sprecht ihr über das Programm. Antworte auf die Frage und mach einen Vorschlag.",
           "prompt_en": "Now you talk about the programme. Answer the question and make a suggestion.",
-          "partner_de": "Okay, jeder bringt etwas mit, das ist fair. Aber was machen wir auf der Party? Nur essen ist ein bisschen langweilig.",
+          "partner_de": "Und was machen wir auf der Party? Nur essen ist ein bisschen langweilig.",
           "seconds": 35,
           "min_words": 18,
           "keywords": [
             [
               "musik",
               "playlist",
-              "tanzen",
+              "tanz",
               "spiel",
               "quiz",
-              "fotos",
-              "video"
+              "foto",
+              "video",
+              "karaoke",
+              "sing",
+              "lied",
+              "lieder",
+              "film",
+              "rede",
+              "reden",
+              "erinnerung",
+              "wettbewerb",
+              "schatzsuche"
             ],
             [
               "könnten",
+              "können",
               "wie wäre",
               "schlage",
               "vielleicht",
-              "lass uns"
+              "lass uns",
+              "lasst uns",
+              "wollen wir",
+              "sollen wir",
+              "ich würde",
+              "ich möchte",
+              "mein vorschlag"
             ]
           ],
           "model_de": "Da hast du recht. Wir könnten ein Quiz über Lucías Jahr in Deutschland machen. Und am Ende zeigen wir ein kurzes Video mit Fotos von unseren Ausflügen. Danach machen wir Musik und tanzen."
@@ -1452,23 +1616,53 @@
           "keywords": [
             [
               "t-shirt",
-              "geschenk"
+              "t shirt",
+              "tshirt",
+              "shirt",
+              "geschenk",
+              "andenken",
+              "erinnerung"
             ],
             [
-              "unterschreiben",
+              "unterschreib",
               "unterschrift",
               "namen",
+              "name",
               "karte",
-              "fotobuch"
+              "foto",
+              "bild",
+              "bilder",
+              "album",
+              "buch",
+              "gutschein",
+              "blumen",
+              "bemal",
+              "bedruck",
+              "spruch",
+              "text",
+              "brief"
             ],
             [
-              "also",
-              "dann",
-              "zusammen"
-            ],
-            [
+              "feiern",
+              "party",
+              "treffen",
+              "essen",
+              "getränk",
+              "programm",
+              "musik",
+              "quiz",
+              "video",
               "freitag",
-              "klassenzimmer"
+              "samstag",
+              "sonntag",
+              "donnerstag",
+              "schule",
+              "klassenzimmer",
+              "park",
+              "garten",
+              "bei mir",
+              "bei uns",
+              "jugendzentrum"
             ]
           ],
           "model_de": "Das T-Shirt finde ich eine schöne Idee. Alle aus der Klasse könnten ihre Namen darauf schreiben, dann hat sie eine Erinnerung. Also: Wir feiern am Freitag im Klassenzimmer, jeder bringt etwas zu essen mit, und wir machen ein Quiz und ein Video. Ich frage morgen die Lehrerin."
@@ -1479,7 +1673,7 @@
       "id": "sprechen-2",
       "skill": "speaking",
       "title_de": "Sprechen, Teil 2",
-      "instructions_en": "Give a short presentation (about 3 minutes in total) on the topic \"Part-time jobs for teenagers\". Your notes are on five slides. Talk about one slide at a time, in full sentences, and speak freely. The computer is your audience and records each slide separately.",
+      "instructions_en": "Give a short presentation on the topic \"Part-time jobs for teenagers\". This is a guided presentation drill with up to 4½ minutes of recording time, split across five slides. In the real exam, you present all five slides continuously in about three minutes. Your notes are on five slides. Talk about one slide at a time, in full sentences, and speak freely. The computer is your audience and records each slide separately.",
       "minutes": 5,
       "tasks": [
         {
@@ -1522,22 +1716,21 @@
             "Hast du schon gejobbt?",
             "Was hast du gemacht?"
           ],
-          "prompt_de": "Erzähl von deinen eigenen Erfahrungen mit Nebenjobs.",
-          "prompt_en": "Talk about your own experience with part-time jobs.",
+          "prompt_de": "Erzähl von deinen Erfahrungen mit Nebenjobs. Wenn du noch keinen Nebenjob hattest, sag das und erzähl, welchen Job du gern machen würdest.",
+          "prompt_en": "Talk about your experience with part-time jobs. If you haven't had one yet, say so and tell us which job you would like to do.",
           "seconds": 60,
           "min_words": 40,
           "keywords": [
             [
-              "letzten sommer",
-              "letztes jahr",
-              "seit",
-              "früher",
-              "in den ferien"
-            ],
-            [
-              "habe",
-              "hab",
-              "bin"
+              "nebenjob",
+              "ferienjob",
+              "job",
+              "arbeit",
+              "erfahrung",
+              "noch nie",
+              "noch keinen",
+              "bisher keinen",
+              "bis jetzt keinen"
             ],
             [
               "gearbeitet",
@@ -1545,11 +1738,22 @@
               "ausgetragen",
               "verdient",
               "geholfen",
-              "aufgepasst"
-            ],
-            [
-              "euro",
-              "geld"
+              "aufgepasst",
+              "arbeite",
+              "helfe",
+              "verdiene",
+              "möchte",
+              "würde",
+              "könnte",
+              "suche",
+              "bewerb",
+              "zeitung",
+              "babysit",
+              "nachhilfe",
+              "supermarkt",
+              "café",
+              "cafe",
+              "restaurant"
             ]
           ],
           "model_de": "Ich habe selbst schon einen Nebenjob gehabt. Letzten Sommer habe ich drei Monate lang jeden Samstag Zeitungen ausgetragen. Ich musste um sechs Uhr aufstehen, das war am Anfang echt hart. Aber ich habe ungefähr achtzig Euro im Monat verdient und mir davon neue Kopfhörer gekauft. Außerdem habe ich gelernt, pünktlich und zuverlässig zu sein."
@@ -1568,29 +1772,70 @@
           "min_words": 40,
           "keywords": [
             [
-              "in meinem land",
+              "land",
+              "heimat",
               "bei uns",
-              "in meiner heimat"
+              "hier",
+              "dort",
+              "england",
+              "großbritannien",
+              "britannien",
+              "amerika",
+              "usa",
+              "kanada",
+              "australien",
+              "irland",
+              "neuseeland",
+              "indien",
+              "südafrika",
+              "deutschland"
             ],
             [
-              "viele",
-              "die meisten",
-              "manche",
-              "einige"
+              "jugendlich",
+              "schüler",
+              "teenager",
+              "junge leute",
+              "nebenjob",
+              "ferienjob",
+              "job",
+              "arbeit"
             ],
             [
               "zum beispiel",
-              "z. b.",
+              "beispielsweise",
               "etwa",
-              "wie"
+              "typisch",
+              "häufig",
+              "oft",
+              "selten",
+              "üblich",
+              "verbreitet",
+              "erlaubt",
+              "verboten"
             ],
             [
               "supermarkt",
+              "laden",
+              "geschäft",
               "café",
+              "cafe",
               "restaurant",
               "babysit",
               "nachhilfe",
-              "rasen"
+              "rasen",
+              "garten",
+              "zeitung",
+              "prospekt",
+              "liefer",
+              "verkauf",
+              "kellner",
+              "aushilfe",
+              "hund",
+              "tier",
+              "farm",
+              "bauernhof",
+              "ernte",
+              "putz"
             ]
           ],
           "model_de": "In meinem Land haben viele Jugendliche ab fünfzehn oder sechzehn einen Nebenjob. Typisch sind zum Beispiel Jobs im Supermarkt, in einem Café oder im Fast-Food-Restaurant. Manche geben auch Nachhilfe für jüngere Schüler oder machen Babysitting bei Nachbarn. Die meisten arbeiten am Wochenende oder in den Ferien, weil sie in der Woche viel für die Schule tun müssen."
@@ -1610,27 +1855,54 @@
             [
               "vorteil",
               "positiv",
-              "gut ist"
+              "gut ist",
+              "geld",
+              "verdien",
+              "erfahrung",
+              "selbstständig",
+              "selbständig",
+              "unabhängig",
+              "verantwortung",
+              "lernt",
+              "lernen"
             ],
             [
               "nachteil",
               "negativ",
-              "problem"
+              "problem",
+              "stress",
+              "anstrengend",
+              "müde",
+              "weniger zeit",
+              "kaum zeit",
+              "keine zeit",
+              "schlechter",
+              "belast",
+              "erschöpft"
             ],
             [
               "meiner meinung",
               "ich finde",
               "ich denke",
-              "ich meine"
+              "ich meine",
+              "ich glaube",
+              "ich halte",
+              "meiner ansicht",
+              "für mich",
+              "aus meiner sicht"
             ],
             [
               "schule",
               "noten",
               "hausaufgaben",
-              "zeit"
+              "zeit",
+              "freizeit",
+              "lernen",
+              "unterricht",
+              "prüfung"
             ]
           ],
-          "model_de": "Ein großer Vorteil ist, dass man sein eigenes Geld verdient und lernt, damit umzugehen. Außerdem sammelt man Erfahrungen für das Berufsleben und wird selbstständiger. Ein Nachteil ist aber, dass man weniger Zeit hat, für die Schule, für Hausaufgaben und für Freunde. Wenn man zu viel arbeitet, werden vielleicht die Noten schlechter, und man ist oft müde. Meiner Meinung nach ist ein Nebenjob eine gute Sache, aber nur ein paar Stunden pro Woche. Die Schule muss immer wichtiger sein."
+          "model_de": "Ein großer Vorteil ist, dass man sein eigenes Geld verdient und lernt, damit umzugehen. Außerdem sammelt man Erfahrungen für das Berufsleben und wird selbstständiger. Ein Nachteil ist aber, dass man weniger Zeit hat für die Schule, für Hausaufgaben und für Freunde. Wenn man zu viel arbeitet, werden vielleicht die Noten schlechter, und man ist oft müde. Meiner Meinung nach ist ein Nebenjob eine gute Sache, aber nur ein paar Stunden pro Woche. Die Schule muss immer wichtiger sein."
         },
         {
           "id": "5",
@@ -1681,25 +1953,43 @@
           ],
           "prompt_de": "Deine Partnerin lobt deine Präsentation und stellt eine Frage. Bedank dich und antworte.",
           "prompt_en": "Your partner praises your presentation and asks a question. Say thank you and answer.",
-          "partner_de": "Danke, deine Präsentation war sehr interessant, besonders deine eigene Erfahrung mit den Zeitungen. Würdest du den Job noch einmal machen?",
+          "partner_de": "Danke für deine Präsentation. Welchen Nebenjob würdest du in den nächsten Ferien gern machen, und warum?",
           "seconds": 30,
           "min_words": 18,
           "keywords": [
             [
-              "danke"
+              "danke",
+              "dankeschön",
+              "vielen dank",
+              "freut mich"
             ],
             [
               "würde",
-              "noch einmal",
-              "wieder"
+              "möchte",
+              "gern",
+              "lieber",
+              "job",
+              "arbeit",
+              "keinen",
+              "keine"
             ],
             [
               "weil",
               "denn",
-              "aber"
+              "deshalb",
+              "deswegen",
+              "darum",
+              "nämlich",
+              "interess",
+              "spaß",
+              "geld",
+              "lernen",
+              "erfahrung",
+              "zeit",
+              "schule"
             ]
           ],
-          "model_de": "Danke schön! Ja, ich würde den Job wieder machen, weil ich dabei viel gelernt habe. Aber ich würde lieber am Nachmittag arbeiten, denn so früh aufzustehen war wirklich anstrengend."
+          "model_de": "Danke schön! Ich würde gern in einem Café arbeiten, weil ich dort viel Kontakt mit Menschen hätte. Außerdem könnte ich lernen, wie man Gäste bedient."
         },
         {
           "id": "2",
@@ -1707,9 +1997,9 @@
           "card": [
             "Auf Kritik reagieren"
           ],
-          "prompt_de": "Deine Partnerin ist nicht ganz deiner Meinung. Reagiere höflich und begründe deine Position.",
-          "prompt_en": "Your partner doesn't fully agree with you. React politely and explain your position.",
-          "partner_de": "Ich sehe das ein bisschen anders. Mit sechzehn sollte man doch nur für die Schule lernen und seine Freizeit genießen, oder?",
+          "prompt_de": "Deine Partnerin äußert ihre Meinung. Reagiere höflich und begründe deine Position.",
+          "prompt_en": "Your partner gives her opinion. React politely and explain your position.",
+          "partner_de": "Ich finde, mit sechzehn sollte man doch nur für die Schule lernen und seine Freizeit genießen, oder?",
           "seconds": 40,
           "min_words": 25,
           "keywords": [
@@ -1717,26 +2007,46 @@
               "verstehe",
               "recht",
               "stimmt",
-              "punkt"
+              "punkt",
+              "einverstanden",
+              "zustimm",
+              "stimme",
+              "sehe ich auch",
+              "sehe ich anders",
+              "ich finde",
+              "ich denke",
+              "ich glaube",
+              "meiner meinung"
             ],
             [
+              "weil",
+              "denn",
+              "deshalb",
+              "deswegen",
+              "darum",
+              "nämlich",
               "aber",
               "trotzdem",
-              "jedoch"
+              "jedoch",
+              "außerdem"
             ],
             [
+              "schule",
+              "lernen",
+              "freizeit",
+              "stress",
+              "erholung",
               "stunden",
-              "wenig",
-              "nicht zu viel"
-            ],
-            [
-              "lernt",
+              "zeit",
               "erfahrung",
               "selbstständig",
-              "verantwortung"
+              "selbständig",
+              "verantwortung",
+              "geld",
+              "verdien"
             ]
           ],
-          "model_de": "Ich verstehe deinen Punkt, und die Schule ist natürlich am wichtigsten. Aber ich glaube trotzdem, dass ein Job mit wenigen Stunden pro Woche nicht schadet. Man lernt Verantwortung und sammelt Erfahrung, die man später braucht."
+          "model_de": "Ich verstehe deinen Punkt, und die Schule ist natürlich am wichtigsten. Aber ich glaube trotzdem, dass ein Job mit wenigen Stunden pro Woche nicht schadet. Man lernt, Verantwortung zu übernehmen, und sammelt Erfahrung, die man später braucht."
         },
         {
           "id": "3",
@@ -1751,22 +2061,39 @@
           "min_words": 25,
           "keywords": [
             [
-              "eltern"
-            ],
-            [
-              "sprechen",
+              "sprech",
               "reden",
-              "gespräch"
-            ],
-            [
+              "gespräch",
+              "besprech",
+              "besorg",
+              "organisier",
+              "helf",
+              "unterstütz",
+              "nachhilfe",
+              "lernplan",
+              "stundenplan",
+              "vereinbar",
+              "kontrollier",
               "weniger",
-              "reduzieren",
+              "reduzier",
               "pause",
-              "aufhören"
+              "aufhör",
+              "kündig",
+              "beend",
+              "verbiet",
+              "aufgeben"
             ],
             [
               "noten",
-              "schule"
+              "schule",
+              "unterricht",
+              "lernen",
+              "prüfung",
+              "hausaufgaben",
+              "leistung",
+              "job",
+              "arbeit",
+              "kind"
             ]
           ],
           "model_de": "Ich finde, die Eltern sollten zuerst in Ruhe mit ihrem Kind sprechen. Vielleicht kann es weniger Stunden arbeiten oder in der Prüfungszeit eine Pause machen. Wenn die Noten dann immer noch schlecht sind, sollte es mit dem Job aufhören."
@@ -1786,22 +2113,58 @@
           "keywords": [
             [
               "präsentation",
-              "vortrag"
+              "vortrag",
+              "thema",
+              "beispiel",
+              "erklärung",
+              "argument"
             ],
             [
               "interessant",
-              "gut gefallen",
               "gefallen",
               "super",
-              "spannend"
+              "spannend",
+              "verständlich",
+              "klar",
+              "gut erklärt",
+              "überzeug",
+              "zu kurz",
+              "zu schnell",
+              "zu leise",
+              "nicht verstanden",
+              "ich finde",
+              "ich denke",
+              "stimme"
             ],
             [
-              "uniform"
+              "uniform",
+              "kleidung",
+              "anziehen",
+              "tragen",
+              "ausseh",
+              "mobbing",
+              "ausgelacht"
             ],
             [
               "würdest",
               "frage",
-              "möchte wissen"
+              "möchte wissen",
+              "warum",
+              "wieso",
+              "weshalb",
+              "wie",
+              "was",
+              "wer",
+              "wo",
+              "wann",
+              "welche",
+              "findest du",
+              "denkst du",
+              "glaubst du",
+              "hast du",
+              "gibt es",
+              "sollten",
+              "müssen"
             ]
           ],
           "model_de": "Deine Präsentation hat mir gut gefallen, vor allem dein Beispiel mit der Kleidung war interessant. Ich habe eine Frage: Würdest du selbst gern jeden Tag eine Uniform tragen?"

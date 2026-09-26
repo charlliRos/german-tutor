@@ -509,6 +509,20 @@
       "plays": 1,
       "texts": [
         {
+          "id": "t0",
+          "title": "Beispiel",
+          "lines": [
+            {
+              "who": "Lena",
+              "de": "Tom, was machst du am Montag?"
+            },
+            {
+              "who": "Tom",
+              "de": "Am Montag spiele ich Fußball, wie immer."
+            }
+          ]
+        },
+        {
           "id": "gespraech",
           "title": "Tom und Lena am Telefon",
           "lines": [
@@ -626,7 +640,7 @@
       ],
       "example": {
         "type": "match",
-        "text": "gespraech",
+        "text": "t0",
         "question": "Montag",
         "answer": "i",
         "explain_en": "Tom says \"Am Montag spiele ich Fußball, wie immer.\""
@@ -825,7 +839,7 @@
           "c": "Ein Buch."
         },
         "answer": "a",
-        "explain_en": "Mia needs a new exercise book for maths; she thinks of a pencil, but then says she has enough pencils."
+        "explain_en": "Mia needs a new exercise book for maths. Her mother suggests a pencil too, but Mia says she already has enough pencils."
       },
       "items": [
         {
@@ -938,7 +952,7 @@
             },
             {
               "who": "Sophie",
-              "de": "Ja, ein altes rotes Rennrad. Das war früher von meinem Opa. Ich habe es selbst repariert, und jetzt fahre ich jeden Sonntag damit."
+              "de": "Ja, ein altes rotes Rennrad. Das hat früher meinem Opa gehört. Ich habe es selbst repariert, und jetzt fahre ich jeden Sonntag damit."
             }
           ]
         },
@@ -1012,9 +1026,9 @@
       "example": {
         "type": "yesno",
         "text": "t0",
-        "question": "Sophies Rennrad war früher von ihrem Opa.",
+        "question": "Sophies Rennrad hat früher ihrem Opa gehört.",
         "answer": "ja",
-        "explain_en": "Sophie says her racing bike is an old one from her grandpa (\"von meinem Opa\")."
+        "explain_en": "Sophie says her old racing bike used to belong to her grandpa (\"Das hat früher meinem Opa gehört\")."
       },
       "items": [
         {
@@ -1082,24 +1096,43 @@
           "bin ich um",
           "uhr",
           "ankunft",
-          "bin da"
+          "bin da",
+          "bin ich da",
+          "bin dort",
+          "bin ich dort",
+          "bin bei dir",
+          "bin ich bei dir",
+          "minuten",
+          "viertel",
+          "halb"
         ],
         [
           "abhol",
+          "abgeholt",
           "holst du",
           "hol mich",
-          "am bahnhof",
-          "bahnhof",
-          "abgeholt"
+          "holen",
+          "hole",
+          "empfängst",
+          "empfangen",
+          "erwartest du",
+          "wartest du",
+          "kommst du zum bahnhof"
         ],
         [
           "abend",
+          "heute etwas vor",
+          "heute noch vor",
           "was machen wir",
           "was wollen wir",
+          "was können wir",
+          "was sollen wir",
           "zusammen machen",
           "unternehmen",
           "vorhaben",
-          "plan"
+          "plan",
+          "hast du lust",
+          "wollen wir"
         ]
       ],
       "words": [
@@ -1139,17 +1172,42 @@
           "familie",
           "termin",
           "arzt",
-          "muss"
+          "muss",
+          "fieber",
+          "erkält",
+          "grippe",
+          "schmerz",
+          "verletzt",
+          "verletzung",
+          "hochzeit",
+          "prüfung",
+          "klassenarbeit",
+          "ausflug",
+          "reise",
+          "urlaub",
+          "besuch",
+          "training",
+          "turnier",
+          "wettkampf",
+          "wegen"
         ],
         [
           "anderen termin",
+          "anderer termin",
           "anderen tag",
+          "anderer tag",
+          "andermal",
+          "anderes mal",
           "nächste",
+          "kommende",
+          "übernächste",
           "später",
-          "mitmachen",
           "nachholen",
-          "kann ich",
-          "vielleicht"
+          "verschieben",
+          "umbuchen",
+          "ersatztermin",
+          "stattdessen",
+          "alternativtermin"
         ]
       ],
       "words": [
@@ -1162,7 +1220,7 @@
       "id": "sprechen-1",
       "skill": "speaking",
       "title_de": "Sprechen, Teil 1",
-      "instructions_en": "Questions about yourself. You get four cards, each with one word. Ask your partner one question with the word on each card. The computer plays your partner. At the end your partner asks you a question, and you answer it. (In the real exam you sit with a partner and swap roles.)",
+      "instructions_en": "Questions about yourself. You get four cards, each with one word. Ask your partner one question with the word on each card. The computer plays your partner. At the end your partner asks you a question, and you answer it. (In the real exam you sit with a partner and swap roles.) This is a shortened drill: you ask four questions and answer one. In the real exam, each partner asks and answers four questions.",
       "minutes": 3,
       "tasks": [
         {
@@ -1171,8 +1229,8 @@
           "card": [
             "Haustier?"
           ],
-          "prompt_de": "Stell deinem Partner eine Frage mit dem Wort auf der Karte.",
-          "prompt_en": "Ask your partner a question using the word on the card.",
+          "prompt_de": "Stell deinem Partner eine Frage zum Thema auf der Karte.",
+          "prompt_en": "Ask your partner a question about the topic on the card.",
           "seconds": 15,
           "min_words": 3,
           "keywords": [
@@ -1196,25 +1254,27 @@
           "card": [
             "Schulweg?"
           ],
-          "prompt_de": "Stell deinem Partner eine Frage mit dem Wort auf der Karte.",
-          "prompt_en": "Ask your partner a question using the word on the card.",
+          "prompt_de": "Stell deinem Partner eine Frage zum Thema auf der Karte.",
+          "prompt_en": "Ask your partner a question about the topic on the card.",
           "seconds": 15,
           "min_words": 4,
           "keywords": [
             [
-              "schule"
+              "schule",
+              "schulweg",
+              "unterricht"
             ],
             [
               "wie",
               "womit",
               "wann",
-              "wie lange"
-            ],
-            [
+              "ist",
               "kommst",
               "fährst",
               "gehst",
-              "brauchst"
+              "brauchst",
+              "nimmst",
+              "benutzt"
             ]
           ],
           "model_de": "Wie kommst du zur Schule?"
@@ -1225,8 +1285,8 @@
           "card": [
             "Lieblingsessen?"
           ],
-          "prompt_de": "Stell deinem Partner eine Frage mit dem Wort auf der Karte.",
-          "prompt_en": "Ask your partner a question using the word on the card.",
+          "prompt_de": "Stell deinem Partner eine Frage zum Thema auf der Karte.",
+          "prompt_en": "Ask your partner a question about the topic on the card.",
           "seconds": 15,
           "min_words": 4,
           "keywords": [
@@ -1249,8 +1309,8 @@
           "card": [
             "Sprachen?"
           ],
-          "prompt_de": "Stell deinem Partner eine Frage mit dem Wort auf der Karte.",
-          "prompt_en": "Ask your partner a question using the word on the card.",
+          "prompt_de": "Stell deinem Partner eine Frage zum Thema auf der Karte.",
+          "prompt_en": "Ask your partner a question about the topic on the card.",
           "seconds": 15,
           "min_words": 4,
           "keywords": [
@@ -1275,18 +1335,15 @@
           "prompt_en": "Your partner asks you a question. Answer in one or two sentences.",
           "partner_de": "Hast du Geschwister?",
           "seconds": 20,
-          "min_words": 6,
+          "min_words": 3,
           "keywords": [
             [
               "bruder",
+              "brüder",
               "schwester",
+              "schwestern",
               "geschwister",
               "einzelkind"
-            ],
-            [
-              "habe",
-              "hab",
-              "bin"
             ]
           ],
           "model_de": "Ja, ich habe einen Bruder. Er heißt Leon und ist zehn Jahre alt."
@@ -1297,7 +1354,7 @@
       "id": "sprechen-2",
       "skill": "speaking",
       "title_de": "Sprechen, Teil 2",
-      "instructions_en": "Talk about your life. Your card has a question and four ideas. Say something about each idea, in simple sentences. Then the examiner (the computer) asks you one more question, and you answer it.",
+      "instructions_en": "This is a guided version of the exam task. Talk about your summer holidays in two recordings, then answer the examiner's question. In the real exam, you receive all four ideas on one card and give one continuous answer.",
       "minutes": 4,
       "tasks": [
         {
@@ -1314,23 +1371,45 @@
           "keywords": [
             [
               "ferien",
-              "sommer"
-            ],
-            [
+              "sommer",
+              "urlaub",
+              "reise",
               "fahre",
               "fahren",
               "fliege",
               "fliegen",
               "bleibe",
-              "bleiben"
+              "bleiben",
+              "besuch",
+              "verbringe",
+              "zelte",
+              "camp",
+              "wandere",
+              "zu hause",
+              "zuhause",
+              "daheim"
             ],
             [
-              "mit meine",
-              "mit meinem",
-              "mit meiner",
-              "mit freund",
               "familie",
-              "eltern"
+              "eltern",
+              "mutter",
+              "vater",
+              "mama",
+              "papa",
+              "freund",
+              "oma",
+              "opa",
+              "großeltern",
+              "geschwister",
+              "bruder",
+              "schwester",
+              "tante",
+              "onkel",
+              "cousin",
+              "allein",
+              "mit meiner",
+              "mit meinem",
+              "mit meinen"
             ]
           ],
           "model_de": "In den Sommerferien fahre ich meistens mit meiner Familie ans Meer. Wir fahren mit dem Auto nach Italien. Manchmal kommt auch mein bester Freund mit. Das ist super."
@@ -1353,18 +1432,35 @@
               "lese",
               "treffe",
               "fahrrad",
-              "strand"
+              "strand",
+              "wander",
+              "spazier",
+              "besuch",
+              "besichtig",
+              "sport",
+              "musik",
+              "höre",
+              "schaue",
+              "sehe",
+              "fern",
+              "film",
+              "koch",
+              "back",
+              "zeichne",
+              "male",
+              "lerne",
+              "helf",
+              "schlaf",
+              "erhole",
+              "entspann"
             ],
             [
               "zu hause",
               "daheim",
-              "zuhause"
-            ],
-            [
-              "schlafe",
-              "lange",
-              "freunde",
-              "freundin"
+              "zuhause",
+              "dort",
+              "unterwegs",
+              "im urlaub"
             ]
           ],
           "model_de": "Am Meer schwimme ich viel und spiele Volleyball am Strand. Zu Hause schlafe ich in den Ferien lange. Nachmittags treffe ich meine Freunde, und wir fahren Fahrrad oder gehen ins Schwimmbad."
@@ -1382,15 +1478,10 @@
           "min_words": 10,
           "keywords": [
             [
-              "letzte",
-              "letzten",
-              "letztes"
-            ],
-            [
-              "war",
-              "bin",
-              "habe",
-              "hab"
+              "ferien",
+              "sommer",
+              "urlaub",
+              "reise"
             ],
             [
               "gefahren",
@@ -1398,7 +1489,31 @@
               "besucht",
               "geblieben",
               "gespielt",
-              "gewesen"
+              "gewesen",
+              "geschwommen",
+              "gelesen",
+              "gewandert",
+              "geflogen",
+              "gearbeitet",
+              "gelernt",
+              "geholfen",
+              "geschlafen",
+              "getroffen",
+              "gesehen",
+              "gezeltet",
+              "verbrachte",
+              "besuchte",
+              "spielte",
+              "schwamm",
+              "las",
+              "fuhr",
+              "blieb",
+              "arbeitete",
+              "wanderte",
+              "bei meiner",
+              "bei meinem",
+              "zu hause",
+              "zuhause"
             ]
           ],
           "model_de": "In den letzten Ferien war ich zwei Wochen bei meiner Oma in Hamburg. Wir haben eine Hafenrundfahrt gemacht. Das war toll."
@@ -1459,20 +1574,46 @@
           "min_words": 8,
           "keywords": [
             [
-              "um fünf",
-              "um 17",
-              "um sechs",
-              "um 18",
-              "nach",
-              "später",
-              "abend"
+              "fünf",
+              "5",
+              "siebzehn",
+              "17",
+              "sechs",
+              "6",
+              "achtzehn",
+              "18",
+              "halb fünf",
+              "halb 5",
+              "sechzehn uhr dreißig",
+              "16 30",
+              "16:30",
+              "halb sechs",
+              "halb 6",
+              "halb sieben",
+              "halb 7",
+              "vormittag",
+              "morgen",
+              "neun",
+              "9",
+              "mittags",
+              "dreizehn",
+              "13",
+              "vierzehn",
+              "14"
             ],
             [
               "kannst du",
+              "können wir",
               "geht das",
+              "geht es",
               "hast du",
               "wie wäre",
-              "passt"
+              "passt",
+              "treffen wir",
+              "treffen uns",
+              "schlage vor",
+              "lass uns",
+              "wollen wir"
             ]
           ],
           "model_de": "Um drei habe ich auch keine Zeit, da habe ich Gitarrenstunde. Aber wie wäre es um fünf Uhr? Kannst du da?"
@@ -1483,11 +1624,11 @@
           "card": [
             "Wo?"
           ],
-          "prompt_de": "Ihr habt eine Zeit. Jetzt fragt dein Partner, wo ihr euch trefft. Mach einen Vorschlag.",
-          "prompt_en": "You have a time. Now your partner asks where you meet. Make a suggestion.",
-          "partner_de": "Um fünf ist super, das passt mir. Treffen wir uns bei dir oder bei mir?",
+          "prompt_de": "Für die nächste Übung nehmt ihr an: Ihr trefft euch um fünf Uhr. Schlage einen Treffpunkt vor.",
+          "prompt_en": "For the next exercise, assume you are meeting at five. Suggest a meeting place.",
+          "partner_de": "Wo wollen wir uns treffen? Bei dir oder bei mir?",
           "seconds": 20,
-          "min_words": 8,
+          "min_words": 6,
           "keywords": [
             [
               "bei mir",
@@ -1513,24 +1654,33 @@
           "card": [
             "Was mitbringen?"
           ],
-          "prompt_de": "Dein Partner fragt, was er mitbringen soll. Antworte.",
-          "prompt_en": "Your partner asks what to bring. Answer.",
-          "partner_de": "Okay, ich komme um fünf zu dir. Was soll ich mitbringen?",
+          "prompt_de": "Für die nächste Übung nehmt ihr an: Ihr trefft euch um fünf Uhr bei dir. Sag deinem Partner, was er mitbringen soll.",
+          "prompt_en": "For the next exercise, assume you are meeting at your home at five. Tell your partner what to bring.",
+          "partner_de": "Was soll ich mitbringen?",
           "seconds": 20,
-          "min_words": 8,
+          "min_words": 5,
           "keywords": [
-            [
-              "bring",
-              "mitbringen",
-              "hast du"
-            ],
             [
               "stift",
               "farbe",
               "papier",
               "foto",
+              "bild",
+              "bilder",
               "kleber",
-              "schere"
+              "klebstoff",
+              "klebestift",
+              "schere",
+              "pinsel",
+              "karton",
+              "pappe",
+              "lineal",
+              "klebeband",
+              "tesa",
+              "nichts",
+              "alles da",
+              "alles hier",
+              "alles schon"
             ]
           ],
           "model_de": "Bring bitte deine Farben und ein paar Fotos vom letzten Schulfest mit. Das Papier habe ich schon."
@@ -1548,21 +1698,35 @@
           "min_words": 8,
           "keywords": [
             [
-              "sieben",
-              "19",
-              "zwei stunden",
-              "halb"
-            ],
-            [
-              "film",
-              "papa",
-              "vater"
+              "stunde",
+              "stunden",
+              "minuten",
+              "bis sechs",
+              "bis 6",
+              "bis achtzehn",
+              "bis 18",
+              "bis sieben",
+              "bis 7",
+              "bis neunzehn",
+              "bis 19",
+              "halb sieben",
+              "halb 7",
+              "18 30",
+              "18:30"
             ],
             [
               "tschüss",
+              "tschüs",
               "bis samstag",
               "bis dann",
-              "ciao"
+              "bis bald",
+              "bis später",
+              "bis morgen",
+              "ciao",
+              "tschau",
+              "auf wiedersehen",
+              "mach es gut",
+              "machs gut"
             ]
           ],
           "model_de": "Bis sieben Uhr, dann schaue ich einen Film mit meinem Papa. Zwei Stunden sind genug. Bis Samstag, tschüss!"

@@ -23,6 +23,7 @@ LINKERS = ("weil", "dass", "denn", "deshalb", "deswegen", "aber", "wenn", "obwoh
            "damit", "als", "dann", "danach", "sondern", "oder", "zuerst", "schließlich", "schliesslich", "also")
 LINKERS_NEEDED = {"A1": 1, "A2": 1, "B1": 3, "B2": 4}
 MAX_TYPOS = 6
+GREETING_CLOSING = "#greeting_closing"  # a point_keywords list of just this: the point is the greeting + closing check
 SUBORDINATE = ("weil", "dass", "obwohl", "ob", "wenn", "bevor", "nachdem")  # a comma before, the verb at the end
 NO_COMMA_AFTER = {"und", "oder", "sondern", "aber", "auch", "nur", "so", "als"}
 OFTEN = 3        # a content word used this often (in a text of REPEAT_FROM words or more): vary it
@@ -76,17 +77,21 @@ def check(text: str, part, level: str, content) -> WritingCheck:
     low_min, target = part.words
     result.checks.append(Check("Length", words >= low_min,
                                f"{words} words (at least {low_min}, about {target})"))
-    if part.point_keywords:
-        result.points_found = points_found(text, part.point_keywords)
-        missing = [p for p, ok in zip(part.points, result.points_found) if not ok]
-        result.checks.append(Check("The task's points", not missing,
-                                   f"{sum(result.points_found)} of {len(part.points)} found"
-                                   + (f"; check: {'; '.join(missing)}" if missing else "")))
     kind = getattr(part, "kind", "")
+    greets_and_closes = None
     if kind in GREETING:
         lines = [l for l in text.splitlines() if l.strip()]
         greets = bool(lines) and re.search(GREETING[kind], lines[0].lower()) is not None
         closes = re.search(CLOSING[kind], text.lower()) is not None
+        greets_and_closes = greets and closes
+    if part.point_keywords:
+        result.points_found = [bool(greets_and_closes) if words == [GREETING_CLOSING] else found
+                               for words, found in zip(part.point_keywords, points_found(text, part.point_keywords))]
+        missing = [p for p, ok in zip(part.points, result.points_found) if not ok]
+        result.checks.append(Check("The task's points", not missing,
+                                   f"{sum(result.points_found)} of {len(part.points)} found"
+                                   + (f"; check: {'; '.join(missing)}" if missing else "")))
+    if kind in GREETING:
         example = "Liebe Anna, … Viele Grüße" if kind == "informal" else "Sehr geehrte Frau …, … Mit freundlichen Grüßen"
         result.checks.append(Check("Greeting and closing", greets and closes,
                                    "both there" if greets and closes else

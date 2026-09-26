@@ -189,7 +189,9 @@ no scored item (the real exam uses the example's choice up).
 **Writing checks**: a writing part can have `"kind"`: `"sms"`, `"informal"` (email to a friend), `"formal"`
 or `"forum"`, and `"point_keywords"`: one list per point of words that show the point was covered, e.g.
 `[["leider", "kann nicht", "krank"], ["vorschlag", "wie wäre", "vielleicht"], …]`. Any one word of a point's
-list counts (lower case; a word also matches longer forms, so "entschuldig" matches "Entschuldigung").
+list counts (lower case; a word also matches longer forms, so "entschuldig" matches "Entschuldigung", and a
+one-letter slip in a longer word still counts). A point that *is* the greeting and closing gets the list
+`["#greeting_closing"]`: it's met when the text has both, fitting the `kind` (`informal` or `formal`).
 
 **Speaking parts** (`"skill": "speaking"`): tasks instead of items.
 ```json

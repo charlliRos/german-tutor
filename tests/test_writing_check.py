@@ -62,6 +62,13 @@ class GrammarAndStyle(unittest.TestCase):
         checks = {c.label: c for c in writing_check.check("Ich wohne oben im Haus.", PART, "B1", content()).checks}
         self.assertTrue(checks["Comma before weil / dass / wenn …"].ok)
 
+    def test_a_greeting_and_closing_point_needs_both(self):
+        part = Part(id="s", skill="writing", title_de="S", words=[5, 10], kind="formal", points=["Anrede und Gruß"],
+                    point_keywords=[["#greeting_closing"]])
+        self.assertEqual(writing_check.check("Guten Tag, ich komme nicht.", part, "B1", content()).points_found, [False])
+        both = "Sehr geehrte Frau Berg,\nich komme nicht.\nMit freundlichen Grüßen"
+        self.assertEqual(writing_check.check(both, part, "B1", content()).points_found, [True])
+
     def test_repeated_words_and_forgiving_points(self):
         text = ("Hallo Anna, danke, danke, danke für die Party. Die Party war toll, die Party war lang und die Party war laut. "
                 "Leider kan ich nicht nochmal kommen. Vielleicht nächste Woche. Viele Grüße")
