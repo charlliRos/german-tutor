@@ -12,7 +12,7 @@ def content():
              Word("leider", "daily", "leider", ["unfortunately"], "adv"), Word("danke", "daily", "danke", ["thanks"], "other"),
              Word("einladung", "daily", "die Einladung", ["invitation"], "noun"), Word("naechst", "daily", "nächste", ["next"], "adj"),
              Word("woche", "daily", "die Woche", ["week"], "noun"), Word("treffen", "daily", "treffen", ["meet"], "verb"),
-             Word("feiern", "daily", "feiern", ["celebrate"], "verb")]
+             Word("feiern", "daily", "feiern", ["celebrate"], "verb"), Word("sein", "daily", "sein", ["to be"], "verb")]
     return Content({w.id: w for w in words}, [])
 
 
@@ -44,6 +44,30 @@ class WritingCheck(unittest.TestCase):
         checks = {c.label for c in writing_check.check("Sehr geehrte Frau Berg, kannst du mir helfen? Mit freundlichen Grüßen",
                                                        formal, "B1", content()).checks if not c.ok}
         self.assertIn("Formal: Sie, not du", checks)
+
+
+class GrammarAndStyle(unittest.TestCase):
+    def labels(self, text, level="B1"):
+        return {c.label: c for c in writing_check.check(text, PART, level, content())}
+
+    def test_comma_and_verb_position_after_weil(self):
+        checks = {c.label: c for c in writing_check.check("Ich komme nicht weil ich bin krank.", PART, "B1", content()).checks}
+        self.assertIn("weil", checks["Comma before weil / dass / wenn …"].detail)
+        self.assertFalse(checks["Verb at the end after weil / dass …"].ok)
+        good = {c.label: c for c in writing_check.check("Ich komme nicht, weil ich krank bin.", PART, "B1", content()).checks}
+        self.assertTrue(good["Comma before weil / dass / wenn …"].ok)
+        self.assertTrue(good["Verb at the end after weil / dass …"].ok)
+
+    def test_ob_inside_a_word_is_not_a_conjunction(self):
+        checks = {c.label: c for c in writing_check.check("Ich wohne oben im Haus.", PART, "B1", content()).checks}
+        self.assertTrue(checks["Comma before weil / dass / wenn …"].ok)
+
+    def test_repeated_words_and_forgiving_points(self):
+        text = ("Hallo Anna, danke, danke, danke für die Party. Die Party war toll, die Party war lang und die Party war laut. "
+                "Leider kan ich nicht nochmal kommen. Vielleicht nächste Woche. Viele Grüße")
+        checks = {c.label: c for c in writing_check.check(text, PART, "A2", content()).checks}
+        self.assertIn("party (4×)", checks["Different words"].detail)
+        self.assertEqual(writing_check.points_found("Entschuldigung, ich bin krank", [["entschuldig"]]), [True])
 
 
 if __name__ == "__main__":

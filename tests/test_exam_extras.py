@@ -84,6 +84,32 @@ class Speaking(unittest.TestCase):
         self.assertEqual((event["score"]["kind"], event["grader"]), ("estimated", attempts.SELF))
 
 
+class SpeakingRetryAndHints(unittest.TestCase):
+    def setUp(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        self.ctx = make_ctx(tmp.name)
+        self.exam = exams._exam({**RAW, "parts": [SPEAKING]})
+        self.ctx.audio = mock.Mock(can_record=True, can_check_speech=True, can_speak=True, problems=[])
+
+    def test_try_again_keeps_the_best_try(self):
+        self.ctx.audio.heard.side_effect = ["ja", "welchen sporz machst du gern"]  # 2nd try: sport misheard, still counts
+        choices = iter(["a", ""])
+        with mock.patch("app.ui.keys", lambda o: ""), mock.patch("app.ui.timed_keys", lambda o, s: next(choices)),                 mock.patch("app.ui.clear"), mock.patch("app.speaking.record_for", return_value=(np.ones(9), 16000)),                 mock.patch("app.exam_practice.hear"), console.capture():
+            exam_practice.speaking(self.ctx, self.exam, self.exam.parts[0])
+        self.assertEqual(self.ctx.profile.data["exams"]["t-01"]["sprechen-1"]["score"], 2)
+        self.assertEqual(len([e for e in attempts.read(self.ctx.profile) if e["type"] == "attempt"]), 2)  # both tries logged
+
+    def test_hints_for_a_missing_verb_and_a_question(self):
+        from app.content import Content, Word
+        self.ctx.content = Content({"machen": Word("machen", "daily", "machen", ["do"], "verb"),
+                                    "sport": Word("sport", "daily", "der Sport", ["sport"], "noun")}, [])
+        task = exams.SpeakingTask(id="1", prompt_de="Stell eine Frage zum Thema Sport.", model_de="Machst du Sport?")
+        self.assertEqual(len(exam_practice.speaking_hints(self.ctx, task, "sport sport")), 2)  # no verb, not a question
+        self.assertEqual(exam_practice.speaking_hints(self.ctx, task, "machst du sport"), [])
+        self.assertEqual(exam_practice.speaking_hints(self.ctx, task, "wann machst du sport"), [])
+
+
 class ShippedExtras(unittest.TestCase):
     def test_every_reading_and_listening_part_has_an_example_and_both_exams_have_speaking(self):
         for exam in exams.load_exams()[0]:

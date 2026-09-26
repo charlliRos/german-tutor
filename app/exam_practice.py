@@ -462,17 +462,78 @@ def _results(ctx, exam: Exam, part: Part, answers: dict[str, str], score: int, m
 
 # ----- speaking -----
 
+W_WORDS = {"was", "wer", "wen", "wem", "wie", "wo", "wohin", "woher", "wann", "warum", "wieso", "weshalb", "welche",
+           "welcher", "welches", "welchen", "welchem", "wieviel"}
+
+
 def said(transcript: str, group: list[str]) -> bool:
-    heard = " " + normalize(transcript) + " "
-    return any(" " + normalize(word) in heard for word in group)
+    """Is a keyword group in what the speech check heard? Forgiving about small mishearings (writing_check.mentions)."""
+    return any(writing_check.mentions(transcript, word) for word in group)
+
+
+def speaking_hints(ctx, task, transcript: str) -> list[str]:
+    """Advice that doesn't cost points (the speech check can mishear): a whole sentence has a verb; a question
+    starts with a W-word or the verb."""
+    from .coverage import _index
+    tokens = normalize(transcript).split()
+    if not tokens:
+        return []
+    index = _index(ctx.content)
+    hints = []
+    if not any(writing_check.is_verb(ctx.content, index, t) for t in tokens):
+        hints.append("Say a whole sentence, with a verb (ich habe …, ich mache …).")
+    asks = "frage" in normalize(task.prompt_de) and not task.partner_de
+    if asks and tokens[0] not in W_WORDS and not writing_check.is_verb(ctx.content, index, tokens[0]):
+        hints.append("A question starts with a W-word (Was, Wann, Wo …) or with the verb (Hast du …? Magst du …?).")
+    return hints
+
+
+def _speaking_try(ctx, exam: Exam, part: Part, task, checking: bool) -> int:
+    """Record one answer, show what was heard and the checks, play the good answer, log it. Returns the points."""
+    from .exams import SPEAKING_POINTS
+    from .speaking import record_for
+    transcript = ""
+    if checking:
+        recording = record_for(ctx, task.seconds)
+        if recording is not None:
+            with console.status("[hint]Listening to your answer…[/]"):
+                transcript = ctx.audio.heard(*recording)
+        console.print(f"[hint]I heard:[/] [de]{ui.escape(transcript) or '(nothing)'}[/]")
+    else:
+        ui.ask("Say your answer out loud, then press Enter.", wait_for_quiet=False)
+    console.print(ui.german(task.model_de, "A good answer"))
+    hear(ctx, task.model_de, slow=False)
+    if checking:
+        enough = len(transcript.split()) >= task.min_words
+        met = [said(transcript, g) for g in task.keywords]
+        key_ok = not task.keywords or sum(met) * 2 >= len(met)
+        points = int(enough) + int(key_ok)
+        console.print((f"[good]{icon('ok')}[/]" if enough else f"[almost]{icon('almost')}[/]")
+                      + f" {len(transcript.split())} words heard (aim for {task.min_words}+)")
+        if task.keywords:
+            console.print(" ".join(f"[good]{icon('ok')} {ui.escape(g[0])}[/]" if ok else f"[hint]{icon('almost')} {ui.escape(g[0])}[/]"
+                                   for g, ok in zip(task.keywords, met)))
+        for hint in speaking_hints(ctx, task, transcript):
+            console.print(f"[note]{ui.escape(hint)}[/]")
+        score = {"kind": "polytomous", "points": points, "max": SPEAKING_POINTS, "label": "speaking check"}
+        grader = "gtutor.speaking/1"
+    else:
+        points = SPEAKING_POINTS if ui.keys({"y": "I said something like that", "n": "not yet"}) == "y" else 0
+        score = {"kind": "estimated", "raw": points, "max": SPEAKING_POINTS, "confidence": attempts.SELF_CONFIDENCE,
+                 "needs_review": True, "label": "self-check"}
+        grader = attempts.SELF
+    attempts.note(transcript, task="speaking")
+    attempts.record(ctx.profile, ctx.today, item=f"{exam.id}.{part.id}.{task.id}",
+                    item_version=attempts.version(task.prompt_de, task.partner_de, task.keywords),
+                    competency="exam.speaking", subcompetency=f"{exam.level}/{part.id}", context=f"exam.{exam.id}",
+                    score=score, grader=grader)
+    return points
 
 
 def speaking(ctx, exam: Exam, part: Part) -> None:
     """Task cards like the real exam; the computer plays the partner in its own voice. Each answer is recorded,
     the speech check writes down what it heard, and the app checks it said enough and the key things; then the
     model answer. Without a microphone the kid speaks and checks against the model answer."""
-    from .exams import SPEAKING_POINTS
-    from .speaking import record_for
     ui.clear()
     ui.title(f"{ctx.step}{exam.level} · {part.title_de}", f"{len(part.tasks)} tasks" + (f" · about {part.minutes} min" if part.minutes else ""))
     ui.todo("say", what=part.instructions_en or "Answer out loud.")
@@ -495,42 +556,25 @@ def speaking(ctx, exam: Exam, part: Part) -> None:
         if task.partner_de:
             console.print(f"[magenta]Your partner:[/] [de]{ui.escape(task.partner_de)}[/]")
             hear(ctx, task.partner_de, slow=False, voice="high")
-        transcript = ""
-        if checking:
-            recording = record_for(ctx, task.seconds)
-            if recording is not None:
-                with console.status("[hint]Listening to your answer…[/]"):
-                    transcript = ctx.audio.heard(*recording)
-            console.print(f"[hint]I heard:[/] [de]{ui.escape(transcript) or '(nothing)'}[/]")
-        else:
-            ui.ask("Say your answer out loud, then press Enter.", wait_for_quiet=False)
-        console.print(ui.german(task.model_de, "A good answer"))
-        hear(ctx, task.model_de, slow=False)
-        if checking:
-            enough = len(transcript.split()) >= task.min_words
-            met = [said(transcript, g) for g in task.keywords]
-            key_ok = not task.keywords or sum(met) * 2 >= len(met)
-            points = int(enough) + int(key_ok)
-            console.print((f"[good]{icon('ok')}[/]" if enough else f"[almost]{icon('almost')}[/]")
-                          + f" {len(transcript.split())} words heard (aim for {task.min_words}+)")
-            if task.keywords:
-                console.print(" ".join(f"[good]{icon('ok')} {ui.escape(g[0])}[/]" if ok else f"[hint]{icon('almost')} {ui.escape(g[0])}[/]"
-                                       for g, ok in zip(task.keywords, met)))
-            score = {"kind": "polytomous", "points": points, "max": SPEAKING_POINTS, "label": "speaking check"}
-            grader = "gtutor.speaking/1"
-        else:
-            points = SPEAKING_POINTS if ui.keys({"y": "I said something like that", "n": "not yet"}) == "y" else 0
-            score = {"kind": "estimated", "raw": points, "max": SPEAKING_POINTS, "confidence": attempts.SELF_CONFIDENCE,
-                     "needs_review": True, "label": "self-check"}
-            grader = attempts.SELF
-        total += points
-        attempts.note(transcript, task="speaking")
-        attempts.record(ctx.profile, ctx.today, item=f"{exam.id}.{part.id}.{task.id}",
-                        item_version=attempts.version(task.prompt_de, task.partner_de, task.keywords),
-                        competency="exam.speaking", subcompetency=f"{exam.level}/{part.id}", context=f"exam.{exam.id}",
-                        score=score, grader=grader)
-        if ui.timed_keys({"": "next task", "r": "hear the good answer again"}, 5) == "r":
-            hear(ctx, task.model_de, slow=False)
+        best = 0
+        while True:
+            points = _speaking_try(ctx, exam, part, task, checking)
+            best = max(best, points)
+            options = {"": "next task", "r": "hear the good answer again"} | ({"a": "try again"} if checking else {})
+            choice = ui.timed_keys(options, 6)
+            while choice == "r":
+                hear(ctx, task.model_de, slow=False)
+                choice = ui.keys(options)
+            if choice != "a":
+                break
+            ui.clear()
+            ui.title(f"{ctx.step}{exam.level} · {part.title_de} · task {n} of {len(part.tasks)} · again")
+            console.print(Panel(card, border_style="magenta", padding=(1, 3), width=min(console.width, 44)))
+            console.print(Text(task.prompt_de, style="de"))
+            if task.partner_de:
+                console.print(f"[magenta]Your partner:[/] [de]{ui.escape(task.partner_de)}[/]")
+                hear(ctx, task.partner_de, slow=False, voice="high")
+        total += best
     _save(ctx, exam, part, total, part.max_points)
     ui.clear()
     ui.title(f"{ctx.step}{exam.level} · {part.title_de} · results")

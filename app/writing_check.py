@@ -13,7 +13,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from .answers import normalize
+from .answers import _distance, normalize
 from .coverage import FUNCTION_WORDS, _index, _lookup
 
 GREETING = {"informal": r"^\s*(liebe[rs]?|hallo|hi|hey|servus|moin)\b", "formal": r"^\s*(sehr geehrte[rs]?|guten tag)\b"}
@@ -23,6 +23,30 @@ LINKERS = ("weil", "dass", "denn", "deshalb", "deswegen", "aber", "wenn", "obwoh
            "damit", "als", "dann", "danach", "sondern", "oder", "zuerst", "schließlich", "schliesslich", "also")
 LINKERS_NEEDED = {"A1": 1, "A2": 1, "B1": 3, "B2": 4}
 MAX_TYPOS = 6
+SUBORDINATE = ("weil", "dass", "obwohl", "ob", "wenn", "bevor", "nachdem")  # a comma before, the verb at the end
+NO_COMMA_AFTER = {"und", "oder", "sondern", "aber", "auch", "nur", "so", "als"}
+OFTEN = 3        # a content word used this often (in a text of REPEAT_FROM words or more): vary it
+REPEAT_FROM = 30
+
+
+def mentions(text: str, phrase: str) -> bool:
+    """Does the text contain the phrase? Forgiving: a phrase of one longer word also matches a longer form
+    (entschuldig → Entschuldigung) or a one-letter slip (sporz → sport), so a small typo or a speech-check
+    mishearing doesn't hide a point that was made."""
+    tokens = normalize(text).split()
+    want = normalize(phrase).split()
+    if not want:
+        return False
+    if " " + " ".join(want) + " " in " " + " ".join(tokens) + " " or any(t.startswith(want[0]) for t in tokens if len(want) == 1):
+        return True
+    if len(want) == 1 and len(want[0]) >= 5:
+        return any(_distance(t[:len(want[0])], want[0]) <= 1 for t in tokens if len(t) >= len(want[0]) - 1)
+    return False
+
+
+def is_verb(content, index, token: str) -> bool:
+    ids = _lookup(index, token)
+    return bool(ids) and any(content.words[i].pos == "verb" for i in ids)
 
 
 @dataclass
@@ -43,8 +67,7 @@ class WritingCheck:
 
 
 def points_found(text: str, point_keywords: list[list[str]]) -> list[bool]:
-    low = " " + " ".join(text.lower().split()) + " "
-    return [any(k.lower() in low for k in words) for words in point_keywords]
+    return [any(mentions(text, k) for k in words) for words in point_keywords]
 
 
 def check(text: str, part, level: str, content) -> WritingCheck:
@@ -90,4 +113,25 @@ def check(text: str, part, level: str, content) -> WritingCheck:
                                "all fine" if not lowercase_nouns else "write with a capital: " + ", ".join(dict.fromkeys(lowercase_nouns))))
     result.checks.append(Check("Spelling (words the app doesn't know)", not typos,
                                "none" if not typos else "check: " + ", ".join(list(dict.fromkeys(typos))[:MAX_TYPOS])))
+    missing_comma = [m.group(2) for m in re.finditer(r"(\w+)\s+(" + "|".join(SUBORDINATE) + r")\b", text, re.I)
+                     if m.group(1).lower() not in NO_COMMA_AFTER]
+    result.checks.append(Check("Comma before weil / dass / wenn …", not missing_comma,
+                               "all fine" if not missing_comma else
+                               f"put a comma before: {', '.join(dict.fromkeys(w.lower() for w in missing_comma))}"))
+    verb_not_last = []
+    for m in re.finditer(r"\b(" + "|".join(SUBORDINATE) + r")\b([^,.!?;:]*)", text, re.I):
+        clause = normalize(m.group(2)).split()
+        if len(clause) >= 3 and is_verb(content, index, clause[1]) and not is_verb(content, index, clause[-1]):
+            verb_not_last.append(f"{m.group(1).lower()} {' '.join(clause[:3])} …")
+    result.checks.append(Check("Verb at the end after weil / dass …", not verb_not_last,
+                               "all fine" if not verb_not_last else
+                               "check: " + "; ".join(verb_not_last[:3]) + " (weil ich krank bin, not weil ich bin krank)"))
+    if words >= REPEAT_FROM:
+        counts: dict[str, int] = {}
+        for t in tokens:
+            if len(t) >= 4 and t not in FUNCTION_WORDS and t not in LINKERS:
+                counts[t] = counts.get(t, 0) + 1
+        often = [f"{t} ({n}×)" for t, n in sorted(counts.items(), key=lambda kv: -kv[1]) if n >= OFTEN]
+        result.checks.append(Check("Different words", not often,
+                                   "good variety" if not often else "used often: " + ", ".join(often[:4])))
     return result
