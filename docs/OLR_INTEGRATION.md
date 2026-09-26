@@ -20,7 +20,7 @@ format. What is done is the permanent groundwork, plus a throwaway exporter that
 | Self-graded kept apart from machine-graded | Score kinds `dichotomous`, `polytomous`, `estimated` (self: `confidence 0.5`, `needs_review`), `no_response`; `grader` on every event; a "my answer was right too" claim is kept next to the machine verdict, never instead of it | `app/attempts.py` |
 | Competencies | 12 competencies with subcompetencies (word list/topic, ending rule, verb tense, book) | `attempts.COMPETENCIES`, below |
 | Provenance per text | Author's death, first publication, source edition, spelling changes, and the public-domain reason worked out from them | book files, `export_olr.rights()` |
-| A text scorer (OLR has none) | Written spec + 33 test vectors, integer-only, no locale behaviour | [`TEXT_SCORER_SPEC.md`](TEXT_SCORER_SPEC.md), `tests/vectors/text_scorer.json` |
+| A text scorer (OLR has none) | Written spec + 45 test vectors, integer-only, no locale behaviour | [`TEXT_SCORER_SPEC.md`](TEXT_SCORER_SPEC.md), `tests/vectors/text_scorer.json` |
 
 ## Content rules for whoever edits content/
 

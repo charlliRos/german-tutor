@@ -262,6 +262,26 @@ def _hard_words(profile: Profile, content: Content) -> Table | None:
     return t
 
 
+CLAIMS_SHOWN = 8
+
+
+def claim_lines(profile: Profile, content: Content) -> list[str]:
+    """Answers this kid said were right and nobody has reviewed yet (tools/review_claims.py)."""
+    from .claims import collect
+    open_claims = collect([profile])
+    if not open_claims:
+        return []
+    lines = [f"[bold]Answers {ui.escape(profile.name)} said were right[/] [hint](review them with: "
+             "python tools/review_claims.py; accepted ones count for everyone from then on)[/]"]
+    for c in open_claims[:CLAIMS_SHOWN]:
+        w = content.words.get(c.item)
+        asked = (", ".join(w.en[:2]) if c.task == "en2de" else w.de) if w else c.item
+        lines.append(f"  {ui.escape(asked)} → [de]{ui.escape(c.response)}[/]" + (f"  [hint]({c.count}×)[/]" if c.count > 1 else ""))
+    if len(open_claims) > CLAIMS_SHOWN:
+        lines.append(f"  [hint]… and {len(open_claims) - CLAIMS_SHOWN} more[/]")
+    return lines + [""]
+
+
 def goal_level(profile: Profile) -> str:
     return profile.data.get("target") or profile.data.get("placement", {}).get("band") or "A2"
 
@@ -305,6 +325,8 @@ def _report(profile: Profile, content: Content, today: date) -> None:
     console.print(_repetition(profile, content, today))
     console.print()
     for line in skill_lines(profile, content, today):
+        console.print(line)
+    for line in claim_lines(profile, content):
         console.print(line)
     hard = _hard_words(profile, content)
     if hard:

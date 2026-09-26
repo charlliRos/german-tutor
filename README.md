@@ -123,6 +123,10 @@ Connecting is automatic: with both apps open on the same Wi-Fi, they find each o
 
 **Still not found?** Use the backup: on one computer menu **8** → **h** (it shows an address like `192.168.1.23`), on the other menu **8** → **j** and type that address. If even that fails, it's the firewall (steps 1–2) or the router (step 3).
 
+### Answers the app marked wrong but were right
+
+The checker is forgiving (typos, umlauts, British/American spelling, "don't" = "do not", singular or plural, a word or two extra), but it can't know every correct answer. After a wrong answer the kid can press **o** (*my answer was right too*): it counts, and the word comes back once more to be sure. Every such claim is kept, and `gtutor report` lists them. Review them with `python tools/review_claims.py` (y = accept, n = reject): an accepted answer goes into the word bank and counts for every kid from then on. To let someone else (e.g. Astra) decide: `--export claims.json`, fill in each `"decision"`, then `--apply claims.json`.
+
 ### No cheating
 
 - **Pasting doesn't work.** A terminal can't switch paste off, but pasted text arrives all at once and typing doesn't, so the app throws it away (with a buzz). In the classic Windows console, mouse select and right-click paste are also switched off while the app runs.

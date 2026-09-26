@@ -104,6 +104,71 @@ def real_english(words) -> frozenset[str]:
     return frozenset(_without_prefix(f) for w in words for e in w.en for f in english_forms(e))
 
 
+# British and American spelling are both right; contractions are the same words.
+_US = {"colour": "color", "colours": "colors", "favour": "favor", "favourite": "favorite", "flavour": "flavor",
+       "neighbour": "neighbor", "neighbours": "neighbors", "honour": "honor", "humour": "humor", "labour": "labor",
+       "behaviour": "behavior", "harbour": "harbor", "rumour": "rumor", "centre": "center", "theatre": "theater",
+       "metre": "meter", "litre": "liter", "fibre": "fiber", "grey": "gray", "programme": "program", "tyre": "tire",
+       "mum": "mom", "maths": "math", "aluminium": "aluminum", "cheque": "check", "catalogue": "catalog",
+       "dialogue": "dialog", "defence": "defense", "licence": "license", "offence": "offense", "pyjamas": "pajamas",
+       "travelling": "traveling", "travelled": "traveled", "cancelled": "canceled", "jewellery": "jewelry",
+       "plough": "plow", "moustache": "mustache", "sceptical": "skeptical", "cosy": "cozy", "draught": "draft",
+       "enrol": "enroll", "fulfil": "fulfill", "skilful": "skillful", "storey": "story", "kerb": "curb"}
+_NOT_ISE = {"rise", "wise", "raise", "praise", "promise", "exercise", "surprise", "advise", "otherwise", "noise",
+            "cruise", "precise", "concise", "expertise", "franchise", "merchandise", "compromise", "disguise",
+            "revise", "supervise", "televise", "improvise", "despise", "chastise", "paradise", "premise", "treatise"}
+_CONTRACTIONS = {"dont": "do not", "doesnt": "does not", "didnt": "did not", "cant": "can not", "cannot": "can not",
+                 "wont": "will not", "isnt": "is not", "arent": "are not", "wasnt": "was not", "werent": "were not",
+                 "havent": "have not", "hasnt": "has not", "hadnt": "had not", "shouldnt": "should not",
+                 "wouldnt": "would not", "couldnt": "could not", "mustnt": "must not", "im": "i am", "ive": "i have",
+                 "youre": "you are", "theyre": "they are", "were": "were", "its": "it is", "thats": "that is",
+                 "whats": "what is", "lets": "let us", "theres": "there is", "id": "i would", "youve": "you have"}
+_NEGATIONS = {"not", "no", "never", "dont", "doesnt", "didnt", "cant", "cannot", "wont", "nothing", "nobody"}
+
+
+def _canon(text: str) -> str:
+    """English with one spelling: American words, -ize, contractions spelt out (normalised text in, out)."""
+    out = []
+    for t in text.split():
+        t = _US.get(t, t)
+        if t not in _NOT_ISE and len(t) > 5:
+            for uk, us in (("isation", "ization"), ("ising", "izing"), ("ised", "ized"), ("ises", "izes"), ("ise", "ize")):
+                if t.endswith(uk):
+                    t = t[: -len(uk)] + us
+                    break
+        out.append(_CONTRACTIONS.get(t, t) if t != "its" else t)
+    return " ".join(out)
+
+
+def _singular(word: str) -> str:
+    if word.endswith("ies") and len(word) > 4:
+        return word[:-3] + "y"
+    if word.endswith(("ches", "shes", "sses", "xes")):
+        return word[:-2]
+    if word.endswith("s") and not word.endswith("ss") and len(word) > 3:
+        return word[:-1]
+    return word
+
+
+def _near_miss(given: str, expected: set[str]) -> str:
+    """Why a wrong-looking English answer is really almost right ('' if it isn't): the other number, a few
+    extra words, or another word order. Never when the answer adds a negation or lists alternatives."""
+    words = given.split()
+    if set(words) & _NEGATIONS - {w for e in expected for w in e.split()} or {"or", "and"} & set(words):
+        return ""
+    for e in expected:
+        want = e.split()
+        if not want:
+            continue
+        if len(words) == len(want) and [_singular(w) for w in words] == [_singular(w) for w in want]:
+            return f"Right word, other number: {e}."
+        if len(want) >= 1 and len(words) - len(want) in (1, 2) and all(w in words for w in want) and len(want[0]) > 2:
+            return f"A few words more than needed: {e}."
+        if len(want) >= 2 and sorted(words) == sorted(want):
+            return f"Right words, other order: {e}."
+    return ""
+
+
 def check_english(answer: str, word, real: frozenset[str] = frozenset()) -> Check:
     # The answer itself isn't split on / or ;, so "to be / to go" can't hit by listing guesses.
     given = normalize(answer)
@@ -112,11 +177,17 @@ def check_english(answer: str, word, real: frozenset[str] = frozenset()) -> Chec
     expected = set().union(*(english_forms(e) for e in word.en))
     if {given, _without_prefix(given)} & expected:
         return Check(CORRECT)
+    canon = {_canon(e) for e in expected}
+    if {_canon(given), _canon(_without_prefix(given))} & canon:
+        return Check(CORRECT)  # British/American spelling, or a contraction
     # Typos are judged without "to"/"the", so "to do" isn't a misspelling of "to go".
     if any(_is_typo(_without_prefix(given), _without_prefix(e)) for e in expected):
         if _without_prefix(given) in real:
             return Check(WRONG, OTHER_WORD)
         return Check(ALMOST, "Small spelling mistake.")
+    why = _near_miss(_canon(_without_prefix(given)), {_canon(_without_prefix(e)) for e in expected})
+    if why:
+        return Check(ALMOST, why)
     return Check(WRONG)
 
 

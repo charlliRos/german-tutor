@@ -24,7 +24,7 @@ from . import srs
 from .answers import ALMOST, CORRECT, WRONG
 
 SCHEMA = 1
-GRADER = "gtutor.answers/2"        # typed words, verb forms, gaps: app/answers.py (docs/TEXT_SCORER_SPEC.md)
+GRADER = "gtutor.answers/3"        # typed words, verb forms, gaps: app/answers.py (docs/TEXT_SCORER_SPEC.md)
 DICTATION_GRADER = "gtutor.mark_words/1"
 SPEECH_GRADER = "vosk-small-de"    # the offline speech check
 UNCHECKED = "unchecked"            # speaking turn without a speech checker: counted, not verified
