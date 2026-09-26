@@ -1,9 +1,16 @@
 # Working with the Open Learning Runtime
 
 The Open Learning Runtime (OLR) is the family's learning platform (a separate, private project). It has three
-ways to integrate. **This app takes route C, "keep your runtime":** the tutor stays a Python terminal app with
-its own scheduler, speech and duels. It exchanges data in OLR's shapes. Nothing of ours runs inside OLR's
-sandbox, so there is no rewrite and no 16 MiB / WASM limit.
+ways to integrate.
+
+**Decision (2026-09-26): gtutor will be rewritten as an app on OLR (route B: Rust compiled to WASM, run by the
+platform's runtime, online with all learners' data in one place).** The rewrite follows the platform's
+integration brief (requested from the DARES session). Until it replaces this Python app, the kids keep using
+this one, and everything below (stable ids, item versions, the answer log, the scorer spec, the exporter) is the
+foundation the rewrite builds on: the content and the history move over, the code is new.
+
+Before that decision, this app followed route C, "keep your runtime": a Python terminal app with its own
+scheduler, speech and duels, exchanging data in OLR's shapes. What follows describes that groundwork.
 
 Status on both sides (September 2026): OLR's protocol and grader are built. Its **content package format
 (signed manifest, digest, scope certificate) is designed, not built.** So nothing here targets a finished
