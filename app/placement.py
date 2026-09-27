@@ -106,10 +106,12 @@ def run(ctx) -> str:
     if seeded:
         ctx.profile.data["vocab"].update({wid: dict(s) for wid, s in seeded.items()})
         attempts.record_seed(ctx.profile, ctx.today, "vocab", seeded)
-    probes = _probes(ctx)
     band = BANDS[max(known)] if known else "A1"
     ctx.profile.data["placement"] = {"date": ctx.today.isoformat(), "band": band,
-                                     "bands": [round(s, 2) for s in scores], "seeded": len(seeded), **probes}
+                                     "bands": [round(s, 2) for s in scores], "seeded": len(seeded)}
+    ctx.profile.save()  # the level and the words are kept even if they stop during the questions below
+    probes = _probes(ctx)
+    ctx.profile.data["placement"].update(probes)
     ctx.profile.save()
     ui.clear()
     ui.title("Your level")

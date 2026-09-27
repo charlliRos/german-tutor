@@ -366,6 +366,9 @@ def menu(ctx: Context) -> None:
     if ctx.profile.is_new:
         try:
             welcome(ctx)
+        except QuitSession:
+            pass  # stopping the welcome (or the speaker test) still asks about German below: it's asked only now
+        try:
             ui.clear()
             console.print("Do you already know some German?")
             if ui.keys({"": "no, start from the beginning", "p": "yes: find my level (about 10 minutes)"}) == "p":

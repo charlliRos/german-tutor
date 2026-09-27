@@ -160,11 +160,20 @@ def make_items(ctx, count: int, focus: list[str] | None = None) -> list[Item]:
         kinds = [k for k in focus for _ in range(max(1, round(7 / len(focus))))] + kinds
     items: list[Item] = []
     used = set()
-    for n in range(count * 20):
-        if len(items) >= count or not words:
-            break
-        kind = kinds[len(items) % len(kinds)]
+    slot, misses, n = 0, 0, 0
+    dead: set[str] = set()  # kinds no sentence left can make: the others fill in
+    while len(items) < count and words and len(dead) < 3:
+        kind = kinds[slot % len(kinds)]
+        if kind in dead:
+            slot += 1
+            continue
+        if misses >= len(words):  # every sentence tried for this kind
+            dead.add(kind)
+            misses = 0
+            continue
         word = words[n % len(words)]
+        n += 1
+        misses += 1
         if word.example_de in used:
             continue
         if kind == "article":
@@ -179,6 +188,7 @@ def make_items(ctx, count: int, focus: list[str] | None = None) -> list[Item]:
             item.source = word.id
             items.append(item)
             used.add(word.example_de)
+            slot, misses = slot + 1, 0
     return items
 
 

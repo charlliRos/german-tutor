@@ -93,7 +93,8 @@ def check_form(answer: str, verb: Verb, kind: str, expected: str, others: dict[s
     if given in (alt_perfect if kind == "perfect" else alt_past):
         return Check(CORRECT, f"Also right. The book uses {expected}.")
     other = (others or {}).get(given)
-    if other and other != verb.inf:
+    own_participle = kind == "perfect" and given.split()[-1:] == [normalize(verb.participle)]  # gefallen/fallen
+    if other and other != verb.inf and not own_participle:
         return Check(WRONG, f"That's a form of {other}. Here we need {verb.inf}.")
     if kind == "perfect":
         words = given.split()
