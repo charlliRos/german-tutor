@@ -1,0 +1,41 @@
+name: package
+
+# Developers build applications; users run applications. This builds gtutor into a folder with Python and every
+# library inside, so a learner's PC needs no Python, pip or Build Tools. It also builds the headless benchmark
+# replay (tools/bench_replay.py) the same way.
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt pyinstaller
+      - run: python tools/download_voice.py
+      - run: python tools/download_speech_model.py
+      - name: build
+        shell: bash
+        run: |
+          for spec in "gtutor tutor.py" "gtutor-bench tools/bench_replay.py"; do
+            set -- $spec
+            python -m PyInstaller --noconfirm --onedir --console --name $1 \
+              --add-data "content;content" --add-data "voices;voices" --add-data "config.json;." \
+              --collect-all piper --collect-all onnxruntime --collect-all vosk --collect-all _sounddevice_data \
+              --collect-submodules app $2
+          done
+      - run: Compress-Archive -Path dist/gtutor -DestinationPath gtutor-windows-x64.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gtutor-windows-x64
+          path: gtutor-windows-x64.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gtutor-bench-windows-x64
+          path: dist/gtutor-bench
