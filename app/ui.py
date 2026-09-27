@@ -534,7 +534,13 @@ def ask_multiline(prompt: str) -> str:
     lines = [first]
     empty_in_a_row = 0
     while True:
-        line = ask("…", wait_for_quiet=False, typed=True)  # no pause between lines: keep typing
+        try:
+            line = ask("…", wait_for_quiet=False, typed=True)  # no pause between lines: keep typing
+        except QuitSession:  # "q" in the middle of a text: don't throw the text away by accident
+            console.print("[warn]Stop now? What you've written so far is lost.[/]")
+            if keys({"": "keep writing", "s": "stop (lose the text)"}) == "s":
+                raise
+            continue
         if line:
             lines.append(line)
             empty_in_a_row = 0

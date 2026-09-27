@@ -19,7 +19,7 @@ from .answers import normalize, real_try
 from .config import DEFAULTS
 from .content import Book, Unit, balance_quotes, sentences
 from .speaking import hear, speak_and_compare
-from .ui import console, icon
+from .ui import QuitSession, console, icon
 
 SELF_GRADES = {"1": "needs work", "2": "mostly right", "3": "nailed it"}
 NEEDS_WORK = SELF_GRADES["1"]
@@ -416,6 +416,20 @@ def mark_words(answer: str, sentence: str) -> tuple[Text, float]:
     return text, (right / counted if counted else 1.0)
 
 
+# A stop on a look back's last screen, after it was graded and logged: kept until review() has recorded the
+# look back, so it isn't done (and counted) again.
+_STOP_AFTER = [False]
+
+
+def _last_keys(options: dict[str, str]) -> str:
+    """The keys on a look back's last screen; a stop there waits for the look back to be recorded."""
+    try:
+        return ui.keys(options)
+    except QuitSession:
+        _STOP_AFTER[0] = True
+        return ""
+
+
 def _dictation(ctx, book: Book, unit: Unit, heading: str) -> tuple[bool, str]:
     """Hear one sentence of the paragraph and type it. Returns (most words were right,
     why it wasn't a real try or '')."""
@@ -454,7 +468,7 @@ def _dictation(ctx, book: Book, unit: Unit, heading: str) -> tuple[bool, str]:
                     if answer and not caught else attempts.no_response(caught or "skipped"),
                     grader=attempts.DICTATION_GRADER, source=sentence)
     hear(ctx, sentence, slow=False)
-    while ui.keys({"": "next", "r": "hear it again"}) == "r":
+    while _last_keys({"": "next", "r": "hear it again"}) == "r":
         hear(ctx, sentence, slow=False)
     return ok, caught
 
@@ -701,6 +715,7 @@ def _look_back_task(ctx, book: Book, unit: Unit, task: str, heading: str) -> tup
 def review(ctx, book: Book, unit: Unit, item: dict, i: int, total: int) -> None:
     task = _review_task(ctx, item.get("last_task", ""))
     heading = f"Look back {i} of {total} · paragraph {unit.part}"
+    _STOP_AFTER[0] = False
     while True:
         ok, caught = _look_back_task(ctx, book, unit, task, heading)
         if not caught:
@@ -726,6 +741,9 @@ def review(ctx, book: Book, unit: Unit, item: dict, i: int, total: int) -> None:
     looked = resume.bookmark(ctx).setdefault("reading", {}).setdefault("looked_back", [])
     looked.append(f"{book.id}:{unit.n}")
     ctx.profile.save()
+    if _STOP_AFTER[0]:  # they stopped on the last screen: now that it's recorded
+        _STOP_AFTER[0] = False
+        raise QuitSession
 
 
 def look_back(ctx, reviews: list[tuple[Book, Unit, dict]], done: int = 0) -> None:
