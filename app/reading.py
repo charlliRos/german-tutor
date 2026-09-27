@@ -14,7 +14,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import attempts, coverage, sfx, ui
+from . import attempts, coverage, resume, sfx, ui
 from .answers import normalize, real_try
 from .config import DEFAULTS
 from .content import Book, Unit, balance_quotes, sentences
@@ -481,8 +481,29 @@ def _celebrate(ctx, book: Book) -> None:
     console.print(choose_book(ctx))
 
 
-def _three_rounds(ctx, book: Book, unit: Unit, header: str) -> tuple[dict, dict]:
-    """Listen, then translate it, read it out loud, translate it back. Returns both translations."""
+def _mark_rounds(ctx, book: Book, unit: Unit, rounds_done: int, first: dict | None) -> None:
+    """The paragraph in progress in today's bookmark: rounds done and round 1's translation."""
+    mark = resume.bookmark(ctx).setdefault("reading", {})
+    mark.update(book=book.id if rounds_done else "", n=unit.n if rounds_done else 0, rounds_done=rounds_done,
+                first=first if rounds_done else None)
+    ctx.profile.save()
+
+
+def _three_rounds(ctx, book: Book, unit: Unit, header: str, rounds_done: int = 0,
+                  first: dict | None = None) -> tuple[dict, dict]:
+    """Listen, then translate it, read it out loud, translate it back. Returns both translations.
+    rounds_done / first: carrying on with a paragraph left in the middle (the bookmark keeps them)."""
+    if rounds_done < 1 or first is None:
+        first = _round_one(ctx, book, unit, header)
+        _mark_rounds(ctx, book, unit, 1, first)
+    if rounds_done < 2:
+        _round_two(ctx, book, unit, header)
+        _mark_rounds(ctx, book, unit, 2, first)
+    return first, _translate(ctx, book, unit, "en2de", "Round 3 of 3")
+
+
+def _round_one(ctx, book: Book, unit: Unit, header: str) -> dict:
+    """Listen and read along, then round 1: translate it."""
     ui.clear()
     ui.title(header, book.author)
     ui.todo("listen", "read", what="Listen and read along. Nothing to type yet.")
@@ -490,9 +511,12 @@ def _three_rounds(ctx, book: Book, unit: Unit, header: str) -> tuple[dict, dict]
     console.print("[hint]Then 3 rounds: translate it, read it out loud, translate it back.[/]")
     hear(ctx, unit.de, slow=False)
     _replay_until_enter(ctx, unit.de, "round 1: translate it")
-
     # Round 1: try to understand it before seeing the meaning.
-    first = _translate(ctx, book, unit, "de2en", "Round 1 of 3")
+    return _translate(ctx, book, unit, "de2en", "Round 1 of 3")
+
+
+def _round_two(ctx, book: Book, unit: Unit, header: str) -> None:
+    """What it means, then round 2: read it out loud."""
     ui.clear()
     ui.title(header, "what it means")
     ui.todo("read", what="Read what it means and the key words. Nothing to type.")
@@ -501,8 +525,6 @@ def _three_rounds(ctx, book: Book, unit: Unit, header: str) -> tuple[dict, dict]
     _replay_until_enter(ctx, unit.de, "round 2: read it out loud")
     # Round 2: say it.
     _read_aloud(ctx, book, unit, "Round 2 of 3")
-    # Round 3: build it again from the English.
-    return first, _translate(ctx, book, unit, "en2de", "Round 3 of 3")
 
 
 def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
@@ -510,7 +532,11 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
     Returns True if it counts as read. Stopping halfway keeps the typed translations (journal),
     and the paragraph starts again next time."""
     state = ctx.profile.book_state(book.id)
-    if state["next"] == 1 and book.intro_en:
+    mark = resume.part(ctx, "reading") or {}
+    next_unit = book.next_unit(state["next"])
+    in_progress = (mark.get("book") == book.id and mark.get("rounds_done", 0) > 0 and next_unit is not None
+                   and next_unit.n <= mark.get("n", 0))
+    if not in_progress and state["next"] == 1 and book.intro_en:
         ui.clear()
         ui.title(f"{ctx.step}{book.short_title}", book.author)
         ui.todo("read", what="Read what this book is about.")
@@ -521,16 +547,21 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
         _celebrate(ctx, book)
         return False
 
-    _words_you_need(ctx, book)
+    rounds_done, saved_first = (mark["rounds_done"], mark.get("first")) if in_progress else (0, None)
+    if rounds_done:
+        console.print(f"[good]Carrying on with this paragraph at round {rounds_done + 1}.[/]")
+    else:
+        _words_you_need(ctx, book)
     header = f"{ctx.step}Paragraph {unit.part} of {book.total_parts} · {book.short_title}"
     while True:
-        first, last = _three_rounds(ctx, book, unit, header)
+        first, last = _three_rounds(ctx, book, unit, header, rounds_done, saved_first)
+        rounds_done, saved_first = 0, None
         if not (first.get("caught") or last.get("caught")):
             break
         # Pasted or random: the paragraph isn't read. It starts again now (or next time, if they stop),
         # and comes back more often afterwards.
         state["caught"] = True
-        ctx.profile.save()
+        _mark_rounds(ctx, book, unit, 0, None)
         _do_it_again(ctx, "this paragraph")
 
     counted = not (first.get("skipped") and last.get("skipped"))
@@ -542,7 +573,7 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
                       + (1 if state.pop("prove_missed", False) else 0))
     if learned_now is not None:
         learned_now.add(f"{book.id}:{unit.n}")
-    ctx.profile.save()
+    _mark_rounds(ctx, book, unit, 0, None)
     if book.finished(state["next"]):
         _story_so_far(ctx, book, state)  # a closing summary, if the book ends with one
         _celebrate(ctx, book)
@@ -662,6 +693,8 @@ def review(ctx, book: Book, unit: Unit, item: dict, i: int, total: int) -> None:
     else:
         item["misses"] = item.get("misses", 0) + 1
     ctx.profile.count(ctx.today, reviews=1, reviews_missed=int(not ok), paragraphs_learned=int(learned))
+    looked = resume.bookmark(ctx).setdefault("reading", {}).setdefault("looked_back", [])
+    looked.append(f"{book.id}:{unit.n}")
     ctx.profile.save()
 
 
@@ -679,15 +712,23 @@ def look_back(ctx, reviews: list[tuple[Book, Unit, dict]]) -> None:
 def run_reading(ctx) -> int:
     """New paragraphs until the daily amount is reached (and more if wanted), then a look back at the
     paragraphs of earlier sessions. Returns new paragraphs read."""
-    learned_now: set[str] = set()  # paragraphs learned in this session wait for the next ones
-    done = lessons = 0
-    while True:
+    mark = resume.part(ctx, "reading") or {}
+    learned_now: set[str] = set(mark.get("learned_now", []))  # paragraphs learned in this session wait
+    done = mark.get("done", 0)
+    lessons = len(learned_now)
+    looked_back = set(mark.get("looked_back", []))
+    if learned_now or mark.get("rounds_done") or looked_back:
+        console.print("[good]Carrying on with today's reading where you stopped.[/]")
+    reading_done = lessons >= ctx.settings["units_per_day"] and not mark.get("rounds_done")
+    while not reading_done:
         book = current_book(ctx)
         if book is None:
             console.print("[good]You've read every paragraph we have! Ask for new texts.[/]")
             break
         done += lesson(ctx, book, learned_now)
         lessons += 1
+        resume.bookmark(ctx).setdefault("reading", {}).update(learned_now=sorted(learned_now), done=done)
+        ctx.profile.save()
         if lessons >= ctx.settings["units_per_day"]:
             reviews = due_reviews(ctx, learned_now)
             ui.clear()
@@ -696,5 +737,7 @@ def run_reading(ctx) -> int:
                           + (" Then a look back at earlier ones." if reviews else "") + " Want another new one first?")
             if ui.keys({"": "go on" if reviews else "finish reading", "y": "one more paragraph"}) != "y":
                 break
-    look_back(ctx, due_reviews(ctx, learned_now, len(learned_now)))
+    look_back(ctx, due_reviews(ctx, learned_now | looked_back, len(learned_now)))
+    resume.clear(ctx, "reading")
+    ctx.profile.save()
     return done

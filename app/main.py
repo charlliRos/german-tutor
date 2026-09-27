@@ -10,7 +10,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import duel, exam_practice, goals, lan, placement, presence, sfx, srs, ui
+from . import duel, exam_practice, goals, lan, placement, presence, resume, sfx, srs, ui
 from .audio import Audio
 from .config import load_settings
 from .content import Content, load_content, words_in_reach
@@ -397,14 +397,28 @@ def menu(ctx: Context) -> None:
             ctx.presence.set_status(ACTIVITIES[choice])
         try:
             if choice == "1":
-                ctx.step = "Today 1/3 · "
-                warm = run_warmup(ctx)
-                share(ctx)  # the warm-up is done: the others hear it before the reading starts
-                ctx.step = "Today 2/3 · "
-                paragraphs = run_reading(ctx)
-                share(ctx)
+                # A kid who left in the middle carries on with the part they were in (today's bookmark).
+                step = (resume.today(ctx) or {}).get("lesson")
+                warmup_done = bool(ctx.profile.day(ctx.today).get("warmups")) and not resume.part(ctx, "warmup")
+                warm = paragraphs = None
+                if step in (None, "warmup") and not (step and warmup_done):
+                    resume.set_part(ctx, "lesson", "warmup")
+                    ctx.profile.save()
+                    ctx.step = "Today 1/3 · "
+                    warm = run_warmup(ctx)
+                    share(ctx)  # the warm-up is done: the others hear it before the reading starts
+                if step != "exam":
+                    resume.set_part(ctx, "lesson", "reading")
+                    ctx.profile.save()
+                    ctx.step = "Today 2/3 · "
+                    paragraphs = run_reading(ctx)
+                    share(ctx)
+                resume.set_part(ctx, "lesson", "exam")
+                ctx.profile.save()
                 ctx.step = "Today 3/3 · "
                 exam = exam_practice.run_daily(ctx)
+                resume.clear(ctx, "lesson")
+                ctx.profile.save()
                 finish_screen(ctx, warm, paragraphs, exam)
             elif choice == "2":
                 warm = run_warmup(ctx)

@@ -11,7 +11,7 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 
-from . import attempts, genders, goals, grammar, sentences, sfx, srs, ui, verbs
+from . import attempts, genders, goals, grammar, resume, sentences, sfx, srs, ui, verbs
 from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german, normalize
 from .config import DEFAULTS
 from .content import BANK_LABELS, Word, words_sharing_english
@@ -294,74 +294,103 @@ def run_warmup(ctx) -> WarmupResult | None:
     if not words:
         console.print("[warn]The vocabulary bank is empty. Add words to content/vocab/.[/]")
         return None
-    today = ctx.profile.day(ctx.today)
-    first_today = not today.get("warmups")
-    size = todays_size(ctx)
     states = ctx.profile.data["vocab"]
-    due_now = sum(1 for s in states.values() if s.get("box", 0) >= 1 and s.get("due") and s["due"] <= ctx.today.isoformat())
-    new_cap, why = srs.new_words_today(ctx.settings, size, ctx.profile.data["days"], states, ctx.today, due_now)
-    new_allowed = max(0, new_cap - today.get("new", 0)) if first_today else 0
-    plan = srs.plan_session(states, words, goals.settings_for(ctx.settings, ctx.profile.data), ctx.today, size,
-                            new_allowed, goals.allowed_words(words, ctx.profile.data), goals.topics(ctx.profile.data))
-    # Key words of paragraphs already read come on top, in the day's first warm-up: new ones as new words,
-    # known ones once more (extra practice) even if they aren't due.
     reading_queue = ctx.profile.data["reading_words"]
-    if not ctx.profile.data.get("reading_words_filled"):  # profiles from before: their paragraphs' words too
-        books = ctx.profile.data["books"]
-        for book in ctx.content.books:
-            for unit in book.units:
-                if unit.kind == "text" and unit.n < books.get(book.id, {}).get("next", 1):
-                    reading_queue.extend(wid for wid in unit.word_ids if wid not in reading_queue)
-        ctx.profile.data["reading_words_filled"] = True
-    reading_queue[:] = [wid for wid in reading_queue if wid in words]
-    from_reading = srs.reading_words_due(words, reading_queue, int(ctx.settings["reading_words_per_day"])
-                                         if first_today else 0)
-    fresh = [wid for wid in from_reading if states.get(wid, {}).get("box", 0) == 0]
-    again = [wid for wid in from_reading if wid not in fresh]
-    plan.new = fresh + [wid for wid in plan.new if wid not in fresh]
-    plan.reviews = [wid for wid in plan.reviews if wid not in again]
-    plan.practice = [wid for wid in plan.practice if wid not in again]
-    if plan.total + len(again) == 0:
-        console.print("[warn]Nothing to practise yet. Do a normal warm-up first.[/]")
-        return None
+    mark = resume.part(ctx, "warmup")
+    if mark:
+        # A warm-up left unfinished today: carry on with the cards and questions still to come.
+        first_today = mark["first_today"]
+        result = WarmupResult(extra_practice=not first_today, correct=mark["correct"], almost=mark["almost"],
+                              spoken=mark["spoken"])
+        result.to_practise = [words[wid] for wid in mark["to_practise"] if wid in words]
+        not_yet: list[Word] = [words[wid] for wid in mark["not_yet"] if wid in words]
+        cards = [wid for wid in mark["cards"] if wid in words]
+        cards_total = mark["cards_total"]
+        queue = [(wid, kind) for wid, kind in mark["queue"] if wid in words]
+        queue_total = mark["queue_total"]
+        from_reading = mark["from_reading"]
+        ui.clear()
+        ui.title(f"{ctx.step}{'Extra practice' if result.extra_practice else 'Warm-up'}", ui.plural(queue_total, "word"))
+        console.print(f"[good]Carrying on where you stopped: {queue_total - len(queue)} of {queue_total} words done.[/]")
+        console.print(ui.umlaut_tip())
+        ui.keys({"": "carry on"})
+    else:
+        today = ctx.profile.day(ctx.today)
+        first_today = not today.get("warmups")
+        size = todays_size(ctx)
+        due_now = sum(1 for s in states.values() if s.get("box", 0) >= 1 and s.get("due") and s["due"] <= ctx.today.isoformat())
+        new_cap, why = srs.new_words_today(ctx.settings, size, ctx.profile.data["days"], states, ctx.today, due_now)
+        new_allowed = max(0, new_cap - today.get("new", 0)) if first_today else 0
+        plan = srs.plan_session(states, words, goals.settings_for(ctx.settings, ctx.profile.data), ctx.today, size,
+                                new_allowed, goals.allowed_words(words, ctx.profile.data), goals.topics(ctx.profile.data))
+        # Key words of paragraphs already read come on top, in the day's first warm-up: new ones as new words,
+        # known ones once more (extra practice) even if they aren't due.
+        if not ctx.profile.data.get("reading_words_filled"):  # profiles from before: their paragraphs' words too
+            books = ctx.profile.data["books"]
+            for book in ctx.content.books:
+                for unit in book.units:
+                    if unit.kind == "text" and unit.n < books.get(book.id, {}).get("next", 1):
+                        reading_queue.extend(wid for wid in unit.word_ids if wid not in reading_queue)
+            ctx.profile.data["reading_words_filled"] = True
+        reading_queue[:] = [wid for wid in reading_queue if wid in words]
+        from_reading = srs.reading_words_due(words, reading_queue, int(ctx.settings["reading_words_per_day"])
+                                             if first_today else 0)
+        fresh = [wid for wid in from_reading if states.get(wid, {}).get("box", 0) == 0]
+        again = [wid for wid in from_reading if wid not in fresh]
+        plan.new = fresh + [wid for wid in plan.new if wid not in fresh]
+        plan.reviews = [wid for wid in plan.reviews if wid not in again]
+        plan.practice = [wid for wid in plan.practice if wid not in again]
+        if plan.total + len(again) == 0:
+            console.print("[warn]Nothing to practise yet. Do a normal warm-up first.[/]")
+            return None
 
-    result = WarmupResult(extra_practice=not first_today)
-    not_yet: list[Word] = []  # wrong or almost: they come back until they're right
-    ui.clear()
-    ui.title(f"{ctx.step}{'Extra practice' if result.extra_practice else 'Warm-up'}",
-             ui.plural(plan.total + len(again), "word"))
-    parts = [f"{len(plan.new)} new" + (f" ({len(fresh)} from your reading)" if fresh else ""),
-             f"{len(plan.reviews)} to review", f"{len(plan.practice)} to strengthen",
-             f"{len(again)} again from your reading"]
-    if plan.waiting and first_today:
-        parts.append(f"{plan.waiting} more wait for tomorrow")
-    if why and first_today:
-        parts.append(why)
-    console.print(" · ".join(p for p in parts if not p.startswith("0 ")))
-    console.print(("First you [bold]memorise[/] the new words (no typing), then you [bold]type[/] every word."
-                   if plan.new else "You [bold]type[/] every word.")
-                  + " Each screen says what to do at the top.")
-    if result.extra_practice:
-        console.print("[hint]You've already done today's warm-up, so this round is extra practice: "
-                      "words you miss come back sooner, words you know stay on schedule.[/]")
-    console.print(ui.umlaut_tip())
-    ui.keys({"": "start"})
-    for i, wid in enumerate(plan.new, 1):
-        show_card(ctx, words[wid], i, len(plan.new))
+        result = WarmupResult(extra_practice=not first_today)
+        not_yet = []  # wrong or almost: they come back until they're right
+        ui.clear()
+        ui.title(f"{ctx.step}{'Extra practice' if result.extra_practice else 'Warm-up'}",
+                 ui.plural(plan.total + len(again), "word"))
+        parts = [f"{len(plan.new)} new" + (f" ({len(fresh)} from your reading)" if fresh else ""),
+                 f"{len(plan.reviews)} to review", f"{len(plan.practice)} to strengthen",
+                 f"{len(again)} again from your reading"]
+        if plan.waiting and first_today:
+            parts.append(f"{plan.waiting} more wait for tomorrow")
+        if why and first_today:
+            parts.append(why)
+        console.print(" · ".join(p for p in parts if not p.startswith("0 ")))
+        console.print(("First you [bold]memorise[/] the new words (no typing), then you [bold]type[/] every word."
+                       if plan.new else "You [bold]type[/] every word.")
+                      + " Each screen says what to do at the top.")
+        if result.extra_practice:
+            console.print("[hint]You've already done today's warm-up, so this round is extra practice: "
+                          "words you miss come back sooner, words you know stay on schedule.[/]")
+        console.print(ui.umlaut_tip())
+        ui.keys({"": "start"})
+        cards, cards_total = list(plan.new), len(plan.new)
+        queue = ([(wid, "new") for wid in plan.new] + [(wid, "review") for wid in plan.reviews]
+                 + [(wid, "practice") for wid in plan.practice] + [(wid, "reading") for wid in again])
+        ctx.rng.shuffle(queue)
+        known = [i for i, (wid, kind) in enumerate(queue) if kind != "new" and states.get(wid, {}).get("box", 0) >= srs.LEARNED_BOX]
+        if known:
+            queue.append(queue.pop(known[0]))  # end on a word they know: a good last moment
+        queue_total = len(queue)
+        mark = {"first_today": first_today, "cards": list(cards), "cards_total": cards_total,
+                "queue": [list(q) for q in queue], "queue_total": queue_total, "from_reading": list(from_reading),
+                "correct": 0, "almost": 0, "spoken": 0, "to_practise": [], "not_yet": []}
+        resume.set_part(ctx, "warmup", mark)
+        ctx.profile.save()
 
-    queue = ([(wid, "new") for wid in plan.new] + [(wid, "review") for wid in plan.reviews]
-             + [(wid, "practice") for wid in plan.practice] + [(wid, "reading") for wid in again])
-    ctx.rng.shuffle(queue)
-    known = [i for i, (wid, kind) in enumerate(queue) if kind != "new" and states.get(wid, {}).get("box", 0) >= srs.LEARNED_BOX]
-    if known:
-        queue.append(queue.pop(known[0]))  # end on a word they know: a good last moment
-    for pos, (wid, kind) in enumerate(queue, 1):
+    for i, wid in enumerate(list(cards), cards_total - len(cards) + 1):
+        show_card(ctx, words[wid], i, cards_total)
+        mark["cards"].remove(wid)
+        ctx.profile.save()
+
+    for pos, (wid, kind) in enumerate(queue, queue_total - len(queue) + 1):
         word, state = words[wid], ctx.profile.word_state(wid)
         auto = None
         ui.clear()  # a fresh screen per question, so earlier cards and answers can't be copied
         sub = ("from your reading" if wid in from_reading
                else "a word to strengthen" if kind == "practice" else "")
-        ui.title(f"{ctx.step}Word {pos} of {len(queue)}", sub)
+        ui.title(f"{ctx.step}Word {pos} of {queue_total}", sub)
         spoken = False
         if kind != "new" and ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:
             spoken = read_aloud(ctx, word)
@@ -375,7 +404,7 @@ def run_warmup(ctx) -> WarmupResult | None:
                 console.print("[hint]I didn't hear it, so let's type it instead.[/]")
                 ui.timed_keys({"": "type it"}, 2)
                 ui.clear()
-                ui.title(f"{ctx.step}Word {pos} of {len(queue)}", sub)
+                ui.title(f"{ctx.step}Word {pos} of {queue_total}", sub)
         if not spoken:
             outcome = auto = ask_word(ctx, word, kind)
             claimed = outcome == ONCE_MORE
@@ -401,10 +430,16 @@ def run_warmup(ctx) -> WarmupResult | None:
                               new=int(kind == "new"))
         if wid in reading_queue:
             reading_queue.remove(wid)  # met again: done (it stays in the normal repetition schedule)
+        # The bookmark moves past this word and keeps the counts so far.
+        if mark["queue"]:
+            mark["queue"].pop(0)
+        mark.update(correct=result.correct, almost=result.almost, spoken=result.spoken,
+                    to_practise=[w.id for w in result.to_practise], not_yet=[w.id for w in not_yet])
         ctx.profile.save()
         if auto == AUTO_NEXT:
             ui.pause(auto_seconds(ctx, "right"), skippable=True)
 
+    resume.clear(ctx, "warmup")
     # Every word is graded: the warm-up counts now, even if they stop during the repeats.
     ctx.profile.count(ctx.today, warmups=1)
     ctx.profile.save()

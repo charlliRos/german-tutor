@@ -13,7 +13,7 @@ from rich.text import Text
 
 from datetime import timedelta
 
-from . import attempts, pictures, sfx, srs, ui, writing_check
+from . import attempts, pictures, resume, sfx, srs, ui, writing_check
 from .answers import normalize
 from .exams import SKILLS, Exam, ExamItem, Part, choices, is_right, item_id, load_exams, passed
 from .speaking import hear, hear_lines
@@ -243,19 +243,38 @@ def _ask(ctx, item: ExamItem, part: Part, n: int, header: str, shown: list, repl
             return "" if choice == ui.DONT_KNOW else choice
 
 
+def _mark_answers(ctx, exam: Exam, part: Part, answers: dict[str, str]) -> None:
+    """The answers so far in today's bookmark: a kid who leaves carries on at the next question."""
+    resume.set_part(ctx, "exam", {"exam": exam.id, "part": part.id, "answers": dict(answers)})
+    ctx.profile.save()
+
+
 def run_part(ctx, exam: Exam, part: Part) -> None:
-    _intro(ctx, exam, part)
-    started = time.monotonic()
-    answers: dict[str, str] = {}
+    mark = resume.part(ctx, "exam") or {}
+    answers: dict[str, str] = dict(mark["answers"]) if mark.get("exam") == exam.id and mark.get("part") == part.id else {}
     header = f"{exam.level} · {part.title_de}"
+    if answers:  # a part left in the middle today
+        ui.clear()
+        ui.title(f"{ctx.step}{header}")
+        console.print(f"[good]Carrying on where you stopped: {len(answers)} of {len(part.items)} questions answered.[/]")
+        ui.keys({"": "carry on"})
+    else:
+        _intro(ctx, exam, part)
+    started = time.monotonic()
     if part.skill == "reading":
         for n, item in enumerate(part.items, 1):
+            if item.id in answers:
+                continue
             text = part.text(item.text) if item.text else None
             shown = [ui.german(text.transcript, text.title or "Text")] if text else []
             answers[item.id] = _ask(ctx, item, part, n, f"{header} · {n} of {len(part.items)}", shown)
+            _mark_answers(ctx, exam, part, answers)
     else:
         n = 0
         for text_ids, items in _blocks(part):
+            if all(item.id in answers for item in items):
+                n += len(items)
+                continue
             texts = [part.text(t) for t in text_ids]
 
             ui.clear()
@@ -272,9 +291,14 @@ def run_part(ctx, exam: Exam, part: Part) -> None:
                 shown = [ui.german(t.transcript, "Recording (read)") for t in texts]
             for item in items:
                 n += 1
+                if item.id in answers:
+                    continue
                 answers[item.id] = _ask(ctx, item, part, n, f"{header} · {n} of {len(part.items)}", shown, replay)
+                _mark_answers(ctx, exam, part, answers)
     minutes = round((time.monotonic() - started) / 60)
     score = _record(ctx, exam, part, answers)
+    resume.clear(ctx, "exam")
+    ctx.profile.save()
     _results(ctx, exam, part, answers, score, minutes)
 
 
@@ -383,8 +407,13 @@ def todays_part(ctx, exams: list[Exam]) -> tuple[Exam, Part] | None:
 
 
 def run_daily(ctx) -> str | None:
-    """Today's lesson, part 3: one exam part. Returns a line for the finish screen (None: no exams)."""
-    picked = todays_part(ctx, load_exams()[0])
+    """Today's lesson, part 3: one exam part. Returns a line for the finish screen (None: no exams).
+    A part left in the middle today comes first."""
+    exams = load_exams()[0]
+    mark = resume.part(ctx, "exam") or {}
+    exam = next((e for e in exams if e.id == mark.get("exam")), None)
+    part = next((p for p in exam.parts if p.id == mark.get("part")), None) if exam else None
+    picked = (exam, part) if part else todays_part(ctx, exams)
     if picked is None:
         return None
     exam, part = picked
