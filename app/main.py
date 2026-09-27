@@ -443,7 +443,9 @@ def menu(ctx: Context) -> None:
             elif choice == "9":
                 exam_practice.menu(ctx)
             elif choice:
-                message = f"[warn]'{ui.escape(choice)}' isn't an option. Pick 1–8, or q to quit.[/]"
+                numbers = [k for k in MENU if k.isdigit()]
+                message = (f"[warn]'{ui.escape(choice)}' isn't an option. "
+                           f"Pick {numbers[0]}–{numbers[-1]}, or q to quit.[/]")
         except QuitSession:
             message = "[hint]Stopped. Your progress is saved.[/]"
         finally:

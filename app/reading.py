@@ -161,7 +161,8 @@ def _do_it_again(ctx, what: str) -> None:
 
 def _translate(ctx, book: Book, unit: Unit, direction: str, heading: str, review: bool = False) -> dict:
     """One translation. The journal gets it as soon as it's typed, even if they stop at the self-grade.
-    entry["caught"] says why, if it wasn't a real try (pasted, random, or the given text copied)."""
+    entry["caught"] says why, if it wasn't a real try (pasted, random, or the given text copied).
+    A new paragraph's "prove it" isn't run here: entry["prove"] holds it for after the round is bookmarked."""
     to_english = direction == "de2en"
     reference = unit.en if to_english else unit.de
     entry = {"date": datetime.now().isoformat(timespec="minutes"), "book": book.id, "unit": unit.part,
@@ -201,7 +202,7 @@ def _translate(ctx, book: Book, unit: Unit, direction: str, heading: str, review
         entry["self_grade"] = _self_grade(ctx, None if to_english else unit.de)
     finally:
         ctx.profile.add_journal(entry)
-        _log_translation(ctx, book, unit, entry, unit.de if to_english else unit.en, reference)
+        _log_translation(ctx, book, unit, entry, unit.de if to_english else unit.en, reference, not review)
     return entry
 
 
@@ -214,7 +215,8 @@ PROVE_CHANCE = 1 / 3   # after a confident self-grade, this often one sentence i
 PROVE_PASS = 0.7       # share of its words right
 
 
-def _log_translation(ctx, book: Book, unit: Unit, entry: dict, source: str, reference: str) -> None:
+def _log_translation(ctx, book: Book, unit: Unit, entry: dict, source: str, reference: str,
+                     prove_later: bool = False) -> None:
     """Keep a translation in the answer log as a self-graded (estimated) score, or as no response. After a
     confident self-grade, sometimes a "prove it" sentence follows (docs/LEARNING_DESIGN.md 2.4)."""
     graded = entry.get("self_grade") in attempts.SELF_POINTS and not entry.get("skipped")
@@ -228,7 +230,10 @@ def _log_translation(ctx, book: Book, unit: Unit, entry: dict, source: str, refe
                             grader=attempts.SELF if graded else attempts.GRADER,
                             source=source if source != (unit.de if entry["task"] == "de2en" else unit.en) else None)
     if graded and entry["self_grade"] != NEEDS_WORK and ctx.rng.random() < PROVE_CHANCE:
-        prove_it(ctx, book, unit, event["id"])
+        if prove_later:
+            entry["prove"] = event["id"]
+        else:
+            prove_it(ctx, book, unit, event["id"])
 
 
 def prove_it(ctx, book: Book, unit: Unit, about: str) -> bool:
@@ -256,6 +261,7 @@ def prove_it(ctx, book: Book, unit: Unit, about: str) -> bool:
         review = ctx.profile.data["paragraph_reviews"].get(f"{book.id}:{unit.n}")
         if review is not None:
             review["sessions_left"] += 1
+            review["prove_missed"] = True  # and this look back doesn't count (review() reads it)
         else:  # a new paragraph: its look backs aren't scheduled yet
             ctx.profile.book_state(book.id)["prove_missed"] = True
         console.print("[hint]Not quite yet, so this paragraph comes back next session.[/]")
@@ -481,25 +487,38 @@ def _celebrate(ctx, book: Book) -> None:
     console.print(choose_book(ctx))
 
 
-def _mark_rounds(ctx, book: Book, unit: Unit, rounds_done: int, first: dict | None) -> None:
-    """The paragraph in progress in today's bookmark: rounds done and round 1's translation."""
+def _mark_rounds(ctx, book: Book, unit: Unit, rounds_done: int, first: dict | None, last: dict | None = None) -> None:
+    """The paragraph in progress in today's bookmark: rounds done and round 1's (and round 3's) translation."""
     mark = resume.bookmark(ctx).setdefault("reading", {})
     mark.update(book=book.id if rounds_done else "", n=unit.n if rounds_done else 0, rounds_done=rounds_done,
-                first=first if rounds_done else None)
+                first=first if rounds_done else None, last=last if rounds_done else None)
     ctx.profile.save()
 
 
+def _prove_after(ctx, book: Book, unit: Unit, about: str | None) -> None:
+    """A "prove it" held back until its round is in the bookmark, so quitting in it doesn't repeat the round."""
+    if about:
+        prove_it(ctx, book, unit, about)
+
+
 def _three_rounds(ctx, book: Book, unit: Unit, header: str, rounds_done: int = 0,
-                  first: dict | None = None) -> tuple[dict, dict]:
+                  first: dict | None = None, last: dict | None = None) -> tuple[dict, dict]:
     """Listen, then translate it, read it out loud, translate it back. Returns both translations.
-    rounds_done / first: carrying on with a paragraph left in the middle (the bookmark keeps them)."""
+    rounds_done / first / last: carrying on with a paragraph left in the middle (the bookmark keeps them)."""
     if rounds_done < 1 or first is None:
         first = _round_one(ctx, book, unit, header)
+        about = first.pop("prove", None)
         _mark_rounds(ctx, book, unit, 1, first)
+        _prove_after(ctx, book, unit, about)
     if rounds_done < 2:
         _round_two(ctx, book, unit, header)
         _mark_rounds(ctx, book, unit, 2, first)
-    return first, _translate(ctx, book, unit, "en2de", "Round 3 of 3")
+    if rounds_done < 3 or last is None:
+        last = _translate(ctx, book, unit, "en2de", "Round 3 of 3")
+        about = last.pop("prove", None)
+        _mark_rounds(ctx, book, unit, 3, first, last)
+        _prove_after(ctx, book, unit, about)
+    return first, last
 
 
 def _round_one(ctx, book: Book, unit: Unit, header: str) -> dict:
@@ -535,7 +554,7 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
     mark = resume.part(ctx, "reading") or {}
     next_unit = book.next_unit(state["next"])
     in_progress = (mark.get("book") == book.id and mark.get("rounds_done", 0) > 0 and next_unit is not None
-                   and next_unit.n <= mark.get("n", 0))
+                   and next_unit.n == mark.get("n", 0))
     if not in_progress and state["next"] == 1 and book.intro_en:
         ui.clear()
         ui.title(f"{ctx.step}{book.short_title}", book.author)
@@ -547,15 +566,20 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
         _celebrate(ctx, book)
         return False
 
-    rounds_done, saved_first = (mark["rounds_done"], mark.get("first")) if in_progress else (0, None)
+    rounds_done, saved_first, saved_last = ((mark["rounds_done"], mark.get("first"), mark.get("last")) if in_progress
+                                            else (0, None, None))
+    header = f"{ctx.step}Paragraph {unit.part} of {book.total_parts} · {book.short_title}"
     if rounds_done:
-        console.print(f"[good]Carrying on with this paragraph at round {rounds_done + 1}.[/]")
+        ui.clear()
+        ui.title(header, book.author)
+        console.print(f"[good]Carrying on with this paragraph at round {rounds_done + 1}.[/]" if rounds_done < 3
+                      else "[good]Carrying on: this paragraph's 3 rounds are done.[/]")
+        ui.keys({"": "carry on"})
     else:
         _words_you_need(ctx, book)
-    header = f"{ctx.step}Paragraph {unit.part} of {book.total_parts} · {book.short_title}"
     while True:
-        first, last = _three_rounds(ctx, book, unit, header, rounds_done, saved_first)
-        rounds_done, saved_first = 0, None
+        first, last = _three_rounds(ctx, book, unit, header, rounds_done, saved_first, saved_last)
+        rounds_done, saved_first, saved_last = 0, None, None
         if not (first.get("caught") or last.get("caught")):
             break
         # Pasted or random: the paragraph isn't read. It starts again now (or next time, if they stop),
@@ -619,10 +643,12 @@ def _schedule_reviews(ctx, book: Book, unit: Unit, extra_sessions: int = 0) -> N
     queue.extend(wid for wid in unit.word_ids if wid not in queue)
 
 
-def due_reviews(ctx, skip: set[str] = frozenset(), new_paragraphs: int = 1) -> list[tuple[Book, Unit, dict]]:
+def due_reviews(ctx, skip: set[str] = frozenset(), new_paragraphs: int = 1,
+                done: int = 0) -> list[tuple[Book, Unit, dict]]:
     """Paragraphs to look back at: first those from the last sessions (the early repeats matter most),
     then those whose review day has come, most overdue first. `skip` = learned in this session.
-    Room for paragraph_reviews_per_session per new paragraph read, so reading 2 a day doesn't crowd them out."""
+    Room for paragraph_reviews_per_session per new paragraph read, so reading 2 a day doesn't crowd them out;
+    `done` = looked back at already in this session (they take up room too)."""
     books = {b.id: b for b in ctx.content.books}
     today = ctx.today.isoformat()
     out = []
@@ -638,7 +664,7 @@ def due_reviews(ctx, skip: set[str] = frozenset(), new_paragraphs: int = 1) -> l
             out.append((book, unit, item))
     out.sort(key=lambda r: (r[2]["sessions_left"] == 0,
                             r[2]["learned"] if r[2]["sessions_left"] else r[2]["due_days"][0], r[2]["learned"]))
-    return out[: max(0, int(ctx.settings["paragraph_reviews_per_session"])) * max(1, new_paragraphs)]
+    return out[: max(0, int(ctx.settings["paragraph_reviews_per_session"]) * max(1, new_paragraphs) - done)]
 
 
 def _review_task(ctx, last: str) -> str:
@@ -684,6 +710,7 @@ def review(ctx, book: Book, unit: Unit, item: dict, i: int, total: int) -> None:
         item["caught"] = item.get("caught", 0) + 1
         ctx.profile.save()
         _do_it_again(ctx, "this look back")
+    ok = ok and not item.pop("prove_missed", False)  # a missed "prove it": it comes back next session
     item["last_task"] = task
     item["last_ok"] = ok
     learned = False
@@ -701,15 +728,16 @@ def review(ctx, book: Book, unit: Unit, item: dict, i: int, total: int) -> None:
     ctx.profile.save()
 
 
-def look_back(ctx, reviews: list[tuple[Book, Unit, dict]]) -> None:
+def look_back(ctx, reviews: list[tuple[Book, Unit, dict]], done: int = 0) -> None:
+    """done: look backs already done in this session (before a stop), so the numbering carries on."""
     if not reviews:
         return
     ui.clear()
     ui.title(f"{ctx.step}Look back")
     console.print(f"Now {ui.plural(len(reviews), 'paragraph')} you read before. Repetition is how it sticks!")
     ui.keys({"": "start"})
-    for i, (book, unit, item) in enumerate(reviews, 1):
-        review(ctx, book, unit, item, i, len(reviews))
+    for i, (book, unit, item) in enumerate(reviews, done + 1):
+        review(ctx, book, unit, item, i, done + len(reviews))
 
 
 def run_reading(ctx) -> int:
@@ -720,8 +748,11 @@ def run_reading(ctx) -> int:
     done = mark.get("done", 0)
     lessons = len(learned_now)
     looked_back = set(mark.get("looked_back", []))
-    if learned_now or mark.get("rounds_done") or looked_back:
+    if (learned_now or looked_back) and not mark.get("rounds_done"):  # a paragraph left mid-way says so itself
+        ui.clear()
+        ui.title(f"{ctx.step}Reading")
         console.print("[good]Carrying on with today's reading where you stopped.[/]")
+        ui.keys({"": "carry on"})
     reading_done = lessons >= ctx.settings["units_per_day"] and not mark.get("rounds_done")
     while not reading_done:
         book = current_book(ctx)
@@ -738,7 +769,7 @@ def run_reading(ctx) -> int:
                           + (" Then a look back at earlier ones." if reviews else "") + " Want another new one first?")
             if ui.keys({"": "go on" if reviews else "finish reading", "y": "one more paragraph"}) != "y":
                 break
-    look_back(ctx, due_reviews(ctx, learned_now | looked_back, len(learned_now)))
+    look_back(ctx, due_reviews(ctx, learned_now | looked_back, len(learned_now), len(looked_back)), len(looked_back))
     resume.clear(ctx, "reading")
     ctx.profile.save()
     return done

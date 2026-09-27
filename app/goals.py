@@ -53,7 +53,7 @@ def choose(ctx) -> None:
     for key, (level, track) in zip(("", "b", "c"), TRACKS.items()):
         console.print(f"  [key]{'Enter' if not key else key}[/]  {track['label']}")
     choice = ui.keys({"": "A2", "b": "B1", "c": "C1"})
-    ctx.profile.data["target"] = {"": "A2", "b": "B1", "c": "C1"}[choice]
+    target = {"": "A2", "b": "B1", "c": "C1"}[choice]  # kept with the topics at the end: quitting asks both again
     ui.clear()
     ui.title("Your topics")
     console.print(f"Pick up to {MAX_TOPICS} topics you like: their words come first.\n")
@@ -69,6 +69,7 @@ def choose(ctx) -> None:
     for token in answer.replace(",", " ").split():
         if token.isdigit() and 1 <= int(token) <= len(TOPICS) and TOPICS[int(token) - 1] not in picked:
             picked.append(TOPICS[int(token) - 1])
+    ctx.profile.data["target"] = target
     ctx.profile.data["topics"] = picked[:MAX_TOPICS]
     ctx.profile.save()
     console.print(f"[good]Goal {ctx.profile.data['target']}"

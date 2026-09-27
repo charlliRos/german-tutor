@@ -274,8 +274,16 @@ def claim_lines(profile: Profile, content: Content) -> list[str]:
     lines = [f"[bold]Answers {ui.escape(profile.name)} said were right[/] [hint](review them with: "
              "python tools/review_claims.py; accepted ones count for everyone from then on)[/]"]
     for c in open_claims[:CLAIMS_SHOWN]:
-        w = content.words.get(c.item)
-        asked = (", ".join(w.en[:2]) if c.task == "en2de" else w.de) if w else c.item
+        if c.kind == "grammar":  # "<word>|grammar.<kind>": the word's German and the kind of question
+            wid, kind = c.item.split("|grammar.", 1)
+            w = content.words.get(wid)
+            asked = f"{w.de if w else wid} · grammar: {kind}"
+        elif c.kind == "verb":  # "gehen|past" → "gehen (past)"
+            inf, form = c.item.split("|", 1)
+            asked = f"{inf} ({form})"
+        else:
+            w = content.words.get(c.item)
+            asked = (", ".join(w.en[:2]) if c.task == "en2de" else w.de) if w else c.item
         lines.append(f"  {ui.escape(asked)} → [de]{ui.escape(c.response)}[/]" + (f"  [hint]({c.count}×)[/]" if c.count > 1 else ""))
     if len(open_claims) > CLAIMS_SHOWN:
         lines.append(f"  [hint]… and {len(open_claims) - CLAIMS_SHOWN} more[/]")

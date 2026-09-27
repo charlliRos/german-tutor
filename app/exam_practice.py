@@ -17,7 +17,7 @@ from . import attempts, pictures, resume, sfx, srs, ui, writing_check
 from .answers import normalize
 from .exams import SKILLS, Exam, ExamItem, Part, choices, is_right, item_id, load_exams, passed
 from .speaking import hear, hear_lines
-from .ui import console, icon
+from .ui import QuitSession, console, icon
 
 GRADER = "gtutor.exams/1"
 PART_AGAIN = {True: 16, False: 3}   # days until a part comes back: passed / not yet
@@ -127,7 +127,7 @@ def _intro(ctx, exam: Exam, part: Part) -> None:
                           f"(press [key]{REPLAY}[/] to hear it again). Read the questions first!")
         else:
             console.print("[warn]No sound here, so you read the recordings instead (that's easier than the exam).[/]")
-    console.print(f"[hint]Answer with the letter. {ui.DONT_KNOW} = don't know. q = stop (nothing is saved).[/]")
+    console.print(f"[hint]Answer with the letter. {ui.DONT_KNOW} = don't know. q = stop (you carry on here later today).[/]")
     if part.example:
         ui.keys({"": "see the example"})
         _example(ctx, exam, part)
@@ -386,7 +386,9 @@ def exam_for_goal(ctx, exams: list[Exam]) -> Exam | None:
     goal = ctx.profile.data.get("target") or ctx.profile.data.get("placement", {}).get("band") or "A2"
     order = ["A1", "A2", "B1", "B2", "C1"]
     fitting = [e for e in exams if order.index(e.level) <= order.index(goal)] if goal in order else exams
-    return (fitting or exams or [None])[-1]
+    if fitting:
+        return fitting[-1]
+    return min(exams, key=lambda e: order.index(e.level) if e.level in order else len(order), default=None)
 
 
 def todays_part(ctx, exams: list[Exam]) -> tuple[Exam, Part] | None:
@@ -403,12 +405,17 @@ def todays_part(ctx, exams: list[Exam]) -> tuple[Exam, Part] | None:
     fresh.sort(key=lambda p: p.skill in ("writing", "speaking"))
     if fresh:
         return exam, fresh[0]
-    return exam, min(exam.parts, key=lambda p: done[p.id]["best"] / max(done[p.id]["max"], 1))
+    return exam, min(exam.parts, key=lambda p: (done[p.id].get("last") == ctx.today.isoformat(),
+                                                done[p.id]["best"] / max(done[p.id]["max"], 1)))
 
 
 def run_daily(ctx) -> str | None:
     """Today's lesson, part 3: one exam part. Returns a line for the finish screen (None: no exams).
     A part left in the middle today comes first."""
+    finished = resume.part(ctx, "exam_done")
+    if finished:  # today's part was done, then they stopped on its last screen
+        resume.clear(ctx, "exam_done")
+        return finished
     exams = load_exams()[0]
     mark = resume.part(ctx, "exam") or {}
     exam = next((e for e in exams if e.id == mark.get("exam")), None)
@@ -417,10 +424,22 @@ def run_daily(ctx) -> str | None:
     if picked is None:
         return None
     exam, part = picked
-    do_part(ctx, exam, part)
+    before = progress(ctx).get(exam.id, {}).get(part.id)
+    try:
+        do_part(ctx, exam, part)
+    except QuitSession:
+        done = progress(ctx).get(exam.id, {}).get(part.id)
+        if done is not before:  # saved, then stopped on the results: today's part is done
+            resume.set_part(ctx, "exam_done", _finish_line(exam, part, done))
+            ctx.profile.save()
+        raise
     done = progress(ctx).get(exam.id, {}).get(part.id)
     if not done or done.get("last") != ctx.today.isoformat():
         return None  # stopped before the end
+    return _finish_line(exam, part, done)
+
+
+def _finish_line(exam: Exam, part: Part, done: dict) -> str:
     return f"Exam practice: {exam.level} {part.title_de}: {done['score']} of {done['max']}" + (
         " · points covered" if part.skill == "writing" else " · speaking points" if part.skill == "speaking" else "")
 
