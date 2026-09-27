@@ -33,6 +33,12 @@ class TextScorerVectors(unittest.TestCase):
                     self.assertEqual(check.overridable, case["overridable"])
                 self.assertEqual(check.message == OTHER_WORD, case.get("other_word", False))
 
+    def test_the_several_meanings_vectors_are_tagged_step_4a(self):
+        cases = json.loads(VECTORS.read_text(encoding="utf-8"))["cases"]
+        self.assertEqual({c["id"] for c in cases if c.get("rule") == "4a"},
+                         {"en-several-right-meanings", "en-several-meanings-with-comma-or",
+                          "en-several-meanings-one-wrong"})
+
     def test_both_verdict_directions_are_covered(self):
         """A vector file of only 'correct' cases would pass a scorer that accepts everything."""
         cases = json.loads(VECTORS.read_text(encoding="utf-8"))["cases"]

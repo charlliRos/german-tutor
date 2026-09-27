@@ -126,6 +126,14 @@ def _cloze(hit: VerbHit) -> tuple[str, str] | None:
     return None
 
 
+PAST_EXAMPLES = (("machen", "machte"), ("kommen", "kam"), ("spielen", "spielte"), ("gehen", "ging"))
+
+
+def past_example(inf: str) -> str:
+    """Two examples with other verbs than the one asked: machen → er machte, kommen → er kam."""
+    return ", ".join(f"{i} → er {p}" for i, p in [e for e in PAST_EXAMPLES if e[0] != inf][:2])
+
+
 def card(ctx, key: str, heading: str, repeat: bool = False) -> str:
     """One question. Returns CORRECT, ALMOST, WRONG or ONCE_MORE."""
     inf, kind = key.split("|")
@@ -139,7 +147,7 @@ def card(ctx, key: str, heading: str, repeat: bool = False) -> str:
     cloze = _cloze(hit) if kind == "past" and hit and hit.kind == "past" else None
     ui.title(f"{ctx.step}{heading}", "just for practice, no score" if repeat else "irregular verbs from your books")
     ui.todo("type", what="Type the past tense that fills the gap." if cloze else
-            "Type the past tense (er/sie/es form)." if kind == "past" else
+            f"Type the past tense (er/sie/es form), e.g. {past_example(inf)}." if kind == "past" else
             "Type the perfect tense: hat or ist + past participle.")
     console.print(Panel(Text.assemble((verb.inf, "de.word"), ("  ·  " + verb.en, "en")), title=KINDS[kind],
                         border_style="cyan", padding=(1, 2)))
@@ -149,10 +157,10 @@ def card(ctx, key: str, heading: str, repeat: bool = False) -> str:
                             border_style="magenta", padding=(0, 2)))
         prompt = "Fill the gap (past tense):"
     elif kind == "past":
-        prompt = "er/sie/es … (past tense):"
+        prompt = "er/sie/es (past tense):"
     else:
         console.print("[hint]Helper verb (hat / ist) + past participle, e.g. hat gemacht, ist gereist.[/]")
-        prompt = "er/sie/es … (perfect):"
+        prompt = "er/sie/es (perfect):"
     console.print(ui.umlaut_tip())
     pastes = ui.paste_count()
     answer = ui.ask_answer(prompt)

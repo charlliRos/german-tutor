@@ -653,6 +653,7 @@
     },
     {
       "id": "en-several-right-meanings",
+      "rule": "4a",
       "scorer": "english",
       "word": {
         "de": "gehen",
@@ -668,6 +669,7 @@
     },
     {
       "id": "en-several-meanings-with-comma-or",
+      "rule": "4a",
       "scorer": "english",
       "word": {
         "de": "gehen",
@@ -683,6 +685,7 @@
     },
     {
       "id": "en-several-meanings-one-wrong",
+      "rule": "4a",
       "scorer": "english",
       "word": {
         "de": "gehen",

@@ -96,6 +96,7 @@ nouns: without its article) is in `real`, the verdict is `wrong` with the messag
 4a. **Several meanings**: split the answer as typed (lower case, before normalising) on `/`, `,`, `;`, ` or `
    and ` and `; normalise each part and drop empty ones. Two or more parts, and every part is `correct` by
    steps 3–4 on its own → `correct`. If any part fails, carry on with the whole answer, as before.
+   Its vectors are tagged `"rule": "4a"`, so they stay separate from the others.
 5. A typo, compared **without** the prefixes on both sides (so "to do" is not a slip of "to go") → `almost`,
    unless the answer without its prefix is in `real`.
 6. **Near misses** → `almost`, unless the answer adds a negation (not, no, never …) that the meaning doesn't

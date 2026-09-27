@@ -205,18 +205,23 @@ def check(item: Item, answer: str) -> tuple[str, str]:
         return WRONG, ""
     if item.kind == "ending":
         return (CORRECT, "") if given in (item.answer, normalize(item.full)) else (WRONG, "")
-    return (CORRECT, "") if given == normalize(item.answer) else (WRONG, "")
+    want = normalize(item.answer)
+    stem = normalize(next((p.split("___")[0] for p in item.shown.split() if "___" in p), ""))
+    missing = given and stem + given == want  # just the letters after the shown start (de___ + m = dem)
+    return (CORRECT, "") if given == want or missing else (WRONG, "")
 
 
-PROMPTS = {"article": ("Type the whole missing word (der, dem, einen …).", "Missing word:"),
+PROMPTS = {"article": ("Finish the word: type the whole word (dem, einen …) or just the missing letters. "
+                       "Sometimes nothing is missing: then type the word as it is.", "Word:"),
            "ending": ("Type the missing ending: -e, -en, -er, -es or -em.", "Ending:"),
-           "order": ("Put the words in order: type the whole sentence.", "Sentence:")}
+           "order": ("Put the words in order and type the whole sentence, starting with „{first}“.", "Sentence:")}
 
 
 def question(ctx, item: Item, heading: str, repeat: bool = False) -> str:
     ui.clear()
     ui.title(f"{ctx.step}{heading}", "just for practice, no score" if repeat else "grammar from real sentences")
     what, prompt = PROMPTS[item.kind]
+    what = what.format(first=item.sentence.split()[0]) if item.kind == "order" else what
     ui.todo("type", what=what)
     console.print(Panel(Text(item.shown, style="de"), subtitle=item.english or None, border_style="cyan",
                         padding=(1, 2)))
