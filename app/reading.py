@@ -573,6 +573,9 @@ def lesson(ctx, book: Book, learned_now: set[str] | None = None) -> bool:
                       + (1 if state.pop("prove_missed", False) else 0))
     if learned_now is not None:
         learned_now.add(f"{book.id}:{unit.n}")
+        # In today's bookmark before any closing screen, so quitting there doesn't cost a paragraph.
+        mark = resume.bookmark(ctx).setdefault("reading", {})
+        mark.update(learned_now=sorted(learned_now), done=mark.get("done", 0) + int(counted))
     _mark_rounds(ctx, book, unit, 0, None)
     if book.finished(state["next"]):
         _story_so_far(ctx, book, state)  # a closing summary, if the book ends with one
@@ -725,10 +728,8 @@ def run_reading(ctx) -> int:
         if book is None:
             console.print("[good]You've read every paragraph we have! Ask for new texts.[/]")
             break
-        done += lesson(ctx, book, learned_now)
+        done += lesson(ctx, book, learned_now)  # it keeps today's bookmark up to date
         lessons += 1
-        resume.bookmark(ctx).setdefault("reading", {}).update(learned_now=sorted(learned_now), done=done)
-        ctx.profile.save()
         if lessons >= ctx.settings["units_per_day"]:
             reviews = due_reviews(ctx, learned_now)
             ui.clear()

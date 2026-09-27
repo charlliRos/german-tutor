@@ -100,5 +100,21 @@ class ResumeParagraph(unittest.TestCase):
         self.assertEqual(resume.part(self.ctx, "reading")["rounds_done"], 0)
 
 
+    def test_quitting_on_a_closing_screen_keeps_the_paragraph_read_today(self):
+        translate = lambda ctx, book, unit, direction, heading, review=False: {"answer": "x", "self_grade": "mostly right"}
+
+        def celebrate(ctx, book):
+            raise QuitSession
+
+        state = self.ctx.profile.book_state(self.book.id)
+        with mock.patch("app.reading._translate", translate),                 mock.patch("app.reading._read_aloud", lambda *a: True),                 mock.patch("app.reading._celebrate", celebrate),                 mock.patch.object(type(self.book), "finished", lambda book, n: True), console.capture():
+            with self.assertRaises(QuitSession):
+                reading.run_reading(self.ctx)
+        mark = resume.part(self.ctx, "reading")
+        self.assertEqual(mark["learned_now"], [f"{self.book.id}:1"])  # counted for today, not read again
+        self.assertEqual(mark["done"], 1)
+        self.assertEqual(state["next"], 2)
+
+
 if __name__ == "__main__":
     unittest.main()
