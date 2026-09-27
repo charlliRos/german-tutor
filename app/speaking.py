@@ -116,10 +116,21 @@ def _record(ctx, text: str, long_text: bool):
     if recording[0].size == 0:
         console.print("[warn]I couldn't hear anything. Is the microphone muted or too far away?[/]")
         return None
-    if ctx.audio.last_peak < QUIET_PEAK:
-        console.print("[warn]Your mic is very quiet. Speak closer, or turn up the microphone level "
-                      "in your sound settings.[/]")
     return recording
+
+
+def _quiet_warning(ctx, heard: bool) -> None:
+    """A very quiet recording that the speech check didn't catch: say how to fix it. Not when the words were
+    heard (then the mic is fine for the app), and without a speech check at most once a session."""
+    if heard or getattr(ctx.audio, "last_peak", 1.0) >= QUIET_PEAK:
+        return
+    checking = ctx.audio.can_record and ctx.audio.can_check_speech
+    if not checking:
+        if getattr(ctx.audio, "quiet_warned", False):
+            return
+        ctx.audio.quiet_warned = True
+    console.print("[warn]Your mic is very quiet. Speak closer, or turn up the microphone level "
+                  "in your sound settings.[/]")
 
 
 def _play_both(ctx, recording, text: str, slow: bool) -> None:
@@ -165,8 +176,12 @@ def speak_and_compare(ctx, text: str, long_text: bool = False, slow: bool | None
         else:
             ui.ask("Say it out loud now, then press Enter to hear how it should sound.")
             recording = None
+        heard_now = False
         if checking:
-            said = (recording is not None and _check_speech(ctx, recording, text)) or said
+            heard_now = recording is not None and _check_speech(ctx, recording, text)
+            said = heard_now or said
+        if recording is not None:
+            _quiet_warning(ctx, heard_now)
         if reveal:
             console.print(ui.german(text, "It's", word=not long_text))
             reveal = False

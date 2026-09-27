@@ -18,7 +18,10 @@ TURN_PAUSE = 0.45      # between two speakers in a conversation
 # this much faster, which raises (or lowers) the pitch. No extra voice to download.
 VOICES = {"": 1.0, "high": 1.24, "higher": 1.38, "low": 0.86}
 SILENCE_PEAK = 0.02    # recordings quieter than this count as "nothing heard"
-QUIET_PEAK = 0.08      # below this the mic works but is set very low
+# Below this the mic works but is set very low. Many laptop and headset mics peak around 0.03-0.08 for normal
+# speech at Windows' default level, and every recording is turned up before it's played back, so the old 0.08
+# warned kids whose mic was fine. The warning is now only shown when it matters (see speaking.py).
+QUIET_PEAK = 0.04
 
 
 BLOCKED_VOICE = ("Windows blocked the offline German voice (Smart App Control or a school's app policy: one of its "
