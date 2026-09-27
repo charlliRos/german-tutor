@@ -74,13 +74,14 @@ def article_items(sentence: str) -> list[Item]:
         noun_follows = _is_noun(nxt) or adjective_between
         if not noun_follows or part != part.strip(",.;:!?"):
             continue
+        lead = len(part) - len(part.lstrip("„\"'‚»«(“"))  # an opening quote stays in front of the hint
         if word in DEFINITE:
-            stem = part[0]
+            stem = part[:lead + 1]
         else:
             base = next((b for b in EIN_WORDS if word.startswith(b) and word[len(b):] in EIN_ENDINGS), None)
             if not base:
                 continue
-            stem = part[:len(base)]
+            stem = part[:lead + len(base)]
         shown = " ".join(parts[:i] + [stem + "___"] + parts[i + 1:])
         items.append(Item("article", sentence, shown, part, _case_tip(parts[i - 1]) if i else ""))
     return items

@@ -86,3 +86,10 @@ class FirstRun(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class QuoteBeforeTheArticle(unittest.TestCase):
+    def test_the_hint_keeps_its_first_letter_after_an_opening_quote(self):
+        from app.grammar import article_items
+        self.assertEqual([i.shown for i in article_items("Er sagte: „Der Hund bellt laut.“")],
+                         ["Er sagte: „D___ Hund bellt laut.“"])
