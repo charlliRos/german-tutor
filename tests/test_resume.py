@@ -57,6 +57,60 @@ class ResumeWarmup(unittest.TestCase):
         self.assertIsNone(resume.part(self.ctx, "warmup"))
 
 
+class ResumeExtras(unittest.TestCase):
+    """Stopping in the first warm-up's der/die/das (or verbs, grammar): the rest comes on the next warm-up."""
+
+    def setUp(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        self.ctx = make_ctx(tmp.name, genders_per_day=5)
+        for target, value in (("app.ui.clear", lambda: None), ("app.ui.keys", lambda options: ""),
+                              ("app.ui.pause", lambda *a, **k: None), ("app.warmup.show_card", lambda *a: None),
+                              ("app.warmup.quiz", lambda *a, **k: CORRECT)):
+            patcher = mock.patch(target, value)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+    def genders_asked(self, run, quit_after=None):
+        asked = []
+
+        def card(ctx, word, heading, repeat=False):
+            if not repeat:
+                if quit_after is not None and len(asked) == quit_after:
+                    raise QuitSession
+                asked.append(word.id)
+            return CORRECT
+
+        with mock.patch("app.genders.card", card), console.capture():
+            try:
+                run(self.ctx)
+            except QuitSession:
+                pass
+        return asked
+
+    def test_stopping_in_der_die_das_finishes_them_on_the_next_warmup(self):
+        first = self.genders_asked(warmup.run_warmup, quit_after=2)
+        self.assertEqual(len(first), 2)
+        self.assertEqual(self.ctx.profile.day(self.ctx.today)["warmups"], 1)
+        rest = self.genders_asked(warmup.run_warmup)
+        self.assertEqual(len(rest), 3)               # the rest of the day's five cards
+        self.assertFalse(set(first) & set(rest))     # nothing asked twice
+        self.assertIsNone(resume.part(self.ctx, "extras"))
+        self.assertEqual(self.genders_asked(warmup.run_warmup), [])  # and then they're done for today
+
+    def test_today_carries_on_with_just_the_extras(self):
+        first = self.genders_asked(warmup.run_warmup, quit_after=2)
+        rest = self.genders_asked(warmup.finish_extras)
+        self.assertEqual(len(rest), 3)
+        self.assertFalse(set(first) & set(rest))
+        self.assertIsNone(resume.today(self.ctx))
+
+    def test_a_second_warmup_after_finished_extras_has_none(self):
+        self.assertEqual(len(self.genders_asked(warmup.run_warmup)), 5)
+        self.assertIsNone(resume.today(self.ctx))
+        self.assertEqual(self.genders_asked(warmup.run_warmup), [])
+
+
 class ResumeParagraph(unittest.TestCase):
     def setUp(self):
         tmp = tempfile.TemporaryDirectory()

@@ -652,6 +652,51 @@
       "why": "listing guesses with or/and never counts"
     },
     {
+      "id": "en-several-right-meanings",
+      "scorer": "english",
+      "word": {
+        "de": "gehen",
+        "en": [
+          "to go",
+          "to walk"
+        ],
+        "pos": "verb"
+      },
+      "submitted": "to go / to walk",
+      "verdict": "correct",
+      "why": "every meaning typed is a right one"
+    },
+    {
+      "id": "en-several-meanings-with-comma-or",
+      "scorer": "english",
+      "word": {
+        "de": "gehen",
+        "en": [
+          "to go",
+          "to walk"
+        ],
+        "pos": "verb"
+      },
+      "submitted": "go, walk or to go",
+      "verdict": "correct",
+      "why": "the answer is split on / , ; or and: every part is a right meaning"
+    },
+    {
+      "id": "en-several-meanings-one-wrong",
+      "scorer": "english",
+      "word": {
+        "de": "gehen",
+        "en": [
+          "to go",
+          "to walk"
+        ],
+        "pos": "verb"
+      },
+      "submitted": "to walk, to run",
+      "verdict": "almost",
+      "why": "one part is not a meaning, so the list is judged as one answer, as before: a few words more than needed"
+    },
+    {
       "id": "en-word-order",
       "scorer": "english",
       "word": {

@@ -8,7 +8,7 @@ from __future__ import annotations
 from rich.panel import Panel
 from rich.text import Text
 
-from . import attempts, sfx, srs, ui
+from . import attempts, resume, sfx, srs, ui
 from .answers import CORRECT, WRONG, normalize
 from .speaking import hear
 from .ui import console, icon
@@ -139,6 +139,8 @@ def run_genders(ctx, first_today: bool) -> VerbResult:
     ids = [wid for wid in plan(ctx, first_today) if eligible(ctx.content.words[wid])]
     states = ctx.profile.data["genders"]
     ctx.rng.shuffle(ids)
+    ids = [wid for wid in resume.extras_todo(ctx, "genders", ids)
+           if wid in ctx.content.words and eligible(ctx.content.words[wid])]
     for i, wid in enumerate(ids, 1):
         outcome = card(ctx, ctx.content.words[wid], f"der, die, das {i} of {len(ids)}")
         srs.apply_result(states.setdefault(wid, srs.new_state()), outcome, ctx.today)
@@ -148,6 +150,7 @@ def run_genders(ctx, first_today: bool) -> VerbResult:
         if outcome != CORRECT:
             result.missed.append(wid)
         ctx.profile.count(ctx.today, genders=1, genders_right=int(outcome == CORRECT))
+        resume.extras_done(ctx, "genders", wid)
         ctx.profile.save()
     return result
 

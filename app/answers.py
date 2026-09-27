@@ -169,17 +169,28 @@ def _near_miss(given: str, expected: set[str]) -> str:
     return ""
 
 
+def _exact(given: str, expected: set[str], canon: set[str]) -> bool:
+    """A normalised answer that is one of the meanings (with or without "to"/"the", in either spelling)."""
+    return bool({given, _without_prefix(given)} & expected
+                or {_canon(given), _canon(_without_prefix(given))} & canon)  # British/American, contractions
+
+
+_LIST_SEPARATORS = re.compile(r"[/,;]| or | and ")
+
+
 def check_english(answer: str, word, real: frozenset[str] = frozenset()) -> Check:
-    # The answer itself isn't split on / or ;, so "to be / to go" can't hit by listing guesses.
     given = normalize(answer)
     if not given:
         return Check(WRONG, overridable=False)
     expected = set().union(*(english_forms(e) for e in word.en))
-    if {given, _without_prefix(given)} & expected:
-        return Check(CORRECT)
     canon = {_canon(e) for e in expected}
-    if {_canon(given), _canon(_without_prefix(given))} & canon:
-        return Check(CORRECT)  # British/American spelling, or a contraction
+    if _exact(given, expected, canon):
+        return Check(CORRECT)
+    # Several meanings typed ("to go / to walk", "go, walk", "to go or to walk"): right only if every one is.
+    parts = [normalize(p) for p in _LIST_SEPARATORS.split(unicodedata.normalize("NFC", answer).lower())]
+    parts = [p for p in parts if p]
+    if len(parts) >= 2 and all(_exact(p, expected, canon) for p in parts):
+        return Check(CORRECT)
     # Typos are judged without "to"/"the", so "to do" isn't a misspelling of "to go".
     if any(_is_typo(_without_prefix(given), _without_prefix(e)) for e in expected):
         if _without_prefix(given) in real:

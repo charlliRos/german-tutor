@@ -6,10 +6,12 @@ dependencies. **The test vectors in [`tests/vectors/text_scorer.json`](../tests/
 contract.** An implementation is correct when it passes all of them. `tests/test_text_scorer_vectors.py` runs
 them against this app.
 
-Scorer version: `gtutor.answers/3` (the `grader` field in the answer log). Bump it when a verdict changes.
+Scorer version: `gtutor.answers/4` (the `grader` field in the answer log). Bump it when a verdict changes.
 Version 2 (2026-09-25): a German noun typed in lower case is `almost`, no longer `correct`.
 Version 3 (2026-09-26): English answers accept British/American spelling and contractions, and get
 `almost` for the other number, one or two extra words, or another word order (step 3b, 4–5).
+Version 4 (2026-09-27): several English meanings typed together ("to go / to walk") are `correct` when every
+one is a right meaning (step 3b, 4a).
 
 ## Verdicts
 
@@ -87,10 +89,13 @@ nouns: without its article) is in `real`, the verdict is `wrong` with the messag
 2. The expected set: every meaning split on `/` and `;`, normalised, and each also without a leading
    `to `, `a `, `an ` or `the `.
 3. The answer, or the answer without such a prefix, is in the expected set → `correct`.
-   **The answer itself is never split on `/` or `;`**, so a list of guesses can't hit.
+   A list of guesses can't hit: see step 4a.
 4. **One spelling**: both sides are put into one spelling (British → American words such as colour → color,
    `-ise`/`-isation` → `-ize`/`-ization` except words like promise, exercise, surprise; contractions spelt out:
    don't → do not). Equal now → `correct`.
+4a. **Several meanings**: split the answer as typed (lower case, before normalising) on `/`, `,`, `;`, ` or `
+   and ` and `; normalise each part and drop empty ones. Two or more parts, and every part is `correct` by
+   steps 3–4 on its own → `correct`. If any part fails, carry on with the whole answer, as before.
 5. A typo, compared **without** the prefixes on both sides (so "to do" is not a slip of "to go") → `almost`,
    unless the answer without its prefix is in `real`.
 6. **Near misses** → `almost`, unless the answer adds a negation (not, no, never …) that the meaning doesn't
@@ -115,7 +120,7 @@ These are stated limits, not bugs:
 
 ## Test vectors
 
-`tests/vectors/text_scorer.json`: 45 cases covering `ue` for `ü`, `ss` for `ß`, a missing capital, a
+`tests/vectors/text_scorer.json`: 48 cases covering `ue` for `ü`, `ss` for `ß`, a missing capital, a
 missing article, a wrong article, typos, swapped letters (short and long words), a wrong-but-real word in
 both languages (with a positive control each), an English word typed for German, listed guesses and
 empty answers.
@@ -128,4 +133,5 @@ from `correct` to `almost` and two capital-letter cases were added (`de-lowercas
 `de-lowercase-noun-in-phrase`); the changed one and `de-lowercase-noun-in-phrase` fail against version 1. Version 3 added 12 English cases
 written with the rules; the 7 that accept or soften an answer (`en-british-american`, `en-ise-ize`,
 `en-contraction`, `en-other-number`, `en-extra-words`, `en-word-order`, `en-ise-exception`) fail against
-version 2, the 5 that must stay wrong pass on both.
+version 2, the 5 that must stay wrong pass on both. Version 4 added 3 cases: `en-several-right-meanings` and
+`en-several-meanings-with-comma-or` fail against version 3, `en-several-meanings-one-wrong` passes on both.

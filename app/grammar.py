@@ -8,12 +8,12 @@ A few a day in the warm-up; misses come back at the end until they're right.
 """
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 
 from rich.panel import Panel
 from rich.text import Text
 
-from . import attempts, sfx, ui
+from . import attempts, resume, sfx, ui
 from .answers import CORRECT, WRONG, normalize
 from .content import bare_word
 from .speaking import hear
@@ -266,6 +266,7 @@ def run_grammar(ctx, first_today: bool) -> VerbResult:
     if not first_today:
         return result
     items = make_items(ctx, int(ctx.settings["grammar_per_day"]), focus_kinds(ctx))
+    items = [Item(**d) for d in resume.extras_todo(ctx, "grammar", [asdict(item) for item in items])]
     for i, item in enumerate(items, 1):
         outcome = log(ctx, item, "grammar.daily", question(ctx, item, f"Grammar {i} of {len(items)}"))
         result.total += 1
@@ -273,6 +274,7 @@ def run_grammar(ctx, first_today: bool) -> VerbResult:
         if outcome != CORRECT:
             result.missed.append(item)
         ctx.profile.count(ctx.today, grammar=1, grammar_right=int(outcome == CORRECT))
+        resume.extras_done(ctx, "grammar", asdict(item))
         ctx.profile.save()
     return result
 

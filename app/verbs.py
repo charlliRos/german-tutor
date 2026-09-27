@@ -11,7 +11,7 @@ from dataclasses import dataclass, field
 from rich.panel import Panel
 from rich.text import Text
 
-from . import attempts, sfx, srs, ui
+from . import attempts, resume, sfx, srs, ui
 from .answers import ALMOST, CORRECT, WRONG, Check, _distance, normalize
 from .content import Verb, VerbHit, bare_word, person_forms, trim_around
 from .speaking import hear
@@ -218,6 +218,7 @@ def run_verbs(ctx, first_today: bool) -> VerbResult:
     keys = plan(ctx, first_today)
     states = ctx.profile.data["verbs"]
     ctx.rng.shuffle(keys)
+    keys = [k for k in resume.extras_todo(ctx, "verbs", keys) if k.split("|")[0] in ctx.content.verbs]
     for i, key in enumerate(keys, 1):
         outcome = card(ctx, key, f"Verb forms {i} of {len(keys)}")
         if outcome == ONCE_MORE:
@@ -230,6 +231,7 @@ def run_verbs(ctx, first_today: bool) -> VerbResult:
         if outcome != CORRECT:
             result.missed.append(key)
         ctx.profile.count(ctx.today, verbs=1, verbs_right=int(outcome == CORRECT))
+        resume.extras_done(ctx, "verbs", key)
         ctx.profile.save()
     return result
 

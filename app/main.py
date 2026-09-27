@@ -23,7 +23,7 @@ from .speaking import speak_and_compare
 from .ui import QuitSession, console, icon
 from .genders import gender_progress
 from .verbs import verb_progress
-from .warmup import WarmupResult, run_warmup, todays_size
+from .warmup import WarmupResult, finish_extras, run_warmup, todays_size
 
 
 @dataclass
@@ -411,6 +411,9 @@ def menu(ctx: Context) -> None:
                     ctx.step = "Today 1/3 · "
                     warm = run_warmup(ctx)
                     share(ctx)  # the warm-up is done: the others hear it before the reading starts
+                elif step == "warmup" and resume.part(ctx, "extras") is not None:
+                    ctx.step = "Today 1/3 · "
+                    finish_extras(ctx)  # stopped in the verbs, der/die/das or grammar: the rest of them
                 if step != "exam":
                     resume.set_part(ctx, "lesson", "reading")
                     ctx.profile.save()

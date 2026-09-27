@@ -511,15 +511,36 @@ def run_warmup(ctx) -> WarmupResult | None:
     # Every word is graded: the warm-up counts now, even if they stop during the repeats.
     ctx.profile.count(ctx.today, warmups=1)
     ctx.profile.save()
-    # Verbs are graded before the practice-only repeats, so stopping during the repeats loses nothing.
-    result.verbs = verbs.run_verbs(ctx, first_today)
-    result.genders = genders.run_genders(ctx, first_today)
-    result.grammar = grammar.run_grammar(ctx, first_today)
+    run_extras(ctx, result, first_today)
     repeat_until_right(ctx, not_yet)
     verbs.repeat_verbs(ctx, result.verbs.missed)
     genders.repeat_genders(ctx, result.genders.missed)
     grammar.repeat_grammar(ctx, result.grammar.missed)
     return result
+
+
+def run_extras(ctx, result: WarmupResult, first_today: bool) -> None:
+    """The day's verbs, der/die/das and grammar, after the words. The first warm-up's extras are kept in today's
+    bookmark until they're done: a kid who stops halfway gets the rest (and only the rest) on the next warm-up
+    the same day. Graded before the practice-only repeats, so stopping during the repeats loses nothing."""
+    owed = first_today or resume.part(ctx, "extras") is not None
+    if first_today:
+        resume.set_part(ctx, "extras", {})
+        ctx.profile.save()
+    result.verbs = verbs.run_verbs(ctx, owed)
+    result.genders = genders.run_genders(ctx, owed)
+    result.grammar = grammar.run_grammar(ctx, owed)
+    resume.clear(ctx, "extras")
+    ctx.profile.save()
+
+
+def finish_extras(ctx) -> None:
+    """Back the same day after stopping in the first warm-up's extras: just the rest of them."""
+    result = WarmupResult(extra_practice=True)
+    run_extras(ctx, result, False)
+    verbs.repeat_verbs(ctx, result.verbs.missed)
+    genders.repeat_genders(ctx, result.genders.missed)
+    grammar.repeat_grammar(ctx, result.grammar.missed)
 
 
 SHOW_FROM_ROUND = 3  # "again until it sticks": from this round a still-missed word shows its answer first

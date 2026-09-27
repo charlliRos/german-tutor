@@ -52,6 +52,29 @@ class EnglishAnswers(unittest.TestCase):
         self.assertEqual(check_english("cell phone", w).outcome, CORRECT)
         self.assertEqual(check_english("mobile phnoe", w).outcome, ALMOST)
 
+    def test_several_right_meanings_are_right(self):
+        gehen = word("gehen", ["to go", "to walk"], pos="verb")
+        for typed in ("to go / to walk", "go, walk", "to go or to walk", "walk and go", "to go; to walk", "go/walk"):
+            with self.subTest(typed):
+                self.assertEqual(check_english(typed, gehen).outcome, CORRECT)
+        w = word("das Handy", ["mobile phone/cell phone"])
+        self.assertEqual(check_english("mobile phone, cell phone", w).outcome, CORRECT)
+        colour = word("die Farbe", ["colour"])
+        self.assertEqual(check_english("colour / color", colour).outcome, CORRECT)
+
+    def test_one_wrong_meaning_in_a_list_is_not_right(self):
+        gehen = word("gehen", ["to go", "to walk"], pos="verb")
+        for typed in ("to go / to run", "go, be", "to be or to go", "walk and run"):
+            with self.subTest(typed):
+                self.assertEqual(check_english(typed, gehen).outcome, WRONG)
+        self.assertNotEqual(check_english("to go / to walk fast", gehen).outcome, CORRECT)
+
+    def test_one_meaning_works_as_before(self):
+        gehen = word("gehen", ["to go", "to walk"], pos="verb")
+        self.assertEqual(check_english("to go", gehen).outcome, CORRECT)
+        self.assertEqual(check_english("to walk home", gehen).outcome, ALMOST)
+        self.assertEqual(check_english("to run", gehen).outcome, WRONG)
+
     def test_normalize(self):
         self.assertEqual(normalize("  Wie geht's?  "), "wie gehts")
         self.assertEqual(normalize("E-Mail"), "email")

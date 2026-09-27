@@ -2,7 +2,8 @@
 lesson (or presses q) carries on from there next time instead of starting the lesson again.
 
 profile.data["resume"] = {"date": "2026-09-28", "lesson": "warmup" | "reading" | "exam",
-                          "warmup": {...}, "reading": {...}, "exam": {...}}
+                          "warmup": {...}, "reading": {...}, "exam": {...}, "extras": {...}}
+"extras": the first warm-up's verbs, der/die/das and grammar, still owed ({"verbs": [cards still to ask], ...}).
 Each part is saved after every answer and dropped when that part is finished. A bookmark from another day is
 ignored (and dropped). The same design as de-tutor's (crates/de-tutor-core/src/profile.rs, Resume).
 """
@@ -34,6 +35,23 @@ def bookmark(ctx) -> dict:
 
 def set_part(ctx, name: str, value) -> None:
     bookmark(ctx)[name] = value
+
+
+def extras_todo(ctx, name: str, planned: list) -> list:
+    """What part `name` ("verbs", "genders", "grammar") of the day's extras still has to ask. The first time,
+    `planned` is kept in the bookmark; later the same day the kept rest comes back, so a kid who stopped
+    halfway finishes the day's cards and nothing is asked twice. Without an "extras" bookmark: `planned`."""
+    extras = part(ctx, "extras")
+    if extras is None:
+        return planned
+    return list(extras.setdefault(name, list(planned)))
+
+
+def extras_done(ctx, name: str, item) -> None:
+    """One item of the day's extras is answered: it's off the list."""
+    extras = part(ctx, "extras")
+    if extras is not None and item in extras.get(name, []):
+        extras[name].remove(item)
 
 
 def clear(ctx, name: str) -> None:
