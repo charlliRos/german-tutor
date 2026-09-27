@@ -264,9 +264,11 @@ def ask_word(ctx, word: Word, kind: str, second_chance: bool = False) -> str:
 
 
 def todays_size(ctx) -> int:
-    """Questions in today's warm-up: what fits in the day's minutes at this kid's pace."""
+    """Questions in today's warm-up: what fits in the day's minutes at this kid's pace, growing slowly with
+    the days practised."""
     minutes = srs.session_minutes(ctx.settings, ctx.profile.data, ctx.today)
-    return srs.warmup_size(ctx.settings, minutes, attempts.seconds_per_item(ctx.profile))
+    return srs.warmup_size(ctx.settings, minutes, attempts.seconds_per_item(ctx.profile),
+                           srs.practised_days(ctx.profile.data["days"], ctx.today))
 
 
 def log_word(ctx, word: Word, context: str, outcome: str, schedule: str | None = None, claimed: bool = False) -> None:
@@ -454,23 +456,33 @@ def run_warmup(ctx) -> WarmupResult | None:
     return result
 
 
+SHOW_FROM_ROUND = 3  # "again until it sticks": from this round a still-missed word shows its answer first
+
+
 def repeat_until_right(ctx, words: list[Word]) -> None:
-    """Missed words come back, shuffled, round after round until each one is answered right.
-    Just for practice: the score and the schedule were already saved."""
+    """Missed words come back, shuffled, round after round until each one sticks. Kind to the kid: almost
+    right (a small slip) counts as stuck, and from round SHOW_FROM_ROUND a word still missed shows its answer
+    first, so the rounds always end. Just for practice: the score and the schedule were already saved."""
     round_no = 0
     while words:
         round_no += 1
         ctx.rng.shuffle(words)
         missed = []
         for i, word in enumerate(words, 1):
+            title = f"{ctx.step}Again until it sticks · round {round_no} · {i} of {len(words)}"
+            if round_no >= SHOW_FROM_ROUND:
+                ui.clear()
+                ui.title(title, "look at it once more, then type it")
+                console.print(word_details(word, hook_for(ctx, word)))
+                hear(ctx, word.de)
+                ui.keys({"": "I've got it"})
             ui.clear()
-            ui.title(f"{ctx.step}Again until it sticks · round {round_no} · {i} of {len(words)}",
-                     "just for practice, no score")
+            ui.title(title, "just for practice, no score")
             outcome = quiz(ctx, word, ctx.rng.choice(("en2de", "de2en")), second_chance=True)
             log_word(ctx, word, "warmup.repeat", CORRECT if outcome in (AUTO_NEXT, ONCE_MORE) else outcome,
                      claimed=outcome == ONCE_MORE)
             if outcome == AUTO_NEXT:
                 ui.pause(auto_seconds(ctx, "right"), skippable=True)
-            elif outcome not in (CORRECT, ONCE_MORE):  # a claim counts here too (it's logged for review)
+            elif outcome not in (CORRECT, ALMOST, ONCE_MORE):  # a claim counts here too (it's logged for review)
                 missed.append(word)
         words = missed

@@ -176,7 +176,7 @@ def welcome(ctx: Context) -> None:
     console.print(Panel(Text.from_markup(
         "[bold]1.[/] Every day, choose [key]1[/]: a vocabulary warm-up, a new paragraph of a story, then one exam practice part\n"
         "   and a look back at earlier ones. Repetition is how it sticks!\n"
-        "   The warm-up starts with 10 words and grows a little every day you practise.\n"
+        "   The warm-up starts with 45 words and grows a little every day you practise.\n"
         "[bold]2.[/] The coloured tag at the top of each screen tells you what to do:\n   "
         + " ".join(f"[bold white on {colour}] {kind.upper()} [/]" for kind, colour in ui.TODO.items()) + "\n"
         "   Type your answers. No ä ö ü ß on your keyboard? Type ae oe ue ss.\n"

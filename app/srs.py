@@ -91,11 +91,21 @@ def session_minutes(settings: dict, data: dict, today: date) -> int:
     return int(budget.get("weekend" if today.weekday() >= 5 else "weekday", 25))
 
 
-def warmup_size(settings: dict, minutes: int, seconds_per_item: float = DEFAULT_SECONDS) -> int:
-    """As many questions as fit in the warm-up's share of the day's minutes, at this kid's pace. Due words
-    that don't fit wait for tomorrow (they keep first place); they are never doubled up."""
-    fits = int(minutes * 60 * WARMUP_SHARE / max(float(seconds_per_item), 5.0))
-    return max(int(settings["warmup_start"]), min(int(settings["warmup_max"]), fits))
+def warmup_size(settings: dict, minutes: int, seconds_per_item: float = DEFAULT_SECONDS,
+                practised_days: int | None = None) -> int:
+    """As many questions as fit in the warm-up's share of the day's minutes, at this kid's pace, but growing
+    slowly: `warmup_start` on the first day, `warmup_growth` more for each day practised before (None: no
+    limit from growth). Due words that don't fit wait for tomorrow (they keep first place); never doubled up."""
+    start = int(settings["warmup_start"])
+    size = min(int(settings["warmup_max"]), int(minutes * 60 * WARMUP_SHARE / max(float(seconds_per_item), 5.0)))
+    if practised_days is not None:
+        size = min(size, start + int(float(settings.get("warmup_growth", 0.52)) * practised_days))
+    return max(start, size)
+
+
+def practised_days(days: dict, today: date) -> int:
+    """Days before today with a finished warm-up (skipped days don't grow the warm-up)."""
+    return sum(1 for d, c in days.items() if d < today.isoformat() and c.get("warmups"))
 
 
 def new_word_cap(settings: dict, size: int) -> int:
@@ -149,9 +159,8 @@ def plan_session(states: dict, words: dict, settings: dict, today: date, size: i
                  allowed: set[str] | None = None, topics: tuple[str, ...] = ()) -> Plan:
     """Fill a warm-up of `size` words: due reviews come first (most overdue first); new words (up to
     `new_allowed`) only take the room the reviews leave, so the words already started never pile up
-    unreviewed. Then extra practice on words already started (weakest, least recent first). If there is
-    still room (early on, few words have been started), it is topped up with new words, so a warm-up is
-    always full while the bank has words left."""
+    unreviewed. Then extra practice on words already started (weakest, least recent first). New words never
+    go over `new_allowed`: early on, when few words have been started, the warm-up is simply shorter."""
     t = today.isoformat()
     shares = settings["bank_shares"]
     due = [wid for wid, s in states.items()
@@ -163,9 +172,6 @@ def plan_session(states: dict, words: dict, settings: dict, today: date, size: i
     started = [wid for wid, s in states.items() if wid in words and s.get("box", 0) >= 1 and wid not in taken]
     started.sort(key=lambda wid: (states[wid].get("last") == t, states[wid]["box"], states[wid].get("last") or ""))
     practice = started[: size - len(new) - len(reviews)]
-    room = size - len(new) - len(reviews) - len(practice)
-    if room > 0:
-        new = pick_new_words(states, words, len(new) + room, shares, allowed, topics)
     return Plan(reviews, new, practice, waiting=len(due) - len(reviews))
 
 

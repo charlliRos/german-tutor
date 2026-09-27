@@ -162,21 +162,32 @@ class Repetition(unittest.TestCase):
 
 
 class RepeatUntilRight(unittest.TestCase):
-    def test_missed_and_almost_words_come_back_until_right(self):
-        from app.answers import ALMOST
+    def run_repeats(self, answers):
         with tempfile.TemporaryDirectory() as tmp:
             ctx = make_ctx(tmp)
-            a, b = ctx.content.words["w1"], ctx.content.words["w2"]
-            answers = {"w1": [WRONG, ALMOST, warmup.AUTO_NEXT], "w2": [warmup.AUTO_NEXT]}
-            asked = []
+            asked, shown = [], []
 
             def quiz(ctx, word, direction, second_chance=False):
                 asked.append(word.id)
                 return answers[word.id].pop(0)
 
-            with mock.patch("app.ui.clear", lambda: None), mock.patch("app.warmup.quiz", quiz), console.capture():
-                warmup.repeat_until_right(ctx, [a, b])
-            self.assertEqual(sorted(asked), ["w1", "w1", "w1", "w2"])
+            with mock.patch("app.ui.clear", lambda: None), mock.patch("app.warmup.quiz", quiz), \
+                    mock.patch("app.ui.keys", lambda options: ""), mock.patch("app.warmup.hear", lambda *a, **k: None), \
+                    mock.patch("app.warmup.word_details", lambda word, hook="": shown.append(word.id) or ""), \
+                    console.capture():
+                warmup.repeat_until_right(ctx, [ctx.content.words[w] for w in answers])
+            return sorted(asked), shown
+
+    def test_missed_words_come_back_until_right_and_almost_counts(self):
+        from app.answers import ALMOST
+        asked, shown = self.run_repeats({"w1": [WRONG, ALMOST], "w2": [warmup.AUTO_NEXT]})
+        self.assertEqual(asked, ["w1", "w1", "w2"])  # a small slip counts as stuck
+        self.assertEqual(shown, [])
+
+    def test_from_round_three_the_answer_is_shown_first(self):
+        asked, shown = self.run_repeats({"w1": [WRONG, WRONG, warmup.AUTO_NEXT]})
+        self.assertEqual(asked, ["w1"] * 3)
+        self.assertEqual(shown, ["w1"])  # round 3: seen once more before typing it
 
 
 class ListenAndType(unittest.TestCase):

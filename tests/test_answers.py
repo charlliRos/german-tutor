@@ -85,6 +85,14 @@ class SpacedRepetition(unittest.TestCase):
         self.assertEqual(srs.warmup_size(self.SETTINGS, 25, 10.0), 90)    # a fast kid gets more
         self.assertEqual(srs.warmup_size(self.SETTINGS, 5), 10)           # never under warmup_start
         self.assertEqual(srs.warmup_size(self.SETTINGS, 300, 5.0), 200)   # never over warmup_max
+        # It grows slowly with the days practised: 10 on the first day, not all that fits at once.
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 25, 10.0, 0), 10)
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 25, 10.0, 10), 15)
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 25, 20.0, 200), 45)  # the time budget still caps it
+        self.assertEqual(srs.warmup_size(self.SETTINGS, 300, 5.0, 365), 199)
+        days = {"2026-01-01": {"warmups": 2}, "2026-01-02": {"units": 1}, "2026-01-03": {"warmups": 1},
+                "2026-01-09": {"warmups": 1}}
+        self.assertEqual(srs.practised_days(days, date(2026, 1, 9)), 2)   # today and reading-only days don't count
         saturday, monday = date(2026, 9, 26), date(2026, 9, 28)
         budget = {"session_minutes": {"weekday": 25, "weekend": 40}}
         self.assertEqual((srs.session_minutes(budget, {}, monday), srs.session_minutes(budget, {}, saturday)), (25, 40))
@@ -99,9 +107,9 @@ class SpacedRepetition(unittest.TestCase):
     def test_plan_mixes_new_reviews_and_practice(self):
         words = {f"d{i}": Word(f"d{i}", "daily", f"w{i}", ["x"], "verb", rank=i) for i in range(30)}
         words |= {f"s{i}": Word(f"s{i}", "stem", f"s{i}", ["x"], "verb", rank=i) for i in range(30)}
-        # Day 1: nothing started, so the whole warm-up is new words.
+        # Day 1: nothing started: only the day's new words (a short warm-up, never more new words than allowed).
         plan = srs.plan_session({}, words, self.SETTINGS, self.today, size=10, new_allowed=3)
-        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (10, 0, 0))
+        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (3, 0, 0))
         # Later: 12 due, 5 started but not due, room for 10 -> the reviews fill it: no new words today.
         states = {f"d{i}": {"box": 1, "due": f"2026-01-0{1 + i % 9}", "last": "2026-01-01"} for i in range(12)}
         states |= {f"s{i}": {"box": 2, "due": "2026-02-01", "last": "2026-01-05"} for i in range(5)}
@@ -111,10 +119,9 @@ class SpacedRepetition(unittest.TestCase):
         plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=14, new_allowed=3)
         self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (2, 12, 0))
         self.assertTrue(set(plan.new).isdisjoint(states))
-        # Extra practice later the same day: due words, then weakest started words, then (only because
-        # too few words have been started yet) topped up with new words to fill the warm-up.
+        # Extra practice later the same day: due words, then weakest started words; no new words to fill it up.
         plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=20, new_allowed=0)
-        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (3, 12, 5))
+        self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (0, 12, 5))
         plan = srs.plan_session(states, words, self.SETTINGS, self.today, size=15, new_allowed=0)
         self.assertEqual((len(plan.new), len(plan.reviews), len(plan.practice)), (0, 12, 3))
 

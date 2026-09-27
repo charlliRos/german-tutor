@@ -18,8 +18,9 @@ DEFAULTS = {
     # Minutes a day (warm-up + reading): the warm-up holds as many questions as fit at the kid's own pace,
     # due words first; the rest waits for tomorrow. A kid's profile can have its own "session_minutes".
     "session_minutes": {"weekday": 25, "weekend": 40},
-    "warmup_start": 10,          # fewest questions in a warm-up
+    "warmup_start": 45,          # questions in the first warm-up (and never fewer)
     "warmup_max": 200,           # most questions in a warm-up
+    "warmup_growth": 0.52,       # more questions per day practised (45 -> 200 in about 10 months of daily practice)
     "new_word_share": 0.25,      # part of the day's first warm-up that is new words
     "min_new_words": 3,          # at least this many new words per day, when the due reviews leave room
     "new_word_max": 15,          # at most this many new words per day (more are forgotten before they stick)
