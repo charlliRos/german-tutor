@@ -12,7 +12,7 @@ from rich.table import Table
 from rich.text import Text
 
 from . import attempts, genders, goals, grammar, resume, sentences, sfx, srs, ui, verbs
-from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german, normalize
+from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german, looks_random, normalize
 from .config import DEFAULTS
 from .content import BANK_LABELS, Word, words_sharing_english
 from .sentences import Gap
@@ -143,16 +143,19 @@ def quiz(ctx, word: Word, direction: str, second_chance: bool = False) -> str:
         console.print(ui.umlaut_tip())
         answer = ui.ask_answer("German:")
         check = _synonym_check(ctx, answer, word, check_german(answer, word, ctx.content.real_de))
+        expected, cue = word.de, ", ".join(word.en[:2])
     else:
         ui.todo("type", what="Type what it means in English.")
         console.print(ui.german(word.de, "German → English", word=True))
         hear(ctx, word.de)
         answer = ui.ask_answer("English:")
         check = check_english(answer, word, ctx.content.real_en)
+        expected, cue = (word.en[0] if word.en else ""), word.de
     if ui.paste_count() > pastes:
         check = PASTED
         ctx.profile.count(ctx.today, caught=1)
-    return _result(ctx, word, answer, check, second_chance, word.de if direction == "en2de" else "", direction)
+    return _result(ctx, word, answer, check, second_chance, word.de if direction == "en2de" else "", direction,
+                   expected, cue)
 
 
 def gap_quiz(ctx, word: Word, gap: Gap, second_chance: bool = False) -> str:
@@ -168,7 +171,7 @@ def gap_quiz(ctx, word: Word, gap: Gap, second_chance: bool = False) -> str:
     if ui.paste_count() > pastes:
         check = PASTED
         ctx.profile.count(ctx.today, caught=1)
-    return _result(ctx, word, answer, check, second_chance, gap.sentence, "gap")
+    return _result(ctx, word, answer, check, second_chance, gap.sentence, "gap", gap.form)
 
 
 DICTATION_RIGHT, DICTATION_ALMOST = 0.6, 0.4  # share of the sentence's words right, with the word itself right
@@ -202,12 +205,19 @@ def dictation_quiz(ctx, word: Word, second_chance: bool = False) -> str:
             check = Check(ALMOST, "The word is right; some of the sentence isn't yet.", overridable=False)
         else:
             check = Check(WRONG, f"Listen for {gap.form if gap else word.de}.", overridable=False)
-    return _result(ctx, word, answer, check, second_chance, sentence, "dictation")
+    return _result(ctx, word, answer, check, second_chance, sentence, "dictation", sentence)
 
 
-def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say: str, task: str) -> str:
+# The last answer: was it skipped ("?") or a guess? The warm-up reads it to reward effort (warmup.run_warmup).
+LAST_TRY = {"skipped": False, "guessed": False}
+
+
+def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say: str, task: str,
+            expected: str = "", cue: str = "") -> str:
     """Show how it went and the word card, say `say` (if any), and ask to go on. Returns the outcome."""
     attempts.note(answer, check.outcome, check.message, task, pasted=check is PASTED)
+    guessed = check is PASTED or bool(answer and check.outcome == WRONG and looks_random(answer, expected, cue))
+    LAST_TRY.update(skipped=not answer, guessed=guessed)
     if not answer:
         console.print("[hint]Here it is:[/]")
         style = "bad"
@@ -216,6 +226,9 @@ def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say
                         WRONG: ("bad", f"{icon('bad')} Not quite")}[check.outcome]
         console.print(f"[{style}]{label}[/] {ui.escape(check.message)}")
         sfx.play(ctx.audio, {CORRECT: "right", ALMOST: "almost", WRONG: "wrong"}[check.outcome])
+        if guessed and not second_chance:
+            console.print(f"[warn]That looked like a guess, so this word comes back once more. Guessing makes "
+                          f"the warm-up longer; {ui.DONT_KNOW} is fine when you really don't know.[/]")
     border = {"good": "green", "almost": "dark_orange", "bad": "red"}[style]
     console.print(Panel(word_details(word, hook_for(ctx, word) if check.outcome != CORRECT else ""),
                         border_style=border, padding=(0, 2)))
@@ -288,6 +301,31 @@ def log_speaking(ctx, word: Word, context: str, heard: bool, schedule: str | Non
                     competency="speaking.pronunciation", subcompetency=attempts.word_subcompetency(word),
                     context=context, score=attempts.right_or_wrong(heard), grader=attempts.speech_grader(ctx),
                     schedule=schedule, store="vocab" if schedule else None)
+
+
+STREAK = 5            # right in a row (first try): one "strengthen" question less today
+SKIPS_IN_A_ROW = 3    # this many "?" in a row: the word card again, and the word comes back once more
+AGAIN_AFTER = 4       # a word brought back for a guess or a skip comes this many questions later
+
+
+def _drop_practice(queue: list) -> bool:
+    """The reward for a streak: the last "strengthen" question still to come is dropped. False: none left."""
+    for i in range(len(queue) - 1, -1, -1):
+        if queue[i][1] == "practice":
+            del queue[i]
+            return True
+    return False
+
+
+def _look_again(ctx, word: Word, skips: int) -> None:
+    """Many "?" in a row: a proper look at the word before going on (it comes back in a moment)."""
+    ui.clear()
+    ui.title(f"{ctx.step}{skips} × {ui.DONT_KNOW} in a row", "take a good look at this one")
+    console.print(f"[warn]{ui.DONT_KNOW} is fine now and then, but not every time. Look at this word carefully: "
+                  "it comes back in a moment.[/]")
+    console.print(Panel(word_details(word, hook_for(ctx, word)), border_style="yellow", padding=(0, 2)))
+    hear(ctx, word.de)
+    ui.keys({"": "I've got it"})
 
 
 def run_warmup(ctx) -> WarmupResult | None:
@@ -386,15 +424,18 @@ def run_warmup(ctx) -> WarmupResult | None:
         mark["cards"].remove(wid)
         ctx.profile.save()
 
-    for pos, (wid, kind) in enumerate(queue, queue_total - len(queue) + 1):
+    streak, skips = mark.get("streak", 0), mark.get("skips", 0)
+    while queue:
+        wid, kind = queue[0]
+        pos = queue_total - len(queue) + 1
         word, state = words[wid], ctx.profile.word_state(wid)
         auto = None
         ui.clear()  # a fresh screen per question, so earlier cards and answers can't be copied
-        sub = ("from your reading" if wid in from_reading
+        sub = ("once more: no guessing" if kind == "again" else "from your reading" if wid in from_reading
                else "a word to strengthen" if kind == "practice" else "")
         ui.title(f"{ctx.step}Word {pos} of {queue_total}", sub)
         spoken = False
-        if kind != "new" and ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:
+        if kind not in ("new", "again") and ctx.audio.can_speak and ctx.rng.random() < ctx.settings["speak_chance"]:
             spoken = read_aloud(ctx, word)
             practised = spoken and kind == "review"
             if practised:
@@ -407,20 +448,26 @@ def run_warmup(ctx) -> WarmupResult | None:
                 ui.timed_keys({"": "type it"}, 2)
                 ui.clear()
                 ui.title(f"{ctx.step}Word {pos} of {queue_total}", sub)
+        queue.pop(0)
         if not spoken:
+            LAST_TRY.update(skipped=False, guessed=False)
             outcome = auto = ask_word(ctx, word, kind)
             claimed = outcome == ONCE_MORE
             if claimed:
                 not_yet.append(word)  # an answer the app didn't know: one more go, so it can't skip a word
             if outcome in (AUTO_NEXT, ONCE_MORE):
                 outcome = CORRECT
-            schedule = "practice" if kind in ("practice", "reading") else "result"
+            schedule = "practice" if kind in ("practice", "reading", "again") else "result"
             (srs.apply_practice if schedule == "practice" else srs.apply_result)(state, outcome, ctx.today)
             log_word(ctx, word, f"warmup.{kind}", outcome, schedule, claimed)
-            result.correct += outcome == CORRECT
-            result.almost += outcome == ALMOST
+            if kind != "again":  # a word brought back for a guess or a skip doesn't count twice
+                result.correct += outcome == CORRECT
+                result.almost += outcome == ALMOST
+                ctx.profile.count(ctx.today, words=1, right=int(outcome == CORRECT), almost=int(outcome == ALMOST),
+                                  new=int(kind == "new"))
             if outcome == WRONG:
-                result.to_practise.append(word)
+                if kind != "again":
+                    result.to_practise.append(word)
                 if srs.is_leech(state):
                     ask_hook(ctx, word)
                 if srs.parked(state, ctx.today):
@@ -428,14 +475,22 @@ def run_warmup(ctx) -> WarmupResult | None:
                                   f"It comes back on {state['due']}.[/]")
             if outcome != CORRECT:
                 not_yet.append(word)
-            ctx.profile.count(ctx.today, words=1, right=int(outcome == CORRECT), almost=int(outcome == ALMOST),
-                              new=int(kind == "new"))
+            # Effort: right answers in a row make the warm-up shorter; guesses and many "?" make it longer.
+            skips = skips + 1 if LAST_TRY["skipped"] else 0
+            streak = streak + 1 if outcome == CORRECT and not claimed else 0
+            if streak and streak % STREAK == 0 and _drop_practice(queue):
+                queue_total -= 1
+                console.print(f"[good]{icon('party')} {STREAK} in a row! One question less today.[/]")
+            if kind != "again" and (LAST_TRY["guessed"] or skips >= SKIPS_IN_A_ROW):
+                if skips >= SKIPS_IN_A_ROW:
+                    _look_again(ctx, word, skips)
+                queue.insert(min(len(queue), AGAIN_AFTER), (wid, "again"))
+                queue_total += 1
         if wid in reading_queue:
             reading_queue.remove(wid)  # met again: done (it stays in the normal repetition schedule)
         # The bookmark moves past this word and keeps the counts so far.
-        if mark["queue"]:
-            mark["queue"].pop(0)
-        mark.update(correct=result.correct, almost=result.almost, spoken=result.spoken,
+        mark.update(queue=[list(q) for q in queue], queue_total=queue_total, streak=streak, skips=skips,
+                    correct=result.correct, almost=result.almost, spoken=result.spoken,
                     to_practise=[w.id for w in result.to_practise], not_yet=[w.id for w in not_yet])
         ctx.profile.save()
         if auto == AUTO_NEXT:
