@@ -24,6 +24,25 @@ def _file_hash(name: str) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest() if path.exists() else ""
 
 
+def version() -> str:
+    """The installed version (git commit), '' when it isn't a git copy."""
+    return _git("rev-parse", "HEAD").stdout.strip() if shutil.which("git") and (ROOT / ".git").exists() else ""
+
+
+def start_latest(argv: list[str]) -> int | None:
+    """`gtutor --latest`: update first, then start. When the update changed the app, it starts again as a new
+    process (the running one still has the old code loaded) and returns its exit code; None: carry on here.
+    No internet or no git: it just starts the version that is here."""
+    before = version()
+    if run_update() != 0:
+        console.print("[hint]Starting the version you have.[/]")
+        return None
+    if not before or version() == before:
+        return None
+    args = [a for a in argv if a != "--latest"]
+    return subprocess.run([sys.executable, str(ROOT / "tutor.py"), *args], cwd=ROOT).returncode
+
+
 def run_update() -> int:
     if not shutil.which("git") or not (ROOT / ".git").exists():
         console.print("[warn]This copy wasn't installed with git, so it can't update itself.[/]\n"

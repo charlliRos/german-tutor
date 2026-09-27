@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import random
+import sys
 from dataclasses import dataclass
 from datetime import date
 
@@ -461,12 +462,19 @@ def main(argv: list[str] | None = None) -> int:
                              "host / join ADDRESS: a duel with someone on the same Wi-Fi")
     parser.add_argument("address", nargs="?", help="join: the host's address, as its screen shows it")
     parser.add_argument("--port", type=int, default=lan.PORT, help=argparse.SUPPRESS)
+    parser.add_argument("--latest", action="store_true",
+                        help="update to the latest app, words and books first, then start")
     args = parser.parse_args(argv)
     if args.command == "join" and not args.address:
         parser.error("join needs the host's address, e.g. gtutor join 192.168.1.23")
     if args.command == "update":
         from .update import run_update
         return run_update()
+    if args.latest:
+        from .update import start_latest
+        code = start_latest(sys.argv[1:] if argv is None else list(argv))
+        if code is not None:
+            return code
     if args.command == "report":
         return run_report(args.profile)
 

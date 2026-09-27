@@ -152,6 +152,11 @@ gtutor update
 ```
 It downloads the changes from GitHub, installs new libraries and downloads the voice and speech checker if they are missing. It never touches progress, and your own `config.json` edits are kept. (If the menu says the speech checker isn't downloaded yet, run `gtutor update` once more.)
 
+Or update and start in one go (handy for the kids' shortcut; without internet it just starts the version you have):
+```
+gtutor --latest
+```
+
 If you installed from a ZIP (no git), download the new ZIP instead, unzip it over the old folder, and keep your `data/` folder.
 
 ## Settings
