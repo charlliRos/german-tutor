@@ -275,12 +275,12 @@ KEYBOARD_ROWS = ("qwertzuiop", "qwertyuiop", "asdfghjkl", "yxcvbnm", "zxcvbnm", 
 GUESS_SIMILAR = 0.5  # an answer at least this close to the right one is an honest try, never a guess
 
 
-def looks_random(answer: str, expected: str, cue: str = "") -> bool:
+def looks_random(answer: str, expected: str, cue: str = "", real: frozenset[str] = frozenset()) -> bool:
     """A wrong answer that shows no effort: the cue typed back, one letter for a longer word, or keyboard
-    mashing (no vowels, a letter three times in a row, a run of keys like "asdf"). Honest mistakes (a real
-    attempt, even a wrong word) are never guesses."""
+    mashing (5+ letters without a vowel, a letter four times in a row, a run of keys like "asdf"). Honest
+    mistakes are never guesses: a real attempt, a word from the word list (`real`, normalised), a number."""
     a, e = normalize(answer), normalize(expected)
-    if not a:
+    if not a or a in real:
         return False
     if cue and a == normalize(cue) and a != e:
         return True
@@ -289,9 +289,11 @@ def looks_random(answer: str, expected: str, cue: str = "") -> bool:
     if difflib.SequenceMatcher(a=a, b=e, autojunk=False).ratio() >= GUESS_SIMILAR:
         return False
     for t in a.split():
-        if len(t) >= 3 and not any(c in "aeiouy" for c in t):
+        if any(c.isdigit() for c in t) or t in real:
+            continue
+        if len(t) >= 5 and not any(c in "aeiouy" for c in t):
             return True
-        if re.search(r"(.)\1\1", t):
+        if re.search(r"(.)\1\1\1", t):
             return True
         if len(t) >= 4 and any(t in row or t[::-1] in row for row in KEYBOARD_ROWS):
             return True

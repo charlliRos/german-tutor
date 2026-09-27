@@ -216,7 +216,8 @@ def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say
             expected: str = "", cue: str = "") -> str:
     """Show how it went and the word card, say `say` (if any), and ask to go on. Returns the outcome."""
     attempts.note(answer, check.outcome, check.message, task, pasted=check is PASTED)
-    guessed = check is PASTED or bool(answer and check.outcome == WRONG and looks_random(answer, expected, cue))
+    guessed = check is PASTED or bool(answer and check.outcome == WRONG and looks_random(
+        answer, expected, cue, ctx.content.real_de | ctx.content.real_en))
     LAST_TRY.update(skipped=not answer, guessed=guessed)
     if not answer:
         console.print("[hint]Here it is:[/]")
@@ -243,6 +244,7 @@ def _result(ctx, word: Word, answer: str, check: Check, second_chance: bool, say
         options[ui.CLAIM_KEY] = ui.CLAIM_LABEL
         ui.claim_line()
     if _listen_options(ctx, word, options, auto=auto_seconds(ctx, "wrong")) == ui.CLAIM_KEY:
+        LAST_TRY["guessed"] = False  # a claim ("my answer was right too") is not a guess
         console.print("[good]OK, counted as correct.[/]" + ("" if second_chance else
                       " [hint]It comes back once more at the end.[/]"))
         sfx.play(ctx.audio, "right")
@@ -306,6 +308,14 @@ def log_speaking(ctx, word: Word, context: str, heard: bool, schedule: str | Non
 STREAK = 5            # right in a row (first try): one "strengthen" question less today
 SKIPS_IN_A_ROW = 3    # this many "?" in a row: the word card again, and the word comes back once more
 AGAIN_AFTER = 4       # a word brought back for a guess or a skip comes this many questions later
+
+
+def _bookmark(ctx, mark: dict, queue: list, queue_total: int, streak: int, skips: int, result, not_yet: list) -> None:
+    """Today's warm-up bookmark: the questions still to come, the counts so far, saved at once."""
+    mark.update(queue=[list(q) for q in queue], queue_total=queue_total, streak=streak, skips=skips,
+                correct=result.correct, almost=result.almost, spoken=result.spoken,
+                to_practise=[w.id for w in result.to_practise], not_yet=[w.id for w in not_yet])
+    ctx.profile.save()
 
 
 def _drop_practice(queue: list) -> bool:
@@ -453,46 +463,47 @@ def run_warmup(ctx) -> WarmupResult | None:
             LAST_TRY.update(skipped=False, guessed=False)
             outcome = auto = ask_word(ctx, word, kind)
             claimed = outcome == ONCE_MORE
-            if claimed:
+            if claimed and word not in not_yet:
                 not_yet.append(word)  # an answer the app didn't know: one more go, so it can't skip a word
             if outcome in (AUTO_NEXT, ONCE_MORE):
                 outcome = CORRECT
-            schedule = "practice" if kind in ("practice", "reading", "again") else "result"
-            (srs.apply_practice if schedule == "practice" else srs.apply_result)(state, outcome, ctx.today)
+            # A word brought back for a guess or a skip ("again") was graded already: practice only.
+            schedule = None if kind == "again" else "practice" if kind in ("practice", "reading") else "result"
+            if schedule:
+                (srs.apply_practice if schedule == "practice" else srs.apply_result)(state, outcome, ctx.today)
             log_word(ctx, word, f"warmup.{kind}", outcome, schedule, claimed)
             if kind != "again":  # a word brought back for a guess or a skip doesn't count twice
                 result.correct += outcome == CORRECT
                 result.almost += outcome == ALMOST
                 ctx.profile.count(ctx.today, words=1, right=int(outcome == CORRECT), almost=int(outcome == ALMOST),
                                   new=int(kind == "new"))
-            if outcome == WRONG:
-                if kind != "again":
-                    result.to_practise.append(word)
+            if outcome == WRONG and kind != "again":
+                result.to_practise.append(word)
+            if outcome != CORRECT and word not in not_yet:
+                not_yet.append(word)
+            skips = skips + 1 if LAST_TRY["skipped"] else 0
+            streak = streak + 1 if outcome == CORRECT and not claimed else 0
+            _bookmark(ctx, mark, queue, queue_total, streak, skips, result, not_yet)  # graded: never asked twice
+            if outcome == WRONG and kind != "again":
                 if srs.is_leech(state):
                     ask_hook(ctx, word)
                 if srs.parked(state, ctx.today):
                     console.print(f"[note]Parked {ui.escape(word.de)} for {srs.PARK_DAYS} days: a break helps. "
                                   f"It comes back on {state['due']}.[/]")
-            if outcome != CORRECT:
-                not_yet.append(word)
             # Effort: right answers in a row make the warm-up shorter; guesses and many "?" make it longer.
-            skips = skips + 1 if LAST_TRY["skipped"] else 0
-            streak = streak + 1 if outcome == CORRECT and not claimed else 0
             if streak and streak % STREAK == 0 and _drop_practice(queue):
                 queue_total -= 1
                 console.print(f"[good]{icon('party')} {STREAK} in a row! One question less today.[/]")
             if kind != "again" and (LAST_TRY["guessed"] or skips >= SKIPS_IN_A_ROW):
-                if skips >= SKIPS_IN_A_ROW:
-                    _look_again(ctx, word, skips)
                 queue.insert(min(len(queue), AGAIN_AFTER), (wid, "again"))
                 queue_total += 1
+                _bookmark(ctx, mark, queue, queue_total, streak, skips, result, not_yet)  # kept if they quit now
+                if skips >= SKIPS_IN_A_ROW:
+                    _look_again(ctx, word, skips)
         if wid in reading_queue:
             reading_queue.remove(wid)  # met again: done (it stays in the normal repetition schedule)
-        # The bookmark moves past this word and keeps the counts so far.
-        mark.update(queue=[list(q) for q in queue], queue_total=queue_total, streak=streak, skips=skips,
-                    correct=result.correct, almost=result.almost, spoken=result.spoken,
-                    to_practise=[w.id for w in result.to_practise], not_yet=[w.id for w in not_yet])
-        ctx.profile.save()
+        # The bookmark moves past this word and keeps the counts so far (and any drop or requeue).
+        _bookmark(ctx, mark, queue, queue_total, streak, skips, result, not_yet)
         if auto == AUTO_NEXT:
             ui.pause(auto_seconds(ctx, "right"), skippable=True)
 

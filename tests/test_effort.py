@@ -16,8 +16,13 @@ class Guesses(unittest.TestCase):
 
     def test_honest_mistakes_are_not_guesses(self):
         for answer, expected in (("der Hunt", "der Hund"), ("die Katze", "der Hund"), ("schwer", "leicht"),
-                                 ("house", "the dog"), ("tv", "der Fernseher"), ("", "der Hund")):
+                                 ("house", "the dog"), ("tv", "der Fernseher"), ("", "der Hund"),
+                                 ("100", "hundred"), ("die Großstadt", "das Dorf"), ("das Fitnessstudio", "das Kino"),
+                                 ("die SMS", "der Brief"), ("bzw.", "oder"), ("shh", "quiet"), ("Pst!", "Ruhe")):
             self.assertFalse(looks_random(answer, expected, cue="dog"), answer)
+        # A word from the word list is an honest try, even when it looks like mashing.
+        self.assertFalse(looks_random("Wert", "der Preis", real=frozenset({"wert", "der wert"})))
+        self.assertTrue(looks_random("wert", "der Preis"))
 
 
 class Effort(unittest.TestCase):
@@ -57,6 +62,32 @@ class Effort(unittest.TestCase):
         asked = self.run_warmup(lambda n, word, kind: (WRONG, n < 3, False))
         self.assertEqual(sum(k == "again" for _, k in asked), 1)  # only the third "?" in a row
         self.assertIn((asked[2][0], "again"), asked)
+
+    def test_quitting_on_the_look_again_screen_never_asks_the_word_twice(self):
+        from app import resume
+        from app.ui import QuitSession
+
+        def keys(options):
+            if "I've got it" in options.values():
+                raise QuitSession
+            return ""
+
+        with mock.patch("app.ui.keys", keys), self.assertRaises(QuitSession):
+            self.run_warmup(lambda n, word, kind: (WRONG, n < 3, False))
+        mark = resume.part(self.ctx, "warmup")
+        queued = [w for w, _ in mark["queue"]]
+        self.assertEqual(self.ctx.profile.day(self.ctx.today)["words"], 3)  # three answers, counted once
+        self.assertEqual(mark["queue_total"] - len(mark["queue"]), 3)       # the bookmark is past all three
+        self.assertEqual([k for _, k in mark["queue"]].count("again"), 1)   # and the "again" question is kept
+        self.assertEqual(len(queued), len(set(queued)))                     # no word comes twice
+
+    def test_a_missed_again_question_neither_repeats_twice_nor_counts_twice(self):
+        repeats = []
+        with mock.patch("app.warmup.repeat_until_right", lambda ctx, words: repeats.extend(w.id for w in words)):
+            asked = self.run_warmup(lambda n, word, kind: (WRONG, False, n == 0))
+        first = asked[0][0]
+        self.assertEqual(repeats.count(first), 1)
+        self.assertEqual(self.ctx.profile.data["vocab"][first]["wrong"], 1)  # the "again" miss doesn't add one
 
     def test_right_in_a_row_drops_practice_questions(self):
         queue = [("a", "review"), ("b", "practice"), ("c", "new"), ("d", "practice"), ("e", "review")]
