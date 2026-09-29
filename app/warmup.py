@@ -132,8 +132,8 @@ def _synonym_check(ctx, answer: str, word: Word, check: Check) -> Check:
     for other in words_sharing_english(ctx.content, word):
         forms = [other.de, *other.de_alt]
         if normalize(answer) in {normalize(d) for d in forms}:
-            # Capitals as in de-tutor's key, which lists a synonym as written and with a capital first letter only.
-            if capital_slip(answer, forms, first_lower=False):
+            # Capitals as for the word's own forms: as written, first letter capital or small, or ALL CAPS.
+            if capital_slip(answer, forms):
                 return Check(ALMOST, capital_message(answer, next(d for d in forms if normalize(d) == normalize(answer))))
             return Check(CORRECT, f"{other.de} means that too. We were thinking of {word.de}: good to know both!")
     return check

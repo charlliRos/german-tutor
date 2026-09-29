@@ -47,8 +47,8 @@ class Capitals(unittest.TestCase):
         self.assertEqual(check_german("DER HUND", self.hund).outcome, CORRECT)
 
     def test_a_synonym_is_judged_on_capitals_too(self):
-        """As de-tutor's key: another word's German counts, written as it is, with a capital first letter, or
-        ALL CAPS; other capitals are a slip."""
+        """As de-tutor's key: another word's German counts as written, with its first letter capital or small,
+        or ALL CAPS; other capitals are a slip."""
         handy = Word("n2", "daily", "das Handy", ["mobile phone"], "noun")
         mobil = Word("n3", "daily", "das Mobiltelefon", ["mobile phone"], "noun")
         ctx = SimpleNamespace(content=SimpleNamespace(words={"n2": handy, "n3": mobil}))
@@ -60,6 +60,14 @@ class Capitals(unittest.TestCase):
             self.assertEqual(check(typed).outcome, CORRECT, typed)
         for typed in ("das mobiltelefon", "das MobilTelefon"):
             self.assertEqual(check(typed).outcome, ALMOST, typed)
+
+    def test_a_synonym_may_start_with_a_small_letter_like_the_word_itself(self):
+        bald = Word("p1", "daily", "Bis bald.", ["see you"], "phrase")
+        spaeter = Word("p2", "daily", "Bis später.", ["see you"], "phrase")
+        ctx = SimpleNamespace(content=SimpleNamespace(words={"p1": bald, "p2": spaeter}))
+        for typed in ("bis später.", "Bis später.", "bis spaeter"):
+            got = warmup._synonym_check(ctx, typed, bald, check_german(typed, bald))
+            self.assertEqual(got.outcome, CORRECT, typed)
 
 
 class LeechInTheWarmup(unittest.TestCase):
