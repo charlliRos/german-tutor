@@ -12,7 +12,8 @@ from rich.table import Table
 from rich.text import Text
 
 from . import attempts, genders, goals, grammar, resume, sentences, sfx, srs, ui, verbs
-from .answers import ALMOST, CORRECT, WRONG, Check, check_english, check_german, looks_random, normalize
+from .answers import (ALMOST, CORRECT, WRONG, Check, capital_message, capital_slip, check_english, check_german,
+                      looks_random, normalize)
 from .config import DEFAULTS
 from .content import BANK_LABELS, Word, words_sharing_english
 from .sentences import Gap
@@ -129,7 +130,11 @@ def _synonym_check(ctx, answer: str, word: Word, check: Check) -> Check:
     if check.outcome != WRONG or not normalize(answer):
         return check
     for other in words_sharing_english(ctx.content, word):
-        if normalize(answer) in {normalize(d) for d in (other.de, *other.de_alt)}:
+        forms = [other.de, *other.de_alt]
+        if normalize(answer) in {normalize(d) for d in forms}:
+            # Capitals as in de-tutor's key, which lists a synonym as written and with a capital first letter only.
+            if capital_slip(answer, forms, first_lower=False):
+                return Check(ALMOST, capital_message(answer, next(d for d in forms if normalize(d) == normalize(answer))))
             return Check(CORRECT, f"{other.de} means that too. We were thinking of {word.de}: good to know both!")
     return check
 

@@ -6,12 +6,15 @@ dependencies. **The test vectors in [`tests/vectors/text_scorer.json`](../tests/
 contract.** An implementation is correct when it passes all of them. `tests/test_text_scorer_vectors.py` runs
 them against this app.
 
-Scorer version: `gtutor.answers/4` (the `grader` field in the answer log). Bump it when a verdict changes.
+Scorer version: `gtutor.answers/5` (the `grader` field in the answer log). Bump it when a verdict changes.
 Version 2 (2026-09-25): a German noun typed in lower case is `almost`, no longer `correct`.
 Version 3 (2026-09-26): English answers accept British/American spelling and contractions, and get
 `almost` for the other number, one or two extra words, or another word order (step 3b, 4–5).
 Version 4 (2026-09-27): several English meanings typed together ("to go / to walk") are `correct` when every
 one is a right meaning (step 3b, 4a).
+Version 5 (2026-09-29): German capitals are judged as in de-tutor and DARES text_tolerant/1 (owner's decision):
+any capital difference from the item, other than a capital or small first letter or ALL CAPS, is `almost`
+("DIE Brücke", "DAS CAFé", "die Email" for "die E-Mail"); before, only a noun typed small was (step 3a, 2).
 
 ## Verdicts
 
@@ -48,6 +51,12 @@ Implementation note for `no_std`: steps 1 and 4 need case and decomposition tabl
 input, tables for U+0000–U+017F (Basic Latin, Latin-1 Supplement, Latin Extended-A) are enough. Characters
 outside that range may be left unchanged. Declare this if you do it; no vector depends on it.
 
+`cased(x)`: like normalise, but without lower-casing in step 1, and step 3 also maps `Ä→Ae`, `Ö→Oe`,
+`Ü→Ue`, `ẞ→ss` (so `É→E` in step 4). Used only to compare capitals.
+
+`all_caps(x)` (on the raw answer after NFC): at least one capital and no lower-case letter, where lower case
+is `a–z ä ö ü é` and capitals are `A–Z Ä Ö Ü ẞ É`; `ß` and everything else count as neither (OLR's letters).
+
 `bare(x)`: like normalise, but first map `ä→a`, `ö→o`, `ü→u`, `ß→s` (to spot a forgotten umlaut).
 
 ## Step 2: typo rule
@@ -65,10 +74,13 @@ nouns: without its article) is in `real`, the verdict is `wrong` with the messag
 ## Step 3a: German answers (`check_german`)
 
 1. Empty after normalising → `wrong`, not overridable.
-2. Equal to any normalised `de` / `de_alt` → `correct`, **unless a word that the matching candidate writes
-   with a capital letter was typed in lower case** (not counting the first word, which may only be capital
-   because it starts the phrase) → `almost`, "Nouns start with a capital letter in German". Compare the raw
-   answer's words with the candidate's words by their normalised form.
+2. Equal to any normalised `de` / `de_alt` → `correct`, **unless its capitals are wrong** → `almost`.
+   The capitals are right when `cased(answer)` equals `cased(v)` for some candidate `v`, as written or with
+   its first letter made capital or small (a phrase may start either way), or when `all_caps(answer)`.
+   Message: "Nouns start with a capital letter in German: …" when a word the candidate writes with a capital
+   (not the first) was typed small and the answer has no capital after its first character; otherwise
+   "Check the capitals: …". In the app, a synonym from the word bank (see below) is judged the same way,
+   but as de-tutor's key lists it: as written or with a capital first letter, not a small one.
 3. For each candidate (`de`, then each `de_alt`), in order; the first rule that fires decides:
    - **Nouns with an article** (`pos = noun` and the candidate starts with der/die/das). Split the article
      off both the answer and the candidate.
@@ -109,10 +121,10 @@ nouns: without its article) is in `real`, the verdict is `wrong` with the messag
 
 These are stated limits, not bugs:
 
-- **Capitals are judged only on otherwise-correct German answers**, and never on the first word. A
-  misspelled answer is judged by its spelling first. An answer written ALL IN CAPITALS gets full credit, as
-  DARES's text_tolerant/1 does since DP2b (owner's ruling); here it always did, since only a lower-case noun
-  is flagged.
+- **Capitals are judged only on otherwise-correct German answers**, and never on the first letter. A
+  misspelled answer, or one missing its article or "sich", is judged by that first and its capitals are not
+  looked at. An answer written ALL IN CAPITALS gets full credit, as DARES's text_tolerant/1 does since DP2b
+  (owner's ruling); capitals on only some letters ("DIE Brücke") are a slip.
 - **Meanings the item doesn't list are wrong.** In the app, a German synonym from the word bank is caught by a
   separate step (`warmup._synonym_check`), and the learner can claim "my answer was right too". Both are
   recorded next to the machine verdict, never instead of it.
@@ -123,7 +135,7 @@ These are stated limits, not bugs:
 
 ## Test vectors
 
-`tests/vectors/text_scorer.json`: 48 cases covering `ue` for `ü`, `ss` for `ß`, a missing capital, a
+`tests/vectors/text_scorer.json`: 54 cases covering `ue` for `ü`, `ss` for `ß`, missing or partly capitals, a
 missing article, a wrong article, typos, swapped letters (short and long words), a wrong-but-real word in
 both languages (with a positive control each), an English word typed for German, listed guesses and
 empty answers.
@@ -138,3 +150,7 @@ written with the rules; the 7 that accept or soften an answer (`en-british-ameri
 `en-contraction`, `en-other-number`, `en-extra-words`, `en-word-order`, `en-ise-exception`) fail against
 version 2, the 5 that must stay wrong pass on both. Version 4 added 3 cases: `en-several-right-meanings` and
 `en-several-meanings-with-comma-or` fail against version 3, `en-several-meanings-one-wrong` passes on both.
+Version 5 added 6 capital cases, checked against de-tutor's key for the same word and answer:
+`de-email-small-m`, `de-partly-capitals` and `de-caps-with-small-e-acute` fail against version 4;
+`de-all-caps`, `de-first-word-capital` and `de-all-caps-e-acute` pass on both. `de-hyphen-ignored` now types
+`die EMail` (as DARES's vector does), since `die Email` differs in capitals too.

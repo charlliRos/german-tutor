@@ -15,6 +15,7 @@ CORRECT, ALMOST, WRONG = "correct", "almost", "wrong"
 
 ARTICLES = {"der", "die", "das"}
 _UMLAUTS = str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss"})
+_CASED_UMLAUTS = str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss", "ẞ": "ss", "Ä": "Ae", "Ö": "Oe", "Ü": "Ue"})
 _EN_PREFIXES = ("to ", "a ", "an ", "the ")
 
 
@@ -29,10 +30,11 @@ class Check:
     overridable: bool = True  # may the kid say "my answer was right too"?
 
 
-def normalize(text: str) -> str:
-    text = unicodedata.normalize("NFC", text or "").lower()
+def normalize(text: str, keep_case: bool = False) -> str:
+    text = unicodedata.normalize("NFC", text or "")
+    text = text if keep_case else text.lower()
     text = re.sub(r"\([^)]*\)", " ", text)  # drop "(something)" hints
-    text = text.translate(_UMLAUTS)
+    text = text.translate(_CASED_UMLAUTS if keep_case else _UMLAUTS)
     text = "".join(c for c in unicodedata.normalize("NFKD", text) if not unicodedata.combining(c))
     text = re.sub(r"['’`\-]", "", text)  # E-Mail == Email, geht's == gehts
     text = re.sub(r"[^\w\s]", " ", text)
@@ -224,6 +226,36 @@ def _lowercase_noun(answer: str, expected: str) -> bool:
     return False
 
 
+def _all_caps(text: str) -> bool:
+    """At least one capital and no lower-case letter (DARES DP2b; OLR's letters: lower case a-z ä ö ü é,
+    capitals A-Z Ä Ö Ü ẞ É; ß and everything else count as neither)."""
+    upper = False
+    for c in text:
+        if "a" <= c <= "z" or c in "äöüé":
+            return False
+        upper |= "A" <= c <= "Z" or c in "ÄÖÜẞÉ"
+    return upper
+
+
+def capital_slip(answer: str, forms, first_lower: bool = True) -> bool:
+    """An answer right but for capitals: its capitals match none of the forms, each also with a capital first
+    letter (and, with first_lower, a small one). ALL CAPS is not a slip. The same rule as de-tutor's key."""
+    variants = set()
+    for f in forms:
+        variants |= {f, f[:1].upper() + f[1:]}
+        if first_lower:
+            variants.add(f[:1].lower() + f[1:])
+    exact = normalize(answer, keep_case=True) in {normalize(v, keep_case=True) for v in variants}
+    return not exact and not _all_caps(unicodedata.normalize("NFC", answer or ""))
+
+
+def capital_message(answer: str, cand: str) -> str:
+    """Only nouns typed small: the noun rule. Other capitals wrong (DIE Brücke, CAFé): check the capitals."""
+    if _lowercase_noun(answer, cand) and not any(c.isupper() for c in answer.strip()[1:]):
+        return f"Nouns start with a capital letter in German: {cand}."
+    return f"Check the capitals: {cand}."
+
+
 def check_german(answer: str, word, real: frozenset[str] = frozenset()) -> Check:
     given = normalize(answer)
     if not given:
@@ -231,8 +263,8 @@ def check_german(answer: str, word, real: frozenset[str] = frozenset()) -> Check
     candidates = [word.de, *word.de_alt]
     if given in {normalize(c) for c in candidates}:
         cand = next(c for c in candidates if normalize(c) == given)
-        if _lowercase_noun(answer, cand):
-            return Check(ALMOST, f"Nouns start with a capital letter in German: {cand}.")
+        if capital_slip(answer, candidates):
+            return Check(ALMOST, capital_message(answer, cand))
         return Check(CORRECT)
 
     given_article, given_rest = _split_article(given)

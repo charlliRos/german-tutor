@@ -2,6 +2,7 @@
 import tempfile
 import unittest
 from datetime import date, timedelta
+from types import SimpleNamespace
 from unittest import mock
 
 from app import attempts, srs, warmup
@@ -44,6 +45,21 @@ class Capitals(unittest.TestCase):
         self.assertIn("capital", check.message)
         self.assertEqual(check_german("der Hund", self.hund).outcome, CORRECT)
         self.assertEqual(check_german("DER HUND", self.hund).outcome, CORRECT)
+
+    def test_a_synonym_is_judged_on_capitals_too(self):
+        """As de-tutor's key: another word's German counts, written as it is, with a capital first letter, or
+        ALL CAPS; other capitals are a slip."""
+        handy = Word("n2", "daily", "das Handy", ["mobile phone"], "noun")
+        mobil = Word("n3", "daily", "das Mobiltelefon", ["mobile phone"], "noun")
+        ctx = SimpleNamespace(content=SimpleNamespace(words={"n2": handy, "n3": mobil}))
+
+        def check(typed):
+            return warmup._synonym_check(ctx, typed, handy, check_german(typed, handy))
+
+        for typed in ("das Mobiltelefon", "Das Mobiltelefon", "DAS MOBILTELEFON"):
+            self.assertEqual(check(typed).outcome, CORRECT, typed)
+        for typed in ("das mobiltelefon", "das MobilTelefon"):
+            self.assertEqual(check(typed).outcome, ALMOST, typed)
 
 
 class LeechInTheWarmup(unittest.TestCase):

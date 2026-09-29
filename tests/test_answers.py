@@ -35,6 +35,42 @@ class GermanAnswers(unittest.TestCase):
         self.assertEqual(check_german("das Mobiltelefon", handy).outcome, CORRECT)
         self.assertEqual(check_german("", handy).outcome, WRONG)
 
+    def test_partly_capitals_is_a_capital_slip(self):
+        """As de-tutor / DARES text_tolerant/1: capitals only on some letters are almost."""
+        for typed in ("DIE Brücke", "die BRÜCKE", "DiE Brücke", "DIE BRüCKE"):
+            with self.subTest(typed):
+                check = check_german(typed, self.bruecke)
+                self.assertEqual(check.outcome, ALMOST)
+                self.assertEqual(check.message, "Check the capitals: die Brücke.")
+
+    def test_all_caps_first_capital_and_small_noun(self):
+        self.assertEqual(check_german("DIE BRÜCKE", self.bruecke).outcome, CORRECT)
+        self.assertEqual(check_german("Die Brücke", self.bruecke).outcome, CORRECT)  # the first word may be capital
+        small = check_german("die brücke", self.bruecke)
+        self.assertEqual((small.outcome, small.message), (ALMOST, "Nouns start with a capital letter in German: die Brücke."))
+
+    def test_e_acute_is_a_small_letter(self):
+        """é is lower case, so CAFé is not all capitals; É is a capital."""
+        cafe = word("Café", ["café"], pos="other")
+        self.assertEqual(check_german("CAFé", cafe).outcome, ALMOST)
+        self.assertEqual(check_german("CAFÉ", cafe).outcome, CORRECT)
+        self.assertEqual(check_german("CAFE", cafe).outcome, CORRECT)
+        noun = word("das Café", ["café"])
+        self.assertEqual(check_german("DAS CAFé", noun).outcome, ALMOST)
+        self.assertEqual(check_german("DAS CAFÉ", noun).outcome, CORRECT)
+
+    def test_capitals_on_small_words_and_sharp_s(self):
+        gehen = word("gehen", ["to go"], pos="verb")
+        self.assertEqual(check_german("Gehen", gehen).outcome, CORRECT)
+        self.assertEqual(check_german("gEHEN", gehen).outcome, ALMOST)
+        strasse = word("die Straße", ["street"])
+        for typed in ("DIE STRAßE", "DIE STRASSE", "die Strasse", "Die Straße"):
+            self.assertEqual(check_german(typed, strasse).outcome, CORRECT, typed)
+        self.assertEqual(check_german("die STRASSE", strasse).outcome, ALMOST)
+        wie = word("Wie geht's?", ["how are you"], pos="phrase")
+        self.assertEqual(check_german("wie gehts", wie).outcome, CORRECT)
+        self.assertEqual(check_german("Wie Geht's?", wie).outcome, ALMOST)
+
     def test_short_words_are_not_typos(self):
         haus = word("das Haus", ["house"])
         self.assertEqual(check_german("das Maus", haus).outcome, WRONG)

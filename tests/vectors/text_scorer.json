@@ -1,6 +1,6 @@
 {
   "_about": "Test vectors for the typed-answer scorer (docs/TEXT_SCORER_SPEC.md). Each case: the item, what was typed, the verdict. 'scorer' german = the learner types German (check_german), english = the learner types English (check_english). 'bank' = other words the scorer knows, for telling a typo from a different word. 'overridable' false = the learner may not claim 'my answer was right too'. 'other_word' true = wrong because it is another real word. Run by tests/test_text_scorer_vectors.py.",
-  "version": 3,
+  "version": 4,
   "cases": [
     {
       "id": "de-exact",
@@ -181,9 +181,9 @@
         ],
         "pos": "noun"
       },
-      "submitted": "die Email",
+      "submitted": "die EMail",
       "verdict": "correct",
-      "why": "hyphens and apostrophes are dropped"
+      "why": "hyphens and apostrophes are dropped (die Email differs in capitals too: see de-email-small-m)"
     },
     {
       "id": "de-empty",
@@ -726,6 +726,90 @@
       "submitted": "lately",
       "verdict": "wrong",
       "why": "lately is another word, not late"
+    },
+    {
+      "id": "de-email-small-m",
+      "scorer": "german",
+      "word": {
+        "de": "die E-Mail",
+        "en": [
+          "email"
+        ],
+        "pos": "noun"
+      },
+      "submitted": "die Email",
+      "verdict": "almost",
+      "why": "the hyphen is dropped, but the M is a capital: a capital slip, as in DARES text_tolerant/1"
+    },
+    {
+      "id": "de-partly-capitals",
+      "scorer": "german",
+      "word": {
+        "de": "die Brücke",
+        "en": [
+          "bridge"
+        ],
+        "pos": "noun"
+      },
+      "submitted": "DIE Brücke",
+      "verdict": "almost",
+      "why": "capitals on some letters only: a capital slip (only ALL CAPS gets full credit)"
+    },
+    {
+      "id": "de-all-caps",
+      "scorer": "german",
+      "word": {
+        "de": "die Brücke",
+        "en": [
+          "bridge"
+        ],
+        "pos": "noun"
+      },
+      "submitted": "DIE BRÜCKE",
+      "verdict": "correct",
+      "why": "written ALL IN CAPITALS: full credit (DARES DP2b)"
+    },
+    {
+      "id": "de-first-word-capital",
+      "scorer": "german",
+      "word": {
+        "de": "die Brücke",
+        "en": [
+          "bridge"
+        ],
+        "pos": "noun"
+      },
+      "submitted": "Die Brücke",
+      "verdict": "correct",
+      "why": "the first word may take a capital"
+    },
+    {
+      "id": "de-caps-with-small-e-acute",
+      "scorer": "german",
+      "word": {
+        "de": "das Café",
+        "en": [
+          "café"
+        ],
+        "pos": "noun"
+      },
+      "submitted": "DAS CAFé",
+      "verdict": "almost",
+      "why": "é is a small letter, so this is not all capitals"
+    },
+    {
+      "id": "de-all-caps-e-acute",
+      "scorer": "german",
+      "word": {
+        "de": "das Café",
+        "en": [
+          "café"
+        ],
+        "pos": "noun"
+      },
+      "submitted": "DAS CAFÉ",
+      "verdict": "correct",
+      "why": "É is a capital: ALL CAPS, full credit"
     }
   ]
 }
