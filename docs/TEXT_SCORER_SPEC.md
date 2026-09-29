@@ -110,7 +110,9 @@ nouns: without its article) is in `real`, the verdict is `wrong` with the messag
 These are stated limits, not bugs:
 
 - **Capitals are judged only on otherwise-correct German answers**, and never on the first word. A
-  misspelled answer is judged by its spelling first.
+  misspelled answer is judged by its spelling first. An answer written ALL IN CAPITALS gets full credit, as
+  DARES's text_tolerant/1 does since DP2b (owner's ruling); here it always did, since only a lower-case noun
+  is flagged.
 - **Meanings the item doesn't list are wrong.** In the app, a German synonym from the word bank is caught by a
   separate step (`warmup._synonym_check`), and the learner can claim "my answer was right too". Both are
   recorded next to the machine verdict, never instead of it.
